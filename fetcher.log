@@ -931,3 +931,45 @@
 [2024-05-27 01:24:34] INFO root fetch - processPackages [flake8-to-ruff]: Remove: archive file [/home/abi/fetcher/tmp/flake8_to_ruff-0.0.99_dev.0.tar.gz]
 [2024-05-27 01:24:34] INFO root fetch - main [MainThread]: End processing [flake8-to-ruff]: success
 [2024-05-27 01:24:34] INFO root fetch - main [MainThread]: Store serial: [23388660]
+[2024-05-27 01:26:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23388660]
+[2024-05-27 01:26:42] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-27 01:26:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aioreqs
+[2024-05-27 01:26:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: quest-decoding
+[2024-05-27 01:26:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: FIT-Testcase-Sender
+[2024-05-27 01:26:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: streamlit-p5
+[2024-05-27 01:26:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-kubernetes-the-hard-way
+[2024-05-27 01:26:42] INFO root fetch - processPackages [quest-decoding]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-05-27 01:26:42] INFO root fetch - processPackages [streamlit-p5]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-27 01:26:42] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: New version: [0.0.27a1716702262] Old Version: [0.0.27]
+[2024-05-27 01:26:42] INFO root fetch - processPackages [aioreqs]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-05-27 01:26:42] WARNING root fetch - processPackages [FIT-Testcase-Sender]: Skipping, unable to determine old version
+[2024-05-27 01:26:42] INFO root fetch - main [MainThread]: End processing [FIT-Testcase-Sender] error
+[2024-05-27 01:26:42] INFO root fetch - processPackages [quest-decoding]: Downloading https://files.pythonhosted.org/packages/48/90/917289ebcb3054c6a80a31dbf3f62f0869c243874077226699ac8e79f3cb/quest-decoding-1.0.3.tar.gz
+[2024-05-27 01:26:42] INFO root fetch - processPackages [streamlit-p5]: Downloading https://files.pythonhosted.org/packages/37/0a/fe5ee0428cc7a6d56a6c8335dfe6b9226274c60d0aff86d1dd5e9f1a8f49/streamlit_p5-0.0.1.tar.gz
+[2024-05-27 01:26:42] INFO root fetch - processPackages [aioreqs]: Downloading https://files.pythonhosted.org/packages/b3/a1/41e98d4fbf8e1661ade6fe7c74553ef655d2a8409d1e9d42b9265fbefcc1/aioreqs-1.0.3.tar.gz
+[2024-05-27 01:26:42] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Downloading https://files.pythonhosted.org/packages/a9/f2/e321784c3601a89d87ff8b554f46979a9bbd47e08ab8e8090273a198f2bf/pulumi_kubernetes_the_hard_way-0.0.27.tar.gz
+[2024-05-27 01:26:42] INFO root fetch - processPackages [streamlit-p5]: Downloading https://files.pythonhosted.org/packages/c4/5b/a50adad3fcfd5234eb3de91c77e09b50460ce646f5209fe9d12be54763f6/streamlit_p5-0.0.2.tar.gz
+[2024-05-27 01:26:42] INFO root fetch - processPackages [quest-decoding]: Downloading https://files.pythonhosted.org/packages/de/2f/8ae292e3413a8bd7026a34b13f31cbfa4815fc7c3abc49a7de8788b7835e/quest-decoding-1.0.4.tar.gz
+[2024-05-27 01:26:42] INFO root fetch - processPackages [aioreqs]: Downloading https://files.pythonhosted.org/packages/63/d8/9d91281959bb3040146b3bb53ef23297105df2d5588a04a9c78cb9c10c17/aioreqs-1.0.4.tar.gz
+[2024-05-27 01:26:43] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Downloading https://files.pythonhosted.org/packages/bf/c8/092fe83d6faa11c22c0380ffa7995571ffa15aced9703bf4049c53d58b17/pulumi_kubernetes_the_hard_way-0.0.27a1716702262.tar.gz
+[2024-05-27 01:26:43] INFO root fetch - processPackages [aioreqs]: executing diffoscope
+[2024-05-27 01:26:43] INFO root fetch - processPackages [aioreqs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aioreqs-1.0.3.tar.gz tmp/aioreqs-1.0.4.tar.gz --markdown 20240527/a/aioreqs/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-05-27 01:26:43] INFO root fetch - processPackages [quest-decoding]: executing diffoscope
+[2024-05-27 01:26:43] INFO root fetch - processPackages [quest-decoding]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quest-decoding-1.0.3.tar.gz tmp/quest-decoding-1.0.4.tar.gz --markdown 20240527/q/quest-decoding/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-05-27 01:26:43] INFO root fetch - processPackages [streamlit-p5]: executing diffoscope
+[2024-05-27 01:26:43] INFO root fetch - processPackages [streamlit-p5]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit_p5-0.0.1.tar.gz tmp/streamlit_p5-0.0.2.tar.gz --markdown 20240527/s/streamlit-p5/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-27 01:26:43] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: executing diffoscope
+[2024-05-27 01:26:43] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_kubernetes_the_hard_way-0.0.27.tar.gz tmp/pulumi_kubernetes_the_hard_way-0.0.27a1716702262.tar.gz --markdown 20240527/p/pulumi-kubernetes-the-hard-way/0.0.27-0.0.27a1716702262/README.md --exclude *.pyd
+[2024-05-27 01:26:43] INFO root fetch - processPackages [aioreqs]: Remove: archive file [/home/abi/fetcher/tmp/aioreqs-1.0.3.tar.gz]
+[2024-05-27 01:26:43] INFO root fetch - processPackages [aioreqs]: Remove: archive file [/home/abi/fetcher/tmp/aioreqs-1.0.4.tar.gz]
+[2024-05-27 01:26:43] INFO root fetch - main [MainThread]: End processing [aioreqs]: success
+[2024-05-27 01:26:43] INFO root fetch - processPackages [quest-decoding]: Remove: archive file [/home/abi/fetcher/tmp/quest-decoding-1.0.3.tar.gz]
+[2024-05-27 01:26:43] INFO root fetch - processPackages [quest-decoding]: Remove: archive file [/home/abi/fetcher/tmp/quest-decoding-1.0.4.tar.gz]
+[2024-05-27 01:26:43] INFO root fetch - main [MainThread]: End processing [quest-decoding]: success
+[2024-05-27 01:26:43] INFO root fetch - processPackages [streamlit-p5]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_p5-0.0.1.tar.gz]
+[2024-05-27 01:26:43] INFO root fetch - processPackages [streamlit-p5]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_p5-0.0.2.tar.gz]
+[2024-05-27 01:26:43] INFO root fetch - main [MainThread]: End processing [streamlit-p5]: success
+[2024-05-27 01:26:43] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes_the_hard_way-0.0.27.tar.gz]
+[2024-05-27 01:26:43] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes_the_hard_way-0.0.27a1716702262.tar.gz]
+[2024-05-27 01:26:43] INFO root fetch - main [MainThread]: End processing [pulumi-kubernetes-the-hard-way]: success
+[2024-05-27 01:26:43] INFO root fetch - main [MainThread]: Store serial: [23388683]
