@@ -1164,3 +1164,45 @@
 [2024-05-27 01:39:52] INFO root fetch - processPackages [eras]: Remove: archive file [/home/abi/fetcher/tmp/eras-0.4.6.tar.gz]
 [2024-05-27 01:39:52] INFO root fetch - main [MainThread]: End processing [eras]: success
 [2024-05-27 01:39:52] INFO root fetch - main [MainThread]: Store serial: [23388766]
+[2024-05-27 01:41:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23388766]
+[2024-05-27 01:42:02] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-27 01:42:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: quest-decoding
+[2024-05-27 01:42:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: naturalexperiments
+[2024-05-27 01:42:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rxd
+[2024-05-27 01:42:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sigcalc
+[2024-05-27 01:42:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: eras
+[2024-05-27 01:42:02] INFO root fetch - processPackages [rxd]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-27 01:42:02] INFO root fetch - processPackages [quest-decoding]: New version: [1.0.7] Old Version: [1.0.6]
+[2024-05-27 01:42:02] INFO root fetch - processPackages [naturalexperiments]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-27 01:42:02] INFO root fetch - processPackages [eras]: New version: [0.4.7] Old Version: [0.4.6]
+[2024-05-27 01:42:02] INFO root fetch - processPackages [rxd]: Downloading https://files.pythonhosted.org/packages/ea/c7/3afeb3c964769de9641903bfb849439524b3ca30403823934a27d8fecf0b/rxd-0.0.2.tar.gz
+[2024-05-27 01:42:02] INFO root fetch - processPackages [quest-decoding]: Downloading https://files.pythonhosted.org/packages/be/6d/485e5966514ceb1322fda0a0872bc3cfc88e0ea90c4f7d63a78d310c4521/quest-decoding-1.0.6.tar.gz
+[2024-05-27 01:42:02] WARNING root fetch - processPackages [sigcalc]: Skipping, unable to determine old version
+[2024-05-27 01:42:02] INFO root fetch - main [MainThread]: End processing [sigcalc] error
+[2024-05-27 01:42:02] INFO root fetch - processPackages [naturalexperiments]: Downloading https://files.pythonhosted.org/packages/81/7e/54c3d552cf1967242ad78b9fc56780aca8e8aef35dcf8f4e75ef40397435/naturalexperiments-0.1.3.tar.gz
+[2024-05-27 01:42:02] INFO root fetch - processPackages [eras]: Downloading https://files.pythonhosted.org/packages/32/05/1f4bfd653450d52c027e1db4b9414b3a46923ccb8019fc00d97ffab9ea24/eras-0.4.6.tar.gz
+[2024-05-27 01:42:02] INFO root fetch - processPackages [rxd]: Downloading https://files.pythonhosted.org/packages/cd/68/9ff1ada3a89711c0235bfeb43ed1b3df5cdf7e7b6e9aa6f1093caa34e678/rxd-0.0.3.tar.gz
+[2024-05-27 01:42:02] INFO root fetch - processPackages [naturalexperiments]: Downloading https://files.pythonhosted.org/packages/10/30/e81c30f68a76c1cbcbf37646a3823eb6e87a9b05612968ef8d4ae029d1a5/naturalexperiments-0.1.4.tar.gz
+[2024-05-27 01:42:02] INFO root fetch - processPackages [rxd]: executing diffoscope
+[2024-05-27 01:42:02] INFO root fetch - processPackages [rxd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rxd-0.0.2.tar.gz tmp/rxd-0.0.3.tar.gz --markdown 20240527/r/rxd/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-27 01:42:02] INFO root fetch - processPackages [eras]: Downloading https://files.pythonhosted.org/packages/82/e1/5438db8ccb650a5f3a74d4385d355f5b1f5f2398e348a139f13425ed82f2/eras-0.4.7.tar.gz
+[2024-05-27 01:42:02] INFO root fetch - processPackages [naturalexperiments]: executing diffoscope
+[2024-05-27 01:42:02] INFO root fetch - processPackages [naturalexperiments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naturalexperiments-0.1.3.tar.gz tmp/naturalexperiments-0.1.4.tar.gz --markdown 20240527/n/naturalexperiments/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-27 01:42:02] INFO root fetch - processPackages [quest-decoding]: Downloading https://files.pythonhosted.org/packages/85/b5/65e4deeff556308c61744aa71a1c83f019cd969b70d5b2f8760272996b49/quest-decoding-1.0.7.tar.gz
+[2024-05-27 01:42:02] INFO root fetch - processPackages [eras]: executing diffoscope
+[2024-05-27 01:42:02] INFO root fetch - processPackages [eras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eras-0.4.6.tar.gz tmp/eras-0.4.7.tar.gz --markdown 20240527/e/eras/0.4.6-0.4.7/README.md --exclude *.pyd
+[2024-05-27 01:42:02] INFO root fetch - processPackages [quest-decoding]: executing diffoscope
+[2024-05-27 01:42:02] INFO root fetch - processPackages [quest-decoding]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quest-decoding-1.0.6.tar.gz tmp/quest-decoding-1.0.7.tar.gz --markdown 20240527/q/quest-decoding/1.0.6-1.0.7/README.md --exclude *.pyd
+[2024-05-27 01:42:03] INFO root fetch - processPackages [rxd]: Remove: archive file [/home/abi/fetcher/tmp/rxd-0.0.2.tar.gz]
+[2024-05-27 01:42:03] INFO root fetch - processPackages [rxd]: Remove: archive file [/home/abi/fetcher/tmp/rxd-0.0.3.tar.gz]
+[2024-05-27 01:42:03] INFO root fetch - main [MainThread]: End processing [rxd]: success
+[2024-05-27 01:42:03] INFO root fetch - processPackages [naturalexperiments]: Remove: archive file [/home/abi/fetcher/tmp/naturalexperiments-0.1.3.tar.gz]
+[2024-05-27 01:42:03] INFO root fetch - processPackages [naturalexperiments]: Remove: archive file [/home/abi/fetcher/tmp/naturalexperiments-0.1.4.tar.gz]
+[2024-05-27 01:42:03] INFO root fetch - main [MainThread]: End processing [naturalexperiments]: success
+[2024-05-27 01:42:03] INFO root fetch - processPackages [quest-decoding]: Remove: archive file [/home/abi/fetcher/tmp/quest-decoding-1.0.6.tar.gz]
+[2024-05-27 01:42:03] INFO root fetch - processPackages [quest-decoding]: Remove: archive file [/home/abi/fetcher/tmp/quest-decoding-1.0.7.tar.gz]
+[2024-05-27 01:42:03] INFO root fetch - main [MainThread]: End processing [quest-decoding]: success
+[2024-05-27 01:42:03] INFO root fetch - processPackages [eras]: Remove: archive file [/home/abi/fetcher/tmp/eras-0.4.6.tar.gz]
+[2024-05-27 01:42:03] INFO root fetch - processPackages [eras]: Remove: archive file [/home/abi/fetcher/tmp/eras-0.4.7.tar.gz]
+[2024-05-27 01:42:03] INFO root fetch - main [MainThread]: End processing [eras]: success
+[2024-05-27 01:42:03] INFO root fetch - main [MainThread]: Store serial: [23388782]
