@@ -829,3 +829,33 @@
 [2024-05-27 01:15:51] INFO root fetch - processPackages [baml-py]: Remove: archive file [/home/abi/fetcher/tmp/baml_py-0.1.9-cp38-abi3-win_amd64.whl.zip]
 [2024-05-27 01:15:51] INFO root fetch - main [MainThread]: End processing [baml-py]: success
 [2024-05-27 01:15:51] INFO root fetch - main [MainThread]: Store serial: [23388621]
+[2024-05-27 01:17:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23388621]
+[2024-05-27 01:17:59] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-27 01:17:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: grafana_dashboard_manager
+[2024-05-27 01:17:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: MusicSeparationYT
+[2024-05-27 01:17:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: geofileops
+[2024-05-27 01:18:00] INFO root fetch - processPackages [geofileops]: New version: [0.9.0] Old Version: [0.8.2]
+[2024-05-27 01:18:00] INFO root fetch - processPackages [geofileops]: Downloading https://files.pythonhosted.org/packages/60/5c/638604b73403049a8f16d7087c7d8671110b4dbd899cab0f26171b69c1b9/geofileops-0.8.2.tar.gz
+[2024-05-27 01:18:00] INFO root fetch - processPackages [MusicSeparationYT]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-27 01:18:00] INFO root fetch - processPackages [grafana_dashboard_manager]: New version: [0.2.9.92468794901] Old Version: [0.2.8.85601276621]
+[2024-05-27 01:18:00] INFO root fetch - processPackages [MusicSeparationYT]: Downloading https://files.pythonhosted.org/packages/98/d1/b495f716164229d4e408c65583896e18934343b6313746dca6f6ee1426b6/musicseparationyt-1.0.1.tar.gz
+[2024-05-27 01:18:00] INFO root fetch - processPackages [grafana_dashboard_manager]: Downloading https://files.pythonhosted.org/packages/a8/1f/f389e156803662b2b42e2bf23fdb39b8356e6da388237cde19badb45a5ae/grafana_dashboard_manager-0.2.8.85601276621.tar.gz
+[2024-05-27 01:18:00] INFO root fetch - processPackages [geofileops]: Downloading https://files.pythonhosted.org/packages/1c/ce/02e64848e2fdcc5240db915fc3aea12740c929d9662d80020c54758d973c/geofileops-0.9.0.tar.gz
+[2024-05-27 01:18:00] INFO root fetch - processPackages [MusicSeparationYT]: Downloading https://files.pythonhosted.org/packages/ef/ea/641ad409a828d3cb14d28d43ca480d3a0f513533c5f1ba4a48b4dcc70ca6/musicseparationyt-1.0.2.tar.gz
+[2024-05-27 01:18:00] INFO root fetch - processPackages [grafana_dashboard_manager]: Downloading https://files.pythonhosted.org/packages/dd/cc/fe7da0411b44b12530e263a85fbda585c8299665b9d6312b8db07dd6bb06/grafana_dashboard_manager-0.2.9.92468794901.tar.gz
+[2024-05-27 01:18:00] INFO root fetch - processPackages [MusicSeparationYT]: executing diffoscope
+[2024-05-27 01:18:00] INFO root fetch - processPackages [MusicSeparationYT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/musicseparationyt-1.0.1.tar.gz tmp/musicseparationyt-1.0.2.tar.gz --markdown 20240527/M/MusicSeparationYT/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-27 01:18:00] INFO root fetch - processPackages [grafana_dashboard_manager]: executing diffoscope
+[2024-05-27 01:18:00] INFO root fetch - processPackages [grafana_dashboard_manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grafana_dashboard_manager-0.2.8.85601276621.tar.gz tmp/grafana_dashboard_manager-0.2.9.92468794901.tar.gz --markdown 20240527/g/grafana_dashboard_manager/0.2.8.85601276621-0.2.9.92468794901/README.md --exclude *.pyd
+[2024-05-27 01:18:00] INFO root fetch - processPackages [geofileops]: executing diffoscope
+[2024-05-27 01:18:00] INFO root fetch - processPackages [geofileops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geofileops-0.8.2.tar.gz tmp/geofileops-0.9.0.tar.gz --markdown 20240527/g/geofileops/0.8.2-0.9.0/README.md --exclude *.pyd
+[2024-05-27 01:18:01] INFO root fetch - processPackages [MusicSeparationYT]: Remove: archive file [/home/abi/fetcher/tmp/musicseparationyt-1.0.1.tar.gz]
+[2024-05-27 01:18:01] INFO root fetch - processPackages [MusicSeparationYT]: Remove: archive file [/home/abi/fetcher/tmp/musicseparationyt-1.0.2.tar.gz]
+[2024-05-27 01:18:01] INFO root fetch - main [MainThread]: End processing [MusicSeparationYT]: success
+[2024-05-27 01:18:01] INFO root fetch - processPackages [grafana_dashboard_manager]: Remove: archive file [/home/abi/fetcher/tmp/grafana_dashboard_manager-0.2.8.85601276621.tar.gz]
+[2024-05-27 01:18:01] INFO root fetch - processPackages [grafana_dashboard_manager]: Remove: archive file [/home/abi/fetcher/tmp/grafana_dashboard_manager-0.2.9.92468794901.tar.gz]
+[2024-05-27 01:18:01] INFO root fetch - main [MainThread]: End processing [grafana_dashboard_manager]: success
+[2024-05-27 01:18:01] INFO root fetch - processPackages [geofileops]: Remove: archive file [/home/abi/fetcher/tmp/geofileops-0.8.2.tar.gz]
+[2024-05-27 01:18:01] INFO root fetch - processPackages [geofileops]: Remove: archive file [/home/abi/fetcher/tmp/geofileops-0.9.0.tar.gz]
+[2024-05-27 01:18:01] INFO root fetch - main [MainThread]: End processing [geofileops]: success
+[2024-05-27 01:18:01] INFO root fetch - main [MainThread]: Store serial: [23388630]
