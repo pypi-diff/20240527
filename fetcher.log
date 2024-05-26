@@ -871,3 +871,42 @@
 [2024-05-27 01:20:13] INFO root fetch - processPackages [silero-tts]: Remove: archive file [/home/abi/fetcher/tmp/silero_tts-0.0.2.tar.gz]
 [2024-05-27 01:20:13] INFO root fetch - main [MainThread]: End processing [silero-tts]: success
 [2024-05-27 01:20:13] INFO root fetch - main [MainThread]: Store serial: [23388633]
+[2024-05-27 01:22:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23388633]
+[2024-05-27 01:22:22] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-27 01:22:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: grafana_dashboard_manager
+[2024-05-27 01:22:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: MusicSeparationYT
+[2024-05-27 01:22:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: quest-decoding
+[2024-05-27 01:22:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aioreqs
+[2024-05-27 01:22:22] INFO root fetch - processPackages [grafana_dashboard_manager]: New version: [0.2.9.92468794901] Old Version: [0.2.8.85601276621]
+[2024-05-27 01:22:22] INFO root fetch - processPackages [quest-decoding]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-27 01:22:22] INFO root fetch - processPackages [MusicSeparationYT]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-27 01:22:22] INFO root fetch - processPackages [aioreqs]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-27 01:22:22] INFO root fetch - processPackages [grafana_dashboard_manager]: Downloading https://files.pythonhosted.org/packages/a8/1f/f389e156803662b2b42e2bf23fdb39b8356e6da388237cde19badb45a5ae/grafana_dashboard_manager-0.2.8.85601276621.tar.gz
+[2024-05-27 01:22:22] INFO root fetch - processPackages [quest-decoding]: Downloading https://files.pythonhosted.org/packages/a8/38/5498bb7e16821a0db0d02306b340a5c05b6c37d281713c4b875a14c208c7/quest-decoding-1.0.1.tar.gz
+[2024-05-27 01:22:22] INFO root fetch - processPackages [MusicSeparationYT]: Downloading https://files.pythonhosted.org/packages/98/d1/b495f716164229d4e408c65583896e18934343b6313746dca6f6ee1426b6/musicseparationyt-1.0.1.tar.gz
+[2024-05-27 01:22:22] INFO root fetch - processPackages [aioreqs]: Downloading https://files.pythonhosted.org/packages/e8/64/5affa89ed2d10dfed4b8656d445686742dd1a785205f20b1ad4c26c4f0f5/aioreqs-1.0.2.tar.gz
+[2024-05-27 01:22:22] INFO root fetch - processPackages [MusicSeparationYT]: Downloading https://files.pythonhosted.org/packages/ef/ea/641ad409a828d3cb14d28d43ca480d3a0f513533c5f1ba4a48b4dcc70ca6/musicseparationyt-1.0.2.tar.gz
+[2024-05-27 01:22:22] INFO root fetch - processPackages [grafana_dashboard_manager]: Downloading https://files.pythonhosted.org/packages/dd/cc/fe7da0411b44b12530e263a85fbda585c8299665b9d6312b8db07dd6bb06/grafana_dashboard_manager-0.2.9.92468794901.tar.gz
+[2024-05-27 01:22:22] INFO root fetch - processPackages [MusicSeparationYT]: executing diffoscope
+[2024-05-27 01:22:22] INFO root fetch - processPackages [MusicSeparationYT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/musicseparationyt-1.0.1.tar.gz tmp/musicseparationyt-1.0.2.tar.gz --markdown 20240527/M/MusicSeparationYT/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-27 01:22:22] INFO root fetch - processPackages [grafana_dashboard_manager]: executing diffoscope
+[2024-05-27 01:22:22] INFO root fetch - processPackages [grafana_dashboard_manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grafana_dashboard_manager-0.2.8.85601276621.tar.gz tmp/grafana_dashboard_manager-0.2.9.92468794901.tar.gz --markdown 20240527/g/grafana_dashboard_manager/0.2.8.85601276621-0.2.9.92468794901/README.md --exclude *.pyd
+[2024-05-27 01:22:22] INFO root fetch - processPackages [quest-decoding]: Downloading https://files.pythonhosted.org/packages/56/9f/ebac4ff3e572804c03749d33e9a24cd26bad2eea1cafe7007c6d64171357/quest-decoding-1.0.2.tar.gz
+[2024-05-27 01:22:22] INFO root fetch - processPackages [aioreqs]: Downloading https://files.pythonhosted.org/packages/b3/a1/41e98d4fbf8e1661ade6fe7c74553ef655d2a8409d1e9d42b9265fbefcc1/aioreqs-1.0.3.tar.gz
+[2024-05-27 01:22:22] INFO root fetch - processPackages [quest-decoding]: executing diffoscope
+[2024-05-27 01:22:22] INFO root fetch - processPackages [quest-decoding]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quest-decoding-1.0.1.tar.gz tmp/quest-decoding-1.0.2.tar.gz --markdown 20240527/q/quest-decoding/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-27 01:22:22] INFO root fetch - processPackages [aioreqs]: executing diffoscope
+[2024-05-27 01:22:22] INFO root fetch - processPackages [aioreqs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aioreqs-1.0.2.tar.gz tmp/aioreqs-1.0.3.tar.gz --markdown 20240527/a/aioreqs/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-05-27 01:22:23] INFO root fetch - processPackages [grafana_dashboard_manager]: Remove: archive file [/home/abi/fetcher/tmp/grafana_dashboard_manager-0.2.8.85601276621.tar.gz]
+[2024-05-27 01:22:23] INFO root fetch - processPackages [grafana_dashboard_manager]: Remove: archive file [/home/abi/fetcher/tmp/grafana_dashboard_manager-0.2.9.92468794901.tar.gz]
+[2024-05-27 01:22:23] INFO root fetch - main [MainThread]: End processing [grafana_dashboard_manager]: success
+[2024-05-27 01:22:23] INFO root fetch - processPackages [MusicSeparationYT]: Remove: archive file [/home/abi/fetcher/tmp/musicseparationyt-1.0.1.tar.gz]
+[2024-05-27 01:22:23] INFO root fetch - processPackages [MusicSeparationYT]: Remove: archive file [/home/abi/fetcher/tmp/musicseparationyt-1.0.2.tar.gz]
+[2024-05-27 01:22:23] INFO root fetch - main [MainThread]: End processing [MusicSeparationYT]: success
+[2024-05-27 01:22:23] INFO root fetch - processPackages [quest-decoding]: Remove: archive file [/home/abi/fetcher/tmp/quest-decoding-1.0.1.tar.gz]
+[2024-05-27 01:22:23] INFO root fetch - processPackages [quest-decoding]: Remove: archive file [/home/abi/fetcher/tmp/quest-decoding-1.0.2.tar.gz]
+[2024-05-27 01:22:23] INFO root fetch - main [MainThread]: End processing [quest-decoding]: success
+[2024-05-27 01:22:23] INFO root fetch - processPackages [aioreqs]: Remove: archive file [/home/abi/fetcher/tmp/aioreqs-1.0.2.tar.gz]
+[2024-05-27 01:22:23] INFO root fetch - processPackages [aioreqs]: Remove: archive file [/home/abi/fetcher/tmp/aioreqs-1.0.3.tar.gz]
+[2024-05-27 01:22:23] INFO root fetch - main [MainThread]: End processing [aioreqs]: success
+[2024-05-27 01:22:23] INFO root fetch - main [MainThread]: Store serial: [23388648]
