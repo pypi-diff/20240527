@@ -1006,3 +1006,56 @@
 [2024-05-27 01:31:03] INFO root fetch - processPackages [ofscraper]: Remove: archive file [/home/abi/fetcher/tmp/ofscraper-3.9.8.tar.gz]
 [2024-05-27 01:31:03] INFO root fetch - main [MainThread]: End processing [ofscraper]: success
 [2024-05-27 01:31:03] INFO root fetch - main [MainThread]: Store serial: [23388692]
+[2024-05-27 01:33:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23388692]
+[2024-05-27 01:33:11] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-27 01:33:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-kubernetes-the-hard-way
+[2024-05-27 01:33:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bcpandas
+[2024-05-27 01:33:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: adelie
+[2024-05-27 01:33:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: MusicSeparationYT
+[2024-05-27 01:33:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: itables
+[2024-05-27 01:33:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: contact-user-external-local
+[2024-05-27 01:33:12] INFO root fetch - processPackages [MusicSeparationYT]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-27 01:33:12] INFO root fetch - processPackages [adelie]: New version: [1.1.32.dev17] Old Version: [1.1.32.dev15]
+[2024-05-27 01:33:12] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: New version: [0.0.28a1716765099] Old Version: [0.0.27a1716702262]
+[2024-05-27 01:33:12] INFO root fetch - processPackages [MusicSeparationYT]: Downloading https://files.pythonhosted.org/packages/ef/ea/641ad409a828d3cb14d28d43ca480d3a0f513533c5f1ba4a48b4dcc70ca6/musicseparationyt-1.0.2.tar.gz
+[2024-05-27 01:33:12] INFO root fetch - processPackages [bcpandas]: New version: [2.6.2] Old Version: [2.6.1]
+[2024-05-27 01:33:12] INFO root fetch - processPackages [adelie]: Downloading https://files.pythonhosted.org/packages/13/78/4a5a3fa5343712f8bea2404eb2cdcde59e5f53285216bb30ebcd8b04a8f9/adelie-1.1.32.dev15.tar.gz
+[2024-05-27 01:33:12] INFO root fetch - processPackages [contact-user-external-local]: New version: [0.0.7] Old Version: [0.0.5]
+[2024-05-27 01:33:12] INFO root fetch - processPackages [itables]: New version: [2.1.0rc1] Old Version: [2.0.1]
+[2024-05-27 01:33:12] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Downloading https://files.pythonhosted.org/packages/bf/c8/092fe83d6faa11c22c0380ffa7995571ffa15aced9703bf4049c53d58b17/pulumi_kubernetes_the_hard_way-0.0.27a1716702262.tar.gz
+[2024-05-27 01:33:12] INFO root fetch - processPackages [bcpandas]: Downloading https://files.pythonhosted.org/packages/95/b7/380519b6a0a6bb45450c906e3f3b40700329eea4b9afda3f6b5ae92d5763/bcpandas-2.6.1.tar.gz
+[2024-05-27 01:33:12] INFO root fetch - processPackages [contact-user-external-local]: Downloading https://files.pythonhosted.org/packages/e9/81/4187ba12f9488213e780e09112f1b5b06859d8360a6cd0a0934b431d22ca/contact_user_external_local-0.0.5.tar.gz
+[2024-05-27 01:33:12] INFO root fetch - processPackages [itables]: Downloading https://files.pythonhosted.org/packages/a7/70/cacc01bb6895c6a5c6db8f05dbbbea1fbf9355c92d8cdd94c01209f1c832/itables-2.0.1.tar.gz
+[2024-05-27 01:33:12] INFO root fetch - processPackages [MusicSeparationYT]: Downloading https://files.pythonhosted.org/packages/7d/86/156fe93252bed724963f0b25c6450e5e5f6c2484785cf0098836383d8e04/musicseparationyt-1.0.3.tar.gz
+[2024-05-27 01:33:12] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Downloading https://files.pythonhosted.org/packages/4e/73/90337a0dbdacd36ae753601d7d0884c2ee31b43350a814df364f00d39135/pulumi_kubernetes_the_hard_way-0.0.28a1716765099.tar.gz
+[2024-05-27 01:33:12] ERROR root fetch - processPackages [adelie]: Unable to fetch info: No such project/version 'adelie' 1.1.32.dev17
+[2024-05-27 01:33:12] INFO root fetch - main [MainThread]: End processing [adelie] error
+[2024-05-27 01:33:12] INFO root fetch - processPackages [MusicSeparationYT]: executing diffoscope
+[2024-05-27 01:33:12] INFO root fetch - processPackages [MusicSeparationYT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/musicseparationyt-1.0.2.tar.gz tmp/musicseparationyt-1.0.3.tar.gz --markdown 20240527/M/MusicSeparationYT/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-05-27 01:33:12] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: executing diffoscope
+[2024-05-27 01:33:12] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_kubernetes_the_hard_way-0.0.27a1716702262.tar.gz tmp/pulumi_kubernetes_the_hard_way-0.0.28a1716765099.tar.gz --markdown 20240527/p/pulumi-kubernetes-the-hard-way/0.0.27a1716702262-0.0.28a1716765099/README.md --exclude *.pyd
+[2024-05-27 01:33:12] INFO root fetch - processPackages [bcpandas]: Downloading https://files.pythonhosted.org/packages/69/b7/c222960ec099319dbcb519492d7d0a5175ae0e0ef7231e1b89e5c12e18dc/bcpandas-2.6.2.tar.gz
+[2024-05-27 01:33:12] INFO root fetch - processPackages [contact-user-external-local]: Downloading https://files.pythonhosted.org/packages/46/35/a8a17f5cd4f49acc64a5daad4a2bb3ad7286e8f6f6e9c68074e28158722a/contact_user_external_local-0.0.7.tar.gz
+[2024-05-27 01:33:12] INFO root fetch - processPackages [contact-user-external-local]: executing diffoscope
+[2024-05-27 01:33:12] INFO root fetch - processPackages [contact-user-external-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/contact_user_external_local-0.0.5.tar.gz tmp/contact_user_external_local-0.0.7.tar.gz --markdown 20240527/c/contact-user-external-local/0.0.5-0.0.7/README.md --exclude *.pyd
+[2024-05-27 01:33:12] INFO root fetch - processPackages [bcpandas]: executing diffoscope
+[2024-05-27 01:33:12] INFO root fetch - processPackages [bcpandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bcpandas-2.6.1.tar.gz tmp/bcpandas-2.6.2.tar.gz --markdown 20240527/b/bcpandas/2.6.1-2.6.2/README.md --exclude *.pyd
+[2024-05-27 01:33:12] INFO root fetch - processPackages [itables]: Downloading https://files.pythonhosted.org/packages/de/cf/772f93bbd008c1cf2fed7e5dd58c6f4b94d5229c75b6a1633cc2e961dada/itables-2.1.0rc1.tar.gz
+[2024-05-27 01:33:13] INFO root fetch - processPackages [itables]: executing diffoscope
+[2024-05-27 01:33:13] INFO root fetch - processPackages [itables]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/itables-2.0.1.tar.gz tmp/itables-2.1.0rc1.tar.gz --markdown 20240527/i/itables/2.0.1-2.1.0rc1/README.md --exclude *.pyd
+[2024-05-27 01:33:13] INFO root fetch - processPackages [MusicSeparationYT]: Remove: archive file [/home/abi/fetcher/tmp/musicseparationyt-1.0.2.tar.gz]
+[2024-05-27 01:33:13] INFO root fetch - processPackages [MusicSeparationYT]: Remove: archive file [/home/abi/fetcher/tmp/musicseparationyt-1.0.3.tar.gz]
+[2024-05-27 01:33:13] INFO root fetch - main [MainThread]: End processing [MusicSeparationYT]: success
+[2024-05-27 01:33:13] INFO root fetch - processPackages [contact-user-external-local]: Remove: archive file [/home/abi/fetcher/tmp/contact_user_external_local-0.0.5.tar.gz]
+[2024-05-27 01:33:13] INFO root fetch - processPackages [contact-user-external-local]: Remove: archive file [/home/abi/fetcher/tmp/contact_user_external_local-0.0.7.tar.gz]
+[2024-05-27 01:33:13] INFO root fetch - main [MainThread]: End processing [contact-user-external-local]: success
+[2024-05-27 01:33:13] INFO root fetch - processPackages [bcpandas]: Remove: archive file [/home/abi/fetcher/tmp/bcpandas-2.6.1.tar.gz]
+[2024-05-27 01:33:13] INFO root fetch - processPackages [bcpandas]: Remove: archive file [/home/abi/fetcher/tmp/bcpandas-2.6.2.tar.gz]
+[2024-05-27 01:33:13] INFO root fetch - main [MainThread]: End processing [bcpandas]: success
+[2024-05-27 01:33:13] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes_the_hard_way-0.0.27a1716702262.tar.gz]
+[2024-05-27 01:33:13] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes_the_hard_way-0.0.28a1716765099.tar.gz]
+[2024-05-27 01:33:13] INFO root fetch - main [MainThread]: End processing [pulumi-kubernetes-the-hard-way]: success
+[2024-05-27 01:33:18] INFO root fetch - processPackages [itables]: Remove: archive file [/home/abi/fetcher/tmp/itables-2.0.1.tar.gz]
+[2024-05-27 01:33:18] INFO root fetch - processPackages [itables]: Remove: archive file [/home/abi/fetcher/tmp/itables-2.1.0rc1.tar.gz]
+[2024-05-27 01:33:18] INFO root fetch - main [MainThread]: End processing [itables]: success
+[2024-05-27 01:33:18] INFO root fetch - main [MainThread]: Store serial: [23388726]
