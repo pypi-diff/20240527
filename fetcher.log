@@ -761,3 +761,27 @@
 [2024-05-27 01:07:14] INFO root fetch - processPackages [pymemgpt]: Remove: archive file [/home/abi/fetcher/tmp/pymemgpt-0.3.9.tar.gz]
 [2024-05-27 01:07:14] INFO root fetch - main [MainThread]: End processing [pymemgpt]: success
 [2024-05-27 01:07:14] INFO root fetch - main [MainThread]: Store serial: [23388597]
+[2024-05-27 01:09:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23388597]
+[2024-05-27 01:09:23] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-27 01:09:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qbittorrent-api
+[2024-05-27 01:09:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tinytuya
+[2024-05-27 01:09:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo14-addon-ssi-partner-public-offering
+[2024-05-27 01:09:23] INFO root fetch - processPackages [tinytuya]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-05-27 01:09:23] INFO root fetch - processPackages [tinytuya]: Downloading https://files.pythonhosted.org/packages/22/7d/9d5fa82f83de2bc3db572f4410c55462fbeac68779f13c61ab259b930b3b/tinytuya-1.9.0-py2.py3-none-any.whl
+[2024-05-27 01:09:23] WARNING root fetch - processPackages [odoo14-addon-ssi-partner-public-offering]: Skipping, unable to determine old version
+[2024-05-27 01:09:23] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-partner-public-offering] error
+[2024-05-27 01:09:23] INFO root fetch - processPackages [qbittorrent-api]: New version: [6.0.0] Old Version: [2024.5.61]
+[2024-05-27 01:09:23] INFO root fetch - processPackages [qbittorrent-api]: Downloading https://files.pythonhosted.org/packages/de/b0/901aff4eb3608d8b9a292b71afde5b7a5667d04e0ca39a4847fe7ab354ad/qbittorrent_api-2024.5.61.tar.gz
+[2024-05-27 01:09:23] INFO root fetch - processPackages [tinytuya]: Downloading https://files.pythonhosted.org/packages/6b/dd/19d76df53a7c336d3c501f30b519cec78154f50351414491f01fa4ea7c75/tinytuya-1.9.1-py2.py3-none-any.whl
+[2024-05-27 01:09:24] INFO root fetch - processPackages [tinytuya]: executing diffoscope
+[2024-05-27 01:09:24] INFO root fetch - processPackages [tinytuya]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinytuya-1.9.0-py2.py3-none-any.whl.zip tmp/tinytuya-1.9.1-py2.py3-none-any.whl.zip --markdown 20240527/t/tinytuya/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-05-27 01:09:24] INFO root fetch - processPackages [tinytuya]: Remove: archive file [/home/abi/fetcher/tmp/tinytuya-1.9.0-py2.py3-none-any.whl.zip]
+[2024-05-27 01:09:24] INFO root fetch - processPackages [tinytuya]: Remove: archive file [/home/abi/fetcher/tmp/tinytuya-1.9.1-py2.py3-none-any.whl.zip]
+[2024-05-27 01:09:24] INFO root fetch - main [MainThread]: End processing [tinytuya]: success
+[2024-05-27 01:09:24] INFO root fetch - processPackages [qbittorrent-api]: Downloading https://files.pythonhosted.org/packages/36/02/332b4c5faf3f6ba012d81e95f3c6edee1a65892cd8e697f5424546c999ab/qbittorrent-api-6.0.0.tar.gz
+[2024-05-27 01:09:24] INFO root fetch - processPackages [qbittorrent-api]: executing diffoscope
+[2024-05-27 01:09:24] INFO root fetch - processPackages [qbittorrent-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qbittorrent_api-2024.5.61.tar.gz tmp/qbittorrent-api-6.0.0.tar.gz --markdown 20240527/q/qbittorrent-api/2024.5.61-6.0.0/README.md --exclude *.pyd
+[2024-05-27 01:09:25] INFO root fetch - processPackages [qbittorrent-api]: Remove: archive file [/home/abi/fetcher/tmp/qbittorrent_api-2024.5.61.tar.gz]
+[2024-05-27 01:09:25] INFO root fetch - processPackages [qbittorrent-api]: Remove: archive file [/home/abi/fetcher/tmp/qbittorrent-api-6.0.0.tar.gz]
+[2024-05-27 01:09:25] INFO root fetch - main [MainThread]: End processing [qbittorrent-api]: success
+[2024-05-27 01:09:25] INFO root fetch - main [MainThread]: Store serial: [23388606]
