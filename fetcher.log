@@ -375,3 +375,33 @@
 [2024-05-27 00:30:11] INFO root fetch - processPackages [arcparse]: Remove: archive file [/home/abi/fetcher/tmp/arcparse-0.6.9.tar.gz]
 [2024-05-27 00:30:11] INFO root fetch - main [MainThread]: End processing [arcparse]: success
 [2024-05-27 00:30:11] INFO root fetch - main [MainThread]: Store serial: [23388391]
+[2024-05-27 00:32:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23388391]
+[2024-05-27 00:32:21] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-27 00:32:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PyE2
+[2024-05-27 00:32:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gmail-connector
+[2024-05-27 00:32:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pproject
+[2024-05-27 00:32:21] INFO root fetch - processPackages [pproject]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-27 00:32:21] INFO root fetch - processPackages [pproject]: Downloading https://files.pythonhosted.org/packages/50/a2/3563d2fcb6e4fd8cabc92ada792a5600c9b7e1ebc2db1b5d3f365902af1c/pproject-0.0.3.tar.gz
+[2024-05-27 00:32:21] INFO root fetch - processPackages [gmail-connector]: New version: [1.0b0] Old Version: [1.0a0]
+[2024-05-27 00:32:21] INFO root fetch - processPackages [PyE2]: New version: [0.8.9] Old Version: [0.8.8]
+[2024-05-27 00:32:22] INFO root fetch - processPackages [pproject]: Downloading https://files.pythonhosted.org/packages/3e/5e/f13064119b1cad2834d99edc77072508b54855d8223d7e2711fee6fc9bba/pproject-0.0.4.tar.gz
+[2024-05-27 00:32:22] INFO root fetch - processPackages [gmail-connector]: Downloading https://files.pythonhosted.org/packages/52/3a/7c9912ea75f93b36cb62c9ab9c6173fd677d5acfc6c62e9cd97d35b7ea09/gmail_connector-1.0a0-py3-none-any.whl
+[2024-05-27 00:32:22] INFO root fetch - processPackages [PyE2]: Downloading https://files.pythonhosted.org/packages/fb/7b/20cd37a1968b75085222bf1e0afcc30ac5ec1dea21aeef3826a1ed718e28/pye2-0.8.8.tar.gz
+[2024-05-27 00:32:22] INFO root fetch - processPackages [pproject]: executing diffoscope
+[2024-05-27 00:32:22] INFO root fetch - processPackages [pproject]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pproject-0.0.3.tar.gz tmp/pproject-0.0.4.tar.gz --markdown 20240527/p/pproject/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-27 00:32:22] INFO root fetch - processPackages [PyE2]: Downloading https://files.pythonhosted.org/packages/b3/6c/4f3af23f2ebf4a0dacc1b75aeba89f39f85550df77e7a29c57b5ab5f1824/pye2-0.8.9.tar.gz
+[2024-05-27 00:32:22] INFO root fetch - processPackages [gmail-connector]: Downloading https://files.pythonhosted.org/packages/b7/e7/61858f79394c1897d58aa14712eb7b695076817e5ee745099d5366ffd0bb/gmail_connector-1.0b0-py3-none-any.whl
+[2024-05-27 00:32:22] INFO root fetch - processPackages [PyE2]: executing diffoscope
+[2024-05-27 00:32:22] INFO root fetch - processPackages [PyE2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pye2-0.8.8.tar.gz tmp/pye2-0.8.9.tar.gz --markdown 20240527/P/PyE2/0.8.8-0.8.9/README.md --exclude *.pyd
+[2024-05-27 00:32:22] INFO root fetch - processPackages [pproject]: Remove: archive file [/home/abi/fetcher/tmp/pproject-0.0.3.tar.gz]
+[2024-05-27 00:32:22] INFO root fetch - processPackages [gmail-connector]: executing diffoscope
+[2024-05-27 00:32:22] INFO root fetch - processPackages [gmail-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gmail_connector-1.0a0-py3-none-any.whl.zip tmp/gmail_connector-1.0b0-py3-none-any.whl.zip --markdown 20240527/g/gmail-connector/1.0a0-1.0b0/README.md --exclude *.pyd
+[2024-05-27 00:32:22] INFO root fetch - processPackages [pproject]: Remove: archive file [/home/abi/fetcher/tmp/pproject-0.0.4.tar.gz]
+[2024-05-27 00:32:22] INFO root fetch - main [MainThread]: End processing [pproject]: success
+[2024-05-27 00:32:23] INFO root fetch - processPackages [gmail-connector]: Remove: archive file [/home/abi/fetcher/tmp/gmail_connector-1.0a0-py3-none-any.whl.zip]
+[2024-05-27 00:32:23] INFO root fetch - processPackages [gmail-connector]: Remove: archive file [/home/abi/fetcher/tmp/gmail_connector-1.0b0-py3-none-any.whl.zip]
+[2024-05-27 00:32:23] INFO root fetch - main [MainThread]: End processing [gmail-connector]: success
+[2024-05-27 00:32:23] INFO root fetch - processPackages [PyE2]: Remove: archive file [/home/abi/fetcher/tmp/pye2-0.8.8.tar.gz]
+[2024-05-27 00:32:23] INFO root fetch - processPackages [PyE2]: Remove: archive file [/home/abi/fetcher/tmp/pye2-0.8.9.tar.gz]
+[2024-05-27 00:32:23] INFO root fetch - main [MainThread]: End processing [PyE2]: success
+[2024-05-27 00:32:23] INFO root fetch - main [MainThread]: Store serial: [23388398]
