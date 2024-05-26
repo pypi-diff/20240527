@@ -859,3 +859,15 @@
 [2024-05-27 01:18:01] INFO root fetch - processPackages [geofileops]: Remove: archive file [/home/abi/fetcher/tmp/geofileops-0.9.0.tar.gz]
 [2024-05-27 01:18:01] INFO root fetch - main [MainThread]: End processing [geofileops]: success
 [2024-05-27 01:18:01] INFO root fetch - main [MainThread]: Store serial: [23388630]
+[2024-05-27 01:20:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23388630]
+[2024-05-27 01:20:12] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-27 01:20:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: silero-tts
+[2024-05-27 01:20:12] INFO root fetch - processPackages [silero-tts]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-27 01:20:12] INFO root fetch - processPackages [silero-tts]: Downloading https://files.pythonhosted.org/packages/97/85/62e631720702023e0fc62e232dada05653b977506d63c180e2bd8355c529/silero_tts-0.0.1.tar.gz
+[2024-05-27 01:20:13] INFO root fetch - processPackages [silero-tts]: Downloading https://files.pythonhosted.org/packages/fa/9c/945abfa6e025604a35db6e315ba564138a546681243d4b2a025e5f8a0412/silero_tts-0.0.2.tar.gz
+[2024-05-27 01:20:13] INFO root fetch - processPackages [silero-tts]: executing diffoscope
+[2024-05-27 01:20:13] INFO root fetch - processPackages [silero-tts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/silero_tts-0.0.1.tar.gz tmp/silero_tts-0.0.2.tar.gz --markdown 20240527/s/silero-tts/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-27 01:20:13] INFO root fetch - processPackages [silero-tts]: Remove: archive file [/home/abi/fetcher/tmp/silero_tts-0.0.1.tar.gz]
+[2024-05-27 01:20:13] INFO root fetch - processPackages [silero-tts]: Remove: archive file [/home/abi/fetcher/tmp/silero_tts-0.0.2.tar.gz]
+[2024-05-27 01:20:13] INFO root fetch - main [MainThread]: End processing [silero-tts]: success
+[2024-05-27 01:20:13] INFO root fetch - main [MainThread]: Store serial: [23388633]
