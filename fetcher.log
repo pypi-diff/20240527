@@ -1281,3 +1281,15 @@
 [2024-05-27 01:48:34] INFO root fetch - processPackages [rxd]: Remove: archive file [/home/abi/fetcher/tmp/rxd-0.0.4.tar.gz]
 [2024-05-27 01:48:34] INFO root fetch - main [MainThread]: End processing [rxd]: success
 [2024-05-27 01:48:34] INFO root fetch - main [MainThread]: Store serial: [23388805]
+[2024-05-27 01:50:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23388805]
+[2024-05-27 01:50:43] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-27 01:50:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: repro-apk
+[2024-05-27 01:50:43] INFO root fetch - processPackages [repro-apk]: New version: [0.2.7] Old Version: [0.2.6]
+[2024-05-27 01:50:43] INFO root fetch - processPackages [repro-apk]: Downloading https://files.pythonhosted.org/packages/e3/c5/c1af9e2691d443238cd444504ceed47f3c3a4911c79d146c681ca51b0c7f/repro-apk-0.2.6.tar.gz
+[2024-05-27 01:50:43] INFO root fetch - processPackages [repro-apk]: Downloading https://files.pythonhosted.org/packages/a6/32/134d2d786c76db519cd47de24086e49e388299816d5e6efcbcb78ab5ca83/repro-apk-0.2.7.tar.gz
+[2024-05-27 01:50:43] INFO root fetch - processPackages [repro-apk]: executing diffoscope
+[2024-05-27 01:50:43] INFO root fetch - processPackages [repro-apk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/repro-apk-0.2.6.tar.gz tmp/repro-apk-0.2.7.tar.gz --markdown 20240527/r/repro-apk/0.2.6-0.2.7/README.md --exclude *.pyd
+[2024-05-27 01:50:44] INFO root fetch - processPackages [repro-apk]: Remove: archive file [/home/abi/fetcher/tmp/repro-apk-0.2.6.tar.gz]
+[2024-05-27 01:50:44] INFO root fetch - processPackages [repro-apk]: Remove: archive file [/home/abi/fetcher/tmp/repro-apk-0.2.7.tar.gz]
+[2024-05-27 01:50:44] INFO root fetch - main [MainThread]: End processing [repro-apk]: success
+[2024-05-27 01:50:44] INFO root fetch - main [MainThread]: Store serial: [23388808]
