@@ -808,3 +808,24 @@
 [2024-05-27 01:13:40] INFO root fetch - processPackages [maesyorikun]: Remove: archive file [/home/abi/fetcher/tmp/maesyorikun-0.1.2-py3-none-any.whl.zip]
 [2024-05-27 01:13:40] INFO root fetch - main [MainThread]: End processing [maesyorikun]: success
 [2024-05-27 01:13:40] INFO root fetch - main [MainThread]: Store serial: [23388611]
+[2024-05-27 01:15:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23388611]
+[2024-05-27 01:15:48] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-27 01:15:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: alertpix
+[2024-05-27 01:15:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: baml-py
+[2024-05-27 01:15:48] INFO root fetch - processPackages [baml-py]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-27 01:15:48] INFO root fetch - processPackages [alertpix]: New version: [0.3] Old Version: [0.2]
+[2024-05-27 01:15:49] INFO root fetch - processPackages [baml-py]: Downloading https://files.pythonhosted.org/packages/e9/42/107de39e54932745ce1b6948b52cab9a47b2f4440f9cd2e7c9afe8338e17/baml_py-0.1.8-cp38-abi3-win_amd64.whl
+[2024-05-27 01:15:49] INFO root fetch - processPackages [alertpix]: Downloading https://files.pythonhosted.org/packages/cc/29/5f2bc14cf0552e3d923d12180887457066ac1e972b6c295debc88a236182/alertpix-0.2.tar.gz
+[2024-05-27 01:15:49] INFO root fetch - processPackages [alertpix]: Downloading https://files.pythonhosted.org/packages/3b/ed/04aef6f68ae821f17ee64c06b465f64fa7b43c022a05c455fc3abd61cff0/alertpix-0.3.tar.gz
+[2024-05-27 01:15:49] INFO root fetch - processPackages [alertpix]: executing diffoscope
+[2024-05-27 01:15:49] INFO root fetch - processPackages [alertpix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alertpix-0.2.tar.gz tmp/alertpix-0.3.tar.gz --markdown 20240527/a/alertpix/0.2-0.3/README.md --exclude *.pyd
+[2024-05-27 01:15:49] INFO root fetch - processPackages [alertpix]: Remove: archive file [/home/abi/fetcher/tmp/alertpix-0.2.tar.gz]
+[2024-05-27 01:15:49] INFO root fetch - processPackages [alertpix]: Remove: archive file [/home/abi/fetcher/tmp/alertpix-0.3.tar.gz]
+[2024-05-27 01:15:49] INFO root fetch - main [MainThread]: End processing [alertpix]: success
+[2024-05-27 01:15:50] INFO root fetch - processPackages [baml-py]: Downloading https://files.pythonhosted.org/packages/3e/87/fcf0a5417f646d138f5db6819b2d7110f5c8440298d8d7b11ecaf5711660/baml_py-0.1.9-cp38-abi3-win_amd64.whl
+[2024-05-27 01:15:50] INFO root fetch - processPackages [baml-py]: executing diffoscope
+[2024-05-27 01:15:50] INFO root fetch - processPackages [baml-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/baml_py-0.1.8-cp38-abi3-win_amd64.whl.zip tmp/baml_py-0.1.9-cp38-abi3-win_amd64.whl.zip --markdown 20240527/b/baml-py/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-27 01:15:51] INFO root fetch - processPackages [baml-py]: Remove: archive file [/home/abi/fetcher/tmp/baml_py-0.1.8-cp38-abi3-win_amd64.whl.zip]
+[2024-05-27 01:15:51] INFO root fetch - processPackages [baml-py]: Remove: archive file [/home/abi/fetcher/tmp/baml_py-0.1.9-cp38-abi3-win_amd64.whl.zip]
+[2024-05-27 01:15:51] INFO root fetch - main [MainThread]: End processing [baml-py]: success
+[2024-05-27 01:15:51] INFO root fetch - main [MainThread]: Store serial: [23388621]
