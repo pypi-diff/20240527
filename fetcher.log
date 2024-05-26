@@ -291,3 +291,18 @@
 [2024-05-27 00:21:28] INFO root fetch - processPackages [easy-tasks]: Remove: archive file [/home/abi/fetcher/tmp/easy_tasks-0.0.9.tar.gz]
 [2024-05-27 00:21:28] INFO root fetch - main [MainThread]: End processing [easy-tasks]: success
 [2024-05-27 00:21:28] INFO root fetch - main [MainThread]: Store serial: [23388344]
+[2024-05-27 00:23:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23388344]
+[2024-05-27 00:23:37] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-27 00:23:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pkscreener
+[2024-05-27 00:23:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: silero-tts
+[2024-05-27 00:23:37] WARNING root fetch - processPackages [silero-tts]: Skipping, unable to determine old version
+[2024-05-27 00:23:37] INFO root fetch - main [MainThread]: End processing [silero-tts] error
+[2024-05-27 00:23:37] INFO root fetch - processPackages [pkscreener]: New version: [0.45.20240526.416] Old Version: [0.45.20240525.415]
+[2024-05-27 00:23:37] INFO root fetch - processPackages [pkscreener]: Downloading https://files.pythonhosted.org/packages/6e/24/bbcb23387a9df02df6e2cdedddf3d3cf0faa64bd00c4757e3079b087574b/pkscreener-0.45.20240525.415.tar.gz
+[2024-05-27 00:23:38] INFO root fetch - processPackages [pkscreener]: Downloading https://files.pythonhosted.org/packages/af/2c/eb99f3b117ef839065c1a0fa42ea1bd463b9f5e66de13f58b57709985141/pkscreener-0.45.20240526.416.tar.gz
+[2024-05-27 00:23:38] INFO root fetch - processPackages [pkscreener]: executing diffoscope
+[2024-05-27 00:23:38] INFO root fetch - processPackages [pkscreener]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pkscreener-0.45.20240525.415.tar.gz tmp/pkscreener-0.45.20240526.416.tar.gz --markdown 20240527/p/pkscreener/0.45.20240525.415-0.45.20240526.416/README.md --exclude *.pyd
+[2024-05-27 00:23:39] INFO root fetch - processPackages [pkscreener]: Remove: archive file [/home/abi/fetcher/tmp/pkscreener-0.45.20240525.415.tar.gz]
+[2024-05-27 00:23:39] INFO root fetch - processPackages [pkscreener]: Remove: archive file [/home/abi/fetcher/tmp/pkscreener-0.45.20240526.416.tar.gz]
+[2024-05-27 00:23:39] INFO root fetch - main [MainThread]: End processing [pkscreener]: success
+[2024-05-27 00:23:39] INFO root fetch - main [MainThread]: Store serial: [23388352]
