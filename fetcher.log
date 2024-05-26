@@ -360,3 +360,18 @@
 [2024-05-27 00:28:02] INFO root fetch - processPackages [gemini-webapi]: Remove: archive file [/home/abi/fetcher/tmp/gemini_webapi-1.4.2.tar.gz]
 [2024-05-27 00:28:02] INFO root fetch - main [MainThread]: End processing [gemini-webapi]: success
 [2024-05-27 00:28:02] INFO root fetch - main [MainThread]: Store serial: [23388383]
+[2024-05-27 00:30:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23388383]
+[2024-05-27 00:30:10] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-27 00:30:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: arcparse
+[2024-05-27 00:30:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Weather-Data-Optimizer
+[2024-05-27 00:30:10] WARNING root fetch - processPackages [Weather-Data-Optimizer]: Skipping, unable to determine old version
+[2024-05-27 00:30:10] INFO root fetch - main [MainThread]: End processing [Weather-Data-Optimizer] error
+[2024-05-27 00:30:10] INFO root fetch - processPackages [arcparse]: New version: [0.6.9] Old Version: [0.6.8]
+[2024-05-27 00:30:11] INFO root fetch - processPackages [arcparse]: Downloading https://files.pythonhosted.org/packages/c1/f4/9fa6e4609a9589de54fca1abb72359803b2b1bdf894687a948abf63311bb/arcparse-0.6.8.tar.gz
+[2024-05-27 00:30:11] INFO root fetch - processPackages [arcparse]: Downloading https://files.pythonhosted.org/packages/91/74/45dd9d08496f4a819ba1621e0dc2208355e206937898685a46913782129c/arcparse-0.6.9.tar.gz
+[2024-05-27 00:30:11] INFO root fetch - processPackages [arcparse]: executing diffoscope
+[2024-05-27 00:30:11] INFO root fetch - processPackages [arcparse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arcparse-0.6.8.tar.gz tmp/arcparse-0.6.9.tar.gz --markdown 20240527/a/arcparse/0.6.8-0.6.9/README.md --exclude *.pyd
+[2024-05-27 00:30:11] INFO root fetch - processPackages [arcparse]: Remove: archive file [/home/abi/fetcher/tmp/arcparse-0.6.8.tar.gz]
+[2024-05-27 00:30:11] INFO root fetch - processPackages [arcparse]: Remove: archive file [/home/abi/fetcher/tmp/arcparse-0.6.9.tar.gz]
+[2024-05-27 00:30:11] INFO root fetch - main [MainThread]: End processing [arcparse]: success
+[2024-05-27 00:30:11] INFO root fetch - main [MainThread]: Store serial: [23388391]
