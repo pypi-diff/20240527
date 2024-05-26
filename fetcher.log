@@ -985,3 +985,24 @@
 [2024-05-27 01:28:53] INFO root fetch - processPackages [quest-decoding]: Remove: archive file [/home/abi/fetcher/tmp/quest-decoding-1.0.5.tar.gz]
 [2024-05-27 01:28:53] INFO root fetch - main [MainThread]: End processing [quest-decoding]: success
 [2024-05-27 01:28:53] INFO root fetch - main [MainThread]: Store serial: [23388686]
+[2024-05-27 01:30:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23388686]
+[2024-05-27 01:31:01] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-27 01:31:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aioreqs
+[2024-05-27 01:31:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ofscraper
+[2024-05-27 01:31:01] INFO root fetch - processPackages [aioreqs]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-05-27 01:31:01] INFO root fetch - processPackages [ofscraper]: New version: [3.9.8] Old Version: [3.9.7]
+[2024-05-27 01:31:01] INFO root fetch - processPackages [aioreqs]: Downloading https://files.pythonhosted.org/packages/63/d8/9d91281959bb3040146b3bb53ef23297105df2d5588a04a9c78cb9c10c17/aioreqs-1.0.4.tar.gz
+[2024-05-27 01:31:01] INFO root fetch - processPackages [ofscraper]: Downloading https://files.pythonhosted.org/packages/b4/d3/4eb23c7e5506667ed2162ea817fb7dd974fde0ec0da1cb0544567176c380/ofscraper-3.9.7.tar.gz
+[2024-05-27 01:31:02] INFO root fetch - processPackages [ofscraper]: Downloading https://files.pythonhosted.org/packages/f7/40/e5e745935d4b9d1b0beffcda8c7474b1ce4f988a5c49457f9e735da3f015/ofscraper-3.9.8.tar.gz
+[2024-05-27 01:31:02] INFO root fetch - processPackages [aioreqs]: Downloading https://files.pythonhosted.org/packages/cf/d9/6b6809da360f57a7367266db6cb178d84535a8af9b206f8ced67cf3dedeb/aioreqs-1.0.5.tar.gz
+[2024-05-27 01:31:02] INFO root fetch - processPackages [ofscraper]: executing diffoscope
+[2024-05-27 01:31:02] INFO root fetch - processPackages [ofscraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ofscraper-3.9.7.tar.gz tmp/ofscraper-3.9.8.tar.gz --markdown 20240527/o/ofscraper/3.9.7-3.9.8/README.md --exclude *.pyd
+[2024-05-27 01:31:02] INFO root fetch - processPackages [aioreqs]: executing diffoscope
+[2024-05-27 01:31:02] INFO root fetch - processPackages [aioreqs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aioreqs-1.0.4.tar.gz tmp/aioreqs-1.0.5.tar.gz --markdown 20240527/a/aioreqs/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-05-27 01:31:02] INFO root fetch - processPackages [aioreqs]: Remove: archive file [/home/abi/fetcher/tmp/aioreqs-1.0.4.tar.gz]
+[2024-05-27 01:31:02] INFO root fetch - processPackages [aioreqs]: Remove: archive file [/home/abi/fetcher/tmp/aioreqs-1.0.5.tar.gz]
+[2024-05-27 01:31:02] INFO root fetch - main [MainThread]: End processing [aioreqs]: success
+[2024-05-27 01:31:03] INFO root fetch - processPackages [ofscraper]: Remove: archive file [/home/abi/fetcher/tmp/ofscraper-3.9.7.tar.gz]
+[2024-05-27 01:31:03] INFO root fetch - processPackages [ofscraper]: Remove: archive file [/home/abi/fetcher/tmp/ofscraper-3.9.8.tar.gz]
+[2024-05-27 01:31:03] INFO root fetch - main [MainThread]: End processing [ofscraper]: success
+[2024-05-27 01:31:03] INFO root fetch - main [MainThread]: Store serial: [23388692]
