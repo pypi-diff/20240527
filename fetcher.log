@@ -973,3 +973,15 @@
 [2024-05-27 01:26:43] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes_the_hard_way-0.0.27a1716702262.tar.gz]
 [2024-05-27 01:26:43] INFO root fetch - main [MainThread]: End processing [pulumi-kubernetes-the-hard-way]: success
 [2024-05-27 01:26:43] INFO root fetch - main [MainThread]: Store serial: [23388683]
+[2024-05-27 01:28:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23388683]
+[2024-05-27 01:28:52] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-27 01:28:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: quest-decoding
+[2024-05-27 01:28:52] INFO root fetch - processPackages [quest-decoding]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-05-27 01:28:52] INFO root fetch - processPackages [quest-decoding]: Downloading https://files.pythonhosted.org/packages/de/2f/8ae292e3413a8bd7026a34b13f31cbfa4815fc7c3abc49a7de8788b7835e/quest-decoding-1.0.4.tar.gz
+[2024-05-27 01:28:52] INFO root fetch - processPackages [quest-decoding]: Downloading https://files.pythonhosted.org/packages/32/3f/f613773aae3bc255fe1b2b58bb3886037e727733a723ab20edaba727231f/quest-decoding-1.0.5.tar.gz
+[2024-05-27 01:28:53] INFO root fetch - processPackages [quest-decoding]: executing diffoscope
+[2024-05-27 01:28:53] INFO root fetch - processPackages [quest-decoding]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quest-decoding-1.0.4.tar.gz tmp/quest-decoding-1.0.5.tar.gz --markdown 20240527/q/quest-decoding/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-05-27 01:28:53] INFO root fetch - processPackages [quest-decoding]: Remove: archive file [/home/abi/fetcher/tmp/quest-decoding-1.0.4.tar.gz]
+[2024-05-27 01:28:53] INFO root fetch - processPackages [quest-decoding]: Remove: archive file [/home/abi/fetcher/tmp/quest-decoding-1.0.5.tar.gz]
+[2024-05-27 01:28:53] INFO root fetch - main [MainThread]: End processing [quest-decoding]: success
+[2024-05-27 01:28:53] INFO root fetch - main [MainThread]: Store serial: [23388686]
