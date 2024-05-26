@@ -1269,3 +1269,15 @@
 [2024-05-27 01:46:23] INFO root fetch - processPackages [oresat-star-tracker]: Remove: archive file [/home/abi/fetcher/tmp/oresat_star_tracker-0.3.0.tar.gz]
 [2024-05-27 01:46:23] INFO root fetch - main [MainThread]: End processing [oresat-star-tracker]: success
 [2024-05-27 01:46:23] INFO root fetch - main [MainThread]: Store serial: [23388803]
+[2024-05-27 01:48:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23388803]
+[2024-05-27 01:48:33] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-27 01:48:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rxd
+[2024-05-27 01:48:33] INFO root fetch - processPackages [rxd]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-27 01:48:33] INFO root fetch - processPackages [rxd]: Downloading https://files.pythonhosted.org/packages/cd/68/9ff1ada3a89711c0235bfeb43ed1b3df5cdf7e7b6e9aa6f1093caa34e678/rxd-0.0.3.tar.gz
+[2024-05-27 01:48:34] INFO root fetch - processPackages [rxd]: Downloading https://files.pythonhosted.org/packages/d0/c4/5d2d29e8f61c6f41d2fdb77a6508cf4cd247f55858b36f33418d6544f071/rxd-0.0.4.tar.gz
+[2024-05-27 01:48:34] INFO root fetch - processPackages [rxd]: executing diffoscope
+[2024-05-27 01:48:34] INFO root fetch - processPackages [rxd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rxd-0.0.3.tar.gz tmp/rxd-0.0.4.tar.gz --markdown 20240527/r/rxd/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-27 01:48:34] INFO root fetch - processPackages [rxd]: Remove: archive file [/home/abi/fetcher/tmp/rxd-0.0.3.tar.gz]
+[2024-05-27 01:48:34] INFO root fetch - processPackages [rxd]: Remove: archive file [/home/abi/fetcher/tmp/rxd-0.0.4.tar.gz]
+[2024-05-27 01:48:34] INFO root fetch - main [MainThread]: End processing [rxd]: success
+[2024-05-27 01:48:34] INFO root fetch - main [MainThread]: Store serial: [23388805]
