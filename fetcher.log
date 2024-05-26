@@ -504,3 +504,15 @@
 [2024-05-27 00:43:14] INFO root fetch - processPackages [pdfnaut]: Remove: archive file [/home/abi/fetcher/tmp/pdfnaut-0.3.0.tar.gz]
 [2024-05-27 00:43:14] INFO root fetch - main [MainThread]: End processing [pdfnaut]: success
 [2024-05-27 00:43:14] INFO root fetch - main [MainThread]: Store serial: [23388429]
+[2024-05-27 00:45:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23388429]
+[2024-05-27 00:45:23] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-27 00:45:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: clickhouse-connect
+[2024-05-27 00:45:23] INFO root fetch - processPackages [clickhouse-connect]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-05-27 00:45:24] INFO root fetch - processPackages [clickhouse-connect]: Downloading https://files.pythonhosted.org/packages/71/65/ed00ccb98840b1bb3ea3b2466157c68819bb0256ba5296e1ac78f30b2632/clickhouse-connect-0.7.8.tar.gz
+[2024-05-27 00:45:24] INFO root fetch - processPackages [clickhouse-connect]: Downloading https://files.pythonhosted.org/packages/8b/10/53448d5116c907b31188648ee1d30fe0104acb40c14a3ad44e0279e51186/clickhouse-connect-0.7.9.tar.gz
+[2024-05-27 00:45:24] INFO root fetch - processPackages [clickhouse-connect]: executing diffoscope
+[2024-05-27 00:45:24] INFO root fetch - processPackages [clickhouse-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clickhouse-connect-0.7.8.tar.gz tmp/clickhouse-connect-0.7.9.tar.gz --markdown 20240527/c/clickhouse-connect/0.7.8-0.7.9/README.md --exclude *.pyd
+[2024-05-27 00:45:25] INFO root fetch - processPackages [clickhouse-connect]: Remove: archive file [/home/abi/fetcher/tmp/clickhouse-connect-0.7.8.tar.gz]
+[2024-05-27 00:45:25] INFO root fetch - processPackages [clickhouse-connect]: Remove: archive file [/home/abi/fetcher/tmp/clickhouse-connect-0.7.9.tar.gz]
+[2024-05-27 00:45:25] INFO root fetch - main [MainThread]: End processing [clickhouse-connect]: success
+[2024-05-27 00:45:25] INFO root fetch - main [MainThread]: Store serial: [23388471]
