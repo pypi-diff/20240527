@@ -1059,3 +1059,69 @@
 [2024-05-27 01:33:18] INFO root fetch - processPackages [itables]: Remove: archive file [/home/abi/fetcher/tmp/itables-2.1.0rc1.tar.gz]
 [2024-05-27 01:33:18] INFO root fetch - main [MainThread]: End processing [itables]: success
 [2024-05-27 01:33:18] INFO root fetch - main [MainThread]: Store serial: [23388726]
+[2024-05-27 01:35:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23388726]
+[2024-05-27 01:35:27] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-27 01:35:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: baml-py
+[2024-05-27 01:35:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kcli
+[2024-05-27 01:35:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: geofileops
+[2024-05-27 01:35:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: yt-dlp
+[2024-05-27 01:35:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: MusicSeparationYT
+[2024-05-27 01:35:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: quest-decoding
+[2024-05-27 01:35:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rxd
+[2024-05-27 01:35:27] INFO root fetch - processPackages [MusicSeparationYT]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-05-27 01:35:27] INFO root fetch - processPackages [geofileops]: New version: [0.9.0.post0] Old Version: [0.9.0]
+[2024-05-27 01:35:27] INFO root fetch - processPackages [baml-py]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-27 01:35:27] INFO root fetch - processPackages [quest-decoding]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-05-27 01:35:27] INFO root fetch - processPackages [yt-dlp]: New version: [2024.5.8.232715.dev0] Old Version: [2024.5.5.232701.dev0]
+[2024-05-27 01:35:27] INFO root fetch - processPackages [geofileops]: Downloading https://files.pythonhosted.org/packages/1c/ce/02e64848e2fdcc5240db915fc3aea12740c929d9662d80020c54758d973c/geofileops-0.9.0.tar.gz
+[2024-05-27 01:35:27] INFO root fetch - processPackages [MusicSeparationYT]: Downloading https://files.pythonhosted.org/packages/7d/86/156fe93252bed724963f0b25c6450e5e5f6c2484785cf0098836383d8e04/musicseparationyt-1.0.3.tar.gz
+[2024-05-27 01:35:27] INFO root fetch - processPackages [rxd]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-27 01:35:27] INFO root fetch - processPackages [quest-decoding]: Downloading https://files.pythonhosted.org/packages/32/3f/f613773aae3bc255fe1b2b58bb3886037e727733a723ab20edaba727231f/quest-decoding-1.0.5.tar.gz
+[2024-05-27 01:35:27] INFO root fetch - processPackages [kcli]: New version: [99.0.202405262333] Old Version: [99.0.202405232238]
+[2024-05-27 01:35:27] INFO root fetch - processPackages [baml-py]: Downloading https://files.pythonhosted.org/packages/e9/42/107de39e54932745ce1b6948b52cab9a47b2f4440f9cd2e7c9afe8338e17/baml_py-0.1.8-cp38-abi3-win_amd64.whl
+[2024-05-27 01:35:27] INFO root fetch - processPackages [yt-dlp]: Downloading https://files.pythonhosted.org/packages/84/b9/776c1dd6af3d11b008b3d15993bd9675fea67e86f7b78a1dac88febb9fcf/yt_dlp-2024.5.5.232701.dev0.tar.gz
+[2024-05-27 01:35:27] INFO root fetch - processPackages [rxd]: Downloading https://files.pythonhosted.org/packages/ea/c7/3afeb3c964769de9641903bfb849439524b3ca30403823934a27d8fecf0b/rxd-0.0.2.tar.gz
+[2024-05-27 01:35:27] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/cf/53/7911e3551864f64053be43f951bc10511a29ae5a7d2d0cdd10d46a3a3689/kcli-99.0.202405232238.tar.gz
+[2024-05-27 01:35:27] INFO root fetch - processPackages [MusicSeparationYT]: Downloading https://files.pythonhosted.org/packages/35/b9/5134f70c0fb749e1721712c07321910db0dc0582641a78ce33467912b636/musicseparationyt-1.0.4.tar.gz
+[2024-05-27 01:35:27] INFO root fetch - processPackages [geofileops]: Downloading https://files.pythonhosted.org/packages/22/10/cf8a193f65e2a56d4e7cf52a19d26bf464c3ca0962307544d8e8c41b7bbc/geofileops-0.9.0.post0.tar.gz
+[2024-05-27 01:35:27] INFO root fetch - processPackages [quest-decoding]: Downloading https://files.pythonhosted.org/packages/be/6d/485e5966514ceb1322fda0a0872bc3cfc88e0ea90c4f7d63a78d310c4521/quest-decoding-1.0.6.tar.gz
+[2024-05-27 01:35:27] INFO root fetch - processPackages [MusicSeparationYT]: executing diffoscope
+[2024-05-27 01:35:27] INFO root fetch - processPackages [MusicSeparationYT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/musicseparationyt-1.0.3.tar.gz tmp/musicseparationyt-1.0.4.tar.gz --markdown 20240527/M/MusicSeparationYT/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-05-27 01:35:27] INFO root fetch - processPackages [quest-decoding]: executing diffoscope
+[2024-05-27 01:35:27] INFO root fetch - processPackages [quest-decoding]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quest-decoding-1.0.5.tar.gz tmp/quest-decoding-1.0.6.tar.gz --markdown 20240527/q/quest-decoding/1.0.5-1.0.6/README.md --exclude *.pyd
+[2024-05-27 01:35:27] INFO root fetch - processPackages [geofileops]: executing diffoscope
+[2024-05-27 01:35:27] INFO root fetch - processPackages [geofileops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geofileops-0.9.0.tar.gz tmp/geofileops-0.9.0.post0.tar.gz --markdown 20240527/g/geofileops/0.9.0-0.9.0.post0/README.md --exclude *.pyd
+[2024-05-27 01:35:27] INFO root fetch - processPackages [yt-dlp]: Downloading https://files.pythonhosted.org/packages/29/37/4d7e7b1d095d515aef0e3e9af758d0dc33fceebfe46ebce02a1a240d274c/yt_dlp-2024.5.8.232715.dev0.tar.gz
+[2024-05-27 01:35:28] INFO root fetch - processPackages [rxd]: Downloading https://files.pythonhosted.org/packages/cd/68/9ff1ada3a89711c0235bfeb43ed1b3df5cdf7e7b6e9aa6f1093caa34e678/rxd-0.0.3.tar.gz
+[2024-05-27 01:35:28] INFO root fetch - processPackages [baml-py]: Downloading https://files.pythonhosted.org/packages/3e/87/fcf0a5417f646d138f5db6819b2d7110f5c8440298d8d7b11ecaf5711660/baml_py-0.1.9-cp38-abi3-win_amd64.whl
+[2024-05-27 01:35:28] INFO root fetch - processPackages [rxd]: executing diffoscope
+[2024-05-27 01:35:28] INFO root fetch - processPackages [rxd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rxd-0.0.2.tar.gz tmp/rxd-0.0.3.tar.gz --markdown 20240527/r/rxd/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-27 01:35:28] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/f7/24/7618d9d63a883dc146c5fdaac7578080b958e4d6f8cc053fc54402427918/kcli-99.0.202405262333.tar.gz
+[2024-05-27 01:35:28] INFO root fetch - processPackages [yt-dlp]: executing diffoscope
+[2024-05-27 01:35:28] INFO root fetch - processPackages [yt-dlp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yt_dlp-2024.5.5.232701.dev0.tar.gz tmp/yt_dlp-2024.5.8.232715.dev0.tar.gz --markdown 20240527/y/yt-dlp/2024.5.5.232701.dev0-2024.5.8.232715.dev0/README.md --exclude *.pyd
+[2024-05-27 01:35:28] INFO root fetch - processPackages [MusicSeparationYT]: Remove: archive file [/home/abi/fetcher/tmp/musicseparationyt-1.0.3.tar.gz]
+[2024-05-27 01:35:28] INFO root fetch - processPackages [MusicSeparationYT]: Remove: archive file [/home/abi/fetcher/tmp/musicseparationyt-1.0.4.tar.gz]
+[2024-05-27 01:35:28] INFO root fetch - main [MainThread]: End processing [MusicSeparationYT]: success
+[2024-05-27 01:35:28] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2024-05-27 01:35:28] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202405232238.tar.gz tmp/kcli-99.0.202405262333.tar.gz --markdown 20240527/k/kcli/99.0.202405232238-99.0.202405262333/README.md --exclude *.pyd
+[2024-05-27 01:35:28] INFO root fetch - processPackages [rxd]: Remove: archive file [/home/abi/fetcher/tmp/rxd-0.0.2.tar.gz]
+[2024-05-27 01:35:28] INFO root fetch - processPackages [rxd]: Remove: archive file [/home/abi/fetcher/tmp/rxd-0.0.3.tar.gz]
+[2024-05-27 01:35:28] INFO root fetch - main [MainThread]: End processing [rxd]: success
+[2024-05-27 01:35:28] INFO root fetch - processPackages [quest-decoding]: Remove: archive file [/home/abi/fetcher/tmp/quest-decoding-1.0.5.tar.gz]
+[2024-05-27 01:35:28] INFO root fetch - processPackages [quest-decoding]: Remove: archive file [/home/abi/fetcher/tmp/quest-decoding-1.0.6.tar.gz]
+[2024-05-27 01:35:28] INFO root fetch - main [MainThread]: End processing [quest-decoding]: success
+[2024-05-27 01:35:28] INFO root fetch - processPackages [baml-py]: executing diffoscope
+[2024-05-27 01:35:28] INFO root fetch - processPackages [baml-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/baml_py-0.1.8-cp38-abi3-win_amd64.whl.zip tmp/baml_py-0.1.9-cp38-abi3-win_amd64.whl.zip --markdown 20240527/b/baml-py/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-27 01:35:28] INFO root fetch - processPackages [geofileops]: Remove: archive file [/home/abi/fetcher/tmp/geofileops-0.9.0.tar.gz]
+[2024-05-27 01:35:28] INFO root fetch - processPackages [geofileops]: Remove: archive file [/home/abi/fetcher/tmp/geofileops-0.9.0.post0.tar.gz]
+[2024-05-27 01:35:28] INFO root fetch - main [MainThread]: End processing [geofileops]: success
+[2024-05-27 01:35:29] INFO root fetch - processPackages [baml-py]: Remove: archive file [/home/abi/fetcher/tmp/baml_py-0.1.8-cp38-abi3-win_amd64.whl.zip]
+[2024-05-27 01:35:29] INFO root fetch - processPackages [baml-py]: Remove: archive file [/home/abi/fetcher/tmp/baml_py-0.1.9-cp38-abi3-win_amd64.whl.zip]
+[2024-05-27 01:35:29] INFO root fetch - main [MainThread]: End processing [baml-py]: success
+[2024-05-27 01:35:30] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202405232238.tar.gz]
+[2024-05-27 01:35:30] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202405262333.tar.gz]
+[2024-05-27 01:35:30] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2024-05-27 01:35:33] INFO root fetch - processPackages [yt-dlp]: Remove: archive file [/home/abi/fetcher/tmp/yt_dlp-2024.5.5.232701.dev0.tar.gz]
+[2024-05-27 01:35:33] INFO root fetch - processPackages [yt-dlp]: Remove: archive file [/home/abi/fetcher/tmp/yt_dlp-2024.5.8.232715.dev0.tar.gz]
+[2024-05-27 01:35:33] INFO root fetch - main [MainThread]: End processing [yt-dlp]: success
+[2024-05-27 01:35:33] INFO root fetch - main [MainThread]: Store serial: [23388749]
