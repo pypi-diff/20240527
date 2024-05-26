@@ -106,3 +106,24 @@
 [2024-05-27 00:03:45] INFO root fetch - processPackages [yt-dlp]: Remove: archive file [/home/abi/fetcher/tmp/yt_dlp-2024.5.8.232715.dev0.tar.gz]
 [2024-05-27 00:03:45] INFO root fetch - main [MainThread]: End processing [yt-dlp]: success
 [2024-05-27 00:03:45] INFO root fetch - main [MainThread]: Store serial: [23388220]
+[2024-05-27 00:05:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23388220]
+[2024-05-27 00:05:54] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-27 00:05:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ragoon
+[2024-05-27 00:05:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vizrecurse
+[2024-05-27 00:05:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: basicmathw
+[2024-05-27 00:05:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: streamlit_pandera
+[2024-05-27 00:05:54] INFO root fetch - processPackages [vizrecurse]: New version: [1.1.1a1] Old Version: [1.1.1a0]
+[2024-05-27 00:05:54] WARNING root fetch - processPackages [ragoon]: Skipping, unable to determine old version
+[2024-05-27 00:05:54] INFO root fetch - main [MainThread]: End processing [ragoon] error
+[2024-05-27 00:05:54] INFO root fetch - processPackages [vizrecurse]: Downloading https://files.pythonhosted.org/packages/45/ff/99a5c116c88d018744f50d08b9e3d2cf57355a82f85e47ca39dfdf1350fa/vizrecurse-1.1.1a0.tar.gz
+[2024-05-27 00:05:54] WARNING root fetch - processPackages [basicmathw]: Skipping, unable to determine old version
+[2024-05-27 00:05:54] INFO root fetch - main [MainThread]: End processing [basicmathw] error
+[2024-05-27 00:05:54] WARNING root fetch - processPackages [streamlit_pandera]: Skipping, unable to determine old version
+[2024-05-27 00:05:54] INFO root fetch - main [MainThread]: End processing [streamlit_pandera] error
+[2024-05-27 00:05:54] INFO root fetch - processPackages [vizrecurse]: Downloading https://files.pythonhosted.org/packages/69/0b/7c1ea5c54e464251f3a2859cb5e5776ba7407eea6ef82f937eda596c646f/vizrecurse-1.1.1a1.tar.gz
+[2024-05-27 00:05:54] INFO root fetch - processPackages [vizrecurse]: executing diffoscope
+[2024-05-27 00:05:54] INFO root fetch - processPackages [vizrecurse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vizrecurse-1.1.1a0.tar.gz tmp/vizrecurse-1.1.1a1.tar.gz --markdown 20240527/v/vizrecurse/1.1.1a0-1.1.1a1/README.md --exclude *.pyd
+[2024-05-27 00:05:55] INFO root fetch - processPackages [vizrecurse]: Remove: archive file [/home/abi/fetcher/tmp/vizrecurse-1.1.1a0.tar.gz]
+[2024-05-27 00:05:55] INFO root fetch - processPackages [vizrecurse]: Remove: archive file [/home/abi/fetcher/tmp/vizrecurse-1.1.1a1.tar.gz]
+[2024-05-27 00:05:55] INFO root fetch - main [MainThread]: End processing [vizrecurse]: success
+[2024-05-27 00:05:55] INFO root fetch - main [MainThread]: Store serial: [23388238]
