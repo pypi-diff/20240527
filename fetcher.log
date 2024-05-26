@@ -1,0 +1,51 @@
+[2024-05-27 00:01:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23388172]
+[2024-05-27 00:01:11] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-27 00:01:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tree-sitter-sql-bigquery
+[2024-05-27 00:01:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vizrecurse
+[2024-05-27 00:01:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: blue-stability
+[2024-05-27 00:01:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: articraft
+[2024-05-27 00:01:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: abadpour
+[2024-05-27 00:01:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: FIT-Testcase-Sender
+[2024-05-27 00:01:12] INFO root fetch - processPackages [vizrecurse]: New version: [1.1.1a0] Old Version: [1.1.0]
+[2024-05-27 00:01:12] INFO root fetch - processPackages [blue-stability]: New version: [4.37.1] Old Version: [4.36.1]
+[2024-05-27 00:01:12] INFO root fetch - processPackages [abadpour]: New version: [6.24.1] Old Version: [6.23.1]
+[2024-05-27 00:01:12] INFO root fetch - processPackages [articraft]: New version: [2.8.1] Old Version: [2.7.1]
+[2024-05-27 00:01:12] INFO root fetch - processPackages [tree-sitter-sql-bigquery]: New version: [0.7.1] Old Version: [0.7.0]
+[2024-05-27 00:01:12] WARNING root fetch - processPackages [FIT-Testcase-Sender]: Skipping, unable to determine old version
+[2024-05-27 00:01:12] INFO root fetch - main [MainThread]: End processing [FIT-Testcase-Sender] error
+[2024-05-27 00:01:12] INFO root fetch - processPackages [articraft]: Downloading https://files.pythonhosted.org/packages/6a/3b/cbab94b8835457bd1786297e78e64fc690fbaeb4a418d88fba9a51ed9290/articraft-2.7.1.tar.gz
+[2024-05-27 00:01:12] INFO root fetch - processPackages [abadpour]: Downloading https://files.pythonhosted.org/packages/1c/f9/8b2fa83b1ffabdb56fade04f175610b51f1968b9525fd59c10716737e4c7/abadpour-6.23.1.tar.gz
+[2024-05-27 00:01:12] INFO root fetch - processPackages [blue-stability]: Downloading https://files.pythonhosted.org/packages/76/3a/af42cfcfe09bcc941d5fe403b36ab598dda5d0ddccace500eeaa3218ef5e/blue_stability-4.36.1.tar.gz
+[2024-05-27 00:01:12] INFO root fetch - processPackages [vizrecurse]: Downloading https://files.pythonhosted.org/packages/d2/ad/b3705007fd9b0091b116cba45c6c93d1a966da280219a2110844efffe99e/vizrecurse-1.1.0.tar.gz
+[2024-05-27 00:01:12] INFO root fetch - processPackages [tree-sitter-sql-bigquery]: Downloading https://files.pythonhosted.org/packages/f6/33/372974d4a07336edbf77c4f957209adf658f676198c3c3f476ddc9439b3b/tree-sitter-sql-bigquery-0.7.0.tar.gz
+[2024-05-27 00:01:12] INFO root fetch - processPackages [articraft]: Downloading https://files.pythonhosted.org/packages/4a/46/9314517d0294029f4bace17ae91b3647f7d6378c6995452eebcd6b7d01c6/articraft-2.8.1.tar.gz
+[2024-05-27 00:01:12] INFO root fetch - processPackages [articraft]: executing diffoscope
+[2024-05-27 00:01:12] INFO root fetch - processPackages [articraft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/articraft-2.7.1.tar.gz tmp/articraft-2.8.1.tar.gz --markdown 20240527/a/articraft/2.7.1-2.8.1/README.md --exclude *.pyd
+[2024-05-27 00:01:12] INFO root fetch - processPackages [blue-stability]: Downloading https://files.pythonhosted.org/packages/f9/e5/43fb89555a037bb4bf48de8dc3aeffbeea0db3223cda7d0a55d12954d2e5/blue_stability-4.37.1.tar.gz
+[2024-05-27 00:01:12] INFO root fetch - processPackages [abadpour]: Downloading https://files.pythonhosted.org/packages/b4/fb/7ea19a4e777025a4dc31cf18a478792ca6c81da5a376123286145f1b841f/abadpour-6.24.1.tar.gz
+[2024-05-27 00:01:12] INFO root fetch - processPackages [vizrecurse]: Downloading https://files.pythonhosted.org/packages/45/ff/99a5c116c88d018744f50d08b9e3d2cf57355a82f85e47ca39dfdf1350fa/vizrecurse-1.1.1a0.tar.gz
+[2024-05-27 00:01:12] INFO root fetch - processPackages [blue-stability]: executing diffoscope
+[2024-05-27 00:01:12] INFO root fetch - processPackages [blue-stability]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blue_stability-4.36.1.tar.gz tmp/blue_stability-4.37.1.tar.gz --markdown 20240527/b/blue-stability/4.36.1-4.37.1/README.md --exclude *.pyd
+[2024-05-27 00:01:12] INFO root fetch - processPackages [abadpour]: executing diffoscope
+[2024-05-27 00:01:12] INFO root fetch - processPackages [abadpour]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abadpour-6.23.1.tar.gz tmp/abadpour-6.24.1.tar.gz --markdown 20240527/a/abadpour/6.23.1-6.24.1/README.md --exclude *.pyd
+[2024-05-27 00:01:12] INFO root fetch - processPackages [vizrecurse]: executing diffoscope
+[2024-05-27 00:01:12] INFO root fetch - processPackages [vizrecurse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vizrecurse-1.1.0.tar.gz tmp/vizrecurse-1.1.1a0.tar.gz --markdown 20240527/v/vizrecurse/1.1.0-1.1.1a0/README.md --exclude *.pyd
+[2024-05-27 00:01:13] INFO root fetch - processPackages [articraft]: Remove: archive file [/home/abi/fetcher/tmp/articraft-2.7.1.tar.gz]
+[2024-05-27 00:01:13] INFO root fetch - processPackages [articraft]: Remove: archive file [/home/abi/fetcher/tmp/articraft-2.8.1.tar.gz]
+[2024-05-27 00:01:13] INFO root fetch - main [MainThread]: End processing [articraft]: success
+[2024-05-27 00:01:13] INFO root fetch - processPackages [abadpour]: Remove: archive file [/home/abi/fetcher/tmp/abadpour-6.23.1.tar.gz]
+[2024-05-27 00:01:13] INFO root fetch - processPackages [abadpour]: Remove: archive file [/home/abi/fetcher/tmp/abadpour-6.24.1.tar.gz]
+[2024-05-27 00:01:13] INFO root fetch - main [MainThread]: End processing [abadpour]: success
+[2024-05-27 00:01:13] INFO root fetch - processPackages [tree-sitter-sql-bigquery]: Downloading https://files.pythonhosted.org/packages/94/5d/423ccc8f6ab7647911da9fc32fa267fab7b0b6a6bec8cc9c3fe1772c1c2c/tree-sitter-sql-bigquery-0.7.1.tar.gz
+[2024-05-27 00:01:13] INFO root fetch - processPackages [blue-stability]: Remove: archive file [/home/abi/fetcher/tmp/blue_stability-4.36.1.tar.gz]
+[2024-05-27 00:01:13] INFO root fetch - processPackages [blue-stability]: Remove: archive file [/home/abi/fetcher/tmp/blue_stability-4.37.1.tar.gz]
+[2024-05-27 00:01:13] INFO root fetch - main [MainThread]: End processing [blue-stability]: success
+[2024-05-27 00:01:13] INFO root fetch - processPackages [vizrecurse]: Remove: archive file [/home/abi/fetcher/tmp/vizrecurse-1.1.0.tar.gz]
+[2024-05-27 00:01:13] INFO root fetch - processPackages [vizrecurse]: Remove: archive file [/home/abi/fetcher/tmp/vizrecurse-1.1.1a0.tar.gz]
+[2024-05-27 00:01:13] INFO root fetch - main [MainThread]: End processing [vizrecurse]: success
+[2024-05-27 00:01:13] INFO root fetch - processPackages [tree-sitter-sql-bigquery]: executing diffoscope
+[2024-05-27 00:01:13] INFO root fetch - processPackages [tree-sitter-sql-bigquery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tree-sitter-sql-bigquery-0.7.0.tar.gz tmp/tree-sitter-sql-bigquery-0.7.1.tar.gz --markdown 20240527/t/tree-sitter-sql-bigquery/0.7.0-0.7.1/README.md --exclude *.pyd
+[2024-05-27 00:01:27] INFO root fetch - processPackages [tree-sitter-sql-bigquery]: Remove: archive file [/home/abi/fetcher/tmp/tree-sitter-sql-bigquery-0.7.0.tar.gz]
+[2024-05-27 00:01:27] INFO root fetch - processPackages [tree-sitter-sql-bigquery]: Remove: archive file [/home/abi/fetcher/tmp/tree-sitter-sql-bigquery-0.7.1.tar.gz]
+[2024-05-27 00:01:27] INFO root fetch - main [MainThread]: End processing [tree-sitter-sql-bigquery]: success
+[2024-05-27 00:01:27] INFO root fetch - main [MainThread]: Store serial: [23388197]
