@@ -405,3 +405,15 @@
 [2024-05-27 00:32:23] INFO root fetch - processPackages [PyE2]: Remove: archive file [/home/abi/fetcher/tmp/pye2-0.8.9.tar.gz]
 [2024-05-27 00:32:23] INFO root fetch - main [MainThread]: End processing [PyE2]: success
 [2024-05-27 00:32:23] INFO root fetch - main [MainThread]: Store serial: [23388398]
+[2024-05-27 00:34:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23388398]
+[2024-05-27 00:34:31] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-27 00:34:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hapi-schema
+[2024-05-27 00:34:31] INFO root fetch - processPackages [hapi-schema]: New version: [0.8.7] Old Version: [0.8.6]
+[2024-05-27 00:34:32] INFO root fetch - processPackages [hapi-schema]: Downloading https://files.pythonhosted.org/packages/22/2d/df1965d84c22c452fd7937f71fe54743fb7eded8a00ea3224d8b1adab2b0/hapi_schema-0.8.6.tar.gz
+[2024-05-27 00:34:32] INFO root fetch - processPackages [hapi-schema]: Downloading https://files.pythonhosted.org/packages/d1/4c/890a45099d35d855d8a8aa2080db8ce82fa0c1b4bdf45f8a26c662687c0f/hapi_schema-0.8.7.tar.gz
+[2024-05-27 00:34:32] INFO root fetch - processPackages [hapi-schema]: executing diffoscope
+[2024-05-27 00:34:32] INFO root fetch - processPackages [hapi-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hapi_schema-0.8.6.tar.gz tmp/hapi_schema-0.8.7.tar.gz --markdown 20240527/h/hapi-schema/0.8.6-0.8.7/README.md --exclude *.pyd
+[2024-05-27 00:34:33] INFO root fetch - processPackages [hapi-schema]: Remove: archive file [/home/abi/fetcher/tmp/hapi_schema-0.8.6.tar.gz]
+[2024-05-27 00:34:33] INFO root fetch - processPackages [hapi-schema]: Remove: archive file [/home/abi/fetcher/tmp/hapi_schema-0.8.7.tar.gz]
+[2024-05-27 00:34:33] INFO root fetch - main [MainThread]: End processing [hapi-schema]: success
+[2024-05-27 00:34:33] INFO root fetch - main [MainThread]: Store serial: [23388401]
