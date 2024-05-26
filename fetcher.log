@@ -1356,3 +1356,15 @@
 [2024-05-27 01:57:26] INFO root fetch - processPackages [tree-sitter-sql-bigquery]: Remove: archive file [/home/abi/fetcher/tmp/tree-sitter-sql-bigquery-0.7.1.tar.gz]
 [2024-05-27 01:57:26] INFO root fetch - main [MainThread]: End processing [tree-sitter-sql-bigquery]: success
 [2024-05-27 01:57:26] INFO root fetch - main [MainThread]: Store serial: [23388843]
+[2024-05-27 01:59:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23388843]
+[2024-05-27 01:59:36] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-27 01:59:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: py-alpaca-api
+[2024-05-27 01:59:36] INFO root fetch - processPackages [py-alpaca-api]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-05-27 01:59:36] INFO root fetch - processPackages [py-alpaca-api]: Downloading https://files.pythonhosted.org/packages/77/cb/b1e6b2da3e0660295b13e6c98dd45fb3d803f001087f7be5c9064eb5d43e/py_alpaca_api-0.5.8.tar.gz
+[2024-05-27 01:59:36] INFO root fetch - processPackages [py-alpaca-api]: Downloading https://files.pythonhosted.org/packages/aa/c6/11c5d3d334a273db8c32669e5cd39be2e89b30858b8ade77e19b1c9c35c9/py_alpaca_api-0.5.9.tar.gz
+[2024-05-27 01:59:36] INFO root fetch - processPackages [py-alpaca-api]: executing diffoscope
+[2024-05-27 01:59:36] INFO root fetch - processPackages [py-alpaca-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_alpaca_api-0.5.8.tar.gz tmp/py_alpaca_api-0.5.9.tar.gz --markdown 20240527/p/py-alpaca-api/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-05-27 01:59:37] INFO root fetch - processPackages [py-alpaca-api]: Remove: archive file [/home/abi/fetcher/tmp/py_alpaca_api-0.5.8.tar.gz]
+[2024-05-27 01:59:37] INFO root fetch - processPackages [py-alpaca-api]: Remove: archive file [/home/abi/fetcher/tmp/py_alpaca_api-0.5.9.tar.gz]
+[2024-05-27 01:59:37] INFO root fetch - main [MainThread]: End processing [py-alpaca-api]: success
+[2024-05-27 01:59:37] INFO root fetch - main [MainThread]: Store serial: [23388846]
