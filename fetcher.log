@@ -716,3 +716,48 @@
 [2024-05-27 01:04:58] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.52b20240525.tar.gz]
 [2024-05-27 01:04:58] INFO root fetch - main [MainThread]: End processing [tmnt]: success
 [2024-05-27 01:04:58] INFO root fetch - main [MainThread]: Store serial: [23388575]
+[2024-05-27 01:07:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23388575]
+[2024-05-27 01:07:07] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-27 01:07:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tmnt
+[2024-05-27 01:07:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: notebooks-and-scripts
+[2024-05-27 01:07:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pattern-outlier
+[2024-05-27 01:07:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: louvainsplit
+[2024-05-27 01:07:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pymemgpt
+[2024-05-27 01:07:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pymemgpt-nightly
+[2024-05-27 01:07:07] INFO root fetch - processPackages [pymemgpt-nightly]: New version: [0.3.9.dev20240412103904] Old Version: [0.3.9.dev20240411103902]
+[2024-05-27 01:07:07] INFO root fetch - processPackages [notebooks-and-scripts]: New version: [4.467.1] Old Version: [4.466.1]
+[2024-05-27 01:07:07] INFO root fetch - processPackages [tmnt]: New version: [0.7.52b20240526] Old Version: [0.7.52b20240525]
+[2024-05-27 01:07:07] WARNING root fetch - processPackages [louvainsplit]: Skipping, unable to determine old version
+[2024-05-27 01:07:07] INFO root fetch - main [MainThread]: End processing [louvainsplit] error
+[2024-05-27 01:07:07] INFO root fetch - processPackages [pymemgpt-nightly]: Downloading https://files.pythonhosted.org/packages/28/e7/e8c0c970c21e3670e810627cef085bbbbac1f9e994540354838d7781a0ac/pymemgpt_nightly-0.3.9.dev20240411103902.tar.gz
+[2024-05-27 01:07:07] INFO root fetch - processPackages [notebooks-and-scripts]: Downloading https://files.pythonhosted.org/packages/a0/99/8c0139d75b578bca6b21113bb8319e8e1555e5b3f8eac7d59df33e16333e/notebooks_and_scripts-4.466.1.tar.gz
+[2024-05-27 01:07:07] INFO root fetch - processPackages [pymemgpt]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-27 01:07:07] WARNING root fetch - processPackages [pattern-outlier]: Skipping, unable to determine old version
+[2024-05-27 01:07:07] INFO root fetch - main [MainThread]: End processing [pattern-outlier] error
+[2024-05-27 01:07:07] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/fd/96/24be65a7877eaabf4c80a18583f202423a0a02e3aa1720a36dec20bc671d/tmnt-0.7.52b20240525.tar.gz
+[2024-05-27 01:07:07] INFO root fetch - processPackages [pymemgpt]: Downloading https://files.pythonhosted.org/packages/06/f9/30dc88091552c220242217b9fd60e294f4f9792315fa873eceb3375e0b87/pymemgpt-0.3.8.tar.gz
+[2024-05-27 01:07:07] INFO root fetch - processPackages [pymemgpt-nightly]: Downloading https://files.pythonhosted.org/packages/50/4a/4c9c1fb70a7ee971f3c8697cc6dedb251e3b10cafdd23be4d035ece0f2ec/pymemgpt_nightly-0.3.9.dev20240412103904.tar.gz
+[2024-05-27 01:07:07] INFO root fetch - processPackages [notebooks-and-scripts]: Downloading https://files.pythonhosted.org/packages/f1/70/56ffdac8dfc3e4323b463adaab5f50ac288bade2f0acea1d96a0d3c854ef/notebooks_and_scripts-4.467.1.tar.gz
+[2024-05-27 01:07:07] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/10/0d/2fa46cf6d2282d6c06a425ae0dd3d3d9587d5c59c2ded94fa1a507f6d567/tmnt-0.7.52b20240526.tar.gz
+[2024-05-27 01:07:07] INFO root fetch - processPackages [notebooks-and-scripts]: executing diffoscope
+[2024-05-27 01:07:07] INFO root fetch - processPackages [notebooks-and-scripts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notebooks_and_scripts-4.466.1.tar.gz tmp/notebooks_and_scripts-4.467.1.tar.gz --markdown 20240527/n/notebooks-and-scripts/4.466.1-4.467.1/README.md --exclude *.pyd
+[2024-05-27 01:07:07] INFO root fetch - processPackages [pymemgpt-nightly]: executing diffoscope
+[2024-05-27 01:07:07] INFO root fetch - processPackages [pymemgpt-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymemgpt_nightly-0.3.9.dev20240411103902.tar.gz tmp/pymemgpt_nightly-0.3.9.dev20240412103904.tar.gz --markdown 20240527/p/pymemgpt-nightly/0.3.9.dev20240411103902-0.3.9.dev20240412103904/README.md --exclude *.pyd
+[2024-05-27 01:07:07] INFO root fetch - processPackages [tmnt]: executing diffoscope
+[2024-05-27 01:07:07] INFO root fetch - processPackages [tmnt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-0.7.52b20240525.tar.gz tmp/tmnt-0.7.52b20240526.tar.gz --markdown 20240527/t/tmnt/0.7.52b20240525-0.7.52b20240526/README.md --exclude *.pyd
+[2024-05-27 01:07:07] INFO root fetch - processPackages [pymemgpt]: Downloading https://files.pythonhosted.org/packages/cd/2e/4361ff93f07d87ed5b38cfc0fa22c2bf04b2bc5429a7d4cd910728659112/pymemgpt-0.3.9.tar.gz
+[2024-05-27 01:07:08] INFO root fetch - processPackages [pymemgpt]: executing diffoscope
+[2024-05-27 01:07:08] INFO root fetch - processPackages [pymemgpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymemgpt-0.3.8.tar.gz tmp/pymemgpt-0.3.9.tar.gz --markdown 20240527/p/pymemgpt/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-27 01:07:08] INFO root fetch - processPackages [notebooks-and-scripts]: Remove: archive file [/home/abi/fetcher/tmp/notebooks_and_scripts-4.466.1.tar.gz]
+[2024-05-27 01:07:08] INFO root fetch - processPackages [notebooks-and-scripts]: Remove: archive file [/home/abi/fetcher/tmp/notebooks_and_scripts-4.467.1.tar.gz]
+[2024-05-27 01:07:08] INFO root fetch - main [MainThread]: End processing [notebooks-and-scripts]: success
+[2024-05-27 01:07:08] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.52b20240525.tar.gz]
+[2024-05-27 01:07:08] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.52b20240526.tar.gz]
+[2024-05-27 01:07:08] INFO root fetch - main [MainThread]: End processing [tmnt]: success
+[2024-05-27 01:07:08] INFO root fetch - processPackages [pymemgpt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pymemgpt_nightly-0.3.9.dev20240411103902.tar.gz]
+[2024-05-27 01:07:08] INFO root fetch - processPackages [pymemgpt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pymemgpt_nightly-0.3.9.dev20240412103904.tar.gz]
+[2024-05-27 01:07:08] INFO root fetch - main [MainThread]: End processing [pymemgpt-nightly]: success
+[2024-05-27 01:07:14] INFO root fetch - processPackages [pymemgpt]: Remove: archive file [/home/abi/fetcher/tmp/pymemgpt-0.3.8.tar.gz]
+[2024-05-27 01:07:14] INFO root fetch - processPackages [pymemgpt]: Remove: archive file [/home/abi/fetcher/tmp/pymemgpt-0.3.9.tar.gz]
+[2024-05-27 01:07:14] INFO root fetch - main [MainThread]: End processing [pymemgpt]: success
+[2024-05-27 01:07:14] INFO root fetch - main [MainThread]: Store serial: [23388597]
