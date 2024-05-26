@@ -429,3 +429,24 @@
 [2024-05-27 00:36:43] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-1.9.dev0.tar.gz]
 [2024-05-27 00:36:43] INFO root fetch - main [MainThread]: End processing [litellm]: success
 [2024-05-27 00:36:43] INFO root fetch - main [MainThread]: Store serial: [23388404]
+[2024-05-27 00:38:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23388404]
+[2024-05-27 00:38:53] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-27 00:38:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pproject
+[2024-05-27 00:38:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: identity
+[2024-05-27 00:38:53] INFO root fetch - processPackages [pproject]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-27 00:38:53] INFO root fetch - processPackages [pproject]: Downloading https://files.pythonhosted.org/packages/3e/5e/f13064119b1cad2834d99edc77072508b54855d8223d7e2711fee6fc9bba/pproject-0.0.4.tar.gz
+[2024-05-27 00:38:53] INFO root fetch - processPackages [identity]: New version: [0.8.1] Old Version: [0.8.0]
+[2024-05-27 00:38:53] INFO root fetch - processPackages [identity]: Downloading https://files.pythonhosted.org/packages/a4/38/7574383d9337f351dd9b55fc52015b9db24ab15301be084cb20befd565c8/identity-0.8.0.tar.gz
+[2024-05-27 00:38:53] INFO root fetch - processPackages [pproject]: Downloading https://files.pythonhosted.org/packages/b8/86/eab564e2c63f7051e204e4bfe934c762c91565819e7c8dd9ad16201f04c5/pproject-0.0.5-py3-none-any.whl
+[2024-05-27 00:38:53] INFO root fetch - processPackages [pproject]: executing diffoscope
+[2024-05-27 00:38:53] INFO root fetch - processPackages [pproject]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pproject-0.0.4.tar.gz tmp/pproject-0.0.5-py3-none-any.whl.zip --markdown 20240527/p/pproject/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-27 00:38:53] INFO root fetch - processPackages [identity]: Downloading https://files.pythonhosted.org/packages/af/b1/b4d5efaf2a20cd899826ce9a1aea9fc901cb329ff9798af0a0db2e8a1c53/identity-0.8.1.tar.gz
+[2024-05-27 00:38:54] INFO root fetch - processPackages [identity]: executing diffoscope
+[2024-05-27 00:38:54] INFO root fetch - processPackages [identity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/identity-0.8.0.tar.gz tmp/identity-0.8.1.tar.gz --markdown 20240527/i/identity/0.8.0-0.8.1/README.md --exclude *.pyd
+[2024-05-27 00:38:54] INFO root fetch - processPackages [pproject]: Remove: archive file [/home/abi/fetcher/tmp/pproject-0.0.4.tar.gz]
+[2024-05-27 00:38:54] INFO root fetch - processPackages [pproject]: Remove: archive file [/home/abi/fetcher/tmp/pproject-0.0.5-py3-none-any.whl.zip]
+[2024-05-27 00:38:54] INFO root fetch - main [MainThread]: End processing [pproject]: success
+[2024-05-27 00:38:54] INFO root fetch - processPackages [identity]: Remove: archive file [/home/abi/fetcher/tmp/identity-0.8.0.tar.gz]
+[2024-05-27 00:38:54] INFO root fetch - processPackages [identity]: Remove: archive file [/home/abi/fetcher/tmp/identity-0.8.1.tar.gz]
+[2024-05-27 00:38:54] INFO root fetch - main [MainThread]: End processing [identity]: success
+[2024-05-27 00:38:54] INFO root fetch - main [MainThread]: Store serial: [23388410]
