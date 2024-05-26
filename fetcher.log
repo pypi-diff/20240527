@@ -656,3 +656,24 @@
 [2024-05-27 00:58:28] INFO root fetch - processPackages [gitlab-projects-settings]: Remove: archive file [/home/abi/fetcher/tmp/gitlab_projects_settings-4.2.0.tar.gz]
 [2024-05-27 00:58:28] INFO root fetch - main [MainThread]: End processing [gitlab-projects-settings]: success
 [2024-05-27 00:58:28] INFO root fetch - main [MainThread]: Store serial: [23388557]
+[2024-05-27 01:00:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23388557]
+[2024-05-27 01:00:37] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-27 01:00:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: alxhttp
+[2024-05-27 01:00:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: drawlib
+[2024-05-27 01:00:37] INFO root fetch - processPackages [drawlib]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-27 01:00:37] INFO root fetch - processPackages [alxhttp]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-27 01:00:37] INFO root fetch - processPackages [alxhttp]: Downloading https://files.pythonhosted.org/packages/1c/73/afa48b1da1c5632a9db8461b644572ed0eadcf30bdf0a2a28fc4f9a6a39c/alxhttp-0.9.8.tar.gz
+[2024-05-27 01:00:37] INFO root fetch - processPackages [drawlib]: Downloading https://files.pythonhosted.org/packages/60/e9/e832f5447986e057ab79ab1e5d7e016a362ea358b59663545cca63fbafe5/drawlib-0.1.8.tar.gz
+[2024-05-27 01:00:37] INFO root fetch - processPackages [alxhttp]: Downloading https://files.pythonhosted.org/packages/45/ff/f1c80ee9cc343733aae6e0f815fb07be821da7e7bfd5470b1d14f6f673ac/alxhttp-0.9.9.tar.gz
+[2024-05-27 01:00:37] INFO root fetch - processPackages [drawlib]: Downloading https://files.pythonhosted.org/packages/14/38/2b20ad6663407cd5099289880ae7cc2bc2817b52f1751da02396f59388dc/drawlib-0.1.9.tar.gz
+[2024-05-27 01:00:37] INFO root fetch - processPackages [alxhttp]: executing diffoscope
+[2024-05-27 01:00:37] INFO root fetch - processPackages [alxhttp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alxhttp-0.9.8.tar.gz tmp/alxhttp-0.9.9.tar.gz --markdown 20240527/a/alxhttp/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-27 01:00:38] INFO root fetch - processPackages [drawlib]: executing diffoscope
+[2024-05-27 01:00:38] INFO root fetch - processPackages [drawlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drawlib-0.1.8.tar.gz tmp/drawlib-0.1.9.tar.gz --markdown 20240527/d/drawlib/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-27 01:00:38] INFO root fetch - processPackages [alxhttp]: Remove: archive file [/home/abi/fetcher/tmp/alxhttp-0.9.8.tar.gz]
+[2024-05-27 01:00:38] INFO root fetch - processPackages [alxhttp]: Remove: archive file [/home/abi/fetcher/tmp/alxhttp-0.9.9.tar.gz]
+[2024-05-27 01:00:38] INFO root fetch - main [MainThread]: End processing [alxhttp]: success
+[2024-05-27 01:00:38] INFO root fetch - processPackages [drawlib]: Remove: archive file [/home/abi/fetcher/tmp/drawlib-0.1.8.tar.gz]
+[2024-05-27 01:00:38] INFO root fetch - processPackages [drawlib]: Remove: archive file [/home/abi/fetcher/tmp/drawlib-0.1.9.tar.gz]
+[2024-05-27 01:00:38] INFO root fetch - main [MainThread]: End processing [drawlib]: success
+[2024-05-27 01:00:38] INFO root fetch - main [MainThread]: Store serial: [23388563]
