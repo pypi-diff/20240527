@@ -241,3 +241,18 @@
 [2024-05-27 00:17:08] INFO root fetch - processPackages [adelie]: Remove: archive file [/home/abi/fetcher/tmp/adelie-1.1.32.dev10.tar.gz]
 [2024-05-27 00:17:08] INFO root fetch - main [MainThread]: End processing [adelie]: success
 [2024-05-27 00:17:08] INFO root fetch - main [MainThread]: Store serial: [23388326]
+[2024-05-27 00:19:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23388326]
+[2024-05-27 00:19:16] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-27 00:19:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: link-mongodb
+[2024-05-27 00:19:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: maesyorikun
+[2024-05-27 00:19:16] WARNING root fetch - processPackages [maesyorikun]: Skipping, unable to determine old version
+[2024-05-27 00:19:16] INFO root fetch - main [MainThread]: End processing [maesyorikun] error
+[2024-05-27 00:19:17] INFO root fetch - processPackages [link-mongodb]: New version: [2.0.0] Old Version: [1.0.0]
+[2024-05-27 00:19:17] INFO root fetch - processPackages [link-mongodb]: Downloading https://files.pythonhosted.org/packages/65/44/14de8ca45bcdfc1017cee3c5f1e33f089cc3e4e1f91b24d3a740885ab0d4/link_mongodb-1.0.0.tar.gz
+[2024-05-27 00:19:17] INFO root fetch - processPackages [link-mongodb]: Downloading https://files.pythonhosted.org/packages/4c/b6/9d3458ee19e3c326a0face7cc39dff6cb21220b6c8e1aedb132c1f8ccecd/link_mongodb-2.0.0.tar.gz
+[2024-05-27 00:19:17] INFO root fetch - processPackages [link-mongodb]: executing diffoscope
+[2024-05-27 00:19:17] INFO root fetch - processPackages [link-mongodb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/link_mongodb-1.0.0.tar.gz tmp/link_mongodb-2.0.0.tar.gz --markdown 20240527/l/link-mongodb/1.0.0-2.0.0/README.md --exclude *.pyd
+[2024-05-27 00:19:18] INFO root fetch - processPackages [link-mongodb]: Remove: archive file [/home/abi/fetcher/tmp/link_mongodb-1.0.0.tar.gz]
+[2024-05-27 00:19:18] INFO root fetch - processPackages [link-mongodb]: Remove: archive file [/home/abi/fetcher/tmp/link_mongodb-2.0.0.tar.gz]
+[2024-05-27 00:19:18] INFO root fetch - main [MainThread]: End processing [link-mongodb]: success
+[2024-05-27 00:19:18] INFO root fetch - main [MainThread]: Store serial: [23388332]
