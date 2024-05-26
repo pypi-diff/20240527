@@ -635,3 +635,24 @@
 [2024-05-27 00:56:18] INFO root fetch - processPackages [gitlab-projects-migrate]: Remove: archive file [/home/abi/fetcher/tmp/gitlab_projects_migrate-4.0.0.tar.gz]
 [2024-05-27 00:56:18] INFO root fetch - main [MainThread]: End processing [gitlab-projects-migrate]: success
 [2024-05-27 00:56:18] INFO root fetch - main [MainThread]: Store serial: [23388551]
+[2024-05-27 00:58:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23388551]
+[2024-05-27 00:58:27] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-27 00:58:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: class-cache
+[2024-05-27 00:58:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gitlab-projects-settings
+[2024-05-27 00:58:27] INFO root fetch - processPackages [class-cache]: New version: [0.1.0] Old Version: [0.0.1]
+[2024-05-27 00:58:27] INFO root fetch - processPackages [class-cache]: Downloading https://files.pythonhosted.org/packages/79/2a/1ef14d86bd4f21b7441b31bc96a59ba11b0fed2e311c5b214e1ffd669008/class_cache-0.0.1.tar.gz
+[2024-05-27 00:58:27] INFO root fetch - processPackages [gitlab-projects-settings]: New version: [4.2.0] Old Version: [4.1.0]
+[2024-05-27 00:58:27] INFO root fetch - processPackages [class-cache]: Downloading https://files.pythonhosted.org/packages/93/8c/625a079353f8d83e34efc96936a6b355b99c9f83b8d337d1a471362d7edb/class_cache-0.1.0.tar.gz
+[2024-05-27 00:58:27] INFO root fetch - processPackages [gitlab-projects-settings]: Downloading https://files.pythonhosted.org/packages/e4/34/95afe6237b5302eab9f9e47be9593d60032ee90ad949129dfcd19a2ad5ca/gitlab_projects_settings-4.1.0.tar.gz
+[2024-05-27 00:58:27] INFO root fetch - processPackages [class-cache]: executing diffoscope
+[2024-05-27 00:58:27] INFO root fetch - processPackages [class-cache]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/class_cache-0.0.1.tar.gz tmp/class_cache-0.1.0.tar.gz --markdown 20240527/c/class-cache/0.0.1-0.1.0/README.md --exclude *.pyd
+[2024-05-27 00:58:27] INFO root fetch - processPackages [gitlab-projects-settings]: Downloading https://files.pythonhosted.org/packages/49/67/ba8ca5058bab4100630ccc2dec69a61924d52a95092f9ff0716db49e3a3b/gitlab_projects_settings-4.2.0.tar.gz
+[2024-05-27 00:58:28] INFO root fetch - processPackages [gitlab-projects-settings]: executing diffoscope
+[2024-05-27 00:58:28] INFO root fetch - processPackages [gitlab-projects-settings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitlab_projects_settings-4.1.0.tar.gz tmp/gitlab_projects_settings-4.2.0.tar.gz --markdown 20240527/g/gitlab-projects-settings/4.1.0-4.2.0/README.md --exclude *.pyd
+[2024-05-27 00:58:28] INFO root fetch - processPackages [class-cache]: Remove: archive file [/home/abi/fetcher/tmp/class_cache-0.0.1.tar.gz]
+[2024-05-27 00:58:28] INFO root fetch - processPackages [class-cache]: Remove: archive file [/home/abi/fetcher/tmp/class_cache-0.1.0.tar.gz]
+[2024-05-27 00:58:28] INFO root fetch - main [MainThread]: End processing [class-cache]: success
+[2024-05-27 00:58:28] INFO root fetch - processPackages [gitlab-projects-settings]: Remove: archive file [/home/abi/fetcher/tmp/gitlab_projects_settings-4.1.0.tar.gz]
+[2024-05-27 00:58:28] INFO root fetch - processPackages [gitlab-projects-settings]: Remove: archive file [/home/abi/fetcher/tmp/gitlab_projects_settings-4.2.0.tar.gz]
+[2024-05-27 00:58:28] INFO root fetch - main [MainThread]: End processing [gitlab-projects-settings]: success
+[2024-05-27 00:58:28] INFO root fetch - main [MainThread]: Store serial: [23388557]
