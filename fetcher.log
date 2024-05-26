@@ -306,3 +306,27 @@
 [2024-05-27 00:23:39] INFO root fetch - processPackages [pkscreener]: Remove: archive file [/home/abi/fetcher/tmp/pkscreener-0.45.20240526.416.tar.gz]
 [2024-05-27 00:23:39] INFO root fetch - main [MainThread]: End processing [pkscreener]: success
 [2024-05-27 00:23:39] INFO root fetch - main [MainThread]: Store serial: [23388352]
+[2024-05-27 00:25:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23388352]
+[2024-05-27 00:25:48] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-27 00:25:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tolvera
+[2024-05-27 00:25:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: adelie
+[2024-05-27 00:25:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: llmatic
+[2024-05-27 00:25:48] INFO root fetch - processPackages [adelie]: New version: [1.1.32.dev14] Old Version: [1.1.32.dev10]
+[2024-05-27 00:25:48] INFO root fetch - processPackages [adelie]: Downloading https://files.pythonhosted.org/packages/7c/66/1d9faa724e9dda127d46a7696e0552ceadb77d4e24aab354b8a04ecf0750/adelie-1.1.32.dev10.tar.gz
+[2024-05-27 00:25:48] INFO root fetch - processPackages [tolvera]: New version: [0.1.0rc8] Old Version: [0.1.0rc12]
+[2024-05-27 00:25:48] WARNING root fetch - processPackages [llmatic]: Skipping, unable to determine old version
+[2024-05-27 00:25:48] INFO root fetch - main [MainThread]: End processing [llmatic] error
+[2024-05-27 00:25:49] INFO root fetch - processPackages [tolvera]: Downloading https://files.pythonhosted.org/packages/1d/21/5a03d4e9d8aa6982d225034bfcb61a949df7dc537952564854a5476882a9/tolvera-0.1.0rc12.tar.gz
+[2024-05-27 00:25:49] INFO root fetch - processPackages [adelie]: Downloading https://files.pythonhosted.org/packages/6c/8f/e43fc3313db1eab012747fc427868ccc38e478820ec84bc0bfdf09bde497/adelie-1.1.32.dev14.tar.gz
+[2024-05-27 00:25:49] INFO root fetch - processPackages [tolvera]: Downloading https://files.pythonhosted.org/packages/27/a9/65202c5303c9cae86726b344f3cb8da002af9c579b46ebee234b234f7fc4/tolvera-0.1.0rc8.tar.gz
+[2024-05-27 00:25:49] INFO root fetch - processPackages [tolvera]: executing diffoscope
+[2024-05-27 00:25:49] INFO root fetch - processPackages [tolvera]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tolvera-0.1.0rc12.tar.gz tmp/tolvera-0.1.0rc8.tar.gz --markdown 20240527/t/tolvera/0.1.0rc12-0.1.0rc8/README.md --exclude *.pyd
+[2024-05-27 00:25:49] INFO root fetch - processPackages [adelie]: executing diffoscope
+[2024-05-27 00:25:49] INFO root fetch - processPackages [adelie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adelie-1.1.32.dev10.tar.gz tmp/adelie-1.1.32.dev14.tar.gz --markdown 20240527/a/adelie/1.1.32.dev10-1.1.32.dev14/README.md --exclude *.pyd
+[2024-05-27 00:25:50] INFO root fetch - processPackages [tolvera]: Remove: archive file [/home/abi/fetcher/tmp/tolvera-0.1.0rc12.tar.gz]
+[2024-05-27 00:25:50] INFO root fetch - processPackages [tolvera]: Remove: archive file [/home/abi/fetcher/tmp/tolvera-0.1.0rc8.tar.gz]
+[2024-05-27 00:25:50] INFO root fetch - main [MainThread]: End processing [tolvera]: success
+[2024-05-27 00:25:52] INFO root fetch - processPackages [adelie]: Remove: archive file [/home/abi/fetcher/tmp/adelie-1.1.32.dev10.tar.gz]
+[2024-05-27 00:25:52] INFO root fetch - processPackages [adelie]: Remove: archive file [/home/abi/fetcher/tmp/adelie-1.1.32.dev14.tar.gz]
+[2024-05-27 00:25:52] INFO root fetch - main [MainThread]: End processing [adelie]: success
+[2024-05-27 00:25:52] INFO root fetch - main [MainThread]: Store serial: [23388374]
