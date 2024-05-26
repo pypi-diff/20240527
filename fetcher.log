@@ -226,3 +226,18 @@
 [2024-05-27 00:14:56] WARNING root fetch - processPackages [oldaplib]: Skipping, unable to determine old version
 [2024-05-27 00:14:56] INFO root fetch - main [MainThread]: End processing [oldaplib] error
 [2024-05-27 00:14:56] INFO root fetch - main [MainThread]: Store serial: [23388308]
+[2024-05-27 00:17:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23388308]
+[2024-05-27 00:17:04] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-27 00:17:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: adelie
+[2024-05-27 00:17:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: metadrive-simulator-py3.12
+[2024-05-27 00:17:04] INFO root fetch - processPackages [adelie]: New version: [1.1.32.dev10] Old Version: [1.1.32.dev1]
+[2024-05-27 00:17:04] WARNING root fetch - processPackages [metadrive-simulator-py3.12]: Skipping, unable to determine old version
+[2024-05-27 00:17:04] INFO root fetch - main [MainThread]: End processing [metadrive-simulator-py3.12] error
+[2024-05-27 00:17:04] INFO root fetch - processPackages [adelie]: Downloading https://files.pythonhosted.org/packages/07/25/25560075051b0acff29708d08e19ef8629e9095697f9fedc2423e9987fc5/adelie-1.1.32.dev1.tar.gz
+[2024-05-27 00:17:05] INFO root fetch - processPackages [adelie]: Downloading https://files.pythonhosted.org/packages/7c/66/1d9faa724e9dda127d46a7696e0552ceadb77d4e24aab354b8a04ecf0750/adelie-1.1.32.dev10.tar.gz
+[2024-05-27 00:17:05] INFO root fetch - processPackages [adelie]: executing diffoscope
+[2024-05-27 00:17:05] INFO root fetch - processPackages [adelie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adelie-1.1.32.dev1.tar.gz tmp/adelie-1.1.32.dev10.tar.gz --markdown 20240527/a/adelie/1.1.32.dev1-1.1.32.dev10/README.md --exclude *.pyd
+[2024-05-27 00:17:08] INFO root fetch - processPackages [adelie]: Remove: archive file [/home/abi/fetcher/tmp/adelie-1.1.32.dev1.tar.gz]
+[2024-05-27 00:17:08] INFO root fetch - processPackages [adelie]: Remove: archive file [/home/abi/fetcher/tmp/adelie-1.1.32.dev10.tar.gz]
+[2024-05-27 00:17:08] INFO root fetch - main [MainThread]: End processing [adelie]: success
+[2024-05-27 00:17:08] INFO root fetch - main [MainThread]: Store serial: [23388326]
