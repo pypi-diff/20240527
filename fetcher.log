@@ -330,3 +330,33 @@
 [2024-05-27 00:25:52] INFO root fetch - processPackages [adelie]: Remove: archive file [/home/abi/fetcher/tmp/adelie-1.1.32.dev14.tar.gz]
 [2024-05-27 00:25:52] INFO root fetch - main [MainThread]: End processing [adelie]: success
 [2024-05-27 00:25:52] INFO root fetch - main [MainThread]: Store serial: [23388374]
+[2024-05-27 00:27:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23388374]
+[2024-05-27 00:28:00] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-27 00:28:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gemini-webapi
+[2024-05-27 00:28:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: maesyorikun
+[2024-05-27 00:28:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: schwab-api-wrapper
+[2024-05-27 00:28:00] INFO root fetch - processPackages [maesyorikun]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-27 00:28:00] INFO root fetch - processPackages [gemini-webapi]: New version: [1.4.2] Old Version: [1.4.1]
+[2024-05-27 00:28:01] INFO root fetch - processPackages [schwab-api-wrapper]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-27 00:28:01] INFO root fetch - processPackages [gemini-webapi]: Downloading https://files.pythonhosted.org/packages/b8/e7/da378369550a8de470f6347e1f391867ec2277cbf6f4294b6a4e5c8b9257/gemini_webapi-1.4.1.tar.gz
+[2024-05-27 00:28:01] INFO root fetch - processPackages [maesyorikun]: Downloading https://files.pythonhosted.org/packages/a2/f9/429eda57d43ce759b3c813da3bd3758d86fa59f675e8e9a78554bc66a6bc/maesyorikun-0.1.0-py3-none-any.whl
+[2024-05-27 00:28:01] INFO root fetch - processPackages [schwab-api-wrapper]: Downloading https://files.pythonhosted.org/packages/72/66/54f9ce3af53a2c4310c45eb6ec2ca5bb77cc63e96df7eafe506b70d74a0d/schwab_api_wrapper-0.0.7.tar.gz
+[2024-05-27 00:28:01] INFO root fetch - processPackages [gemini-webapi]: Downloading https://files.pythonhosted.org/packages/47/fc/f8276b1298c0cf7490922d5710d64e9c6c9d9ba9635cf04247f0779d2dd0/gemini_webapi-1.4.2.tar.gz
+[2024-05-27 00:28:01] INFO root fetch - processPackages [maesyorikun]: Downloading https://files.pythonhosted.org/packages/bb/da/afac7f367c9f9b6dccfe900431a5d23188c387ade990c8d7ac4517daa46a/maesyorikun-0.1.1-py3-none-any.whl
+[2024-05-27 00:28:01] INFO root fetch - processPackages [schwab-api-wrapper]: Downloading https://files.pythonhosted.org/packages/c7/1d/1aa0d8b0a4e6a95b6e8dfb76f08a785def3ef2acee28a2e9d1262e1f61da/schwab_api_wrapper-0.0.8.tar.gz
+[2024-05-27 00:28:01] INFO root fetch - processPackages [maesyorikun]: executing diffoscope
+[2024-05-27 00:28:01] INFO root fetch - processPackages [maesyorikun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maesyorikun-0.1.0-py3-none-any.whl.zip tmp/maesyorikun-0.1.1-py3-none-any.whl.zip --markdown 20240527/m/maesyorikun/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-27 00:28:01] INFO root fetch - processPackages [gemini-webapi]: executing diffoscope
+[2024-05-27 00:28:01] INFO root fetch - processPackages [gemini-webapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gemini_webapi-1.4.1.tar.gz tmp/gemini_webapi-1.4.2.tar.gz --markdown 20240527/g/gemini-webapi/1.4.1-1.4.2/README.md --exclude *.pyd
+[2024-05-27 00:28:01] INFO root fetch - processPackages [schwab-api-wrapper]: executing diffoscope
+[2024-05-27 00:28:01] INFO root fetch - processPackages [schwab-api-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/schwab_api_wrapper-0.0.7.tar.gz tmp/schwab_api_wrapper-0.0.8.tar.gz --markdown 20240527/s/schwab-api-wrapper/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-27 00:28:02] INFO root fetch - processPackages [maesyorikun]: Remove: archive file [/home/abi/fetcher/tmp/maesyorikun-0.1.0-py3-none-any.whl.zip]
+[2024-05-27 00:28:02] INFO root fetch - processPackages [maesyorikun]: Remove: archive file [/home/abi/fetcher/tmp/maesyorikun-0.1.1-py3-none-any.whl.zip]
+[2024-05-27 00:28:02] INFO root fetch - main [MainThread]: End processing [maesyorikun]: success
+[2024-05-27 00:28:02] INFO root fetch - processPackages [schwab-api-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/schwab_api_wrapper-0.0.7.tar.gz]
+[2024-05-27 00:28:02] INFO root fetch - processPackages [schwab-api-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/schwab_api_wrapper-0.0.8.tar.gz]
+[2024-05-27 00:28:02] INFO root fetch - main [MainThread]: End processing [schwab-api-wrapper]: success
+[2024-05-27 00:28:02] INFO root fetch - processPackages [gemini-webapi]: Remove: archive file [/home/abi/fetcher/tmp/gemini_webapi-1.4.1.tar.gz]
+[2024-05-27 00:28:02] INFO root fetch - processPackages [gemini-webapi]: Remove: archive file [/home/abi/fetcher/tmp/gemini_webapi-1.4.2.tar.gz]
+[2024-05-27 00:28:02] INFO root fetch - main [MainThread]: End processing [gemini-webapi]: success
+[2024-05-27 00:28:02] INFO root fetch - main [MainThread]: Store serial: [23388383]
