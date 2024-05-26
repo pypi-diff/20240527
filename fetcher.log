@@ -1206,3 +1206,24 @@
 [2024-05-27 01:42:03] INFO root fetch - processPackages [eras]: Remove: archive file [/home/abi/fetcher/tmp/eras-0.4.7.tar.gz]
 [2024-05-27 01:42:03] INFO root fetch - main [MainThread]: End processing [eras]: success
 [2024-05-27 01:42:03] INFO root fetch - main [MainThread]: Store serial: [23388782]
+[2024-05-27 01:44:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23388782]
+[2024-05-27 01:44:12] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-27 01:44:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: silgeai
+[2024-05-27 01:44:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: quest-decoding
+[2024-05-27 01:44:12] INFO root fetch - processPackages [quest-decoding]: New version: [1.0.8] Old Version: [1.0.7]
+[2024-05-27 01:44:12] INFO root fetch - processPackages [quest-decoding]: Downloading https://files.pythonhosted.org/packages/85/b5/65e4deeff556308c61744aa71a1c83f019cd969b70d5b2f8760272996b49/quest-decoding-1.0.7.tar.gz
+[2024-05-27 01:44:12] INFO root fetch - processPackages [silgeai]: New version: [1.3.1] Old Version: [1.3]
+[2024-05-27 01:44:13] INFO root fetch - processPackages [silgeai]: Downloading https://files.pythonhosted.org/packages/ff/f7/473e526c3e7be7e19361307f2a4a7a2ac49c0a9093de303a65d31db633c2/silgeai-1.3.tar.gz
+[2024-05-27 01:44:13] INFO root fetch - processPackages [quest-decoding]: Downloading https://files.pythonhosted.org/packages/84/36/f9644650bd0463143adc9319506ae0936df1fa77ffa4f00b2352cc6bf83d/quest-decoding-1.0.8.tar.gz
+[2024-05-27 01:44:13] INFO root fetch - processPackages [quest-decoding]: executing diffoscope
+[2024-05-27 01:44:13] INFO root fetch - processPackages [quest-decoding]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quest-decoding-1.0.7.tar.gz tmp/quest-decoding-1.0.8.tar.gz --markdown 20240527/q/quest-decoding/1.0.7-1.0.8/README.md --exclude *.pyd
+[2024-05-27 01:44:13] INFO root fetch - processPackages [silgeai]: Downloading https://files.pythonhosted.org/packages/65/c2/41b340c6a05675d86afbd368772313859a855d8ff932feb9b6ef3a19911f/silgeai-1.3.1.tar.gz
+[2024-05-27 01:44:13] INFO root fetch - processPackages [silgeai]: executing diffoscope
+[2024-05-27 01:44:13] INFO root fetch - processPackages [silgeai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/silgeai-1.3.tar.gz tmp/silgeai-1.3.1.tar.gz --markdown 20240527/s/silgeai/1.3-1.3.1/README.md --exclude *.pyd
+[2024-05-27 01:44:13] INFO root fetch - processPackages [quest-decoding]: Remove: archive file [/home/abi/fetcher/tmp/quest-decoding-1.0.7.tar.gz]
+[2024-05-27 01:44:13] INFO root fetch - processPackages [quest-decoding]: Remove: archive file [/home/abi/fetcher/tmp/quest-decoding-1.0.8.tar.gz]
+[2024-05-27 01:44:13] INFO root fetch - main [MainThread]: End processing [quest-decoding]: success
+[2024-05-27 01:44:13] INFO root fetch - processPackages [silgeai]: Remove: archive file [/home/abi/fetcher/tmp/silgeai-1.3.tar.gz]
+[2024-05-27 01:44:13] INFO root fetch - processPackages [silgeai]: Remove: archive file [/home/abi/fetcher/tmp/silgeai-1.3.1.tar.gz]
+[2024-05-27 01:44:13] INFO root fetch - main [MainThread]: End processing [silgeai]: success
+[2024-05-27 01:44:13] INFO root fetch - main [MainThread]: Store serial: [23388787]
