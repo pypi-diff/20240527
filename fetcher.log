@@ -698,3 +698,21 @@
 [2024-05-27 01:02:49] INFO root fetch - processPackages [odoo14-addon-ssi-partner]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ssi_partner-14.0.1.6.0-py3-none-any.whl.zip]
 [2024-05-27 01:02:49] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-partner]: success
 [2024-05-27 01:02:49] INFO root fetch - main [MainThread]: Store serial: [23388567]
+[2024-05-27 01:04:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23388567]
+[2024-05-27 01:04:57] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-27 01:04:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: breathrate
+[2024-05-27 01:04:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: whatnow
+[2024-05-27 01:04:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tmnt
+[2024-05-27 01:04:57] WARNING root fetch - processPackages [breathrate]: Skipping, unable to determine old version
+[2024-05-27 01:04:57] INFO root fetch - main [MainThread]: End processing [breathrate] error
+[2024-05-27 01:04:57] INFO root fetch - processPackages [tmnt]: New version: [0.7.52b20240525] Old Version: [0.7.52b20240524]
+[2024-05-27 01:04:57] WARNING root fetch - processPackages [whatnow]: Skipping, unable to determine old version
+[2024-05-27 01:04:57] INFO root fetch - main [MainThread]: End processing [whatnow] error
+[2024-05-27 01:04:57] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/3a/cb/fac9d500e71e12c85537399ff3abe16464085154fa557c69841786d560e3/tmnt-0.7.52b20240524.tar.gz
+[2024-05-27 01:04:58] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/fd/96/24be65a7877eaabf4c80a18583f202423a0a02e3aa1720a36dec20bc671d/tmnt-0.7.52b20240525.tar.gz
+[2024-05-27 01:04:58] INFO root fetch - processPackages [tmnt]: executing diffoscope
+[2024-05-27 01:04:58] INFO root fetch - processPackages [tmnt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-0.7.52b20240524.tar.gz tmp/tmnt-0.7.52b20240525.tar.gz --markdown 20240527/t/tmnt/0.7.52b20240524-0.7.52b20240525/README.md --exclude *.pyd
+[2024-05-27 01:04:58] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.52b20240524.tar.gz]
+[2024-05-27 01:04:58] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.52b20240525.tar.gz]
+[2024-05-27 01:04:58] INFO root fetch - main [MainThread]: End processing [tmnt]: success
+[2024-05-27 01:04:58] INFO root fetch - main [MainThread]: Store serial: [23388575]
