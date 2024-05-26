@@ -208,3 +208,15 @@
 [2024-05-27 00:10:36] INFO root fetch - processPackages [watchtower-pipeline]: Remove: archive file [/home/abi/fetcher/tmp/watchtower_pipeline-1.0.0b3.tar.gz]
 [2024-05-27 00:10:36] INFO root fetch - main [MainThread]: End processing [watchtower-pipeline]: success
 [2024-05-27 00:10:36] INFO root fetch - main [MainThread]: Store serial: [23388284]
+[2024-05-27 00:12:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23388284]
+[2024-05-27 00:12:46] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-27 00:12:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: notebooks-and-scripts
+[2024-05-27 00:12:46] INFO root fetch - processPackages [notebooks-and-scripts]: New version: [4.466.1] Old Version: [4.465.1]
+[2024-05-27 00:12:46] INFO root fetch - processPackages [notebooks-and-scripts]: Downloading https://files.pythonhosted.org/packages/25/d3/b64ea4893265ecc136cac002c564fd02ed066c52e6ee7c69961871eb927e/notebooks_and_scripts-4.465.1.tar.gz
+[2024-05-27 00:12:47] INFO root fetch - processPackages [notebooks-and-scripts]: Downloading https://files.pythonhosted.org/packages/a0/99/8c0139d75b578bca6b21113bb8319e8e1555e5b3f8eac7d59df33e16333e/notebooks_and_scripts-4.466.1.tar.gz
+[2024-05-27 00:12:47] INFO root fetch - processPackages [notebooks-and-scripts]: executing diffoscope
+[2024-05-27 00:12:47] INFO root fetch - processPackages [notebooks-and-scripts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notebooks_and_scripts-4.465.1.tar.gz tmp/notebooks_and_scripts-4.466.1.tar.gz --markdown 20240527/n/notebooks-and-scripts/4.465.1-4.466.1/README.md --exclude *.pyd
+[2024-05-27 00:12:48] INFO root fetch - processPackages [notebooks-and-scripts]: Remove: archive file [/home/abi/fetcher/tmp/notebooks_and_scripts-4.465.1.tar.gz]
+[2024-05-27 00:12:48] INFO root fetch - processPackages [notebooks-and-scripts]: Remove: archive file [/home/abi/fetcher/tmp/notebooks_and_scripts-4.466.1.tar.gz]
+[2024-05-27 00:12:48] INFO root fetch - main [MainThread]: End processing [notebooks-and-scripts]: success
+[2024-05-27 00:12:48] INFO root fetch - main [MainThread]: Store serial: [23388302]
