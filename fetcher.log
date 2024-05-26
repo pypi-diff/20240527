@@ -480,3 +480,27 @@
 [2024-05-27 00:41:04] INFO root fetch - processPackages [datafiles]: Remove: archive file [/home/abi/fetcher/tmp/datafiles-2.2b1.tar.gz]
 [2024-05-27 00:41:04] INFO root fetch - main [MainThread]: End processing [datafiles]: success
 [2024-05-27 00:41:04] INFO root fetch - main [MainThread]: Store serial: [23388419]
+[2024-05-27 00:43:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23388419]
+[2024-05-27 00:43:13] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-27 00:43:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: quest-decoding
+[2024-05-27 00:43:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: glassesTools
+[2024-05-27 00:43:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pdfnaut
+[2024-05-27 00:43:13] INFO root fetch - processPackages [pdfnaut]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-05-27 00:43:13] INFO root fetch - processPackages [glassesTools]: New version: [1.0.0] Old Version: [0.5.1]
+[2024-05-27 00:43:13] WARNING root fetch - processPackages [quest-decoding]: Skipping, unable to determine old version
+[2024-05-27 00:43:13] INFO root fetch - main [MainThread]: End processing [quest-decoding] error
+[2024-05-27 00:43:13] INFO root fetch - processPackages [pdfnaut]: Downloading https://files.pythonhosted.org/packages/8c/d4/ccfde1b79ca7f126263704b3fa3ea3d7e9a64024110f5fc520654456096f/pdfnaut-0.2.0.tar.gz
+[2024-05-27 00:43:13] INFO root fetch - processPackages [glassesTools]: Downloading https://files.pythonhosted.org/packages/7b/1e/2bffa2e10f617a414bca1881a46a05fa12885d2d9c393b17164096555f01/glassestools-0.5.1.tar.gz
+[2024-05-27 00:43:13] INFO root fetch - processPackages [glassesTools]: Downloading https://files.pythonhosted.org/packages/ea/8d/82db6e8e91a24a90e55a4a696c76e1e9be1c771e046dff00eef4f6fa3ce7/glassestools-1.0.0.tar.gz
+[2024-05-27 00:43:13] INFO root fetch - processPackages [pdfnaut]: Downloading https://files.pythonhosted.org/packages/f7/e3/b1e0449ac11c0b7578f527f89c23dad29aa1dacd33a7f51960161cadd689/pdfnaut-0.3.0.tar.gz
+[2024-05-27 00:43:14] INFO root fetch - processPackages [glassesTools]: executing diffoscope
+[2024-05-27 00:43:14] INFO root fetch - processPackages [glassesTools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glassestools-0.5.1.tar.gz tmp/glassestools-1.0.0.tar.gz --markdown 20240527/g/glassesTools/0.5.1-1.0.0/README.md --exclude *.pyd
+[2024-05-27 00:43:14] INFO root fetch - processPackages [pdfnaut]: executing diffoscope
+[2024-05-27 00:43:14] INFO root fetch - processPackages [pdfnaut]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdfnaut-0.2.0.tar.gz tmp/pdfnaut-0.3.0.tar.gz --markdown 20240527/p/pdfnaut/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-05-27 00:43:14] INFO root fetch - processPackages [glassesTools]: Remove: archive file [/home/abi/fetcher/tmp/glassestools-0.5.1.tar.gz]
+[2024-05-27 00:43:14] INFO root fetch - processPackages [glassesTools]: Remove: archive file [/home/abi/fetcher/tmp/glassestools-1.0.0.tar.gz]
+[2024-05-27 00:43:14] INFO root fetch - main [MainThread]: End processing [glassesTools]: success
+[2024-05-27 00:43:14] INFO root fetch - processPackages [pdfnaut]: Remove: archive file [/home/abi/fetcher/tmp/pdfnaut-0.2.0.tar.gz]
+[2024-05-27 00:43:14] INFO root fetch - processPackages [pdfnaut]: Remove: archive file [/home/abi/fetcher/tmp/pdfnaut-0.3.0.tar.gz]
+[2024-05-27 00:43:14] INFO root fetch - main [MainThread]: End processing [pdfnaut]: success
+[2024-05-27 00:43:14] INFO root fetch - main [MainThread]: Store serial: [23388429]
