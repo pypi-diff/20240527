@@ -596,3 +596,15 @@
 [2024-05-27 00:49:46] INFO root fetch - processPackages [taibun]: Remove: archive file [/home/abi/fetcher/tmp/taibun-1.1.5.tar.gz]
 [2024-05-27 00:49:46] INFO root fetch - main [MainThread]: End processing [taibun]: success
 [2024-05-27 00:49:46] INFO root fetch - main [MainThread]: Store serial: [23388528]
+[2024-05-27 00:51:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23388528]
+[2024-05-27 00:51:55] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-27 00:51:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: adelie
+[2024-05-27 00:51:55] INFO root fetch - processPackages [adelie]: New version: [1.1.32.dev15] Old Version: [1.1.32.dev14]
+[2024-05-27 00:51:55] INFO root fetch - processPackages [adelie]: Downloading https://files.pythonhosted.org/packages/6c/8f/e43fc3313db1eab012747fc427868ccc38e478820ec84bc0bfdf09bde497/adelie-1.1.32.dev14.tar.gz
+[2024-05-27 00:51:55] INFO root fetch - processPackages [adelie]: Downloading https://files.pythonhosted.org/packages/13/78/4a5a3fa5343712f8bea2404eb2cdcde59e5f53285216bb30ebcd8b04a8f9/adelie-1.1.32.dev15.tar.gz
+[2024-05-27 00:51:56] INFO root fetch - processPackages [adelie]: executing diffoscope
+[2024-05-27 00:51:56] INFO root fetch - processPackages [adelie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adelie-1.1.32.dev14.tar.gz tmp/adelie-1.1.32.dev15.tar.gz --markdown 20240527/a/adelie/1.1.32.dev14-1.1.32.dev15/README.md --exclude *.pyd
+[2024-05-27 00:51:58] INFO root fetch - processPackages [adelie]: Remove: archive file [/home/abi/fetcher/tmp/adelie-1.1.32.dev14.tar.gz]
+[2024-05-27 00:51:58] INFO root fetch - processPackages [adelie]: Remove: archive file [/home/abi/fetcher/tmp/adelie-1.1.32.dev15.tar.gz]
+[2024-05-27 00:51:58] INFO root fetch - main [MainThread]: End processing [adelie]: success
+[2024-05-27 00:51:58] INFO root fetch - main [MainThread]: Store serial: [23388542]
