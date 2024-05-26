@@ -1125,3 +1125,24 @@
 [2024-05-27 01:35:33] INFO root fetch - processPackages [yt-dlp]: Remove: archive file [/home/abi/fetcher/tmp/yt_dlp-2024.5.8.232715.dev0.tar.gz]
 [2024-05-27 01:35:33] INFO root fetch - main [MainThread]: End processing [yt-dlp]: success
 [2024-05-27 01:35:33] INFO root fetch - main [MainThread]: Store serial: [23388749]
+[2024-05-27 01:37:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23388749]
+[2024-05-27 01:37:42] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-27 01:37:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kfish
+[2024-05-27 01:37:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: MusicSeparationYT
+[2024-05-27 01:37:42] INFO root fetch - processPackages [MusicSeparationYT]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-05-27 01:37:42] INFO root fetch - processPackages [MusicSeparationYT]: Downloading https://files.pythonhosted.org/packages/35/b9/5134f70c0fb749e1721712c07321910db0dc0582641a78ce33467912b636/musicseparationyt-1.0.4.tar.gz
+[2024-05-27 01:37:42] INFO root fetch - processPackages [kfish]: New version: [99.0.202405262336] Old Version: [99.0.202405232242]
+[2024-05-27 01:37:42] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/dc/34/8b475a0a5fb2b2762bfae287c0f05de6f78208a17a79beb12bf7a1e65d4b/kfish-99.0.202405232242-py3-none-any.whl
+[2024-05-27 01:37:42] INFO root fetch - processPackages [MusicSeparationYT]: Downloading https://files.pythonhosted.org/packages/7b/f8/ac30628f642dbfbe016dd5c861c49012fc00aa17c421c400c1b88f55970f/musicseparationyt-1.0.5.tar.gz
+[2024-05-27 01:37:42] INFO root fetch - processPackages [MusicSeparationYT]: executing diffoscope
+[2024-05-27 01:37:42] INFO root fetch - processPackages [MusicSeparationYT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/musicseparationyt-1.0.4.tar.gz tmp/musicseparationyt-1.0.5.tar.gz --markdown 20240527/M/MusicSeparationYT/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-05-27 01:37:42] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/d3/a6/118c3337a5f5b34903b169d959fffd599a623e4b5293649d8456151c30fd/kfish-99.0.202405262336-py3-none-any.whl
+[2024-05-27 01:37:42] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2024-05-27 01:37:42] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202405232242-py3-none-any.whl.zip tmp/kfish-99.0.202405262336-py3-none-any.whl.zip --markdown 20240527/k/kfish/99.0.202405232242-99.0.202405262336/README.md --exclude *.pyd
+[2024-05-27 01:37:43] INFO root fetch - processPackages [MusicSeparationYT]: Remove: archive file [/home/abi/fetcher/tmp/musicseparationyt-1.0.4.tar.gz]
+[2024-05-27 01:37:43] INFO root fetch - processPackages [MusicSeparationYT]: Remove: archive file [/home/abi/fetcher/tmp/musicseparationyt-1.0.5.tar.gz]
+[2024-05-27 01:37:43] INFO root fetch - main [MainThread]: End processing [MusicSeparationYT]: success
+[2024-05-27 01:37:43] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202405232242-py3-none-any.whl.zip]
+[2024-05-27 01:37:43] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202405262336-py3-none-any.whl.zip]
+[2024-05-27 01:37:43] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2024-05-27 01:37:43] INFO root fetch - main [MainThread]: Store serial: [23388754]
