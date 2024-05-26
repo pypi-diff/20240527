@@ -127,3 +127,45 @@
 [2024-05-27 00:05:55] INFO root fetch - processPackages [vizrecurse]: Remove: archive file [/home/abi/fetcher/tmp/vizrecurse-1.1.1a1.tar.gz]
 [2024-05-27 00:05:55] INFO root fetch - main [MainThread]: End processing [vizrecurse]: success
 [2024-05-27 00:05:55] INFO root fetch - main [MainThread]: Store serial: [23388238]
+[2024-05-27 00:07:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23388238]
+[2024-05-27 00:08:03] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-27 00:08:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: verses
+[2024-05-27 00:08:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: moto
+[2024-05-27 00:08:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: procustodibus-agent
+[2024-05-27 00:08:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ragoon
+[2024-05-27 00:08:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: yoto-api
+[2024-05-27 00:08:03] INFO root fetch - processPackages [ragoon]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-27 00:08:03] INFO root fetch - processPackages [yoto-api]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-27 00:08:03] INFO root fetch - processPackages [moto]: New version: [5.0.8.dev9] Old Version: [5.0.8.dev8]
+[2024-05-27 00:08:03] WARNING root fetch - processPackages [verses]: Skipping, unable to determine old version
+[2024-05-27 00:08:03] INFO root fetch - processPackages [procustodibus-agent]: New version: [1.5.2] Old Version: [1.5.1]
+[2024-05-27 00:08:03] INFO root fetch - main [MainThread]: End processing [verses] error
+[2024-05-27 00:08:03] INFO root fetch - processPackages [yoto-api]: Downloading https://files.pythonhosted.org/packages/0c/ce/e8631b9319eccf4ffbaef962e56044d41f29cb3f8c07be1556f741f2569a/yoto_api-1.8.0.tar.gz
+[2024-05-27 00:08:03] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/3b/ac/06a0859bde65d51176d1bc211894343ba012b690fa8ca460b05853a4cc62/moto-5.0.8.dev8.tar.gz
+[2024-05-27 00:08:03] INFO root fetch - processPackages [ragoon]: Downloading https://files.pythonhosted.org/packages/e3/c1/be3e7396dd94fa83e1e2eec95b503090ce4627c404411284f8a59516ff89/ragoon-0.0.1.tar.gz
+[2024-05-27 00:08:04] INFO root fetch - processPackages [yoto-api]: Downloading https://files.pythonhosted.org/packages/28/bc/e9d37198654bf82ae9be692dd9ee95b753eb8ca5b6edf44ab69ecca38f17/yoto_api-1.9.0.tar.gz
+[2024-05-27 00:08:04] INFO root fetch - processPackages [procustodibus-agent]: Downloading https://files.pythonhosted.org/packages/12/53/965aa5a6bd3d62aac5768875d64be9536ca9d7b506f8484df3dd36059f0c/procustodibus_agent-1.5.1.tar.gz
+[2024-05-27 00:08:04] INFO root fetch - processPackages [yoto-api]: executing diffoscope
+[2024-05-27 00:08:04] INFO root fetch - processPackages [yoto-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yoto_api-1.8.0.tar.gz tmp/yoto_api-1.9.0.tar.gz --markdown 20240527/y/yoto-api/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-05-27 00:08:04] INFO root fetch - processPackages [ragoon]: Downloading https://files.pythonhosted.org/packages/b1/b6/8c4e26a488dab9cec5341830e6cae39fa12bda42a900914b75bdc638e878/ragoon-0.0.2.tar.gz
+[2024-05-27 00:08:04] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/cd/82/43857467531c1b56b16670bf50e2d4a85619a54c84ae9aaf1d5deccd41ca/moto-5.0.8.dev9.tar.gz
+[2024-05-27 00:08:04] INFO root fetch - processPackages [procustodibus-agent]: Downloading https://files.pythonhosted.org/packages/52/38/af00af7ddedaa01c9d4fd10a5748a325dcfd27dff375664ffac60a2b9236/procustodibus_agent-1.5.2.tar.gz
+[2024-05-27 00:08:04] INFO root fetch - processPackages [ragoon]: executing diffoscope
+[2024-05-27 00:08:04] INFO root fetch - processPackages [ragoon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ragoon-0.0.1.tar.gz tmp/ragoon-0.0.2.tar.gz --markdown 20240527/r/ragoon/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-27 00:08:04] INFO root fetch - processPackages [procustodibus-agent]: executing diffoscope
+[2024-05-27 00:08:04] INFO root fetch - processPackages [procustodibus-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/procustodibus_agent-1.5.1.tar.gz tmp/procustodibus_agent-1.5.2.tar.gz --markdown 20240527/p/procustodibus-agent/1.5.1-1.5.2/README.md --exclude *.pyd
+[2024-05-27 00:08:04] INFO root fetch - processPackages [moto]: executing diffoscope
+[2024-05-27 00:08:04] INFO root fetch - processPackages [moto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-5.0.8.dev8.tar.gz tmp/moto-5.0.8.dev9.tar.gz --markdown 20240527/m/moto/5.0.8.dev8-5.0.8.dev9/README.md --exclude *.pyd
+[2024-05-27 00:08:04] INFO root fetch - processPackages [yoto-api]: Remove: archive file [/home/abi/fetcher/tmp/yoto_api-1.8.0.tar.gz]
+[2024-05-27 00:08:04] INFO root fetch - processPackages [yoto-api]: Remove: archive file [/home/abi/fetcher/tmp/yoto_api-1.9.0.tar.gz]
+[2024-05-27 00:08:04] INFO root fetch - main [MainThread]: End processing [yoto-api]: success
+[2024-05-27 00:08:05] INFO root fetch - processPackages [ragoon]: Remove: archive file [/home/abi/fetcher/tmp/ragoon-0.0.1.tar.gz]
+[2024-05-27 00:08:05] INFO root fetch - processPackages [ragoon]: Remove: archive file [/home/abi/fetcher/tmp/ragoon-0.0.2.tar.gz]
+[2024-05-27 00:08:05] INFO root fetch - main [MainThread]: End processing [ragoon]: success
+[2024-05-27 00:08:05] INFO root fetch - processPackages [procustodibus-agent]: Remove: archive file [/home/abi/fetcher/tmp/procustodibus_agent-1.5.1.tar.gz]
+[2024-05-27 00:08:05] INFO root fetch - processPackages [procustodibus-agent]: Remove: archive file [/home/abi/fetcher/tmp/procustodibus_agent-1.5.2.tar.gz]
+[2024-05-27 00:08:05] INFO root fetch - main [MainThread]: End processing [procustodibus-agent]: success
+[2024-05-27 00:08:16] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-5.0.8.dev8.tar.gz]
+[2024-05-27 00:08:16] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-5.0.8.dev9.tar.gz]
+[2024-05-27 00:08:16] INFO root fetch - main [MainThread]: End processing [moto]: success
+[2024-05-27 00:08:16] INFO root fetch - main [MainThread]: Store serial: [23388254]
