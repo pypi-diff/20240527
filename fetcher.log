@@ -910,3 +910,24 @@
 [2024-05-27 01:22:23] INFO root fetch - processPackages [aioreqs]: Remove: archive file [/home/abi/fetcher/tmp/aioreqs-1.0.3.tar.gz]
 [2024-05-27 01:22:23] INFO root fetch - main [MainThread]: End processing [aioreqs]: success
 [2024-05-27 01:22:23] INFO root fetch - main [MainThread]: Store serial: [23388648]
+[2024-05-27 01:24:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23388648]
+[2024-05-27 01:24:31] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-27 01:24:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flake8-to-ruff
+[2024-05-27 01:24:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: quest-decoding
+[2024-05-27 01:24:31] INFO root fetch - processPackages [quest-decoding]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-27 01:24:31] INFO root fetch - processPackages [quest-decoding]: Downloading https://files.pythonhosted.org/packages/56/9f/ebac4ff3e572804c03749d33e9a24cd26bad2eea1cafe7007c6d64171357/quest-decoding-1.0.2.tar.gz
+[2024-05-27 01:24:31] INFO root fetch - processPackages [flake8-to-ruff]: New version: [0.0.99.dev0] Old Version: [0.0.94.dev1]
+[2024-05-27 01:24:31] INFO root fetch - processPackages [quest-decoding]: Downloading https://files.pythonhosted.org/packages/48/90/917289ebcb3054c6a80a31dbf3f62f0869c243874077226699ac8e79f3cb/quest-decoding-1.0.3.tar.gz
+[2024-05-27 01:24:32] INFO root fetch - processPackages [flake8-to-ruff]: Downloading https://files.pythonhosted.org/packages/07/59/3b70f652697de70b17cc8560355328e27c0456b121add044bb081bed5521/flake8_to_ruff-0.0.94_dev.1.tar.gz
+[2024-05-27 01:24:32] INFO root fetch - processPackages [quest-decoding]: executing diffoscope
+[2024-05-27 01:24:32] INFO root fetch - processPackages [quest-decoding]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quest-decoding-1.0.2.tar.gz tmp/quest-decoding-1.0.3.tar.gz --markdown 20240527/q/quest-decoding/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-05-27 01:24:32] INFO root fetch - processPackages [flake8-to-ruff]: Downloading https://files.pythonhosted.org/packages/b6/6b/02936902d5e405b9c95338e81d5995dda0300cd3318523c4356e5e13a85f/flake8_to_ruff-0.0.99_dev.0.tar.gz
+[2024-05-27 01:24:32] INFO root fetch - processPackages [flake8-to-ruff]: executing diffoscope
+[2024-05-27 01:24:32] INFO root fetch - processPackages [flake8-to-ruff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flake8_to_ruff-0.0.94_dev.1.tar.gz tmp/flake8_to_ruff-0.0.99_dev.0.tar.gz --markdown 20240527/f/flake8-to-ruff/0.0.94.dev1-0.0.99.dev0/README.md --exclude *.pyd
+[2024-05-27 01:24:32] INFO root fetch - processPackages [quest-decoding]: Remove: archive file [/home/abi/fetcher/tmp/quest-decoding-1.0.2.tar.gz]
+[2024-05-27 01:24:32] INFO root fetch - processPackages [quest-decoding]: Remove: archive file [/home/abi/fetcher/tmp/quest-decoding-1.0.3.tar.gz]
+[2024-05-27 01:24:32] INFO root fetch - main [MainThread]: End processing [quest-decoding]: success
+[2024-05-27 01:24:34] INFO root fetch - processPackages [flake8-to-ruff]: Remove: archive file [/home/abi/fetcher/tmp/flake8_to_ruff-0.0.94_dev.1.tar.gz]
+[2024-05-27 01:24:34] INFO root fetch - processPackages [flake8-to-ruff]: Remove: archive file [/home/abi/fetcher/tmp/flake8_to_ruff-0.0.99_dev.0.tar.gz]
+[2024-05-27 01:24:34] INFO root fetch - main [MainThread]: End processing [flake8-to-ruff]: success
+[2024-05-27 01:24:34] INFO root fetch - main [MainThread]: Store serial: [23388660]
