@@ -1146,3 +1146,21 @@
 [2024-05-27 01:37:43] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202405262336-py3-none-any.whl.zip]
 [2024-05-27 01:37:43] INFO root fetch - main [MainThread]: End processing [kfish]: success
 [2024-05-27 01:37:43] INFO root fetch - main [MainThread]: Store serial: [23388754]
+[2024-05-27 01:39:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23388754]
+[2024-05-27 01:39:51] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-27 01:39:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyhawk-with-a-single-extra-commit
+[2024-05-27 01:39:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Dividers
+[2024-05-27 01:39:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: eras
+[2024-05-27 01:39:51] INFO root fetch - processPackages [eras]: New version: [0.4.6] Old Version: [0.4.5]
+[2024-05-27 01:39:51] INFO root fetch - processPackages [eras]: Downloading https://files.pythonhosted.org/packages/1c/93/d6f22460914472913c3188dd96e6bb0ab834497131fc7e7135aac1955f81/eras-0.4.5.tar.gz
+[2024-05-27 01:39:51] WARNING root fetch - processPackages [Dividers]: Skipping, unable to determine old version
+[2024-05-27 01:39:51] INFO root fetch - main [MainThread]: End processing [Dividers] error
+[2024-05-27 01:39:51] WARNING root fetch - processPackages [pyhawk-with-a-single-extra-commit]: Skipping, unable to determine old version
+[2024-05-27 01:39:51] INFO root fetch - main [MainThread]: End processing [pyhawk-with-a-single-extra-commit] error
+[2024-05-27 01:39:51] INFO root fetch - processPackages [eras]: Downloading https://files.pythonhosted.org/packages/32/05/1f4bfd653450d52c027e1db4b9414b3a46923ccb8019fc00d97ffab9ea24/eras-0.4.6.tar.gz
+[2024-05-27 01:39:52] INFO root fetch - processPackages [eras]: executing diffoscope
+[2024-05-27 01:39:52] INFO root fetch - processPackages [eras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eras-0.4.5.tar.gz tmp/eras-0.4.6.tar.gz --markdown 20240527/e/eras/0.4.5-0.4.6/README.md --exclude *.pyd
+[2024-05-27 01:39:52] INFO root fetch - processPackages [eras]: Remove: archive file [/home/abi/fetcher/tmp/eras-0.4.5.tar.gz]
+[2024-05-27 01:39:52] INFO root fetch - processPackages [eras]: Remove: archive file [/home/abi/fetcher/tmp/eras-0.4.6.tar.gz]
+[2024-05-27 01:39:52] INFO root fetch - main [MainThread]: End processing [eras]: success
+[2024-05-27 01:39:52] INFO root fetch - main [MainThread]: Store serial: [23388766]
