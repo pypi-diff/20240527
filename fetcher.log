@@ -49,3 +49,60 @@
 [2024-05-27 00:01:27] INFO root fetch - processPackages [tree-sitter-sql-bigquery]: Remove: archive file [/home/abi/fetcher/tmp/tree-sitter-sql-bigquery-0.7.1.tar.gz]
 [2024-05-27 00:01:27] INFO root fetch - main [MainThread]: End processing [tree-sitter-sql-bigquery]: success
 [2024-05-27 00:01:27] INFO root fetch - main [MainThread]: Store serial: [23388197]
+[2024-05-27 00:03:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23388197]
+[2024-05-27 00:03:38] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-27 00:03:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: anyio
+[2024-05-27 00:03:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: contact-phone-local
+[2024-05-27 00:03:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: yt-dlp
+[2024-05-27 00:03:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: footium-api
+[2024-05-27 00:03:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: owega
+[2024-05-27 00:03:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: almax-common
+[2024-05-27 00:03:38] INFO root fetch - processPackages [almax-common]: New version: [0.8.2] Old Version: [0.7.0]
+[2024-05-27 00:03:39] INFO root fetch - processPackages [yt-dlp]: New version: [2024.5.8.232715.dev0] Old Version: [2024.5.5.232701.dev0]
+[2024-05-27 00:03:39] INFO root fetch - processPackages [contact-phone-local]: New version: [0.0.9] Old Version: [0.0.18]
+[2024-05-27 00:03:39] INFO root fetch - processPackages [anyio]: New version: [4.4.0] Old Version: [4.3.0]
+[2024-05-27 00:03:39] INFO root fetch - processPackages [footium-api]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-27 00:03:39] INFO root fetch - processPackages [almax-common]: Downloading https://files.pythonhosted.org/packages/6f/d2/d7c74578b16fb861b552333d41e4547e578569efd3ca919677a735354952/almax_common-0.7.0.tar.gz
+[2024-05-27 00:03:39] INFO root fetch - processPackages [owega]: New version: [5.9.0] Old Version: [5.8.6]
+[2024-05-27 00:03:39] INFO root fetch - processPackages [contact-phone-local]: Downloading https://files.pythonhosted.org/packages/7f/57/149f22172846d53da091ba4385e9587963309bcf54b563ce498d9d45f7b5/contact_phone_local-0.0.18.tar.gz
+[2024-05-27 00:03:39] INFO root fetch - processPackages [anyio]: Downloading https://files.pythonhosted.org/packages/db/4d/3970183622f0330d3c23d9b8a5f52e365e50381fd484d08e3285104333d3/anyio-4.3.0.tar.gz
+[2024-05-27 00:03:39] INFO root fetch - processPackages [yt-dlp]: Downloading https://files.pythonhosted.org/packages/84/b9/776c1dd6af3d11b008b3d15993bd9675fea67e86f7b78a1dac88febb9fcf/yt_dlp-2024.5.5.232701.dev0.tar.gz
+[2024-05-27 00:03:39] INFO root fetch - processPackages [footium-api]: Downloading https://files.pythonhosted.org/packages/92/a9/3b2a750fe292ccd054f68134f09d92ce934e0f4a213c70fa18773283d145/footium_api-0.1.2.tar.gz
+[2024-05-27 00:03:39] INFO root fetch - processPackages [almax-common]: Downloading https://files.pythonhosted.org/packages/fb/03/556ddc4c0d02bdf4aaf91a865ccc0e407aa86d39521e68261c92d6cfcba8/almax_common-0.8.2.tar.gz
+[2024-05-27 00:03:39] INFO root fetch - processPackages [owega]: Downloading https://files.pythonhosted.org/packages/ac/4f/b496bf811ff79df0707a9ae492bdb87c538a026737277a35249c7420a7bf/owega-5.8.6.tar.gz
+[2024-05-27 00:03:39] INFO root fetch - processPackages [contact-phone-local]: Downloading https://files.pythonhosted.org/packages/88/b5/c3cd7b2322b674e5115abe0cf1665d7405051dc6307ded8f38e07f5d95e7/contact_phone_local-0.0.9.tar.gz
+[2024-05-27 00:03:39] INFO root fetch - processPackages [almax-common]: executing diffoscope
+[2024-05-27 00:03:39] INFO root fetch - processPackages [almax-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/almax_common-0.7.0.tar.gz tmp/almax_common-0.8.2.tar.gz --markdown 20240527/a/almax-common/0.7.0-0.8.2/README.md --exclude *.pyd
+[2024-05-27 00:03:39] INFO root fetch - processPackages [anyio]: Downloading https://files.pythonhosted.org/packages/e6/e3/c4c8d473d6780ef1853d630d581f70d655b4f8d7553c6997958c283039a2/anyio-4.4.0.tar.gz
+[2024-05-27 00:03:39] INFO root fetch - processPackages [contact-phone-local]: executing diffoscope
+[2024-05-27 00:03:39] INFO root fetch - processPackages [contact-phone-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/contact_phone_local-0.0.18.tar.gz tmp/contact_phone_local-0.0.9.tar.gz --markdown 20240527/c/contact-phone-local/0.0.18-0.0.9/README.md --exclude *.pyd
+[2024-05-27 00:03:39] INFO root fetch - processPackages [yt-dlp]: Downloading https://files.pythonhosted.org/packages/29/37/4d7e7b1d095d515aef0e3e9af758d0dc33fceebfe46ebce02a1a240d274c/yt_dlp-2024.5.8.232715.dev0.tar.gz
+[2024-05-27 00:03:39] INFO root fetch - processPackages [footium-api]: Downloading https://files.pythonhosted.org/packages/c8/27/fb545368be135ffdc3a5c1838b3e579de004b13ed6df7d77af923561a392/footium_api-0.1.3.tar.gz
+[2024-05-27 00:03:39] INFO root fetch - processPackages [anyio]: executing diffoscope
+[2024-05-27 00:03:39] INFO root fetch - processPackages [anyio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anyio-4.3.0.tar.gz tmp/anyio-4.4.0.tar.gz --markdown 20240527/a/anyio/4.3.0-4.4.0/README.md --exclude *.pyd
+[2024-05-27 00:03:39] INFO root fetch - processPackages [owega]: Downloading https://files.pythonhosted.org/packages/1b/6e/0eedaf4b71696dc58a488e8f553ea83a3d03ee5ff1230d9cc577488ce6bf/owega-5.9.0.tar.gz
+[2024-05-27 00:03:39] INFO root fetch - processPackages [footium-api]: executing diffoscope
+[2024-05-27 00:03:39] INFO root fetch - processPackages [footium-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/footium_api-0.1.2.tar.gz tmp/footium_api-0.1.3.tar.gz --markdown 20240527/f/footium-api/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-27 00:03:39] INFO root fetch - processPackages [owega]: executing diffoscope
+[2024-05-27 00:03:39] INFO root fetch - processPackages [owega]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/owega-5.8.6.tar.gz tmp/owega-5.9.0.tar.gz --markdown 20240527/o/owega/5.8.6-5.9.0/README.md --exclude *.pyd
+[2024-05-27 00:03:40] INFO root fetch - processPackages [almax-common]: Remove: archive file [/home/abi/fetcher/tmp/almax_common-0.7.0.tar.gz]
+[2024-05-27 00:03:40] INFO root fetch - processPackages [almax-common]: Remove: archive file [/home/abi/fetcher/tmp/almax_common-0.8.2.tar.gz]
+[2024-05-27 00:03:40] INFO root fetch - main [MainThread]: End processing [almax-common]: success
+[2024-05-27 00:03:40] INFO root fetch - processPackages [contact-phone-local]: Remove: archive file [/home/abi/fetcher/tmp/contact_phone_local-0.0.18.tar.gz]
+[2024-05-27 00:03:40] INFO root fetch - processPackages [contact-phone-local]: Remove: archive file [/home/abi/fetcher/tmp/contact_phone_local-0.0.9.tar.gz]
+[2024-05-27 00:03:40] INFO root fetch - main [MainThread]: End processing [contact-phone-local]: success
+[2024-05-27 00:03:40] INFO root fetch - processPackages [yt-dlp]: executing diffoscope
+[2024-05-27 00:03:40] INFO root fetch - processPackages [yt-dlp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yt_dlp-2024.5.5.232701.dev0.tar.gz tmp/yt_dlp-2024.5.8.232715.dev0.tar.gz --markdown 20240527/y/yt-dlp/2024.5.5.232701.dev0-2024.5.8.232715.dev0/README.md --exclude *.pyd
+[2024-05-27 00:03:40] INFO root fetch - processPackages [footium-api]: Remove: archive file [/home/abi/fetcher/tmp/footium_api-0.1.2.tar.gz]
+[2024-05-27 00:03:40] INFO root fetch - processPackages [footium-api]: Remove: archive file [/home/abi/fetcher/tmp/footium_api-0.1.3.tar.gz]
+[2024-05-27 00:03:40] INFO root fetch - main [MainThread]: End processing [footium-api]: success
+[2024-05-27 00:03:40] INFO root fetch - processPackages [owega]: Remove: archive file [/home/abi/fetcher/tmp/owega-5.8.6.tar.gz]
+[2024-05-27 00:03:40] INFO root fetch - processPackages [owega]: Remove: archive file [/home/abi/fetcher/tmp/owega-5.9.0.tar.gz]
+[2024-05-27 00:03:40] INFO root fetch - main [MainThread]: End processing [owega]: success
+[2024-05-27 00:03:40] INFO root fetch - processPackages [anyio]: Remove: archive file [/home/abi/fetcher/tmp/anyio-4.3.0.tar.gz]
+[2024-05-27 00:03:40] INFO root fetch - processPackages [anyio]: Remove: archive file [/home/abi/fetcher/tmp/anyio-4.4.0.tar.gz]
+[2024-05-27 00:03:41] INFO root fetch - main [MainThread]: End processing [anyio]: success
+[2024-05-27 00:03:45] INFO root fetch - processPackages [yt-dlp]: Remove: archive file [/home/abi/fetcher/tmp/yt_dlp-2024.5.5.232701.dev0.tar.gz]
+[2024-05-27 00:03:45] INFO root fetch - processPackages [yt-dlp]: Remove: archive file [/home/abi/fetcher/tmp/yt_dlp-2024.5.8.232715.dev0.tar.gz]
+[2024-05-27 00:03:45] INFO root fetch - main [MainThread]: End processing [yt-dlp]: success
+[2024-05-27 00:03:45] INFO root fetch - main [MainThread]: Store serial: [23388220]
