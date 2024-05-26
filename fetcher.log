@@ -516,3 +516,50 @@
 [2024-05-27 00:45:25] INFO root fetch - processPackages [clickhouse-connect]: Remove: archive file [/home/abi/fetcher/tmp/clickhouse-connect-0.7.9.tar.gz]
 [2024-05-27 00:45:25] INFO root fetch - main [MainThread]: End processing [clickhouse-connect]: success
 [2024-05-27 00:45:25] INFO root fetch - main [MainThread]: Store serial: [23388471]
+[2024-05-27 00:47:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23388471]
+[2024-05-27 00:47:33] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-27 00:47:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: netbox-validity
+[2024-05-27 00:47:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bipsea
+[2024-05-27 00:47:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: NEMO-reports
+[2024-05-27 00:47:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: MBTI-dictionary
+[2024-05-27 00:47:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: metadrive-simulator-py3-12
+[2024-05-27 00:47:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: seamm
+[2024-05-27 00:47:33] INFO root fetch - processPackages [bipsea]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-27 00:47:33] INFO root fetch - processPackages [bipsea]: Downloading https://files.pythonhosted.org/packages/43/1a/57e704e068a391c69c929b8b5feaadb42a0706b7440210d318b07408c600/bipsea-0.1.1.tar.gz
+[2024-05-27 00:47:33] INFO root fetch - processPackages [metadrive-simulator-py3-12]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-05-27 00:47:33] INFO root fetch - processPackages [netbox-validity]: New version: [2.3.0] Old Version: [2.2.1]
+[2024-05-27 00:47:33] WARNING root fetch - processPackages [MBTI-dictionary]: Skipping, unable to determine old version
+[2024-05-27 00:47:33] INFO root fetch - main [MainThread]: End processing [MBTI-dictionary] error
+[2024-05-27 00:47:33] INFO root fetch - processPackages [NEMO-reports]: New version: [1.8.1] Old Version: [1.8.0]
+[2024-05-27 00:47:33] INFO root fetch - processPackages [seamm]: New version: [220.8.3] Old Version: [2024.5.3.1]
+[2024-05-27 00:47:34] INFO root fetch - processPackages [netbox-validity]: Downloading https://files.pythonhosted.org/packages/eb/17/67149b088f1fffb6950baed8e96f05017a8d3c96cecab60cfaac4b49a5c5/netbox_validity-2.2.1.tar.gz
+[2024-05-27 00:47:34] INFO root fetch - processPackages [metadrive-simulator-py3-12]: Downloading https://files.pythonhosted.org/packages/46/1d/e02a87688cd73f04341880b1b12ec705ac104c7ce0331391658e94973989/metadrive_simulator_py3_12-0.1.0.tar.gz
+[2024-05-27 00:47:34] INFO root fetch - processPackages [NEMO-reports]: Downloading https://files.pythonhosted.org/packages/f7/ed/0458cb694879e092ee68133e499baa0610a8cf83c5286709aeabf1827094/NEMO_reports-1.8.0-py3-none-any.whl
+[2024-05-27 00:47:34] INFO root fetch - processPackages [seamm]: Downloading https://files.pythonhosted.org/packages/5c/3a/3ff97f8f1ee053a7340cdad16894854c31f75ad74b5d38b7b139fe62e75a/seamm-2024.5.3.1.tar.gz
+[2024-05-27 00:47:34] WARNING root fetch - processPackages [metadrive-simulator-py3-12]: Skipping package: exceeds size limit 54209682>=10485760
+[2024-05-27 00:47:34] INFO root fetch - main [MainThread]: End processing [metadrive-simulator-py3-12] error
+[2024-05-27 00:47:34] INFO root fetch - processPackages [bipsea]: Downloading https://files.pythonhosted.org/packages/72/fa/45b37787e1b90258bb2fc3c8dce91648a8866e28c36c44c46b6f9aaca486/bipsea-0.1.2.tar.gz
+[2024-05-27 00:47:34] INFO root fetch - processPackages [bipsea]: executing diffoscope
+[2024-05-27 00:47:34] INFO root fetch - processPackages [bipsea]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bipsea-0.1.1.tar.gz tmp/bipsea-0.1.2.tar.gz --markdown 20240527/b/bipsea/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-27 00:47:34] INFO root fetch - processPackages [netbox-validity]: Downloading https://files.pythonhosted.org/packages/88/c4/312900eaded3eb2583b43bfa8f2901d6e5fe5effef38f35f725d3715e480/netbox_validity-2.3.0.tar.gz
+[2024-05-27 00:47:34] INFO root fetch - processPackages [NEMO-reports]: Downloading https://files.pythonhosted.org/packages/d7/47/c4633f1dc4f0256a434b9ad7c7a32dd39387644686bcc7312181ff0a43b8/NEMO_reports-1.8.1-py3-none-any.whl
+[2024-05-27 00:47:34] INFO root fetch - processPackages [seamm]: Downloading https://files.pythonhosted.org/packages/73/a6/b374fc37a4d9a1891852ea20c1c820584f15f1a55e0d2f73b4b733637218/seamm-220.8.3.tar.gz
+[2024-05-27 00:47:34] INFO root fetch - processPackages [netbox-validity]: executing diffoscope
+[2024-05-27 00:47:34] INFO root fetch - processPackages [netbox-validity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox_validity-2.2.1.tar.gz tmp/netbox_validity-2.3.0.tar.gz --markdown 20240527/n/netbox-validity/2.2.1-2.3.0/README.md --exclude *.pyd
+[2024-05-27 00:47:34] INFO root fetch - processPackages [NEMO-reports]: executing diffoscope
+[2024-05-27 00:47:34] INFO root fetch - processPackages [NEMO-reports]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NEMO_reports-1.8.0-py3-none-any.whl.zip tmp/NEMO_reports-1.8.1-py3-none-any.whl.zip --markdown 20240527/N/NEMO-reports/1.8.0-1.8.1/README.md --exclude *.pyd
+[2024-05-27 00:47:34] INFO root fetch - processPackages [seamm]: executing diffoscope
+[2024-05-27 00:47:34] INFO root fetch - processPackages [seamm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seamm-2024.5.3.1.tar.gz tmp/seamm-220.8.3.tar.gz --markdown 20240527/s/seamm/2024.5.3.1-220.8.3/README.md --exclude *.pyd
+[2024-05-27 00:47:35] INFO root fetch - processPackages [bipsea]: Remove: archive file [/home/abi/fetcher/tmp/bipsea-0.1.1.tar.gz]
+[2024-05-27 00:47:35] INFO root fetch - processPackages [bipsea]: Remove: archive file [/home/abi/fetcher/tmp/bipsea-0.1.2.tar.gz]
+[2024-05-27 00:47:35] INFO root fetch - main [MainThread]: End processing [bipsea]: success
+[2024-05-27 00:47:35] INFO root fetch - processPackages [NEMO-reports]: Remove: archive file [/home/abi/fetcher/tmp/NEMO_reports-1.8.0-py3-none-any.whl.zip]
+[2024-05-27 00:47:35] INFO root fetch - processPackages [NEMO-reports]: Remove: archive file [/home/abi/fetcher/tmp/NEMO_reports-1.8.1-py3-none-any.whl.zip]
+[2024-05-27 00:47:35] INFO root fetch - main [MainThread]: End processing [NEMO-reports]: success
+[2024-05-27 00:47:35] INFO root fetch - processPackages [seamm]: Remove: archive file [/home/abi/fetcher/tmp/seamm-2024.5.3.1.tar.gz]
+[2024-05-27 00:47:35] INFO root fetch - processPackages [seamm]: Remove: archive file [/home/abi/fetcher/tmp/seamm-220.8.3.tar.gz]
+[2024-05-27 00:47:35] INFO root fetch - main [MainThread]: End processing [seamm]: success
+[2024-05-27 00:47:35] INFO root fetch - processPackages [netbox-validity]: Remove: archive file [/home/abi/fetcher/tmp/netbox_validity-2.2.1.tar.gz]
+[2024-05-27 00:47:35] INFO root fetch - processPackages [netbox-validity]: Remove: archive file [/home/abi/fetcher/tmp/netbox_validity-2.3.0.tar.gz]
+[2024-05-27 00:47:35] INFO root fetch - main [MainThread]: End processing [netbox-validity]: success
+[2024-05-27 00:47:35] INFO root fetch - main [MainThread]: Store serial: [23388515]
