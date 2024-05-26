@@ -677,3 +677,24 @@
 [2024-05-27 01:00:38] INFO root fetch - processPackages [drawlib]: Remove: archive file [/home/abi/fetcher/tmp/drawlib-0.1.9.tar.gz]
 [2024-05-27 01:00:38] INFO root fetch - main [MainThread]: End processing [drawlib]: success
 [2024-05-27 01:00:38] INFO root fetch - main [MainThread]: Store serial: [23388563]
+[2024-05-27 01:02:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23388563]
+[2024-05-27 01:02:48] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-27 01:02:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo14-addon-ssi-partner
+[2024-05-27 01:02:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dtogen
+[2024-05-27 01:02:48] INFO root fetch - processPackages [odoo14-addon-ssi-partner]: New version: [14.0.1.6.0] Old Version: [14.0.1.5.0]
+[2024-05-27 01:02:48] INFO root fetch - processPackages [dtogen]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-27 01:02:48] INFO root fetch - processPackages [dtogen]: Downloading https://files.pythonhosted.org/packages/7b/d0/2d5e13913727f276f7172df8c66c03ce2992c5d2df2d32bfd311587fb248/dtogen-0.0.8.tar.gz
+[2024-05-27 01:02:48] INFO root fetch - processPackages [odoo14-addon-ssi-partner]: Downloading https://files.pythonhosted.org/packages/b0/5a/5759eb5b91f6de629796b802709807b55abf51d12762c399873b89a07e8a/odoo14_addon_ssi_partner-14.0.1.5.0-py3-none-any.whl
+[2024-05-27 01:02:49] INFO root fetch - processPackages [odoo14-addon-ssi-partner]: Downloading https://files.pythonhosted.org/packages/8c/bf/4838e65a8d36363285694be5408c0b3a2d7d9caad4c97ffab1b6aa41da17/odoo14_addon_ssi_partner-14.0.1.6.0-py3-none-any.whl
+[2024-05-27 01:02:49] INFO root fetch - processPackages [dtogen]: Downloading https://files.pythonhosted.org/packages/23/28/31d5753e9801893d664709f9ca15838c2086e768f2b1eda54714ae6c44a5/dtogen-0.0.9.tar.gz
+[2024-05-27 01:02:49] INFO root fetch - processPackages [odoo14-addon-ssi-partner]: executing diffoscope
+[2024-05-27 01:02:49] INFO root fetch - processPackages [odoo14-addon-ssi-partner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_ssi_partner-14.0.1.5.0-py3-none-any.whl.zip tmp/odoo14_addon_ssi_partner-14.0.1.6.0-py3-none-any.whl.zip --markdown 20240527/o/odoo14-addon-ssi-partner/14.0.1.5.0-14.0.1.6.0/README.md --exclude *.pyd
+[2024-05-27 01:02:49] INFO root fetch - processPackages [dtogen]: executing diffoscope
+[2024-05-27 01:02:49] INFO root fetch - processPackages [dtogen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dtogen-0.0.8.tar.gz tmp/dtogen-0.0.9.tar.gz --markdown 20240527/d/dtogen/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-27 01:02:49] INFO root fetch - processPackages [dtogen]: Remove: archive file [/home/abi/fetcher/tmp/dtogen-0.0.8.tar.gz]
+[2024-05-27 01:02:49] INFO root fetch - processPackages [dtogen]: Remove: archive file [/home/abi/fetcher/tmp/dtogen-0.0.9.tar.gz]
+[2024-05-27 01:02:49] INFO root fetch - main [MainThread]: End processing [dtogen]: success
+[2024-05-27 01:02:49] INFO root fetch - processPackages [odoo14-addon-ssi-partner]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ssi_partner-14.0.1.5.0-py3-none-any.whl.zip]
+[2024-05-27 01:02:49] INFO root fetch - processPackages [odoo14-addon-ssi-partner]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ssi_partner-14.0.1.6.0-py3-none-any.whl.zip]
+[2024-05-27 01:02:49] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-partner]: success
+[2024-05-27 01:02:49] INFO root fetch - main [MainThread]: Store serial: [23388567]
