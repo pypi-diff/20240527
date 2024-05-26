@@ -785,3 +785,26 @@
 [2024-05-27 01:09:25] INFO root fetch - processPackages [qbittorrent-api]: Remove: archive file [/home/abi/fetcher/tmp/qbittorrent-api-6.0.0.tar.gz]
 [2024-05-27 01:09:25] INFO root fetch - main [MainThread]: End processing [qbittorrent-api]: success
 [2024-05-27 01:09:25] INFO root fetch - main [MainThread]: Store serial: [23388606]
+[2024-05-27 01:11:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23388606]
+[2024-05-27 01:11:33] INFO root fetch - main [MainThread]: No changed packages found
+[2024-05-27 01:13:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23388606]
+[2024-05-27 01:13:39] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-27 01:13:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: maesyorikun
+[2024-05-27 01:13:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aioreqs
+[2024-05-27 01:13:39] INFO root fetch - processPackages [maesyorikun]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-27 01:13:39] INFO root fetch - processPackages [aioreqs]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-27 01:13:39] INFO root fetch - processPackages [maesyorikun]: Downloading https://files.pythonhosted.org/packages/bb/da/afac7f367c9f9b6dccfe900431a5d23188c387ade990c8d7ac4517daa46a/maesyorikun-0.1.1-py3-none-any.whl
+[2024-05-27 01:13:39] INFO root fetch - processPackages [aioreqs]: Downloading https://files.pythonhosted.org/packages/c8/49/c292b5cd9e8ba9ce60eb908180203a91e6d396b3b7453f7e43c1c19c5f08/aioreqs-1.0.1.tar.gz
+[2024-05-27 01:13:39] INFO root fetch - processPackages [maesyorikun]: Downloading https://files.pythonhosted.org/packages/1c/ea/55524d20c8757df8b6f8e659e8620b7031bbacf435e06bfc17006f56b3c6/maesyorikun-0.1.2-py3-none-any.whl
+[2024-05-27 01:13:39] INFO root fetch - processPackages [aioreqs]: Downloading https://files.pythonhosted.org/packages/e8/64/5affa89ed2d10dfed4b8656d445686742dd1a785205f20b1ad4c26c4f0f5/aioreqs-1.0.2.tar.gz
+[2024-05-27 01:13:39] INFO root fetch - processPackages [maesyorikun]: executing diffoscope
+[2024-05-27 01:13:39] INFO root fetch - processPackages [maesyorikun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maesyorikun-0.1.1-py3-none-any.whl.zip tmp/maesyorikun-0.1.2-py3-none-any.whl.zip --markdown 20240527/m/maesyorikun/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-27 01:13:40] INFO root fetch - processPackages [aioreqs]: executing diffoscope
+[2024-05-27 01:13:40] INFO root fetch - processPackages [aioreqs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aioreqs-1.0.1.tar.gz tmp/aioreqs-1.0.2.tar.gz --markdown 20240527/a/aioreqs/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-27 01:13:40] INFO root fetch - processPackages [aioreqs]: Remove: archive file [/home/abi/fetcher/tmp/aioreqs-1.0.1.tar.gz]
+[2024-05-27 01:13:40] INFO root fetch - processPackages [aioreqs]: Remove: archive file [/home/abi/fetcher/tmp/aioreqs-1.0.2.tar.gz]
+[2024-05-27 01:13:40] INFO root fetch - main [MainThread]: End processing [aioreqs]: success
+[2024-05-27 01:13:40] INFO root fetch - processPackages [maesyorikun]: Remove: archive file [/home/abi/fetcher/tmp/maesyorikun-0.1.1-py3-none-any.whl.zip]
+[2024-05-27 01:13:40] INFO root fetch - processPackages [maesyorikun]: Remove: archive file [/home/abi/fetcher/tmp/maesyorikun-0.1.2-py3-none-any.whl.zip]
+[2024-05-27 01:13:40] INFO root fetch - main [MainThread]: End processing [maesyorikun]: success
+[2024-05-27 01:13:40] INFO root fetch - main [MainThread]: Store serial: [23388611]
