@@ -1323,3 +1323,15 @@
 [2024-05-27 01:52:53] INFO root fetch - processPackages [geofileops]: Remove: archive file [/home/abi/fetcher/tmp/geofileops-0.9.0.post2.tar.gz]
 [2024-05-27 01:52:53] INFO root fetch - main [MainThread]: End processing [geofileops]: success
 [2024-05-27 01:52:53] INFO root fetch - main [MainThread]: Store serial: [23388817]
+[2024-05-27 01:54:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23388817]
+[2024-05-27 01:55:01] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-27 01:55:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: quest-decoding
+[2024-05-27 01:55:02] INFO root fetch - processPackages [quest-decoding]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-27 01:55:02] INFO root fetch - processPackages [quest-decoding]: Downloading https://files.pythonhosted.org/packages/84/36/f9644650bd0463143adc9319506ae0936df1fa77ffa4f00b2352cc6bf83d/quest-decoding-1.0.8.tar.gz
+[2024-05-27 01:55:02] INFO root fetch - processPackages [quest-decoding]: Downloading https://files.pythonhosted.org/packages/d6/9d/fca54e398d6df81e0c62852a021b6be44c0be663204ba56b510cebe4d48c/quest-decoding-1.0.9.tar.gz
+[2024-05-27 01:55:02] INFO root fetch - processPackages [quest-decoding]: executing diffoscope
+[2024-05-27 01:55:02] INFO root fetch - processPackages [quest-decoding]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quest-decoding-1.0.8.tar.gz tmp/quest-decoding-1.0.9.tar.gz --markdown 20240527/q/quest-decoding/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-27 01:55:02] INFO root fetch - processPackages [quest-decoding]: Remove: archive file [/home/abi/fetcher/tmp/quest-decoding-1.0.8.tar.gz]
+[2024-05-27 01:55:02] INFO root fetch - processPackages [quest-decoding]: Remove: archive file [/home/abi/fetcher/tmp/quest-decoding-1.0.9.tar.gz]
+[2024-05-27 01:55:02] INFO root fetch - main [MainThread]: End processing [quest-decoding]: success
+[2024-05-27 01:55:02] INFO root fetch - main [MainThread]: Store serial: [23388820]
