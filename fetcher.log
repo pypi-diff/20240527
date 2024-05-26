@@ -1293,3 +1293,33 @@
 [2024-05-27 01:50:44] INFO root fetch - processPackages [repro-apk]: Remove: archive file [/home/abi/fetcher/tmp/repro-apk-0.2.7.tar.gz]
 [2024-05-27 01:50:44] INFO root fetch - main [MainThread]: End processing [repro-apk]: success
 [2024-05-27 01:50:44] INFO root fetch - main [MainThread]: Store serial: [23388808]
+[2024-05-27 01:52:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23388808]
+[2024-05-27 01:52:52] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-27 01:52:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: geofileops
+[2024-05-27 01:52:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: silgeai
+[2024-05-27 01:52:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: naturalexperiments
+[2024-05-27 01:52:52] INFO root fetch - processPackages [naturalexperiments]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-27 01:52:52] INFO root fetch - processPackages [silgeai]: New version: [1.3.1] Old Version: [1.3]
+[2024-05-27 01:52:52] INFO root fetch - processPackages [geofileops]: New version: [0.9.0.post2] Old Version: [0.9.0.post0]
+[2024-05-27 01:52:52] INFO root fetch - processPackages [silgeai]: Downloading https://files.pythonhosted.org/packages/ff/f7/473e526c3e7be7e19361307f2a4a7a2ac49c0a9093de303a65d31db633c2/silgeai-1.3.tar.gz
+[2024-05-27 01:52:52] INFO root fetch - processPackages [naturalexperiments]: Downloading https://files.pythonhosted.org/packages/10/30/e81c30f68a76c1cbcbf37646a3823eb6e87a9b05612968ef8d4ae029d1a5/naturalexperiments-0.1.4.tar.gz
+[2024-05-27 01:52:52] INFO root fetch - processPackages [geofileops]: Downloading https://files.pythonhosted.org/packages/22/10/cf8a193f65e2a56d4e7cf52a19d26bf464c3ca0962307544d8e8c41b7bbc/geofileops-0.9.0.post0.tar.gz
+[2024-05-27 01:52:52] INFO root fetch - processPackages [silgeai]: Downloading https://files.pythonhosted.org/packages/65/c2/41b340c6a05675d86afbd368772313859a855d8ff932feb9b6ef3a19911f/silgeai-1.3.1.tar.gz
+[2024-05-27 01:52:52] INFO root fetch - processPackages [silgeai]: executing diffoscope
+[2024-05-27 01:52:52] INFO root fetch - processPackages [silgeai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/silgeai-1.3.tar.gz tmp/silgeai-1.3.1.tar.gz --markdown 20240527/s/silgeai/1.3-1.3.1/README.md --exclude *.pyd
+[2024-05-27 01:52:52] INFO root fetch - processPackages [geofileops]: Downloading https://files.pythonhosted.org/packages/0f/02/b5d4c834fc542584eb1d5f14b655d19920fa511de6c3ff6fc636d08887c4/geofileops-0.9.0.post2.tar.gz
+[2024-05-27 01:52:52] INFO root fetch - processPackages [naturalexperiments]: Downloading https://files.pythonhosted.org/packages/3f/8c/68430b43e031d3036cd2edd0ed3deebc102ee7de62e35863dfaa4ec27976/naturalexperiments-0.1.5.tar.gz
+[2024-05-27 01:52:53] INFO root fetch - processPackages [naturalexperiments]: executing diffoscope
+[2024-05-27 01:52:53] INFO root fetch - processPackages [naturalexperiments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naturalexperiments-0.1.4.tar.gz tmp/naturalexperiments-0.1.5.tar.gz --markdown 20240527/n/naturalexperiments/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-27 01:52:53] INFO root fetch - processPackages [geofileops]: executing diffoscope
+[2024-05-27 01:52:53] INFO root fetch - processPackages [geofileops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geofileops-0.9.0.post0.tar.gz tmp/geofileops-0.9.0.post2.tar.gz --markdown 20240527/g/geofileops/0.9.0.post0-0.9.0.post2/README.md --exclude *.pyd
+[2024-05-27 01:52:53] INFO root fetch - processPackages [silgeai]: Remove: archive file [/home/abi/fetcher/tmp/silgeai-1.3.tar.gz]
+[2024-05-27 01:52:53] INFO root fetch - processPackages [silgeai]: Remove: archive file [/home/abi/fetcher/tmp/silgeai-1.3.1.tar.gz]
+[2024-05-27 01:52:53] INFO root fetch - main [MainThread]: End processing [silgeai]: success
+[2024-05-27 01:52:53] INFO root fetch - processPackages [naturalexperiments]: Remove: archive file [/home/abi/fetcher/tmp/naturalexperiments-0.1.4.tar.gz]
+[2024-05-27 01:52:53] INFO root fetch - processPackages [naturalexperiments]: Remove: archive file [/home/abi/fetcher/tmp/naturalexperiments-0.1.5.tar.gz]
+[2024-05-27 01:52:53] INFO root fetch - main [MainThread]: End processing [naturalexperiments]: success
+[2024-05-27 01:52:53] INFO root fetch - processPackages [geofileops]: Remove: archive file [/home/abi/fetcher/tmp/geofileops-0.9.0.post0.tar.gz]
+[2024-05-27 01:52:53] INFO root fetch - processPackages [geofileops]: Remove: archive file [/home/abi/fetcher/tmp/geofileops-0.9.0.post2.tar.gz]
+[2024-05-27 01:52:53] INFO root fetch - main [MainThread]: End processing [geofileops]: success
+[2024-05-27 01:52:53] INFO root fetch - main [MainThread]: Store serial: [23388817]
