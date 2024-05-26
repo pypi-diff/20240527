@@ -1335,3 +1335,24 @@
 [2024-05-27 01:55:02] INFO root fetch - processPackages [quest-decoding]: Remove: archive file [/home/abi/fetcher/tmp/quest-decoding-1.0.9.tar.gz]
 [2024-05-27 01:55:02] INFO root fetch - main [MainThread]: End processing [quest-decoding]: success
 [2024-05-27 01:55:02] INFO root fetch - main [MainThread]: Store serial: [23388820]
+[2024-05-27 01:57:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23388820]
+[2024-05-27 01:57:11] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-27 01:57:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tree-sitter-sql-bigquery
+[2024-05-27 01:57:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: adelie
+[2024-05-27 01:57:11] INFO root fetch - processPackages [tree-sitter-sql-bigquery]: New version: [0.7.1] Old Version: [0.7.0]
+[2024-05-27 01:57:11] INFO root fetch - processPackages [adelie]: New version: [1.1.33] Old Version: [1.1.32]
+[2024-05-27 01:57:11] INFO root fetch - processPackages [tree-sitter-sql-bigquery]: Downloading https://files.pythonhosted.org/packages/f6/33/372974d4a07336edbf77c4f957209adf658f676198c3c3f476ddc9439b3b/tree-sitter-sql-bigquery-0.7.0.tar.gz
+[2024-05-27 01:57:11] INFO root fetch - processPackages [adelie]: Downloading https://files.pythonhosted.org/packages/a2/98/6eb5b82282f10a50f60a4d4606f975cf42e400ec5add318c2ff1eb18a97e/adelie-1.1.32.tar.gz
+[2024-05-27 01:57:11] INFO root fetch - processPackages [adelie]: Downloading https://files.pythonhosted.org/packages/f4/dd/3c833ab9941dc7f96c68086d8ff4b78d6ad2fd66fec0b6f1df9a01e41200/adelie-1.1.33.tar.gz
+[2024-05-27 01:57:12] INFO root fetch - processPackages [tree-sitter-sql-bigquery]: Downloading https://files.pythonhosted.org/packages/94/5d/423ccc8f6ab7647911da9fc32fa267fab7b0b6a6bec8cc9c3fe1772c1c2c/tree-sitter-sql-bigquery-0.7.1.tar.gz
+[2024-05-27 01:57:12] INFO root fetch - processPackages [adelie]: executing diffoscope
+[2024-05-27 01:57:12] INFO root fetch - processPackages [adelie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adelie-1.1.32.tar.gz tmp/adelie-1.1.33.tar.gz --markdown 20240527/a/adelie/1.1.32-1.1.33/README.md --exclude *.pyd
+[2024-05-27 01:57:12] INFO root fetch - processPackages [tree-sitter-sql-bigquery]: executing diffoscope
+[2024-05-27 01:57:12] INFO root fetch - processPackages [tree-sitter-sql-bigquery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tree-sitter-sql-bigquery-0.7.0.tar.gz tmp/tree-sitter-sql-bigquery-0.7.1.tar.gz --markdown 20240527/t/tree-sitter-sql-bigquery/0.7.0-0.7.1/README.md --exclude *.pyd
+[2024-05-27 01:57:14] INFO root fetch - processPackages [adelie]: Remove: archive file [/home/abi/fetcher/tmp/adelie-1.1.32.tar.gz]
+[2024-05-27 01:57:14] INFO root fetch - processPackages [adelie]: Remove: archive file [/home/abi/fetcher/tmp/adelie-1.1.33.tar.gz]
+[2024-05-27 01:57:14] INFO root fetch - main [MainThread]: End processing [adelie]: success
+[2024-05-27 01:57:26] INFO root fetch - processPackages [tree-sitter-sql-bigquery]: Remove: archive file [/home/abi/fetcher/tmp/tree-sitter-sql-bigquery-0.7.0.tar.gz]
+[2024-05-27 01:57:26] INFO root fetch - processPackages [tree-sitter-sql-bigquery]: Remove: archive file [/home/abi/fetcher/tmp/tree-sitter-sql-bigquery-0.7.1.tar.gz]
+[2024-05-27 01:57:26] INFO root fetch - main [MainThread]: End processing [tree-sitter-sql-bigquery]: success
+[2024-05-27 01:57:26] INFO root fetch - main [MainThread]: Store serial: [23388843]
