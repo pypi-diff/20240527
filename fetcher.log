@@ -12441,3 +12441,42 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 12:28:33] INFO root fetch - processPackages [imio.restapi]: Remove: archive file [/home/abi/fetcher/tmp/imio.restapi-1.0rc2.tar.gz]
 [2024-05-27 12:28:33] INFO root fetch - main [MainThread]: End processing [imio.restapi]: success
 [2024-05-27 12:28:33] INFO root fetch - main [MainThread]: Store serial: [23394015]
+[2024-05-27 12:30:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23394015]
+[2024-05-27 12:30:41] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-27 12:30:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: plonemeeting.restapi
+[2024-05-27 12:30:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lyyhttpd
+[2024-05-27 12:30:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: stam
+[2024-05-27 12:30:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: plonetheme.imioapps
+[2024-05-27 12:30:41] INFO root fetch - processPackages [lyyhttpd]: New version: [1.3] Old Version: [1.2]
+[2024-05-27 12:30:41] INFO root fetch - processPackages [plonetheme.imioapps]: New version: [2.48] Old Version: [2.47]
+[2024-05-27 12:30:41] INFO root fetch - processPackages [plonemeeting.restapi]: New version: [2.6] Old Version: [2.5]
+[2024-05-27 12:30:42] INFO root fetch - processPackages [stam]: New version: [0.8.2] Old Version: [0.8.1]
+[2024-05-27 12:30:42] INFO root fetch - processPackages [lyyhttpd]: Downloading https://files.pythonhosted.org/packages/8b/09/41182b6cc0793ee890f2cd794bb44805b623824235614a9c2a5c38d113cb/lyyhttpd-1.2.tar.gz
+[2024-05-27 12:30:42] INFO root fetch - processPackages [plonemeeting.restapi]: Downloading https://files.pythonhosted.org/packages/91/a1/8d1618ebfee49aed794f17ebb98057c0ab4210da9b0f4af686210b1ef6a7/plonemeeting.restapi-2.5.tar.gz
+[2024-05-27 12:30:42] INFO root fetch - processPackages [plonetheme.imioapps]: Downloading https://files.pythonhosted.org/packages/fe/04/07db3d52b39cf294b827faab0e9193ecbbb7e352a2e80015bed64cb0d6fd/plonetheme.imioapps-2.47.tar.gz
+[2024-05-27 12:30:42] INFO root fetch - processPackages [stam]: Downloading https://files.pythonhosted.org/packages/bb/be/daab70aeeb0d489994fedf5a39102e869ea27342f44754af6d19a0375ba1/stam-0.8.1.tar.gz
+[2024-05-27 12:30:42] INFO root fetch - processPackages [lyyhttpd]: Downloading https://files.pythonhosted.org/packages/0a/08/1994b5ab81e5a2cf1c432a5729d93c297ff31711ebeef16645c6d438683b/lyyhttpd-1.3.tar.gz
+[2024-05-27 12:30:42] INFO root fetch - processPackages [plonemeeting.restapi]: Downloading https://files.pythonhosted.org/packages/eb/d9/5744eb1a30b311e90da384838eab59e504c0ed0c451c8fd50b8ffa91f98b/plonemeeting.restapi-2.6.tar.gz
+[2024-05-27 12:30:42] INFO root fetch - processPackages [plonetheme.imioapps]: Downloading https://files.pythonhosted.org/packages/4c/f6/ba5106f372a6d3ef806ea392daf3e3a96ed04bfcef5b9ac89f404425c8dc/plonetheme.imioapps-2.48.tar.gz
+[2024-05-27 12:30:42] INFO root fetch - processPackages [lyyhttpd]: executing diffoscope
+[2024-05-27 12:30:42] INFO root fetch - processPackages [lyyhttpd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lyyhttpd-1.2.tar.gz tmp/lyyhttpd-1.3.tar.gz --markdown 20240527/l/lyyhttpd/1.2-1.3/README.md --exclude *.pyd
+[2024-05-27 12:30:42] INFO root fetch - processPackages [plonemeeting.restapi]: executing diffoscope
+[2024-05-27 12:30:42] INFO root fetch - processPackages [plonemeeting.restapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plonemeeting.restapi-2.5.tar.gz tmp/plonemeeting.restapi-2.6.tar.gz --markdown 20240527/p/plonemeeting.restapi/2.5-2.6/README.md --exclude *.pyd
+[2024-05-27 12:30:42] INFO root fetch - processPackages [stam]: Downloading https://files.pythonhosted.org/packages/0e/d9/24ed09b7fc9e26c07fbfd05cb7a6a224f71074cdef802de0333a3a7eb3a5/stam-0.8.2-cp39-cp39-musllinux_1_2_x86_64.whl
+[2024-05-27 12:30:42] INFO root fetch - processPackages [plonetheme.imioapps]: executing diffoscope
+[2024-05-27 12:30:42] INFO root fetch - processPackages [plonetheme.imioapps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plonetheme.imioapps-2.47.tar.gz tmp/plonetheme.imioapps-2.48.tar.gz --markdown 20240527/p/plonetheme.imioapps/2.47-2.48/README.md --exclude *.pyd
+[2024-05-27 12:30:43] INFO root fetch - processPackages [lyyhttpd]: Remove: archive file [/home/abi/fetcher/tmp/lyyhttpd-1.2.tar.gz]
+[2024-05-27 12:30:43] INFO root fetch - processPackages [lyyhttpd]: Remove: archive file [/home/abi/fetcher/tmp/lyyhttpd-1.3.tar.gz]
+[2024-05-27 12:30:43] INFO root fetch - main [MainThread]: End processing [lyyhttpd]: success
+[2024-05-27 12:30:43] INFO root fetch - processPackages [plonemeeting.restapi]: Remove: archive file [/home/abi/fetcher/tmp/plonemeeting.restapi-2.5.tar.gz]
+[2024-05-27 12:30:43] INFO root fetch - processPackages [plonemeeting.restapi]: Remove: archive file [/home/abi/fetcher/tmp/plonemeeting.restapi-2.6.tar.gz]
+[2024-05-27 12:30:43] INFO root fetch - main [MainThread]: End processing [plonemeeting.restapi]: success
+[2024-05-27 12:30:43] INFO root fetch - processPackages [stam]: executing diffoscope
+[2024-05-27 12:30:43] INFO root fetch - processPackages [stam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stam-0.8.1.tar.gz tmp/stam-0.8.2-cp39-cp39-musllinux_1_2_x86_64.whl.zip --markdown 20240527/s/stam/0.8.1-0.8.2/README.md --exclude *.pyd
+[2024-05-27 12:30:43] INFO root fetch - processPackages [plonetheme.imioapps]: Remove: archive file [/home/abi/fetcher/tmp/plonetheme.imioapps-2.47.tar.gz]
+[2024-05-27 12:30:43] INFO root fetch - processPackages [plonetheme.imioapps]: Remove: archive file [/home/abi/fetcher/tmp/plonetheme.imioapps-2.48.tar.gz]
+[2024-05-27 12:30:43] INFO root fetch - main [MainThread]: End processing [plonetheme.imioapps]: success
+[2024-05-27 12:30:44] INFO root fetch - processPackages [stam]: Remove: archive file [/home/abi/fetcher/tmp/stam-0.8.1.tar.gz]
+[2024-05-27 12:30:44] INFO root fetch - processPackages [stam]: Remove: archive file [/home/abi/fetcher/tmp/stam-0.8.2-cp39-cp39-musllinux_1_2_x86_64.whl.zip]
+[2024-05-27 12:30:44] INFO root fetch - main [MainThread]: End processing [stam]: success
+[2024-05-27 12:30:44] INFO root fetch - main [MainThread]: Store serial: [23394050]
