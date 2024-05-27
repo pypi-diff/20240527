@@ -1852,3 +1852,27 @@
 [2024-05-27 02:23:50] INFO root fetch - processPackages [hangman-solver-rs]: Remove: archive file [/home/abi/fetcher/tmp/hangman_solver_rs-0.3.0.tar.gz]
 [2024-05-27 02:23:50] INFO root fetch - main [MainThread]: End processing [hangman-solver-rs]: success
 [2024-05-27 02:23:50] INFO root fetch - main [MainThread]: Store serial: [23389045]
+[2024-05-27 02:25:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23389045]
+[2024-05-27 02:25:58] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-27 02:25:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdktf-local-exec
+[2024-05-27 02:25:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-certbot-dns-route53
+[2024-05-27 02:25:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: torch-onnx
+[2024-05-27 02:25:59] WARNING root fetch - processPackages [torch-onnx]: Skipping, unable to determine old version
+[2024-05-27 02:25:59] INFO root fetch - main [MainThread]: End processing [torch-onnx] error
+[2024-05-27 02:25:59] INFO root fetch - processPackages [cdk-certbot-dns-route53]: New version: [2.4.99] Old Version: [2.4.98]
+[2024-05-27 02:25:59] INFO root fetch - processPackages [cdktf-local-exec]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-05-27 02:25:59] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/7d/4d/b1cb6c8586d736f490cc5099e0220282aadb28d3aefc028cf88e6a183b06/cdk-certbot-dns-route53-2.4.98.tar.gz
+[2024-05-27 02:25:59] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/28/81/76f66486f9d6f5aee6f787bb13f11ab8012414fd95d10756b575fd69b909/cdk-certbot-dns-route53-2.4.99.tar.gz
+[2024-05-27 02:25:59] INFO root fetch - processPackages [cdktf-local-exec]: Downloading https://files.pythonhosted.org/packages/2e/c5/c7466186e123ce498250d5bcf9a74d6fb62a4d7add3b345da0ce48901c49/cdktf-local-exec-0.5.8.tar.gz
+[2024-05-27 02:25:59] INFO root fetch - processPackages [cdk-certbot-dns-route53]: executing diffoscope
+[2024-05-27 02:25:59] INFO root fetch - processPackages [cdk-certbot-dns-route53]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-certbot-dns-route53-2.4.98.tar.gz tmp/cdk-certbot-dns-route53-2.4.99.tar.gz --markdown 20240527/c/cdk-certbot-dns-route53/2.4.98-2.4.99/README.md --exclude *.pyd
+[2024-05-27 02:25:59] INFO root fetch - processPackages [cdktf-local-exec]: Downloading https://files.pythonhosted.org/packages/74/2d/a8a976a3354f955288422458b23352fe0a12f11928fcc3369a6d8a2254a1/cdktf-local-exec-0.5.9.tar.gz
+[2024-05-27 02:26:00] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Remove: archive file [/home/abi/fetcher/tmp/cdk-certbot-dns-route53-2.4.98.tar.gz]
+[2024-05-27 02:26:00] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Remove: archive file [/home/abi/fetcher/tmp/cdk-certbot-dns-route53-2.4.99.tar.gz]
+[2024-05-27 02:26:00] INFO root fetch - main [MainThread]: End processing [cdk-certbot-dns-route53]: success
+[2024-05-27 02:26:00] INFO root fetch - processPackages [cdktf-local-exec]: executing diffoscope
+[2024-05-27 02:26:00] INFO root fetch - processPackages [cdktf-local-exec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-local-exec-0.5.8.tar.gz tmp/cdktf-local-exec-0.5.9.tar.gz --markdown 20240527/c/cdktf-local-exec/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-05-27 02:26:00] INFO root fetch - processPackages [cdktf-local-exec]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-local-exec-0.5.8.tar.gz]
+[2024-05-27 02:26:00] INFO root fetch - processPackages [cdktf-local-exec]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-local-exec-0.5.9.tar.gz]
+[2024-05-27 02:26:00] INFO root fetch - main [MainThread]: End processing [cdktf-local-exec]: success
+[2024-05-27 02:26:00] INFO root fetch - main [MainThread]: Store serial: [23389063]
