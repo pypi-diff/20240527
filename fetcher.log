@@ -11541,3 +11541,51 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 11:50:18] INFO root fetch - processPackages [mlrun]: Remove: archive file [/home/abi/fetcher/tmp/mlrun-1.7.0rc9-py3-none-any.whl.zip]
 [2024-05-27 11:50:18] INFO root fetch - main [MainThread]: End processing [mlrun]: success
 [2024-05-27 11:50:18] INFO root fetch - main [MainThread]: Store serial: [23393514]
+[2024-05-27 11:52:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23393514]
+[2024-05-27 11:52:29] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-27 11:52:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flatpack
+[2024-05-27 11:52:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sbmltoodejax
+[2024-05-27 11:52:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chess-notation
+[2024-05-27 11:52:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mice
+[2024-05-27 11:52:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: openlit
+[2024-05-27 11:52:29] INFO root fetch - processPackages [openlit]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-27 11:52:29] INFO root fetch - processPackages [chess-notation]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-27 11:52:29] INFO root fetch - processPackages [flatpack]: New version: [3.4.99] Old Version: [3.4.98]
+[2024-05-27 11:52:29] INFO root fetch - processPackages [sbmltoodejax]: New version: [0.4.3] Old Version: [0.4.2]
+[2024-05-27 11:52:29] INFO root fetch - processPackages [mice]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-27 11:52:29] INFO root fetch - processPackages [openlit]: Downloading https://files.pythonhosted.org/packages/29/42/fc8346bbdb1b8d3426ce93896c4fa4111231a886d43feaae66541c4e6584/openlit-1.8.0.tar.gz
+[2024-05-27 11:52:29] INFO root fetch - processPackages [chess-notation]: Downloading https://files.pythonhosted.org/packages/32/5b/321aa148837de99a6e8c33c737a8184b9c471a64de7ec63e8881680817ce/chess_notation-0.1.8.tar.gz
+[2024-05-27 11:52:29] INFO root fetch - processPackages [flatpack]: Downloading https://files.pythonhosted.org/packages/cb/39/adcd388eba8071e3318b3a2224e5c96179761da6dbd7cfa96b20311e810f/flatpack-3.4.98.tar.gz
+[2024-05-27 11:52:29] INFO root fetch - processPackages [sbmltoodejax]: Downloading https://files.pythonhosted.org/packages/4b/c8/8eeb90011592916fc10211e49ead71193465e6afcfd2cadcbb9dd12ab7ff/sbmltoodejax-0.4.2.tar.gz
+[2024-05-27 11:52:29] INFO root fetch - processPackages [mice]: Downloading https://files.pythonhosted.org/packages/29/18/6436aced018e4da39e90a1a382ceff39df6478d8beaa0b6661f8cd818333/mice-0.1.8.tar.gz
+[2024-05-27 11:52:29] INFO root fetch - processPackages [openlit]: Downloading https://files.pythonhosted.org/packages/91/44/388b40fbc9a4fe83be86dc9986a33b5d28dcf7026ef65a34014c1c03d46e/openlit-1.9.0.tar.gz
+[2024-05-27 11:52:29] INFO root fetch - processPackages [chess-notation]: Downloading https://files.pythonhosted.org/packages/e6/ec/1281095fa95f2033d2f36787c9714dd3449d8ab54104c0b842fe3ab0c72f/chess_notation-0.1.9.tar.gz
+[2024-05-27 11:52:29] INFO root fetch - processPackages [flatpack]: Downloading https://files.pythonhosted.org/packages/89/20/a694f72cbfa96253cdb38b9f65c7cfd5f3a4fb145d2fe2483132b80dafd4/flatpack-3.4.99.tar.gz
+[2024-05-27 11:52:29] INFO root fetch - processPackages [openlit]: executing diffoscope
+[2024-05-27 11:52:29] INFO root fetch - processPackages [openlit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openlit-1.8.0.tar.gz tmp/openlit-1.9.0.tar.gz --markdown 20240527/o/openlit/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-05-27 11:52:29] INFO root fetch - processPackages [flatpack]: executing diffoscope
+[2024-05-27 11:52:29] INFO root fetch - processPackages [flatpack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flatpack-3.4.98.tar.gz tmp/flatpack-3.4.99.tar.gz --markdown 20240527/f/flatpack/3.4.98-3.4.99/README.md --exclude *.pyd
+[2024-05-27 11:52:29] INFO root fetch - processPackages [chess-notation]: executing diffoscope
+[2024-05-27 11:52:29] INFO root fetch - processPackages [chess-notation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chess_notation-0.1.8.tar.gz tmp/chess_notation-0.1.9.tar.gz --markdown 20240527/c/chess-notation/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-27 11:52:29] INFO root fetch - processPackages [sbmltoodejax]: Downloading https://files.pythonhosted.org/packages/22/42/d2fe2739ff3ce25e70e2723f80c659188caf79be50a943dd033476c0e385/sbmltoodejax-0.4.3.tar.gz
+[2024-05-27 11:52:30] INFO root fetch - processPackages [mice]: Downloading https://files.pythonhosted.org/packages/23/0f/5637d8d225be01f4166a061083bff309632693085b0db3b325da951b22f2/mice-0.1.9.tar.gz
+[2024-05-27 11:52:30] INFO root fetch - processPackages [sbmltoodejax]: executing diffoscope
+[2024-05-27 11:52:30] INFO root fetch - processPackages [sbmltoodejax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sbmltoodejax-0.4.2.tar.gz tmp/sbmltoodejax-0.4.3.tar.gz --markdown 20240527/s/sbmltoodejax/0.4.2-0.4.3/README.md --exclude *.pyd
+[2024-05-27 11:52:30] INFO root fetch - processPackages [mice]: executing diffoscope
+[2024-05-27 11:52:30] INFO root fetch - processPackages [mice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mice-0.1.8.tar.gz tmp/mice-0.1.9.tar.gz --markdown 20240527/m/mice/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-27 11:52:30] INFO root fetch - processPackages [flatpack]: Remove: archive file [/home/abi/fetcher/tmp/flatpack-3.4.98.tar.gz]
+[2024-05-27 11:52:30] INFO root fetch - processPackages [flatpack]: Remove: archive file [/home/abi/fetcher/tmp/flatpack-3.4.99.tar.gz]
+[2024-05-27 11:52:30] INFO root fetch - main [MainThread]: End processing [flatpack]: success
+[2024-05-27 11:52:30] INFO root fetch - processPackages [chess-notation]: Remove: archive file [/home/abi/fetcher/tmp/chess_notation-0.1.8.tar.gz]
+[2024-05-27 11:52:30] INFO root fetch - processPackages [chess-notation]: Remove: archive file [/home/abi/fetcher/tmp/chess_notation-0.1.9.tar.gz]
+[2024-05-27 11:52:30] INFO root fetch - main [MainThread]: End processing [chess-notation]: success
+[2024-05-27 11:52:30] INFO root fetch - processPackages [openlit]: Remove: archive file [/home/abi/fetcher/tmp/openlit-1.8.0.tar.gz]
+[2024-05-27 11:52:30] INFO root fetch - processPackages [openlit]: Remove: archive file [/home/abi/fetcher/tmp/openlit-1.9.0.tar.gz]
+[2024-05-27 11:52:30] INFO root fetch - main [MainThread]: End processing [openlit]: success
+[2024-05-27 11:52:30] INFO root fetch - processPackages [sbmltoodejax]: Remove: archive file [/home/abi/fetcher/tmp/sbmltoodejax-0.4.2.tar.gz]
+[2024-05-27 11:52:30] INFO root fetch - processPackages [sbmltoodejax]: Remove: archive file [/home/abi/fetcher/tmp/sbmltoodejax-0.4.3.tar.gz]
+[2024-05-27 11:52:30] INFO root fetch - main [MainThread]: End processing [sbmltoodejax]: success
+[2024-05-27 11:52:31] INFO root fetch - processPackages [mice]: Remove: archive file [/home/abi/fetcher/tmp/mice-0.1.8.tar.gz]
+[2024-05-27 11:52:31] INFO root fetch - processPackages [mice]: Remove: archive file [/home/abi/fetcher/tmp/mice-0.1.9.tar.gz]
+[2024-05-27 11:52:31] INFO root fetch - main [MainThread]: End processing [mice]: success
+[2024-05-27 11:52:31] INFO root fetch - main [MainThread]: Store serial: [23393531]
