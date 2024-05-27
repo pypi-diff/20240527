@@ -5606,3 +5606,63 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 06:50:33] INFO root fetch - processPackages [secretflow-lite]: Remove: archive file [/home/abi/fetcher/tmp/secretflow_lite-1.6.1b0-cp39-cp39-manylinux2014_x86_64.whl.zip]
 [2024-05-27 06:50:33] INFO root fetch - main [MainThread]: End processing [secretflow-lite]: success
 [2024-05-27 06:50:33] INFO root fetch - main [MainThread]: Store serial: [23390641]
+[2024-05-27 06:53:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23390641]
+[2024-05-27 06:53:06] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-27 06:53:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lckytools
+[2024-05-27 06:53:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: markdown-text-clean
+[2024-05-27 06:53:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: quickstart-vdk
+[2024-05-27 06:53:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-l10n-fr-siret
+[2024-05-27 06:53:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fujiki-taichi-breakout-game
+[2024-05-27 06:53:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rxd
+[2024-05-27 06:53:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: wellbeing-calculator
+[2024-05-27 06:53:06] INFO root fetch - processPackages [odoo-addon-l10n-fr-siret]: New version: [17.0.1.0.0.3] Old Version: [17.0.1.0.0.2]
+[2024-05-27 06:53:06] INFO root fetch - processPackages [rxd]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-27 06:53:06] INFO root fetch - processPackages [quickstart-vdk]: New version: [0.2.999091100.dev13356] Old Version: [0.2.998635022.dev13355]
+[2024-05-27 06:53:06] INFO root fetch - processPackages [lckytools]: New version: [0.0.0a9] Old Version: [0.0.0a8]
+[2024-05-27 06:53:06] WARNING root fetch - processPackages [fujiki-taichi-breakout-game]: Skipping, unable to determine old version
+[2024-05-27 06:53:06] INFO root fetch - main [MainThread]: End processing [fujiki-taichi-breakout-game] error
+[2024-05-27 06:53:06] INFO root fetch - processPackages [markdown-text-clean]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-27 06:53:06] INFO root fetch - processPackages [rxd]: Downloading https://files.pythonhosted.org/packages/21/c2/38cf8db50595c42a9258c3370b82b7757ed2485638d9d5e7cc8aa2b6ea9d/rxd-0.0.8.tar.gz
+[2024-05-27 06:53:06] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/e3/a6/b7424a3be777980068df32f41ef9085422b79289fef725cba5cabf2b502e/quickstart-vdk-0.2.998635022.dev13355.tar.gz
+[2024-05-27 06:53:06] INFO root fetch - processPackages [wellbeing-calculator]: New version: [0.3] Old Version: [0.1]
+[2024-05-27 06:53:06] INFO root fetch - processPackages [lckytools]: Downloading https://files.pythonhosted.org/packages/32/87/6919f602b2d930da1130e471770541db40ed561db6cf403688f591ee289c/lckytools-0.0.0a8.tar.gz
+[2024-05-27 06:53:06] INFO root fetch - processPackages [odoo-addon-l10n-fr-siret]: Downloading https://files.pythonhosted.org/packages/86/ea/a871217ffa559ab01070abc02f96d54bcd57e9e7bf3fdcddc1ae943f58fb/odoo_addon_l10n_fr_siret-17.0.1.0.0.2-py3-none-any.whl
+[2024-05-27 06:53:07] INFO root fetch - processPackages [markdown-text-clean]: Downloading https://files.pythonhosted.org/packages/5a/a1/918564d83c5cbfdc8cb03f59039dfd48f56a7b3bcc6190cc155c9baa96e4/markdown_text_clean-1.0.2.tar.gz
+[2024-05-27 06:53:07] INFO root fetch - processPackages [rxd]: Downloading https://files.pythonhosted.org/packages/5c/98/033a1b896a5c65fec77f8aa2c7d37aaa0f4d23fe3d4b5cae4731f73ad27e/rxd-0.0.9.tar.gz
+[2024-05-27 06:53:07] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/fa/72/2a48eb94b876fa0c01eda0450a3e80c80101dd5fdfe10124d5474b64f5fd/quickstart-vdk-0.2.999091100.dev13356.tar.gz
+[2024-05-27 06:53:07] INFO root fetch - processPackages [wellbeing-calculator]: Downloading https://files.pythonhosted.org/packages/24/7f/b71c194a073441fd75df6210c40696bfa1c996ea84939638cf786ff7e2e5/wellbeing_calculator-0.1.tar.gz
+[2024-05-27 06:53:07] INFO root fetch - processPackages [rxd]: executing diffoscope
+[2024-05-27 06:53:07] INFO root fetch - processPackages [rxd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rxd-0.0.8.tar.gz tmp/rxd-0.0.9.tar.gz --markdown 20240527/r/rxd/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-27 06:53:07] INFO root fetch - processPackages [quickstart-vdk]: executing diffoscope
+[2024-05-27 06:53:07] INFO root fetch - processPackages [quickstart-vdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickstart-vdk-0.2.998635022.dev13355.tar.gz tmp/quickstart-vdk-0.2.999091100.dev13356.tar.gz --markdown 20240527/q/quickstart-vdk/0.2.998635022.dev13355-0.2.999091100.dev13356/README.md --exclude *.pyd
+[2024-05-27 06:53:07] INFO root fetch - processPackages [lckytools]: Downloading https://files.pythonhosted.org/packages/58/b4/76a808942400823f951edef5f1ed63b459873a985a8544794218b4f273ee/lckytools-0.0.0a9.tar.gz
+[2024-05-27 06:53:07] INFO root fetch - processPackages [odoo-addon-l10n-fr-siret]: Downloading https://files.pythonhosted.org/packages/26/68/bb8d5f19a7b92b956fb51753e239f0d696010f42498ad224067a428ee940/odoo_addon_l10n_fr_siret-17.0.1.0.0.3-py3-none-any.whl
+[2024-05-27 06:53:07] INFO root fetch - processPackages [markdown-text-clean]: Downloading https://files.pythonhosted.org/packages/3e/cf/d0f80757bb6c893e9e3766b54562852c420d3f74eafbd01b42a609039773/markdown_text_clean-1.0.3.tar.gz
+[2024-05-27 06:53:07] INFO root fetch - processPackages [lckytools]: executing diffoscope
+[2024-05-27 06:53:07] INFO root fetch - processPackages [lckytools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lckytools-0.0.0a8.tar.gz tmp/lckytools-0.0.0a9.tar.gz --markdown 20240527/l/lckytools/0.0.0a8-0.0.0a9/README.md --exclude *.pyd
+[2024-05-27 06:53:07] INFO root fetch - processPackages [odoo-addon-l10n-fr-siret]: executing diffoscope
+[2024-05-27 06:53:07] INFO root fetch - processPackages [odoo-addon-l10n-fr-siret]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_fr_siret-17.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_l10n_fr_siret-17.0.1.0.0.3-py3-none-any.whl.zip --markdown 20240527/o/odoo-addon-l10n-fr-siret/17.0.1.0.0.2-17.0.1.0.0.3/README.md --exclude *.pyd
+[2024-05-27 06:53:07] INFO root fetch - processPackages [markdown-text-clean]: executing diffoscope
+[2024-05-27 06:53:07] INFO root fetch - processPackages [markdown-text-clean]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/markdown_text_clean-1.0.2.tar.gz tmp/markdown_text_clean-1.0.3.tar.gz --markdown 20240527/m/markdown-text-clean/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-05-27 06:53:07] INFO root fetch - processPackages [wellbeing-calculator]: Downloading https://files.pythonhosted.org/packages/31/5e/c40fc53231979f655beb23d56bf25a30ffb0fcafd00032a4f34dd98d401b/wellbeing_calculator-0.3.tar.gz
+[2024-05-27 06:53:07] INFO root fetch - processPackages [wellbeing-calculator]: executing diffoscope
+[2024-05-27 06:53:07] INFO root fetch - processPackages [wellbeing-calculator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wellbeing_calculator-0.1.tar.gz tmp/wellbeing_calculator-0.3.tar.gz --markdown 20240527/w/wellbeing-calculator/0.1-0.3/README.md --exclude *.pyd
+[2024-05-27 06:53:07] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.998635022.dev13355.tar.gz]
+[2024-05-27 06:53:07] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.999091100.dev13356.tar.gz]
+[2024-05-27 06:53:07] INFO root fetch - main [MainThread]: End processing [quickstart-vdk]: success
+[2024-05-27 06:53:07] INFO root fetch - processPackages [rxd]: Remove: archive file [/home/abi/fetcher/tmp/rxd-0.0.8.tar.gz]
+[2024-05-27 06:53:07] INFO root fetch - processPackages [rxd]: Remove: archive file [/home/abi/fetcher/tmp/rxd-0.0.9.tar.gz]
+[2024-05-27 06:53:07] INFO root fetch - main [MainThread]: End processing [rxd]: success
+[2024-05-27 06:53:08] INFO root fetch - processPackages [lckytools]: Remove: archive file [/home/abi/fetcher/tmp/lckytools-0.0.0a8.tar.gz]
+[2024-05-27 06:53:08] INFO root fetch - processPackages [lckytools]: Remove: archive file [/home/abi/fetcher/tmp/lckytools-0.0.0a9.tar.gz]
+[2024-05-27 06:53:08] INFO root fetch - main [MainThread]: End processing [lckytools]: success
+[2024-05-27 06:53:08] INFO root fetch - processPackages [markdown-text-clean]: Remove: archive file [/home/abi/fetcher/tmp/markdown_text_clean-1.0.2.tar.gz]
+[2024-05-27 06:53:08] INFO root fetch - processPackages [markdown-text-clean]: Remove: archive file [/home/abi/fetcher/tmp/markdown_text_clean-1.0.3.tar.gz]
+[2024-05-27 06:53:08] INFO root fetch - main [MainThread]: End processing [markdown-text-clean]: success
+[2024-05-27 06:53:08] INFO root fetch - processPackages [odoo-addon-l10n-fr-siret]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_fr_siret-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-05-27 06:53:08] INFO root fetch - processPackages [odoo-addon-l10n-fr-siret]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_fr_siret-17.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-05-27 06:53:08] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-fr-siret]: success
+[2024-05-27 06:53:08] INFO root fetch - processPackages [wellbeing-calculator]: Remove: archive file [/home/abi/fetcher/tmp/wellbeing_calculator-0.1.tar.gz]
+[2024-05-27 06:53:08] INFO root fetch - processPackages [wellbeing-calculator]: Remove: archive file [/home/abi/fetcher/tmp/wellbeing_calculator-0.3.tar.gz]
+[2024-05-27 06:53:08] INFO root fetch - main [MainThread]: End processing [wellbeing-calculator]: success
+[2024-05-27 06:53:08] INFO root fetch - main [MainThread]: Store serial: [23390669]
