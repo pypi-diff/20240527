@@ -8180,3 +8180,42 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 09:27:08] INFO root fetch - processPackages [dash-spread-grid]: Remove: archive file [/home/abi/fetcher/tmp/dash_spread_grid-0.1.3.tar.gz]
 [2024-05-27 09:27:08] INFO root fetch - main [MainThread]: End processing [dash-spread-grid]: success
 [2024-05-27 09:27:08] INFO root fetch - main [MainThread]: Store serial: [23391913]
+[2024-05-27 09:29:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23391913]
+[2024-05-27 09:29:17] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-27 09:29:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyecotrend-ista
+[2024-05-27 09:29:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pokerFunctions
+[2024-05-27 09:29:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pantos-service-node
+[2024-05-27 09:29:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: danila-lib
+[2024-05-27 09:29:17] INFO root fetch - processPackages [pokerFunctions]: New version: [0.3] Old Version: [0.2]
+[2024-05-27 09:29:17] INFO root fetch - processPackages [pyecotrend-ista]: New version: [3.1.0] Old Version: [3.0.0]
+[2024-05-27 09:29:17] INFO root fetch - processPackages [pantos-service-node]: New version: [1.7.0] Old Version: [1.6.0]
+[2024-05-27 09:29:17] INFO root fetch - processPackages [danila-lib]: New version: [1.7.7] Old Version: [1.7.6]
+[2024-05-27 09:29:17] INFO root fetch - processPackages [pyecotrend-ista]: Downloading https://files.pythonhosted.org/packages/e8/6b/5e6a4034dbaf54ee628303863aa646d65a6c9b3b5879c8363be7f7d8e926/pyecotrend-ista-3.0.0.tar.gz
+[2024-05-27 09:29:17] INFO root fetch - processPackages [pokerFunctions]: Downloading https://files.pythonhosted.org/packages/2c/92/fd25f49d91f5ddff252c5c50c10d03a1a0d4705d888a56b28674ddc3142f/pokerfunctions-0.2.tar.gz
+[2024-05-27 09:29:17] INFO root fetch - processPackages [pantos-service-node]: Downloading https://files.pythonhosted.org/packages/c0/af/69acdd3b9309086b2100ed3b11ec43b679b88c0d2a4fffc9860319d7b390/pantos_service_node-1.6.0-py3-none-any.whl
+[2024-05-27 09:29:17] INFO root fetch - processPackages [danila-lib]: Downloading https://files.pythonhosted.org/packages/47/f3/ac90ef8b4f464565e3a4e2a8b5e3c2b82cb01b49a32d78c5880acc7caebf/danila-lib-1.7.6.tar.gz
+[2024-05-27 09:29:17] INFO root fetch - processPackages [pyecotrend-ista]: Downloading https://files.pythonhosted.org/packages/32/ec/ae51ebe1ddfae3239226fd22d9fe915d70a50b8fce548a476b716a87cc14/pyecotrend-ista-3.1.0.tar.gz
+[2024-05-27 09:29:17] INFO root fetch - processPackages [pokerFunctions]: Downloading https://files.pythonhosted.org/packages/26/24/5187c856b40084962a0217bf97ae08eb4a43e755d765134d321bf2d5da35/pokerfunctions-0.3.tar.gz
+[2024-05-27 09:29:18] INFO root fetch - processPackages [pyecotrend-ista]: executing diffoscope
+[2024-05-27 09:29:18] INFO root fetch - processPackages [pyecotrend-ista]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyecotrend-ista-3.0.0.tar.gz tmp/pyecotrend-ista-3.1.0.tar.gz --markdown 20240527/p/pyecotrend-ista/3.0.0-3.1.0/README.md --exclude *.pyd
+[2024-05-27 09:29:18] INFO root fetch - processPackages [pokerFunctions]: executing diffoscope
+[2024-05-27 09:29:18] INFO root fetch - processPackages [pokerFunctions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pokerfunctions-0.2.tar.gz tmp/pokerfunctions-0.3.tar.gz --markdown 20240527/p/pokerFunctions/0.2-0.3/README.md --exclude *.pyd
+[2024-05-27 09:29:18] INFO root fetch - processPackages [danila-lib]: Downloading https://files.pythonhosted.org/packages/d2/c9/84a42148c7857542f7b8e31a08e6150ea760aaf4f246df1d63a1e8b1bf1b/danila-lib-1.7.7.tar.gz
+[2024-05-27 09:29:18] INFO root fetch - processPackages [pantos-service-node]: Downloading https://files.pythonhosted.org/packages/68/91/5b58eb1199a6c8e7f5dfd6361d88d094480da6658f1cbe5692bb4a49f54b/pantos_service_node-1.7.0-py3-none-any.whl
+[2024-05-27 09:29:18] INFO root fetch - processPackages [danila-lib]: executing diffoscope
+[2024-05-27 09:29:18] INFO root fetch - processPackages [danila-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/danila-lib-1.7.6.tar.gz tmp/danila-lib-1.7.7.tar.gz --markdown 20240527/d/danila-lib/1.7.6-1.7.7/README.md --exclude *.pyd
+[2024-05-27 09:29:18] INFO root fetch - processPackages [pantos-service-node]: executing diffoscope
+[2024-05-27 09:29:18] INFO root fetch - processPackages [pantos-service-node]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pantos_service_node-1.6.0-py3-none-any.whl.zip tmp/pantos_service_node-1.7.0-py3-none-any.whl.zip --markdown 20240527/p/pantos-service-node/1.6.0-1.7.0/README.md --exclude *.pyd
+[2024-05-27 09:29:19] INFO root fetch - processPackages [pokerFunctions]: Remove: archive file [/home/abi/fetcher/tmp/pokerfunctions-0.2.tar.gz]
+[2024-05-27 09:29:19] INFO root fetch - processPackages [pokerFunctions]: Remove: archive file [/home/abi/fetcher/tmp/pokerfunctions-0.3.tar.gz]
+[2024-05-27 09:29:19] INFO root fetch - main [MainThread]: End processing [pokerFunctions]: success
+[2024-05-27 09:29:19] INFO root fetch - processPackages [pyecotrend-ista]: Remove: archive file [/home/abi/fetcher/tmp/pyecotrend-ista-3.0.0.tar.gz]
+[2024-05-27 09:29:19] INFO root fetch - processPackages [pyecotrend-ista]: Remove: archive file [/home/abi/fetcher/tmp/pyecotrend-ista-3.1.0.tar.gz]
+[2024-05-27 09:29:19] INFO root fetch - main [MainThread]: End processing [pyecotrend-ista]: success
+[2024-05-27 09:29:19] INFO root fetch - processPackages [danila-lib]: Remove: archive file [/home/abi/fetcher/tmp/danila-lib-1.7.6.tar.gz]
+[2024-05-27 09:29:19] INFO root fetch - processPackages [danila-lib]: Remove: archive file [/home/abi/fetcher/tmp/danila-lib-1.7.7.tar.gz]
+[2024-05-27 09:29:19] INFO root fetch - main [MainThread]: End processing [danila-lib]: success
+[2024-05-27 09:29:19] INFO root fetch - processPackages [pantos-service-node]: Remove: archive file [/home/abi/fetcher/tmp/pantos_service_node-1.6.0-py3-none-any.whl.zip]
+[2024-05-27 09:29:19] INFO root fetch - processPackages [pantos-service-node]: Remove: archive file [/home/abi/fetcher/tmp/pantos_service_node-1.7.0-py3-none-any.whl.zip]
+[2024-05-27 09:29:19] INFO root fetch - main [MainThread]: End processing [pantos-service-node]: success
+[2024-05-27 09:29:19] INFO root fetch - main [MainThread]: Store serial: [23391934]
