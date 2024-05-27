@@ -15832,3 +15832,84 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 14:48:10] INFO root fetch - processPackages [lonboard]: Remove: archive file [/home/abi/fetcher/tmp/lonboard-0.9.3.tar.gz]
 [2024-05-27 14:48:10] INFO root fetch - main [MainThread]: End processing [lonboard]: success
 [2024-05-27 14:48:10] INFO root fetch - main [MainThread]: Store serial: [23395720]
+[2024-05-27 14:50:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23395720]
+[2024-05-27 14:50:19] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-27 14:50:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: scimap
+[2024-05-27 14:50:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odbc2deltalake
+[2024-05-27 14:50:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nonebot-plugin-daily-task
+[2024-05-27 14:50:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: modelmerge
+[2024-05-27 14:50:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo14-addon-donation
+[2024-05-27 14:50:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pydantic-bigstitcher
+[2024-05-27 14:50:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bx-django-utils
+[2024-05-27 14:50:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: semantic-versioning
+[2024-05-27 14:50:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: speedwagon-algorithm
+[2024-05-27 14:50:19] INFO root fetch - processPackages [nonebot-plugin-daily-task]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-27 14:50:19] INFO root fetch - processPackages [pydantic-bigstitcher]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-27 14:50:19] INFO root fetch - processPackages [modelmerge]: New version: [0.6.1] Old Version: [0.6.0]
+[2024-05-27 14:50:19] INFO root fetch - processPackages [nonebot-plugin-daily-task]: Downloading https://files.pythonhosted.org/packages/42/e8/0f6e3b6cf1810448ebf0e4d30b1c3eab8b9051549c8fdda27bb71c1e134d/nonebot_plugin_daily_task-0.1.3.tar.gz
+[2024-05-27 14:50:19] INFO root fetch - processPackages [pydantic-bigstitcher]: Downloading https://files.pythonhosted.org/packages/87/10/244a4e65afedcd06f8b432a0056be066d12c2419e2f3130227bc116f3688/pydantic_bigstitcher-0.0.3.tar.gz
+[2024-05-27 14:50:19] INFO root fetch - processPackages [odoo14-addon-donation]: New version: [14.0.1.5.0] Old Version: [14.0.1.4.1.dev2]
+[2024-05-27 14:50:19] INFO root fetch - processPackages [semantic-versioning]: New version: [0.2.0.dev0] Old Version: [0.1.5]
+[2024-05-27 14:50:19] INFO root fetch - processPackages [scimap]: New version: [2.1.0] Old Version: [2.0.5]
+[2024-05-27 14:50:19] INFO root fetch - processPackages [speedwagon-algorithm]: New version: [1.9.1] Old Version: [1.8.8]
+[2024-05-27 14:50:19] INFO root fetch - processPackages [odbc2deltalake]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-27 14:50:19] INFO root fetch - processPackages [bx-django-utils]: New version: [9] Old Version: [8]
+[2024-05-27 14:50:20] INFO root fetch - processPackages [modelmerge]: Downloading https://files.pythonhosted.org/packages/31/d5/308b4e275eee6552c930bec00d6b1bda411afa5ec9a70b3ab541adeae88c/modelmerge-0.6.0.tar.gz
+[2024-05-27 14:50:20] INFO root fetch - processPackages [odoo14-addon-donation]: Downloading https://files.pythonhosted.org/packages/ed/d0/80a716c1f580934b4623c327b8fa1ac5709eef7cfb0abd287510c07e7985/odoo14_addon_donation-14.0.1.4.1.dev2-py3-none-any.whl
+[2024-05-27 14:50:20] INFO root fetch - processPackages [semantic-versioning]: Downloading https://files.pythonhosted.org/packages/78/e1/2d4c5e68b69b5828b6901cd84d07010cc37c5ffcc6af037a86fe3c046450/semantic_versioning-0.1.5.tar.gz
+[2024-05-27 14:50:20] INFO root fetch - processPackages [bx-django-utils]: Downloading https://files.pythonhosted.org/packages/1e/0c/ff3d5a5c26c498b48bf149a2a08540a5812c585c9bfb59f4e303198aa123/bx_django_utils-8.tar.gz
+[2024-05-27 14:50:20] INFO root fetch - processPackages [scimap]: Downloading https://files.pythonhosted.org/packages/f5/1c/c7daa4c8701ac0954e6e2a8cd317785a0737be598bdd26a994123c954c72/scimap-2.0.5.tar.gz
+[2024-05-27 14:50:20] INFO root fetch - processPackages [odbc2deltalake]: Downloading https://files.pythonhosted.org/packages/60/8a/62f1a75f4a93a252dbb188a71192d3fa69b90655d827f1a90464c09306d8/odbc2deltalake-0.9.0.tar.gz
+[2024-05-27 14:50:20] INFO root fetch - processPackages [speedwagon-algorithm]: Downloading https://files.pythonhosted.org/packages/86/d2/8b88b2a92a1d1e9f68299c6de9f9277e0365d203f3cd81490b2e93b3ae69/speedwagon_algorithm-1.8.8.tar.gz
+[2024-05-27 14:50:20] INFO root fetch - processPackages [pydantic-bigstitcher]: Downloading https://files.pythonhosted.org/packages/3e/3b/5bfd04e25697225aafac0bbbcce00d1bf675218eeebb37c5c705071fc52f/pydantic_bigstitcher-0.0.4.tar.gz
+[2024-05-27 14:50:20] INFO root fetch - processPackages [nonebot-plugin-daily-task]: Downloading https://files.pythonhosted.org/packages/8a/44/7ee7676d6397e8449db08a43061c9ff74e1a53919a8dc90fda5e70692e45/nonebot_plugin_daily_task-0.1.4.tar.gz
+[2024-05-27 14:50:20] INFO root fetch - processPackages [pydantic-bigstitcher]: executing diffoscope
+[2024-05-27 14:50:20] INFO root fetch - processPackages [pydantic-bigstitcher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydantic_bigstitcher-0.0.3.tar.gz tmp/pydantic_bigstitcher-0.0.4.tar.gz --markdown 20240527/p/pydantic-bigstitcher/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-27 14:50:20] INFO root fetch - processPackages [modelmerge]: Downloading https://files.pythonhosted.org/packages/92/fe/58e8e1bb032f30d343e9f19f7e4521c87b606751bf92c5a9e01c96333d44/modelmerge-0.6.1.tar.gz
+[2024-05-27 14:50:20] INFO root fetch - processPackages [nonebot-plugin-daily-task]: executing diffoscope
+[2024-05-27 14:50:20] INFO root fetch - processPackages [nonebot-plugin-daily-task]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_daily_task-0.1.3.tar.gz tmp/nonebot_plugin_daily_task-0.1.4.tar.gz --markdown 20240527/n/nonebot-plugin-daily-task/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-27 14:50:20] INFO root fetch - processPackages [modelmerge]: executing diffoscope
+[2024-05-27 14:50:20] INFO root fetch - processPackages [modelmerge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelmerge-0.6.0.tar.gz tmp/modelmerge-0.6.1.tar.gz --markdown 20240527/m/modelmerge/0.6.0-0.6.1/README.md --exclude *.pyd
+[2024-05-27 14:50:20] INFO root fetch - processPackages [bx-django-utils]: Downloading https://files.pythonhosted.org/packages/2b/63/3e7d67b2f7c3cbfbf0e086e97103b8d3e82088f05b5c20e488922c2fe0f7/bx_django_utils-9.tar.gz
+[2024-05-27 14:50:20] INFO root fetch - processPackages [odoo14-addon-donation]: Downloading https://files.pythonhosted.org/packages/c6/c9/519cd0551ae84ca0f83cef8712cac6bf2b6ae6f548bd045dba838b00e23a/odoo14_addon_donation-14.0.1.5.0-py3-none-any.whl
+[2024-05-27 14:50:20] INFO root fetch - processPackages [semantic-versioning]: Downloading https://files.pythonhosted.org/packages/4e/84/55fd0687295a0b5408df3a51469d25505100fc80c842e7bfa3396d1231eb/semantic-versioning-0.2.0.dev0.tar.gz
+[2024-05-27 14:50:20] INFO root fetch - processPackages [speedwagon-algorithm]: Downloading https://files.pythonhosted.org/packages/f3/fa/d95f442aa45ef217b2566b065e3f405a721d54980d217f79bd90121ba742/speedwagon_algorithm-1.9.1.tar.gz
+[2024-05-27 14:50:20] INFO root fetch - processPackages [odbc2deltalake]: Downloading https://files.pythonhosted.org/packages/c5/78/1f89a261b7929df384f9ba80767aa8cb2943103f07c2773672f1ebc74e9d/odbc2deltalake-0.9.1.tar.gz
+[2024-05-27 14:50:20] INFO root fetch - processPackages [odoo14-addon-donation]: executing diffoscope
+[2024-05-27 14:50:20] INFO root fetch - processPackages [odoo14-addon-donation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_donation-14.0.1.4.1.dev2-py3-none-any.whl.zip tmp/odoo14_addon_donation-14.0.1.5.0-py3-none-any.whl.zip --markdown 20240527/o/odoo14-addon-donation/14.0.1.4.1.dev2-14.0.1.5.0/README.md --exclude *.pyd
+[2024-05-27 14:50:20] INFO root fetch - processPackages [odbc2deltalake]: executing diffoscope
+[2024-05-27 14:50:20] INFO root fetch - processPackages [odbc2deltalake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odbc2deltalake-0.9.0.tar.gz tmp/odbc2deltalake-0.9.1.tar.gz --markdown 20240527/o/odbc2deltalake/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-27 14:50:20] INFO root fetch - processPackages [scimap]: Downloading https://files.pythonhosted.org/packages/88/05/b76439a51c0698d16655fa12e485eda0f7fe6989593822bda54f231eaa1b/scimap-2.1.0.tar.gz
+[2024-05-27 14:50:20] INFO root fetch - processPackages [bx-django-utils]: executing diffoscope
+[2024-05-27 14:50:20] INFO root fetch - processPackages [bx-django-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bx_django_utils-8.tar.gz tmp/bx_django_utils-9.tar.gz --markdown 20240527/b/bx-django-utils/8-9/README.md --exclude *.pyd
+[2024-05-27 14:50:20] INFO root fetch - processPackages [semantic-versioning]: executing diffoscope
+[2024-05-27 14:50:20] INFO root fetch - processPackages [semantic-versioning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/semantic_versioning-0.1.5.tar.gz tmp/semantic-versioning-0.2.0.dev0.tar.gz --markdown 20240527/s/semantic-versioning/0.1.5-0.2.0.dev0/README.md --exclude *.pyd
+[2024-05-27 14:50:21] WARNING root fetch - processPackages [scimap]: Skipping package: exceeds size limit 11443340>=10485760
+[2024-05-27 14:50:21] INFO root fetch - main [MainThread]: End processing [scimap] error
+[2024-05-27 14:50:21] INFO root fetch - processPackages [nonebot-plugin-daily-task]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_daily_task-0.1.3.tar.gz]
+[2024-05-27 14:50:21] INFO root fetch - processPackages [nonebot-plugin-daily-task]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_daily_task-0.1.4.tar.gz]
+[2024-05-27 14:50:21] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-daily-task]: success
+[2024-05-27 14:50:21] INFO root fetch - processPackages [speedwagon-algorithm]: executing diffoscope
+[2024-05-27 14:50:21] INFO root fetch - processPackages [speedwagon-algorithm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/speedwagon_algorithm-1.8.8.tar.gz tmp/speedwagon_algorithm-1.9.1.tar.gz --markdown 20240527/s/speedwagon-algorithm/1.8.8-1.9.1/README.md --exclude *.pyd
+[2024-05-27 14:50:21] INFO root fetch - processPackages [pydantic-bigstitcher]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_bigstitcher-0.0.3.tar.gz]
+[2024-05-27 14:50:21] INFO root fetch - processPackages [pydantic-bigstitcher]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_bigstitcher-0.0.4.tar.gz]
+[2024-05-27 14:50:21] INFO root fetch - main [MainThread]: End processing [pydantic-bigstitcher]: success
+[2024-05-27 14:50:21] INFO root fetch - processPackages [modelmerge]: Remove: archive file [/home/abi/fetcher/tmp/modelmerge-0.6.0.tar.gz]
+[2024-05-27 14:50:21] INFO root fetch - processPackages [modelmerge]: Remove: archive file [/home/abi/fetcher/tmp/modelmerge-0.6.1.tar.gz]
+[2024-05-27 14:50:21] INFO root fetch - main [MainThread]: End processing [modelmerge]: success
+[2024-05-27 14:50:21] INFO root fetch - processPackages [semantic-versioning]: Remove: archive file [/home/abi/fetcher/tmp/semantic_versioning-0.1.5.tar.gz]
+[2024-05-27 14:50:21] INFO root fetch - processPackages [semantic-versioning]: Remove: archive file [/home/abi/fetcher/tmp/semantic-versioning-0.2.0.dev0.tar.gz]
+[2024-05-27 14:50:21] INFO root fetch - main [MainThread]: End processing [semantic-versioning]: success
+[2024-05-27 14:50:21] INFO root fetch - processPackages [odbc2deltalake]: Remove: archive file [/home/abi/fetcher/tmp/odbc2deltalake-0.9.0.tar.gz]
+[2024-05-27 14:50:21] INFO root fetch - processPackages [odbc2deltalake]: Remove: archive file [/home/abi/fetcher/tmp/odbc2deltalake-0.9.1.tar.gz]
+[2024-05-27 14:50:21] INFO root fetch - main [MainThread]: End processing [odbc2deltalake]: success
+[2024-05-27 14:50:21] INFO root fetch - processPackages [odoo14-addon-donation]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_donation-14.0.1.4.1.dev2-py3-none-any.whl.zip]
+[2024-05-27 14:50:21] INFO root fetch - processPackages [odoo14-addon-donation]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_donation-14.0.1.5.0-py3-none-any.whl.zip]
+[2024-05-27 14:50:21] INFO root fetch - main [MainThread]: End processing [odoo14-addon-donation]: success
+[2024-05-27 14:50:21] INFO root fetch - processPackages [bx-django-utils]: Remove: archive file [/home/abi/fetcher/tmp/bx_django_utils-8.tar.gz]
+[2024-05-27 14:50:21] INFO root fetch - processPackages [bx-django-utils]: Remove: archive file [/home/abi/fetcher/tmp/bx_django_utils-9.tar.gz]
+[2024-05-27 14:50:21] INFO root fetch - main [MainThread]: End processing [bx-django-utils]: success
+[2024-05-27 14:50:21] INFO root fetch - processPackages [speedwagon-algorithm]: Remove: archive file [/home/abi/fetcher/tmp/speedwagon_algorithm-1.8.8.tar.gz]
+[2024-05-27 14:50:21] INFO root fetch - processPackages [speedwagon-algorithm]: Remove: archive file [/home/abi/fetcher/tmp/speedwagon_algorithm-1.9.1.tar.gz]
+[2024-05-27 14:50:21] INFO root fetch - main [MainThread]: End processing [speedwagon-algorithm]: success
+[2024-05-27 14:50:21] INFO root fetch - main [MainThread]: Store serial: [23395749]
