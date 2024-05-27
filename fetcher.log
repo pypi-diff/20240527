@@ -6240,3 +6240,45 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 07:30:20] INFO root fetch - processPackages [camlab]: Remove: archive file [/home/abi/fetcher/tmp/camlab-0.1.0.tar.gz]
 [2024-05-27 07:30:20] INFO root fetch - main [MainThread]: End processing [camlab]: success
 [2024-05-27 07:30:20] INFO root fetch - main [MainThread]: Store serial: [23390896]
+[2024-05-27 07:32:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23390896]
+[2024-05-27 07:32:28] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-27 07:32:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: telegram-gmail-bot
+[2024-05-27 07:32:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: color-change-filter
+[2024-05-27 07:32:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: optunahub
+[2024-05-27 07:32:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sectionproperties
+[2024-05-27 07:32:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: qontract-reconcile
+[2024-05-27 07:32:29] INFO root fetch - processPackages [telegram-gmail-bot]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-27 07:32:29] INFO root fetch - processPackages [color-change-filter]: New version: [1.1.3] Old Version: [1.1.2]
+[2024-05-27 07:32:29] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2024-05-27 07:32:29] WARNING root fetch - processPackages [optunahub]: Skipping, unable to determine old version
+[2024-05-27 07:32:29] INFO root fetch - main [MainThread]: End processing [optunahub] error
+[2024-05-27 07:32:29] INFO root fetch - processPackages [sectionproperties]: New version: [3.2.2] Old Version: [3.2.1]
+[2024-05-27 07:32:29] INFO root fetch - processPackages [color-change-filter]: Downloading https://files.pythonhosted.org/packages/f0/fa/93861940f09b35956fadcd73af6e190b597b08d8d1c315ad07093c528f32/color_change_filter-1.1.2.tar.gz
+[2024-05-27 07:32:29] INFO root fetch - processPackages [telegram-gmail-bot]: Downloading https://files.pythonhosted.org/packages/6b/7e/1326f919165c27e20e76c5f3dfab62280c8d8769408921c648207422794c/telegram_gmail_bot-0.1.8.tar.gz
+[2024-05-27 07:32:29] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2024-05-27 07:32:29] INFO root fetch - processPackages [sectionproperties]: Downloading https://files.pythonhosted.org/packages/59/80/94a43875af2f6a9bdffedb0ccaa7b7b397276b80e0bd1a13a37f67e8e286/sectionproperties-3.2.1.tar.gz
+[2024-05-27 07:32:29] INFO root fetch - processPackages [telegram-gmail-bot]: Downloading https://files.pythonhosted.org/packages/c4/3b/687bbff879a48808b9a8c8e2594b51368210cd7b9d3ac9959c5ca4b70e4a/telegram_gmail_bot-0.1.9.tar.gz
+[2024-05-27 07:32:29] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2024-05-27 07:32:29] INFO root fetch - processPackages [color-change-filter]: Downloading https://files.pythonhosted.org/packages/ae/a8/f8761ea4aeb65c004f3fec54bbd3b6abdeb0f6725017d50aac218e7b8034/color_change_filter-1.1.3.tar.gz
+[2024-05-27 07:32:29] INFO root fetch - processPackages [telegram-gmail-bot]: executing diffoscope
+[2024-05-27 07:32:29] INFO root fetch - processPackages [telegram-gmail-bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/telegram_gmail_bot-0.1.8.tar.gz tmp/telegram_gmail_bot-0.1.9.tar.gz --markdown 20240527/t/telegram-gmail-bot/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-27 07:32:29] INFO root fetch - processPackages [color-change-filter]: executing diffoscope
+[2024-05-27 07:32:29] INFO root fetch - processPackages [color-change-filter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/color_change_filter-1.1.2.tar.gz tmp/color_change_filter-1.1.3.tar.gz --markdown 20240527/c/color-change-filter/1.1.2-1.1.3/README.md --exclude *.pyd
+[2024-05-27 07:32:29] INFO root fetch - processPackages [sectionproperties]: Downloading https://files.pythonhosted.org/packages/5e/b6/4a6d7325848f44890ecd45b04ce59624d134004eccc97166859770d6471f/sectionproperties-3.2.2.tar.gz
+[2024-05-27 07:32:29] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2024-05-27 07:32:29] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20240527/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/README.md --exclude *.pyd
+[2024-05-27 07:32:29] INFO root fetch - processPackages [sectionproperties]: executing diffoscope
+[2024-05-27 07:32:29] INFO root fetch - processPackages [sectionproperties]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sectionproperties-3.2.1.tar.gz tmp/sectionproperties-3.2.2.tar.gz --markdown 20240527/s/sectionproperties/3.2.1-3.2.2/README.md --exclude *.pyd
+[2024-05-27 07:32:30] INFO root fetch - processPackages [telegram-gmail-bot]: Remove: archive file [/home/abi/fetcher/tmp/telegram_gmail_bot-0.1.8.tar.gz]
+[2024-05-27 07:32:30] INFO root fetch - processPackages [telegram-gmail-bot]: Remove: archive file [/home/abi/fetcher/tmp/telegram_gmail_bot-0.1.9.tar.gz]
+[2024-05-27 07:32:30] INFO root fetch - main [MainThread]: End processing [telegram-gmail-bot]: success
+[2024-05-27 07:32:30] INFO root fetch - processPackages [color-change-filter]: Remove: archive file [/home/abi/fetcher/tmp/color_change_filter-1.1.2.tar.gz]
+[2024-05-27 07:32:30] INFO root fetch - processPackages [color-change-filter]: Remove: archive file [/home/abi/fetcher/tmp/color_change_filter-1.1.3.tar.gz]
+[2024-05-27 07:32:30] INFO root fetch - main [MainThread]: End processing [color-change-filter]: success
+[2024-05-27 07:32:30] INFO root fetch - processPackages [sectionproperties]: Remove: archive file [/home/abi/fetcher/tmp/sectionproperties-3.2.1.tar.gz]
+[2024-05-27 07:32:30] INFO root fetch - processPackages [sectionproperties]: Remove: archive file [/home/abi/fetcher/tmp/sectionproperties-3.2.2.tar.gz]
+[2024-05-27 07:32:30] INFO root fetch - main [MainThread]: End processing [sectionproperties]: success
+[2024-05-27 07:32:31] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2024-05-27 07:32:31] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2024-05-27 07:32:31] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2024-05-27 07:32:31] INFO root fetch - main [MainThread]: Store serial: [23390913]
