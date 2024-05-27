@@ -5383,3 +5383,42 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 06:34:12] INFO root fetch - processPackages [Length-of-body-image]: Remove: archive file [/home/abi/fetcher/tmp/Length_of_body_image-0.2.tar.gz]
 [2024-05-27 06:34:12] INFO root fetch - main [MainThread]: End processing [Length-of-body-image]: success
 [2024-05-27 06:34:12] INFO root fetch - main [MainThread]: Store serial: [23390547]
+[2024-05-27 06:36:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23390547]
+[2024-05-27 06:36:20] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-27 06:36:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sqlmath
+[2024-05-27 06:36:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: swarms
+[2024-05-27 06:36:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: myscale-telemetry
+[2024-05-27 06:36:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: md2tgmd
+[2024-05-27 06:36:20] INFO root fetch - processPackages [myscale-telemetry]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-27 06:36:20] INFO root fetch - processPackages [myscale-telemetry]: Downloading https://files.pythonhosted.org/packages/f6/95/cede3625a8c4faf3d45ccfabf71cfac4808bb5500d363f49923631f5516e/myscale-telemetry-0.1.4.tar.gz
+[2024-05-27 06:36:20] INFO root fetch - processPackages [sqlmath]: New version: [2024.5.26] Old Version: [2024.3.25]
+[2024-05-27 06:36:20] INFO root fetch - processPackages [md2tgmd]: New version: [0.2.0] Old Version: [0.1.9]
+[2024-05-27 06:36:20] INFO root fetch - processPackages [swarms]: New version: [5.0.8] Old Version: [5.0.7]
+[2024-05-27 06:36:20] INFO root fetch - processPackages [sqlmath]: Downloading https://files.pythonhosted.org/packages/64/98/70190d2d3909e772d673ad078999f69a9002f92fb3d9f2f30ecd77b502d7/sqlmath-2024.3.25.tar.gz
+[2024-05-27 06:36:20] INFO root fetch - processPackages [myscale-telemetry]: Downloading https://files.pythonhosted.org/packages/c9/ad/1521360f7161b7279d677f932115a5a10bfa9fb2091ec66a12d7723650c6/myscale-telemetry-0.1.5.tar.gz
+[2024-05-27 06:36:20] INFO root fetch - processPackages [md2tgmd]: Downloading https://files.pythonhosted.org/packages/81/fd/582eb514b69d67c455107e569b9116e866cd7d78b1f915946e2fb2dbe9ea/md2tgmd-0.1.9.tar.gz
+[2024-05-27 06:36:20] INFO root fetch - processPackages [swarms]: Downloading https://files.pythonhosted.org/packages/a1/da/cefa37f7f651a1d9590ac40eaa3e47945a6df893f22b07bf51b3770b618a/swarms-5.0.7.tar.gz
+[2024-05-27 06:36:20] INFO root fetch - processPackages [myscale-telemetry]: executing diffoscope
+[2024-05-27 06:36:20] INFO root fetch - processPackages [myscale-telemetry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myscale-telemetry-0.1.4.tar.gz tmp/myscale-telemetry-0.1.5.tar.gz --markdown 20240527/m/myscale-telemetry/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-27 06:36:21] INFO root fetch - processPackages [md2tgmd]: Downloading https://files.pythonhosted.org/packages/5a/3e/6b373d9183a66916e1bad79cecc0c84bce44c8789de182de7de74895f666/md2tgmd-0.2.0.tar.gz
+[2024-05-27 06:36:21] INFO root fetch - processPackages [swarms]: Downloading https://files.pythonhosted.org/packages/da/df/12895f60b7731d9805c114fc15634454dc291facb0eebdd214f304604c5d/swarms-5.0.8.tar.gz
+[2024-05-27 06:36:21] INFO root fetch - processPackages [md2tgmd]: executing diffoscope
+[2024-05-27 06:36:21] INFO root fetch - processPackages [md2tgmd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/md2tgmd-0.1.9.tar.gz tmp/md2tgmd-0.2.0.tar.gz --markdown 20240527/m/md2tgmd/0.1.9-0.2.0/README.md --exclude *.pyd
+[2024-05-27 06:36:21] INFO root fetch - processPackages [swarms]: executing diffoscope
+[2024-05-27 06:36:21] INFO root fetch - processPackages [swarms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarms-5.0.7.tar.gz tmp/swarms-5.0.8.tar.gz --markdown 20240527/s/swarms/5.0.7-5.0.8/README.md --exclude *.pyd
+[2024-05-27 06:36:21] INFO root fetch - processPackages [sqlmath]: Downloading https://files.pythonhosted.org/packages/cd/dd/2b42d757d108cea0b93bd7ae15497f9fc2a1519869dc6888e2d47dc2f057/sqlmath-2024.5.26.tar.gz
+[2024-05-27 06:36:21] INFO root fetch - processPackages [myscale-telemetry]: Remove: archive file [/home/abi/fetcher/tmp/myscale-telemetry-0.1.4.tar.gz]
+[2024-05-27 06:36:21] INFO root fetch - processPackages [myscale-telemetry]: Remove: archive file [/home/abi/fetcher/tmp/myscale-telemetry-0.1.5.tar.gz]
+[2024-05-27 06:36:21] INFO root fetch - main [MainThread]: End processing [myscale-telemetry]: success
+[2024-05-27 06:36:21] INFO root fetch - processPackages [sqlmath]: executing diffoscope
+[2024-05-27 06:36:21] INFO root fetch - processPackages [sqlmath]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlmath-2024.3.25.tar.gz tmp/sqlmath-2024.5.26.tar.gz --markdown 20240527/s/sqlmath/2024.3.25-2024.5.26/README.md --exclude *.pyd
+[2024-05-27 06:36:21] INFO root fetch - processPackages [md2tgmd]: Remove: archive file [/home/abi/fetcher/tmp/md2tgmd-0.1.9.tar.gz]
+[2024-05-27 06:36:21] INFO root fetch - processPackages [md2tgmd]: Remove: archive file [/home/abi/fetcher/tmp/md2tgmd-0.2.0.tar.gz]
+[2024-05-27 06:36:21] INFO root fetch - main [MainThread]: End processing [md2tgmd]: success
+[2024-05-27 06:36:22] INFO root fetch - processPackages [swarms]: Remove: archive file [/home/abi/fetcher/tmp/swarms-5.0.7.tar.gz]
+[2024-05-27 06:36:22] INFO root fetch - processPackages [swarms]: Remove: archive file [/home/abi/fetcher/tmp/swarms-5.0.8.tar.gz]
+[2024-05-27 06:36:22] INFO root fetch - main [MainThread]: End processing [swarms]: success
+[2024-05-27 06:36:32] INFO root fetch - processPackages [sqlmath]: Remove: archive file [/home/abi/fetcher/tmp/sqlmath-2024.3.25.tar.gz]
+[2024-05-27 06:36:32] INFO root fetch - processPackages [sqlmath]: Remove: archive file [/home/abi/fetcher/tmp/sqlmath-2024.5.26.tar.gz]
+[2024-05-27 06:36:32] INFO root fetch - main [MainThread]: End processing [sqlmath]: success
+[2024-05-27 06:36:32] INFO root fetch - main [MainThread]: Store serial: [23390569]
