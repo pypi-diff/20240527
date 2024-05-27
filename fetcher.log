@@ -22692,3 +22692,27 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-05-27 19:03:44] INFO root fetch - processPackages [robusta-cli]: Remove: archive file [/home/abi/fetcher/tmp/robusta-cli-0.9.9.tar.gz]
 [2024-05-27 19:03:44] INFO root fetch - main [MainThread]: End processing [robusta-cli]: success
 [2024-05-27 19:03:44] INFO root fetch - main [MainThread]: Store serial: [23398712]
+[2024-05-27 19:05:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23398712]
+[2024-05-27 19:05:52] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-27 19:05:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: brainextractortool
+[2024-05-27 19:05:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ministats
+[2024-05-27 19:05:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pytest-only
+[2024-05-27 19:05:52] WARNING root fetch - processPackages [brainextractortool]: Skipping, unable to determine old version
+[2024-05-27 19:05:52] INFO root fetch - main [MainThread]: End processing [brainextractortool] error
+[2024-05-27 19:05:52] INFO root fetch - processPackages [ministats]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-05-27 19:05:52] INFO root fetch - processPackages [pytest-only]: New version: [2.1.2] Old Version: [2.1.1]
+[2024-05-27 19:05:52] INFO root fetch - processPackages [pytest-only]: Downloading https://files.pythonhosted.org/packages/35/5c/8772432474700a9f784776dd22ae471c33f077a06cd56884cd1a176c4d18/pytest_only-2.1.1.tar.gz
+[2024-05-27 19:05:52] INFO root fetch - processPackages [ministats]: Downloading https://files.pythonhosted.org/packages/d7/c2/489cc36cea783908f411129a87269919910396a0348d3b1ee618d3ade961/ministats-0.3.1.tar.gz
+[2024-05-27 19:05:53] INFO root fetch - processPackages [pytest-only]: Downloading https://files.pythonhosted.org/packages/1f/2f/937d554943477a540aa2aae2b4c47ad41c2f089f47691288938c67e94143/pytest_only-2.1.2.tar.gz
+[2024-05-27 19:05:53] INFO root fetch - processPackages [ministats]: Downloading https://files.pythonhosted.org/packages/9f/6b/efd5f3bea7f603af0a05db229e768b0be5620d57af77e65f50cdc518e866/ministats-0.3.2.tar.gz
+[2024-05-27 19:05:53] INFO root fetch - processPackages [pytest-only]: executing diffoscope
+[2024-05-27 19:05:53] INFO root fetch - processPackages [pytest-only]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_only-2.1.1.tar.gz tmp/pytest_only-2.1.2.tar.gz --markdown 20240527/p/pytest-only/2.1.1-2.1.2/README.md --exclude *.pyd
+[2024-05-27 19:05:53] INFO root fetch - processPackages [ministats]: executing diffoscope
+[2024-05-27 19:05:53] INFO root fetch - processPackages [ministats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ministats-0.3.1.tar.gz tmp/ministats-0.3.2.tar.gz --markdown 20240527/m/ministats/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-05-27 19:05:53] INFO root fetch - processPackages [pytest-only]: Remove: archive file [/home/abi/fetcher/tmp/pytest_only-2.1.1.tar.gz]
+[2024-05-27 19:05:53] INFO root fetch - processPackages [pytest-only]: Remove: archive file [/home/abi/fetcher/tmp/pytest_only-2.1.2.tar.gz]
+[2024-05-27 19:05:53] INFO root fetch - main [MainThread]: End processing [pytest-only]: success
+[2024-05-27 19:05:54] INFO root fetch - processPackages [ministats]: Remove: archive file [/home/abi/fetcher/tmp/ministats-0.3.1.tar.gz]
+[2024-05-27 19:05:54] INFO root fetch - processPackages [ministats]: Remove: archive file [/home/abi/fetcher/tmp/ministats-0.3.2.tar.gz]
+[2024-05-27 19:05:54] INFO root fetch - main [MainThread]: End processing [ministats]: success
+[2024-05-27 19:05:54] INFO root fetch - main [MainThread]: Store serial: [23398723]
