@@ -2029,3 +2029,27 @@
 [2024-05-27 02:36:51] INFO root fetch - processPackages [imbrium]: Remove: archive file [/home/abi/fetcher/tmp/imbrium-3.1.0.tar.gz]
 [2024-05-27 02:36:51] INFO root fetch - main [MainThread]: End processing [imbrium]: success
 [2024-05-27 02:36:51] INFO root fetch - main [MainThread]: Store serial: [23389119]
+[2024-05-27 02:38:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23389119]
+[2024-05-27 02:38:59] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-27 02:38:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyshared
+[2024-05-27 02:38:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: torchao-nightly
+[2024-05-27 02:38:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: example-package-zl
+[2024-05-27 02:39:00] WARNING root fetch - processPackages [example-package-zl]: Skipping, unable to determine old version
+[2024-05-27 02:39:00] INFO root fetch - main [MainThread]: End processing [example-package-zl] error
+[2024-05-27 02:39:00] INFO root fetch - processPackages [torchao-nightly]: New version: [2024.5.26] Old Version: [2024.5.25]
+[2024-05-27 02:39:00] INFO root fetch - processPackages [torchao-nightly]: Downloading https://files.pythonhosted.org/packages/49/c3/2832d84e01dd3435a1d743716a735c7d17118572bc4fad7adb4c4206d9ac/torchao_nightly-2024.5.25-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-27 02:39:00] INFO root fetch - processPackages [pyshared]: New version: [1.6.0] Old Version: [1.5.9]
+[2024-05-27 02:39:00] INFO root fetch - processPackages [pyshared]: Downloading https://files.pythonhosted.org/packages/41/09/9d32287f1f28056abe192b5d36ad3aff95a2c20093e881b927257954b434/pyshared-1.5.9.tar.gz
+[2024-05-27 02:39:00] INFO root fetch - processPackages [torchao-nightly]: Downloading https://files.pythonhosted.org/packages/65/1d/54627a6d061f5e621967ead71421d8aeac91391f4d22890e1ba1bacff60c/torchao_nightly-2024.5.26-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-27 02:39:00] INFO root fetch - processPackages [pyshared]: Downloading https://files.pythonhosted.org/packages/4d/84/3192d999829345377ae13044f7254b36422ce5c5c62f110d4b1aff96a2cd/pyshared-1.6.0.tar.gz
+[2024-05-27 02:39:00] INFO root fetch - processPackages [torchao-nightly]: executing diffoscope
+[2024-05-27 02:39:00] INFO root fetch - processPackages [torchao-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchao_nightly-2024.5.25-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/torchao_nightly-2024.5.26-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240527/t/torchao-nightly/2024.5.25-2024.5.26/README.md --exclude *.pyd
+[2024-05-27 02:39:00] INFO root fetch - processPackages [pyshared]: executing diffoscope
+[2024-05-27 02:39:00] INFO root fetch - processPackages [pyshared]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyshared-1.5.9.tar.gz tmp/pyshared-1.6.0.tar.gz --markdown 20240527/p/pyshared/1.5.9-1.6.0/README.md --exclude *.pyd
+[2024-05-27 02:39:01] INFO root fetch - processPackages [pyshared]: Remove: archive file [/home/abi/fetcher/tmp/pyshared-1.5.9.tar.gz]
+[2024-05-27 02:39:01] INFO root fetch - processPackages [pyshared]: Remove: archive file [/home/abi/fetcher/tmp/pyshared-1.6.0.tar.gz]
+[2024-05-27 02:39:01] INFO root fetch - main [MainThread]: End processing [pyshared]: success
+[2024-05-27 02:39:02] INFO root fetch - processPackages [torchao-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchao_nightly-2024.5.25-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-27 02:39:02] INFO root fetch - processPackages [torchao-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchao_nightly-2024.5.26-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-27 02:39:02] INFO root fetch - main [MainThread]: End processing [torchao-nightly]: success
+[2024-05-27 02:39:02] INFO root fetch - main [MainThread]: Store serial: [23389132]
