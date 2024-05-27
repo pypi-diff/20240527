@@ -20764,3 +20764,75 @@ EOFError: EOF read where object expected
 [2024-05-27 17:44:11] INFO root fetch - processPackages [axidence]: Remove: archive file [/home/abi/fetcher/tmp/axidence-0.3.1.tar.gz]
 [2024-05-27 17:44:11] INFO root fetch - main [MainThread]: End processing [axidence]: success
 [2024-05-27 17:44:11] INFO root fetch - main [MainThread]: Store serial: [23397824]
+[2024-05-27 17:46:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23397824]
+[2024-05-27 17:46:19] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-27 17:46:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: axidence
+[2024-05-27 17:46:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: MobileInventoryCLI
+[2024-05-27 17:46:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lions
+[2024-05-27 17:46:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fixpoint
+[2024-05-27 17:46:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: python-text-cleaning
+[2024-05-27 17:46:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: youtubei
+[2024-05-27 17:46:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: leadguru-jobs
+[2024-05-27 17:46:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aurora-ssg
+[2024-05-27 17:46:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: statistical-stocks-ta
+[2024-05-27 17:46:20] INFO root fetch - processPackages [axidence]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-05-27 17:46:20] INFO root fetch - processPackages [MobileInventoryCLI]: New version: [0.4.99] Old Version: [0.4.98]
+[2024-05-27 17:46:20] INFO root fetch - processPackages [lions]: New version: [1.4.4] Old Version: [1.4.2]
+[2024-05-27 17:46:20] INFO root fetch - processPackages [leadguru-jobs]: New version: [0.99.0] Old Version: [0.98.0]
+[2024-05-27 17:46:20] INFO root fetch - processPackages [python-text-cleaning]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-05-27 17:46:20] INFO root fetch - processPackages [axidence]: Downloading https://files.pythonhosted.org/packages/63/df/fdf3f60b4f936b592d16b8e60a5e58862b98c1938465b8903275fce77bb3/axidence-0.3.0.tar.gz
+[2024-05-27 17:46:20] INFO root fetch - processPackages [fixpoint]: New version: [0.9.0] Old Version: [0.10.0]
+[2024-05-27 17:46:20] WARNING root fetch - processPackages [statistical-stocks-ta]: Skipping, unable to determine old version
+[2024-05-27 17:46:20] WARNING root fetch - processPackages [aurora-ssg]: Skipping, unable to determine old version
+[2024-05-27 17:46:20] INFO root fetch - main [MainThread]: End processing [statistical-stocks-ta] error
+[2024-05-27 17:46:20] INFO root fetch - main [MainThread]: End processing [aurora-ssg] error
+[2024-05-27 17:46:20] INFO root fetch - processPackages [youtubei]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-27 17:46:20] INFO root fetch - processPackages [MobileInventoryCLI]: Downloading https://files.pythonhosted.org/packages/34/2d/1e50d7f512e3d39590afb4a6c37340af98e5c4eadc77d9de653aab0cb49f/MobileInventoryCLI-0.4.98.tar.gz
+[2024-05-27 17:46:20] INFO root fetch - processPackages [lions]: Downloading https://files.pythonhosted.org/packages/53/e0/5c2e0434c55ad76644614f11e33f4497e00cd9e5cb06eb62d890fa08f495/lions-1.4.2.tar.gz
+[2024-05-27 17:46:20] INFO root fetch - processPackages [leadguru-jobs]: Downloading https://files.pythonhosted.org/packages/58/0a/904c1f8e92c5b6adf3bf97a755cae87648f67ca82bb52bc30055558e0ce3/leadguru_jobs-0.98.0.tar.gz
+[2024-05-27 17:46:20] INFO root fetch - processPackages [python-text-cleaning]: Downloading https://files.pythonhosted.org/packages/a7/25/174e97ea1b806675d72cc3c69cc2522637449794f134fa45cee58c490945/python_text_cleaning-0.1.6.tar.gz
+[2024-05-27 17:46:20] INFO root fetch - processPackages [fixpoint]: Downloading https://files.pythonhosted.org/packages/56/d2/99527b06993759c6963b824dbdc1101ecbb7e82b30b8865075e927660820/fixpoint-0.10.0.tar.gz
+[2024-05-27 17:46:20] INFO root fetch - processPackages [axidence]: Downloading https://files.pythonhosted.org/packages/ba/85/a4ff44b0c9397dc6a482b94eac08810e6ff22eb03e9b64696aa518a9da67/axidence-0.3.1.tar.gz
+[2024-05-27 17:46:20] INFO root fetch - processPackages [leadguru-jobs]: Downloading https://files.pythonhosted.org/packages/e4/7f/189fe7a4dc1256297dd1956413531652ee35cd4ee527f02aa7f2d608775a/leadguru_jobs-0.99.0.tar.gz
+[2024-05-27 17:46:20] INFO root fetch - processPackages [youtubei]: Downloading https://files.pythonhosted.org/packages/b9/9f/c53d9697a4c7057c0740ab9e3c6c44c8621fb7430df6c243e404b0bcfeb1/youtubei-0.1.1.tar.gz
+[2024-05-27 17:46:20] INFO root fetch - processPackages [MobileInventoryCLI]: Downloading https://files.pythonhosted.org/packages/44/8c/14cdf7fc3f0b69cae35ba7ee2852fb70e3cab687142869ee3deb104ffc71/MobileInventoryCLI-0.4.99.tar.gz
+[2024-05-27 17:46:20] INFO root fetch - processPackages [lions]: Downloading https://files.pythonhosted.org/packages/19/32/5daf279c6d80a308af7391471319bf64c9914e1d4f676777a319ab89ff2d/lions-1.4.4.tar.gz
+[2024-05-27 17:46:20] INFO root fetch - processPackages [axidence]: executing diffoscope
+[2024-05-27 17:46:20] INFO root fetch - processPackages [axidence]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/axidence-0.3.0.tar.gz tmp/axidence-0.3.1.tar.gz --markdown 20240527/a/axidence/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-05-27 17:46:20] INFO root fetch - processPackages [leadguru-jobs]: executing diffoscope
+[2024-05-27 17:46:20] INFO root fetch - processPackages [leadguru-jobs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leadguru_jobs-0.98.0.tar.gz tmp/leadguru_jobs-0.99.0.tar.gz --markdown 20240527/l/leadguru-jobs/0.98.0-0.99.0/README.md --exclude *.pyd
+[2024-05-27 17:46:20] INFO root fetch - processPackages [python-text-cleaning]: Downloading https://files.pythonhosted.org/packages/cb/f5/b527cc1aa25d0d3a7e1160fa2fd2d0c056049a40fff4c377bf7c751f741e/python_text_cleaning-0.1.7.tar.gz
+[2024-05-27 17:46:20] INFO root fetch - processPackages [fixpoint]: Downloading https://files.pythonhosted.org/packages/02/e1/40a60f0904a305ce72f3eef2653b89f80d4a4fc401aded4bcdbb7e6158ff/fixpoint-0.9.0.tar.gz
+[2024-05-27 17:46:20] INFO root fetch - processPackages [lions]: executing diffoscope
+[2024-05-27 17:46:20] INFO root fetch - processPackages [lions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lions-1.4.2.tar.gz tmp/lions-1.4.4.tar.gz --markdown 20240527/l/lions/1.4.2-1.4.4/README.md --exclude *.pyd
+[2024-05-27 17:46:20] INFO root fetch - processPackages [MobileInventoryCLI]: executing diffoscope
+[2024-05-27 17:46:20] INFO root fetch - processPackages [MobileInventoryCLI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MobileInventoryCLI-0.4.98.tar.gz tmp/MobileInventoryCLI-0.4.99.tar.gz --markdown 20240527/M/MobileInventoryCLI/0.4.98-0.4.99/README.md --exclude *.pyd
+[2024-05-27 17:46:20] INFO root fetch - processPackages [python-text-cleaning]: executing diffoscope
+[2024-05-27 17:46:20] INFO root fetch - processPackages [python-text-cleaning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_text_cleaning-0.1.6.tar.gz tmp/python_text_cleaning-0.1.7.tar.gz --markdown 20240527/p/python-text-cleaning/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-05-27 17:46:20] INFO root fetch - processPackages [fixpoint]: executing diffoscope
+[2024-05-27 17:46:20] INFO root fetch - processPackages [fixpoint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fixpoint-0.10.0.tar.gz tmp/fixpoint-0.9.0.tar.gz --markdown 20240527/f/fixpoint/0.10.0-0.9.0/README.md --exclude *.pyd
+[2024-05-27 17:46:20] INFO root fetch - processPackages [youtubei]: Downloading https://files.pythonhosted.org/packages/8a/cf/9ec91df2a9223138fa2da59e65d371e2c1dcaefbc84c9ee6a8230b967a6f/youtubei-0.1.2.tar.gz
+[2024-05-27 17:46:21] INFO root fetch - processPackages [youtubei]: executing diffoscope
+[2024-05-27 17:46:21] INFO root fetch - processPackages [youtubei]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/youtubei-0.1.1.tar.gz tmp/youtubei-0.1.2.tar.gz --markdown 20240527/y/youtubei/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-27 17:46:21] INFO root fetch - processPackages [axidence]: Remove: archive file [/home/abi/fetcher/tmp/axidence-0.3.0.tar.gz]
+[2024-05-27 17:46:21] INFO root fetch - processPackages [axidence]: Remove: archive file [/home/abi/fetcher/tmp/axidence-0.3.1.tar.gz]
+[2024-05-27 17:46:21] INFO root fetch - main [MainThread]: End processing [axidence]: success
+[2024-05-27 17:46:21] INFO root fetch - processPackages [python-text-cleaning]: Remove: archive file [/home/abi/fetcher/tmp/python_text_cleaning-0.1.6.tar.gz]
+[2024-05-27 17:46:21] INFO root fetch - processPackages [python-text-cleaning]: Remove: archive file [/home/abi/fetcher/tmp/python_text_cleaning-0.1.7.tar.gz]
+[2024-05-27 17:46:21] INFO root fetch - main [MainThread]: End processing [python-text-cleaning]: success
+[2024-05-27 17:46:21] INFO root fetch - processPackages [lions]: Remove: archive file [/home/abi/fetcher/tmp/lions-1.4.2.tar.gz]
+[2024-05-27 17:46:21] INFO root fetch - processPackages [lions]: Remove: archive file [/home/abi/fetcher/tmp/lions-1.4.4.tar.gz]
+[2024-05-27 17:46:21] INFO root fetch - main [MainThread]: End processing [lions]: success
+[2024-05-27 17:46:21] INFO root fetch - processPackages [leadguru-jobs]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_jobs-0.98.0.tar.gz]
+[2024-05-27 17:46:21] INFO root fetch - processPackages [leadguru-jobs]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_jobs-0.99.0.tar.gz]
+[2024-05-27 17:46:21] INFO root fetch - main [MainThread]: End processing [leadguru-jobs]: success
+[2024-05-27 17:46:21] INFO root fetch - processPackages [fixpoint]: Remove: archive file [/home/abi/fetcher/tmp/fixpoint-0.10.0.tar.gz]
+[2024-05-27 17:46:21] INFO root fetch - processPackages [fixpoint]: Remove: archive file [/home/abi/fetcher/tmp/fixpoint-0.9.0.tar.gz]
+[2024-05-27 17:46:21] INFO root fetch - main [MainThread]: End processing [fixpoint]: success
+[2024-05-27 17:46:21] INFO root fetch - processPackages [MobileInventoryCLI]: Remove: archive file [/home/abi/fetcher/tmp/MobileInventoryCLI-0.4.98.tar.gz]
+[2024-05-27 17:46:21] INFO root fetch - processPackages [MobileInventoryCLI]: Remove: archive file [/home/abi/fetcher/tmp/MobileInventoryCLI-0.4.99.tar.gz]
+[2024-05-27 17:46:21] INFO root fetch - main [MainThread]: End processing [MobileInventoryCLI]: success
+[2024-05-27 17:46:22] INFO root fetch - processPackages [youtubei]: Remove: archive file [/home/abi/fetcher/tmp/youtubei-0.1.1.tar.gz]
+[2024-05-27 17:46:22] INFO root fetch - processPackages [youtubei]: Remove: archive file [/home/abi/fetcher/tmp/youtubei-0.1.2.tar.gz]
+[2024-05-27 17:46:22] INFO root fetch - main [MainThread]: End processing [youtubei]: success
+[2024-05-27 17:46:22] INFO root fetch - main [MainThread]: Store serial: [23397854]
