@@ -3498,3 +3498,18 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-05-27 04:17:24] INFO root fetch - processPackages [asynch-lxneng]: Remove: archive file [/home/abi/fetcher/tmp/asynch_lxneng-0.2.5.tar.gz]
 [2024-05-27 04:17:24] INFO root fetch - main [MainThread]: End processing [asynch-lxneng]: success
 [2024-05-27 04:17:24] INFO root fetch - main [MainThread]: Store serial: [23389696]
+[2024-05-27 04:19:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23389696]
+[2024-05-27 04:19:34] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-27 04:19:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: discordreactive
+[2024-05-27 04:19:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyriak
+[2024-05-27 04:19:34] WARNING root fetch - processPackages [discordreactive]: Skipping, unable to determine old version
+[2024-05-27 04:19:34] INFO root fetch - main [MainThread]: End processing [discordreactive] error
+[2024-05-27 04:19:34] INFO root fetch - processPackages [pyriak]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-05-27 04:19:35] INFO root fetch - processPackages [pyriak]: Downloading https://files.pythonhosted.org/packages/46/12/3b8255ee02b8042902ef0d620011dab065faa27e01f232ec2671027023ad/pyriak-0.2.0.tar.gz
+[2024-05-27 04:19:35] INFO root fetch - processPackages [pyriak]: Downloading https://files.pythonhosted.org/packages/4c/38/2984635903d277374f52622a9ca2504a98b514f2a91130563866f01457ae/pyriak-0.3.0.tar.gz
+[2024-05-27 04:19:35] INFO root fetch - processPackages [pyriak]: executing diffoscope
+[2024-05-27 04:19:35] INFO root fetch - processPackages [pyriak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyriak-0.2.0.tar.gz tmp/pyriak-0.3.0.tar.gz --markdown 20240527/p/pyriak/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-05-27 04:19:36] INFO root fetch - processPackages [pyriak]: Remove: archive file [/home/abi/fetcher/tmp/pyriak-0.2.0.tar.gz]
+[2024-05-27 04:19:36] INFO root fetch - processPackages [pyriak]: Remove: archive file [/home/abi/fetcher/tmp/pyriak-0.3.0.tar.gz]
+[2024-05-27 04:19:36] INFO root fetch - main [MainThread]: End processing [pyriak]: success
+[2024-05-27 04:19:36] INFO root fetch - main [MainThread]: Store serial: [23389701]
