@@ -4906,3 +4906,36 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 05:53:00] INFO root fetch - processPackages [jarvis-ui]: Remove: archive file [/home/abi/fetcher/tmp/jarvis_ui-2.3.1-py3-none-any.whl.zip]
 [2024-05-27 05:53:00] INFO root fetch - main [MainThread]: End processing [jarvis-ui]: success
 [2024-05-27 05:53:00] INFO root fetch - main [MainThread]: Store serial: [23390387]
+[2024-05-27 05:55:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23390387]
+[2024-05-27 05:55:09] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-27 05:55:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: telegram-gmail-bot
+[2024-05-27 05:55:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: discordreactive
+[2024-05-27 05:55:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: CheeseAPI
+[2024-05-27 05:55:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyVIA
+[2024-05-27 05:55:10] INFO root fetch - processPackages [discordreactive]: New version: [0.2] Old Version: [0.1]
+[2024-05-27 05:55:10] WARNING root fetch - processPackages [telegram-gmail-bot]: Skipping, unable to determine old version
+[2024-05-27 05:55:10] INFO root fetch - main [MainThread]: End processing [telegram-gmail-bot] error
+[2024-05-27 05:55:10] INFO root fetch - processPackages [discordreactive]: Downloading https://files.pythonhosted.org/packages/dc/c8/b4b2f0e63a66b86965d962cbe58e862dcce74077377b477c10a34a6dedb3/discordreactive-0.1.tar.gz
+[2024-05-27 05:55:10] INFO root fetch - processPackages [CheeseAPI]: New version: [1.2.3] Old Version: [1.2.2]
+[2024-05-27 05:55:10] INFO root fetch - processPackages [pyVIA]: New version: [0.2.0] Old Version: [0.1.993]
+[2024-05-27 05:55:10] INFO root fetch - processPackages [discordreactive]: Downloading https://files.pythonhosted.org/packages/28/dc/9111e48ec6f1ec45d8b49af24d41c144b29a66d879fbaa1f53dbeccd61f2/discordreactive-0.2.tar.gz
+[2024-05-27 05:55:10] INFO root fetch - processPackages [CheeseAPI]: Downloading https://files.pythonhosted.org/packages/14/d8/70f491c0ed8397677e9b4a4f4fb71a1968df3d8778b10d666bdd72808ab7/cheeseapi-1.2.2.tar.gz
+[2024-05-27 05:55:10] INFO root fetch - processPackages [pyVIA]: Downloading https://files.pythonhosted.org/packages/d3/6e/40f41ea933cc12a55e84189c5f0473c13aecbc9f47768f6dc0a813c1b2c6/pyVIA-0.1.993.tar.gz
+[2024-05-27 05:55:10] INFO root fetch - processPackages [discordreactive]: executing diffoscope
+[2024-05-27 05:55:10] INFO root fetch - processPackages [discordreactive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discordreactive-0.1.tar.gz tmp/discordreactive-0.2.tar.gz --markdown 20240527/d/discordreactive/0.1-0.2/README.md --exclude *.pyd
+[2024-05-27 05:55:10] INFO root fetch - processPackages [CheeseAPI]: Downloading https://files.pythonhosted.org/packages/30/36/c5a3e8658f36eae48f6ae0db04b0bb1125c5faccf8507a28026ba66c11fc/cheeseapi-1.2.3.tar.gz
+[2024-05-27 05:55:10] INFO root fetch - processPackages [pyVIA]: Downloading https://files.pythonhosted.org/packages/6b/b0/6017fa89dff9d6a0a17bd77327b42ad6d5d1d5f991dc2aa6b1e8f9d0286f/pyVIA-0.2.0.tar.gz
+[2024-05-27 05:55:10] INFO root fetch - processPackages [discordreactive]: Remove: archive file [/home/abi/fetcher/tmp/discordreactive-0.1.tar.gz]
+[2024-05-27 05:55:10] INFO root fetch - processPackages [discordreactive]: Remove: archive file [/home/abi/fetcher/tmp/discordreactive-0.2.tar.gz]
+[2024-05-27 05:55:10] INFO root fetch - main [MainThread]: End processing [discordreactive]: success
+[2024-05-27 05:55:10] INFO root fetch - processPackages [CheeseAPI]: executing diffoscope
+[2024-05-27 05:55:10] INFO root fetch - processPackages [CheeseAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cheeseapi-1.2.2.tar.gz tmp/cheeseapi-1.2.3.tar.gz --markdown 20240527/C/CheeseAPI/1.2.2-1.2.3/README.md --exclude *.pyd
+[2024-05-27 05:55:10] INFO root fetch - processPackages [pyVIA]: executing diffoscope
+[2024-05-27 05:55:10] INFO root fetch - processPackages [pyVIA]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyVIA-0.1.993.tar.gz tmp/pyVIA-0.2.0.tar.gz --markdown 20240527/p/pyVIA/0.1.993-0.2.0/README.md --exclude *.pyd
+[2024-05-27 05:55:11] INFO root fetch - processPackages [CheeseAPI]: Remove: archive file [/home/abi/fetcher/tmp/cheeseapi-1.2.2.tar.gz]
+[2024-05-27 05:55:11] INFO root fetch - processPackages [CheeseAPI]: Remove: archive file [/home/abi/fetcher/tmp/cheeseapi-1.2.3.tar.gz]
+[2024-05-27 05:55:11] INFO root fetch - main [MainThread]: End processing [CheeseAPI]: success
+[2024-05-27 05:55:11] INFO root fetch - processPackages [pyVIA]: Remove: archive file [/home/abi/fetcher/tmp/pyVIA-0.1.993.tar.gz]
+[2024-05-27 05:55:11] INFO root fetch - processPackages [pyVIA]: Remove: archive file [/home/abi/fetcher/tmp/pyVIA-0.2.0.tar.gz]
+[2024-05-27 05:55:11] INFO root fetch - main [MainThread]: End processing [pyVIA]: success
+[2024-05-27 05:55:11] INFO root fetch - main [MainThread]: Store serial: [23390398]
