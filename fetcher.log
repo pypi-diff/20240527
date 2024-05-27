@@ -5247,3 +5247,33 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 06:25:28] INFO root fetch - processPackages [smt-portfolio]: Remove: archive file [/home/abi/fetcher/tmp/smt_portfolio-1.0.0.tar.gz]
 [2024-05-27 06:25:28] INFO root fetch - main [MainThread]: End processing [smt-portfolio]: success
 [2024-05-27 06:25:28] INFO root fetch - main [MainThread]: Store serial: [23390510]
+[2024-05-27 06:27:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23390510]
+[2024-05-27 06:27:37] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-27 06:27:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tree-of-thoughts
+[2024-05-27 06:27:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: telegram-gmail-bot
+[2024-05-27 06:27:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: moose-frank
+[2024-05-27 06:27:37] INFO root fetch - processPackages [telegram-gmail-bot]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-27 06:27:37] INFO root fetch - processPackages [tree-of-thoughts]: New version: [0.5.6] Old Version: [0.5.5]
+[2024-05-27 06:27:37] INFO root fetch - processPackages [moose-frank]: New version: [9.3.1] Old Version: [9.3.0]
+[2024-05-27 06:27:37] INFO root fetch - processPackages [tree-of-thoughts]: Downloading https://files.pythonhosted.org/packages/e8/0a/2057624eb4fe7b4d07191dfe8267caf4af46f7fed51ac870915e47945f34/tree_of_thoughts-0.5.5.tar.gz
+[2024-05-27 06:27:37] INFO root fetch - processPackages [telegram-gmail-bot]: Downloading https://files.pythonhosted.org/packages/a4/9f/fae5f4a98656ace29db5ca94df7ef9e908e7cb4050378815d94b2e9c8585/telegram_gmail_bot-0.1.0.tar.gz
+[2024-05-27 06:27:37] INFO root fetch - processPackages [moose-frank]: Downloading https://files.pythonhosted.org/packages/d5/18/6a93bfd8d2e1508d8b9c348b4a5182811435fe41e7bb50e749239dcba53c/moose-frank-9.3.0.tar.gz
+[2024-05-27 06:27:37] INFO root fetch - processPackages [tree-of-thoughts]: Downloading https://files.pythonhosted.org/packages/da/dd/d77b4d7711e0c449aebbd9bd5d56959a55f8422eb44b5eba2c93851d4494/tree_of_thoughts-0.5.6.tar.gz
+[2024-05-27 06:27:37] INFO root fetch - processPackages [telegram-gmail-bot]: Downloading https://files.pythonhosted.org/packages/13/95/56ce273a494e09a27e2ce308be6b37207ca1a065bc150927eca22d8fef29/telegram_gmail_bot-0.1.1.tar.gz
+[2024-05-27 06:27:37] INFO root fetch - processPackages [tree-of-thoughts]: executing diffoscope
+[2024-05-27 06:27:37] INFO root fetch - processPackages [tree-of-thoughts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tree_of_thoughts-0.5.5.tar.gz tmp/tree_of_thoughts-0.5.6.tar.gz --markdown 20240527/t/tree-of-thoughts/0.5.5-0.5.6/README.md --exclude *.pyd
+[2024-05-27 06:27:37] INFO root fetch - processPackages [moose-frank]: Downloading https://files.pythonhosted.org/packages/cf/ea/7389fa90ebd4f315242b9354e1e16377c142aec72f7ab727673efb7c1621/moose-frank-9.3.1.tar.gz
+[2024-05-27 06:27:37] INFO root fetch - processPackages [telegram-gmail-bot]: executing diffoscope
+[2024-05-27 06:27:37] INFO root fetch - processPackages [telegram-gmail-bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/telegram_gmail_bot-0.1.0.tar.gz tmp/telegram_gmail_bot-0.1.1.tar.gz --markdown 20240527/t/telegram-gmail-bot/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-27 06:27:38] INFO root fetch - processPackages [moose-frank]: executing diffoscope
+[2024-05-27 06:27:38] INFO root fetch - processPackages [moose-frank]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moose-frank-9.3.0.tar.gz tmp/moose-frank-9.3.1.tar.gz --markdown 20240527/m/moose-frank/9.3.0-9.3.1/README.md --exclude *.pyd
+[2024-05-27 06:27:38] INFO root fetch - processPackages [tree-of-thoughts]: Remove: archive file [/home/abi/fetcher/tmp/tree_of_thoughts-0.5.5.tar.gz]
+[2024-05-27 06:27:38] INFO root fetch - processPackages [tree-of-thoughts]: Remove: archive file [/home/abi/fetcher/tmp/tree_of_thoughts-0.5.6.tar.gz]
+[2024-05-27 06:27:38] INFO root fetch - main [MainThread]: End processing [tree-of-thoughts]: success
+[2024-05-27 06:27:38] INFO root fetch - processPackages [telegram-gmail-bot]: Remove: archive file [/home/abi/fetcher/tmp/telegram_gmail_bot-0.1.0.tar.gz]
+[2024-05-27 06:27:38] INFO root fetch - processPackages [telegram-gmail-bot]: Remove: archive file [/home/abi/fetcher/tmp/telegram_gmail_bot-0.1.1.tar.gz]
+[2024-05-27 06:27:38] INFO root fetch - main [MainThread]: End processing [telegram-gmail-bot]: success
+[2024-05-27 06:27:38] INFO root fetch - processPackages [moose-frank]: Remove: archive file [/home/abi/fetcher/tmp/moose-frank-9.3.0.tar.gz]
+[2024-05-27 06:27:38] INFO root fetch - processPackages [moose-frank]: Remove: archive file [/home/abi/fetcher/tmp/moose-frank-9.3.1.tar.gz]
+[2024-05-27 06:27:38] INFO root fetch - main [MainThread]: End processing [moose-frank]: success
+[2024-05-27 06:27:38] INFO root fetch - main [MainThread]: Store serial: [23390518]
