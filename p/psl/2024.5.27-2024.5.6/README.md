@@ -1,0 +1,1658 @@
+# Comparing `tmp/psl-2024.5.27.tar.gz` & `tmp/psl-2024.5.6.tar.gz`
+
+## filetype from file(1)
+
+```diff
+@@ -1 +1 @@
+-gzip compressed data, was "psl-2024.5.27.tar", last modified: Mon May 27 13:05:14 2024, max compression
++gzip compressed data, was "psl-2024.5.6.tar", last modified: Mon May  6 13:04:35 2024, max compression
+```
+
+## Comparing `psl-2024.5.27.tar` & `psl-2024.5.6.tar`
+
+### file list
+
+```diff
+@@ -1,17 +1,17 @@
+-drwxr-xr-x   0 runner    (1001) docker     (127)        0 2024-05-27 13:05:14.314568 psl-2024.5.27/
+--rw-r--r--   0 runner    (1001) docker     (127)    16726 2024-05-27 13:04:47.000000 psl-2024.5.27/LICENSE
+--rw-r--r--   0 runner    (1001) docker     (127)       51 2024-05-27 13:04:47.000000 psl-2024.5.27/MANIFEST.in
+--rw-r--r--   0 runner    (1001) docker     (127)     2488 2024-05-27 13:05:14.314568 psl-2024.5.27/PKG-INFO
+--rw-r--r--   0 runner    (1001) docker     (127)     1420 2024-05-27 13:04:47.000000 psl-2024.5.27/README.md
+-drwxr-xr-x   0 runner    (1001) docker     (127)        0 2024-05-27 13:05:14.310568 psl-2024.5.27/psl/
+--rw-r--r--   0 runner    (1001) docker     (127)     4065 2024-05-27 13:04:53.000000 psl-2024.5.27/psl/__init__.py
+--rw-------   0 runner    (1001) docker     (127)   133761 2024-05-27 13:04:53.000000 psl-2024.5.27/psl/psl.txt
+--rw-r--r--   0 runner    (1001) docker     (127)        0 2024-05-27 13:04:47.000000 psl-2024.5.27/psl/py.typed
+-drwxr-xr-x   0 runner    (1001) docker     (127)        0 2024-05-27 13:05:14.310568 psl-2024.5.27/psl.egg-info/
+--rw-r--r--   0 runner    (1001) docker     (127)     2488 2024-05-27 13:05:14.000000 psl-2024.5.27/psl.egg-info/PKG-INFO
+--rw-r--r--   0 runner    (1001) docker     (127)      213 2024-05-27 13:05:14.000000 psl-2024.5.27/psl.egg-info/SOURCES.txt
+--rw-r--r--   0 runner    (1001) docker     (127)        1 2024-05-27 13:05:14.000000 psl-2024.5.27/psl.egg-info/dependency_links.txt
+--rw-r--r--   0 runner    (1001) docker     (127)        1 2024-05-27 13:05:03.000000 psl-2024.5.27/psl.egg-info/not-zip-safe
+--rw-r--r--   0 runner    (1001) docker     (127)        4 2024-05-27 13:05:14.000000 psl-2024.5.27/psl.egg-info/top_level.txt
+--rw-r--r--   0 runner    (1001) docker     (127)       38 2024-05-27 13:05:14.314568 psl-2024.5.27/setup.cfg
+--rw-r--r--   0 runner    (1001) docker     (127)     1528 2024-05-27 13:04:47.000000 psl-2024.5.27/setup.py
++drwxr-xr-x   0 runner    (1001) docker     (127)        0 2024-05-06 13:04:35.715896 psl-2024.5.6/
++-rw-r--r--   0 runner    (1001) docker     (127)    16726 2024-05-06 13:04:09.000000 psl-2024.5.6/LICENSE
++-rw-r--r--   0 runner    (1001) docker     (127)       51 2024-05-06 13:04:09.000000 psl-2024.5.6/MANIFEST.in
++-rw-r--r--   0 runner    (1001) docker     (127)     2487 2024-05-06 13:04:35.715896 psl-2024.5.6/PKG-INFO
++-rw-r--r--   0 runner    (1001) docker     (127)     1420 2024-05-06 13:04:09.000000 psl-2024.5.6/README.md
++drwxr-xr-x   0 runner    (1001) docker     (127)        0 2024-05-06 13:04:35.715896 psl-2024.5.6/psl/
++-rw-r--r--   0 runner    (1001) docker     (127)     4064 2024-05-06 13:04:15.000000 psl-2024.5.6/psl/__init__.py
++-rw-------   0 runner    (1001) docker     (127)   133574 2024-05-06 13:04:15.000000 psl-2024.5.6/psl/psl.txt
++-rw-r--r--   0 runner    (1001) docker     (127)        0 2024-05-06 13:04:09.000000 psl-2024.5.6/psl/py.typed
++drwxr-xr-x   0 runner    (1001) docker     (127)        0 2024-05-06 13:04:35.715896 psl-2024.5.6/psl.egg-info/
++-rw-r--r--   0 runner    (1001) docker     (127)     2487 2024-05-06 13:04:35.000000 psl-2024.5.6/psl.egg-info/PKG-INFO
++-rw-r--r--   0 runner    (1001) docker     (127)      213 2024-05-06 13:04:35.000000 psl-2024.5.6/psl.egg-info/SOURCES.txt
++-rw-r--r--   0 runner    (1001) docker     (127)        1 2024-05-06 13:04:35.000000 psl-2024.5.6/psl.egg-info/dependency_links.txt
++-rw-r--r--   0 runner    (1001) docker     (127)        1 2024-05-06 13:04:25.000000 psl-2024.5.6/psl.egg-info/not-zip-safe
++-rw-r--r--   0 runner    (1001) docker     (127)        4 2024-05-06 13:04:35.000000 psl-2024.5.6/psl.egg-info/top_level.txt
++-rw-r--r--   0 runner    (1001) docker     (127)       38 2024-05-06 13:04:35.715896 psl-2024.5.6/setup.cfg
++-rw-r--r--   0 runner    (1001) docker     (127)     1528 2024-05-06 13:04:09.000000 psl-2024.5.6/setup.py
+```
+
+### Comparing `psl-2024.5.27/LICENSE` & `psl-2024.5.6/LICENSE`
+
+ * *Files identical despite different names*
+
+### Comparing `psl-2024.5.27/PKG-INFO` & `psl-2024.5.6/PKG-INFO`
+
+ * *Files 4% similar despite different names*
+
+```diff
+@@ -1,10 +1,10 @@
+ Metadata-Version: 2.1
+ Name: psl
+-Version: 2024.5.27
++Version: 2024.5.6
+ Summary: Mozilla Public Suffix list as a Python package and updated daily
+ Home-page: https://github.com/sethmlarson/psl
+ Author: Seth Michael Larson
+ Author-email: sethmichaellarson@gmail.com
+ License: MPL-2.0
+ Classifier: Development Status :: 5 - Production/Stable
+ Classifier: Environment :: Web Environment
+```
+
+### Comparing `psl-2024.5.27/README.md` & `psl-2024.5.6/README.md`
+
+ * *Files identical despite different names*
+
+### Comparing `psl-2024.5.27/psl/__init__.py` & `psl-2024.5.6/psl/__init__.py`
+
+ * *Files 5% similar despite different names*
+
+```diff
+@@ -1,13 +1,13 @@
+ import functools
+ import pathlib
+ import typing
+ 
+-__version__ = "2024.5.27"
+-__checksum__ = "2801338d293b719f494d99543a326ac29bffef28"
++__version__ = "2024.5.6"
++__checksum__ = "7c0c6cfa0fe6e11d438448a2b8c76092ae19abfa"
+ __all__ = ["PUBLIC_SUFFIX_URL", "domain_suffixes", "Suffixes", "domain_can_set_cookie"]
+ 
+ 
+ PUBLIC_SUFFIX_URL = "https://publicsuffix.org/list/public_suffix_list.dat"
+ _PUBLIC_SUFFIX_PATH = pathlib.Path(__file__).parent / "psl.txt"
+```
+
+### Comparing `psl-2024.5.27/psl/psl.txt` & `psl-2024.5.6/psl/psl.txt`
+
+ * *Files 2% similar despite different names*
+
+```diff
+@@ -6983,17 +6983,17 @@
+ auth.us-east-2.amazoncognito.com
+ auth-fips.us-east-2.amazoncognito.com
+ auth-fips.us-gov-west-1.amazoncognito.com
+ auth.us-west-1.amazoncognito.com
+ auth-fips.us-west-1.amazoncognito.com
+ auth.us-west-2.amazoncognito.com
+ auth-fips.us-west-2.amazoncognito.com
+-*.compute.amazonaws.com.cn
+ *.compute.amazonaws.com
+ *.compute-1.amazonaws.com
++*.compute.amazonaws.com.cn
+ us-east-1.amazonaws.com
+ emrappui-prod.cn-north-1.amazonaws.com.cn
+ emrnotebooks-prod.cn-north-1.amazonaws.com.cn
+ emrstudio-prod.cn-north-1.amazonaws.com.cn
+ emrappui-prod.cn-northwest-1.amazonaws.com.cn
+ emrnotebooks-prod.cn-northwest-1.amazonaws.com.cn
+ emrstudio-prod.cn-northwest-1.amazonaws.com.cn
+@@ -7673,59 +7673,56 @@
+ canva-apps.com
+ *.my.canva.site
+ drr.ac
+ uwu.ai
+ carrd.co
+ crd.co
+ ju.mp
+-za.bz
++ae.org
+ br.com
+ cn.com
++com.de
++com.se
+ de.com
+ eu.com
++gb.net
++hu.net
++jp.net
+ jpn.com
+ mex.com
+ ru.com
+ sa.com
++se.net
+ uk.com
++uk.net
+ us.com
++za.bz
+ za.com
+-com.de
+-gb.net
+-hu.net
+-jp.net
+-se.net
+-uk.net
+-ae.org
+-com.se
+ ar.com
+ hu.com
+ kr.com
+ no.com
+ qc.com
+ uy.com
+ africa.com
+ gr.com
+-web.in
+ in.net
++web.in
+ us.org
+ co.com
+ aus.basketball
+ nz.basketball
+ radio.am
+ radio.fm
+ c.la
+ certmgr.org
+ cx.ua
+ discourse.group
+ discourse.team
+-cleverapps.cc
+-*.services.clever-cloud.com
+ cleverapps.io
+-cleverapps.tech
+ clerk.app
+ clerkstage.app
+ *.lcl.dev
+ *.lclstage.dev
+ *.stg.dev
+ *.stgstage.dev
+ clickrising.net
+@@ -7733,16 +7730,16 @@
+ cloud66.ws
+ cloud66.zone
+ jdevcloud.com
+ wpdevcloud.com
+ cloudaccess.host
+ freesite.host
+ cloudaccess.net
+-cloudcontrolapp.com
+ cloudcontrolled.com
++cloudcontrolapp.com
+ *.cloudera.site
+ cf-ipfs.com
+ cloudflare-ipfs.com
+ trycloudflare.com
+ pages.dev
+ r2.dev
+ workers.dev
+@@ -7751,19 +7748,19 @@
+ objects.rma.cloudscale.ch
+ wnext.app
+ co.ca
+ *.otap.co
+ co.cz
+ cdn77-storage.com
+ rsc.contentproxy9.cz
+-r.cdn77.net
+ cdn77-ssl.net
++r.cdn77.net
++ssl.origin.cdn77-secure.org
+ c.cdn77.org
+ rsc.cdn77.org
+-ssl.origin.cdn77-secure.org
+ cloudns.asia
+ cloudns.be
+ cloudns.biz
+ cloudns.cc
+ cloudns.ch
+ cloudns.cl
+ cloudns.club
+@@ -7792,16 +7789,16 @@
+ ac.ru
+ edu.ru
+ gov.ru
+ int.ru
+ mil.ru
+ test.ru
+ dyn.cosidns.de
+-dnsupdater.de
+ dynamisches-dns.de
++dnsupdater.de
+ internet-dns.de
+ l-o-g-i-n.de
+ dynamic-dns.info
+ feste-ip.net
+ knx-server.net
+ static-access.net
+ *.cprapid.com
+@@ -7816,17 +7813,17 @@
+ *.ocs.customer-oci.com
+ cyclic.app
+ cyclic.cloud
+ cyclic-app.com
+ cyclic.co.in
+ cyon.link
+ cyon.site
+-platform0.app
+ fnwk.site
+ folionetwork.site
++platform0.app
+ daplie.me
+ localhost.daplie.me
+ dattolocal.com
+ dattorelay.com
+ dattoweb.com
+ mydatto.com
+ dattolocal.net
+@@ -7866,82 +7863,115 @@
+ drud.io
+ drud.us
+ duckdns.org
+ bip.sh
+ bitbridge.net
+ dy.fi
+ tunk.org
+-dyndns.biz
+-for-better.biz
+-for-more.biz
+-for-some.biz
+-for-the.biz
+-selfip.biz
+-webhop.biz
+-ftpaccess.cc
+-game-server.cc
+-myphotos.cc
+-scrapping.cc
+-blogdns.com
+-cechire.com
+-dnsalias.com
+-dnsdojo.com
+-doesntexist.com
+-dontexist.com
+-doomdns.com
+-dyn-o-saur.com
+-dynalias.com
+ dyndns-at-home.com
+ dyndns-at-work.com
+ dyndns-blog.com
+ dyndns-free.com
+ dyndns-home.com
+ dyndns-ip.com
+ dyndns-mail.com
+ dyndns-office.com
+ dyndns-pics.com
+ dyndns-remote.com
+ dyndns-server.com
+ dyndns-web.com
+ dyndns-wiki.com
+ dyndns-work.com
++dyndns.biz
++dyndns.info
++dyndns.org
++dyndns.tv
++at-band-camp.net
++ath.cx
++barrel-of-knowledge.info
++barrell-of-knowledge.info
++better-than.tv
++blogdns.com
++blogdns.net
++blogdns.org
++blogsite.org
++boldlygoingnowhere.org
++broke-it.net
++buyshouses.net
++cechire.com
++dnsalias.com
++dnsalias.net
++dnsalias.org
++dnsdojo.com
++dnsdojo.net
++dnsdojo.org
++does-it.net
++doesntexist.com
++doesntexist.org
++dontexist.com
++dontexist.net
++dontexist.org
++doomdns.com
++doomdns.org
++dvrdns.org
++dyn-o-saur.com
++dynalias.com
++dynalias.net
++dynalias.org
++dynathome.net
++dyndns.ws
++endofinternet.net
++endofinternet.org
++endoftheinternet.org
+ est-a-la-maison.com
+ est-a-la-masion.com
+ est-le-patron.com
+ est-mon-blogueur.com
++for-better.biz
++for-more.biz
++for-our.info
++for-some.biz
++for-the.biz
++forgot.her.name
++forgot.his.name
+ from-ak.com
+ from-al.com
+ from-ar.com
++from-az.net
+ from-ca.com
++from-co.net
+ from-ct.com
+ from-dc.com
+ from-de.com
+ from-fl.com
+ from-ga.com
+ from-hi.com
+ from-ia.com
+ from-id.com
+ from-il.com
+ from-in.com
+ from-ks.com
+ from-ky.com
++from-la.net
+ from-ma.com
+ from-md.com
++from-me.org
+ from-mi.com
+ from-mn.com
+ from-mo.com
+ from-ms.com
+ from-mt.com
+ from-nc.com
+ from-nd.com
+ from-ne.com
+ from-nh.com
+ from-nj.com
+ from-nm.com
+ from-nv.com
++from-ny.net
+ from-oh.com
+ from-ok.com
+ from-or.com
+ from-pa.com
+ from-pr.com
+ from-ri.com
+ from-sc.com
+@@ -7951,219 +7981,186 @@
+ from-ut.com
+ from-va.com
+ from-vt.com
+ from-wa.com
+ from-wi.com
+ from-wv.com
+ from-wy.com
++ftpaccess.cc
++fuettertdasnetz.de
++game-host.org
++game-server.cc
+ getmyip.com
++gets-it.net
++go.dyndns.org
+ gotdns.com
++gotdns.org
++groks-the.info
++groks-this.info
++ham-radio-op.net
++here-for-more.info
+ hobby-site.com
++hobby-site.org
++home.dyndns.org
++homedns.org
++homeftp.net
++homeftp.org
++homeip.net
+ homelinux.com
++homelinux.net
++homelinux.org
+ homeunix.com
++homeunix.net
++homeunix.org
+ iamallama.com
++in-the-band.net
+ is-a-anarchist.com
+ is-a-blogger.com
+ is-a-bookkeeper.com
++is-a-bruinsfan.org
+ is-a-bulls-fan.com
++is-a-candidate.org
+ is-a-caterer.com
++is-a-celticsfan.org
+ is-a-chef.com
++is-a-chef.net
++is-a-chef.org
+ is-a-conservative.com
+ is-a-cpa.com
+ is-a-cubicle-slave.com
+ is-a-democrat.com
+ is-a-designer.com
+ is-a-doctor.com
+ is-a-financialadvisor.com
+ is-a-geek.com
++is-a-geek.net
++is-a-geek.org
+ is-a-green.com
+ is-a-guru.com
+ is-a-hard-worker.com
+ is-a-hunter.com
++is-a-knight.org
+ is-a-landscaper.com
+ is-a-lawyer.com
+ is-a-liberal.com
+ is-a-libertarian.com
++is-a-linux-user.org
+ is-a-llama.com
+ is-a-musician.com
+ is-a-nascarfan.com
+ is-a-nurse.com
+ is-a-painter.com
++is-a-patsfan.org
+ is-a-personaltrainer.com
+ is-a-photographer.com
+ is-a-player.com
+ is-a-republican.com
+ is-a-rockstar.com
+ is-a-socialist.com
++is-a-soxfan.org
+ is-a-student.com
+ is-a-teacher.com
+ is-a-techie.com
+ is-a-therapist.com
+ is-an-accountant.com
+ is-an-actor.com
+ is-an-actress.com
+ is-an-anarchist.com
+ is-an-artist.com
+ is-an-engineer.com
+ is-an-entertainer.com
++is-by.us
+ is-certified.com
++is-found.org
+ is-gone.com
+ is-into-anime.com
+ is-into-cars.com
+ is-into-cartoons.com
+ is-into-games.com
+ is-leet.com
++is-lost.org
+ is-not-certified.com
++is-saved.org
+ is-slick.com
+ is-uberleet.com
++is-very-bad.org
++is-very-evil.org
++is-very-good.org
++is-very-nice.org
++is-very-sweet.org
+ is-with-theband.com
+ isa-geek.com
++isa-geek.net
++isa-geek.org
+ isa-hockeynut.com
+ issmarterthanyou.com
+-likes-pie.com
+-likescandy.com
+-neat-url.com
+-saves-the-whales.com
+-selfip.com
+-sells-for-less.com
+-sells-for-u.com
+-servebbs.com
+-simple-url.com
+-space-to-rent.com
+-teaches-yoga.com
+-writesthisblog.com
+-ath.cx
+-fuettertdasnetz.de
+ isteingeek.de
+ istmein.de
++kicks-ass.net
++kicks-ass.org
++knowsitall.info
++land-4-sale.us
+ lebtimnetz.de
+ leitungsen.de
+-traeumtgerade.de
+-barrel-of-knowledge.info
+-barrell-of-knowledge.info
+-dyndns.info
+-for-our.info
+-groks-the.info
+-groks-this.info
+-here-for-more.info
+-knowsitall.info
+-selfip.info
+-webhop.info
+-forgot.her.name
+-forgot.his.name
+-at-band-camp.net
+-blogdns.net
+-broke-it.net
+-buyshouses.net
+-dnsalias.net
+-dnsdojo.net
+-does-it.net
+-dontexist.net
+-dynalias.net
+-dynathome.net
+-endofinternet.net
+-from-az.net
+-from-co.net
+-from-la.net
+-from-ny.net
+-gets-it.net
+-ham-radio-op.net
+-homeftp.net
+-homeip.net
+-homelinux.net
+-homeunix.net
+-in-the-band.net
+-is-a-chef.net
+-is-a-geek.net
+-isa-geek.net
+-kicks-ass.net
+-office-on-the.net
+-podzone.net
+-scrapper-site.net
+-selfip.net
+-sells-it.net
+-servebbs.net
+-serveftp.net
+-thruhere.net
+-webhop.net
++likes-pie.com
++likescandy.com
+ merseine.nu
+ mine.nu
+-shacknet.nu
+-blogdns.org
+-blogsite.org
+-boldlygoingnowhere.org
+-dnsalias.org
+-dnsdojo.org
+-doesntexist.org
+-dontexist.org
+-doomdns.org
+-dvrdns.org
+-dynalias.org
+-dyndns.org
+-go.dyndns.org
+-home.dyndns.org
+-endofinternet.org
+-endoftheinternet.org
+-from-me.org
+-game-host.org
+-gotdns.org
+-hobby-site.org
+-homedns.org
+-homeftp.org
+-homelinux.org
+-homeunix.org
+-is-a-bruinsfan.org
+-is-a-candidate.org
+-is-a-celticsfan.org
+-is-a-chef.org
+-is-a-geek.org
+-is-a-knight.org
+-is-a-linux-user.org
+-is-a-patsfan.org
+-is-a-soxfan.org
+-is-found.org
+-is-lost.org
+-is-saved.org
+-is-very-bad.org
+-is-very-evil.org
+-is-very-good.org
+-is-very-nice.org
+-is-very-sweet.org
+-isa-geek.org
+-kicks-ass.org
+ misconfused.org
++mypets.ws
++myphotos.cc
++neat-url.com
++office-on-the.net
++on-the-web.tv
++podzone.net
+ podzone.org
+ readmyblog.org
++saves-the-whales.com
++scrapper-site.net
++scrapping.cc
++selfip.biz
++selfip.com
++selfip.info
++selfip.net
+ selfip.org
++sells-for-less.com
++sells-for-u.com
++sells-it.net
+ sellsyourhome.org
++servebbs.com
++servebbs.net
+ servebbs.org
++serveftp.net
+ serveftp.org
+ servegame.org
++shacknet.nu
++simple-url.com
++space-to-rent.com
+ stuff-4-sale.org
++stuff-4-sale.us
++teaches-yoga.com
++thruhere.net
++traeumtgerade.de
++webhop.biz
++webhop.info
++webhop.net
+ webhop.org
+-better-than.tv
+-dyndns.tv
+-on-the-web.tv
+ worse-than.tv
+-is-by.us
+-land-4-sale.us
+-stuff-4-sale.us
+-dyndns.ws
+-mypets.ws
++writesthisblog.com
+ ddnss.de
+ dyn.ddnss.de
+ dyndns.ddnss.de
+-dyn-ip24.de
+ dyndns1.de
++dyn-ip24.de
+ home-webserver.de
+ dyn.home-webserver.de
+ myhome-server.de
+ ddnss.org
+-definima.io
+ definima.net
++definima.io
+ ondigitalocean.app
+ *.digitaloceanspaces.com
+ us.kg
+ bci.dnstrace.pro
+ ddnsfree.com
+ ddnsgeek.com
+ giize.com
+@@ -8259,16 +8256,14 @@
+ eu-2.evennode.com
+ eu-3.evennode.com
+ eu-4.evennode.com
+ us-1.evennode.com
+ us-2.evennode.com
+ us-3.evennode.com
+ us-4.evennode.com
+-expo.app
+-staging.expo.app
+ twmail.cc
+ twmail.net
+ twmail.org
+ mymailer.com.tw
+ url.tw
+ onfabrica.com
+ ru.net
+@@ -8344,23 +8339,23 @@
+ vladimir.su
+ vologda.su
+ channelsdvr.net
+ u.channelsdvr.net
+ edgecompute.app
+ fastly-edge.com
+ fastly-terrarium.com
++fastlylb.net
++map.fastlylb.net
+ freetls.fastly.net
+ map.fastly.net
+ a.prod.fastly.net
+ global.prod.fastly.net
+ a.ssl.fastly.net
+ b.ssl.fastly.net
+ global.ssl.fastly.net
+-fastlylb.net
+-map.fastlylb.net
+ *.user.fm
+ fastvps-server.com
+ fastvps.host
+ myfast.host
+ fastvps.site
+ myfast.space
+ fedorainfracloud.org
+@@ -8383,16 +8378,16 @@
+ firebaseapp.com
+ fireweb.app
+ flap.id
+ onflashdrive.app
+ fldrv.com
+ flutterflow.app
+ fly.dev
+-shw.io
+ edgeapp.net
++shw.io
+ flynnhosting.net
+ forgeblocks.com
+ id.forgerock.io
+ framer.ai
+ framer.app
+ framercanvas.com
+ framer.media
+@@ -8431,23 +8426,23 @@
+ *.in.futurecms.at
+ futurehosting.at
+ futuremailing.at
+ *.ex.ortsinfo.at
+ *.kunden.ortsinfo.at
+ *.statics.cloud
+ aliases121.com
+-campaign.gov.uk
+-service.gov.uk
+ independent-commission.uk
+ independent-inquest.uk
+ independent-inquiry.uk
+ independent-panel.uk
+ independent-review.uk
+ public-inquiry.uk
+ royal-commission.uk
++campaign.gov.uk
++service.gov.uk
+ api.gov.uk
+ gehirn.ne.jp
+ usercontent.jp
+ gentapps.com
+ gentlentapis.com
+ lab.ms
+ cdn-edges.net
+@@ -8574,119 +8569,118 @@
+ heteml.net
+ graphic.design
+ cloudapps.digital
+ london.cloudapps.digital
+ pymnt.uk
+ ro.im
+ goip.de
+-blogspot.ae
+-blogspot.al
+-blogspot.am
+-*.hosted.app
+ *.run.app
+ web.app
+-blogspot.com.ar
+-blogspot.co.at
+-blogspot.com.au
+-blogspot.ba
+-blogspot.be
+-blogspot.bg
+-blogspot.bj
+-blogspot.com.br
+-blogspot.com.by
+-blogspot.ca
+-blogspot.cf
+-blogspot.ch
+-blogspot.cl
+-blogspot.com.co
+ *.0emm.com
+ appspot.com
+ *.r.appspot.com
+-blogspot.com
+ codespot.com
+ googleapis.com
+ googlecode.com
+ pagespeedmobilizer.com
+ publishproxy.com
+ withgoogle.com
+ withyoutube.com
+-blogspot.cv
+-blogspot.com.cy
+-blogspot.cz
+-blogspot.de
+ *.gateway.dev
+-blogspot.dk
++cloud.goog
++translate.goog
++*.usercontent.goog
++cloudfunctions.net
++blogspot.ae
++blogspot.al
++blogspot.am
++blogspot.ba
++blogspot.be
++blogspot.bg
++blogspot.bj
++blogspot.ca
++blogspot.cf
++blogspot.ch
++blogspot.cl
++blogspot.co.at
++blogspot.co.id
++blogspot.co.il
++blogspot.co.ke
++blogspot.co.nz
++blogspot.co.uk
++blogspot.co.za
++blogspot.com
++blogspot.com.ar
++blogspot.com.au
++blogspot.com.br
++blogspot.com.by
++blogspot.com.co
++blogspot.com.cy
+ blogspot.com.ee
+ blogspot.com.eg
+ blogspot.com.es
++blogspot.com.mt
++blogspot.com.ng
++blogspot.com.tr
++blogspot.com.uy
++blogspot.cv
++blogspot.cz
++blogspot.de
++blogspot.dk
+ blogspot.fi
+ blogspot.fr
+-cloud.goog
+-translate.goog
+-*.usercontent.goog
+ blogspot.gr
+ blogspot.hk
+ blogspot.hr
+ blogspot.hu
+-blogspot.co.id
+ blogspot.ie
+-blogspot.co.il
+ blogspot.in
+ blogspot.is
+ blogspot.it
+ blogspot.jp
+-blogspot.co.ke
+ blogspot.kr
+ blogspot.li
+ blogspot.lt
+ blogspot.lu
+ blogspot.md
+ blogspot.mk
+ blogspot.mr
+-blogspot.com.mt
+ blogspot.mx
+ blogspot.my
+-cloudfunctions.net
+-blogspot.com.ng
+ blogspot.nl
+ blogspot.no
+-blogspot.co.nz
+ blogspot.pe
+ blogspot.pt
+ blogspot.qa
+ blogspot.re
+ blogspot.ro
+ blogspot.rs
+ blogspot.ru
+ blogspot.se
+ blogspot.sg
+ blogspot.si
+ blogspot.sk
+ blogspot.sn
+ blogspot.td
+-blogspot.com.tr
+ blogspot.tw
+ blogspot.ug
+-blogspot.co.uk
+-blogspot.com.uy
+ blogspot.vn
+-blogspot.co.za
+ goupile.fr
+ gov.nl
+ grayjayleagues.com
+ awsmppl.com
+ xn--gnstigbestellen-zvb.de
+ xn--gnstigliefern-wob.de
+ fin.ci
+ free.hr
+ caa.li
+ ua.rs
+ conf.se
+-hs.run
+ hs.zone
++hs.run
+ hashbang.sh
+ hasura.app
+ hasura-app.io
+ pages.it.hs-heilbronn.de
+ helioho.st
+ heliohost.us
+ hepforge.org
+@@ -8715,30 +8709,30 @@
+ hostyhosting.io
+ xn--hkkinen-5wa.fi
+ *.moonscale.io
+ moonscale.net
+ iki.fi
+ ibxos.it
+ iliadboxos.it
+-impertrix.com
+ impertrixcdn.com
++impertrix.com
+ smushcdn.com
+ wphostedmail.com
+ wpmucdn.com
+ tempurl.host
+ wpmudev.host
+ dyn-berlin.de
+ in-berlin.de
+ in-brb.de
+ in-butter.de
+ in-dsl.de
+-in-vpn.de
+ in-dsl.net
+-in-vpn.net
+ in-dsl.org
++in-vpn.de
++in-vpn.net
+ in-vpn.org
+ biz.at
+ info.at
+ info.cx
+ ac.leg.br
+ al.leg.br
+ am.leg.br
+@@ -8861,35 +8855,35 @@
+ mircloud.us
+ myjino.ru
+ *.hosting.myjino.ru
+ *.landing.myjino.ru
+ *.spectrum.myjino.ru
+ *.vps.myjino.ru
+ jotelulu.cloud
+-webadorsite.com
+ jouwweb.site
+-*.cns.joyent.com
++webadorsite.com
+ *.triton.zone
++*.cns.joyent.com
+ js.org
+ kaas.gg
+ khplay.nl
+ ktistory.com
+ kapsi.fi
+ keymachine.de
+ kinghost.net
+ uni5.net
+ knightpoint.systems
+ koobin.events
+ oya.to
+-ezproxy.kuleuven.be
+ kuleuven.cloud
++ezproxy.kuleuven.be
+ co.krd
+ edu.krd
+-webthings.io
+ krellian.net
++webthings.io
+ git-repos.de
+ lcube-server.de
+ svn-repos.de
+ leadpages.co
+ lpages.co
+ lpusercontent.com
+ lelux.site
+@@ -8897,16 +8891,16 @@
+ co.business
+ co.education
+ co.events
+ co.financial
+ co.network
+ co.place
+ co.technology
+-linkyard-cloud.ch
+ linkyard.cloud
++linkyard-cloud.ch
+ members.linode.com
+ *.nodebalancer.linode.com
+ *.linodeobjects.com
+ ip.linodeusercontent.com
+ we.bs
+ *.user.localcert.dev
+ localzone.xyz
+@@ -8923,17 +8917,19 @@
+ lublin.pl
+ poniatowa.pl
+ swidnik.pl
+ glug.org.uk
+ lug.org.uk
+ lugs.org.uk
+ barsy.bg
+-barsy.club
++barsy.co.uk
++barsyonline.co.uk
+ barsycenter.com
+ barsyonline.com
++barsy.club
+ barsy.de
+ barsy.eu
+ barsy.in
+ barsy.info
+ barsy.io
+ barsy.me
+ barsy.menu
+@@ -8944,27 +8940,25 @@
+ barsy.pro
+ barsy.pub
+ barsy.ro
+ barsy.shop
+ barsy.site
+ barsy.support
+ barsy.uk
+-barsy.co.uk
+-barsyonline.co.uk
+ *.magentosite.cloud
+ mayfirst.info
+ mayfirst.org
+ hb.cldmail.ru
+ cn.vu
+ mazeplay.com
+ mcpe.me
+ mcdir.me
+ mcdir.ru
+-vps.mcdir.ru
+ mcpre.ru
++vps.mcdir.ru
+ mediatech.by
+ mediatech.dev
+ hra.health
+ miniserver.com
+ memset.net
+ messerli.app
+ atmeta.com
+@@ -8974,47 +8968,47 @@
+ flt.cloud.muni.cz
+ usr.cloud.muni.cz
+ meteorapp.com
+ eu.meteorapp.com
+ co.pl
+ *.azurecontainer.io
+ azure-api.net
+-azure-mobile.net
+ azureedge.net
+ azurefd.net
++azurewebsites.net
++azure-mobile.net
+ azurestaticapps.net
+ 1.azurestaticapps.net
+ 2.azurestaticapps.net
+ 3.azurestaticapps.net
+ 4.azurestaticapps.net
+ 5.azurestaticapps.net
+ 6.azurestaticapps.net
+ 7.azurestaticapps.net
+ centralus.azurestaticapps.net
+ eastasia.azurestaticapps.net
+ eastus2.azurestaticapps.net
+ westeurope.azurestaticapps.net
+ westus2.azurestaticapps.net
+-azurewebsites.net
+ cloudapp.net
+ trafficmanager.net
+ blob.core.windows.net
+ servicebus.windows.net
+ csx.cc
+ mintere.site
+ forte.id
+ modx.dev
+ mozilla-iot.org
+ bmoattachments.org
+ net.ru
+ org.ru
+ pp.ru
+ hostedpi.com
+-caracal.mythic-beasts.com
+ customer.mythic-beasts.com
++caracal.mythic-beasts.com
+ fentiger.mythic-beasts.com
+ lynx.mythic-beasts.com
+ ocelot.mythic-beasts.com
+ oncilla.mythic-beasts.com
+ onza.mythic-beasts.com
+ sphinx.mythic-beasts.com
+ vs.mythic-beasts.com
+@@ -9049,15 +9043,14 @@
+ noop.app
+ *.northflank.app
+ *.build.run
+ *.code.run
+ *.database.run
+ *.migration.run
+ noticeable.news
+-notion.site
+ dnsking.ch
+ mypi.co
+ n4t.co
+ 001www.com
+ ddnslive.com
+ myiphost.com
+ forumz.info
+@@ -9077,128 +9070,127 @@
+ now-dns.top
+ ntdll.top
+ freeddns.us
+ crafting.xyz
+ zapto.xyz
+ nsupdate.info
+ nerdpol.ovh
+-mmafan.biz
+-myftp.biz
+-no-ip.biz
+-no-ip.ca
+-fantasyleague.cc
+-gotdns.ch
+-3utilities.com
+ blogsyte.com
++brasilia.me
++cable-modem.org
+ ciscofreak.com
++collegefan.org
++couchpotatofries.org
+ damnserver.com
+-ddnsking.com
++ddns.me
+ ditchyourip.com
++dnsfor.me
+ dnsiskinky.com
++dvrcam.info
+ dynns.com
++eating-organic.net
++fantasyleague.cc
+ geekgalaxy.com
++golffan.us
+ health-carereform.com
+ homesecuritymac.com
+ homesecuritypc.com
++hopto.me
++ilovecollege.info
++loginto.me
++mlbfan.org
++mmafan.biz
+ myactivedirectory.com
++mydissent.net
++myeffect.net
++mymediapc.net
++mypsx.net
+ mysecuritycamera.com
+-myvnc.com
++mysecuritycamera.net
++mysecuritycamera.org
+ net-freaks.com
++nflfan.org
++nhlfan.net
++no-ip.ca
++no-ip.co.uk
++no-ip.net
++noip.us
+ onthewifi.com
++pgafan.net
+ point2this.com
++pointto.us
++privatizehealthinsurance.net
+ quicksytes.com
++read-books.org
+ securitytactics.com
+-servebeer.com
+-servecounterstrike.com
+ serveexchange.com
+-serveftp.com
+-servegame.com
+-servehalflife.com
+-servehttp.com
+ servehumour.com
+-serveirc.com
+-servemp3.com
+ servep2p.com
+-servepics.com
+-servequake.com
+ servesarcasm.com
+ stufftoread.com
++ufcfan.org
+ unusualperson.com
+ workisboring.com
+-dvrcam.info
+-ilovecollege.info
+-no-ip.info
+-brasilia.me
+-ddns.me
+-dnsfor.me
+-hopto.me
+-loginto.me
+-noip.me
+-webhop.me
++3utilities.com
+ bounceme.net
+ ddns.net
+-eating-organic.net
+-mydissent.net
+-myeffect.net
+-mymediapc.net
+-mypsx.net
+-mysecuritycamera.net
+-nhlfan.net
+-no-ip.net
+-pgafan.net
+-privatizehealthinsurance.net
++ddnsking.com
++gotdns.ch
++hopto.org
++myftp.biz
++myftp.org
++myvnc.com
++no-ip.biz
++no-ip.info
++no-ip.org
++noip.me
+ redirectme.net
++servebeer.com
+ serveblog.net
++servecounterstrike.com
++serveftp.com
++servegame.com
++servehalflife.com
++servehttp.com
++serveirc.com
+ serveminecraft.net
++servemp3.com
++servepics.com
++servequake.com
+ sytes.net
+-cable-modem.org
+-collegefan.org
+-couchpotatofries.org
+-hopto.org
+-mlbfan.org
+-myftp.org
+-mysecuritycamera.org
+-nflfan.org
+-no-ip.org
+-read-books.org
+-ufcfan.org
++webhop.me
+ zapto.org
+-no-ip.co.uk
+-golffan.us
+-noip.us
+-pointto.us
+ stage.nodeart.io
+ pcloud.host
+ nyc.mn
+ prvcy.page
+-observablehq.cloud
+ static.observableusercontent.com
+ cya.gg
+ omg.lol
+ cloudycluster.net
+ omniwe.site
+-123webseite.at
+-123website.be
+-simplesite.com.br
+-123website.ch
+-simplesite.com
+-123webseite.de
+ 123hjemmeside.dk
+-123miweb.es
++123hjemmeside.no
++123homepage.it
+ 123kotisivu.fi
++123minsida.se
++123miweb.es
++123paginaweb.pt
+ 123siteweb.fr
+-simplesite.gr
+-123homepage.it
++123webseite.at
++123webseite.de
++123website.be
++123website.ch
+ 123website.lu
+ 123website.nl
+-123hjemmeside.no
+ service.one
++simplesite.com
++simplesite.com.br
++simplesite.gr
+ simplesite.pl
+-123paginaweb.pt
+-123minsida.se
+ nid.io
+ is-cool.dev
+ is-not-a.dev
+ localplayer.dev
+ is-local.org
+ opensocial.site
+ opencraft.hosting
+@@ -9206,16 +9198,16 @@
+ operaunite.com
+ tech.orange
+ can.re
+ authgear-staging.com
+ authgearapps.com
+ skygearapp.com
+ outsystemscloud.com
+-*.hosting.ovh.net
+ *.webpaas.ovh.net
++*.hosting.ovh.net
+ ownprovider.com
+ own.pm
+ *.owo.codes
+ ox.rs
+ oy.lc
+ pgfog.com
+ pagefrontapp.com
+@@ -9228,33 +9220,33 @@
+ gl.srv.us
+ art.pl
+ gliwice.pl
+ krakow.pl
+ poznan.pl
+ wroc.pl
+ zakopane.pl
+-gotpantheon.com
+ pantheonsite.io
++gotpantheon.com
+ mypep.link
+ perspecta.cloud
+ lk3.ru
+ on-web.fr
+ *.upsun.app
+ upsunapp.com
+ ent.platform.sh
+ eu.platform.sh
+ us.platform.sh
+ *.platformsh.site
+ *.tst.site
+ platter-app.com
+ platter-app.dev
+ platterp.us
+-pleskns.com
+ pdns.page
+ plesk.page
++pleskns.com
+ pley.games
+ dyn53.io
+ onporter.run
+ co.bn
+ postman-echo.com
+ pstmn.io
+ mock.pstmn.io
+@@ -9290,21 +9282,21 @@
+ myqnapcloud.com
+ *.quipelements.com
+ vapor.cloud
+ vaporcloud.io
+ rackmaze.com
+ rackmaze.net
+ g.vbrplsbx.io
+-*.on-rancher.cloud
+ *.on-k3s.io
++*.on-rancher.cloud
+ *.on-rio.io
+ readthedocs.io
+ rhcloud.com
+-onrender.com
+ app.render.com
++onrender.com
+ replit.app
+ id.replit.app
+ firewalledreplit.co
+ id.firewalledreplit.co
+ repl.co
+ id.repl.co
+ replit.dev
+@@ -9402,16 +9394,16 @@
+ from.tv
+ sakura.tv
+ *.builder.code.com
+ *.dev-builder.code.com
+ *.stg-builder.code.com
+ *.001.test.code-builder-stg.platform.salesforce.com
+ sandcats.io
+-logoip.com
+ logoip.de
++logoip.com
+ fr-par-1.baremetal.scw.cloud
+ fr-par-2.baremetal.scw.cloud
+ nl-ams-1.baremetal.scw.cloud
+ cockpit.fr-par.scw.cloud
+ fnc.fr-par.scw.cloud
+ functions.fnc.fr-par.scw.cloud
+ k8s.fr-par.scw.cloud
+@@ -9455,15 +9447,14 @@
+ sellfy.store
+ senseering.net
+ minisite.ms
+ magnet.page
+ biz.ua
+ co.ua
+ pp.ua
+-sheezy.games
+ shiftcrypto.dev
+ shiftcrypto.io
+ shiftedit.io
+ myshopblocks.com
+ myshopify.com
+ shopitsite.com
+ shopware.store
+@@ -9558,16 +9549,16 @@
+ soc.srcf.net
+ user.srcf.net
+ temp-dns.com
+ supabase.co
+ supabase.in
+ supabase.net
+ su.paba.se
+-*.sensiosite.cloud
+ *.s5y.io
++*.sensiosite.cloud
+ syncloud.it
+ dscloud.biz
+ direct.quickconnect.cn
+ dsmynas.com
+ familyds.com
+ diskstation.me
+ dscloud.me
+@@ -9575,19 +9566,19 @@
+ myds.me
+ synology.me
+ dscloud.mobi
+ dsmynas.net
+ familyds.net
+ dsmynas.org
+ familyds.org
+-direct.quickconnect.to
+ vpnplus.to
+-mytabit.com
+-mytabit.co.il
++direct.quickconnect.to
+ tabitorder.co.il
++mytabit.co.il
++mytabit.com
+ taifun-dns.de
+ beta.tailscale.net
+ ts.net
+ *.c.ts.net
+ gda.pl
+ gdansk.pl
+ gdynia.pl
+@@ -9600,19 +9591,19 @@
+ telebit.io
+ *.telebit.xyz
+ *.firenet.ch
+ *.svc.firenet.ch
+ reservd.com
+ thingdustdata.com
+ cust.dev.thingdust.io
+-reservd.dev.thingdust.io
+ cust.disrec.thingdust.io
+-reservd.disrec.thingdust.io
+ cust.prod.thingdust.io
+ cust.testing.thingdust.io
++reservd.dev.thingdust.io
++reservd.disrec.thingdust.io
+ reservd.testing.thingdust.io
+ tickets.io
+ arvo.network
+ azimuth.network
+ tlon.network
+ torproject.net
+ pages.torproject.net
+@@ -9639,76 +9630,73 @@
+ lima.zone
+ *.transurl.be
+ *.transurl.eu
+ *.transurl.nl
+ site.transip.me
+ tuxfamily.org
+ dd-dns.de
++diskstation.eu
++diskstation.org
+ dray-dns.de
+ draydns.de
+ dyn-vpn.de
+ dynvpn.de
+ mein-vigor.de
+ my-vigor.de
+ my-wan.de
+ syno-ds.de
+ synology-diskstation.de
+ synology-ds.de
+-diskstation.eu
+-diskstation.org
+ typedream.app
+ pro.typeform.com
+-*.uberspace.de
+ uber.space
++*.uberspace.de
+ hk.com
+-inc.hk
+-ltd.hk
+ hk.org
++ltd.hk
++inc.hk
+ it.com
+ unison-services.cloud
+ name.pm
+ sch.tf
+ biz.wf
+ sch.wf
+ org.yt
+-virtual-user.de
+ virtualuser.de
++virtual-user.de
+ upli.io
+ urown.cloud
+ dnsupdate.info
+ lib.de.us
+-express.val.run
+-web.val.run
+ 2038.io
+ vercel.app
+ vercel.dev
+ now.sh
+ router.management
+ v-info.info
+ voorloper.cloud
+ v.ua
+ *.vultrobjects.com
+ wafflecell.com
+ webflow.io
+ webflowtest.io
+ *.webhare.dev
++reserve-online.net
++reserve-online.com
+ bookonline.app
+ hotelwithflight.com
+-reserve-online.com
+-reserve-online.net
+ *.wadl.top
+ wedeploy.io
+ wedeploy.me
+ wedeploy.sh
+ remotewd.com
+-box.ca
+ pages.wiardweb.com
++wmflabs.org
+ toolforge.org
+ wmcloud.org
+-wmflabs.org
+ panel.gg
+ daemon.panel.gg
+ messwithdns.com
+ woltlab-demo.com
+ myforum.community
+ community-pro.de
+ diskussionsbereich.de
+@@ -9744,13 +9732,12 @@
+ ybo.trade
+ ynh.fr
+ nohost.me
+ noho.st
+ za.net
+ za.org
+ zap.cloud
+-zeabur.app
+ bss.design
+ basicserver.io
+ virtualserver.io
+ enterprisecloud.nu
+ // ===END PRIVATE DOMAINS===
+```
+
+### Comparing `psl-2024.5.27/psl.egg-info/PKG-INFO` & `psl-2024.5.6/psl.egg-info/PKG-INFO`
+
+ * *Files 4% similar despite different names*
+
+```diff
+@@ -1,10 +1,10 @@
+ Metadata-Version: 2.1
+ Name: psl
+-Version: 2024.5.27
++Version: 2024.5.6
+ Summary: Mozilla Public Suffix list as a Python package and updated daily
+ Home-page: https://github.com/sethmlarson/psl
+ Author: Seth Michael Larson
+ Author-email: sethmichaellarson@gmail.com
+ License: MPL-2.0
+ Classifier: Development Status :: 5 - Production/Stable
+ Classifier: Environment :: Web Environment
+```
+
+### Comparing `psl-2024.5.27/setup.py` & `psl-2024.5.6/setup.py`
+
+ * *Files identical despite different names*
+
