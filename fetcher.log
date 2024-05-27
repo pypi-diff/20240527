@@ -6339,3 +6339,24 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 07:39:02] INFO root fetch - processPackages [ansar-create]: Remove: archive file [/home/abi/fetcher/tmp/ansar_create-0.1.98.tar.gz]
 [2024-05-27 07:39:02] INFO root fetch - main [MainThread]: End processing [ansar-create]: success
 [2024-05-27 07:39:02] INFO root fetch - main [MainThread]: Store serial: [23390939]
+[2024-05-27 07:41:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23390939]
+[2024-05-27 07:41:10] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-27 07:41:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sdkit
+[2024-05-27 07:41:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cognee
+[2024-05-27 07:41:10] INFO root fetch - processPackages [cognee]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-05-27 07:41:10] INFO root fetch - processPackages [sdkit]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-05-27 07:41:10] INFO root fetch - processPackages [cognee]: Downloading https://files.pythonhosted.org/packages/86/30/0fc4ec4eb7ca0eafec5a090cb308f0f4ddd5638c71ab734222105aa536bc/cognee-0.1.7.tar.gz
+[2024-05-27 07:41:10] INFO root fetch - processPackages [sdkit]: Downloading https://files.pythonhosted.org/packages/4f/d9/7218fa4642a4063b7605ea2709719503ddae7889d494777e16effbcd2447/sdkit-2.0.8.tar.gz
+[2024-05-27 07:41:11] INFO root fetch - processPackages [sdkit]: Downloading https://files.pythonhosted.org/packages/a3/3b/170fb343234797b20456dea2c5c46bfe6a8c52594affdec77735ecf76561/sdkit-2.0.9.tar.gz
+[2024-05-27 07:41:11] INFO root fetch - processPackages [cognee]: Downloading https://files.pythonhosted.org/packages/2b/22/1e0124e79ba53756dc4b6126a16053aafc892d17296db2e3cee026024b21/cognee-0.1.8.tar.gz
+[2024-05-27 07:41:11] INFO root fetch - processPackages [sdkit]: executing diffoscope
+[2024-05-27 07:41:11] INFO root fetch - processPackages [sdkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdkit-2.0.8.tar.gz tmp/sdkit-2.0.9.tar.gz --markdown 20240527/s/sdkit/2.0.8-2.0.9/README.md --exclude *.pyd
+[2024-05-27 07:41:11] INFO root fetch - processPackages [cognee]: executing diffoscope
+[2024-05-27 07:41:11] INFO root fetch - processPackages [cognee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognee-0.1.7.tar.gz tmp/cognee-0.1.8.tar.gz --markdown 20240527/c/cognee/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-05-27 07:41:12] INFO root fetch - processPackages [sdkit]: Remove: archive file [/home/abi/fetcher/tmp/sdkit-2.0.8.tar.gz]
+[2024-05-27 07:41:12] INFO root fetch - processPackages [sdkit]: Remove: archive file [/home/abi/fetcher/tmp/sdkit-2.0.9.tar.gz]
+[2024-05-27 07:41:12] INFO root fetch - main [MainThread]: End processing [sdkit]: success
+[2024-05-27 07:41:12] INFO root fetch - processPackages [cognee]: Remove: archive file [/home/abi/fetcher/tmp/cognee-0.1.7.tar.gz]
+[2024-05-27 07:41:12] INFO root fetch - processPackages [cognee]: Remove: archive file [/home/abi/fetcher/tmp/cognee-0.1.8.tar.gz]
+[2024-05-27 07:41:12] INFO root fetch - main [MainThread]: End processing [cognee]: success
+[2024-05-27 07:41:12] INFO root fetch - main [MainThread]: Store serial: [23390945]
