@@ -21299,3 +21299,78 @@ AssertionError: tmp/quickQrLib-0.2.tar.gz does not exist
 [2024-05-27 18:06:23] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.9.tar.gz]
 [2024-05-27 18:06:23] INFO root fetch - main [MainThread]: End processing [yeref]: success
 [2024-05-27 18:06:23] INFO root fetch - main [MainThread]: Store serial: [23398124]
+[2024-05-27 18:08:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23398124]
+[2024-05-27 18:08:32] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-27 18:08:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: easy-encryption-tool
+[2024-05-27 18:08:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fastapi-openid-connect
+[2024-05-27 18:08:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: apexdevkit
+[2024-05-27 18:08:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fancykimai
+[2024-05-27 18:08:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: readme-ation
+[2024-05-27 18:08:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: visjs-component
+[2024-05-27 18:08:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ape-etherscan
+[2024-05-27 18:08:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dlt-init-openapi
+[2024-05-27 18:08:32] INFO root fetch - processPackages [apexdevkit]: New version: [1.2.1] Old Version: [1.1.2]
+[2024-05-27 18:08:32] INFO root fetch - processPackages [dlt-init-openapi]: New version: [0.1.0a2] Old Version: [0.1.0a1]
+[2024-05-27 18:08:32] INFO root fetch - processPackages [readme-ation]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-27 18:08:32] INFO root fetch - processPackages [apexdevkit]: Downloading https://files.pythonhosted.org/packages/49/b3/2da9397d2792ccca81562b6ea20e10047628c4fdcad06f45b0d3fa747c74/apexdevkit-1.1.2.tar.gz
+[2024-05-27 18:08:32] INFO root fetch - processPackages [easy-encryption-tool]: New version: [1.2.1] Old Version: [1.2.0]
+[2024-05-27 18:08:32] INFO root fetch - processPackages [dlt-init-openapi]: Downloading https://files.pythonhosted.org/packages/2e/64/62275eadc2abdb50fb729179e1f80450c1a1cc4027d84214021d38d4a1bc/dlt_init_openapi-0.1.0a1.tar.gz
+[2024-05-27 18:08:32] INFO root fetch - processPackages [ape-etherscan]: New version: [0.7.4] Old Version: [0.7.3]
+[2024-05-27 18:08:32] INFO root fetch - processPackages [visjs-component]: New version: [0.2.0] Old Version: [0.1.1]
+[2024-05-27 18:08:32] INFO root fetch - processPackages [fastapi-openid-connect]: New version: [0.1.0a1] Old Version: [0.1.0a0]
+[2024-05-27 18:08:32] INFO root fetch - processPackages [fancykimai]: New version: [0.1.2] Old Version: [0.1.0]
+[2024-05-27 18:08:32] INFO root fetch - processPackages [readme-ation]: Downloading https://files.pythonhosted.org/packages/78/ac/449d48f676af8bc5f716bc4ae71f81fc3c3d728a454f33fc59c87a492724/readme_ation-0.1.8.tar.gz
+[2024-05-27 18:08:33] INFO root fetch - processPackages [fastapi-openid-connect]: Downloading https://files.pythonhosted.org/packages/2e/90/92d4a06640338932b8be486676d95160662f30bf809d20b887849a0626c9/fastapi-openid-connect-0.1.0a0.tar.gz
+[2024-05-27 18:08:33] INFO root fetch - processPackages [easy-encryption-tool]: Downloading https://files.pythonhosted.org/packages/32/06/2ec743f770366e1eba6bc6a1bf16a63bc971e098326894841998f772a2a7/easy_encryption_tool-1.2.0-py3-none-any.whl
+[2024-05-27 18:08:33] INFO root fetch - processPackages [ape-etherscan]: Downloading https://files.pythonhosted.org/packages/6d/26/67e04af7cba592a51e27cfe7a1ec00f30cfe7a80b8876b71c439cbb4c599/ape-etherscan-0.7.3.tar.gz
+[2024-05-27 18:08:33] INFO root fetch - processPackages [visjs-component]: Downloading https://files.pythonhosted.org/packages/6e/ea/3a484535d59257f32758407a894eb63fc97f3c2274199f5dfc808a83ea47/visjs-component-0.1.1.tar.gz
+[2024-05-27 18:08:33] INFO root fetch - processPackages [dlt-init-openapi]: Downloading https://files.pythonhosted.org/packages/37/d5/105c566bf9543cc82f918c58a9a8a1738f76f65d292fc1c1674c975a4d09/dlt_init_openapi-0.1.0a2.tar.gz
+[2024-05-27 18:08:33] INFO root fetch - processPackages [readme-ation]: Downloading https://files.pythonhosted.org/packages/e8/93/9d877d1be3c8c3b16f10c844933acd48372fdbd22c0d4f63cf9ee47baa4a/readme_ation-0.1.9.tar.gz
+[2024-05-27 18:08:33] INFO root fetch - processPackages [apexdevkit]: Downloading https://files.pythonhosted.org/packages/fb/bf/c6491ddc40764a31b88d8251dc2ea5246e848ca67c95b7f0cdb6775a771e/apexdevkit-1.2.1.tar.gz
+[2024-05-27 18:08:33] INFO root fetch - processPackages [fancykimai]: Downloading https://files.pythonhosted.org/packages/58/90/a9953e61a29f3be54a9a3c9d8d8996cecca06fd93605d604cec22b476167/fancykimai-0.1.0.tar.gz
+[2024-05-27 18:08:33] INFO root fetch - processPackages [dlt-init-openapi]: executing diffoscope
+[2024-05-27 18:08:33] INFO root fetch - processPackages [dlt-init-openapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dlt_init_openapi-0.1.0a1.tar.gz tmp/dlt_init_openapi-0.1.0a2.tar.gz --markdown 20240527/d/dlt-init-openapi/0.1.0a1-0.1.0a2/README.md --exclude *.pyd
+[2024-05-27 18:08:33] INFO root fetch - processPackages [readme-ation]: executing diffoscope
+[2024-05-27 18:08:33] INFO root fetch - processPackages [readme-ation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/readme_ation-0.1.8.tar.gz tmp/readme_ation-0.1.9.tar.gz --markdown 20240527/r/readme-ation/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-27 18:08:33] INFO root fetch - processPackages [apexdevkit]: executing diffoscope
+[2024-05-27 18:08:33] INFO root fetch - processPackages [apexdevkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apexdevkit-1.1.2.tar.gz tmp/apexdevkit-1.2.1.tar.gz --markdown 20240527/a/apexdevkit/1.1.2-1.2.1/README.md --exclude *.pyd
+[2024-05-27 18:08:33] INFO root fetch - processPackages [fastapi-openid-connect]: Downloading https://files.pythonhosted.org/packages/16/a8/d0b1ac838fd62dd9a4da40abfcc02658fb643e48c532c746c558912d6582/fastapi-openid-connect-0.1.0a1.tar.gz
+[2024-05-27 18:08:33] INFO root fetch - processPackages [ape-etherscan]: Downloading https://files.pythonhosted.org/packages/34/c0/00a2088b076e4da3fa7246c0d8b11b3d152598726932eec8a803e4555666/ape-etherscan-0.7.4.tar.gz
+[2024-05-27 18:08:33] INFO root fetch - processPackages [fastapi-openid-connect]: executing diffoscope
+[2024-05-27 18:08:33] INFO root fetch - processPackages [fastapi-openid-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi-openid-connect-0.1.0a0.tar.gz tmp/fastapi-openid-connect-0.1.0a1.tar.gz --markdown 20240527/f/fastapi-openid-connect/0.1.0a0-0.1.0a1/README.md --exclude *.pyd
+[2024-05-27 18:08:33] INFO root fetch - processPackages [easy-encryption-tool]: Downloading https://files.pythonhosted.org/packages/5c/29/609662982816251eb49d2a3a24b2b85a41d27ce5740b1cefa64a4e3e2aa6/easy_encryption_tool-1.2.1-py3-none-any.whl
+[2024-05-27 18:08:33] INFO root fetch - processPackages [visjs-component]: Downloading https://files.pythonhosted.org/packages/6f/cc/4a0e6221f209d7f08ab448f26c614c36c0bacdac3c6d4da16e7739c3cfe3/visjs_component-0.2.0.tar.gz
+[2024-05-27 18:08:33] INFO root fetch - processPackages [ape-etherscan]: executing diffoscope
+[2024-05-27 18:08:33] INFO root fetch - processPackages [ape-etherscan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ape-etherscan-0.7.3.tar.gz tmp/ape-etherscan-0.7.4.tar.gz --markdown 20240527/a/ape-etherscan/0.7.3-0.7.4/README.md --exclude *.pyd
+[2024-05-27 18:08:33] INFO root fetch - processPackages [visjs-component]: executing diffoscope
+[2024-05-27 18:08:33] INFO root fetch - processPackages [visjs-component]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/visjs-component-0.1.1.tar.gz tmp/visjs_component-0.2.0.tar.gz --markdown 20240527/v/visjs-component/0.1.1-0.2.0/README.md --exclude *.pyd
+[2024-05-27 18:08:33] INFO root fetch - processPackages [easy-encryption-tool]: executing diffoscope
+[2024-05-27 18:08:33] INFO root fetch - processPackages [easy-encryption-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easy_encryption_tool-1.2.0-py3-none-any.whl.zip tmp/easy_encryption_tool-1.2.1-py3-none-any.whl.zip --markdown 20240527/e/easy-encryption-tool/1.2.0-1.2.1/README.md --exclude *.pyd
+[2024-05-27 18:08:33] INFO root fetch - processPackages [fancykimai]: Downloading https://files.pythonhosted.org/packages/73/a5/d39e778751ca69392abb89b8b3c00451440039df463c325132c1f5a50516/fancykimai-0.1.2.tar.gz
+[2024-05-27 18:08:33] INFO root fetch - processPackages [fancykimai]: executing diffoscope
+[2024-05-27 18:08:33] INFO root fetch - processPackages [fancykimai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fancykimai-0.1.0.tar.gz tmp/fancykimai-0.1.2.tar.gz --markdown 20240527/f/fancykimai/0.1.0-0.1.2/README.md --exclude *.pyd
+[2024-05-27 18:08:34] INFO root fetch - processPackages [readme-ation]: Remove: archive file [/home/abi/fetcher/tmp/readme_ation-0.1.8.tar.gz]
+[2024-05-27 18:08:34] INFO root fetch - processPackages [readme-ation]: Remove: archive file [/home/abi/fetcher/tmp/readme_ation-0.1.9.tar.gz]
+[2024-05-27 18:08:34] INFO root fetch - main [MainThread]: End processing [readme-ation]: success
+[2024-05-27 18:08:34] INFO root fetch - processPackages [apexdevkit]: Remove: archive file [/home/abi/fetcher/tmp/apexdevkit-1.1.2.tar.gz]
+[2024-05-27 18:08:34] INFO root fetch - processPackages [apexdevkit]: Remove: archive file [/home/abi/fetcher/tmp/apexdevkit-1.2.1.tar.gz]
+[2024-05-27 18:08:34] INFO root fetch - main [MainThread]: End processing [apexdevkit]: success
+[2024-05-27 18:08:34] INFO root fetch - processPackages [fastapi-openid-connect]: Remove: archive file [/home/abi/fetcher/tmp/fastapi-openid-connect-0.1.0a0.tar.gz]
+[2024-05-27 18:08:34] INFO root fetch - processPackages [fastapi-openid-connect]: Remove: archive file [/home/abi/fetcher/tmp/fastapi-openid-connect-0.1.0a1.tar.gz]
+[2024-05-27 18:08:34] INFO root fetch - main [MainThread]: End processing [fastapi-openid-connect]: success
+[2024-05-27 18:08:34] INFO root fetch - processPackages [dlt-init-openapi]: Remove: archive file [/home/abi/fetcher/tmp/dlt_init_openapi-0.1.0a1.tar.gz]
+[2024-05-27 18:08:34] INFO root fetch - processPackages [dlt-init-openapi]: Remove: archive file [/home/abi/fetcher/tmp/dlt_init_openapi-0.1.0a2.tar.gz]
+[2024-05-27 18:08:34] INFO root fetch - main [MainThread]: End processing [dlt-init-openapi]: success
+[2024-05-27 18:08:34] INFO root fetch - processPackages [visjs-component]: Remove: archive file [/home/abi/fetcher/tmp/visjs-component-0.1.1.tar.gz]
+[2024-05-27 18:08:34] INFO root fetch - processPackages [visjs-component]: Remove: archive file [/home/abi/fetcher/tmp/visjs_component-0.2.0.tar.gz]
+[2024-05-27 18:08:34] INFO root fetch - main [MainThread]: End processing [visjs-component]: success
+[2024-05-27 18:08:34] INFO root fetch - processPackages [ape-etherscan]: Remove: archive file [/home/abi/fetcher/tmp/ape-etherscan-0.7.3.tar.gz]
+[2024-05-27 18:08:34] INFO root fetch - processPackages [ape-etherscan]: Remove: archive file [/home/abi/fetcher/tmp/ape-etherscan-0.7.4.tar.gz]
+[2024-05-27 18:08:34] INFO root fetch - main [MainThread]: End processing [ape-etherscan]: success
+[2024-05-27 18:08:34] INFO root fetch - processPackages [fancykimai]: Remove: archive file [/home/abi/fetcher/tmp/fancykimai-0.1.0.tar.gz]
+[2024-05-27 18:08:34] INFO root fetch - processPackages [fancykimai]: Remove: archive file [/home/abi/fetcher/tmp/fancykimai-0.1.2.tar.gz]
+[2024-05-27 18:08:34] INFO root fetch - main [MainThread]: End processing [fancykimai]: success
+[2024-05-27 18:08:34] INFO root fetch - processPackages [easy-encryption-tool]: Remove: archive file [/home/abi/fetcher/tmp/easy_encryption_tool-1.2.0-py3-none-any.whl.zip]
+[2024-05-27 18:08:34] INFO root fetch - processPackages [easy-encryption-tool]: Remove: archive file [/home/abi/fetcher/tmp/easy_encryption_tool-1.2.1-py3-none-any.whl.zip]
+[2024-05-27 18:08:34] INFO root fetch - main [MainThread]: End processing [easy-encryption-tool]: success
+[2024-05-27 18:08:34] INFO root fetch - main [MainThread]: Store serial: [23398153]
