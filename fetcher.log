@@ -7382,3 +7382,30 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 08:46:36] INFO root fetch - processPackages [drf-material]: Remove: archive file [/home/abi/fetcher/tmp/drf_material-0.3.2.tar.gz]
 [2024-05-27 08:46:36] INFO root fetch - main [MainThread]: End processing [drf-material]: success
 [2024-05-27 08:46:36] INFO root fetch - main [MainThread]: Store serial: [23391459]
+[2024-05-27 08:48:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23391459]
+[2024-05-27 08:48:44] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-27 08:48:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: drf-redesign
+[2024-05-27 08:48:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: compushady
+[2024-05-27 08:48:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: coconut-develop
+[2024-05-27 08:48:45] INFO root fetch - processPackages [drf-redesign]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-27 08:48:45] INFO root fetch - processPackages [compushady]: New version: [0.17.3] Old Version: [0.17.2]
+[2024-05-27 08:48:45] INFO root fetch - processPackages [coconut-develop]: New version: [3.1.0.post0.dev9] Old Version: [3.1.0.post0.dev8]
+[2024-05-27 08:48:45] INFO root fetch - processPackages [drf-redesign]: Downloading https://files.pythonhosted.org/packages/b5/c2/8f1673f1cb9772dbc7d3e929da829e6fc65f552d4f55f26d4c74137d8174/drf_redesign-0.3.8.tar.gz
+[2024-05-27 08:48:45] INFO root fetch - processPackages [compushady]: Downloading https://files.pythonhosted.org/packages/31/dd/e24652fec5e3b136b2daeedb15cd5a149805d7f7ce0571fad28e483ce49a/compushady-0.17.2-cp39-cp39-win_amd64.whl
+[2024-05-27 08:48:45] INFO root fetch - processPackages [coconut-develop]: Downloading https://files.pythonhosted.org/packages/c9/52/852c50fb7afeae75f0f89a0a02001b8acadbf4ae78724b159a077190c1b0/coconut-develop-3.1.0.post0.dev8.tar.gz
+[2024-05-27 08:48:45] INFO root fetch - processPackages [drf-redesign]: Downloading https://files.pythonhosted.org/packages/30/97/4c43de450e9822f851d571de39363d03567031cbf19b681b079719dc65f7/drf_redesign-0.3.9.tar.gz
+[2024-05-27 08:48:45] INFO root fetch - processPackages [drf-redesign]: executing diffoscope
+[2024-05-27 08:48:45] INFO root fetch - processPackages [drf-redesign]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drf_redesign-0.3.8.tar.gz tmp/drf_redesign-0.3.9.tar.gz --markdown 20240527/d/drf-redesign/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-27 08:48:45] INFO root fetch - processPackages [coconut-develop]: Downloading https://files.pythonhosted.org/packages/dd/01/30acfa4b7546ecb9a8f3194eae81fcf5daafdddebce842a4acd20d5231ff/coconut-develop-3.1.0.post0.dev9.tar.gz
+[2024-05-27 08:48:45] INFO root fetch - processPackages [coconut-develop]: executing diffoscope
+[2024-05-27 08:48:45] INFO root fetch - processPackages [coconut-develop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coconut-develop-3.1.0.post0.dev8.tar.gz tmp/coconut-develop-3.1.0.post0.dev9.tar.gz --markdown 20240527/c/coconut-develop/3.1.0.post0.dev8-3.1.0.post0.dev9/README.md --exclude *.pyd
+[2024-05-27 08:48:46] INFO root fetch - processPackages [drf-redesign]: Remove: archive file [/home/abi/fetcher/tmp/drf_redesign-0.3.8.tar.gz]
+[2024-05-27 08:48:46] INFO root fetch - processPackages [drf-redesign]: Remove: archive file [/home/abi/fetcher/tmp/drf_redesign-0.3.9.tar.gz]
+[2024-05-27 08:48:46] INFO root fetch - main [MainThread]: End processing [drf-redesign]: success
+[2024-05-27 08:48:47] INFO root fetch - processPackages [coconut-develop]: Remove: archive file [/home/abi/fetcher/tmp/coconut-develop-3.1.0.post0.dev8.tar.gz]
+[2024-05-27 08:48:47] INFO root fetch - processPackages [coconut-develop]: Remove: archive file [/home/abi/fetcher/tmp/coconut-develop-3.1.0.post0.dev9.tar.gz]
+[2024-05-27 08:48:47] INFO root fetch - main [MainThread]: End processing [coconut-develop]: success
+[2024-05-27 08:48:47] INFO root fetch - processPackages [compushady]: Downloading https://files.pythonhosted.org/packages/3d/f0/9d69ba2318c486101bbd697f6367477ec0a5bd15e4d571a9beace08d9d38/compushady-0.17.3.tar.gz
+[2024-05-27 08:48:48] WARNING root fetch - processPackages [compushady]: Skipping package: exceeds size limit 67089192>=10485760
+[2024-05-27 08:48:48] INFO root fetch - main [MainThread]: End processing [compushady] error
+[2024-05-27 08:48:48] INFO root fetch - main [MainThread]: Store serial: [23391468]
