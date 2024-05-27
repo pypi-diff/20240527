@@ -11212,3 +11212,84 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 11:37:50] INFO root fetch - processPackages [django-import-export]: Remove: archive file [/home/abi/fetcher/tmp/django_import_export-4.0.5.tar.gz]
 [2024-05-27 11:37:50] INFO root fetch - main [MainThread]: End processing [django-import-export]: success
 [2024-05-27 11:37:50] INFO root fetch - main [MainThread]: Store serial: [23393386]
+[2024-05-27 11:39:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23393386]
+[2024-05-27 11:40:00] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-27 11:40:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mentabotix
+[2024-05-27 11:40:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-crm-claim-code
+[2024-05-27 11:40:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PySerpentine
+[2024-05-27 11:40:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mkdocs-material
+[2024-05-27 11:40:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aipkgs-firebase
+[2024-05-27 11:40:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lyytkwidget
+[2024-05-27 11:40:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-event-session
+[2024-05-27 11:40:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: soil-sdk
+[2024-05-27 11:40:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: SJRSdetect
+[2024-05-27 11:40:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: manipulation
+[2024-05-27 11:40:00] INFO root fetch - processPackages [mentabotix]: New version: [0.1.5.5] Old Version: [0.1.5.4]
+[2024-05-27 11:40:00] INFO root fetch - processPackages [aipkgs-firebase]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-27 11:40:00] INFO root fetch - processPackages [mkdocs-material]: New version: [9.5.9] Old Version: [9.5.8]
+[2024-05-27 11:40:00] INFO root fetch - processPackages [odoo-addon-crm-claim-code]: New version: [16.0.1.0.1] Old Version: [16.0.1.0.0.3]
+[2024-05-27 11:40:00] INFO root fetch - processPackages [mentabotix]: Downloading https://files.pythonhosted.org/packages/1c/d7/7c95a538f4c3d237edd96d16129c38b6200299240602a68d4e7747951393/mentabotix-0.1.5.4.tar.gz
+[2024-05-27 11:40:00] WARNING root fetch - processPackages [PySerpentine]: Skipping, unable to determine old version
+[2024-05-27 11:40:00] INFO root fetch - main [MainThread]: End processing [PySerpentine] error
+[2024-05-27 11:40:00] INFO root fetch - processPackages [lyytkwidget]: New version: [1.7] Old Version: [1.6]
+[2024-05-27 11:40:00] INFO root fetch - processPackages [odoo-addon-event-session]: New version: [16.0.1.3.0] Old Version: [16.0.1.2.0.4]
+[2024-05-27 11:40:00] WARNING root fetch - processPackages [SJRSdetect]: Skipping, unable to determine old version
+[2024-05-27 11:40:00] INFO root fetch - main [MainThread]: End processing [SJRSdetect] error
+[2024-05-27 11:40:00] INFO root fetch - processPackages [manipulation]: New version: [2024.5.27] Old Version: [2024.5.25]
+[2024-05-27 11:40:00] INFO root fetch - processPackages [soil-sdk]: New version: [0.6.9] Old Version: [0.6.8.dev2]
+[2024-05-27 11:40:00] INFO root fetch - processPackages [odoo-addon-crm-claim-code]: Downloading https://files.pythonhosted.org/packages/5b/25/612606a2567490554c1a0e5e15a797ea7c541b98e3e329fdfe11c61512dc/odoo_addon_crm_claim_code-16.0.1.0.0.3-py3-none-any.whl
+[2024-05-27 11:40:00] INFO root fetch - processPackages [aipkgs-firebase]: Downloading https://files.pythonhosted.org/packages/1a/d4/6c4f3e872c2147eb80fd6b4de119d764bb171be47edb4deea6ef436b7cd2/aipkgs_firebase-1.0.8.tar.gz
+[2024-05-27 11:40:00] INFO root fetch - processPackages [mkdocs-material]: Downloading https://files.pythonhosted.org/packages/af/3b/2e05d9ad24b7f836a4dd8aa6221af8f7c7c9a48021c5300ea9de5f01465e/mkdocs_material-9.5.8.tar.gz
+[2024-05-27 11:40:00] INFO root fetch - processPackages [odoo-addon-event-session]: Downloading https://files.pythonhosted.org/packages/63/2c/f175bf2752f0186a2d715edb89aef0d71e5baa40e295d6f51498fa925fb7/odoo_addon_event_session-16.0.1.2.0.4-py3-none-any.whl
+[2024-05-27 11:40:00] INFO root fetch - processPackages [soil-sdk]: Downloading https://files.pythonhosted.org/packages/43/64/68f336f248034f5496c0f6133882d758ff76d98fbc108383165e5c203e35/soil-sdk-0.6.8.dev2.tar.gz
+[2024-05-27 11:40:00] INFO root fetch - processPackages [lyytkwidget]: Downloading https://files.pythonhosted.org/packages/6f/f5/5613ed410785a4cfb722e4d5c295ec699579d7c1ca370c1ca04443ab749d/lyytkwidget-1.6.tar.gz
+[2024-05-27 11:40:00] INFO root fetch - processPackages [manipulation]: Downloading https://files.pythonhosted.org/packages/44/28/b9e9894455abc312b1f68f44de2e87d8c8663b35c83a672933d1ffedbbb9/manipulation-2024.5.25.tar.gz
+[2024-05-27 11:40:00] INFO root fetch - processPackages [aipkgs-firebase]: Downloading https://files.pythonhosted.org/packages/0b/8f/79aa4f49b126e07ecfc5de22c65081be588bc57ad24a2cebb390785e81e5/aipkgs_firebase-1.0.9.tar.gz
+[2024-05-27 11:40:00] INFO root fetch - processPackages [mentabotix]: Downloading https://files.pythonhosted.org/packages/f9/7a/52eba23da2427f81b5a23dd37f0a0900e1a7baaced768013175a9fd4cada/mentabotix-0.1.5.5.tar.gz
+[2024-05-27 11:40:00] INFO root fetch - processPackages [aipkgs-firebase]: executing diffoscope
+[2024-05-27 11:40:00] INFO root fetch - processPackages [aipkgs-firebase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aipkgs_firebase-1.0.8.tar.gz tmp/aipkgs_firebase-1.0.9.tar.gz --markdown 20240527/a/aipkgs-firebase/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-27 11:40:00] INFO root fetch - processPackages [odoo-addon-crm-claim-code]: Downloading https://files.pythonhosted.org/packages/ef/dd/4082d023887128e06384575b98f25b3b1c87f22f5583812d99b994aed816/odoo_addon_crm_claim_code-16.0.1.0.1-py3-none-any.whl
+[2024-05-27 11:40:00] INFO root fetch - processPackages [mentabotix]: executing diffoscope
+[2024-05-27 11:40:00] INFO root fetch - processPackages [mentabotix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mentabotix-0.1.5.4.tar.gz tmp/mentabotix-0.1.5.5.tar.gz --markdown 20240527/m/mentabotix/0.1.5.4-0.1.5.5/README.md --exclude *.pyd
+[2024-05-27 11:40:01] INFO root fetch - processPackages [odoo-addon-event-session]: Downloading https://files.pythonhosted.org/packages/d6/82/4c76cfb895fbb7bbe02d21ced370ac03c6fe807ce6fc4cfe2a3465db28ad/odoo_addon_event_session-16.0.1.3.0-py3-none-any.whl
+[2024-05-27 11:40:01] INFO root fetch - processPackages [lyytkwidget]: Downloading https://files.pythonhosted.org/packages/3f/7b/6916f34ab21cf99668d45bd8645e42b189e9e5bce9fc77554dea8e7e4189/lyytkwidget-1.7.tar.gz
+[2024-05-27 11:40:01] INFO root fetch - processPackages [odoo-addon-crm-claim-code]: executing diffoscope
+[2024-05-27 11:40:01] INFO root fetch - processPackages [odoo-addon-crm-claim-code]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_crm_claim_code-16.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_crm_claim_code-16.0.1.0.1-py3-none-any.whl.zip --markdown 20240527/o/odoo-addon-crm-claim-code/16.0.1.0.0.3-16.0.1.0.1/README.md --exclude *.pyd
+[2024-05-27 11:40:01] INFO root fetch - processPackages [soil-sdk]: Downloading https://files.pythonhosted.org/packages/95/a4/5d6fcf9c297529ccac89f00ed380d87a066c0f04eab9df8f4237645e0542/soil-sdk-0.6.9.tar.gz
+[2024-05-27 11:40:01] INFO root fetch - processPackages [manipulation]: Downloading https://files.pythonhosted.org/packages/b9/d4/1e81cb8f5170b0946487474f5c3d5c556922157e35cfa802807321fb95e1/manipulation-2024.5.27.tar.gz
+[2024-05-27 11:40:01] INFO root fetch - processPackages [odoo-addon-event-session]: executing diffoscope
+[2024-05-27 11:40:01] INFO root fetch - processPackages [odoo-addon-event-session]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_event_session-16.0.1.2.0.4-py3-none-any.whl.zip tmp/odoo_addon_event_session-16.0.1.3.0-py3-none-any.whl.zip --markdown 20240527/o/odoo-addon-event-session/16.0.1.2.0.4-16.0.1.3.0/README.md --exclude *.pyd
+[2024-05-27 11:40:01] INFO root fetch - processPackages [lyytkwidget]: executing diffoscope
+[2024-05-27 11:40:01] INFO root fetch - processPackages [lyytkwidget]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lyytkwidget-1.6.tar.gz tmp/lyytkwidget-1.7.tar.gz --markdown 20240527/l/lyytkwidget/1.6-1.7/README.md --exclude *.pyd
+[2024-05-27 11:40:01] INFO root fetch - processPackages [mkdocs-material]: Downloading https://files.pythonhosted.org/packages/7f/87/b416888ac24bc9210f727d59afe528e00b7e037933f3497f6ad17ff5d370/mkdocs_material-9.5.9.tar.gz
+[2024-05-27 11:40:01] INFO root fetch - processPackages [soil-sdk]: executing diffoscope
+[2024-05-27 11:40:01] INFO root fetch - processPackages [soil-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/soil-sdk-0.6.8.dev2.tar.gz tmp/soil-sdk-0.6.9.tar.gz --markdown 20240527/s/soil-sdk/0.6.8.dev2-0.6.9/README.md --exclude *.pyd
+[2024-05-27 11:40:01] INFO root fetch - processPackages [manipulation]: executing diffoscope
+[2024-05-27 11:40:01] INFO root fetch - processPackages [manipulation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manipulation-2024.5.25.tar.gz tmp/manipulation-2024.5.27.tar.gz --markdown 20240527/m/manipulation/2024.5.25-2024.5.27/README.md --exclude *.pyd
+[2024-05-27 11:40:01] INFO root fetch - processPackages [mkdocs-material]: executing diffoscope
+[2024-05-27 11:40:01] INFO root fetch - processPackages [mkdocs-material]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs_material-9.5.8.tar.gz tmp/mkdocs_material-9.5.9.tar.gz --markdown 20240527/m/mkdocs-material/9.5.8-9.5.9/README.md --exclude *.pyd
+[2024-05-27 11:40:01] INFO root fetch - processPackages [aipkgs-firebase]: Remove: archive file [/home/abi/fetcher/tmp/aipkgs_firebase-1.0.8.tar.gz]
+[2024-05-27 11:40:01] INFO root fetch - processPackages [aipkgs-firebase]: Remove: archive file [/home/abi/fetcher/tmp/aipkgs_firebase-1.0.9.tar.gz]
+[2024-05-27 11:40:01] INFO root fetch - main [MainThread]: End processing [aipkgs-firebase]: success
+[2024-05-27 11:40:01] INFO root fetch - processPackages [mentabotix]: Remove: archive file [/home/abi/fetcher/tmp/mentabotix-0.1.5.4.tar.gz]
+[2024-05-27 11:40:01] INFO root fetch - processPackages [mentabotix]: Remove: archive file [/home/abi/fetcher/tmp/mentabotix-0.1.5.5.tar.gz]
+[2024-05-27 11:40:01] INFO root fetch - main [MainThread]: End processing [mentabotix]: success
+[2024-05-27 11:40:02] INFO root fetch - processPackages [odoo-addon-crm-claim-code]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_crm_claim_code-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-05-27 11:40:02] INFO root fetch - processPackages [odoo-addon-crm-claim-code]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_crm_claim_code-16.0.1.0.1-py3-none-any.whl.zip]
+[2024-05-27 11:40:02] INFO root fetch - main [MainThread]: End processing [odoo-addon-crm-claim-code]: success
+[2024-05-27 11:40:02] INFO root fetch - processPackages [lyytkwidget]: Remove: archive file [/home/abi/fetcher/tmp/lyytkwidget-1.6.tar.gz]
+[2024-05-27 11:40:02] INFO root fetch - processPackages [lyytkwidget]: Remove: archive file [/home/abi/fetcher/tmp/lyytkwidget-1.7.tar.gz]
+[2024-05-27 11:40:02] INFO root fetch - main [MainThread]: End processing [lyytkwidget]: success
+[2024-05-27 11:40:02] INFO root fetch - processPackages [odoo-addon-event-session]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_event_session-16.0.1.2.0.4-py3-none-any.whl.zip]
+[2024-05-27 11:40:02] INFO root fetch - processPackages [odoo-addon-event-session]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_event_session-16.0.1.3.0-py3-none-any.whl.zip]
+[2024-05-27 11:40:02] INFO root fetch - main [MainThread]: End processing [odoo-addon-event-session]: success
+[2024-05-27 11:40:02] INFO root fetch - processPackages [manipulation]: Remove: archive file [/home/abi/fetcher/tmp/manipulation-2024.5.25.tar.gz]
+[2024-05-27 11:40:02] INFO root fetch - processPackages [manipulation]: Remove: archive file [/home/abi/fetcher/tmp/manipulation-2024.5.27.tar.gz]
+[2024-05-27 11:40:02] INFO root fetch - main [MainThread]: End processing [manipulation]: success
+[2024-05-27 11:40:02] INFO root fetch - processPackages [soil-sdk]: Remove: archive file [/home/abi/fetcher/tmp/soil-sdk-0.6.8.dev2.tar.gz]
+[2024-05-27 11:40:02] INFO root fetch - processPackages [soil-sdk]: Remove: archive file [/home/abi/fetcher/tmp/soil-sdk-0.6.9.tar.gz]
+[2024-05-27 11:40:02] INFO root fetch - main [MainThread]: End processing [soil-sdk]: success
+[2024-05-27 11:41:02] INFO root fetch - processPackages [mkdocs-material]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs_material-9.5.8.tar.gz]
+[2024-05-27 11:41:02] INFO root fetch - processPackages [mkdocs-material]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs_material-9.5.9.tar.gz]
+[2024-05-27 11:41:02] INFO root fetch - main [MainThread]: End processing [mkdocs-material]: success
+[2024-05-27 11:41:02] INFO root fetch - main [MainThread]: Store serial: [23393418]
