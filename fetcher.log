@@ -4052,3 +4052,45 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 04:44:41] INFO root fetch - processPackages [janim]: Remove: archive file [/home/abi/fetcher/tmp/janim-1.1.0.tar.gz]
 [2024-05-27 04:44:41] INFO root fetch - main [MainThread]: End processing [janim]: success
 [2024-05-27 04:44:41] INFO root fetch - main [MainThread]: Store serial: [23389877]
+[2024-05-27 04:46:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23389877]
+[2024-05-27 04:46:50] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-27 04:46:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: openi
+[2024-05-27 04:46:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fixations
+[2024-05-27 04:46:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: AlphaDSSP
+[2024-05-27 04:46:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: discordreactive
+[2024-05-27 04:46:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: thread
+[2024-05-27 04:46:50] INFO root fetch - processPackages [discordreactive]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-27 04:46:50] INFO root fetch - processPackages [discordreactive]: Downloading https://files.pythonhosted.org/packages/b3/06/928922536ec4f7c87df0ad73c24fbc695e9422dd797c14a03cd969df1990/discordreactive-0.0.5.tar.gz
+[2024-05-27 04:46:50] INFO root fetch - processPackages [thread]: New version: [2.0.3] Old Version: [2.0.2]
+[2024-05-27 04:46:50] WARNING root fetch - processPackages [AlphaDSSP]: Skipping, unable to determine old version
+[2024-05-27 04:46:50] INFO root fetch - main [MainThread]: End processing [AlphaDSSP] error
+[2024-05-27 04:46:50] INFO root fetch - processPackages [openi]: New version: [2.0.0b4] Old Version: [2.0.0b2]
+[2024-05-27 04:46:50] INFO root fetch - processPackages [fixations]: New version: [0.2.8] Old Version: [0.2.7]
+[2024-05-27 04:46:50] INFO root fetch - processPackages [thread]: Downloading https://files.pythonhosted.org/packages/69/04/423810d49ecf038148e209fe70ae184e5bb56d53c22c5aeb4a71151a702c/thread-2.0.2.tar.gz
+[2024-05-27 04:46:50] INFO root fetch - processPackages [fixations]: Downloading https://files.pythonhosted.org/packages/24/6d/294e4d3213a3ff7f6354b7f0875397e4ddda20c0b5177fd409fe0abf2993/fixations-0.2.7.tar.gz
+[2024-05-27 04:46:50] INFO root fetch - processPackages [openi]: Downloading https://files.pythonhosted.org/packages/17/95/35c8cb8e2403ac22b75f43398662244c47e0136e348ed8e30690d5616b49/openi-2.0.0b2.tar.gz
+[2024-05-27 04:46:50] INFO root fetch - processPackages [discordreactive]: Downloading https://files.pythonhosted.org/packages/5d/5f/11c1a84e4af6bf7ece0d266545f8b8acb4f6eddf4ae470331a4b89497016/discordreactive-0.0.6.tar.gz
+[2024-05-27 04:46:50] INFO root fetch - processPackages [discordreactive]: executing diffoscope
+[2024-05-27 04:46:50] INFO root fetch - processPackages [discordreactive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discordreactive-0.0.5.tar.gz tmp/discordreactive-0.0.6.tar.gz --markdown 20240527/d/discordreactive/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-27 04:46:50] INFO root fetch - processPackages [thread]: Downloading https://files.pythonhosted.org/packages/f8/45/6f324705151c78cdbe95ef5c31563f54a2da351c37987072974debe16f36/thread-2.0.3.tar.gz
+[2024-05-27 04:46:51] INFO root fetch - processPackages [openi]: Downloading https://files.pythonhosted.org/packages/6e/f5/49142e0f533a75cae6bd6332ce1a8c2330bba0f6cd22bc203d98b63d5221/openi-2.0.0b4.tar.gz
+[2024-05-27 04:46:51] INFO root fetch - processPackages [thread]: executing diffoscope
+[2024-05-27 04:46:51] INFO root fetch - processPackages [thread]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thread-2.0.2.tar.gz tmp/thread-2.0.3.tar.gz --markdown 20240527/t/thread/2.0.2-2.0.3/README.md --exclude *.pyd
+[2024-05-27 04:46:51] INFO root fetch - processPackages [openi]: executing diffoscope
+[2024-05-27 04:46:51] INFO root fetch - processPackages [openi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openi-2.0.0b2.tar.gz tmp/openi-2.0.0b4.tar.gz --markdown 20240527/o/openi/2.0.0b2-2.0.0b4/README.md --exclude *.pyd
+[2024-05-27 04:46:51] INFO root fetch - processPackages [discordreactive]: Remove: archive file [/home/abi/fetcher/tmp/discordreactive-0.0.5.tar.gz]
+[2024-05-27 04:46:51] INFO root fetch - processPackages [discordreactive]: Remove: archive file [/home/abi/fetcher/tmp/discordreactive-0.0.6.tar.gz]
+[2024-05-27 04:46:51] INFO root fetch - main [MainThread]: End processing [discordreactive]: success
+[2024-05-27 04:46:51] INFO root fetch - processPackages [thread]: Remove: archive file [/home/abi/fetcher/tmp/thread-2.0.2.tar.gz]
+[2024-05-27 04:46:51] INFO root fetch - processPackages [thread]: Remove: archive file [/home/abi/fetcher/tmp/thread-2.0.3.tar.gz]
+[2024-05-27 04:46:51] INFO root fetch - main [MainThread]: End processing [thread]: success
+[2024-05-27 04:46:51] INFO root fetch - processPackages [fixations]: Downloading https://files.pythonhosted.org/packages/ad/fa/ddb8da734158684c120cedfec0ca3e453e6a4061f782bfcee87feb275767/fixations-0.2.8.tar.gz
+[2024-05-27 04:46:51] INFO root fetch - processPackages [openi]: Remove: archive file [/home/abi/fetcher/tmp/openi-2.0.0b2.tar.gz]
+[2024-05-27 04:46:51] INFO root fetch - processPackages [openi]: Remove: archive file [/home/abi/fetcher/tmp/openi-2.0.0b4.tar.gz]
+[2024-05-27 04:46:51] INFO root fetch - main [MainThread]: End processing [openi]: success
+[2024-05-27 04:46:53] INFO root fetch - processPackages [fixations]: executing diffoscope
+[2024-05-27 04:46:53] INFO root fetch - processPackages [fixations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fixations-0.2.7.tar.gz tmp/fixations-0.2.8.tar.gz --markdown 20240527/f/fixations/0.2.7-0.2.8/README.md --exclude *.pyd
+[2024-05-27 04:47:08] INFO root fetch - processPackages [fixations]: Remove: archive file [/home/abi/fetcher/tmp/fixations-0.2.7.tar.gz]
+[2024-05-27 04:47:08] INFO root fetch - processPackages [fixations]: Remove: archive file [/home/abi/fetcher/tmp/fixations-0.2.8.tar.gz]
+[2024-05-27 04:47:08] INFO root fetch - main [MainThread]: End processing [fixations]: success
+[2024-05-27 04:47:08] INFO root fetch - main [MainThread]: Store serial: [23389893]
