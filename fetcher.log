@@ -11801,3 +11801,48 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 12:01:53] INFO root fetch - processPackages [qulacs]: Remove: archive file [/home/abi/fetcher/tmp/qulacs-0.6.3.tar.gz]
 [2024-05-27 12:01:53] INFO root fetch - main [MainThread]: End processing [qulacs]: success
 [2024-05-27 12:01:53] INFO root fetch - main [MainThread]: Store serial: [23393606]
+[2024-05-27 12:03:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23393606]
+[2024-05-27 12:04:04] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-27 12:04:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pysquril
+[2024-05-27 12:04:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: testlala
+[2024-05-27 12:04:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pms-encoder
+[2024-05-27 12:04:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: adapta
+[2024-05-27 12:04:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: urlDNA
+[2024-05-27 12:04:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: oldaplib
+[2024-05-27 12:04:04] WARNING root fetch - processPackages [oldaplib]: Skipping, unable to determine old version
+[2024-05-27 12:04:04] INFO root fetch - main [MainThread]: End processing [oldaplib] error
+[2024-05-27 12:04:04] WARNING root fetch - processPackages [urlDNA]: Skipping, unable to determine old version
+[2024-05-27 12:04:04] INFO root fetch - main [MainThread]: End processing [urlDNA] error
+[2024-05-27 12:04:04] INFO root fetch - processPackages [adapta]: New version: [2.9.2] Old Version: [2.9.1]
+[2024-05-27 12:04:04] INFO root fetch - processPackages [pysquril]: New version: [0.7.0] Old Version: [0.6.2]
+[2024-05-27 12:04:04] INFO root fetch - processPackages [testlala]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-27 12:04:04] INFO root fetch - processPackages [pms-encoder]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-27 12:04:04] INFO root fetch - processPackages [adapta]: Downloading https://files.pythonhosted.org/packages/35/33/1302d42b2f30e2a721e649391c266b8d25fef79e334f145fe1f59175016a/adapta-2.9.1.tar.gz
+[2024-05-27 12:04:04] INFO root fetch - processPackages [pysquril]: Downloading https://files.pythonhosted.org/packages/09/3d/db7604aebeccd7c6c2a3546518f551114a3afff467921cb62567c5556537/pysquril-0.6.2.tar.gz
+[2024-05-27 12:04:04] INFO root fetch - processPackages [pms-encoder]: Downloading https://files.pythonhosted.org/packages/80/f1/88f2f54188c15bf6cca5ba7a3a347b8d1c83b15a626f541acf3dde5aa63d/pms_encoder-0.0.8.tar.gz
+[2024-05-27 12:04:04] INFO root fetch - processPackages [testlala]: Downloading https://files.pythonhosted.org/packages/89/f1/0a1a521eed51f8f44fece802ac102dc33ceb471c2f8c096a4e3003c39c46/testlala-0.1.0-py3-none-any.whl
+[2024-05-27 12:04:04] INFO root fetch - processPackages [pms-encoder]: Downloading https://files.pythonhosted.org/packages/93/31/8bb081756db42925fab6507b6e0f497d6bf45acd407ff38cb00f2aaec54c/pms_encoder-0.0.9.tar.gz
+[2024-05-27 12:04:04] INFO root fetch - processPackages [pysquril]: Downloading https://files.pythonhosted.org/packages/cf/ec/586642e3fd3da783919d148dd3f087ee9ddcbd8cb54324cd738d4c2bbac8/pysquril-0.7.0.tar.gz
+[2024-05-27 12:04:04] INFO root fetch - processPackages [adapta]: Downloading https://files.pythonhosted.org/packages/38/7b/c2e190b90d739aea14559d55ef402f1648abe251bc5e5eb13948fba8b345/adapta-2.9.2.tar.gz
+[2024-05-27 12:04:04] INFO root fetch - processPackages [pms-encoder]: executing diffoscope
+[2024-05-27 12:04:04] INFO root fetch - processPackages [pms-encoder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pms_encoder-0.0.8.tar.gz tmp/pms_encoder-0.0.9.tar.gz --markdown 20240527/p/pms-encoder/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-27 12:04:04] INFO root fetch - processPackages [pysquril]: executing diffoscope
+[2024-05-27 12:04:04] INFO root fetch - processPackages [pysquril]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysquril-0.6.2.tar.gz tmp/pysquril-0.7.0.tar.gz --markdown 20240527/p/pysquril/0.6.2-0.7.0/README.md --exclude *.pyd
+[2024-05-27 12:04:04] INFO root fetch - processPackages [adapta]: executing diffoscope
+[2024-05-27 12:04:04] INFO root fetch - processPackages [adapta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adapta-2.9.1.tar.gz tmp/adapta-2.9.2.tar.gz --markdown 20240527/a/adapta/2.9.1-2.9.2/README.md --exclude *.pyd
+[2024-05-27 12:04:04] INFO root fetch - processPackages [testlala]: Downloading https://files.pythonhosted.org/packages/83/40/00f8b1338d3f9b3713b7767fa911004ca8cda468f1c3b223bd7e83b58b40/testlala-0.1.1-py3-none-any.whl
+[2024-05-27 12:04:05] INFO root fetch - processPackages [testlala]: executing diffoscope
+[2024-05-27 12:04:05] INFO root fetch - processPackages [testlala]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testlala-0.1.0-py3-none-any.whl.zip tmp/testlala-0.1.1-py3-none-any.whl.zip --markdown 20240527/t/testlala/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-27 12:04:05] INFO root fetch - processPackages [pms-encoder]: Remove: archive file [/home/abi/fetcher/tmp/pms_encoder-0.0.8.tar.gz]
+[2024-05-27 12:04:05] INFO root fetch - processPackages [pms-encoder]: Remove: archive file [/home/abi/fetcher/tmp/pms_encoder-0.0.9.tar.gz]
+[2024-05-27 12:04:05] INFO root fetch - main [MainThread]: End processing [pms-encoder]: success
+[2024-05-27 12:04:05] INFO root fetch - processPackages [testlala]: Remove: archive file [/home/abi/fetcher/tmp/testlala-0.1.0-py3-none-any.whl.zip]
+[2024-05-27 12:04:05] INFO root fetch - processPackages [testlala]: Remove: archive file [/home/abi/fetcher/tmp/testlala-0.1.1-py3-none-any.whl.zip]
+[2024-05-27 12:04:05] INFO root fetch - main [MainThread]: End processing [testlala]: success
+[2024-05-27 12:04:05] INFO root fetch - processPackages [pysquril]: Remove: archive file [/home/abi/fetcher/tmp/pysquril-0.6.2.tar.gz]
+[2024-05-27 12:04:05] INFO root fetch - processPackages [pysquril]: Remove: archive file [/home/abi/fetcher/tmp/pysquril-0.7.0.tar.gz]
+[2024-05-27 12:04:05] INFO root fetch - main [MainThread]: End processing [pysquril]: success
+[2024-05-27 12:04:05] INFO root fetch - processPackages [adapta]: Remove: archive file [/home/abi/fetcher/tmp/adapta-2.9.1.tar.gz]
+[2024-05-27 12:04:05] INFO root fetch - processPackages [adapta]: Remove: archive file [/home/abi/fetcher/tmp/adapta-2.9.2.tar.gz]
+[2024-05-27 12:04:05] INFO root fetch - main [MainThread]: End processing [adapta]: success
+[2024-05-27 12:04:05] INFO root fetch - main [MainThread]: Store serial: [23393625]
