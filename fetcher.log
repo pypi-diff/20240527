@@ -8891,3 +8891,41 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 09:59:17] INFO root fetch - processPackages [finter]: Remove: archive file [/home/abi/fetcher/tmp/finter-0.2.9-py3-none-any.whl.zip]
 [2024-05-27 09:59:17] INFO root fetch - main [MainThread]: End processing [finter]: success
 [2024-05-27 09:59:17] INFO root fetch - main [MainThread]: Store serial: [23392231]
+[2024-05-27 10:01:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23392231]
+[2024-05-27 10:01:25] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-27 10:01:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ftrack-framework-core
+[2024-05-27 10:01:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: py-tools-wd
+[2024-05-27 10:01:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pixelgen-pixelator
+[2024-05-27 10:01:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zcbot-web-core
+[2024-05-27 10:01:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: localstack-core
+[2024-05-27 10:01:26] INFO root fetch - processPackages [ftrack-framework-core]: New version: [2.3.0rc1] Old Version: [2.2.1]
+[2024-05-27 10:01:26] WARNING root fetch - processPackages [py-tools-wd]: Skipping, unable to determine old version
+[2024-05-27 10:01:26] INFO root fetch - main [MainThread]: End processing [py-tools-wd] error
+[2024-05-27 10:01:26] INFO root fetch - processPackages [localstack-core]: New version: [3.4.1.dev20240527022455] Old Version: [3.4.1.dev20240526130534]
+[2024-05-27 10:01:26] INFO root fetch - processPackages [zcbot-web-core]: New version: [1.9] Old Version: [1.8]
+[2024-05-27 10:01:26] INFO root fetch - processPackages [pixelgen-pixelator]: New version: [0.17.1] Old Version: [0.17.0]
+[2024-05-27 10:01:26] INFO root fetch - processPackages [ftrack-framework-core]: Downloading https://files.pythonhosted.org/packages/b2/9a/747cae882558f375f0d4fe6a1f938de7491647179952a976d47422f87b34/ftrack_framework_core-2.2.1.tar.gz
+[2024-05-27 10:01:26] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/88/00/9f2665d3c6d9f0e2c5f8405f181047009533ed4bc38f790101cad25cfa29/localstack_core-3.4.1.dev20240526130534.tar.gz
+[2024-05-27 10:01:26] INFO root fetch - processPackages [pixelgen-pixelator]: Downloading https://files.pythonhosted.org/packages/0f/2b/a3446813defb76fc6107eca15b3a8a99cf352a5548081372d1e1c534387f/pixelgen_pixelator-0.17.0.tar.gz
+[2024-05-27 10:01:26] INFO root fetch - processPackages [zcbot-web-core]: Downloading https://files.pythonhosted.org/packages/8e/1b/c708c5a5d6c6afabb6fa37d532cdd71b40696e7474f521fc148af547e058/zcbot-web-core-1.8.tar.gz
+[2024-05-27 10:01:26] INFO root fetch - processPackages [ftrack-framework-core]: Downloading https://files.pythonhosted.org/packages/57/a7/d3aaf5f1e482f86d0801b462f7463141efa60456369df6bc8ed6239ea3e6/ftrack_framework_core-2.3.0rc1-py3-none-any.whl
+[2024-05-27 10:01:26] WARNING root fetch - processPackages [pixelgen-pixelator]: Skipping package: exceeds size limit 46391089>=10485760
+[2024-05-27 10:01:26] INFO root fetch - main [MainThread]: End processing [pixelgen-pixelator] error
+[2024-05-27 10:01:26] INFO root fetch - processPackages [ftrack-framework-core]: executing diffoscope
+[2024-05-27 10:01:26] INFO root fetch - processPackages [ftrack-framework-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ftrack_framework_core-2.2.1.tar.gz tmp/ftrack_framework_core-2.3.0rc1-py3-none-any.whl.zip --markdown 20240527/f/ftrack-framework-core/2.2.1-2.3.0rc1/README.md --exclude *.pyd
+[2024-05-27 10:01:26] INFO root fetch - processPackages [zcbot-web-core]: Downloading https://files.pythonhosted.org/packages/e2/ee/ee6c1ef3025adbd2050fce3f3af6f7be8f5f4e3e78736755de8cbe8feb98/zcbot-web-core-1.9.tar.gz
+[2024-05-27 10:01:26] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/9a/77/58926e51b8cefad7b51df8c8cb54e606a0b9dd6554d9e010dcb9581f4b22/localstack_core-3.4.1.dev20240527022455.tar.gz
+[2024-05-27 10:01:26] INFO root fetch - processPackages [zcbot-web-core]: executing diffoscope
+[2024-05-27 10:01:26] INFO root fetch - processPackages [zcbot-web-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zcbot-web-core-1.8.tar.gz tmp/zcbot-web-core-1.9.tar.gz --markdown 20240527/z/zcbot-web-core/1.8-1.9/README.md --exclude *.pyd
+[2024-05-27 10:01:27] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2024-05-27 10:01:27] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack_core-3.4.1.dev20240526130534.tar.gz tmp/localstack_core-3.4.1.dev20240527022455.tar.gz --markdown 20240527/l/localstack-core/3.4.1.dev20240526130534-3.4.1.dev20240527022455/README.md --exclude *.pyd
+[2024-05-27 10:01:27] INFO root fetch - processPackages [ftrack-framework-core]: Remove: archive file [/home/abi/fetcher/tmp/ftrack_framework_core-2.2.1.tar.gz]
+[2024-05-27 10:01:27] INFO root fetch - processPackages [ftrack-framework-core]: Remove: archive file [/home/abi/fetcher/tmp/ftrack_framework_core-2.3.0rc1-py3-none-any.whl.zip]
+[2024-05-27 10:01:27] INFO root fetch - main [MainThread]: End processing [ftrack-framework-core]: success
+[2024-05-27 10:01:27] INFO root fetch - processPackages [zcbot-web-core]: Remove: archive file [/home/abi/fetcher/tmp/zcbot-web-core-1.8.tar.gz]
+[2024-05-27 10:01:27] INFO root fetch - processPackages [zcbot-web-core]: Remove: archive file [/home/abi/fetcher/tmp/zcbot-web-core-1.9.tar.gz]
+[2024-05-27 10:01:27] INFO root fetch - main [MainThread]: End processing [zcbot-web-core]: success
+[2024-05-27 10:01:30] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.4.1.dev20240526130534.tar.gz]
+[2024-05-27 10:01:30] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.4.1.dev20240527022455.tar.gz]
+[2024-05-27 10:01:30] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2024-05-27 10:01:30] INFO root fetch - main [MainThread]: Store serial: [23392244]
