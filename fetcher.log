@@ -3250,3 +3250,24 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-05-27 03:55:47] INFO root fetch - processPackages [trackerstatus]: Remove: archive file [/home/abi/fetcher/tmp/trackerstatus-0.2.0.tar.gz]
 [2024-05-27 03:55:47] INFO root fetch - main [MainThread]: End processing [trackerstatus]: success
 [2024-05-27 03:55:47] INFO root fetch - main [MainThread]: Store serial: [23389593]
+[2024-05-27 03:57:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23389593]
+[2024-05-27 03:57:55] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-27 03:57:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: oresat-star-tracker
+[2024-05-27 03:57:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: machinevision-toolbox-python
+[2024-05-27 03:57:56] INFO root fetch - processPackages [oresat-star-tracker]: New version: [0.3.0] Old Version: [0.2.1]
+[2024-05-27 03:57:56] INFO root fetch - processPackages [oresat-star-tracker]: Downloading https://files.pythonhosted.org/packages/f9/84/3295da34c29655f180e37416411b3dfe14f74f5db84810311a67b8351342/oresat_star_tracker-0.2.1.tar.gz
+[2024-05-27 03:57:56] INFO root fetch - processPackages [machinevision-toolbox-python]: New version: [0.9.7] Old Version: [0.9.6]
+[2024-05-27 03:57:56] INFO root fetch - processPackages [machinevision-toolbox-python]: Downloading https://files.pythonhosted.org/packages/34/b4/b3cb376ca4286e676217769066c167bff9cd54a83e78a82cc5a69a30dd42/machinevision-toolbox-python-0.9.6.tar.gz
+[2024-05-27 03:57:56] INFO root fetch - processPackages [oresat-star-tracker]: Downloading https://files.pythonhosted.org/packages/6a/07/942726d1472aec11684f834bd57c83d56a1a6e42d2dd9a98724fc9195baa/oresat_star_tracker-0.3.0.tar.gz
+[2024-05-27 03:57:56] INFO root fetch - processPackages [oresat-star-tracker]: executing diffoscope
+[2024-05-27 03:57:56] INFO root fetch - processPackages [oresat-star-tracker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oresat_star_tracker-0.2.1.tar.gz tmp/oresat_star_tracker-0.3.0.tar.gz --markdown 20240527/o/oresat-star-tracker/0.2.1-0.3.0/README.md --exclude *.pyd
+[2024-05-27 03:57:56] INFO root fetch - processPackages [machinevision-toolbox-python]: Downloading https://files.pythonhosted.org/packages/a3/98/e2b4aae1dadc2c556d31dce06bd94babaf3fd9cd9bbec50e00bfbac7d2d8/machinevision_toolbox_python-0.9.7.tar.gz
+[2024-05-27 03:57:56] INFO root fetch - processPackages [machinevision-toolbox-python]: executing diffoscope
+[2024-05-27 03:57:56] INFO root fetch - processPackages [machinevision-toolbox-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/machinevision-toolbox-python-0.9.6.tar.gz tmp/machinevision_toolbox_python-0.9.7.tar.gz --markdown 20240527/m/machinevision-toolbox-python/0.9.6-0.9.7/README.md --exclude *.pyd
+[2024-05-27 03:57:57] INFO root fetch - processPackages [oresat-star-tracker]: Remove: archive file [/home/abi/fetcher/tmp/oresat_star_tracker-0.2.1.tar.gz]
+[2024-05-27 03:57:57] INFO root fetch - processPackages [oresat-star-tracker]: Remove: archive file [/home/abi/fetcher/tmp/oresat_star_tracker-0.3.0.tar.gz]
+[2024-05-27 03:57:57] INFO root fetch - main [MainThread]: End processing [oresat-star-tracker]: success
+[2024-05-27 03:57:57] INFO root fetch - processPackages [machinevision-toolbox-python]: Remove: archive file [/home/abi/fetcher/tmp/machinevision-toolbox-python-0.9.6.tar.gz]
+[2024-05-27 03:57:57] INFO root fetch - processPackages [machinevision-toolbox-python]: Remove: archive file [/home/abi/fetcher/tmp/machinevision_toolbox_python-0.9.7.tar.gz]
+[2024-05-27 03:57:57] INFO root fetch - main [MainThread]: End processing [machinevision-toolbox-python]: success
+[2024-05-27 03:57:57] INFO root fetch - main [MainThread]: Store serial: [23389600]
