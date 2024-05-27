@@ -9560,3 +9560,42 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 10:32:19] INFO root fetch - processPackages [dao-analyzer]: Remove: archive file [/home/abi/fetcher/tmp/dao_analyzer-1.3.2.dev2.tar.gz]
 [2024-05-27 10:32:19] INFO root fetch - main [MainThread]: End processing [dao-analyzer]: success
 [2024-05-27 10:32:19] INFO root fetch - main [MainThread]: Store serial: [23392600]
+[2024-05-27 10:34:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23392600]
+[2024-05-27 10:34:28] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-27 10:34:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mapieng
+[2024-05-27 10:34:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pkscreener
+[2024-05-27 10:34:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: patchwork-cli
+[2024-05-27 10:34:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: logs-ingestion
+[2024-05-27 10:34:28] INFO root fetch - processPackages [logs-ingestion]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-05-27 10:34:28] INFO root fetch - processPackages [mapieng]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-05-27 10:34:29] INFO root fetch - processPackages [patchwork-cli]: New version: [0.0.9] Old Version: [0.0.87]
+[2024-05-27 10:34:29] INFO root fetch - processPackages [logs-ingestion]: Downloading https://files.pythonhosted.org/packages/61/d6/15ceb626f7d34e9c5ff85cf3df11c381e8b269be102949b7bc42f9ad32a2/logs_ingestion-0.2.2.tar.gz
+[2024-05-27 10:34:29] INFO root fetch - processPackages [mapieng]: Downloading https://files.pythonhosted.org/packages/a7/bc/2490cb9a40b436923b7fcf32bba6f868a9b65bddd4c05e389893198a2ebf/mapieng-0.2.2.tar.gz
+[2024-05-27 10:34:29] INFO root fetch - processPackages [pkscreener]: New version: [0.45.20240527.417] Old Version: [0.45.20240526.416]
+[2024-05-27 10:34:29] INFO root fetch - processPackages [patchwork-cli]: Downloading https://files.pythonhosted.org/packages/ca/ec/4694e3e7b94101c305804486e96714ef11b44bb1cde3bd96731d3ccf2f18/patchwork_cli-0.0.87.tar.gz
+[2024-05-27 10:34:29] INFO root fetch - processPackages [logs-ingestion]: Downloading https://files.pythonhosted.org/packages/3b/36/97e776b4525bd18c54d6f6718d4caea1897e4c3c909f5ba36b993f27a43f/logs_ingestion-0.2.3.tar.gz
+[2024-05-27 10:34:29] INFO root fetch - processPackages [mapieng]: Downloading https://files.pythonhosted.org/packages/37/f4/c688f83e90c3a4891ad21b92f1e3878b100fdc55a5d8d6c5465602a49a03/mapieng-0.2.3.tar.gz
+[2024-05-27 10:34:29] INFO root fetch - processPackages [pkscreener]: Downloading https://files.pythonhosted.org/packages/af/2c/eb99f3b117ef839065c1a0fa42ea1bd463b9f5e66de13f58b57709985141/pkscreener-0.45.20240526.416.tar.gz
+[2024-05-27 10:34:29] INFO root fetch - processPackages [logs-ingestion]: executing diffoscope
+[2024-05-27 10:34:29] INFO root fetch - processPackages [logs-ingestion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logs_ingestion-0.2.2.tar.gz tmp/logs_ingestion-0.2.3.tar.gz --markdown 20240527/l/logs-ingestion/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-05-27 10:34:29] INFO root fetch - processPackages [mapieng]: executing diffoscope
+[2024-05-27 10:34:29] INFO root fetch - processPackages [mapieng]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mapieng-0.2.2.tar.gz tmp/mapieng-0.2.3.tar.gz --markdown 20240527/m/mapieng/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-05-27 10:34:29] INFO root fetch - processPackages [patchwork-cli]: Downloading https://files.pythonhosted.org/packages/03/6a/782494b4f0f2f910cbd71d8216970c8d8cc2abdaba82d795bf606a63de61/patchwork_cli-0.0.9.tar.gz
+[2024-05-27 10:34:29] INFO root fetch - processPackages [pkscreener]: Downloading https://files.pythonhosted.org/packages/2a/12/85716b2ceb7bdb71ed2c9bfb9032c3a6e42d94421796c2dc7873f961ad2e/pkscreener-0.45.20240527.417.tar.gz
+[2024-05-27 10:34:29] INFO root fetch - processPackages [patchwork-cli]: executing diffoscope
+[2024-05-27 10:34:29] INFO root fetch - processPackages [patchwork-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/patchwork_cli-0.0.87.tar.gz tmp/patchwork_cli-0.0.9.tar.gz --markdown 20240527/p/patchwork-cli/0.0.87-0.0.9/README.md --exclude *.pyd
+[2024-05-27 10:34:29] INFO root fetch - processPackages [pkscreener]: executing diffoscope
+[2024-05-27 10:34:29] INFO root fetch - processPackages [pkscreener]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pkscreener-0.45.20240526.416.tar.gz tmp/pkscreener-0.45.20240527.417.tar.gz --markdown 20240527/p/pkscreener/0.45.20240526.416-0.45.20240527.417/README.md --exclude *.pyd
+[2024-05-27 10:34:30] INFO root fetch - processPackages [logs-ingestion]: Remove: archive file [/home/abi/fetcher/tmp/logs_ingestion-0.2.2.tar.gz]
+[2024-05-27 10:34:30] INFO root fetch - processPackages [logs-ingestion]: Remove: archive file [/home/abi/fetcher/tmp/logs_ingestion-0.2.3.tar.gz]
+[2024-05-27 10:34:30] INFO root fetch - main [MainThread]: End processing [logs-ingestion]: success
+[2024-05-27 10:34:30] INFO root fetch - processPackages [mapieng]: Remove: archive file [/home/abi/fetcher/tmp/mapieng-0.2.2.tar.gz]
+[2024-05-27 10:34:30] INFO root fetch - processPackages [mapieng]: Remove: archive file [/home/abi/fetcher/tmp/mapieng-0.2.3.tar.gz]
+[2024-05-27 10:34:30] INFO root fetch - main [MainThread]: End processing [mapieng]: success
+[2024-05-27 10:34:30] INFO root fetch - processPackages [patchwork-cli]: Remove: archive file [/home/abi/fetcher/tmp/patchwork_cli-0.0.87.tar.gz]
+[2024-05-27 10:34:30] INFO root fetch - processPackages [patchwork-cli]: Remove: archive file [/home/abi/fetcher/tmp/patchwork_cli-0.0.9.tar.gz]
+[2024-05-27 10:34:30] INFO root fetch - main [MainThread]: End processing [patchwork-cli]: success
+[2024-05-27 10:34:30] INFO root fetch - processPackages [pkscreener]: Remove: archive file [/home/abi/fetcher/tmp/pkscreener-0.45.20240526.416.tar.gz]
+[2024-05-27 10:34:30] INFO root fetch - processPackages [pkscreener]: Remove: archive file [/home/abi/fetcher/tmp/pkscreener-0.45.20240527.417.tar.gz]
+[2024-05-27 10:34:30] INFO root fetch - main [MainThread]: End processing [pkscreener]: success
+[2024-05-27 10:34:30] INFO root fetch - main [MainThread]: Store serial: [23392615]
