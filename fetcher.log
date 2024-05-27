@@ -1574,3 +1574,51 @@
 [2024-05-27 02:10:36] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.99.tar.gz]
 [2024-05-27 02:10:36] INFO root fetch - main [MainThread]: End processing [cdk-common]: success
 [2024-05-27 02:10:36] INFO root fetch - main [MainThread]: Store serial: [23388915]
+[2024-05-27 02:12:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23388915]
+[2024-05-27 02:12:45] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-27 02:12:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: MusicSeparationYT
+[2024-05-27 02:12:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spacestar
+[2024-05-27 02:12:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mct-quantizers-nightly
+[2024-05-27 02:12:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: CTK-Desert
+[2024-05-27 02:12:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-events-notify
+[2024-05-27 02:12:45] INFO root fetch - processPackages [mct-quantizers-nightly]: New version: [1.5.0.20240526.post1158] Old Version: [1.5.0.20240525.post1041]
+[2024-05-27 02:12:45] INFO root fetch - processPackages [MusicSeparationYT]: New version: [1.0.8] Old Version: [1.0.7]
+[2024-05-27 02:12:45] INFO root fetch - processPackages [mct-quantizers-nightly]: Downloading https://files.pythonhosted.org/packages/b0/d3/952a54c78a4822e6a07798fd6ed71781fb4d1fae32ef1bffa8f146adda68/mct-quantizers-nightly-1.5.0.20240525.post1041.tar.gz
+[2024-05-27 02:12:45] INFO root fetch - processPackages [MusicSeparationYT]: Downloading https://files.pythonhosted.org/packages/74/0a/4f73c7b4207497846334e94d35043f8ad746d6a001c36a9985d1d4dca93b/musicseparationyt-1.0.7.tar.gz
+[2024-05-27 02:12:45] INFO root fetch - processPackages [spacestar]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-05-27 02:12:45] INFO root fetch - processPackages [CTK-Desert]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-27 02:12:46] INFO root fetch - processPackages [spacestar]: Downloading https://files.pythonhosted.org/packages/be/5b/c35532d4c17a856bd06e4486d1ed2d0d36c0a9928055bd22be0077f85c07/spacestar-0.3.1.tar.gz
+[2024-05-27 02:12:46] INFO root fetch - processPackages [cdk-events-notify]: New version: [2.2.99] Old Version: [2.2.98]
+[2024-05-27 02:12:46] INFO root fetch - processPackages [mct-quantizers-nightly]: Downloading https://files.pythonhosted.org/packages/63/e0/659ee6f84173066ecc4f2f482c89e289ef8a5ad25995c03555e9d7912be4/mct-quantizers-nightly-1.5.0.20240526.post1158.tar.gz
+[2024-05-27 02:12:46] INFO root fetch - processPackages [MusicSeparationYT]: Downloading https://files.pythonhosted.org/packages/0f/84/e8234cc1e1c5d92cd1de21282166c2d84a99cd2b3689c001dec2baa2e1f8/musicseparationyt-1.0.8.tar.gz
+[2024-05-27 02:12:46] INFO root fetch - processPackages [CTK-Desert]: Downloading https://files.pythonhosted.org/packages/9a/73/c7239044a3b6edf571c3f5feded6aab241cff792f7acd98dd42652e44c95/CTK_Desert-0.0.8.tar.gz
+[2024-05-27 02:12:46] INFO root fetch - processPackages [mct-quantizers-nightly]: executing diffoscope
+[2024-05-27 02:12:46] INFO root fetch - processPackages [mct-quantizers-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-quantizers-nightly-1.5.0.20240525.post1041.tar.gz tmp/mct-quantizers-nightly-1.5.0.20240526.post1158.tar.gz --markdown 20240527/m/mct-quantizers-nightly/1.5.0.20240525.post1041-1.5.0.20240526.post1158/README.md --exclude *.pyd
+[2024-05-27 02:12:46] INFO root fetch - processPackages [MusicSeparationYT]: executing diffoscope
+[2024-05-27 02:12:46] INFO root fetch - processPackages [MusicSeparationYT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/musicseparationyt-1.0.7.tar.gz tmp/musicseparationyt-1.0.8.tar.gz --markdown 20240527/M/MusicSeparationYT/1.0.7-1.0.8/README.md --exclude *.pyd
+[2024-05-27 02:12:46] INFO root fetch - processPackages [spacestar]: Downloading https://files.pythonhosted.org/packages/7e/9f/bde7a47ca020cf89663e3b4f13debae3cb6f0b700a1c0fff0f1ff9fe2a2b/spacestar-0.3.2.tar.gz
+[2024-05-27 02:12:46] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/b7/7d/50ca1bff3db85ede28826faf2d11bb449770cac87fe89483636e0fe57d94/cdk-events-notify-2.2.98.tar.gz
+[2024-05-27 02:12:46] INFO root fetch - processPackages [spacestar]: executing diffoscope
+[2024-05-27 02:12:46] INFO root fetch - processPackages [spacestar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spacestar-0.3.1.tar.gz tmp/spacestar-0.3.2.tar.gz --markdown 20240527/s/spacestar/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-05-27 02:12:46] INFO root fetch - processPackages [CTK-Desert]: Downloading https://files.pythonhosted.org/packages/6d/b4/d3af97e7bf9ae492dceb1aad8191e260b603096af0a9755ffd707156f69f/CTK_Desert-0.0.9.tar.gz
+[2024-05-27 02:12:46] INFO root fetch - processPackages [CTK-Desert]: executing diffoscope
+[2024-05-27 02:12:46] INFO root fetch - processPackages [CTK-Desert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CTK_Desert-0.0.8.tar.gz tmp/CTK_Desert-0.0.9.tar.gz --markdown 20240527/C/CTK-Desert/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-27 02:12:46] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/56/4a/9c2a145913d7a35ac252cb2bddabca89cdc95c802a8e342f192100f709be/cdk-events-notify-2.2.99.tar.gz
+[2024-05-27 02:12:46] INFO root fetch - processPackages [cdk-events-notify]: executing diffoscope
+[2024-05-27 02:12:46] INFO root fetch - processPackages [cdk-events-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-events-notify-2.2.98.tar.gz tmp/cdk-events-notify-2.2.99.tar.gz --markdown 20240527/c/cdk-events-notify/2.2.98-2.2.99/README.md --exclude *.pyd
+[2024-05-27 02:12:47] INFO root fetch - processPackages [MusicSeparationYT]: Remove: archive file [/home/abi/fetcher/tmp/musicseparationyt-1.0.7.tar.gz]
+[2024-05-27 02:12:47] INFO root fetch - processPackages [MusicSeparationYT]: Remove: archive file [/home/abi/fetcher/tmp/musicseparationyt-1.0.8.tar.gz]
+[2024-05-27 02:12:47] INFO root fetch - main [MainThread]: End processing [MusicSeparationYT]: success
+[2024-05-27 02:12:47] INFO root fetch - processPackages [mct-quantizers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-quantizers-nightly-1.5.0.20240525.post1041.tar.gz]
+[2024-05-27 02:12:47] INFO root fetch - processPackages [mct-quantizers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-quantizers-nightly-1.5.0.20240526.post1158.tar.gz]
+[2024-05-27 02:12:47] INFO root fetch - main [MainThread]: End processing [mct-quantizers-nightly]: success
+[2024-05-27 02:12:47] INFO root fetch - processPackages [cdk-events-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-events-notify-2.2.98.tar.gz]
+[2024-05-27 02:12:47] INFO root fetch - processPackages [cdk-events-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-events-notify-2.2.99.tar.gz]
+[2024-05-27 02:12:47] INFO root fetch - main [MainThread]: End processing [cdk-events-notify]: success
+[2024-05-27 02:12:47] INFO root fetch - processPackages [spacestar]: Remove: archive file [/home/abi/fetcher/tmp/spacestar-0.3.1.tar.gz]
+[2024-05-27 02:12:47] INFO root fetch - processPackages [spacestar]: Remove: archive file [/home/abi/fetcher/tmp/spacestar-0.3.2.tar.gz]
+[2024-05-27 02:12:47] INFO root fetch - main [MainThread]: End processing [spacestar]: success
+[2024-05-27 02:12:47] INFO root fetch - processPackages [CTK-Desert]: Remove: archive file [/home/abi/fetcher/tmp/CTK_Desert-0.0.8.tar.gz]
+[2024-05-27 02:12:47] INFO root fetch - processPackages [CTK-Desert]: Remove: archive file [/home/abi/fetcher/tmp/CTK_Desert-0.0.9.tar.gz]
+[2024-05-27 02:12:47] INFO root fetch - main [MainThread]: End processing [CTK-Desert]: success
+[2024-05-27 02:12:47] INFO root fetch - main [MainThread]: Store serial: [23388930]
