@@ -3876,3 +3876,36 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 
 [2024-05-27 04:31:31] INFO root fetch - main [MainThread]: End processing [siat] error
 [2024-05-27 04:31:31] INFO root fetch - main [MainThread]: Store serial: [23389796]
+[2024-05-27 04:33:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23389796]
+[2024-05-27 04:33:41] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-27 04:33:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: apimyllama
+[2024-05-27 04:33:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nonebot-plugin-with-ai-agents
+[2024-05-27 04:33:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: torch-onnx
+[2024-05-27 04:33:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nonebot-plugin-bilichat
+[2024-05-27 04:33:41] INFO root fetch - processPackages [torch-onnx]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-27 04:33:41] INFO root fetch - processPackages [nonebot-plugin-with-ai-agents]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-27 04:33:41] WARNING root fetch - processPackages [apimyllama]: Skipping, unable to determine old version
+[2024-05-27 04:33:41] INFO root fetch - main [MainThread]: End processing [apimyllama] error
+[2024-05-27 04:33:41] INFO root fetch - processPackages [torch-onnx]: Downloading https://files.pythonhosted.org/packages/a9/c8/44757fd123e50b43c6d4221ef772e76ab3d87756f4c4a5ac1a359d8ab888/torch_onnx-0.0.2.tar.gz
+[2024-05-27 04:33:41] INFO root fetch - processPackages [nonebot-plugin-with-ai-agents]: Downloading https://files.pythonhosted.org/packages/e3/3d/e2e9f5177423b198ac932e380f0690d2ca12ecaf4e02564e0ae0c86a71a8/nonebot_plugin_with_ai_agents-0.1.8.tar.gz
+[2024-05-27 04:33:41] INFO root fetch - processPackages [nonebot-plugin-bilichat]: New version: [5.9.3] Old Version: [5.9.2]
+[2024-05-27 04:33:41] INFO root fetch - processPackages [nonebot-plugin-with-ai-agents]: Downloading https://files.pythonhosted.org/packages/f1/8a/09f5c0fa837a20273e3df7293a9e551561d761be566af12e1a3009ba1dde/nonebot_plugin_with_ai_agents-0.1.9.tar.gz
+[2024-05-27 04:33:42] INFO root fetch - processPackages [nonebot-plugin-bilichat]: Downloading https://files.pythonhosted.org/packages/a8/b1/39d1cccb9707adc8966353d903f7026ba6c55650498ad28c75543d0055f7/nonebot_plugin_bilichat-5.9.2.tar.gz
+[2024-05-27 04:33:42] INFO root fetch - processPackages [nonebot-plugin-with-ai-agents]: executing diffoscope
+[2024-05-27 04:33:42] INFO root fetch - processPackages [nonebot-plugin-with-ai-agents]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_with_ai_agents-0.1.8.tar.gz tmp/nonebot_plugin_with_ai_agents-0.1.9.tar.gz --markdown 20240527/n/nonebot-plugin-with-ai-agents/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-27 04:33:42] INFO root fetch - processPackages [torch-onnx]: Downloading https://files.pythonhosted.org/packages/4f/bf/78b221e6abd1d065a932cb9b86c41585a04c4182c6cc2a76beaf85d23057/torch_onnx-0.0.3.tar.gz
+[2024-05-27 04:33:42] INFO root fetch - processPackages [torch-onnx]: executing diffoscope
+[2024-05-27 04:33:42] INFO root fetch - processPackages [torch-onnx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_onnx-0.0.2.tar.gz tmp/torch_onnx-0.0.3.tar.gz --markdown 20240527/t/torch-onnx/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-27 04:33:42] INFO root fetch - processPackages [nonebot-plugin-bilichat]: Downloading https://files.pythonhosted.org/packages/82/37/1edd2792383313b751f32489cf8ff67e770a5efe2396bf983a0820939eb3/nonebot_plugin_bilichat-5.9.3.tar.gz
+[2024-05-27 04:33:42] INFO root fetch - processPackages [nonebot-plugin-with-ai-agents]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_with_ai_agents-0.1.8.tar.gz]
+[2024-05-27 04:33:42] INFO root fetch - processPackages [nonebot-plugin-with-ai-agents]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_with_ai_agents-0.1.9.tar.gz]
+[2024-05-27 04:33:42] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-with-ai-agents]: success
+[2024-05-27 04:33:42] INFO root fetch - processPackages [torch-onnx]: Remove: archive file [/home/abi/fetcher/tmp/torch_onnx-0.0.2.tar.gz]
+[2024-05-27 04:33:42] INFO root fetch - processPackages [torch-onnx]: Remove: archive file [/home/abi/fetcher/tmp/torch_onnx-0.0.3.tar.gz]
+[2024-05-27 04:33:42] INFO root fetch - main [MainThread]: End processing [torch-onnx]: success
+[2024-05-27 04:33:42] INFO root fetch - processPackages [nonebot-plugin-bilichat]: executing diffoscope
+[2024-05-27 04:33:42] INFO root fetch - processPackages [nonebot-plugin-bilichat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_bilichat-5.9.2.tar.gz tmp/nonebot_plugin_bilichat-5.9.3.tar.gz --markdown 20240527/n/nonebot-plugin-bilichat/5.9.2-5.9.3/README.md --exclude *.pyd
+[2024-05-27 04:33:43] INFO root fetch - processPackages [nonebot-plugin-bilichat]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_bilichat-5.9.2.tar.gz]
+[2024-05-27 04:33:43] INFO root fetch - processPackages [nonebot-plugin-bilichat]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_bilichat-5.9.3.tar.gz]
+[2024-05-27 04:33:43] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-bilichat]: success
+[2024-05-27 04:33:43] INFO root fetch - main [MainThread]: Store serial: [23389810]
