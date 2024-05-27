@@ -10086,3 +10086,68 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 11:00:54] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.8.9.tar.gz]
 [2024-05-27 11:00:54] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2024-05-27 11:00:54] INFO root fetch - main [MainThread]: Store serial: [23392903]
+[2024-05-27 11:02:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23392903]
+[2024-05-27 11:03:03] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-27 11:03:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: logs-ingestion
+[2024-05-27 11:03:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pearson
+[2024-05-27 11:03:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: allnc
+[2024-05-27 11:03:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dao-scripts
+[2024-05-27 11:03:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: richie
+[2024-05-27 11:03:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nonebot-plugin-sanyao
+[2024-05-27 11:03:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: quixstreams
+[2024-05-27 11:03:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hagworm
+[2024-05-27 11:03:03] INFO root fetch - processPackages [pearson]: New version: [2.7] Old Version: [2.6]
+[2024-05-27 11:03:03] INFO root fetch - processPackages [logs-ingestion]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-05-27 11:03:03] INFO root fetch - processPackages [hagworm]: New version: [5.9.9] Old Version: [5.9.8]
+[2024-05-27 11:03:03] INFO root fetch - processPackages [pearson]: Downloading https://files.pythonhosted.org/packages/a4/87/ca2c5fad68e72022735e57521f401686a18e82f5d36311cf00b72f1d28a8/pearson-2.6.tar.gz
+[2024-05-27 11:03:03] INFO root fetch - processPackages [nonebot-plugin-sanyao]: New version: [0.2.7] Old Version: [0.2.6]
+[2024-05-27 11:03:03] INFO root fetch - processPackages [logs-ingestion]: Downloading https://files.pythonhosted.org/packages/3b/36/97e776b4525bd18c54d6f6718d4caea1897e4c3c909f5ba36b993f27a43f/logs_ingestion-0.2.3.tar.gz
+[2024-05-27 11:03:03] WARNING root fetch - processPackages [allnc]: Skipping, unable to determine old version
+[2024-05-27 11:03:03] INFO root fetch - main [MainThread]: End processing [allnc] error
+[2024-05-27 11:03:03] INFO root fetch - processPackages [quixstreams]: New version: [2.5.1] Old Version: [2.5.0]
+[2024-05-27 11:03:03] INFO root fetch - processPackages [dao-scripts]: New version: [1.3.1] Old Version: [1.3.0.post1]
+[2024-05-27 11:03:03] INFO root fetch - processPackages [richie]: New version: [2.9.1] Old Version: [2.9.0]
+[2024-05-27 11:03:03] INFO root fetch - processPackages [hagworm]: Downloading https://files.pythonhosted.org/packages/e0/1c/5dac91f7c38d49ccecfdc58d536db8299a6047d9ff58930a0d6013757ea4/hagworm-5.9.8.tar.gz
+[2024-05-27 11:03:04] INFO root fetch - processPackages [richie]: Downloading https://files.pythonhosted.org/packages/f6/8c/5aee5780f8e52c197a108b9211b105822048442bb4ea73584ae3a97acc97/richie-2.9.0.tar.gz
+[2024-05-27 11:03:04] INFO root fetch - processPackages [dao-scripts]: Downloading https://files.pythonhosted.org/packages/15/4d/e213de9cd32aeeb7c68d484fcd3676a4dad720d89be6570aff8f74d2395b/dao_scripts-1.3.0.post1.tar.gz
+[2024-05-27 11:03:04] ERROR root fetch - processPackages [logs-ingestion]: Unable to fetch info: No such project/version 'logs-ingestion' 0.2.4
+[2024-05-27 11:03:04] INFO root fetch - main [MainThread]: End processing [logs-ingestion] error
+[2024-05-27 11:03:04] INFO root fetch - processPackages [nonebot-plugin-sanyao]: Downloading https://files.pythonhosted.org/packages/7d/c9/1fa7bfd40bb8941ff7062961d9dbc879102270b20c2de4129e6d885dd1ec/nonebot_plugin_sanyao-0.2.6.tar.gz
+[2024-05-27 11:03:04] INFO root fetch - processPackages [quixstreams]: Downloading https://files.pythonhosted.org/packages/75/4e/37567d112ea84667c4c2d6c49b6895a8e7e54330d4caf21727e0aeea1d15/quixstreams-2.5.0-py3-none-any.whl
+[2024-05-27 11:03:04] INFO root fetch - processPackages [hagworm]: Downloading https://files.pythonhosted.org/packages/2f/0d/16fd32d0754a2e5208aede68d6b772bc36ed5dcefe41035760e37a84fbbc/hagworm-5.9.9.tar.gz
+[2024-05-27 11:03:04] INFO root fetch - processPackages [pearson]: Downloading https://files.pythonhosted.org/packages/06/72/fd90d42870940e8dbccd20f101e5acfc2a2d19e798f794f57defa2e6db1d/pearson-2.7.tar.gz
+[2024-05-27 11:03:04] INFO root fetch - processPackages [hagworm]: executing diffoscope
+[2024-05-27 11:03:04] INFO root fetch - processPackages [hagworm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hagworm-5.9.8.tar.gz tmp/hagworm-5.9.9.tar.gz --markdown 20240527/h/hagworm/5.9.8-5.9.9/README.md --exclude *.pyd
+[2024-05-27 11:03:04] INFO root fetch - processPackages [pearson]: executing diffoscope
+[2024-05-27 11:03:04] INFO root fetch - processPackages [pearson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pearson-2.6.tar.gz tmp/pearson-2.7.tar.gz --markdown 20240527/p/pearson/2.6-2.7/README.md --exclude *.pyd
+[2024-05-27 11:03:04] INFO root fetch - processPackages [dao-scripts]: Downloading https://files.pythonhosted.org/packages/ee/41/3c4a28e900781eefa153cff1964159be26a388c7c1acf6a14edc12323200/dao_scripts-1.3.1.tar.gz
+[2024-05-27 11:03:04] INFO root fetch - processPackages [nonebot-plugin-sanyao]: Downloading https://files.pythonhosted.org/packages/13/fe/cd55c873cf70125b22b0b8d966561f37b54b246decc86bfe2126ecb55893/nonebot_plugin_sanyao-0.2.7.tar.gz
+[2024-05-27 11:03:04] INFO root fetch - processPackages [quixstreams]: Downloading https://files.pythonhosted.org/packages/1f/3f/908282c052e5ec0b62a806035f4634748a9660d91df98d5a1e7b03780c59/quixstreams-2.5.1-py3-none-any.whl
+[2024-05-27 11:03:04] INFO root fetch - processPackages [richie]: Downloading https://files.pythonhosted.org/packages/77/04/f4f517ffe9653a4e423ae24440aaa143bc4ae9722db7a010f2f06a575891/richie-2.9.1.tar.gz
+[2024-05-27 11:03:04] INFO root fetch - processPackages [dao-scripts]: executing diffoscope
+[2024-05-27 11:03:04] INFO root fetch - processPackages [dao-scripts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dao_scripts-1.3.0.post1.tar.gz tmp/dao_scripts-1.3.1.tar.gz --markdown 20240527/d/dao-scripts/1.3.0.post1-1.3.1/README.md --exclude *.pyd
+[2024-05-27 11:03:04] INFO root fetch - processPackages [quixstreams]: executing diffoscope
+[2024-05-27 11:03:04] INFO root fetch - processPackages [quixstreams]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quixstreams-2.5.0-py3-none-any.whl.zip tmp/quixstreams-2.5.1-py3-none-any.whl.zip --markdown 20240527/q/quixstreams/2.5.0-2.5.1/README.md --exclude *.pyd
+[2024-05-27 11:03:04] INFO root fetch - processPackages [nonebot-plugin-sanyao]: executing diffoscope
+[2024-05-27 11:03:04] INFO root fetch - processPackages [nonebot-plugin-sanyao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_sanyao-0.2.6.tar.gz tmp/nonebot_plugin_sanyao-0.2.7.tar.gz --markdown 20240527/n/nonebot-plugin-sanyao/0.2.6-0.2.7/README.md --exclude *.pyd
+[2024-05-27 11:03:04] INFO root fetch - processPackages [richie]: executing diffoscope
+[2024-05-27 11:03:04] INFO root fetch - processPackages [richie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/richie-2.9.0.tar.gz tmp/richie-2.9.1.tar.gz --markdown 20240527/r/richie/2.9.0-2.9.1/README.md --exclude *.pyd
+[2024-05-27 11:03:05] INFO root fetch - processPackages [pearson]: Remove: archive file [/home/abi/fetcher/tmp/pearson-2.6.tar.gz]
+[2024-05-27 11:03:05] INFO root fetch - processPackages [pearson]: Remove: archive file [/home/abi/fetcher/tmp/pearson-2.7.tar.gz]
+[2024-05-27 11:03:05] INFO root fetch - main [MainThread]: End processing [pearson]: success
+[2024-05-27 11:03:05] INFO root fetch - processPackages [hagworm]: Remove: archive file [/home/abi/fetcher/tmp/hagworm-5.9.8.tar.gz]
+[2024-05-27 11:03:05] INFO root fetch - processPackages [hagworm]: Remove: archive file [/home/abi/fetcher/tmp/hagworm-5.9.9.tar.gz]
+[2024-05-27 11:03:05] INFO root fetch - main [MainThread]: End processing [hagworm]: success
+[2024-05-27 11:03:05] INFO root fetch - processPackages [dao-scripts]: Remove: archive file [/home/abi/fetcher/tmp/dao_scripts-1.3.0.post1.tar.gz]
+[2024-05-27 11:03:05] INFO root fetch - processPackages [dao-scripts]: Remove: archive file [/home/abi/fetcher/tmp/dao_scripts-1.3.1.tar.gz]
+[2024-05-27 11:03:05] INFO root fetch - main [MainThread]: End processing [dao-scripts]: success
+[2024-05-27 11:03:05] INFO root fetch - processPackages [nonebot-plugin-sanyao]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_sanyao-0.2.6.tar.gz]
+[2024-05-27 11:03:05] INFO root fetch - processPackages [nonebot-plugin-sanyao]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_sanyao-0.2.7.tar.gz]
+[2024-05-27 11:03:05] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-sanyao]: success
+[2024-05-27 11:03:05] INFO root fetch - processPackages [quixstreams]: Remove: archive file [/home/abi/fetcher/tmp/quixstreams-2.5.0-py3-none-any.whl.zip]
+[2024-05-27 11:03:05] INFO root fetch - processPackages [quixstreams]: Remove: archive file [/home/abi/fetcher/tmp/quixstreams-2.5.1-py3-none-any.whl.zip]
+[2024-05-27 11:03:05] INFO root fetch - main [MainThread]: End processing [quixstreams]: success
+[2024-05-27 11:04:57] INFO root fetch - processPackages [richie]: Remove: archive file [/home/abi/fetcher/tmp/richie-2.9.0.tar.gz]
+[2024-05-27 11:04:57] INFO root fetch - processPackages [richie]: Remove: archive file [/home/abi/fetcher/tmp/richie-2.9.1.tar.gz]
+[2024-05-27 11:04:57] INFO root fetch - main [MainThread]: End processing [richie]: success
+[2024-05-27 11:04:57] INFO root fetch - main [MainThread]: Store serial: [23392929]
