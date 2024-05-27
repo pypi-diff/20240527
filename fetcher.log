@@ -22758,3 +22758,59 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-05-27 19:08:04] INFO root fetch - processPackages [gucken]: Remove: archive file [/home/abi/fetcher/tmp/gucken-0.1.9.tar.gz]
 [2024-05-27 19:08:04] INFO root fetch - main [MainThread]: End processing [gucken]: success
 [2024-05-27 19:08:04] INFO root fetch - main [MainThread]: Store serial: [23398744]
+[2024-05-27 19:10:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23398744]
+[2024-05-27 19:10:12] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-27 19:10:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: turboconf
+[2024-05-27 19:10:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: amiman
+[2024-05-27 19:10:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: finlearn
+[2024-05-27 19:10:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PyDAO-9000
+[2024-05-27 19:10:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mozilla-version
+[2024-05-27 19:10:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: criterion-site-parser
+[2024-05-27 19:10:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: klumpy
+[2024-05-27 19:10:12] INFO root fetch - processPackages [turboconf]: New version: [0.3.1] Old Version: [0.2.1]
+[2024-05-27 19:10:12] INFO root fetch - processPackages [criterion-site-parser]: New version: [1.8] Old Version: [1.7]
+[2024-05-27 19:10:12] INFO root fetch - processPackages [PyDAO-9000]: New version: [1.2.7] Old Version: [1.2.6]
+[2024-05-27 19:10:12] WARNING root fetch - processPackages [amiman]: Skipping, unable to determine old version
+[2024-05-27 19:10:12] INFO root fetch - main [MainThread]: End processing [amiman] error
+[2024-05-27 19:10:12] INFO root fetch - processPackages [turboconf]: Downloading https://files.pythonhosted.org/packages/52/45/ce742fccd96254123aa3bbee54a76e8bfc7f1db5186ea8d0510586b88b64/turboconf-0.2.1.tar.gz
+[2024-05-27 19:10:12] INFO root fetch - processPackages [klumpy]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-05-27 19:10:12] INFO root fetch - processPackages [criterion-site-parser]: Downloading https://files.pythonhosted.org/packages/5f/f5/71d0a56f3c4125c418f44eb22200dc30032c6fa2ee6b226bfc30b998701d/criterion-site-parser-1.7.tar.gz
+[2024-05-27 19:10:12] INFO root fetch - processPackages [mozilla-version]: New version: [3.1.0] Old Version: [3.0.0]
+[2024-05-27 19:10:12] INFO root fetch - processPackages [PyDAO-9000]: Downloading https://files.pythonhosted.org/packages/4c/37/b19c747f38d2f9379425ebce5419b97db4a098cffd18d0048f6e010e7ed2/pydao_9000-1.2.6.tar.gz
+[2024-05-27 19:10:12] INFO root fetch - processPackages [finlearn]: New version: [0.0.45] Old Version: [0.0.44]
+[2024-05-27 19:10:13] INFO root fetch - processPackages [mozilla-version]: Downloading https://files.pythonhosted.org/packages/21/e0/b10b5a6960c9a314cb857899daeda9c8b172f8040d8258c4389ea906559c/mozilla_version-3.0.0.tar.gz
+[2024-05-27 19:10:13] INFO root fetch - processPackages [finlearn]: Downloading https://files.pythonhosted.org/packages/7d/ab/ee4a56324f2d7eae399d88205d80f90b1c119b425eeb6d1d737c09f2874a/finlearn-0.0.44.tar.gz
+[2024-05-27 19:10:13] INFO root fetch - processPackages [klumpy]: Downloading https://files.pythonhosted.org/packages/47/c6/ad145b9c12ee4cb726844d66ffa6e5e5d36c703be635eaea3584f0f0c76d/klumpy-1.0.5.tar.gz
+[2024-05-27 19:10:13] INFO root fetch - processPackages [criterion-site-parser]: Downloading https://files.pythonhosted.org/packages/2f/58/ba23219fa4284fee8de379020f86f47169125532d31120f44536f4c3e640/criterion_site_parser-1.8.tar.gz
+[2024-05-27 19:10:13] INFO root fetch - processPackages [turboconf]: Downloading https://files.pythonhosted.org/packages/10/72/83af7f01876142429107b8b8f74f04f72c3e82a3ecab2921a29ef08f15b5/turboconf-0.3.1.tar.gz
+[2024-05-27 19:10:13] ERROR root fetch - processPackages [PyDAO-9000]: Unable to fetch info: No such project/version 'PyDAO-9000' 1.2.7
+[2024-05-27 19:10:13] INFO root fetch - main [MainThread]: End processing [PyDAO-9000] error
+[2024-05-27 19:10:13] INFO root fetch - processPackages [criterion-site-parser]: executing diffoscope
+[2024-05-27 19:10:13] INFO root fetch - processPackages [criterion-site-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/criterion-site-parser-1.7.tar.gz tmp/criterion_site_parser-1.8.tar.gz --markdown 20240527/c/criterion-site-parser/1.7-1.8/README.md --exclude *.pyd
+[2024-05-27 19:10:13] INFO root fetch - processPackages [turboconf]: executing diffoscope
+[2024-05-27 19:10:13] INFO root fetch - processPackages [turboconf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/turboconf-0.2.1.tar.gz tmp/turboconf-0.3.1.tar.gz --markdown 20240527/t/turboconf/0.2.1-0.3.1/README.md --exclude *.pyd
+[2024-05-27 19:10:13] INFO root fetch - processPackages [finlearn]: Downloading https://files.pythonhosted.org/packages/c7/22/675ed34b5e7a6deb136a17e0e872b34881c1aedc5154bec3f1f71205c17f/finlearn-0.0.45.tar.gz
+[2024-05-27 19:10:13] INFO root fetch - processPackages [klumpy]: Downloading https://files.pythonhosted.org/packages/2c/14/9ab7bc12fc23ee19c743158fd0005244bea45e772d324fba5a676aade95e/klumpy-1.0.6.tar.gz
+[2024-05-27 19:10:13] INFO root fetch - processPackages [mozilla-version]: Downloading https://files.pythonhosted.org/packages/3b/59/02c98815c8ba8d49c571344c2012594d9ad255175387f517c24e06840388/mozilla-version-3.1.0.tar.gz
+[2024-05-27 19:10:13] INFO root fetch - processPackages [mozilla-version]: executing diffoscope
+[2024-05-27 19:10:13] INFO root fetch - processPackages [mozilla-version]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mozilla_version-3.0.0.tar.gz tmp/mozilla-version-3.1.0.tar.gz --markdown 20240527/m/mozilla-version/3.0.0-3.1.0/README.md --exclude *.pyd
+[2024-05-27 19:10:13] INFO root fetch - processPackages [finlearn]: executing diffoscope
+[2024-05-27 19:10:13] INFO root fetch - processPackages [finlearn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finlearn-0.0.44.tar.gz tmp/finlearn-0.0.45.tar.gz --markdown 20240527/f/finlearn/0.0.44-0.0.45/README.md --exclude *.pyd
+[2024-05-27 19:10:13] INFO root fetch - processPackages [turboconf]: Remove: archive file [/home/abi/fetcher/tmp/turboconf-0.2.1.tar.gz]
+[2024-05-27 19:10:13] INFO root fetch - processPackages [turboconf]: Remove: archive file [/home/abi/fetcher/tmp/turboconf-0.3.1.tar.gz]
+[2024-05-27 19:10:13] INFO root fetch - main [MainThread]: End processing [turboconf]: success
+[2024-05-27 19:10:13] INFO root fetch - processPackages [klumpy]: executing diffoscope
+[2024-05-27 19:10:13] INFO root fetch - processPackages [klumpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/klumpy-1.0.5.tar.gz tmp/klumpy-1.0.6.tar.gz --markdown 20240527/k/klumpy/1.0.5-1.0.6/README.md --exclude *.pyd
+[2024-05-27 19:10:13] INFO root fetch - processPackages [criterion-site-parser]: Remove: archive file [/home/abi/fetcher/tmp/criterion-site-parser-1.7.tar.gz]
+[2024-05-27 19:10:13] INFO root fetch - processPackages [criterion-site-parser]: Remove: archive file [/home/abi/fetcher/tmp/criterion_site_parser-1.8.tar.gz]
+[2024-05-27 19:10:13] INFO root fetch - main [MainThread]: End processing [criterion-site-parser]: success
+[2024-05-27 19:10:14] INFO root fetch - processPackages [finlearn]: Remove: archive file [/home/abi/fetcher/tmp/finlearn-0.0.44.tar.gz]
+[2024-05-27 19:10:14] INFO root fetch - processPackages [finlearn]: Remove: archive file [/home/abi/fetcher/tmp/finlearn-0.0.45.tar.gz]
+[2024-05-27 19:10:14] INFO root fetch - main [MainThread]: End processing [finlearn]: success
+[2024-05-27 19:10:14] INFO root fetch - processPackages [mozilla-version]: Remove: archive file [/home/abi/fetcher/tmp/mozilla_version-3.0.0.tar.gz]
+[2024-05-27 19:10:14] INFO root fetch - processPackages [mozilla-version]: Remove: archive file [/home/abi/fetcher/tmp/mozilla-version-3.1.0.tar.gz]
+[2024-05-27 19:10:14] INFO root fetch - main [MainThread]: End processing [mozilla-version]: success
+[2024-05-27 19:10:14] INFO root fetch - processPackages [klumpy]: Remove: archive file [/home/abi/fetcher/tmp/klumpy-1.0.5.tar.gz]
+[2024-05-27 19:10:14] INFO root fetch - processPackages [klumpy]: Remove: archive file [/home/abi/fetcher/tmp/klumpy-1.0.6.tar.gz]
+[2024-05-27 19:10:14] INFO root fetch - main [MainThread]: End processing [klumpy]: success
+[2024-05-27 19:10:14] INFO root fetch - main [MainThread]: Store serial: [23398768]
