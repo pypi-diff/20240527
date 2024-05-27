@@ -4831,3 +4831,21 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 05:44:19] WARNING root fetch - processPackages [telegram-gmail-bot]: Skipping, unable to determine old version
 [2024-05-27 05:44:19] INFO root fetch - main [MainThread]: End processing [telegram-gmail-bot] error
 [2024-05-27 05:44:19] INFO root fetch - main [MainThread]: Store serial: [23390327]
+[2024-05-27 05:46:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23390327]
+[2024-05-27 05:46:27] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-27 05:46:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: timetrace
+[2024-05-27 05:46:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: libdaw
+[2024-05-27 05:46:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ip-searcher
+[2024-05-27 05:46:27] WARNING root fetch - processPackages [ip-searcher]: Skipping, unable to determine old version
+[2024-05-27 05:46:27] WARNING root fetch - processPackages [timetrace]: Skipping, unable to determine old version
+[2024-05-27 05:46:27] INFO root fetch - main [MainThread]: End processing [ip-searcher] error
+[2024-05-27 05:46:27] INFO root fetch - main [MainThread]: End processing [timetrace] error
+[2024-05-27 05:46:27] INFO root fetch - processPackages [libdaw]: New version: [0.7.0] Old Version: [0.6.0]
+[2024-05-27 05:46:28] INFO root fetch - processPackages [libdaw]: Downloading https://files.pythonhosted.org/packages/a8/3a/fed6bf0e8083f720028721f526ebffcb8b35a7e6d5576d28fbcf9afa1656/libdaw-0.6.0.tar.gz
+[2024-05-27 05:46:28] INFO root fetch - processPackages [libdaw]: Downloading https://files.pythonhosted.org/packages/14/c2/023c0dfe3b6da6f707728a82531a9c264a80bd6a23612ced81e988a426b5/libdaw-0.7.0.tar.gz
+[2024-05-27 05:46:28] INFO root fetch - processPackages [libdaw]: executing diffoscope
+[2024-05-27 05:46:28] INFO root fetch - processPackages [libdaw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libdaw-0.6.0.tar.gz tmp/libdaw-0.7.0.tar.gz --markdown 20240527/l/libdaw/0.6.0-0.7.0/README.md --exclude *.pyd
+[2024-05-27 05:46:29] INFO root fetch - processPackages [libdaw]: Remove: archive file [/home/abi/fetcher/tmp/libdaw-0.6.0.tar.gz]
+[2024-05-27 05:46:29] INFO root fetch - processPackages [libdaw]: Remove: archive file [/home/abi/fetcher/tmp/libdaw-0.7.0.tar.gz]
+[2024-05-27 05:46:29] INFO root fetch - main [MainThread]: End processing [libdaw]: success
+[2024-05-27 05:46:29] INFO root fetch - main [MainThread]: Store serial: [23390367]
