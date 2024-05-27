@@ -2541,3 +2541,33 @@
 [2024-05-27 03:14:17] INFO root fetch - processPackages [baml-py]: Remove: archive file [/home/abi/fetcher/tmp/baml_py-0.1.9-cp38-abi3-win_amd64.whl.zip]
 [2024-05-27 03:14:17] INFO root fetch - main [MainThread]: End processing [baml-py]: success
 [2024-05-27 03:14:17] INFO root fetch - main [MainThread]: Store serial: [23389330]
+[2024-05-27 03:16:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23389330]
+[2024-05-27 03:16:27] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-27 03:16:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: firecrawl-py
+[2024-05-27 03:16:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lambkid
+[2024-05-27 03:16:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: yoto-api
+[2024-05-27 03:16:27] INFO root fetch - processPackages [firecrawl-py]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-27 03:16:27] INFO root fetch - processPackages [yoto-api]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-27 03:16:27] INFO root fetch - processPackages [firecrawl-py]: Downloading https://files.pythonhosted.org/packages/dd/4a/1b2a1f27bd6897bcf92e8afd6be799dfd218e3f13ef4f1d6c4a849631eb5/firecrawl-py-0.0.8.tar.gz
+[2024-05-27 03:16:27] INFO root fetch - processPackages [lambkid]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-27 03:16:27] INFO root fetch - processPackages [yoto-api]: Downloading https://files.pythonhosted.org/packages/0c/ce/e8631b9319eccf4ffbaef962e56044d41f29cb3f8c07be1556f741f2569a/yoto_api-1.8.0.tar.gz
+[2024-05-27 03:16:27] INFO root fetch - processPackages [lambkid]: Downloading https://files.pythonhosted.org/packages/6f/46/7597727f6429e38c8af1a2adb26e36441c90aa10f212c74b1c22359d2ead/lambkid-0.2.8.tar.gz
+[2024-05-27 03:16:27] INFO root fetch - processPackages [firecrawl-py]: Downloading https://files.pythonhosted.org/packages/5b/2d/bd36be3347bfa5266084742223768c89101550246ea4d87b7e0354dda17b/firecrawl-py-0.0.9.tar.gz
+[2024-05-27 03:16:27] INFO root fetch - processPackages [yoto-api]: Downloading https://files.pythonhosted.org/packages/28/bc/e9d37198654bf82ae9be692dd9ee95b753eb8ca5b6edf44ab69ecca38f17/yoto_api-1.9.0.tar.gz
+[2024-05-27 03:16:27] INFO root fetch - processPackages [firecrawl-py]: executing diffoscope
+[2024-05-27 03:16:27] INFO root fetch - processPackages [firecrawl-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/firecrawl-py-0.0.8.tar.gz tmp/firecrawl-py-0.0.9.tar.gz --markdown 20240527/f/firecrawl-py/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-27 03:16:27] INFO root fetch - processPackages [yoto-api]: executing diffoscope
+[2024-05-27 03:16:27] INFO root fetch - processPackages [yoto-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yoto_api-1.8.0.tar.gz tmp/yoto_api-1.9.0.tar.gz --markdown 20240527/y/yoto-api/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-05-27 03:16:27] INFO root fetch - processPackages [lambkid]: Downloading https://files.pythonhosted.org/packages/d6/7b/b5898eaa5a37ce04bb4592b4f2b399e69a8d2b2671e39cff54e16f5b05c8/lambkid-0.2.9.tar.gz
+[2024-05-27 03:16:28] INFO root fetch - processPackages [lambkid]: executing diffoscope
+[2024-05-27 03:16:28] INFO root fetch - processPackages [lambkid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lambkid-0.2.8.tar.gz tmp/lambkid-0.2.9.tar.gz --markdown 20240527/l/lambkid/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-27 03:16:28] INFO root fetch - processPackages [firecrawl-py]: Remove: archive file [/home/abi/fetcher/tmp/firecrawl-py-0.0.8.tar.gz]
+[2024-05-27 03:16:28] INFO root fetch - processPackages [firecrawl-py]: Remove: archive file [/home/abi/fetcher/tmp/firecrawl-py-0.0.9.tar.gz]
+[2024-05-27 03:16:28] INFO root fetch - main [MainThread]: End processing [firecrawl-py]: success
+[2024-05-27 03:16:28] INFO root fetch - processPackages [yoto-api]: Remove: archive file [/home/abi/fetcher/tmp/yoto_api-1.8.0.tar.gz]
+[2024-05-27 03:16:28] INFO root fetch - processPackages [yoto-api]: Remove: archive file [/home/abi/fetcher/tmp/yoto_api-1.9.0.tar.gz]
+[2024-05-27 03:16:28] INFO root fetch - main [MainThread]: End processing [yoto-api]: success
+[2024-05-27 03:16:28] INFO root fetch - processPackages [lambkid]: Remove: archive file [/home/abi/fetcher/tmp/lambkid-0.2.8.tar.gz]
+[2024-05-27 03:16:28] INFO root fetch - processPackages [lambkid]: Remove: archive file [/home/abi/fetcher/tmp/lambkid-0.2.9.tar.gz]
+[2024-05-27 03:16:28] INFO root fetch - main [MainThread]: End processing [lambkid]: success
+[2024-05-27 03:16:28] INFO root fetch - main [MainThread]: Store serial: [23389343]
