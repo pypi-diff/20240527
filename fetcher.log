@@ -17243,3 +17243,63 @@ EOFError: EOF read where object expected
 [2024-05-27 15:39:29] INFO root fetch - processPackages [glide-for-redis]: Remove: archive file [/home/abi/fetcher/tmp/glide_for_redis-0.4.0rc4-cp39-cp39-manylinux_2_28_aarch64.whl.zip]
 [2024-05-27 15:39:29] INFO root fetch - main [MainThread]: End processing [glide-for-redis]: success
 [2024-05-27 15:39:29] INFO root fetch - main [MainThread]: Store serial: [23396355]
+[2024-05-27 15:41:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23396355]
+[2024-05-27 15:41:42] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-27 15:41:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: py-seal
+[2024-05-27 15:41:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: alibabacloud-oceanbasepro20190901
+[2024-05-27 15:41:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ood_detectors
+[2024-05-27 15:41:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: MobileInventoryCLI
+[2024-05-27 15:41:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: yeref
+[2024-05-27 15:41:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ble-serial
+[2024-05-27 15:41:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: python-http_request
+[2024-05-27 15:41:42] INFO root fetch - processPackages [ood_detectors]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-27 15:41:42] INFO root fetch - processPackages [alibabacloud-oceanbasepro20190901]: New version: [4.1.0] Old Version: [4.0.0]
+[2024-05-27 15:41:42] INFO root fetch - processPackages [python-http_request]: New version: [0.0.5] Old Version: [0.0.4.1]
+[2024-05-27 15:41:42] INFO root fetch - processPackages [ble-serial]: New version: [2.7.2] Old Version: [2.7.1]
+[2024-05-27 15:41:42] INFO root fetch - processPackages [yeref]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-27 15:41:42] INFO root fetch - processPackages [ood_detectors]: Downloading https://files.pythonhosted.org/packages/2c/c1/0e33f36a315cc0d60a299e5970cb3dbd7fe0ffebd495cef6770f937ba24f/ood_detectors-0.0.8.tar.gz
+[2024-05-27 15:41:42] WARNING root fetch - processPackages [py-seal]: Skipping, unable to determine old version
+[2024-05-27 15:41:42] INFO root fetch - main [MainThread]: End processing [py-seal] error
+[2024-05-27 15:41:43] INFO root fetch - processPackages [alibabacloud-oceanbasepro20190901]: Downloading https://files.pythonhosted.org/packages/1d/06/37bbf2b32b197dfa709cb13091e6fa05b8826c8dba881956973b884fc57f/alibabacloud_oceanbasepro20190901-4.0.0.tar.gz
+[2024-05-27 15:41:43] INFO root fetch - processPackages [MobileInventoryCLI]: New version: [0.4.99] Old Version: [0.4.98]
+[2024-05-27 15:41:43] INFO root fetch - processPackages [python-http_request]: Downloading https://files.pythonhosted.org/packages/90/c9/a96e5d2e6ae1fabfb8d483ea1dc67a64de18e93a2557686e9393bee3df61/python_http_request-0.0.4.1.tar.gz
+[2024-05-27 15:41:43] INFO root fetch - processPackages [ble-serial]: Downloading https://files.pythonhosted.org/packages/4a/82/b2fed01dd95f4d1bdde309be1691bb1bcb21239bfe3733f14817a079989b/ble-serial-2.7.1.tar.gz
+[2024-05-27 15:41:43] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/ec/cb/204e6fbe233bbb61cf29c1b491e8c638c8a843edc47fb4e1d8cc8c26608c/yeref-0.9.8.tar.gz
+[2024-05-27 15:41:43] INFO root fetch - processPackages [alibabacloud-oceanbasepro20190901]: Downloading https://files.pythonhosted.org/packages/d3/c5/ec9719a4fcf68cde1c5a8698b91d6c199f7b31d1e329824670eb968cb332/alibabacloud_oceanbasepro20190901-4.1.0.tar.gz
+[2024-05-27 15:41:43] INFO root fetch - processPackages [MobileInventoryCLI]: Downloading https://files.pythonhosted.org/packages/34/2d/1e50d7f512e3d39590afb4a6c37340af98e5c4eadc77d9de653aab0cb49f/MobileInventoryCLI-0.4.98.tar.gz
+[2024-05-27 15:41:43] INFO root fetch - processPackages [python-http_request]: Downloading https://files.pythonhosted.org/packages/6f/d0/18d18bf685f04e43a9f86bd198019bf97bd06af51307052655012b3923cb/python_http_request-0.0.5.tar.gz
+[2024-05-27 15:41:43] INFO root fetch - processPackages [ble-serial]: Downloading https://files.pythonhosted.org/packages/2c/e0/b907bce8620ee0a261cc5aae614b703ec8ec640ce58b16417b8c7e85a271/ble_serial-2.7.2.tar.gz
+[2024-05-27 15:41:43] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/01/13/0f11bb3dfb27aaf16ed48b0046f50ac65b1fde32662fbc314d53e2558b2d/yeref-0.9.9.tar.gz
+[2024-05-27 15:41:43] INFO root fetch - processPackages [ood_detectors]: Downloading https://files.pythonhosted.org/packages/3f/d6/a55f4bc549efaaabe3d000911be652e72d55a5a47cabc317d531a8ec8ada/ood_detectors-0.0.9.tar.gz
+[2024-05-27 15:41:43] INFO root fetch - processPackages [python-http_request]: executing diffoscope
+[2024-05-27 15:41:43] INFO root fetch - processPackages [python-http_request]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_http_request-0.0.4.1.tar.gz tmp/python_http_request-0.0.5.tar.gz --markdown 20240527/p/python-http_request/0.0.4.1-0.0.5/README.md --exclude *.pyd
+[2024-05-27 15:41:43] INFO root fetch - processPackages [alibabacloud-oceanbasepro20190901]: executing diffoscope
+[2024-05-27 15:41:43] INFO root fetch - processPackages [alibabacloud-oceanbasepro20190901]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_oceanbasepro20190901-4.0.0.tar.gz tmp/alibabacloud_oceanbasepro20190901-4.1.0.tar.gz --markdown 20240527/a/alibabacloud-oceanbasepro20190901/4.0.0-4.1.0/README.md --exclude *.pyd
+[2024-05-27 15:41:43] INFO root fetch - processPackages [ble-serial]: executing diffoscope
+[2024-05-27 15:41:43] INFO root fetch - processPackages [ble-serial]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ble-serial-2.7.1.tar.gz tmp/ble_serial-2.7.2.tar.gz --markdown 20240527/b/ble-serial/2.7.1-2.7.2/README.md --exclude *.pyd
+[2024-05-27 15:41:43] INFO root fetch - processPackages [ood_detectors]: executing diffoscope
+[2024-05-27 15:41:43] INFO root fetch - processPackages [ood_detectors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ood_detectors-0.0.8.tar.gz tmp/ood_detectors-0.0.9.tar.gz --markdown 20240527/o/ood_detectors/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-27 15:41:43] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2024-05-27 15:41:43] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.9.8.tar.gz tmp/yeref-0.9.9.tar.gz --markdown 20240527/y/yeref/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-27 15:41:43] INFO root fetch - processPackages [MobileInventoryCLI]: Downloading https://files.pythonhosted.org/packages/44/8c/14cdf7fc3f0b69cae35ba7ee2852fb70e3cab687142869ee3deb104ffc71/MobileInventoryCLI-0.4.99.tar.gz
+[2024-05-27 15:41:43] INFO root fetch - processPackages [MobileInventoryCLI]: executing diffoscope
+[2024-05-27 15:41:43] INFO root fetch - processPackages [MobileInventoryCLI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MobileInventoryCLI-0.4.98.tar.gz tmp/MobileInventoryCLI-0.4.99.tar.gz --markdown 20240527/M/MobileInventoryCLI/0.4.98-0.4.99/README.md --exclude *.pyd
+[2024-05-27 15:41:44] INFO root fetch - processPackages [python-http_request]: Remove: archive file [/home/abi/fetcher/tmp/python_http_request-0.0.4.1.tar.gz]
+[2024-05-27 15:41:44] INFO root fetch - processPackages [python-http_request]: Remove: archive file [/home/abi/fetcher/tmp/python_http_request-0.0.5.tar.gz]
+[2024-05-27 15:41:44] INFO root fetch - main [MainThread]: End processing [python-http_request]: success
+[2024-05-27 15:41:44] INFO root fetch - processPackages [ood_detectors]: Remove: archive file [/home/abi/fetcher/tmp/ood_detectors-0.0.8.tar.gz]
+[2024-05-27 15:41:44] INFO root fetch - processPackages [ood_detectors]: Remove: archive file [/home/abi/fetcher/tmp/ood_detectors-0.0.9.tar.gz]
+[2024-05-27 15:41:44] INFO root fetch - main [MainThread]: End processing [ood_detectors]: success
+[2024-05-27 15:41:44] INFO root fetch - processPackages [ble-serial]: Remove: archive file [/home/abi/fetcher/tmp/ble-serial-2.7.1.tar.gz]
+[2024-05-27 15:41:44] INFO root fetch - processPackages [ble-serial]: Remove: archive file [/home/abi/fetcher/tmp/ble_serial-2.7.2.tar.gz]
+[2024-05-27 15:41:44] INFO root fetch - main [MainThread]: End processing [ble-serial]: success
+[2024-05-27 15:41:44] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.8.tar.gz]
+[2024-05-27 15:41:44] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.9.tar.gz]
+[2024-05-27 15:41:44] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2024-05-27 15:41:44] INFO root fetch - processPackages [MobileInventoryCLI]: Remove: archive file [/home/abi/fetcher/tmp/MobileInventoryCLI-0.4.98.tar.gz]
+[2024-05-27 15:41:44] INFO root fetch - processPackages [MobileInventoryCLI]: Remove: archive file [/home/abi/fetcher/tmp/MobileInventoryCLI-0.4.99.tar.gz]
+[2024-05-27 15:41:44] INFO root fetch - main [MainThread]: End processing [MobileInventoryCLI]: success
+[2024-05-27 15:41:45] INFO root fetch - processPackages [alibabacloud-oceanbasepro20190901]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_oceanbasepro20190901-4.0.0.tar.gz]
+[2024-05-27 15:41:45] INFO root fetch - processPackages [alibabacloud-oceanbasepro20190901]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_oceanbasepro20190901-4.1.0.tar.gz]
+[2024-05-27 15:41:45] INFO root fetch - main [MainThread]: End processing [alibabacloud-oceanbasepro20190901]: success
+[2024-05-27 15:41:45] INFO root fetch - main [MainThread]: Store serial: [23396375]
