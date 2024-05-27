@@ -20471,3 +20471,60 @@ EOFError: EOF read where object expected
 [2024-05-27 17:33:12] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.9.tar.gz]
 [2024-05-27 17:33:12] INFO root fetch - main [MainThread]: End processing [yeref]: success
 [2024-05-27 17:33:12] INFO root fetch - main [MainThread]: Store serial: [23397725]
+[2024-05-27 17:35:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23397725]
+[2024-05-27 17:35:20] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-27 17:35:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: postfinancex
+[2024-05-27 17:35:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pbx-cloud-utils
+[2024-05-27 17:35:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bddsync
+[2024-05-27 17:35:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyheos
+[2024-05-27 17:35:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pypomes-core
+[2024-05-27 17:35:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: criterion-site-parser
+[2024-05-27 17:35:21] INFO root fetch - processPackages [postfinancex]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-27 17:35:21] INFO root fetch - processPackages [pbx-cloud-utils]: New version: [1.4.0a3] Old Version: [1.4.0a2]
+[2024-05-27 17:35:21] INFO root fetch - processPackages [bddsync]: New version: [1.2.1] Old Version: [1.2.0]
+[2024-05-27 17:35:21] INFO root fetch - processPackages [postfinancex]: Downloading https://files.pythonhosted.org/packages/67/11/e05fef7ce9cabe3efdab8c123f3496f6d3fb8b1ef3664b57c4817d1e6d34/postfinancex-0.0.6.tar.gz
+[2024-05-27 17:35:21] INFO root fetch - processPackages [pbx-cloud-utils]: Downloading https://files.pythonhosted.org/packages/08/2d/3fa7e75e8548c64f01916cfbfb1ce5dc1e05916febc677bc562e92148cd9/pbx_cloud_utils-1.4.0a2-py3-none-any.whl
+[2024-05-27 17:35:21] INFO root fetch - processPackages [bddsync]: Downloading https://files.pythonhosted.org/packages/ff/3b/501c299593e79445bad2630583246509f8c31b0fc2a5becd9c93465ca694/bddsync-1.2.0.tar.gz
+[2024-05-27 17:35:21] INFO root fetch - processPackages [pypomes-core]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-27 17:35:21] INFO root fetch - processPackages [criterion-site-parser]: New version: [1.8] Old Version: [1.7]
+[2024-05-27 17:35:21] INFO root fetch - processPackages [pyheos]: New version: [0.7.4] Old Version: [0.7.3]
+[2024-05-27 17:35:21] INFO root fetch - processPackages [pyheos]: Downloading https://files.pythonhosted.org/packages/4f/70/c7f79643068889ab038db31ede3b681aea8ac7a244787f443bb56d9c6842/pyheos-0.7.3.tar.gz
+[2024-05-27 17:35:21] INFO root fetch - processPackages [pypomes-core]: Downloading https://files.pythonhosted.org/packages/0b/45/236c965fe5a3d3d7bc396c1080139b17052416506c7e4bec71cef09ca702/pypomes_core-1.0.8.tar.gz
+[2024-05-27 17:35:21] INFO root fetch - processPackages [criterion-site-parser]: Downloading https://files.pythonhosted.org/packages/5f/f5/71d0a56f3c4125c418f44eb22200dc30032c6fa2ee6b226bfc30b998701d/criterion-site-parser-1.7.tar.gz
+[2024-05-27 17:35:21] INFO root fetch - processPackages [pbx-cloud-utils]: Downloading https://files.pythonhosted.org/packages/5f/d5/ecc51bb812db8b8d8265d799fdf9a035ff497366c5b8c03e7c31fedfa000/pbx_cloud_utils-1.4.0a3-py3-none-any.whl
+[2024-05-27 17:35:21] INFO root fetch - processPackages [bddsync]: Downloading https://files.pythonhosted.org/packages/3f/62/b37bb05df99e22b0973b811c0dd8cd2d36160ae121bda83aef72807e2687/bddsync-1.2.1.tar.gz
+[2024-05-27 17:35:21] INFO root fetch - processPackages [postfinancex]: Downloading https://files.pythonhosted.org/packages/44/bf/c97e336c782aa94cba0b9e76a0752dded784f2b3a6b0f2f605aa175a0c7c/postfinancex-0.0.7.tar.gz
+[2024-05-27 17:35:21] INFO root fetch - processPackages [pbx-cloud-utils]: executing diffoscope
+[2024-05-27 17:35:21] INFO root fetch - processPackages [pbx-cloud-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pbx_cloud_utils-1.4.0a2-py3-none-any.whl.zip tmp/pbx_cloud_utils-1.4.0a3-py3-none-any.whl.zip --markdown 20240527/p/pbx-cloud-utils/1.4.0a2-1.4.0a3/README.md --exclude *.pyd
+[2024-05-27 17:35:21] INFO root fetch - processPackages [postfinancex]: executing diffoscope
+[2024-05-27 17:35:21] INFO root fetch - processPackages [postfinancex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/postfinancex-0.0.6.tar.gz tmp/postfinancex-0.0.7.tar.gz --markdown 20240527/p/postfinancex/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-27 17:35:21] INFO root fetch - processPackages [bddsync]: executing diffoscope
+[2024-05-27 17:35:21] INFO root fetch - processPackages [bddsync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bddsync-1.2.0.tar.gz tmp/bddsync-1.2.1.tar.gz --markdown 20240527/b/bddsync/1.2.0-1.2.1/README.md --exclude *.pyd
+[2024-05-27 17:35:21] INFO root fetch - processPackages [pyheos]: Downloading https://files.pythonhosted.org/packages/4e/32/dda4803445c694dc8f6e23f0a923efaed2f96fa22e0d6338776a4257b889/pyheos-0.7.4.tar.gz
+[2024-05-27 17:35:21] INFO root fetch - processPackages [criterion-site-parser]: Downloading https://files.pythonhosted.org/packages/2f/58/ba23219fa4284fee8de379020f86f47169125532d31120f44536f4c3e640/criterion_site_parser-1.8.tar.gz
+[2024-05-27 17:35:21] INFO root fetch - processPackages [pypomes-core]: Downloading https://files.pythonhosted.org/packages/42/1e/2997407a700e646313aa128204cd1413359af156fd355923c906dc4e5eb0/pypomes_core-1.0.9.tar.gz
+[2024-05-27 17:35:21] INFO root fetch - processPackages [criterion-site-parser]: executing diffoscope
+[2024-05-27 17:35:21] INFO root fetch - processPackages [criterion-site-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/criterion-site-parser-1.7.tar.gz tmp/criterion_site_parser-1.8.tar.gz --markdown 20240527/c/criterion-site-parser/1.7-1.8/README.md --exclude *.pyd
+[2024-05-27 17:35:21] INFO root fetch - processPackages [pyheos]: executing diffoscope
+[2024-05-27 17:35:21] INFO root fetch - processPackages [pyheos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyheos-0.7.3.tar.gz tmp/pyheos-0.7.4.tar.gz --markdown 20240527/p/pyheos/0.7.3-0.7.4/README.md --exclude *.pyd
+[2024-05-27 17:35:22] INFO root fetch - processPackages [pypomes-core]: executing diffoscope
+[2024-05-27 17:35:22] INFO root fetch - processPackages [pypomes-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypomes_core-1.0.8.tar.gz tmp/pypomes_core-1.0.9.tar.gz --markdown 20240527/p/pypomes-core/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-27 17:35:22] INFO root fetch - processPackages [pbx-cloud-utils]: Remove: archive file [/home/abi/fetcher/tmp/pbx_cloud_utils-1.4.0a2-py3-none-any.whl.zip]
+[2024-05-27 17:35:22] INFO root fetch - processPackages [pbx-cloud-utils]: Remove: archive file [/home/abi/fetcher/tmp/pbx_cloud_utils-1.4.0a3-py3-none-any.whl.zip]
+[2024-05-27 17:35:22] INFO root fetch - main [MainThread]: End processing [pbx-cloud-utils]: success
+[2024-05-27 17:35:22] INFO root fetch - processPackages [postfinancex]: Remove: archive file [/home/abi/fetcher/tmp/postfinancex-0.0.6.tar.gz]
+[2024-05-27 17:35:22] INFO root fetch - processPackages [postfinancex]: Remove: archive file [/home/abi/fetcher/tmp/postfinancex-0.0.7.tar.gz]
+[2024-05-27 17:35:22] INFO root fetch - main [MainThread]: End processing [postfinancex]: success
+[2024-05-27 17:35:22] INFO root fetch - processPackages [bddsync]: Remove: archive file [/home/abi/fetcher/tmp/bddsync-1.2.0.tar.gz]
+[2024-05-27 17:35:22] INFO root fetch - processPackages [bddsync]: Remove: archive file [/home/abi/fetcher/tmp/bddsync-1.2.1.tar.gz]
+[2024-05-27 17:35:22] INFO root fetch - main [MainThread]: End processing [bddsync]: success
+[2024-05-27 17:35:22] INFO root fetch - processPackages [criterion-site-parser]: Remove: archive file [/home/abi/fetcher/tmp/criterion-site-parser-1.7.tar.gz]
+[2024-05-27 17:35:22] INFO root fetch - processPackages [criterion-site-parser]: Remove: archive file [/home/abi/fetcher/tmp/criterion_site_parser-1.8.tar.gz]
+[2024-05-27 17:35:22] INFO root fetch - main [MainThread]: End processing [criterion-site-parser]: success
+[2024-05-27 17:35:22] INFO root fetch - processPackages [pyheos]: Remove: archive file [/home/abi/fetcher/tmp/pyheos-0.7.3.tar.gz]
+[2024-05-27 17:35:22] INFO root fetch - processPackages [pyheos]: Remove: archive file [/home/abi/fetcher/tmp/pyheos-0.7.4.tar.gz]
+[2024-05-27 17:35:22] INFO root fetch - main [MainThread]: End processing [pyheos]: success
+[2024-05-27 17:35:22] INFO root fetch - processPackages [pypomes-core]: Remove: archive file [/home/abi/fetcher/tmp/pypomes_core-1.0.8.tar.gz]
+[2024-05-27 17:35:22] INFO root fetch - processPackages [pypomes-core]: Remove: archive file [/home/abi/fetcher/tmp/pypomes_core-1.0.9.tar.gz]
+[2024-05-27 17:35:22] INFO root fetch - main [MainThread]: End processing [pypomes-core]: success
+[2024-05-27 17:35:22] INFO root fetch - main [MainThread]: Store serial: [23397741]
