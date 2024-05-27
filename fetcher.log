@@ -14621,3 +14621,45 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 13:59:17] INFO root fetch - processPackages [nnetsauce]: Remove: archive file [/home/abi/fetcher/tmp/nnetsauce-0.9.6-cp38-cp38-macosx_10_15_x86_64.whl.zip]
 [2024-05-27 13:59:17] INFO root fetch - main [MainThread]: End processing [nnetsauce]: success
 [2024-05-27 13:59:17] INFO root fetch - main [MainThread]: Store serial: [23395140]
+[2024-05-27 14:01:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23395140]
+[2024-05-27 14:01:26] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-27 14:01:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyexmars
+[2024-05-27 14:01:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: matcha-tts
+[2024-05-27 14:01:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: clargs
+[2024-05-27 14:01:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: chaos-stratus
+[2024-05-27 14:01:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: CreaTeBME
+[2024-05-27 14:01:26] INFO root fetch - processPackages [pyexmars]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-27 14:01:26] INFO root fetch - processPackages [matcha-tts]: New version: [0.0.6.0] Old Version: [0.0.5.1]
+[2024-05-27 14:01:26] WARNING root fetch - processPackages [chaos-stratus]: Skipping, unable to determine old version
+[2024-05-27 14:01:26] INFO root fetch - main [MainThread]: End processing [chaos-stratus] error
+[2024-05-27 14:01:26] INFO root fetch - processPackages [clargs]: New version: [0.9.0a0.dev1] Old Version: [0.7.0]
+[2024-05-27 14:01:26] INFO root fetch - processPackages [pyexmars]: Downloading https://files.pythonhosted.org/packages/f5/ea/450e92ecec3de8b8c48f75ea845423569b838d95282d8bd1cfbca6a93bcc/pyexmars-1.0.8.tar.gz
+[2024-05-27 14:01:26] INFO root fetch - processPackages [CreaTeBME]: New version: [1.2.2] Old Version: [1.2.1]
+[2024-05-27 14:01:27] INFO root fetch - processPackages [pyexmars]: Downloading https://files.pythonhosted.org/packages/50/d1/a2145ee44f0f4ae6052d7d86300c1d66fa728fc265646b849c15ca966759/pyexmars-1.0.9.tar.gz
+[2024-05-27 14:01:27] INFO root fetch - processPackages [clargs]: Downloading https://files.pythonhosted.org/packages/2b/15/ec6a749711c590589050835a305969b3021b523312ae5dd2309c6481c9f6/clargs-0.7.0.tar.gz
+[2024-05-27 14:01:27] INFO root fetch - processPackages [matcha-tts]: Downloading https://files.pythonhosted.org/packages/e0/86/66edcad8aaec4313ee8dcab154672b2c5896bda1bc560cbb493b35dbf737/matcha-tts-0.0.5.1.tar.gz
+[2024-05-27 14:01:27] INFO root fetch - processPackages [CreaTeBME]: Downloading https://files.pythonhosted.org/packages/2b/5a/5dacb0ec05d9248efefb3c5c14391fd50fccbf58bd179dcd70773a285c70/createbme-1.2.1.tar.gz
+[2024-05-27 14:01:27] INFO root fetch - processPackages [pyexmars]: executing diffoscope
+[2024-05-27 14:01:27] INFO root fetch - processPackages [pyexmars]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyexmars-1.0.8.tar.gz tmp/pyexmars-1.0.9.tar.gz --markdown 20240527/p/pyexmars/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-27 14:01:27] INFO root fetch - processPackages [CreaTeBME]: Downloading https://files.pythonhosted.org/packages/62/ae/222b1578bf50fe51293486fa27aabe7f51952f84908879c8196ebd33b7c0/createbme-1.2.2.tar.gz
+[2024-05-27 14:01:27] INFO root fetch - processPackages [clargs]: Downloading https://files.pythonhosted.org/packages/ec/9a/9b3c7f258067de09c176f02b01bba19009839d5e9d5bddc8c87355a48638/clargs-0.9.0a0.dev1.tar.gz
+[2024-05-27 14:01:27] INFO root fetch - processPackages [matcha-tts]: Downloading https://files.pythonhosted.org/packages/0f/5b/3238a4c2d50adcdef1aee059fbc249aeba88f8f3970616a0b511d8fef306/matcha-tts-0.0.6.0.tar.gz
+[2024-05-27 14:01:27] INFO root fetch - processPackages [CreaTeBME]: executing diffoscope
+[2024-05-27 14:01:27] INFO root fetch - processPackages [CreaTeBME]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/createbme-1.2.1.tar.gz tmp/createbme-1.2.2.tar.gz --markdown 20240527/C/CreaTeBME/1.2.1-1.2.2/README.md --exclude *.pyd
+[2024-05-27 14:01:27] INFO root fetch - processPackages [clargs]: executing diffoscope
+[2024-05-27 14:01:27] INFO root fetch - processPackages [clargs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clargs-0.7.0.tar.gz tmp/clargs-0.9.0a0.dev1.tar.gz --markdown 20240527/c/clargs/0.7.0-0.9.0a0.dev1/README.md --exclude *.pyd
+[2024-05-27 14:01:27] INFO root fetch - processPackages [matcha-tts]: executing diffoscope
+[2024-05-27 14:01:27] INFO root fetch - processPackages [matcha-tts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matcha-tts-0.0.5.1.tar.gz tmp/matcha-tts-0.0.6.0.tar.gz --markdown 20240527/m/matcha-tts/0.0.5.1-0.0.6.0/README.md --exclude *.pyd
+[2024-05-27 14:01:27] INFO root fetch - processPackages [pyexmars]: Remove: archive file [/home/abi/fetcher/tmp/pyexmars-1.0.8.tar.gz]
+[2024-05-27 14:01:27] INFO root fetch - processPackages [pyexmars]: Remove: archive file [/home/abi/fetcher/tmp/pyexmars-1.0.9.tar.gz]
+[2024-05-27 14:01:27] INFO root fetch - main [MainThread]: End processing [pyexmars]: success
+[2024-05-27 14:01:28] INFO root fetch - processPackages [CreaTeBME]: Remove: archive file [/home/abi/fetcher/tmp/createbme-1.2.1.tar.gz]
+[2024-05-27 14:01:28] INFO root fetch - processPackages [CreaTeBME]: Remove: archive file [/home/abi/fetcher/tmp/createbme-1.2.2.tar.gz]
+[2024-05-27 14:01:28] INFO root fetch - main [MainThread]: End processing [CreaTeBME]: success
+[2024-05-27 14:01:28] INFO root fetch - processPackages [clargs]: Remove: archive file [/home/abi/fetcher/tmp/clargs-0.7.0.tar.gz]
+[2024-05-27 14:01:28] INFO root fetch - processPackages [clargs]: Remove: archive file [/home/abi/fetcher/tmp/clargs-0.9.0a0.dev1.tar.gz]
+[2024-05-27 14:01:28] INFO root fetch - main [MainThread]: End processing [clargs]: success
+[2024-05-27 14:01:29] INFO root fetch - processPackages [matcha-tts]: Remove: archive file [/home/abi/fetcher/tmp/matcha-tts-0.0.5.1.tar.gz]
+[2024-05-27 14:01:29] INFO root fetch - processPackages [matcha-tts]: Remove: archive file [/home/abi/fetcher/tmp/matcha-tts-0.0.6.0.tar.gz]
+[2024-05-27 14:01:29] INFO root fetch - main [MainThread]: End processing [matcha-tts]: success
+[2024-05-27 14:01:29] INFO root fetch - main [MainThread]: Store serial: [23395160]
