@@ -19688,3 +19688,54 @@ EOFError: EOF read where object expected
 [2024-05-27 17:01:59] INFO root fetch - processPackages [phc-ingestion]: Remove: archive file [/home/abi/fetcher/tmp/phc-ingestion-0.8.9.tar.gz]
 [2024-05-27 17:01:59] INFO root fetch - main [MainThread]: End processing [phc-ingestion]: success
 [2024-05-27 17:01:59] INFO root fetch - main [MainThread]: Store serial: [23397418]
+[2024-05-27 17:04:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23397418]
+[2024-05-27 17:04:08] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-27 17:04:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ivylantern
+[2024-05-27 17:04:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ailingo
+[2024-05-27 17:04:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: CI-CloudConnector
+[2024-05-27 17:04:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: superlinked
+[2024-05-27 17:04:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: yeref
+[2024-05-27 17:04:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: render-swiper
+[2024-05-27 17:04:08] INFO root fetch - processPackages [superlinked]: New version: [5.4.0] Old Version: [5.3.0]
+[2024-05-27 17:04:08] INFO root fetch - processPackages [ivylantern]: New version: [0.2.0] Old Version: [0.1.4]
+[2024-05-27 17:04:08] INFO root fetch - processPackages [CI-CloudConnector]: New version: [0.9] Old Version: [0.89]
+[2024-05-27 17:04:08] INFO root fetch - processPackages [yeref]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-27 17:04:08] WARNING root fetch - processPackages [render-swiper]: Skipping, unable to determine old version
+[2024-05-27 17:04:08] INFO root fetch - main [MainThread]: End processing [render-swiper] error
+[2024-05-27 17:04:08] INFO root fetch - processPackages [superlinked]: Downloading https://files.pythonhosted.org/packages/11/52/247a1287ec6718f88ecdbd1d2a1e8d1bb7abff360699834623b29fc94eae/superlinked-5.3.0.tar.gz
+[2024-05-27 17:04:08] INFO root fetch - processPackages [ivylantern]: Downloading https://files.pythonhosted.org/packages/b4/0a/7568e368b8ecbbf7647ab32ec75eccd23047a61702ddb5a7dc012c06d53f/ivylantern-0.1.4.tar.gz
+[2024-05-27 17:04:08] INFO root fetch - processPackages [ailingo]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-27 17:04:08] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/ec/cb/204e6fbe233bbb61cf29c1b491e8c638c8a843edc47fb4e1d8cc8c26608c/yeref-0.9.8.tar.gz
+[2024-05-27 17:04:08] INFO root fetch - processPackages [CI-CloudConnector]: Downloading https://files.pythonhosted.org/packages/40/2c/acf349800bc6182284bc6e508cbfca7adb38e89362167d286742df0d58e4/ci_cloudconnector-0.89.tar.gz
+[2024-05-27 17:04:08] INFO root fetch - processPackages [ailingo]: Downloading https://files.pythonhosted.org/packages/9b/de/6bdaf35c7324a348815118a6103ac16c23acfcd9c877df1259a2fa810237/ailingo-0.1.0.tar.gz
+[2024-05-27 17:04:08] INFO root fetch - processPackages [superlinked]: Downloading https://files.pythonhosted.org/packages/23/db/6536604d2071c58953e4ebd3ee43f0a29e127b9f7ce82e4938dd09e27681/superlinked-5.4.0.tar.gz
+[2024-05-27 17:04:08] INFO root fetch - processPackages [ivylantern]: Downloading https://files.pythonhosted.org/packages/17/54/d40b76eb58119bfb8031282e0ca1d527ce3ef222b89d0b83e7d146ab06ec/ivylantern-0.2.0.tar.gz
+[2024-05-27 17:04:08] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/01/13/0f11bb3dfb27aaf16ed48b0046f50ac65b1fde32662fbc314d53e2558b2d/yeref-0.9.9.tar.gz
+[2024-05-27 17:04:08] INFO root fetch - processPackages [CI-CloudConnector]: Downloading https://files.pythonhosted.org/packages/4c/eb/b4639debe39d86d516b4aa0b9e6cdec32e0a06d0220a60ed52a6b5fada1f/CI_CloudConnector-0.9.zip
+[2024-05-27 17:04:08] INFO root fetch - processPackages [superlinked]: executing diffoscope
+[2024-05-27 17:04:08] INFO root fetch - processPackages [superlinked]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/superlinked-5.3.0.tar.gz tmp/superlinked-5.4.0.tar.gz --markdown 20240527/s/superlinked/5.3.0-5.4.0/README.md --exclude *.pyd
+[2024-05-27 17:04:08] INFO root fetch - processPackages [ivylantern]: executing diffoscope
+[2024-05-27 17:04:08] INFO root fetch - processPackages [ivylantern]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ivylantern-0.1.4.tar.gz tmp/ivylantern-0.2.0.tar.gz --markdown 20240527/i/ivylantern/0.1.4-0.2.0/README.md --exclude *.pyd
+[2024-05-27 17:04:08] INFO root fetch - processPackages [CI-CloudConnector]: executing diffoscope
+[2024-05-27 17:04:08] INFO root fetch - processPackages [CI-CloudConnector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ci_cloudconnector-0.89.tar.gz tmp/CI_CloudConnector-0.9.zip --markdown 20240527/C/CI-CloudConnector/0.89-0.9/README.md --exclude *.pyd
+[2024-05-27 17:04:08] INFO root fetch - processPackages [ailingo]: Downloading https://files.pythonhosted.org/packages/6d/5b/9ede95147a6db8d8d0c8c84982c2fb213a7cdab1da4ad6004d39735fe3d5/ailingo-0.1.1.tar.gz
+[2024-05-27 17:04:08] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2024-05-27 17:04:08] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.9.8.tar.gz tmp/yeref-0.9.9.tar.gz --markdown 20240527/y/yeref/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-27 17:04:09] INFO root fetch - processPackages [ailingo]: executing diffoscope
+[2024-05-27 17:04:09] INFO root fetch - processPackages [ailingo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ailingo-0.1.0.tar.gz tmp/ailingo-0.1.1.tar.gz --markdown 20240527/a/ailingo/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-27 17:04:09] INFO root fetch - processPackages [ivylantern]: Remove: archive file [/home/abi/fetcher/tmp/ivylantern-0.1.4.tar.gz]
+[2024-05-27 17:04:09] INFO root fetch - processPackages [ivylantern]: Remove: archive file [/home/abi/fetcher/tmp/ivylantern-0.2.0.tar.gz]
+[2024-05-27 17:04:09] INFO root fetch - main [MainThread]: End processing [ivylantern]: success
+[2024-05-27 17:04:09] INFO root fetch - processPackages [CI-CloudConnector]: Remove: archive file [/home/abi/fetcher/tmp/ci_cloudconnector-0.89.tar.gz]
+[2024-05-27 17:04:09] INFO root fetch - processPackages [CI-CloudConnector]: Remove: archive file [/home/abi/fetcher/tmp/CI_CloudConnector-0.9.zip]
+[2024-05-27 17:04:09] INFO root fetch - main [MainThread]: End processing [CI-CloudConnector]: success
+[2024-05-27 17:04:09] INFO root fetch - processPackages [ailingo]: Remove: archive file [/home/abi/fetcher/tmp/ailingo-0.1.0.tar.gz]
+[2024-05-27 17:04:09] INFO root fetch - processPackages [ailingo]: Remove: archive file [/home/abi/fetcher/tmp/ailingo-0.1.1.tar.gz]
+[2024-05-27 17:04:09] INFO root fetch - main [MainThread]: End processing [ailingo]: success
+[2024-05-27 17:04:09] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.8.tar.gz]
+[2024-05-27 17:04:09] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.9.tar.gz]
+[2024-05-27 17:04:09] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2024-05-27 17:04:09] INFO root fetch - processPackages [superlinked]: Remove: archive file [/home/abi/fetcher/tmp/superlinked-5.3.0.tar.gz]
+[2024-05-27 17:04:09] INFO root fetch - processPackages [superlinked]: Remove: archive file [/home/abi/fetcher/tmp/superlinked-5.4.0.tar.gz]
+[2024-05-27 17:04:09] INFO root fetch - main [MainThread]: End processing [superlinked]: success
+[2024-05-27 17:04:09] INFO root fetch - main [MainThread]: Store serial: [23397439]
