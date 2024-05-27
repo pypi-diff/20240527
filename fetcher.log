@@ -5150,3 +5150,33 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 06:18:57] INFO root fetch - processPackages [data-ingestion-lib]: Remove: archive file [/home/abi/fetcher/tmp/data_ingestion_lib-1.0.3.tar.gz]
 [2024-05-27 06:18:57] INFO root fetch - main [MainThread]: End processing [data-ingestion-lib]: success
 [2024-05-27 06:18:57] INFO root fetch - main [MainThread]: Store serial: [23390466]
+[2024-05-27 06:21:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23390466]
+[2024-05-27 06:21:07] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-27 06:21:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tree-of-thoughts
+[2024-05-27 06:21:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lckytools
+[2024-05-27 06:21:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: blank-project
+[2024-05-27 06:21:07] INFO root fetch - processPackages [lckytools]: New version: [0.0.0a8] Old Version: [0.0.0a7]
+[2024-05-27 06:21:07] INFO root fetch - processPackages [tree-of-thoughts]: New version: [0.5.5] Old Version: [0.5.4]
+[2024-05-27 06:21:07] INFO root fetch - processPackages [tree-of-thoughts]: Downloading https://files.pythonhosted.org/packages/8e/2a/ef600f1e78d42336bc26fbe2f9ba750ee442f1e09b2fc1274eddffbdc12c/tree_of_thoughts-0.5.4.tar.gz
+[2024-05-27 06:21:07] INFO root fetch - processPackages [lckytools]: Downloading https://files.pythonhosted.org/packages/a1/c3/8aa4196cb41abad6fd9bf8038b25ab2d4b5311c95b3f8403537b4a5cc582/lckytools-0.0.0a7.tar.gz
+[2024-05-27 06:21:07] INFO root fetch - processPackages [blank-project]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-05-27 06:21:07] INFO root fetch - processPackages [tree-of-thoughts]: Downloading https://files.pythonhosted.org/packages/e8/0a/2057624eb4fe7b4d07191dfe8267caf4af46f7fed51ac870915e47945f34/tree_of_thoughts-0.5.5.tar.gz
+[2024-05-27 06:21:07] INFO root fetch - processPackages [blank-project]: Downloading https://files.pythonhosted.org/packages/26/14/a45fa6304138ebf28717fb4069a18a34904e3b438f912e8fd25d51acb70d/blank_project-0.1.0.tar.gz
+[2024-05-27 06:21:07] INFO root fetch - processPackages [lckytools]: Downloading https://files.pythonhosted.org/packages/32/87/6919f602b2d930da1130e471770541db40ed561db6cf403688f591ee289c/lckytools-0.0.0a8.tar.gz
+[2024-05-27 06:21:07] INFO root fetch - processPackages [tree-of-thoughts]: executing diffoscope
+[2024-05-27 06:21:07] INFO root fetch - processPackages [tree-of-thoughts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tree_of_thoughts-0.5.4.tar.gz tmp/tree_of_thoughts-0.5.5.tar.gz --markdown 20240527/t/tree-of-thoughts/0.5.4-0.5.5/README.md --exclude *.pyd
+[2024-05-27 06:21:08] INFO root fetch - processPackages [lckytools]: executing diffoscope
+[2024-05-27 06:21:08] INFO root fetch - processPackages [lckytools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lckytools-0.0.0a7.tar.gz tmp/lckytools-0.0.0a8.tar.gz --markdown 20240527/l/lckytools/0.0.0a7-0.0.0a8/README.md --exclude *.pyd
+[2024-05-27 06:21:08] INFO root fetch - processPackages [blank-project]: Downloading https://files.pythonhosted.org/packages/42/ed/0d7fd4cc5f8d439d390214e3c8ca8370905d9a9a20efa8216d42fe09b614/blank_project-0.2.0.tar.gz
+[2024-05-27 06:21:08] INFO root fetch - processPackages [blank-project]: executing diffoscope
+[2024-05-27 06:21:08] INFO root fetch - processPackages [blank-project]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blank_project-0.1.0.tar.gz tmp/blank_project-0.2.0.tar.gz --markdown 20240527/b/blank-project/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-05-27 06:21:08] INFO root fetch - processPackages [tree-of-thoughts]: Remove: archive file [/home/abi/fetcher/tmp/tree_of_thoughts-0.5.4.tar.gz]
+[2024-05-27 06:21:08] INFO root fetch - processPackages [tree-of-thoughts]: Remove: archive file [/home/abi/fetcher/tmp/tree_of_thoughts-0.5.5.tar.gz]
+[2024-05-27 06:21:08] INFO root fetch - main [MainThread]: End processing [tree-of-thoughts]: success
+[2024-05-27 06:21:08] INFO root fetch - processPackages [lckytools]: Remove: archive file [/home/abi/fetcher/tmp/lckytools-0.0.0a7.tar.gz]
+[2024-05-27 06:21:08] INFO root fetch - processPackages [lckytools]: Remove: archive file [/home/abi/fetcher/tmp/lckytools-0.0.0a8.tar.gz]
+[2024-05-27 06:21:08] INFO root fetch - main [MainThread]: End processing [lckytools]: success
+[2024-05-27 06:21:08] INFO root fetch - processPackages [blank-project]: Remove: archive file [/home/abi/fetcher/tmp/blank_project-0.1.0.tar.gz]
+[2024-05-27 06:21:08] INFO root fetch - processPackages [blank-project]: Remove: archive file [/home/abi/fetcher/tmp/blank_project-0.2.0.tar.gz]
+[2024-05-27 06:21:08] INFO root fetch - main [MainThread]: End processing [blank-project]: success
+[2024-05-27 06:21:08] INFO root fetch - main [MainThread]: Store serial: [23390476]
