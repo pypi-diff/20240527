@@ -18004,3 +18004,78 @@ EOFError: EOF read where object expected
 [2024-05-27 16:03:56] INFO root fetch - processPackages [jaqpotpy]: Remove: archive file [/home/abi/fetcher/tmp/jaqpotpy-1.1.1.tar.gz]
 [2024-05-27 16:03:56] INFO root fetch - main [MainThread]: End processing [jaqpotpy]: success
 [2024-05-27 16:03:56] INFO root fetch - main [MainThread]: Store serial: [23396677]
+[2024-05-27 16:06:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23396677]
+[2024-05-27 16:06:26] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-27 16:06:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: locust
+[2024-05-27 16:06:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cognee
+[2024-05-27 16:06:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dropboxdrivefs
+[2024-05-27 16:06:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: clargs
+[2024-05-27 16:06:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: airbyte-source-facebook-marketing
+[2024-05-27 16:06:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: PyDAO-9000
+[2024-05-27 16:06:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: BrickBundles
+[2024-05-27 16:06:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: BrickAgx
+[2024-05-27 16:06:27] INFO root fetch - processPackages [cognee]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-27 16:06:27] INFO root fetch - processPackages [clargs]: New version: [0.9.0a0.dev4] Old Version: [0.9.0a0.dev3]
+[2024-05-27 16:06:27] INFO root fetch - processPackages [PyDAO-9000]: New version: [1.2.5] Old Version: [1.2.4]
+[2024-05-27 16:06:27] INFO root fetch - processPackages [locust]: New version: [2.9.1.dev45] Old Version: [2.9.1.dev38]
+[2024-05-27 16:06:27] INFO root fetch - processPackages [airbyte-source-facebook-marketing]: New version: [3.0.0.dev202405021055] Old Version: [3.0.0.dev202404041423]
+[2024-05-27 16:06:27] INFO root fetch - processPackages [BrickBundles]: New version: [0.8.3] Old Version: [0.8.2]
+[2024-05-27 16:06:27] INFO root fetch - processPackages [dropboxdrivefs]: New version: [1.4.1] Old Version: [1.4.0]
+[2024-05-27 16:06:27] INFO root fetch - processPackages [cognee]: Downloading https://files.pythonhosted.org/packages/2b/22/1e0124e79ba53756dc4b6126a16053aafc892d17296db2e3cee026024b21/cognee-0.1.8.tar.gz
+[2024-05-27 16:06:27] INFO root fetch - processPackages [BrickAgx]: New version: [0.8.3] Old Version: [0.8.2]
+[2024-05-27 16:06:27] INFO root fetch - processPackages [clargs]: Downloading https://files.pythonhosted.org/packages/a6/77/6e1b43a7f8412844bbf6e076552bdb793bd8c47dd52a17a2baf1f152775a/clargs-0.9.0a0.dev3.tar.gz
+[2024-05-27 16:06:27] INFO root fetch - processPackages [PyDAO-9000]: Downloading https://files.pythonhosted.org/packages/e0/df/7c8276aa9f07eb19531e318abde7d0355371028cbb51c24cbab1f50d8ba4/PyDAO_9000-1.2.4.tar.gz
+[2024-05-27 16:06:27] INFO root fetch - processPackages [locust]: Downloading https://files.pythonhosted.org/packages/9e/ec/230b194549eadcded8e4a0fd7d2e3ed3a9c600452bfc52bfe59d845fb5a5/locust-2.9.1.dev38.tar.gz
+[2024-05-27 16:06:27] INFO root fetch - processPackages [airbyte-source-facebook-marketing]: Downloading https://files.pythonhosted.org/packages/3f/72/cd78f383b92dd9c221ce42e243c1fd60965eebee94be2829807af86dab8b/airbyte_source_facebook_marketing-3.0.0.dev202404041423.tar.gz
+[2024-05-27 16:06:27] INFO root fetch - processPackages [PyDAO-9000]: Downloading https://files.pythonhosted.org/packages/1d/e4/0f3e5b0e35254ccd42303d51eafa351ef64567a29cac68decf1f73e1b133/pydao_9000-1.2.5.tar.gz
+[2024-05-27 16:06:27] INFO root fetch - processPackages [BrickBundles]: Downloading https://files.pythonhosted.org/packages/46/d0/2ade5a3494c854b7bf950a7186e298bb93d03003a4be7af7a9cedac189db/brickbundles-0.8.2-py3-none-any.whl
+[2024-05-27 16:06:27] INFO root fetch - processPackages [dropboxdrivefs]: Downloading https://files.pythonhosted.org/packages/ac/d0/20b71808468f170bd84c197db987fd56bcf0ec19d31ffc0131db603b2476/dropboxdrivefs-1.4.0.tar.gz
+[2024-05-27 16:06:27] INFO root fetch - processPackages [BrickAgx]: Downloading https://files.pythonhosted.org/packages/f1/b2/966f460e9233c4b475bc3e2738e8315702e3baad06b05a1c8ba0f57937c9/brickagx-0.8.2-cp39-cp39-win_amd64.whl
+[2024-05-27 16:06:27] INFO root fetch - processPackages [clargs]: Downloading https://files.pythonhosted.org/packages/b6/fa/7c4d8dc036d3426a87bcf865254ebf356b24b84deeed777d512b4aa43e61/clargs-0.9.0a0.dev4.tar.gz
+[2024-05-27 16:06:27] INFO root fetch - processPackages [PyDAO-9000]: executing diffoscope
+[2024-05-27 16:06:27] INFO root fetch - processPackages [PyDAO-9000]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyDAO_9000-1.2.4.tar.gz tmp/pydao_9000-1.2.5.tar.gz --markdown 20240527/P/PyDAO-9000/1.2.4-1.2.5/README.md --exclude *.pyd
+[2024-05-27 16:06:27] INFO root fetch - processPackages [locust]: Downloading https://files.pythonhosted.org/packages/ec/25/23264f2f77e7f0b1be817a375627e7821524f1a6bf4a5fd503bab0031505/locust-2.9.1.dev45.tar.gz
+[2024-05-27 16:06:27] INFO root fetch - processPackages [clargs]: executing diffoscope
+[2024-05-27 16:06:27] INFO root fetch - processPackages [clargs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clargs-0.9.0a0.dev3.tar.gz tmp/clargs-0.9.0a0.dev4.tar.gz --markdown 20240527/c/clargs/0.9.0a0.dev3-0.9.0a0.dev4/README.md --exclude *.pyd
+[2024-05-27 16:06:27] INFO root fetch - processPackages [cognee]: Downloading https://files.pythonhosted.org/packages/78/2f/e7e54f7ed478f0fcb1f5f19b49275d5b4c6adfea43b6098df4c2e9fc7cf7/cognee-0.1.9.tar.gz
+[2024-05-27 16:06:27] INFO root fetch - processPackages [dropboxdrivefs]: Downloading https://files.pythonhosted.org/packages/97/15/6d8f4c3033ad2bc364b8bb613c52c96653f2268f32ecff4f3ab5f1d7c19b/dropboxdrivefs-1.4.1.tar.gz
+[2024-05-27 16:06:27] INFO root fetch - processPackages [airbyte-source-facebook-marketing]: Downloading https://files.pythonhosted.org/packages/7a/0b/89a13e4978f6a24ea0c93aa444d44ce92d7a515ba6df0c876e9e718ba7b8/airbyte_source_facebook_marketing-3.0.0.dev202405021055.tar.gz
+[2024-05-27 16:06:27] INFO root fetch - processPackages [locust]: executing diffoscope
+[2024-05-27 16:06:27] INFO root fetch - processPackages [locust]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/locust-2.9.1.dev38.tar.gz tmp/locust-2.9.1.dev45.tar.gz --markdown 20240527/l/locust/2.9.1.dev38-2.9.1.dev45/README.md --exclude *.pyd
+[2024-05-27 16:06:27] INFO root fetch - processPackages [BrickBundles]: Downloading https://files.pythonhosted.org/packages/7e/38/23afb01f52c7ab2d202a08ff371e2f79a42626e189bd8fc1916dd7d274ea/brickbundles-0.8.3-py3-none-any.whl
+[2024-05-27 16:06:27] INFO root fetch - processPackages [cognee]: executing diffoscope
+[2024-05-27 16:06:27] INFO root fetch - processPackages [cognee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognee-0.1.8.tar.gz tmp/cognee-0.1.9.tar.gz --markdown 20240527/c/cognee/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-27 16:06:27] INFO root fetch - processPackages [dropboxdrivefs]: executing diffoscope
+[2024-05-27 16:06:27] INFO root fetch - processPackages [dropboxdrivefs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dropboxdrivefs-1.4.0.tar.gz tmp/dropboxdrivefs-1.4.1.tar.gz --markdown 20240527/d/dropboxdrivefs/1.4.0-1.4.1/README.md --exclude *.pyd
+[2024-05-27 16:06:28] INFO root fetch - processPackages [airbyte-source-facebook-marketing]: executing diffoscope
+[2024-05-27 16:06:28] INFO root fetch - processPackages [airbyte-source-facebook-marketing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte_source_facebook_marketing-3.0.0.dev202404041423.tar.gz tmp/airbyte_source_facebook_marketing-3.0.0.dev202405021055.tar.gz --markdown 20240527/a/airbyte-source-facebook-marketing/3.0.0.dev202404041423-3.0.0.dev202405021055/README.md --exclude *.pyd
+[2024-05-27 16:06:28] INFO root fetch - processPackages [BrickBundles]: executing diffoscope
+[2024-05-27 16:06:28] INFO root fetch - processPackages [BrickBundles]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brickbundles-0.8.2-py3-none-any.whl.zip tmp/brickbundles-0.8.3-py3-none-any.whl.zip --markdown 20240527/B/BrickBundles/0.8.2-0.8.3/README.md --exclude *.pyd
+[2024-05-27 16:06:28] INFO root fetch - processPackages [PyDAO-9000]: Remove: archive file [/home/abi/fetcher/tmp/PyDAO_9000-1.2.4.tar.gz]
+[2024-05-27 16:06:28] INFO root fetch - processPackages [PyDAO-9000]: Remove: archive file [/home/abi/fetcher/tmp/pydao_9000-1.2.5.tar.gz]
+[2024-05-27 16:06:28] INFO root fetch - main [MainThread]: End processing [PyDAO-9000]: success
+[2024-05-27 16:06:28] INFO root fetch - processPackages [clargs]: Remove: archive file [/home/abi/fetcher/tmp/clargs-0.9.0a0.dev3.tar.gz]
+[2024-05-27 16:06:28] INFO root fetch - processPackages [clargs]: Remove: archive file [/home/abi/fetcher/tmp/clargs-0.9.0a0.dev4.tar.gz]
+[2024-05-27 16:06:28] INFO root fetch - main [MainThread]: End processing [clargs]: success
+[2024-05-27 16:06:28] INFO root fetch - processPackages [dropboxdrivefs]: Remove: archive file [/home/abi/fetcher/tmp/dropboxdrivefs-1.4.0.tar.gz]
+[2024-05-27 16:06:28] INFO root fetch - processPackages [dropboxdrivefs]: Remove: archive file [/home/abi/fetcher/tmp/dropboxdrivefs-1.4.1.tar.gz]
+[2024-05-27 16:06:28] INFO root fetch - main [MainThread]: End processing [dropboxdrivefs]: success
+[2024-05-27 16:06:28] INFO root fetch - processPackages [airbyte-source-facebook-marketing]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_facebook_marketing-3.0.0.dev202404041423.tar.gz]
+[2024-05-27 16:06:28] INFO root fetch - processPackages [airbyte-source-facebook-marketing]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_facebook_marketing-3.0.0.dev202405021055.tar.gz]
+[2024-05-27 16:06:28] INFO root fetch - main [MainThread]: End processing [airbyte-source-facebook-marketing]: success
+[2024-05-27 16:06:29] INFO root fetch - processPackages [BrickAgx]: Downloading https://files.pythonhosted.org/packages/62/77/05aea3530a27ef952d41bc664461af78874e25e75160e886e2b81193d25b/brickagx-0.8.3-cp39-cp39-win_amd64.whl
+[2024-05-27 16:06:29] INFO root fetch - processPackages [locust]: Remove: archive file [/home/abi/fetcher/tmp/locust-2.9.1.dev38.tar.gz]
+[2024-05-27 16:06:29] INFO root fetch - processPackages [locust]: Remove: archive file [/home/abi/fetcher/tmp/locust-2.9.1.dev45.tar.gz]
+[2024-05-27 16:06:29] INFO root fetch - main [MainThread]: End processing [locust]: success
+[2024-05-27 16:06:29] INFO root fetch - processPackages [BrickBundles]: Remove: archive file [/home/abi/fetcher/tmp/brickbundles-0.8.2-py3-none-any.whl.zip]
+[2024-05-27 16:06:29] INFO root fetch - processPackages [BrickBundles]: Remove: archive file [/home/abi/fetcher/tmp/brickbundles-0.8.3-py3-none-any.whl.zip]
+[2024-05-27 16:06:29] INFO root fetch - main [MainThread]: End processing [BrickBundles]: success
+[2024-05-27 16:06:29] INFO root fetch - processPackages [cognee]: Remove: archive file [/home/abi/fetcher/tmp/cognee-0.1.8.tar.gz]
+[2024-05-27 16:06:29] INFO root fetch - processPackages [cognee]: Remove: archive file [/home/abi/fetcher/tmp/cognee-0.1.9.tar.gz]
+[2024-05-27 16:06:29] INFO root fetch - main [MainThread]: End processing [cognee]: success
+[2024-05-27 16:06:35] INFO root fetch - processPackages [BrickAgx]: executing diffoscope
+[2024-05-27 16:06:35] INFO root fetch - processPackages [BrickAgx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brickagx-0.8.2-cp39-cp39-win_amd64.whl.zip tmp/brickagx-0.8.3-cp39-cp39-win_amd64.whl.zip --markdown 20240527/B/BrickAgx/0.8.2-0.8.3/README.md --exclude *.pyd
+[2024-05-27 16:06:35] INFO root fetch - processPackages [BrickAgx]: Remove: archive file [/home/abi/fetcher/tmp/brickagx-0.8.2-cp39-cp39-win_amd64.whl.zip]
+[2024-05-27 16:06:35] INFO root fetch - processPackages [BrickAgx]: Remove: archive file [/home/abi/fetcher/tmp/brickagx-0.8.3-cp39-cp39-win_amd64.whl.zip]
+[2024-05-27 16:06:35] INFO root fetch - main [MainThread]: End processing [BrickAgx]: success
+[2024-05-27 16:06:35] INFO root fetch - main [MainThread]: Store serial: [23396702]
