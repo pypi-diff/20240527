@@ -22814,3 +22814,69 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-05-27 19:10:14] INFO root fetch - processPackages [klumpy]: Remove: archive file [/home/abi/fetcher/tmp/klumpy-1.0.6.tar.gz]
 [2024-05-27 19:10:14] INFO root fetch - main [MainThread]: End processing [klumpy]: success
 [2024-05-27 19:10:14] INFO root fetch - main [MainThread]: Store serial: [23398768]
+[2024-05-27 19:12:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23398768]
+[2024-05-27 19:12:23] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-27 19:12:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: infisical-python
+[2024-05-27 19:12:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: contextooor
+[2024-05-27 19:12:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: alibabacloud-alidns20150109
+[2024-05-27 19:12:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aproxyrelay
+[2024-05-27 19:12:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: quickQrLib
+[2024-05-27 19:12:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: alibabacloud-cloudapi20160714
+[2024-05-27 19:12:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: alibabacloud-arms20190808
+[2024-05-27 19:12:23] INFO root fetch - processPackages [quickQrLib]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-05-27 19:12:23] INFO root fetch - processPackages [quickQrLib]: Downloading https://files.pythonhosted.org/packages/b7/f9/c304427091efbc09dd0026539ff955066a746ef824e2382801b35ea96d7a/quickQrLib-0.2.2.tar.gz
+[2024-05-27 19:12:23] INFO root fetch - processPackages [contextooor]: New version: [0.9.9.9] Old Version: [0.9.9.8]
+[2024-05-27 19:12:23] INFO root fetch - processPackages [aproxyrelay]: New version: [1.97.1rc7688272509] Old Version: [1.90.1rc7688073331]
+[2024-05-27 19:12:23] INFO root fetch - processPackages [alibabacloud-cloudapi20160714]: New version: [4.2.1] Old Version: [4.2.0]
+[2024-05-27 19:12:23] INFO root fetch - processPackages [infisical-python]: New version: [2.2.1] Old Version: [2.2.0]
+[2024-05-27 19:12:23] INFO root fetch - processPackages [alibabacloud-alidns20150109]: New version: [3.4.0] Old Version: [3.3.0]
+[2024-05-27 19:12:23] INFO root fetch - processPackages [alibabacloud-arms20190808]: New version: [4.9.0] Old Version: [4.8.0]
+[2024-05-27 19:12:23] INFO root fetch - processPackages [contextooor]: Downloading https://files.pythonhosted.org/packages/e8/fa/bb3017534045fe0c3cb5f1c397935485216f8e9055b860340689a3cee931/contextooor-0.9.9.8.tar.gz
+[2024-05-27 19:12:23] INFO root fetch - processPackages [quickQrLib]: Downloading https://files.pythonhosted.org/packages/4f/c6/28a93422f844fe15ea2064ce15e198d6c57ca5f83a0af9d5eaf24bc0d8e3/quickQrLib-0.2.3.tar.gz
+[2024-05-27 19:12:23] INFO root fetch - processPackages [alibabacloud-cloudapi20160714]: Downloading https://files.pythonhosted.org/packages/9f/8f/b6012eed2b172e5c4dc2e8bb6d9baa5ef5263df92edc007a08b15f2dfdcd/alibabacloud_cloudapi20160714-4.2.0.tar.gz
+[2024-05-27 19:12:23] INFO root fetch - processPackages [aproxyrelay]: Downloading https://files.pythonhosted.org/packages/29/9d/4d71fe3595d637fe598410ff5eb6b90543eceb547087d2ffa9e6a0ffd913/aproxyrelay-1.90.1rc7688073331.tar.gz
+[2024-05-27 19:12:23] INFO root fetch - processPackages [infisical-python]: Downloading https://files.pythonhosted.org/packages/ba/27/11f6bf3946bce5826d8ec3e531561c34babcca21f29b526ee3ac9a14e466/infisical_python-2.2.0.tar.gz
+[2024-05-27 19:12:23] INFO root fetch - processPackages [alibabacloud-alidns20150109]: Downloading https://files.pythonhosted.org/packages/1d/82/3cd7705baf17295df0222b839c90aaaec0ffa159356ed6c6b6f988d8c85a/alibabacloud_alidns20150109-3.3.0.tar.gz
+[2024-05-27 19:12:24] INFO root fetch - processPackages [alibabacloud-arms20190808]: Downloading https://files.pythonhosted.org/packages/a0/33/d038dba0d14cb01873486937711da01cc697840cf694bb2903ab14d2b3bf/alibabacloud_arms20190808-4.8.0.tar.gz
+[2024-05-27 19:12:24] INFO root fetch - processPackages [quickQrLib]: executing diffoscope
+[2024-05-27 19:12:24] INFO root fetch - processPackages [quickQrLib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickQrLib-0.2.2.tar.gz tmp/quickQrLib-0.2.3.tar.gz --markdown 20240527/q/quickQrLib/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-05-27 19:12:24] INFO root fetch - processPackages [contextooor]: Downloading https://files.pythonhosted.org/packages/8c/e5/b88de1cd4329fab354a462ff6695e2c918484a0270de2e8e9499f6408d2c/contextooor-0.9.9.9.tar.gz
+[2024-05-27 19:12:24] INFO root fetch - processPackages [aproxyrelay]: Downloading https://files.pythonhosted.org/packages/56/76/3229fb95625a64cac056bbb0e3193aacf73de77bfede35a75e7007b3ac8c/aproxyrelay-1.97.1rc7688272509.tar.gz
+[2024-05-27 19:12:24] INFO root fetch - processPackages [alibabacloud-cloudapi20160714]: Downloading https://files.pythonhosted.org/packages/14/90/e91a403840106b9c1eec9c8f6db689e75d7f48f2117f42115d23957d59db/alibabacloud_cloudapi20160714-4.2.1.tar.gz
+[2024-05-27 19:12:24] INFO root fetch - processPackages [infisical-python]: Downloading https://files.pythonhosted.org/packages/5a/bd/4c02e251806ab456f0393ac004a8c5a81cb8ff4b137443fe2157efeb81b6/infisical_python-2.2.1.tar.gz
+[2024-05-27 19:12:24] INFO root fetch - processPackages [alibabacloud-alidns20150109]: Downloading https://files.pythonhosted.org/packages/d5/a5/fc91b5186cbb2fb003900a70a333a91367ce25d6304025f98f60c0594a3c/alibabacloud_alidns20150109-3.4.0.tar.gz
+[2024-05-27 19:12:24] INFO root fetch - processPackages [contextooor]: executing diffoscope
+[2024-05-27 19:12:24] INFO root fetch - processPackages [contextooor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/contextooor-0.9.9.8.tar.gz tmp/contextooor-0.9.9.9.tar.gz --markdown 20240527/c/contextooor/0.9.9.8-0.9.9.9/README.md --exclude *.pyd
+[2024-05-27 19:12:24] INFO root fetch - processPackages [alibabacloud-arms20190808]: Downloading https://files.pythonhosted.org/packages/66/d9/0c6b583a4106c1de5b811914f33d24b53706c889a11769c86ec204e0fe33/alibabacloud_arms20190808-4.9.0.tar.gz
+[2024-05-27 19:12:24] INFO root fetch - processPackages [aproxyrelay]: executing diffoscope
+[2024-05-27 19:12:24] INFO root fetch - processPackages [aproxyrelay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aproxyrelay-1.90.1rc7688073331.tar.gz tmp/aproxyrelay-1.97.1rc7688272509.tar.gz --markdown 20240527/a/aproxyrelay/1.90.1rc7688073331-1.97.1rc7688272509/README.md --exclude *.pyd
+[2024-05-27 19:12:24] INFO root fetch - processPackages [alibabacloud-alidns20150109]: executing diffoscope
+[2024-05-27 19:12:24] INFO root fetch - processPackages [alibabacloud-alidns20150109]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_alidns20150109-3.3.0.tar.gz tmp/alibabacloud_alidns20150109-3.4.0.tar.gz --markdown 20240527/a/alibabacloud-alidns20150109/3.3.0-3.4.0/README.md --exclude *.pyd
+[2024-05-27 19:12:24] INFO root fetch - processPackages [quickQrLib]: Remove: archive file [/home/abi/fetcher/tmp/quickQrLib-0.2.2.tar.gz]
+[2024-05-27 19:12:24] INFO root fetch - processPackages [quickQrLib]: Remove: archive file [/home/abi/fetcher/tmp/quickQrLib-0.2.3.tar.gz]
+[2024-05-27 19:12:24] INFO root fetch - main [MainThread]: End processing [quickQrLib]: success
+[2024-05-27 19:12:24] INFO root fetch - processPackages [infisical-python]: executing diffoscope
+[2024-05-27 19:12:24] INFO root fetch - processPackages [infisical-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/infisical_python-2.2.0.tar.gz tmp/infisical_python-2.2.1.tar.gz --markdown 20240527/i/infisical-python/2.2.0-2.2.1/README.md --exclude *.pyd
+[2024-05-27 19:12:24] INFO root fetch - processPackages [alibabacloud-cloudapi20160714]: executing diffoscope
+[2024-05-27 19:12:24] INFO root fetch - processPackages [alibabacloud-cloudapi20160714]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_cloudapi20160714-4.2.0.tar.gz tmp/alibabacloud_cloudapi20160714-4.2.1.tar.gz --markdown 20240527/a/alibabacloud-cloudapi20160714/4.2.0-4.2.1/README.md --exclude *.pyd
+[2024-05-27 19:12:24] INFO root fetch - processPackages [alibabacloud-arms20190808]: executing diffoscope
+[2024-05-27 19:12:24] INFO root fetch - processPackages [alibabacloud-arms20190808]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_arms20190808-4.8.0.tar.gz tmp/alibabacloud_arms20190808-4.9.0.tar.gz --markdown 20240527/a/alibabacloud-arms20190808/4.8.0-4.9.0/README.md --exclude *.pyd
+[2024-05-27 19:12:25] INFO root fetch - processPackages [aproxyrelay]: Remove: archive file [/home/abi/fetcher/tmp/aproxyrelay-1.90.1rc7688073331.tar.gz]
+[2024-05-27 19:12:25] INFO root fetch - processPackages [aproxyrelay]: Remove: archive file [/home/abi/fetcher/tmp/aproxyrelay-1.97.1rc7688272509.tar.gz]
+[2024-05-27 19:12:25] INFO root fetch - main [MainThread]: End processing [aproxyrelay]: success
+[2024-05-27 19:12:25] INFO root fetch - processPackages [contextooor]: Remove: archive file [/home/abi/fetcher/tmp/contextooor-0.9.9.8.tar.gz]
+[2024-05-27 19:12:25] INFO root fetch - processPackages [contextooor]: Remove: archive file [/home/abi/fetcher/tmp/contextooor-0.9.9.9.tar.gz]
+[2024-05-27 19:12:25] INFO root fetch - main [MainThread]: End processing [contextooor]: success
+[2024-05-27 19:12:25] INFO root fetch - processPackages [infisical-python]: Remove: archive file [/home/abi/fetcher/tmp/infisical_python-2.2.0.tar.gz]
+[2024-05-27 19:12:25] INFO root fetch - processPackages [infisical-python]: Remove: archive file [/home/abi/fetcher/tmp/infisical_python-2.2.1.tar.gz]
+[2024-05-27 19:12:25] INFO root fetch - main [MainThread]: End processing [infisical-python]: success
+[2024-05-27 19:12:26] INFO root fetch - processPackages [alibabacloud-cloudapi20160714]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_cloudapi20160714-4.2.0.tar.gz]
+[2024-05-27 19:12:26] INFO root fetch - processPackages [alibabacloud-cloudapi20160714]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_cloudapi20160714-4.2.1.tar.gz]
+[2024-05-27 19:12:26] INFO root fetch - main [MainThread]: End processing [alibabacloud-cloudapi20160714]: success
+[2024-05-27 19:12:26] INFO root fetch - processPackages [alibabacloud-alidns20150109]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_alidns20150109-3.3.0.tar.gz]
+[2024-05-27 19:12:26] INFO root fetch - processPackages [alibabacloud-alidns20150109]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_alidns20150109-3.4.0.tar.gz]
+[2024-05-27 19:12:26] INFO root fetch - main [MainThread]: End processing [alibabacloud-alidns20150109]: success
+[2024-05-27 19:12:26] INFO root fetch - processPackages [alibabacloud-arms20190808]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_arms20190808-4.8.0.tar.gz]
+[2024-05-27 19:12:26] INFO root fetch - processPackages [alibabacloud-arms20190808]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_arms20190808-4.9.0.tar.gz]
+[2024-05-27 19:12:26] INFO root fetch - main [MainThread]: End processing [alibabacloud-arms20190808]: success
+[2024-05-27 19:12:26] INFO root fetch - main [MainThread]: Store serial: [23398831]
