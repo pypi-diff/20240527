@@ -12708,3 +12708,121 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 12:37:25] INFO root fetch - processPackages [nucliadb-protos]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_protos-4.0.1.post547-py3-none-any.whl.zip]
 [2024-05-27 12:37:25] INFO root fetch - main [MainThread]: End processing [nucliadb-protos]: success
 [2024-05-27 12:37:25] INFO root fetch - main [MainThread]: Store serial: [23394141]
+[2024-05-27 12:39:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23394141]
+[2024-05-27 12:39:33] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2024-05-27 12:39:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nucliadb-sdk
+[2024-05-27 12:39:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pygrl
+[2024-05-27 12:39:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nucliadb-telemetry
+[2024-05-27 12:39:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nucliadb-telemetry
+[2024-05-27 12:39:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cogflow
+[2024-05-27 12:39:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nucliadb-utils
+[2024-05-27 12:39:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nucliadb-utils
+[2024-05-27 12:39:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aiodistributor
+[2024-05-27 12:39:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dingosdk
+[2024-05-27 12:39:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: wolfsoftware.github-token-validator
+[2024-05-27 12:39:33] INFO root fetch - processPackages [nucliadb-telemetry]: New version: [4.0.0.post545] Old Version: [4.0.0.post544]
+[2024-05-27 12:39:33] INFO root fetch - processPackages [nucliadb-sdk]: New version: [4.0.1.post547] Old Version: [4.0.0.post546]
+[2024-05-27 12:39:33] INFO root fetch - processPackages [cogflow]: New version: [1.9.9] Old Version: [1.9.8]
+[2024-05-27 12:39:33] INFO root fetch - processPackages [nucliadb-telemetry]: New version: [4.0.0.post545] Old Version: [4.0.0.post544]
+[2024-05-27 12:39:33] INFO root fetch - processPackages [nucliadb-utils]: New version: [4.0.0.post545] Old Version: [4.0.0.post544]
+[2024-05-27 12:39:33] INFO root fetch - processPackages [nucliadb-utils]: New version: [4.0.0.post545] Old Version: [4.0.0.post544]
+[2024-05-27 12:39:33] INFO root fetch - processPackages [wolfsoftware.github-token-validator]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-27 12:39:33] INFO root fetch - processPackages [nucliadb-telemetry]: Downloading https://files.pythonhosted.org/packages/02/1d/c094bc863de9e9075e5bdaec88cb442c3b3de67afcda77c116de82eff422/nucliadb_telemetry-4.0.0.post544-py3-none-any.whl
+[2024-05-27 12:39:33] INFO root fetch - processPackages [aiodistributor]: New version: [0.0.3.2] Old Version: [0.0.2.1]
+[2024-05-27 12:39:33] INFO root fetch - processPackages [dingosdk]: New version: [0.1rc8] Old Version: [0.1rc7]
+[2024-05-27 12:39:33] INFO root fetch - processPackages [pygrl]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-27 12:39:33] INFO root fetch - processPackages [cogflow]: Downloading https://files.pythonhosted.org/packages/3a/44/2dd887dfefc5e198a68539c2565726dced636a615597d201136d1a92a466/cogflow-1.9.8.tar.gz
+[2024-05-27 12:39:33] INFO root fetch - processPackages [nucliadb-telemetry]: Downloading https://files.pythonhosted.org/packages/02/1d/c094bc863de9e9075e5bdaec88cb442c3b3de67afcda77c116de82eff422/nucliadb_telemetry-4.0.0.post544-py3-none-any.whl
+[2024-05-27 12:39:33] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/0d/1a/74222bef21fafff4942c699ee672999fbd45b9653777d5836159be6770c2/nucliadb_utils-4.0.0.post544-py3-none-any.whl
+[2024-05-27 12:39:33] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/79/39/17b35a6e733156fe043750ce9243625dfe95a0f7f6ee0a61c3bce2847d8b/nucliadb_sdk-4.0.0.post546-py3-none-any.whl
+[2024-05-27 12:39:33] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/0d/1a/74222bef21fafff4942c699ee672999fbd45b9653777d5836159be6770c2/nucliadb_utils-4.0.0.post544-py3-none-any.whl
+[2024-05-27 12:39:34] INFO root fetch - processPackages [wolfsoftware.github-token-validator]: Downloading https://files.pythonhosted.org/packages/e1/5b/f8b53d6c3651d791bd26b781d55cacc3cfb1d2058c035ac70a2135d063ad/wolfsoftware_github_token_validator-0.1.0.tar.gz
+[2024-05-27 12:39:34] INFO root fetch - processPackages [dingosdk]: Downloading https://files.pythonhosted.org/packages/ae/d8/e5354006e3e41c350e123cbeba092a8cf46ef99616f2c2d63b463ba01413/dingosdk-0.1rc7.tar.gz
+[2024-05-27 12:39:34] INFO root fetch - processPackages [pygrl]: Downloading https://files.pythonhosted.org/packages/32/c9/5efed45c871eef76704f797ee738056781dbb0aa725e24a1c4bc80404ec2/pygrl-0.0.1.tar.gz
+[2024-05-27 12:39:34] INFO root fetch - processPackages [aiodistributor]: Downloading https://files.pythonhosted.org/packages/20/ef/42391b3694122b9b0faabaa66acac8464a1ceea433df70ac010e3f89716d/aiodistributor-0.0.2.1.tar.gz
+[2024-05-27 12:39:34] INFO root fetch - processPackages [nucliadb-telemetry]: Downloading https://files.pythonhosted.org/packages/e5/e7/f28dfae770ee41af838b8dd7523699293e70614fc37f319a6902f19a7a4c/nucliadb_telemetry-4.0.0.post545-py3-none-any.whl
+[2024-05-27 12:39:34] INFO root fetch - processPackages [cogflow]: Downloading https://files.pythonhosted.org/packages/0e/16/8f5f931a1aa5b5143fe0b0ad8fd8950276383f3e063a3d599473897f4af3/cogflow-1.9.9.tar.gz
+[2024-05-27 12:39:34] INFO root fetch - processPackages [nucliadb-telemetry]: Downloading https://files.pythonhosted.org/packages/e5/e7/f28dfae770ee41af838b8dd7523699293e70614fc37f319a6902f19a7a4c/nucliadb_telemetry-4.0.0.post545-py3-none-any.whl
+[2024-05-27 12:39:34] WARNING root fetch - processPackages [dingosdk]: Skipping package: exceeds size limit 66526273>=10485760
+[2024-05-27 12:39:34] INFO root fetch - processPackages [dingosdk]: Start processing: pygrl
+[2024-05-27 12:39:34] INFO root fetch - main [MainThread]: End processing [dingosdk] error
+[2024-05-27 12:39:34] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/ce/63/0a94c1d64633c4617d238b6880454887fb6a90597e5d3f08a45506fe581d/nucliadb_utils-4.0.0.post545-py3-none-any.whl
+[2024-05-27 12:39:34] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/ce/63/0a94c1d64633c4617d238b6880454887fb6a90597e5d3f08a45506fe581d/nucliadb_utils-4.0.0.post545-py3-none-any.whl
+[2024-05-27 12:39:34] INFO root fetch - processPackages [pygrl]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-27 12:39:34] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/6e/ea/1249b657854e290086093587c1c6df8888328b10ef84de952be79f71fe8a/nucliadb_sdk-4.0.1.post547-py3-none-any.whl
+[2024-05-27 12:39:34] INFO root fetch - processPackages [nucliadb-telemetry]: executing diffoscope
+[2024-05-27 12:39:34] INFO root fetch - processPackages [nucliadb-telemetry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_telemetry-4.0.0.post544-py3-none-any.whl.zip tmp/nucliadb_telemetry-4.0.0.post545-py3-none-any.whl.zip --markdown 20240527/n/nucliadb-telemetry/4.0.0.post544-4.0.0.post545/README.md --exclude *.pyd
+[2024-05-27 12:39:34] INFO root fetch - processPackages [cogflow]: executing diffoscope
+[2024-05-27 12:39:34] INFO root fetch - processPackages [cogflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cogflow-1.9.8.tar.gz tmp/cogflow-1.9.9.tar.gz --markdown 20240527/c/cogflow/1.9.8-1.9.9/README.md --exclude *.pyd
+[2024-05-27 12:39:34] INFO root fetch - processPackages [nucliadb-telemetry]: executing diffoscope
+[2024-05-27 12:39:34] INFO root fetch - processPackages [nucliadb-telemetry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_telemetry-4.0.0.post544-py3-none-any.whl.zip tmp/nucliadb_telemetry-4.0.0.post545-py3-none-any.whl.zip --markdown 20240527/n/nucliadb-telemetry/4.0.0.post544-4.0.0.post545/README.md --exclude *.pyd
+[2024-05-27 12:39:34] INFO root fetch - processPackages [nucliadb-utils]: executing diffoscope
+[2024-05-27 12:39:34] INFO root fetch - processPackages [nucliadb-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_utils-4.0.0.post544-py3-none-any.whl.zip tmp/nucliadb_utils-4.0.0.post545-py3-none-any.whl.zip --markdown 20240527/n/nucliadb-utils/4.0.0.post544-4.0.0.post545/README.md --exclude *.pyd
+[2024-05-27 12:39:34] INFO root fetch - processPackages [wolfsoftware.github-token-validator]: Downloading https://files.pythonhosted.org/packages/26/89/35d3c8fc1fb5da990bec7489a285639ef44bec14acf072e2d115f7b320c5/wolfsoftware_github_token_validator-0.1.1.tar.gz
+[2024-05-27 12:39:34] INFO root fetch - processPackages [nucliadb-utils]: executing diffoscope
+[2024-05-27 12:39:34] INFO root fetch - processPackages [nucliadb-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_utils-4.0.0.post544-py3-none-any.whl.zip tmp/nucliadb_utils-4.0.0.post545-py3-none-any.whl.zip --markdown 20240527/n/nucliadb-utils/4.0.0.post544-4.0.0.post545/README.md --exclude *.pyd
+[2024-05-27 12:39:34] INFO root fetch - processPackages [nucliadb-sdk]: executing diffoscope
+[2024-05-27 12:39:34] INFO root fetch - processPackages [nucliadb-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_sdk-4.0.0.post546-py3-none-any.whl.zip tmp/nucliadb_sdk-4.0.1.post547-py3-none-any.whl.zip --markdown 20240527/n/nucliadb-sdk/4.0.0.post546-4.0.1.post547/README.md --exclude *.pyd
+[2024-05-27 12:39:34] INFO root fetch - processPackages [pygrl]: Downloading https://files.pythonhosted.org/packages/13/6c/58b0a0e4d001f308608ac5911ec70746c84a1c0f4d1357de9f940928bcca/pygrl-0.0.2.tar.gz
+[2024-05-27 12:39:34] INFO root fetch - processPackages [aiodistributor]: Downloading https://files.pythonhosted.org/packages/40/9e/639b7c65bc51c54c24fa03473775c35431a7761451d86d5593180b4eea8d/aiodistributor-0.0.3.2.tar.gz
+[2024-05-27 12:39:34] INFO root fetch - processPackages [pygrl]: Downloading https://files.pythonhosted.org/packages/13/6c/58b0a0e4d001f308608ac5911ec70746c84a1c0f4d1357de9f940928bcca/pygrl-0.0.2.tar.gz
+[2024-05-27 12:39:34] INFO root fetch - processPackages [wolfsoftware.github-token-validator]: executing diffoscope
+[2024-05-27 12:39:34] INFO root fetch - processPackages [wolfsoftware.github-token-validator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wolfsoftware_github_token_validator-0.1.0.tar.gz tmp/wolfsoftware_github_token_validator-0.1.1.tar.gz --markdown 20240527/w/wolfsoftware.github-token-validator/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-27 12:39:34] INFO root fetch - processPackages [pygrl]: executing diffoscope
+[2024-05-27 12:39:34] INFO root fetch - processPackages [pygrl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygrl-0.0.1.tar.gz tmp/pygrl-0.0.2.tar.gz --markdown 20240527/p/pygrl/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-27 12:39:34] INFO root fetch - processPackages [aiodistributor]: executing diffoscope
+[2024-05-27 12:39:34] INFO root fetch - processPackages [aiodistributor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiodistributor-0.0.2.1.tar.gz tmp/aiodistributor-0.0.3.2.tar.gz --markdown 20240527/a/aiodistributor/0.0.2.1-0.0.3.2/README.md --exclude *.pyd
+[2024-05-27 12:39:34] INFO root fetch - processPackages [pygrl]: executing diffoscope
+[2024-05-27 12:39:34] INFO root fetch - processPackages [pygrl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygrl-0.0.1.tar.gz tmp/pygrl-0.0.2.tar.gz --markdown 20240527/p/pygrl/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-27 12:39:35] INFO root fetch - processPackages [cogflow]: Remove: archive file [/home/abi/fetcher/tmp/cogflow-1.9.8.tar.gz]
+[2024-05-27 12:39:35] INFO root fetch - processPackages [cogflow]: Remove: archive file [/home/abi/fetcher/tmp/cogflow-1.9.9.tar.gz]
+[2024-05-27 12:39:35] INFO root fetch - processPackages [cogflow]: Start processing: skypilot-nightly
+[2024-05-27 12:39:35] INFO root fetch - main [MainThread]: End processing [cogflow]: success
+[2024-05-27 12:39:35] INFO root fetch - processPackages [nucliadb-telemetry]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_telemetry-4.0.0.post544-py3-none-any.whl.zip]
+[2024-05-27 12:39:35] INFO root fetch - processPackages [nucliadb-telemetry]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_telemetry-4.0.0.post545-py3-none-any.whl.zip]
+[2024-05-27 12:39:35] INFO root fetch - processPackages [nucliadb-telemetry]: Start processing: django-global-places
+[2024-05-27 12:39:35] INFO root fetch - main [MainThread]: End processing [nucliadb-telemetry]: success
+[2024-05-27 12:39:35] INFO root fetch - processPackages [skypilot-nightly]: New version: [1.0.0.dev20240526] Old Version: [1.0.0.dev20240525]
+[2024-05-27 12:39:35] INFO root fetch - processPackages [nucliadb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_sdk-4.0.0.post546-py3-none-any.whl.zip]
+[2024-05-27 12:39:35] INFO root fetch - processPackages [nucliadb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_sdk-4.0.1.post547-py3-none-any.whl.zip]
+[2024-05-27 12:39:35] INFO root fetch - processPackages [nucliadb-sdk]: Start processing: pymemgpt-nightly
+[2024-05-27 12:39:35] INFO root fetch - main [MainThread]: End processing [nucliadb-sdk]: success
+[2024-05-27 12:39:35] INFO root fetch - processPackages [skypilot-nightly]: Downloading https://files.pythonhosted.org/packages/41/6c/960449cc92755b5117df0dee391d017ca697a3ae09e0d70c31dd0b053ac0/skypilot_nightly-1.0.0.dev20240525.tar.gz
+[2024-05-27 12:39:35] INFO root fetch - processPackages [django-global-places]: New version: [0.8.6] Old Version: [0.8.5]
+[2024-05-27 12:39:35] INFO root fetch - processPackages [pymemgpt-nightly]: New version: [0.3.9.dev20240412103904] Old Version: [0.3.9.dev20240411103902]
+[2024-05-27 12:39:35] INFO root fetch - processPackages [pymemgpt-nightly]: Downloading https://files.pythonhosted.org/packages/28/e7/e8c0c970c21e3670e810627cef085bbbbac1f9e994540354838d7781a0ac/pymemgpt_nightly-0.3.9.dev20240411103902.tar.gz
+[2024-05-27 12:39:35] INFO root fetch - processPackages [pygrl]: Remove: archive file [/home/abi/fetcher/tmp/pygrl-0.0.1.tar.gz]
+[2024-05-27 12:39:35] INFO root fetch - processPackages [pygrl]: Remove: archive file [/home/abi/fetcher/tmp/pygrl-0.0.2.tar.gz]
+[2024-05-27 12:39:35] INFO root fetch - main [MainThread]: End processing [pygrl]: success
+[2024-05-27 12:39:35] INFO root fetch - main [MainThread]: End processing [nucliadb-telemetry]: success
+[2024-05-27 12:39:35] INFO root fetch - processPackages [wolfsoftware.github-token-validator]: Remove: archive file [/home/abi/fetcher/tmp/wolfsoftware_github_token_validator-0.1.0.tar.gz]
+[2024-05-27 12:39:35] INFO root fetch - processPackages [wolfsoftware.github-token-validator]: Remove: archive file [/home/abi/fetcher/tmp/wolfsoftware_github_token_validator-0.1.1.tar.gz]
+[2024-05-27 12:39:35] INFO root fetch - main [MainThread]: End processing [wolfsoftware.github-token-validator]: success
+[2024-05-27 12:39:35] INFO root fetch - main [MainThread]: End processing [pygrl]: success
+[2024-05-27 12:39:35] INFO root fetch - processPackages [aiodistributor]: Remove: archive file [/home/abi/fetcher/tmp/aiodistributor-0.0.2.1.tar.gz]
+[2024-05-27 12:39:35] INFO root fetch - processPackages [aiodistributor]: Remove: archive file [/home/abi/fetcher/tmp/aiodistributor-0.0.3.2.tar.gz]
+[2024-05-27 12:39:35] INFO root fetch - main [MainThread]: End processing [aiodistributor]: success
+[2024-05-27 12:39:35] INFO root fetch - processPackages [nucliadb-utils]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_utils-4.0.0.post544-py3-none-any.whl.zip]
+[2024-05-27 12:39:35] INFO root fetch - processPackages [nucliadb-utils]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_utils-4.0.0.post545-py3-none-any.whl.zip]
+[2024-05-27 12:39:35] INFO root fetch - main [MainThread]: End processing [nucliadb-utils]: success
+[2024-05-27 12:39:35] INFO root fetch - processPackages [django-global-places]: Downloading https://files.pythonhosted.org/packages/6c/31/74e40bdc66681c8c5e1a4045da4222935210e3296a3df04eca41265bad66/django_global_places-0.8.5.tar.gz
+[2024-05-27 12:39:35] INFO root fetch - main [MainThread]: End processing [nucliadb-utils]: success
+[2024-05-27 12:39:36] INFO root fetch - processPackages [pymemgpt-nightly]: Downloading https://files.pythonhosted.org/packages/50/4a/4c9c1fb70a7ee971f3c8697cc6dedb251e3b10cafdd23be4d035ece0f2ec/pymemgpt_nightly-0.3.9.dev20240412103904.tar.gz
+[2024-05-27 12:39:36] INFO root fetch - processPackages [skypilot-nightly]: Downloading https://files.pythonhosted.org/packages/91/4d/179a050c349b2e943962b3b676bb9fc546a162981f3e548427f77eb35216/skypilot_nightly-1.0.0.dev20240526.tar.gz
+[2024-05-27 12:39:36] INFO root fetch - processPackages [django-global-places]: Downloading https://files.pythonhosted.org/packages/54/6a/85fccc7a06e00633017fa9bb9e845d33d102c890e15a4f3c3fd335fd6e55/django_global_places-0.8.6.tar.gz
+[2024-05-27 12:39:36] INFO root fetch - processPackages [pymemgpt-nightly]: executing diffoscope
+[2024-05-27 12:39:36] INFO root fetch - processPackages [pymemgpt-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymemgpt_nightly-0.3.9.dev20240411103902.tar.gz tmp/pymemgpt_nightly-0.3.9.dev20240412103904.tar.gz --markdown 20240527/p/pymemgpt-nightly/0.3.9.dev20240411103902-0.3.9.dev20240412103904/README.md --exclude *.pyd
+[2024-05-27 12:39:36] INFO root fetch - processPackages [skypilot-nightly]: executing diffoscope
+[2024-05-27 12:39:36] INFO root fetch - processPackages [skypilot-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skypilot_nightly-1.0.0.dev20240525.tar.gz tmp/skypilot_nightly-1.0.0.dev20240526.tar.gz --markdown 20240527/s/skypilot-nightly/1.0.0.dev20240525-1.0.0.dev20240526/README.md --exclude *.pyd
+[2024-05-27 12:39:36] INFO root fetch - processPackages [django-global-places]: executing diffoscope
+[2024-05-27 12:39:36] INFO root fetch - processPackages [django-global-places]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_global_places-0.8.5.tar.gz tmp/django_global_places-0.8.6.tar.gz --markdown 20240527/d/django-global-places/0.8.5-0.8.6/README.md --exclude *.pyd
+[2024-05-27 12:39:36] INFO root fetch - processPackages [django-global-places]: Remove: archive file [/home/abi/fetcher/tmp/django_global_places-0.8.5.tar.gz]
+[2024-05-27 12:39:36] INFO root fetch - processPackages [django-global-places]: Remove: archive file [/home/abi/fetcher/tmp/django_global_places-0.8.6.tar.gz]
+[2024-05-27 12:39:36] INFO root fetch - main [MainThread]: End processing [django-global-places]: success
+[2024-05-27 12:39:37] INFO root fetch - processPackages [pymemgpt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pymemgpt_nightly-0.3.9.dev20240411103902.tar.gz]
+[2024-05-27 12:39:37] INFO root fetch - processPackages [pymemgpt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pymemgpt_nightly-0.3.9.dev20240412103904.tar.gz]
+[2024-05-27 12:39:37] INFO root fetch - main [MainThread]: End processing [pymemgpt-nightly]: success
+[2024-05-27 12:39:37] INFO root fetch - processPackages [skypilot-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skypilot_nightly-1.0.0.dev20240525.tar.gz]
+[2024-05-27 12:39:37] INFO root fetch - processPackages [skypilot-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skypilot_nightly-1.0.0.dev20240526.tar.gz]
+[2024-05-27 12:39:37] INFO root fetch - main [MainThread]: End processing [skypilot-nightly]: success
+[2024-05-27 12:39:37] INFO root fetch - main [MainThread]: Store serial: [23394180]
