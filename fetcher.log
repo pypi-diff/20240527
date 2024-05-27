@@ -4537,3 +4537,24 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 05:20:24] INFO root fetch - processPackages [krezi]: Remove: archive file [/home/abi/fetcher/tmp/krezi-1.2.tar.gz]
 [2024-05-27 05:20:24] INFO root fetch - main [MainThread]: End processing [krezi]: success
 [2024-05-27 05:20:24] INFO root fetch - main [MainThread]: Store serial: [23390220]
+[2024-05-27 05:22:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23390220]
+[2024-05-27 05:22:33] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-27 05:22:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nonebot-plugin-plus-one
+[2024-05-27 05:22:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: FIT-Testcase-Sender
+[2024-05-27 05:22:33] INFO root fetch - processPackages [FIT-Testcase-Sender]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-27 05:22:33] INFO root fetch - processPackages [nonebot-plugin-plus-one]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-27 05:22:33] INFO root fetch - processPackages [FIT-Testcase-Sender]: Downloading https://files.pythonhosted.org/packages/33/a6/06286d61da07b6b539be05f2a2c2293ac1c518541e937526d5119e1e9461/FIT_Testcase_Sender-0.1.0.tar.gz
+[2024-05-27 05:22:33] INFO root fetch - processPackages [nonebot-plugin-plus-one]: Downloading https://files.pythonhosted.org/packages/8d/c8/f936aa07ef3d07275f29eb6ad553b7050df6aa880d444742387017a1262b/nonebot_plugin_plus_one-0.1.3.tar.gz
+[2024-05-27 05:22:33] INFO root fetch - processPackages [FIT-Testcase-Sender]: Downloading https://files.pythonhosted.org/packages/b4/bf/a37b70e6ba398001be7118276f8d805c21948374a441a2668b5035e3f2f5/FIT_Testcase_Sender-0.1.1.tar.gz
+[2024-05-27 05:22:33] INFO root fetch - processPackages [nonebot-plugin-plus-one]: Downloading https://files.pythonhosted.org/packages/4f/10/431fbcf7ca41b419d5939efd495246e70e25008f60014e9516fac9f5956c/nonebot_plugin_plus_one-0.1.4.tar.gz
+[2024-05-27 05:22:34] INFO root fetch - processPackages [FIT-Testcase-Sender]: executing diffoscope
+[2024-05-27 05:22:34] INFO root fetch - processPackages [FIT-Testcase-Sender]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FIT_Testcase_Sender-0.1.0.tar.gz tmp/FIT_Testcase_Sender-0.1.1.tar.gz --markdown 20240527/F/FIT-Testcase-Sender/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-27 05:22:34] INFO root fetch - processPackages [nonebot-plugin-plus-one]: executing diffoscope
+[2024-05-27 05:22:34] INFO root fetch - processPackages [nonebot-plugin-plus-one]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_plus_one-0.1.3.tar.gz tmp/nonebot_plugin_plus_one-0.1.4.tar.gz --markdown 20240527/n/nonebot-plugin-plus-one/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-27 05:22:34] INFO root fetch - processPackages [FIT-Testcase-Sender]: Remove: archive file [/home/abi/fetcher/tmp/FIT_Testcase_Sender-0.1.0.tar.gz]
+[2024-05-27 05:22:34] INFO root fetch - processPackages [FIT-Testcase-Sender]: Remove: archive file [/home/abi/fetcher/tmp/FIT_Testcase_Sender-0.1.1.tar.gz]
+[2024-05-27 05:22:34] INFO root fetch - main [MainThread]: End processing [FIT-Testcase-Sender]: success
+[2024-05-27 05:22:34] INFO root fetch - processPackages [nonebot-plugin-plus-one]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_plus_one-0.1.3.tar.gz]
+[2024-05-27 05:22:34] INFO root fetch - processPackages [nonebot-plugin-plus-one]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_plus_one-0.1.4.tar.gz]
+[2024-05-27 05:22:34] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-plus-one]: success
+[2024-05-27 05:22:34] INFO root fetch - main [MainThread]: Store serial: [23390226]
