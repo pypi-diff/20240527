@@ -23545,3 +23545,105 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-05-27 19:43:23] INFO root fetch - processPackages [nqrduck]: Remove: archive file [/home/abi/fetcher/tmp/nqrduck-0.0.9.tar.gz]
 [2024-05-27 19:43:23] INFO root fetch - main [MainThread]: End processing [nqrduck]: success
 [2024-05-27 19:43:23] INFO root fetch - main [MainThread]: Store serial: [23399281]
+[2024-05-27 19:45:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23399281]
+[2024-05-27 19:45:32] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-05-27 19:45:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyabhata
+[2024-05-27 19:45:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyerualjetwork
+[2024-05-27 19:45:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: analysta-index
+[2024-05-27 19:45:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pbipy
+[2024-05-27 19:45:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sysloss
+[2024-05-27 19:45:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: latch
+[2024-05-27 19:45:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyproject-creator
+[2024-05-27 19:45:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pypaperless
+[2024-05-27 19:45:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: crewops
+[2024-05-27 19:45:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: django-headless-cms
+[2024-05-27 19:45:32] INFO root fetch - processPackages [analysta-index]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-27 19:45:32] INFO root fetch - processPackages [pbipy]: New version: [2.9.0] Old Version: [2.8.2]
+[2024-05-27 19:45:32] INFO root fetch - processPackages [analysta-index]: Downloading https://files.pythonhosted.org/packages/01/cf/2384baabdae575209a6a4216033a9a5d5e61e6cdad49419226a7bb1ecc2f/analysta_index-0.2.8.tar.gz
+[2024-05-27 19:45:32] INFO root fetch - processPackages [pyerualjetwork]: New version: [1.2.7] Old Version: [1.2.6]
+[2024-05-27 19:45:32] WARNING root fetch - processPackages [crewops]: Skipping, unable to determine old version
+[2024-05-27 19:45:32] WARNING root fetch - processPackages [pyproject-creator]: Skipping, unable to determine old version
+[2024-05-27 19:45:32] INFO root fetch - processPackages [crewops]: Start processing: parea-ai
+[2024-05-27 19:45:32] INFO root fetch - processPackages [sysloss]: New version: [1.2.0] Old Version: [1.1.1]
+[2024-05-27 19:45:32] INFO root fetch - main [MainThread]: End processing [crewops] error
+[2024-05-27 19:45:32] WARNING root fetch - processPackages [pyabhata]: Skipping, unable to determine old version
+[2024-05-27 19:45:32] INFO root fetch - processPackages [pyproject-creator]: Start processing: portfolyo
+[2024-05-27 19:45:32] INFO root fetch - main [MainThread]: End processing [pyproject-creator] error
+[2024-05-27 19:45:32] INFO root fetch - processPackages [pyabhata]: Start processing: alita-sdk
+[2024-05-27 19:45:32] INFO root fetch - processPackages [pypaperless]: New version: [3.1.8] Old Version: [3.1.7]
+[2024-05-27 19:45:32] INFO root fetch - main [MainThread]: End processing [pyabhata] error
+[2024-05-27 19:45:32] INFO root fetch - processPackages [django-headless-cms]: New version: [0.1.1] Old Version: [0.0.3]
+[2024-05-27 19:45:32] INFO root fetch - processPackages [alita-sdk]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-27 19:45:32] INFO root fetch - processPackages [latch]: New version: [2.9.6] Old Version: [2.9.5]
+[2024-05-27 19:45:32] INFO root fetch - processPackages [pbipy]: Downloading https://files.pythonhosted.org/packages/c3/bf/61f65264b5829bf393cb15078d121fb562064d401d2c19f577534f1be73b/pbipy-2.8.2.tar.gz
+[2024-05-27 19:45:32] INFO root fetch - processPackages [alita-sdk]: Downloading https://files.pythonhosted.org/packages/58/77/699a43c7f5d3229ed63ff8d8eaba7999323921fbe9a94d3dd2d8b0f9b7a6/alita_sdk-0.1.8.tar.gz
+[2024-05-27 19:45:32] INFO root fetch - processPackages [pyerualjetwork]: Downloading https://files.pythonhosted.org/packages/e2/4d/e67206da6d1cefdfeffdf3f015517f34e3c1d2394af2cf005bb9744835e9/pyerualjetwork-1.2.6.tar.gz
+[2024-05-27 19:45:32] INFO root fetch - processPackages [parea-ai]: New version: [0.2.99] Old Version: [0.2.98]
+[2024-05-27 19:45:32] INFO root fetch - processPackages [portfolyo]: New version: [0.6.0] Old Version: [0.5.8]
+[2024-05-27 19:45:32] INFO root fetch - processPackages [sysloss]: Downloading https://files.pythonhosted.org/packages/a6/d5/5d67cffe365e695970c175eaa2a283305b6cf1b42ee4bc4533f062fa99d0/sysloss-1.1.1.tar.gz
+[2024-05-27 19:45:32] INFO root fetch - processPackages [pypaperless]: Downloading https://files.pythonhosted.org/packages/dc/79/5e530caf8273b1c5787c358c097b5985bbbe45b34964d245055030869bf6/pypaperless-3.1.7.tar.gz
+[2024-05-27 19:45:32] INFO root fetch - processPackages [latch]: Downloading https://files.pythonhosted.org/packages/79/f7/1912dae713dbd539910745289141bab27e2ec23827c1f7112accaf98bdda/latch-2.9.5.tar.gz
+[2024-05-27 19:45:33] INFO root fetch - processPackages [analysta-index]: Downloading https://files.pythonhosted.org/packages/ba/b4/33785982f782c702583fb17e14729d42cb8e9e1112a6cc6102f8435d1b45/analysta_index-0.2.9.tar.gz
+[2024-05-27 19:45:33] INFO root fetch - processPackages [django-headless-cms]: Downloading https://files.pythonhosted.org/packages/0d/d1/45f0da648d0e6de9f842e7d87908ad61bb290fcab5191b262ffe1198b79f/django_headless_cms-0.0.3.tar.gz
+[2024-05-27 19:45:33] INFO root fetch - processPackages [alita-sdk]: Downloading https://files.pythonhosted.org/packages/6d/5f/08f7caedc136fde13091ef88ae35349e7285ef4b9c181b34fb1c4dffd4ba/alita_sdk-0.1.9.tar.gz
+[2024-05-27 19:45:33] INFO root fetch - processPackages [parea-ai]: Downloading https://files.pythonhosted.org/packages/cd/80/fcef2226405a0fb8e3a9a7fbda2b47a712f63d9294eac7e3fc336bbf5b0f/parea_ai-0.2.98.tar.gz
+[2024-05-27 19:45:33] INFO root fetch - processPackages [analysta-index]: executing diffoscope
+[2024-05-27 19:45:33] INFO root fetch - processPackages [analysta-index]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/analysta_index-0.2.8.tar.gz tmp/analysta_index-0.2.9.tar.gz --markdown 20240527/a/analysta-index/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-27 19:45:33] INFO root fetch - processPackages [portfolyo]: Downloading https://files.pythonhosted.org/packages/2a/9e/d64f4a50bb772deb1b9b55b0db46173b3096d1b51e3ddd3559b05260be61/portfolyo-0.5.8.tar.gz
+[2024-05-27 19:45:33] INFO root fetch - processPackages [pbipy]: Downloading https://files.pythonhosted.org/packages/dc/80/e4726834fe872b0fdfaf4a22b5018c8e3046f6b5b76ec582d4a36f8b15ef/pbipy-2.9.0.tar.gz
+[2024-05-27 19:45:33] INFO root fetch - processPackages [pyerualjetwork]: Downloading https://files.pythonhosted.org/packages/64/be/b063be62c7a1fd6b08b77cdaf2bc10014946bdf95e289b28f32c036f375e/pyerualjetwork-1.2.7.tar.gz
+[2024-05-27 19:45:33] INFO root fetch - processPackages [sysloss]: Downloading https://files.pythonhosted.org/packages/df/92/e3810cd697e0089d207573f67e465874b95966cdd082368a0334ccfa035e/sysloss-1.2.0.tar.gz
+[2024-05-27 19:45:33] INFO root fetch - processPackages [pypaperless]: Downloading https://files.pythonhosted.org/packages/c1/49/8b21131f48e33bc0ebc91cc42c3c01a6e8b95c88f5d8acf62830d7fd229b/pypaperless-3.1.8.tar.gz
+[2024-05-27 19:45:33] INFO root fetch - processPackages [alita-sdk]: executing diffoscope
+[2024-05-27 19:45:33] INFO root fetch - processPackages [alita-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alita_sdk-0.1.8.tar.gz tmp/alita_sdk-0.1.9.tar.gz --markdown 20240527/a/alita-sdk/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-27 19:45:33] INFO root fetch - processPackages [pbipy]: executing diffoscope
+[2024-05-27 19:45:33] INFO root fetch - processPackages [pbipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pbipy-2.8.2.tar.gz tmp/pbipy-2.9.0.tar.gz --markdown 20240527/p/pbipy/2.8.2-2.9.0/README.md --exclude *.pyd
+[2024-05-27 19:45:33] INFO root fetch - processPackages [django-headless-cms]: Downloading https://files.pythonhosted.org/packages/00/dd/e09613745a1f6247716384214de710fa19602c8144fc174dce159fcf4af8/django_headless_cms-0.1.1.tar.gz
+[2024-05-27 19:45:33] INFO root fetch - processPackages [pyerualjetwork]: executing diffoscope
+[2024-05-27 19:45:33] INFO root fetch - processPackages [pyerualjetwork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyerualjetwork-1.2.6.tar.gz tmp/pyerualjetwork-1.2.7.tar.gz --markdown 20240527/p/pyerualjetwork/1.2.6-1.2.7/README.md --exclude *.pyd
+[2024-05-27 19:45:33] INFO root fetch - processPackages [latch]: Downloading https://files.pythonhosted.org/packages/5e/5a/e91171b6eca0ba929f7259719a3d389fd86242408d94dbf266925a9f4d21/latch-2.9.6.tar.gz
+[2024-05-27 19:45:33] INFO root fetch - processPackages [sysloss]: executing diffoscope
+[2024-05-27 19:45:33] INFO root fetch - processPackages [sysloss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sysloss-1.1.1.tar.gz tmp/sysloss-1.2.0.tar.gz --markdown 20240527/s/sysloss/1.1.1-1.2.0/README.md --exclude *.pyd
+[2024-05-27 19:45:33] INFO root fetch - processPackages [portfolyo]: Downloading https://files.pythonhosted.org/packages/3d/1f/c06919532b74a7d2befb2bef2ed21d7a8cac440d3315d70cb6c31741c4bb/portfolyo-0.6.0.tar.gz
+[2024-05-27 19:45:33] INFO root fetch - processPackages [latch]: executing diffoscope
+[2024-05-27 19:45:33] INFO root fetch - processPackages [latch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/latch-2.9.5.tar.gz tmp/latch-2.9.6.tar.gz --markdown 20240527/l/latch/2.9.5-2.9.6/README.md --exclude *.pyd
+[2024-05-27 19:45:33] INFO root fetch - processPackages [django-headless-cms]: executing diffoscope
+[2024-05-27 19:45:33] INFO root fetch - processPackages [django-headless-cms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_headless_cms-0.0.3.tar.gz tmp/django_headless_cms-0.1.1.tar.gz --markdown 20240527/d/django-headless-cms/0.0.3-0.1.1/README.md --exclude *.pyd
+[2024-05-27 19:45:33] INFO root fetch - processPackages [parea-ai]: Downloading https://files.pythonhosted.org/packages/9d/1c/c389e28a1a12c54ff1c8111a2f00058e77ba07333943eb06d3592659a691/parea_ai-0.2.99.tar.gz
+[2024-05-27 19:45:33] INFO root fetch - processPackages [pypaperless]: executing diffoscope
+[2024-05-27 19:45:33] INFO root fetch - processPackages [pypaperless]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypaperless-3.1.7.tar.gz tmp/pypaperless-3.1.8.tar.gz --markdown 20240527/p/pypaperless/3.1.7-3.1.8/README.md --exclude *.pyd
+[2024-05-27 19:45:33] INFO root fetch - processPackages [parea-ai]: executing diffoscope
+[2024-05-27 19:45:33] INFO root fetch - processPackages [parea-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parea_ai-0.2.98.tar.gz tmp/parea_ai-0.2.99.tar.gz --markdown 20240527/p/parea-ai/0.2.98-0.2.99/README.md --exclude *.pyd
+[2024-05-27 19:45:33] INFO root fetch - processPackages [analysta-index]: Remove: archive file [/home/abi/fetcher/tmp/analysta_index-0.2.8.tar.gz]
+[2024-05-27 19:45:33] INFO root fetch - processPackages [analysta-index]: Remove: archive file [/home/abi/fetcher/tmp/analysta_index-0.2.9.tar.gz]
+[2024-05-27 19:45:33] INFO root fetch - processPackages [portfolyo]: executing diffoscope
+[2024-05-27 19:45:33] INFO root fetch - main [MainThread]: End processing [analysta-index]: success
+[2024-05-27 19:45:33] INFO root fetch - processPackages [portfolyo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/portfolyo-0.5.8.tar.gz tmp/portfolyo-0.6.0.tar.gz --markdown 20240527/p/portfolyo/0.5.8-0.6.0/README.md --exclude *.pyd
+[2024-05-27 19:45:34] INFO root fetch - processPackages [pyerualjetwork]: Remove: archive file [/home/abi/fetcher/tmp/pyerualjetwork-1.2.6.tar.gz]
+[2024-05-27 19:45:34] INFO root fetch - processPackages [pyerualjetwork]: Remove: archive file [/home/abi/fetcher/tmp/pyerualjetwork-1.2.7.tar.gz]
+[2024-05-27 19:45:34] INFO root fetch - main [MainThread]: End processing [pyerualjetwork]: success
+[2024-05-27 19:45:34] INFO root fetch - processPackages [pbipy]: Remove: archive file [/home/abi/fetcher/tmp/pbipy-2.8.2.tar.gz]
+[2024-05-27 19:45:34] INFO root fetch - processPackages [pbipy]: Remove: archive file [/home/abi/fetcher/tmp/pbipy-2.9.0.tar.gz]
+[2024-05-27 19:45:34] INFO root fetch - main [MainThread]: End processing [pbipy]: success
+[2024-05-27 19:45:34] INFO root fetch - processPackages [alita-sdk]: Remove: archive file [/home/abi/fetcher/tmp/alita_sdk-0.1.8.tar.gz]
+[2024-05-27 19:45:34] INFO root fetch - processPackages [alita-sdk]: Remove: archive file [/home/abi/fetcher/tmp/alita_sdk-0.1.9.tar.gz]
+[2024-05-27 19:45:34] INFO root fetch - main [MainThread]: End processing [alita-sdk]: success
+[2024-05-27 19:45:34] INFO root fetch - processPackages [sysloss]: Remove: archive file [/home/abi/fetcher/tmp/sysloss-1.1.1.tar.gz]
+[2024-05-27 19:45:34] INFO root fetch - processPackages [sysloss]: Remove: archive file [/home/abi/fetcher/tmp/sysloss-1.2.0.tar.gz]
+[2024-05-27 19:45:34] INFO root fetch - main [MainThread]: End processing [sysloss]: success
+[2024-05-27 19:45:34] INFO root fetch - processPackages [django-headless-cms]: Remove: archive file [/home/abi/fetcher/tmp/django_headless_cms-0.0.3.tar.gz]
+[2024-05-27 19:45:34] INFO root fetch - processPackages [django-headless-cms]: Remove: archive file [/home/abi/fetcher/tmp/django_headless_cms-0.1.1.tar.gz]
+[2024-05-27 19:45:34] INFO root fetch - main [MainThread]: End processing [django-headless-cms]: success
+[2024-05-27 19:45:34] INFO root fetch - processPackages [pypaperless]: Remove: archive file [/home/abi/fetcher/tmp/pypaperless-3.1.7.tar.gz]
+[2024-05-27 19:45:34] INFO root fetch - processPackages [pypaperless]: Remove: archive file [/home/abi/fetcher/tmp/pypaperless-3.1.8.tar.gz]
+[2024-05-27 19:45:34] INFO root fetch - main [MainThread]: End processing [pypaperless]: success
+[2024-05-27 19:45:34] INFO root fetch - processPackages [latch]: Remove: archive file [/home/abi/fetcher/tmp/latch-2.9.5.tar.gz]
+[2024-05-27 19:45:34] INFO root fetch - processPackages [latch]: Remove: archive file [/home/abi/fetcher/tmp/latch-2.9.6.tar.gz]
+[2024-05-27 19:45:34] INFO root fetch - main [MainThread]: End processing [latch]: success
+[2024-05-27 19:45:35] INFO root fetch - processPackages [parea-ai]: Remove: archive file [/home/abi/fetcher/tmp/parea_ai-0.2.98.tar.gz]
+[2024-05-27 19:45:35] INFO root fetch - processPackages [parea-ai]: Remove: archive file [/home/abi/fetcher/tmp/parea_ai-0.2.99.tar.gz]
+[2024-05-27 19:45:35] INFO root fetch - main [MainThread]: End processing [parea-ai]: success
+[2024-05-27 19:45:35] INFO root fetch - processPackages [portfolyo]: Remove: archive file [/home/abi/fetcher/tmp/portfolyo-0.5.8.tar.gz]
+[2024-05-27 19:45:35] INFO root fetch - processPackages [portfolyo]: Remove: archive file [/home/abi/fetcher/tmp/portfolyo-0.6.0.tar.gz]
+[2024-05-27 19:45:35] INFO root fetch - main [MainThread]: End processing [portfolyo]: success
+[2024-05-27 19:45:35] INFO root fetch - main [MainThread]: Store serial: [23399333]
