@@ -5422,3 +5422,51 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 06:36:32] INFO root fetch - processPackages [sqlmath]: Remove: archive file [/home/abi/fetcher/tmp/sqlmath-2024.5.26.tar.gz]
 [2024-05-27 06:36:32] INFO root fetch - main [MainThread]: End processing [sqlmath]: success
 [2024-05-27 06:36:32] INFO root fetch - main [MainThread]: Store serial: [23390569]
+[2024-05-27 06:38:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23390569]
+[2024-05-27 06:38:52] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-27 06:38:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lasagna-ai
+[2024-05-27 06:38:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: image-collect
+[2024-05-27 06:38:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: damage-calculator
+[2024-05-27 06:38:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gifr
+[2024-05-27 06:38:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xflow-net
+[2024-05-27 06:38:52] INFO root fetch - processPackages [damage-calculator]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-05-27 06:38:52] INFO root fetch - processPackages [damage-calculator]: Downloading https://files.pythonhosted.org/packages/84/6c/cd1b8ea89f0c6d27891d82a7c12b315e0f9c9cb241ef963517ae4d71bfd3/damage_calculator-0.1.0.tar.gz
+[2024-05-27 06:38:52] INFO root fetch - processPackages [image-collect]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-27 06:38:52] INFO root fetch - processPackages [xflow-net]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-27 06:38:52] INFO root fetch - processPackages [gifr]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-27 06:38:52] INFO root fetch - processPackages [lasagna-ai]: New version: [0.1.0] Old Version: [0.0.1]
+[2024-05-27 06:38:52] INFO root fetch - processPackages [image-collect]: Downloading https://files.pythonhosted.org/packages/d3/12/f364532df153eada8013ee7012754b5cd6bf6d867f03e03aa63fc3756360/image_collect-0.0.1.tar.gz
+[2024-05-27 06:38:52] INFO root fetch - processPackages [damage-calculator]: Downloading https://files.pythonhosted.org/packages/cf/62/35fb82d0ca0ab567ce8658b1312d00e12b9f29589ab8fc31347396cc7abe/damage_calculator-0.2.0.tar.gz
+[2024-05-27 06:38:52] INFO root fetch - processPackages [gifr]: Downloading https://files.pythonhosted.org/packages/2a/e8/079925321af136bc121bc67c10fc8a9de4a855870d38cc01380fe4d481e6/gifr-0.0.4.tar.gz
+[2024-05-27 06:38:52] INFO root fetch - processPackages [lasagna-ai]: Downloading https://files.pythonhosted.org/packages/df/f0/2b56b029b600dbee85391e194d09f572e035927ad36ddbc47ec9001df4b0/lasagna_ai-0.0.1.tar.gz
+[2024-05-27 06:38:52] INFO root fetch - processPackages [xflow-net]: Downloading https://files.pythonhosted.org/packages/27/5a/80e59d03f828d99a04a88d7a32c5ddf4c37a83daa6baab74ab1c7f9773c2/xflow-net-0.1.2.tar.gz
+[2024-05-27 06:38:52] INFO root fetch - processPackages [damage-calculator]: executing diffoscope
+[2024-05-27 06:38:52] INFO root fetch - processPackages [damage-calculator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/damage_calculator-0.1.0.tar.gz tmp/damage_calculator-0.2.0.tar.gz --markdown 20240527/d/damage-calculator/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-05-27 06:38:52] INFO root fetch - processPackages [image-collect]: Downloading https://files.pythonhosted.org/packages/57/c7/af8b5d80309359c7f7097243e7af2d3303d5831873c1515f51929145ab8c/image_collect-0.0.2-py3-none-any.whl
+[2024-05-27 06:38:52] INFO root fetch - processPackages [xflow-net]: Downloading https://files.pythonhosted.org/packages/c6/45/a0d4bcaf987968040e2e096d75aaa423f2d029327b72831ba68dfbd29a75/xflow-net-0.1.3.tar.gz
+[2024-05-27 06:38:52] INFO root fetch - processPackages [image-collect]: executing diffoscope
+[2024-05-27 06:38:52] INFO root fetch - processPackages [image-collect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/image_collect-0.0.1.tar.gz tmp/image_collect-0.0.2-py3-none-any.whl.zip --markdown 20240527/i/image-collect/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-27 06:38:52] INFO root fetch - processPackages [gifr]: Downloading https://files.pythonhosted.org/packages/f0/39/42f9be0170b76fd81b2c98ecbf03770ba795bf96950db8e95aa157672585/gifr-0.0.5.tar.gz
+[2024-05-27 06:38:52] INFO root fetch - processPackages [xflow-net]: executing diffoscope
+[2024-05-27 06:38:52] INFO root fetch - processPackages [xflow-net]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xflow-net-0.1.2.tar.gz tmp/xflow-net-0.1.3.tar.gz --markdown 20240527/x/xflow-net/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-27 06:38:52] INFO root fetch - processPackages [lasagna-ai]: Downloading https://files.pythonhosted.org/packages/13/ce/14da634c2ea032997026971d322f562b3a6f4cea88ba7f7f2061b150c3bb/lasagna_ai-0.1.0.tar.gz
+[2024-05-27 06:38:53] INFO root fetch - processPackages [gifr]: executing diffoscope
+[2024-05-27 06:38:53] INFO root fetch - processPackages [gifr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gifr-0.0.4.tar.gz tmp/gifr-0.0.5.tar.gz --markdown 20240527/g/gifr/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-27 06:38:53] INFO root fetch - processPackages [damage-calculator]: Remove: archive file [/home/abi/fetcher/tmp/damage_calculator-0.1.0.tar.gz]
+[2024-05-27 06:38:53] INFO root fetch - processPackages [damage-calculator]: Remove: archive file [/home/abi/fetcher/tmp/damage_calculator-0.2.0.tar.gz]
+[2024-05-27 06:38:53] INFO root fetch - main [MainThread]: End processing [damage-calculator]: success
+[2024-05-27 06:38:53] INFO root fetch - processPackages [lasagna-ai]: executing diffoscope
+[2024-05-27 06:38:53] INFO root fetch - processPackages [lasagna-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lasagna_ai-0.0.1.tar.gz tmp/lasagna_ai-0.1.0.tar.gz --markdown 20240527/l/lasagna-ai/0.0.1-0.1.0/README.md --exclude *.pyd
+[2024-05-27 06:38:53] INFO root fetch - processPackages [image-collect]: Remove: archive file [/home/abi/fetcher/tmp/image_collect-0.0.1.tar.gz]
+[2024-05-27 06:38:53] INFO root fetch - processPackages [image-collect]: Remove: archive file [/home/abi/fetcher/tmp/image_collect-0.0.2-py3-none-any.whl.zip]
+[2024-05-27 06:38:53] INFO root fetch - main [MainThread]: End processing [image-collect]: success
+[2024-05-27 06:38:53] INFO root fetch - processPackages [xflow-net]: Remove: archive file [/home/abi/fetcher/tmp/xflow-net-0.1.2.tar.gz]
+[2024-05-27 06:38:53] INFO root fetch - processPackages [xflow-net]: Remove: archive file [/home/abi/fetcher/tmp/xflow-net-0.1.3.tar.gz]
+[2024-05-27 06:38:53] INFO root fetch - main [MainThread]: End processing [xflow-net]: success
+[2024-05-27 06:38:53] INFO root fetch - processPackages [gifr]: Remove: archive file [/home/abi/fetcher/tmp/gifr-0.0.4.tar.gz]
+[2024-05-27 06:38:53] INFO root fetch - processPackages [gifr]: Remove: archive file [/home/abi/fetcher/tmp/gifr-0.0.5.tar.gz]
+[2024-05-27 06:38:53] INFO root fetch - main [MainThread]: End processing [gifr]: success
+[2024-05-27 06:38:53] INFO root fetch - processPackages [lasagna-ai]: Remove: archive file [/home/abi/fetcher/tmp/lasagna_ai-0.0.1.tar.gz]
+[2024-05-27 06:38:53] INFO root fetch - processPackages [lasagna-ai]: Remove: archive file [/home/abi/fetcher/tmp/lasagna_ai-0.1.0.tar.gz]
+[2024-05-27 06:38:53] INFO root fetch - main [MainThread]: End processing [lasagna-ai]: success
+[2024-05-27 06:38:53] INFO root fetch - main [MainThread]: Store serial: [23390584]
