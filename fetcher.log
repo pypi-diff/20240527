@@ -5975,3 +5975,54 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 07:10:34] INFO root fetch - processPackages [keymap-drawer]: Remove: archive file [/home/abi/fetcher/tmp/keymap_drawer-0.9.0-py3-none-any.whl.zip]
 [2024-05-27 07:10:34] INFO root fetch - main [MainThread]: End processing [keymap-drawer]: success
 [2024-05-27 07:10:34] INFO root fetch - main [MainThread]: Store serial: [23390804]
+[2024-05-27 07:12:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23390804]
+[2024-05-27 07:12:42] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-27 07:12:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: betterplaysound
+[2024-05-27 07:12:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: simscv
+[2024-05-27 07:12:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rxd
+[2024-05-27 07:12:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: area-converter
+[2024-05-27 07:12:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: telegram-gmail-bot
+[2024-05-27 07:12:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: csv-summary
+[2024-05-27 07:12:42] INFO root fetch - processPackages [rxd]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-27 07:12:42] INFO root fetch - processPackages [telegram-gmail-bot]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-27 07:12:42] INFO root fetch - processPackages [simscv]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-27 07:12:42] INFO root fetch - processPackages [rxd]: Downloading https://files.pythonhosted.org/packages/21/c2/38cf8db50595c42a9258c3370b82b7757ed2485638d9d5e7cc8aa2b6ea9d/rxd-0.0.8.tar.gz
+[2024-05-27 07:12:42] INFO root fetch - processPackages [area-converter]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-27 07:12:42] INFO root fetch - processPackages [telegram-gmail-bot]: Downloading https://files.pythonhosted.org/packages/6b/7e/1326f919165c27e20e76c5f3dfab62280c8d8769408921c648207422794c/telegram_gmail_bot-0.1.8.tar.gz
+[2024-05-27 07:12:42] INFO root fetch - processPackages [simscv]: Downloading https://files.pythonhosted.org/packages/6a/59/170a98f00ca790a95663bac5fc6be7e3a0ff89bb4d8908ec93870e25159d/simscv-0.0.4.tar.gz
+[2024-05-27 07:12:42] INFO root fetch - processPackages [csv-summary]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-27 07:12:42] WARNING root fetch - processPackages [betterplaysound]: Skipping, unable to determine old version
+[2024-05-27 07:12:42] INFO root fetch - main [MainThread]: End processing [betterplaysound] error
+[2024-05-27 07:12:42] INFO root fetch - processPackages [area-converter]: Downloading https://files.pythonhosted.org/packages/d4/91/9825734e83ee667a74e6e3c338902e694d626f60d0935a945689b134235c/area_converter-0.1.5.tar.gz
+[2024-05-27 07:12:42] INFO root fetch - processPackages [rxd]: Downloading https://files.pythonhosted.org/packages/5c/98/033a1b896a5c65fec77f8aa2c7d37aaa0f4d23fe3d4b5cae4731f73ad27e/rxd-0.0.9.tar.gz
+[2024-05-27 07:12:42] INFO root fetch - processPackages [csv-summary]: Downloading https://files.pythonhosted.org/packages/79/b1/e3dac2352b12caf08bf335b1b686fc878dea62069157ae2bc4147e03c854/csv_summary-0.1.0.tar.gz
+[2024-05-27 07:12:43] INFO root fetch - processPackages [telegram-gmail-bot]: Downloading https://files.pythonhosted.org/packages/c4/3b/687bbff879a48808b9a8c8e2594b51368210cd7b9d3ac9959c5ca4b70e4a/telegram_gmail_bot-0.1.9.tar.gz
+[2024-05-27 07:12:43] INFO root fetch - processPackages [rxd]: executing diffoscope
+[2024-05-27 07:12:43] INFO root fetch - processPackages [rxd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rxd-0.0.8.tar.gz tmp/rxd-0.0.9.tar.gz --markdown 20240527/r/rxd/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-27 07:12:43] INFO root fetch - processPackages [simscv]: Downloading https://files.pythonhosted.org/packages/82/b0/93ce963c13c7391a5dbf14b5fdb45b3ec6dbb99c8fb388a8c25a468adc21/simscv-0.0.5.tar.gz
+[2024-05-27 07:12:43] INFO root fetch - processPackages [telegram-gmail-bot]: executing diffoscope
+[2024-05-27 07:12:43] INFO root fetch - processPackages [telegram-gmail-bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/telegram_gmail_bot-0.1.8.tar.gz tmp/telegram_gmail_bot-0.1.9.tar.gz --markdown 20240527/t/telegram-gmail-bot/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-27 07:12:43] INFO root fetch - processPackages [simscv]: executing diffoscope
+[2024-05-27 07:12:43] INFO root fetch - processPackages [simscv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simscv-0.0.4.tar.gz tmp/simscv-0.0.5.tar.gz --markdown 20240527/s/simscv/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-27 07:12:43] INFO root fetch - processPackages [area-converter]: Downloading https://files.pythonhosted.org/packages/1c/6e/7b72affb7907129d6c8c0e0410f8868609e74c1bb6fddaa05fd84cde502e/area_converter-0.1.6.tar.gz
+[2024-05-27 07:12:43] INFO root fetch - processPackages [area-converter]: executing diffoscope
+[2024-05-27 07:12:43] INFO root fetch - processPackages [area-converter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/area_converter-0.1.5.tar.gz tmp/area_converter-0.1.6.tar.gz --markdown 20240527/a/area-converter/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-27 07:12:43] INFO root fetch - processPackages [csv-summary]: Downloading https://files.pythonhosted.org/packages/4a/f0/298dcd7919c0e0c3ae04d63fedd45676b63ee91f83b2c9c1fa0337c5d7fc/csv_summary-0.1.1.tar.gz
+[2024-05-27 07:12:43] INFO root fetch - processPackages [csv-summary]: executing diffoscope
+[2024-05-27 07:12:43] INFO root fetch - processPackages [csv-summary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/csv_summary-0.1.0.tar.gz tmp/csv_summary-0.1.1.tar.gz --markdown 20240527/c/csv-summary/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-27 07:12:43] INFO root fetch - processPackages [rxd]: Remove: archive file [/home/abi/fetcher/tmp/rxd-0.0.8.tar.gz]
+[2024-05-27 07:12:43] INFO root fetch - processPackages [rxd]: Remove: archive file [/home/abi/fetcher/tmp/rxd-0.0.9.tar.gz]
+[2024-05-27 07:12:43] INFO root fetch - main [MainThread]: End processing [rxd]: success
+[2024-05-27 07:12:43] INFO root fetch - processPackages [telegram-gmail-bot]: Remove: archive file [/home/abi/fetcher/tmp/telegram_gmail_bot-0.1.8.tar.gz]
+[2024-05-27 07:12:43] INFO root fetch - processPackages [telegram-gmail-bot]: Remove: archive file [/home/abi/fetcher/tmp/telegram_gmail_bot-0.1.9.tar.gz]
+[2024-05-27 07:12:43] INFO root fetch - main [MainThread]: End processing [telegram-gmail-bot]: success
+[2024-05-27 07:12:43] INFO root fetch - processPackages [area-converter]: Remove: archive file [/home/abi/fetcher/tmp/area_converter-0.1.5.tar.gz]
+[2024-05-27 07:12:43] INFO root fetch - processPackages [area-converter]: Remove: archive file [/home/abi/fetcher/tmp/area_converter-0.1.6.tar.gz]
+[2024-05-27 07:12:43] INFO root fetch - main [MainThread]: End processing [area-converter]: success
+[2024-05-27 07:12:44] INFO root fetch - processPackages [simscv]: Remove: archive file [/home/abi/fetcher/tmp/simscv-0.0.4.tar.gz]
+[2024-05-27 07:12:44] INFO root fetch - processPackages [simscv]: Remove: archive file [/home/abi/fetcher/tmp/simscv-0.0.5.tar.gz]
+[2024-05-27 07:12:44] INFO root fetch - main [MainThread]: End processing [simscv]: success
+[2024-05-27 07:12:44] INFO root fetch - processPackages [csv-summary]: Remove: archive file [/home/abi/fetcher/tmp/csv_summary-0.1.0.tar.gz]
+[2024-05-27 07:12:44] INFO root fetch - processPackages [csv-summary]: Remove: archive file [/home/abi/fetcher/tmp/csv_summary-0.1.1.tar.gz]
+[2024-05-27 07:12:44] INFO root fetch - main [MainThread]: End processing [csv-summary]: success
+[2024-05-27 07:12:44] INFO root fetch - main [MainThread]: Store serial: [23390822]
