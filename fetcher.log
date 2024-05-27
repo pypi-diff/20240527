@@ -6758,3 +6758,27 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 08:05:14] INFO root fetch - processPackages [liveflask]: Remove: archive file [/home/abi/fetcher/tmp/liveflask-1.0.9rc6.tar.gz]
 [2024-05-27 08:05:14] INFO root fetch - main [MainThread]: End processing [liveflask]: success
 [2024-05-27 08:05:14] INFO root fetch - main [MainThread]: Store serial: [23391215]
+[2024-05-27 08:07:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23391215]
+[2024-05-27 08:07:22] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-27 08:07:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PlayDrissionPage
+[2024-05-27 08:07:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vis-evaluator
+[2024-05-27 08:07:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: visiongraph
+[2024-05-27 08:07:22] INFO root fetch - processPackages [PlayDrissionPage]: New version: [0.0.1.1] Old Version: [0.0.1]
+[2024-05-27 08:07:23] WARNING root fetch - processPackages [vis-evaluator]: Skipping, unable to determine old version
+[2024-05-27 08:07:23] INFO root fetch - main [MainThread]: End processing [vis-evaluator] error
+[2024-05-27 08:07:23] INFO root fetch - processPackages [visiongraph]: New version: [0.1.57.3] Old Version: [0.1.57.2]
+[2024-05-27 08:07:23] INFO root fetch - processPackages [PlayDrissionPage]: Downloading https://files.pythonhosted.org/packages/c6/c4/e8a355cd50b3cfddaa74d14a1c9cd368b6b9d1acb754c867ed91a58c76b9/PlayDrissionPage-0.0.1.tar.gz
+[2024-05-27 08:07:23] INFO root fetch - processPackages [visiongraph]: Downloading https://files.pythonhosted.org/packages/70/f5/f4bf6abe7d1fe98a276b3c6a9b65779d716dfff569b44785274c2e04607e/visiongraph-0.1.57.2-py3-none-any.whl
+[2024-05-27 08:07:23] INFO root fetch - processPackages [PlayDrissionPage]: Downloading https://files.pythonhosted.org/packages/34/82/af7316b187868151990a4ffa498c396334957c3cc73f0cabfa7db869744d/PlayDrissionPage-0.0.1.1.tar.gz
+[2024-05-27 08:07:23] INFO root fetch - processPackages [PlayDrissionPage]: executing diffoscope
+[2024-05-27 08:07:23] INFO root fetch - processPackages [PlayDrissionPage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PlayDrissionPage-0.0.1.tar.gz tmp/PlayDrissionPage-0.0.1.1.tar.gz --markdown 20240527/P/PlayDrissionPage/0.0.1-0.0.1.1/README.md --exclude *.pyd
+[2024-05-27 08:07:23] INFO root fetch - processPackages [visiongraph]: Downloading https://files.pythonhosted.org/packages/c6/01/31a942cb17613883f22ae0349ae766f62ea3e88f74ebcad478df0a806c3a/visiongraph-0.1.57.3-py3-none-any.whl
+[2024-05-27 08:07:23] INFO root fetch - processPackages [visiongraph]: executing diffoscope
+[2024-05-27 08:07:23] INFO root fetch - processPackages [visiongraph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/visiongraph-0.1.57.2-py3-none-any.whl.zip tmp/visiongraph-0.1.57.3-py3-none-any.whl.zip --markdown 20240527/v/visiongraph/0.1.57.2-0.1.57.3/README.md --exclude *.pyd
+[2024-05-27 08:07:24] INFO root fetch - processPackages [PlayDrissionPage]: Remove: archive file [/home/abi/fetcher/tmp/PlayDrissionPage-0.0.1.tar.gz]
+[2024-05-27 08:07:24] INFO root fetch - processPackages [PlayDrissionPage]: Remove: archive file [/home/abi/fetcher/tmp/PlayDrissionPage-0.0.1.1.tar.gz]
+[2024-05-27 08:07:24] INFO root fetch - main [MainThread]: End processing [PlayDrissionPage]: success
+[2024-05-27 08:07:24] INFO root fetch - processPackages [visiongraph]: Remove: archive file [/home/abi/fetcher/tmp/visiongraph-0.1.57.2-py3-none-any.whl.zip]
+[2024-05-27 08:07:24] INFO root fetch - processPackages [visiongraph]: Remove: archive file [/home/abi/fetcher/tmp/visiongraph-0.1.57.3-py3-none-any.whl.zip]
+[2024-05-27 08:07:24] INFO root fetch - main [MainThread]: End processing [visiongraph]: success
+[2024-05-27 08:07:24] INFO root fetch - main [MainThread]: Store serial: [23391224]
