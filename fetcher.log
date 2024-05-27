@@ -20115,3 +20115,56 @@ EOFError: EOF read where object expected
 [2024-05-27 17:17:42] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip]
 [2024-05-27 17:17:42] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
 [2024-05-27 17:17:42] INFO root fetch - main [MainThread]: Store serial: [23397580]
+[2024-05-27 17:19:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23397580]
+[2024-05-27 17:19:50] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-27 17:19:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flamapy-fm
+[2024-05-27 17:19:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flamapy-sat
+[2024-05-27 17:19:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qis
+[2024-05-27 17:19:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: readme-ation
+[2024-05-27 17:19:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: specklepy
+[2024-05-27 17:19:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: robotmodels
+[2024-05-27 17:19:50] INFO root fetch - processPackages [specklepy]: New version: [2.9.1] Old Version: [2.9.0]
+[2024-05-27 17:19:51] INFO root fetch - processPackages [flamapy-sat]: New version: [2.0.0.dev0] Old Version: [1.6.0.dev0]
+[2024-05-27 17:19:51] INFO root fetch - processPackages [readme-ation]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-27 17:19:51] INFO root fetch - processPackages [robotmodels]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-27 17:19:51] INFO root fetch - processPackages [flamapy-fm]: New version: [2.0.0.dev0] Old Version: [1.6.0.dev0]
+[2024-05-27 17:19:51] INFO root fetch - processPackages [qis]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-05-27 17:19:51] INFO root fetch - processPackages [flamapy-sat]: Downloading https://files.pythonhosted.org/packages/6a/62/bbdbecc9cc4a486c8934c9cef1859c5d73bcb5cd190d156b190b59795457/flamapy-sat-1.6.0.dev0.tar.gz
+[2024-05-27 17:19:51] INFO root fetch - processPackages [specklepy]: Downloading https://files.pythonhosted.org/packages/a5/3d/e272ab635ebc6d79c18c03275fab6615b6f813a9b2089b12662d041eb149/specklepy-2.9.0.tar.gz
+[2024-05-27 17:19:51] INFO root fetch - processPackages [flamapy-fm]: Downloading https://files.pythonhosted.org/packages/bc/ba/07261dbdbdf5fb693436a251bce8646fbb0f28069c6260188ed33f0dc535/flamapy-fm-1.6.0.dev0.tar.gz
+[2024-05-27 17:19:51] INFO root fetch - processPackages [qis]: Downloading https://files.pythonhosted.org/packages/bd/2c/5c832b4cf644bd5e1a4fa48ceb8daae5e87bd13310f2010ddf6a36e1b12d/qis-2.0.8.tar.gz
+[2024-05-27 17:19:51] INFO root fetch - processPackages [readme-ation]: Downloading https://files.pythonhosted.org/packages/da/56/4b15921a254a905a9fffc6a97ca169c6b2f4cb9ecce882c7eb56ca1ee0c8/readme_ation-0.1.5.tar.gz
+[2024-05-27 17:19:51] INFO root fetch - processPackages [robotmodels]: Downloading https://files.pythonhosted.org/packages/75/47/b22d6d113e119eb59f75c6abada85daa420f0615afffb4ee0430ab7973f3/robotmodels-0.1.8.tar.gz
+[2024-05-27 17:19:51] WARNING root fetch - processPackages [robotmodels]: Skipping package: exceeds size limit 45868724>=10485760
+[2024-05-27 17:19:51] INFO root fetch - main [MainThread]: End processing [robotmodels] error
+[2024-05-27 17:19:51] INFO root fetch - processPackages [flamapy-fm]: Downloading https://files.pythonhosted.org/packages/ad/ad/74ed6e8c23c59d5cc40de2a8456f242174a37a8fe4da68ae623857063055/flamapy-fm-2.0.0.dev0.tar.gz
+[2024-05-27 17:19:51] INFO root fetch - processPackages [readme-ation]: Downloading https://files.pythonhosted.org/packages/98/56/ddb1257b34fa1201cca40b922089c3d76055f55ae67984f439daaaefb14f/readme_ation-0.1.6.tar.gz
+[2024-05-27 17:19:51] INFO root fetch - processPackages [specklepy]: Downloading https://files.pythonhosted.org/packages/f8/33/c2055e2e98c3872f50585bc585a86e591e32eaae34a35d77c8db153d49be/specklepy-2.9.1.tar.gz
+[2024-05-27 17:19:51] INFO root fetch - processPackages [flamapy-fm]: executing diffoscope
+[2024-05-27 17:19:51] INFO root fetch - processPackages [flamapy-fm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flamapy-fm-1.6.0.dev0.tar.gz tmp/flamapy-fm-2.0.0.dev0.tar.gz --markdown 20240527/f/flamapy-fm/1.6.0.dev0-2.0.0.dev0/README.md --exclude *.pyd
+[2024-05-27 17:19:51] INFO root fetch - processPackages [specklepy]: executing diffoscope
+[2024-05-27 17:19:51] INFO root fetch - processPackages [specklepy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/specklepy-2.9.0.tar.gz tmp/specklepy-2.9.1.tar.gz --markdown 20240527/s/specklepy/2.9.0-2.9.1/README.md --exclude *.pyd
+[2024-05-27 17:19:51] INFO root fetch - processPackages [readme-ation]: executing diffoscope
+[2024-05-27 17:19:51] INFO root fetch - processPackages [readme-ation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/readme_ation-0.1.5.tar.gz tmp/readme_ation-0.1.6.tar.gz --markdown 20240527/r/readme-ation/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-27 17:19:51] INFO root fetch - processPackages [qis]: Downloading https://files.pythonhosted.org/packages/c0/b0/459b4f2dea31cb086b72572c0b334fc4c42992355e22b2bd289becc4d395/qis-2.0.9.tar.gz
+[2024-05-27 17:19:52] INFO root fetch - processPackages [qis]: executing diffoscope
+[2024-05-27 17:19:52] INFO root fetch - processPackages [qis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qis-2.0.8.tar.gz tmp/qis-2.0.9.tar.gz --markdown 20240527/q/qis/2.0.8-2.0.9/README.md --exclude *.pyd
+[2024-05-27 17:19:52] INFO root fetch - processPackages [readme-ation]: Remove: archive file [/home/abi/fetcher/tmp/readme_ation-0.1.5.tar.gz]
+[2024-05-27 17:19:52] INFO root fetch - processPackages [readme-ation]: Remove: archive file [/home/abi/fetcher/tmp/readme_ation-0.1.6.tar.gz]
+[2024-05-27 17:19:52] INFO root fetch - main [MainThread]: End processing [readme-ation]: success
+[2024-05-27 17:19:52] INFO root fetch - processPackages [specklepy]: Remove: archive file [/home/abi/fetcher/tmp/specklepy-2.9.0.tar.gz]
+[2024-05-27 17:19:52] INFO root fetch - processPackages [flamapy-fm]: Remove: archive file [/home/abi/fetcher/tmp/flamapy-fm-1.6.0.dev0.tar.gz]
+[2024-05-27 17:19:52] INFO root fetch - processPackages [specklepy]: Remove: archive file [/home/abi/fetcher/tmp/specklepy-2.9.1.tar.gz]
+[2024-05-27 17:19:52] INFO root fetch - processPackages [flamapy-fm]: Remove: archive file [/home/abi/fetcher/tmp/flamapy-fm-2.0.0.dev0.tar.gz]
+[2024-05-27 17:19:52] INFO root fetch - main [MainThread]: End processing [specklepy]: success
+[2024-05-27 17:19:52] INFO root fetch - main [MainThread]: End processing [flamapy-fm]: success
+[2024-05-27 17:19:53] INFO root fetch - processPackages [flamapy-sat]: Downloading https://files.pythonhosted.org/packages/34/6a/62035c1e4cfc064a88d0a0a5e072535b59101e8adc285e5d47ae41b0aa07/flamapy-sat-2.0.0.dev0.tar.gz
+[2024-05-27 17:19:53] INFO root fetch - processPackages [flamapy-sat]: executing diffoscope
+[2024-05-27 17:19:53] INFO root fetch - processPackages [flamapy-sat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flamapy-sat-1.6.0.dev0.tar.gz tmp/flamapy-sat-2.0.0.dev0.tar.gz --markdown 20240527/f/flamapy-sat/1.6.0.dev0-2.0.0.dev0/README.md --exclude *.pyd
+[2024-05-27 17:19:53] INFO root fetch - processPackages [qis]: Remove: archive file [/home/abi/fetcher/tmp/qis-2.0.8.tar.gz]
+[2024-05-27 17:19:53] INFO root fetch - processPackages [qis]: Remove: archive file [/home/abi/fetcher/tmp/qis-2.0.9.tar.gz]
+[2024-05-27 17:19:53] INFO root fetch - main [MainThread]: End processing [qis]: success
+[2024-05-27 17:19:54] INFO root fetch - processPackages [flamapy-sat]: Remove: archive file [/home/abi/fetcher/tmp/flamapy-sat-1.6.0.dev0.tar.gz]
+[2024-05-27 17:19:54] INFO root fetch - processPackages [flamapy-sat]: Remove: archive file [/home/abi/fetcher/tmp/flamapy-sat-2.0.0.dev0.tar.gz]
+[2024-05-27 17:19:54] INFO root fetch - main [MainThread]: End processing [flamapy-sat]: success
+[2024-05-27 17:19:54] INFO root fetch - main [MainThread]: Store serial: [23397596]
