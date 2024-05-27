@@ -5500,3 +5500,23 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 06:41:07] INFO root fetch - processPackages [allianceauth]: Remove: archive file [/home/abi/fetcher/tmp/allianceauth-4.1.0.tar.gz]
 [2024-05-27 06:41:07] INFO root fetch - main [MainThread]: End processing [allianceauth]: success
 [2024-05-27 06:41:07] INFO root fetch - main [MainThread]: Store serial: [23390597]
+[2024-05-27 06:43:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23390597]
+[2024-05-27 06:43:15] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-27 06:43:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: timetrace
+[2024-05-27 06:43:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: urllib3-future
+[2024-05-27 06:43:15] INFO root fetch - processPackages [timetrace]: New version: [0.2.2] Old Version: [0.2.0]
+[2024-05-27 06:43:15] INFO root fetch - processPackages [urllib3-future]: New version: [2.7.912] Old Version: [2.7.911]
+[2024-05-27 06:43:15] INFO root fetch - processPackages [timetrace]: Downloading https://files.pythonhosted.org/packages/a5/4c/c4d85ebbbd57ab9b6193c8b6dfdd359d4ef6dc8da528915250331faaf50f/timetrace-0.2.2.tar.gz
+[2024-05-27 06:43:15] INFO root fetch - processPackages [urllib3-future]: Downloading https://files.pythonhosted.org/packages/67/0f/42d77486d28d98401b75b5ba3638db20f35113652db0cebb337f15da0d78/urllib3_future-2.7.911.tar.gz
+[2024-05-27 06:43:15] INFO root fetch - processPackages [timetrace]: executing diffoscope
+[2024-05-27 06:43:15] INFO root fetch - processPackages [timetrace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/timetrace-0.2.0.tar.gz tmp/timetrace-0.2.2.tar.gz --markdown 20240527/t/timetrace/0.2.0-0.2.2/README.md --exclude *.pyd
+[2024-05-27 06:43:16] INFO root fetch - processPackages [urllib3-future]: Downloading https://files.pythonhosted.org/packages/98/29/53c24e44323ea671de0bb108a3aa42cd18e15c6212821c2ee516ad31b6ca/urllib3_future-2.7.912.tar.gz
+[2024-05-27 06:43:16] INFO root fetch - processPackages [urllib3-future]: executing diffoscope
+[2024-05-27 06:43:16] INFO root fetch - processPackages [urllib3-future]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/urllib3_future-2.7.911.tar.gz tmp/urllib3_future-2.7.912.tar.gz --markdown 20240527/u/urllib3-future/2.7.911-2.7.912/README.md --exclude *.pyd
+[2024-05-27 06:43:16] INFO root fetch - processPackages [timetrace]: Remove: archive file [/home/abi/fetcher/tmp/timetrace-0.2.0.tar.gz]
+[2024-05-27 06:43:16] INFO root fetch - processPackages [timetrace]: Remove: archive file [/home/abi/fetcher/tmp/timetrace-0.2.2.tar.gz]
+[2024-05-27 06:43:16] INFO root fetch - main [MainThread]: End processing [timetrace]: success
+[2024-05-27 06:43:18] INFO root fetch - processPackages [urllib3-future]: Remove: archive file [/home/abi/fetcher/tmp/urllib3_future-2.7.911.tar.gz]
+[2024-05-27 06:43:18] INFO root fetch - processPackages [urllib3-future]: Remove: archive file [/home/abi/fetcher/tmp/urllib3_future-2.7.912.tar.gz]
+[2024-05-27 06:43:18] INFO root fetch - main [MainThread]: End processing [urllib3-future]: success
+[2024-05-27 06:43:18] INFO root fetch - main [MainThread]: Store serial: [23390606]
