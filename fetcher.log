@@ -23871,3 +23871,87 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-05-27 19:54:24] INFO root fetch - processPackages [vlttng]: Remove: archive file [/home/abi/fetcher/tmp/vlttng-0.9.4.tar.gz]
 [2024-05-27 19:54:24] INFO root fetch - main [MainThread]: End processing [vlttng]: success
 [2024-05-27 19:54:24] INFO root fetch - main [MainThread]: Store serial: [23399489]
+[2024-05-27 19:56:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23399489]
+[2024-05-27 19:56:32] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-27 19:56:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nutritious
+[2024-05-27 19:56:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: patchwork-cli
+[2024-05-27 19:56:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: telethon-client
+[2024-05-27 19:56:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyosintleak
+[2024-05-27 19:56:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: openllm
+[2024-05-27 19:56:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: openllm-client
+[2024-05-27 19:56:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: openllm-core
+[2024-05-27 19:56:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyerualjetwork
+[2024-05-27 19:56:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: remayn
+[2024-05-27 19:56:33] INFO root fetch - processPackages [telethon-client]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-27 19:56:33] INFO root fetch - processPackages [nutritious]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-27 19:56:33] INFO root fetch - processPackages [patchwork-cli]: New version: [0.0.9] Old Version: [0.0.87]
+[2024-05-27 19:56:33] INFO root fetch - processPackages [pyerualjetwork]: New version: [1.2.7] Old Version: [1.2.6]
+[2024-05-27 19:56:33] INFO root fetch - processPackages [pyosintleak]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-27 19:56:33] INFO root fetch - processPackages [remayn]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-05-27 19:56:33] INFO root fetch - processPackages [telethon-client]: Downloading https://files.pythonhosted.org/packages/3f/f1/897950a100db4ab4ffe77a5731c2484bee09549576599b8d5012c8bb8837/telethon-client-0.0.6.tar.gz
+[2024-05-27 19:56:33] INFO root fetch - processPackages [openllm-client]: New version: [0.5.0a9] Old Version: [0.5.0a8]
+[2024-05-27 19:56:33] INFO root fetch - processPackages [openllm-core]: New version: [0.5.0a9] Old Version: [0.5.0a8]
+[2024-05-27 19:56:33] INFO root fetch - processPackages [pyerualjetwork]: Downloading https://files.pythonhosted.org/packages/e2/4d/e67206da6d1cefdfeffdf3f015517f34e3c1d2394af2cf005bb9744835e9/pyerualjetwork-1.2.6.tar.gz
+[2024-05-27 19:56:33] INFO root fetch - processPackages [patchwork-cli]: Downloading https://files.pythonhosted.org/packages/ca/ec/4694e3e7b94101c305804486e96714ef11b44bb1cde3bd96731d3ccf2f18/patchwork_cli-0.0.87.tar.gz
+[2024-05-27 19:56:33] INFO root fetch - processPackages [openllm]: New version: [0.5.0a9] Old Version: [0.5.0a8]
+[2024-05-27 19:56:33] INFO root fetch - processPackages [nutritious]: Downloading https://files.pythonhosted.org/packages/23/b6/aff4015878fb61c27d60edec462126e23dd884560f949f6b5a0e90b9ffc8/nutritious-0.1.0.tar.gz
+[2024-05-27 19:56:33] INFO root fetch - processPackages [pyosintleak]: Downloading https://files.pythonhosted.org/packages/64/95/b4a8eab15d2e007209280c7d4c8273249537da8124d9e9c6abb7dd567a76/pyosintleak-1.0.1.tar.gz
+[2024-05-27 19:56:33] INFO root fetch - processPackages [remayn]: Downloading https://files.pythonhosted.org/packages/7a/45/8a86fe3c78442a571204a0d95984f878ddf830b81baef36d98bc4e525ea6/remayn-1.0.3.tar.gz
+[2024-05-27 19:56:33] INFO root fetch - processPackages [openllm-client]: Downloading https://files.pythonhosted.org/packages/4d/a1/77e25ef6ae940d011349f3e76ae6a6504bb30758fb04c48f8996e1000da1/openllm_client-0.5.0a8.tar.gz
+[2024-05-27 19:56:33] INFO root fetch - processPackages [pyerualjetwork]: Downloading https://files.pythonhosted.org/packages/64/be/b063be62c7a1fd6b08b77cdaf2bc10014946bdf95e289b28f32c036f375e/pyerualjetwork-1.2.7.tar.gz
+[2024-05-27 19:56:33] INFO root fetch - processPackages [openllm]: Downloading https://files.pythonhosted.org/packages/25/5e/a6b702d91e584020599e12b4e578356a53a057e41006cb4d052f87b5f529/openllm-0.5.0a8.tar.gz
+[2024-05-27 19:56:33] INFO root fetch - processPackages [openllm-core]: Downloading https://files.pythonhosted.org/packages/76/67/05ea81f766677b9200494e8b14dfee33b358cd583a24b18cfccf4b5dceb4/openllm_core-0.5.0a8.tar.gz
+[2024-05-27 19:56:33] INFO root fetch - processPackages [telethon-client]: Downloading https://files.pythonhosted.org/packages/ed/a5/e65047dabc7ce63f944524fb9046ddfb0fe939aa10ae41a53c62969733a6/telethon-client-0.0.7.tar.gz
+[2024-05-27 19:56:33] INFO root fetch - processPackages [patchwork-cli]: Downloading https://files.pythonhosted.org/packages/03/6a/782494b4f0f2f910cbd71d8216970c8d8cc2abdaba82d795bf606a63de61/patchwork_cli-0.0.9.tar.gz
+[2024-05-27 19:56:33] INFO root fetch - processPackages [pyerualjetwork]: executing diffoscope
+[2024-05-27 19:56:33] INFO root fetch - processPackages [pyerualjetwork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyerualjetwork-1.2.6.tar.gz tmp/pyerualjetwork-1.2.7.tar.gz --markdown 20240527/p/pyerualjetwork/1.2.6-1.2.7/README.md --exclude *.pyd
+[2024-05-27 19:56:33] INFO root fetch - processPackages [nutritious]: Downloading https://files.pythonhosted.org/packages/26/b8/2a89855bb50577d2a26750dc1e2c395ccc409288163c22b8e9799f803773/nutritious-0.1.1.tar.gz
+[2024-05-27 19:56:33] INFO root fetch - processPackages [telethon-client]: executing diffoscope
+[2024-05-27 19:56:33] INFO root fetch - processPackages [telethon-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/telethon-client-0.0.6.tar.gz tmp/telethon-client-0.0.7.tar.gz --markdown 20240527/t/telethon-client/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-27 19:56:33] INFO root fetch - processPackages [pyosintleak]: Downloading https://files.pythonhosted.org/packages/32/e2/95d9038e68a3cd999436aac36e53c2c7e6a3b9ea1bd3b0faa8ab4b1bf4a9/pyosintleak-1.0.2.tar.gz
+[2024-05-27 19:56:33] INFO root fetch - processPackages [patchwork-cli]: executing diffoscope
+[2024-05-27 19:56:33] INFO root fetch - processPackages [patchwork-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/patchwork_cli-0.0.87.tar.gz tmp/patchwork_cli-0.0.9.tar.gz --markdown 20240527/p/patchwork-cli/0.0.87-0.0.9/README.md --exclude *.pyd
+[2024-05-27 19:56:33] INFO root fetch - processPackages [remayn]: Downloading https://files.pythonhosted.org/packages/ef/f5/487233c4ecf00ff57c80f87490fe3744164042f3db691944ba3b1cfeb0c3/remayn-1.0.4.tar.gz
+[2024-05-27 19:56:33] INFO root fetch - processPackages [nutritious]: executing diffoscope
+[2024-05-27 19:56:33] INFO root fetch - processPackages [nutritious]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nutritious-0.1.0.tar.gz tmp/nutritious-0.1.1.tar.gz --markdown 20240527/n/nutritious/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-27 19:56:33] INFO root fetch - processPackages [pyosintleak]: executing diffoscope
+[2024-05-27 19:56:33] INFO root fetch - processPackages [openllm-client]: Downloading https://files.pythonhosted.org/packages/2d/40/495eb20184d9497a8efae2f6f2386e79914d06cdca3487408619f0767652/openllm_client-0.5.0a9.tar.gz
+[2024-05-27 19:56:33] INFO root fetch - processPackages [pyosintleak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyosintleak-1.0.1.tar.gz tmp/pyosintleak-1.0.2.tar.gz --markdown 20240527/p/pyosintleak/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-27 19:56:33] INFO root fetch - processPackages [openllm]: Downloading https://files.pythonhosted.org/packages/d5/72/afd31477b3fe760b27b8778b8b2fee8e654798f516eb8e5a907791ed597a/openllm-0.5.0a9.tar.gz
+[2024-05-27 19:56:34] INFO root fetch - processPackages [openllm-core]: Downloading https://files.pythonhosted.org/packages/5f/c2/f5c0438894dd21e79a2fafd6b9133bada1deb717adbae6f8ea2187dff0f0/openllm_core-0.5.0a9.tar.gz
+[2024-05-27 19:56:34] INFO root fetch - processPackages [remayn]: executing diffoscope
+[2024-05-27 19:56:34] INFO root fetch - processPackages [remayn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remayn-1.0.3.tar.gz tmp/remayn-1.0.4.tar.gz --markdown 20240527/r/remayn/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-05-27 19:56:34] INFO root fetch - processPackages [openllm-client]: executing diffoscope
+[2024-05-27 19:56:34] INFO root fetch - processPackages [openllm-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openllm_client-0.5.0a8.tar.gz tmp/openllm_client-0.5.0a9.tar.gz --markdown 20240527/o/openllm-client/0.5.0a8-0.5.0a9/README.md --exclude *.pyd
+[2024-05-27 19:56:34] INFO root fetch - processPackages [openllm]: executing diffoscope
+[2024-05-27 19:56:34] INFO root fetch - processPackages [openllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openllm-0.5.0a8.tar.gz tmp/openllm-0.5.0a9.tar.gz --markdown 20240527/o/openllm/0.5.0a8-0.5.0a9/README.md --exclude *.pyd
+[2024-05-27 19:56:34] INFO root fetch - processPackages [openllm-core]: executing diffoscope
+[2024-05-27 19:56:34] INFO root fetch - processPackages [openllm-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openllm_core-0.5.0a8.tar.gz tmp/openllm_core-0.5.0a9.tar.gz --markdown 20240527/o/openllm-core/0.5.0a8-0.5.0a9/README.md --exclude *.pyd
+[2024-05-27 19:56:34] INFO root fetch - processPackages [pyerualjetwork]: Remove: archive file [/home/abi/fetcher/tmp/pyerualjetwork-1.2.6.tar.gz]
+[2024-05-27 19:56:34] INFO root fetch - processPackages [pyerualjetwork]: Remove: archive file [/home/abi/fetcher/tmp/pyerualjetwork-1.2.7.tar.gz]
+[2024-05-27 19:56:34] INFO root fetch - main [MainThread]: End processing [pyerualjetwork]: success
+[2024-05-27 19:56:34] INFO root fetch - processPackages [telethon-client]: Remove: archive file [/home/abi/fetcher/tmp/telethon-client-0.0.6.tar.gz]
+[2024-05-27 19:56:34] INFO root fetch - processPackages [telethon-client]: Remove: archive file [/home/abi/fetcher/tmp/telethon-client-0.0.7.tar.gz]
+[2024-05-27 19:56:34] INFO root fetch - main [MainThread]: End processing [telethon-client]: success
+[2024-05-27 19:56:34] INFO root fetch - processPackages [pyosintleak]: Remove: archive file [/home/abi/fetcher/tmp/pyosintleak-1.0.1.tar.gz]
+[2024-05-27 19:56:34] INFO root fetch - processPackages [pyosintleak]: Remove: archive file [/home/abi/fetcher/tmp/pyosintleak-1.0.2.tar.gz]
+[2024-05-27 19:56:34] INFO root fetch - main [MainThread]: End processing [pyosintleak]: success
+[2024-05-27 19:56:34] INFO root fetch - processPackages [nutritious]: Remove: archive file [/home/abi/fetcher/tmp/nutritious-0.1.0.tar.gz]
+[2024-05-27 19:56:34] INFO root fetch - processPackages [nutritious]: Remove: archive file [/home/abi/fetcher/tmp/nutritious-0.1.1.tar.gz]
+[2024-05-27 19:56:34] INFO root fetch - main [MainThread]: End processing [nutritious]: success
+[2024-05-27 19:56:35] INFO root fetch - processPackages [openllm-client]: Remove: archive file [/home/abi/fetcher/tmp/openllm_client-0.5.0a8.tar.gz]
+[2024-05-27 19:56:35] INFO root fetch - processPackages [openllm-client]: Remove: archive file [/home/abi/fetcher/tmp/openllm_client-0.5.0a9.tar.gz]
+[2024-05-27 19:56:35] INFO root fetch - main [MainThread]: End processing [openllm-client]: success
+[2024-05-27 19:56:35] INFO root fetch - processPackages [remayn]: Remove: archive file [/home/abi/fetcher/tmp/remayn-1.0.3.tar.gz]
+[2024-05-27 19:56:35] INFO root fetch - processPackages [remayn]: Remove: archive file [/home/abi/fetcher/tmp/remayn-1.0.4.tar.gz]
+[2024-05-27 19:56:35] INFO root fetch - main [MainThread]: End processing [remayn]: success
+[2024-05-27 19:56:35] INFO root fetch - processPackages [patchwork-cli]: Remove: archive file [/home/abi/fetcher/tmp/patchwork_cli-0.0.87.tar.gz]
+[2024-05-27 19:56:35] INFO root fetch - processPackages [patchwork-cli]: Remove: archive file [/home/abi/fetcher/tmp/patchwork_cli-0.0.9.tar.gz]
+[2024-05-27 19:56:35] INFO root fetch - main [MainThread]: End processing [patchwork-cli]: success
+[2024-05-27 19:56:35] INFO root fetch - processPackages [openllm]: Remove: archive file [/home/abi/fetcher/tmp/openllm-0.5.0a8.tar.gz]
+[2024-05-27 19:56:35] INFO root fetch - processPackages [openllm]: Remove: archive file [/home/abi/fetcher/tmp/openllm-0.5.0a9.tar.gz]
+[2024-05-27 19:56:35] INFO root fetch - main [MainThread]: End processing [openllm]: success
+[2024-05-27 19:56:35] INFO root fetch - processPackages [openllm-core]: Remove: archive file [/home/abi/fetcher/tmp/openllm_core-0.5.0a8.tar.gz]
+[2024-05-27 19:56:35] INFO root fetch - processPackages [openllm-core]: Remove: archive file [/home/abi/fetcher/tmp/openllm_core-0.5.0a9.tar.gz]
+[2024-05-27 19:56:35] INFO root fetch - main [MainThread]: End processing [openllm-core]: success
+[2024-05-27 19:56:35] INFO root fetch - main [MainThread]: Store serial: [23399517]
