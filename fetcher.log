@@ -14102,3 +14102,78 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 13:34:46] INFO root fetch - processPackages [morph-tool]: Remove: archive file [/home/abi/fetcher/tmp/morph-tool-2.9.1.tar.gz]
 [2024-05-27 13:34:46] INFO root fetch - main [MainThread]: End processing [morph-tool]: success
 [2024-05-27 13:34:46] INFO root fetch - main [MainThread]: Store serial: [23394765]
+[2024-05-27 13:36:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23394765]
+[2024-05-27 13:36:54] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-27 13:36:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flake8-async
+[2024-05-27 13:36:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nvfuser-cu121
+[2024-05-27 13:36:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: titli
+[2024-05-27 13:36:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: reaction-utils
+[2024-05-27 13:36:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ng-data-pipelines-sdk
+[2024-05-27 13:36:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nvfuser-cu118
+[2024-05-27 13:36:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: telethon-client
+[2024-05-27 13:36:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyexmars
+[2024-05-27 13:36:54] INFO root fetch - processPackages [flake8-async]: New version: [24.5.4] Old Version: [24.5.3]
+[2024-05-27 13:36:54] INFO root fetch - processPackages [pyexmars]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-27 13:36:54] INFO root fetch - processPackages [titli]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-27 13:36:54] INFO root fetch - processPackages [telethon-client]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-27 13:36:54] INFO root fetch - processPackages [ng-data-pipelines-sdk]: New version: [1.7.0] Old Version: [1.6.0]
+[2024-05-27 13:36:54] INFO root fetch - processPackages [reaction-utils]: New version: [1.5.0] Old Version: [1.4.0]
+[2024-05-27 13:36:55] INFO root fetch - processPackages [pyexmars]: Downloading https://files.pythonhosted.org/packages/f5/ea/450e92ecec3de8b8c48f75ea845423569b838d95282d8bd1cfbca6a93bcc/pyexmars-1.0.8.tar.gz
+[2024-05-27 13:36:55] INFO root fetch - processPackages [flake8-async]: Downloading https://files.pythonhosted.org/packages/62/18/e2ac0591b634db53236344bac6987f1ce5204fc3d74ebaca0205f892f7b7/flake8_async-24.5.3.tar.gz
+[2024-05-27 13:36:55] INFO root fetch - processPackages [nvfuser-cu118]: New version: [0.2.5.dev20240527] Old Version: [0.2.5.dev20240526]
+[2024-05-27 13:36:55] INFO root fetch - processPackages [telethon-client]: Downloading https://files.pythonhosted.org/packages/12/99/0ba9f0a24507a1b2bb85b2fbf3077472fdb8aa7cb0b3578b5e993d92322a/telethon-client-0.0.2.tar.gz
+[2024-05-27 13:36:55] INFO root fetch - processPackages [titli]: Downloading https://files.pythonhosted.org/packages/bd/38/cda518e8d62fe1b594cb3c6241eb149c8a1c5984bfb2a55add0d02349564/titli-0.0.3.tar.gz
+[2024-05-27 13:36:55] INFO root fetch - processPackages [nvfuser-cu121]: New version: [0.2.5.dev20240527] Old Version: [0.2.5.dev20240526]
+[2024-05-27 13:36:55] INFO root fetch - processPackages [ng-data-pipelines-sdk]: Downloading https://files.pythonhosted.org/packages/36/7e/16f5b69961ed73b24b387c73d7ba0fa584e1fabb4894e81fcbc6e8c10139/ng_data_pipelines_sdk-1.6.0.tar.gz
+[2024-05-27 13:36:55] INFO root fetch - processPackages [reaction-utils]: Downloading https://files.pythonhosted.org/packages/84/91/3bb648e5286f036ba4418696876e5efed3796d98f6f411ae9b81e4047d36/reaction_utils-1.4.0.tar.gz
+[2024-05-27 13:36:55] INFO root fetch - processPackages [nvfuser-cu121]: Downloading https://files.pythonhosted.org/packages/03/92/473541b79b99175e3589fff37a6d6ca18fd882a5ba9bdf19bfab857f60f6/nvfuser_cu121-0.2.5.dev20240526.tar.gz
+[2024-05-27 13:36:55] INFO root fetch - processPackages [pyexmars]: Downloading https://files.pythonhosted.org/packages/50/d1/a2145ee44f0f4ae6052d7d86300c1d66fa728fc265646b849c15ca966759/pyexmars-1.0.9.tar.gz
+[2024-05-27 13:36:55] INFO root fetch - processPackages [nvfuser-cu118]: Downloading https://files.pythonhosted.org/packages/5d/16/69e9ff08fe17e56335eadbc4501ee6dd574d6f8d41570411c7e88ac8d6ea/nvfuser_cu118-0.2.5.dev20240526.tar.gz
+[2024-05-27 13:36:55] INFO root fetch - processPackages [ng-data-pipelines-sdk]: Downloading https://files.pythonhosted.org/packages/29/59/cc36b9989f569b54f5631c50d8640176a508395933a33209f1491c2573f5/ng_data_pipelines_sdk-1.7.0.tar.gz
+[2024-05-27 13:36:55] INFO root fetch - processPackages [flake8-async]: Downloading https://files.pythonhosted.org/packages/5d/12/5a9aceaa0cb1361130f242850b87dac72fb5dd0377c408d831234d9851f4/flake8_async-24.5.4.tar.gz
+[2024-05-27 13:36:55] INFO root fetch - processPackages [titli]: Downloading https://files.pythonhosted.org/packages/b7/35/b4b97aa5ceb4a114cec8fd4d5da21cbfb66c438f0a932a60792d6b63e792/titli-0.0.4.tar.gz
+[2024-05-27 13:36:55] INFO root fetch - processPackages [pyexmars]: executing diffoscope
+[2024-05-27 13:36:55] INFO root fetch - processPackages [pyexmars]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyexmars-1.0.8.tar.gz tmp/pyexmars-1.0.9.tar.gz --markdown 20240527/p/pyexmars/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-27 13:36:55] INFO root fetch - processPackages [telethon-client]: Downloading https://files.pythonhosted.org/packages/6b/a4/0f5014d2eef7906ec9e12b528e9d4ae2f4e32852638935820ab106ec572e/telethon-client-0.0.3.tar.gz
+[2024-05-27 13:36:55] INFO root fetch - processPackages [ng-data-pipelines-sdk]: executing diffoscope
+[2024-05-27 13:36:55] INFO root fetch - processPackages [ng-data-pipelines-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ng_data_pipelines_sdk-1.6.0.tar.gz tmp/ng_data_pipelines_sdk-1.7.0.tar.gz --markdown 20240527/n/ng-data-pipelines-sdk/1.6.0-1.7.0/README.md --exclude *.pyd
+[2024-05-27 13:36:55] INFO root fetch - processPackages [titli]: executing diffoscope
+[2024-05-27 13:36:55] INFO root fetch - processPackages [titli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/titli-0.0.3.tar.gz tmp/titli-0.0.4.tar.gz --markdown 20240527/t/titli/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-27 13:36:55] INFO root fetch - processPackages [flake8-async]: executing diffoscope
+[2024-05-27 13:36:55] INFO root fetch - processPackages [flake8-async]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flake8_async-24.5.3.tar.gz tmp/flake8_async-24.5.4.tar.gz --markdown 20240527/f/flake8-async/24.5.3-24.5.4/README.md --exclude *.pyd
+[2024-05-27 13:36:55] INFO root fetch - processPackages [telethon-client]: executing diffoscope
+[2024-05-27 13:36:55] INFO root fetch - processPackages [telethon-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/telethon-client-0.0.2.tar.gz tmp/telethon-client-0.0.3.tar.gz --markdown 20240527/t/telethon-client/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-27 13:36:55] INFO root fetch - processPackages [reaction-utils]: Downloading https://files.pythonhosted.org/packages/c0/11/810b4f7d88f45480398cea193e4197a8e82730c537e687b9106368ca43ec/reaction_utils-1.5.0.tar.gz
+[2024-05-27 13:36:55] INFO root fetch - processPackages [nvfuser-cu121]: Downloading https://files.pythonhosted.org/packages/95/29/55e4553604e201f4b93fae56452078841d67769ce7cdd1a25dc2fb350754/nvfuser_cu121-0.2.5.dev20240527.tar.gz
+[2024-05-27 13:36:55] INFO root fetch - processPackages [nvfuser-cu118]: Downloading https://files.pythonhosted.org/packages/a4/07/9800b78f10c375627b7e157bb3e9b6c76ab419a08d07ba7d5af171ab167f/nvfuser_cu118-0.2.5.dev20240527.tar.gz
+[2024-05-27 13:36:55] INFO root fetch - processPackages [reaction-utils]: executing diffoscope
+[2024-05-27 13:36:55] INFO root fetch - processPackages [reaction-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reaction_utils-1.4.0.tar.gz tmp/reaction_utils-1.5.0.tar.gz --markdown 20240527/r/reaction-utils/1.4.0-1.5.0/README.md --exclude *.pyd
+[2024-05-27 13:36:55] INFO root fetch - processPackages [nvfuser-cu121]: executing diffoscope
+[2024-05-27 13:36:55] INFO root fetch - processPackages [nvfuser-cu121]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvfuser_cu121-0.2.5.dev20240526.tar.gz tmp/nvfuser_cu121-0.2.5.dev20240527.tar.gz --markdown 20240527/n/nvfuser-cu121/0.2.5.dev20240526-0.2.5.dev20240527/README.md --exclude *.pyd
+[2024-05-27 13:36:55] INFO root fetch - processPackages [nvfuser-cu118]: executing diffoscope
+[2024-05-27 13:36:55] INFO root fetch - processPackages [nvfuser-cu118]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvfuser_cu118-0.2.5.dev20240526.tar.gz tmp/nvfuser_cu118-0.2.5.dev20240527.tar.gz --markdown 20240527/n/nvfuser-cu118/0.2.5.dev20240526-0.2.5.dev20240527/README.md --exclude *.pyd
+[2024-05-27 13:36:56] INFO root fetch - processPackages [pyexmars]: Remove: archive file [/home/abi/fetcher/tmp/pyexmars-1.0.8.tar.gz]
+[2024-05-27 13:36:56] INFO root fetch - processPackages [pyexmars]: Remove: archive file [/home/abi/fetcher/tmp/pyexmars-1.0.9.tar.gz]
+[2024-05-27 13:36:56] INFO root fetch - main [MainThread]: End processing [pyexmars]: success
+[2024-05-27 13:36:56] INFO root fetch - processPackages [titli]: Remove: archive file [/home/abi/fetcher/tmp/titli-0.0.3.tar.gz]
+[2024-05-27 13:36:56] INFO root fetch - processPackages [titli]: Remove: archive file [/home/abi/fetcher/tmp/titli-0.0.4.tar.gz]
+[2024-05-27 13:36:56] INFO root fetch - main [MainThread]: End processing [titli]: success
+[2024-05-27 13:36:56] INFO root fetch - processPackages [ng-data-pipelines-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ng_data_pipelines_sdk-1.6.0.tar.gz]
+[2024-05-27 13:36:56] INFO root fetch - processPackages [ng-data-pipelines-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ng_data_pipelines_sdk-1.7.0.tar.gz]
+[2024-05-27 13:36:56] INFO root fetch - main [MainThread]: End processing [ng-data-pipelines-sdk]: success
+[2024-05-27 13:36:56] INFO root fetch - processPackages [telethon-client]: Remove: archive file [/home/abi/fetcher/tmp/telethon-client-0.0.2.tar.gz]
+[2024-05-27 13:36:56] INFO root fetch - processPackages [telethon-client]: Remove: archive file [/home/abi/fetcher/tmp/telethon-client-0.0.3.tar.gz]
+[2024-05-27 13:36:56] INFO root fetch - main [MainThread]: End processing [telethon-client]: success
+[2024-05-27 13:36:56] INFO root fetch - processPackages [nvfuser-cu121]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu121-0.2.5.dev20240526.tar.gz]
+[2024-05-27 13:36:56] INFO root fetch - processPackages [nvfuser-cu121]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu121-0.2.5.dev20240527.tar.gz]
+[2024-05-27 13:36:56] INFO root fetch - main [MainThread]: End processing [nvfuser-cu121]: success
+[2024-05-27 13:36:56] INFO root fetch - processPackages [nvfuser-cu118]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu118-0.2.5.dev20240526.tar.gz]
+[2024-05-27 13:36:56] INFO root fetch - processPackages [nvfuser-cu118]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu118-0.2.5.dev20240527.tar.gz]
+[2024-05-27 13:36:56] INFO root fetch - main [MainThread]: End processing [nvfuser-cu118]: success
+[2024-05-27 13:36:56] INFO root fetch - processPackages [flake8-async]: Remove: archive file [/home/abi/fetcher/tmp/flake8_async-24.5.3.tar.gz]
+[2024-05-27 13:36:56] INFO root fetch - processPackages [flake8-async]: Remove: archive file [/home/abi/fetcher/tmp/flake8_async-24.5.4.tar.gz]
+[2024-05-27 13:36:56] INFO root fetch - main [MainThread]: End processing [flake8-async]: success
+[2024-05-27 13:36:56] INFO root fetch - processPackages [reaction-utils]: Remove: archive file [/home/abi/fetcher/tmp/reaction_utils-1.4.0.tar.gz]
+[2024-05-27 13:36:56] INFO root fetch - processPackages [reaction-utils]: Remove: archive file [/home/abi/fetcher/tmp/reaction_utils-1.5.0.tar.gz]
+[2024-05-27 13:36:56] INFO root fetch - main [MainThread]: End processing [reaction-utils]: success
+[2024-05-27 13:36:56] INFO root fetch - main [MainThread]: Store serial: [23394790]
