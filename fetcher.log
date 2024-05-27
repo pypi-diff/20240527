@@ -22716,3 +22716,45 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-05-27 19:05:54] INFO root fetch - processPackages [ministats]: Remove: archive file [/home/abi/fetcher/tmp/ministats-0.3.2.tar.gz]
 [2024-05-27 19:05:54] INFO root fetch - main [MainThread]: End processing [ministats]: success
 [2024-05-27 19:05:54] INFO root fetch - main [MainThread]: Store serial: [23398723]
+[2024-05-27 19:07:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23398723]
+[2024-05-27 19:08:02] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-27 19:08:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: benchify
+[2024-05-27 19:08:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gucken
+[2024-05-27 19:08:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: brainextractortool
+[2024-05-27 19:08:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: unDumper
+[2024-05-27 19:08:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: quickQrLib
+[2024-05-27 19:08:02] WARNING root fetch - processPackages [brainextractortool]: Skipping, unable to determine old version
+[2024-05-27 19:08:02] INFO root fetch - main [MainThread]: End processing [brainextractortool] error
+[2024-05-27 19:08:02] INFO root fetch - processPackages [quickQrLib]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-05-27 19:08:02] INFO root fetch - processPackages [unDumper]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-27 19:08:02] INFO root fetch - processPackages [benchify]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-27 19:08:02] INFO root fetch - processPackages [quickQrLib]: Downloading https://files.pythonhosted.org/packages/b7/f9/c304427091efbc09dd0026539ff955066a746ef824e2382801b35ea96d7a/quickQrLib-0.2.2.tar.gz
+[2024-05-27 19:08:02] INFO root fetch - processPackages [unDumper]: Downloading https://files.pythonhosted.org/packages/f5/51/a18d5da4e145dd8ce4035c1bdfe95cfeb9b80c15ce7865f89abd9437b4ef/undumper-0.0.2.tar.gz
+[2024-05-27 19:08:02] INFO root fetch - processPackages [gucken]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-27 19:08:03] INFO root fetch - processPackages [benchify]: Downloading https://files.pythonhosted.org/packages/5a/0b/7b7396c47e597d572c094b8ccc9486e40a7fe4547621a5b1cf8d3221a35d/benchify-0.0.8.tar.gz
+[2024-05-27 19:08:03] INFO root fetch - processPackages [gucken]: Downloading https://files.pythonhosted.org/packages/30/69/03bcc9ee8e02a0dbe543b1d3a29f5ed45073c954aa80e4f068c49d37433b/gucken-0.1.8.tar.gz
+[2024-05-27 19:08:03] INFO root fetch - processPackages [quickQrLib]: Downloading https://files.pythonhosted.org/packages/4f/c6/28a93422f844fe15ea2064ce15e198d6c57ca5f83a0af9d5eaf24bc0d8e3/quickQrLib-0.2.3.tar.gz
+[2024-05-27 19:08:03] INFO root fetch - processPackages [unDumper]: Downloading https://files.pythonhosted.org/packages/4b/c6/ec9f91fae3e68bf44a03dfb3f883e498651819877d8174c50dbf37492264/undumper-0.0.3.tar.gz
+[2024-05-27 19:08:03] INFO root fetch - processPackages [quickQrLib]: executing diffoscope
+[2024-05-27 19:08:03] INFO root fetch - processPackages [quickQrLib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickQrLib-0.2.2.tar.gz tmp/quickQrLib-0.2.3.tar.gz --markdown 20240527/q/quickQrLib/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-05-27 19:08:03] INFO root fetch - processPackages [unDumper]: executing diffoscope
+[2024-05-27 19:08:03] INFO root fetch - processPackages [unDumper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/undumper-0.0.2.tar.gz tmp/undumper-0.0.3.tar.gz --markdown 20240527/u/unDumper/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-27 19:08:03] INFO root fetch - processPackages [benchify]: Downloading https://files.pythonhosted.org/packages/19/ed/b541b5e624a1cef56b003967dd27d6d363717167450153c1891c87d50d66/benchify-0.0.9.tar.gz
+[2024-05-27 19:08:03] INFO root fetch - processPackages [gucken]: Downloading https://files.pythonhosted.org/packages/29/d0/b74cfbafbf967b1b9f53aa5296672980aaa7eb9be49efe122e20b96a4aad/gucken-0.1.9.tar.gz
+[2024-05-27 19:08:03] INFO root fetch - processPackages [gucken]: executing diffoscope
+[2024-05-27 19:08:03] INFO root fetch - processPackages [gucken]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gucken-0.1.8.tar.gz tmp/gucken-0.1.9.tar.gz --markdown 20240527/g/gucken/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-27 19:08:03] INFO root fetch - processPackages [benchify]: executing diffoscope
+[2024-05-27 19:08:03] INFO root fetch - processPackages [benchify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/benchify-0.0.8.tar.gz tmp/benchify-0.0.9.tar.gz --markdown 20240527/b/benchify/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-27 19:08:03] INFO root fetch - processPackages [quickQrLib]: Remove: archive file [/home/abi/fetcher/tmp/quickQrLib-0.2.2.tar.gz]
+[2024-05-27 19:08:03] INFO root fetch - processPackages [quickQrLib]: Remove: archive file [/home/abi/fetcher/tmp/quickQrLib-0.2.3.tar.gz]
+[2024-05-27 19:08:03] INFO root fetch - main [MainThread]: End processing [quickQrLib]: success
+[2024-05-27 19:08:03] INFO root fetch - processPackages [unDumper]: Remove: archive file [/home/abi/fetcher/tmp/undumper-0.0.2.tar.gz]
+[2024-05-27 19:08:03] INFO root fetch - processPackages [unDumper]: Remove: archive file [/home/abi/fetcher/tmp/undumper-0.0.3.tar.gz]
+[2024-05-27 19:08:03] INFO root fetch - main [MainThread]: End processing [unDumper]: success
+[2024-05-27 19:08:04] INFO root fetch - processPackages [benchify]: Remove: archive file [/home/abi/fetcher/tmp/benchify-0.0.8.tar.gz]
+[2024-05-27 19:08:04] INFO root fetch - processPackages [benchify]: Remove: archive file [/home/abi/fetcher/tmp/benchify-0.0.9.tar.gz]
+[2024-05-27 19:08:04] INFO root fetch - main [MainThread]: End processing [benchify]: success
+[2024-05-27 19:08:04] INFO root fetch - processPackages [gucken]: Remove: archive file [/home/abi/fetcher/tmp/gucken-0.1.8.tar.gz]
+[2024-05-27 19:08:04] INFO root fetch - processPackages [gucken]: Remove: archive file [/home/abi/fetcher/tmp/gucken-0.1.9.tar.gz]
+[2024-05-27 19:08:04] INFO root fetch - main [MainThread]: End processing [gucken]: success
+[2024-05-27 19:08:04] INFO root fetch - main [MainThread]: Store serial: [23398744]
