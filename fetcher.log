@@ -5120,3 +5120,33 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 06:16:46] INFO root fetch - processPackages [assessment-episode-matcher]: Remove: archive file [/home/abi/fetcher/tmp/assessment_episode_matcher-0.5.2.tar.gz]
 [2024-05-27 06:16:46] INFO root fetch - main [MainThread]: End processing [assessment-episode-matcher]: success
 [2024-05-27 06:16:46] INFO root fetch - main [MainThread]: Store serial: [23390458]
+[2024-05-27 06:18:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23390458]
+[2024-05-27 06:18:56] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-27 06:18:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lckytools
+[2024-05-27 06:18:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: alxhttp
+[2024-05-27 06:18:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: data-ingestion-lib
+[2024-05-27 06:18:56] INFO root fetch - processPackages [lckytools]: New version: [0.0.0a7] Old Version: [0.0.0a6]
+[2024-05-27 06:18:56] INFO root fetch - processPackages [alxhttp]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-27 06:18:56] INFO root fetch - processPackages [alxhttp]: Downloading https://files.pythonhosted.org/packages/1c/73/afa48b1da1c5632a9db8461b644572ed0eadcf30bdf0a2a28fc4f9a6a39c/alxhttp-0.9.8.tar.gz
+[2024-05-27 06:18:56] INFO root fetch - processPackages [lckytools]: Downloading https://files.pythonhosted.org/packages/09/4f/2d4dfbe8e4d492e7415d672a3e8dd350825d5cde403858cd062e4775c015/lckytools-0.0.0a6.tar.gz
+[2024-05-27 06:18:56] INFO root fetch - processPackages [data-ingestion-lib]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-27 06:18:56] INFO root fetch - processPackages [data-ingestion-lib]: Downloading https://files.pythonhosted.org/packages/2c/4f/48d3b09981ad42d62471f55ec8526149bb29624174ff5d1a688977f36d09/data_ingestion_lib-1.0.2.tar.gz
+[2024-05-27 06:18:56] INFO root fetch - processPackages [alxhttp]: Downloading https://files.pythonhosted.org/packages/45/ff/f1c80ee9cc343733aae6e0f815fb07be821da7e7bfd5470b1d14f6f673ac/alxhttp-0.9.9.tar.gz
+[2024-05-27 06:18:56] INFO root fetch - processPackages [lckytools]: Downloading https://files.pythonhosted.org/packages/a1/c3/8aa4196cb41abad6fd9bf8038b25ab2d4b5311c95b3f8403537b4a5cc582/lckytools-0.0.0a7.tar.gz
+[2024-05-27 06:18:56] INFO root fetch - processPackages [alxhttp]: executing diffoscope
+[2024-05-27 06:18:56] INFO root fetch - processPackages [alxhttp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alxhttp-0.9.8.tar.gz tmp/alxhttp-0.9.9.tar.gz --markdown 20240527/a/alxhttp/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-27 06:18:56] INFO root fetch - processPackages [lckytools]: executing diffoscope
+[2024-05-27 06:18:56] INFO root fetch - processPackages [lckytools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lckytools-0.0.0a6.tar.gz tmp/lckytools-0.0.0a7.tar.gz --markdown 20240527/l/lckytools/0.0.0a6-0.0.0a7/README.md --exclude *.pyd
+[2024-05-27 06:18:57] INFO root fetch - processPackages [data-ingestion-lib]: Downloading https://files.pythonhosted.org/packages/b1/b6/bd203e8a324d4589c56ef4af98782f96b92465b3a9ff86e0c06ae74a2b9f/data_ingestion_lib-1.0.3.tar.gz
+[2024-05-27 06:18:57] INFO root fetch - processPackages [data-ingestion-lib]: executing diffoscope
+[2024-05-27 06:18:57] INFO root fetch - processPackages [data-ingestion-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_ingestion_lib-1.0.2.tar.gz tmp/data_ingestion_lib-1.0.3.tar.gz --markdown 20240527/d/data-ingestion-lib/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-05-27 06:18:57] INFO root fetch - processPackages [alxhttp]: Remove: archive file [/home/abi/fetcher/tmp/alxhttp-0.9.8.tar.gz]
+[2024-05-27 06:18:57] INFO root fetch - processPackages [alxhttp]: Remove: archive file [/home/abi/fetcher/tmp/alxhttp-0.9.9.tar.gz]
+[2024-05-27 06:18:57] INFO root fetch - main [MainThread]: End processing [alxhttp]: success
+[2024-05-27 06:18:57] INFO root fetch - processPackages [lckytools]: Remove: archive file [/home/abi/fetcher/tmp/lckytools-0.0.0a6.tar.gz]
+[2024-05-27 06:18:57] INFO root fetch - processPackages [lckytools]: Remove: archive file [/home/abi/fetcher/tmp/lckytools-0.0.0a7.tar.gz]
+[2024-05-27 06:18:57] INFO root fetch - main [MainThread]: End processing [lckytools]: success
+[2024-05-27 06:18:57] INFO root fetch - processPackages [data-ingestion-lib]: Remove: archive file [/home/abi/fetcher/tmp/data_ingestion_lib-1.0.2.tar.gz]
+[2024-05-27 06:18:57] INFO root fetch - processPackages [data-ingestion-lib]: Remove: archive file [/home/abi/fetcher/tmp/data_ingestion_lib-1.0.3.tar.gz]
+[2024-05-27 06:18:57] INFO root fetch - main [MainThread]: End processing [data-ingestion-lib]: success
+[2024-05-27 06:18:57] INFO root fetch - main [MainThread]: Store serial: [23390466]
