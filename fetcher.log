@@ -18954,3 +18954,78 @@ EOFError: EOF read where object expected
 [2024-05-27 16:34:44] INFO root fetch - processPackages [gstlearn]: Remove: archive file [/home/abi/fetcher/tmp/gstlearn-1.2.3-cp39-cp39-win_amd64.whl.zip]
 [2024-05-27 16:34:44] INFO root fetch - main [MainThread]: End processing [gstlearn]: success
 [2024-05-27 16:34:44] INFO root fetch - main [MainThread]: Store serial: [23397103]
+[2024-05-27 16:36:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23397103]
+[2024-05-27 16:36:55] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-27 16:36:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: imio.directory.core
+[2024-05-27 16:36:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hermitage
+[2024-05-27 16:36:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ivylantern
+[2024-05-27 16:36:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: steamleaderboards
+[2024-05-27 16:36:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: django-salesforce
+[2024-05-27 16:36:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: xsar
+[2024-05-27 16:36:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: eyeballvul
+[2024-05-27 16:36:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: banduppy
+[2024-05-27 16:36:56] INFO root fetch - processPackages [hermitage]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-27 16:36:56] INFO root fetch - processPackages [ivylantern]: New version: [0.1.3] Old Version: [0.1.0]
+[2024-05-27 16:36:56] INFO root fetch - processPackages [imio.directory.core]: New version: [1.2.9] Old Version: [1.2.8]
+[2024-05-27 16:36:56] INFO root fetch - processPackages [hermitage]: Downloading https://files.pythonhosted.org/packages/f8/92/7ed2d94a1a3d7cc382f52918a7e6f439bd9c927c3e9bdeb174561a815bd7/hermitage-0.2.1.tar.gz
+[2024-05-27 16:36:56] INFO root fetch - processPackages [ivylantern]: Downloading https://files.pythonhosted.org/packages/a7/d4/a1917d1e65f3c9c565f6d8519b85ad14f2e6088077922b00cf9c00ae0cc9/ivylantern-0.1.0.tar.gz
+[2024-05-27 16:36:56] INFO root fetch - processPackages [imio.directory.core]: Downloading https://files.pythonhosted.org/packages/b0/4a/446d18a1d2abda13227fa4e660b3d9452dfc59f7290f61108384942aa0a1/imio.directory.core-1.2.8.tar.gz
+[2024-05-27 16:36:56] INFO root fetch - processPackages [steamleaderboards]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-05-27 16:36:56] INFO root fetch - processPackages [xsar]: New version: [2024.5.27] Old Version: [2024.5.15]
+[2024-05-27 16:36:56] INFO root fetch - processPackages [banduppy]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-05-27 16:36:56] INFO root fetch - processPackages [eyeballvul]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-05-27 16:36:56] INFO root fetch - processPackages [django-salesforce]: New version: [5.0.2] Old Version: [5.0.1]
+[2024-05-27 16:36:56] INFO root fetch - processPackages [steamleaderboards]: Downloading https://files.pythonhosted.org/packages/93/09/41e2eda7b7a5bfb182eb802b6a8bf50965be7af3e6f3c61bd81807566660/steamleaderboards-1.1.0.tar.gz
+[2024-05-27 16:36:56] INFO root fetch - processPackages [ivylantern]: Downloading https://files.pythonhosted.org/packages/2e/9e/483610b2dffa144a3fa8f2b5749324e92df00eb4b450467517234d76c3b1/ivylantern-0.1.3.tar.gz
+[2024-05-27 16:36:56] INFO root fetch - processPackages [banduppy]: Downloading https://files.pythonhosted.org/packages/8c/99/55a27afe29c82ca76ed2886973e8326b71fc56e140cac437a7bade2422c2/banduppy-0.3.0.tar.gz
+[2024-05-27 16:36:56] INFO root fetch - processPackages [xsar]: Downloading https://files.pythonhosted.org/packages/e4/ef/ad583c09185c5df73a43e2a806c58522e461665916d72b270c2147a522d0/xsar-2024.5.15.tar.gz
+[2024-05-27 16:36:56] INFO root fetch - processPackages [eyeballvul]: Downloading https://files.pythonhosted.org/packages/65/09/9d27498ed0927be23bd34f91af5892b9d340f8618ae5b0fbc70f537ed903/eyeballvul-0.3.0.tar.gz
+[2024-05-27 16:36:56] INFO root fetch - processPackages [imio.directory.core]: Downloading https://files.pythonhosted.org/packages/1b/88/1a07e759becc6b850dffddb0bb3bb81417e08cef87191d8747c65a9cef85/imio.directory.core-1.2.9.tar.gz
+[2024-05-27 16:36:56] INFO root fetch - processPackages [django-salesforce]: Downloading https://files.pythonhosted.org/packages/70/4e/706795f038325234a7bc114e985df120389a8e81bb58591dac24bc693239/django-salesforce-5.0.1.tar.gz
+[2024-05-27 16:36:56] INFO root fetch - processPackages [ivylantern]: executing diffoscope
+[2024-05-27 16:36:56] INFO root fetch - processPackages [ivylantern]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ivylantern-0.1.0.tar.gz tmp/ivylantern-0.1.3.tar.gz --markdown 20240527/i/ivylantern/0.1.0-0.1.3/README.md --exclude *.pyd
+[2024-05-27 16:36:56] INFO root fetch - processPackages [hermitage]: Downloading https://files.pythonhosted.org/packages/7a/52/b74880d92e29a6b1918a2c6d7ecf59bc58110de11d49d595a94ae5b8e9b0/hermitage-0.2.2.tar.gz
+[2024-05-27 16:36:56] INFO root fetch - processPackages [imio.directory.core]: executing diffoscope
+[2024-05-27 16:36:56] INFO root fetch - processPackages [imio.directory.core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imio.directory.core-1.2.8.tar.gz tmp/imio.directory.core-1.2.9.tar.gz --markdown 20240527/i/imio.directory.core/1.2.8-1.2.9/README.md --exclude *.pyd
+[2024-05-27 16:36:56] INFO root fetch - processPackages [steamleaderboards]: Downloading https://files.pythonhosted.org/packages/96/ed/8d79cc2eefd0e45d849375fa64632016cee4ba49789a31e031c3d3d47bf6/steamleaderboards-1.1.1.tar.gz
+[2024-05-27 16:36:56] INFO root fetch - processPackages [hermitage]: executing diffoscope
+[2024-05-27 16:36:56] INFO root fetch - processPackages [hermitage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hermitage-0.2.1.tar.gz tmp/hermitage-0.2.2.tar.gz --markdown 20240527/h/hermitage/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-05-27 16:36:56] INFO root fetch - processPackages [banduppy]: Downloading https://files.pythonhosted.org/packages/2f/d8/6367f397d9b27d481990c14d738ef0949767be32b9c289614d2c86927dad/banduppy-0.3.1.tar.gz
+[2024-05-27 16:36:56] INFO root fetch - processPackages [eyeballvul]: Downloading https://files.pythonhosted.org/packages/26/fc/798b662aa4464d81cd60a4c370eb9ebdb4e5d62991563c840fb88c2e3abc/eyeballvul-0.4.0.tar.gz
+[2024-05-27 16:36:57] INFO root fetch - processPackages [django-salesforce]: Downloading https://files.pythonhosted.org/packages/29/04/2463a04b59e53e3571471d072e173f7fa99f006c61e53c5fb24ba1733ec5/django-salesforce-5.0.2.tar.gz
+[2024-05-27 16:36:57] INFO root fetch - processPackages [steamleaderboards]: executing diffoscope
+[2024-05-27 16:36:57] INFO root fetch - processPackages [steamleaderboards]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/steamleaderboards-1.1.0.tar.gz tmp/steamleaderboards-1.1.1.tar.gz --markdown 20240527/s/steamleaderboards/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-05-27 16:36:57] INFO root fetch - processPackages [eyeballvul]: executing diffoscope
+[2024-05-27 16:36:57] INFO root fetch - processPackages [eyeballvul]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eyeballvul-0.3.0.tar.gz tmp/eyeballvul-0.4.0.tar.gz --markdown 20240527/e/eyeballvul/0.3.0-0.4.0/README.md --exclude *.pyd
+[2024-05-27 16:36:57] INFO root fetch - processPackages [banduppy]: executing diffoscope
+[2024-05-27 16:36:57] INFO root fetch - processPackages [banduppy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/banduppy-0.3.0.tar.gz tmp/banduppy-0.3.1.tar.gz --markdown 20240527/b/banduppy/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-05-27 16:36:57] INFO root fetch - processPackages [xsar]: Downloading https://files.pythonhosted.org/packages/4c/af/273feadd549c7258a5c81413ac6fcf234fd5f243171835b9ef4d58a3baae/xsar-2024.5.27.tar.gz
+[2024-05-27 16:36:57] INFO root fetch - processPackages [django-salesforce]: executing diffoscope
+[2024-05-27 16:36:57] INFO root fetch - processPackages [django-salesforce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-salesforce-5.0.1.tar.gz tmp/django-salesforce-5.0.2.tar.gz --markdown 20240527/d/django-salesforce/5.0.1-5.0.2/README.md --exclude *.pyd
+[2024-05-27 16:36:57] INFO root fetch - processPackages [ivylantern]: Remove: archive file [/home/abi/fetcher/tmp/ivylantern-0.1.0.tar.gz]
+[2024-05-27 16:36:57] INFO root fetch - processPackages [ivylantern]: Remove: archive file [/home/abi/fetcher/tmp/ivylantern-0.1.3.tar.gz]
+[2024-05-27 16:36:57] INFO root fetch - main [MainThread]: End processing [ivylantern]: success
+[2024-05-27 16:36:57] INFO root fetch - processPackages [xsar]: executing diffoscope
+[2024-05-27 16:36:57] INFO root fetch - processPackages [xsar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xsar-2024.5.15.tar.gz tmp/xsar-2024.5.27.tar.gz --markdown 20240527/x/xsar/2024.5.15-2024.5.27/README.md --exclude *.pyd
+[2024-05-27 16:36:57] INFO root fetch - processPackages [hermitage]: Remove: archive file [/home/abi/fetcher/tmp/hermitage-0.2.1.tar.gz]
+[2024-05-27 16:36:57] INFO root fetch - processPackages [hermitage]: Remove: archive file [/home/abi/fetcher/tmp/hermitage-0.2.2.tar.gz]
+[2024-05-27 16:36:57] INFO root fetch - main [MainThread]: End processing [hermitage]: success
+[2024-05-27 16:36:57] INFO root fetch - processPackages [steamleaderboards]: Remove: archive file [/home/abi/fetcher/tmp/steamleaderboards-1.1.0.tar.gz]
+[2024-05-27 16:36:57] INFO root fetch - processPackages [steamleaderboards]: Remove: archive file [/home/abi/fetcher/tmp/steamleaderboards-1.1.1.tar.gz]
+[2024-05-27 16:36:57] INFO root fetch - main [MainThread]: End processing [steamleaderboards]: success
+[2024-05-27 16:36:57] INFO root fetch - processPackages [imio.directory.core]: Remove: archive file [/home/abi/fetcher/tmp/imio.directory.core-1.2.8.tar.gz]
+[2024-05-27 16:36:57] INFO root fetch - processPackages [imio.directory.core]: Remove: archive file [/home/abi/fetcher/tmp/imio.directory.core-1.2.9.tar.gz]
+[2024-05-27 16:36:57] INFO root fetch - main [MainThread]: End processing [imio.directory.core]: success
+[2024-05-27 16:36:57] INFO root fetch - processPackages [banduppy]: Remove: archive file [/home/abi/fetcher/tmp/banduppy-0.3.0.tar.gz]
+[2024-05-27 16:36:57] INFO root fetch - processPackages [banduppy]: Remove: archive file [/home/abi/fetcher/tmp/banduppy-0.3.1.tar.gz]
+[2024-05-27 16:36:57] INFO root fetch - main [MainThread]: End processing [banduppy]: success
+[2024-05-27 16:36:57] INFO root fetch - processPackages [eyeballvul]: Remove: archive file [/home/abi/fetcher/tmp/eyeballvul-0.3.0.tar.gz]
+[2024-05-27 16:36:57] INFO root fetch - processPackages [eyeballvul]: Remove: archive file [/home/abi/fetcher/tmp/eyeballvul-0.4.0.tar.gz]
+[2024-05-27 16:36:57] INFO root fetch - main [MainThread]: End processing [eyeballvul]: success
+[2024-05-27 16:36:58] INFO root fetch - processPackages [xsar]: Remove: archive file [/home/abi/fetcher/tmp/xsar-2024.5.15.tar.gz]
+[2024-05-27 16:36:58] INFO root fetch - processPackages [xsar]: Remove: archive file [/home/abi/fetcher/tmp/xsar-2024.5.27.tar.gz]
+[2024-05-27 16:36:58] INFO root fetch - main [MainThread]: End processing [xsar]: success
+[2024-05-27 16:36:58] INFO root fetch - processPackages [django-salesforce]: Remove: archive file [/home/abi/fetcher/tmp/django-salesforce-5.0.1.tar.gz]
+[2024-05-27 16:36:58] INFO root fetch - processPackages [django-salesforce]: Remove: archive file [/home/abi/fetcher/tmp/django-salesforce-5.0.2.tar.gz]
+[2024-05-27 16:36:58] INFO root fetch - main [MainThread]: End processing [django-salesforce]: success
+[2024-05-27 16:36:58] INFO root fetch - main [MainThread]: Store serial: [23397131]
