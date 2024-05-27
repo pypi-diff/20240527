@@ -20207,3 +20207,78 @@ EOFError: EOF read where object expected
 [2024-05-27 17:22:05] INFO root fetch - processPackages [django-pony-express]: Remove: archive file [/home/abi/fetcher/tmp/django_pony_express-2.1.0.tar.gz]
 [2024-05-27 17:22:05] INFO root fetch - main [MainThread]: End processing [django-pony-express]: success
 [2024-05-27 17:22:05] INFO root fetch - main [MainThread]: Store serial: [23397607]
+[2024-05-27 17:24:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23397607]
+[2024-05-27 17:24:13] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-27 17:24:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: readme-ation
+[2024-05-27 17:24:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: umlcharter
+[2024-05-27 17:24:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-donation
+[2024-05-27 17:24:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-donation-direct-debit
+[2024-05-27 17:24:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: skorch
+[2024-05-27 17:24:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kerrgeopy
+[2024-05-27 17:24:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: infinity-emb
+[2024-05-27 17:24:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: timeSeriesForecastpkgpy
+[2024-05-27 17:24:13] INFO root fetch - processPackages [readme-ation]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-27 17:24:14] INFO root fetch - processPackages [readme-ation]: Downloading https://files.pythonhosted.org/packages/da/56/4b15921a254a905a9fffc6a97ca169c6b2f4cb9ecce882c7eb56ca1ee0c8/readme_ation-0.1.5.tar.gz
+[2024-05-27 17:24:14] INFO root fetch - processPackages [skorch]: New version: [1.0.0] Old Version: [0.9.0]
+[2024-05-27 17:24:14] INFO root fetch - processPackages [timeSeriesForecastpkgpy]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-27 17:24:14] INFO root fetch - processPackages [kerrgeopy]: New version: [0.9.2] Old Version: [0.9.1]
+[2024-05-27 17:24:14] INFO root fetch - processPackages [infinity-emb]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-27 17:24:14] INFO root fetch - processPackages [odoo-addon-donation-direct-debit]: New version: [16.0.2.0.0] Old Version: [16.0.1.0.0.9]
+[2024-05-27 17:24:14] INFO root fetch - processPackages [umlcharter]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-27 17:24:14] INFO root fetch - processPackages [odoo-addon-donation]: New version: [16.0.2.0.0] Old Version: [16.0.1.0.0.9]
+[2024-05-27 17:24:14] INFO root fetch - processPackages [skorch]: Downloading https://files.pythonhosted.org/packages/19/c3/36d3305afd5f44663799c0d6ff962ba8e27e41c388599ac5c43e210332c5/skorch-0.9.0.tar.gz
+[2024-05-27 17:24:14] INFO root fetch - processPackages [readme-ation]: Downloading https://files.pythonhosted.org/packages/98/56/ddb1257b34fa1201cca40b922089c3d76055f55ae67984f439daaaefb14f/readme_ation-0.1.6.tar.gz
+[2024-05-27 17:24:14] INFO root fetch - processPackages [kerrgeopy]: Downloading https://files.pythonhosted.org/packages/60/39/f3c7bed63bb35de0f480b0a520923d7b963cfdd5cac68aac09ea41b80e66/kerrgeopy-0.9.1.tar.gz
+[2024-05-27 17:24:14] INFO root fetch - processPackages [umlcharter]: Downloading https://files.pythonhosted.org/packages/02/87/0b3051ebc064fa08c6b217473b701e9e61636406d4e60065acaae48e3e07/umlcharter-0.0.6.tar.gz
+[2024-05-27 17:24:14] INFO root fetch - processPackages [odoo-addon-donation-direct-debit]: Downloading https://files.pythonhosted.org/packages/6e/9f/8139f426cdd62f7f961c7fcc7157bdb732d36688a4aedd7f7c3621da4302/odoo_addon_donation_direct_debit-16.0.1.0.0.9-py3-none-any.whl
+[2024-05-27 17:24:14] INFO root fetch - processPackages [odoo-addon-donation]: Downloading https://files.pythonhosted.org/packages/38/8c/30db4882e14c0bac352c85b4520d6a308e5911668a38b83772a3b6e7cf9c/odoo_addon_donation-16.0.1.0.0.9-py3-none-any.whl
+[2024-05-27 17:24:14] INFO root fetch - processPackages [timeSeriesForecastpkgpy]: Downloading https://files.pythonhosted.org/packages/4a/e8/71d88e7b09eea6c8bf2ffa50a4f199df3b2cbd26ba0e1c822befb43a1c93/timeSeriesForecastpkgpy-0.0.1.tar.gz
+[2024-05-27 17:24:14] INFO root fetch - processPackages [infinity-emb]: Downloading https://files.pythonhosted.org/packages/e1/02/a5c42113e6ded77952b74edc5311849e0d39a29bdbbba080baf5b702a314/infinity_emb-0.0.8.tar.gz
+[2024-05-27 17:24:14] INFO root fetch - processPackages [readme-ation]: executing diffoscope
+[2024-05-27 17:24:14] INFO root fetch - processPackages [readme-ation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/readme_ation-0.1.5.tar.gz tmp/readme_ation-0.1.6.tar.gz --markdown 20240527/r/readme-ation/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-27 17:24:14] INFO root fetch - processPackages [skorch]: Downloading https://files.pythonhosted.org/packages/1d/a2/ebb85f845e3fe319af724aa2a5f5a2faff9af51bbeb313775f8a481e354c/skorch-1.0.0.tar.gz
+[2024-05-27 17:24:14] INFO root fetch - processPackages [umlcharter]: Downloading https://files.pythonhosted.org/packages/9e/6c/916e83adde77fbebf52f762fa27ea3f9bb3c5f4601b42eb2e7dc0762696b/umlcharter-0.0.7.tar.gz
+[2024-05-27 17:24:14] INFO root fetch - processPackages [kerrgeopy]: Downloading https://files.pythonhosted.org/packages/aa/5e/2f1ab160b4e379241ac06275f9303e44741c929eda990f7c2c9371e9a26f/kerrgeopy-0.9.2.tar.gz
+[2024-05-27 17:24:14] INFO root fetch - processPackages [timeSeriesForecastpkgpy]: Downloading https://files.pythonhosted.org/packages/b6/12/b33bf47e8fbd9334ca6f5f4424569795df04a425e9a8bfa8aace71de0b7c/timeSeriesForecastpkgpy-0.0.2.tar.gz
+[2024-05-27 17:24:14] INFO root fetch - processPackages [infinity-emb]: Downloading https://files.pythonhosted.org/packages/fc/88/92d6920e7e15b0996da9f4ab00528c428f10df26f8a0a4d5d3a5abe1180a/infinity_emb-0.0.9.tar.gz
+[2024-05-27 17:24:14] INFO root fetch - processPackages [odoo-addon-donation-direct-debit]: Downloading https://files.pythonhosted.org/packages/81/f0/b51b9fbef8399b52d0c3ca90f7b7de2bb0744f35329c29d758a3175c5617/odoo_addon_donation_direct_debit-16.0.2.0.0-py3-none-any.whl
+[2024-05-27 17:24:14] INFO root fetch - processPackages [skorch]: executing diffoscope
+[2024-05-27 17:24:14] INFO root fetch - processPackages [skorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skorch-0.9.0.tar.gz tmp/skorch-1.0.0.tar.gz --markdown 20240527/s/skorch/0.9.0-1.0.0/README.md --exclude *.pyd
+[2024-05-27 17:24:14] INFO root fetch - processPackages [umlcharter]: executing diffoscope
+[2024-05-27 17:24:14] INFO root fetch - processPackages [umlcharter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/umlcharter-0.0.6.tar.gz tmp/umlcharter-0.0.7.tar.gz --markdown 20240527/u/umlcharter/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-27 17:24:14] INFO root fetch - processPackages [kerrgeopy]: executing diffoscope
+[2024-05-27 17:24:14] INFO root fetch - processPackages [kerrgeopy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kerrgeopy-0.9.1.tar.gz tmp/kerrgeopy-0.9.2.tar.gz --markdown 20240527/k/kerrgeopy/0.9.1-0.9.2/README.md --exclude *.pyd
+[2024-05-27 17:24:14] INFO root fetch - processPackages [infinity-emb]: executing diffoscope
+[2024-05-27 17:24:14] INFO root fetch - processPackages [infinity-emb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/infinity_emb-0.0.8.tar.gz tmp/infinity_emb-0.0.9.tar.gz --markdown 20240527/i/infinity-emb/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-27 17:24:14] INFO root fetch - processPackages [odoo-addon-donation-direct-debit]: executing diffoscope
+[2024-05-27 17:24:14] INFO root fetch - processPackages [odoo-addon-donation-direct-debit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_donation_direct_debit-16.0.1.0.0.9-py3-none-any.whl.zip tmp/odoo_addon_donation_direct_debit-16.0.2.0.0-py3-none-any.whl.zip --markdown 20240527/o/odoo-addon-donation-direct-debit/16.0.1.0.0.9-16.0.2.0.0/README.md --exclude *.pyd
+[2024-05-27 17:24:14] INFO root fetch - processPackages [timeSeriesForecastpkgpy]: executing diffoscope
+[2024-05-27 17:24:14] INFO root fetch - processPackages [timeSeriesForecastpkgpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/timeSeriesForecastpkgpy-0.0.1.tar.gz tmp/timeSeriesForecastpkgpy-0.0.2.tar.gz --markdown 20240527/t/timeSeriesForecastpkgpy/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-27 17:24:14] INFO root fetch - processPackages [readme-ation]: Remove: archive file [/home/abi/fetcher/tmp/readme_ation-0.1.5.tar.gz]
+[2024-05-27 17:24:14] INFO root fetch - processPackages [readme-ation]: Remove: archive file [/home/abi/fetcher/tmp/readme_ation-0.1.6.tar.gz]
+[2024-05-27 17:24:14] INFO root fetch - main [MainThread]: End processing [readme-ation]: success
+[2024-05-27 17:24:15] INFO root fetch - processPackages [odoo-addon-donation]: Downloading https://files.pythonhosted.org/packages/2b/6c/fe366dd22e9430eb67d4737a9958028cf322793013ce1927b96a78e5ce81/odoo_addon_donation-16.0.2.0.0-py3-none-any.whl
+[2024-05-27 17:24:15] INFO root fetch - processPackages [odoo-addon-donation]: executing diffoscope
+[2024-05-27 17:24:15] INFO root fetch - processPackages [odoo-addon-donation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_donation-16.0.1.0.0.9-py3-none-any.whl.zip tmp/odoo_addon_donation-16.0.2.0.0-py3-none-any.whl.zip --markdown 20240527/o/odoo-addon-donation/16.0.1.0.0.9-16.0.2.0.0/README.md --exclude *.pyd
+[2024-05-27 17:24:15] INFO root fetch - processPackages [umlcharter]: Remove: archive file [/home/abi/fetcher/tmp/umlcharter-0.0.6.tar.gz]
+[2024-05-27 17:24:15] INFO root fetch - processPackages [umlcharter]: Remove: archive file [/home/abi/fetcher/tmp/umlcharter-0.0.7.tar.gz]
+[2024-05-27 17:24:15] INFO root fetch - main [MainThread]: End processing [umlcharter]: success
+[2024-05-27 17:24:15] INFO root fetch - processPackages [timeSeriesForecastpkgpy]: Remove: archive file [/home/abi/fetcher/tmp/timeSeriesForecastpkgpy-0.0.1.tar.gz]
+[2024-05-27 17:24:15] INFO root fetch - processPackages [timeSeriesForecastpkgpy]: Remove: archive file [/home/abi/fetcher/tmp/timeSeriesForecastpkgpy-0.0.2.tar.gz]
+[2024-05-27 17:24:15] INFO root fetch - main [MainThread]: End processing [timeSeriesForecastpkgpy]: success
+[2024-05-27 17:24:15] INFO root fetch - processPackages [kerrgeopy]: Remove: archive file [/home/abi/fetcher/tmp/kerrgeopy-0.9.1.tar.gz]
+[2024-05-27 17:24:15] INFO root fetch - processPackages [kerrgeopy]: Remove: archive file [/home/abi/fetcher/tmp/kerrgeopy-0.9.2.tar.gz]
+[2024-05-27 17:24:15] INFO root fetch - main [MainThread]: End processing [kerrgeopy]: success
+[2024-05-27 17:24:15] INFO root fetch - processPackages [infinity-emb]: Remove: archive file [/home/abi/fetcher/tmp/infinity_emb-0.0.8.tar.gz]
+[2024-05-27 17:24:15] INFO root fetch - processPackages [infinity-emb]: Remove: archive file [/home/abi/fetcher/tmp/infinity_emb-0.0.9.tar.gz]
+[2024-05-27 17:24:15] INFO root fetch - main [MainThread]: End processing [infinity-emb]: success
+[2024-05-27 17:24:15] INFO root fetch - processPackages [odoo-addon-donation-direct-debit]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_donation_direct_debit-16.0.1.0.0.9-py3-none-any.whl.zip]
+[2024-05-27 17:24:15] INFO root fetch - processPackages [odoo-addon-donation-direct-debit]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_donation_direct_debit-16.0.2.0.0-py3-none-any.whl.zip]
+[2024-05-27 17:24:15] INFO root fetch - main [MainThread]: End processing [odoo-addon-donation-direct-debit]: success
+[2024-05-27 17:24:15] INFO root fetch - processPackages [skorch]: Remove: archive file [/home/abi/fetcher/tmp/skorch-0.9.0.tar.gz]
+[2024-05-27 17:24:15] INFO root fetch - processPackages [skorch]: Remove: archive file [/home/abi/fetcher/tmp/skorch-1.0.0.tar.gz]
+[2024-05-27 17:24:15] INFO root fetch - main [MainThread]: End processing [skorch]: success
+[2024-05-27 17:24:16] INFO root fetch - processPackages [odoo-addon-donation]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_donation-16.0.1.0.0.9-py3-none-any.whl.zip]
+[2024-05-27 17:24:16] INFO root fetch - processPackages [odoo-addon-donation]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_donation-16.0.2.0.0-py3-none-any.whl.zip]
+[2024-05-27 17:24:16] INFO root fetch - main [MainThread]: End processing [odoo-addon-donation]: success
+[2024-05-27 17:24:16] INFO root fetch - main [MainThread]: Store serial: [23397632]
