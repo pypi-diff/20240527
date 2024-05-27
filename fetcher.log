@@ -17548,3 +17548,102 @@ EOFError: EOF read where object expected
 [2024-05-27 15:48:22] INFO root fetch - processPackages [odoo-addon-account-financial-risk]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_financial_risk-17.0.1.0.0.2-py3-none-any.whl.zip]
 [2024-05-27 15:48:22] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-financial-risk]: success
 [2024-05-27 15:48:22] INFO root fetch - main [MainThread]: Store serial: [23396467]
+[2024-05-27 15:50:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23396467]
+[2024-05-27 15:50:31] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-05-27 15:50:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: CI-CloudConnector
+[2024-05-27 15:50:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: z2m-log-parser
+[2024-05-27 15:50:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: alwhatsapp
+[2024-05-27 15:50:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cerebrum-scanner
+[2024-05-27 15:50:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: typed-blocks
+[2024-05-27 15:50:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdt-path
+[2024-05-27 15:50:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nlpx
+[2024-05-27 15:50:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: CADET-RDM
+[2024-05-27 15:50:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo-addon-account-payment-return
+[2024-05-27 15:50:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: Donut-LLM-Tools
+[2024-05-27 15:50:31] INFO root fetch - processPackages [z2m-log-parser]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-27 15:50:31] INFO root fetch - processPackages [CI-CloudConnector]: New version: [0.9] Old Version: [0.85]
+[2024-05-27 15:50:31] INFO root fetch - processPackages [cdt-path]: New version: [2.1.4] Old Version: [2.1.1]
+[2024-05-27 15:50:31] INFO root fetch - processPackages [nlpx]: New version: [1.2.1] Old Version: [1.2.0]
+[2024-05-27 15:50:31] WARNING root fetch - processPackages [cerebrum-scanner]: Skipping, unable to determine old version
+[2024-05-27 15:50:31] INFO root fetch - processPackages [cerebrum-scanner]: Start processing: pyquafu
+[2024-05-27 15:50:31] INFO root fetch - main [MainThread]: End processing [cerebrum-scanner] error
+[2024-05-27 15:50:31] INFO root fetch - processPackages [alwhatsapp]: New version: [0.5] Old Version: [0.3]
+[2024-05-27 15:50:31] INFO root fetch - processPackages [typed-blocks]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-27 15:50:31] INFO root fetch - processPackages [z2m-log-parser]: Downloading https://files.pythonhosted.org/packages/3c/bf/045aab314e9a6c6ba6648f7196be4382d805417677bd4ab8597079a40eec/z2m_log_parser-0.0.8.tar.gz
+[2024-05-27 15:50:31] WARNING root fetch - processPackages [Donut-LLM-Tools]: Skipping, unable to determine old version
+[2024-05-27 15:50:31] INFO root fetch - processPackages [Donut-LLM-Tools]: Start processing: instructor
+[2024-05-27 15:50:31] INFO root fetch - main [MainThread]: End processing [Donut-LLM-Tools] error
+[2024-05-27 15:50:31] INFO root fetch - processPackages [odoo-addon-account-payment-return]: New version: [16.0.1.0.2] Old Version: [16.0.1.0.1.6]
+[2024-05-27 15:50:31] INFO root fetch - processPackages [nlpx]: Downloading https://files.pythonhosted.org/packages/4b/4e/6697b1c45faa85012ab96be7489a4b0c5a840e8e23cf1f53e570f24f5817/nlpx-1.2.0.tar.gz
+[2024-05-27 15:50:31] INFO root fetch - processPackages [CADET-RDM]: New version: [0.0.9] Old Version: [0.0.6]
+[2024-05-27 15:50:31] INFO root fetch - processPackages [cdt-path]: Downloading https://files.pythonhosted.org/packages/9f/90/87d9962c05b881d9a46b459c6c2f82f97d52049a1b4fde3f68cc2af654f7/cdt_path-2.1.1.tar.gz
+[2024-05-27 15:50:32] INFO root fetch - processPackages [CI-CloudConnector]: Downloading https://files.pythonhosted.org/packages/cd/8e/3fea77dc58ae0a5c578e67968a688d398354f80ebbfaf97d5c4ee7da1dac/ci_cloudconnector-0.85.tar.gz
+[2024-05-27 15:50:32] INFO root fetch - processPackages [pyquafu]: New version: [0.4.0] Old Version: [0.3.6]
+[2024-05-27 15:50:32] INFO root fetch - processPackages [alwhatsapp]: Downloading https://files.pythonhosted.org/packages/45/2c/1080327c61db39bd34adc704dbfea88150f20cb04fa7a40e14ef3b9e105f/alwhatsapp-0.3-py3-none-any.whl
+[2024-05-27 15:50:32] INFO root fetch - processPackages [instructor]: New version: [1.3.2] Old Version: [1.3.1]
+[2024-05-27 15:50:32] INFO root fetch - processPackages [typed-blocks]: Downloading https://files.pythonhosted.org/packages/ae/54/f0f92843fa14270ed94a77e503fedd257e248ec484464c5f96702eb2e2d9/typed-blocks-0.9.8.tar.gz
+[2024-05-27 15:50:32] INFO root fetch - processPackages [z2m-log-parser]: Downloading https://files.pythonhosted.org/packages/71/97/7033f666d3eb6726fdd071cf1160a1c1a82f0c16dce62d13168b432e6ac1/z2m_log_parser-0.0.9.tar.gz
+[2024-05-27 15:50:32] INFO root fetch - processPackages [odoo-addon-account-payment-return]: Downloading https://files.pythonhosted.org/packages/3a/05/496ab796a941cd0ebe6ef1a86c2d814b8fabb0a085392b18fded81150f98/odoo_addon_account_payment_return-16.0.1.0.1.6-py3-none-any.whl
+[2024-05-27 15:50:32] INFO root fetch - processPackages [cdt-path]: Downloading https://files.pythonhosted.org/packages/32/91/11d28e759438bb441bf60c3b7dde192dca78bf8f826ac071cf5f0a06697c/cdt_path-2.1.4.tar.gz
+[2024-05-27 15:50:32] INFO root fetch - processPackages [CADET-RDM]: Downloading https://files.pythonhosted.org/packages/b8/6e/f505128df1dfe596bc3fd6231cab925531191e708a6d398e062915715376/CADET-RDM-0.0.6.tar.gz
+[2024-05-27 15:50:32] INFO root fetch - processPackages [pyquafu]: Downloading https://files.pythonhosted.org/packages/93/07/91042033eb38fce666ae3c7bf354f17354e0509ddfac8610ff90f84a1055/pyquafu-0.3.6-cp39-cp39-win_amd64.whl
+[2024-05-27 15:50:32] INFO root fetch - processPackages [CI-CloudConnector]: Downloading https://files.pythonhosted.org/packages/4c/eb/b4639debe39d86d516b4aa0b9e6cdec32e0a06d0220a60ed52a6b5fada1f/CI_CloudConnector-0.9.zip
+[2024-05-27 15:50:32] INFO root fetch - processPackages [nlpx]: Downloading https://files.pythonhosted.org/packages/c1/d5/53a5bb6188696c91dad2bd841a8f0d74f5a900a118442fea2344f31575aa/nlpx-1.2.1.tar.gz
+[2024-05-27 15:50:32] INFO root fetch - processPackages [z2m-log-parser]: executing diffoscope
+[2024-05-27 15:50:32] INFO root fetch - processPackages [z2m-log-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/z2m_log_parser-0.0.8.tar.gz tmp/z2m_log_parser-0.0.9.tar.gz --markdown 20240527/z/z2m-log-parser/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-27 15:50:32] INFO root fetch - processPackages [cdt-path]: executing diffoscope
+[2024-05-27 15:50:32] INFO root fetch - processPackages [cdt-path]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdt_path-2.1.1.tar.gz tmp/cdt_path-2.1.4.tar.gz --markdown 20240527/c/cdt-path/2.1.1-2.1.4/README.md --exclude *.pyd
+[2024-05-27 15:50:32] INFO root fetch - processPackages [instructor]: Downloading https://files.pythonhosted.org/packages/73/a2/20a741a1eb7d96316e6f194f8441af9c4cc984e7cbddc4b9f06649bb801b/instructor-1.3.1.tar.gz
+[2024-05-27 15:50:32] INFO root fetch - processPackages [CI-CloudConnector]: executing diffoscope
+[2024-05-27 15:50:32] INFO root fetch - processPackages [CI-CloudConnector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ci_cloudconnector-0.85.tar.gz tmp/CI_CloudConnector-0.9.zip --markdown 20240527/C/CI-CloudConnector/0.85-0.9/README.md --exclude *.pyd
+[2024-05-27 15:50:32] INFO root fetch - processPackages [nlpx]: executing diffoscope
+[2024-05-27 15:50:32] INFO root fetch - processPackages [nlpx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nlpx-1.2.0.tar.gz tmp/nlpx-1.2.1.tar.gz --markdown 20240527/n/nlpx/1.2.0-1.2.1/README.md --exclude *.pyd
+[2024-05-27 15:50:32] INFO root fetch - processPackages [alwhatsapp]: Downloading https://files.pythonhosted.org/packages/74/4e/f04d79a968ca22e84c7cd56aa5cc2803b3eb8b5f82e52087e6c42c625f61/alwhatsapp-0.5-py3-none-any.whl
+[2024-05-27 15:50:32] INFO root fetch - processPackages [alwhatsapp]: executing diffoscope
+[2024-05-27 15:50:32] INFO root fetch - processPackages [alwhatsapp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alwhatsapp-0.3-py3-none-any.whl.zip tmp/alwhatsapp-0.5-py3-none-any.whl.zip --markdown 20240527/a/alwhatsapp/0.3-0.5/README.md --exclude *.pyd
+[2024-05-27 15:50:32] INFO root fetch - processPackages [typed-blocks]: Downloading https://files.pythonhosted.org/packages/22/ee/31b515dced27bee07e91d33e78a5d0eacc7cc71f545ea156740473ea5f57/typed-blocks-0.9.9.tar.gz
+[2024-05-27 15:50:32] INFO root fetch - processPackages [CADET-RDM]: Downloading https://files.pythonhosted.org/packages/8c/4f/cc6992d3cee849248ebcafed89c42d8801d905fc23651ef92b0ef0a83cb5/CADET-RDM-0.0.9.tar.gz
+[2024-05-27 15:50:32] INFO root fetch - processPackages [pyquafu]: Downloading https://files.pythonhosted.org/packages/e6/c1/36d4bb3d4a7fa73cfd3413460c119fbf50e3498ab52fa47626b3dc641ad5/pyquafu-0.4.0-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-27 15:50:32] INFO root fetch - processPackages [instructor]: Downloading https://files.pythonhosted.org/packages/f2/4c/c023a6e27a1b96da887c12998d95791bca2c4cb8b5d86a8db4f057159e56/instructor-1.3.2.tar.gz
+[2024-05-27 15:50:32] INFO root fetch - processPackages [CADET-RDM]: executing diffoscope
+[2024-05-27 15:50:32] INFO root fetch - processPackages [CADET-RDM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CADET-RDM-0.0.6.tar.gz tmp/CADET-RDM-0.0.9.tar.gz --markdown 20240527/C/CADET-RDM/0.0.6-0.0.9/README.md --exclude *.pyd
+[2024-05-27 15:50:32] INFO root fetch - processPackages [odoo-addon-account-payment-return]: Downloading https://files.pythonhosted.org/packages/3f/51/51ac3d32161d0a7ee0fcfe96056fcba9469136eceeddd1d12c8071816e37/odoo_addon_account_payment_return-16.0.1.0.2-py3-none-any.whl
+[2024-05-27 15:50:32] INFO root fetch - processPackages [typed-blocks]: executing diffoscope
+[2024-05-27 15:50:32] INFO root fetch - processPackages [typed-blocks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typed-blocks-0.9.8.tar.gz tmp/typed-blocks-0.9.9.tar.gz --markdown 20240527/t/typed-blocks/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-27 15:50:33] INFO root fetch - processPackages [z2m-log-parser]: Remove: archive file [/home/abi/fetcher/tmp/z2m_log_parser-0.0.8.tar.gz]
+[2024-05-27 15:50:33] INFO root fetch - processPackages [z2m-log-parser]: Remove: archive file [/home/abi/fetcher/tmp/z2m_log_parser-0.0.9.tar.gz]
+[2024-05-27 15:50:33] INFO root fetch - main [MainThread]: End processing [z2m-log-parser]: success
+[2024-05-27 15:50:33] INFO root fetch - processPackages [odoo-addon-account-payment-return]: executing diffoscope
+[2024-05-27 15:50:33] INFO root fetch - processPackages [odoo-addon-account-payment-return]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_payment_return-16.0.1.0.1.6-py3-none-any.whl.zip tmp/odoo_addon_account_payment_return-16.0.1.0.2-py3-none-any.whl.zip --markdown 20240527/o/odoo-addon-account-payment-return/16.0.1.0.1.6-16.0.1.0.2/README.md --exclude *.pyd
+[2024-05-27 15:50:33] INFO root fetch - processPackages [CI-CloudConnector]: Remove: archive file [/home/abi/fetcher/tmp/ci_cloudconnector-0.85.tar.gz]
+[2024-05-27 15:50:33] INFO root fetch - processPackages [CI-CloudConnector]: Remove: archive file [/home/abi/fetcher/tmp/CI_CloudConnector-0.9.zip]
+[2024-05-27 15:50:33] INFO root fetch - main [MainThread]: End processing [CI-CloudConnector]: success
+[2024-05-27 15:50:33] INFO root fetch - processPackages [nlpx]: Remove: archive file [/home/abi/fetcher/tmp/nlpx-1.2.0.tar.gz]
+[2024-05-27 15:50:33] INFO root fetch - processPackages [nlpx]: Remove: archive file [/home/abi/fetcher/tmp/nlpx-1.2.1.tar.gz]
+[2024-05-27 15:50:33] INFO root fetch - main [MainThread]: End processing [nlpx]: success
+[2024-05-27 15:50:33] INFO root fetch - processPackages [cdt-path]: Remove: archive file [/home/abi/fetcher/tmp/cdt_path-2.1.1.tar.gz]
+[2024-05-27 15:50:33] INFO root fetch - processPackages [cdt-path]: Remove: archive file [/home/abi/fetcher/tmp/cdt_path-2.1.4.tar.gz]
+[2024-05-27 15:50:33] INFO root fetch - main [MainThread]: End processing [cdt-path]: success
+[2024-05-27 15:50:33] INFO root fetch - processPackages [alwhatsapp]: Remove: archive file [/home/abi/fetcher/tmp/alwhatsapp-0.3-py3-none-any.whl.zip]
+[2024-05-27 15:50:33] INFO root fetch - processPackages [alwhatsapp]: Remove: archive file [/home/abi/fetcher/tmp/alwhatsapp-0.5-py3-none-any.whl.zip]
+[2024-05-27 15:50:33] INFO root fetch - main [MainThread]: End processing [alwhatsapp]: success
+[2024-05-27 15:50:33] INFO root fetch - processPackages [instructor]: executing diffoscope
+[2024-05-27 15:50:33] INFO root fetch - processPackages [instructor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/instructor-1.3.1.tar.gz tmp/instructor-1.3.2.tar.gz --markdown 20240527/i/instructor/1.3.1-1.3.2/README.md --exclude *.pyd
+[2024-05-27 15:50:33] INFO root fetch - processPackages [typed-blocks]: Remove: archive file [/home/abi/fetcher/tmp/typed-blocks-0.9.8.tar.gz]
+[2024-05-27 15:50:33] INFO root fetch - processPackages [typed-blocks]: Remove: archive file [/home/abi/fetcher/tmp/typed-blocks-0.9.9.tar.gz]
+[2024-05-27 15:50:33] INFO root fetch - main [MainThread]: End processing [typed-blocks]: success
+[2024-05-27 15:50:33] INFO root fetch - processPackages [CADET-RDM]: Remove: archive file [/home/abi/fetcher/tmp/CADET-RDM-0.0.6.tar.gz]
+[2024-05-27 15:50:33] INFO root fetch - processPackages [CADET-RDM]: Remove: archive file [/home/abi/fetcher/tmp/CADET-RDM-0.0.9.tar.gz]
+[2024-05-27 15:50:33] INFO root fetch - main [MainThread]: End processing [CADET-RDM]: success
+[2024-05-27 15:50:33] INFO root fetch - processPackages [odoo-addon-account-payment-return]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_payment_return-16.0.1.0.1.6-py3-none-any.whl.zip]
+[2024-05-27 15:50:33] INFO root fetch - processPackages [odoo-addon-account-payment-return]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_payment_return-16.0.1.0.2-py3-none-any.whl.zip]
+[2024-05-27 15:50:33] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-payment-return]: success
+[2024-05-27 15:50:34] INFO root fetch - processPackages [instructor]: Remove: archive file [/home/abi/fetcher/tmp/instructor-1.3.1.tar.gz]
+[2024-05-27 15:50:34] INFO root fetch - processPackages [instructor]: Remove: archive file [/home/abi/fetcher/tmp/instructor-1.3.2.tar.gz]
+[2024-05-27 15:50:34] INFO root fetch - main [MainThread]: End processing [instructor]: success
+[2024-05-27 15:50:34] INFO root fetch - processPackages [pyquafu]: executing diffoscope
+[2024-05-27 15:50:34] INFO root fetch - processPackages [pyquafu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyquafu-0.3.6-cp39-cp39-win_amd64.whl.zip tmp/pyquafu-0.4.0-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240527/p/pyquafu/0.3.6-0.4.0/README.md --exclude *.pyd
+[2024-05-27 15:50:35] INFO root fetch - processPackages [pyquafu]: Remove: archive file [/home/abi/fetcher/tmp/pyquafu-0.3.6-cp39-cp39-win_amd64.whl.zip]
+[2024-05-27 15:50:35] INFO root fetch - processPackages [pyquafu]: Remove: archive file [/home/abi/fetcher/tmp/pyquafu-0.4.0-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-27 15:50:35] INFO root fetch - main [MainThread]: End processing [pyquafu]: success
+[2024-05-27 15:50:35] INFO root fetch - main [MainThread]: Store serial: [23396506]
