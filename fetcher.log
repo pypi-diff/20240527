@@ -2964,3 +2964,14 @@
 [2024-05-27 03:42:48] INFO root fetch - processPackages [mb-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/mb_pytorch-1.0.5.tar.gz]
 [2024-05-27 03:42:48] INFO root fetch - main [MainThread]: End processing [mb-pytorch]: success
 [2024-05-27 03:42:48] INFO root fetch - main [MainThread]: Store serial: [23389523]
+[2024-05-27 03:44:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23389523]
+[2024-05-27 03:44:56] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-27 03:44:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tf-nightly-intel
+[2024-05-27 03:44:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: color-extractor
+[2024-05-27 03:44:56] WARNING root fetch - processPackages [color-extractor]: Skipping, unable to determine old version
+[2024-05-27 03:44:56] INFO root fetch - main [MainThread]: End processing [color-extractor] error
+[2024-05-27 03:44:56] INFO root fetch - processPackages [tf-nightly-intel]: New version: [2.17.0.dev20240526] Old Version: [2.17.0.dev20240524]
+[2024-05-27 03:44:56] INFO root fetch - processPackages [tf-nightly-intel]: Downloading https://files.pythonhosted.org/packages/f7/4d/5537611c9d860449518c382af7f00e11adfefca6adbf4d8e56f50ea6c903/tf_nightly_intel-2.17.0.dev20240524-cp39-cp39-win_amd64.whl
+[2024-05-27 03:44:56] WARNING root fetch - processPackages [tf-nightly-intel]: Skipping package: exceeds size limit 218774302>=10485760
+[2024-05-27 03:44:56] INFO root fetch - main [MainThread]: End processing [tf-nightly-intel] error
+[2024-05-27 03:44:56] INFO root fetch - main [MainThread]: Store serial: [23389533]
