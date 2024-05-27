@@ -6546,3 +6546,31 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 07:50:02] INFO root fetch - processPackages [pm4pyminimal]: Remove: archive file [/home/abi/fetcher/tmp/pm4pyminimal-2.7.9.4.tar.gz]
 [2024-05-27 07:50:02] INFO root fetch - main [MainThread]: End processing [pm4pyminimal]: success
 [2024-05-27 07:50:02] INFO root fetch - main [MainThread]: Store serial: [23391040]
+[2024-05-27 07:52:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23391040]
+[2024-05-27 07:52:12] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-27 07:52:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dvs-printf
+[2024-05-27 07:52:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dvs-printf
+[2024-05-27 07:52:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dqpu
+[2024-05-27 07:52:12] INFO root fetch - processPackages [dvs-printf]: New version: [2.0] Old Version: [1.3]
+[2024-05-27 07:52:12] INFO root fetch - processPackages [dvs-printf]: New version: [2.0] Old Version: [1.3]
+[2024-05-27 07:52:12] INFO root fetch - processPackages [dqpu]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-05-27 07:52:12] INFO root fetch - processPackages [dqpu]: Downloading https://files.pythonhosted.org/packages/b8/a2/f2874b5c22dddd84673832981c5ded3758322e2db9d145da5f3cc024b0fc/dqpu-0.2.2.tar.gz
+[2024-05-27 07:52:12] INFO root fetch - processPackages [dvs-printf]: Downloading https://files.pythonhosted.org/packages/8a/8e/12bdee56bbfd7ede68cfc432a90a53eb094b619b0f84a76890ca63364d50/dvs_printf-1.3.tar.gz
+[2024-05-27 07:52:12] INFO root fetch - processPackages [dvs-printf]: Downloading https://files.pythonhosted.org/packages/8a/8e/12bdee56bbfd7ede68cfc432a90a53eb094b619b0f84a76890ca63364d50/dvs_printf-1.3.tar.gz
+[2024-05-27 07:52:12] INFO root fetch - processPackages [dqpu]: Downloading https://files.pythonhosted.org/packages/b9/cd/2f6e6525e688d2d5e15d2f2dedc5a1ddf33614f5e90a6cf40198ff9c8505/dqpu-0.2.3.tar.gz
+[2024-05-27 07:52:12] INFO root fetch - processPackages [dvs-printf]: Downloading https://files.pythonhosted.org/packages/bd/ce/2ad7c846c726c835eb35edc1b1efd52d08c4f9ac22cf9021922deedc6e59/dvs_printf-2.0.tar.gz
+[2024-05-27 07:52:12] INFO root fetch - processPackages [dvs-printf]: Downloading https://files.pythonhosted.org/packages/bd/ce/2ad7c846c726c835eb35edc1b1efd52d08c4f9ac22cf9021922deedc6e59/dvs_printf-2.0.tar.gz
+[2024-05-27 07:52:13] INFO root fetch - processPackages [dqpu]: executing diffoscope
+[2024-05-27 07:52:13] INFO root fetch - processPackages [dqpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dqpu-0.2.2.tar.gz tmp/dqpu-0.2.3.tar.gz --markdown 20240527/d/dqpu/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-05-27 07:52:13] INFO root fetch - processPackages [dvs-printf]: executing diffoscope
+[2024-05-27 07:52:13] INFO root fetch - processPackages [dvs-printf]: executing diffoscope
+[2024-05-27 07:52:13] INFO root fetch - processPackages [dvs-printf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dvs_printf-1.3.tar.gz tmp/dvs_printf-2.0.tar.gz --markdown 20240527/d/dvs-printf/1.3-2.0/README.md --exclude *.pyd
+[2024-05-27 07:52:13] INFO root fetch - processPackages [dvs-printf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dvs_printf-1.3.tar.gz tmp/dvs_printf-2.0.tar.gz --markdown 20240527/d/dvs-printf/1.3-2.0/README.md --exclude *.pyd
+[2024-05-27 07:52:13] INFO root fetch - processPackages [dqpu]: Remove: archive file [/home/abi/fetcher/tmp/dqpu-0.2.2.tar.gz]
+[2024-05-27 07:52:13] INFO root fetch - processPackages [dqpu]: Remove: archive file [/home/abi/fetcher/tmp/dqpu-0.2.3.tar.gz]
+[2024-05-27 07:52:13] INFO root fetch - main [MainThread]: End processing [dqpu]: success
+[2024-05-27 07:52:13] INFO root fetch - processPackages [dvs-printf]: Remove: archive file [/home/abi/fetcher/tmp/dvs_printf-1.3.tar.gz]
+[2024-05-27 07:52:13] INFO root fetch - processPackages [dvs-printf]: Remove: archive file [/home/abi/fetcher/tmp/dvs_printf-2.0.tar.gz]
+[2024-05-27 07:52:13] INFO root fetch - main [MainThread]: End processing [dvs-printf]: success
+[2024-05-27 07:52:13] INFO root fetch - main [MainThread]: End processing [dvs-printf]: success
+[2024-05-27 07:52:13] INFO root fetch - main [MainThread]: Store serial: [23391057]
