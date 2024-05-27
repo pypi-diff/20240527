@@ -23768,3 +23768,49 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-05-27 19:49:57] INFO root fetch - processPackages [nqrduck-measurement]: Remove: archive file [/home/abi/fetcher/tmp/nqrduck_measurement-0.0.6.tar.gz]
 [2024-05-27 19:49:57] INFO root fetch - main [MainThread]: End processing [nqrduck-measurement]: success
 [2024-05-27 19:49:57] INFO root fetch - main [MainThread]: Store serial: [23399425]
+[2024-05-27 19:52:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23399425]
+[2024-05-27 19:52:06] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-27 19:52:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chatgpt-interface
+[2024-05-27 19:52:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: chatgpt-interface
+[2024-05-27 19:52:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qs-codec
+[2024-05-27 19:52:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-purchase-request
+[2024-05-27 19:52:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: labneura
+[2024-05-27 19:52:06] INFO root fetch - processPackages [labneura]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-27 19:52:06] INFO root fetch - processPackages [chatgpt-interface]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-27 19:52:06] INFO root fetch - processPackages [chatgpt-interface]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-27 19:52:06] INFO root fetch - processPackages [odoo-addon-purchase-request]: New version: [17.0.1.1.2] Old Version: [17.0.1.1.1]
+[2024-05-27 19:52:06] INFO root fetch - processPackages [qs-codec]: New version: [1.0.0] Old Version: [0.2.2]
+[2024-05-27 19:52:06] INFO root fetch - processPackages [labneura]: Downloading https://files.pythonhosted.org/packages/f8/4e/0545db5a8565d1381b06be59d862d65b68b12241228d453c29fec54a69db/labneura-0.0.6-cp311-cp311-macosx_14_0_universal2.whl
+[2024-05-27 19:52:06] INFO root fetch - processPackages [chatgpt-interface]: Downloading https://files.pythonhosted.org/packages/bd/28/f7bfff17caaf8195ca0fcec43cd97334d05209d497e0a2a483300d2dc77b/chatgpt_interface-0.1.3.tar.gz
+[2024-05-27 19:52:06] INFO root fetch - processPackages [qs-codec]: Downloading https://files.pythonhosted.org/packages/a4/6c/540c8efc81127595302c6b87c4b9f3da7c300d03adabcc028c43d8acde33/qs_codec-0.2.2.tar.gz
+[2024-05-27 19:52:06] INFO root fetch - processPackages [chatgpt-interface]: Downloading https://files.pythonhosted.org/packages/bd/28/f7bfff17caaf8195ca0fcec43cd97334d05209d497e0a2a483300d2dc77b/chatgpt_interface-0.1.3.tar.gz
+[2024-05-27 19:52:06] INFO root fetch - processPackages [odoo-addon-purchase-request]: Downloading https://files.pythonhosted.org/packages/0b/c9/3fc6d1e7d9d4b01ba809dcd512b5a807f8604ec00cb71655d823dc6f0fee/odoo_addon_purchase_request-17.0.1.1.1-py3-none-any.whl
+[2024-05-27 19:52:07] INFO root fetch - processPackages [chatgpt-interface]: Downloading https://files.pythonhosted.org/packages/20/56/442c1f7769f81625c17c14ae9c1e1df2b0757500c3fcd38b77a7513d5f11/chatgpt_interface-0.1.4.tar.gz
+[2024-05-27 19:52:07] INFO root fetch - processPackages [chatgpt-interface]: Downloading https://files.pythonhosted.org/packages/20/56/442c1f7769f81625c17c14ae9c1e1df2b0757500c3fcd38b77a7513d5f11/chatgpt_interface-0.1.4.tar.gz
+[2024-05-27 19:52:07] INFO root fetch - processPackages [qs-codec]: Downloading https://files.pythonhosted.org/packages/91/8b/39a0f78c3fada8e05c67bd2505b74757c35dff53269d49bb0d1ea371bec1/qs_codec-1.0.0.tar.gz
+[2024-05-27 19:52:07] INFO root fetch - processPackages [odoo-addon-purchase-request]: Downloading https://files.pythonhosted.org/packages/e9/5d/606a827f29e8f001587ba58255a6606f793c6f3f897a0d8c996ddd1d62d1/odoo_addon_purchase_request-17.0.1.1.2-py3-none-any.whl
+[2024-05-27 19:52:07] INFO root fetch - processPackages [labneura]: Downloading https://files.pythonhosted.org/packages/f8/05/53ed0ac1a59e283fe73891925ead38e8f4192711aa8c1b3e2dacb9180790/labneura-0.0.7-cp311-cp311-macosx_14_0_universal2.whl
+[2024-05-27 19:52:07] INFO root fetch - processPackages [chatgpt-interface]: executing diffoscope
+[2024-05-27 19:52:07] INFO root fetch - processPackages [chatgpt-interface]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatgpt_interface-0.1.3.tar.gz tmp/chatgpt_interface-0.1.4.tar.gz --markdown 20240527/c/chatgpt-interface/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-27 19:52:07] INFO root fetch - processPackages [chatgpt-interface]: executing diffoscope
+[2024-05-27 19:52:07] INFO root fetch - processPackages [chatgpt-interface]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatgpt_interface-0.1.3.tar.gz tmp/chatgpt_interface-0.1.4.tar.gz --markdown 20240527/c/chatgpt-interface/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-27 19:52:07] INFO root fetch - processPackages [qs-codec]: executing diffoscope
+[2024-05-27 19:52:07] INFO root fetch - processPackages [qs-codec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qs_codec-0.2.2.tar.gz tmp/qs_codec-1.0.0.tar.gz --markdown 20240527/q/qs-codec/0.2.2-1.0.0/README.md --exclude *.pyd
+[2024-05-27 19:52:07] INFO root fetch - processPackages [odoo-addon-purchase-request]: executing diffoscope
+[2024-05-27 19:52:07] INFO root fetch - processPackages [odoo-addon-purchase-request]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_purchase_request-17.0.1.1.1-py3-none-any.whl.zip tmp/odoo_addon_purchase_request-17.0.1.1.2-py3-none-any.whl.zip --markdown 20240527/o/odoo-addon-purchase-request/17.0.1.1.1-17.0.1.1.2/README.md --exclude *.pyd
+[2024-05-27 19:52:07] INFO root fetch - processPackages [labneura]: executing diffoscope
+[2024-05-27 19:52:07] INFO root fetch - processPackages [labneura]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/labneura-0.0.6-cp311-cp311-macosx_14_0_universal2.whl.zip tmp/labneura-0.0.7-cp311-cp311-macosx_14_0_universal2.whl.zip --markdown 20240527/l/labneura/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-27 19:52:07] INFO root fetch - processPackages [chatgpt-interface]: Remove: archive file [/home/abi/fetcher/tmp/chatgpt_interface-0.1.3.tar.gz]
+[2024-05-27 19:52:07] INFO root fetch - processPackages [chatgpt-interface]: Remove: archive file [/home/abi/fetcher/tmp/chatgpt_interface-0.1.4.tar.gz]
+[2024-05-27 19:52:07] INFO root fetch - main [MainThread]: End processing [chatgpt-interface]: success
+[2024-05-27 19:52:07] INFO root fetch - main [MainThread]: End processing [chatgpt-interface]: success
+[2024-05-27 19:52:08] INFO root fetch - processPackages [qs-codec]: Remove: archive file [/home/abi/fetcher/tmp/qs_codec-0.2.2.tar.gz]
+[2024-05-27 19:52:08] INFO root fetch - processPackages [qs-codec]: Remove: archive file [/home/abi/fetcher/tmp/qs_codec-1.0.0.tar.gz]
+[2024-05-27 19:52:08] INFO root fetch - main [MainThread]: End processing [qs-codec]: success
+[2024-05-27 19:52:08] INFO root fetch - processPackages [odoo-addon-purchase-request]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_request-17.0.1.1.1-py3-none-any.whl.zip]
+[2024-05-27 19:52:08] INFO root fetch - processPackages [odoo-addon-purchase-request]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_request-17.0.1.1.2-py3-none-any.whl.zip]
+[2024-05-27 19:52:08] INFO root fetch - main [MainThread]: End processing [odoo-addon-purchase-request]: success
+[2024-05-27 19:52:11] INFO root fetch - processPackages [labneura]: Remove: archive file [/home/abi/fetcher/tmp/labneura-0.0.6-cp311-cp311-macosx_14_0_universal2.whl.zip]
+[2024-05-27 19:52:11] INFO root fetch - processPackages [labneura]: Remove: archive file [/home/abi/fetcher/tmp/labneura-0.0.7-cp311-cp311-macosx_14_0_universal2.whl.zip]
+[2024-05-27 19:52:11] INFO root fetch - main [MainThread]: End processing [labneura]: success
+[2024-05-27 19:52:11] INFO root fetch - main [MainThread]: Store serial: [23399462]
