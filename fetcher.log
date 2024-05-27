@@ -10402,3 +10402,67 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 11:13:49] INFO root fetch - main [MainThread]: End processing [dao-analyzer]: success
 [2024-05-27 11:13:49] INFO root fetch - main [MainThread]: End processing [dao-analyzer]: success
 [2024-05-27 11:13:49] INFO root fetch - main [MainThread]: Store serial: [23393046]
+[2024-05-27 11:15:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23393046]
+[2024-05-27 11:15:58] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-27 11:15:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spanishconjugator
+[2024-05-27 11:15:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tqsdk
+[2024-05-27 11:15:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: flagright
+[2024-05-27 11:15:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pearson
+[2024-05-27 11:15:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: spanishconjugator
+[2024-05-27 11:15:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: enbios
+[2024-05-27 11:15:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: MASSIVEChem
+[2024-05-27 11:15:58] INFO root fetch - processPackages [pearson]: New version: [2.8] Old Version: [2.7]
+[2024-05-27 11:15:58] INFO root fetch - processPackages [MASSIVEChem]: New version: [4.3] Old Version: [4.1]
+[2024-05-27 11:15:58] INFO root fetch - processPackages [pearson]: Downloading https://files.pythonhosted.org/packages/06/72/fd90d42870940e8dbccd20f101e5acfc2a2d19e798f794f57defa2e6db1d/pearson-2.7.tar.gz
+[2024-05-27 11:15:58] INFO root fetch - processPackages [flagright]: New version: [1.5.9] Old Version: [1.5.8]
+[2024-05-27 11:15:58] INFO root fetch - processPackages [enbios]: New version: [2.2.9] Old Version: [2.2.8]
+[2024-05-27 11:15:58] INFO root fetch - processPackages [tqsdk]: New version: [3.5.9] Old Version: [3.5.8]
+[2024-05-27 11:15:59] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2024-05-27 11:15:59] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2024-05-27 11:15:59] INFO root fetch - processPackages [MASSIVEChem]: Downloading https://files.pythonhosted.org/packages/78/ab/e6d0e061c4d96ac855301c5093865565f204a3bac99f19e2f6c6b17d90fe/massivechem-4.1.tar.gz
+[2024-05-27 11:15:59] INFO root fetch - processPackages [tqsdk]: Downloading https://files.pythonhosted.org/packages/a5/50/15615b34f8468d8492aafbe2d982b7b2a3cdafede2b59f02b0fdd21bcb3b/tqsdk-3.5.8.tar.gz
+[2024-05-27 11:15:59] INFO root fetch - processPackages [enbios]: Downloading https://files.pythonhosted.org/packages/43/b2/4023d584044cbba90aaf6a16a7b742bdb2f56b0294a736ba428e46cd3776/enbios-2.2.8.tar.gz
+[2024-05-27 11:15:59] INFO root fetch - processPackages [flagright]: Downloading https://files.pythonhosted.org/packages/f0/a5/f4efd779a7811e3e85b135cdac782c5d7797d12c1086c664287c4513b917/flagright-1.5.8.tar.gz
+[2024-05-27 11:15:59] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2024-05-27 11:15:59] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2024-05-27 11:15:59] INFO root fetch - processPackages [pearson]: Downloading https://files.pythonhosted.org/packages/28/9a/3dcf156f214cd4515dcc851955e3b1d9a8489f96313e88989164f87076b2/pearson-2.8.tar.gz
+[2024-05-27 11:15:59] INFO root fetch - processPackages [pearson]: executing diffoscope
+[2024-05-27 11:15:59] INFO root fetch - processPackages [pearson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pearson-2.7.tar.gz tmp/pearson-2.8.tar.gz --markdown 20240527/p/pearson/2.7-2.8/README.md --exclude *.pyd
+[2024-05-27 11:15:59] INFO root fetch - processPackages [flagright]: Downloading https://files.pythonhosted.org/packages/6c/81/aff14c64f6560d286dee5abbd4eb93542c04f3493c3ebdc94a8c64f1f6e3/flagright-1.5.9.tar.gz
+[2024-05-27 11:15:59] INFO root fetch - processPackages [MASSIVEChem]: Downloading https://files.pythonhosted.org/packages/08/98/e6a91f4f9ac776be90a53d793ae9e2f95f747e40084aff4010a6847d4c0e/massivechem-4.3.tar.gz
+[2024-05-27 11:15:59] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2024-05-27 11:15:59] INFO root fetch - processPackages [enbios]: Downloading https://files.pythonhosted.org/packages/8d/47/ccf0c3c1dd0bfdecf91d4943ca8f84cea50fdd675236f712bef4197850e0/enbios-2.2.9.tar.gz
+[2024-05-27 11:15:59] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2024-05-27 11:15:59] INFO root fetch - processPackages [flagright]: executing diffoscope
+[2024-05-27 11:15:59] INFO root fetch - processPackages [flagright]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flagright-1.5.8.tar.gz tmp/flagright-1.5.9.tar.gz --markdown 20240527/f/flagright/1.5.8-1.5.9/README.md --exclude *.pyd
+[2024-05-27 11:15:59] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2024-05-27 11:15:59] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20240527/s/spanishconjugator/2.3.998-2.3.999/README.md --exclude *.pyd
+[2024-05-27 11:15:59] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2024-05-27 11:15:59] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20240527/s/spanishconjugator/2.3.998-2.3.999/README.md --exclude *.pyd
+[2024-05-27 11:15:59] INFO root fetch - processPackages [enbios]: executing diffoscope
+[2024-05-27 11:15:59] INFO root fetch - processPackages [enbios]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/enbios-2.2.8.tar.gz tmp/enbios-2.2.9.tar.gz --markdown 20240527/e/enbios/2.2.8-2.2.9/README.md --exclude *.pyd
+[2024-05-27 11:15:59] INFO root fetch - processPackages [MASSIVEChem]: executing diffoscope
+[2024-05-27 11:15:59] INFO root fetch - processPackages [MASSIVEChem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/massivechem-4.1.tar.gz tmp/massivechem-4.3.tar.gz --markdown 20240527/M/MASSIVEChem/4.1-4.3/README.md --exclude *.pyd
+[2024-05-27 11:16:00] INFO root fetch - processPackages [tqsdk]: Downloading https://files.pythonhosted.org/packages/81/69/6156e1c88bd168e8a3010a6e7ce0400fd7c02dbc72aab1a13c432a4fdf57/tqsdk-3.5.9.tar.gz
+[2024-05-27 11:16:00] INFO root fetch - processPackages [pearson]: Remove: archive file [/home/abi/fetcher/tmp/pearson-2.7.tar.gz]
+[2024-05-27 11:16:00] INFO root fetch - processPackages [pearson]: Remove: archive file [/home/abi/fetcher/tmp/pearson-2.8.tar.gz]
+[2024-05-27 11:16:00] INFO root fetch - main [MainThread]: End processing [pearson]: success
+[2024-05-27 11:16:00] INFO root fetch - processPackages [tqsdk]: executing diffoscope
+[2024-05-27 11:16:00] INFO root fetch - processPackages [tqsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tqsdk-3.5.8.tar.gz tmp/tqsdk-3.5.9.tar.gz --markdown 20240527/t/tqsdk/3.5.8-3.5.9/README.md --exclude *.pyd
+[2024-05-27 11:16:00] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2024-05-27 11:16:00] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2024-05-27 11:16:00] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2024-05-27 11:16:00] INFO root fetch - processPackages [flagright]: Remove: archive file [/home/abi/fetcher/tmp/flagright-1.5.8.tar.gz]
+[2024-05-27 11:16:00] INFO root fetch - processPackages [flagright]: Remove: archive file [/home/abi/fetcher/tmp/flagright-1.5.9.tar.gz]
+[2024-05-27 11:16:00] INFO root fetch - main [MainThread]: End processing [flagright]: success
+[2024-05-27 11:16:00] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2024-05-27 11:16:00] INFO root fetch - processPackages [enbios]: Remove: archive file [/home/abi/fetcher/tmp/enbios-2.2.8.tar.gz]
+[2024-05-27 11:16:00] INFO root fetch - processPackages [enbios]: Remove: archive file [/home/abi/fetcher/tmp/enbios-2.2.9.tar.gz]
+[2024-05-27 11:16:00] INFO root fetch - main [MainThread]: End processing [enbios]: success
+[2024-05-27 11:16:01] INFO root fetch - processPackages [MASSIVEChem]: Remove: archive file [/home/abi/fetcher/tmp/massivechem-4.1.tar.gz]
+[2024-05-27 11:16:01] INFO root fetch - processPackages [MASSIVEChem]: Remove: archive file [/home/abi/fetcher/tmp/massivechem-4.3.tar.gz]
+[2024-05-27 11:16:01] INFO root fetch - main [MainThread]: End processing [MASSIVEChem]: success
+[2024-05-27 11:16:01] INFO root fetch - processPackages [tqsdk]: Remove: archive file [/home/abi/fetcher/tmp/tqsdk-3.5.8.tar.gz]
+[2024-05-27 11:16:01] INFO root fetch - processPackages [tqsdk]: Remove: archive file [/home/abi/fetcher/tmp/tqsdk-3.5.9.tar.gz]
+[2024-05-27 11:16:01] INFO root fetch - main [MainThread]: End processing [tqsdk]: success
+[2024-05-27 11:16:01] INFO root fetch - main [MainThread]: Store serial: [23393069]
