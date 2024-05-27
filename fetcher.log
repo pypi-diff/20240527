@@ -9867,3 +9867,27 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 10:47:46] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip]
 [2024-05-27 10:47:46] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
 [2024-05-27 10:47:46] INFO root fetch - main [MainThread]: Store serial: [23392820]
+[2024-05-27 10:49:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23392820]
+[2024-05-27 10:49:54] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-27 10:49:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: prophecy-libs
+[2024-05-27 10:49:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyexmars
+[2024-05-27 10:49:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: SJRdetect
+[2024-05-27 10:49:55] INFO root fetch - processPackages [pyexmars]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-27 10:49:55] WARNING root fetch - processPackages [SJRdetect]: Skipping, unable to determine old version
+[2024-05-27 10:49:55] INFO root fetch - main [MainThread]: End processing [SJRdetect] error
+[2024-05-27 10:49:55] INFO root fetch - processPackages [prophecy-libs]: New version: [1.9.2.dev0] Old Version: [1.9.1]
+[2024-05-27 10:49:55] INFO root fetch - processPackages [pyexmars]: Downloading https://files.pythonhosted.org/packages/e7/7a/f296d2934ed88a0950b0b9508a6a612e711b95a0b8c9f8ae089dc519f3b8/pyexmars-1.0.0.tar.gz
+[2024-05-27 10:49:55] INFO root fetch - processPackages [prophecy-libs]: Downloading https://files.pythonhosted.org/packages/a2/98/56834a07f68f25591fce833c330258dc0f86a4a2e6c5dc46359d7c6ed975/prophecy-libs-1.9.1.tar.gz
+[2024-05-27 10:49:55] INFO root fetch - processPackages [pyexmars]: Downloading https://files.pythonhosted.org/packages/87/c6/b2cc44ca605d54466e44141985b95f034c8866c5dab1e9b665f45f8bc4f0/pyexmars-1.0.1.tar.gz
+[2024-05-27 10:49:55] INFO root fetch - processPackages [prophecy-libs]: Downloading https://files.pythonhosted.org/packages/f5/5c/f34985cb5fb82fd8be30d2996b9000f4a57258e29789bcd50253f7e74587/prophecy-libs-1.9.2.dev0.tar.gz
+[2024-05-27 10:49:55] INFO root fetch - processPackages [pyexmars]: executing diffoscope
+[2024-05-27 10:49:55] INFO root fetch - processPackages [pyexmars]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyexmars-1.0.0.tar.gz tmp/pyexmars-1.0.1.tar.gz --markdown 20240527/p/pyexmars/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-27 10:49:55] INFO root fetch - processPackages [prophecy-libs]: executing diffoscope
+[2024-05-27 10:49:55] INFO root fetch - processPackages [prophecy-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prophecy-libs-1.9.1.tar.gz tmp/prophecy-libs-1.9.2.dev0.tar.gz --markdown 20240527/p/prophecy-libs/1.9.1-1.9.2.dev0/README.md --exclude *.pyd
+[2024-05-27 10:49:56] INFO root fetch - processPackages [pyexmars]: Remove: archive file [/home/abi/fetcher/tmp/pyexmars-1.0.0.tar.gz]
+[2024-05-27 10:49:56] INFO root fetch - processPackages [pyexmars]: Remove: archive file [/home/abi/fetcher/tmp/pyexmars-1.0.1.tar.gz]
+[2024-05-27 10:49:56] INFO root fetch - main [MainThread]: End processing [pyexmars]: success
+[2024-05-27 10:49:56] INFO root fetch - processPackages [prophecy-libs]: Remove: archive file [/home/abi/fetcher/tmp/prophecy-libs-1.9.1.tar.gz]
+[2024-05-27 10:49:56] INFO root fetch - processPackages [prophecy-libs]: Remove: archive file [/home/abi/fetcher/tmp/prophecy-libs-1.9.2.dev0.tar.gz]
+[2024-05-27 10:49:56] INFO root fetch - main [MainThread]: End processing [prophecy-libs]: success
+[2024-05-27 10:49:56] INFO root fetch - main [MainThread]: Store serial: [23392831]
