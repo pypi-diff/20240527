@@ -10730,3 +10730,91 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 11:26:42] INFO root fetch - processPackages [richie]: Remove: archive file [/home/abi/fetcher/tmp/richie-2.9.1.tar.gz]
 [2024-05-27 11:26:42] INFO root fetch - main [MainThread]: End processing [richie]: success
 [2024-05-27 11:26:42] INFO root fetch - main [MainThread]: Store serial: [23393171]
+[2024-05-27 11:28:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23393171]
+[2024-05-27 11:28:51] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-05-27 11:28:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cg
+[2024-05-27 11:28:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: guarddog
+[2024-05-27 11:28:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: urlDNA
+[2024-05-27 11:28:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: shadowsocks-manager
+[2024-05-27 11:28:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: django-customvueadmin
+[2024-05-27 11:28:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hema
+[2024-05-27 11:28:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rez-quickstart-win
+[2024-05-27 11:28:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: MASSIVEChem
+[2024-05-27 11:28:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: resistify
+[2024-05-27 11:28:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: kal-utils
+[2024-05-27 11:28:51] INFO root fetch - processPackages [guarddog]: New version: [1.8.1] Old Version: [1.8.0]
+[2024-05-27 11:28:51] INFO root fetch - processPackages [MASSIVEChem]: New version: [4.3] Old Version: [4.1]
+[2024-05-27 11:28:51] INFO root fetch - processPackages [kal-utils]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-27 11:28:51] INFO root fetch - processPackages [django-customvueadmin]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-27 11:28:51] INFO root fetch - processPackages [cg]: New version: [60.8.9] Old Version: [60.8.8]
+[2024-05-27 11:28:51] WARNING root fetch - processPackages [rez-quickstart-win]: Skipping, unable to determine old version
+[2024-05-27 11:28:51] INFO root fetch - processPackages [rez-quickstart-win]: Start processing: lmdeploy
+[2024-05-27 11:28:51] INFO root fetch - main [MainThread]: End processing [rez-quickstart-win] error
+[2024-05-27 11:28:51] WARNING root fetch - processPackages [urlDNA]: Skipping, unable to determine old version
+[2024-05-27 11:28:51] INFO root fetch - processPackages [urlDNA]: Start processing: SBGeom
+[2024-05-27 11:28:51] INFO root fetch - main [MainThread]: End processing [urlDNA] error
+[2024-05-27 11:28:51] INFO root fetch - processPackages [hema]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-27 11:28:51] INFO root fetch - processPackages [guarddog]: Downloading https://files.pythonhosted.org/packages/57/f0/5c2134642163e268cbe0b31b273256a629609b002757c7a27ac3531f5819/guarddog-1.8.0.tar.gz
+[2024-05-27 11:28:51] INFO root fetch - processPackages [resistify]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-27 11:28:51] INFO root fetch - processPackages [shadowsocks-manager]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-27 11:28:51] INFO root fetch - processPackages [django-customvueadmin]: Downloading https://files.pythonhosted.org/packages/8f/a8/97d6391e8e96b8a0b9cfe2bbb8f2b599271637aa50982d50a03980c52940/django_customvueadmin-0.2.1.tar.gz
+[2024-05-27 11:28:51] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/d6/8e/017bcd413c9044bb3a8ec3e9a9e28ff36b6d814eef56056a4702d375ac95/cg-60.8.8.tar.gz
+[2024-05-27 11:28:51] INFO root fetch - processPackages [kal-utils]: Downloading https://files.pythonhosted.org/packages/c8/db/5c5bc5dd7198329bcca9d3b2fda6adeae7da58e9f4ec8506f975fe5cb163/kal_utils-0.0.1.tar.gz
+[2024-05-27 11:28:51] INFO root fetch - processPackages [lmdeploy]: New version: [0.4.2] Old Version: [0.4.1]
+[2024-05-27 11:28:51] INFO root fetch - processPackages [MASSIVEChem]: Downloading https://files.pythonhosted.org/packages/78/ab/e6d0e061c4d96ac855301c5093865565f204a3bac99f19e2f6c6b17d90fe/massivechem-4.1.tar.gz
+[2024-05-27 11:28:51] INFO root fetch - processPackages [SBGeom]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-27 11:28:51] INFO root fetch - processPackages [shadowsocks-manager]: Downloading https://files.pythonhosted.org/packages/8e/5a/437ebba93b3e7c2bef6f4a2943901874ae3ed89ea8360836cd384d33442e/shadowsocks_manager-0.1.8.tar.gz
+[2024-05-27 11:28:51] INFO root fetch - processPackages [hema]: Downloading https://files.pythonhosted.org/packages/94/49/e3276653f40f4779afaf78a6de051809193c18117af2afddbcf7aab58452/hema-0.0.5.tar.gz
+[2024-05-27 11:28:51] INFO root fetch - processPackages [resistify]: Downloading https://files.pythonhosted.org/packages/29/e7/3c11df5371cd44bbc448c58e4fc878470428155b3552081da1468327ef1e/resistify-0.2.1.tar.gz
+[2024-05-27 11:28:51] INFO root fetch - processPackages [lmdeploy]: Downloading https://files.pythonhosted.org/packages/c2/bb/f91c85f3dd59c86af660f0b1098e0afb6342892683170412bd824a9e9399/lmdeploy-0.4.1-cp39-cp39-win_amd64.whl
+[2024-05-27 11:28:51] INFO root fetch - processPackages [guarddog]: Downloading https://files.pythonhosted.org/packages/f4/b2/a9204e72bdec09184aed97942c111a3ce9cbefcaa3125bc5168fb1cb3c5b/guarddog-1.8.1.tar.gz
+[2024-05-27 11:28:51] INFO root fetch - processPackages [SBGeom]: Downloading https://files.pythonhosted.org/packages/a9/66/a90cff61c6bb756c4783fa562d37d22ddd8ab474b0d75d3d659c3d08fa06/sbgeom-0.0.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-27 11:28:51] WARNING root fetch - processPackages [resistify]: Skipping package: exceeds size limit 78167800>=10485760
+[2024-05-27 11:28:51] INFO root fetch - main [MainThread]: End processing [resistify] error
+[2024-05-27 11:28:51] INFO root fetch - processPackages [guarddog]: executing diffoscope
+[2024-05-27 11:28:51] INFO root fetch - processPackages [guarddog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/guarddog-1.8.0.tar.gz tmp/guarddog-1.8.1.tar.gz --markdown 20240527/g/guarddog/1.8.0-1.8.1/README.md --exclude *.pyd
+[2024-05-27 11:28:51] WARNING root fetch - processPackages [lmdeploy]: Skipping package: exceeds size limit 51650883>=10485760
+[2024-05-27 11:28:51] INFO root fetch - main [MainThread]: End processing [lmdeploy] error
+[2024-05-27 11:28:51] INFO root fetch - processPackages [django-customvueadmin]: Downloading https://files.pythonhosted.org/packages/8b/49/481778362cc525b00095260b87cef54608b8df114a596f243dea624ad9fa/django_customvueadmin-0.2.2.tar.gz
+[2024-05-27 11:28:51] INFO root fetch - processPackages [MASSIVEChem]: Downloading https://files.pythonhosted.org/packages/08/98/e6a91f4f9ac776be90a53d793ae9e2f95f747e40084aff4010a6847d4c0e/massivechem-4.3.tar.gz
+[2024-05-27 11:28:51] INFO root fetch - processPackages [kal-utils]: Downloading https://files.pythonhosted.org/packages/c8/aa/243548eb38fa30dd963caaa646d7d123a96a07c3a453522f6c7237219487/kal_utils-0.0.2.tar.gz
+[2024-05-27 11:28:51] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/df/aa/bcf36edef12ba2ac2c9179507531723a7d2784d50a1cb868497d0120f301/cg-60.8.9.tar.gz
+[2024-05-27 11:28:51] INFO root fetch - processPackages [hema]: Downloading https://files.pythonhosted.org/packages/2e/c5/0fe1175dda36dcf0e60dfad24221f8c18462eec7d28ea2b84823ff1f4d96/hema-0.0.6.tar.gz
+[2024-05-27 11:28:52] INFO root fetch - processPackages [shadowsocks-manager]: Downloading https://files.pythonhosted.org/packages/5e/87/dd033ea2df308b68951d584575fe0c7d32b0220a8c1b87a0236235391075/shadowsocks_manager-0.1.9.tar.gz
+[2024-05-27 11:28:52] INFO root fetch - processPackages [kal-utils]: executing diffoscope
+[2024-05-27 11:28:52] INFO root fetch - processPackages [kal-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kal_utils-0.0.1.tar.gz tmp/kal_utils-0.0.2.tar.gz --markdown 20240527/k/kal-utils/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-27 11:28:52] INFO root fetch - processPackages [hema]: executing diffoscope
+[2024-05-27 11:28:52] INFO root fetch - processPackages [hema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hema-0.0.5.tar.gz tmp/hema-0.0.6.tar.gz --markdown 20240527/h/hema/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-27 11:28:52] INFO root fetch - processPackages [MASSIVEChem]: executing diffoscope
+[2024-05-27 11:28:52] INFO root fetch - processPackages [MASSIVEChem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/massivechem-4.1.tar.gz tmp/massivechem-4.3.tar.gz --markdown 20240527/M/MASSIVEChem/4.1-4.3/README.md --exclude *.pyd
+[2024-05-27 11:28:52] INFO root fetch - processPackages [shadowsocks-manager]: executing diffoscope
+[2024-05-27 11:28:52] INFO root fetch - processPackages [shadowsocks-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shadowsocks_manager-0.1.8.tar.gz tmp/shadowsocks_manager-0.1.9.tar.gz --markdown 20240527/s/shadowsocks-manager/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-27 11:28:52] INFO root fetch - processPackages [SBGeom]: Downloading https://files.pythonhosted.org/packages/25/e0/1d64fe3afac17e1d06157df30ed7143f7ce9e5c02d5a8af94ac020b97afa/sbgeom-0.0.2.tar.gz
+[2024-05-27 11:28:52] INFO root fetch - processPackages [django-customvueadmin]: executing diffoscope
+[2024-05-27 11:28:52] INFO root fetch - processPackages [django-customvueadmin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_customvueadmin-0.2.1.tar.gz tmp/django_customvueadmin-0.2.2.tar.gz --markdown 20240527/d/django-customvueadmin/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-05-27 11:28:52] WARNING root fetch - processPackages [SBGeom]: Skipping package: exceeds size limit 12920495>=10485760
+[2024-05-27 11:28:52] INFO root fetch - main [MainThread]: End processing [SBGeom] error
+[2024-05-27 11:28:52] INFO root fetch - processPackages [cg]: executing diffoscope
+[2024-05-27 11:28:52] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-60.8.8.tar.gz tmp/cg-60.8.9.tar.gz --markdown 20240527/c/cg/60.8.8-60.8.9/README.md --exclude *.pyd
+[2024-05-27 11:28:52] INFO root fetch - processPackages [hema]: Remove: archive file [/home/abi/fetcher/tmp/hema-0.0.5.tar.gz]
+[2024-05-27 11:28:52] INFO root fetch - processPackages [hema]: Remove: archive file [/home/abi/fetcher/tmp/hema-0.0.6.tar.gz]
+[2024-05-27 11:28:52] INFO root fetch - main [MainThread]: End processing [hema]: success
+[2024-05-27 11:28:52] INFO root fetch - processPackages [guarddog]: Remove: archive file [/home/abi/fetcher/tmp/guarddog-1.8.0.tar.gz]
+[2024-05-27 11:28:52] INFO root fetch - processPackages [guarddog]: Remove: archive file [/home/abi/fetcher/tmp/guarddog-1.8.1.tar.gz]
+[2024-05-27 11:28:52] INFO root fetch - main [MainThread]: End processing [guarddog]: success
+[2024-05-27 11:28:52] INFO root fetch - processPackages [kal-utils]: Remove: archive file [/home/abi/fetcher/tmp/kal_utils-0.0.1.tar.gz]
+[2024-05-27 11:28:52] INFO root fetch - processPackages [kal-utils]: Remove: archive file [/home/abi/fetcher/tmp/kal_utils-0.0.2.tar.gz]
+[2024-05-27 11:28:52] INFO root fetch - main [MainThread]: End processing [kal-utils]: success
+[2024-05-27 11:28:53] INFO root fetch - processPackages [shadowsocks-manager]: Remove: archive file [/home/abi/fetcher/tmp/shadowsocks_manager-0.1.8.tar.gz]
+[2024-05-27 11:28:53] INFO root fetch - processPackages [shadowsocks-manager]: Remove: archive file [/home/abi/fetcher/tmp/shadowsocks_manager-0.1.9.tar.gz]
+[2024-05-27 11:28:53] INFO root fetch - main [MainThread]: End processing [shadowsocks-manager]: success
+[2024-05-27 11:28:53] INFO root fetch - processPackages [MASSIVEChem]: Remove: archive file [/home/abi/fetcher/tmp/massivechem-4.1.tar.gz]
+[2024-05-27 11:28:53] INFO root fetch - processPackages [MASSIVEChem]: Remove: archive file [/home/abi/fetcher/tmp/massivechem-4.3.tar.gz]
+[2024-05-27 11:28:53] INFO root fetch - main [MainThread]: End processing [MASSIVEChem]: success
+[2024-05-27 11:28:53] INFO root fetch - processPackages [django-customvueadmin]: Remove: archive file [/home/abi/fetcher/tmp/django_customvueadmin-0.2.1.tar.gz]
+[2024-05-27 11:28:53] INFO root fetch - processPackages [django-customvueadmin]: Remove: archive file [/home/abi/fetcher/tmp/django_customvueadmin-0.2.2.tar.gz]
+[2024-05-27 11:28:53] INFO root fetch - main [MainThread]: End processing [django-customvueadmin]: success
+[2024-05-27 11:28:56] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.8.8.tar.gz]
+[2024-05-27 11:28:56] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.8.9.tar.gz]
+[2024-05-27 11:28:56] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2024-05-27 11:28:56] INFO root fetch - main [MainThread]: Store serial: [23393217]
