@@ -15913,3 +15913,87 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 14:50:21] INFO root fetch - processPackages [speedwagon-algorithm]: Remove: archive file [/home/abi/fetcher/tmp/speedwagon_algorithm-1.9.1.tar.gz]
 [2024-05-27 14:50:21] INFO root fetch - main [MainThread]: End processing [speedwagon-algorithm]: success
 [2024-05-27 14:50:21] INFO root fetch - main [MainThread]: Store serial: [23395749]
+[2024-05-27 14:52:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23395749]
+[2024-05-27 14:52:32] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-27 14:52:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jupyterlab-mol-visualizer
+[2024-05-27 14:52:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: byzerllm
+[2024-05-27 14:52:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: basketball-reference-webscrapper
+[2024-05-27 14:52:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dateUts
+[2024-05-27 14:52:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: paddle2onnx
+[2024-05-27 14:52:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: easy-kubeflow
+[2024-05-27 14:52:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dcnum
+[2024-05-27 14:52:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: shareddata
+[2024-05-27 14:52:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pkrcomponents
+[2024-05-27 14:52:32] INFO root fetch - processPackages [byzerllm]: New version: [0.1.92] Old Version: [0.1.91]
+[2024-05-27 14:52:32] INFO root fetch - processPackages [dateUts]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-27 14:52:32] INFO root fetch - processPackages [jupyterlab-mol-visualizer]: New version: [1.0.0] Old Version: [0.3.0]
+[2024-05-27 14:52:32] INFO root fetch - processPackages [basketball-reference-webscrapper]: New version: [0.1.5] Old Version: [0.1.3]
+[2024-05-27 14:52:32] INFO root fetch - processPackages [easy-kubeflow]: New version: [0.1.6] Old Version: [0.1.3]
+[2024-05-27 14:52:32] INFO root fetch - processPackages [dcnum]: New version: [0.20.0] Old Version: [0.19.1]
+[2024-05-27 14:52:32] INFO root fetch - processPackages [pkrcomponents]: New version: [1.7.0] Old Version: [1.6.7]
+[2024-05-27 14:52:32] INFO root fetch - processPackages [paddle2onnx]: New version: [1.2.3] Old Version: [1.2.2]
+[2024-05-27 14:52:32] INFO root fetch - processPackages [shareddata]: New version: [4.8.1] Old Version: [4.8.0]
+[2024-05-27 14:52:32] INFO root fetch - processPackages [basketball-reference-webscrapper]: Downloading https://files.pythonhosted.org/packages/92/c5/ce62811d20007ea6655e2ce551dae3d42550d969fe58fab08e7ce6946f5a/basketball_reference_webscrapper-0.1.3.tar.gz
+[2024-05-27 14:52:32] INFO root fetch - processPackages [dateUts]: Downloading https://files.pythonhosted.org/packages/c9/b3/f04d146297f96f0327e4af5c6a01f79d4cd0fa8e4915491ccbcf54fe77c2/dateUts-0.2.8.tar.gz
+[2024-05-27 14:52:32] INFO root fetch - processPackages [byzerllm]: Downloading https://files.pythonhosted.org/packages/95/25/7ea107b26285d6a7498dc94f13d851a4db86ab39b28414241d6367920953/byzerllm-0.1.91.tar.gz
+[2024-05-27 14:52:32] INFO root fetch - processPackages [jupyterlab-mol-visualizer]: Downloading https://files.pythonhosted.org/packages/9f/d0/6c8a0bae46916ab3142ea6a87f6299194bc0ae4eaad0d68073048492f8a1/jupyterlab_mol_visualizer-0.3.0.tar.gz
+[2024-05-27 14:52:32] INFO root fetch - processPackages [dcnum]: Downloading https://files.pythonhosted.org/packages/77/2b/4c66586c81ae13cdd0513a6175bb38e2e6f3602db70ce630d92f228057d8/dcnum-0.19.1.tar.gz
+[2024-05-27 14:52:32] INFO root fetch - processPackages [pkrcomponents]: Downloading https://files.pythonhosted.org/packages/a9/3c/6687e53ed7112a86fd525f24b6ba07707d9abd95c32e02c3f91525df1680/pkrcomponents-1.6.7.tar.gz
+[2024-05-27 14:52:32] INFO root fetch - processPackages [paddle2onnx]: Downloading https://files.pythonhosted.org/packages/79/c1/6771089fa73c47249725b2515f602ccf009271485733c725a667f7df2743/paddle2onnx-1.2.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-27 14:52:32] INFO root fetch - processPackages [shareddata]: Downloading https://files.pythonhosted.org/packages/2a/58/c520979023190b895758bbc47d2ac3878b955c2553f080d3a5b8152c4219/shareddata-4.8.0.tar.gz
+[2024-05-27 14:52:32] INFO root fetch - processPackages [easy-kubeflow]: Downloading https://files.pythonhosted.org/packages/18/04/af2614e5ef16ea5a349199a5951e1925506c544a337075c9573971b152f5/easy-kubeflow-0.1.3.tar.gz
+[2024-05-27 14:52:32] INFO root fetch - processPackages [basketball-reference-webscrapper]: Downloading https://files.pythonhosted.org/packages/a0/3f/97470fca14ac5876a1ce575220f755dcdd1b0eb3b21842562eb519d69cbc/basketball_reference_webscrapper-0.1.5.tar.gz
+[2024-05-27 14:52:32] INFO root fetch - processPackages [dateUts]: Downloading https://files.pythonhosted.org/packages/99/0c/a5f1bb234421fa3920e736260b2252c989ff5cd827518c5a71a42da2ac68/dateUts-0.2.9.tar.gz
+[2024-05-27 14:52:33] INFO root fetch - processPackages [pkrcomponents]: Downloading https://files.pythonhosted.org/packages/7a/3f/40734d43fad0c1786e5db5acc1d6a7b2f564297a143daaa9848cc4c74f7e/pkrcomponents-1.7.0.tar.gz
+[2024-05-27 14:52:33] INFO root fetch - processPackages [basketball-reference-webscrapper]: executing diffoscope
+[2024-05-27 14:52:33] INFO root fetch - processPackages [basketball-reference-webscrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/basketball_reference_webscrapper-0.1.3.tar.gz tmp/basketball_reference_webscrapper-0.1.5.tar.gz --markdown 20240527/b/basketball-reference-webscrapper/0.1.3-0.1.5/README.md --exclude *.pyd
+[2024-05-27 14:52:33] INFO root fetch - processPackages [shareddata]: Downloading https://files.pythonhosted.org/packages/47/e9/657e2c170c3c1d33047258b43f2ffcf2fe4a8022e3593f723df226416ea9/shareddata-4.8.1.tar.gz
+[2024-05-27 14:52:33] INFO root fetch - processPackages [easy-kubeflow]: Downloading https://files.pythonhosted.org/packages/aa/6b/2849e6fd2c463ae0940213aa7401011a04c529226e113f8490d87795cfa6/easy-kubeflow-0.1.6.tar.gz
+[2024-05-27 14:52:33] INFO root fetch - processPackages [dateUts]: executing diffoscope
+[2024-05-27 14:52:33] INFO root fetch - processPackages [dateUts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dateUts-0.2.8.tar.gz tmp/dateUts-0.2.9.tar.gz --markdown 20240527/d/dateUts/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-27 14:52:33] INFO root fetch - processPackages [pkrcomponents]: executing diffoscope
+[2024-05-27 14:52:33] INFO root fetch - processPackages [pkrcomponents]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pkrcomponents-1.6.7.tar.gz tmp/pkrcomponents-1.7.0.tar.gz --markdown 20240527/p/pkrcomponents/1.6.7-1.7.0/README.md --exclude *.pyd
+[2024-05-27 14:52:33] INFO root fetch - processPackages [byzerllm]: Downloading https://files.pythonhosted.org/packages/56/7a/18730f7648c4fe22d79f1ed0684bbe5868a8804486b5fcf5a471188fc56f/byzerllm-0.1.92.tar.gz
+[2024-05-27 14:52:33] INFO root fetch - processPackages [easy-kubeflow]: executing diffoscope
+[2024-05-27 14:52:33] INFO root fetch - processPackages [easy-kubeflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easy-kubeflow-0.1.3.tar.gz tmp/easy-kubeflow-0.1.6.tar.gz --markdown 20240527/e/easy-kubeflow/0.1.3-0.1.6/README.md --exclude *.pyd
+[2024-05-27 14:52:33] INFO root fetch - processPackages [shareddata]: executing diffoscope
+[2024-05-27 14:52:33] INFO root fetch - processPackages [shareddata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shareddata-4.8.0.tar.gz tmp/shareddata-4.8.1.tar.gz --markdown 20240527/s/shareddata/4.8.0-4.8.1/README.md --exclude *.pyd
+[2024-05-27 14:52:33] INFO root fetch - processPackages [dcnum]: Downloading https://files.pythonhosted.org/packages/35/da/c94e889e2b54205a6279708e458786770d5711bdc8c2cd874673eaea2455/dcnum-0.20.0.tar.gz
+[2024-05-27 14:52:33] INFO root fetch - processPackages [paddle2onnx]: Downloading https://files.pythonhosted.org/packages/5f/db/cba2fcf98ffd4b0061d6ecb02588b3a9c3476efbc272f7940790f099a659/paddle2onnx-1.2.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-27 14:52:33] INFO root fetch - processPackages [jupyterlab-mol-visualizer]: Downloading https://files.pythonhosted.org/packages/2f/0e/aa5ec87a2fe7722a6b06b458b63a9d4d4f708b9ff97198568046f79dcdb0/jupyterlab_mol_visualizer-1.0.0.tar.gz
+[2024-05-27 14:52:33] INFO root fetch - processPackages [byzerllm]: executing diffoscope
+[2024-05-27 14:52:33] INFO root fetch - processPackages [byzerllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/byzerllm-0.1.91.tar.gz tmp/byzerllm-0.1.92.tar.gz --markdown 20240527/b/byzerllm/0.1.91-0.1.92/README.md --exclude *.pyd
+[2024-05-27 14:52:33] INFO root fetch - processPackages [dcnum]: executing diffoscope
+[2024-05-27 14:52:33] INFO root fetch - processPackages [dcnum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcnum-0.19.1.tar.gz tmp/dcnum-0.20.0.tar.gz --markdown 20240527/d/dcnum/0.19.1-0.20.0/README.md --exclude *.pyd
+[2024-05-27 14:52:33] INFO root fetch - processPackages [jupyterlab-mol-visualizer]: executing diffoscope
+[2024-05-27 14:52:33] INFO root fetch - processPackages [jupyterlab-mol-visualizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterlab_mol_visualizer-0.3.0.tar.gz tmp/jupyterlab_mol_visualizer-1.0.0.tar.gz --markdown 20240527/j/jupyterlab-mol-visualizer/0.3.0-1.0.0/README.md --exclude *.pyd
+[2024-05-27 14:52:33] INFO root fetch - processPackages [basketball-reference-webscrapper]: Remove: archive file [/home/abi/fetcher/tmp/basketball_reference_webscrapper-0.1.3.tar.gz]
+[2024-05-27 14:52:33] INFO root fetch - processPackages [basketball-reference-webscrapper]: Remove: archive file [/home/abi/fetcher/tmp/basketball_reference_webscrapper-0.1.5.tar.gz]
+[2024-05-27 14:52:33] INFO root fetch - main [MainThread]: End processing [basketball-reference-webscrapper]: success
+[2024-05-27 14:52:34] INFO root fetch - processPackages [dateUts]: Remove: archive file [/home/abi/fetcher/tmp/dateUts-0.2.8.tar.gz]
+[2024-05-27 14:52:34] INFO root fetch - processPackages [dateUts]: Remove: archive file [/home/abi/fetcher/tmp/dateUts-0.2.9.tar.gz]
+[2024-05-27 14:52:34] INFO root fetch - main [MainThread]: End processing [dateUts]: success
+[2024-05-27 14:52:34] INFO root fetch - processPackages [easy-kubeflow]: Remove: archive file [/home/abi/fetcher/tmp/easy-kubeflow-0.1.3.tar.gz]
+[2024-05-27 14:52:34] INFO root fetch - processPackages [easy-kubeflow]: Remove: archive file [/home/abi/fetcher/tmp/easy-kubeflow-0.1.6.tar.gz]
+[2024-05-27 14:52:34] INFO root fetch - main [MainThread]: End processing [easy-kubeflow]: success
+[2024-05-27 14:52:34] INFO root fetch - processPackages [shareddata]: Remove: archive file [/home/abi/fetcher/tmp/shareddata-4.8.0.tar.gz]
+[2024-05-27 14:52:34] INFO root fetch - processPackages [shareddata]: Remove: archive file [/home/abi/fetcher/tmp/shareddata-4.8.1.tar.gz]
+[2024-05-27 14:52:34] INFO root fetch - main [MainThread]: End processing [shareddata]: success
+[2024-05-27 14:52:34] INFO root fetch - processPackages [pkrcomponents]: Remove: archive file [/home/abi/fetcher/tmp/pkrcomponents-1.6.7.tar.gz]
+[2024-05-27 14:52:34] INFO root fetch - processPackages [pkrcomponents]: Remove: archive file [/home/abi/fetcher/tmp/pkrcomponents-1.7.0.tar.gz]
+[2024-05-27 14:52:34] INFO root fetch - main [MainThread]: End processing [pkrcomponents]: success
+[2024-05-27 14:52:34] INFO root fetch - processPackages [paddle2onnx]: executing diffoscope
+[2024-05-27 14:52:34] INFO root fetch - processPackages [paddle2onnx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paddle2onnx-1.2.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/paddle2onnx-1.2.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240527/p/paddle2onnx/1.2.2-1.2.3/README.md --exclude *.pyd
+[2024-05-27 14:52:34] INFO root fetch - processPackages [dcnum]: Remove: archive file [/home/abi/fetcher/tmp/dcnum-0.19.1.tar.gz]
+[2024-05-27 14:52:34] INFO root fetch - processPackages [dcnum]: Remove: archive file [/home/abi/fetcher/tmp/dcnum-0.20.0.tar.gz]
+[2024-05-27 14:52:34] INFO root fetch - main [MainThread]: End processing [dcnum]: success
+[2024-05-27 14:52:36] INFO root fetch - processPackages [byzerllm]: Remove: archive file [/home/abi/fetcher/tmp/byzerllm-0.1.91.tar.gz]
+[2024-05-27 14:52:36] INFO root fetch - processPackages [byzerllm]: Remove: archive file [/home/abi/fetcher/tmp/byzerllm-0.1.92.tar.gz]
+[2024-05-27 14:52:36] INFO root fetch - main [MainThread]: End processing [byzerllm]: success
+[2024-05-27 14:52:54] INFO root fetch - processPackages [jupyterlab-mol-visualizer]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_mol_visualizer-0.3.0.tar.gz]
+[2024-05-27 14:52:54] INFO root fetch - processPackages [jupyterlab-mol-visualizer]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_mol_visualizer-1.0.0.tar.gz]
+[2024-05-27 14:52:54] INFO root fetch - main [MainThread]: End processing [jupyterlab-mol-visualizer]: success
+[2024-05-27 14:53:24] INFO root fetch - processPackages [paddle2onnx]: Remove: archive file [/home/abi/fetcher/tmp/paddle2onnx-1.2.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-27 14:53:24] INFO root fetch - processPackages [paddle2onnx]: Remove: archive file [/home/abi/fetcher/tmp/paddle2onnx-1.2.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-27 14:53:24] INFO root fetch - main [MainThread]: End processing [paddle2onnx]: success
+[2024-05-27 14:53:24] INFO root fetch - main [MainThread]: Store serial: [23395777]
