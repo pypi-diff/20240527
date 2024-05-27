@@ -7041,3 +7041,32 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 08:22:41] INFO root fetch - processPackages [kvcommon-flask]: Remove: archive file [/home/abi/fetcher/tmp/kvcommon_flask-0.0.4b0.tar.gz]
 [2024-05-27 08:22:41] INFO root fetch - main [MainThread]: End processing [kvcommon-flask]: success
 [2024-05-27 08:22:41] INFO root fetch - main [MainThread]: Store serial: [23391324]
+[2024-05-27 08:24:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23391324]
+[2024-05-27 08:24:51] INFO root fetch - main [MainThread]: No changed packages found
+[2024-05-27 08:26:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23391324]
+[2024-05-27 08:26:56] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-27 08:26:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pygifconvt-KANG
+[2024-05-27 08:26:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dqpu
+[2024-05-27 08:26:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: liveflask
+[2024-05-27 08:26:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: capsule-manager-sdk
+[2024-05-27 08:26:56] WARNING root fetch - processPackages [dqpu]: Skipping, unable to determine old version
+[2024-05-27 08:26:56] INFO root fetch - main [MainThread]: End processing [dqpu] error
+[2024-05-27 08:26:56] INFO root fetch - processPackages [liveflask]: New version: [1.0.9rc6] Old Version: [1.0.9rc5]
+[2024-05-27 08:26:56] INFO root fetch - processPackages [liveflask]: Downloading https://files.pythonhosted.org/packages/4f/f7/9fa1b550df92979d3653b69ad0f8af57358884c417fc600ac326b87f6266/liveflask-1.0.9rc5.tar.gz
+[2024-05-27 08:26:56] WARNING root fetch - processPackages [pygifconvt-KANG]: Skipping, unable to determine old version
+[2024-05-27 08:26:56] INFO root fetch - main [MainThread]: End processing [pygifconvt-KANG] error
+[2024-05-27 08:26:56] INFO root fetch - processPackages [capsule-manager-sdk]: New version: [0.2.0.dev20240527] Old Version: [0.2.0.dev20240424]
+[2024-05-27 08:26:56] INFO root fetch - processPackages [liveflask]: Downloading https://files.pythonhosted.org/packages/c9/85/db794ba1759ab4e9865cd2537ac486073560649c795fb7212df21fe29eaf/liveflask-1.0.9rc6.tar.gz
+[2024-05-27 08:26:56] INFO root fetch - processPackages [capsule-manager-sdk]: Downloading https://files.pythonhosted.org/packages/0a/12/fcaa7235badbaac4c88c3c64649d794cd03ebeeb9a2f44446353ddd95d2b/capsule_manager_sdk-0.2.0.dev20240424-py3-none-manylinux2014_x86_64.whl
+[2024-05-27 08:26:56] INFO root fetch - processPackages [liveflask]: executing diffoscope
+[2024-05-27 08:26:56] INFO root fetch - processPackages [liveflask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liveflask-1.0.9rc5.tar.gz tmp/liveflask-1.0.9rc6.tar.gz --markdown 20240527/l/liveflask/1.0.9rc5-1.0.9rc6/README.md --exclude *.pyd
+[2024-05-27 08:26:57] INFO root fetch - processPackages [capsule-manager-sdk]: Downloading https://files.pythonhosted.org/packages/2a/f9/cf51d6a85a46d151275970a04d5f86b6474ee8e3b1e1e245fe45e60542d9/capsule_manager_sdk-0.2.0.dev20240527-py3-none-manylinux2014_x86_64.whl
+[2024-05-27 08:26:57] INFO root fetch - processPackages [capsule-manager-sdk]: executing diffoscope
+[2024-05-27 08:26:57] INFO root fetch - processPackages [capsule-manager-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/capsule_manager_sdk-0.2.0.dev20240424-py3-none-manylinux2014_x86_64.whl.zip tmp/capsule_manager_sdk-0.2.0.dev20240527-py3-none-manylinux2014_x86_64.whl.zip --markdown 20240527/c/capsule-manager-sdk/0.2.0.dev20240424-0.2.0.dev20240527/README.md --exclude *.pyd
+[2024-05-27 08:26:57] INFO root fetch - processPackages [liveflask]: Remove: archive file [/home/abi/fetcher/tmp/liveflask-1.0.9rc5.tar.gz]
+[2024-05-27 08:26:57] INFO root fetch - processPackages [liveflask]: Remove: archive file [/home/abi/fetcher/tmp/liveflask-1.0.9rc6.tar.gz]
+[2024-05-27 08:26:57] INFO root fetch - main [MainThread]: End processing [liveflask]: success
+[2024-05-27 08:26:57] INFO root fetch - processPackages [capsule-manager-sdk]: Remove: archive file [/home/abi/fetcher/tmp/capsule_manager_sdk-0.2.0.dev20240424-py3-none-manylinux2014_x86_64.whl.zip]
+[2024-05-27 08:26:57] INFO root fetch - processPackages [capsule-manager-sdk]: Remove: archive file [/home/abi/fetcher/tmp/capsule_manager_sdk-0.2.0.dev20240527-py3-none-manylinux2014_x86_64.whl.zip]
+[2024-05-27 08:26:57] INFO root fetch - main [MainThread]: End processing [capsule-manager-sdk]: success
+[2024-05-27 08:26:57] INFO root fetch - main [MainThread]: Store serial: [23391336]
