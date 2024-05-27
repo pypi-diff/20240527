@@ -4157,3 +4157,21 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 04:53:37] INFO root fetch - processPackages [lckytools]: Remove: archive file [/home/abi/fetcher/tmp/lckytools-0.0.0a4.tar.gz]
 [2024-05-27 04:53:37] INFO root fetch - main [MainThread]: End processing [lckytools]: success
 [2024-05-27 04:53:37] INFO root fetch - main [MainThread]: Store serial: [23389918]
+[2024-05-27 04:55:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23389918]
+[2024-05-27 04:55:45] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-27 04:55:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chess-cli-python-stockfish
+[2024-05-27 04:55:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: specklia
+[2024-05-27 04:55:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pypdfzipcracker
+[2024-05-27 04:55:46] WARNING root fetch - processPackages [chess-cli-python-stockfish]: Skipping, unable to determine old version
+[2024-05-27 04:55:46] INFO root fetch - main [MainThread]: End processing [chess-cli-python-stockfish] error
+[2024-05-27 04:55:46] ERROR root fetch - processPackages [pypdfzipcracker]: Unable to get metadata: No such project 'pypdfzipcracker'
+[2024-05-27 04:55:46] INFO root fetch - main [MainThread]: End processing [pypdfzipcracker] error
+[2024-05-27 04:55:46] INFO root fetch - processPackages [specklia]: New version: [1.8.9] Old Version: [1.8.89]
+[2024-05-27 04:55:46] INFO root fetch - processPackages [specklia]: Downloading https://files.pythonhosted.org/packages/97/e9/3d589ad6318f5ac56b0d19a9c22a3223939dc5724371231f3b4b7a6e3840/specklia-1.8.89.tar.gz
+[2024-05-27 04:55:46] INFO root fetch - processPackages [specklia]: Downloading https://files.pythonhosted.org/packages/0d/ec/3815cb2a18ad5b8029e09da92f85c68b28ffd5dbcf20be7c41214190aeaf/specklia-1.8.9.tar.gz
+[2024-05-27 04:55:46] INFO root fetch - processPackages [specklia]: executing diffoscope
+[2024-05-27 04:55:46] INFO root fetch - processPackages [specklia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/specklia-1.8.89.tar.gz tmp/specklia-1.8.9.tar.gz --markdown 20240527/s/specklia/1.8.89-1.8.9/README.md --exclude *.pyd
+[2024-05-27 04:55:47] INFO root fetch - processPackages [specklia]: Remove: archive file [/home/abi/fetcher/tmp/specklia-1.8.89.tar.gz]
+[2024-05-27 04:55:47] INFO root fetch - processPackages [specklia]: Remove: archive file [/home/abi/fetcher/tmp/specklia-1.8.9.tar.gz]
+[2024-05-27 04:55:47] INFO root fetch - main [MainThread]: End processing [specklia]: success
+[2024-05-27 04:55:47] INFO root fetch - main [MainThread]: Store serial: [23389931]
