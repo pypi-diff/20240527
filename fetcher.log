@@ -15194,3 +15194,96 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 14:21:17] INFO root fetch - processPackages [moto-ext]: Remove: archive file [/home/abi/fetcher/tmp/moto_ext-5.0.8.post1-py2.py3-none-any.whl.zip]
 [2024-05-27 14:21:17] INFO root fetch - main [MainThread]: End processing [moto-ext]: success
 [2024-05-27 14:21:17] INFO root fetch - main [MainThread]: Store serial: [23395376]
+[2024-05-27 14:23:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23395376]
+[2024-05-27 14:23:27] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-05-27 14:23:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cg
+[2024-05-27 14:23:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: oebuild
+[2024-05-27 14:23:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gpt-computer-assistant
+[2024-05-27 14:23:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: drf-tus
+[2024-05-27 14:23:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: snakemake
+[2024-05-27 14:23:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: beautiful-weather-cli
+[2024-05-27 14:23:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: zimo-web-screenshot
+[2024-05-27 14:23:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyiskra
+[2024-05-27 14:23:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: conditional-parser
+[2024-05-27 14:23:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: zoomaker
+[2024-05-27 14:23:27] INFO root fetch - processPackages [gpt-computer-assistant]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-27 14:23:27] INFO root fetch - processPackages [zimo-web-screenshot]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-05-27 14:23:27] INFO root fetch - processPackages [snakemake]: New version: [8.9.0] Old Version: [8.8.0]
+[2024-05-27 14:23:28] INFO root fetch - processPackages [cg]: New version: [60.8.9] Old Version: [60.8.8]
+[2024-05-27 14:23:28] INFO root fetch - processPackages [drf-tus]: New version: [2.0.2] Old Version: [2.0.1]
+[2024-05-27 14:23:28] INFO root fetch - processPackages [oebuild]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-27 14:23:28] WARNING root fetch - processPackages [beautiful-weather-cli]: Skipping, unable to determine old version
+[2024-05-27 14:23:28] INFO root fetch - processPackages [beautiful-weather-cli]: Start processing: kpler.sdk
+[2024-05-27 14:23:28] INFO root fetch - main [MainThread]: End processing [beautiful-weather-cli] error
+[2024-05-27 14:23:28] INFO root fetch - processPackages [zoomaker]: New version: [0.8.0] Old Version: [0.7.0]
+[2024-05-27 14:23:28] WARNING root fetch - processPackages [pyiskra]: Skipping, unable to determine old version
+[2024-05-27 14:23:28] INFO root fetch - processPackages [pyiskra]: Start processing: django-stubs
+[2024-05-27 14:23:28] INFO root fetch - main [MainThread]: End processing [pyiskra] error
+[2024-05-27 14:23:28] WARNING root fetch - processPackages [conditional-parser]: Skipping, unable to determine old version
+[2024-05-27 14:23:28] INFO root fetch - main [MainThread]: End processing [conditional-parser] error
+[2024-05-27 14:23:28] INFO root fetch - processPackages [zimo-web-screenshot]: Downloading https://files.pythonhosted.org/packages/ef/bf/118c5faf02c61bddb18e7fd8b24c36ec721c294f3a5c44a2735d5da9a307/zimo-web-screenshot-0.2.0.tar.gz
+[2024-05-27 14:23:28] INFO root fetch - processPackages [django-stubs]: New version: [5.0.1] Old Version: [5.0.0]
+[2024-05-27 14:23:28] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/d6/8e/017bcd413c9044bb3a8ec3e9a9e28ff36b6d814eef56056a4702d375ac95/cg-60.8.8.tar.gz
+[2024-05-27 14:23:28] INFO root fetch - processPackages [gpt-computer-assistant]: Downloading https://files.pythonhosted.org/packages/20/ea/8136510b63e2a7a7c2117fe35355dc2bc004859e13d2ee79eddd1027e85e/gpt_computer_assistant-0.1.0.tar.gz
+[2024-05-27 14:23:28] INFO root fetch - processPackages [kpler.sdk]: New version: [1.0.8] Old Version: [1.0.7]
+[2024-05-27 14:23:28] INFO root fetch - processPackages [snakemake]: Downloading https://files.pythonhosted.org/packages/f0/3e/3386739ee49f841cc84f08989fb924917414aa0438c4559d48674a8c920b/snakemake-8.8.0.tar.gz
+[2024-05-27 14:23:28] INFO root fetch - processPackages [django-stubs]: Downloading https://files.pythonhosted.org/packages/17/24/61bf4c69e825af96f47b8c009c01939b31af4a883bfcb394d0bb7a3e1571/django_stubs-5.0.0.tar.gz
+[2024-05-27 14:23:28] INFO root fetch - processPackages [oebuild]: Downloading https://files.pythonhosted.org/packages/00/38/6ff4040fd2fa67770e5f35996109b1d55f669121a678cf84fcacc6e0e83b/oebuild-0.0.8-py3-none-any.whl
+[2024-05-27 14:23:28] INFO root fetch - processPackages [drf-tus]: Downloading https://files.pythonhosted.org/packages/11/1d/90a57dfc1916269ef9fa32c62a53417f581962c224df3d7583b09ef1c2fc/drf-tus-2.0.1.tar.gz
+[2024-05-27 14:23:28] INFO root fetch - processPackages [zoomaker]: Downloading https://files.pythonhosted.org/packages/da/9d/86b4d3a0774af0fc732080f775027e7b4549eeedd8740ca019e6b9103bcd/zoomaker-0.7.0.tar.gz
+[2024-05-27 14:23:28] INFO root fetch - processPackages [zimo-web-screenshot]: Downloading https://files.pythonhosted.org/packages/97/dd/dd506bd808d80b5d4d5f744f5c784244c28aa3e00be9acf70bba00dc5fe3/zimo-web-screenshot-0.3.0.tar.gz
+[2024-05-27 14:23:28] INFO root fetch - processPackages [kpler.sdk]: Downloading https://files.pythonhosted.org/packages/52/20/59fda5bfb511f3217701a4654c39356a259fca3c4ed847e289e136082616/kpler.sdk-1.0.7.tar.gz
+[2024-05-27 14:23:28] INFO root fetch - processPackages [zimo-web-screenshot]: executing diffoscope
+[2024-05-27 14:23:28] INFO root fetch - processPackages [zimo-web-screenshot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zimo-web-screenshot-0.2.0.tar.gz tmp/zimo-web-screenshot-0.3.0.tar.gz --markdown 20240527/z/zimo-web-screenshot/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-05-27 14:23:28] INFO root fetch - processPackages [gpt-computer-assistant]: Downloading https://files.pythonhosted.org/packages/d0/b1/2899fac7034185f82c596179ae842fa57062618edfc08c280bfa164aaa23/gpt_computer_assistant-0.1.1.tar.gz
+[2024-05-27 14:23:28] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/df/aa/bcf36edef12ba2ac2c9179507531723a7d2784d50a1cb868497d0120f301/cg-60.8.9.tar.gz
+[2024-05-27 14:23:28] INFO root fetch - processPackages [oebuild]: Downloading https://files.pythonhosted.org/packages/75/82/8f5aaba41319b25523fe1c8b9679c66d3a7f0d17bb02ab0ef6ea4ceb1871/oebuild-0.0.9-py3-none-any.whl
+[2024-05-27 14:23:28] INFO root fetch - processPackages [gpt-computer-assistant]: executing diffoscope
+[2024-05-27 14:23:28] INFO root fetch - processPackages [gpt-computer-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt_computer_assistant-0.1.0.tar.gz tmp/gpt_computer_assistant-0.1.1.tar.gz --markdown 20240527/g/gpt-computer-assistant/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-27 14:23:28] INFO root fetch - processPackages [django-stubs]: Downloading https://files.pythonhosted.org/packages/16/cd/49e02d493338d71211a5b2ba28ebd09230e96720114556e7dbbe489a9fda/django_stubs-5.0.1.tar.gz
+[2024-05-27 14:23:28] INFO root fetch - processPackages [drf-tus]: Downloading https://files.pythonhosted.org/packages/d5/7c/8cbf6341c6b649c7235715c91cf906ff232c53f1d71f310c06d7371625a0/drf_tus-2.0.2-py3-none-any.whl
+[2024-05-27 14:23:28] INFO root fetch - processPackages [snakemake]: Downloading https://files.pythonhosted.org/packages/be/07/0040ab91da28bcd9077a8762748deba3b02dd8f7613e14589e4ec0f25aab/snakemake-8.9.0.tar.gz
+[2024-05-27 14:23:28] INFO root fetch - processPackages [zoomaker]: Downloading https://files.pythonhosted.org/packages/36/ea/de6fd13cfbd98352b77f83c509f9684cdfcc46232c31dc128604ec57d1c5/zoomaker-0.8.0.tar.gz
+[2024-05-27 14:23:28] INFO root fetch - processPackages [oebuild]: executing diffoscope
+[2024-05-27 14:23:28] INFO root fetch - processPackages [oebuild]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oebuild-0.0.8-py3-none-any.whl.zip tmp/oebuild-0.0.9-py3-none-any.whl.zip --markdown 20240527/o/oebuild/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-27 14:23:28] INFO root fetch - processPackages [kpler.sdk]: Downloading https://files.pythonhosted.org/packages/f6/50/27d8cbc4897c825995b73b5f50acd1689a844318d20873c060045cd33c38/kpler.sdk-1.0.8.tar.gz
+[2024-05-27 14:23:28] INFO root fetch - processPackages [drf-tus]: executing diffoscope
+[2024-05-27 14:23:28] INFO root fetch - processPackages [drf-tus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drf-tus-2.0.1.tar.gz tmp/drf_tus-2.0.2-py3-none-any.whl.zip --markdown 20240527/d/drf-tus/2.0.1-2.0.2/README.md --exclude *.pyd
+[2024-05-27 14:23:28] INFO root fetch - processPackages [django-stubs]: executing diffoscope
+[2024-05-27 14:23:28] INFO root fetch - processPackages [django-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_stubs-5.0.0.tar.gz tmp/django_stubs-5.0.1.tar.gz --markdown 20240527/d/django-stubs/5.0.0-5.0.1/README.md --exclude *.pyd
+[2024-05-27 14:23:28] INFO root fetch - processPackages [snakemake]: executing diffoscope
+[2024-05-27 14:23:28] INFO root fetch - processPackages [snakemake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snakemake-8.8.0.tar.gz tmp/snakemake-8.9.0.tar.gz --markdown 20240527/s/snakemake/8.8.0-8.9.0/README.md --exclude *.pyd
+[2024-05-27 14:23:28] INFO root fetch - processPackages [cg]: executing diffoscope
+[2024-05-27 14:23:28] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-60.8.8.tar.gz tmp/cg-60.8.9.tar.gz --markdown 20240527/c/cg/60.8.8-60.8.9/README.md --exclude *.pyd
+[2024-05-27 14:23:29] INFO root fetch - processPackages [kpler.sdk]: executing diffoscope
+[2024-05-27 14:23:29] INFO root fetch - processPackages [kpler.sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kpler.sdk-1.0.7.tar.gz tmp/kpler.sdk-1.0.8.tar.gz --markdown 20240527/k/kpler.sdk/1.0.7-1.0.8/README.md --exclude *.pyd
+[2024-05-27 14:23:29] INFO root fetch - processPackages [zoomaker]: executing diffoscope
+[2024-05-27 14:23:29] INFO root fetch - processPackages [zoomaker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zoomaker-0.7.0.tar.gz tmp/zoomaker-0.8.0.tar.gz --markdown 20240527/z/zoomaker/0.7.0-0.8.0/README.md --exclude *.pyd
+[2024-05-27 14:23:29] INFO root fetch - processPackages [zimo-web-screenshot]: Remove: archive file [/home/abi/fetcher/tmp/zimo-web-screenshot-0.2.0.tar.gz]
+[2024-05-27 14:23:29] INFO root fetch - processPackages [zimo-web-screenshot]: Remove: archive file [/home/abi/fetcher/tmp/zimo-web-screenshot-0.3.0.tar.gz]
+[2024-05-27 14:23:29] INFO root fetch - main [MainThread]: End processing [zimo-web-screenshot]: success
+[2024-05-27 14:23:29] INFO root fetch - processPackages [gpt-computer-assistant]: Remove: archive file [/home/abi/fetcher/tmp/gpt_computer_assistant-0.1.0.tar.gz]
+[2024-05-27 14:23:29] INFO root fetch - processPackages [gpt-computer-assistant]: Remove: archive file [/home/abi/fetcher/tmp/gpt_computer_assistant-0.1.1.tar.gz]
+[2024-05-27 14:23:29] INFO root fetch - main [MainThread]: End processing [gpt-computer-assistant]: success
+[2024-05-27 14:23:29] INFO root fetch - processPackages [drf-tus]: Remove: archive file [/home/abi/fetcher/tmp/drf-tus-2.0.1.tar.gz]
+[2024-05-27 14:23:29] INFO root fetch - processPackages [drf-tus]: Remove: archive file [/home/abi/fetcher/tmp/drf_tus-2.0.2-py3-none-any.whl.zip]
+[2024-05-27 14:23:29] INFO root fetch - main [MainThread]: End processing [drf-tus]: success
+[2024-05-27 14:23:29] INFO root fetch - processPackages [oebuild]: Remove: archive file [/home/abi/fetcher/tmp/oebuild-0.0.8-py3-none-any.whl.zip]
+[2024-05-27 14:23:29] INFO root fetch - processPackages [oebuild]: Remove: archive file [/home/abi/fetcher/tmp/oebuild-0.0.9-py3-none-any.whl.zip]
+[2024-05-27 14:23:29] INFO root fetch - main [MainThread]: End processing [oebuild]: success
+[2024-05-27 14:23:29] INFO root fetch - processPackages [zoomaker]: Remove: archive file [/home/abi/fetcher/tmp/zoomaker-0.7.0.tar.gz]
+[2024-05-27 14:23:29] INFO root fetch - processPackages [zoomaker]: Remove: archive file [/home/abi/fetcher/tmp/zoomaker-0.8.0.tar.gz]
+[2024-05-27 14:23:29] INFO root fetch - main [MainThread]: End processing [zoomaker]: success
+[2024-05-27 14:23:30] INFO root fetch - processPackages [kpler.sdk]: Remove: archive file [/home/abi/fetcher/tmp/kpler.sdk-1.0.7.tar.gz]
+[2024-05-27 14:23:30] INFO root fetch - processPackages [kpler.sdk]: Remove: archive file [/home/abi/fetcher/tmp/kpler.sdk-1.0.8.tar.gz]
+[2024-05-27 14:23:30] INFO root fetch - main [MainThread]: End processing [kpler.sdk]: success
+[2024-05-27 14:23:30] INFO root fetch - processPackages [snakemake]: Remove: archive file [/home/abi/fetcher/tmp/snakemake-8.8.0.tar.gz]
+[2024-05-27 14:23:30] INFO root fetch - processPackages [snakemake]: Remove: archive file [/home/abi/fetcher/tmp/snakemake-8.9.0.tar.gz]
+[2024-05-27 14:23:30] INFO root fetch - main [MainThread]: End processing [snakemake]: success
+[2024-05-27 14:23:31] INFO root fetch - processPackages [django-stubs]: Remove: archive file [/home/abi/fetcher/tmp/django_stubs-5.0.0.tar.gz]
+[2024-05-27 14:23:31] INFO root fetch - processPackages [django-stubs]: Remove: archive file [/home/abi/fetcher/tmp/django_stubs-5.0.1.tar.gz]
+[2024-05-27 14:23:31] INFO root fetch - main [MainThread]: End processing [django-stubs]: success
+[2024-05-27 14:23:33] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.8.8.tar.gz]
+[2024-05-27 14:23:33] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.8.9.tar.gz]
+[2024-05-27 14:23:33] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2024-05-27 14:23:33] INFO root fetch - main [MainThread]: Store serial: [23395426]
