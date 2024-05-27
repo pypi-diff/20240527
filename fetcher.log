@@ -18681,3 +18681,63 @@ EOFError: EOF read where object expected
 [2024-05-27 16:24:46] INFO root fetch - processPackages [apideck]: Remove: archive file [/home/abi/fetcher/tmp/apideck-1.2.3.tar.gz]
 [2024-05-27 16:24:46] INFO root fetch - main [MainThread]: End processing [apideck]: success
 [2024-05-27 16:24:46] INFO root fetch - main [MainThread]: Store serial: [23396965]
+[2024-05-27 16:26:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23396965]
+[2024-05-27 16:26:56] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-27 16:26:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ert
+[2024-05-27 16:26:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: BarteSDK
+[2024-05-27 16:26:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: powerpathfinder-models
+[2024-05-27 16:26:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: objectbox
+[2024-05-27 16:26:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: whatnow
+[2024-05-27 16:26:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: track2p
+[2024-05-27 16:26:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: znvs
+[2024-05-27 16:26:56] INFO root fetch - processPackages [BarteSDK]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-27 16:26:56] INFO root fetch - processPackages [track2p]: New version: [0.5.5] Old Version: [0.5.4]
+[2024-05-27 16:26:56] INFO root fetch - processPackages [whatnow]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-27 16:26:56] INFO root fetch - processPackages [BarteSDK]: Downloading https://files.pythonhosted.org/packages/1c/24/f265a111f10a855a327643e87273d1f3ba56190ad02e0175f3b5b6319e4c/bartesdk-0.1.8.tar.gz
+[2024-05-27 16:26:56] INFO root fetch - processPackages [objectbox]: New version: [4.0.0a2] Old Version: [4.0.0a1]
+[2024-05-27 16:26:56] WARNING root fetch - processPackages [znvs]: Skipping, unable to determine old version
+[2024-05-27 16:26:56] INFO root fetch - main [MainThread]: End processing [znvs] error
+[2024-05-27 16:26:56] INFO root fetch - processPackages [powerpathfinder-models]: New version: [2.1.0] Old Version: [2.0.0]
+[2024-05-27 16:26:56] INFO root fetch - processPackages [ert]: New version: [9.0.9] Old Version: [9.0.8]
+[2024-05-27 16:26:57] INFO root fetch - processPackages [track2p]: Downloading https://files.pythonhosted.org/packages/34/bf/f79e58967b3de7a87a74ec5a50f96ee8609260695a3fb29a911bfc661e1f/track2p-0.5.4-py3-none-any.whl
+[2024-05-27 16:26:57] INFO root fetch - processPackages [whatnow]: Downloading https://files.pythonhosted.org/packages/f8/c7/8a4904b50ac59cc1c7978ebaad4507d947dcf41e06b6c17078e81ef804cf/whatnow-0.1.1.tar.gz
+[2024-05-27 16:26:57] INFO root fetch - processPackages [BarteSDK]: Downloading https://files.pythonhosted.org/packages/15/ee/a85c9e9d9f84f12e1c3ab4801827286e3ad5588e1683d13c5130caaa29f2/bartesdk-0.1.9.tar.gz
+[2024-05-27 16:26:57] INFO root fetch - processPackages [objectbox]: Downloading https://files.pythonhosted.org/packages/db/e7/ebaa5afdce8e094cecbdba3ef36092b53e081bb6a1853841c94646c0e7cd/objectbox-4.0.0a1-py3-none-any.whl
+[2024-05-27 16:26:57] INFO root fetch - processPackages [powerpathfinder-models]: Downloading https://files.pythonhosted.org/packages/ba/e5/4d0381b50edeb91c49a0a626a7693a9740c79499c0a0e7305f2cd48f64a8/powerpathfinder_models-2.0.0.tar.gz
+[2024-05-27 16:26:57] INFO root fetch - processPackages [track2p]: Downloading https://files.pythonhosted.org/packages/d1/9f/3a045ed4a7454d249544f5147ce09b963c2433ef238def4b21f637b42ca1/track2p-0.5.5.tar.gz
+[2024-05-27 16:26:57] INFO root fetch - processPackages [ert]: Downloading https://files.pythonhosted.org/packages/d3/ed/1b32adc2b0f34e25ca508b858069a0b7e840006670aad8f9c91899cfb57e/ert-9.0.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-27 16:26:57] INFO root fetch - processPackages [BarteSDK]: executing diffoscope
+[2024-05-27 16:26:57] INFO root fetch - processPackages [BarteSDK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bartesdk-0.1.8.tar.gz tmp/bartesdk-0.1.9.tar.gz --markdown 20240527/B/BarteSDK/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-27 16:26:57] INFO root fetch - processPackages [track2p]: executing diffoscope
+[2024-05-27 16:26:57] INFO root fetch - processPackages [track2p]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/track2p-0.5.4-py3-none-any.whl.zip tmp/track2p-0.5.5.tar.gz --markdown 20240527/t/track2p/0.5.4-0.5.5/README.md --exclude *.pyd
+[2024-05-27 16:26:57] INFO root fetch - processPackages [whatnow]: Downloading https://files.pythonhosted.org/packages/16/59/367212c33c47c784903b5d50eb8aa7ad237f771ede910f216e01b33aca11/whatnow-0.1.2.tar.gz
+[2024-05-27 16:26:57] INFO root fetch - processPackages [powerpathfinder-models]: Downloading https://files.pythonhosted.org/packages/40/25/63eb6228f7f175d2aa0a66695fcffc5a814e03d08bb965ef19229e494be4/powerpathfinder_models-2.1.0.tar.gz
+[2024-05-27 16:26:57] INFO root fetch - processPackages [whatnow]: executing diffoscope
+[2024-05-27 16:26:57] INFO root fetch - processPackages [powerpathfinder-models]: executing diffoscope
+[2024-05-27 16:26:57] INFO root fetch - processPackages [powerpathfinder-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/powerpathfinder_models-2.0.0.tar.gz tmp/powerpathfinder_models-2.1.0.tar.gz --markdown 20240527/p/powerpathfinder-models/2.0.0-2.1.0/README.md --exclude *.pyd
+[2024-05-27 16:26:57] INFO root fetch - processPackages [whatnow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whatnow-0.1.1.tar.gz tmp/whatnow-0.1.2.tar.gz --markdown 20240527/w/whatnow/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-27 16:26:57] INFO root fetch - processPackages [ert]: Downloading https://files.pythonhosted.org/packages/8d/4f/a098d5c93dec8fbf941d7d4f60fb3b86707ea5c9f599479549a3d84e246b/ert-9.0.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-27 16:26:57] INFO root fetch - processPackages [objectbox]: Downloading https://files.pythonhosted.org/packages/8e/02/cda33bd6ea35d3d051b92ca582732f2d0de6b34756df82064c099bdd96d5/objectbox-4.0.0a2-py3-none-any.whl
+[2024-05-27 16:26:57] INFO root fetch - processPackages [BarteSDK]: Remove: archive file [/home/abi/fetcher/tmp/bartesdk-0.1.8.tar.gz]
+[2024-05-27 16:26:57] INFO root fetch - processPackages [BarteSDK]: Remove: archive file [/home/abi/fetcher/tmp/bartesdk-0.1.9.tar.gz]
+[2024-05-27 16:26:57] INFO root fetch - main [MainThread]: End processing [BarteSDK]: success
+[2024-05-27 16:26:57] INFO root fetch - processPackages [ert]: executing diffoscope
+[2024-05-27 16:26:57] INFO root fetch - processPackages [ert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ert-9.0.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/ert-9.0.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240527/e/ert/9.0.8-9.0.9/README.md --exclude *.pyd
+[2024-05-27 16:26:57] INFO root fetch - processPackages [track2p]: Remove: archive file [/home/abi/fetcher/tmp/track2p-0.5.4-py3-none-any.whl.zip]
+[2024-05-27 16:26:57] INFO root fetch - processPackages [track2p]: Remove: archive file [/home/abi/fetcher/tmp/track2p-0.5.5.tar.gz]
+[2024-05-27 16:26:57] INFO root fetch - main [MainThread]: End processing [track2p]: success
+[2024-05-27 16:26:58] INFO root fetch - processPackages [objectbox]: executing diffoscope
+[2024-05-27 16:26:58] INFO root fetch - processPackages [objectbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/objectbox-4.0.0a1-py3-none-any.whl.zip tmp/objectbox-4.0.0a2-py3-none-any.whl.zip --markdown 20240527/o/objectbox/4.0.0a1-4.0.0a2/README.md --exclude *.pyd
+[2024-05-27 16:26:58] INFO root fetch - processPackages [powerpathfinder-models]: Remove: archive file [/home/abi/fetcher/tmp/powerpathfinder_models-2.0.0.tar.gz]
+[2024-05-27 16:26:58] INFO root fetch - processPackages [powerpathfinder-models]: Remove: archive file [/home/abi/fetcher/tmp/powerpathfinder_models-2.1.0.tar.gz]
+[2024-05-27 16:26:58] INFO root fetch - main [MainThread]: End processing [powerpathfinder-models]: success
+[2024-05-27 16:26:58] INFO root fetch - processPackages [whatnow]: Remove: archive file [/home/abi/fetcher/tmp/whatnow-0.1.1.tar.gz]
+[2024-05-27 16:26:58] INFO root fetch - processPackages [whatnow]: Remove: archive file [/home/abi/fetcher/tmp/whatnow-0.1.2.tar.gz]
+[2024-05-27 16:26:58] INFO root fetch - main [MainThread]: End processing [whatnow]: success
+[2024-05-27 16:27:02] INFO root fetch - processPackages [ert]: Remove: archive file [/home/abi/fetcher/tmp/ert-9.0.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-27 16:27:02] INFO root fetch - processPackages [ert]: Remove: archive file [/home/abi/fetcher/tmp/ert-9.0.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-27 16:27:02] INFO root fetch - main [MainThread]: End processing [ert]: success
+[2024-05-27 16:27:41] INFO root fetch - processPackages [objectbox]: Remove: archive file [/home/abi/fetcher/tmp/objectbox-4.0.0a1-py3-none-any.whl.zip]
+[2024-05-27 16:27:41] INFO root fetch - processPackages [objectbox]: Remove: archive file [/home/abi/fetcher/tmp/objectbox-4.0.0a2-py3-none-any.whl.zip]
+[2024-05-27 16:27:41] INFO root fetch - main [MainThread]: End processing [objectbox]: success
+[2024-05-27 16:27:41] INFO root fetch - main [MainThread]: Store serial: [23396997]
