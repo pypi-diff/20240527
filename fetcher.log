@@ -2385,3 +2385,42 @@
 [2024-05-27 03:05:35] INFO root fetch - processPackages [difai]: Remove: archive file [/home/abi/fetcher/tmp/difai-0.9.9.tar.gz]
 [2024-05-27 03:05:35] INFO root fetch - main [MainThread]: End processing [difai]: success
 [2024-05-27 03:05:35] INFO root fetch - main [MainThread]: Store serial: [23389265]
+[2024-05-27 03:07:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23389265]
+[2024-05-27 03:07:44] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-27 03:07:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hue-sunrise
+[2024-05-27 03:07:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mb-pytorch
+[2024-05-27 03:07:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Leonardo-Ai-SDK
+[2024-05-27 03:07:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dismo
+[2024-05-27 03:07:44] INFO root fetch - processPackages [dismo]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-27 03:07:44] INFO root fetch - processPackages [Leonardo-Ai-SDK]: New version: [5.4.4] Old Version: [5.4.3]
+[2024-05-27 03:07:44] INFO root fetch - processPackages [hue-sunrise]: New version: [0.6.9] Old Version: [0.6.8]
+[2024-05-27 03:07:44] INFO root fetch - processPackages [mb-pytorch]: New version: [1.0.5] Old Version: [1.0.47]
+[2024-05-27 03:07:44] INFO root fetch - processPackages [Leonardo-Ai-SDK]: Downloading https://files.pythonhosted.org/packages/0c/87/88ce5fc83b5c4c6b006f7345c26e3153a6566448505bcf6f3ab79956a242/Leonardo-Ai-SDK-5.4.3.tar.gz
+[2024-05-27 03:07:44] INFO root fetch - processPackages [mb-pytorch]: Downloading https://files.pythonhosted.org/packages/f9/f9/3c05d3d8efefef9ed7d18886827707f1d365dceaf5e4df75316348196e3d/mb_pytorch-1.0.47.tar.gz
+[2024-05-27 03:07:44] INFO root fetch - processPackages [hue-sunrise]: Downloading https://files.pythonhosted.org/packages/ca/e9/540d059956f78f9c8fe289ac263b36659e46539f8aa5f3d1bed8516aceb4/hue_sunrise-0.6.8.tar.gz
+[2024-05-27 03:07:44] INFO root fetch - processPackages [dismo]: Downloading https://files.pythonhosted.org/packages/e9/d8/33ec1926582882ec91e543cb167d590ea8473e0c8fdc328d9b16cf94dc2e/dismo-1.0.8.tar.gz
+[2024-05-27 03:07:44] INFO root fetch - processPackages [hue-sunrise]: Downloading https://files.pythonhosted.org/packages/fa/05/26bf05e0f3613c7bb941514f32b7c545625037f03289eec39ac8cf0557c9/hue_sunrise-0.6.9.tar.gz
+[2024-05-27 03:07:44] INFO root fetch - processPackages [Leonardo-Ai-SDK]: Downloading https://files.pythonhosted.org/packages/80/6f/9ffc58870be02b61f7c8d10933062b510558812468a578a23c0cbcda19e0/Leonardo-Ai-SDK-5.4.4.tar.gz
+[2024-05-27 03:07:44] INFO root fetch - processPackages [mb-pytorch]: Downloading https://files.pythonhosted.org/packages/18/ae/b46b20b02b5f2c2a25fcae91a88f80ab1e1c18413f89f662d20e5475e824/mb_pytorch-1.0.5.tar.gz
+[2024-05-27 03:07:44] INFO root fetch - processPackages [dismo]: Downloading https://files.pythonhosted.org/packages/46/ea/aca21eb7dddb69cc86666a35b07fe59fd6139a8b65bae53f8052ace4d4ec/dismo-1.0.9.tar.gz
+[2024-05-27 03:07:44] INFO root fetch - processPackages [hue-sunrise]: executing diffoscope
+[2024-05-27 03:07:44] INFO root fetch - processPackages [hue-sunrise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hue_sunrise-0.6.8.tar.gz tmp/hue_sunrise-0.6.9.tar.gz --markdown 20240527/h/hue-sunrise/0.6.8-0.6.9/README.md --exclude *.pyd
+[2024-05-27 03:07:45] INFO root fetch - processPackages [Leonardo-Ai-SDK]: executing diffoscope
+[2024-05-27 03:07:45] INFO root fetch - processPackages [Leonardo-Ai-SDK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Leonardo-Ai-SDK-5.4.3.tar.gz tmp/Leonardo-Ai-SDK-5.4.4.tar.gz --markdown 20240527/L/Leonardo-Ai-SDK/5.4.3-5.4.4/README.md --exclude *.pyd
+[2024-05-27 03:07:45] INFO root fetch - processPackages [mb-pytorch]: executing diffoscope
+[2024-05-27 03:07:45] INFO root fetch - processPackages [mb-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mb_pytorch-1.0.47.tar.gz tmp/mb_pytorch-1.0.5.tar.gz --markdown 20240527/m/mb-pytorch/1.0.47-1.0.5/README.md --exclude *.pyd
+[2024-05-27 03:07:45] INFO root fetch - processPackages [dismo]: executing diffoscope
+[2024-05-27 03:07:45] INFO root fetch - processPackages [dismo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dismo-1.0.8.tar.gz tmp/dismo-1.0.9.tar.gz --markdown 20240527/d/dismo/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-27 03:07:45] INFO root fetch - processPackages [hue-sunrise]: Remove: archive file [/home/abi/fetcher/tmp/hue_sunrise-0.6.8.tar.gz]
+[2024-05-27 03:07:45] INFO root fetch - processPackages [hue-sunrise]: Remove: archive file [/home/abi/fetcher/tmp/hue_sunrise-0.6.9.tar.gz]
+[2024-05-27 03:07:45] INFO root fetch - main [MainThread]: End processing [hue-sunrise]: success
+[2024-05-27 03:07:45] INFO root fetch - processPackages [dismo]: Remove: archive file [/home/abi/fetcher/tmp/dismo-1.0.8.tar.gz]
+[2024-05-27 03:07:45] INFO root fetch - processPackages [dismo]: Remove: archive file [/home/abi/fetcher/tmp/dismo-1.0.9.tar.gz]
+[2024-05-27 03:07:45] INFO root fetch - main [MainThread]: End processing [dismo]: success
+[2024-05-27 03:07:45] INFO root fetch - processPackages [mb-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/mb_pytorch-1.0.47.tar.gz]
+[2024-05-27 03:07:45] INFO root fetch - processPackages [mb-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/mb_pytorch-1.0.5.tar.gz]
+[2024-05-27 03:07:45] INFO root fetch - main [MainThread]: End processing [mb-pytorch]: success
+[2024-05-27 03:07:45] INFO root fetch - processPackages [Leonardo-Ai-SDK]: Remove: archive file [/home/abi/fetcher/tmp/Leonardo-Ai-SDK-5.4.3.tar.gz]
+[2024-05-27 03:07:45] INFO root fetch - processPackages [Leonardo-Ai-SDK]: Remove: archive file [/home/abi/fetcher/tmp/Leonardo-Ai-SDK-5.4.4.tar.gz]
+[2024-05-27 03:07:45] INFO root fetch - main [MainThread]: End processing [Leonardo-Ai-SDK]: success
+[2024-05-27 03:07:45] INFO root fetch - main [MainThread]: Store serial: [23389279]
