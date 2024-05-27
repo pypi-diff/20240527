@@ -13028,3 +13028,36 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 12:46:15] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.8.9.tar.gz]
 [2024-05-27 12:46:15] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2024-05-27 12:46:15] INFO root fetch - main [MainThread]: Store serial: [23394305]
+[2024-05-27 12:48:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23394305]
+[2024-05-27 12:48:23] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-27 12:48:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: meili-sdk
+[2024-05-27 12:48:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: atarigon
+[2024-05-27 12:48:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: flk
+[2024-05-27 12:48:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: maticalgos-spark
+[2024-05-27 12:48:23] WARNING root fetch - processPackages [atarigon]: Skipping, unable to determine old version
+[2024-05-27 12:48:23] INFO root fetch - main [MainThread]: End processing [atarigon] error
+[2024-05-27 12:48:24] INFO root fetch - processPackages [meili-sdk]: New version: [0.7.1] Old Version: [0.7.0]
+[2024-05-27 12:48:24] INFO root fetch - processPackages [maticalgos-spark]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-27 12:48:24] INFO root fetch - processPackages [flk]: New version: [1.1.0] Old Version: [1.0.9]
+[2024-05-27 12:48:24] INFO root fetch - processPackages [meili-sdk]: Downloading https://files.pythonhosted.org/packages/cd/1d/ecdbfc7b5a88f18d3170347366f448eb2023b408dc30ec19540ca8b9658e/meili-sdk-0.7.0.tar.gz
+[2024-05-27 12:48:24] INFO root fetch - processPackages [flk]: Downloading https://files.pythonhosted.org/packages/c3/e2/d851073f0b0352d4067ad0e0d1bc795fdd334f6e58facaf334c5e4db1c93/flk-1.0.9.tar.gz
+[2024-05-27 12:48:24] INFO root fetch - processPackages [maticalgos-spark]: Downloading https://files.pythonhosted.org/packages/44/e7/dbe718f4097f7b824950d41319ce8f1756c4ebe9846f85af003df8d828d0/maticalgos-spark-0.1.5.tar.gz
+[2024-05-27 12:48:24] INFO root fetch - processPackages [flk]: Downloading https://files.pythonhosted.org/packages/6d/d2/16e05758d45ff8c898fc3c11953bc4164cfe8ed2825891af7b8ebe788e40/flk-1.1.0.tar.gz
+[2024-05-27 12:48:24] INFO root fetch - processPackages [meili-sdk]: Downloading https://files.pythonhosted.org/packages/9c/46/be24517f94be7716c5dd148a1c427b528472ad90a2d7523409225c0ba664/meili-sdk-0.7.1.tar.gz
+[2024-05-27 12:48:24] INFO root fetch - processPackages [maticalgos-spark]: Downloading https://files.pythonhosted.org/packages/ea/c3/7cb2b043065370254c2dd3443daacaefe90f26b6c7abeee12ce070e82dc3/maticalgos-spark-0.1.6.tar.gz
+[2024-05-27 12:48:24] INFO root fetch - processPackages [flk]: executing diffoscope
+[2024-05-27 12:48:24] INFO root fetch - processPackages [flk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flk-1.0.9.tar.gz tmp/flk-1.1.0.tar.gz --markdown 20240527/f/flk/1.0.9-1.1.0/README.md --exclude *.pyd
+[2024-05-27 12:48:24] INFO root fetch - processPackages [meili-sdk]: executing diffoscope
+[2024-05-27 12:48:24] INFO root fetch - processPackages [meili-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meili-sdk-0.7.0.tar.gz tmp/meili-sdk-0.7.1.tar.gz --markdown 20240527/m/meili-sdk/0.7.0-0.7.1/README.md --exclude *.pyd
+[2024-05-27 12:48:24] INFO root fetch - processPackages [maticalgos-spark]: executing diffoscope
+[2024-05-27 12:48:24] INFO root fetch - processPackages [maticalgos-spark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maticalgos-spark-0.1.5.tar.gz tmp/maticalgos-spark-0.1.6.tar.gz --markdown 20240527/m/maticalgos-spark/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-27 12:48:25] INFO root fetch - processPackages [flk]: Remove: archive file [/home/abi/fetcher/tmp/flk-1.0.9.tar.gz]
+[2024-05-27 12:48:25] INFO root fetch - processPackages [flk]: Remove: archive file [/home/abi/fetcher/tmp/flk-1.1.0.tar.gz]
+[2024-05-27 12:48:25] INFO root fetch - main [MainThread]: End processing [flk]: success
+[2024-05-27 12:48:25] INFO root fetch - processPackages [maticalgos-spark]: Remove: archive file [/home/abi/fetcher/tmp/maticalgos-spark-0.1.5.tar.gz]
+[2024-05-27 12:48:25] INFO root fetch - processPackages [maticalgos-spark]: Remove: archive file [/home/abi/fetcher/tmp/maticalgos-spark-0.1.6.tar.gz]
+[2024-05-27 12:48:25] INFO root fetch - main [MainThread]: End processing [maticalgos-spark]: success
+[2024-05-27 12:48:25] INFO root fetch - processPackages [meili-sdk]: Remove: archive file [/home/abi/fetcher/tmp/meili-sdk-0.7.0.tar.gz]
+[2024-05-27 12:48:25] INFO root fetch - processPackages [meili-sdk]: Remove: archive file [/home/abi/fetcher/tmp/meili-sdk-0.7.1.tar.gz]
+[2024-05-27 12:48:25] INFO root fetch - main [MainThread]: End processing [meili-sdk]: success
+[2024-05-27 12:48:25] INFO root fetch - main [MainThread]: Store serial: [23394317]
