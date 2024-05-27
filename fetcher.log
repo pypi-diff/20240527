@@ -5180,3 +5180,43 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 06:21:08] INFO root fetch - processPackages [blank-project]: Remove: archive file [/home/abi/fetcher/tmp/blank_project-0.2.0.tar.gz]
 [2024-05-27 06:21:08] INFO root fetch - main [MainThread]: End processing [blank-project]: success
 [2024-05-27 06:21:08] INFO root fetch - main [MainThread]: Store serial: [23390476]
+[2024-05-27 06:23:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23390476]
+[2024-05-27 06:23:16] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-27 06:23:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xray-disease-detector
+[2024-05-27 06:23:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xray-disease-detector
+[2024-05-27 06:23:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: FastHPOCR
+[2024-05-27 06:23:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: oresat-olaf
+[2024-05-27 06:23:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cathealthpy
+[2024-05-27 06:23:17] INFO root fetch - processPackages [oresat-olaf]: New version: [3.6.2] Old Version: [3.6.1]
+[2024-05-27 06:23:17] WARNING root fetch - processPackages [cathealthpy]: Skipping, unable to determine old version
+[2024-05-27 06:23:17] INFO root fetch - main [MainThread]: End processing [cathealthpy] error
+[2024-05-27 06:23:17] INFO root fetch - processPackages [oresat-olaf]: Downloading https://files.pythonhosted.org/packages/ed/45/8ca0acafcf486dbd85e8ec1629144ba85a32c52870321ad4a8f48cde6774/oresat_olaf-3.6.1.tar.gz
+[2024-05-27 06:23:17] INFO root fetch - processPackages [xray-disease-detector]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-27 06:23:17] INFO root fetch - processPackages [xray-disease-detector]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-27 06:23:17] INFO root fetch - processPackages [FastHPOCR]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-27 06:23:17] INFO root fetch - processPackages [xray-disease-detector]: Downloading https://files.pythonhosted.org/packages/64/40/ad051fdece12c05144d8f606cf19f11d45d68a20bff2ec64f2990ac42fb2/xray_disease_detector-0.1.0.tar.gz
+[2024-05-27 06:23:17] INFO root fetch - processPackages [FastHPOCR]: Downloading https://files.pythonhosted.org/packages/63/41/3aeb922ca13b08e5266a5ac83bd163aad7a0d0516c0392a59542c5422280/FastHPOCR-0.1.1.tar.gz
+[2024-05-27 06:23:17] INFO root fetch - processPackages [xray-disease-detector]: Downloading https://files.pythonhosted.org/packages/64/40/ad051fdece12c05144d8f606cf19f11d45d68a20bff2ec64f2990ac42fb2/xray_disease_detector-0.1.0.tar.gz
+[2024-05-27 06:23:17] INFO root fetch - processPackages [oresat-olaf]: Downloading https://files.pythonhosted.org/packages/1a/ed/c62d0b3e521119c7407e3c8982cbff99f2f95ae8efc2f221ee22db60dd3d/oresat_olaf-3.6.2.tar.gz
+[2024-05-27 06:23:17] INFO root fetch - processPackages [oresat-olaf]: executing diffoscope
+[2024-05-27 06:23:17] INFO root fetch - processPackages [oresat-olaf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oresat_olaf-3.6.1.tar.gz tmp/oresat_olaf-3.6.2.tar.gz --markdown 20240527/o/oresat-olaf/3.6.1-3.6.2/README.md --exclude *.pyd
+[2024-05-27 06:23:17] INFO root fetch - processPackages [xray-disease-detector]: Downloading https://files.pythonhosted.org/packages/1b/c3/730b69d062baed89d81cef87ed7925a80dbe8616c39550b048e73728bfa0/xray_disease_detector-0.1.1.tar.gz
+[2024-05-27 06:23:17] INFO root fetch - processPackages [xray-disease-detector]: Downloading https://files.pythonhosted.org/packages/1b/c3/730b69d062baed89d81cef87ed7925a80dbe8616c39550b048e73728bfa0/xray_disease_detector-0.1.1.tar.gz
+[2024-05-27 06:23:17] INFO root fetch - processPackages [xray-disease-detector]: executing diffoscope
+[2024-05-27 06:23:17] INFO root fetch - processPackages [xray-disease-detector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xray_disease_detector-0.1.0.tar.gz tmp/xray_disease_detector-0.1.1.tar.gz --markdown 20240527/x/xray-disease-detector/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-27 06:23:17] INFO root fetch - processPackages [xray-disease-detector]: executing diffoscope
+[2024-05-27 06:23:17] INFO root fetch - processPackages [xray-disease-detector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xray_disease_detector-0.1.0.tar.gz tmp/xray_disease_detector-0.1.1.tar.gz --markdown 20240527/x/xray-disease-detector/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-27 06:23:17] INFO root fetch - processPackages [FastHPOCR]: Downloading https://files.pythonhosted.org/packages/7f/42/1badd041657dba7e979bbbe6f33fdde92a168534b02b0a0c3023e033f6f3/FastHPOCR-0.1.2.tar.gz
+[2024-05-27 06:23:18] INFO root fetch - processPackages [FastHPOCR]: executing diffoscope
+[2024-05-27 06:23:18] INFO root fetch - processPackages [FastHPOCR]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FastHPOCR-0.1.1.tar.gz tmp/FastHPOCR-0.1.2.tar.gz --markdown 20240527/F/FastHPOCR/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-27 06:23:18] INFO root fetch - processPackages [xray-disease-detector]: Remove: archive file [/home/abi/fetcher/tmp/xray_disease_detector-0.1.0.tar.gz]
+[2024-05-27 06:23:18] INFO root fetch - processPackages [xray-disease-detector]: Remove: archive file [/home/abi/fetcher/tmp/xray_disease_detector-0.1.1.tar.gz]
+[2024-05-27 06:23:18] INFO root fetch - main [MainThread]: End processing [xray-disease-detector]: success
+[2024-05-27 06:23:18] INFO root fetch - processPackages [oresat-olaf]: Remove: archive file [/home/abi/fetcher/tmp/oresat_olaf-3.6.1.tar.gz]
+[2024-05-27 06:23:18] INFO root fetch - processPackages [oresat-olaf]: Remove: archive file [/home/abi/fetcher/tmp/oresat_olaf-3.6.2.tar.gz]
+[2024-05-27 06:23:18] INFO root fetch - main [MainThread]: End processing [oresat-olaf]: success
+[2024-05-27 06:23:18] INFO root fetch - main [MainThread]: End processing [xray-disease-detector]: success
+[2024-05-27 06:23:19] INFO root fetch - processPackages [FastHPOCR]: Remove: archive file [/home/abi/fetcher/tmp/FastHPOCR-0.1.1.tar.gz]
+[2024-05-27 06:23:19] INFO root fetch - processPackages [FastHPOCR]: Remove: archive file [/home/abi/fetcher/tmp/FastHPOCR-0.1.2.tar.gz]
+[2024-05-27 06:23:19] INFO root fetch - main [MainThread]: End processing [FastHPOCR]: success
+[2024-05-27 06:23:19] INFO root fetch - main [MainThread]: Store serial: [23390492]
