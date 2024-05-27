@@ -13834,3 +13834,66 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 13:21:30] INFO root fetch - processPackages [molgenis-emx2-pyclient]: Remove: archive file [/home/abi/fetcher/tmp/molgenis_emx2_pyclient-8.225.1.tar.gz]
 [2024-05-27 13:21:30] INFO root fetch - main [MainThread]: End processing [molgenis-emx2-pyclient]: success
 [2024-05-27 13:21:30] INFO root fetch - main [MainThread]: Store serial: [23394661]
+[2024-05-27 13:23:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23394661]
+[2024-05-27 13:23:40] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-27 13:23:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sage-lib
+[2024-05-27 13:23:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: b3p
+[2024-05-27 13:23:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-stubs
+[2024-05-27 13:23:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: copious
+[2024-05-27 13:23:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: datasiphon
+[2024-05-27 13:23:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: w3tools
+[2024-05-27 13:23:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: telethon-client
+[2024-05-27 13:23:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: Warg
+[2024-05-27 13:23:40] INFO root fetch - processPackages [copious]: New version: [0.1.13] Old Version: [0.1.12]
+[2024-05-27 13:23:40] INFO root fetch - processPackages [datasiphon]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-27 13:23:40] INFO root fetch - processPackages [django-stubs]: New version: [5.0.0] Old Version: [4.2.7]
+[2024-05-27 13:23:40] WARNING root fetch - processPackages [telethon-client]: Skipping, unable to determine old version
+[2024-05-27 13:23:40] WARNING root fetch - processPackages [b3p]: Skipping, unable to determine old version
+[2024-05-27 13:23:40] INFO root fetch - main [MainThread]: End processing [telethon-client] error
+[2024-05-27 13:23:40] INFO root fetch - main [MainThread]: End processing [b3p] error
+[2024-05-27 13:23:40] INFO root fetch - processPackages [Warg]: New version: [1.4.3] Old Version: [1.4.2]
+[2024-05-27 13:23:40] INFO root fetch - processPackages [w3tools]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-27 13:23:40] INFO root fetch - processPackages [copious]: Downloading https://files.pythonhosted.org/packages/13/87/2e513bf1102d7b51b940da2600e136a495b9b879ead193bf4f338bab32f6/copious-0.1.12.tar.gz
+[2024-05-27 13:23:40] INFO root fetch - processPackages [datasiphon]: Downloading https://files.pythonhosted.org/packages/61/f1/549b7cde0fc5e75d3473d71db0df1c8c7484090e715a58003c73bc130ba5/datasiphon-0.2.8.tar.gz
+[2024-05-27 13:23:40] INFO root fetch - processPackages [sage-lib]: New version: [0.1.5.4] Old Version: [0.1.5.3]
+[2024-05-27 13:23:40] INFO root fetch - processPackages [Warg]: Downloading https://files.pythonhosted.org/packages/99/3f/30c8415f7860aec4f0e110e9ea62f7bfdc550fc73caccb93391cc27a3f23/Warg-1.4.2.tar.gz
+[2024-05-27 13:23:40] INFO root fetch - processPackages [django-stubs]: Downloading https://files.pythonhosted.org/packages/1c/1f/1b1da357d37cbbf21496c17aad5a55416c7c37944a909c4a19ddd61994df/django-stubs-4.2.7.tar.gz
+[2024-05-27 13:23:40] INFO root fetch - processPackages [w3tools]: Downloading https://files.pythonhosted.org/packages/79/99/d9bcf1a45b4eb873278ce2e4feafce562f14e4e0f1c0e0341a0eca89e50a/w3tools-0.1.1.tar.gz
+[2024-05-27 13:23:40] INFO root fetch - processPackages [copious]: Downloading https://files.pythonhosted.org/packages/e7/c6/e041d118283f823c02ecdeff6189d7e746f83ff7ca350f596d8d7dca50ef/copious-0.1.13.tar.gz
+[2024-05-27 13:23:40] INFO root fetch - processPackages [datasiphon]: Downloading https://files.pythonhosted.org/packages/6b/ee/b324ebe1616d3f9bb712f432e900c6569729aa3575cc7c6c687e3843930c/datasiphon-0.2.9.tar.gz
+[2024-05-27 13:23:40] INFO root fetch - processPackages [sage-lib]: Downloading https://files.pythonhosted.org/packages/8a/12/7ed724378ac846750e3dc40e4124f38dc4b1ccec2e171df30e59f5d31439/sage_lib-0.1.5.3.tar.gz
+[2024-05-27 13:23:40] INFO root fetch - processPackages [Warg]: Downloading https://files.pythonhosted.org/packages/3b/5e/4f7140a7b23660a07b22776122698bdea81f811e1c1e71daa223a271c17b/warg-1.4.3.tar.gz
+[2024-05-27 13:23:40] INFO root fetch - processPackages [datasiphon]: executing diffoscope
+[2024-05-27 13:23:40] INFO root fetch - processPackages [datasiphon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datasiphon-0.2.8.tar.gz tmp/datasiphon-0.2.9.tar.gz --markdown 20240527/d/datasiphon/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-27 13:23:40] INFO root fetch - processPackages [copious]: executing diffoscope
+[2024-05-27 13:23:40] INFO root fetch - processPackages [copious]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/copious-0.1.12.tar.gz tmp/copious-0.1.13.tar.gz --markdown 20240527/c/copious/0.1.12-0.1.13/README.md --exclude *.pyd
+[2024-05-27 13:23:41] INFO root fetch - processPackages [Warg]: executing diffoscope
+[2024-05-27 13:23:41] INFO root fetch - processPackages [Warg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Warg-1.4.2.tar.gz tmp/warg-1.4.3.tar.gz --markdown 20240527/W/Warg/1.4.2-1.4.3/README.md --exclude *.pyd
+[2024-05-27 13:23:41] INFO root fetch - processPackages [django-stubs]: Downloading https://files.pythonhosted.org/packages/17/24/61bf4c69e825af96f47b8c009c01939b31af4a883bfcb394d0bb7a3e1571/django_stubs-5.0.0.tar.gz
+[2024-05-27 13:23:41] INFO root fetch - processPackages [w3tools]: Downloading https://files.pythonhosted.org/packages/85/0d/b3d3dad7a81991d2638bc453ca1d8f390ece669a6868e8c5590ad90fa5dd/w3tools-0.1.2.tar.gz
+[2024-05-27 13:23:41] INFO root fetch - processPackages [sage-lib]: Downloading https://files.pythonhosted.org/packages/3c/c6/559e9dedd0b30a2e49650418e03026953ec98a2eb00ea176733a412f8621/sage_lib-0.1.5.4.tar.gz
+[2024-05-27 13:23:41] INFO root fetch - processPackages [django-stubs]: executing diffoscope
+[2024-05-27 13:23:41] INFO root fetch - processPackages [django-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-stubs-4.2.7.tar.gz tmp/django_stubs-5.0.0.tar.gz --markdown 20240527/d/django-stubs/4.2.7-5.0.0/README.md --exclude *.pyd
+[2024-05-27 13:23:41] INFO root fetch - processPackages [sage-lib]: executing diffoscope
+[2024-05-27 13:23:41] INFO root fetch - processPackages [sage-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sage_lib-0.1.5.3.tar.gz tmp/sage_lib-0.1.5.4.tar.gz --markdown 20240527/s/sage-lib/0.1.5.3-0.1.5.4/README.md --exclude *.pyd
+[2024-05-27 13:23:41] INFO root fetch - processPackages [w3tools]: executing diffoscope
+[2024-05-27 13:23:41] INFO root fetch - processPackages [w3tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/w3tools-0.1.1.tar.gz tmp/w3tools-0.1.2.tar.gz --markdown 20240527/w/w3tools/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-27 13:23:41] INFO root fetch - processPackages [datasiphon]: Remove: archive file [/home/abi/fetcher/tmp/datasiphon-0.2.8.tar.gz]
+[2024-05-27 13:23:41] INFO root fetch - processPackages [datasiphon]: Remove: archive file [/home/abi/fetcher/tmp/datasiphon-0.2.9.tar.gz]
+[2024-05-27 13:23:41] INFO root fetch - main [MainThread]: End processing [datasiphon]: success
+[2024-05-27 13:23:41] INFO root fetch - processPackages [copious]: Remove: archive file [/home/abi/fetcher/tmp/copious-0.1.12.tar.gz]
+[2024-05-27 13:23:41] INFO root fetch - processPackages [copious]: Remove: archive file [/home/abi/fetcher/tmp/copious-0.1.13.tar.gz]
+[2024-05-27 13:23:41] INFO root fetch - main [MainThread]: End processing [copious]: success
+[2024-05-27 13:23:41] INFO root fetch - processPackages [w3tools]: Remove: archive file [/home/abi/fetcher/tmp/w3tools-0.1.1.tar.gz]
+[2024-05-27 13:23:41] INFO root fetch - processPackages [w3tools]: Remove: archive file [/home/abi/fetcher/tmp/w3tools-0.1.2.tar.gz]
+[2024-05-27 13:23:41] INFO root fetch - main [MainThread]: End processing [w3tools]: success
+[2024-05-27 13:23:42] INFO root fetch - processPackages [Warg]: Remove: archive file [/home/abi/fetcher/tmp/Warg-1.4.2.tar.gz]
+[2024-05-27 13:23:42] INFO root fetch - processPackages [Warg]: Remove: archive file [/home/abi/fetcher/tmp/warg-1.4.3.tar.gz]
+[2024-05-27 13:23:42] INFO root fetch - main [MainThread]: End processing [Warg]: success
+[2024-05-27 13:23:42] INFO root fetch - processPackages [sage-lib]: Remove: archive file [/home/abi/fetcher/tmp/sage_lib-0.1.5.3.tar.gz]
+[2024-05-27 13:23:42] INFO root fetch - processPackages [sage-lib]: Remove: archive file [/home/abi/fetcher/tmp/sage_lib-0.1.5.4.tar.gz]
+[2024-05-27 13:23:42] INFO root fetch - main [MainThread]: End processing [sage-lib]: success
+[2024-05-27 13:23:43] INFO root fetch - processPackages [django-stubs]: Remove: archive file [/home/abi/fetcher/tmp/django-stubs-4.2.7.tar.gz]
+[2024-05-27 13:23:43] INFO root fetch - processPackages [django-stubs]: Remove: archive file [/home/abi/fetcher/tmp/django_stubs-5.0.0.tar.gz]
+[2024-05-27 13:23:43] INFO root fetch - main [MainThread]: End processing [django-stubs]: success
+[2024-05-27 13:23:43] INFO root fetch - main [MainThread]: Store serial: [23394688]
