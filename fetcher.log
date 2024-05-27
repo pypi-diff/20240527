@@ -3014,3 +3014,52 @@
 [2024-05-27 03:47:06] INFO root fetch - processPackages [market-engine]: Remove: archive file [/home/abi/fetcher/tmp/market-engine-0.1.9.tar.gz]
 [2024-05-27 03:47:06] INFO root fetch - main [MainThread]: End processing [market-engine]: success
 [2024-05-27 03:47:06] INFO root fetch - main [MainThread]: Store serial: [23389545]
+[2024-05-27 03:49:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23389545]
+[2024-05-27 03:49:15] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-27 03:49:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: makepyz
+[2024-05-27 03:49:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: protoc-polyglot
+[2024-05-27 03:49:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: discordreactive
+[2024-05-27 03:49:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lckytools
+[2024-05-27 03:49:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: annonition
+[2024-05-27 03:49:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: protoc-polyglot
+[2024-05-27 03:49:16] INFO root fetch - processPackages [makepyz]: New version: [0.0.1b29] Old Version: [0.0.1b28]
+[2024-05-27 03:49:16] INFO root fetch - processPackages [lckytools]: New version: [0.0.0b4] Old Version: [0.0.0b3]
+[2024-05-27 03:49:16] WARNING root fetch - processPackages [discordreactive]: Skipping, unable to determine old version
+[2024-05-27 03:49:16] INFO root fetch - main [MainThread]: End processing [discordreactive] error
+[2024-05-27 03:49:16] INFO root fetch - processPackages [makepyz]: Downloading https://files.pythonhosted.org/packages/c2/6d/d3e4978b6d346f153e12427a107e5bdbd82a6a2786f992ebbfe464edb818/makepyz-0.0.1b28.tar.gz
+[2024-05-27 03:49:16] INFO root fetch - processPackages [lckytools]: Downloading https://files.pythonhosted.org/packages/c6/54/ef4a346ea69d5fadcdce8ab834248981726749b733907fa8a41b59121aea/lckytools-0.0.0b3.tar.gz
+[2024-05-27 03:49:16] INFO root fetch - processPackages [protoc-polyglot]: New version: [0.0.1.post2] Old Version: [0.0.1.post1]
+[2024-05-27 03:49:16] INFO root fetch - processPackages [protoc-polyglot]: New version: [0.0.1.post2] Old Version: [0.0.1.post1]
+[2024-05-27 03:49:16] INFO root fetch - processPackages [annonition]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-27 03:49:16] INFO root fetch - processPackages [annonition]: Downloading https://files.pythonhosted.org/packages/96/26/48db26f9670dd08647eb747cabe1ab5ee95688f3cd92519b439b9ded0223/annonition-0.1.3.tar.gz
+[2024-05-27 03:49:16] INFO root fetch - processPackages [protoc-polyglot]: Downloading https://files.pythonhosted.org/packages/ee/a9/95b78b0302bd098ba6af704bca2a45421742662d4db36fb6ded3ced34f0f/protoc_polyglot-0.0.1.post1-py3-none-any.whl
+[2024-05-27 03:49:16] INFO root fetch - processPackages [protoc-polyglot]: Downloading https://files.pythonhosted.org/packages/ee/a9/95b78b0302bd098ba6af704bca2a45421742662d4db36fb6ded3ced34f0f/protoc_polyglot-0.0.1.post1-py3-none-any.whl
+[2024-05-27 03:49:16] INFO root fetch - processPackages [lckytools]: Downloading https://files.pythonhosted.org/packages/1a/de/26443d31b33e958c305b52d30a51056e52f92e084f0ed60d1d991712bfeb/lckytools-0.0.0b4.tar.gz
+[2024-05-27 03:49:16] INFO root fetch - processPackages [makepyz]: Downloading https://files.pythonhosted.org/packages/58/48/5630d591cda7b9ca49dfdb9969fc4d2d3b801cba3adab073c9cb2f35d3f3/makepyz-0.0.1b29.tar.gz
+[2024-05-27 03:49:16] INFO root fetch - processPackages [lckytools]: executing diffoscope
+[2024-05-27 03:49:16] INFO root fetch - processPackages [lckytools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lckytools-0.0.0b3.tar.gz tmp/lckytools-0.0.0b4.tar.gz --markdown 20240527/l/lckytools/0.0.0b3-0.0.0b4/README.md --exclude *.pyd
+[2024-05-27 03:49:16] INFO root fetch - processPackages [makepyz]: executing diffoscope
+[2024-05-27 03:49:16] INFO root fetch - processPackages [makepyz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/makepyz-0.0.1b28.tar.gz tmp/makepyz-0.0.1b29.tar.gz --markdown 20240527/m/makepyz/0.0.1b28-0.0.1b29/README.md --exclude *.pyd
+[2024-05-27 03:49:16] INFO root fetch - processPackages [annonition]: Downloading https://files.pythonhosted.org/packages/f6/bd/2c1b09b72eba89be9146368ab5b1b7bf7dee9a342a105cee30da0d380ec3/annonition-0.1.4.tar.gz
+[2024-05-27 03:49:16] INFO root fetch - processPackages [protoc-polyglot]: Downloading https://files.pythonhosted.org/packages/3d/13/b74e50a2dfe500088ce057119d49777dd50bd1fa5e87f613752d2b1552bb/protoc_polyglot-0.0.1.post2-py3-none-any.whl
+[2024-05-27 03:49:16] INFO root fetch - processPackages [protoc-polyglot]: Downloading https://files.pythonhosted.org/packages/3d/13/b74e50a2dfe500088ce057119d49777dd50bd1fa5e87f613752d2b1552bb/protoc_polyglot-0.0.1.post2-py3-none-any.whl
+[2024-05-27 03:49:16] INFO root fetch - processPackages [annonition]: executing diffoscope
+[2024-05-27 03:49:16] INFO root fetch - processPackages [annonition]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/annonition-0.1.3.tar.gz tmp/annonition-0.1.4.tar.gz --markdown 20240527/a/annonition/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-27 03:49:17] INFO root fetch - processPackages [protoc-polyglot]: executing diffoscope
+[2024-05-27 03:49:17] INFO root fetch - processPackages [protoc-polyglot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/protoc_polyglot-0.0.1.post1-py3-none-any.whl.zip tmp/protoc_polyglot-0.0.1.post2-py3-none-any.whl.zip --markdown 20240527/p/protoc-polyglot/0.0.1.post1-0.0.1.post2/README.md --exclude *.pyd
+[2024-05-27 03:49:17] INFO root fetch - processPackages [protoc-polyglot]: executing diffoscope
+[2024-05-27 03:49:17] INFO root fetch - processPackages [protoc-polyglot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/protoc_polyglot-0.0.1.post1-py3-none-any.whl.zip tmp/protoc_polyglot-0.0.1.post2-py3-none-any.whl.zip --markdown 20240527/p/protoc-polyglot/0.0.1.post1-0.0.1.post2/README.md --exclude *.pyd
+[2024-05-27 03:49:17] INFO root fetch - processPackages [lckytools]: Remove: archive file [/home/abi/fetcher/tmp/lckytools-0.0.0b3.tar.gz]
+[2024-05-27 03:49:17] INFO root fetch - processPackages [lckytools]: Remove: archive file [/home/abi/fetcher/tmp/lckytools-0.0.0b4.tar.gz]
+[2024-05-27 03:49:17] INFO root fetch - main [MainThread]: End processing [lckytools]: success
+[2024-05-27 03:49:17] INFO root fetch - processPackages [makepyz]: Remove: archive file [/home/abi/fetcher/tmp/makepyz-0.0.1b28.tar.gz]
+[2024-05-27 03:49:17] INFO root fetch - processPackages [makepyz]: Remove: archive file [/home/abi/fetcher/tmp/makepyz-0.0.1b29.tar.gz]
+[2024-05-27 03:49:17] INFO root fetch - main [MainThread]: End processing [makepyz]: success
+[2024-05-27 03:49:17] INFO root fetch - processPackages [annonition]: Remove: archive file [/home/abi/fetcher/tmp/annonition-0.1.3.tar.gz]
+[2024-05-27 03:49:17] INFO root fetch - processPackages [annonition]: Remove: archive file [/home/abi/fetcher/tmp/annonition-0.1.4.tar.gz]
+[2024-05-27 03:49:17] INFO root fetch - main [MainThread]: End processing [annonition]: success
+[2024-05-27 03:49:17] INFO root fetch - processPackages [protoc-polyglot]: Remove: archive file [/home/abi/fetcher/tmp/protoc_polyglot-0.0.1.post1-py3-none-any.whl.zip]
+[2024-05-27 03:49:17] INFO root fetch - processPackages [protoc-polyglot]: Remove: archive file [/home/abi/fetcher/tmp/protoc_polyglot-0.0.1.post2-py3-none-any.whl.zip]
+[2024-05-27 03:49:17] INFO root fetch - main [MainThread]: End processing [protoc-polyglot]: success
+[2024-05-27 03:49:17] INFO root fetch - main [MainThread]: End processing [protoc-polyglot]: success
+[2024-05-27 03:49:17] INFO root fetch - main [MainThread]: Store serial: [23389561]
