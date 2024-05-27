@@ -14909,3 +14909,72 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 14:10:15] INFO root fetch - processPackages [diffusers]: Remove: archive file [/home/abi/fetcher/tmp/diffusers-0.9.0.tar.gz]
 [2024-05-27 14:10:15] INFO root fetch - main [MainThread]: End processing [diffusers]: success
 [2024-05-27 14:10:15] INFO root fetch - main [MainThread]: Store serial: [23395283]
+[2024-05-27 14:12:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23395283]
+[2024-05-27 14:12:24] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-27 14:12:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cg
+[2024-05-27 14:12:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: CompactObject-TOV
+[2024-05-27 14:12:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: datasiphon
+[2024-05-27 14:12:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: texase
+[2024-05-27 14:12:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: zimo-web-screenshot
+[2024-05-27 14:12:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ondivi
+[2024-05-27 14:12:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bddsync
+[2024-05-27 14:12:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: infrastack
+[2024-05-27 14:12:24] INFO root fetch - processPackages [CompactObject-TOV]: New version: [1.9.0] Old Version: [1.8.1]
+[2024-05-27 14:12:24] WARNING root fetch - processPackages [infrastack]: Skipping, unable to determine old version
+[2024-05-27 14:12:24] INFO root fetch - main [MainThread]: End processing [infrastack] error
+[2024-05-27 14:12:24] INFO root fetch - processPackages [cg]: New version: [60.8.9] Old Version: [60.8.8]
+[2024-05-27 14:12:24] INFO root fetch - processPackages [ondivi]: New version: [0.2.1] Old Version: [0.1.0]
+[2024-05-27 14:12:24] INFO root fetch - processPackages [zimo-web-screenshot]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-05-27 14:12:24] INFO root fetch - processPackages [bddsync]: New version: [1.2.1] Old Version: [1.2.0]
+[2024-05-27 14:12:24] INFO root fetch - processPackages [datasiphon]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-27 14:12:24] INFO root fetch - processPackages [texase]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-27 14:12:24] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/d6/8e/017bcd413c9044bb3a8ec3e9a9e28ff36b6d814eef56056a4702d375ac95/cg-60.8.8.tar.gz
+[2024-05-27 14:12:24] INFO root fetch - processPackages [CompactObject-TOV]: Downloading https://files.pythonhosted.org/packages/fb/15/1d2274ac7456c43a66456fb3524a59ff235dce164c43a59a484fe98a3ab2/CompactObject_TOV-1.8.1.tar.gz
+[2024-05-27 14:12:24] INFO root fetch - processPackages [ondivi]: Downloading https://files.pythonhosted.org/packages/c3/14/db8dbdd0e7cf78a883fd5179fac75eae48d5c42a58cf5afdfab8500f7fdd/ondivi-0.1.0.tar.gz
+[2024-05-27 14:12:25] INFO root fetch - processPackages [zimo-web-screenshot]: Downloading https://files.pythonhosted.org/packages/ef/bf/118c5faf02c61bddb18e7fd8b24c36ec721c294f3a5c44a2735d5da9a307/zimo-web-screenshot-0.2.0.tar.gz
+[2024-05-27 14:12:25] INFO root fetch - processPackages [texase]: Downloading https://files.pythonhosted.org/packages/dd/b3/ed64128b1daed0b3dd7e0e63ef0780d225717a7568e5114ad7cd7d1081be/texase-0.2.0.tar.gz
+[2024-05-27 14:12:25] INFO root fetch - processPackages [bddsync]: Downloading https://files.pythonhosted.org/packages/ff/3b/501c299593e79445bad2630583246509f8c31b0fc2a5becd9c93465ca694/bddsync-1.2.0.tar.gz
+[2024-05-27 14:12:25] INFO root fetch - processPackages [datasiphon]: Downloading https://files.pythonhosted.org/packages/61/f1/549b7cde0fc5e75d3473d71db0df1c8c7484090e715a58003c73bc130ba5/datasiphon-0.2.8.tar.gz
+[2024-05-27 14:12:25] INFO root fetch - processPackages [CompactObject-TOV]: Downloading https://files.pythonhosted.org/packages/57/ef/a65a7f13c9cb6866f97618a5b536bb8c646552fa6448c8fbc9e74e3188fc/CompactObject_TOV-1.9.0.tar.gz
+[2024-05-27 14:12:25] INFO root fetch - processPackages [CompactObject-TOV]: executing diffoscope
+[2024-05-27 14:12:25] INFO root fetch - processPackages [CompactObject-TOV]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CompactObject_TOV-1.8.1.tar.gz tmp/CompactObject_TOV-1.9.0.tar.gz --markdown 20240527/C/CompactObject-TOV/1.8.1-1.9.0/README.md --exclude *.pyd
+[2024-05-27 14:12:25] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/df/aa/bcf36edef12ba2ac2c9179507531723a7d2784d50a1cb868497d0120f301/cg-60.8.9.tar.gz
+[2024-05-27 14:12:25] INFO root fetch - processPackages [ondivi]: Downloading https://files.pythonhosted.org/packages/d8/22/310963d4f4fad61acf4f82b8758fa1b8a9c9bd422c26b92303f13250cd14/ondivi-0.2.1.tar.gz
+[2024-05-27 14:12:25] INFO root fetch - processPackages [datasiphon]: Downloading https://files.pythonhosted.org/packages/6b/ee/b324ebe1616d3f9bb712f432e900c6569729aa3575cc7c6c687e3843930c/datasiphon-0.2.9.tar.gz
+[2024-05-27 14:12:25] INFO root fetch - processPackages [bddsync]: Downloading https://files.pythonhosted.org/packages/3f/62/b37bb05df99e22b0973b811c0dd8cd2d36160ae121bda83aef72807e2687/bddsync-1.2.1.tar.gz
+[2024-05-27 14:12:25] INFO root fetch - processPackages [ondivi]: executing diffoscope
+[2024-05-27 14:12:25] INFO root fetch - processPackages [ondivi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ondivi-0.1.0.tar.gz tmp/ondivi-0.2.1.tar.gz --markdown 20240527/o/ondivi/0.1.0-0.2.1/README.md --exclude *.pyd
+[2024-05-27 14:12:25] INFO root fetch - processPackages [zimo-web-screenshot]: Downloading https://files.pythonhosted.org/packages/97/dd/dd506bd808d80b5d4d5f744f5c784244c28aa3e00be9acf70bba00dc5fe3/zimo-web-screenshot-0.3.0.tar.gz
+[2024-05-27 14:12:25] INFO root fetch - processPackages [texase]: Downloading https://files.pythonhosted.org/packages/eb/83/b75e2d287e63c788870e8081222a092c50ed4279a523ab2f2679561f6aec/texase-0.2.1.tar.gz
+[2024-05-27 14:12:25] INFO root fetch - processPackages [datasiphon]: executing diffoscope
+[2024-05-27 14:12:25] INFO root fetch - processPackages [datasiphon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datasiphon-0.2.8.tar.gz tmp/datasiphon-0.2.9.tar.gz --markdown 20240527/d/datasiphon/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-27 14:12:25] INFO root fetch - processPackages [bddsync]: executing diffoscope
+[2024-05-27 14:12:25] INFO root fetch - processPackages [bddsync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bddsync-1.2.0.tar.gz tmp/bddsync-1.2.1.tar.gz --markdown 20240527/b/bddsync/1.2.0-1.2.1/README.md --exclude *.pyd
+[2024-05-27 14:12:25] INFO root fetch - processPackages [zimo-web-screenshot]: executing diffoscope
+[2024-05-27 14:12:25] INFO root fetch - processPackages [zimo-web-screenshot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zimo-web-screenshot-0.2.0.tar.gz tmp/zimo-web-screenshot-0.3.0.tar.gz --markdown 20240527/z/zimo-web-screenshot/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-05-27 14:12:25] INFO root fetch - processPackages [cg]: executing diffoscope
+[2024-05-27 14:12:25] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-60.8.8.tar.gz tmp/cg-60.8.9.tar.gz --markdown 20240527/c/cg/60.8.8-60.8.9/README.md --exclude *.pyd
+[2024-05-27 14:12:25] INFO root fetch - processPackages [texase]: executing diffoscope
+[2024-05-27 14:12:25] INFO root fetch - processPackages [texase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/texase-0.2.0.tar.gz tmp/texase-0.2.1.tar.gz --markdown 20240527/t/texase/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-27 14:12:25] INFO root fetch - processPackages [CompactObject-TOV]: Remove: archive file [/home/abi/fetcher/tmp/CompactObject_TOV-1.8.1.tar.gz]
+[2024-05-27 14:12:25] INFO root fetch - processPackages [CompactObject-TOV]: Remove: archive file [/home/abi/fetcher/tmp/CompactObject_TOV-1.9.0.tar.gz]
+[2024-05-27 14:12:25] INFO root fetch - main [MainThread]: End processing [CompactObject-TOV]: success
+[2024-05-27 14:12:26] INFO root fetch - processPackages [ondivi]: Remove: archive file [/home/abi/fetcher/tmp/ondivi-0.1.0.tar.gz]
+[2024-05-27 14:12:26] INFO root fetch - processPackages [ondivi]: Remove: archive file [/home/abi/fetcher/tmp/ondivi-0.2.1.tar.gz]
+[2024-05-27 14:12:26] INFO root fetch - main [MainThread]: End processing [ondivi]: success
+[2024-05-27 14:12:26] INFO root fetch - processPackages [datasiphon]: Remove: archive file [/home/abi/fetcher/tmp/datasiphon-0.2.8.tar.gz]
+[2024-05-27 14:12:26] INFO root fetch - processPackages [datasiphon]: Remove: archive file [/home/abi/fetcher/tmp/datasiphon-0.2.9.tar.gz]
+[2024-05-27 14:12:26] INFO root fetch - main [MainThread]: End processing [datasiphon]: success
+[2024-05-27 14:12:26] INFO root fetch - processPackages [zimo-web-screenshot]: Remove: archive file [/home/abi/fetcher/tmp/zimo-web-screenshot-0.2.0.tar.gz]
+[2024-05-27 14:12:26] INFO root fetch - processPackages [zimo-web-screenshot]: Remove: archive file [/home/abi/fetcher/tmp/zimo-web-screenshot-0.3.0.tar.gz]
+[2024-05-27 14:12:26] INFO root fetch - main [MainThread]: End processing [zimo-web-screenshot]: success
+[2024-05-27 14:12:26] INFO root fetch - processPackages [texase]: Remove: archive file [/home/abi/fetcher/tmp/texase-0.2.0.tar.gz]
+[2024-05-27 14:12:26] INFO root fetch - processPackages [texase]: Remove: archive file [/home/abi/fetcher/tmp/texase-0.2.1.tar.gz]
+[2024-05-27 14:12:26] INFO root fetch - main [MainThread]: End processing [texase]: success
+[2024-05-27 14:12:26] INFO root fetch - processPackages [bddsync]: Remove: archive file [/home/abi/fetcher/tmp/bddsync-1.2.0.tar.gz]
+[2024-05-27 14:12:26] INFO root fetch - processPackages [bddsync]: Remove: archive file [/home/abi/fetcher/tmp/bddsync-1.2.1.tar.gz]
+[2024-05-27 14:12:26] INFO root fetch - main [MainThread]: End processing [bddsync]: success
+[2024-05-27 14:12:30] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.8.8.tar.gz]
+[2024-05-27 14:12:30] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.8.9.tar.gz]
+[2024-05-27 14:12:30] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2024-05-27 14:12:30] INFO root fetch - main [MainThread]: Store serial: [23395305]
