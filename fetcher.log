@@ -2622,3 +2622,45 @@
 [2024-05-27 03:20:47] INFO root fetch - processPackages [moped]: Remove: archive file [/home/abi/fetcher/tmp/moped-1rc1.tar.gz]
 [2024-05-27 03:20:47] INFO root fetch - main [MainThread]: End processing [moped]: success
 [2024-05-27 03:20:47] INFO root fetch - main [MainThread]: Store serial: [23389359]
+[2024-05-27 03:22:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23389359]
+[2024-05-27 03:22:56] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-27 03:22:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: faultier
+[2024-05-27 03:22:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: eras
+[2024-05-27 03:22:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mb-pytorch
+[2024-05-27 03:22:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nftpy
+[2024-05-27 03:22:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-wordpress
+[2024-05-27 03:22:56] INFO root fetch - processPackages [eras]: New version: [0.5.0] Old Version: [0.4.8]
+[2024-05-27 03:22:56] WARNING root fetch - processPackages [nftpy]: Skipping, unable to determine old version
+[2024-05-27 03:22:56] INFO root fetch - main [MainThread]: End processing [nftpy] error
+[2024-05-27 03:22:56] INFO root fetch - processPackages [faultier]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-27 03:22:56] INFO root fetch - processPackages [cdk-wordpress]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-27 03:22:56] INFO root fetch - processPackages [mb-pytorch]: New version: [1.0.5] Old Version: [1.0.47]
+[2024-05-27 03:22:56] INFO root fetch - processPackages [faultier]: Downloading https://files.pythonhosted.org/packages/27/ad/58a239a68f23f88fb228355bb00b3d807df6ab0e80a0ba8f57a5a3c5424e/faultier-0.1.8.tar.gz
+[2024-05-27 03:22:56] INFO root fetch - processPackages [eras]: Downloading https://files.pythonhosted.org/packages/aa/7c/4a0d448ceb3e5348a28df6be1221b75d3b98ff498ce829dc435c50e47a17/eras-0.4.8.tar.gz
+[2024-05-27 03:22:56] INFO root fetch - processPackages [mb-pytorch]: Downloading https://files.pythonhosted.org/packages/f9/f9/3c05d3d8efefef9ed7d18886827707f1d365dceaf5e4df75316348196e3d/mb_pytorch-1.0.47.tar.gz
+[2024-05-27 03:22:56] INFO root fetch - processPackages [cdk-wordpress]: Downloading https://files.pythonhosted.org/packages/95/5a/46730445b7c8db7cad33c0b319cbd75004ba42b6cbe2f00628d2191c5516/cdk-wordpress-0.0.98.tar.gz
+[2024-05-27 03:22:56] INFO root fetch - processPackages [mb-pytorch]: Downloading https://files.pythonhosted.org/packages/18/ae/b46b20b02b5f2c2a25fcae91a88f80ab1e1c18413f89f662d20e5475e824/mb_pytorch-1.0.5.tar.gz
+[2024-05-27 03:22:56] INFO root fetch - processPackages [cdk-wordpress]: Downloading https://files.pythonhosted.org/packages/f5/33/8bc435266e926cea52eb7df452e54c2c0657beef07580a86eae44236d88b/cdk-wordpress-0.0.99.tar.gz
+[2024-05-27 03:22:56] INFO root fetch - processPackages [eras]: Downloading https://files.pythonhosted.org/packages/d7/04/62cdb926410e24e655ca39d98251adce63cd5c35a2a08c00b1fd9d9ea301/eras-0.5.0.tar.gz
+[2024-05-27 03:22:56] INFO root fetch - processPackages [mb-pytorch]: executing diffoscope
+[2024-05-27 03:22:56] INFO root fetch - processPackages [mb-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mb_pytorch-1.0.47.tar.gz tmp/mb_pytorch-1.0.5.tar.gz --markdown 20240527/m/mb-pytorch/1.0.47-1.0.5/README.md --exclude *.pyd
+[2024-05-27 03:22:56] INFO root fetch - processPackages [faultier]: Downloading https://files.pythonhosted.org/packages/6f/d3/e7967405ff44c881f405408832e76d29031f99bac5de234dfcdaf0ea3a96/faultier-0.1.9.tar.gz
+[2024-05-27 03:22:56] INFO root fetch - processPackages [cdk-wordpress]: executing diffoscope
+[2024-05-27 03:22:56] INFO root fetch - processPackages [cdk-wordpress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-wordpress-0.0.98.tar.gz tmp/cdk-wordpress-0.0.99.tar.gz --markdown 20240527/c/cdk-wordpress/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-27 03:22:57] INFO root fetch - processPackages [eras]: executing diffoscope
+[2024-05-27 03:22:57] INFO root fetch - processPackages [eras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eras-0.4.8.tar.gz tmp/eras-0.5.0.tar.gz --markdown 20240527/e/eras/0.4.8-0.5.0/README.md --exclude *.pyd
+[2024-05-27 03:22:57] INFO root fetch - processPackages [faultier]: executing diffoscope
+[2024-05-27 03:22:57] INFO root fetch - processPackages [faultier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/faultier-0.1.8.tar.gz tmp/faultier-0.1.9.tar.gz --markdown 20240527/f/faultier/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-27 03:22:57] INFO root fetch - processPackages [cdk-wordpress]: Remove: archive file [/home/abi/fetcher/tmp/cdk-wordpress-0.0.98.tar.gz]
+[2024-05-27 03:22:57] INFO root fetch - processPackages [cdk-wordpress]: Remove: archive file [/home/abi/fetcher/tmp/cdk-wordpress-0.0.99.tar.gz]
+[2024-05-27 03:22:57] INFO root fetch - main [MainThread]: End processing [cdk-wordpress]: success
+[2024-05-27 03:22:57] INFO root fetch - processPackages [mb-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/mb_pytorch-1.0.47.tar.gz]
+[2024-05-27 03:22:57] INFO root fetch - processPackages [mb-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/mb_pytorch-1.0.5.tar.gz]
+[2024-05-27 03:22:57] INFO root fetch - main [MainThread]: End processing [mb-pytorch]: success
+[2024-05-27 03:22:57] INFO root fetch - processPackages [faultier]: Remove: archive file [/home/abi/fetcher/tmp/faultier-0.1.8.tar.gz]
+[2024-05-27 03:22:57] INFO root fetch - processPackages [faultier]: Remove: archive file [/home/abi/fetcher/tmp/faultier-0.1.9.tar.gz]
+[2024-05-27 03:22:57] INFO root fetch - main [MainThread]: End processing [faultier]: success
+[2024-05-27 03:22:57] INFO root fetch - processPackages [eras]: Remove: archive file [/home/abi/fetcher/tmp/eras-0.4.8.tar.gz]
+[2024-05-27 03:22:57] INFO root fetch - processPackages [eras]: Remove: archive file [/home/abi/fetcher/tmp/eras-0.5.0.tar.gz]
+[2024-05-27 03:22:57] INFO root fetch - main [MainThread]: End processing [eras]: success
+[2024-05-27 03:22:57] INFO root fetch - main [MainThread]: Store serial: [23389384]
