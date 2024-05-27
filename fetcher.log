@@ -20330,3 +20330,84 @@ EOFError: EOF read where object expected
 [2024-05-27 17:26:28] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.4.9.tar.gz]
 [2024-05-27 17:26:28] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
 [2024-05-27 17:26:28] INFO root fetch - main [MainThread]: Store serial: [23397655]
+[2024-05-27 17:28:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23397655]
+[2024-05-27 17:28:37] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-27 17:28:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: conifer
+[2024-05-27 17:28:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: GIUC
+[2024-05-27 17:28:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: transkribus-rest-api
+[2024-05-27 17:28:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ood_detectors
+[2024-05-27 17:28:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: replete
+[2024-05-27 17:28:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: opthub_runner
+[2024-05-27 17:28:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: BarteSDK
+[2024-05-27 17:28:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: readme-ation
+[2024-05-27 17:28:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pip2deb
+[2024-05-27 17:28:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sbcli-dev
+[2024-05-27 17:28:37] INFO root fetch - processPackages [pip2deb]: New version: [2.0] Old Version: [1.9]
+[2024-05-27 17:28:37] INFO root fetch - processPackages [readme-ation]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-05-27 17:28:37] INFO root fetch - processPackages [ood_detectors]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-27 17:28:37] INFO root fetch - processPackages [conifer]: New version: [1.5] Old Version: [1.4b1]
+[2024-05-27 17:28:37] INFO root fetch - processPackages [BarteSDK]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-27 17:28:37] WARNING root fetch - processPackages [GIUC]: Skipping, unable to determine old version
+[2024-05-27 17:28:37] INFO root fetch - main [MainThread]: End processing [GIUC] error
+[2024-05-27 17:28:37] INFO root fetch - processPackages [transkribus-rest-api]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-05-27 17:28:37] INFO root fetch - processPackages [replete]: New version: [2.2.0] Old Version: [2.1.0]
+[2024-05-27 17:28:37] INFO root fetch - processPackages [pip2deb]: Downloading https://files.pythonhosted.org/packages/48/15/0f52fdebc520eec71e72960e8f133502688b12c2813fd3821f8d410c0001/pip2deb-1.9.tar.gz
+[2024-05-27 17:28:37] WARNING root fetch - processPackages [opthub_runner]: Skipping, unable to determine old version
+[2024-05-27 17:28:37] INFO root fetch - main [MainThread]: End processing [opthub_runner] error
+[2024-05-27 17:28:37] INFO root fetch - processPackages [ood_detectors]: Downloading https://files.pythonhosted.org/packages/2c/c1/0e33f36a315cc0d60a299e5970cb3dbd7fe0ffebd495cef6770f937ba24f/ood_detectors-0.0.8.tar.gz
+[2024-05-27 17:28:37] INFO root fetch - processPackages [BarteSDK]: Downloading https://files.pythonhosted.org/packages/1c/24/f265a111f10a855a327643e87273d1f3ba56190ad02e0175f3b5b6319e4c/bartesdk-0.1.8.tar.gz
+[2024-05-27 17:28:37] INFO root fetch - processPackages [conifer]: Downloading https://files.pythonhosted.org/packages/7a/71/0f499106ec0bf1c392a5529de96388b767de4343d0342d33ba130b51cffb/conifer-1.4b1.tar.gz
+[2024-05-27 17:28:37] INFO root fetch - processPackages [readme-ation]: Downloading https://files.pythonhosted.org/packages/98/56/ddb1257b34fa1201cca40b922089c3d76055f55ae67984f439daaaefb14f/readme_ation-0.1.6.tar.gz
+[2024-05-27 17:28:37] INFO root fetch - processPackages [sbcli-dev]: New version: [2.7.5] Old Version: [2.7.4]
+[2024-05-27 17:28:37] INFO root fetch - processPackages [transkribus-rest-api]: Downloading https://files.pythonhosted.org/packages/c6/aa/efc354a5aec7193aa13b3cdc8489daf99d076ed67a3e2118bf24eea13bd2/transkribus_rest_api-0.3.1.tar.gz
+[2024-05-27 17:28:38] INFO root fetch - processPackages [BarteSDK]: Downloading https://files.pythonhosted.org/packages/15/ee/a85c9e9d9f84f12e1c3ab4801827286e3ad5588e1683d13c5130caaa29f2/bartesdk-0.1.9.tar.gz
+[2024-05-27 17:28:38] INFO root fetch - processPackages [ood_detectors]: Downloading https://files.pythonhosted.org/packages/3f/d6/a55f4bc549efaaabe3d000911be652e72d55a5a47cabc317d531a8ec8ada/ood_detectors-0.0.9.tar.gz
+[2024-05-27 17:28:38] INFO root fetch - processPackages [replete]: Downloading https://files.pythonhosted.org/packages/21/63/d02d240cdd36619f9a0640e2125da3b377b25afb19937c45c805aed81918/replete-2.1.0.tar.gz
+[2024-05-27 17:28:38] INFO root fetch - processPackages [sbcli-dev]: Downloading https://files.pythonhosted.org/packages/b1/3f/ebaea33e9fa6dbce012e298621b21684a661014c25397dd22b9f15231f3a/sbcli_dev-2.7.4.zip
+[2024-05-27 17:28:38] INFO root fetch - processPackages [conifer]: Downloading https://files.pythonhosted.org/packages/1a/2d/465046c9b9269cf2ee965b123460b49209f03914743279dd2803528453c1/conifer-1.5.tar.gz
+[2024-05-27 17:28:38] INFO root fetch - processPackages [readme-ation]: Downloading https://files.pythonhosted.org/packages/80/e8/db254c231c01328328c107cae28be92d7cee4bf58ba17db8e54c995b0fe5/readme_ation-0.1.7.tar.gz
+[2024-05-27 17:28:38] INFO root fetch - processPackages [pip2deb]: Downloading https://files.pythonhosted.org/packages/3d/5e/cbb5374b644442019d3f0ecae17a323ed762a23e18b4e340d2a3d2e26af6/pip2deb-2.0.tar.gz
+[2024-05-27 17:28:38] INFO root fetch - processPackages [BarteSDK]: executing diffoscope
+[2024-05-27 17:28:38] INFO root fetch - processPackages [BarteSDK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bartesdk-0.1.8.tar.gz tmp/bartesdk-0.1.9.tar.gz --markdown 20240527/B/BarteSDK/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-27 17:28:38] INFO root fetch - processPackages [ood_detectors]: executing diffoscope
+[2024-05-27 17:28:38] INFO root fetch - processPackages [ood_detectors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ood_detectors-0.0.8.tar.gz tmp/ood_detectors-0.0.9.tar.gz --markdown 20240527/o/ood_detectors/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-27 17:28:38] INFO root fetch - processPackages [readme-ation]: executing diffoscope
+[2024-05-27 17:28:38] INFO root fetch - processPackages [readme-ation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/readme_ation-0.1.6.tar.gz tmp/readme_ation-0.1.7.tar.gz --markdown 20240527/r/readme-ation/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-05-27 17:28:38] INFO root fetch - processPackages [conifer]: executing diffoscope
+[2024-05-27 17:28:38] INFO root fetch - processPackages [conifer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/conifer-1.4b1.tar.gz tmp/conifer-1.5.tar.gz --markdown 20240527/c/conifer/1.4b1-1.5/README.md --exclude *.pyd
+[2024-05-27 17:28:38] INFO root fetch - processPackages [pip2deb]: executing diffoscope
+[2024-05-27 17:28:38] INFO root fetch - processPackages [pip2deb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pip2deb-1.9.tar.gz tmp/pip2deb-2.0.tar.gz --markdown 20240527/p/pip2deb/1.9-2.0/README.md --exclude *.pyd
+[2024-05-27 17:28:38] INFO root fetch - processPackages [transkribus-rest-api]: Downloading https://files.pythonhosted.org/packages/85/4e/a30bc63b7cf659ca7d61ac9c06eced789f07e52e756f7a30d5c9031eeb11/transkribus_rest_api-0.3.2.tar.gz
+[2024-05-27 17:28:38] INFO root fetch - processPackages [transkribus-rest-api]: executing diffoscope
+[2024-05-27 17:28:38] INFO root fetch - processPackages [transkribus-rest-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/transkribus_rest_api-0.3.1.tar.gz tmp/transkribus_rest_api-0.3.2.tar.gz --markdown 20240527/t/transkribus-rest-api/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-05-27 17:28:38] INFO root fetch - processPackages [replete]: Downloading https://files.pythonhosted.org/packages/b7/3e/3d5309200acb46e5686dd10fd89b53c800b2bd911ea01b70939deff70852/replete-2.2.0.tar.gz
+[2024-05-27 17:28:38] INFO root fetch - processPackages [sbcli-dev]: Downloading https://files.pythonhosted.org/packages/f3/45/e92f402235b3c6757ac85a8df384df45c2e9be070493255195b3d7df9134/sbcli_dev-2.7.5.zip
+[2024-05-27 17:28:38] INFO root fetch - processPackages [replete]: executing diffoscope
+[2024-05-27 17:28:38] INFO root fetch - processPackages [replete]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/replete-2.1.0.tar.gz tmp/replete-2.2.0.tar.gz --markdown 20240527/r/replete/2.1.0-2.2.0/README.md --exclude *.pyd
+[2024-05-27 17:28:39] INFO root fetch - processPackages [BarteSDK]: Remove: archive file [/home/abi/fetcher/tmp/bartesdk-0.1.8.tar.gz]
+[2024-05-27 17:28:39] INFO root fetch - processPackages [BarteSDK]: Remove: archive file [/home/abi/fetcher/tmp/bartesdk-0.1.9.tar.gz]
+[2024-05-27 17:28:39] INFO root fetch - main [MainThread]: End processing [BarteSDK]: success
+[2024-05-27 17:28:39] INFO root fetch - processPackages [sbcli-dev]: executing diffoscope
+[2024-05-27 17:28:39] INFO root fetch - processPackages [sbcli-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sbcli_dev-2.7.4.zip tmp/sbcli_dev-2.7.5.zip --markdown 20240527/s/sbcli-dev/2.7.4-2.7.5/README.md --exclude *.pyd
+[2024-05-27 17:28:39] INFO root fetch - processPackages [readme-ation]: Remove: archive file [/home/abi/fetcher/tmp/readme_ation-0.1.6.tar.gz]
+[2024-05-27 17:28:39] INFO root fetch - processPackages [readme-ation]: Remove: archive file [/home/abi/fetcher/tmp/readme_ation-0.1.7.tar.gz]
+[2024-05-27 17:28:39] INFO root fetch - main [MainThread]: End processing [readme-ation]: success
+[2024-05-27 17:28:39] INFO root fetch - processPackages [pip2deb]: Remove: archive file [/home/abi/fetcher/tmp/pip2deb-1.9.tar.gz]
+[2024-05-27 17:28:39] INFO root fetch - processPackages [pip2deb]: Remove: archive file [/home/abi/fetcher/tmp/pip2deb-2.0.tar.gz]
+[2024-05-27 17:28:39] INFO root fetch - main [MainThread]: End processing [pip2deb]: success
+[2024-05-27 17:28:39] INFO root fetch - processPackages [ood_detectors]: Remove: archive file [/home/abi/fetcher/tmp/ood_detectors-0.0.8.tar.gz]
+[2024-05-27 17:28:39] INFO root fetch - processPackages [ood_detectors]: Remove: archive file [/home/abi/fetcher/tmp/ood_detectors-0.0.9.tar.gz]
+[2024-05-27 17:28:39] INFO root fetch - main [MainThread]: End processing [ood_detectors]: success
+[2024-05-27 17:28:39] INFO root fetch - processPackages [transkribus-rest-api]: Remove: archive file [/home/abi/fetcher/tmp/transkribus_rest_api-0.3.1.tar.gz]
+[2024-05-27 17:28:39] INFO root fetch - processPackages [transkribus-rest-api]: Remove: archive file [/home/abi/fetcher/tmp/transkribus_rest_api-0.3.2.tar.gz]
+[2024-05-27 17:28:39] INFO root fetch - main [MainThread]: End processing [transkribus-rest-api]: success
+[2024-05-27 17:28:39] INFO root fetch - processPackages [conifer]: Remove: archive file [/home/abi/fetcher/tmp/conifer-1.4b1.tar.gz]
+[2024-05-27 17:28:39] INFO root fetch - processPackages [conifer]: Remove: archive file [/home/abi/fetcher/tmp/conifer-1.5.tar.gz]
+[2024-05-27 17:28:39] INFO root fetch - main [MainThread]: End processing [conifer]: success
+[2024-05-27 17:28:39] INFO root fetch - processPackages [replete]: Remove: archive file [/home/abi/fetcher/tmp/replete-2.1.0.tar.gz]
+[2024-05-27 17:28:39] INFO root fetch - processPackages [replete]: Remove: archive file [/home/abi/fetcher/tmp/replete-2.2.0.tar.gz]
+[2024-05-27 17:28:39] INFO root fetch - main [MainThread]: End processing [replete]: success
+[2024-05-27 17:28:40] INFO root fetch - processPackages [sbcli-dev]: Remove: archive file [/home/abi/fetcher/tmp/sbcli_dev-2.7.4.zip]
+[2024-05-27 17:28:40] INFO root fetch - processPackages [sbcli-dev]: Remove: archive file [/home/abi/fetcher/tmp/sbcli_dev-2.7.5.zip]
+[2024-05-27 17:28:40] INFO root fetch - main [MainThread]: End processing [sbcli-dev]: success
+[2024-05-27 17:28:40] INFO root fetch - main [MainThread]: Store serial: [23397688]
