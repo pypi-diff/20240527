@@ -19373,3 +19373,78 @@ EOFError: EOF read where object expected
 [2024-05-27 16:48:41] INFO root fetch - processPackages [objectbox]: Remove: archive file [/home/abi/fetcher/tmp/objectbox-4.0.0a2-py3-none-any.whl.zip]
 [2024-05-27 16:48:41] INFO root fetch - main [MainThread]: End processing [objectbox]: success
 [2024-05-27 16:48:41] INFO root fetch - main [MainThread]: Store serial: [23397264]
+[2024-05-27 16:50:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23397264]
+[2024-05-27 16:50:56] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-27 16:50:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: solid-dmft
+[2024-05-27 16:50:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: squelch
+[2024-05-27 16:50:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: edurpa-document
+[2024-05-27 16:50:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nokey
+[2024-05-27 16:50:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: spatialAUC
+[2024-05-27 16:50:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dpdispatcher
+[2024-05-27 16:50:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-cmis
+[2024-05-27 16:50:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pip2deb
+[2024-05-27 16:50:56] INFO root fetch - processPackages [spatialAUC]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-27 16:50:56] INFO root fetch - processPackages [pip2deb]: New version: [1.7] Old Version: [1.6]
+[2024-05-27 16:50:56] INFO root fetch - processPackages [edurpa-document]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-27 16:50:57] INFO root fetch - processPackages [solid-dmft]: New version: [3.3.0] Old Version: [3.2.3]
+[2024-05-27 16:50:57] INFO root fetch - processPackages [nokey]: New version: [0.7.1] Old Version: [0.7.0]
+[2024-05-27 16:50:57] INFO root fetch - processPackages [pip2deb]: Downloading https://files.pythonhosted.org/packages/bb/cc/3b57e806554517405ea71becbde98f22357e927ffb2145cc7e011e7b198e/pip2deb-1.6.tar.gz
+[2024-05-27 16:50:57] INFO root fetch - processPackages [squelch]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-05-27 16:50:57] INFO root fetch - processPackages [odoo-addon-cmis]: New version: [16.0.1.0.1] Old Version: [16.0.1.0.0.4]
+[2024-05-27 16:50:57] INFO root fetch - processPackages [dpdispatcher]: New version: [0.6.5] Old Version: [0.6.4]
+[2024-05-27 16:50:57] INFO root fetch - processPackages [spatialAUC]: Downloading https://files.pythonhosted.org/packages/3c/c7/3727e638b8a7153ce9026c5f6005df056a579106ca1161fbeeedee9fddfe/spatialAUC-0.0.1.tar.gz
+[2024-05-27 16:50:57] INFO root fetch - processPackages [edurpa-document]: Downloading https://files.pythonhosted.org/packages/88/63/92367768bbc5f7dbdff1e4ae9e67da12d9ac13d16eb2d58b8288f55a3a26/edurpa_document-0.0.4-py3-none-any.whl
+[2024-05-27 16:50:57] INFO root fetch - processPackages [solid-dmft]: Downloading https://files.pythonhosted.org/packages/a3/e8/e5d2f67fa8d7722876571f36b8d16882bc0a60a725eafb326d69073706b3/solid_dmft-3.2.3.tar.gz
+[2024-05-27 16:50:57] INFO root fetch - processPackages [nokey]: Downloading https://files.pythonhosted.org/packages/2a/d7/162067fbd658473f4115c998e8ba918332eab192977bb9ba6eb9cbed5303/nokey-0.7.0.tar.gz
+[2024-05-27 16:50:57] INFO root fetch - processPackages [pip2deb]: Downloading https://files.pythonhosted.org/packages/8c/c0/1a789ca9c454219ae2e6e361a10984e7032f8e97a5db6936f5a3b31287ec/pip2deb-1.7.tar.gz
+[2024-05-27 16:50:57] INFO root fetch - processPackages [squelch]: Downloading https://files.pythonhosted.org/packages/ce/dd/66eb8f0467db981be9287648ca93469ae0dcc676b5761fc33e460831a65d/squelch-0.3.0.tar.gz
+[2024-05-27 16:50:57] INFO root fetch - processPackages [odoo-addon-cmis]: Downloading https://files.pythonhosted.org/packages/b4/07/359a9e4d784addbae1d2716f08feac4f7ce6cd40a54e078ae3f014034ada/odoo_addon_cmis-16.0.1.0.0.4-py3-none-any.whl
+[2024-05-27 16:50:57] INFO root fetch - processPackages [dpdispatcher]: Downloading https://files.pythonhosted.org/packages/3d/a8/e473075e18eb745397afd4c398ac88455522d3e583e5da3b4c2d3f690a5d/dpdispatcher-0.6.4.tar.gz
+[2024-05-27 16:50:57] INFO root fetch - processPackages [spatialAUC]: Downloading https://files.pythonhosted.org/packages/54/54/aa1a65294d3e0b74190c7de209eaa3e7b255882a98c9f2e3f1b81fe65feb/spatialAUC-0.0.2.tar.gz
+[2024-05-27 16:50:57] INFO root fetch - processPackages [pip2deb]: executing diffoscope
+[2024-05-27 16:50:57] INFO root fetch - processPackages [pip2deb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pip2deb-1.6.tar.gz tmp/pip2deb-1.7.tar.gz --markdown 20240527/p/pip2deb/1.6-1.7/README.md --exclude *.pyd
+[2024-05-27 16:50:57] INFO root fetch - processPackages [edurpa-document]: Downloading https://files.pythonhosted.org/packages/df/98/79bc8311d8c5e6b0439c97dabf056c930205d9ab94911854669bc6a81dbc/edurpa_document-0.0.5-py3-none-any.whl
+[2024-05-27 16:50:57] INFO root fetch - processPackages [spatialAUC]: executing diffoscope
+[2024-05-27 16:50:57] INFO root fetch - processPackages [spatialAUC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spatialAUC-0.0.1.tar.gz tmp/spatialAUC-0.0.2.tar.gz --markdown 20240527/s/spatialAUC/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-27 16:50:57] INFO root fetch - processPackages [solid-dmft]: Downloading https://files.pythonhosted.org/packages/f9/d4/43b4a9f13ea2e24e50db4bcf205470aced08f4c9ed177010bc7636f4e62f/solid_dmft-3.3.0.tar.gz
+[2024-05-27 16:50:57] INFO root fetch - processPackages [squelch]: Downloading https://files.pythonhosted.org/packages/a1/8a/3db5e04946171e306ac3944fca6828ef200d9bf00182a9c9ea55384bbcf1/squelch-0.3.1.tar.gz
+[2024-05-27 16:50:57] INFO root fetch - processPackages [nokey]: Downloading https://files.pythonhosted.org/packages/c2/4f/f51a258453388d2b0ae64dc3d1b66deb781f90351b64cb9c44d5bb1acfec/nokey-0.7.1.tar.gz
+[2024-05-27 16:50:57] INFO root fetch - processPackages [odoo-addon-cmis]: Downloading https://files.pythonhosted.org/packages/c7/7d/5ce71daab012bdd43ef406ab58b129fc973eccd76b7258bce3ff84e0c3f3/odoo_addon_cmis-16.0.1.0.1-py3-none-any.whl
+[2024-05-27 16:50:57] INFO root fetch - processPackages [dpdispatcher]: Downloading https://files.pythonhosted.org/packages/a6/05/76ea1fc4084b406b33595a1d4e448e21d88ae5c867c324fd5cabc0c0866f/dpdispatcher-0.6.5.tar.gz
+[2024-05-27 16:50:57] INFO root fetch - processPackages [edurpa-document]: executing diffoscope
+[2024-05-27 16:50:57] INFO root fetch - processPackages [edurpa-document]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edurpa_document-0.0.4-py3-none-any.whl.zip tmp/edurpa_document-0.0.5-py3-none-any.whl.zip --markdown 20240527/e/edurpa-document/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-27 16:50:57] INFO root fetch - processPackages [solid-dmft]: executing diffoscope
+[2024-05-27 16:50:57] INFO root fetch - processPackages [solid-dmft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/solid_dmft-3.2.3.tar.gz tmp/solid_dmft-3.3.0.tar.gz --markdown 20240527/s/solid-dmft/3.2.3-3.3.0/README.md --exclude *.pyd
+[2024-05-27 16:50:57] INFO root fetch - processPackages [squelch]: executing diffoscope
+[2024-05-27 16:50:57] INFO root fetch - processPackages [squelch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/squelch-0.3.0.tar.gz tmp/squelch-0.3.1.tar.gz --markdown 20240527/s/squelch/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-05-27 16:50:57] INFO root fetch - processPackages [nokey]: executing diffoscope
+[2024-05-27 16:50:57] INFO root fetch - processPackages [nokey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nokey-0.7.0.tar.gz tmp/nokey-0.7.1.tar.gz --markdown 20240527/n/nokey/0.7.0-0.7.1/README.md --exclude *.pyd
+[2024-05-27 16:50:57] INFO root fetch - processPackages [odoo-addon-cmis]: executing diffoscope
+[2024-05-27 16:50:57] INFO root fetch - processPackages [odoo-addon-cmis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_cmis-16.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_cmis-16.0.1.0.1-py3-none-any.whl.zip --markdown 20240527/o/odoo-addon-cmis/16.0.1.0.0.4-16.0.1.0.1/README.md --exclude *.pyd
+[2024-05-27 16:50:57] INFO root fetch - processPackages [dpdispatcher]: executing diffoscope
+[2024-05-27 16:50:57] INFO root fetch - processPackages [dpdispatcher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dpdispatcher-0.6.4.tar.gz tmp/dpdispatcher-0.6.5.tar.gz --markdown 20240527/d/dpdispatcher/0.6.4-0.6.5/README.md --exclude *.pyd
+[2024-05-27 16:50:58] INFO root fetch - processPackages [pip2deb]: Remove: archive file [/home/abi/fetcher/tmp/pip2deb-1.6.tar.gz]
+[2024-05-27 16:50:58] INFO root fetch - processPackages [pip2deb]: Remove: archive file [/home/abi/fetcher/tmp/pip2deb-1.7.tar.gz]
+[2024-05-27 16:50:58] INFO root fetch - main [MainThread]: End processing [pip2deb]: success
+[2024-05-27 16:50:58] INFO root fetch - processPackages [spatialAUC]: Remove: archive file [/home/abi/fetcher/tmp/spatialAUC-0.0.1.tar.gz]
+[2024-05-27 16:50:58] INFO root fetch - processPackages [spatialAUC]: Remove: archive file [/home/abi/fetcher/tmp/spatialAUC-0.0.2.tar.gz]
+[2024-05-27 16:50:58] INFO root fetch - main [MainThread]: End processing [spatialAUC]: success
+[2024-05-27 16:50:58] INFO root fetch - processPackages [edurpa-document]: Remove: archive file [/home/abi/fetcher/tmp/edurpa_document-0.0.4-py3-none-any.whl.zip]
+[2024-05-27 16:50:58] INFO root fetch - processPackages [edurpa-document]: Remove: archive file [/home/abi/fetcher/tmp/edurpa_document-0.0.5-py3-none-any.whl.zip]
+[2024-05-27 16:50:58] INFO root fetch - main [MainThread]: End processing [edurpa-document]: success
+[2024-05-27 16:50:58] INFO root fetch - processPackages [squelch]: Remove: archive file [/home/abi/fetcher/tmp/squelch-0.3.0.tar.gz]
+[2024-05-27 16:50:58] INFO root fetch - processPackages [squelch]: Remove: archive file [/home/abi/fetcher/tmp/squelch-0.3.1.tar.gz]
+[2024-05-27 16:50:58] INFO root fetch - main [MainThread]: End processing [squelch]: success
+[2024-05-27 16:50:58] INFO root fetch - processPackages [odoo-addon-cmis]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_cmis-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-05-27 16:50:58] INFO root fetch - processPackages [odoo-addon-cmis]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_cmis-16.0.1.0.1-py3-none-any.whl.zip]
+[2024-05-27 16:50:58] INFO root fetch - main [MainThread]: End processing [odoo-addon-cmis]: success
+[2024-05-27 16:50:58] INFO root fetch - processPackages [nokey]: Remove: archive file [/home/abi/fetcher/tmp/nokey-0.7.0.tar.gz]
+[2024-05-27 16:50:58] INFO root fetch - processPackages [nokey]: Remove: archive file [/home/abi/fetcher/tmp/nokey-0.7.1.tar.gz]
+[2024-05-27 16:50:58] INFO root fetch - main [MainThread]: End processing [nokey]: success
+[2024-05-27 16:50:58] INFO root fetch - processPackages [solid-dmft]: Remove: archive file [/home/abi/fetcher/tmp/solid_dmft-3.2.3.tar.gz]
+[2024-05-27 16:50:58] INFO root fetch - processPackages [solid-dmft]: Remove: archive file [/home/abi/fetcher/tmp/solid_dmft-3.3.0.tar.gz]
+[2024-05-27 16:50:58] INFO root fetch - main [MainThread]: End processing [solid-dmft]: success
+[2024-05-27 16:50:59] INFO root fetch - processPackages [dpdispatcher]: Remove: archive file [/home/abi/fetcher/tmp/dpdispatcher-0.6.4.tar.gz]
+[2024-05-27 16:50:59] INFO root fetch - processPackages [dpdispatcher]: Remove: archive file [/home/abi/fetcher/tmp/dpdispatcher-0.6.5.tar.gz]
+[2024-05-27 16:50:59] INFO root fetch - main [MainThread]: End processing [dpdispatcher]: success
+[2024-05-27 16:50:59] INFO root fetch - main [MainThread]: Store serial: [23397286]
