@@ -4235,3 +4235,42 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 05:00:08] INFO root fetch - processPackages [tdewolff-minify]: Remove: archive file [/home/abi/fetcher/tmp/tdewolff-minify-2.20.9.tar.gz]
 [2024-05-27 05:00:08] INFO root fetch - main [MainThread]: End processing [tdewolff-minify]: success
 [2024-05-27 05:00:08] INFO root fetch - main [MainThread]: Store serial: [23390001]
+[2024-05-27 05:02:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23390001]
+[2024-05-27 05:02:17] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-27 05:02:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ai2-kit
+[2024-05-27 05:02:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: simpleai-base
+[2024-05-27 05:02:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: discordreactive
+[2024-05-27 05:02:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pythonpy-clone
+[2024-05-27 05:02:17] INFO root fetch - processPackages [discordreactive]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-27 05:02:17] INFO root fetch - processPackages [discordreactive]: Downloading https://files.pythonhosted.org/packages/cd/cc/d264a006d2e2aa77b60704f30be2d80073405d12b7c907279f1649581171/discordreactive-0.0.7.tar.gz
+[2024-05-27 05:02:17] INFO root fetch - processPackages [pythonpy-clone]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-27 05:02:17] INFO root fetch - processPackages [simpleai-base]: New version: [0.3.7] Old Version: [0.3.6]
+[2024-05-27 05:02:17] INFO root fetch - processPackages [ai2-kit]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-27 05:02:17] INFO root fetch - processPackages [simpleai-base]: Downloading https://files.pythonhosted.org/packages/e7/f9/35f771111ffd12f5cbfc3e04350b249c460027444fd9c866972bed0f2943/simpleai_base-0.3.6-pp310-pypy310_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-27 05:02:17] INFO root fetch - processPackages [pythonpy-clone]: Downloading https://files.pythonhosted.org/packages/4d/f1/11507ceb7e038be27ce40bdd69835d7761cbc0398fdfead230a56c640029/pythonpy-clone-0.0.4.tar.gz
+[2024-05-27 05:02:17] INFO root fetch - processPackages [ai2-kit]: Downloading https://files.pythonhosted.org/packages/2f/ac/f68fb35a03f26fbbf6dcc4c0484b2a2c730f858907b176791f95259979fa/ai2_kit-0.9.8.tar.gz
+[2024-05-27 05:02:17] INFO root fetch - processPackages [discordreactive]: Downloading https://files.pythonhosted.org/packages/86/b0/1705a09a60e0a8ae1ff779c5afce4384e7f569f445ca331828086cab5ceb/discordreactive-0.0.8.tar.gz
+[2024-05-27 05:02:18] INFO root fetch - processPackages [discordreactive]: executing diffoscope
+[2024-05-27 05:02:18] INFO root fetch - processPackages [discordreactive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discordreactive-0.0.7.tar.gz tmp/discordreactive-0.0.8.tar.gz --markdown 20240527/d/discordreactive/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-27 05:02:18] INFO root fetch - processPackages [pythonpy-clone]: Downloading https://files.pythonhosted.org/packages/95/d6/dedac49d3d50eeb083cd8c5a54316839f91921ce2dab85fbd3ba16b9cd2f/pythonpy_clone-0.0.5.tar.gz
+[2024-05-27 05:02:18] INFO root fetch - processPackages [ai2-kit]: Downloading https://files.pythonhosted.org/packages/92/7d/d7c2c21a8ae2d8df9e79cbff8b4677c6171799dbb041ec440b5827feeea9/ai2_kit-0.9.9.tar.gz
+[2024-05-27 05:02:18] INFO root fetch - processPackages [pythonpy-clone]: executing diffoscope
+[2024-05-27 05:02:18] INFO root fetch - processPackages [pythonpy-clone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pythonpy-clone-0.0.4.tar.gz tmp/pythonpy_clone-0.0.5.tar.gz --markdown 20240527/p/pythonpy-clone/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-27 05:02:18] INFO root fetch - processPackages [ai2-kit]: executing diffoscope
+[2024-05-27 05:02:18] INFO root fetch - processPackages [ai2-kit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai2_kit-0.9.8.tar.gz tmp/ai2_kit-0.9.9.tar.gz --markdown 20240527/a/ai2-kit/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-27 05:02:18] INFO root fetch - processPackages [simpleai-base]: Downloading https://files.pythonhosted.org/packages/ea/39/3ca3f686f0f07c3f38058491424eb62f4a162481cdce95c3af6fcf3397ff/simpleai_base-0.3.7-pp310-pypy310_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-27 05:02:18] INFO root fetch - processPackages [discordreactive]: Remove: archive file [/home/abi/fetcher/tmp/discordreactive-0.0.7.tar.gz]
+[2024-05-27 05:02:18] INFO root fetch - processPackages [discordreactive]: Remove: archive file [/home/abi/fetcher/tmp/discordreactive-0.0.8.tar.gz]
+[2024-05-27 05:02:18] INFO root fetch - main [MainThread]: End processing [discordreactive]: success
+[2024-05-27 05:02:18] INFO root fetch - processPackages [pythonpy-clone]: Remove: archive file [/home/abi/fetcher/tmp/pythonpy-clone-0.0.4.tar.gz]
+[2024-05-27 05:02:18] INFO root fetch - processPackages [pythonpy-clone]: Remove: archive file [/home/abi/fetcher/tmp/pythonpy_clone-0.0.5.tar.gz]
+[2024-05-27 05:02:18] INFO root fetch - main [MainThread]: End processing [pythonpy-clone]: success
+[2024-05-27 05:02:18] INFO root fetch - processPackages [ai2-kit]: Remove: archive file [/home/abi/fetcher/tmp/ai2_kit-0.9.8.tar.gz]
+[2024-05-27 05:02:18] INFO root fetch - processPackages [ai2-kit]: Remove: archive file [/home/abi/fetcher/tmp/ai2_kit-0.9.9.tar.gz]
+[2024-05-27 05:02:18] INFO root fetch - main [MainThread]: End processing [ai2-kit]: success
+[2024-05-27 05:02:19] INFO root fetch - processPackages [simpleai-base]: executing diffoscope
+[2024-05-27 05:02:19] INFO root fetch - processPackages [simpleai-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simpleai_base-0.3.6-pp310-pypy310_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/simpleai_base-0.3.7-pp310-pypy310_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240527/s/simpleai-base/0.3.6-0.3.7/README.md --exclude *.pyd
+[2024-05-27 05:02:57] INFO root fetch - processPackages [simpleai-base]: Remove: archive file [/home/abi/fetcher/tmp/simpleai_base-0.3.6-pp310-pypy310_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-27 05:02:57] INFO root fetch - processPackages [simpleai-base]: Remove: archive file [/home/abi/fetcher/tmp/simpleai_base-0.3.7-pp310-pypy310_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-27 05:02:57] INFO root fetch - main [MainThread]: End processing [simpleai-base]: success
+[2024-05-27 05:02:57] INFO root fetch - main [MainThread]: Store serial: [23390035]
