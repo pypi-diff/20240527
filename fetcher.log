@@ -15409,3 +15409,105 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 14:27:55] INFO root fetch - processPackages [databricks-labs-ucx]: Remove: archive file [/home/abi/fetcher/tmp/databricks_labs_ucx-0.24.0.tar.gz]
 [2024-05-27 14:27:55] INFO root fetch - main [MainThread]: End processing [databricks-labs-ucx]: success
 [2024-05-27 14:27:55] INFO root fetch - main [MainThread]: Store serial: [23395484]
+[2024-05-27 14:30:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23395484]
+[2024-05-27 14:30:05] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-27 14:30:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cg
+[2024-05-27 14:30:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: chemfeat
+[2024-05-27 14:30:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-global-places
+[2024-05-27 14:30:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dicio-py
+[2024-05-27 14:30:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: llama-cpp-agent
+[2024-05-27 14:30:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: vaultUts
+[2024-05-27 14:30:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: EdgeGPT-fork
+[2024-05-27 14:30:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: decentriq-platform
+[2024-05-27 14:30:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: rocketmq-client-python-mi
+[2024-05-27 14:30:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cdnmon
+[2024-05-27 14:30:05] INFO root fetch - processPackages [dicio-py]: New version: [1.4] Old Version: [1.3]
+[2024-05-27 14:30:05] INFO root fetch - processPackages [cg]: New version: [60.8.9] Old Version: [60.8.8]
+[2024-05-27 14:30:05] INFO root fetch - processPackages [django-global-places]: New version: [0.8.6] Old Version: [0.8.5]
+[2024-05-27 14:30:05] INFO root fetch - processPackages [cdnmon]: New version: [0.5.4] Old Version: [0.5.3]
+[2024-05-27 14:30:05] INFO root fetch - processPackages [llama-cpp-agent]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-27 14:30:05] INFO root fetch - processPackages [vaultUts]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-27 14:30:05] INFO root fetch - processPackages [dicio-py]: Downloading https://files.pythonhosted.org/packages/c5/5c/edfff69eaf597c92f256de2f1d79c9ef46608e760f7fff305e115586b873/dicio_py-1.3.tar.gz
+[2024-05-27 14:30:05] INFO root fetch - processPackages [EdgeGPT-fork]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-27 14:30:05] INFO root fetch - processPackages [chemfeat]: New version: [2024.1] Old Version: [2023.9]
+[2024-05-27 14:30:05] INFO root fetch - processPackages [rocketmq-client-python-mi]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-27 14:30:05] INFO root fetch - processPackages [decentriq-platform]: New version: [0.9.1] Old Version: [0.9.0rc2]
+[2024-05-27 14:30:05] INFO root fetch - processPackages [cdnmon]: Downloading https://files.pythonhosted.org/packages/ec/bf/427ee6b16a8f017ddb771e1f33bc67fc9f7d7879b4cab3587e416c6c085e/cdnmon-0.5.3.tar.gz
+[2024-05-27 14:30:05] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/d6/8e/017bcd413c9044bb3a8ec3e9a9e28ff36b6d814eef56056a4702d375ac95/cg-60.8.8.tar.gz
+[2024-05-27 14:30:05] INFO root fetch - processPackages [django-global-places]: Downloading https://files.pythonhosted.org/packages/6c/31/74e40bdc66681c8c5e1a4045da4222935210e3296a3df04eca41265bad66/django_global_places-0.8.5.tar.gz
+[2024-05-27 14:30:05] INFO root fetch - processPackages [llama-cpp-agent]: Downloading https://files.pythonhosted.org/packages/a0/ba/e28b4ffe7b86f6d15ba5b9672537e66bc8273c02bbb8fa06f1337493886a/llama_cpp_agent-0.2.8.tar.gz
+[2024-05-27 14:30:05] INFO root fetch - processPackages [rocketmq-client-python-mi]: Downloading https://files.pythonhosted.org/packages/28/ef/065d1e3addbb70275fddff87af545b3a24c56ef9bcb15f25a151aa387e20/rocketmq-client-python-mi-1.0.1.tar.gz
+[2024-05-27 14:30:05] INFO root fetch - processPackages [decentriq-platform]: Downloading https://files.pythonhosted.org/packages/8b/c1/695a0f73f216e20fbf9a98a63235989a07b60ced292eb67c210593fda34a/decentriq-platform-0.9.0rc2.tar.gz
+[2024-05-27 14:30:05] INFO root fetch - processPackages [vaultUts]: Downloading https://files.pythonhosted.org/packages/8e/6a/d04ac931ba7e11a1cbd49e9fce744e7bf379d1bda444b56247dc7e4cea9d/vaultUts-1.0.1.tar.gz
+[2024-05-27 14:30:05] INFO root fetch - processPackages [chemfeat]: Downloading https://files.pythonhosted.org/packages/bb/16/abbb7b30cea728cdeb4359ba1475864548b59eea5d444ad9fae4f9e56399/chemfeat-2023.9.tar.gz
+[2024-05-27 14:30:05] INFO root fetch - processPackages [EdgeGPT-fork]: Downloading https://files.pythonhosted.org/packages/54/af/24fc395642e7871a2b511062f79389109bf980c5f6ee13ccaeaca6cdad3b/edgegpt_fork-1.0.2.tar.gz
+[2024-05-27 14:30:05] INFO root fetch - processPackages [cdnmon]: Downloading https://files.pythonhosted.org/packages/e9/71/82466511bd2352919f7d9a47488b9b61919778d0f21d6a17fa43b180d9cc/cdnmon-0.5.4.tar.gz
+[2024-05-27 14:30:05] INFO root fetch - processPackages [django-global-places]: Downloading https://files.pythonhosted.org/packages/54/6a/85fccc7a06e00633017fa9bb9e845d33d102c890e15a4f3c3fd335fd6e55/django_global_places-0.8.6.tar.gz
+[2024-05-27 14:30:05] INFO root fetch - processPackages [llama-cpp-agent]: Downloading https://files.pythonhosted.org/packages/e5/bb/9a16b289d7453095ab2485d73acf22968e24e78ddee8f364f962860bc7e1/llama_cpp_agent-0.2.9.tar.gz
+[2024-05-27 14:30:05] INFO root fetch - processPackages [dicio-py]: Downloading https://files.pythonhosted.org/packages/d4/f5/e0b2cf58bd49207241ec3115b633fdd579b04a416d57299f1c38229a7ce2/dicio_py-1.4.tar.gz
+[2024-05-27 14:30:06] INFO root fetch - processPackages [cdnmon]: executing diffoscope
+[2024-05-27 14:30:06] INFO root fetch - processPackages [cdnmon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdnmon-0.5.3.tar.gz tmp/cdnmon-0.5.4.tar.gz --markdown 20240527/c/cdnmon/0.5.3-0.5.4/README.md --exclude *.pyd
+[2024-05-27 14:30:06] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/df/aa/bcf36edef12ba2ac2c9179507531723a7d2784d50a1cb868497d0120f301/cg-60.8.9.tar.gz
+[2024-05-27 14:30:06] INFO root fetch - processPackages [decentriq-platform]: Downloading https://files.pythonhosted.org/packages/69/7c/b6c9a006e306cc15917be3102e43763687fbce0bf34b98d63390c4fadf94/decentriq-platform-0.9.1.tar.gz
+[2024-05-27 14:30:06] INFO root fetch - processPackages [django-global-places]: executing diffoscope
+[2024-05-27 14:30:06] INFO root fetch - processPackages [django-global-places]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_global_places-0.8.5.tar.gz tmp/django_global_places-0.8.6.tar.gz --markdown 20240527/d/django-global-places/0.8.5-0.8.6/README.md --exclude *.pyd
+[2024-05-27 14:30:06] INFO root fetch - processPackages [dicio-py]: executing diffoscope
+[2024-05-27 14:30:06] INFO root fetch - processPackages [dicio-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dicio_py-1.3.tar.gz tmp/dicio_py-1.4.tar.gz --markdown 20240527/d/dicio-py/1.3-1.4/README.md --exclude *.pyd
+[2024-05-27 14:30:06] INFO root fetch - processPackages [llama-cpp-agent]: executing diffoscope
+[2024-05-27 14:30:06] INFO root fetch - processPackages [llama-cpp-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_cpp_agent-0.2.8.tar.gz tmp/llama_cpp_agent-0.2.9.tar.gz --markdown 20240527/l/llama-cpp-agent/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-27 14:30:06] INFO root fetch - processPackages [vaultUts]: Downloading https://files.pythonhosted.org/packages/5c/66/d9fb0c514176f04c4ac2742da91cb859263e55763023d7a9a63fbb0e89db/vaultUts-1.0.2.tar.gz
+[2024-05-27 14:30:06] INFO root fetch - processPackages [chemfeat]: Downloading https://files.pythonhosted.org/packages/a9/43/deb46cf06b41d9e4a40831f5563a9425a3a98c0e63a77392a6f0b2d0fd71/chemfeat-2024.1.tar.gz
+[2024-05-27 14:30:06] INFO root fetch - processPackages [EdgeGPT-fork]: Downloading https://files.pythonhosted.org/packages/15/d9/bf486717c62c89ba998bb53b310cd390196470f5a5b040a5862f2523bc76/edgegpt_fork-1.0.3.tar.gz
+[2024-05-27 14:30:06] INFO root fetch - processPackages [rocketmq-client-python-mi]: Downloading https://files.pythonhosted.org/packages/da/c8/6aeb8776c8e48a260e41d41f3892371aebbd5f4553bc707cff997c8e5dd2/rocketmq-client-python-mi-1.0.2.tar.gz
+[2024-05-27 14:30:06] INFO root fetch - processPackages [decentriq-platform]: executing diffoscope
+[2024-05-27 14:30:06] INFO root fetch - processPackages [decentriq-platform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/decentriq-platform-0.9.0rc2.tar.gz tmp/decentriq-platform-0.9.1.tar.gz --markdown 20240527/d/decentriq-platform/0.9.0rc2-0.9.1/README.md --exclude *.pyd
+[2024-05-27 14:30:06] INFO root fetch - processPackages [vaultUts]: executing diffoscope
+[2024-05-27 14:30:06] INFO root fetch - processPackages [vaultUts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vaultUts-1.0.1.tar.gz tmp/vaultUts-1.0.2.tar.gz --markdown 20240527/v/vaultUts/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-27 14:30:06] INFO root fetch - processPackages [chemfeat]: executing diffoscope
+[2024-05-27 14:30:06] INFO root fetch - processPackages [chemfeat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chemfeat-2023.9.tar.gz tmp/chemfeat-2024.1.tar.gz --markdown 20240527/c/chemfeat/2023.9-2024.1/README.md --exclude *.pyd
+[2024-05-27 14:30:06] INFO root fetch - processPackages [rocketmq-client-python-mi]: executing diffoscope
+[2024-05-27 14:30:06] INFO root fetch - processPackages [rocketmq-client-python-mi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rocketmq-client-python-mi-1.0.1.tar.gz tmp/rocketmq-client-python-mi-1.0.2.tar.gz --markdown 20240527/r/rocketmq-client-python-mi/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-27 14:30:06] INFO root fetch - processPackages [EdgeGPT-fork]: executing diffoscope
+[2024-05-27 14:30:06] INFO root fetch - processPackages [EdgeGPT-fork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edgegpt_fork-1.0.2.tar.gz tmp/edgegpt_fork-1.0.3.tar.gz --markdown 20240527/E/EdgeGPT-fork/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-05-27 14:30:06] INFO root fetch - processPackages [cg]: executing diffoscope
+[2024-05-27 14:30:06] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-60.8.8.tar.gz tmp/cg-60.8.9.tar.gz --markdown 20240527/c/cg/60.8.8-60.8.9/README.md --exclude *.pyd
+[2024-05-27 14:30:07] INFO root fetch - processPackages [dicio-py]: Remove: archive file [/home/abi/fetcher/tmp/dicio_py-1.3.tar.gz]
+[2024-05-27 14:30:07] INFO root fetch - processPackages [dicio-py]: Remove: archive file [/home/abi/fetcher/tmp/dicio_py-1.4.tar.gz]
+[2024-05-27 14:30:07] INFO root fetch - processPackages [dicio-py]: Start processing: nlpx
+[2024-05-27 14:30:07] INFO root fetch - main [MainThread]: End processing [dicio-py]: success
+[2024-05-27 14:30:07] INFO root fetch - processPackages [nlpx]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-05-27 14:30:07] INFO root fetch - processPackages [cdnmon]: Remove: archive file [/home/abi/fetcher/tmp/cdnmon-0.5.3.tar.gz]
+[2024-05-27 14:30:07] INFO root fetch - processPackages [cdnmon]: Remove: archive file [/home/abi/fetcher/tmp/cdnmon-0.5.4.tar.gz]
+[2024-05-27 14:30:07] INFO root fetch - main [MainThread]: End processing [cdnmon]: success
+[2024-05-27 14:30:07] INFO root fetch - processPackages [django-global-places]: Remove: archive file [/home/abi/fetcher/tmp/django_global_places-0.8.5.tar.gz]
+[2024-05-27 14:30:07] INFO root fetch - processPackages [django-global-places]: Remove: archive file [/home/abi/fetcher/tmp/django_global_places-0.8.6.tar.gz]
+[2024-05-27 14:30:07] INFO root fetch - main [MainThread]: End processing [django-global-places]: success
+[2024-05-27 14:30:07] INFO root fetch - processPackages [vaultUts]: Remove: archive file [/home/abi/fetcher/tmp/vaultUts-1.0.1.tar.gz]
+[2024-05-27 14:30:07] INFO root fetch - processPackages [vaultUts]: Remove: archive file [/home/abi/fetcher/tmp/vaultUts-1.0.2.tar.gz]
+[2024-05-27 14:30:07] INFO root fetch - main [MainThread]: End processing [vaultUts]: success
+[2024-05-27 14:30:07] INFO root fetch - processPackages [rocketmq-client-python-mi]: Remove: archive file [/home/abi/fetcher/tmp/rocketmq-client-python-mi-1.0.1.tar.gz]
+[2024-05-27 14:30:07] INFO root fetch - processPackages [rocketmq-client-python-mi]: Remove: archive file [/home/abi/fetcher/tmp/rocketmq-client-python-mi-1.0.2.tar.gz]
+[2024-05-27 14:30:07] INFO root fetch - main [MainThread]: End processing [rocketmq-client-python-mi]: success
+[2024-05-27 14:30:07] INFO root fetch - processPackages [llama-cpp-agent]: Remove: archive file [/home/abi/fetcher/tmp/llama_cpp_agent-0.2.8.tar.gz]
+[2024-05-27 14:30:07] INFO root fetch - processPackages [llama-cpp-agent]: Remove: archive file [/home/abi/fetcher/tmp/llama_cpp_agent-0.2.9.tar.gz]
+[2024-05-27 14:30:07] INFO root fetch - main [MainThread]: End processing [llama-cpp-agent]: success
+[2024-05-27 14:30:07] INFO root fetch - processPackages [nlpx]: Downloading https://files.pythonhosted.org/packages/15/12/c4a59d7e84638c83d48c88e9a25de4c41714e4feeaf19685bbf407b359e6/nlpx-1.1.8.tar.gz
+[2024-05-27 14:30:07] INFO root fetch - processPackages [EdgeGPT-fork]: Remove: archive file [/home/abi/fetcher/tmp/edgegpt_fork-1.0.2.tar.gz]
+[2024-05-27 14:30:07] INFO root fetch - processPackages [EdgeGPT-fork]: Remove: archive file [/home/abi/fetcher/tmp/edgegpt_fork-1.0.3.tar.gz]
+[2024-05-27 14:30:07] INFO root fetch - main [MainThread]: End processing [EdgeGPT-fork]: success
+[2024-05-27 14:30:07] INFO root fetch - processPackages [chemfeat]: Remove: archive file [/home/abi/fetcher/tmp/chemfeat-2023.9.tar.gz]
+[2024-05-27 14:30:07] INFO root fetch - processPackages [chemfeat]: Remove: archive file [/home/abi/fetcher/tmp/chemfeat-2024.1.tar.gz]
+[2024-05-27 14:30:07] INFO root fetch - main [MainThread]: End processing [chemfeat]: success
+[2024-05-27 14:30:07] INFO root fetch - processPackages [decentriq-platform]: Remove: archive file [/home/abi/fetcher/tmp/decentriq-platform-0.9.0rc2.tar.gz]
+[2024-05-27 14:30:07] INFO root fetch - processPackages [decentriq-platform]: Remove: archive file [/home/abi/fetcher/tmp/decentriq-platform-0.9.1.tar.gz]
+[2024-05-27 14:30:07] INFO root fetch - main [MainThread]: End processing [decentriq-platform]: success
+[2024-05-27 14:30:07] INFO root fetch - processPackages [nlpx]: Downloading https://files.pythonhosted.org/packages/f1/99/8f99ba2cf37f12ad99125168904ca50577c01ca6115fd3eb220e80d94981/nlpx-1.1.9.tar.gz
+[2024-05-27 14:30:07] INFO root fetch - processPackages [nlpx]: executing diffoscope
+[2024-05-27 14:30:07] INFO root fetch - processPackages [nlpx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nlpx-1.1.8.tar.gz tmp/nlpx-1.1.9.tar.gz --markdown 20240527/n/nlpx/1.1.8-1.1.9/README.md --exclude *.pyd
+[2024-05-27 14:30:08] INFO root fetch - processPackages [nlpx]: Remove: archive file [/home/abi/fetcher/tmp/nlpx-1.1.8.tar.gz]
+[2024-05-27 14:30:08] INFO root fetch - processPackages [nlpx]: Remove: archive file [/home/abi/fetcher/tmp/nlpx-1.1.9.tar.gz]
+[2024-05-27 14:30:08] INFO root fetch - main [MainThread]: End processing [nlpx]: success
+[2024-05-27 14:30:11] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.8.8.tar.gz]
+[2024-05-27 14:30:11] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.8.9.tar.gz]
+[2024-05-27 14:30:11] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2024-05-27 14:30:11] INFO root fetch - main [MainThread]: Store serial: [23395514]
