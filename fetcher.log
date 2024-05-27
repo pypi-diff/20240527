@@ -2772,3 +2772,51 @@
 [2024-05-27 03:29:27] INFO root fetch - processPackages [oktmoparser]: Remove: archive file [/home/abi/fetcher/tmp/oktmoparser-1.3.2.tar.gz]
 [2024-05-27 03:29:27] INFO root fetch - main [MainThread]: End processing [oktmoparser]: success
 [2024-05-27 03:29:27] INFO root fetch - main [MainThread]: Store serial: [23389428]
+[2024-05-27 03:31:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23389428]
+[2024-05-27 03:31:35] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-27 03:31:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: onediff
+[2024-05-27 03:31:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: onediffx
+[2024-05-27 03:31:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wsgenerator
+[2024-05-27 03:31:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: louvainsplit
+[2024-05-27 03:31:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: eras
+[2024-05-27 03:31:36] INFO root fetch - processPackages [louvainsplit]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-05-27 03:31:36] INFO root fetch - processPackages [onediff]: New version: [1.1.0.dev202405260130] Old Version: [1.1.0.dev202405250127]
+[2024-05-27 03:31:36] INFO root fetch - processPackages [eras]: New version: [0.5.1] Old Version: [0.5.0]
+[2024-05-27 03:31:36] INFO root fetch - processPackages [onediffx]: New version: [1.1.0.dev202405260130] Old Version: [1.1.0.dev202405250127]
+[2024-05-27 03:31:36] INFO root fetch - processPackages [wsgenerator]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-27 03:31:36] INFO root fetch - processPackages [eras]: Downloading https://files.pythonhosted.org/packages/d7/04/62cdb926410e24e655ca39d98251adce63cd5c35a2a08c00b1fd9d9ea301/eras-0.5.0.tar.gz
+[2024-05-27 03:31:36] INFO root fetch - processPackages [onediff]: Downloading https://files.pythonhosted.org/packages/99/4f/cba142e5903640d3bf442a8b882d1f168759eecb1ee5eaa4eb41af3626cb/onediff-1.1.0.dev202405250127.tar.gz
+[2024-05-27 03:31:36] INFO root fetch - processPackages [onediffx]: Downloading https://files.pythonhosted.org/packages/a6/90/facf163dd553b5e73a7a482420032c8976cfcbf8921eeded768a6ad2b699/onediffx-1.1.0.dev202405250127.tar.gz
+[2024-05-27 03:31:36] INFO root fetch - processPackages [louvainsplit]: Downloading https://files.pythonhosted.org/packages/bc/17/87fbc5c81af88353975b145a00aef3bc64370a3512fcc1a0e78185b7b7a0/louvainsplit-0.1.0.tar.gz
+[2024-05-27 03:31:36] INFO root fetch - processPackages [wsgenerator]: Downloading https://files.pythonhosted.org/packages/c5/96/4f0d50d12532fc15f330db4f8465495dc311a8fc204b2793a0b59d99d700/wsgenerator-1.0.0.tar.gz
+[2024-05-27 03:31:36] INFO root fetch - processPackages [louvainsplit]: Downloading https://files.pythonhosted.org/packages/e7/8b/f069c1492e8f4d16fe8af7c81af532e8e48b4f5165b33d1765fe512854e0/louvainsplit-0.2.0.tar.gz
+[2024-05-27 03:31:36] INFO root fetch - processPackages [eras]: Downloading https://files.pythonhosted.org/packages/33/3d/9b74173b5197db23f7a4bd55394d368fe6f3815ef43d0d9a52e5b745f306/eras-0.5.1.tar.gz
+[2024-05-27 03:31:36] INFO root fetch - processPackages [onediffx]: Downloading https://files.pythonhosted.org/packages/96/e3/1ec659126bad726e8a582bcd3eea34e7854c902e57543efd26ead5931f9e/onediffx-1.1.0.dev202405260130.tar.gz
+[2024-05-27 03:31:36] INFO root fetch - processPackages [onediff]: Downloading https://files.pythonhosted.org/packages/91/dc/1c3b0f571b0cdf062f1163b162f3f41fb958c4029aea33b9793a29c482d0/onediff-1.1.0.dev202405260130.tar.gz
+[2024-05-27 03:31:36] INFO root fetch - processPackages [wsgenerator]: Downloading https://files.pythonhosted.org/packages/00/0a/12cb490987e2cc95ef16b329b7defff73805284d423ba46a5ac51aeb5380/wsgenerator-1.0.1.tar.gz
+[2024-05-27 03:31:36] INFO root fetch - processPackages [louvainsplit]: executing diffoscope
+[2024-05-27 03:31:36] INFO root fetch - processPackages [louvainsplit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/louvainsplit-0.1.0.tar.gz tmp/louvainsplit-0.2.0.tar.gz --markdown 20240527/l/louvainsplit/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-05-27 03:31:36] INFO root fetch - processPackages [eras]: executing diffoscope
+[2024-05-27 03:31:36] INFO root fetch - processPackages [eras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eras-0.5.0.tar.gz tmp/eras-0.5.1.tar.gz --markdown 20240527/e/eras/0.5.0-0.5.1/README.md --exclude *.pyd
+[2024-05-27 03:31:36] INFO root fetch - processPackages [onediffx]: executing diffoscope
+[2024-05-27 03:31:36] INFO root fetch - processPackages [onediffx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onediffx-1.1.0.dev202405250127.tar.gz tmp/onediffx-1.1.0.dev202405260130.tar.gz --markdown 20240527/o/onediffx/1.1.0.dev202405250127-1.1.0.dev202405260130/README.md --exclude *.pyd
+[2024-05-27 03:31:36] INFO root fetch - processPackages [wsgenerator]: executing diffoscope
+[2024-05-27 03:31:36] INFO root fetch - processPackages [wsgenerator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wsgenerator-1.0.0.tar.gz tmp/wsgenerator-1.0.1.tar.gz --markdown 20240527/w/wsgenerator/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-27 03:31:36] INFO root fetch - processPackages [onediff]: executing diffoscope
+[2024-05-27 03:31:36] INFO root fetch - processPackages [onediff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onediff-1.1.0.dev202405250127.tar.gz tmp/onediff-1.1.0.dev202405260130.tar.gz --markdown 20240527/o/onediff/1.1.0.dev202405250127-1.1.0.dev202405260130/README.md --exclude *.pyd
+[2024-05-27 03:31:37] INFO root fetch - processPackages [louvainsplit]: Remove: archive file [/home/abi/fetcher/tmp/louvainsplit-0.1.0.tar.gz]
+[2024-05-27 03:31:37] INFO root fetch - processPackages [louvainsplit]: Remove: archive file [/home/abi/fetcher/tmp/louvainsplit-0.2.0.tar.gz]
+[2024-05-27 03:31:37] INFO root fetch - main [MainThread]: End processing [louvainsplit]: success
+[2024-05-27 03:31:37] INFO root fetch - processPackages [onediffx]: Remove: archive file [/home/abi/fetcher/tmp/onediffx-1.1.0.dev202405250127.tar.gz]
+[2024-05-27 03:31:37] INFO root fetch - processPackages [onediffx]: Remove: archive file [/home/abi/fetcher/tmp/onediffx-1.1.0.dev202405260130.tar.gz]
+[2024-05-27 03:31:37] INFO root fetch - main [MainThread]: End processing [onediffx]: success
+[2024-05-27 03:31:37] INFO root fetch - processPackages [wsgenerator]: Remove: archive file [/home/abi/fetcher/tmp/wsgenerator-1.0.0.tar.gz]
+[2024-05-27 03:31:37] INFO root fetch - processPackages [wsgenerator]: Remove: archive file [/home/abi/fetcher/tmp/wsgenerator-1.0.1.tar.gz]
+[2024-05-27 03:31:37] INFO root fetch - main [MainThread]: End processing [wsgenerator]: success
+[2024-05-27 03:31:37] INFO root fetch - processPackages [eras]: Remove: archive file [/home/abi/fetcher/tmp/eras-0.5.0.tar.gz]
+[2024-05-27 03:31:37] INFO root fetch - processPackages [eras]: Remove: archive file [/home/abi/fetcher/tmp/eras-0.5.1.tar.gz]
+[2024-05-27 03:31:37] INFO root fetch - main [MainThread]: End processing [eras]: success
+[2024-05-27 03:31:37] INFO root fetch - processPackages [onediff]: Remove: archive file [/home/abi/fetcher/tmp/onediff-1.1.0.dev202405250127.tar.gz]
+[2024-05-27 03:31:37] INFO root fetch - processPackages [onediff]: Remove: archive file [/home/abi/fetcher/tmp/onediff-1.1.0.dev202405260130.tar.gz]
+[2024-05-27 03:31:37] INFO root fetch - main [MainThread]: End processing [onediff]: success
+[2024-05-27 03:31:37] INFO root fetch - main [MainThread]: Store serial: [23389442]
