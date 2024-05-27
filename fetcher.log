@@ -22233,3 +22233,90 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-05-27 18:46:09] INFO root fetch - processPackages [python-115]: Remove: archive file [/home/abi/fetcher/tmp/python_115-0.0.8.4.tar.gz]
 [2024-05-27 18:46:09] INFO root fetch - main [MainThread]: End processing [python-115]: success
 [2024-05-27 18:46:09] INFO root fetch - main [MainThread]: Store serial: [23398534]
+[2024-05-27 18:48:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23398534]
+[2024-05-27 18:48:17] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-27 18:48:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tlparse
+[2024-05-27 18:48:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: njab
+[2024-05-27 18:48:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: garminconnect
+[2024-05-27 18:48:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: turboconf
+[2024-05-27 18:48:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: datarobot-early-access
+[2024-05-27 18:48:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lfg-llama
+[2024-05-27 18:48:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: truenaspy
+[2024-05-27 18:48:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: EXtra-geom
+[2024-05-27 18:48:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dflowd
+[2024-05-27 18:48:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: Pharokka
+[2024-05-27 18:48:18] INFO root fetch - processPackages [truenaspy]: New version: [0.6.3] Old Version: [0.6.2]
+[2024-05-27 18:48:18] INFO root fetch - processPackages [lfg-llama]: New version: [2.3.0] Old Version: [2.2.3]
+[2024-05-27 18:48:18] INFO root fetch - processPackages [garminconnect]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-27 18:48:18] INFO root fetch - processPackages [njab]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-27 18:48:18] INFO root fetch - processPackages [Pharokka]: New version: [1.7.2] Old Version: [1.7.1]
+[2024-05-27 18:48:18] INFO root fetch - processPackages [EXtra-geom]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-27 18:48:18] INFO root fetch - processPackages [turboconf]: New version: [0.3.1] Old Version: [0.2.1]
+[2024-05-27 18:48:18] INFO root fetch - processPackages [tlparse]: New version: [0.3.7] Old Version: [0.3.6]
+[2024-05-27 18:48:18] WARNING root fetch - processPackages [dflowd]: Skipping, unable to determine old version
+[2024-05-27 18:48:18] INFO root fetch - main [MainThread]: End processing [dflowd] error
+[2024-05-27 18:48:18] INFO root fetch - processPackages [lfg-llama]: Downloading https://files.pythonhosted.org/packages/92/70/05a698de778c4244f186304e6a60ef71a766eaa891d815e7e4231705f000/lfg_llama-2.2.3.tar.gz
+[2024-05-27 18:48:18] INFO root fetch - processPackages [datarobot-early-access]: New version: [3.5.0.2024.5.6] Old Version: [3.5.0.2024.5.27]
+[2024-05-27 18:48:18] INFO root fetch - processPackages [truenaspy]: Downloading https://files.pythonhosted.org/packages/85/a1/f03bf9164132ec092ef8c0abe36fdd95d390225e7bfd8ee573fa2a7316ea/truenaspy-0.6.2.tar.gz
+[2024-05-27 18:48:18] INFO root fetch - processPackages [garminconnect]: Downloading https://files.pythonhosted.org/packages/3a/61/012c7620687d2b620d03dceeb2d305e7c15d240e14f1af0da903a8e3c4da/garminconnect-0.2.8.tar.gz
+[2024-05-27 18:48:18] INFO root fetch - processPackages [njab]: Downloading https://files.pythonhosted.org/packages/49/ad/1c947521df34493a1f80971a03af2d975ae605fe53cdc602e182afd832c2/njab-0.0.6.tar.gz
+[2024-05-27 18:48:18] INFO root fetch - processPackages [turboconf]: Downloading https://files.pythonhosted.org/packages/52/45/ce742fccd96254123aa3bbee54a76e8bfc7f1db5186ea8d0510586b88b64/turboconf-0.2.1.tar.gz
+[2024-05-27 18:48:18] INFO root fetch - processPackages [tlparse]: Downloading https://files.pythonhosted.org/packages/35/03/174d547b3ccdd3b04eb335a607d5c40007b1d0a3f1fa1647a1e4319a9b00/tlparse-0.3.6.tar.gz
+[2024-05-27 18:48:18] INFO root fetch - processPackages [datarobot-early-access]: Downloading https://files.pythonhosted.org/packages/d4/40/2399f1dce4379c468e3e36598ad4afedd51f157e8e6d306d727928bce3d5/datarobot_early_access-3.5.0.2024.5.27.tar.gz
+[2024-05-27 18:48:18] INFO root fetch - processPackages [EXtra-geom]: Downloading https://files.pythonhosted.org/packages/3a/0c/529ca83f30695d9963aa5b1641e3d9f0671d579ecd0cbc52807f2d54af16/EXtra-geom-1.8.0.tar.gz
+[2024-05-27 18:48:18] INFO root fetch - processPackages [Pharokka]: Downloading https://files.pythonhosted.org/packages/64/57/d4df28391f70cd00c879d4b1887698c95bca7c42533f886a9017f203624a/Pharokka-1.7.1.tar.gz
+[2024-05-27 18:48:18] INFO root fetch - processPackages [lfg-llama]: Downloading https://files.pythonhosted.org/packages/bb/fb/2a50fcf85e66f2c383c343dbfc8340f4289b597f356cd11659cf0e082840/lfg_llama-2.3.0.tar.gz
+[2024-05-27 18:48:18] INFO root fetch - processPackages [truenaspy]: Downloading https://files.pythonhosted.org/packages/b9/51/09b20aac8841a85a04e3d9f50223af52538ce7a766c5c11724fd2e4025b7/truenaspy-0.6.3.tar.gz
+[2024-05-27 18:48:18] INFO root fetch - processPackages [lfg-llama]: executing diffoscope
+[2024-05-27 18:48:18] INFO root fetch - processPackages [lfg-llama]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lfg_llama-2.2.3.tar.gz tmp/lfg_llama-2.3.0.tar.gz --markdown 20240527/l/lfg-llama/2.2.3-2.3.0/README.md --exclude *.pyd
+[2024-05-27 18:48:18] INFO root fetch - processPackages [truenaspy]: executing diffoscope
+[2024-05-27 18:48:18] INFO root fetch - processPackages [truenaspy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/truenaspy-0.6.2.tar.gz tmp/truenaspy-0.6.3.tar.gz --markdown 20240527/t/truenaspy/0.6.2-0.6.3/README.md --exclude *.pyd
+[2024-05-27 18:48:18] INFO root fetch - processPackages [njab]: Downloading https://files.pythonhosted.org/packages/87/03/214d0a8f8b96119a4ad75c98f45adb85a3c16c7f4f79dc6a49769e9ec91b/njab-0.0.7.tar.gz
+[2024-05-27 18:48:19] INFO root fetch - processPackages [garminconnect]: Downloading https://files.pythonhosted.org/packages/6e/b5/7b40c5fd9890103fdaf57db1f0d2a0f95c00ec98e4ae7b739a16ee5c7420/garminconnect-0.2.9.tar.gz
+[2024-05-27 18:48:19] INFO root fetch - processPackages [tlparse]: Downloading https://files.pythonhosted.org/packages/b1/9f/84459ac6f0623acadc83a6d9888fe93fd68968346f1b9589165ba329a76c/tlparse-0.3.7.tar.gz
+[2024-05-27 18:48:19] INFO root fetch - processPackages [turboconf]: Downloading https://files.pythonhosted.org/packages/10/72/83af7f01876142429107b8b8f74f04f72c3e82a3ecab2921a29ef08f15b5/turboconf-0.3.1.tar.gz
+[2024-05-27 18:48:19] INFO root fetch - processPackages [Pharokka]: Downloading https://files.pythonhosted.org/packages/3f/97/285ba105152f084dd8b550d70d0898f1913a3496016efa56d732fd61e4a0/pharokka-1.7.2.tar.gz
+[2024-05-27 18:48:19] INFO root fetch - processPackages [datarobot-early-access]: Downloading https://files.pythonhosted.org/packages/ba/4a/f22c0b97bfdeb8c089f4f31501e4d3b1d44944590014edfa1c0b023db773/datarobot_early_access-3.5.0.2024.5.6.tar.gz
+[2024-05-27 18:48:19] INFO root fetch - processPackages [garminconnect]: executing diffoscope
+[2024-05-27 18:48:19] INFO root fetch - processPackages [tlparse]: executing diffoscope
+[2024-05-27 18:48:19] INFO root fetch - processPackages [garminconnect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/garminconnect-0.2.8.tar.gz tmp/garminconnect-0.2.9.tar.gz --markdown 20240527/g/garminconnect/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-27 18:48:19] INFO root fetch - processPackages [tlparse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tlparse-0.3.6.tar.gz tmp/tlparse-0.3.7.tar.gz --markdown 20240527/t/tlparse/0.3.6-0.3.7/README.md --exclude *.pyd
+[2024-05-27 18:48:19] INFO root fetch - processPackages [turboconf]: executing diffoscope
+[2024-05-27 18:48:19] INFO root fetch - processPackages [turboconf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/turboconf-0.2.1.tar.gz tmp/turboconf-0.3.1.tar.gz --markdown 20240527/t/turboconf/0.2.1-0.3.1/README.md --exclude *.pyd
+[2024-05-27 18:48:19] INFO root fetch - processPackages [njab]: executing diffoscope
+[2024-05-27 18:48:19] INFO root fetch - processPackages [njab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/njab-0.0.6.tar.gz tmp/njab-0.0.7.tar.gz --markdown 20240527/n/njab/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-27 18:48:19] INFO root fetch - processPackages [EXtra-geom]: Downloading https://files.pythonhosted.org/packages/6f/f9/e778a9249231be9ff7e947e2240eb82cf2a5315084239a0a6f04687e2db5/EXtra-geom-1.9.0.tar.gz
+[2024-05-27 18:48:19] INFO root fetch - processPackages [datarobot-early-access]: executing diffoscope
+[2024-05-27 18:48:19] INFO root fetch - processPackages [datarobot-early-access]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datarobot_early_access-3.5.0.2024.5.27.tar.gz tmp/datarobot_early_access-3.5.0.2024.5.6.tar.gz --markdown 20240527/d/datarobot-early-access/3.5.0.2024.5.27-3.5.0.2024.5.6/README.md --exclude *.pyd
+[2024-05-27 18:48:19] INFO root fetch - processPackages [Pharokka]: executing diffoscope
+[2024-05-27 18:48:19] INFO root fetch - processPackages [Pharokka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Pharokka-1.7.1.tar.gz tmp/pharokka-1.7.2.tar.gz --markdown 20240527/P/Pharokka/1.7.1-1.7.2/README.md --exclude *.pyd
+[2024-05-27 18:48:19] INFO root fetch - processPackages [EXtra-geom]: executing diffoscope
+[2024-05-27 18:48:19] INFO root fetch - processPackages [EXtra-geom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EXtra-geom-1.8.0.tar.gz tmp/EXtra-geom-1.9.0.tar.gz --markdown 20240527/E/EXtra-geom/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-05-27 18:48:19] INFO root fetch - processPackages [lfg-llama]: Remove: archive file [/home/abi/fetcher/tmp/lfg_llama-2.2.3.tar.gz]
+[2024-05-27 18:48:19] INFO root fetch - processPackages [lfg-llama]: Remove: archive file [/home/abi/fetcher/tmp/lfg_llama-2.3.0.tar.gz]
+[2024-05-27 18:48:19] INFO root fetch - main [MainThread]: End processing [lfg-llama]: success
+[2024-05-27 18:48:19] INFO root fetch - processPackages [truenaspy]: Remove: archive file [/home/abi/fetcher/tmp/truenaspy-0.6.2.tar.gz]
+[2024-05-27 18:48:19] INFO root fetch - processPackages [truenaspy]: Remove: archive file [/home/abi/fetcher/tmp/truenaspy-0.6.3.tar.gz]
+[2024-05-27 18:48:19] INFO root fetch - main [MainThread]: End processing [truenaspy]: success
+[2024-05-27 18:48:19] INFO root fetch - processPackages [tlparse]: Remove: archive file [/home/abi/fetcher/tmp/tlparse-0.3.6.tar.gz]
+[2024-05-27 18:48:19] INFO root fetch - processPackages [tlparse]: Remove: archive file [/home/abi/fetcher/tmp/tlparse-0.3.7.tar.gz]
+[2024-05-27 18:48:19] INFO root fetch - main [MainThread]: End processing [tlparse]: success
+[2024-05-27 18:48:20] INFO root fetch - processPackages [turboconf]: Remove: archive file [/home/abi/fetcher/tmp/turboconf-0.2.1.tar.gz]
+[2024-05-27 18:48:20] INFO root fetch - processPackages [turboconf]: Remove: archive file [/home/abi/fetcher/tmp/turboconf-0.3.1.tar.gz]
+[2024-05-27 18:48:20] INFO root fetch - main [MainThread]: End processing [turboconf]: success
+[2024-05-27 18:48:20] INFO root fetch - processPackages [garminconnect]: Remove: archive file [/home/abi/fetcher/tmp/garminconnect-0.2.8.tar.gz]
+[2024-05-27 18:48:20] INFO root fetch - processPackages [garminconnect]: Remove: archive file [/home/abi/fetcher/tmp/garminconnect-0.2.9.tar.gz]
+[2024-05-27 18:48:20] INFO root fetch - main [MainThread]: End processing [garminconnect]: success
+[2024-05-27 18:48:20] INFO root fetch - processPackages [njab]: Remove: archive file [/home/abi/fetcher/tmp/njab-0.0.6.tar.gz]
+[2024-05-27 18:48:20] INFO root fetch - processPackages [njab]: Remove: archive file [/home/abi/fetcher/tmp/njab-0.0.7.tar.gz]
+[2024-05-27 18:48:20] INFO root fetch - main [MainThread]: End processing [njab]: success
+[2024-05-27 18:48:20] INFO root fetch - processPackages [Pharokka]: Remove: archive file [/home/abi/fetcher/tmp/Pharokka-1.7.1.tar.gz]
+[2024-05-27 18:48:20] INFO root fetch - processPackages [Pharokka]: Remove: archive file [/home/abi/fetcher/tmp/pharokka-1.7.2.tar.gz]
+[2024-05-27 18:48:20] INFO root fetch - main [MainThread]: End processing [Pharokka]: success
+[2024-05-27 18:48:20] INFO root fetch - processPackages [EXtra-geom]: Remove: archive file [/home/abi/fetcher/tmp/EXtra-geom-1.8.0.tar.gz]
+[2024-05-27 18:48:20] INFO root fetch - processPackages [EXtra-geom]: Remove: archive file [/home/abi/fetcher/tmp/EXtra-geom-1.9.0.tar.gz]
+[2024-05-27 18:48:20] INFO root fetch - main [MainThread]: End processing [EXtra-geom]: success
+[2024-05-27 18:48:21] INFO root fetch - processPackages [datarobot-early-access]: Remove: archive file [/home/abi/fetcher/tmp/datarobot_early_access-3.5.0.2024.5.27.tar.gz]
+[2024-05-27 18:48:21] INFO root fetch - processPackages [datarobot-early-access]: Remove: archive file [/home/abi/fetcher/tmp/datarobot_early_access-3.5.0.2024.5.6.tar.gz]
+[2024-05-27 18:48:21] INFO root fetch - main [MainThread]: End processing [datarobot-early-access]: success
+[2024-05-27 18:48:21] INFO root fetch - main [MainThread]: Store serial: [23398571]
