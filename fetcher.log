@@ -6360,3 +6360,60 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 07:41:12] INFO root fetch - processPackages [cognee]: Remove: archive file [/home/abi/fetcher/tmp/cognee-0.1.8.tar.gz]
 [2024-05-27 07:41:12] INFO root fetch - main [MainThread]: End processing [cognee]: success
 [2024-05-27 07:41:12] INFO root fetch - main [MainThread]: Store serial: [23390945]
+[2024-05-27 07:43:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23390945]
+[2024-05-27 07:43:21] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-27 07:43:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rtmilk
+[2024-05-27 07:43:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ansar-connect
+[2024-05-27 07:43:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: flatpack
+[2024-05-27 07:43:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: historianstexttools
+[2024-05-27 07:43:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: imfacesnap
+[2024-05-27 07:43:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rudder-sdk-python
+[2024-05-27 07:43:21] INFO root fetch - processPackages [ansar-connect]: New version: [0.1.267] Old Version: [0.1.266]
+[2024-05-27 07:43:21] INFO root fetch - processPackages [imfacesnap]: New version: [0.0.0.4] Old Version: [0.0.0.3]
+[2024-05-27 07:43:21] INFO root fetch - processPackages [historianstexttools]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-27 07:43:21] INFO root fetch - processPackages [ansar-connect]: Downloading https://files.pythonhosted.org/packages/00/59/e3fc506d558ce924de31859dd5046e62e321b2be446262427223588e54f0/ansar_connect-0.1.266.tar.gz
+[2024-05-27 07:43:21] INFO root fetch - processPackages [rudder-sdk-python]: New version: [2.1.1] Old Version: [2.1.0]
+[2024-05-27 07:43:21] INFO root fetch - processPackages [rtmilk]: New version: [2.1.0] Old Version: [2.0.0]
+[2024-05-27 07:43:21] INFO root fetch - processPackages [imfacesnap]: Downloading https://files.pythonhosted.org/packages/72/ea/e100ff527a71473eaa177190fcbdd980421e84f6780f3015a17f1b39a074/imfacesnap-0.0.0.3.tar.gz
+[2024-05-27 07:43:21] INFO root fetch - processPackages [historianstexttools]: Downloading https://files.pythonhosted.org/packages/6e/a5/6f8f9a62978dd1a06f837ebb1d038159151afd14abe647565dd2b9d9944c/historianstexttools-0.0.1.tar.gz
+[2024-05-27 07:43:21] INFO root fetch - processPackages [flatpack]: New version: [3.4.99] Old Version: [3.4.98]
+[2024-05-27 07:43:21] INFO root fetch - processPackages [rtmilk]: Downloading https://files.pythonhosted.org/packages/fe/07/319ae647a36a803057af04cf3662eaf1c8fad0c01a2fc44be233bb77b3a6/rtmilk-2.0.0.tar.gz
+[2024-05-27 07:43:21] INFO root fetch - processPackages [rudder-sdk-python]: Downloading https://files.pythonhosted.org/packages/d5/95/ed168fab02cb4610f56fddb431285dd7f2aa3dd400ec7c0235ea544ef9f8/rudder-sdk-python-2.1.0.tar.gz
+[2024-05-27 07:43:21] INFO root fetch - processPackages [imfacesnap]: Downloading https://files.pythonhosted.org/packages/f9/42/8b681b40904f38a41a58cd1d8c314d042c8c5f6f76eaf24c82a080a9c123/imfacesnap-0.0.0.4.tar.gz
+[2024-05-27 07:43:21] INFO root fetch - processPackages [historianstexttools]: Downloading https://files.pythonhosted.org/packages/3a/59/4cf0c1328d79f63d655ac780da9353fa7221eaa8452498b757c32e6f8a9d/historianstexttools-0.0.2.tar.gz
+[2024-05-27 07:43:21] INFO root fetch - processPackages [flatpack]: Downloading https://files.pythonhosted.org/packages/cb/39/adcd388eba8071e3318b3a2224e5c96179761da6dbd7cfa96b20311e810f/flatpack-3.4.98.tar.gz
+[2024-05-27 07:43:21] INFO root fetch - processPackages [ansar-connect]: Downloading https://files.pythonhosted.org/packages/ee/9a/c96f3343eaf409354901c7db44bf998474977a83814c5273d41b28a17533/ansar_connect-0.1.267.tar.gz
+[2024-05-27 07:43:21] INFO root fetch - processPackages [imfacesnap]: executing diffoscope
+[2024-05-27 07:43:21] INFO root fetch - processPackages [imfacesnap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imfacesnap-0.0.0.3.tar.gz tmp/imfacesnap-0.0.0.4.tar.gz --markdown 20240527/i/imfacesnap/0.0.0.3-0.0.0.4/README.md --exclude *.pyd
+[2024-05-27 07:43:21] INFO root fetch - processPackages [historianstexttools]: executing diffoscope
+[2024-05-27 07:43:21] INFO root fetch - processPackages [historianstexttools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/historianstexttools-0.0.1.tar.gz tmp/historianstexttools-0.0.2.tar.gz --markdown 20240527/h/historianstexttools/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-27 07:43:21] INFO root fetch - processPackages [ansar-connect]: executing diffoscope
+[2024-05-27 07:43:21] INFO root fetch - processPackages [ansar-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansar_connect-0.1.266.tar.gz tmp/ansar_connect-0.1.267.tar.gz --markdown 20240527/a/ansar-connect/0.1.266-0.1.267/README.md --exclude *.pyd
+[2024-05-27 07:43:21] INFO root fetch - processPackages [rtmilk]: Downloading https://files.pythonhosted.org/packages/38/90/1899b4a32e11bd77589066a4a233b676863936ce1230786c70992e6f0c77/rtmilk-2.1.0.tar.gz
+[2024-05-27 07:43:21] INFO root fetch - processPackages [rudder-sdk-python]: Downloading https://files.pythonhosted.org/packages/e8/a6/f504da887a72d6ea9c694866315432a5cba95ef3258b268c7c027f07fbf5/rudder-sdk-python-2.1.1.tar.gz
+[2024-05-27 07:43:21] INFO root fetch - processPackages [flatpack]: Downloading https://files.pythonhosted.org/packages/89/20/a694f72cbfa96253cdb38b9f65c7cfd5f3a4fb145d2fe2483132b80dafd4/flatpack-3.4.99.tar.gz
+[2024-05-27 07:43:21] INFO root fetch - processPackages [rtmilk]: executing diffoscope
+[2024-05-27 07:43:21] INFO root fetch - processPackages [rtmilk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rtmilk-2.0.0.tar.gz tmp/rtmilk-2.1.0.tar.gz --markdown 20240527/r/rtmilk/2.0.0-2.1.0/README.md --exclude *.pyd
+[2024-05-27 07:43:22] INFO root fetch - processPackages [rudder-sdk-python]: executing diffoscope
+[2024-05-27 07:43:22] INFO root fetch - processPackages [rudder-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rudder-sdk-python-2.1.0.tar.gz tmp/rudder-sdk-python-2.1.1.tar.gz --markdown 20240527/r/rudder-sdk-python/2.1.0-2.1.1/README.md --exclude *.pyd
+[2024-05-27 07:43:22] INFO root fetch - processPackages [flatpack]: executing diffoscope
+[2024-05-27 07:43:22] INFO root fetch - processPackages [flatpack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flatpack-3.4.98.tar.gz tmp/flatpack-3.4.99.tar.gz --markdown 20240527/f/flatpack/3.4.98-3.4.99/README.md --exclude *.pyd
+[2024-05-27 07:43:22] INFO root fetch - processPackages [historianstexttools]: Remove: archive file [/home/abi/fetcher/tmp/historianstexttools-0.0.1.tar.gz]
+[2024-05-27 07:43:22] INFO root fetch - processPackages [historianstexttools]: Remove: archive file [/home/abi/fetcher/tmp/historianstexttools-0.0.2.tar.gz]
+[2024-05-27 07:43:22] INFO root fetch - main [MainThread]: End processing [historianstexttools]: success
+[2024-05-27 07:43:22] INFO root fetch - processPackages [imfacesnap]: Remove: archive file [/home/abi/fetcher/tmp/imfacesnap-0.0.0.3.tar.gz]
+[2024-05-27 07:43:22] INFO root fetch - processPackages [imfacesnap]: Remove: archive file [/home/abi/fetcher/tmp/imfacesnap-0.0.0.4.tar.gz]
+[2024-05-27 07:43:22] INFO root fetch - main [MainThread]: End processing [imfacesnap]: success
+[2024-05-27 07:43:22] INFO root fetch - processPackages [ansar-connect]: Remove: archive file [/home/abi/fetcher/tmp/ansar_connect-0.1.266.tar.gz]
+[2024-05-27 07:43:22] INFO root fetch - processPackages [ansar-connect]: Remove: archive file [/home/abi/fetcher/tmp/ansar_connect-0.1.267.tar.gz]
+[2024-05-27 07:43:22] INFO root fetch - main [MainThread]: End processing [ansar-connect]: success
+[2024-05-27 07:43:22] INFO root fetch - processPackages [rudder-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/rudder-sdk-python-2.1.0.tar.gz]
+[2024-05-27 07:43:22] INFO root fetch - processPackages [rudder-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/rudder-sdk-python-2.1.1.tar.gz]
+[2024-05-27 07:43:22] INFO root fetch - main [MainThread]: End processing [rudder-sdk-python]: success
+[2024-05-27 07:43:22] INFO root fetch - processPackages [rtmilk]: Remove: archive file [/home/abi/fetcher/tmp/rtmilk-2.0.0.tar.gz]
+[2024-05-27 07:43:22] INFO root fetch - processPackages [rtmilk]: Remove: archive file [/home/abi/fetcher/tmp/rtmilk-2.1.0.tar.gz]
+[2024-05-27 07:43:22] INFO root fetch - main [MainThread]: End processing [rtmilk]: success
+[2024-05-27 07:43:22] INFO root fetch - processPackages [flatpack]: Remove: archive file [/home/abi/fetcher/tmp/flatpack-3.4.98.tar.gz]
+[2024-05-27 07:43:22] INFO root fetch - processPackages [flatpack]: Remove: archive file [/home/abi/fetcher/tmp/flatpack-3.4.99.tar.gz]
+[2024-05-27 07:43:22] INFO root fetch - main [MainThread]: End processing [flatpack]: success
+[2024-05-27 07:43:22] INFO root fetch - main [MainThread]: Store serial: [23390962]
