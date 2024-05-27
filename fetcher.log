@@ -18568,3 +18568,77 @@ EOFError: EOF read where object expected
 [2024-05-27 16:20:11] INFO root fetch - processPackages [py-pde]: Remove: archive file [/home/abi/fetcher/tmp/py-pde-0.9.4.tar.gz]
 [2024-05-27 16:20:11] INFO root fetch - main [MainThread]: End processing [py-pde]: success
 [2024-05-27 16:20:11] INFO root fetch - main [MainThread]: Store serial: [23396923]
+[2024-05-27 16:22:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23396923]
+[2024-05-27 16:22:20] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-27 16:22:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyALF
+[2024-05-27 16:22:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: clargs
+[2024-05-27 16:22:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdklabs.aws-data-solutions-framework
+[2024-05-27 16:22:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-preinstalled-amazon-linux-ec2
+[2024-05-27 16:22:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: direct-neural-biasing
+[2024-05-27 16:22:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: robotmodels
+[2024-05-27 16:22:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dragonion
+[2024-05-27 16:22:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ETH-GTD-cli
+[2024-05-27 16:22:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fortran-magic
+[2024-05-27 16:22:21] INFO root fetch - processPackages [direct-neural-biasing]: New version: [0.6.8] Old Version: [0.6.7]
+[2024-05-27 16:22:21] INFO root fetch - processPackages [clargs]: New version: [0.9.0a0.dev6] Old Version: [0.9.0a0.dev5]
+[2024-05-27 16:22:21] INFO root fetch - processPackages [ETH-GTD-cli]: New version: [0.0.92] Old Version: [0.0.91]
+[2024-05-27 16:22:21] INFO root fetch - processPackages [pyALF]: New version: [2.5.post6] Old Version: [2.5.post5]
+[2024-05-27 16:22:21] INFO root fetch - processPackages [robotmodels]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-05-27 16:22:21] INFO root fetch - processPackages [direct-neural-biasing]: Downloading https://files.pythonhosted.org/packages/5d/c1/5534bd3f41850d8502c80e1c04ad0444d9b429207bf4b22fb671ce2e1705/direct_neural_biasing-0.6.7-cp311-none-win_amd64.whl
+[2024-05-27 16:22:21] INFO root fetch - processPackages [clargs]: Downloading https://files.pythonhosted.org/packages/b4/08/94b5e6d3f4a904b22e41c11c3fd486df8b99ae619dfb7c9a52d0978f0866/clargs-0.9.0a0.dev5.tar.gz
+[2024-05-27 16:22:21] WARNING root fetch - processPackages [cdk-preinstalled-amazon-linux-ec2]: Skipping, unable to determine old version
+[2024-05-27 16:22:21] INFO root fetch - processPackages [dragonion]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-27 16:22:21] INFO root fetch - processPackages [cdklabs.aws-data-solutions-framework]: New version: [1.8.0] Old Version: [1.7.0]
+[2024-05-27 16:22:21] INFO root fetch - main [MainThread]: End processing [cdk-preinstalled-amazon-linux-ec2] error
+[2024-05-27 16:22:21] INFO root fetch - processPackages [fortran-magic]: New version: [0.9] Old Version: [0.8]
+[2024-05-27 16:22:21] INFO root fetch - processPackages [pyALF]: Downloading https://files.pythonhosted.org/packages/a8/92/5ec2974a6091d40db47559ae1840f1f80579af5d0935a7d211d5ce62f60b/pyalf-2.5.post5.tar.gz
+[2024-05-27 16:22:21] INFO root fetch - processPackages [ETH-GTD-cli]: Downloading https://files.pythonhosted.org/packages/e7/d2/000e1e62ed5bd87ac398b3f027796e31c5e52d098b117351d2c2ac1706d5/eth_gtd_cli-0.0.91.tar.gz
+[2024-05-27 16:22:21] INFO root fetch - processPackages [dragonion]: Downloading https://files.pythonhosted.org/packages/12/97/f34509f63ec9501767ce86fa0d3e341d13218dba1bdd4364a17a1b883bbd/dragonion-1.0.0-py3-none-any.whl
+[2024-05-27 16:22:21] INFO root fetch - processPackages [robotmodels]: Downloading https://files.pythonhosted.org/packages/6c/f4/5c42fa2de370912ec347320099fd1ee70566a960b0ede4fd8a0658cb16ce/robotmodels-0.1.7.tar.gz
+[2024-05-27 16:22:21] INFO root fetch - processPackages [fortran-magic]: Downloading https://files.pythonhosted.org/packages/a3/30/a2f06c456501bf4a5f142e6fc635a87fcf21b0480653f87184b73f11da42/fortran-magic-0.8.tar.gz
+[2024-05-27 16:22:21] INFO root fetch - processPackages [cdklabs.aws-data-solutions-framework]: Downloading https://files.pythonhosted.org/packages/ca/9b/ef169ede6c91ee0b74cf89288dc01b5f75954331a481c5839cd81da1a4f7/cdklabs.aws_data_solutions_framework-1.7.0.tar.gz
+[2024-05-27 16:22:21] INFO root fetch - processPackages [pyALF]: Downloading https://files.pythonhosted.org/packages/1f/c0/757be6b4f74d5a36caf13fb9d0a3a3c9378083d84d4cf2e07d234bdc22f2/pyalf-2.5.post6.tar.gz
+[2024-05-27 16:22:21] INFO root fetch - processPackages [clargs]: Downloading https://files.pythonhosted.org/packages/9b/e8/8e1252826b47102f8e7239bee48865ecb612b39c52e2cdca724c23556b15/clargs-0.9.0a0.dev6.tar.gz
+[2024-05-27 16:22:21] WARNING root fetch - processPackages [robotmodels]: Skipping package: exceeds size limit 45868827>=10485760
+[2024-05-27 16:22:21] INFO root fetch - main [MainThread]: End processing [robotmodels] error
+[2024-05-27 16:22:21] INFO root fetch - processPackages [direct-neural-biasing]: Downloading https://files.pythonhosted.org/packages/db/7a/1f65acb28aafa980c6b661ea99d98b2b5dc078885e62cfaa4dbb251bbf6c/direct_neural_biasing-0.6.8-cp311-none-win_amd64.whl
+[2024-05-27 16:22:21] INFO root fetch - processPackages [pyALF]: executing diffoscope
+[2024-05-27 16:22:21] INFO root fetch - processPackages [pyALF]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyalf-2.5.post5.tar.gz tmp/pyalf-2.5.post6.tar.gz --markdown 20240527/p/pyALF/2.5.post5-2.5.post6/README.md --exclude *.pyd
+[2024-05-27 16:22:21] INFO root fetch - processPackages [ETH-GTD-cli]: Downloading https://files.pythonhosted.org/packages/1e/97/054328ce1ff7e04827a39df7d89ed7e1004b6cb1b5563804d9fe37cddf9b/eth_gtd_cli-0.0.92.tar.gz
+[2024-05-27 16:22:21] INFO root fetch - processPackages [clargs]: executing diffoscope
+[2024-05-27 16:22:21] INFO root fetch - processPackages [clargs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clargs-0.9.0a0.dev5.tar.gz tmp/clargs-0.9.0a0.dev6.tar.gz --markdown 20240527/c/clargs/0.9.0a0.dev5-0.9.0a0.dev6/README.md --exclude *.pyd
+[2024-05-27 16:22:21] INFO root fetch - processPackages [dragonion]: Downloading https://files.pythonhosted.org/packages/e8/c9/42bfd589f9be0bc7869004d5c639ab6bcca0b9c4847a9133f3327d0e8633/dragonion-1.0.1-py3-none-any.whl
+[2024-05-27 16:22:21] INFO root fetch - processPackages [ETH-GTD-cli]: executing diffoscope
+[2024-05-27 16:22:21] INFO root fetch - processPackages [ETH-GTD-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eth_gtd_cli-0.0.91.tar.gz tmp/eth_gtd_cli-0.0.92.tar.gz --markdown 20240527/E/ETH-GTD-cli/0.0.91-0.0.92/README.md --exclude *.pyd
+[2024-05-27 16:22:21] INFO root fetch - processPackages [fortran-magic]: Downloading https://files.pythonhosted.org/packages/f9/2b/2defc6a6da058366595895faa5f34e0c759a29da8d97d211a3b2d1ab0ad9/fortran_magic-0.9.tar.gz
+[2024-05-27 16:22:21] INFO root fetch - processPackages [direct-neural-biasing]: executing diffoscope
+[2024-05-27 16:22:21] INFO root fetch - processPackages [direct-neural-biasing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/direct_neural_biasing-0.6.7-cp311-none-win_amd64.whl.zip tmp/direct_neural_biasing-0.6.8-cp311-none-win_amd64.whl.zip --markdown 20240527/d/direct-neural-biasing/0.6.7-0.6.8/README.md --exclude *.pyd
+[2024-05-27 16:22:22] INFO root fetch - processPackages [dragonion]: executing diffoscope
+[2024-05-27 16:22:22] INFO root fetch - processPackages [dragonion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonion-1.0.0-py3-none-any.whl.zip tmp/dragonion-1.0.1-py3-none-any.whl.zip --markdown 20240527/d/dragonion/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-27 16:22:22] INFO root fetch - processPackages [fortran-magic]: executing diffoscope
+[2024-05-27 16:22:22] INFO root fetch - processPackages [fortran-magic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fortran-magic-0.8.tar.gz tmp/fortran_magic-0.9.tar.gz --markdown 20240527/f/fortran-magic/0.8-0.9/README.md --exclude *.pyd
+[2024-05-27 16:22:22] INFO root fetch - processPackages [ETH-GTD-cli]: Remove: archive file [/home/abi/fetcher/tmp/eth_gtd_cli-0.0.91.tar.gz]
+[2024-05-27 16:22:22] INFO root fetch - processPackages [ETH-GTD-cli]: Remove: archive file [/home/abi/fetcher/tmp/eth_gtd_cli-0.0.92.tar.gz]
+[2024-05-27 16:22:22] INFO root fetch - main [MainThread]: End processing [ETH-GTD-cli]: success
+[2024-05-27 16:22:22] INFO root fetch - processPackages [pyALF]: Remove: archive file [/home/abi/fetcher/tmp/pyalf-2.5.post5.tar.gz]
+[2024-05-27 16:22:22] INFO root fetch - processPackages [pyALF]: Remove: archive file [/home/abi/fetcher/tmp/pyalf-2.5.post6.tar.gz]
+[2024-05-27 16:22:22] INFO root fetch - main [MainThread]: End processing [pyALF]: success
+[2024-05-27 16:22:22] INFO root fetch - processPackages [clargs]: Remove: archive file [/home/abi/fetcher/tmp/clargs-0.9.0a0.dev5.tar.gz]
+[2024-05-27 16:22:22] INFO root fetch - processPackages [clargs]: Remove: archive file [/home/abi/fetcher/tmp/clargs-0.9.0a0.dev6.tar.gz]
+[2024-05-27 16:22:22] INFO root fetch - main [MainThread]: End processing [clargs]: success
+[2024-05-27 16:22:22] INFO root fetch - processPackages [direct-neural-biasing]: Remove: archive file [/home/abi/fetcher/tmp/direct_neural_biasing-0.6.7-cp311-none-win_amd64.whl.zip]
+[2024-05-27 16:22:22] INFO root fetch - processPackages [direct-neural-biasing]: Remove: archive file [/home/abi/fetcher/tmp/direct_neural_biasing-0.6.8-cp311-none-win_amd64.whl.zip]
+[2024-05-27 16:22:22] INFO root fetch - main [MainThread]: End processing [direct-neural-biasing]: success
+[2024-05-27 16:22:22] INFO root fetch - processPackages [cdklabs.aws-data-solutions-framework]: Downloading https://files.pythonhosted.org/packages/65/61/9c850b00b64fa3ac7f017980921378d5fb1854fd23d785c940e988247665/cdklabs.aws_data_solutions_framework-1.8.0.tar.gz
+[2024-05-27 16:22:22] INFO root fetch - processPackages [fortran-magic]: Remove: archive file [/home/abi/fetcher/tmp/fortran-magic-0.8.tar.gz]
+[2024-05-27 16:22:22] INFO root fetch - processPackages [fortran-magic]: Remove: archive file [/home/abi/fetcher/tmp/fortran_magic-0.9.tar.gz]
+[2024-05-27 16:22:22] INFO root fetch - main [MainThread]: End processing [fortran-magic]: success
+[2024-05-27 16:22:22] INFO root fetch - processPackages [cdklabs.aws-data-solutions-framework]: executing diffoscope
+[2024-05-27 16:22:22] INFO root fetch - processPackages [cdklabs.aws-data-solutions-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.aws_data_solutions_framework-1.7.0.tar.gz tmp/cdklabs.aws_data_solutions_framework-1.8.0.tar.gz --markdown 20240527/c/cdklabs.aws-data-solutions-framework/1.7.0-1.8.0/README.md --exclude *.pyd
+[2024-05-27 16:22:22] INFO root fetch - processPackages [dragonion]: Remove: archive file [/home/abi/fetcher/tmp/dragonion-1.0.0-py3-none-any.whl.zip]
+[2024-05-27 16:22:22] INFO root fetch - processPackages [dragonion]: Remove: archive file [/home/abi/fetcher/tmp/dragonion-1.0.1-py3-none-any.whl.zip]
+[2024-05-27 16:22:22] INFO root fetch - main [MainThread]: End processing [dragonion]: success
+[2024-05-27 16:22:23] INFO root fetch - processPackages [cdklabs.aws-data-solutions-framework]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.aws_data_solutions_framework-1.7.0.tar.gz]
+[2024-05-27 16:22:23] INFO root fetch - processPackages [cdklabs.aws-data-solutions-framework]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.aws_data_solutions_framework-1.8.0.tar.gz]
+[2024-05-27 16:22:23] INFO root fetch - main [MainThread]: End processing [cdklabs.aws-data-solutions-framework]: success
+[2024-05-27 16:22:23] INFO root fetch - main [MainThread]: Store serial: [23396952]
