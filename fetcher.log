@@ -23814,3 +23814,60 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-05-27 19:52:11] INFO root fetch - processPackages [labneura]: Remove: archive file [/home/abi/fetcher/tmp/labneura-0.0.7-cp311-cp311-macosx_14_0_universal2.whl.zip]
 [2024-05-27 19:52:11] INFO root fetch - main [MainThread]: End processing [labneura]: success
 [2024-05-27 19:52:11] INFO root fetch - main [MainThread]: Store serial: [23399462]
+[2024-05-27 19:54:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23399462]
+[2024-05-27 19:54:22] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-27 19:54:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: crewbase
+[2024-05-27 19:54:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: alana
+[2024-05-27 19:54:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pbc_sjfhsjfh
+[2024-05-27 19:54:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: agenpy
+[2024-05-27 19:54:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: telethon-client
+[2024-05-27 19:54:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gnatwriter
+[2024-05-27 19:54:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: vlttng
+[2024-05-27 19:54:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: scatcluster
+[2024-05-27 19:54:22] INFO root fetch - processPackages [agenpy]: New version: [0.1.2] Old Version: [0.1]
+[2024-05-27 19:54:22] WARNING root fetch - processPackages [pbc_sjfhsjfh]: Skipping, unable to determine old version
+[2024-05-27 19:54:22] INFO root fetch - main [MainThread]: End processing [pbc_sjfhsjfh] error
+[2024-05-27 19:54:22] INFO root fetch - processPackages [scatcluster]: New version: [0.0.64] Old Version: [0.0.63]
+[2024-05-27 19:54:22] INFO root fetch - processPackages [telethon-client]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-27 19:54:23] WARNING root fetch - processPackages [crewbase]: Skipping, unable to determine old version
+[2024-05-27 19:54:23] INFO root fetch - main [MainThread]: End processing [crewbase] error
+[2024-05-27 19:54:23] INFO root fetch - processPackages [agenpy]: Downloading https://files.pythonhosted.org/packages/8c/6f/0c8351994183a1bee07524198027df051d9330c91589ce4c5bacf2c819c5/agenpy-0.1.tar.gz
+[2024-05-27 19:54:23] INFO root fetch - processPackages [vlttng]: New version: [0.9.4] Old Version: [0.9.3]
+[2024-05-27 19:54:23] WARNING root fetch - processPackages [gnatwriter]: Skipping, unable to determine old version
+[2024-05-27 19:54:23] INFO root fetch - main [MainThread]: End processing [gnatwriter] error
+[2024-05-27 19:54:23] INFO root fetch - processPackages [alana]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-27 19:54:23] INFO root fetch - processPackages [scatcluster]: Downloading https://files.pythonhosted.org/packages/b2/5b/22a83c8b3c22c55a384e1682606e25d4feab6d0087b83b805fbc4232653a/scatcluster-0.0.63.tar.gz
+[2024-05-27 19:54:23] INFO root fetch - processPackages [telethon-client]: Downloading https://files.pythonhosted.org/packages/72/d1/be00d5f3e93e410417f8b01305853259e9108176675f9553e93d28fae675/telethon-client-0.0.5.tar.gz
+[2024-05-27 19:54:23] INFO root fetch - processPackages [vlttng]: Downloading https://files.pythonhosted.org/packages/56/29/d947eddff56c433ca9021b2528bb0fcb879bca6f3940488b23957940d802/vlttng-0.9.3.tar.gz
+[2024-05-27 19:54:23] INFO root fetch - processPackages [agenpy]: Downloading https://files.pythonhosted.org/packages/00/e2/6528a899aa875a3ceb985d7dafefcffc0da80dcb91849a32b3d24883ebb7/agenpy-0.1.2.tar.gz
+[2024-05-27 19:54:23] INFO root fetch - processPackages [alana]: Downloading https://files.pythonhosted.org/packages/4f/62/137b7edfe60b620a83411984b347391d961d42aeec4e0b4d9984ac07163d/alana-0.0.8.tar.gz
+[2024-05-27 19:54:23] INFO root fetch - processPackages [agenpy]: executing diffoscope
+[2024-05-27 19:54:23] INFO root fetch - processPackages [agenpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agenpy-0.1.tar.gz tmp/agenpy-0.1.2.tar.gz --markdown 20240527/a/agenpy/0.1-0.1.2/README.md --exclude *.pyd
+[2024-05-27 19:54:23] INFO root fetch - processPackages [telethon-client]: Downloading https://files.pythonhosted.org/packages/3f/f1/897950a100db4ab4ffe77a5731c2484bee09549576599b8d5012c8bb8837/telethon-client-0.0.6.tar.gz
+[2024-05-27 19:54:23] INFO root fetch - processPackages [scatcluster]: Downloading https://files.pythonhosted.org/packages/15/06/3791d8023aa84ccc15c9c31e46c7adaacfe8d8036445d14e1e90778be425/scatcluster-0.0.64.tar.gz
+[2024-05-27 19:54:23] INFO root fetch - processPackages [telethon-client]: executing diffoscope
+[2024-05-27 19:54:23] INFO root fetch - processPackages [telethon-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/telethon-client-0.0.5.tar.gz tmp/telethon-client-0.0.6.tar.gz --markdown 20240527/t/telethon-client/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-27 19:54:23] INFO root fetch - processPackages [alana]: Downloading https://files.pythonhosted.org/packages/4b/3f/7cf3b298f3c3a1b124e2fcd03e722aa849acd6f754d2665868ea0d1b74cc/alana-0.0.9.tar.gz
+[2024-05-27 19:54:23] INFO root fetch - processPackages [scatcluster]: executing diffoscope
+[2024-05-27 19:54:23] INFO root fetch - processPackages [scatcluster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scatcluster-0.0.63.tar.gz tmp/scatcluster-0.0.64.tar.gz --markdown 20240527/s/scatcluster/0.0.63-0.0.64/README.md --exclude *.pyd
+[2024-05-27 19:54:23] INFO root fetch - processPackages [alana]: executing diffoscope
+[2024-05-27 19:54:23] INFO root fetch - processPackages [alana]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alana-0.0.8.tar.gz tmp/alana-0.0.9.tar.gz --markdown 20240527/a/alana/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-27 19:54:23] INFO root fetch - processPackages [vlttng]: Downloading https://files.pythonhosted.org/packages/9d/71/d87f2cddd2e4e5086f5fce7c5858e9bb2286fc2c0745db6415046b69908a/vlttng-0.9.4.tar.gz
+[2024-05-27 19:54:23] INFO root fetch - processPackages [vlttng]: executing diffoscope
+[2024-05-27 19:54:23] INFO root fetch - processPackages [vlttng]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vlttng-0.9.3.tar.gz tmp/vlttng-0.9.4.tar.gz --markdown 20240527/v/vlttng/0.9.3-0.9.4/README.md --exclude *.pyd
+[2024-05-27 19:54:24] INFO root fetch - processPackages [agenpy]: Remove: archive file [/home/abi/fetcher/tmp/agenpy-0.1.tar.gz]
+[2024-05-27 19:54:24] INFO root fetch - processPackages [agenpy]: Remove: archive file [/home/abi/fetcher/tmp/agenpy-0.1.2.tar.gz]
+[2024-05-27 19:54:24] INFO root fetch - main [MainThread]: End processing [agenpy]: success
+[2024-05-27 19:54:24] INFO root fetch - processPackages [telethon-client]: Remove: archive file [/home/abi/fetcher/tmp/telethon-client-0.0.5.tar.gz]
+[2024-05-27 19:54:24] INFO root fetch - processPackages [telethon-client]: Remove: archive file [/home/abi/fetcher/tmp/telethon-client-0.0.6.tar.gz]
+[2024-05-27 19:54:24] INFO root fetch - main [MainThread]: End processing [telethon-client]: success
+[2024-05-27 19:54:24] INFO root fetch - processPackages [alana]: Remove: archive file [/home/abi/fetcher/tmp/alana-0.0.8.tar.gz]
+[2024-05-27 19:54:24] INFO root fetch - processPackages [alana]: Remove: archive file [/home/abi/fetcher/tmp/alana-0.0.9.tar.gz]
+[2024-05-27 19:54:24] INFO root fetch - main [MainThread]: End processing [alana]: success
+[2024-05-27 19:54:24] INFO root fetch - processPackages [scatcluster]: Remove: archive file [/home/abi/fetcher/tmp/scatcluster-0.0.63.tar.gz]
+[2024-05-27 19:54:24] INFO root fetch - processPackages [scatcluster]: Remove: archive file [/home/abi/fetcher/tmp/scatcluster-0.0.64.tar.gz]
+[2024-05-27 19:54:24] INFO root fetch - main [MainThread]: End processing [scatcluster]: success
+[2024-05-27 19:54:24] INFO root fetch - processPackages [vlttng]: Remove: archive file [/home/abi/fetcher/tmp/vlttng-0.9.3.tar.gz]
+[2024-05-27 19:54:24] INFO root fetch - processPackages [vlttng]: Remove: archive file [/home/abi/fetcher/tmp/vlttng-0.9.4.tar.gz]
+[2024-05-27 19:54:24] INFO root fetch - main [MainThread]: End processing [vlttng]: success
+[2024-05-27 19:54:24] INFO root fetch - main [MainThread]: Store serial: [23399489]
