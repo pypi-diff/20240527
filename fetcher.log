@@ -22191,3 +22191,45 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-05-27 18:43:58] INFO root fetch - processPackages [pygrinder]: Remove: archive file [/home/abi/fetcher/tmp/pygrinder-0.5.tar.gz]
 [2024-05-27 18:43:58] INFO root fetch - main [MainThread]: End processing [pygrinder]: success
 [2024-05-27 18:43:58] INFO root fetch - main [MainThread]: Store serial: [23398520]
+[2024-05-27 18:46:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23398520]
+[2024-05-27 18:46:07] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-27 18:46:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ingredient-parser-nlp
+[2024-05-27 18:46:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: terminal-ai-assistant
+[2024-05-27 18:46:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: snlo-helper
+[2024-05-27 18:46:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: python-115
+[2024-05-27 18:46:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-account-invoice-pricelist
+[2024-05-27 18:46:07] WARNING root fetch - processPackages [terminal-ai-assistant]: Skipping, unable to determine old version
+[2024-05-27 18:46:07] INFO root fetch - main [MainThread]: End processing [terminal-ai-assistant] error
+[2024-05-27 18:46:07] INFO root fetch - processPackages [snlo-helper]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-05-27 18:46:07] INFO root fetch - processPackages [odoo-addon-account-invoice-pricelist]: New version: [16.0.1.0.2] Old Version: [16.0.1.0.1.2]
+[2024-05-27 18:46:07] INFO root fetch - processPackages [python-115]: New version: [0.0.8.4] Old Version: [0.0.8.3.7]
+[2024-05-27 18:46:07] INFO root fetch - processPackages [snlo-helper]: Downloading https://files.pythonhosted.org/packages/34/ff/dbef864a084ab68f45eb837315789fe3f3a75429b39e61cf42db8e05740b/snlo_helper-0.2.0.tar.gz
+[2024-05-27 18:46:07] INFO root fetch - processPackages [ingredient-parser-nlp]: New version: [0.1.0b9] Old Version: [0.1.0b8]
+[2024-05-27 18:46:08] INFO root fetch - processPackages [ingredient-parser-nlp]: Downloading https://files.pythonhosted.org/packages/89/5f/5546783f3f75e34ffef356366f28c87e3683796ea283e023ba19865c97b3/ingredient_parser_nlp-0.1.0b8.tar.gz
+[2024-05-27 18:46:08] INFO root fetch - processPackages [odoo-addon-account-invoice-pricelist]: Downloading https://files.pythonhosted.org/packages/11/88/ee12992b8146a8bc14cae6933a436fa859a6fc40ee05a7b1ba94d9baee9e/odoo_addon_account_invoice_pricelist-16.0.1.0.1.2-py3-none-any.whl
+[2024-05-27 18:46:08] INFO root fetch - processPackages [snlo-helper]: Downloading https://files.pythonhosted.org/packages/b5/8f/ef369316206692ab1176edfd226ffbd42f7e26b45e7bd7d540965fefbffe/snlo_helper-0.3.0.tar.gz
+[2024-05-27 18:46:08] INFO root fetch - processPackages [python-115]: Downloading https://files.pythonhosted.org/packages/4b/e3/1c503206f9b55dd4a6ccf8ee75b748df7733f8db428c9bde3aae22e69f9a/python_115-0.0.8.3.7.tar.gz
+[2024-05-27 18:46:08] INFO root fetch - processPackages [snlo-helper]: executing diffoscope
+[2024-05-27 18:46:08] INFO root fetch - processPackages [snlo-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snlo_helper-0.2.0.tar.gz tmp/snlo_helper-0.3.0.tar.gz --markdown 20240527/s/snlo-helper/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-05-27 18:46:08] INFO root fetch - processPackages [odoo-addon-account-invoice-pricelist]: Downloading https://files.pythonhosted.org/packages/3a/80/767e0786743d18a9607f499f310f2198eee82ea7c69e7e458e65ff5fad5d/odoo_addon_account_invoice_pricelist-16.0.1.0.2-py3-none-any.whl
+[2024-05-27 18:46:08] INFO root fetch - processPackages [ingredient-parser-nlp]: Downloading https://files.pythonhosted.org/packages/a2/b2/ae053a29dd122e6419a1102b0c52329de38b4ac22d88a282f7f0b8d577f0/ingredient_parser_nlp-0.1.0b9.tar.gz
+[2024-05-27 18:46:08] INFO root fetch - processPackages [python-115]: Downloading https://files.pythonhosted.org/packages/46/e8/b9d61872b4c531ed798642832498fa09d44f2189f7f5e669b5b4aff09750/python_115-0.0.8.4.tar.gz
+[2024-05-27 18:46:08] INFO root fetch - processPackages [ingredient-parser-nlp]: executing diffoscope
+[2024-05-27 18:46:08] INFO root fetch - processPackages [ingredient-parser-nlp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ingredient_parser_nlp-0.1.0b8.tar.gz tmp/ingredient_parser_nlp-0.1.0b9.tar.gz --markdown 20240527/i/ingredient-parser-nlp/0.1.0b8-0.1.0b9/README.md --exclude *.pyd
+[2024-05-27 18:46:08] INFO root fetch - processPackages [odoo-addon-account-invoice-pricelist]: executing diffoscope
+[2024-05-27 18:46:08] INFO root fetch - processPackages [odoo-addon-account-invoice-pricelist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_invoice_pricelist-16.0.1.0.1.2-py3-none-any.whl.zip tmp/odoo_addon_account_invoice_pricelist-16.0.1.0.2-py3-none-any.whl.zip --markdown 20240527/o/odoo-addon-account-invoice-pricelist/16.0.1.0.1.2-16.0.1.0.2/README.md --exclude *.pyd
+[2024-05-27 18:46:08] INFO root fetch - processPackages [python-115]: executing diffoscope
+[2024-05-27 18:46:08] INFO root fetch - processPackages [python-115]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_115-0.0.8.3.7.tar.gz tmp/python_115-0.0.8.4.tar.gz --markdown 20240527/p/python-115/0.0.8.3.7-0.0.8.4/README.md --exclude *.pyd
+[2024-05-27 18:46:08] INFO root fetch - processPackages [snlo-helper]: Remove: archive file [/home/abi/fetcher/tmp/snlo_helper-0.2.0.tar.gz]
+[2024-05-27 18:46:08] INFO root fetch - processPackages [snlo-helper]: Remove: archive file [/home/abi/fetcher/tmp/snlo_helper-0.3.0.tar.gz]
+[2024-05-27 18:46:08] INFO root fetch - main [MainThread]: End processing [snlo-helper]: success
+[2024-05-27 18:46:09] INFO root fetch - processPackages [ingredient-parser-nlp]: Remove: archive file [/home/abi/fetcher/tmp/ingredient_parser_nlp-0.1.0b8.tar.gz]
+[2024-05-27 18:46:09] INFO root fetch - processPackages [ingredient-parser-nlp]: Remove: archive file [/home/abi/fetcher/tmp/ingredient_parser_nlp-0.1.0b9.tar.gz]
+[2024-05-27 18:46:09] INFO root fetch - main [MainThread]: End processing [ingredient-parser-nlp]: success
+[2024-05-27 18:46:09] INFO root fetch - processPackages [odoo-addon-account-invoice-pricelist]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_invoice_pricelist-16.0.1.0.1.2-py3-none-any.whl.zip]
+[2024-05-27 18:46:09] INFO root fetch - processPackages [odoo-addon-account-invoice-pricelist]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_invoice_pricelist-16.0.1.0.2-py3-none-any.whl.zip]
+[2024-05-27 18:46:09] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-invoice-pricelist]: success
+[2024-05-27 18:46:09] INFO root fetch - processPackages [python-115]: Remove: archive file [/home/abi/fetcher/tmp/python_115-0.0.8.3.7.tar.gz]
+[2024-05-27 18:46:09] INFO root fetch - processPackages [python-115]: Remove: archive file [/home/abi/fetcher/tmp/python_115-0.0.8.4.tar.gz]
+[2024-05-27 18:46:09] INFO root fetch - main [MainThread]: End processing [python-115]: success
+[2024-05-27 18:46:09] INFO root fetch - main [MainThread]: Store serial: [23398534]
