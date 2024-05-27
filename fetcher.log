@@ -18828,3 +18828,72 @@ EOFError: EOF read where object expected
 [2024-05-27 16:30:01] INFO root fetch - processPackages [superlinked]: Remove: archive file [/home/abi/fetcher/tmp/superlinked-5.4.0-py3-none-any.whl.zip]
 [2024-05-27 16:30:01] INFO root fetch - main [MainThread]: End processing [superlinked]: success
 [2024-05-27 16:30:01] INFO root fetch - main [MainThread]: Store serial: [23397024]
+[2024-05-27 16:32:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23397024]
+[2024-05-27 16:32:10] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-27 16:32:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: superlinked
+[2024-05-27 16:32:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: drf-complex-filter
+[2024-05-27 16:32:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: glide-for-redis
+[2024-05-27 16:32:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: yeref
+[2024-05-27 16:32:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pykit-tools
+[2024-05-27 16:32:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: apexdevkit
+[2024-05-27 16:32:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: datasphere
+[2024-05-27 16:32:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dragonion
+[2024-05-27 16:32:11] INFO root fetch - processPackages [superlinked]: New version: [5.4.0] Old Version: [5.3.0]
+[2024-05-27 16:32:11] INFO root fetch - processPackages [apexdevkit]: New version: [1.1.1] Old Version: [1.0.1]
+[2024-05-27 16:32:11] INFO root fetch - processPackages [dragonion]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-27 16:32:11] INFO root fetch - processPackages [yeref]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-27 16:32:11] INFO root fetch - processPackages [drf-complex-filter]: New version: [1.3.0] Old Version: [1.2.1]
+[2024-05-27 16:32:11] WARNING root fetch - processPackages [pykit-tools]: Skipping, unable to determine old version
+[2024-05-27 16:32:11] INFO root fetch - main [MainThread]: End processing [pykit-tools] error
+[2024-05-27 16:32:11] INFO root fetch - processPackages [datasphere]: New version: [0.7.0] Old Version: [0.6.9]
+[2024-05-27 16:32:11] INFO root fetch - processPackages [apexdevkit]: Downloading https://files.pythonhosted.org/packages/1a/e5/ac70059f75ca55d1aadf3b1b3eb54605f341dd78f423909c5b338b0292df/apexdevkit-1.0.1.tar.gz
+[2024-05-27 16:32:11] INFO root fetch - processPackages [superlinked]: Downloading https://files.pythonhosted.org/packages/11/52/247a1287ec6718f88ecdbd1d2a1e8d1bb7abff360699834623b29fc94eae/superlinked-5.3.0.tar.gz
+[2024-05-27 16:32:11] INFO root fetch - processPackages [dragonion]: Downloading https://files.pythonhosted.org/packages/12/97/f34509f63ec9501767ce86fa0d3e341d13218dba1bdd4364a17a1b883bbd/dragonion-1.0.0-py3-none-any.whl
+[2024-05-27 16:32:11] INFO root fetch - processPackages [glide-for-redis]: New version: [0.4.0rc4] Old Version: [0.4.0rc20]
+[2024-05-27 16:32:11] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/ec/cb/204e6fbe233bbb61cf29c1b491e8c638c8a843edc47fb4e1d8cc8c26608c/yeref-0.9.8.tar.gz
+[2024-05-27 16:32:11] INFO root fetch - processPackages [drf-complex-filter]: Downloading https://files.pythonhosted.org/packages/7a/84/9429cdf4a2554006bdb4365d87f5df0942f8e046d023bc1263e3221ec923/drf-complex-filter-1.2.1.tar.gz
+[2024-05-27 16:32:11] INFO root fetch - processPackages [glide-for-redis]: Downloading https://files.pythonhosted.org/packages/d2/6e/9adc066fc96ae5e8b8fc1fb0aecc7e54933df7d97155e0bf2d386c7b226b/glide_for_redis-0.4.0rc20-cp39-cp39-manylinux_2_28_aarch64.whl
+[2024-05-27 16:32:11] INFO root fetch - processPackages [datasphere]: Downloading https://files.pythonhosted.org/packages/db/e4/a778c5158500ab1a5a41a47e7d3a3fba1b44b1f249926738aa536f143b78/datasphere-0.6.9.tar.gz
+[2024-05-27 16:32:11] INFO root fetch - processPackages [apexdevkit]: Downloading https://files.pythonhosted.org/packages/cd/df/6ebf69b09bb1cbcff0eef5846ad5a95b1dc4e95d8d0fdef0808fc977568e/apexdevkit-1.1.1.tar.gz
+[2024-05-27 16:32:11] INFO root fetch - processPackages [superlinked]: Downloading https://files.pythonhosted.org/packages/9e/5d/1d23dadf9951ef3b4f883100bddef8ad780d527d9342014968f293febbb5/superlinked-5.4.0-py3-none-any.whl
+[2024-05-27 16:32:11] INFO root fetch - processPackages [dragonion]: Downloading https://files.pythonhosted.org/packages/e8/c9/42bfd589f9be0bc7869004d5c639ab6bcca0b9c4847a9133f3327d0e8633/dragonion-1.0.1-py3-none-any.whl
+[2024-05-27 16:32:11] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/01/13/0f11bb3dfb27aaf16ed48b0046f50ac65b1fde32662fbc314d53e2558b2d/yeref-0.9.9.tar.gz
+[2024-05-27 16:32:11] INFO root fetch - processPackages [apexdevkit]: executing diffoscope
+[2024-05-27 16:32:11] INFO root fetch - processPackages [apexdevkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apexdevkit-1.0.1.tar.gz tmp/apexdevkit-1.1.1.tar.gz --markdown 20240527/a/apexdevkit/1.0.1-1.1.1/README.md --exclude *.pyd
+[2024-05-27 16:32:11] INFO root fetch - processPackages [dragonion]: executing diffoscope
+[2024-05-27 16:32:11] INFO root fetch - processPackages [dragonion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonion-1.0.0-py3-none-any.whl.zip tmp/dragonion-1.0.1-py3-none-any.whl.zip --markdown 20240527/d/dragonion/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-27 16:32:11] INFO root fetch - processPackages [superlinked]: executing diffoscope
+[2024-05-27 16:32:11] INFO root fetch - processPackages [superlinked]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/superlinked-5.3.0.tar.gz tmp/superlinked-5.4.0-py3-none-any.whl.zip --markdown 20240527/s/superlinked/5.3.0-5.4.0/README.md --exclude *.pyd
+[2024-05-27 16:32:11] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2024-05-27 16:32:11] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.9.8.tar.gz tmp/yeref-0.9.9.tar.gz --markdown 20240527/y/yeref/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-27 16:32:11] INFO root fetch - processPackages [drf-complex-filter]: Downloading https://files.pythonhosted.org/packages/2f/93/0d987c50c79b85eed4f56585887d920177dc86e7428d8235facdb6e99483/drf_complex_filter-1.3.0.tar.gz
+[2024-05-27 16:32:11] INFO root fetch - processPackages [datasphere]: Downloading https://files.pythonhosted.org/packages/e8/c3/c47cdaa2529920bc54ee48efc199471fdb43e7d9999fc81406e27c46afae/datasphere-0.7.0.tar.gz
+[2024-05-27 16:32:11] INFO root fetch - processPackages [drf-complex-filter]: executing diffoscope
+[2024-05-27 16:32:11] INFO root fetch - processPackages [drf-complex-filter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drf-complex-filter-1.2.1.tar.gz tmp/drf_complex_filter-1.3.0.tar.gz --markdown 20240527/d/drf-complex-filter/1.2.1-1.3.0/README.md --exclude *.pyd
+[2024-05-27 16:32:12] INFO root fetch - processPackages [glide-for-redis]: Downloading https://files.pythonhosted.org/packages/c5/ea/a36d5fd0dab7647960a2afd8cbc58f9f6ab84c6c903a2ae0d90b9954daec/glide_for_redis-0.4.0rc4-cp39-cp39-manylinux_2_28_aarch64.whl
+[2024-05-27 16:32:12] INFO root fetch - processPackages [datasphere]: executing diffoscope
+[2024-05-27 16:32:12] INFO root fetch - processPackages [datasphere]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datasphere-0.6.9.tar.gz tmp/datasphere-0.7.0.tar.gz --markdown 20240527/d/datasphere/0.6.9-0.7.0/README.md --exclude *.pyd
+[2024-05-27 16:32:12] INFO root fetch - processPackages [glide-for-redis]: executing diffoscope
+[2024-05-27 16:32:12] INFO root fetch - processPackages [glide-for-redis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glide_for_redis-0.4.0rc20-cp39-cp39-manylinux_2_28_aarch64.whl.zip tmp/glide_for_redis-0.4.0rc4-cp39-cp39-manylinux_2_28_aarch64.whl.zip --markdown 20240527/g/glide-for-redis/0.4.0rc20-0.4.0rc4/README.md --exclude *.pyd
+[2024-05-27 16:32:12] INFO root fetch - processPackages [apexdevkit]: Remove: archive file [/home/abi/fetcher/tmp/apexdevkit-1.0.1.tar.gz]
+[2024-05-27 16:32:12] INFO root fetch - processPackages [apexdevkit]: Remove: archive file [/home/abi/fetcher/tmp/apexdevkit-1.1.1.tar.gz]
+[2024-05-27 16:32:12] INFO root fetch - main [MainThread]: End processing [apexdevkit]: success
+[2024-05-27 16:32:12] INFO root fetch - processPackages [superlinked]: Remove: archive file [/home/abi/fetcher/tmp/superlinked-5.3.0.tar.gz]
+[2024-05-27 16:32:12] INFO root fetch - processPackages [superlinked]: Remove: archive file [/home/abi/fetcher/tmp/superlinked-5.4.0-py3-none-any.whl.zip]
+[2024-05-27 16:32:12] INFO root fetch - main [MainThread]: End processing [superlinked]: success
+[2024-05-27 16:32:12] INFO root fetch - processPackages [drf-complex-filter]: Remove: archive file [/home/abi/fetcher/tmp/drf-complex-filter-1.2.1.tar.gz]
+[2024-05-27 16:32:12] INFO root fetch - processPackages [drf-complex-filter]: Remove: archive file [/home/abi/fetcher/tmp/drf_complex_filter-1.3.0.tar.gz]
+[2024-05-27 16:32:12] INFO root fetch - main [MainThread]: End processing [drf-complex-filter]: success
+[2024-05-27 16:32:12] INFO root fetch - processPackages [dragonion]: Remove: archive file [/home/abi/fetcher/tmp/dragonion-1.0.0-py3-none-any.whl.zip]
+[2024-05-27 16:32:12] INFO root fetch - processPackages [dragonion]: Remove: archive file [/home/abi/fetcher/tmp/dragonion-1.0.1-py3-none-any.whl.zip]
+[2024-05-27 16:32:12] INFO root fetch - main [MainThread]: End processing [dragonion]: success
+[2024-05-27 16:32:12] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.8.tar.gz]
+[2024-05-27 16:32:12] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.9.tar.gz]
+[2024-05-27 16:32:12] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2024-05-27 16:32:18] INFO root fetch - processPackages [datasphere]: Remove: archive file [/home/abi/fetcher/tmp/datasphere-0.6.9.tar.gz]
+[2024-05-27 16:32:18] INFO root fetch - processPackages [datasphere]: Remove: archive file [/home/abi/fetcher/tmp/datasphere-0.7.0.tar.gz]
+[2024-05-27 16:32:18] INFO root fetch - main [MainThread]: End processing [datasphere]: success
+[2024-05-27 16:32:25] INFO root fetch - processPackages [glide-for-redis]: Remove: archive file [/home/abi/fetcher/tmp/glide_for_redis-0.4.0rc20-cp39-cp39-manylinux_2_28_aarch64.whl.zip]
+[2024-05-27 16:32:25] INFO root fetch - processPackages [glide-for-redis]: Remove: archive file [/home/abi/fetcher/tmp/glide_for_redis-0.4.0rc4-cp39-cp39-manylinux_2_28_aarch64.whl.zip]
+[2024-05-27 16:32:25] INFO root fetch - main [MainThread]: End processing [glide-for-redis]: success
+[2024-05-27 16:32:25] INFO root fetch - main [MainThread]: Store serial: [23397067]
