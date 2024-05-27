@@ -13061,3 +13061,24 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 12:48:25] INFO root fetch - processPackages [meili-sdk]: Remove: archive file [/home/abi/fetcher/tmp/meili-sdk-0.7.1.tar.gz]
 [2024-05-27 12:48:25] INFO root fetch - main [MainThread]: End processing [meili-sdk]: success
 [2024-05-27 12:48:25] INFO root fetch - main [MainThread]: Store serial: [23394317]
+[2024-05-27 12:50:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23394317]
+[2024-05-27 12:50:34] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-27 12:50:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: testlala
+[2024-05-27 12:50:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aiohttp-oauth2-client
+[2024-05-27 12:50:34] INFO root fetch - processPackages [testlala]: New version: [2.0.0] Old Version: [1.0.0]
+[2024-05-27 12:50:34] INFO root fetch - processPackages [testlala]: Downloading https://files.pythonhosted.org/packages/fa/f1/efcbde20f3af1062ce5a0c18631d692567cc23b120c5fd8339cfa46a2ed6/testlala-1.0.0-py3-none-any.whl
+[2024-05-27 12:50:34] INFO root fetch - processPackages [aiohttp-oauth2-client]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-27 12:50:34] INFO root fetch - processPackages [aiohttp-oauth2-client]: Downloading https://files.pythonhosted.org/packages/eb/c9/d001ccc88545cb63fa798d0c8f4f62283d9e609d8e1538a68e0e77d9f2c2/aiohttp_oauth2_client-1.0.0.tar.gz
+[2024-05-27 12:50:34] INFO root fetch - processPackages [testlala]: Downloading https://files.pythonhosted.org/packages/8a/17/d0cb15d9bbc426189bc23de031b722b5c7743a006c4f306a5ef5c6d97ee9/testlala-2.0.0.tar.gz
+[2024-05-27 12:50:34] INFO root fetch - processPackages [testlala]: executing diffoscope
+[2024-05-27 12:50:34] INFO root fetch - processPackages [testlala]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testlala-1.0.0-py3-none-any.whl.zip tmp/testlala-2.0.0.tar.gz --markdown 20240527/t/testlala/1.0.0-2.0.0/README.md --exclude *.pyd
+[2024-05-27 12:50:34] INFO root fetch - processPackages [aiohttp-oauth2-client]: Downloading https://files.pythonhosted.org/packages/aa/c5/50cc650e8d47bc977b9488de82d92708f9fa0405cc64476ebd8a89f0ff53/aiohttp_oauth2_client-1.0.1.tar.gz
+[2024-05-27 12:50:34] INFO root fetch - processPackages [aiohttp-oauth2-client]: executing diffoscope
+[2024-05-27 12:50:34] INFO root fetch - processPackages [aiohttp-oauth2-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiohttp_oauth2_client-1.0.0.tar.gz tmp/aiohttp_oauth2_client-1.0.1.tar.gz --markdown 20240527/a/aiohttp-oauth2-client/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-27 12:50:35] INFO root fetch - processPackages [testlala]: Remove: archive file [/home/abi/fetcher/tmp/testlala-1.0.0-py3-none-any.whl.zip]
+[2024-05-27 12:50:35] INFO root fetch - processPackages [testlala]: Remove: archive file [/home/abi/fetcher/tmp/testlala-2.0.0.tar.gz]
+[2024-05-27 12:50:35] INFO root fetch - main [MainThread]: End processing [testlala]: success
+[2024-05-27 12:50:35] INFO root fetch - processPackages [aiohttp-oauth2-client]: Remove: archive file [/home/abi/fetcher/tmp/aiohttp_oauth2_client-1.0.0.tar.gz]
+[2024-05-27 12:50:35] INFO root fetch - processPackages [aiohttp-oauth2-client]: Remove: archive file [/home/abi/fetcher/tmp/aiohttp_oauth2_client-1.0.1.tar.gz]
+[2024-05-27 12:50:35] INFO root fetch - main [MainThread]: End processing [aiohttp-oauth2-client]: success
+[2024-05-27 12:50:35] INFO root fetch - main [MainThread]: Store serial: [23394324]
