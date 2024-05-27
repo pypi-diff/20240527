@@ -16288,3 +16288,51 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 15:08:52] WARNING root fetch - processPackages [imagegrains]: Skipping package: exceeds size limit 64113942>=10485760
 [2024-05-27 15:08:52] INFO root fetch - main [MainThread]: End processing [imagegrains] error
 [2024-05-27 15:08:52] INFO root fetch - main [MainThread]: Store serial: [23395933]
+[2024-05-27 15:10:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23395933]
+[2024-05-27 15:11:01] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-27 15:11:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sinaraX
+[2024-05-27 15:11:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: HalChat
+[2024-05-27 15:11:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: python-rebase
+[2024-05-27 15:11:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: localstack-core
+[2024-05-27 15:11:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: torchbringer
+[2024-05-27 15:11:01] INFO root fetch - processPackages [torchbringer]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-27 15:11:01] INFO root fetch - processPackages [localstack-core]: New version: [3.4.1.dev20240527115716] Old Version: [3.4.1.dev20240527112845]
+[2024-05-27 15:11:01] INFO root fetch - processPackages [HalChat]: New version: [0.0.3] Old Version: [0.0.2.2]
+[2024-05-27 15:11:01] INFO root fetch - processPackages [python-rebase]: New version: [0.3.4] Old Version: [0.3.3]
+[2024-05-27 15:11:01] INFO root fetch - processPackages [sinaraX]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-05-27 15:11:01] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/5c/3f/dda321325d4af96d1352fc68ee811bc9d40e2f70251e2a157ed588f5187c/localstack_core-3.4.1.dev20240527112845.tar.gz
+[2024-05-27 15:11:01] INFO root fetch - processPackages [torchbringer]: Downloading https://files.pythonhosted.org/packages/2f/45/d2773d1f7c20cda29751b6d62fe80e492b2530bcde5e2d987e9b68c4ab17/torchbringer-0.1.1.tar.gz
+[2024-05-27 15:11:01] INFO root fetch - processPackages [HalChat]: Downloading https://files.pythonhosted.org/packages/f9/41/a19809f27aa6e99d1a6c3c8ea500cf06f169f558a949251b25bb377c0659/halchat-0.0.2.2.tar.gz
+[2024-05-27 15:11:01] INFO root fetch - processPackages [sinaraX]: Downloading https://files.pythonhosted.org/packages/97/e7/f32a1a28e62ab6c482b3ec8b0c2757f8a199860c32b5ceb2e244047b3af6/sinarax-1.1.8.tar.gz
+[2024-05-27 15:11:01] INFO root fetch - processPackages [python-rebase]: Downloading https://files.pythonhosted.org/packages/c2/f7/db60eef38568b2ebc64d63a97701f8fb9af1d4b44b6954f0b54094480aae/python_rebase-0.3.3.tar.gz
+[2024-05-27 15:11:02] INFO root fetch - processPackages [HalChat]: Downloading https://files.pythonhosted.org/packages/42/a3/448fa742b1ff1a2ff58a6b8b371c25a0b1e614dc7b60aea01abcfa4f3a3b/halchat-0.0.3.tar.gz
+[2024-05-27 15:11:02] INFO root fetch - processPackages [sinaraX]: Downloading https://files.pythonhosted.org/packages/d3/03/12526dacdc5c20b78a7f9bf73836bcd1ff03c4c282e40145744655a5d408/sinarax-1.1.9.tar.gz
+[2024-05-27 15:11:02] INFO root fetch - processPackages [torchbringer]: Downloading https://files.pythonhosted.org/packages/7d/7c/4fe95afcdfd93f9eca602aba197b193246c1f14532b3f00dbd9924fc846a/torchbringer-0.1.2.tar.gz
+[2024-05-27 15:11:02] INFO root fetch - processPackages [python-rebase]: Downloading https://files.pythonhosted.org/packages/2f/16/c1121adf8aba9fac7b053d1ab46209773b791bb36e02456278cb5e3e82a5/python_rebase-0.3.4.tar.gz
+[2024-05-27 15:11:02] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/9f/c9/300a5cb41f867f1b1c364d0724306623a718f7f76c0aadd4aff5e74ad1a4/localstack_core-3.4.1.dev20240527115716.tar.gz
+[2024-05-27 15:11:02] INFO root fetch - processPackages [HalChat]: executing diffoscope
+[2024-05-27 15:11:02] INFO root fetch - processPackages [HalChat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/halchat-0.0.2.2.tar.gz tmp/halchat-0.0.3.tar.gz --markdown 20240527/H/HalChat/0.0.2.2-0.0.3/README.md --exclude *.pyd
+[2024-05-27 15:11:02] INFO root fetch - processPackages [sinaraX]: executing diffoscope
+[2024-05-27 15:11:02] INFO root fetch - processPackages [sinaraX]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sinarax-1.1.8.tar.gz tmp/sinarax-1.1.9.tar.gz --markdown 20240527/s/sinaraX/1.1.8-1.1.9/README.md --exclude *.pyd
+[2024-05-27 15:11:02] INFO root fetch - processPackages [torchbringer]: executing diffoscope
+[2024-05-27 15:11:02] INFO root fetch - processPackages [torchbringer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchbringer-0.1.1.tar.gz tmp/torchbringer-0.1.2.tar.gz --markdown 20240527/t/torchbringer/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-27 15:11:02] INFO root fetch - processPackages [python-rebase]: executing diffoscope
+[2024-05-27 15:11:02] INFO root fetch - processPackages [python-rebase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_rebase-0.3.3.tar.gz tmp/python_rebase-0.3.4.tar.gz --markdown 20240527/p/python-rebase/0.3.3-0.3.4/README.md --exclude *.pyd
+[2024-05-27 15:11:02] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2024-05-27 15:11:02] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack_core-3.4.1.dev20240527112845.tar.gz tmp/localstack_core-3.4.1.dev20240527115716.tar.gz --markdown 20240527/l/localstack-core/3.4.1.dev20240527112845-3.4.1.dev20240527115716/README.md --exclude *.pyd
+[2024-05-27 15:11:02] INFO root fetch - processPackages [HalChat]: Remove: archive file [/home/abi/fetcher/tmp/halchat-0.0.2.2.tar.gz]
+[2024-05-27 15:11:02] INFO root fetch - processPackages [HalChat]: Remove: archive file [/home/abi/fetcher/tmp/halchat-0.0.3.tar.gz]
+[2024-05-27 15:11:02] INFO root fetch - main [MainThread]: End processing [HalChat]: success
+[2024-05-27 15:11:03] INFO root fetch - processPackages [torchbringer]: Remove: archive file [/home/abi/fetcher/tmp/torchbringer-0.1.1.tar.gz]
+[2024-05-27 15:11:03] INFO root fetch - processPackages [torchbringer]: Remove: archive file [/home/abi/fetcher/tmp/torchbringer-0.1.2.tar.gz]
+[2024-05-27 15:11:03] INFO root fetch - main [MainThread]: End processing [torchbringer]: success
+[2024-05-27 15:11:03] INFO root fetch - processPackages [python-rebase]: Remove: archive file [/home/abi/fetcher/tmp/python_rebase-0.3.3.tar.gz]
+[2024-05-27 15:11:03] INFO root fetch - processPackages [python-rebase]: Remove: archive file [/home/abi/fetcher/tmp/python_rebase-0.3.4.tar.gz]
+[2024-05-27 15:11:03] INFO root fetch - main [MainThread]: End processing [python-rebase]: success
+[2024-05-27 15:11:03] INFO root fetch - processPackages [sinaraX]: Remove: archive file [/home/abi/fetcher/tmp/sinarax-1.1.8.tar.gz]
+[2024-05-27 15:11:03] INFO root fetch - processPackages [sinaraX]: Remove: archive file [/home/abi/fetcher/tmp/sinarax-1.1.9.tar.gz]
+[2024-05-27 15:11:03] INFO root fetch - main [MainThread]: End processing [sinaraX]: success
+[2024-05-27 15:11:06] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.4.1.dev20240527112845.tar.gz]
+[2024-05-27 15:11:06] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.4.1.dev20240527115716.tar.gz]
+[2024-05-27 15:11:06] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2024-05-27 15:11:06] INFO root fetch - main [MainThread]: Store serial: [23395952]
