@@ -4972,3 +4972,15 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 05:59:30] INFO root fetch - processPackages [gammarers.aws-secure-vpc-bucket]: Remove: archive file [/home/abi/fetcher/tmp/gammarers.aws-secure-vpc-bucket-1.3.5.tar.gz]
 [2024-05-27 05:59:30] INFO root fetch - main [MainThread]: End processing [gammarers.aws-secure-vpc-bucket]: success
 [2024-05-27 05:59:30] INFO root fetch - main [MainThread]: Store serial: [23390407]
+[2024-05-27 06:01:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23390407]
+[2024-05-27 06:01:38] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-27 06:01:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: myscale-telemetry
+[2024-05-27 06:01:38] INFO root fetch - processPackages [myscale-telemetry]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-27 06:01:39] INFO root fetch - processPackages [myscale-telemetry]: Downloading https://files.pythonhosted.org/packages/f6/95/cede3625a8c4faf3d45ccfabf71cfac4808bb5500d363f49923631f5516e/myscale-telemetry-0.1.4.tar.gz
+[2024-05-27 06:01:39] INFO root fetch - processPackages [myscale-telemetry]: Downloading https://files.pythonhosted.org/packages/c9/ad/1521360f7161b7279d677f932115a5a10bfa9fb2091ec66a12d7723650c6/myscale-telemetry-0.1.5.tar.gz
+[2024-05-27 06:01:39] INFO root fetch - processPackages [myscale-telemetry]: executing diffoscope
+[2024-05-27 06:01:39] INFO root fetch - processPackages [myscale-telemetry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myscale-telemetry-0.1.4.tar.gz tmp/myscale-telemetry-0.1.5.tar.gz --markdown 20240527/m/myscale-telemetry/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-27 06:01:40] INFO root fetch - processPackages [myscale-telemetry]: Remove: archive file [/home/abi/fetcher/tmp/myscale-telemetry-0.1.4.tar.gz]
+[2024-05-27 06:01:40] INFO root fetch - processPackages [myscale-telemetry]: Remove: archive file [/home/abi/fetcher/tmp/myscale-telemetry-0.1.5.tar.gz]
+[2024-05-27 06:01:40] INFO root fetch - main [MainThread]: End processing [myscale-telemetry]: success
+[2024-05-27 06:01:40] INFO root fetch - main [MainThread]: Store serial: [23390410]
