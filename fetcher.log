@@ -10818,3 +10818,122 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 11:28:56] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.8.9.tar.gz]
 [2024-05-27 11:28:56] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2024-05-27 11:28:56] INFO root fetch - main [MainThread]: Store serial: [23393217]
+[2024-05-27 11:31:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23393217]
+[2024-05-27 11:31:05] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2024-05-27 11:31:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: open-aea
+[2024-05-27 11:31:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: open-aea-cli-benchmark
+[2024-05-27 11:31:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: open-aea-cli-ipfs
+[2024-05-27 11:31:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: open-aea-ledger-cosmos
+[2024-05-27 11:31:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cogflow
+[2024-05-27 11:31:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: open-aea-ledger-ethereum
+[2024-05-27 11:31:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-account-invoice-discount-display-amount
+[2024-05-27 11:31:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: open-aea-ledger-ethereum-hwi
+[2024-05-27 11:31:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: open-aea-ledger-ethereum-flashbots
+[2024-05-27 11:31:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyexmars
+[2024-05-27 11:31:05] INFO root fetch - processPackages [pyexmars]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-05-27 11:31:05] INFO root fetch - processPackages [cogflow]: New version: [1.9.9] Old Version: [1.9.8]
+[2024-05-27 11:31:05] INFO root fetch - processPackages [open-aea-cli-benchmark]: New version: [1.53.0] Old Version: [1.52.0]
+[2024-05-27 11:31:05] INFO root fetch - processPackages [open-aea-ledger-ethereum]: New version: [1.9.0.post1] Old Version: [1.9.0]
+[2024-05-27 11:31:05] INFO root fetch - processPackages [odoo-addon-account-invoice-discount-display-amount]: New version: [16.0.1.0.0.2] Old Version: [15.0.1.0.1.1]
+[2024-05-27 11:31:05] INFO root fetch - processPackages [open-aea-ledger-ethereum-hwi]: New version: [1.53.0] Old Version: [1.52.0]
+[2024-05-27 11:31:05] INFO root fetch - processPackages [pyexmars]: Downloading https://files.pythonhosted.org/packages/8f/77/04ecab68523546a7aaeedbb5ba9327f604c11d9a115d4273192c9fe19c59/pyexmars-1.0.5.tar.gz
+[2024-05-27 11:31:05] INFO root fetch - processPackages [open-aea-ledger-ethereum-flashbots]: New version: [1.53.0] Old Version: [1.52.0]
+[2024-05-27 11:31:05] INFO root fetch - processPackages [open-aea-cli-ipfs]: New version: [1.9.0.post1] Old Version: [1.9.0]
+[2024-05-27 11:31:05] INFO root fetch - processPackages [open-aea-ledger-cosmos]: New version: [1.9.0.post1] Old Version: [1.9.0]
+[2024-05-27 11:31:05] INFO root fetch - processPackages [open-aea]: New version: [1.9.0.post1] Old Version: [1.9.0]
+[2024-05-27 11:31:05] INFO root fetch - processPackages [cogflow]: Downloading https://files.pythonhosted.org/packages/3a/44/2dd887dfefc5e198a68539c2565726dced636a615597d201136d1a92a466/cogflow-1.9.8.tar.gz
+[2024-05-27 11:31:05] INFO root fetch - processPackages [open-aea-cli-benchmark]: Downloading https://files.pythonhosted.org/packages/47/4a/90ce564b13a80345fed563fbc25a2c7eb69a605c3f40b0934756a13906e9/open_aea_cli_benchmark-1.52.0.tar.gz
+[2024-05-27 11:31:05] INFO root fetch - processPackages [open-aea]: Downloading https://files.pythonhosted.org/packages/7f/40/3bc96b026068c72069daaa6c85cc6c0c5904acc0c80107b1752886595b2b/open-aea-1.9.0.tar.gz
+[2024-05-27 11:31:05] INFO root fetch - processPackages [open-aea-ledger-ethereum]: Downloading https://files.pythonhosted.org/packages/83/67/960e6fa3586afa96b5fc5cd411f1403706ae6993d9fc85456dae6175968f/open-aea-ledger-ethereum-1.9.0.tar.gz
+[2024-05-27 11:31:05] INFO root fetch - processPackages [odoo-addon-account-invoice-discount-display-amount]: Downloading https://files.pythonhosted.org/packages/1c/20/6104bbf05fa21fc6f379627115be892647a83cdd78adfb93012e8b06b7af/odoo_addon_account_invoice_discount_display_amount-15.0.1.0.1.1-py3-none-any.whl
+[2024-05-27 11:31:05] INFO root fetch - processPackages [open-aea-ledger-ethereum-hwi]: Downloading https://files.pythonhosted.org/packages/86/8e/1aae368d2762e9a897775661eefcd048e1792f8a591d5bc39a141aa2efec/open_aea_ledger_ethereum_hwi-1.52.0.tar.gz
+[2024-05-27 11:31:05] INFO root fetch - processPackages [open-aea-ledger-ethereum-flashbots]: Downloading https://files.pythonhosted.org/packages/1d/9b/17a22571c16e98e9f8828bc10242fa51e49073a18a90bf9228b1251c9cdc/open_aea_ledger_ethereum_flashbots-1.52.0.tar.gz
+[2024-05-27 11:31:05] INFO root fetch - processPackages [open-aea-cli-ipfs]: Downloading https://files.pythonhosted.org/packages/ee/91/2e992d2fbb21f1c4976404b5f9f6d72aff9c1444a80f3ac7d0bcd8cf805e/open-aea-cli-ipfs-1.9.0.tar.gz
+[2024-05-27 11:31:05] INFO root fetch - processPackages [open-aea-ledger-cosmos]: Downloading https://files.pythonhosted.org/packages/8d/74/f371c3137a52ba978c1bb14e30533a29ec5f5648b1cdc3357ce5a9b48ef9/open-aea-ledger-cosmos-1.9.0.tar.gz
+[2024-05-27 11:31:05] INFO root fetch - processPackages [cogflow]: Downloading https://files.pythonhosted.org/packages/0e/16/8f5f931a1aa5b5143fe0b0ad8fd8950276383f3e063a3d599473897f4af3/cogflow-1.9.9.tar.gz
+[2024-05-27 11:31:06] INFO root fetch - processPackages [pyexmars]: Downloading https://files.pythonhosted.org/packages/b8/fc/c91892ba90b6b4cafe3a4f9d1c5daabde95be0b138c035db236048911ad9/pyexmars-1.0.6.tar.gz
+[2024-05-27 11:31:06] INFO root fetch - processPackages [cogflow]: executing diffoscope
+[2024-05-27 11:31:06] INFO root fetch - processPackages [cogflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cogflow-1.9.8.tar.gz tmp/cogflow-1.9.9.tar.gz --markdown 20240527/c/cogflow/1.9.8-1.9.9/README.md --exclude *.pyd
+[2024-05-27 11:31:06] INFO root fetch - processPackages [pyexmars]: executing diffoscope
+[2024-05-27 11:31:06] INFO root fetch - processPackages [pyexmars]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyexmars-1.0.5.tar.gz tmp/pyexmars-1.0.6.tar.gz --markdown 20240527/p/pyexmars/1.0.5-1.0.6/README.md --exclude *.pyd
+[2024-05-27 11:31:06] INFO root fetch - processPackages [open-aea-cli-benchmark]: Downloading https://files.pythonhosted.org/packages/3d/38/d8579d1b227f06cef1f573a20bc275d196e23d0ac7b225b8b33f5587450c/open_aea_cli_benchmark-1.53.0.tar.gz
+[2024-05-27 11:31:06] INFO root fetch - processPackages [open-aea-cli-ipfs]: Downloading https://files.pythonhosted.org/packages/e4/34/810547261a12125c890b47a5e3ed32ef550369d1e4c298604ae35d4216cb/open-aea-cli-ipfs-1.9.0.post1.tar.gz
+[2024-05-27 11:31:06] INFO root fetch - processPackages [open-aea-cli-benchmark]: executing diffoscope
+[2024-05-27 11:31:06] INFO root fetch - processPackages [open-aea-cli-benchmark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open_aea_cli_benchmark-1.52.0.tar.gz tmp/open_aea_cli_benchmark-1.53.0.tar.gz --markdown 20240527/o/open-aea-cli-benchmark/1.52.0-1.53.0/README.md --exclude *.pyd
+[2024-05-27 11:31:06] INFO root fetch - processPackages [open-aea-ledger-ethereum-flashbots]: Downloading https://files.pythonhosted.org/packages/63/7e/1bf83deb377f1b6252ac9387d30ae905cfb2be8c247342190deb5d8c4645/open_aea_ledger_ethereum_flashbots-1.53.0.tar.gz
+[2024-05-27 11:31:06] INFO root fetch - processPackages [odoo-addon-account-invoice-discount-display-amount]: Downloading https://files.pythonhosted.org/packages/49/81/19a2f8bf219e4048d223d36aafaab79e65045dbab6e450772b00f73f46e6/odoo_addon_account_invoice_discount_display_amount-16.0.1.0.0.2-py3-none-any.whl
+[2024-05-27 11:31:06] INFO root fetch - processPackages [open-aea-ledger-ethereum]: Downloading https://files.pythonhosted.org/packages/5a/2f/432a8948e4381bf374a78adafb58677bc83c853fe716108f745d13ecd673/open-aea-ledger-ethereum-1.9.0.post1.tar.gz
+[2024-05-27 11:31:06] INFO root fetch - processPackages [open-aea-ledger-ethereum-hwi]: Downloading https://files.pythonhosted.org/packages/3d/cf/4af2fd012bd3c0a87fc133c96e4e923ae68ffcd0f11bece844a13715c569/open_aea_ledger_ethereum_hwi-1.53.0.tar.gz
+[2024-05-27 11:31:06] INFO root fetch - processPackages [open-aea-ledger-cosmos]: Downloading https://files.pythonhosted.org/packages/61/d2/94be4f42f237964ad50ffebdd1d35d5a2fa8ad842708135c5d7386d2426a/open-aea-ledger-cosmos-1.9.0.post1.tar.gz
+[2024-05-27 11:31:06] INFO root fetch - processPackages [odoo-addon-account-invoice-discount-display-amount]: executing diffoscope
+[2024-05-27 11:31:06] INFO root fetch - processPackages [odoo-addon-account-invoice-discount-display-amount]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_invoice_discount_display_amount-15.0.1.0.1.1-py3-none-any.whl.zip tmp/odoo_addon_account_invoice_discount_display_amount-16.0.1.0.0.2-py3-none-any.whl.zip --markdown 20240527/o/odoo-addon-account-invoice-discount-display-amount/15.0.1.0.1.1-16.0.1.0.0.2/README.md --exclude *.pyd
+[2024-05-27 11:31:06] INFO root fetch - processPackages [open-aea-ledger-ethereum]: executing diffoscope
+[2024-05-27 11:31:06] INFO root fetch - processPackages [open-aea-ledger-ethereum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open-aea-ledger-ethereum-1.9.0.tar.gz tmp/open-aea-ledger-ethereum-1.9.0.post1.tar.gz --markdown 20240527/o/open-aea-ledger-ethereum/1.9.0-1.9.0.post1/README.md --exclude *.pyd
+[2024-05-27 11:31:06] INFO root fetch - processPackages [open-aea-ledger-ethereum-flashbots]: executing diffoscope
+[2024-05-27 11:31:06] INFO root fetch - processPackages [open-aea-ledger-ethereum-flashbots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open_aea_ledger_ethereum_flashbots-1.52.0.tar.gz tmp/open_aea_ledger_ethereum_flashbots-1.53.0.tar.gz --markdown 20240527/o/open-aea-ledger-ethereum-flashbots/1.52.0-1.53.0/README.md --exclude *.pyd
+[2024-05-27 11:31:06] INFO root fetch - processPackages [open-aea-ledger-ethereum-hwi]: executing diffoscope
+[2024-05-27 11:31:06] INFO root fetch - processPackages [open-aea-ledger-ethereum-hwi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open_aea_ledger_ethereum_hwi-1.52.0.tar.gz tmp/open_aea_ledger_ethereum_hwi-1.53.0.tar.gz --markdown 20240527/o/open-aea-ledger-ethereum-hwi/1.52.0-1.53.0/README.md --exclude *.pyd
+[2024-05-27 11:31:06] INFO root fetch - processPackages [open-aea-cli-ipfs]: executing diffoscope
+[2024-05-27 11:31:06] INFO root fetch - processPackages [open-aea-cli-ipfs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open-aea-cli-ipfs-1.9.0.tar.gz tmp/open-aea-cli-ipfs-1.9.0.post1.tar.gz --markdown 20240527/o/open-aea-cli-ipfs/1.9.0-1.9.0.post1/README.md --exclude *.pyd
+[2024-05-27 11:31:06] INFO root fetch - processPackages [open-aea-ledger-cosmos]: executing diffoscope
+[2024-05-27 11:31:06] INFO root fetch - processPackages [open-aea-ledger-cosmos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open-aea-ledger-cosmos-1.9.0.tar.gz tmp/open-aea-ledger-cosmos-1.9.0.post1.tar.gz --markdown 20240527/o/open-aea-ledger-cosmos/1.9.0-1.9.0.post1/README.md --exclude *.pyd
+[2024-05-27 11:31:06] INFO root fetch - processPackages [pyexmars]: Remove: archive file [/home/abi/fetcher/tmp/pyexmars-1.0.5.tar.gz]
+[2024-05-27 11:31:06] INFO root fetch - processPackages [pyexmars]: Remove: archive file [/home/abi/fetcher/tmp/pyexmars-1.0.6.tar.gz]
+[2024-05-27 11:31:06] INFO root fetch - processPackages [cogflow]: Remove: archive file [/home/abi/fetcher/tmp/cogflow-1.9.8.tar.gz]
+[2024-05-27 11:31:06] INFO root fetch - processPackages [pyexmars]: Start processing: open-aea-ledger-solana
+[2024-05-27 11:31:06] INFO root fetch - main [MainThread]: End processing [pyexmars]: success
+[2024-05-27 11:31:06] INFO root fetch - processPackages [cogflow]: Remove: archive file [/home/abi/fetcher/tmp/cogflow-1.9.9.tar.gz]
+[2024-05-27 11:31:06] INFO root fetch - processPackages [cogflow]: Start processing: open-aea-ledger-fetchai
+[2024-05-27 11:31:06] INFO root fetch - main [MainThread]: End processing [cogflow]: success
+[2024-05-27 11:31:07] INFO root fetch - processPackages [open-aea-ledger-solana]: New version: [1.53.0] Old Version: [1.52.0]
+[2024-05-27 11:31:07] INFO root fetch - processPackages [open-aea-ledger-fetchai]: New version: [1.9.0.post1] Old Version: [1.9.0]
+[2024-05-27 11:31:07] WARNING root fetch - processPackages [open-aea]: Skipping package: exceeds size limit 16774114>=10485760
+[2024-05-27 11:31:07] INFO root fetch - processPackages [open-aea]: Start processing: cs-common
+[2024-05-27 11:31:07] INFO root fetch - main [MainThread]: End processing [open-aea] error
+[2024-05-27 11:31:07] INFO root fetch - processPackages [open-aea-ledger-solana]: Downloading https://files.pythonhosted.org/packages/99/9d/2e211ee6e208d39a72104d9382ebdd887b7e369e609b6367d32ba0d6439e/open_aea_ledger_solana-1.52.0.tar.gz
+[2024-05-27 11:31:07] INFO root fetch - processPackages [open-aea-cli-benchmark]: Remove: archive file [/home/abi/fetcher/tmp/open_aea_cli_benchmark-1.52.0.tar.gz]
+[2024-05-27 11:31:07] INFO root fetch - processPackages [open-aea-cli-benchmark]: Remove: archive file [/home/abi/fetcher/tmp/open_aea_cli_benchmark-1.53.0.tar.gz]
+[2024-05-27 11:31:07] INFO root fetch - processPackages [open-aea-cli-benchmark]: Start processing: suskabot
+[2024-05-27 11:31:07] INFO root fetch - main [MainThread]: End processing [open-aea-cli-benchmark]: success
+[2024-05-27 11:31:07] WARNING root fetch - processPackages [cs-common]: Skipping, unable to determine old version
+[2024-05-27 11:31:07] INFO root fetch - main [MainThread]: End processing [cs-common] error
+[2024-05-27 11:31:07] INFO root fetch - processPackages [open-aea-ledger-fetchai]: Downloading https://files.pythonhosted.org/packages/d3/7a/a66a5cc018ff6d37acfa3cd9b460fed2f2a5d5fc5d1f429183c1245dd818/open-aea-ledger-fetchai-1.9.0.tar.gz
+[2024-05-27 11:31:07] INFO root fetch - processPackages [open-aea-ledger-ethereum-flashbots]: Remove: archive file [/home/abi/fetcher/tmp/open_aea_ledger_ethereum_flashbots-1.52.0.tar.gz]
+[2024-05-27 11:31:07] INFO root fetch - processPackages [open-aea-ledger-ethereum-flashbots]: Remove: archive file [/home/abi/fetcher/tmp/open_aea_ledger_ethereum_flashbots-1.53.0.tar.gz]
+[2024-05-27 11:31:07] INFO root fetch - main [MainThread]: End processing [open-aea-ledger-ethereum-flashbots]: success
+[2024-05-27 11:31:07] INFO root fetch - processPackages [suskabot]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-05-27 11:31:07] INFO root fetch - processPackages [odoo-addon-account-invoice-discount-display-amount]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_invoice_discount_display_amount-15.0.1.0.1.1-py3-none-any.whl.zip]
+[2024-05-27 11:31:07] INFO root fetch - processPackages [odoo-addon-account-invoice-discount-display-amount]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_invoice_discount_display_amount-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-05-27 11:31:07] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-invoice-discount-display-amount]: success
+[2024-05-27 11:31:07] INFO root fetch - processPackages [open-aea-ledger-ethereum]: Remove: archive file [/home/abi/fetcher/tmp/open-aea-ledger-ethereum-1.9.0.tar.gz]
+[2024-05-27 11:31:07] INFO root fetch - processPackages [open-aea-ledger-ethereum]: Remove: archive file [/home/abi/fetcher/tmp/open-aea-ledger-ethereum-1.9.0.post1.tar.gz]
+[2024-05-27 11:31:07] INFO root fetch - main [MainThread]: End processing [open-aea-ledger-ethereum]: success
+[2024-05-27 11:31:07] INFO root fetch - processPackages [open-aea-ledger-cosmos]: Remove: archive file [/home/abi/fetcher/tmp/open-aea-ledger-cosmos-1.9.0.tar.gz]
+[2024-05-27 11:31:07] INFO root fetch - processPackages [open-aea-ledger-cosmos]: Remove: archive file [/home/abi/fetcher/tmp/open-aea-ledger-cosmos-1.9.0.post1.tar.gz]
+[2024-05-27 11:31:07] INFO root fetch - main [MainThread]: End processing [open-aea-ledger-cosmos]: success
+[2024-05-27 11:31:07] INFO root fetch - processPackages [open-aea-cli-ipfs]: Remove: archive file [/home/abi/fetcher/tmp/open-aea-cli-ipfs-1.9.0.tar.gz]
+[2024-05-27 11:31:07] INFO root fetch - processPackages [open-aea-cli-ipfs]: Remove: archive file [/home/abi/fetcher/tmp/open-aea-cli-ipfs-1.9.0.post1.tar.gz]
+[2024-05-27 11:31:07] INFO root fetch - main [MainThread]: End processing [open-aea-cli-ipfs]: success
+[2024-05-27 11:31:07] INFO root fetch - processPackages [open-aea-ledger-ethereum-hwi]: Remove: archive file [/home/abi/fetcher/tmp/open_aea_ledger_ethereum_hwi-1.52.0.tar.gz]
+[2024-05-27 11:31:07] INFO root fetch - processPackages [open-aea-ledger-ethereum-hwi]: Remove: archive file [/home/abi/fetcher/tmp/open_aea_ledger_ethereum_hwi-1.53.0.tar.gz]
+[2024-05-27 11:31:07] INFO root fetch - main [MainThread]: End processing [open-aea-ledger-ethereum-hwi]: success
+[2024-05-27 11:31:07] INFO root fetch - processPackages [open-aea-ledger-solana]: Downloading https://files.pythonhosted.org/packages/35/7a/536a32491597b30f9868ae1ad15cf36e06650b6e7643f7eedd546866d21c/open_aea_ledger_solana-1.53.0.tar.gz
+[2024-05-27 11:31:07] INFO root fetch - processPackages [suskabot]: Downloading https://files.pythonhosted.org/packages/9b/cf/7eadf20cf66365f7a0b23cee39c98be772cf56706ac14bc2180e20531922/suskabot-0.2.3.tar.gz
+[2024-05-27 11:31:07] INFO root fetch - processPackages [open-aea-ledger-fetchai]: Downloading https://files.pythonhosted.org/packages/93/4a/2cf242698e247471b6846b556e0a78f7b682853d7234b5b9343510df0e98/open-aea-ledger-fetchai-1.9.0.post1.tar.gz
+[2024-05-27 11:31:07] INFO root fetch - processPackages [open-aea-ledger-solana]: executing diffoscope
+[2024-05-27 11:31:07] INFO root fetch - processPackages [open-aea-ledger-solana]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open_aea_ledger_solana-1.52.0.tar.gz tmp/open_aea_ledger_solana-1.53.0.tar.gz --markdown 20240527/o/open-aea-ledger-solana/1.52.0-1.53.0/README.md --exclude *.pyd
+[2024-05-27 11:31:08] INFO root fetch - processPackages [suskabot]: Downloading https://files.pythonhosted.org/packages/e5/ff/3dd097b176b18239b287b7ca8ed3d90b5387a6d87568ffb253da27c0d135/suskabot-0.2.4.tar.gz
+[2024-05-27 11:31:08] INFO root fetch - processPackages [suskabot]: executing diffoscope
+[2024-05-27 11:31:08] INFO root fetch - processPackages [suskabot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/suskabot-0.2.3.tar.gz tmp/suskabot-0.2.4.tar.gz --markdown 20240527/s/suskabot/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-05-27 11:31:08] INFO root fetch - processPackages [open-aea-ledger-solana]: Remove: archive file [/home/abi/fetcher/tmp/open_aea_ledger_solana-1.52.0.tar.gz]
+[2024-05-27 11:31:08] INFO root fetch - processPackages [open-aea-ledger-solana]: Remove: archive file [/home/abi/fetcher/tmp/open_aea_ledger_solana-1.53.0.tar.gz]
+[2024-05-27 11:31:08] INFO root fetch - main [MainThread]: End processing [open-aea-ledger-solana]: success
+[2024-05-27 11:31:08] INFO root fetch - processPackages [suskabot]: Remove: archive file [/home/abi/fetcher/tmp/suskabot-0.2.3.tar.gz]
+[2024-05-27 11:31:08] INFO root fetch - processPackages [suskabot]: Remove: archive file [/home/abi/fetcher/tmp/suskabot-0.2.4.tar.gz]
+[2024-05-27 11:31:08] INFO root fetch - main [MainThread]: End processing [suskabot]: success
+[2024-05-27 11:31:09] INFO root fetch - processPackages [open-aea-ledger-fetchai]: executing diffoscope
+[2024-05-27 11:31:09] INFO root fetch - processPackages [open-aea-ledger-fetchai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open-aea-ledger-fetchai-1.9.0.tar.gz tmp/open-aea-ledger-fetchai-1.9.0.post1.tar.gz --markdown 20240527/o/open-aea-ledger-fetchai/1.9.0-1.9.0.post1/README.md --exclude *.pyd
+[2024-05-27 11:31:09] INFO root fetch - processPackages [open-aea-ledger-fetchai]: Remove: archive file [/home/abi/fetcher/tmp/open-aea-ledger-fetchai-1.9.0.tar.gz]
+[2024-05-27 11:31:09] INFO root fetch - processPackages [open-aea-ledger-fetchai]: Remove: archive file [/home/abi/fetcher/tmp/open-aea-ledger-fetchai-1.9.0.post1.tar.gz]
+[2024-05-27 11:31:09] INFO root fetch - main [MainThread]: End processing [open-aea-ledger-fetchai]: success
+[2024-05-27 11:31:09] INFO root fetch - main [MainThread]: Store serial: [23393266]
