@@ -16405,3 +16405,114 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 15:13:34] INFO root fetch - processPackages [pixano]: Remove: archive file [/home/abi/fetcher/tmp/pixano-0.5.2.tar.gz]
 [2024-05-27 15:13:34] INFO root fetch - main [MainThread]: End processing [pixano]: success
 [2024-05-27 15:13:34] INFO root fetch - main [MainThread]: Store serial: [23395991]
+[2024-05-27 15:15:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23395991]
+[2024-05-27 15:15:43] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-05-27 15:15:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: foxesscloud
+[2024-05-27 15:15:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hikari-arc
+[2024-05-27 15:15:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pydase
+[2024-05-27 15:15:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: enigma-workflow-14
+[2024-05-27 15:15:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: traceUts
+[2024-05-27 15:15:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: freerec
+[2024-05-27 15:15:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: robobosim
+[2024-05-27 15:15:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: systemathics.apis
+[2024-05-27 15:15:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fbgemm-gpu-nightly-cpu
+[2024-05-27 15:15:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dicio-py
+[2024-05-27 15:15:44] INFO root fetch - processPackages [dicio-py]: New version: [1.5] Old Version: [1.4]
+[2024-05-27 15:15:44] INFO root fetch - processPackages [traceUts]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-27 15:15:44] INFO root fetch - processPackages [freerec]: New version: [0.8.3] Old Version: [0.8.1]
+[2024-05-27 15:15:44] INFO root fetch - processPackages [hikari-arc]: New version: [1.3.3] Old Version: [1.3.2]
+[2024-05-27 15:15:44] INFO root fetch - processPackages [dicio-py]: Downloading https://files.pythonhosted.org/packages/d4/f5/e0b2cf58bd49207241ec3115b633fdd579b04a416d57299f1c38229a7ce2/dicio_py-1.4.tar.gz
+[2024-05-27 15:15:44] INFO root fetch - processPackages [robobosim]: New version: [1.5.1] Old Version: [1.5.0]
+[2024-05-27 15:15:44] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: New version: [2024.5.27] Old Version: [2024.5.26]
+[2024-05-27 15:15:44] INFO root fetch - processPackages [pydase]: New version: [0.8.3] Old Version: [0.8.2]
+[2024-05-27 15:15:44] INFO root fetch - processPackages [enigma-workflow-14]: New version: [14.0.4] Old Version: [14.0.3]
+[2024-05-27 15:15:44] INFO root fetch - processPackages [systemathics.apis]: New version: [2.39.2] Old Version: [2.39.1]
+[2024-05-27 15:15:44] INFO root fetch - processPackages [robobosim]: Downloading https://files.pythonhosted.org/packages/a0/32/5f65a32071a0ecb1869dfc141db49af5fc224d4156c6d866f5059a196357/robobosim-1.5.0.tar.gz
+[2024-05-27 15:15:44] INFO root fetch - processPackages [pydase]: Downloading https://files.pythonhosted.org/packages/ef/7e/82f50fd7f24104d0137a01031ba675cf70d7111ad1eaa28a7783cbc2865b/pydase-0.8.2.tar.gz
+[2024-05-27 15:15:44] INFO root fetch - processPackages [traceUts]: Downloading https://files.pythonhosted.org/packages/5b/8b/442f9ac8aab481430542ba734cae1fe1f2fde8ed984e72452d3e2a5d9038/TraceUts-0.0.4.tar.gz
+[2024-05-27 15:15:44] INFO root fetch - processPackages [freerec]: Downloading https://files.pythonhosted.org/packages/a2/86/499dcc7d09d7f6aef8f013b2e2643b8efd292715f06d79e4cc23312643c8/freerec-0.8.1.tar.gz
+[2024-05-27 15:15:44] INFO root fetch - processPackages [foxesscloud]: New version: [2.2.8] Old Version: [2.2.7]
+[2024-05-27 15:15:44] INFO root fetch - processPackages [hikari-arc]: Downloading https://files.pythonhosted.org/packages/a7/32/4dfa4f27dd1834290ae3c3ce729e7e9cc75031e8169d27ecdbfd3123c3d3/hikari_arc-1.3.2.tar.gz
+[2024-05-27 15:15:44] INFO root fetch - processPackages [systemathics.apis]: Downloading https://files.pythonhosted.org/packages/fb/be/0b07ca79f16bb55715118a9e941e0cab0f4cc862f27be8cab004b3586d63/systemathics_apis-2.39.1.tar.gz
+[2024-05-27 15:15:44] INFO root fetch - processPackages [enigma-workflow-14]: Downloading https://files.pythonhosted.org/packages/5a/30/24b956b578fc0c46a136e57b1439a38e6dc8ae252311336b8de7419e176c/enigma_workflow_14-14.0.3-cp39-cp39-win_amd64.whl
+[2024-05-27 15:15:44] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/30/89/d8eb8a210a4e9fceac4b8c745434ba5a238211cd0d6034c56d72fd22ac33/fbgemm_gpu_nightly_cpu-2024.5.26-cp39-cp39-manylinux2014_x86_64.whl
+[2024-05-27 15:15:44] INFO root fetch - processPackages [dicio-py]: Downloading https://files.pythonhosted.org/packages/c9/d1/6116fb63910e0af371715ae70c9f3f3cda0d954a9ef5adf48e8d8ce8eef0/dicio_py-1.5.tar.gz
+[2024-05-27 15:15:44] INFO root fetch - processPackages [foxesscloud]: Downloading https://files.pythonhosted.org/packages/62/0f/169536806b87c4f7821467b30a3f1f5ecafde7054dec0660d66eacbee54c/foxesscloud-2.2.7.tar.gz
+[2024-05-27 15:15:44] INFO root fetch - processPackages [robobosim]: Downloading https://files.pythonhosted.org/packages/1e/26/64709d2b7b337d90232920c4069aed695085b63d8f415e575969028a58c8/robobosim-1.5.1.tar.gz
+[2024-05-27 15:15:44] INFO root fetch - processPackages [dicio-py]: executing diffoscope
+[2024-05-27 15:15:44] INFO root fetch - processPackages [dicio-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dicio_py-1.4.tar.gz tmp/dicio_py-1.5.tar.gz --markdown 20240527/d/dicio-py/1.4-1.5/README.md --exclude *.pyd
+[2024-05-27 15:15:44] INFO root fetch - processPackages [traceUts]: Downloading https://files.pythonhosted.org/packages/cc/87/82156cfa6eadf3036bbc3debdabd8c8dba0e40ff29180ba636b4fac48246/traceUts-0.0.5.tar.gz
+[2024-05-27 15:15:44] INFO root fetch - processPackages [freerec]: Downloading https://files.pythonhosted.org/packages/f3/28/c5a09d50d1ecc21dd63b1eceeb993f2b6e085083faf84e81bff4bb963993/freerec-0.8.3.tar.gz
+[2024-05-27 15:15:44] INFO root fetch - processPackages [hikari-arc]: Downloading https://files.pythonhosted.org/packages/16/f9/a40e994402f8bd481e1944f2dcc7a4c51abffd943fea1cb0901582c34a2f/hikari_arc-1.3.3.tar.gz
+[2024-05-27 15:15:45] INFO root fetch - processPackages [systemathics.apis]: Downloading https://files.pythonhosted.org/packages/de/13/08e9bd548d7a3bc4ebd7c26cdd036bf67540e431a9b416b26d7074236b3d/systemathics_apis-2.39.2.tar.gz
+[2024-05-27 15:15:45] INFO root fetch - processPackages [traceUts]: executing diffoscope
+[2024-05-27 15:15:45] INFO root fetch - processPackages [traceUts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TraceUts-0.0.4.tar.gz tmp/traceUts-0.0.5.tar.gz --markdown 20240527/t/traceUts/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-27 15:15:45] INFO root fetch - processPackages [robobosim]: executing diffoscope
+[2024-05-27 15:15:45] INFO root fetch - processPackages [robobosim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robobosim-1.5.0.tar.gz tmp/robobosim-1.5.1.tar.gz --markdown 20240527/r/robobosim/1.5.0-1.5.1/README.md --exclude *.pyd
+[2024-05-27 15:15:45] INFO root fetch - processPackages [pydase]: Downloading https://files.pythonhosted.org/packages/f1/f1/99a369bf5b7f291fcff21d494616f95154695cf59630572dc78197862914/pydase-0.8.3.tar.gz
+[2024-05-27 15:15:45] INFO root fetch - processPackages [enigma-workflow-14]: Downloading https://files.pythonhosted.org/packages/66/50/e8acf839bb2aa4f619b9eb5dcf4b12ab05e5385a70359644c5d951c0d432/enigma_workflow_14-14.0.4-cp39-cp39-macosx_11_0_arm64.whl
+[2024-05-27 15:15:45] INFO root fetch - processPackages [freerec]: executing diffoscope
+[2024-05-27 15:15:45] INFO root fetch - processPackages [freerec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/freerec-0.8.1.tar.gz tmp/freerec-0.8.3.tar.gz --markdown 20240527/f/freerec/0.8.1-0.8.3/README.md --exclude *.pyd
+[2024-05-27 15:15:45] INFO root fetch - processPackages [hikari-arc]: executing diffoscope
+[2024-05-27 15:15:45] INFO root fetch - processPackages [hikari-arc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hikari_arc-1.3.2.tar.gz tmp/hikari_arc-1.3.3.tar.gz --markdown 20240527/h/hikari-arc/1.3.2-1.3.3/README.md --exclude *.pyd
+[2024-05-27 15:15:45] INFO root fetch - processPackages [foxesscloud]: Downloading https://files.pythonhosted.org/packages/b2/ee/813e00e8ca2f150384ac4cf4f4ce55929d3b9a019d568b084d6f2dd8c1cb/foxesscloud-2.2.8.tar.gz
+[2024-05-27 15:15:45] INFO root fetch - processPackages [systemathics.apis]: executing diffoscope
+[2024-05-27 15:15:45] INFO root fetch - processPackages [systemathics.apis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/systemathics_apis-2.39.1.tar.gz tmp/systemathics_apis-2.39.2.tar.gz --markdown 20240527/s/systemathics.apis/2.39.1-2.39.2/README.md --exclude *.pyd
+[2024-05-27 15:15:45] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/1f/b6/0861c56382466de68b208125b5e77a942fdf48eb39b5e075ff665a79d1d7/fbgemm_gpu_nightly_cpu-2024.5.27-cp38-cp38-manylinux2014_x86_64.whl
+[2024-05-27 15:15:45] INFO root fetch - processPackages [pydase]: executing diffoscope
+[2024-05-27 15:15:45] INFO root fetch - processPackages [pydase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydase-0.8.2.tar.gz tmp/pydase-0.8.3.tar.gz --markdown 20240527/p/pydase/0.8.2-0.8.3/README.md --exclude *.pyd
+[2024-05-27 15:15:45] INFO root fetch - processPackages [foxesscloud]: executing diffoscope
+[2024-05-27 15:15:45] INFO root fetch - processPackages [foxesscloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foxesscloud-2.2.7.tar.gz tmp/foxesscloud-2.2.8.tar.gz --markdown 20240527/f/foxesscloud/2.2.7-2.2.8/README.md --exclude *.pyd
+[2024-05-27 15:15:45] INFO root fetch - processPackages [enigma-workflow-14]: executing diffoscope
+[2024-05-27 15:15:45] INFO root fetch - processPackages [enigma-workflow-14]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/enigma_workflow_14-14.0.3-cp39-cp39-win_amd64.whl.zip tmp/enigma_workflow_14-14.0.4-cp39-cp39-macosx_11_0_arm64.whl.zip --markdown 20240527/e/enigma-workflow-14/14.0.3-14.0.4/README.md --exclude *.pyd
+[2024-05-27 15:15:45] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: executing diffoscope
+[2024-05-27 15:15:45] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fbgemm_gpu_nightly_cpu-2024.5.26-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/fbgemm_gpu_nightly_cpu-2024.5.27-cp38-cp38-manylinux2014_x86_64.whl.zip --markdown 20240527/f/fbgemm-gpu-nightly-cpu/2024.5.26-2024.5.27/README.md --exclude *.pyd
+[2024-05-27 15:15:45] INFO root fetch - processPackages [dicio-py]: Remove: archive file [/home/abi/fetcher/tmp/dicio_py-1.4.tar.gz]
+[2024-05-27 15:15:45] INFO root fetch - processPackages [dicio-py]: Remove: archive file [/home/abi/fetcher/tmp/dicio_py-1.5.tar.gz]
+[2024-05-27 15:15:45] INFO root fetch - processPackages [dicio-py]: Start processing: metal-python
+[2024-05-27 15:15:45] INFO root fetch - main [MainThread]: End processing [dicio-py]: success
+[2024-05-27 15:15:45] INFO root fetch - processPackages [metal-python]: New version: [0.9.5] Old Version: [0.9.4]
+[2024-05-27 15:15:45] INFO root fetch - processPackages [traceUts]: Remove: archive file [/home/abi/fetcher/tmp/TraceUts-0.0.4.tar.gz]
+[2024-05-27 15:15:45] INFO root fetch - processPackages [traceUts]: Remove: archive file [/home/abi/fetcher/tmp/traceUts-0.0.5.tar.gz]
+[2024-05-27 15:15:45] INFO root fetch - processPackages [traceUts]: Start processing: mure
+[2024-05-27 15:15:45] INFO root fetch - main [MainThread]: End processing [traceUts]: success
+[2024-05-27 15:15:46] INFO root fetch - processPackages [mure]: New version: [1.0.0b7] Old Version: [1.0.0b6]
+[2024-05-27 15:15:46] INFO root fetch - processPackages [metal-python]: Downloading https://files.pythonhosted.org/packages/da/87/ea7df78e12e58839edf84e22e55f4828fa269abd4eda5b854ca1a3f2ae3c/metal_python-0.9.4.tar.gz
+[2024-05-27 15:15:46] INFO root fetch - processPackages [robobosim]: Remove: archive file [/home/abi/fetcher/tmp/robobosim-1.5.0.tar.gz]
+[2024-05-27 15:15:46] INFO root fetch - processPackages [robobosim]: Remove: archive file [/home/abi/fetcher/tmp/robobosim-1.5.1.tar.gz]
+[2024-05-27 15:15:46] INFO root fetch - main [MainThread]: End processing [robobosim]: success
+[2024-05-27 15:15:46] INFO root fetch - processPackages [freerec]: Remove: archive file [/home/abi/fetcher/tmp/freerec-0.8.1.tar.gz]
+[2024-05-27 15:15:46] INFO root fetch - processPackages [freerec]: Remove: archive file [/home/abi/fetcher/tmp/freerec-0.8.3.tar.gz]
+[2024-05-27 15:15:46] INFO root fetch - main [MainThread]: End processing [freerec]: success
+[2024-05-27 15:15:46] INFO root fetch - processPackages [mure]: Downloading https://files.pythonhosted.org/packages/10/f3/597c2538fd4afd9d3a5eb7dabf29197fa1906c69049853e4b24cbb8cd10b/mure-1.0.0b6.tar.gz
+[2024-05-27 15:15:46] INFO root fetch - processPackages [enigma-workflow-14]: Remove: archive file [/home/abi/fetcher/tmp/enigma_workflow_14-14.0.3-cp39-cp39-win_amd64.whl.zip]
+[2024-05-27 15:15:46] INFO root fetch - processPackages [enigma-workflow-14]: Remove: archive file [/home/abi/fetcher/tmp/enigma_workflow_14-14.0.4-cp39-cp39-macosx_11_0_arm64.whl.zip]
+[2024-05-27 15:15:46] INFO root fetch - main [MainThread]: End processing [enigma-workflow-14]: success
+[2024-05-27 15:15:46] INFO root fetch - processPackages [hikari-arc]: Remove: archive file [/home/abi/fetcher/tmp/hikari_arc-1.3.2.tar.gz]
+[2024-05-27 15:15:46] INFO root fetch - processPackages [hikari-arc]: Remove: archive file [/home/abi/fetcher/tmp/hikari_arc-1.3.3.tar.gz]
+[2024-05-27 15:15:46] INFO root fetch - main [MainThread]: End processing [hikari-arc]: success
+[2024-05-27 15:15:46] INFO root fetch - processPackages [foxesscloud]: Remove: archive file [/home/abi/fetcher/tmp/foxesscloud-2.2.7.tar.gz]
+[2024-05-27 15:15:46] INFO root fetch - processPackages [foxesscloud]: Remove: archive file [/home/abi/fetcher/tmp/foxesscloud-2.2.8.tar.gz]
+[2024-05-27 15:15:46] INFO root fetch - main [MainThread]: End processing [foxesscloud]: success
+[2024-05-27 15:15:46] INFO root fetch - processPackages [metal-python]: Downloading https://files.pythonhosted.org/packages/d5/0e/f54a789448e772fa8f88c2a2f7da9e92cfc6a441cc42a238b2013db9901e/metal_python-0.9.5.tar.gz
+[2024-05-27 15:15:46] INFO root fetch - processPackages [pydase]: Remove: archive file [/home/abi/fetcher/tmp/pydase-0.8.2.tar.gz]
+[2024-05-27 15:15:46] INFO root fetch - processPackages [pydase]: Remove: archive file [/home/abi/fetcher/tmp/pydase-0.8.3.tar.gz]
+[2024-05-27 15:15:46] INFO root fetch - main [MainThread]: End processing [pydase]: success
+[2024-05-27 15:15:46] INFO root fetch - processPackages [metal-python]: executing diffoscope
+[2024-05-27 15:15:46] INFO root fetch - processPackages [metal-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metal_python-0.9.4.tar.gz tmp/metal_python-0.9.5.tar.gz --markdown 20240527/m/metal-python/0.9.4-0.9.5/README.md --exclude *.pyd
+[2024-05-27 15:15:46] INFO root fetch - processPackages [mure]: Downloading https://files.pythonhosted.org/packages/fb/88/23011e44f1b62ec27d0ea4588266921873a6b46d22573786fdcdb98940b0/mure-1.0.0b7.tar.gz
+[2024-05-27 15:15:46] INFO root fetch - processPackages [systemathics.apis]: Remove: archive file [/home/abi/fetcher/tmp/systemathics_apis-2.39.1.tar.gz]
+[2024-05-27 15:15:46] INFO root fetch - processPackages [systemathics.apis]: Remove: archive file [/home/abi/fetcher/tmp/systemathics_apis-2.39.2.tar.gz]
+[2024-05-27 15:15:46] INFO root fetch - main [MainThread]: End processing [systemathics.apis]: success
+[2024-05-27 15:15:46] INFO root fetch - processPackages [mure]: executing diffoscope
+[2024-05-27 15:15:46] INFO root fetch - processPackages [mure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mure-1.0.0b6.tar.gz tmp/mure-1.0.0b7.tar.gz --markdown 20240527/m/mure/1.0.0b6-1.0.0b7/README.md --exclude *.pyd
+[2024-05-27 15:15:47] INFO root fetch - processPackages [mure]: Remove: archive file [/home/abi/fetcher/tmp/mure-1.0.0b6.tar.gz]
+[2024-05-27 15:15:47] INFO root fetch - processPackages [mure]: Remove: archive file [/home/abi/fetcher/tmp/mure-1.0.0b7.tar.gz]
+[2024-05-27 15:15:47] INFO root fetch - main [MainThread]: End processing [mure]: success
+[2024-05-27 15:15:48] INFO root fetch - processPackages [metal-python]: Remove: archive file [/home/abi/fetcher/tmp/metal_python-0.9.4.tar.gz]
+[2024-05-27 15:15:48] INFO root fetch - processPackages [metal-python]: Remove: archive file [/home/abi/fetcher/tmp/metal_python-0.9.5.tar.gz]
+[2024-05-27 15:15:48] INFO root fetch - main [MainThread]: End processing [metal-python]: success
+[2024-05-27 15:17:00] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/fbgemm_gpu_nightly_cpu-2024.5.26-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2024-05-27 15:17:00] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/fbgemm_gpu_nightly_cpu-2024.5.27-cp38-cp38-manylinux2014_x86_64.whl.zip]
+[2024-05-27 15:17:00] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly-cpu]: success
+[2024-05-27 15:17:00] INFO root fetch - main [MainThread]: Store serial: [23396042]
