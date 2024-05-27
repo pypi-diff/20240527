@@ -5520,3 +5520,27 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 06:43:18] INFO root fetch - processPackages [urllib3-future]: Remove: archive file [/home/abi/fetcher/tmp/urllib3_future-2.7.912.tar.gz]
 [2024-05-27 06:43:18] INFO root fetch - main [MainThread]: End processing [urllib3-future]: success
 [2024-05-27 06:43:18] INFO root fetch - main [MainThread]: Store serial: [23390606]
+[2024-05-27 06:45:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23390606]
+[2024-05-27 06:45:26] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-27 06:45:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: image-collect
+[2024-05-27 06:45:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: iperturb
+[2024-05-27 06:45:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gpt-all-star
+[2024-05-27 06:45:26] INFO root fetch - processPackages [image-collect]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-27 06:45:26] INFO root fetch - processPackages [image-collect]: Downloading https://files.pythonhosted.org/packages/d3/12/f364532df153eada8013ee7012754b5cd6bf6d867f03e03aa63fc3756360/image_collect-0.0.1.tar.gz
+[2024-05-27 06:45:26] WARNING root fetch - processPackages [iperturb]: Skipping, unable to determine old version
+[2024-05-27 06:45:26] INFO root fetch - main [MainThread]: End processing [iperturb] error
+[2024-05-27 06:45:26] INFO root fetch - processPackages [gpt-all-star]: New version: [0.0.9] Old Version: [0.0.7]
+[2024-05-27 06:45:27] INFO root fetch - processPackages [image-collect]: Downloading https://files.pythonhosted.org/packages/57/c7/af8b5d80309359c7f7097243e7af2d3303d5831873c1515f51929145ab8c/image_collect-0.0.2-py3-none-any.whl
+[2024-05-27 06:45:27] INFO root fetch - processPackages [gpt-all-star]: Downloading https://files.pythonhosted.org/packages/95/00/47f2780dce549d1ce8aad7cb17a7c758209c4539c6f75dcdbe0e9322ce0e/gpt_all_star-0.0.7.tar.gz
+[2024-05-27 06:45:27] INFO root fetch - processPackages [image-collect]: executing diffoscope
+[2024-05-27 06:45:27] INFO root fetch - processPackages [image-collect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/image_collect-0.0.1.tar.gz tmp/image_collect-0.0.2-py3-none-any.whl.zip --markdown 20240527/i/image-collect/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-27 06:45:27] INFO root fetch - processPackages [gpt-all-star]: Downloading https://files.pythonhosted.org/packages/96/40/c6f6b9dc146ffbf8c97d68b1ad200a51bb0f5a239c5e4d11725f1fff5f45/gpt_all_star-0.0.9.tar.gz
+[2024-05-27 06:45:27] INFO root fetch - processPackages [gpt-all-star]: executing diffoscope
+[2024-05-27 06:45:27] INFO root fetch - processPackages [gpt-all-star]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt_all_star-0.0.7.tar.gz tmp/gpt_all_star-0.0.9.tar.gz --markdown 20240527/g/gpt-all-star/0.0.7-0.0.9/README.md --exclude *.pyd
+[2024-05-27 06:45:27] INFO root fetch - processPackages [image-collect]: Remove: archive file [/home/abi/fetcher/tmp/image_collect-0.0.1.tar.gz]
+[2024-05-27 06:45:27] INFO root fetch - processPackages [image-collect]: Remove: archive file [/home/abi/fetcher/tmp/image_collect-0.0.2-py3-none-any.whl.zip]
+[2024-05-27 06:45:27] INFO root fetch - main [MainThread]: End processing [image-collect]: success
+[2024-05-27 06:45:28] INFO root fetch - processPackages [gpt-all-star]: Remove: archive file [/home/abi/fetcher/tmp/gpt_all_star-0.0.7.tar.gz]
+[2024-05-27 06:45:28] INFO root fetch - processPackages [gpt-all-star]: Remove: archive file [/home/abi/fetcher/tmp/gpt_all_star-0.0.9.tar.gz]
+[2024-05-27 06:45:28] INFO root fetch - main [MainThread]: End processing [gpt-all-star]: success
+[2024-05-27 06:45:28] INFO root fetch - main [MainThread]: Store serial: [23390615]
