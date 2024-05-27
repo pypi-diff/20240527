@@ -12299,3 +12299,38 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 12:21:54] INFO root fetch - processPackages [create-mountaineer-app]: Remove: archive file [/home/abi/fetcher/tmp/create_mountaineer_app-0.5.0.dev9.tar.gz]
 [2024-05-27 12:21:54] INFO root fetch - main [MainThread]: End processing [create-mountaineer-app]: success
 [2024-05-27 12:21:54] INFO root fetch - main [MainThread]: Store serial: [23393935]
+[2024-05-27 12:23:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23393935]
+[2024-05-27 12:24:03] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-27 12:24:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ginger-dj
+[2024-05-27 12:24:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: otcextensions
+[2024-05-27 12:24:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pydantic-scim2
+[2024-05-27 12:24:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: imio.pm.locales
+[2024-05-27 12:24:03] INFO root fetch - processPackages [ginger-dj]: New version: [5.3] Old Version: [5.2.dev20240527095553]
+[2024-05-27 12:24:03] INFO root fetch - processPackages [pydantic-scim2]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-05-27 12:24:04] INFO root fetch - processPackages [pydantic-scim2]: Downloading https://files.pythonhosted.org/packages/3c/21/79c2e280905c79abef0acae377fe12f5975542460fcc52fc1c873a304073/pydantic_scim2-0.1.0.tar.gz
+[2024-05-27 12:24:04] INFO root fetch - processPackages [imio.pm.locales]: New version: [4.2b9] Old Version: [4.2b8]
+[2024-05-27 12:24:04] INFO root fetch - processPackages [otcextensions]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-27 12:24:04] INFO root fetch - processPackages [ginger-dj]: Downloading https://files.pythonhosted.org/packages/72/84/fda048fb7bdcc0b016872d87653835359713c5053c46adb8c3074942a90e/ginger_dj-5.2.dev20240527095553.tar.gz
+[2024-05-27 12:24:04] WARNING root fetch - processPackages [ginger-dj]: Skipping package: exceeds size limit 12161083>=10485760
+[2024-05-27 12:24:04] INFO root fetch - main [MainThread]: End processing [ginger-dj] error
+[2024-05-27 12:24:04] INFO root fetch - processPackages [otcextensions]: Downloading https://files.pythonhosted.org/packages/5a/e1/b37ce486fe5d81fbba91d826090926b06f34a2f1194f8334181fe0f740ae/otcextensions-0.9.0.tar.gz
+[2024-05-27 12:24:04] INFO root fetch - processPackages [pydantic-scim2]: Downloading https://files.pythonhosted.org/packages/c3/be/10b56f08bddfe3325cfc5422be9c843cd5b4320b6c2dd2aa81d1f5262c74/pydantic_scim2-0.2.0.tar.gz
+[2024-05-27 12:24:04] INFO root fetch - processPackages [imio.pm.locales]: Downloading https://files.pythonhosted.org/packages/d7/02/3d263410fd331d6bc5cf51ee938ef2e76e3dc92812701f8d8b709e407ab0/imio.pm.locales-4.2b8.tar.gz
+[2024-05-27 12:24:04] INFO root fetch - processPackages [pydantic-scim2]: executing diffoscope
+[2024-05-27 12:24:04] INFO root fetch - processPackages [pydantic-scim2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydantic_scim2-0.1.0.tar.gz tmp/pydantic_scim2-0.2.0.tar.gz --markdown 20240527/p/pydantic-scim2/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-05-27 12:24:04] INFO root fetch - processPackages [otcextensions]: Downloading https://files.pythonhosted.org/packages/ea/e5/80fc2d41bb151ca58bb2269ff2fa831f78c6bdc75a1f931bd1e85661a0b6/otcextensions-0.9.1.tar.gz
+[2024-05-27 12:24:04] INFO root fetch - processPackages [imio.pm.locales]: Downloading https://files.pythonhosted.org/packages/b1/95/695c6292d7b0958ebc705170cec321e424079c0716aaf0f09b29ae261c93/imio.pm.locales-4.2b9.tar.gz
+[2024-05-27 12:24:04] INFO root fetch - processPackages [otcextensions]: executing diffoscope
+[2024-05-27 12:24:04] INFO root fetch - processPackages [otcextensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/otcextensions-0.9.0.tar.gz tmp/otcextensions-0.9.1.tar.gz --markdown 20240527/o/otcextensions/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-27 12:24:04] INFO root fetch - processPackages [imio.pm.locales]: executing diffoscope
+[2024-05-27 12:24:04] INFO root fetch - processPackages [imio.pm.locales]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imio.pm.locales-4.2b8.tar.gz tmp/imio.pm.locales-4.2b9.tar.gz --markdown 20240527/i/imio.pm.locales/4.2b8-4.2b9/README.md --exclude *.pyd
+[2024-05-27 12:24:05] INFO root fetch - processPackages [pydantic-scim2]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_scim2-0.1.0.tar.gz]
+[2024-05-27 12:24:05] INFO root fetch - processPackages [pydantic-scim2]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_scim2-0.2.0.tar.gz]
+[2024-05-27 12:24:05] INFO root fetch - main [MainThread]: End processing [pydantic-scim2]: success
+[2024-05-27 12:24:06] INFO root fetch - processPackages [imio.pm.locales]: Remove: archive file [/home/abi/fetcher/tmp/imio.pm.locales-4.2b8.tar.gz]
+[2024-05-27 12:24:06] INFO root fetch - processPackages [imio.pm.locales]: Remove: archive file [/home/abi/fetcher/tmp/imio.pm.locales-4.2b9.tar.gz]
+[2024-05-27 12:24:06] INFO root fetch - main [MainThread]: End processing [imio.pm.locales]: success
+[2024-05-27 12:24:08] INFO root fetch - processPackages [otcextensions]: Remove: archive file [/home/abi/fetcher/tmp/otcextensions-0.9.0.tar.gz]
+[2024-05-27 12:24:08] INFO root fetch - processPackages [otcextensions]: Remove: archive file [/home/abi/fetcher/tmp/otcextensions-0.9.1.tar.gz]
+[2024-05-27 12:24:08] INFO root fetch - main [MainThread]: End processing [otcextensions]: success
+[2024-05-27 12:24:08] INFO root fetch - main [MainThread]: Store serial: [23393946]
