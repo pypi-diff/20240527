@@ -4732,3 +4732,36 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 05:35:37] INFO root fetch - processPackages [movie-downloader]: Remove: archive file [/home/abi/fetcher/tmp/movie-downloader-0.2.6.tar.gz]
 [2024-05-27 05:35:37] INFO root fetch - main [MainThread]: End processing [movie-downloader]: success
 [2024-05-27 05:35:37] INFO root fetch - main [MainThread]: Store serial: [23390291]
+[2024-05-27 05:37:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23390291]
+[2024-05-27 05:37:46] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-27 05:37:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: krezi
+[2024-05-27 05:37:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: FinaleToolkit
+[2024-05-27 05:37:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pms-encoder
+[2024-05-27 05:37:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aioway
+[2024-05-27 05:37:46] INFO root fetch - processPackages [FinaleToolkit]: New version: [0.6.0] Old Version: [0.5.2]
+[2024-05-27 05:37:46] INFO root fetch - processPackages [krezi]: New version: [1.4] Old Version: [1.3]
+[2024-05-27 05:37:46] INFO root fetch - processPackages [FinaleToolkit]: Downloading https://files.pythonhosted.org/packages/15/a3/a1331377d24038b4a457981373df72fd15bd3b990ffa4ed65b5357c95589/finaletoolkit-0.5.2.tar.gz
+[2024-05-27 05:37:46] INFO root fetch - processPackages [krezi]: Downloading https://files.pythonhosted.org/packages/ac/4a/b3c53c098e6379d5091173f3d88b19311ce5aa00a1b2d3860861ce467e5d/krezi-1.3.tar.gz
+[2024-05-27 05:37:46] INFO root fetch - processPackages [pms-encoder]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-27 05:37:46] WARNING root fetch - processPackages [aioway]: Skipping, unable to determine old version
+[2024-05-27 05:37:46] INFO root fetch - main [MainThread]: End processing [aioway] error
+[2024-05-27 05:37:46] INFO root fetch - processPackages [pms-encoder]: Downloading https://files.pythonhosted.org/packages/80/f1/88f2f54188c15bf6cca5ba7a3a347b8d1c83b15a626f541acf3dde5aa63d/pms_encoder-0.0.8.tar.gz
+[2024-05-27 05:37:46] INFO root fetch - processPackages [FinaleToolkit]: Downloading https://files.pythonhosted.org/packages/31/a5/72e6d684692d60389a746463f98ef689ff8f6f0a5f16af4917f533cb734a/finaletoolkit-0.6.0.tar.gz
+[2024-05-27 05:37:46] INFO root fetch - processPackages [krezi]: Downloading https://files.pythonhosted.org/packages/f5/58/419a2c0159173211f6fa08d0bd80f10f9c7e677310cbaf4d6268bdb410ff/krezi-1.4.tar.gz
+[2024-05-27 05:37:46] INFO root fetch - processPackages [FinaleToolkit]: executing diffoscope
+[2024-05-27 05:37:46] INFO root fetch - processPackages [FinaleToolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finaletoolkit-0.5.2.tar.gz tmp/finaletoolkit-0.6.0.tar.gz --markdown 20240527/F/FinaleToolkit/0.5.2-0.6.0/README.md --exclude *.pyd
+[2024-05-27 05:37:46] INFO root fetch - processPackages [krezi]: executing diffoscope
+[2024-05-27 05:37:46] INFO root fetch - processPackages [krezi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/krezi-1.3.tar.gz tmp/krezi-1.4.tar.gz --markdown 20240527/k/krezi/1.3-1.4/README.md --exclude *.pyd
+[2024-05-27 05:37:46] INFO root fetch - processPackages [pms-encoder]: Downloading https://files.pythonhosted.org/packages/93/31/8bb081756db42925fab6507b6e0f497d6bf45acd407ff38cb00f2aaec54c/pms_encoder-0.0.9.tar.gz
+[2024-05-27 05:37:46] INFO root fetch - processPackages [pms-encoder]: executing diffoscope
+[2024-05-27 05:37:46] INFO root fetch - processPackages [pms-encoder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pms_encoder-0.0.8.tar.gz tmp/pms_encoder-0.0.9.tar.gz --markdown 20240527/p/pms-encoder/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-27 05:37:47] INFO root fetch - processPackages [krezi]: Remove: archive file [/home/abi/fetcher/tmp/krezi-1.3.tar.gz]
+[2024-05-27 05:37:47] INFO root fetch - processPackages [krezi]: Remove: archive file [/home/abi/fetcher/tmp/krezi-1.4.tar.gz]
+[2024-05-27 05:37:47] INFO root fetch - main [MainThread]: End processing [krezi]: success
+[2024-05-27 05:37:47] INFO root fetch - processPackages [pms-encoder]: Remove: archive file [/home/abi/fetcher/tmp/pms_encoder-0.0.8.tar.gz]
+[2024-05-27 05:37:47] INFO root fetch - processPackages [pms-encoder]: Remove: archive file [/home/abi/fetcher/tmp/pms_encoder-0.0.9.tar.gz]
+[2024-05-27 05:37:47] INFO root fetch - main [MainThread]: End processing [pms-encoder]: success
+[2024-05-27 05:37:47] INFO root fetch - processPackages [FinaleToolkit]: Remove: archive file [/home/abi/fetcher/tmp/finaletoolkit-0.5.2.tar.gz]
+[2024-05-27 05:37:47] INFO root fetch - processPackages [FinaleToolkit]: Remove: archive file [/home/abi/fetcher/tmp/finaletoolkit-0.6.0.tar.gz]
+[2024-05-27 05:37:47] INFO root fetch - main [MainThread]: End processing [FinaleToolkit]: success
+[2024-05-27 05:37:47] INFO root fetch - main [MainThread]: Store serial: [23390305]
