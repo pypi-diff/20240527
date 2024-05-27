@@ -19487,3 +19487,24 @@ EOFError: EOF read where object expected
 [2024-05-27 16:53:11] INFO root fetch - processPackages [epyk]: Remove: archive file [/home/abi/fetcher/tmp/epyk-1.9.9-py3-none-any.whl.zip]
 [2024-05-27 16:53:11] INFO root fetch - main [MainThread]: End processing [epyk]: success
 [2024-05-27 16:53:11] INFO root fetch - main [MainThread]: Store serial: [23397299]
+[2024-05-27 16:55:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23397299]
+[2024-05-27 16:55:20] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-27 16:55:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: CI-CloudConnector
+[2024-05-27 16:55:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yeref
+[2024-05-27 16:55:20] INFO root fetch - processPackages [CI-CloudConnector]: New version: [0.9] Old Version: [0.87]
+[2024-05-27 16:55:20] INFO root fetch - processPackages [yeref]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-27 16:55:20] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/ec/cb/204e6fbe233bbb61cf29c1b491e8c638c8a843edc47fb4e1d8cc8c26608c/yeref-0.9.8.tar.gz
+[2024-05-27 16:55:20] INFO root fetch - processPackages [CI-CloudConnector]: Downloading https://files.pythonhosted.org/packages/c9/b3/7012420d1f38b0be721e7ae48d3297192fa1c3b50118cce4025160be0d0d/ci_cloudconnector-0.87.tar.gz
+[2024-05-27 16:55:20] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/01/13/0f11bb3dfb27aaf16ed48b0046f50ac65b1fde32662fbc314d53e2558b2d/yeref-0.9.9.tar.gz
+[2024-05-27 16:55:21] INFO root fetch - processPackages [CI-CloudConnector]: Downloading https://files.pythonhosted.org/packages/4c/eb/b4639debe39d86d516b4aa0b9e6cdec32e0a06d0220a60ed52a6b5fada1f/CI_CloudConnector-0.9.zip
+[2024-05-27 16:55:21] INFO root fetch - processPackages [CI-CloudConnector]: executing diffoscope
+[2024-05-27 16:55:21] INFO root fetch - processPackages [CI-CloudConnector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ci_cloudconnector-0.87.tar.gz tmp/CI_CloudConnector-0.9.zip --markdown 20240527/C/CI-CloudConnector/0.87-0.9/README.md --exclude *.pyd
+[2024-05-27 16:55:21] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2024-05-27 16:55:21] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.9.8.tar.gz tmp/yeref-0.9.9.tar.gz --markdown 20240527/y/yeref/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-27 16:55:21] INFO root fetch - processPackages [CI-CloudConnector]: Remove: archive file [/home/abi/fetcher/tmp/ci_cloudconnector-0.87.tar.gz]
+[2024-05-27 16:55:21] INFO root fetch - processPackages [CI-CloudConnector]: Remove: archive file [/home/abi/fetcher/tmp/CI_CloudConnector-0.9.zip]
+[2024-05-27 16:55:21] INFO root fetch - main [MainThread]: End processing [CI-CloudConnector]: success
+[2024-05-27 16:55:21] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.8.tar.gz]
+[2024-05-27 16:55:21] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.9.tar.gz]
+[2024-05-27 16:55:21] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2024-05-27 16:55:21] INFO root fetch - main [MainThread]: Store serial: [23397309]
