@@ -21106,3 +21106,75 @@ EOFError: EOF read where object expected
 [2024-05-27 17:59:47] INFO root fetch - processPackages [aplr]: Remove: archive file [/home/abi/fetcher/tmp/aplr-9.9.0.tar.gz]
 [2024-05-27 17:59:47] INFO root fetch - main [MainThread]: End processing [aplr]: success
 [2024-05-27 17:59:47] INFO root fetch - main [MainThread]: Store serial: [23398009]
+[2024-05-27 18:01:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23398009]
+[2024-05-27 18:01:55] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-27 18:01:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mrd-python
+[2024-05-27 18:01:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: python-semantic-release
+[2024-05-27 18:01:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: giskard-hub
+[2024-05-27 18:01:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: strax
+[2024-05-27 18:01:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: apt-mirror
+[2024-05-27 18:01:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ert
+[2024-05-27 18:01:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aioboto3
+[2024-05-27 18:01:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: Bigquery-Email-extractor
+[2024-05-27 18:01:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lightorch
+[2024-05-27 18:01:56] INFO root fetch - processPackages [python-semantic-release]: New version: [9.7.3] Old Version: [9.7.2]
+[2024-05-27 18:01:56] INFO root fetch - processPackages [ert]: New version: [9.0.9] Old Version: [9.0.8]
+[2024-05-27 18:01:56] INFO root fetch - processPackages [mrd-python]: New version: [2.0.0rc3] Old Version: [2.0.0rc2]
+[2024-05-27 18:01:56] INFO root fetch - processPackages [apt-mirror]: New version: [6a3] Old Version: [6a2]
+[2024-05-27 18:01:56] INFO root fetch - processPackages [giskard-hub]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-27 18:01:56] INFO root fetch - processPackages [aioboto3]: New version: [9.6.0] Old Version: [9.5.0]
+[2024-05-27 18:01:56] INFO root fetch - processPackages [strax]: New version: [1.6.4] Old Version: [1.6.3]
+[2024-05-27 18:01:56] WARNING root fetch - processPackages [Bigquery-Email-extractor]: Skipping, unable to determine old version
+[2024-05-27 18:01:56] INFO root fetch - main [MainThread]: End processing [Bigquery-Email-extractor] error
+[2024-05-27 18:01:56] WARNING root fetch - processPackages [lightorch]: Skipping, unable to determine old version
+[2024-05-27 18:01:56] INFO root fetch - main [MainThread]: End processing [lightorch] error
+[2024-05-27 18:01:56] INFO root fetch - processPackages [ert]: Downloading https://files.pythonhosted.org/packages/d3/ed/1b32adc2b0f34e25ca508b858069a0b7e840006670aad8f9c91899cfb57e/ert-9.0.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-27 18:01:56] INFO root fetch - processPackages [python-semantic-release]: Downloading https://files.pythonhosted.org/packages/10/e1/6c36cf953e670eed958258e4b8065591a33c61f5692f8134647d550017b7/python_semantic_release-9.7.2.tar.gz
+[2024-05-27 18:01:56] INFO root fetch - processPackages [mrd-python]: Downloading https://files.pythonhosted.org/packages/f4/8c/d8ab786177773f558cf5820e8493f979857420a9513a041c4b1a16512343/mrd_python-2.0.0rc2.tar.gz
+[2024-05-27 18:01:56] INFO root fetch - processPackages [giskard-hub]: Downloading https://files.pythonhosted.org/packages/23/27/4f8682a837b1bbccd9c8d8737db60b88eb46a34548a975a4b12c1d033b79/giskard_hub-0.1.0.tar.gz
+[2024-05-27 18:01:56] INFO root fetch - processPackages [strax]: Downloading https://files.pythonhosted.org/packages/77/9c/6881e2056c8efd9b50a3d89526b3aaa7fa2fa0c5ef18002c4192752b431f/strax-1.6.3.tar.gz
+[2024-05-27 18:01:56] INFO root fetch - processPackages [apt-mirror]: Downloading https://files.pythonhosted.org/packages/f1/e9/c42a8fbf2d08af82450c689f834ed19cfa1f3606033bff4db2136d28ea49/apt_mirror-6a2.tar.gz
+[2024-05-27 18:01:56] INFO root fetch - processPackages [aioboto3]: Downloading https://files.pythonhosted.org/packages/ce/97/56b9e6d4ea22c46a28bbf6e767bed9f8484626fb492d2dd7b5789ad0784d/aioboto3-9.5.0.tar.gz
+[2024-05-27 18:01:56] INFO root fetch - processPackages [ert]: Downloading https://files.pythonhosted.org/packages/8d/4f/a098d5c93dec8fbf941d7d4f60fb3b86707ea5c9f599479549a3d84e246b/ert-9.0.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-27 18:01:56] INFO root fetch - processPackages [python-semantic-release]: Downloading https://files.pythonhosted.org/packages/fb/99/59db069ac3d4812457e591e0ec6ff288845d4d38f29c110ac9cf196224c6/python_semantic_release-9.7.3.tar.gz
+[2024-05-27 18:01:56] INFO root fetch - processPackages [mrd-python]: Downloading https://files.pythonhosted.org/packages/d7/4a/1fd89a7561cc7f557a10ab0cbb502714ff8105cc51b3ad751b0223b5ef89/mrd_python-2.0.0rc3.tar.gz
+[2024-05-27 18:01:56] INFO root fetch - processPackages [giskard-hub]: Downloading https://files.pythonhosted.org/packages/4c/cd/18c62c26c686205126ec79fa28944ed94f7417523fa6769fec0845e7fd2b/giskard_hub-0.1.1.tar.gz
+[2024-05-27 18:01:56] INFO root fetch - processPackages [ert]: executing diffoscope
+[2024-05-27 18:01:56] INFO root fetch - processPackages [ert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ert-9.0.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/ert-9.0.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240527/e/ert/9.0.8-9.0.9/README.md --exclude *.pyd
+[2024-05-27 18:01:56] INFO root fetch - processPackages [apt-mirror]: Downloading https://files.pythonhosted.org/packages/6e/79/c6c95e525492ddea5b885ef1d3509b129cd996494c1d480d71a782d72f78/apt_mirror-6a3.tar.gz
+[2024-05-27 18:01:56] INFO root fetch - processPackages [python-semantic-release]: executing diffoscope
+[2024-05-27 18:01:56] INFO root fetch - processPackages [python-semantic-release]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_semantic_release-9.7.2.tar.gz tmp/python_semantic_release-9.7.3.tar.gz --markdown 20240527/p/python-semantic-release/9.7.2-9.7.3/README.md --exclude *.pyd
+[2024-05-27 18:01:56] INFO root fetch - processPackages [aioboto3]: Downloading https://files.pythonhosted.org/packages/8b/e3/7a500d59808725fd2a9614bb29f14a84ec00f93e0d9f1bf59006f29ec1ee/aioboto3-9.6.0.tar.gz
+[2024-05-27 18:01:56] INFO root fetch - processPackages [strax]: Downloading https://files.pythonhosted.org/packages/ac/d5/20e1cd7c21af3201436dd820b0e5a8b3ee0e3b2d45ccceea8b9a047a9af8/strax-1.6.4.tar.gz
+[2024-05-27 18:01:56] INFO root fetch - processPackages [mrd-python]: executing diffoscope
+[2024-05-27 18:01:56] INFO root fetch - processPackages [mrd-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mrd_python-2.0.0rc2.tar.gz tmp/mrd_python-2.0.0rc3.tar.gz --markdown 20240527/m/mrd-python/2.0.0rc2-2.0.0rc3/README.md --exclude *.pyd
+[2024-05-27 18:01:56] INFO root fetch - processPackages [giskard-hub]: executing diffoscope
+[2024-05-27 18:01:56] INFO root fetch - processPackages [giskard-hub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/giskard_hub-0.1.0.tar.gz tmp/giskard_hub-0.1.1.tar.gz --markdown 20240527/g/giskard-hub/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-27 18:01:57] INFO root fetch - processPackages [aioboto3]: executing diffoscope
+[2024-05-27 18:01:57] INFO root fetch - processPackages [aioboto3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aioboto3-9.5.0.tar.gz tmp/aioboto3-9.6.0.tar.gz --markdown 20240527/a/aioboto3/9.5.0-9.6.0/README.md --exclude *.pyd
+[2024-05-27 18:01:57] INFO root fetch - processPackages [apt-mirror]: executing diffoscope
+[2024-05-27 18:01:57] INFO root fetch - processPackages [apt-mirror]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apt_mirror-6a2.tar.gz tmp/apt_mirror-6a3.tar.gz --markdown 20240527/a/apt-mirror/6a2-6a3/README.md --exclude *.pyd
+[2024-05-27 18:01:57] INFO root fetch - processPackages [strax]: executing diffoscope
+[2024-05-27 18:01:57] INFO root fetch - processPackages [strax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strax-1.6.3.tar.gz tmp/strax-1.6.4.tar.gz --markdown 20240527/s/strax/1.6.3-1.6.4/README.md --exclude *.pyd
+[2024-05-27 18:01:57] INFO root fetch - processPackages [giskard-hub]: Remove: archive file [/home/abi/fetcher/tmp/giskard_hub-0.1.0.tar.gz]
+[2024-05-27 18:01:57] INFO root fetch - processPackages [giskard-hub]: Remove: archive file [/home/abi/fetcher/tmp/giskard_hub-0.1.1.tar.gz]
+[2024-05-27 18:01:57] INFO root fetch - main [MainThread]: End processing [giskard-hub]: success
+[2024-05-27 18:01:57] INFO root fetch - processPackages [mrd-python]: Remove: archive file [/home/abi/fetcher/tmp/mrd_python-2.0.0rc2.tar.gz]
+[2024-05-27 18:01:57] INFO root fetch - processPackages [mrd-python]: Remove: archive file [/home/abi/fetcher/tmp/mrd_python-2.0.0rc3.tar.gz]
+[2024-05-27 18:01:57] INFO root fetch - main [MainThread]: End processing [mrd-python]: success
+[2024-05-27 18:01:57] INFO root fetch - processPackages [aioboto3]: Remove: archive file [/home/abi/fetcher/tmp/aioboto3-9.5.0.tar.gz]
+[2024-05-27 18:01:57] INFO root fetch - processPackages [aioboto3]: Remove: archive file [/home/abi/fetcher/tmp/aioboto3-9.6.0.tar.gz]
+[2024-05-27 18:01:57] INFO root fetch - main [MainThread]: End processing [aioboto3]: success
+[2024-05-27 18:01:57] INFO root fetch - processPackages [apt-mirror]: Remove: archive file [/home/abi/fetcher/tmp/apt_mirror-6a2.tar.gz]
+[2024-05-27 18:01:57] INFO root fetch - processPackages [apt-mirror]: Remove: archive file [/home/abi/fetcher/tmp/apt_mirror-6a3.tar.gz]
+[2024-05-27 18:01:57] INFO root fetch - main [MainThread]: End processing [apt-mirror]: success
+[2024-05-27 18:01:58] INFO root fetch - processPackages [python-semantic-release]: Remove: archive file [/home/abi/fetcher/tmp/python_semantic_release-9.7.2.tar.gz]
+[2024-05-27 18:01:58] INFO root fetch - processPackages [python-semantic-release]: Remove: archive file [/home/abi/fetcher/tmp/python_semantic_release-9.7.3.tar.gz]
+[2024-05-27 18:01:58] INFO root fetch - main [MainThread]: End processing [python-semantic-release]: success
+[2024-05-27 18:01:58] INFO root fetch - processPackages [strax]: Remove: archive file [/home/abi/fetcher/tmp/strax-1.6.3.tar.gz]
+[2024-05-27 18:01:58] INFO root fetch - processPackages [strax]: Remove: archive file [/home/abi/fetcher/tmp/strax-1.6.4.tar.gz]
+[2024-05-27 18:01:58] INFO root fetch - main [MainThread]: End processing [strax]: success
+[2024-05-27 18:02:01] INFO root fetch - processPackages [ert]: Remove: archive file [/home/abi/fetcher/tmp/ert-9.0.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-27 18:02:01] INFO root fetch - processPackages [ert]: Remove: archive file [/home/abi/fetcher/tmp/ert-9.0.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-27 18:02:01] INFO root fetch - main [MainThread]: End processing [ert]: success
+[2024-05-27 18:02:01] INFO root fetch - main [MainThread]: Store serial: [23398084]
