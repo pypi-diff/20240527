@@ -20411,3 +20411,42 @@ EOFError: EOF read where object expected
 [2024-05-27 17:28:40] INFO root fetch - processPackages [sbcli-dev]: Remove: archive file [/home/abi/fetcher/tmp/sbcli_dev-2.7.5.zip]
 [2024-05-27 17:28:40] INFO root fetch - main [MainThread]: End processing [sbcli-dev]: success
 [2024-05-27 17:28:40] INFO root fetch - main [MainThread]: Store serial: [23397688]
+[2024-05-27 17:30:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23397688]
+[2024-05-27 17:30:48] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-27 17:30:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: glide-for-redis
+[2024-05-27 17:30:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dvcx
+[2024-05-27 17:30:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: librds
+[2024-05-27 17:30:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gen-vm-image
+[2024-05-27 17:30:48] INFO root fetch - processPackages [dvcx]: New version: [0.84.2] Old Version: [0.84.1]
+[2024-05-27 17:30:48] INFO root fetch - processPackages [librds]: New version: [1.3.6] Old Version: [1.3.5]
+[2024-05-27 17:30:49] INFO root fetch - processPackages [glide-for-redis]: New version: [0.4.0rc4] Old Version: [0.4.0rc20]
+[2024-05-27 17:30:49] INFO root fetch - processPackages [dvcx]: Downloading https://files.pythonhosted.org/packages/2b/a0/9ceb98eb551ba326b29e3b0ec73a13d8e0cca16323c198b5e6cf3268ac34/dvcx-0.84.1.tar.gz
+[2024-05-27 17:30:49] INFO root fetch - processPackages [gen-vm-image]: New version: [0.0.1a0] Old Version: [0.0.0a0]
+[2024-05-27 17:30:49] INFO root fetch - processPackages [glide-for-redis]: Downloading https://files.pythonhosted.org/packages/d2/6e/9adc066fc96ae5e8b8fc1fb0aecc7e54933df7d97155e0bf2d386c7b226b/glide_for_redis-0.4.0rc20-cp39-cp39-manylinux_2_28_aarch64.whl
+[2024-05-27 17:30:49] INFO root fetch - processPackages [librds]: Downloading https://files.pythonhosted.org/packages/b4/a1/cd3f65acd549357eb4f8cd81d3c419b0a9c60a13e6ff9250829244fda6b5/librds-1.3.5.tar.gz
+[2024-05-27 17:30:49] INFO root fetch - processPackages [gen-vm-image]: Downloading https://files.pythonhosted.org/packages/68/db/510addb3e132563288d79a47772e0ff4922e6c7f0acd70532e684525bad0/gen-vm-image-0.0.0a0.tar.gz
+[2024-05-27 17:30:49] INFO root fetch - processPackages [dvcx]: Downloading https://files.pythonhosted.org/packages/f4/0d/001f508ec7ff933d38afafdef8e1c3cd8b11644a23832ec11dffee9ed980/dvcx-0.84.2.tar.gz
+[2024-05-27 17:30:49] INFO root fetch - processPackages [dvcx]: executing diffoscope
+[2024-05-27 17:30:49] INFO root fetch - processPackages [dvcx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dvcx-0.84.1.tar.gz tmp/dvcx-0.84.2.tar.gz --markdown 20240527/d/dvcx/0.84.1-0.84.2/README.md --exclude *.pyd
+[2024-05-27 17:30:49] INFO root fetch - processPackages [glide-for-redis]: Downloading https://files.pythonhosted.org/packages/c5/ea/a36d5fd0dab7647960a2afd8cbc58f9f6ab84c6c903a2ae0d90b9954daec/glide_for_redis-0.4.0rc4-cp39-cp39-manylinux_2_28_aarch64.whl
+[2024-05-27 17:30:49] INFO root fetch - processPackages [librds]: Downloading https://files.pythonhosted.org/packages/7b/3c/4f85797fcea7379e321c768997cebfc81298d13b9c6f1a404addf1b8f7c1/librds-1.3.6.tar.gz
+[2024-05-27 17:30:49] INFO root fetch - processPackages [librds]: executing diffoscope
+[2024-05-27 17:30:49] INFO root fetch - processPackages [librds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/librds-1.3.5.tar.gz tmp/librds-1.3.6.tar.gz --markdown 20240527/l/librds/1.3.5-1.3.6/README.md --exclude *.pyd
+[2024-05-27 17:30:49] INFO root fetch - processPackages [glide-for-redis]: executing diffoscope
+[2024-05-27 17:30:49] INFO root fetch - processPackages [glide-for-redis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glide_for_redis-0.4.0rc20-cp39-cp39-manylinux_2_28_aarch64.whl.zip tmp/glide_for_redis-0.4.0rc4-cp39-cp39-manylinux_2_28_aarch64.whl.zip --markdown 20240527/g/glide-for-redis/0.4.0rc20-0.4.0rc4/README.md --exclude *.pyd
+[2024-05-27 17:30:49] INFO root fetch - processPackages [gen-vm-image]: Downloading https://files.pythonhosted.org/packages/da/a0/9c2c7433e066816481ac8fea190d431fe8f6d74a4962ab028bb214955931/gen_vm_image-0.0.1a0.tar.gz
+[2024-05-27 17:30:49] INFO root fetch - processPackages [gen-vm-image]: executing diffoscope
+[2024-05-27 17:30:49] INFO root fetch - processPackages [gen-vm-image]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gen-vm-image-0.0.0a0.tar.gz tmp/gen_vm_image-0.0.1a0.tar.gz --markdown 20240527/g/gen-vm-image/0.0.0a0-0.0.1a0/README.md --exclude *.pyd
+[2024-05-27 17:30:50] INFO root fetch - processPackages [librds]: Remove: archive file [/home/abi/fetcher/tmp/librds-1.3.5.tar.gz]
+[2024-05-27 17:30:50] INFO root fetch - processPackages [librds]: Remove: archive file [/home/abi/fetcher/tmp/librds-1.3.6.tar.gz]
+[2024-05-27 17:30:50] INFO root fetch - main [MainThread]: End processing [librds]: success
+[2024-05-27 17:30:50] INFO root fetch - processPackages [gen-vm-image]: Remove: archive file [/home/abi/fetcher/tmp/gen-vm-image-0.0.0a0.tar.gz]
+[2024-05-27 17:30:50] INFO root fetch - processPackages [gen-vm-image]: Remove: archive file [/home/abi/fetcher/tmp/gen_vm_image-0.0.1a0.tar.gz]
+[2024-05-27 17:30:50] INFO root fetch - main [MainThread]: End processing [gen-vm-image]: success
+[2024-05-27 17:30:50] INFO root fetch - processPackages [dvcx]: Remove: archive file [/home/abi/fetcher/tmp/dvcx-0.84.1.tar.gz]
+[2024-05-27 17:30:50] INFO root fetch - processPackages [dvcx]: Remove: archive file [/home/abi/fetcher/tmp/dvcx-0.84.2.tar.gz]
+[2024-05-27 17:30:50] INFO root fetch - main [MainThread]: End processing [dvcx]: success
+[2024-05-27 17:31:01] INFO root fetch - processPackages [glide-for-redis]: Remove: archive file [/home/abi/fetcher/tmp/glide_for_redis-0.4.0rc20-cp39-cp39-manylinux_2_28_aarch64.whl.zip]
+[2024-05-27 17:31:01] INFO root fetch - processPackages [glide-for-redis]: Remove: archive file [/home/abi/fetcher/tmp/glide_for_redis-0.4.0rc4-cp39-cp39-manylinux_2_28_aarch64.whl.zip]
+[2024-05-27 17:31:01] INFO root fetch - main [MainThread]: End processing [glide-for-redis]: success
+[2024-05-27 17:31:01] INFO root fetch - main [MainThread]: Store serial: [23397719]
