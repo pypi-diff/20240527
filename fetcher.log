@@ -13935,3 +13935,54 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 13:25:55] INFO root fetch - processPackages [torchrl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrl_nightly-2024.5.9-cp39-cp39-win_amd64.whl.zip]
 [2024-05-27 13:25:55] INFO root fetch - main [MainThread]: End processing [torchrl-nightly]: success
 [2024-05-27 13:25:55] INFO root fetch - main [MainThread]: Store serial: [23394707]
+[2024-05-27 13:28:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23394707]
+[2024-05-27 13:28:05] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-27 13:28:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: torchtnt-nightly
+[2024-05-27 13:28:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyexmars
+[2024-05-27 13:28:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: CI-CloudConnector
+[2024-05-27 13:28:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: torchx-nightly
+[2024-05-27 13:28:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: csnlp
+[2024-05-27 13:28:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: IR3
+[2024-05-27 13:28:05] INFO root fetch - processPackages [CI-CloudConnector]: New version: [0.9] Old Version: [0.84]
+[2024-05-27 13:28:05] INFO root fetch - processPackages [pyexmars]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-27 13:28:05] INFO root fetch - processPackages [csnlp]: New version: [1.5.9rc3] Old Version: [1.5.9rc2]
+[2024-05-27 13:28:05] INFO root fetch - processPackages [torchtnt-nightly]: New version: [2024.5.26] Old Version: [2024.5.25]
+[2024-05-27 13:28:05] INFO root fetch - processPackages [torchx-nightly]: New version: [2024.5.9] Old Version: [2024.5.8]
+[2024-05-27 13:28:05] WARNING root fetch - processPackages [IR3]: Skipping, unable to determine old version
+[2024-05-27 13:28:05] INFO root fetch - main [MainThread]: End processing [IR3] error
+[2024-05-27 13:28:06] INFO root fetch - processPackages [pyexmars]: Downloading https://files.pythonhosted.org/packages/f5/ea/450e92ecec3de8b8c48f75ea845423569b838d95282d8bd1cfbca6a93bcc/pyexmars-1.0.8.tar.gz
+[2024-05-27 13:28:06] INFO root fetch - processPackages [csnlp]: Downloading https://files.pythonhosted.org/packages/2e/2b/01f3b4918ddda421aecf5cbdc4f03bde43a1b66121a33d6667e1ab1e4451/csnlp-1.5.9rc2.tar.gz
+[2024-05-27 13:28:06] INFO root fetch - processPackages [torchtnt-nightly]: Downloading https://files.pythonhosted.org/packages/34/ea/e7433819af9612dcb911c786636dc6546368105bb31639f6645fb10b0f8c/torchtnt_nightly-2024.5.25.tar.gz
+[2024-05-27 13:28:06] INFO root fetch - processPackages [torchx-nightly]: Downloading https://files.pythonhosted.org/packages/4f/2c/1b1fd11c1eb29345cef72d90c551ee6ca39cb1ca91dcb13a62e39d09d3e9/torchx_nightly-2024.5.8-py3-none-any.whl
+[2024-05-27 13:28:06] INFO root fetch - processPackages [CI-CloudConnector]: Downloading https://files.pythonhosted.org/packages/e7/f9/147a1bfa67fa4da20651fb90f55ba6e6b7498dd459d49eaa00fff0f426a1/ci_cloudconnector-0.84.tar.gz
+[2024-05-27 13:28:06] INFO root fetch - processPackages [csnlp]: Downloading https://files.pythonhosted.org/packages/75/46/cbfd8deaa3343e95a5f140e816f1f97a5c135d2e3934e237c6e2f0ee5f94/csnlp-1.5.9rc3.tar.gz
+[2024-05-27 13:28:06] INFO root fetch - processPackages [CI-CloudConnector]: Downloading https://files.pythonhosted.org/packages/4c/eb/b4639debe39d86d516b4aa0b9e6cdec32e0a06d0220a60ed52a6b5fada1f/CI_CloudConnector-0.9.zip
+[2024-05-27 13:28:06] INFO root fetch - processPackages [torchx-nightly]: Downloading https://files.pythonhosted.org/packages/77/19/3475ceeec15466054f155b399d006faaf128258c35d771397c04ac9cf1e4/torchx_nightly-2024.5.9-py3-none-any.whl
+[2024-05-27 13:28:06] INFO root fetch - processPackages [pyexmars]: Downloading https://files.pythonhosted.org/packages/50/d1/a2145ee44f0f4ae6052d7d86300c1d66fa728fc265646b849c15ca966759/pyexmars-1.0.9.tar.gz
+[2024-05-27 13:28:06] INFO root fetch - processPackages [torchtnt-nightly]: Downloading https://files.pythonhosted.org/packages/07/1a/55d1f11bda29d03e46d4ddc4bce2f2c4d9e9bc1d6946083895e6b626c0bc/torchtnt_nightly-2024.5.26.tar.gz
+[2024-05-27 13:28:06] INFO root fetch - processPackages [CI-CloudConnector]: executing diffoscope
+[2024-05-27 13:28:06] INFO root fetch - processPackages [CI-CloudConnector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ci_cloudconnector-0.84.tar.gz tmp/CI_CloudConnector-0.9.zip --markdown 20240527/C/CI-CloudConnector/0.84-0.9/README.md --exclude *.pyd
+[2024-05-27 13:28:06] INFO root fetch - processPackages [csnlp]: executing diffoscope
+[2024-05-27 13:28:06] INFO root fetch - processPackages [csnlp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/csnlp-1.5.9rc2.tar.gz tmp/csnlp-1.5.9rc3.tar.gz --markdown 20240527/c/csnlp/1.5.9rc2-1.5.9rc3/README.md --exclude *.pyd
+[2024-05-27 13:28:06] INFO root fetch - processPackages [torchx-nightly]: executing diffoscope
+[2024-05-27 13:28:06] INFO root fetch - processPackages [torchx-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchx_nightly-2024.5.8-py3-none-any.whl.zip tmp/torchx_nightly-2024.5.9-py3-none-any.whl.zip --markdown 20240527/t/torchx-nightly/2024.5.8-2024.5.9/README.md --exclude *.pyd
+[2024-05-27 13:28:06] INFO root fetch - processPackages [pyexmars]: executing diffoscope
+[2024-05-27 13:28:06] INFO root fetch - processPackages [pyexmars]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyexmars-1.0.8.tar.gz tmp/pyexmars-1.0.9.tar.gz --markdown 20240527/p/pyexmars/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-27 13:28:06] INFO root fetch - processPackages [torchtnt-nightly]: executing diffoscope
+[2024-05-27 13:28:06] INFO root fetch - processPackages [torchtnt-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchtnt_nightly-2024.5.25.tar.gz tmp/torchtnt_nightly-2024.5.26.tar.gz --markdown 20240527/t/torchtnt-nightly/2024.5.25-2024.5.26/README.md --exclude *.pyd
+[2024-05-27 13:28:06] INFO root fetch - processPackages [CI-CloudConnector]: Remove: archive file [/home/abi/fetcher/tmp/ci_cloudconnector-0.84.tar.gz]
+[2024-05-27 13:28:06] INFO root fetch - processPackages [CI-CloudConnector]: Remove: archive file [/home/abi/fetcher/tmp/CI_CloudConnector-0.9.zip]
+[2024-05-27 13:28:06] INFO root fetch - main [MainThread]: End processing [CI-CloudConnector]: success
+[2024-05-27 13:28:07] INFO root fetch - processPackages [pyexmars]: Remove: archive file [/home/abi/fetcher/tmp/pyexmars-1.0.8.tar.gz]
+[2024-05-27 13:28:07] INFO root fetch - processPackages [pyexmars]: Remove: archive file [/home/abi/fetcher/tmp/pyexmars-1.0.9.tar.gz]
+[2024-05-27 13:28:07] INFO root fetch - main [MainThread]: End processing [pyexmars]: success
+[2024-05-27 13:28:07] INFO root fetch - processPackages [csnlp]: Remove: archive file [/home/abi/fetcher/tmp/csnlp-1.5.9rc2.tar.gz]
+[2024-05-27 13:28:07] INFO root fetch - processPackages [csnlp]: Remove: archive file [/home/abi/fetcher/tmp/csnlp-1.5.9rc3.tar.gz]
+[2024-05-27 13:28:07] INFO root fetch - main [MainThread]: End processing [csnlp]: success
+[2024-05-27 13:28:07] INFO root fetch - processPackages [torchtnt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchtnt_nightly-2024.5.25.tar.gz]
+[2024-05-27 13:28:07] INFO root fetch - processPackages [torchtnt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchtnt_nightly-2024.5.26.tar.gz]
+[2024-05-27 13:28:07] INFO root fetch - main [MainThread]: End processing [torchtnt-nightly]: success
+[2024-05-27 13:28:07] INFO root fetch - processPackages [torchx-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchx_nightly-2024.5.8-py3-none-any.whl.zip]
+[2024-05-27 13:28:07] INFO root fetch - processPackages [torchx-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchx_nightly-2024.5.9-py3-none-any.whl.zip]
+[2024-05-27 13:28:07] INFO root fetch - main [MainThread]: End processing [torchx-nightly]: success
+[2024-05-27 13:28:07] INFO root fetch - main [MainThread]: Store serial: [23394725]
