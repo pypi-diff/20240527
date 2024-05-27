@@ -11485,3 +11485,59 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 11:48:06] INFO root fetch - processPackages [qulacs]: Remove: archive file [/home/abi/fetcher/tmp/qulacs-0.6.4.tar.gz]
 [2024-05-27 11:48:06] INFO root fetch - main [MainThread]: End processing [qulacs]: success
 [2024-05-27 11:48:06] INFO root fetch - main [MainThread]: Store serial: [23393495]
+[2024-05-27 11:50:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23393495]
+[2024-05-27 11:50:15] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-27 11:50:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pibe
+[2024-05-27 11:50:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: asp-selftest
+[2024-05-27 11:50:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mlrun
+[2024-05-27 11:50:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lyyguifunction
+[2024-05-27 11:50:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: chess-transformer
+[2024-05-27 11:50:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: CinetPay
+[2024-05-27 11:50:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tonpy-dev
+[2024-05-27 11:50:15] INFO root fetch - processPackages [chess-transformer]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-27 11:50:15] INFO root fetch - processPackages [asp-selftest]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-27 11:50:15] INFO root fetch - processPackages [pibe]: New version: [0.9] Old Version: [0.8]
+[2024-05-27 11:50:15] WARNING root fetch - processPackages [CinetPay]: Skipping, unable to determine old version
+[2024-05-27 11:50:15] INFO root fetch - main [MainThread]: End processing [CinetPay] error
+[2024-05-27 11:50:15] INFO root fetch - processPackages [chess-transformer]: Downloading https://files.pythonhosted.org/packages/b9/ff/3992460c4962242e3031a9b798fa0904fb9d3e7a25ea8331d12d5e7990b3/chess_transformer-0.1.3.tar.gz
+[2024-05-27 11:50:15] INFO root fetch - processPackages [lyyguifunction]: New version: [1.8] Old Version: [1.7]
+[2024-05-27 11:50:15] INFO root fetch - processPackages [mlrun]: New version: [1.7.0rc9] Old Version: [1.7.0rc8]
+[2024-05-27 11:50:15] INFO root fetch - processPackages [tonpy-dev]: New version: [0.0.0.4.4a1] Old Version: [0.0.0.4.3rc1]
+[2024-05-27 11:50:15] INFO root fetch - processPackages [asp-selftest]: Downloading https://files.pythonhosted.org/packages/a4/88/76556a7f8fcc193961bf4d55da1861cc3896e1b8aa8dcf6f92ad1264d155/asp_selftest-0.0.6.tar.gz
+[2024-05-27 11:50:15] INFO root fetch - processPackages [pibe]: Downloading https://files.pythonhosted.org/packages/63/d3/72050b175e74d85af2ab3d71c8e1da1f09bb492c9e055cec34b0652c3ba6/pibe-0.8.tar.gz
+[2024-05-27 11:50:15] INFO root fetch - processPackages [lyyguifunction]: Downloading https://files.pythonhosted.org/packages/49/1b/10e5f23ec1e0da1678024ac2fc93564590fcbaec516c5aefdfd3af881b8b/lyyguifunction-1.7.tar.gz
+[2024-05-27 11:50:15] INFO root fetch - processPackages [mlrun]: Downloading https://files.pythonhosted.org/packages/3e/de/bbc90293e3757cb8179dc320aa3df99845445ecfbc16972510c5e80415c3/mlrun-1.7.0rc8-py3-none-any.whl
+[2024-05-27 11:50:15] INFO root fetch - processPackages [tonpy-dev]: Downloading https://files.pythonhosted.org/packages/14/48/91972836ffb713d23563146667286a527232dd795545fae0e06aafda1efa/tonpy_dev-0.0.0.4.3rc1-cp39-cp39-manylinux2014_x86_64.whl
+[2024-05-27 11:50:15] INFO root fetch - processPackages [chess-transformer]: Downloading https://files.pythonhosted.org/packages/83/6b/4af6f3be43bc29449fb466e2f87ef87e36f3f827536a45c98c1f0ec64d25/chess_transformer-0.1.4.tar.gz
+[2024-05-27 11:50:15] WARNING root fetch - processPackages [tonpy-dev]: Skipping package: exceeds size limit 11301622>=10485760
+[2024-05-27 11:50:15] INFO root fetch - main [MainThread]: End processing [tonpy-dev] error
+[2024-05-27 11:50:15] INFO root fetch - processPackages [asp-selftest]: Downloading https://files.pythonhosted.org/packages/67/66/5ecf2b4724256e46a987f5ec2757bb056607970c66b2bd411d2c9048d155/asp_selftest-0.0.7.tar.gz
+[2024-05-27 11:50:15] INFO root fetch - processPackages [pibe]: Downloading https://files.pythonhosted.org/packages/22/23/cd7d5f65eaaea90607aee6b4ad7c4351d190d29e4d73aa48206ea30cee1c/pibe-0.9.tar.gz
+[2024-05-27 11:50:15] INFO root fetch - processPackages [chess-transformer]: executing diffoscope
+[2024-05-27 11:50:15] INFO root fetch - processPackages [chess-transformer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chess_transformer-0.1.3.tar.gz tmp/chess_transformer-0.1.4.tar.gz --markdown 20240527/c/chess-transformer/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-27 11:50:15] INFO root fetch - processPackages [lyyguifunction]: Downloading https://files.pythonhosted.org/packages/a4/49/22c8b43afd58f64194543abead0f9da338156dab1f67bf1f3731700ff0c7/lyyguifunction-1.8.tar.gz
+[2024-05-27 11:50:16] INFO root fetch - processPackages [asp-selftest]: executing diffoscope
+[2024-05-27 11:50:16] INFO root fetch - processPackages [asp-selftest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asp_selftest-0.0.6.tar.gz tmp/asp_selftest-0.0.7.tar.gz --markdown 20240527/a/asp-selftest/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-27 11:50:16] INFO root fetch - processPackages [pibe]: executing diffoscope
+[2024-05-27 11:50:16] INFO root fetch - processPackages [pibe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pibe-0.8.tar.gz tmp/pibe-0.9.tar.gz --markdown 20240527/p/pibe/0.8-0.9/README.md --exclude *.pyd
+[2024-05-27 11:50:16] INFO root fetch - processPackages [lyyguifunction]: executing diffoscope
+[2024-05-27 11:50:16] INFO root fetch - processPackages [lyyguifunction]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lyyguifunction-1.7.tar.gz tmp/lyyguifunction-1.8.tar.gz --markdown 20240527/l/lyyguifunction/1.7-1.8/README.md --exclude *.pyd
+[2024-05-27 11:50:16] INFO root fetch - processPackages [chess-transformer]: Remove: archive file [/home/abi/fetcher/tmp/chess_transformer-0.1.3.tar.gz]
+[2024-05-27 11:50:16] INFO root fetch - processPackages [chess-transformer]: Remove: archive file [/home/abi/fetcher/tmp/chess_transformer-0.1.4.tar.gz]
+[2024-05-27 11:50:16] INFO root fetch - main [MainThread]: End processing [chess-transformer]: success
+[2024-05-27 11:50:16] INFO root fetch - processPackages [pibe]: Remove: archive file [/home/abi/fetcher/tmp/pibe-0.8.tar.gz]
+[2024-05-27 11:50:16] INFO root fetch - processPackages [pibe]: Remove: archive file [/home/abi/fetcher/tmp/pibe-0.9.tar.gz]
+[2024-05-27 11:50:16] INFO root fetch - main [MainThread]: End processing [pibe]: success
+[2024-05-27 11:50:16] INFO root fetch - processPackages [asp-selftest]: Remove: archive file [/home/abi/fetcher/tmp/asp_selftest-0.0.6.tar.gz]
+[2024-05-27 11:50:16] INFO root fetch - processPackages [asp-selftest]: Remove: archive file [/home/abi/fetcher/tmp/asp_selftest-0.0.7.tar.gz]
+[2024-05-27 11:50:16] INFO root fetch - main [MainThread]: End processing [asp-selftest]: success
+[2024-05-27 11:50:16] INFO root fetch - processPackages [mlrun]: Downloading https://files.pythonhosted.org/packages/05/f2/d80ba0edb70be9434bf5fb1badcfad0aef24823e8363d78fc935429023ad/mlrun-1.7.0rc9-py3-none-any.whl
+[2024-05-27 11:50:16] INFO root fetch - processPackages [lyyguifunction]: Remove: archive file [/home/abi/fetcher/tmp/lyyguifunction-1.7.tar.gz]
+[2024-05-27 11:50:16] INFO root fetch - processPackages [lyyguifunction]: Remove: archive file [/home/abi/fetcher/tmp/lyyguifunction-1.8.tar.gz]
+[2024-05-27 11:50:16] INFO root fetch - main [MainThread]: End processing [lyyguifunction]: success
+[2024-05-27 11:50:16] INFO root fetch - processPackages [mlrun]: executing diffoscope
+[2024-05-27 11:50:16] INFO root fetch - processPackages [mlrun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlrun-1.7.0rc8-py3-none-any.whl.zip tmp/mlrun-1.7.0rc9-py3-none-any.whl.zip --markdown 20240527/m/mlrun/1.7.0rc8-1.7.0rc9/README.md --exclude *.pyd
+[2024-05-27 11:50:18] INFO root fetch - processPackages [mlrun]: Remove: archive file [/home/abi/fetcher/tmp/mlrun-1.7.0rc8-py3-none-any.whl.zip]
+[2024-05-27 11:50:18] INFO root fetch - processPackages [mlrun]: Remove: archive file [/home/abi/fetcher/tmp/mlrun-1.7.0rc9-py3-none-any.whl.zip]
+[2024-05-27 11:50:18] INFO root fetch - main [MainThread]: End processing [mlrun]: success
+[2024-05-27 11:50:18] INFO root fetch - main [MainThread]: Store serial: [23393514]
