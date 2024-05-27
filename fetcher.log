@@ -23329,3 +23329,39 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-05-27 19:34:37] INFO root fetch - processPackages [cybrid-api-id-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-id-python-0.99.0.tar.gz]
 [2024-05-27 19:34:37] INFO root fetch - main [MainThread]: End processing [cybrid-api-id-python]: success
 [2024-05-27 19:34:37] INFO root fetch - main [MainThread]: Store serial: [23399185]
+[2024-05-27 19:36:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23399185]
+[2024-05-27 19:36:45] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-27 19:36:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cybrid-api-bank-python
+[2024-05-27 19:36:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cybrid-api-organization-python
+[2024-05-27 19:36:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: crewtune
+[2024-05-27 19:36:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: touying
+[2024-05-27 19:36:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: am2r-yams
+[2024-05-27 19:36:46] INFO root fetch - processPackages [cybrid-api-bank-python]: New version: [0.99.0] Old Version: [0.98.2]
+[2024-05-27 19:36:46] INFO root fetch - processPackages [cybrid-api-organization-python]: New version: [0.99.0] Old Version: [0.98.2]
+[2024-05-27 19:36:46] WARNING root fetch - processPackages [crewtune]: Skipping, unable to determine old version
+[2024-05-27 19:36:46] INFO root fetch - main [MainThread]: End processing [crewtune] error
+[2024-05-27 19:36:46] INFO root fetch - processPackages [am2r-yams]: New version: [2.5.0] Old Version: [2.4.0]
+[2024-05-27 19:36:46] WARNING root fetch - processPackages [touying]: Skipping, unable to determine old version
+[2024-05-27 19:36:46] INFO root fetch - main [MainThread]: End processing [touying] error
+[2024-05-27 19:36:46] INFO root fetch - processPackages [cybrid-api-bank-python]: Downloading https://files.pythonhosted.org/packages/da/dd/e8ea2fc7e8f671e18adae35333d00fdc692f7637860f9e361fba5fe3b85a/cybrid-api-bank-python-0.98.2.tar.gz
+[2024-05-27 19:36:46] INFO root fetch - processPackages [cybrid-api-organization-python]: Downloading https://files.pythonhosted.org/packages/75/d9/17a583a2d5fccaef7210a11d9f7dc963aab51cd4a5ae5f7983c03291f4bc/cybrid-api-organization-python-0.98.2.tar.gz
+[2024-05-27 19:36:46] INFO root fetch - processPackages [am2r-yams]: Downloading https://files.pythonhosted.org/packages/a8/57/27d5f8632f4ab456eb05c1350eb424f7342e665b1e448c466ceec4ff94ee/am2r_yams-2.4.0.tar.gz
+[2024-05-27 19:36:46] INFO root fetch - processPackages [cybrid-api-organization-python]: Downloading https://files.pythonhosted.org/packages/93/ab/a857018ac26aeaa884608066dbe6bd482e17a4edf88533d3335a3ed2a25c/cybrid-api-organization-python-0.99.0.tar.gz
+[2024-05-27 19:36:46] INFO root fetch - processPackages [cybrid-api-bank-python]: Downloading https://files.pythonhosted.org/packages/a1/e6/1c6a95191a8826ea0636949d5bfdb7d34a65b1f81b3cb27e1863a88a1552/cybrid-api-bank-python-0.99.0.tar.gz
+[2024-05-27 19:36:46] INFO root fetch - processPackages [cybrid-api-organization-python]: executing diffoscope
+[2024-05-27 19:36:46] INFO root fetch - processPackages [cybrid-api-organization-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-organization-python-0.98.2.tar.gz tmp/cybrid-api-organization-python-0.99.0.tar.gz --markdown 20240527/c/cybrid-api-organization-python/0.98.2-0.99.0/README.md --exclude *.pyd
+[2024-05-27 19:36:46] INFO root fetch - processPackages [cybrid-api-bank-python]: executing diffoscope
+[2024-05-27 19:36:46] INFO root fetch - processPackages [cybrid-api-bank-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-bank-python-0.98.2.tar.gz tmp/cybrid-api-bank-python-0.99.0.tar.gz --markdown 20240527/c/cybrid-api-bank-python/0.98.2-0.99.0/README.md --exclude *.pyd
+[2024-05-27 19:36:46] INFO root fetch - processPackages [am2r-yams]: Downloading https://files.pythonhosted.org/packages/8d/41/e7379ca5cad7cac242c029f8f70ffa578728b6c1baba096cd1013ddd7fa7/am2r_yams-2.5.0.tar.gz
+[2024-05-27 19:36:47] INFO root fetch - processPackages [cybrid-api-organization-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-organization-python-0.98.2.tar.gz]
+[2024-05-27 19:36:47] INFO root fetch - processPackages [cybrid-api-organization-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-organization-python-0.99.0.tar.gz]
+[2024-05-27 19:36:47] INFO root fetch - main [MainThread]: End processing [cybrid-api-organization-python]: success
+[2024-05-27 19:36:47] INFO root fetch - processPackages [am2r-yams]: executing diffoscope
+[2024-05-27 19:36:47] INFO root fetch - processPackages [am2r-yams]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/am2r_yams-2.4.0.tar.gz tmp/am2r_yams-2.5.0.tar.gz --markdown 20240527/a/am2r-yams/2.4.0-2.5.0/README.md --exclude *.pyd
+[2024-05-27 19:36:48] INFO root fetch - processPackages [am2r-yams]: Remove: archive file [/home/abi/fetcher/tmp/am2r_yams-2.4.0.tar.gz]
+[2024-05-27 19:36:48] INFO root fetch - processPackages [am2r-yams]: Remove: archive file [/home/abi/fetcher/tmp/am2r_yams-2.5.0.tar.gz]
+[2024-05-27 19:36:48] INFO root fetch - main [MainThread]: End processing [am2r-yams]: success
+[2024-05-27 19:36:48] INFO root fetch - processPackages [cybrid-api-bank-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-bank-python-0.98.2.tar.gz]
+[2024-05-27 19:36:48] INFO root fetch - processPackages [cybrid-api-bank-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-bank-python-0.99.0.tar.gz]
+[2024-05-27 19:36:48] INFO root fetch - main [MainThread]: End processing [cybrid-api-bank-python]: success
+[2024-05-27 19:36:48] INFO root fetch - main [MainThread]: Store serial: [23399206]
