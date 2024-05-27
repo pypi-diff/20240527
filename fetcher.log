@@ -2266,3 +2266,36 @@
 [2024-05-27 02:56:54] INFO root fetch - processPackages [lckytools]: Remove: archive file [/home/abi/fetcher/tmp/lckytools-0.0.9.tar.gz]
 [2024-05-27 02:56:54] INFO root fetch - main [MainThread]: End processing [lckytools]: success
 [2024-05-27 02:56:54] INFO root fetch - main [MainThread]: Store serial: [23389203]
+[2024-05-27 02:58:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23389203]
+[2024-05-27 02:59:02] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-27 02:59:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wwbot
+[2024-05-27 02:59:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-lambda-layer-curl
+[2024-05-27 02:59:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nftpy
+[2024-05-27 02:59:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zetascale
+[2024-05-27 02:59:02] INFO root fetch - processPackages [cdk-lambda-layer-curl]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-05-27 02:59:02] WARNING root fetch - processPackages [nftpy]: Skipping, unable to determine old version
+[2024-05-27 02:59:02] INFO root fetch - main [MainThread]: End processing [nftpy] error
+[2024-05-27 02:59:02] INFO root fetch - processPackages [wwbot]: New version: [0.0.9] Old Version: [0.0.8rc0]
+[2024-05-27 02:59:02] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/c8/e2/39c88cfa63f418383f3a383b2b62dfe801cbfd5c53de4d005804c19d76dc/cdk-lambda-layer-curl-2.0.98.tar.gz
+[2024-05-27 02:59:02] INFO root fetch - processPackages [zetascale]: New version: [2.5.3] Old Version: [2.5.1]
+[2024-05-27 02:59:02] INFO root fetch - processPackages [wwbot]: Downloading https://files.pythonhosted.org/packages/f0/d6/539254b35a392b94716fc626b6b39fc2c1eeecf81b065028e8a8fa69ff5c/wwbot-0.0.8rc0.tar.gz
+[2024-05-27 02:59:02] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/2e/02/9e7ab6bc6191e2cbe6705c1530f695ed00527096133668b731e72d6a6445/cdk-lambda-layer-curl-2.0.99.tar.gz
+[2024-05-27 02:59:02] INFO root fetch - processPackages [zetascale]: Downloading https://files.pythonhosted.org/packages/35/9e/dfe62ba23f367e3a17276e9b527924d71279c58fcc7551da2d0ad1a86963/zetascale-2.5.1.tar.gz
+[2024-05-27 02:59:03] INFO root fetch - processPackages [wwbot]: Downloading https://files.pythonhosted.org/packages/60/06/f0d1dcf91cb575c47d6f9af17bfe431bf2e41fe342cd78c7d65bd6c8a27b/wwbot-0.0.9.tar.gz
+[2024-05-27 02:59:03] INFO root fetch - processPackages [wwbot]: executing diffoscope
+[2024-05-27 02:59:03] INFO root fetch - processPackages [wwbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wwbot-0.0.8rc0.tar.gz tmp/wwbot-0.0.9.tar.gz --markdown 20240527/w/wwbot/0.0.8rc0-0.0.9/README.md --exclude *.pyd
+[2024-05-27 02:59:03] INFO root fetch - processPackages [cdk-lambda-layer-curl]: executing diffoscope
+[2024-05-27 02:59:03] INFO root fetch - processPackages [cdk-lambda-layer-curl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-curl-2.0.98.tar.gz tmp/cdk-lambda-layer-curl-2.0.99.tar.gz --markdown 20240527/c/cdk-lambda-layer-curl/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-05-27 02:59:03] INFO root fetch - processPackages [zetascale]: Downloading https://files.pythonhosted.org/packages/e2/e2/70e21cea2fb8be393b1f6de51359a25a6af0908c6488a0419dd784849698/zetascale-2.5.3.tar.gz
+[2024-05-27 02:59:03] INFO root fetch - processPackages [zetascale]: executing diffoscope
+[2024-05-27 02:59:03] INFO root fetch - processPackages [zetascale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zetascale-2.5.1.tar.gz tmp/zetascale-2.5.3.tar.gz --markdown 20240527/z/zetascale/2.5.1-2.5.3/README.md --exclude *.pyd
+[2024-05-27 02:59:03] INFO root fetch - processPackages [wwbot]: Remove: archive file [/home/abi/fetcher/tmp/wwbot-0.0.8rc0.tar.gz]
+[2024-05-27 02:59:03] INFO root fetch - processPackages [wwbot]: Remove: archive file [/home/abi/fetcher/tmp/wwbot-0.0.9.tar.gz]
+[2024-05-27 02:59:03] INFO root fetch - main [MainThread]: End processing [wwbot]: success
+[2024-05-27 02:59:04] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.98.tar.gz]
+[2024-05-27 02:59:04] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.99.tar.gz]
+[2024-05-27 02:59:04] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
+[2024-05-27 02:59:04] INFO root fetch - processPackages [zetascale]: Remove: archive file [/home/abi/fetcher/tmp/zetascale-2.5.1.tar.gz]
+[2024-05-27 02:59:04] INFO root fetch - processPackages [zetascale]: Remove: archive file [/home/abi/fetcher/tmp/zetascale-2.5.3.tar.gz]
+[2024-05-27 02:59:04] INFO root fetch - main [MainThread]: End processing [zetascale]: success
+[2024-05-27 02:59:04] INFO root fetch - main [MainThread]: Store serial: [23389230]
