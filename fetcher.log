@@ -4426,3 +4426,63 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 05:13:55] INFO root fetch - processPackages [django-simple-history]: Remove: archive file [/home/abi/fetcher/tmp/django_simple_history-3.6.0.tar.gz]
 [2024-05-27 05:13:55] INFO root fetch - main [MainThread]: End processing [django-simple-history]: success
 [2024-05-27 05:13:55] INFO root fetch - main [MainThread]: Store serial: [23390126]
+[2024-05-27 05:15:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23390126]
+[2024-05-27 05:16:03] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-27 05:16:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: apiverve-sunrisesunset
+[2024-05-27 05:16:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pythonpy-clone
+[2024-05-27 05:16:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nsanic
+[2024-05-27 05:16:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: apiverve-tenseconverter
+[2024-05-27 05:16:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: keras-cv-nightly
+[2024-05-27 05:16:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: movoid-config
+[2024-05-27 05:16:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: apiverve-textsimilarity
+[2024-05-27 05:16:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: conflict-rpa
+[2024-05-27 05:16:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mavisim
+[2024-05-27 05:16:03] INFO root fetch - processPackages [pythonpy-clone]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-27 05:16:03] WARNING root fetch - processPackages [conflict-rpa]: Skipping, unable to determine old version
+[2024-05-27 05:16:03] INFO root fetch - main [MainThread]: End processing [conflict-rpa] error
+[2024-05-27 05:16:03] INFO root fetch - processPackages [keras-cv-nightly]: New version: [0.9.0.dev2024043000] Old Version: [0.9.0.dev2024042919]
+[2024-05-27 05:16:03] WARNING root fetch - processPackages [apiverve-sunrisesunset]: Skipping, unable to determine old version
+[2024-05-27 05:16:03] INFO root fetch - main [MainThread]: End processing [apiverve-sunrisesunset] error
+[2024-05-27 05:16:03] INFO root fetch - processPackages [pythonpy-clone]: Downloading https://files.pythonhosted.org/packages/4d/f1/11507ceb7e038be27ce40bdd69835d7761cbc0398fdfead230a56c640029/pythonpy-clone-0.0.4.tar.gz
+[2024-05-27 05:16:03] INFO root fetch - processPackages [keras-cv-nightly]: Downloading https://files.pythonhosted.org/packages/bd/17/3faa9e969f58abadca2ff3a4053bed558afb777bae344f994feeeaf1cfd3/keras_cv_nightly-0.9.0.dev2024042919.tar.gz
+[2024-05-27 05:16:03] WARNING root fetch - processPackages [apiverve-tenseconverter]: Skipping, unable to determine old version
+[2024-05-27 05:16:03] INFO root fetch - processPackages [nsanic]: New version: [2024.5.27] Old Version: [2024.5.26]
+[2024-05-27 05:16:03] INFO root fetch - main [MainThread]: End processing [apiverve-tenseconverter] error
+[2024-05-27 05:16:03] INFO root fetch - processPackages [movoid-config]: New version: [1.2.3] Old Version: [1.2.2]
+[2024-05-27 05:16:03] INFO root fetch - processPackages [mavisim]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-05-27 05:16:03] WARNING root fetch - processPackages [apiverve-textsimilarity]: Skipping, unable to determine old version
+[2024-05-27 05:16:03] INFO root fetch - main [MainThread]: End processing [apiverve-textsimilarity] error
+[2024-05-27 05:16:03] INFO root fetch - processPackages [nsanic]: Downloading https://files.pythonhosted.org/packages/7f/0a/cfc94063852cc8b000b23f3b1eda6caa11d419ebaba71a42c378b24baff4/nsanic-2024.5.26-py3-none-any.whl
+[2024-05-27 05:16:04] INFO root fetch - processPackages [movoid-config]: Downloading https://files.pythonhosted.org/packages/f9/42/f4d8706b5e5a23f58e71b578f11b95588334b1b0b0255f5a18d0d0c2bce7/movoid_config-1.2.2.tar.gz
+[2024-05-27 05:16:04] INFO root fetch - processPackages [pythonpy-clone]: Downloading https://files.pythonhosted.org/packages/95/d6/dedac49d3d50eeb083cd8c5a54316839f91921ce2dab85fbd3ba16b9cd2f/pythonpy_clone-0.0.5.tar.gz
+[2024-05-27 05:16:04] INFO root fetch - processPackages [mavisim]: Downloading https://files.pythonhosted.org/packages/9d/5a/e0dbe7e6ff03853bc0e2145643cb31136d19ef2e12c315b298ce9e743185/mavisim-1.1.8.tar.gz
+[2024-05-27 05:16:04] INFO root fetch - processPackages [keras-cv-nightly]: Downloading https://files.pythonhosted.org/packages/81/e8/990891e08c4d6686000132786b783a9e72d0cf684f6f44245f2949fd0e57/keras_cv_nightly-0.9.0.dev2024043000.tar.gz
+[2024-05-27 05:16:04] INFO root fetch - processPackages [pythonpy-clone]: executing diffoscope
+[2024-05-27 05:16:04] INFO root fetch - processPackages [pythonpy-clone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pythonpy-clone-0.0.4.tar.gz tmp/pythonpy_clone-0.0.5.tar.gz --markdown 20240527/p/pythonpy-clone/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-27 05:16:04] INFO root fetch - processPackages [keras-cv-nightly]: executing diffoscope
+[2024-05-27 05:16:04] INFO root fetch - processPackages [keras-cv-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras_cv_nightly-0.9.0.dev2024042919.tar.gz tmp/keras_cv_nightly-0.9.0.dev2024043000.tar.gz --markdown 20240527/k/keras-cv-nightly/0.9.0.dev2024042919-0.9.0.dev2024043000/README.md --exclude *.pyd
+[2024-05-27 05:16:04] INFO root fetch - processPackages [nsanic]: Downloading https://files.pythonhosted.org/packages/de/78/64ee1d3abd2c84fdabd7caa6ab64f06fc3445d8e5598a595f378c4469f74/nsanic-2024.5.27-py3-none-any.whl
+[2024-05-27 05:16:04] INFO root fetch - processPackages [mavisim]: Downloading https://files.pythonhosted.org/packages/fa/1a/6083d193a61e74fb23f8c5eda765dd8b1f9acc6333e87b23faa729ff53b3/mavisim-1.1.9.tar.gz
+[2024-05-27 05:16:04] INFO root fetch - processPackages [nsanic]: executing diffoscope
+[2024-05-27 05:16:04] INFO root fetch - processPackages [nsanic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nsanic-2024.5.26-py3-none-any.whl.zip tmp/nsanic-2024.5.27-py3-none-any.whl.zip --markdown 20240527/n/nsanic/2024.5.26-2024.5.27/README.md --exclude *.pyd
+[2024-05-27 05:16:04] INFO root fetch - processPackages [movoid-config]: Downloading https://files.pythonhosted.org/packages/85/bd/6d3d1e4c7636f479d36852d617c7e1916404f400184d434d876a8cf37457/movoid_config-1.2.3.tar.gz
+[2024-05-27 05:16:04] INFO root fetch - processPackages [mavisim]: executing diffoscope
+[2024-05-27 05:16:04] INFO root fetch - processPackages [mavisim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mavisim-1.1.8.tar.gz tmp/mavisim-1.1.9.tar.gz --markdown 20240527/m/mavisim/1.1.8-1.1.9/README.md --exclude *.pyd
+[2024-05-27 05:16:04] INFO root fetch - processPackages [movoid-config]: executing diffoscope
+[2024-05-27 05:16:04] INFO root fetch - processPackages [movoid-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/movoid_config-1.2.2.tar.gz tmp/movoid_config-1.2.3.tar.gz --markdown 20240527/m/movoid-config/1.2.2-1.2.3/README.md --exclude *.pyd
+[2024-05-27 05:16:04] INFO root fetch - processPackages [pythonpy-clone]: Remove: archive file [/home/abi/fetcher/tmp/pythonpy-clone-0.0.4.tar.gz]
+[2024-05-27 05:16:04] INFO root fetch - processPackages [pythonpy-clone]: Remove: archive file [/home/abi/fetcher/tmp/pythonpy_clone-0.0.5.tar.gz]
+[2024-05-27 05:16:04] INFO root fetch - main [MainThread]: End processing [pythonpy-clone]: success
+[2024-05-27 05:16:05] INFO root fetch - processPackages [mavisim]: Remove: archive file [/home/abi/fetcher/tmp/mavisim-1.1.8.tar.gz]
+[2024-05-27 05:16:05] INFO root fetch - processPackages [mavisim]: Remove: archive file [/home/abi/fetcher/tmp/mavisim-1.1.9.tar.gz]
+[2024-05-27 05:16:05] INFO root fetch - main [MainThread]: End processing [mavisim]: success
+[2024-05-27 05:16:05] INFO root fetch - processPackages [nsanic]: Remove: archive file [/home/abi/fetcher/tmp/nsanic-2024.5.26-py3-none-any.whl.zip]
+[2024-05-27 05:16:05] INFO root fetch - processPackages [nsanic]: Remove: archive file [/home/abi/fetcher/tmp/nsanic-2024.5.27-py3-none-any.whl.zip]
+[2024-05-27 05:16:05] INFO root fetch - main [MainThread]: End processing [nsanic]: success
+[2024-05-27 05:16:05] INFO root fetch - processPackages [movoid-config]: Remove: archive file [/home/abi/fetcher/tmp/movoid_config-1.2.2.tar.gz]
+[2024-05-27 05:16:05] INFO root fetch - processPackages [movoid-config]: Remove: archive file [/home/abi/fetcher/tmp/movoid_config-1.2.3.tar.gz]
+[2024-05-27 05:16:05] INFO root fetch - main [MainThread]: End processing [movoid-config]: success
+[2024-05-27 05:16:05] INFO root fetch - processPackages [keras-cv-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_cv_nightly-0.9.0.dev2024042919.tar.gz]
+[2024-05-27 05:16:05] INFO root fetch - processPackages [keras-cv-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_cv_nightly-0.9.0.dev2024043000.tar.gz]
+[2024-05-27 05:16:05] INFO root fetch - main [MainThread]: End processing [keras-cv-nightly]: success
+[2024-05-27 05:16:05] INFO root fetch - main [MainThread]: Store serial: [23390162]
