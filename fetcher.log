@@ -2592,3 +2592,33 @@
 [2024-05-27 03:18:37] INFO root fetch - processPackages [makepyz]: Remove: archive file [/home/abi/fetcher/tmp/makepyz-0.0.1b28.tar.gz]
 [2024-05-27 03:18:37] INFO root fetch - main [MainThread]: End processing [makepyz]: success
 [2024-05-27 03:18:37] INFO root fetch - main [MainThread]: Store serial: [23389350]
+[2024-05-27 03:20:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23389350]
+[2024-05-27 03:20:46] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-27 03:20:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: moped
+[2024-05-27 03:20:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sklearntools
+[2024-05-27 03:20:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lckytools
+[2024-05-27 03:20:46] INFO root fetch - processPackages [lckytools]: New version: [0.0.0b2] Old Version: [0.0.0b1]
+[2024-05-27 03:20:46] INFO root fetch - processPackages [sklearntools]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-27 03:20:46] INFO root fetch - processPackages [moped]: New version: [1rc1] Old Version: [1.9.9]
+[2024-05-27 03:20:46] INFO root fetch - processPackages [lckytools]: Downloading https://files.pythonhosted.org/packages/da/c6/7e131262aa1732e26915880d4ba228f115ec12ab8b4c1123e814847e85e0/lckytools-0.0.0b1.tar.gz
+[2024-05-27 03:20:46] INFO root fetch - processPackages [sklearntools]: Downloading https://files.pythonhosted.org/packages/30/80/fb08803cc656d87bb4ec3a3c22003ca998bca85edb8a511803801fec72da/sklearntools-0.8.0.tar.gz
+[2024-05-27 03:20:46] INFO root fetch - processPackages [moped]: Downloading https://files.pythonhosted.org/packages/fa/e5/eae730d18630be4dc4e22bf10412607b7b68e8adba0ea08af0f1a74ce2ba/moped-1.9.9.tar.gz
+[2024-05-27 03:20:47] INFO root fetch - processPackages [sklearntools]: Downloading https://files.pythonhosted.org/packages/3e/8e/38ad32c0e85d013dc95f0f80216a31c4a4454797cf8c98b173287e915014/sklearntools-0.9.0.tar.gz
+[2024-05-27 03:20:47] INFO root fetch - processPackages [lckytools]: Downloading https://files.pythonhosted.org/packages/b1/ae/68fbc393a4d2ba15bd87212ff14f668cf44cc4f44d668d2ac308f19d3a1e/lckytools-0.0.0b2.tar.gz
+[2024-05-27 03:20:47] INFO root fetch - processPackages [moped]: Downloading https://files.pythonhosted.org/packages/73/71/391f981ecc1118b3a2d5699507b8d46eba5a3f8290bcf8184f6e741fef40/moped-1rc1.tar.gz
+[2024-05-27 03:20:47] INFO root fetch - processPackages [sklearntools]: executing diffoscope
+[2024-05-27 03:20:47] INFO root fetch - processPackages [sklearntools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sklearntools-0.8.0.tar.gz tmp/sklearntools-0.9.0.tar.gz --markdown 20240527/s/sklearntools/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-27 03:20:47] INFO root fetch - processPackages [lckytools]: executing diffoscope
+[2024-05-27 03:20:47] INFO root fetch - processPackages [lckytools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lckytools-0.0.0b1.tar.gz tmp/lckytools-0.0.0b2.tar.gz --markdown 20240527/l/lckytools/0.0.0b1-0.0.0b2/README.md --exclude *.pyd
+[2024-05-27 03:20:47] INFO root fetch - processPackages [moped]: executing diffoscope
+[2024-05-27 03:20:47] INFO root fetch - processPackages [moped]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moped-1.9.9.tar.gz tmp/moped-1rc1.tar.gz --markdown 20240527/m/moped/1.9.9-1rc1/README.md --exclude *.pyd
+[2024-05-27 03:20:47] INFO root fetch - processPackages [lckytools]: Remove: archive file [/home/abi/fetcher/tmp/lckytools-0.0.0b1.tar.gz]
+[2024-05-27 03:20:47] INFO root fetch - processPackages [lckytools]: Remove: archive file [/home/abi/fetcher/tmp/lckytools-0.0.0b2.tar.gz]
+[2024-05-27 03:20:47] INFO root fetch - main [MainThread]: End processing [lckytools]: success
+[2024-05-27 03:20:47] INFO root fetch - processPackages [sklearntools]: Remove: archive file [/home/abi/fetcher/tmp/sklearntools-0.8.0.tar.gz]
+[2024-05-27 03:20:47] INFO root fetch - processPackages [sklearntools]: Remove: archive file [/home/abi/fetcher/tmp/sklearntools-0.9.0.tar.gz]
+[2024-05-27 03:20:47] INFO root fetch - main [MainThread]: End processing [sklearntools]: success
+[2024-05-27 03:20:47] INFO root fetch - processPackages [moped]: Remove: archive file [/home/abi/fetcher/tmp/moped-1.9.9.tar.gz]
+[2024-05-27 03:20:47] INFO root fetch - processPackages [moped]: Remove: archive file [/home/abi/fetcher/tmp/moped-1rc1.tar.gz]
+[2024-05-27 03:20:47] INFO root fetch - main [MainThread]: End processing [moped]: success
+[2024-05-27 03:20:47] INFO root fetch - main [MainThread]: Store serial: [23389359]
