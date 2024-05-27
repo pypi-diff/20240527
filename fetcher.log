@@ -23221,3 +23221,69 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-05-27 19:30:15] INFO root fetch - processPackages [damo]: Remove: archive file [/home/abi/fetcher/tmp/damo-2.3.6.tar.gz]
 [2024-05-27 19:30:15] INFO root fetch - main [MainThread]: End processing [damo]: success
 [2024-05-27 19:30:15] INFO root fetch - main [MainThread]: Store serial: [23399150]
+[2024-05-27 19:32:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23399150]
+[2024-05-27 19:32:24] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-27 19:32:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: batchalign
+[2024-05-27 19:32:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: autora-experimentalist-extrapolation
+[2024-05-27 19:32:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: discovery-core
+[2024-05-27 19:32:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: phub
+[2024-05-27 19:32:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fixedpt
+[2024-05-27 19:32:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: alita-sdk
+[2024-05-27 19:32:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-account-payment-purchase
+[2024-05-27 19:32:25] INFO root fetch - processPackages [alita-sdk]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-27 19:32:25] INFO root fetch - processPackages [batchalign]: New version: [0.7.1b9] Old Version: [0.7.1b8]
+[2024-05-27 19:32:25] INFO root fetch - processPackages [discovery-core]: New version: [0.9.7] Old Version: [0.9.6]
+[2024-05-27 19:32:25] INFO root fetch - processPackages [autora-experimentalist-extrapolation]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-27 19:32:25] INFO root fetch - processPackages [odoo-addon-account-payment-purchase]: New version: [17.0.1.1.0.2] Old Version: [17.0.1.1.0.1]
+[2024-05-27 19:32:25] INFO root fetch - processPackages [fixedpt]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-27 19:32:25] INFO root fetch - processPackages [alita-sdk]: Downloading https://files.pythonhosted.org/packages/58/77/699a43c7f5d3229ed63ff8d8eaba7999323921fbe9a94d3dd2d8b0f9b7a6/alita_sdk-0.1.8.tar.gz
+[2024-05-27 19:32:25] INFO root fetch - processPackages [phub]: New version: [4.7] Old Version: [4.6]
+[2024-05-27 19:32:25] INFO root fetch - processPackages [batchalign]: Downloading https://files.pythonhosted.org/packages/5e/69/fffb9b55ff008fb99719939ef95803ed3d3e1242efd310a7ea0f58e9f0dc/batchalign-0.7.1b8.tar.gz
+[2024-05-27 19:32:25] INFO root fetch - processPackages [discovery-core]: Downloading https://files.pythonhosted.org/packages/fa/9a/5322002c6510f974a2260364f1b63f5bd8e678fa6b90d6f7d9273ad54508/discovery-core-0.9.6.tar.gz
+[2024-05-27 19:32:25] INFO root fetch - processPackages [fixedpt]: Downloading https://files.pythonhosted.org/packages/dd/4f/dcfa5bcf876a0c09ef55a502132ac5f31e5d1c0feeb0ac1ea95d4f61eb11/fixedpt-0.2.1.tar.gz
+[2024-05-27 19:32:25] INFO root fetch - processPackages [autora-experimentalist-extrapolation]: Downloading https://files.pythonhosted.org/packages/1e/9c/dd27e4791b7b2de4ff40ca6608dadfde6cb6eb65b67dc82218c2f38ee3ff/autora_experimentalist_extrapolation-0.0.7.tar.gz
+[2024-05-27 19:32:25] INFO root fetch - processPackages [phub]: Downloading https://files.pythonhosted.org/packages/b6/77/7606b10b0639334da84b1f3977d0579d5631e6bed9669448b0c4355d5c56/phub-4.6.tar.gz
+[2024-05-27 19:32:25] INFO root fetch - processPackages [odoo-addon-account-payment-purchase]: Downloading https://files.pythonhosted.org/packages/7c/bc/5548ed2ac1291bb4cdd210f6869ac6a032e417cd1f3180ef69e243826527/odoo_addon_account_payment_purchase-17.0.1.1.0.1-py3-none-any.whl
+[2024-05-27 19:32:25] INFO root fetch - processPackages [alita-sdk]: Downloading https://files.pythonhosted.org/packages/6d/5f/08f7caedc136fde13091ef88ae35349e7285ef4b9c181b34fb1c4dffd4ba/alita_sdk-0.1.9.tar.gz
+[2024-05-27 19:32:25] INFO root fetch - processPackages [alita-sdk]: executing diffoscope
+[2024-05-27 19:32:25] INFO root fetch - processPackages [alita-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alita_sdk-0.1.8.tar.gz tmp/alita_sdk-0.1.9.tar.gz --markdown 20240527/a/alita-sdk/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-27 19:32:25] INFO root fetch - processPackages [batchalign]: Downloading https://files.pythonhosted.org/packages/7a/33/7eb30dfc9d41b546abf384d7f28e0db1c8909bb1f1dae1e8e495c14bf2ea/batchalign-0.7.1b9.tar.gz
+[2024-05-27 19:32:25] INFO root fetch - processPackages [autora-experimentalist-extrapolation]: Downloading https://files.pythonhosted.org/packages/32/ba/579f89113407220d8656565263e39dade26be92a0f5b1c0957a806896a38/autora_experimentalist_extrapolation-0.0.8.tar.gz
+[2024-05-27 19:32:25] INFO root fetch - processPackages [discovery-core]: Downloading https://files.pythonhosted.org/packages/03/d2/13fbf53218731e38c51f83309b364ad25f7de8c17d97d3d2706a393d7751/discovery-core-0.9.7.tar.gz
+[2024-05-27 19:32:25] INFO root fetch - processPackages [batchalign]: executing diffoscope
+[2024-05-27 19:32:25] INFO root fetch - processPackages [batchalign]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/batchalign-0.7.1b8.tar.gz tmp/batchalign-0.7.1b9.tar.gz --markdown 20240527/b/batchalign/0.7.1b8-0.7.1b9/README.md --exclude *.pyd
+[2024-05-27 19:32:25] INFO root fetch - processPackages [fixedpt]: Downloading https://files.pythonhosted.org/packages/d1/28/b22443b147ba20937fa9a2838aed0da351a1a958b8ecba54f6872cc692b1/fixedpt-0.2.2.tar.gz
+[2024-05-27 19:32:25] INFO root fetch - processPackages [odoo-addon-account-payment-purchase]: Downloading https://files.pythonhosted.org/packages/25/8a/5abf665f4d9de1531abc4c7209e78c75342eb88aa8dbc64a39be2b189b3c/odoo_addon_account_payment_purchase-17.0.1.1.0.2-py3-none-any.whl
+[2024-05-27 19:32:25] INFO root fetch - processPackages [phub]: Downloading https://files.pythonhosted.org/packages/33/25/8d90fe4fffa0f6c33464f0d8ec70ecd251c463d8a019af70846155d3c9a3/phub-4.7.tar.gz
+[2024-05-27 19:32:25] INFO root fetch - processPackages [autora-experimentalist-extrapolation]: executing diffoscope
+[2024-05-27 19:32:25] INFO root fetch - processPackages [autora-experimentalist-extrapolation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autora_experimentalist_extrapolation-0.0.7.tar.gz tmp/autora_experimentalist_extrapolation-0.0.8.tar.gz --markdown 20240527/a/autora-experimentalist-extrapolation/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-27 19:32:25] INFO root fetch - processPackages [discovery-core]: executing diffoscope
+[2024-05-27 19:32:25] INFO root fetch - processPackages [discovery-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discovery-core-0.9.6.tar.gz tmp/discovery-core-0.9.7.tar.gz --markdown 20240527/d/discovery-core/0.9.6-0.9.7/README.md --exclude *.pyd
+[2024-05-27 19:32:26] INFO root fetch - processPackages [fixedpt]: executing diffoscope
+[2024-05-27 19:32:26] INFO root fetch - processPackages [fixedpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fixedpt-0.2.1.tar.gz tmp/fixedpt-0.2.2.tar.gz --markdown 20240527/f/fixedpt/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-05-27 19:32:26] INFO root fetch - processPackages [phub]: executing diffoscope
+[2024-05-27 19:32:26] INFO root fetch - processPackages [phub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phub-4.6.tar.gz tmp/phub-4.7.tar.gz --markdown 20240527/p/phub/4.6-4.7/README.md --exclude *.pyd
+[2024-05-27 19:32:26] INFO root fetch - processPackages [odoo-addon-account-payment-purchase]: executing diffoscope
+[2024-05-27 19:32:26] INFO root fetch - processPackages [odoo-addon-account-payment-purchase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_payment_purchase-17.0.1.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_account_payment_purchase-17.0.1.1.0.2-py3-none-any.whl.zip --markdown 20240527/o/odoo-addon-account-payment-purchase/17.0.1.1.0.1-17.0.1.1.0.2/README.md --exclude *.pyd
+[2024-05-27 19:32:26] INFO root fetch - processPackages [alita-sdk]: Remove: archive file [/home/abi/fetcher/tmp/alita_sdk-0.1.8.tar.gz]
+[2024-05-27 19:32:26] INFO root fetch - processPackages [alita-sdk]: Remove: archive file [/home/abi/fetcher/tmp/alita_sdk-0.1.9.tar.gz]
+[2024-05-27 19:32:26] INFO root fetch - main [MainThread]: End processing [alita-sdk]: success
+[2024-05-27 19:32:26] INFO root fetch - processPackages [autora-experimentalist-extrapolation]: Remove: archive file [/home/abi/fetcher/tmp/autora_experimentalist_extrapolation-0.0.7.tar.gz]
+[2024-05-27 19:32:26] INFO root fetch - processPackages [autora-experimentalist-extrapolation]: Remove: archive file [/home/abi/fetcher/tmp/autora_experimentalist_extrapolation-0.0.8.tar.gz]
+[2024-05-27 19:32:26] INFO root fetch - main [MainThread]: End processing [autora-experimentalist-extrapolation]: success
+[2024-05-27 19:32:26] INFO root fetch - processPackages [fixedpt]: Remove: archive file [/home/abi/fetcher/tmp/fixedpt-0.2.1.tar.gz]
+[2024-05-27 19:32:26] INFO root fetch - processPackages [fixedpt]: Remove: archive file [/home/abi/fetcher/tmp/fixedpt-0.2.2.tar.gz]
+[2024-05-27 19:32:26] INFO root fetch - main [MainThread]: End processing [fixedpt]: success
+[2024-05-27 19:32:26] INFO root fetch - processPackages [discovery-core]: Remove: archive file [/home/abi/fetcher/tmp/discovery-core-0.9.6.tar.gz]
+[2024-05-27 19:32:26] INFO root fetch - processPackages [discovery-core]: Remove: archive file [/home/abi/fetcher/tmp/discovery-core-0.9.7.tar.gz]
+[2024-05-27 19:32:26] INFO root fetch - main [MainThread]: End processing [discovery-core]: success
+[2024-05-27 19:32:26] INFO root fetch - processPackages [batchalign]: Remove: archive file [/home/abi/fetcher/tmp/batchalign-0.7.1b8.tar.gz]
+[2024-05-27 19:32:26] INFO root fetch - processPackages [batchalign]: Remove: archive file [/home/abi/fetcher/tmp/batchalign-0.7.1b9.tar.gz]
+[2024-05-27 19:32:26] INFO root fetch - main [MainThread]: End processing [batchalign]: success
+[2024-05-27 19:32:26] INFO root fetch - processPackages [phub]: Remove: archive file [/home/abi/fetcher/tmp/phub-4.6.tar.gz]
+[2024-05-27 19:32:26] INFO root fetch - processPackages [phub]: Remove: archive file [/home/abi/fetcher/tmp/phub-4.7.tar.gz]
+[2024-05-27 19:32:26] INFO root fetch - main [MainThread]: End processing [phub]: success
+[2024-05-27 19:32:26] INFO root fetch - processPackages [odoo-addon-account-payment-purchase]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_payment_purchase-17.0.1.1.0.1-py3-none-any.whl.zip]
+[2024-05-27 19:32:26] INFO root fetch - processPackages [odoo-addon-account-payment-purchase]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_payment_purchase-17.0.1.1.0.2-py3-none-any.whl.zip]
+[2024-05-27 19:32:26] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-payment-purchase]: success
+[2024-05-27 19:32:26] INFO root fetch - main [MainThread]: Store serial: [23399170]
