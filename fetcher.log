@@ -17921,3 +17921,42 @@ EOFError: EOF read where object expected
 [2024-05-27 15:59:27] INFO root fetch - processPackages [openeo-pg-parser-networkx]: Remove: archive file [/home/abi/fetcher/tmp/openeo_pg_parser_networkx-2024.5.0.tar.gz]
 [2024-05-27 15:59:27] INFO root fetch - main [MainThread]: End processing [openeo-pg-parser-networkx]: success
 [2024-05-27 15:59:27] INFO root fetch - main [MainThread]: Store serial: [23396641]
+[2024-05-27 16:01:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23396641]
+[2024-05-27 16:01:35] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-27 16:01:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: clargs
+[2024-05-27 16:01:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: py-seal
+[2024-05-27 16:01:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: eis_toolkit
+[2024-05-27 16:01:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: launch-generator
+[2024-05-27 16:01:35] INFO root fetch - processPackages [py-seal]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-27 16:01:35] INFO root fetch - processPackages [clargs]: New version: [0.9.0a0.dev3] Old Version: [0.9.0a0.dev2]
+[2024-05-27 16:01:36] INFO root fetch - processPackages [eis_toolkit]: New version: [1.0.0] Old Version: [0.5.2]
+[2024-05-27 16:01:36] INFO root fetch - processPackages [launch-generator]: New version: [0.5.1] Old Version: [0.5.0]
+[2024-05-27 16:01:36] INFO root fetch - processPackages [clargs]: Downloading https://files.pythonhosted.org/packages/5f/18/6866f91039dac4c2e326855944eeb0fdbe235853800d29b7e56c5cb2e32b/clargs-0.9.0a0.dev2.tar.gz
+[2024-05-27 16:01:36] INFO root fetch - processPackages [py-seal]: Downloading https://files.pythonhosted.org/packages/2d/56/69849b6c44f323fe74ca9b918f95bd44c5191aec5f831b3679f55e52607e/py-seal-0.0.2.tar.gz
+[2024-05-27 16:01:36] INFO root fetch - processPackages [eis_toolkit]: Downloading https://files.pythonhosted.org/packages/36/40/6c45d8c90305d5c8b224ca80563edcfac10f205f2dc3e365dbfa9ad58b72/eis_toolkit-0.5.2.tar.gz
+[2024-05-27 16:01:36] INFO root fetch - processPackages [launch-generator]: Downloading https://files.pythonhosted.org/packages/5f/22/f93ea23eed24a6c951dae8341275aa79852544e14595b14e4955720e95ed/launch_generator-0.5.0.tar.gz
+[2024-05-27 16:01:36] INFO root fetch - processPackages [clargs]: Downloading https://files.pythonhosted.org/packages/a6/77/6e1b43a7f8412844bbf6e076552bdb793bd8c47dd52a17a2baf1f152775a/clargs-0.9.0a0.dev3.tar.gz
+[2024-05-27 16:01:36] INFO root fetch - processPackages [py-seal]: Downloading https://files.pythonhosted.org/packages/31/d9/e4ae93fdc5be695b90687b251e3c45b48dad5c181005c3e97e96d37ddc40/py-seal-0.0.3.tar.gz
+[2024-05-27 16:01:36] INFO root fetch - processPackages [clargs]: executing diffoscope
+[2024-05-27 16:01:36] INFO root fetch - processPackages [clargs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clargs-0.9.0a0.dev2.tar.gz tmp/clargs-0.9.0a0.dev3.tar.gz --markdown 20240527/c/clargs/0.9.0a0.dev2-0.9.0a0.dev3/README.md --exclude *.pyd
+[2024-05-27 16:01:36] INFO root fetch - processPackages [py-seal]: executing diffoscope
+[2024-05-27 16:01:36] INFO root fetch - processPackages [py-seal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-seal-0.0.2.tar.gz tmp/py-seal-0.0.3.tar.gz --markdown 20240527/p/py-seal/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-27 16:01:36] INFO root fetch - processPackages [launch-generator]: Downloading https://files.pythonhosted.org/packages/8b/de/09b693769635d0494c7d932b810301683edcfefe0dcb05ec55a10cc1f159/launch_generator-0.5.1.tar.gz
+[2024-05-27 16:01:36] INFO root fetch - processPackages [eis_toolkit]: Downloading https://files.pythonhosted.org/packages/58/eb/140aed531797c3f54c0f4a8d8877c2998d53d581fb1242e5a10297f412ca/eis_toolkit-1.0.0.tar.gz
+[2024-05-27 16:01:36] INFO root fetch - processPackages [eis_toolkit]: executing diffoscope
+[2024-05-27 16:01:36] INFO root fetch - processPackages [eis_toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eis_toolkit-0.5.2.tar.gz tmp/eis_toolkit-1.0.0.tar.gz --markdown 20240527/e/eis_toolkit/0.5.2-1.0.0/README.md --exclude *.pyd
+[2024-05-27 16:01:36] INFO root fetch - processPackages [launch-generator]: executing diffoscope
+[2024-05-27 16:01:36] INFO root fetch - processPackages [launch-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/launch_generator-0.5.0.tar.gz tmp/launch_generator-0.5.1.tar.gz --markdown 20240527/l/launch-generator/0.5.0-0.5.1/README.md --exclude *.pyd
+[2024-05-27 16:01:37] INFO root fetch - processPackages [py-seal]: Remove: archive file [/home/abi/fetcher/tmp/py-seal-0.0.2.tar.gz]
+[2024-05-27 16:01:37] INFO root fetch - processPackages [py-seal]: Remove: archive file [/home/abi/fetcher/tmp/py-seal-0.0.3.tar.gz]
+[2024-05-27 16:01:37] INFO root fetch - main [MainThread]: End processing [py-seal]: success
+[2024-05-27 16:01:37] INFO root fetch - processPackages [clargs]: Remove: archive file [/home/abi/fetcher/tmp/clargs-0.9.0a0.dev2.tar.gz]
+[2024-05-27 16:01:37] INFO root fetch - processPackages [clargs]: Remove: archive file [/home/abi/fetcher/tmp/clargs-0.9.0a0.dev3.tar.gz]
+[2024-05-27 16:01:37] INFO root fetch - main [MainThread]: End processing [clargs]: success
+[2024-05-27 16:01:37] INFO root fetch - processPackages [launch-generator]: Remove: archive file [/home/abi/fetcher/tmp/launch_generator-0.5.0.tar.gz]
+[2024-05-27 16:01:37] INFO root fetch - processPackages [launch-generator]: Remove: archive file [/home/abi/fetcher/tmp/launch_generator-0.5.1.tar.gz]
+[2024-05-27 16:01:37] INFO root fetch - main [MainThread]: End processing [launch-generator]: success
+[2024-05-27 16:01:37] INFO root fetch - processPackages [eis_toolkit]: Remove: archive file [/home/abi/fetcher/tmp/eis_toolkit-0.5.2.tar.gz]
+[2024-05-27 16:01:37] INFO root fetch - processPackages [eis_toolkit]: Remove: archive file [/home/abi/fetcher/tmp/eis_toolkit-1.0.0.tar.gz]
+[2024-05-27 16:01:37] INFO root fetch - main [MainThread]: End processing [eis_toolkit]: success
+[2024-05-27 16:01:37] INFO root fetch - main [MainThread]: Store serial: [23396658]
