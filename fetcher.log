@@ -8780,3 +8780,18 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 09:54:54] INFO root fetch - processPackages [kingsoftcloud-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/kingsoftcloud_sdk_python-1.4.3.tar.gz]
 [2024-05-27 09:54:54] INFO root fetch - main [MainThread]: End processing [kingsoftcloud-sdk-python]: success
 [2024-05-27 09:54:54] INFO root fetch - main [MainThread]: Store serial: [23392189]
+[2024-05-27 09:56:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23392189]
+[2024-05-27 09:57:03] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-27 09:57:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: prjit
+[2024-05-27 09:57:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nonebot-plugin-sanyao
+[2024-05-27 09:57:03] INFO root fetch - processPackages [nonebot-plugin-sanyao]: New version: [0.2.6] Old Version: [0.2.4]
+[2024-05-27 09:57:04] INFO root fetch - processPackages [nonebot-plugin-sanyao]: Downloading https://files.pythonhosted.org/packages/6c/89/0c963c133a964cc290cea185e3d2adf595189a346bc2e27353418e33f3fe/nonebot_plugin_sanyao-0.2.4.tar.gz
+[2024-05-27 09:57:04] WARNING root fetch - processPackages [prjit]: Skipping, unable to determine old version
+[2024-05-27 09:57:04] INFO root fetch - main [MainThread]: End processing [prjit] error
+[2024-05-27 09:57:04] INFO root fetch - processPackages [nonebot-plugin-sanyao]: Downloading https://files.pythonhosted.org/packages/7d/c9/1fa7bfd40bb8941ff7062961d9dbc879102270b20c2de4129e6d885dd1ec/nonebot_plugin_sanyao-0.2.6.tar.gz
+[2024-05-27 09:57:04] INFO root fetch - processPackages [nonebot-plugin-sanyao]: executing diffoscope
+[2024-05-27 09:57:04] INFO root fetch - processPackages [nonebot-plugin-sanyao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_sanyao-0.2.4.tar.gz tmp/nonebot_plugin_sanyao-0.2.6.tar.gz --markdown 20240527/n/nonebot-plugin-sanyao/0.2.4-0.2.6/README.md --exclude *.pyd
+[2024-05-27 09:57:04] INFO root fetch - processPackages [nonebot-plugin-sanyao]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_sanyao-0.2.4.tar.gz]
+[2024-05-27 09:57:04] INFO root fetch - processPackages [nonebot-plugin-sanyao]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_sanyao-0.2.6.tar.gz]
+[2024-05-27 09:57:04] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-sanyao]: success
+[2024-05-27 09:57:04] INFO root fetch - main [MainThread]: Store serial: [23392199]
