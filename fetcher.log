@@ -5906,3 +5906,51 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 07:06:13] INFO root fetch - processPackages [ast-grep-cli]: Remove: archive file [/home/abi/fetcher/tmp/ast_grep_cli-0.9.3.tar.gz]
 [2024-05-27 07:06:13] INFO root fetch - main [MainThread]: End processing [ast-grep-cli]: success
 [2024-05-27 07:06:13] INFO root fetch - main [MainThread]: Store serial: [23390779]
+[2024-05-27 07:08:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23390779]
+[2024-05-27 07:08:22] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-27 07:08:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: TkEasyGUI
+[2024-05-27 07:08:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: telegram-gmail-bot
+[2024-05-27 07:08:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nemo-library
+[2024-05-27 07:08:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qcsys
+[2024-05-27 07:08:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gmaps-avoid-swiss
+[2024-05-27 07:08:22] INFO root fetch - processPackages [telegram-gmail-bot]: New version: [0.1.7] Old Version: [0.1.5]
+[2024-05-27 07:08:22] INFO root fetch - processPackages [nemo-library]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-27 07:08:22] INFO root fetch - processPackages [telegram-gmail-bot]: Downloading https://files.pythonhosted.org/packages/ef/cc/70cf4c2af511bc55da908af16f67bfcac04f5f16dd67e79cc844cc69df02/telegram_gmail_bot-0.1.5.tar.gz
+[2024-05-27 07:08:22] INFO root fetch - processPackages [gmaps-avoid-swiss]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-27 07:08:22] INFO root fetch - processPackages [qcsys]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-27 07:08:22] INFO root fetch - processPackages [TkEasyGUI]: New version: [0.2.69] Old Version: [0.2.68]
+[2024-05-27 07:08:22] INFO root fetch - processPackages [TkEasyGUI]: Downloading https://files.pythonhosted.org/packages/c1/08/92d9c41bd23af567e58bc789a50c9909603d50bd6f5ea579834fe50d4a6e/tkeasygui-0.2.68.tar.gz
+[2024-05-27 07:08:22] INFO root fetch - processPackages [nemo-library]: Downloading https://files.pythonhosted.org/packages/96/21/8535415cc9cc8917f162abf7b1da0fcb05f7bd27055ddb39595fec13e2ce/nemo_library-1.0.8.tar.gz
+[2024-05-27 07:08:22] INFO root fetch - processPackages [qcsys]: Downloading https://files.pythonhosted.org/packages/90/32/84beb847b5a7e3afbd8d25fb78dbe5184585664ee2e560a0b8eb6e22e8af/qcsys-0.1.0.tar.gz
+[2024-05-27 07:08:22] INFO root fetch - processPackages [gmaps-avoid-swiss]: Downloading https://files.pythonhosted.org/packages/a9/91/b477ee38ed523aa98a2c86556078abf849a7372e42c60fdb64cd4541ba43/gmaps_avoid_swiss-0.1.8.tar.gz
+[2024-05-27 07:08:22] INFO root fetch - processPackages [telegram-gmail-bot]: Downloading https://files.pythonhosted.org/packages/78/40/f66ed1d4be7eff3d1ae3cbd44c8985ee621f332ea6efd165259ac8c84362/telegram_gmail_bot-0.1.7.tar.gz
+[2024-05-27 07:08:22] INFO root fetch - processPackages [telegram-gmail-bot]: executing diffoscope
+[2024-05-27 07:08:22] INFO root fetch - processPackages [telegram-gmail-bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/telegram_gmail_bot-0.1.5.tar.gz tmp/telegram_gmail_bot-0.1.7.tar.gz --markdown 20240527/t/telegram-gmail-bot/0.1.5-0.1.7/README.md --exclude *.pyd
+[2024-05-27 07:08:22] INFO root fetch - processPackages [TkEasyGUI]: Downloading https://files.pythonhosted.org/packages/e4/ff/9e2d72cac0eced29711d96d0bfe57ca36c6b0c969f59095061e836dbbc67/tkeasygui-0.2.69.tar.gz
+[2024-05-27 07:08:23] INFO root fetch - processPackages [nemo-library]: Downloading https://files.pythonhosted.org/packages/1c/ac/14ae2f7f8a4d99ed894b1c19114aff87c84d1136565a92f2d179daa6499f/nemo_library-1.0.9.tar.gz
+[2024-05-27 07:08:23] INFO root fetch - processPackages [TkEasyGUI]: executing diffoscope
+[2024-05-27 07:08:23] INFO root fetch - processPackages [TkEasyGUI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tkeasygui-0.2.68.tar.gz tmp/tkeasygui-0.2.69.tar.gz --markdown 20240527/T/TkEasyGUI/0.2.68-0.2.69/README.md --exclude *.pyd
+[2024-05-27 07:08:23] INFO root fetch - processPackages [gmaps-avoid-swiss]: Downloading https://files.pythonhosted.org/packages/3d/60/89f4cd568c8d2d7be8bc3a9629f7ac8ce0c4715348777e5481066b9c4827/gmaps_avoid_swiss-0.1.9.tar.gz
+[2024-05-27 07:08:23] INFO root fetch - processPackages [nemo-library]: executing diffoscope
+[2024-05-27 07:08:23] INFO root fetch - processPackages [nemo-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nemo_library-1.0.8.tar.gz tmp/nemo_library-1.0.9.tar.gz --markdown 20240527/n/nemo-library/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-27 07:08:23] INFO root fetch - processPackages [gmaps-avoid-swiss]: executing diffoscope
+[2024-05-27 07:08:23] INFO root fetch - processPackages [gmaps-avoid-swiss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gmaps_avoid_swiss-0.1.8.tar.gz tmp/gmaps_avoid_swiss-0.1.9.tar.gz --markdown 20240527/g/gmaps-avoid-swiss/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-27 07:08:23] INFO root fetch - processPackages [telegram-gmail-bot]: Remove: archive file [/home/abi/fetcher/tmp/telegram_gmail_bot-0.1.5.tar.gz]
+[2024-05-27 07:08:23] INFO root fetch - processPackages [telegram-gmail-bot]: Remove: archive file [/home/abi/fetcher/tmp/telegram_gmail_bot-0.1.7.tar.gz]
+[2024-05-27 07:08:23] INFO root fetch - main [MainThread]: End processing [telegram-gmail-bot]: success
+[2024-05-27 07:08:23] INFO root fetch - processPackages [qcsys]: Downloading https://files.pythonhosted.org/packages/dd/70/13d92f3d9d9ac8bf0ab7bdc9479fc43ed9390caa9b432448fc8752071800/qcsys-0.1.1.tar.gz
+[2024-05-27 07:08:23] INFO root fetch - processPackages [nemo-library]: Remove: archive file [/home/abi/fetcher/tmp/nemo_library-1.0.8.tar.gz]
+[2024-05-27 07:08:23] INFO root fetch - processPackages [nemo-library]: Remove: archive file [/home/abi/fetcher/tmp/nemo_library-1.0.9.tar.gz]
+[2024-05-27 07:08:23] INFO root fetch - main [MainThread]: End processing [nemo-library]: success
+[2024-05-27 07:08:23] INFO root fetch - processPackages [qcsys]: executing diffoscope
+[2024-05-27 07:08:23] INFO root fetch - processPackages [qcsys]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qcsys-0.1.0.tar.gz tmp/qcsys-0.1.1.tar.gz --markdown 20240527/q/qcsys/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-27 07:08:23] INFO root fetch - processPackages [TkEasyGUI]: Remove: archive file [/home/abi/fetcher/tmp/tkeasygui-0.2.68.tar.gz]
+[2024-05-27 07:08:23] INFO root fetch - processPackages [TkEasyGUI]: Remove: archive file [/home/abi/fetcher/tmp/tkeasygui-0.2.69.tar.gz]
+[2024-05-27 07:08:23] INFO root fetch - main [MainThread]: End processing [TkEasyGUI]: success
+[2024-05-27 07:08:23] INFO root fetch - processPackages [gmaps-avoid-swiss]: Remove: archive file [/home/abi/fetcher/tmp/gmaps_avoid_swiss-0.1.8.tar.gz]
+[2024-05-27 07:08:23] INFO root fetch - processPackages [gmaps-avoid-swiss]: Remove: archive file [/home/abi/fetcher/tmp/gmaps_avoid_swiss-0.1.9.tar.gz]
+[2024-05-27 07:08:23] INFO root fetch - main [MainThread]: End processing [gmaps-avoid-swiss]: success
+[2024-05-27 07:08:24] INFO root fetch - processPackages [qcsys]: Remove: archive file [/home/abi/fetcher/tmp/qcsys-0.1.0.tar.gz]
+[2024-05-27 07:08:24] INFO root fetch - processPackages [qcsys]: Remove: archive file [/home/abi/fetcher/tmp/qcsys-0.1.1.tar.gz]
+[2024-05-27 07:08:24] INFO root fetch - main [MainThread]: End processing [qcsys]: success
+[2024-05-27 07:08:24] INFO root fetch - main [MainThread]: Store serial: [23390795]
