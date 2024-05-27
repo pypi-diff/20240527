@@ -11661,3 +11661,45 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 11:57:04] INFO root fetch - processPackages [qulacs]: Remove: archive file [/home/abi/fetcher/tmp/qulacs-0.6.3.tar.gz]
 [2024-05-27 11:57:04] INFO root fetch - main [MainThread]: End processing [qulacs]: success
 [2024-05-27 11:57:04] INFO root fetch - main [MainThread]: Store serial: [23393558]
+[2024-05-27 11:59:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23393558]
+[2024-05-27 11:59:13] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-27 11:59:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: torchcat
+[2024-05-27 11:59:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: chatgpt-interface
+[2024-05-27 11:59:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyodide-mkdocs-theme
+[2024-05-27 11:59:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-customvueadmin
+[2024-05-27 11:59:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-mail-template-substitute
+[2024-05-27 11:59:13] INFO root fetch - processPackages [django-customvueadmin]: New version: [0.2.5] Old Version: [0.2.3]
+[2024-05-27 11:59:13] INFO root fetch - processPackages [torchcat]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-27 11:59:14] INFO root fetch - processPackages [django-customvueadmin]: Downloading https://files.pythonhosted.org/packages/6d/30/0759a7aa2b70a1568273273770e66b66e61c56ec3d922a5477978b44db71/django_customvueadmin-0.2.3.tar.gz
+[2024-05-27 11:59:14] INFO root fetch - processPackages [pyodide-mkdocs-theme]: New version: [1.1.0] Old Version: [1.0.4]
+[2024-05-27 11:59:14] INFO root fetch - processPackages [torchcat]: Downloading https://files.pythonhosted.org/packages/85/38/36d548f9c758c1297651fc04e1c19632ffacfd3827ae1e7479d3d1309c0c/torchcat-0.0.7.tar.gz
+[2024-05-27 11:59:14] INFO root fetch - processPackages [odoo-addon-mail-template-substitute]: New version: [17.0.1.0.0.2] Old Version: [16.0.1.0.0.8]
+[2024-05-27 11:59:14] WARNING root fetch - processPackages [chatgpt-interface]: Skipping, unable to determine old version
+[2024-05-27 11:59:14] INFO root fetch - main [MainThread]: End processing [chatgpt-interface] error
+[2024-05-27 11:59:14] INFO root fetch - processPackages [torchcat]: Downloading https://files.pythonhosted.org/packages/31/5b/3f96b50f3782ab5ff7cdd7bddac4f6336eb4f5ff36bac5b2eb7fc8d53975/torchcat-0.0.8.tar.gz
+[2024-05-27 11:59:14] INFO root fetch - processPackages [pyodide-mkdocs-theme]: Downloading https://files.pythonhosted.org/packages/ac/e7/12664420439d9990f1cbcf910618ab095e74295734b2f41578ab3db08450/pyodide_mkdocs_theme-1.0.4.tar.gz
+[2024-05-27 11:59:14] INFO root fetch - processPackages [odoo-addon-mail-template-substitute]: Downloading https://files.pythonhosted.org/packages/de/cf/d98c531fa3e24ca25612690501aecdd4020d4b09eb0bb5ef534e4d50d2e6/odoo_addon_mail_template_substitute-16.0.1.0.0.8-py3-none-any.whl
+[2024-05-27 11:59:14] INFO root fetch - processPackages [torchcat]: executing diffoscope
+[2024-05-27 11:59:14] INFO root fetch - processPackages [torchcat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchcat-0.0.7.tar.gz tmp/torchcat-0.0.8.tar.gz --markdown 20240527/t/torchcat/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-27 11:59:14] INFO root fetch - processPackages [django-customvueadmin]: Downloading https://files.pythonhosted.org/packages/6a/fd/8dc78348e03dca1c6b449f9bc1e7f67bbe85a5f1e8438a28dc31ea2514d7/django_customvueadmin-0.2.5.tar.gz
+[2024-05-27 11:59:14] INFO root fetch - processPackages [odoo-addon-mail-template-substitute]: Downloading https://files.pythonhosted.org/packages/ca/a6/5897e6b533add482ff96c486ad6422951d0ab20fda36a637909d496c374b/odoo_addon_mail_template_substitute-17.0.1.0.0.2-py3-none-any.whl
+[2024-05-27 11:59:14] INFO root fetch - processPackages [pyodide-mkdocs-theme]: Downloading https://files.pythonhosted.org/packages/60/82/7243ab41a559b186a4e63a4f4f56e72e35ade888944cbfd11ae421972531/pyodide_mkdocs_theme-1.1.0.tar.gz
+[2024-05-27 11:59:14] INFO root fetch - processPackages [odoo-addon-mail-template-substitute]: executing diffoscope
+[2024-05-27 11:59:14] INFO root fetch - processPackages [odoo-addon-mail-template-substitute]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_mail_template_substitute-16.0.1.0.0.8-py3-none-any.whl.zip tmp/odoo_addon_mail_template_substitute-17.0.1.0.0.2-py3-none-any.whl.zip --markdown 20240527/o/odoo-addon-mail-template-substitute/16.0.1.0.0.8-17.0.1.0.0.2/README.md --exclude *.pyd
+[2024-05-27 11:59:14] INFO root fetch - processPackages [pyodide-mkdocs-theme]: executing diffoscope
+[2024-05-27 11:59:14] INFO root fetch - processPackages [pyodide-mkdocs-theme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyodide_mkdocs_theme-1.0.4.tar.gz tmp/pyodide_mkdocs_theme-1.1.0.tar.gz --markdown 20240527/p/pyodide-mkdocs-theme/1.0.4-1.1.0/README.md --exclude *.pyd
+[2024-05-27 11:59:14] INFO root fetch - processPackages [torchcat]: Remove: archive file [/home/abi/fetcher/tmp/torchcat-0.0.7.tar.gz]
+[2024-05-27 11:59:14] INFO root fetch - processPackages [torchcat]: Remove: archive file [/home/abi/fetcher/tmp/torchcat-0.0.8.tar.gz]
+[2024-05-27 11:59:14] INFO root fetch - main [MainThread]: End processing [torchcat]: success
+[2024-05-27 11:59:14] INFO root fetch - processPackages [django-customvueadmin]: executing diffoscope
+[2024-05-27 11:59:14] INFO root fetch - processPackages [django-customvueadmin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_customvueadmin-0.2.3.tar.gz tmp/django_customvueadmin-0.2.5.tar.gz --markdown 20240527/d/django-customvueadmin/0.2.3-0.2.5/README.md --exclude *.pyd
+[2024-05-27 11:59:15] INFO root fetch - processPackages [odoo-addon-mail-template-substitute]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mail_template_substitute-16.0.1.0.0.8-py3-none-any.whl.zip]
+[2024-05-27 11:59:15] INFO root fetch - processPackages [odoo-addon-mail-template-substitute]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mail_template_substitute-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-05-27 11:59:15] INFO root fetch - main [MainThread]: End processing [odoo-addon-mail-template-substitute]: success
+[2024-05-27 11:59:17] INFO root fetch - processPackages [pyodide-mkdocs-theme]: Remove: archive file [/home/abi/fetcher/tmp/pyodide_mkdocs_theme-1.0.4.tar.gz]
+[2024-05-27 11:59:17] INFO root fetch - processPackages [pyodide-mkdocs-theme]: Remove: archive file [/home/abi/fetcher/tmp/pyodide_mkdocs_theme-1.1.0.tar.gz]
+[2024-05-27 11:59:17] INFO root fetch - main [MainThread]: End processing [pyodide-mkdocs-theme]: success
+[2024-05-27 11:59:30] INFO root fetch - processPackages [django-customvueadmin]: Remove: archive file [/home/abi/fetcher/tmp/django_customvueadmin-0.2.3.tar.gz]
+[2024-05-27 11:59:30] INFO root fetch - processPackages [django-customvueadmin]: Remove: archive file [/home/abi/fetcher/tmp/django_customvueadmin-0.2.5.tar.gz]
+[2024-05-27 11:59:30] INFO root fetch - main [MainThread]: End processing [django-customvueadmin]: success
+[2024-05-27 11:59:30] INFO root fetch - main [MainThread]: Store serial: [23393576]
