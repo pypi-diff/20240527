@@ -24576,3 +24576,51 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-05-27 20:27:26] INFO root fetch - processPackages [django-autotask]: Remove: archive file [/home/abi/fetcher/tmp/django-autotask-1.5.7.tar.gz]
 [2024-05-27 20:27:26] INFO root fetch - main [MainThread]: End processing [django-autotask]: success
 [2024-05-27 20:27:26] INFO root fetch - main [MainThread]: Store serial: [23399793]
+[2024-05-27 20:29:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23399793]
+[2024-05-27 20:29:35] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-27 20:29:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flake8-async
+[2024-05-27 20:29:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: agentcrew
+[2024-05-27 20:29:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: deepeval
+[2024-05-27 20:29:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: medjc09-hub-python
+[2024-05-27 20:29:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: telethon-client
+[2024-05-27 20:29:35] INFO root fetch - processPackages [telethon-client]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-27 20:29:35] INFO root fetch - processPackages [deepeval]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-27 20:29:35] INFO root fetch - processPackages [medjc09-hub-python]: New version: [0.2.0] Old Version: [0.1.1]
+[2024-05-27 20:29:35] INFO root fetch - processPackages [agentcrew]: New version: [0.0.1a1] Old Version: [0.0.1]
+[2024-05-27 20:29:35] INFO root fetch - processPackages [telethon-client]: Downloading https://files.pythonhosted.org/packages/50/f2/ed8d4c22797c13143de5519cec3fab4c48d1a930a67ae26d931c2723adb5/telethon-client-0.0.8.tar.gz
+[2024-05-27 20:29:35] INFO root fetch - processPackages [flake8-async]: New version: [24.5.5] Old Version: [24.5.4]
+[2024-05-27 20:29:35] INFO root fetch - processPackages [deepeval]: Downloading https://files.pythonhosted.org/packages/8b/4e/74892f0e4e740898d3d9bbcb8e3e22adc9d2ca430699cb8a78a8b5e2697b/deepeval-0.9.8.tar.gz
+[2024-05-27 20:29:35] INFO root fetch - processPackages [flake8-async]: Downloading https://files.pythonhosted.org/packages/5d/12/5a9aceaa0cb1361130f242850b87dac72fb5dd0377c408d831234d9851f4/flake8_async-24.5.4.tar.gz
+[2024-05-27 20:29:35] INFO root fetch - processPackages [medjc09-hub-python]: Downloading https://files.pythonhosted.org/packages/b6/d4/e26c7904df81834081232c3a8af4725ae0e532fc6adb1f168a4420b1223a/medjc09_hub_python-0.1.1.tar.gz
+[2024-05-27 20:29:35] INFO root fetch - processPackages [deepeval]: Downloading https://files.pythonhosted.org/packages/79/cd/f07ea4ba3fa8fae91bc1bdecc3a7fc8882146f65614215058425221ac2e8/deepeval-0.9.9.tar.gz
+[2024-05-27 20:29:35] INFO root fetch - processPackages [telethon-client]: Downloading https://files.pythonhosted.org/packages/c9/5f/df21e312376c04e828b1e941e09915ac372498abd13c4dd522947e82c4e1/telethon-client-0.0.9.tar.gz
+[2024-05-27 20:29:35] INFO root fetch - processPackages [deepeval]: executing diffoscope
+[2024-05-27 20:29:35] INFO root fetch - processPackages [deepeval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepeval-0.9.8.tar.gz tmp/deepeval-0.9.9.tar.gz --markdown 20240527/d/deepeval/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-27 20:29:35] INFO root fetch - processPackages [telethon-client]: executing diffoscope
+[2024-05-27 20:29:35] INFO root fetch - processPackages [telethon-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/telethon-client-0.0.8.tar.gz tmp/telethon-client-0.0.9.tar.gz --markdown 20240527/t/telethon-client/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-27 20:29:35] INFO root fetch - processPackages [medjc09-hub-python]: Downloading https://files.pythonhosted.org/packages/ea/17/796fce7b1b26f6ca8a74725a116242007ca6af3f1f8b0a5ee9479433e12e/medjc09_hub_python-0.2.0.tar.gz
+[2024-05-27 20:29:35] INFO root fetch - processPackages [flake8-async]: Downloading https://files.pythonhosted.org/packages/1c/d8/1becd3d8da5cb68b244d5323fdad4f01c50d6daff8ae6dacfc146939ebfe/flake8_async-24.5.5.tar.gz
+[2024-05-27 20:29:35] INFO root fetch - processPackages [agentcrew]: Downloading https://files.pythonhosted.org/packages/1b/ff/68073e7896d94da1ff3c01393e18b2ae565edf87d0335ccb8f7821c16d13/agentcrew-0.0.1.tar.gz
+[2024-05-27 20:29:36] INFO root fetch - processPackages [flake8-async]: executing diffoscope
+[2024-05-27 20:29:36] INFO root fetch - processPackages [flake8-async]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flake8_async-24.5.4.tar.gz tmp/flake8_async-24.5.5.tar.gz --markdown 20240527/f/flake8-async/24.5.4-24.5.5/README.md --exclude *.pyd
+[2024-05-27 20:29:36] INFO root fetch - processPackages [medjc09-hub-python]: executing diffoscope
+[2024-05-27 20:29:36] INFO root fetch - processPackages [medjc09-hub-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/medjc09_hub_python-0.1.1.tar.gz tmp/medjc09_hub_python-0.2.0.tar.gz --markdown 20240527/m/medjc09-hub-python/0.1.1-0.2.0/README.md --exclude *.pyd
+[2024-05-27 20:29:36] INFO root fetch - processPackages [agentcrew]: Downloading https://files.pythonhosted.org/packages/1f/ad/da4d145f9e2fe2b3ea9cc1ee039d8e56c68fb3b04e526fee278e76998ed4/agentcrew-0.0.1a1.tar.gz
+[2024-05-27 20:29:36] INFO root fetch - processPackages [agentcrew]: executing diffoscope
+[2024-05-27 20:29:36] INFO root fetch - processPackages [agentcrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agentcrew-0.0.1.tar.gz tmp/agentcrew-0.0.1a1.tar.gz --markdown 20240527/a/agentcrew/0.0.1-0.0.1a1/README.md --exclude *.pyd
+[2024-05-27 20:29:36] INFO root fetch - processPackages [deepeval]: Remove: archive file [/home/abi/fetcher/tmp/deepeval-0.9.8.tar.gz]
+[2024-05-27 20:29:36] INFO root fetch - processPackages [deepeval]: Remove: archive file [/home/abi/fetcher/tmp/deepeval-0.9.9.tar.gz]
+[2024-05-27 20:29:36] INFO root fetch - main [MainThread]: End processing [deepeval]: success
+[2024-05-27 20:29:36] INFO root fetch - processPackages [telethon-client]: Remove: archive file [/home/abi/fetcher/tmp/telethon-client-0.0.8.tar.gz]
+[2024-05-27 20:29:36] INFO root fetch - processPackages [telethon-client]: Remove: archive file [/home/abi/fetcher/tmp/telethon-client-0.0.9.tar.gz]
+[2024-05-27 20:29:36] INFO root fetch - main [MainThread]: End processing [telethon-client]: success
+[2024-05-27 20:29:36] INFO root fetch - processPackages [medjc09-hub-python]: Remove: archive file [/home/abi/fetcher/tmp/medjc09_hub_python-0.1.1.tar.gz]
+[2024-05-27 20:29:36] INFO root fetch - processPackages [medjc09-hub-python]: Remove: archive file [/home/abi/fetcher/tmp/medjc09_hub_python-0.2.0.tar.gz]
+[2024-05-27 20:29:36] INFO root fetch - main [MainThread]: End processing [medjc09-hub-python]: success
+[2024-05-27 20:29:36] INFO root fetch - processPackages [flake8-async]: Remove: archive file [/home/abi/fetcher/tmp/flake8_async-24.5.4.tar.gz]
+[2024-05-27 20:29:36] INFO root fetch - processPackages [flake8-async]: Remove: archive file [/home/abi/fetcher/tmp/flake8_async-24.5.5.tar.gz]
+[2024-05-27 20:29:36] INFO root fetch - main [MainThread]: End processing [flake8-async]: success
+[2024-05-27 20:29:36] INFO root fetch - processPackages [agentcrew]: Remove: archive file [/home/abi/fetcher/tmp/agentcrew-0.0.1.tar.gz]
+[2024-05-27 20:29:36] INFO root fetch - processPackages [agentcrew]: Remove: archive file [/home/abi/fetcher/tmp/agentcrew-0.0.1a1.tar.gz]
+[2024-05-27 20:29:36] INFO root fetch - main [MainThread]: End processing [agentcrew]: success
+[2024-05-27 20:29:36] INFO root fetch - main [MainThread]: Store serial: [23399808]
