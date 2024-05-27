@@ -9653,3 +9653,78 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 10:38:57] INFO root fetch - processPackages [django-botmanager]: Remove: archive file [/home/abi/fetcher/tmp/django_botmanager-0.2.18.tar.gz]
 [2024-05-27 10:38:57] INFO root fetch - main [MainThread]: End processing [django-botmanager]: success
 [2024-05-27 10:38:57] INFO root fetch - main [MainThread]: Store serial: [23392666]
+[2024-05-27 10:41:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23392666]
+[2024-05-27 10:41:06] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-27 10:41:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qontract-reconcile
+[2024-05-27 10:41:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-admin-global-sidebar
+[2024-05-27 10:41:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mapieng
+[2024-05-27 10:41:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pearson
+[2024-05-27 10:41:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: imio.news.core
+[2024-05-27 10:41:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: JsonToMarkdown
+[2024-05-27 10:41:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: imio.smartweb.common
+[2024-05-27 10:41:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: django-customvueadmin
+[2024-05-27 10:41:06] INFO root fetch - processPackages [pearson]: New version: [2.5] Old Version: [2.4]
+[2024-05-27 10:41:06] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2024-05-27 10:41:06] INFO root fetch - processPackages [django-admin-global-sidebar]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-05-27 10:41:07] INFO root fetch - processPackages [imio.smartweb.common]: New version: [1.2.9] Old Version: [1.2.8]
+[2024-05-27 10:41:07] INFO root fetch - processPackages [imio.news.core]: New version: [1.2.9] Old Version: [1.2.8]
+[2024-05-27 10:41:07] INFO root fetch - processPackages [JsonToMarkdown]: New version: [1.4.1] Old Version: [1.4.0]
+[2024-05-27 10:41:07] INFO root fetch - processPackages [mapieng]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-05-27 10:41:07] INFO root fetch - processPackages [pearson]: Downloading https://files.pythonhosted.org/packages/b4/22/ecab26c1d9884fa11030a130d52a9e639dbb54cdb577eb707652b92cabb7/pearson-2.4.tar.gz
+[2024-05-27 10:41:07] INFO root fetch - processPackages [django-customvueadmin]: New version: [0.2.0] Old Version: [0.1.9]
+[2024-05-27 10:41:07] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2024-05-27 10:41:07] INFO root fetch - processPackages [django-admin-global-sidebar]: Downloading https://files.pythonhosted.org/packages/aa/57/f63a389e84a6149a27d253ec430ea45fde249e5078bdcd1b62763080d035/django-admin-global-sidebar-0.2.2.tar.gz
+[2024-05-27 10:41:07] INFO root fetch - processPackages [imio.news.core]: Downloading https://files.pythonhosted.org/packages/53/6b/3a658bd0a066190696f1237344ddcf0e0f24a9cd651e7a88ca5d2d59cede/imio.news.core-1.2.8.tar.gz
+[2024-05-27 10:41:07] INFO root fetch - processPackages [mapieng]: Downloading https://files.pythonhosted.org/packages/82/ed/41756543b178fb60093f55c957bdeb6c9fdfa2fdfe9e46abd831257533a1/mapieng-0.2.4.tar.gz
+[2024-05-27 10:41:07] INFO root fetch - processPackages [imio.smartweb.common]: Downloading https://files.pythonhosted.org/packages/a8/10/446f945c7faaeda4e31be5b66463c99b6a78ed1a1729a1241a0433d74d14/imio.smartweb.common-1.2.8.tar.gz
+[2024-05-27 10:41:07] INFO root fetch - processPackages [JsonToMarkdown]: Downloading https://files.pythonhosted.org/packages/05/45/e7a9336c661cd92a048af3d4491282f3b8fd124000ccdd9cf019f41c55ad/JsonToMarkdown-1.4.0.tar.gz
+[2024-05-27 10:41:07] INFO root fetch - processPackages [django-customvueadmin]: Downloading https://files.pythonhosted.org/packages/d8/b4/d8ed66d757c0e6f03e7cd5ee5b378818027ed3bcff5118e94ea6612ccdae/django-customvueadmin-0.1.9.tar.gz
+[2024-05-27 10:41:07] INFO root fetch - processPackages [pearson]: Downloading https://files.pythonhosted.org/packages/5e/47/8758bf08ac3a3999301844229183df5009fd935a95edd336df74ec6e32d8/pearson-2.5.tar.gz
+[2024-05-27 10:41:07] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2024-05-27 10:41:07] INFO root fetch - processPackages [pearson]: executing diffoscope
+[2024-05-27 10:41:07] INFO root fetch - processPackages [django-admin-global-sidebar]: Downloading https://files.pythonhosted.org/packages/d8/43/3f38e4178ac1833e7dad4a47dd00f35a072d73d631903946979363b0a0c8/django-admin-global-sidebar-0.2.3.tar.gz
+[2024-05-27 10:41:07] INFO root fetch - processPackages [pearson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pearson-2.4.tar.gz tmp/pearson-2.5.tar.gz --markdown 20240527/p/pearson/2.4-2.5/README.md --exclude *.pyd
+[2024-05-27 10:41:07] INFO root fetch - processPackages [imio.news.core]: Downloading https://files.pythonhosted.org/packages/08/f9/f1b4b1836d54e43566b6671ea2ec623c0c113d5930905c930cb51123f841/imio_news_core-1.2.9.tar.gz
+[2024-05-27 10:41:07] INFO root fetch - processPackages [mapieng]: Downloading https://files.pythonhosted.org/packages/b9/13/d7fcb08384ae2aa689b2ec6e25d8e95507eec354a8f1a78ef8545c8eaaa0/mapieng-0.2.5.tar.gz
+[2024-05-27 10:41:07] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2024-05-27 10:41:07] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20240527/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/README.md --exclude *.pyd
+[2024-05-27 10:41:07] INFO root fetch - processPackages [django-admin-global-sidebar]: executing diffoscope
+[2024-05-27 10:41:07] INFO root fetch - processPackages [django-admin-global-sidebar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-admin-global-sidebar-0.2.2.tar.gz tmp/django-admin-global-sidebar-0.2.3.tar.gz --markdown 20240527/d/django-admin-global-sidebar/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-05-27 10:41:07] INFO root fetch - processPackages [JsonToMarkdown]: Downloading https://files.pythonhosted.org/packages/25/c9/b2417cf358529b37c2c6466986c2cc74173b0c079fff7d41a6d45eea2729/JsonToMarkdown-1.4.1.tar.gz
+[2024-05-27 10:41:07] INFO root fetch - processPackages [imio.smartweb.common]: Downloading https://files.pythonhosted.org/packages/91/5e/d0034350465921f436497838bf83b0a442bcbce6d7ad0120d81ad61da38c/imio.smartweb.common-1.2.9.tar.gz
+[2024-05-27 10:41:07] INFO root fetch - processPackages [mapieng]: executing diffoscope
+[2024-05-27 10:41:07] INFO root fetch - processPackages [mapieng]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mapieng-0.2.4.tar.gz tmp/mapieng-0.2.5.tar.gz --markdown 20240527/m/mapieng/0.2.4-0.2.5/README.md --exclude *.pyd
+[2024-05-27 10:41:07] INFO root fetch - processPackages [imio.news.core]: executing diffoscope
+[2024-05-27 10:41:07] INFO root fetch - processPackages [imio.news.core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imio.news.core-1.2.8.tar.gz tmp/imio_news_core-1.2.9.tar.gz --markdown 20240527/i/imio.news.core/1.2.8-1.2.9/README.md --exclude *.pyd
+[2024-05-27 10:41:07] INFO root fetch - processPackages [imio.smartweb.common]: executing diffoscope
+[2024-05-27 10:41:07] INFO root fetch - processPackages [imio.smartweb.common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imio.smartweb.common-1.2.8.tar.gz tmp/imio.smartweb.common-1.2.9.tar.gz --markdown 20240527/i/imio.smartweb.common/1.2.8-1.2.9/README.md --exclude *.pyd
+[2024-05-27 10:41:07] INFO root fetch - processPackages [JsonToMarkdown]: executing diffoscope
+[2024-05-27 10:41:07] INFO root fetch - processPackages [JsonToMarkdown]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/JsonToMarkdown-1.4.0.tar.gz tmp/JsonToMarkdown-1.4.1.tar.gz --markdown 20240527/J/JsonToMarkdown/1.4.0-1.4.1/README.md --exclude *.pyd
+[2024-05-27 10:41:08] INFO root fetch - processPackages [pearson]: Remove: archive file [/home/abi/fetcher/tmp/pearson-2.4.tar.gz]
+[2024-05-27 10:41:08] INFO root fetch - processPackages [pearson]: Remove: archive file [/home/abi/fetcher/tmp/pearson-2.5.tar.gz]
+[2024-05-27 10:41:08] INFO root fetch - main [MainThread]: End processing [pearson]: success
+[2024-05-27 10:41:08] INFO root fetch - processPackages [django-admin-global-sidebar]: Remove: archive file [/home/abi/fetcher/tmp/django-admin-global-sidebar-0.2.2.tar.gz]
+[2024-05-27 10:41:08] INFO root fetch - processPackages [django-admin-global-sidebar]: Remove: archive file [/home/abi/fetcher/tmp/django-admin-global-sidebar-0.2.3.tar.gz]
+[2024-05-27 10:41:08] INFO root fetch - main [MainThread]: End processing [django-admin-global-sidebar]: success
+[2024-05-27 10:41:08] INFO root fetch - processPackages [mapieng]: Remove: archive file [/home/abi/fetcher/tmp/mapieng-0.2.4.tar.gz]
+[2024-05-27 10:41:08] INFO root fetch - processPackages [mapieng]: Remove: archive file [/home/abi/fetcher/tmp/mapieng-0.2.5.tar.gz]
+[2024-05-27 10:41:08] INFO root fetch - main [MainThread]: End processing [mapieng]: success
+[2024-05-27 10:41:08] INFO root fetch - processPackages [JsonToMarkdown]: Remove: archive file [/home/abi/fetcher/tmp/JsonToMarkdown-1.4.0.tar.gz]
+[2024-05-27 10:41:08] INFO root fetch - processPackages [JsonToMarkdown]: Remove: archive file [/home/abi/fetcher/tmp/JsonToMarkdown-1.4.1.tar.gz]
+[2024-05-27 10:41:08] INFO root fetch - main [MainThread]: End processing [JsonToMarkdown]: success
+[2024-05-27 10:41:08] INFO root fetch - processPackages [imio.news.core]: Remove: archive file [/home/abi/fetcher/tmp/imio.news.core-1.2.8.tar.gz]
+[2024-05-27 10:41:08] INFO root fetch - processPackages [imio.news.core]: Remove: archive file [/home/abi/fetcher/tmp/imio_news_core-1.2.9.tar.gz]
+[2024-05-27 10:41:08] INFO root fetch - main [MainThread]: End processing [imio.news.core]: success
+[2024-05-27 10:41:08] INFO root fetch - processPackages [django-customvueadmin]: Downloading https://files.pythonhosted.org/packages/58/c7/0f2eb36cf9302772b1a173aa99b6af996f1d0325398a3855d20e2c83b2b0/django_customvueadmin-0.2.0.tar.gz
+[2024-05-27 10:41:09] INFO root fetch - processPackages [imio.smartweb.common]: Remove: archive file [/home/abi/fetcher/tmp/imio.smartweb.common-1.2.8.tar.gz]
+[2024-05-27 10:41:09] INFO root fetch - processPackages [imio.smartweb.common]: Remove: archive file [/home/abi/fetcher/tmp/imio.smartweb.common-1.2.9.tar.gz]
+[2024-05-27 10:41:09] INFO root fetch - main [MainThread]: End processing [imio.smartweb.common]: success
+[2024-05-27 10:41:09] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2024-05-27 10:41:09] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2024-05-27 10:41:09] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2024-05-27 10:41:09] INFO root fetch - processPackages [django-customvueadmin]: executing diffoscope
+[2024-05-27 10:41:09] INFO root fetch - processPackages [django-customvueadmin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-customvueadmin-0.1.9.tar.gz tmp/django_customvueadmin-0.2.0.tar.gz --markdown 20240527/d/django-customvueadmin/0.1.9-0.2.0/README.md --exclude *.pyd
+[2024-05-27 10:41:10] INFO root fetch - processPackages [django-customvueadmin]: Remove: archive file [/home/abi/fetcher/tmp/django-customvueadmin-0.1.9.tar.gz]
+[2024-05-27 10:41:10] INFO root fetch - processPackages [django-customvueadmin]: Remove: archive file [/home/abi/fetcher/tmp/django_customvueadmin-0.2.0.tar.gz]
+[2024-05-27 10:41:10] INFO root fetch - main [MainThread]: End processing [django-customvueadmin]: success
+[2024-05-27 10:41:10] INFO root fetch - main [MainThread]: Store serial: [23392688]
