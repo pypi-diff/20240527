@@ -20701,3 +20701,66 @@ EOFError: EOF read where object expected
 [2024-05-27 17:42:00] INFO root fetch - main [MainThread]: End processing [bsb-neuron]: success
 [2024-05-27 17:42:00] INFO root fetch - main [MainThread]: End processing [luxos]: success
 [2024-05-27 17:42:00] INFO root fetch - main [MainThread]: Store serial: [23397801]
+[2024-05-27 17:44:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23397801]
+[2024-05-27 17:44:08] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-27 17:44:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: absolutely-not-scikit-video
+[2024-05-27 17:44:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: objectbox
+[2024-05-27 17:44:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pbc_sjfhsjfh
+[2024-05-27 17:44:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: MLXpress
+[2024-05-27 17:44:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: leadguru-jobs
+[2024-05-27 17:44:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: few-shot-priming
+[2024-05-27 17:44:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: orcaz
+[2024-05-27 17:44:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: axidence
+[2024-05-27 17:44:09] INFO root fetch - processPackages [objectbox]: New version: [4.0.0a3] Old Version: [4.0.0a2]
+[2024-05-27 17:44:09] INFO root fetch - processPackages [orcaz]: New version: [0.1.3.6] Old Version: [0.1.3.5]
+[2024-05-27 17:44:09] INFO root fetch - processPackages [MLXpress]: New version: [0.1.9.3] Old Version: [0.1.9.2]
+[2024-05-27 17:44:09] INFO root fetch - processPackages [few-shot-priming]: New version: [0.3.99] Old Version: [0.3.98]
+[2024-05-27 17:44:09] WARNING root fetch - processPackages [absolutely-not-scikit-video]: Skipping, unable to determine old version
+[2024-05-27 17:44:09] INFO root fetch - main [MainThread]: End processing [absolutely-not-scikit-video] error
+[2024-05-27 17:44:09] WARNING root fetch - processPackages [pbc_sjfhsjfh]: Skipping, unable to determine old version
+[2024-05-27 17:44:09] INFO root fetch - main [MainThread]: End processing [pbc_sjfhsjfh] error
+[2024-05-27 17:44:09] INFO root fetch - processPackages [objectbox]: Downloading https://files.pythonhosted.org/packages/8e/02/cda33bd6ea35d3d051b92ca582732f2d0de6b34756df82064c099bdd96d5/objectbox-4.0.0a2-py3-none-any.whl
+[2024-05-27 17:44:09] INFO root fetch - processPackages [orcaz]: Downloading https://files.pythonhosted.org/packages/76/0d/dbf11ecaf26cb93c8c5d0b71446097b1d29eb8061e9b8b9c7dd7505cbd3d/orcaz-0.1.3.5.tar.gz
+[2024-05-27 17:44:09] INFO root fetch - processPackages [MLXpress]: Downloading https://files.pythonhosted.org/packages/db/6a/bc867c98ff6f946531871ab52654979d4a53c959e191703735fb2b248cc1/MLXpress-0.1.9.2.tar.gz
+[2024-05-27 17:44:09] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/eb/67/d15b11d0bfb57369fa16ba7f8c97cd3ddec8f771e6da8f11a3d819004b69/few_shot_priming-0.3.98-py3-none-any.whl
+[2024-05-27 17:44:09] INFO root fetch - processPackages [axidence]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-05-27 17:44:09] INFO root fetch - processPackages [leadguru-jobs]: New version: [0.99.0] Old Version: [0.98.0]
+[2024-05-27 17:44:09] INFO root fetch - processPackages [MLXpress]: Downloading https://files.pythonhosted.org/packages/f6/ee/1c16de7ee30a400c9e2fb9f63c7d2bf893d15d625427703f200acdfef3a1/MLXpress-0.1.9.3.tar.gz
+[2024-05-27 17:44:09] INFO root fetch - processPackages [axidence]: Downloading https://files.pythonhosted.org/packages/63/df/fdf3f60b4f936b592d16b8e60a5e58862b98c1938465b8903275fce77bb3/axidence-0.3.0.tar.gz
+[2024-05-27 17:44:09] INFO root fetch - processPackages [leadguru-jobs]: Downloading https://files.pythonhosted.org/packages/58/0a/904c1f8e92c5b6adf3bf97a755cae87648f67ca82bb52bc30055558e0ce3/leadguru_jobs-0.98.0.tar.gz
+[2024-05-27 17:44:09] INFO root fetch - processPackages [MLXpress]: executing diffoscope
+[2024-05-27 17:44:09] INFO root fetch - processPackages [MLXpress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MLXpress-0.1.9.2.tar.gz tmp/MLXpress-0.1.9.3.tar.gz --markdown 20240527/M/MLXpress/0.1.9.2-0.1.9.3/README.md --exclude *.pyd
+[2024-05-27 17:44:09] INFO root fetch - processPackages [orcaz]: Downloading https://files.pythonhosted.org/packages/33/0f/46a87e9f986a95d67776a8c3a9dcecf2a0c792ce0fc68bff8cd6f11e2c12/orcaz-0.1.3.6.tar.gz
+[2024-05-27 17:44:09] INFO root fetch - processPackages [objectbox]: Downloading https://files.pythonhosted.org/packages/a0/d6/51aff7a528bd52b9e1d8cb347bcdba88eeb84c16317e155acde5a62f10fd/objectbox-4.0.0a3-py3-none-any.whl
+[2024-05-27 17:44:09] INFO root fetch - processPackages [orcaz]: executing diffoscope
+[2024-05-27 17:44:09] INFO root fetch - processPackages [orcaz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/orcaz-0.1.3.5.tar.gz tmp/orcaz-0.1.3.6.tar.gz --markdown 20240527/o/orcaz/0.1.3.5-0.1.3.6/README.md --exclude *.pyd
+[2024-05-27 17:44:09] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/ff/11/548f6e96803602e6431dc610d736d401b20fde986f85c35c8ad19a6d0958/few_shot_priming-0.3.99-py3-none-any.whl
+[2024-05-27 17:44:09] INFO root fetch - processPackages [axidence]: Downloading https://files.pythonhosted.org/packages/ba/85/a4ff44b0c9397dc6a482b94eac08810e6ff22eb03e9b64696aa518a9da67/axidence-0.3.1.tar.gz
+[2024-05-27 17:44:10] INFO root fetch - processPackages [objectbox]: executing diffoscope
+[2024-05-27 17:44:10] INFO root fetch - processPackages [objectbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/objectbox-4.0.0a2-py3-none-any.whl.zip tmp/objectbox-4.0.0a3-py3-none-any.whl.zip --markdown 20240527/o/objectbox/4.0.0a2-4.0.0a3/README.md --exclude *.pyd
+[2024-05-27 17:44:10] INFO root fetch - processPackages [leadguru-jobs]: Downloading https://files.pythonhosted.org/packages/e4/7f/189fe7a4dc1256297dd1956413531652ee35cd4ee527f02aa7f2d608775a/leadguru_jobs-0.99.0.tar.gz
+[2024-05-27 17:44:10] INFO root fetch - processPackages [leadguru-jobs]: executing diffoscope
+[2024-05-27 17:44:10] INFO root fetch - processPackages [leadguru-jobs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leadguru_jobs-0.98.0.tar.gz tmp/leadguru_jobs-0.99.0.tar.gz --markdown 20240527/l/leadguru-jobs/0.98.0-0.99.0/README.md --exclude *.pyd
+[2024-05-27 17:44:10] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2024-05-27 17:44:10] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.3.98-py3-none-any.whl.zip tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip --markdown 20240527/f/few-shot-priming/0.3.98-0.3.99/README.md --exclude *.pyd
+[2024-05-27 17:44:10] INFO root fetch - processPackages [MLXpress]: Remove: archive file [/home/abi/fetcher/tmp/MLXpress-0.1.9.2.tar.gz]
+[2024-05-27 17:44:10] INFO root fetch - processPackages [MLXpress]: Remove: archive file [/home/abi/fetcher/tmp/MLXpress-0.1.9.3.tar.gz]
+[2024-05-27 17:44:10] INFO root fetch - main [MainThread]: End processing [MLXpress]: success
+[2024-05-27 17:44:10] INFO root fetch - processPackages [orcaz]: Remove: archive file [/home/abi/fetcher/tmp/orcaz-0.1.3.5.tar.gz]
+[2024-05-27 17:44:10] INFO root fetch - processPackages [orcaz]: Remove: archive file [/home/abi/fetcher/tmp/orcaz-0.1.3.6.tar.gz]
+[2024-05-27 17:44:10] INFO root fetch - main [MainThread]: End processing [orcaz]: success
+[2024-05-27 17:44:10] INFO root fetch - processPackages [axidence]: executing diffoscope
+[2024-05-27 17:44:10] INFO root fetch - processPackages [axidence]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/axidence-0.3.0.tar.gz tmp/axidence-0.3.1.tar.gz --markdown 20240527/a/axidence/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-05-27 17:44:10] INFO root fetch - processPackages [objectbox]: Remove: archive file [/home/abi/fetcher/tmp/objectbox-4.0.0a2-py3-none-any.whl.zip]
+[2024-05-27 17:44:10] INFO root fetch - processPackages [objectbox]: Remove: archive file [/home/abi/fetcher/tmp/objectbox-4.0.0a3-py3-none-any.whl.zip]
+[2024-05-27 17:44:10] INFO root fetch - main [MainThread]: End processing [objectbox]: success
+[2024-05-27 17:44:10] INFO root fetch - processPackages [leadguru-jobs]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_jobs-0.98.0.tar.gz]
+[2024-05-27 17:44:10] INFO root fetch - processPackages [leadguru-jobs]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_jobs-0.99.0.tar.gz]
+[2024-05-27 17:44:10] INFO root fetch - main [MainThread]: End processing [leadguru-jobs]: success
+[2024-05-27 17:44:11] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.98-py3-none-any.whl.zip]
+[2024-05-27 17:44:11] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip]
+[2024-05-27 17:44:11] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2024-05-27 17:44:11] INFO root fetch - processPackages [axidence]: Remove: archive file [/home/abi/fetcher/tmp/axidence-0.3.0.tar.gz]
+[2024-05-27 17:44:11] INFO root fetch - processPackages [axidence]: Remove: archive file [/home/abi/fetcher/tmp/axidence-0.3.1.tar.gz]
+[2024-05-27 17:44:11] INFO root fetch - main [MainThread]: End processing [axidence]: success
+[2024-05-27 17:44:11] INFO root fetch - main [MainThread]: Store serial: [23397824]
