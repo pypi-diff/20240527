@@ -19975,3 +19975,47 @@ EOFError: EOF read where object expected
 [2024-05-27 17:11:10] INFO root fetch - processPackages [xga]: Remove: archive file [/home/abi/fetcher/tmp/xga-0.4.5.tar.gz]
 [2024-05-27 17:11:10] INFO root fetch - main [MainThread]: End processing [xga]: success
 [2024-05-27 17:11:10] INFO root fetch - main [MainThread]: Store serial: [23397520]
+[2024-05-27 17:13:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23397520]
+[2024-05-27 17:13:19] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-27 17:13:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: steamleaderboards
+[2024-05-27 17:13:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yeref
+[2024-05-27 17:13:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: py-tools-ds
+[2024-05-27 17:13:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mmanager
+[2024-05-27 17:13:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cook-builder
+[2024-05-27 17:13:19] INFO root fetch - processPackages [steamleaderboards]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-05-27 17:13:20] INFO root fetch - processPackages [cook-builder]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-27 17:13:20] INFO root fetch - processPackages [yeref]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-27 17:13:20] INFO root fetch - processPackages [mmanager]: New version: [2.3.0] Old Version: [2.2.0]
+[2024-05-27 17:13:20] INFO root fetch - processPackages [steamleaderboards]: Downloading https://files.pythonhosted.org/packages/93/09/41e2eda7b7a5bfb182eb802b6a8bf50965be7af3e6f3c61bd81807566660/steamleaderboards-1.1.0.tar.gz
+[2024-05-27 17:13:20] INFO root fetch - processPackages [py-tools-ds]: New version: [0.9.4] Old Version: [0.9.3]
+[2024-05-27 17:13:20] INFO root fetch - processPackages [cook-builder]: Downloading https://files.pythonhosted.org/packages/0b/24/e38a3b736683217b82f14b18471dd6aa795dbe7d9ddbc44827fc0ebcf00f/cook_builder-0.1.4.tar.gz
+[2024-05-27 17:13:20] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/ec/cb/204e6fbe233bbb61cf29c1b491e8c638c8a843edc47fb4e1d8cc8c26608c/yeref-0.9.8.tar.gz
+[2024-05-27 17:13:20] INFO root fetch - processPackages [steamleaderboards]: Downloading https://files.pythonhosted.org/packages/96/ed/8d79cc2eefd0e45d849375fa64632016cee4ba49789a31e031c3d3d47bf6/steamleaderboards-1.1.1.tar.gz
+[2024-05-27 17:13:20] INFO root fetch - processPackages [mmanager]: Downloading https://files.pythonhosted.org/packages/06/ca/161da65558b2026e6c57fbed9b66e6c06586653195b1c09504a30982735d/mmanager-2.2.0.tar.gz
+[2024-05-27 17:13:20] INFO root fetch - processPackages [cook-builder]: Downloading https://files.pythonhosted.org/packages/f5/2a/027203aa31d0075e3fef81c62508140f01676ebab7dc7cf79b6bdde01f6a/cook_builder-0.1.5.tar.gz
+[2024-05-27 17:13:20] INFO root fetch - processPackages [py-tools-ds]: Downloading https://files.pythonhosted.org/packages/f8/ac/0004c2268e7ac8b65e813d327eb08fe43a326c57798f04ed3d616c4e1708/py_tools_ds-0.9.3.tar.gz
+[2024-05-27 17:13:20] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/01/13/0f11bb3dfb27aaf16ed48b0046f50ac65b1fde32662fbc314d53e2558b2d/yeref-0.9.9.tar.gz
+[2024-05-27 17:13:20] INFO root fetch - processPackages [cook-builder]: executing diffoscope
+[2024-05-27 17:13:20] INFO root fetch - processPackages [cook-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cook_builder-0.1.4.tar.gz tmp/cook_builder-0.1.5.tar.gz --markdown 20240527/c/cook-builder/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-27 17:13:20] INFO root fetch - processPackages [steamleaderboards]: executing diffoscope
+[2024-05-27 17:13:20] INFO root fetch - processPackages [steamleaderboards]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/steamleaderboards-1.1.0.tar.gz tmp/steamleaderboards-1.1.1.tar.gz --markdown 20240527/s/steamleaderboards/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-05-27 17:13:20] WARNING root fetch - processPackages [mmanager]: Skipping package: exceeds size limit 91487997>=10485760
+[2024-05-27 17:13:20] INFO root fetch - main [MainThread]: End processing [mmanager] error
+[2024-05-27 17:13:20] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2024-05-27 17:13:20] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.9.8.tar.gz tmp/yeref-0.9.9.tar.gz --markdown 20240527/y/yeref/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-27 17:13:21] INFO root fetch - processPackages [cook-builder]: Remove: archive file [/home/abi/fetcher/tmp/cook_builder-0.1.4.tar.gz]
+[2024-05-27 17:13:21] INFO root fetch - processPackages [cook-builder]: Remove: archive file [/home/abi/fetcher/tmp/cook_builder-0.1.5.tar.gz]
+[2024-05-27 17:13:21] INFO root fetch - main [MainThread]: End processing [cook-builder]: success
+[2024-05-27 17:13:21] INFO root fetch - processPackages [steamleaderboards]: Remove: archive file [/home/abi/fetcher/tmp/steamleaderboards-1.1.0.tar.gz]
+[2024-05-27 17:13:21] INFO root fetch - processPackages [steamleaderboards]: Remove: archive file [/home/abi/fetcher/tmp/steamleaderboards-1.1.1.tar.gz]
+[2024-05-27 17:13:21] INFO root fetch - main [MainThread]: End processing [steamleaderboards]: success
+[2024-05-27 17:13:21] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.8.tar.gz]
+[2024-05-27 17:13:21] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.9.tar.gz]
+[2024-05-27 17:13:21] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2024-05-27 17:13:21] INFO root fetch - processPackages [py-tools-ds]: Downloading https://files.pythonhosted.org/packages/1c/9d/1ed8abaf0e5dbe605fcca39e9f893d33cad0a019e5a3e5c2a2a4bebc32ee/py_tools_ds-0.9.4.tar.gz
+[2024-05-27 17:13:21] INFO root fetch - processPackages [py-tools-ds]: executing diffoscope
+[2024-05-27 17:13:21] INFO root fetch - processPackages [py-tools-ds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_tools_ds-0.9.3.tar.gz tmp/py_tools_ds-0.9.4.tar.gz --markdown 20240527/p/py-tools-ds/0.9.3-0.9.4/README.md --exclude *.pyd
+[2024-05-27 17:13:22] INFO root fetch - processPackages [py-tools-ds]: Remove: archive file [/home/abi/fetcher/tmp/py_tools_ds-0.9.3.tar.gz]
+[2024-05-27 17:13:22] INFO root fetch - processPackages [py-tools-ds]: Remove: archive file [/home/abi/fetcher/tmp/py_tools_ds-0.9.4.tar.gz]
+[2024-05-27 17:13:22] INFO root fetch - main [MainThread]: End processing [py-tools-ds]: success
+[2024-05-27 17:13:22] INFO root fetch - main [MainThread]: Store serial: [23397538]
