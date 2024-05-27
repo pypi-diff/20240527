@@ -23647,3 +23647,32 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-05-27 19:45:35] INFO root fetch - processPackages [portfolyo]: Remove: archive file [/home/abi/fetcher/tmp/portfolyo-0.6.0.tar.gz]
 [2024-05-27 19:45:35] INFO root fetch - main [MainThread]: End processing [portfolyo]: success
 [2024-05-27 19:45:35] INFO root fetch - main [MainThread]: Store serial: [23399333]
+[2024-05-27 19:47:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23399333]
+[2024-05-27 19:47:43] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-27 19:47:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: techgram
+[2024-05-27 19:47:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: test-myp
+[2024-05-27 19:47:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: linkedit
+[2024-05-27 19:47:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: HamiltonIO
+[2024-05-27 19:47:43] INFO root fetch - processPackages [techgram]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-27 19:47:43] INFO root fetch - processPackages [techgram]: Downloading https://files.pythonhosted.org/packages/bb/6a/8f42ce2261917180e04383db934b3337df0e0e91cb53fa81e5c1a25f8e52/techgram-1.0.8-cp39-cp39-manylinux2014_x86_64.whl
+[2024-05-27 19:47:43] WARNING root fetch - processPackages [test-myp]: Skipping, unable to determine old version
+[2024-05-27 19:47:43] INFO root fetch - main [MainThread]: End processing [test-myp] error
+[2024-05-27 19:47:44] WARNING root fetch - processPackages [techgram]: Skipping package: exceeds size limit 11235555>=10485760
+[2024-05-27 19:47:44] INFO root fetch - main [MainThread]: End processing [techgram] error
+[2024-05-27 19:47:44] INFO root fetch - processPackages [HamiltonIO]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-27 19:47:44] INFO root fetch - processPackages [linkedit]: New version: [1.0.7] Old Version: [1.0.5]
+[2024-05-27 19:47:44] INFO root fetch - processPackages [HamiltonIO]: Downloading https://files.pythonhosted.org/packages/3a/b9/86b5ce2926c484e0dbfd6ee9af8bdd48cbf5b2908dca98abc8429a6746d2/hamiltonio-0.1.1.tar.gz
+[2024-05-27 19:47:44] INFO root fetch - processPackages [linkedit]: Downloading https://files.pythonhosted.org/packages/74/d1/33e23b958df241a52d8bc32d0ff29f5c79a413bc8d59ede9cc2b3863d0ba/linkedit-1.0.5.tar.gz
+[2024-05-27 19:47:44] INFO root fetch - processPackages [HamiltonIO]: Downloading https://files.pythonhosted.org/packages/18/33/ded73afbae3ddcd53addc746e950b24f35ce768bcee404e3f49e63db84b2/hamiltonio-0.1.2.tar.gz
+[2024-05-27 19:47:44] INFO root fetch - processPackages [linkedit]: Downloading https://files.pythonhosted.org/packages/0a/44/2c0738329152f0de955cdf8588c6f782f37a6e9842eab84c348c28575d17/linkedit-1.0.7.tar.gz
+[2024-05-27 19:47:44] INFO root fetch - processPackages [HamiltonIO]: executing diffoscope
+[2024-05-27 19:47:44] INFO root fetch - processPackages [HamiltonIO]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hamiltonio-0.1.1.tar.gz tmp/hamiltonio-0.1.2.tar.gz --markdown 20240527/H/HamiltonIO/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-27 19:47:44] INFO root fetch - processPackages [linkedit]: executing diffoscope
+[2024-05-27 19:47:44] INFO root fetch - processPackages [linkedit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linkedit-1.0.5.tar.gz tmp/linkedit-1.0.7.tar.gz --markdown 20240527/l/linkedit/1.0.5-1.0.7/README.md --exclude *.pyd
+[2024-05-27 19:47:45] INFO root fetch - processPackages [HamiltonIO]: Remove: archive file [/home/abi/fetcher/tmp/hamiltonio-0.1.1.tar.gz]
+[2024-05-27 19:47:45] INFO root fetch - processPackages [HamiltonIO]: Remove: archive file [/home/abi/fetcher/tmp/hamiltonio-0.1.2.tar.gz]
+[2024-05-27 19:47:45] INFO root fetch - main [MainThread]: End processing [HamiltonIO]: success
+[2024-05-27 19:47:45] INFO root fetch - processPackages [linkedit]: Remove: archive file [/home/abi/fetcher/tmp/linkedit-1.0.5.tar.gz]
+[2024-05-27 19:47:45] INFO root fetch - processPackages [linkedit]: Remove: archive file [/home/abi/fetcher/tmp/linkedit-1.0.7.tar.gz]
+[2024-05-27 19:47:45] INFO root fetch - main [MainThread]: End processing [linkedit]: success
+[2024-05-27 19:47:45] INFO root fetch - main [MainThread]: Store serial: [23399356]
