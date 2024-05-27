@@ -5005,3 +5005,36 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 06:03:50] INFO root fetch - processPackages [pyqqq]: Remove: archive file [/home/abi/fetcher/tmp/pyqqq-0.9.9.tar.gz]
 [2024-05-27 06:03:50] INFO root fetch - main [MainThread]: End processing [pyqqq]: success
 [2024-05-27 06:03:50] INFO root fetch - main [MainThread]: Store serial: [23390416]
+[2024-05-27 06:05:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23390416]
+[2024-05-27 06:05:58] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-27 06:05:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: conflict-rpa
+[2024-05-27 06:05:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pybsc
+[2024-05-27 06:05:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: axion
+[2024-05-27 06:05:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: swahili-stopwords
+[2024-05-27 06:05:58] INFO root fetch - processPackages [conflict-rpa]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-27 06:05:58] WARNING root fetch - processPackages [swahili-stopwords]: Skipping, unable to determine old version
+[2024-05-27 06:05:58] INFO root fetch - main [MainThread]: End processing [swahili-stopwords] error
+[2024-05-27 06:05:58] INFO root fetch - processPackages [axion]: New version: [4.2.7] Old Version: [4.2.6]
+[2024-05-27 06:05:58] INFO root fetch - processPackages [pybsc]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-27 06:05:59] INFO root fetch - processPackages [conflict-rpa]: Downloading https://files.pythonhosted.org/packages/dc/4d/73bbd835daa15cc3e6964fb40270d7f149aa61da72e919bcac9c53947836/conflict_rpa-0.0.6.tar.gz
+[2024-05-27 06:05:59] INFO root fetch - processPackages [axion]: Downloading https://files.pythonhosted.org/packages/90/c3/7503c5fb77ed737882556675586878db7fcce7b4e55d34111934ad6c9ab2/axion-4.2.6-cp312-none-win_amd64.whl
+[2024-05-27 06:05:59] INFO root fetch - processPackages [pybsc]: Downloading https://files.pythonhosted.org/packages/4c/84/9e3a3825c438d492327d2d26030c752a0617d74be15354c4ef2f30f04252/pybsc-0.1.8.tar.gz
+[2024-05-27 06:05:59] INFO root fetch - processPackages [conflict-rpa]: Downloading https://files.pythonhosted.org/packages/c9/a5/7bb7166332d6af17bc4f1d33ba74a43e54b42069d395a4fa64eb3fe2f0a0/conflict_rpa-0.0.7.tar.gz
+[2024-05-27 06:05:59] INFO root fetch - processPackages [axion]: Downloading https://files.pythonhosted.org/packages/88/b9/3e8ed96a8b8ce6f39903c1dd9b3f5b846f964df1d09f3eca4a3e47fbaa5c/axion-4.2.7-cp312-none-manylinux2014_x86_64.whl
+[2024-05-27 06:05:59] INFO root fetch - processPackages [conflict-rpa]: executing diffoscope
+[2024-05-27 06:05:59] INFO root fetch - processPackages [conflict-rpa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/conflict_rpa-0.0.6.tar.gz tmp/conflict_rpa-0.0.7.tar.gz --markdown 20240527/c/conflict-rpa/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-27 06:05:59] INFO root fetch - processPackages [pybsc]: Downloading https://files.pythonhosted.org/packages/72/ea/f5c8c967877d087400945f3bfbd6823fec098b13acdde1a60899e9d4e406/pybsc-0.1.9.tar.gz
+[2024-05-27 06:05:59] INFO root fetch - processPackages [pybsc]: executing diffoscope
+[2024-05-27 06:05:59] INFO root fetch - processPackages [pybsc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybsc-0.1.8.tar.gz tmp/pybsc-0.1.9.tar.gz --markdown 20240527/p/pybsc/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-27 06:06:00] INFO root fetch - processPackages [conflict-rpa]: Remove: archive file [/home/abi/fetcher/tmp/conflict_rpa-0.0.6.tar.gz]
+[2024-05-27 06:06:00] INFO root fetch - processPackages [conflict-rpa]: Remove: archive file [/home/abi/fetcher/tmp/conflict_rpa-0.0.7.tar.gz]
+[2024-05-27 06:06:00] INFO root fetch - main [MainThread]: End processing [conflict-rpa]: success
+[2024-05-27 06:06:00] INFO root fetch - processPackages [pybsc]: Remove: archive file [/home/abi/fetcher/tmp/pybsc-0.1.8.tar.gz]
+[2024-05-27 06:06:00] INFO root fetch - processPackages [pybsc]: Remove: archive file [/home/abi/fetcher/tmp/pybsc-0.1.9.tar.gz]
+[2024-05-27 06:06:00] INFO root fetch - main [MainThread]: End processing [pybsc]: success
+[2024-05-27 06:06:00] INFO root fetch - processPackages [axion]: executing diffoscope
+[2024-05-27 06:06:00] INFO root fetch - processPackages [axion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/axion-4.2.6-cp312-none-win_amd64.whl.zip tmp/axion-4.2.7-cp312-none-manylinux2014_x86_64.whl.zip --markdown 20240527/a/axion/4.2.6-4.2.7/README.md --exclude *.pyd
+[2024-05-27 06:06:01] INFO root fetch - processPackages [axion]: Remove: archive file [/home/abi/fetcher/tmp/axion-4.2.6-cp312-none-win_amd64.whl.zip]
+[2024-05-27 06:06:01] INFO root fetch - processPackages [axion]: Remove: archive file [/home/abi/fetcher/tmp/axion-4.2.7-cp312-none-manylinux2014_x86_64.whl.zip]
+[2024-05-27 06:06:01] INFO root fetch - main [MainThread]: End processing [axion]: success
+[2024-05-27 06:06:01] INFO root fetch - main [MainThread]: Store serial: [23390432]
