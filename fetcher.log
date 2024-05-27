@@ -21509,3 +21509,30 @@ AssertionError: tmp/quickQrLib-0.2.tar.gz does not exist
 [2024-05-27 18:12:58] INFO root fetch - processPackages [job-shop-lib]: Remove: archive file [/home/abi/fetcher/tmp/job_shop_lib-0.5.0.tar.gz]
 [2024-05-27 18:12:58] INFO root fetch - main [MainThread]: End processing [job-shop-lib]: success
 [2024-05-27 18:12:58] INFO root fetch - main [MainThread]: Store serial: [23398196]
+[2024-05-27 18:15:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23398196]
+[2024-05-27 18:15:07] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-27 18:15:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pinecone-plugin-interface
+[2024-05-27 18:15:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-vector-sense-blog
+[2024-05-27 18:15:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyarcamsolo
+[2024-05-27 18:15:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: QuikUI
+[2024-05-27 18:15:07] INFO root fetch - processPackages [pyarcamsolo]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-27 18:15:07] INFO root fetch - processPackages [QuikUI]: New version: [0.1.0a2] Old Version: [0.1.0a1]
+[2024-05-27 18:15:07] WARNING root fetch - processPackages [django-vector-sense-blog]: Skipping, unable to determine old version
+[2024-05-27 18:15:07] INFO root fetch - main [MainThread]: End processing [django-vector-sense-blog] error
+[2024-05-27 18:15:07] INFO root fetch - processPackages [pyarcamsolo]: Downloading https://files.pythonhosted.org/packages/c1/1c/1e61f9d070ff380818615227a4bd803130a9f6011575744ffa8f7a25369d/pyarcamsolo-0.0.5.tar.gz
+[2024-05-27 18:15:07] WARNING root fetch - processPackages [pinecone-plugin-interface]: Skipping, unable to determine old version
+[2024-05-27 18:15:07] INFO root fetch - main [MainThread]: End processing [pinecone-plugin-interface] error
+[2024-05-27 18:15:07] INFO root fetch - processPackages [QuikUI]: Downloading https://files.pythonhosted.org/packages/01/51/ff537b4a8cdbbb55d6d916cde493b595b26134749b0c58ffe8fc7292d4bc/QuikUI-0.1.0a1.tar.gz
+[2024-05-27 18:15:07] INFO root fetch - processPackages [pyarcamsolo]: Downloading https://files.pythonhosted.org/packages/d9/5b/1a5a2e474441d815370520362cd22ee47fe211e023633ae35f31dc1458f8/pyarcamsolo-0.0.6.tar.gz
+[2024-05-27 18:15:07] INFO root fetch - processPackages [pyarcamsolo]: executing diffoscope
+[2024-05-27 18:15:07] INFO root fetch - processPackages [pyarcamsolo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyarcamsolo-0.0.5.tar.gz tmp/pyarcamsolo-0.0.6.tar.gz --markdown 20240527/p/pyarcamsolo/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-27 18:15:07] INFO root fetch - processPackages [QuikUI]: Downloading https://files.pythonhosted.org/packages/2e/d8/fbe5f2c415e0d1aac396e5c97202dd1856c7a7a26b3a5899c26487180dd1/QuikUI-0.1.0a2.tar.gz
+[2024-05-27 18:15:07] INFO root fetch - processPackages [QuikUI]: executing diffoscope
+[2024-05-27 18:15:07] INFO root fetch - processPackages [QuikUI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QuikUI-0.1.0a1.tar.gz tmp/QuikUI-0.1.0a2.tar.gz --markdown 20240527/Q/QuikUI/0.1.0a1-0.1.0a2/README.md --exclude *.pyd
+[2024-05-27 18:15:08] INFO root fetch - processPackages [pyarcamsolo]: Remove: archive file [/home/abi/fetcher/tmp/pyarcamsolo-0.0.5.tar.gz]
+[2024-05-27 18:15:08] INFO root fetch - processPackages [pyarcamsolo]: Remove: archive file [/home/abi/fetcher/tmp/pyarcamsolo-0.0.6.tar.gz]
+[2024-05-27 18:15:08] INFO root fetch - main [MainThread]: End processing [pyarcamsolo]: success
+[2024-05-27 18:15:08] INFO root fetch - processPackages [QuikUI]: Remove: archive file [/home/abi/fetcher/tmp/QuikUI-0.1.0a1.tar.gz]
+[2024-05-27 18:15:08] INFO root fetch - processPackages [QuikUI]: Remove: archive file [/home/abi/fetcher/tmp/QuikUI-0.1.0a2.tar.gz]
+[2024-05-27 18:15:08] INFO root fetch - main [MainThread]: End processing [QuikUI]: success
+[2024-05-27 18:15:08] INFO root fetch - main [MainThread]: Store serial: [23398212]
