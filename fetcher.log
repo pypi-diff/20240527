@@ -11589,3 +11589,42 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 11:52:31] INFO root fetch - processPackages [mice]: Remove: archive file [/home/abi/fetcher/tmp/mice-0.1.9.tar.gz]
 [2024-05-27 11:52:31] INFO root fetch - main [MainThread]: End processing [mice]: success
 [2024-05-27 11:52:31] INFO root fetch - main [MainThread]: Store serial: [23393531]
+[2024-05-27 11:54:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23393531]
+[2024-05-27 11:54:39] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-27 11:54:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: atomistics
+[2024-05-27 11:54:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: glampy
+[2024-05-27 11:54:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sdkit
+[2024-05-27 11:54:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumiverse-cockroach
+[2024-05-27 11:54:39] INFO root fetch - processPackages [sdkit]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-05-27 11:54:39] INFO root fetch - processPackages [sdkit]: Downloading https://files.pythonhosted.org/packages/4f/d9/7218fa4642a4063b7605ea2709719503ddae7889d494777e16effbcd2447/sdkit-2.0.8.tar.gz
+[2024-05-27 11:54:39] INFO root fetch - processPackages [atomistics]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-27 11:54:39] INFO root fetch - processPackages [glampy]: New version: [0.2.4] Old Version: [0.2.2]
+[2024-05-27 11:54:39] INFO root fetch - processPackages [pulumiverse-cockroach]: New version: [0.2.3a1713452126] Old Version: [0.2.3]
+[2024-05-27 11:54:40] INFO root fetch - processPackages [glampy]: Downloading https://files.pythonhosted.org/packages/bc/f0/13c0f0c339987fd4f7c74bda2b1f44b9367a49ef3c269092b8f5309171ca/glampy-0.2.2.tar.gz
+[2024-05-27 11:54:40] INFO root fetch - processPackages [atomistics]: Downloading https://files.pythonhosted.org/packages/ef/eb/7ed97c71b5e1922e9188019b440e4792045c3db3b1f387b27c022b709cb6/atomistics-0.1.8.tar.gz
+[2024-05-27 11:54:40] INFO root fetch - processPackages [sdkit]: Downloading https://files.pythonhosted.org/packages/a3/3b/170fb343234797b20456dea2c5c46bfe6a8c52594affdec77735ecf76561/sdkit-2.0.9.tar.gz
+[2024-05-27 11:54:40] INFO root fetch - processPackages [pulumiverse-cockroach]: Downloading https://files.pythonhosted.org/packages/89/03/970306ad15de399c3a619ae215f1337dcfa68158a4a93b9b1c65ce1d0c9a/pulumiverse_cockroach-0.2.3.tar.gz
+[2024-05-27 11:54:40] INFO root fetch - processPackages [sdkit]: executing diffoscope
+[2024-05-27 11:54:40] INFO root fetch - processPackages [sdkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdkit-2.0.8.tar.gz tmp/sdkit-2.0.9.tar.gz --markdown 20240527/s/sdkit/2.0.8-2.0.9/README.md --exclude *.pyd
+[2024-05-27 11:54:40] INFO root fetch - processPackages [glampy]: Downloading https://files.pythonhosted.org/packages/23/64/db33248b91aac5db755678aab0ffa360d7c8e18a8e07beab692589d194a0/glampy-0.2.4.tar.gz
+[2024-05-27 11:54:40] INFO root fetch - processPackages [atomistics]: Downloading https://files.pythonhosted.org/packages/fa/7c/ef931c24f972258e913c2b89f0c1a0ae6372ba9744c50da047240cebf50e/atomistics-0.1.9.tar.gz
+[2024-05-27 11:54:40] INFO root fetch - processPackages [glampy]: executing diffoscope
+[2024-05-27 11:54:40] INFO root fetch - processPackages [glampy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glampy-0.2.2.tar.gz tmp/glampy-0.2.4.tar.gz --markdown 20240527/g/glampy/0.2.2-0.2.4/README.md --exclude *.pyd
+[2024-05-27 11:54:40] INFO root fetch - processPackages [atomistics]: executing diffoscope
+[2024-05-27 11:54:40] INFO root fetch - processPackages [atomistics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atomistics-0.1.8.tar.gz tmp/atomistics-0.1.9.tar.gz --markdown 20240527/a/atomistics/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-27 11:54:40] INFO root fetch - processPackages [pulumiverse-cockroach]: Downloading https://files.pythonhosted.org/packages/fb/43/795a5668ac743ce1093dcb3965f457930cd09815aa70f534d740d23f5eaf/pulumiverse_cockroach-0.2.3a1713452126.tar.gz
+[2024-05-27 11:54:40] INFO root fetch - processPackages [pulumiverse-cockroach]: executing diffoscope
+[2024-05-27 11:54:40] INFO root fetch - processPackages [pulumiverse-cockroach]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumiverse_cockroach-0.2.3.tar.gz tmp/pulumiverse_cockroach-0.2.3a1713452126.tar.gz --markdown 20240527/p/pulumiverse-cockroach/0.2.3-0.2.3a1713452126/README.md --exclude *.pyd
+[2024-05-27 11:54:41] INFO root fetch - processPackages [glampy]: Remove: archive file [/home/abi/fetcher/tmp/glampy-0.2.2.tar.gz]
+[2024-05-27 11:54:41] INFO root fetch - processPackages [glampy]: Remove: archive file [/home/abi/fetcher/tmp/glampy-0.2.4.tar.gz]
+[2024-05-27 11:54:41] INFO root fetch - main [MainThread]: End processing [glampy]: success
+[2024-05-27 11:54:41] INFO root fetch - processPackages [atomistics]: Remove: archive file [/home/abi/fetcher/tmp/atomistics-0.1.8.tar.gz]
+[2024-05-27 11:54:41] INFO root fetch - processPackages [atomistics]: Remove: archive file [/home/abi/fetcher/tmp/atomistics-0.1.9.tar.gz]
+[2024-05-27 11:54:41] INFO root fetch - main [MainThread]: End processing [atomistics]: success
+[2024-05-27 11:54:41] INFO root fetch - processPackages [sdkit]: Remove: archive file [/home/abi/fetcher/tmp/sdkit-2.0.8.tar.gz]
+[2024-05-27 11:54:41] INFO root fetch - processPackages [sdkit]: Remove: archive file [/home/abi/fetcher/tmp/sdkit-2.0.9.tar.gz]
+[2024-05-27 11:54:41] INFO root fetch - main [MainThread]: End processing [sdkit]: success
+[2024-05-27 11:54:41] INFO root fetch - processPackages [pulumiverse-cockroach]: Remove: archive file [/home/abi/fetcher/tmp/pulumiverse_cockroach-0.2.3.tar.gz]
+[2024-05-27 11:54:41] INFO root fetch - processPackages [pulumiverse-cockroach]: Remove: archive file [/home/abi/fetcher/tmp/pulumiverse_cockroach-0.2.3a1713452126.tar.gz]
+[2024-05-27 11:54:41] INFO root fetch - main [MainThread]: End processing [pulumiverse-cockroach]: success
+[2024-05-27 11:54:41] INFO root fetch - main [MainThread]: Store serial: [23393543]
