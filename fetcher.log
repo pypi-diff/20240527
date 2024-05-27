@@ -9295,3 +9295,74 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 10:19:11] INFO root fetch - main [MainThread]: End processing [dao-analyzer]: success
 [2024-05-27 10:19:11] INFO root fetch - main [MainThread]: End processing [dao-analyzer]: success
 [2024-05-27 10:19:11] INFO root fetch - main [MainThread]: Store serial: [23392464]
+[2024-05-27 10:21:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23392464]
+[2024-05-27 10:21:20] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-27 10:21:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nfinance
+[2024-05-27 10:21:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: daktari
+[2024-05-27 10:21:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: impsparc
+[2024-05-27 10:21:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: locust
+[2024-05-27 10:21:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nucliadb-admin-assets
+[2024-05-27 10:21:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: eip712-clearsign
+[2024-05-27 10:21:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mapieng
+[2024-05-27 10:21:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: kcl-lib
+[2024-05-27 10:21:20] INFO root fetch - processPackages [nfinance]: New version: [0.4.3] Old Version: [0.4.2]
+[2024-05-27 10:21:20] INFO root fetch - processPackages [locust]: New version: [2.9.1.dev45] Old Version: [2.9.1.dev38]
+[2024-05-27 10:21:20] INFO root fetch - processPackages [nfinance]: Downloading https://files.pythonhosted.org/packages/b6/47/5cc3549fe617d843c82a220af660d5609ce3310a09d761f174b4a6ee38dd/nfinance-0.4.2.tar.gz
+[2024-05-27 10:21:20] INFO root fetch - processPackages [mapieng]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-05-27 10:21:20] INFO root fetch - processPackages [impsparc]: New version: [3.1.8] Old Version: [3.1.7]
+[2024-05-27 10:21:20] INFO root fetch - processPackages [eip712-clearsign]: New version: [2.0.0rc2] Old Version: [2.0.0rc1]
+[2024-05-27 10:21:20] INFO root fetch - processPackages [nucliadb-admin-assets]: New version: [1.0.0.post1554] Old Version: [1.0.0.post1553]
+[2024-05-27 10:21:20] INFO root fetch - processPackages [daktari]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-27 10:21:20] INFO root fetch - processPackages [locust]: Downloading https://files.pythonhosted.org/packages/9e/ec/230b194549eadcded8e4a0fd7d2e3ed3a9c600452bfc52bfe59d845fb5a5/locust-2.9.1.dev38.tar.gz
+[2024-05-27 10:21:20] INFO root fetch - processPackages [kcl-lib]: New version: [0.9.0a2] Old Version: [0.9.0a1]
+[2024-05-27 10:21:20] INFO root fetch - processPackages [mapieng]: Downloading https://files.pythonhosted.org/packages/a7/bc/2490cb9a40b436923b7fcf32bba6f868a9b65bddd4c05e389893198a2ebf/mapieng-0.2.2.tar.gz
+[2024-05-27 10:21:20] INFO root fetch - processPackages [nfinance]: Downloading https://files.pythonhosted.org/packages/c1/f9/ef9afaf0aaebcba3d524dc5e5ccd1a2e856754a658bdbe660fbdd1485b5d/nfinance-0.4.3.tar.gz
+[2024-05-27 10:21:20] INFO root fetch - processPackages [impsparc]: Downloading https://files.pythonhosted.org/packages/cb/d2/224931272df1e864e58e6d43a74ae51e3233f3f890dbbda9916331550ff6/impsparc-3.1.7.tar.gz
+[2024-05-27 10:21:20] INFO root fetch - processPackages [nucliadb-admin-assets]: Downloading https://files.pythonhosted.org/packages/0c/b1/6273211497a13f80d09d89ea1018540c86492e277e27b27a9a69e7c061c3/nucliadb_admin_assets-1.0.0.post1553-py3-none-any.whl
+[2024-05-27 10:21:20] INFO root fetch - processPackages [eip712-clearsign]: Downloading https://files.pythonhosted.org/packages/c2/69/250a083fbcb142992d24f3dba76069383c6ca71aed992b8fac137db99781/eip712_clearsign-2.0.0rc1.tar.gz
+[2024-05-27 10:21:20] INFO root fetch - processPackages [daktari]: Downloading https://files.pythonhosted.org/packages/80/e2/e763e02669b3c5003eab9a1d3f23a8c11ddea7b9843baca75d4a3f67dfd1/daktari-0.0.98.tar.gz
+[2024-05-27 10:21:21] INFO root fetch - processPackages [kcl-lib]: Downloading https://files.pythonhosted.org/packages/a2/dd/72953174bbfadf8de2087e49f2de8e438cfcf660c8363314e2c9c5949c90/kcl_lib-0.9.0a1.tar.gz
+[2024-05-27 10:21:21] INFO root fetch - processPackages [nfinance]: executing diffoscope
+[2024-05-27 10:21:21] INFO root fetch - processPackages [nfinance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nfinance-0.4.2.tar.gz tmp/nfinance-0.4.3.tar.gz --markdown 20240527/n/nfinance/0.4.2-0.4.3/README.md --exclude *.pyd
+[2024-05-27 10:21:21] INFO root fetch - processPackages [mapieng]: Downloading https://files.pythonhosted.org/packages/37/f4/c688f83e90c3a4891ad21b92f1e3878b100fdc55a5d8d6c5465602a49a03/mapieng-0.2.3.tar.gz
+[2024-05-27 10:21:21] WARNING root fetch - processPackages [kcl-lib]: Skipping package: exceeds size limit 90219772>=10485760
+[2024-05-27 10:21:21] INFO root fetch - main [MainThread]: End processing [kcl-lib] error
+[2024-05-27 10:21:21] INFO root fetch - processPackages [eip712-clearsign]: Downloading https://files.pythonhosted.org/packages/de/f7/f49907e2c7e21f63a2b721417148fd6fd2fb15f3dbd28c5433da8899249a/eip712_clearsign-2.0.0rc2.tar.gz
+[2024-05-27 10:21:21] INFO root fetch - processPackages [daktari]: Downloading https://files.pythonhosted.org/packages/35/1f/9e7becfab4e84e6879ca6968ba9f3963734de77bebf086053003ea27839c/daktari-0.0.99.tar.gz
+[2024-05-27 10:21:21] INFO root fetch - processPackages [nucliadb-admin-assets]: Downloading https://files.pythonhosted.org/packages/37/6a/486931fa7a1c546c86ce8765b4549b446c53f022d34dfdd9337ef4f4b7d0/nucliadb_admin_assets-1.0.0.post1554-py3-none-any.whl
+[2024-05-27 10:21:21] INFO root fetch - processPackages [mapieng]: executing diffoscope
+[2024-05-27 10:21:21] INFO root fetch - processPackages [mapieng]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mapieng-0.2.2.tar.gz tmp/mapieng-0.2.3.tar.gz --markdown 20240527/m/mapieng/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-05-27 10:21:21] INFO root fetch - processPackages [eip712-clearsign]: executing diffoscope
+[2024-05-27 10:21:21] INFO root fetch - processPackages [eip712-clearsign]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eip712_clearsign-2.0.0rc1.tar.gz tmp/eip712_clearsign-2.0.0rc2.tar.gz --markdown 20240527/e/eip712-clearsign/2.0.0rc1-2.0.0rc2/README.md --exclude *.pyd
+[2024-05-27 10:21:21] INFO root fetch - processPackages [impsparc]: Downloading https://files.pythonhosted.org/packages/a6/c7/a65d5cbaefd3b6e1ed758b5d4a282511f727a18ff48dce9fbe7c52ebf141/impsparc-3.1.8.tar.gz
+[2024-05-27 10:21:21] INFO root fetch - processPackages [daktari]: executing diffoscope
+[2024-05-27 10:21:21] INFO root fetch - processPackages [daktari]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/daktari-0.0.98.tar.gz tmp/daktari-0.0.99.tar.gz --markdown 20240527/d/daktari/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-27 10:21:21] INFO root fetch - processPackages [nucliadb-admin-assets]: executing diffoscope
+[2024-05-27 10:21:21] INFO root fetch - processPackages [nucliadb-admin-assets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_admin_assets-1.0.0.post1553-py3-none-any.whl.zip tmp/nucliadb_admin_assets-1.0.0.post1554-py3-none-any.whl.zip --markdown 20240527/n/nucliadb-admin-assets/1.0.0.post1553-1.0.0.post1554/README.md --exclude *.pyd
+[2024-05-27 10:21:21] INFO root fetch - processPackages [nfinance]: Remove: archive file [/home/abi/fetcher/tmp/nfinance-0.4.2.tar.gz]
+[2024-05-27 10:21:21] INFO root fetch - processPackages [nfinance]: Remove: archive file [/home/abi/fetcher/tmp/nfinance-0.4.3.tar.gz]
+[2024-05-27 10:21:21] INFO root fetch - main [MainThread]: End processing [nfinance]: success
+[2024-05-27 10:21:21] INFO root fetch - processPackages [impsparc]: executing diffoscope
+[2024-05-27 10:21:21] INFO root fetch - processPackages [impsparc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/impsparc-3.1.7.tar.gz tmp/impsparc-3.1.8.tar.gz --markdown 20240527/i/impsparc/3.1.7-3.1.8/README.md --exclude *.pyd
+[2024-05-27 10:21:21] INFO root fetch - processPackages [locust]: Downloading https://files.pythonhosted.org/packages/ec/25/23264f2f77e7f0b1be817a375627e7821524f1a6bf4a5fd503bab0031505/locust-2.9.1.dev45.tar.gz
+[2024-05-27 10:21:22] INFO root fetch - processPackages [eip712-clearsign]: Remove: archive file [/home/abi/fetcher/tmp/eip712_clearsign-2.0.0rc1.tar.gz]
+[2024-05-27 10:21:22] INFO root fetch - processPackages [eip712-clearsign]: Remove: archive file [/home/abi/fetcher/tmp/eip712_clearsign-2.0.0rc2.tar.gz]
+[2024-05-27 10:21:22] INFO root fetch - main [MainThread]: End processing [eip712-clearsign]: success
+[2024-05-27 10:21:22] INFO root fetch - processPackages [mapieng]: Remove: archive file [/home/abi/fetcher/tmp/mapieng-0.2.2.tar.gz]
+[2024-05-27 10:21:22] INFO root fetch - processPackages [mapieng]: Remove: archive file [/home/abi/fetcher/tmp/mapieng-0.2.3.tar.gz]
+[2024-05-27 10:21:22] INFO root fetch - main [MainThread]: End processing [mapieng]: success
+[2024-05-27 10:21:22] INFO root fetch - processPackages [daktari]: Remove: archive file [/home/abi/fetcher/tmp/daktari-0.0.98.tar.gz]
+[2024-05-27 10:21:22] INFO root fetch - processPackages [daktari]: Remove: archive file [/home/abi/fetcher/tmp/daktari-0.0.99.tar.gz]
+[2024-05-27 10:21:22] INFO root fetch - main [MainThread]: End processing [daktari]: success
+[2024-05-27 10:21:22] INFO root fetch - processPackages [nucliadb-admin-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_admin_assets-1.0.0.post1553-py3-none-any.whl.zip]
+[2024-05-27 10:21:22] INFO root fetch - processPackages [nucliadb-admin-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_admin_assets-1.0.0.post1554-py3-none-any.whl.zip]
+[2024-05-27 10:21:22] INFO root fetch - main [MainThread]: End processing [nucliadb-admin-assets]: success
+[2024-05-27 10:21:22] INFO root fetch - processPackages [impsparc]: Remove: archive file [/home/abi/fetcher/tmp/impsparc-3.1.7.tar.gz]
+[2024-05-27 10:21:22] INFO root fetch - processPackages [impsparc]: Remove: archive file [/home/abi/fetcher/tmp/impsparc-3.1.8.tar.gz]
+[2024-05-27 10:21:22] INFO root fetch - main [MainThread]: End processing [impsparc]: success
+[2024-05-27 10:21:22] INFO root fetch - processPackages [locust]: executing diffoscope
+[2024-05-27 10:21:22] INFO root fetch - processPackages [locust]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/locust-2.9.1.dev38.tar.gz tmp/locust-2.9.1.dev45.tar.gz --markdown 20240527/l/locust/2.9.1.dev38-2.9.1.dev45/README.md --exclude *.pyd
+[2024-05-27 10:21:24] INFO root fetch - processPackages [locust]: Remove: archive file [/home/abi/fetcher/tmp/locust-2.9.1.dev38.tar.gz]
+[2024-05-27 10:21:24] INFO root fetch - processPackages [locust]: Remove: archive file [/home/abi/fetcher/tmp/locust-2.9.1.dev45.tar.gz]
+[2024-05-27 10:21:24] INFO root fetch - main [MainThread]: End processing [locust]: success
+[2024-05-27 10:21:24] INFO root fetch - main [MainThread]: Store serial: [23392505]
