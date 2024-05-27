@@ -17303,3 +17303,66 @@ EOFError: EOF read where object expected
 [2024-05-27 15:41:45] INFO root fetch - processPackages [alibabacloud-oceanbasepro20190901]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_oceanbasepro20190901-4.1.0.tar.gz]
 [2024-05-27 15:41:45] INFO root fetch - main [MainThread]: End processing [alibabacloud-oceanbasepro20190901]: success
 [2024-05-27 15:41:45] INFO root fetch - main [MainThread]: Store serial: [23396375]
+[2024-05-27 15:43:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23396375]
+[2024-05-27 15:43:53] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-27 15:43:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yaz-pynotify
+[2024-05-27 15:43:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdt-path
+[2024-05-27 15:43:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: scrapy-selenium-addon
+[2024-05-27 15:43:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: metasdk
+[2024-05-27 15:43:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dcicutils
+[2024-05-27 15:43:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: python-simple-logger
+[2024-05-27 15:43:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: XiaoqiangUpdater
+[2024-05-27 15:43:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ansys-scade-apitools
+[2024-05-27 15:43:54] INFO root fetch - processPackages [dcicutils]: New version: [8.9.0.0b0] Old Version: [8.8.6.1b5]
+[2024-05-27 15:43:54] INFO root fetch - processPackages [cdt-path]: New version: [2.1.4] Old Version: [2.1.1]
+[2024-05-27 15:43:54] INFO root fetch - processPackages [metasdk]: New version: [1.8.0] Old Version: [1.7.9]
+[2024-05-27 15:43:54] INFO root fetch - processPackages [scrapy-selenium-addon]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-27 15:43:54] WARNING root fetch - processPackages [yaz-pynotify]: Skipping, unable to determine old version
+[2024-05-27 15:43:54] INFO root fetch - main [MainThread]: End processing [yaz-pynotify] error
+[2024-05-27 15:43:54] INFO root fetch - processPackages [ansys-scade-apitools]: New version: [0.4.2] Old Version: [0.4.0]
+[2024-05-27 15:43:54] WARNING root fetch - processPackages [XiaoqiangUpdater]: Skipping, unable to determine old version
+[2024-05-27 15:43:54] INFO root fetch - main [MainThread]: End processing [XiaoqiangUpdater] error
+[2024-05-27 15:43:54] INFO root fetch - processPackages [python-simple-logger]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-27 15:43:54] INFO root fetch - processPackages [dcicutils]: Downloading https://files.pythonhosted.org/packages/4f/66/2ea30ff5bf5843aa15218cf9591a641b723caf98ce3d1b8e059b37bbc02e/dcicutils-8.8.6.1b5.tar.gz
+[2024-05-27 15:43:54] INFO root fetch - processPackages [scrapy-selenium-addon]: Downloading https://files.pythonhosted.org/packages/52/a7/6c43ff540c54bd6ab9ac670e4b36caf0c066d2c10092aeae4a2b6a4ecf1a/scrapy_selenium_addon-0.0.8.tar.gz
+[2024-05-27 15:43:54] INFO root fetch - processPackages [cdt-path]: Downloading https://files.pythonhosted.org/packages/9f/90/87d9962c05b881d9a46b459c6c2f82f97d52049a1b4fde3f68cc2af654f7/cdt_path-2.1.1.tar.gz
+[2024-05-27 15:43:54] INFO root fetch - processPackages [ansys-scade-apitools]: Downloading https://files.pythonhosted.org/packages/63/dc/c299ad1e5c88d6b58124eba5ddbd2a4bc5e0d2832c5ca5dc57d7ee1cf1d2/ansys_scade_apitools-0.4.0.tar.gz
+[2024-05-27 15:43:54] INFO root fetch - processPackages [metasdk]: Downloading https://files.pythonhosted.org/packages/0d/fa/692ac652414508153350aa3d3984f43cfbfb7c26a31af4e643d142d6eaaa/metasdk-1.7.9.tar.gz
+[2024-05-27 15:43:54] INFO root fetch - processPackages [python-simple-logger]: Downloading https://files.pythonhosted.org/packages/b7/00/25c1190dfcd02c105f61888148c4cc7e53a4419f1529fc1cbd0e6b4a56fb/python_simple_logger-1.0.8.tar.gz
+[2024-05-27 15:43:54] INFO root fetch - processPackages [dcicutils]: Downloading https://files.pythonhosted.org/packages/5b/de/ac87d1c9583f507046be7724343035a3e363814633eea93612ca13f3adba/dcicutils-8.9.0.0b0.tar.gz
+[2024-05-27 15:43:54] INFO root fetch - processPackages [cdt-path]: Downloading https://files.pythonhosted.org/packages/32/91/11d28e759438bb441bf60c3b7dde192dca78bf8f826ac071cf5f0a06697c/cdt_path-2.1.4.tar.gz
+[2024-05-27 15:43:54] INFO root fetch - processPackages [scrapy-selenium-addon]: Downloading https://files.pythonhosted.org/packages/6b/b5/187146418c725fd9e86081daf3a2700003e9f047bf84215f802005443358/scrapy_selenium_addon-0.0.9.tar.gz
+[2024-05-27 15:43:54] INFO root fetch - processPackages [metasdk]: Downloading https://files.pythonhosted.org/packages/94/f4/77954ae325cfbb747f5238b2547f66ef915bb1f2492e922a1326992d26c0/metasdk-1.8.0.tar.gz
+[2024-05-27 15:43:54] INFO root fetch - processPackages [dcicutils]: executing diffoscope
+[2024-05-27 15:43:54] INFO root fetch - processPackages [dcicutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcicutils-8.8.6.1b5.tar.gz tmp/dcicutils-8.9.0.0b0.tar.gz --markdown 20240527/d/dcicutils/8.8.6.1b5-8.9.0.0b0/README.md --exclude *.pyd
+[2024-05-27 15:43:54] INFO root fetch - processPackages [cdt-path]: executing diffoscope
+[2024-05-27 15:43:54] INFO root fetch - processPackages [cdt-path]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdt_path-2.1.1.tar.gz tmp/cdt_path-2.1.4.tar.gz --markdown 20240527/c/cdt-path/2.1.1-2.1.4/README.md --exclude *.pyd
+[2024-05-27 15:43:54] INFO root fetch - processPackages [python-simple-logger]: Downloading https://files.pythonhosted.org/packages/b7/8f/c4f6060e263a75c74df886a1e40ad1894d223a6fc03098ee6b363fd315ac/python_simple_logger-1.0.9.tar.gz
+[2024-05-27 15:43:54] INFO root fetch - processPackages [scrapy-selenium-addon]: executing diffoscope
+[2024-05-27 15:43:54] INFO root fetch - processPackages [scrapy-selenium-addon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrapy_selenium_addon-0.0.8.tar.gz tmp/scrapy_selenium_addon-0.0.9.tar.gz --markdown 20240527/s/scrapy-selenium-addon/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-27 15:43:55] INFO root fetch - processPackages [ansys-scade-apitools]: Downloading https://files.pythonhosted.org/packages/ef/3f/c4241bf0d459a5174bc6483e4ff53e1c6411286ffe0a53e36278e59cef03/ansys_scade_apitools-0.4.2-py3-none-any.whl
+[2024-05-27 15:43:55] INFO root fetch - processPackages [metasdk]: executing diffoscope
+[2024-05-27 15:43:55] INFO root fetch - processPackages [metasdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metasdk-1.7.9.tar.gz tmp/metasdk-1.8.0.tar.gz --markdown 20240527/m/metasdk/1.7.9-1.8.0/README.md --exclude *.pyd
+[2024-05-27 15:43:55] INFO root fetch - processPackages [python-simple-logger]: executing diffoscope
+[2024-05-27 15:43:55] INFO root fetch - processPackages [python-simple-logger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_simple_logger-1.0.8.tar.gz tmp/python_simple_logger-1.0.9.tar.gz --markdown 20240527/p/python-simple-logger/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-27 15:43:55] INFO root fetch - processPackages [ansys-scade-apitools]: executing diffoscope
+[2024-05-27 15:43:55] INFO root fetch - processPackages [ansys-scade-apitools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansys_scade_apitools-0.4.0.tar.gz tmp/ansys_scade_apitools-0.4.2-py3-none-any.whl.zip --markdown 20240527/a/ansys-scade-apitools/0.4.0-0.4.2/README.md --exclude *.pyd
+[2024-05-27 15:43:55] INFO root fetch - processPackages [cdt-path]: Remove: archive file [/home/abi/fetcher/tmp/cdt_path-2.1.1.tar.gz]
+[2024-05-27 15:43:55] INFO root fetch - processPackages [cdt-path]: Remove: archive file [/home/abi/fetcher/tmp/cdt_path-2.1.4.tar.gz]
+[2024-05-27 15:43:55] INFO root fetch - main [MainThread]: End processing [cdt-path]: success
+[2024-05-27 15:43:55] INFO root fetch - processPackages [metasdk]: Remove: archive file [/home/abi/fetcher/tmp/metasdk-1.7.9.tar.gz]
+[2024-05-27 15:43:55] INFO root fetch - processPackages [metasdk]: Remove: archive file [/home/abi/fetcher/tmp/metasdk-1.8.0.tar.gz]
+[2024-05-27 15:43:55] INFO root fetch - main [MainThread]: End processing [metasdk]: success
+[2024-05-27 15:43:55] INFO root fetch - processPackages [python-simple-logger]: Remove: archive file [/home/abi/fetcher/tmp/python_simple_logger-1.0.8.tar.gz]
+[2024-05-27 15:43:55] INFO root fetch - processPackages [python-simple-logger]: Remove: archive file [/home/abi/fetcher/tmp/python_simple_logger-1.0.9.tar.gz]
+[2024-05-27 15:43:55] INFO root fetch - main [MainThread]: End processing [python-simple-logger]: success
+[2024-05-27 15:43:55] INFO root fetch - processPackages [scrapy-selenium-addon]: Remove: archive file [/home/abi/fetcher/tmp/scrapy_selenium_addon-0.0.8.tar.gz]
+[2024-05-27 15:43:55] INFO root fetch - processPackages [scrapy-selenium-addon]: Remove: archive file [/home/abi/fetcher/tmp/scrapy_selenium_addon-0.0.9.tar.gz]
+[2024-05-27 15:43:55] INFO root fetch - main [MainThread]: End processing [scrapy-selenium-addon]: success
+[2024-05-27 15:43:56] INFO root fetch - processPackages [dcicutils]: Remove: archive file [/home/abi/fetcher/tmp/dcicutils-8.8.6.1b5.tar.gz]
+[2024-05-27 15:43:56] INFO root fetch - processPackages [dcicutils]: Remove: archive file [/home/abi/fetcher/tmp/dcicutils-8.9.0.0b0.tar.gz]
+[2024-05-27 15:43:56] INFO root fetch - main [MainThread]: End processing [dcicutils]: success
+[2024-05-27 15:43:56] INFO root fetch - processPackages [ansys-scade-apitools]: Remove: archive file [/home/abi/fetcher/tmp/ansys_scade_apitools-0.4.0.tar.gz]
+[2024-05-27 15:43:56] INFO root fetch - processPackages [ansys-scade-apitools]: Remove: archive file [/home/abi/fetcher/tmp/ansys_scade_apitools-0.4.2-py3-none-any.whl.zip]
+[2024-05-27 15:43:56] INFO root fetch - main [MainThread]: End processing [ansys-scade-apitools]: success
+[2024-05-27 15:43:56] INFO root fetch - main [MainThread]: Store serial: [23396398]
