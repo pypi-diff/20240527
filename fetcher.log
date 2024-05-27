@@ -14266,3 +14266,42 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 13:39:09] INFO root fetch - processPackages [dadmatools]: Remove: archive file [/home/abi/fetcher/tmp/dadmatools-2.0.4.tar.gz]
 [2024-05-27 13:39:09] INFO root fetch - main [MainThread]: End processing [dadmatools]: success
 [2024-05-27 13:39:09] INFO root fetch - main [MainThread]: Store serial: [23394820]
+[2024-05-27 13:41:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23394820]
+[2024-05-27 13:41:18] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-27 13:41:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: coveo-testing-extras
+[2024-05-27 13:41:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mteb
+[2024-05-27 13:41:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qoa4ml
+[2024-05-27 13:41:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wechat-ob12
+[2024-05-27 13:41:18] INFO root fetch - processPackages [wechat-ob12]: New version: [0.0.2.2] Old Version: [0.0.2.1]
+[2024-05-27 13:41:18] INFO root fetch - processPackages [qoa4ml]: New version: [0.2.0] Old Version: [0.1.9]
+[2024-05-27 13:41:18] INFO root fetch - processPackages [coveo-testing-extras]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-05-27 13:41:18] INFO root fetch - processPackages [mteb]: New version: [1.9.3] Old Version: [1.9.2]
+[2024-05-27 13:41:18] INFO root fetch - processPackages [qoa4ml]: Downloading https://files.pythonhosted.org/packages/c3/df/b71177aada41849b60a21e46cb0dfab148123f789faea90222361a74528c/qoa4ml-0.1.9.tar.gz
+[2024-05-27 13:41:18] INFO root fetch - processPackages [coveo-testing-extras]: Downloading https://files.pythonhosted.org/packages/08/de/be112dc9d0512264fa5d64ca015e5209e951587a286ea792d45ee7247d92/coveo_testing_extras-2.1.8.tar.gz
+[2024-05-27 13:41:18] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/aa/99/be58df74a89833b5d44fbd8f00e5c99b4ca82aa67a9c1487fd782328d3b5/mteb-1.9.2.tar.gz
+[2024-05-27 13:41:18] INFO root fetch - processPackages [wechat-ob12]: Downloading https://files.pythonhosted.org/packages/bf/df/30ae23fe85e48f32f8cc7370414ee48a64e1cc323868cddd7d6989a23e54/wechat_ob12-0.0.2.1.tar.gz
+[2024-05-27 13:41:18] INFO root fetch - processPackages [qoa4ml]: Downloading https://files.pythonhosted.org/packages/90/e2/c9e00de2035d51595356c9cf5b8bfda02830645ba7adcd5091dc46779c60/qoa4ml-0.2.0.tar.gz
+[2024-05-27 13:41:18] INFO root fetch - processPackages [coveo-testing-extras]: Downloading https://files.pythonhosted.org/packages/0a/1f/99c7ab3fe5ee389911b90f04efc67f0bce734da44efe53f3d3f1c913bbcf/coveo_testing_extras-2.1.9.tar.gz
+[2024-05-27 13:41:18] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/1a/05/483a4778dcfb42b672c3c28ac435e64d386b1df507d3c0059e5da9194653/mteb-1.9.3.tar.gz
+[2024-05-27 13:41:18] INFO root fetch - processPackages [wechat-ob12]: Downloading https://files.pythonhosted.org/packages/19/e7/a6e2d1fdea5254db344dba47443cdb6cb2c33335323d93d4661664660339/wechat_ob12-0.0.2.2.tar.gz
+[2024-05-27 13:41:18] INFO root fetch - processPackages [coveo-testing-extras]: executing diffoscope
+[2024-05-27 13:41:18] INFO root fetch - processPackages [coveo-testing-extras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coveo_testing_extras-2.1.8.tar.gz tmp/coveo_testing_extras-2.1.9.tar.gz --markdown 20240527/c/coveo-testing-extras/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-05-27 13:41:19] INFO root fetch - processPackages [qoa4ml]: executing diffoscope
+[2024-05-27 13:41:19] INFO root fetch - processPackages [qoa4ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qoa4ml-0.1.9.tar.gz tmp/qoa4ml-0.2.0.tar.gz --markdown 20240527/q/qoa4ml/0.1.9-0.2.0/README.md --exclude *.pyd
+[2024-05-27 13:41:19] INFO root fetch - processPackages [mteb]: executing diffoscope
+[2024-05-27 13:41:19] INFO root fetch - processPackages [mteb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mteb-1.9.2.tar.gz tmp/mteb-1.9.3.tar.gz --markdown 20240527/m/mteb/1.9.2-1.9.3/README.md --exclude *.pyd
+[2024-05-27 13:41:19] INFO root fetch - processPackages [wechat-ob12]: executing diffoscope
+[2024-05-27 13:41:19] INFO root fetch - processPackages [wechat-ob12]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wechat_ob12-0.0.2.1.tar.gz tmp/wechat_ob12-0.0.2.2.tar.gz --markdown 20240527/w/wechat-ob12/0.0.2.1-0.0.2.2/README.md --exclude *.pyd
+[2024-05-27 13:41:19] INFO root fetch - processPackages [coveo-testing-extras]: Remove: archive file [/home/abi/fetcher/tmp/coveo_testing_extras-2.1.8.tar.gz]
+[2024-05-27 13:41:19] INFO root fetch - processPackages [coveo-testing-extras]: Remove: archive file [/home/abi/fetcher/tmp/coveo_testing_extras-2.1.9.tar.gz]
+[2024-05-27 13:41:19] INFO root fetch - main [MainThread]: End processing [coveo-testing-extras]: success
+[2024-05-27 13:41:19] INFO root fetch - processPackages [qoa4ml]: Remove: archive file [/home/abi/fetcher/tmp/qoa4ml-0.1.9.tar.gz]
+[2024-05-27 13:41:19] INFO root fetch - processPackages [qoa4ml]: Remove: archive file [/home/abi/fetcher/tmp/qoa4ml-0.2.0.tar.gz]
+[2024-05-27 13:41:19] INFO root fetch - main [MainThread]: End processing [qoa4ml]: success
+[2024-05-27 13:41:19] INFO root fetch - processPackages [wechat-ob12]: Remove: archive file [/home/abi/fetcher/tmp/wechat_ob12-0.0.2.1.tar.gz]
+[2024-05-27 13:41:19] INFO root fetch - processPackages [wechat-ob12]: Remove: archive file [/home/abi/fetcher/tmp/wechat_ob12-0.0.2.2.tar.gz]
+[2024-05-27 13:41:19] INFO root fetch - main [MainThread]: End processing [wechat-ob12]: success
+[2024-05-27 13:41:21] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.9.2.tar.gz]
+[2024-05-27 13:41:21] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.9.3.tar.gz]
+[2024-05-27 13:41:21] INFO root fetch - main [MainThread]: End processing [mteb]: success
+[2024-05-27 13:41:21] INFO root fetch - main [MainThread]: Store serial: [23394832]
