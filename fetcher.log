@@ -22113,3 +22113,60 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-05-27 18:39:35] INFO root fetch - processPackages [aurum-hikari]: Remove: archive file [/home/abi/fetcher/tmp/aurum_hikari-0.1.5.5.tar.gz]
 [2024-05-27 18:39:35] INFO root fetch - main [MainThread]: End processing [aurum-hikari]: success
 [2024-05-27 18:39:35] INFO root fetch - main [MainThread]: Store serial: [23398497]
+[2024-05-27 18:41:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23398497]
+[2024-05-27 18:41:44] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-27 18:41:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: quickQrLib
+[2024-05-27 18:41:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: unDumper
+[2024-05-27 18:41:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rateslib
+[2024-05-27 18:41:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: py4DSTEM
+[2024-05-27 18:41:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gongsf
+[2024-05-27 18:41:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cgroups-exporter
+[2024-05-27 18:41:44] INFO root fetch - processPackages [quickQrLib]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-05-27 18:41:44] INFO root fetch - processPackages [unDumper]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-27 18:41:44] INFO root fetch - processPackages [quickQrLib]: Downloading https://files.pythonhosted.org/packages/b7/f9/c304427091efbc09dd0026539ff955066a746ef824e2382801b35ea96d7a/quickQrLib-0.2.2.tar.gz
+[2024-05-27 18:41:44] INFO root fetch - processPackages [cgroups-exporter]: New version: [0.8.8] Old Version: [0.8.6]
+[2024-05-27 18:41:44] INFO root fetch - processPackages [rateslib]: New version: [1.2.0] Old Version: [1.1.1]
+[2024-05-27 18:41:44] INFO root fetch - processPackages [gongsf]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-27 18:41:44] INFO root fetch - processPackages [py4DSTEM]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-27 18:41:45] INFO root fetch - processPackages [unDumper]: Downloading https://files.pythonhosted.org/packages/f5/51/a18d5da4e145dd8ce4035c1bdfe95cfeb9b80c15ce7865f89abd9437b4ef/undumper-0.0.2.tar.gz
+[2024-05-27 18:41:45] INFO root fetch - processPackages [gongsf]: Downloading https://files.pythonhosted.org/packages/ac/cd/c71ac4caf9b377a3ee44d2b6457cbbd09863688ffe31b42249152a29af40/gongsf-0.1.0.tar.gz
+[2024-05-27 18:41:45] INFO root fetch - processPackages [quickQrLib]: Downloading https://files.pythonhosted.org/packages/4f/c6/28a93422f844fe15ea2064ce15e198d6c57ca5f83a0af9d5eaf24bc0d8e3/quickQrLib-0.2.3.tar.gz
+[2024-05-27 18:41:45] INFO root fetch - processPackages [rateslib]: Downloading https://files.pythonhosted.org/packages/1d/59/fb1872d90aae2911d226d1401210779e3e7875d97d7cdff78e78bc78025f/rateslib-1.1.1.tar.gz
+[2024-05-27 18:41:45] INFO root fetch - processPackages [py4DSTEM]: Downloading https://files.pythonhosted.org/packages/83/f8/9b3c485611a5817c0669ecdedf6f491927b11fe6ad9b6cbeeb570d133436/py4DSTEM-0.9.8.tar.gz
+[2024-05-27 18:41:45] INFO root fetch - processPackages [cgroups-exporter]: Downloading https://files.pythonhosted.org/packages/0a/09/83d0537ed9127b55a1e3a32782513c7a484e36fff7b98099b5646876522f/cgroups_exporter-0.8.6-py3-none-any.whl
+[2024-05-27 18:41:45] INFO root fetch - processPackages [quickQrLib]: executing diffoscope
+[2024-05-27 18:41:45] INFO root fetch - processPackages [quickQrLib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickQrLib-0.2.2.tar.gz tmp/quickQrLib-0.2.3.tar.gz --markdown 20240527/q/quickQrLib/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-05-27 18:41:45] INFO root fetch - processPackages [unDumper]: Downloading https://files.pythonhosted.org/packages/4b/c6/ec9f91fae3e68bf44a03dfb3f883e498651819877d8174c50dbf37492264/undumper-0.0.3.tar.gz
+[2024-05-27 18:41:45] INFO root fetch - processPackages [cgroups-exporter]: Downloading https://files.pythonhosted.org/packages/a2/de/14b2b0eae6f35cba5d6563410fdc70d68a16061169170135a12b20f7a805/cgroups_exporter-0.8.8.tar.gz
+[2024-05-27 18:41:45] INFO root fetch - processPackages [gongsf]: Downloading https://files.pythonhosted.org/packages/ab/51/b8286fb3a8bbdf2c0da0f82705da9cd5fab564659deefd96baf80e7618f3/gongsf-0.1.1.tar.gz
+[2024-05-27 18:41:45] INFO root fetch - processPackages [rateslib]: Downloading https://files.pythonhosted.org/packages/8e/15/afdb049aa0cd52474f9f2245916a2100170c22cf5085889b0e6b147beebf/rateslib-1.2.0.tar.gz
+[2024-05-27 18:41:45] INFO root fetch - processPackages [py4DSTEM]: Downloading https://files.pythonhosted.org/packages/9f/d0/c39f59dc08088fa5d7f8fe9154702d90774629c330b2c5f7fae5ea007984/py4DSTEM-0.9.9.tar.gz
+[2024-05-27 18:41:45] INFO root fetch - processPackages [unDumper]: executing diffoscope
+[2024-05-27 18:41:45] INFO root fetch - processPackages [unDumper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/undumper-0.0.2.tar.gz tmp/undumper-0.0.3.tar.gz --markdown 20240527/u/unDumper/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-27 18:41:45] INFO root fetch - processPackages [cgroups-exporter]: executing diffoscope
+[2024-05-27 18:41:45] INFO root fetch - processPackages [cgroups-exporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cgroups_exporter-0.8.6-py3-none-any.whl.zip tmp/cgroups_exporter-0.8.8.tar.gz --markdown 20240527/c/cgroups-exporter/0.8.6-0.8.8/README.md --exclude *.pyd
+[2024-05-27 18:41:45] INFO root fetch - processPackages [gongsf]: executing diffoscope
+[2024-05-27 18:41:45] INFO root fetch - processPackages [gongsf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gongsf-0.1.0.tar.gz tmp/gongsf-0.1.1.tar.gz --markdown 20240527/g/gongsf/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-27 18:41:45] INFO root fetch - processPackages [quickQrLib]: Remove: archive file [/home/abi/fetcher/tmp/quickQrLib-0.2.2.tar.gz]
+[2024-05-27 18:41:45] INFO root fetch - processPackages [quickQrLib]: Remove: archive file [/home/abi/fetcher/tmp/quickQrLib-0.2.3.tar.gz]
+[2024-05-27 18:41:45] INFO root fetch - main [MainThread]: End processing [quickQrLib]: success
+[2024-05-27 18:41:46] INFO root fetch - processPackages [py4DSTEM]: executing diffoscope
+[2024-05-27 18:41:46] INFO root fetch - processPackages [py4DSTEM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py4DSTEM-0.9.8.tar.gz tmp/py4DSTEM-0.9.9.tar.gz --markdown 20240527/p/py4DSTEM/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-27 18:41:46] INFO root fetch - processPackages [gongsf]: Remove: archive file [/home/abi/fetcher/tmp/gongsf-0.1.0.tar.gz]
+[2024-05-27 18:41:46] INFO root fetch - processPackages [gongsf]: Remove: archive file [/home/abi/fetcher/tmp/gongsf-0.1.1.tar.gz]
+[2024-05-27 18:41:46] INFO root fetch - main [MainThread]: End processing [gongsf]: success
+[2024-05-27 18:41:46] INFO root fetch - processPackages [cgroups-exporter]: Remove: archive file [/home/abi/fetcher/tmp/cgroups_exporter-0.8.6-py3-none-any.whl.zip]
+[2024-05-27 18:41:46] INFO root fetch - processPackages [cgroups-exporter]: Remove: archive file [/home/abi/fetcher/tmp/cgroups_exporter-0.8.8.tar.gz]
+[2024-05-27 18:41:46] INFO root fetch - main [MainThread]: End processing [cgroups-exporter]: success
+[2024-05-27 18:41:46] INFO root fetch - processPackages [unDumper]: Remove: archive file [/home/abi/fetcher/tmp/undumper-0.0.2.tar.gz]
+[2024-05-27 18:41:46] INFO root fetch - processPackages [unDumper]: Remove: archive file [/home/abi/fetcher/tmp/undumper-0.0.3.tar.gz]
+[2024-05-27 18:41:46] INFO root fetch - main [MainThread]: End processing [unDumper]: success
+[2024-05-27 18:41:46] INFO root fetch - processPackages [rateslib]: executing diffoscope
+[2024-05-27 18:41:46] INFO root fetch - processPackages [rateslib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rateslib-1.1.1.tar.gz tmp/rateslib-1.2.0.tar.gz --markdown 20240527/r/rateslib/1.1.1-1.2.0/README.md --exclude *.pyd
+[2024-05-27 18:41:46] INFO root fetch - processPackages [py4DSTEM]: Remove: archive file [/home/abi/fetcher/tmp/py4DSTEM-0.9.8.tar.gz]
+[2024-05-27 18:41:46] INFO root fetch - processPackages [py4DSTEM]: Remove: archive file [/home/abi/fetcher/tmp/py4DSTEM-0.9.9.tar.gz]
+[2024-05-27 18:41:46] INFO root fetch - main [MainThread]: End processing [py4DSTEM]: success
+[2024-05-27 18:41:48] INFO root fetch - processPackages [rateslib]: Remove: archive file [/home/abi/fetcher/tmp/rateslib-1.1.1.tar.gz]
+[2024-05-27 18:41:48] INFO root fetch - processPackages [rateslib]: Remove: archive file [/home/abi/fetcher/tmp/rateslib-1.2.0.tar.gz]
+[2024-05-27 18:41:48] INFO root fetch - main [MainThread]: End processing [rateslib]: success
+[2024-05-27 18:41:48] INFO root fetch - main [MainThread]: Store serial: [23398515]
