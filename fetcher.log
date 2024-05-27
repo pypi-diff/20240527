@@ -17111,3 +17111,42 @@ EOFError: EOF read where object expected
 [2024-05-27 15:34:46] INFO root fetch - processPackages [d3vis-ipynb]: Remove: archive file [/home/abi/fetcher/tmp/d3vis_ipynb-0.2.3.tar.gz]
 [2024-05-27 15:34:46] INFO root fetch - main [MainThread]: End processing [d3vis-ipynb]: success
 [2024-05-27 15:34:46] INFO root fetch - main [MainThread]: Store serial: [23396293]
+[2024-05-27 15:36:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23396293]
+[2024-05-27 15:36:54] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-27 15:36:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bust
+[2024-05-27 15:36:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spark-ai-python
+[2024-05-27 15:36:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyneurosdk2
+[2024-05-27 15:36:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: yeref
+[2024-05-27 15:36:54] INFO root fetch - processPackages [bust]: New version: [0.9.4] Old Version: [0.9.1]
+[2024-05-27 15:36:55] INFO root fetch - processPackages [yeref]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-27 15:36:55] INFO root fetch - processPackages [bust]: Downloading https://files.pythonhosted.org/packages/37/fe/b38ff6faa6304e4ec97e1c286f4de68f2e938bd536e62722fa339cf2c997/bust-0.9.1.tar.gz
+[2024-05-27 15:36:55] INFO root fetch - processPackages [pyneurosdk2]: New version: [1.0.8] Old Version: [1.0.7]
+[2024-05-27 15:36:55] INFO root fetch - processPackages [spark-ai-python]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-27 15:36:55] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/ec/cb/204e6fbe233bbb61cf29c1b491e8c638c8a843edc47fb4e1d8cc8c26608c/yeref-0.9.8.tar.gz
+[2024-05-27 15:36:55] INFO root fetch - processPackages [bust]: Downloading https://files.pythonhosted.org/packages/cc/9b/78b0835bf70a3cd9e5dbfc08252247b997229832c384a36f6fc3ece06c83/bust-0.9.4.tar.gz
+[2024-05-27 15:36:55] INFO root fetch - processPackages [spark-ai-python]: Downloading https://files.pythonhosted.org/packages/f4/fb/add24d391c9e74bdc54b217e18d2a6003fb4db73d26fd757acf24fc284b0/spark_ai_python-0.3.8.tar.gz
+[2024-05-27 15:36:55] INFO root fetch - processPackages [pyneurosdk2]: Downloading https://files.pythonhosted.org/packages/61/f8/6d427cd4de7f656ef1d372bfd531cf8861a387f5ce564e186dde078c3374/pyneurosdk2-1.0.7.tar.gz
+[2024-05-27 15:36:55] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/01/13/0f11bb3dfb27aaf16ed48b0046f50ac65b1fde32662fbc314d53e2558b2d/yeref-0.9.9.tar.gz
+[2024-05-27 15:36:55] INFO root fetch - processPackages [bust]: executing diffoscope
+[2024-05-27 15:36:55] INFO root fetch - processPackages [bust]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bust-0.9.1.tar.gz tmp/bust-0.9.4.tar.gz --markdown 20240527/b/bust/0.9.1-0.9.4/README.md --exclude *.pyd
+[2024-05-27 15:36:55] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2024-05-27 15:36:55] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.9.8.tar.gz tmp/yeref-0.9.9.tar.gz --markdown 20240527/y/yeref/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-27 15:36:55] INFO root fetch - processPackages [spark-ai-python]: Downloading https://files.pythonhosted.org/packages/9c/8f/839a31dcb40a663647214e2c2a849dd29aba055b051276318cae0b879c67/spark_ai_python-0.3.9.tar.gz
+[2024-05-27 15:36:55] INFO root fetch - processPackages [pyneurosdk2]: Downloading https://files.pythonhosted.org/packages/e7/cd/ed043fec4c1c4508df329b59ed9ad9fcb1e510b7f8e395e8121cfdc1a63f/pyneurosdk2-1.0.8.tar.gz
+[2024-05-27 15:36:55] INFO root fetch - processPackages [spark-ai-python]: executing diffoscope
+[2024-05-27 15:36:55] INFO root fetch - processPackages [spark-ai-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spark_ai_python-0.3.8.tar.gz tmp/spark_ai_python-0.3.9.tar.gz --markdown 20240527/s/spark-ai-python/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-27 15:36:55] INFO root fetch - processPackages [pyneurosdk2]: executing diffoscope
+[2024-05-27 15:36:55] INFO root fetch - processPackages [pyneurosdk2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyneurosdk2-1.0.7.tar.gz tmp/pyneurosdk2-1.0.8.tar.gz --markdown 20240527/p/pyneurosdk2/1.0.7-1.0.8/README.md --exclude *.pyd
+[2024-05-27 15:36:56] INFO root fetch - processPackages [bust]: Remove: archive file [/home/abi/fetcher/tmp/bust-0.9.1.tar.gz]
+[2024-05-27 15:36:56] INFO root fetch - processPackages [bust]: Remove: archive file [/home/abi/fetcher/tmp/bust-0.9.4.tar.gz]
+[2024-05-27 15:36:56] INFO root fetch - main [MainThread]: End processing [bust]: success
+[2024-05-27 15:36:56] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.8.tar.gz]
+[2024-05-27 15:36:56] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.9.tar.gz]
+[2024-05-27 15:36:56] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2024-05-27 15:36:56] INFO root fetch - processPackages [spark-ai-python]: Remove: archive file [/home/abi/fetcher/tmp/spark_ai_python-0.3.8.tar.gz]
+[2024-05-27 15:36:56] INFO root fetch - processPackages [spark-ai-python]: Remove: archive file [/home/abi/fetcher/tmp/spark_ai_python-0.3.9.tar.gz]
+[2024-05-27 15:36:56] INFO root fetch - main [MainThread]: End processing [spark-ai-python]: success
+[2024-05-27 15:37:01] INFO root fetch - processPackages [pyneurosdk2]: Remove: archive file [/home/abi/fetcher/tmp/pyneurosdk2-1.0.7.tar.gz]
+[2024-05-27 15:37:01] INFO root fetch - processPackages [pyneurosdk2]: Remove: archive file [/home/abi/fetcher/tmp/pyneurosdk2-1.0.8.tar.gz]
+[2024-05-27 15:37:01] INFO root fetch - main [MainThread]: End processing [pyneurosdk2]: success
+[2024-05-27 15:37:01] INFO root fetch - main [MainThread]: Store serial: [23396307]
