@@ -20168,3 +20168,42 @@ EOFError: EOF read where object expected
 [2024-05-27 17:19:54] INFO root fetch - processPackages [flamapy-sat]: Remove: archive file [/home/abi/fetcher/tmp/flamapy-sat-2.0.0.dev0.tar.gz]
 [2024-05-27 17:19:54] INFO root fetch - main [MainThread]: End processing [flamapy-sat]: success
 [2024-05-27 17:19:54] INFO root fetch - main [MainThread]: Store serial: [23397596]
+[2024-05-27 17:21:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23397596]
+[2024-05-27 17:22:02] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-27 17:22:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: discordreactive
+[2024-05-27 17:22:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: optima-ml
+[2024-05-27 17:22:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: systrack
+[2024-05-27 17:22:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-pony-express
+[2024-05-27 17:22:02] INFO root fetch - processPackages [discordreactive]: New version: [0.5] Old Version: [0.4]
+[2024-05-27 17:22:03] INFO root fetch - processPackages [django-pony-express]: New version: [2.1.0] Old Version: [2.0.0]
+[2024-05-27 17:22:03] INFO root fetch - processPackages [systrack]: New version: [0.5rc1] Old Version: [0.5]
+[2024-05-27 17:22:03] INFO root fetch - processPackages [optima-ml]: New version: [0.3.4a2] Old Version: [0.3.4a1]
+[2024-05-27 17:22:03] INFO root fetch - processPackages [discordreactive]: Downloading https://files.pythonhosted.org/packages/b8/bc/5ee1d4cc7db226df5e7132a76ac0dc792810e1c149a308b517ceb3d47b45/discordreactive-0.4.tar.gz
+[2024-05-27 17:22:03] INFO root fetch - processPackages [systrack]: Downloading https://files.pythonhosted.org/packages/f0/9d/97a7663f4c4276a4ebebf0d56618ebefe1b5488133d42de9dc169a14cf70/systrack-0.5.tar.gz
+[2024-05-27 17:22:03] INFO root fetch - processPackages [optima-ml]: Downloading https://files.pythonhosted.org/packages/f0/e1/47ee7e03aaa80894c0f7a7658ae532fed9297d17914a7c455170178aa8a5/optima_ml-0.3.4a1.tar.gz
+[2024-05-27 17:22:03] INFO root fetch - processPackages [django-pony-express]: Downloading https://files.pythonhosted.org/packages/9a/14/ade4f5f83cf3632133fefa95f950ff695ca48b7da2b4821b2c8b092fe199/django_pony_express-2.0.0.tar.gz
+[2024-05-27 17:22:03] INFO root fetch - processPackages [discordreactive]: Downloading https://files.pythonhosted.org/packages/f5/67/db0def4b950d5701b33f7e57ffb1c16a7e6fd70091631ce2977134b4de0d/discordreactive-0.5.tar.gz
+[2024-05-27 17:22:03] INFO root fetch - processPackages [discordreactive]: executing diffoscope
+[2024-05-27 17:22:03] INFO root fetch - processPackages [discordreactive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discordreactive-0.4.tar.gz tmp/discordreactive-0.5.tar.gz --markdown 20240527/d/discordreactive/0.4-0.5/README.md --exclude *.pyd
+[2024-05-27 17:22:03] INFO root fetch - processPackages [systrack]: Downloading https://files.pythonhosted.org/packages/b0/b9/8a0138b40114bf608d77006c936800c8b2dfa6445f5634c86d3e8fbb359d/systrack-0.5rc1.tar.gz
+[2024-05-27 17:22:03] INFO root fetch - processPackages [optima-ml]: Downloading https://files.pythonhosted.org/packages/e9/00/066c4271deb7981d68fb15f3eab65c6f323ec4ee3852e12d45ecb80ced2b/optima_ml-0.3.4a2.tar.gz
+[2024-05-27 17:22:03] INFO root fetch - processPackages [systrack]: executing diffoscope
+[2024-05-27 17:22:03] INFO root fetch - processPackages [systrack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/systrack-0.5.tar.gz tmp/systrack-0.5rc1.tar.gz --markdown 20240527/s/systrack/0.5-0.5rc1/README.md --exclude *.pyd
+[2024-05-27 17:22:03] INFO root fetch - processPackages [optima-ml]: executing diffoscope
+[2024-05-27 17:22:03] INFO root fetch - processPackages [optima-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/optima_ml-0.3.4a1.tar.gz tmp/optima_ml-0.3.4a2.tar.gz --markdown 20240527/o/optima-ml/0.3.4a1-0.3.4a2/README.md --exclude *.pyd
+[2024-05-27 17:22:04] INFO root fetch - processPackages [discordreactive]: Remove: archive file [/home/abi/fetcher/tmp/discordreactive-0.4.tar.gz]
+[2024-05-27 17:22:04] INFO root fetch - processPackages [discordreactive]: Remove: archive file [/home/abi/fetcher/tmp/discordreactive-0.5.tar.gz]
+[2024-05-27 17:22:04] INFO root fetch - main [MainThread]: End processing [discordreactive]: success
+[2024-05-27 17:22:04] INFO root fetch - processPackages [django-pony-express]: Downloading https://files.pythonhosted.org/packages/dc/d2/d146212c00770cffed8f4df92761318cb675d3c59d14f531079bf21c4f11/django_pony_express-2.1.0.tar.gz
+[2024-05-27 17:22:04] INFO root fetch - processPackages [systrack]: Remove: archive file [/home/abi/fetcher/tmp/systrack-0.5.tar.gz]
+[2024-05-27 17:22:04] INFO root fetch - processPackages [systrack]: Remove: archive file [/home/abi/fetcher/tmp/systrack-0.5rc1.tar.gz]
+[2024-05-27 17:22:04] INFO root fetch - main [MainThread]: End processing [systrack]: success
+[2024-05-27 17:22:04] INFO root fetch - processPackages [optima-ml]: Remove: archive file [/home/abi/fetcher/tmp/optima_ml-0.3.4a1.tar.gz]
+[2024-05-27 17:22:04] INFO root fetch - processPackages [optima-ml]: Remove: archive file [/home/abi/fetcher/tmp/optima_ml-0.3.4a2.tar.gz]
+[2024-05-27 17:22:04] INFO root fetch - main [MainThread]: End processing [optima-ml]: success
+[2024-05-27 17:22:04] INFO root fetch - processPackages [django-pony-express]: executing diffoscope
+[2024-05-27 17:22:04] INFO root fetch - processPackages [django-pony-express]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_pony_express-2.0.0.tar.gz tmp/django_pony_express-2.1.0.tar.gz --markdown 20240527/d/django-pony-express/2.0.0-2.1.0/README.md --exclude *.pyd
+[2024-05-27 17:22:05] INFO root fetch - processPackages [django-pony-express]: Remove: archive file [/home/abi/fetcher/tmp/django_pony_express-2.0.0.tar.gz]
+[2024-05-27 17:22:05] INFO root fetch - processPackages [django-pony-express]: Remove: archive file [/home/abi/fetcher/tmp/django_pony_express-2.1.0.tar.gz]
+[2024-05-27 17:22:05] INFO root fetch - main [MainThread]: End processing [django-pony-express]: success
+[2024-05-27 17:22:05] INFO root fetch - main [MainThread]: Store serial: [23397607]
