@@ -4873,3 +4873,15 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 05:48:40] INFO root fetch - processPackages [ip-searcher]: Remove: archive file [/home/abi/fetcher/tmp/ip_searcher-2024.5.27.11.45.27.tar.gz]
 [2024-05-27 05:48:40] INFO root fetch - main [MainThread]: End processing [ip-searcher]: success
 [2024-05-27 05:48:40] INFO root fetch - main [MainThread]: Store serial: [23390379]
+[2024-05-27 05:50:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23390379]
+[2024-05-27 05:50:49] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-27 05:50:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: annonition
+[2024-05-27 05:50:49] INFO root fetch - processPackages [annonition]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-27 05:50:49] INFO root fetch - processPackages [annonition]: Downloading https://files.pythonhosted.org/packages/96/26/48db26f9670dd08647eb747cabe1ab5ee95688f3cd92519b439b9ded0223/annonition-0.1.3.tar.gz
+[2024-05-27 05:50:49] INFO root fetch - processPackages [annonition]: Downloading https://files.pythonhosted.org/packages/f6/bd/2c1b09b72eba89be9146368ab5b1b7bf7dee9a342a105cee30da0d380ec3/annonition-0.1.4.tar.gz
+[2024-05-27 05:50:49] INFO root fetch - processPackages [annonition]: executing diffoscope
+[2024-05-27 05:50:49] INFO root fetch - processPackages [annonition]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/annonition-0.1.3.tar.gz tmp/annonition-0.1.4.tar.gz --markdown 20240527/a/annonition/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-27 05:50:50] INFO root fetch - processPackages [annonition]: Remove: archive file [/home/abi/fetcher/tmp/annonition-0.1.3.tar.gz]
+[2024-05-27 05:50:50] INFO root fetch - processPackages [annonition]: Remove: archive file [/home/abi/fetcher/tmp/annonition-0.1.4.tar.gz]
+[2024-05-27 05:50:50] INFO root fetch - main [MainThread]: End processing [annonition]: success
+[2024-05-27 05:50:50] INFO root fetch - main [MainThread]: Store serial: [23390382]
