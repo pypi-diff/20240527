@@ -18157,3 +18157,63 @@ EOFError: EOF read where object expected
 [2024-05-27 16:08:55] INFO root fetch - processPackages [jaqpotpy]: Remove: archive file [/home/abi/fetcher/tmp/jaqpotpy-1.1.1.tar.gz]
 [2024-05-27 16:08:55] INFO root fetch - main [MainThread]: End processing [jaqpotpy]: success
 [2024-05-27 16:08:55] INFO root fetch - main [MainThread]: Store serial: [23396785]
+[2024-05-27 16:11:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23396785]
+[2024-05-27 16:11:19] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-27 16:11:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tq42
+[2024-05-27 16:11:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: shopcloud-django-toolbox
+[2024-05-27 16:11:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-static-dm-file-uploader
+[2024-05-27 16:11:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fermo-core
+[2024-05-27 16:11:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dicio-py
+[2024-05-27 16:11:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: openbharatocr
+[2024-05-27 16:11:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dcicutils
+[2024-05-27 16:11:19] WARNING root fetch - processPackages [django-static-dm-file-uploader]: Skipping, unable to determine old version
+[2024-05-27 16:11:19] INFO root fetch - main [MainThread]: End processing [django-static-dm-file-uploader] error
+[2024-05-27 16:11:19] INFO root fetch - processPackages [dicio-py]: New version: [1.9] Old Version: [1.8]
+[2024-05-27 16:11:19] INFO root fetch - processPackages [fermo-core]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-27 16:11:19] INFO root fetch - processPackages [openbharatocr]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-05-27 16:11:19] INFO root fetch - processPackages [dcicutils]: New version: [8.9.0.0b0] Old Version: [8.8.6.1b7]
+[2024-05-27 16:11:19] INFO root fetch - processPackages [tq42]: New version: [0.5.27] Old Version: [0.5.26]
+[2024-05-27 16:11:19] INFO root fetch - processPackages [shopcloud-django-toolbox]: New version: [1.8.0] Old Version: [1.7.1]
+[2024-05-27 16:11:19] INFO root fetch - processPackages [openbharatocr]: Downloading https://files.pythonhosted.org/packages/39/44/99356b378f80eb9b70a5be9fbd0ecb812a6ee43d64c529e92b23f779b72a/openbharatocr-0.3.0.tar.gz
+[2024-05-27 16:11:19] INFO root fetch - processPackages [dicio-py]: Downloading https://files.pythonhosted.org/packages/8c/fb/c754d246cddc84431144de9078bbbc9e7de97a9514a607bca0ad108199b9/dicio_py-1.8.tar.gz
+[2024-05-27 16:11:19] INFO root fetch - processPackages [fermo-core]: Downloading https://files.pythonhosted.org/packages/4e/b5/0be3f9ea6712a4a7aebd241fa061bc04bd1efc66ab8ae0da502e5d4dba27/fermo_core-0.2.0.tar.gz
+[2024-05-27 16:11:19] INFO root fetch - processPackages [dcicutils]: Downloading https://files.pythonhosted.org/packages/86/88/0a2bd89d2d70c277527741f06b7b8afcd5263cb58d50aeb701854655c076/dcicutils-8.8.6.1b7.tar.gz
+[2024-05-27 16:11:19] INFO root fetch - processPackages [shopcloud-django-toolbox]: Downloading https://files.pythonhosted.org/packages/fb/da/efdc932658b89b819e4ab551c2136e51bbd0b102fa179e575130f3c702fc/shopcloud_django_toolbox-1.7.1.tar.gz
+[2024-05-27 16:11:19] INFO root fetch - processPackages [tq42]: Downloading https://files.pythonhosted.org/packages/c2/8e/cb54ca615eca6d672d6d607e09a994b01b4a2431e61926c7cc925e98a307/tq42-0.5.26.tar.gz
+[2024-05-27 16:11:19] INFO root fetch - processPackages [openbharatocr]: Downloading https://files.pythonhosted.org/packages/27/7d/8d2778a0eb789c236f36343a3a6e8ec415a7291970b3277b64acfd84ad23/openbharatocr-0.3.1.tar.gz
+[2024-05-27 16:11:19] INFO root fetch - processPackages [dicio-py]: Downloading https://files.pythonhosted.org/packages/28/7e/fcb1a4624185536ca52f18e5d312ae6c8949bb58c1bddb013ea3ada2c699/dicio_py-1.9.tar.gz
+[2024-05-27 16:11:19] INFO root fetch - processPackages [dcicutils]: Downloading https://files.pythonhosted.org/packages/5b/de/ac87d1c9583f507046be7724343035a3e363814633eea93612ca13f3adba/dcicutils-8.9.0.0b0.tar.gz
+[2024-05-27 16:11:19] INFO root fetch - processPackages [openbharatocr]: executing diffoscope
+[2024-05-27 16:11:19] INFO root fetch - processPackages [openbharatocr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openbharatocr-0.3.0.tar.gz tmp/openbharatocr-0.3.1.tar.gz --markdown 20240527/o/openbharatocr/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-05-27 16:11:19] INFO root fetch - processPackages [dicio-py]: executing diffoscope
+[2024-05-27 16:11:19] INFO root fetch - processPackages [dicio-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dicio_py-1.8.tar.gz tmp/dicio_py-1.9.tar.gz --markdown 20240527/d/dicio-py/1.8-1.9/README.md --exclude *.pyd
+[2024-05-27 16:11:19] INFO root fetch - processPackages [fermo-core]: Downloading https://files.pythonhosted.org/packages/3e/15/d2d897695df3191e1f9022d3d0c934fc8023c033800776d93583ff9104b1/fermo_core-0.2.1.tar.gz
+[2024-05-27 16:11:19] INFO root fetch - processPackages [shopcloud-django-toolbox]: Downloading https://files.pythonhosted.org/packages/61/14/7d21ef760b4ad55073f67d4943a5d3068b104fc2c42606ca78727e665270/shopcloud_django_toolbox-1.8.0.tar.gz
+[2024-05-27 16:11:19] INFO root fetch - processPackages [dcicutils]: executing diffoscope
+[2024-05-27 16:11:19] INFO root fetch - processPackages [dcicutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcicutils-8.8.6.1b7.tar.gz tmp/dcicutils-8.9.0.0b0.tar.gz --markdown 20240527/d/dcicutils/8.8.6.1b7-8.9.0.0b0/README.md --exclude *.pyd
+[2024-05-27 16:11:19] INFO root fetch - processPackages [tq42]: Downloading https://files.pythonhosted.org/packages/df/72/50390142325d77c1cdbd57749acbdef9030986f0677137e81d225778348f/tq42-0.5.27.tar.gz
+[2024-05-27 16:11:19] INFO root fetch - processPackages [shopcloud-django-toolbox]: executing diffoscope
+[2024-05-27 16:11:19] INFO root fetch - processPackages [shopcloud-django-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shopcloud_django_toolbox-1.7.1.tar.gz tmp/shopcloud_django_toolbox-1.8.0.tar.gz --markdown 20240527/s/shopcloud-django-toolbox/1.7.1-1.8.0/README.md --exclude *.pyd
+[2024-05-27 16:11:19] INFO root fetch - processPackages [tq42]: executing diffoscope
+[2024-05-27 16:11:19] INFO root fetch - processPackages [tq42]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tq42-0.5.26.tar.gz tmp/tq42-0.5.27.tar.gz --markdown 20240527/t/tq42/0.5.26-0.5.27/README.md --exclude *.pyd
+[2024-05-27 16:11:19] INFO root fetch - processPackages [fermo-core]: executing diffoscope
+[2024-05-27 16:11:20] INFO root fetch - processPackages [fermo-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fermo_core-0.2.0.tar.gz tmp/fermo_core-0.2.1.tar.gz --markdown 20240527/f/fermo-core/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-27 16:11:20] INFO root fetch - processPackages [dicio-py]: Remove: archive file [/home/abi/fetcher/tmp/dicio_py-1.8.tar.gz]
+[2024-05-27 16:11:20] INFO root fetch - processPackages [dicio-py]: Remove: archive file [/home/abi/fetcher/tmp/dicio_py-1.9.tar.gz]
+[2024-05-27 16:11:20] INFO root fetch - main [MainThread]: End processing [dicio-py]: success
+[2024-05-27 16:11:20] INFO root fetch - processPackages [openbharatocr]: Remove: archive file [/home/abi/fetcher/tmp/openbharatocr-0.3.0.tar.gz]
+[2024-05-27 16:11:20] INFO root fetch - processPackages [openbharatocr]: Remove: archive file [/home/abi/fetcher/tmp/openbharatocr-0.3.1.tar.gz]
+[2024-05-27 16:11:20] INFO root fetch - main [MainThread]: End processing [openbharatocr]: success
+[2024-05-27 16:11:20] INFO root fetch - processPackages [shopcloud-django-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/shopcloud_django_toolbox-1.7.1.tar.gz]
+[2024-05-27 16:11:20] INFO root fetch - processPackages [shopcloud-django-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/shopcloud_django_toolbox-1.8.0.tar.gz]
+[2024-05-27 16:11:20] INFO root fetch - main [MainThread]: End processing [shopcloud-django-toolbox]: success
+[2024-05-27 16:11:20] INFO root fetch - processPackages [tq42]: Remove: archive file [/home/abi/fetcher/tmp/tq42-0.5.26.tar.gz]
+[2024-05-27 16:11:20] INFO root fetch - processPackages [tq42]: Remove: archive file [/home/abi/fetcher/tmp/tq42-0.5.27.tar.gz]
+[2024-05-27 16:11:20] INFO root fetch - main [MainThread]: End processing [tq42]: success
+[2024-05-27 16:11:20] INFO root fetch - processPackages [dcicutils]: Remove: archive file [/home/abi/fetcher/tmp/dcicutils-8.8.6.1b7.tar.gz]
+[2024-05-27 16:11:20] INFO root fetch - processPackages [dcicutils]: Remove: archive file [/home/abi/fetcher/tmp/dcicutils-8.9.0.0b0.tar.gz]
+[2024-05-27 16:11:20] INFO root fetch - main [MainThread]: End processing [dcicutils]: success
+[2024-05-27 16:11:21] INFO root fetch - processPackages [fermo-core]: Remove: archive file [/home/abi/fetcher/tmp/fermo_core-0.2.0.tar.gz]
+[2024-05-27 16:11:21] INFO root fetch - processPackages [fermo-core]: Remove: archive file [/home/abi/fetcher/tmp/fermo_core-0.2.1.tar.gz]
+[2024-05-27 16:11:21] INFO root fetch - main [MainThread]: End processing [fermo-core]: success
+[2024-05-27 16:11:21] INFO root fetch - main [MainThread]: Store serial: [23396809]
