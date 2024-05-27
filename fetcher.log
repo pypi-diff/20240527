@@ -22647,3 +22647,48 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-05-27 19:01:33] INFO root fetch - processPackages [swanlab]: Remove: archive file [/home/abi/fetcher/tmp/swanlab-0.3.5.tar.gz]
 [2024-05-27 19:01:33] INFO root fetch - main [MainThread]: End processing [swanlab]: success
 [2024-05-27 19:01:33] INFO root fetch - main [MainThread]: Store serial: [23398689]
+[2024-05-27 19:03:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23398689]
+[2024-05-27 19:03:42] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-27 19:03:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: licenselib
+[2024-05-27 19:03:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: generate-temp-table-sql
+[2024-05-27 19:03:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fastsql
+[2024-05-27 19:03:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pycfutils
+[2024-05-27 19:03:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bergmann
+[2024-05-27 19:03:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: robusta-cli
+[2024-05-27 19:03:42] INFO root fetch - processPackages [generate-temp-table-sql]: New version: [0.3] Old Version: [0.2]
+[2024-05-27 19:03:42] WARNING root fetch - processPackages [licenselib]: Skipping, unable to determine old version
+[2024-05-27 19:03:42] INFO root fetch - main [MainThread]: End processing [licenselib] error
+[2024-05-27 19:03:42] INFO root fetch - processPackages [robusta-cli]: New version: [0.9.9] Old Version: [0.9.7]
+[2024-05-27 19:03:42] INFO root fetch - processPackages [generate-temp-table-sql]: Downloading https://files.pythonhosted.org/packages/48/cd/a2d8258e63d6a864f947580226cd15aacc2b5b3628bee6c3ea846afcea4d/generate_temp_table_sql-0.2.tar.gz
+[2024-05-27 19:03:42] INFO root fetch - processPackages [fastsql]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-27 19:03:42] INFO root fetch - processPackages [pycfutils]: New version: [2024.5.27] Old Version: [2024.5.12.post1]
+[2024-05-27 19:03:42] WARNING root fetch - processPackages [bergmann]: Skipping, unable to determine old version
+[2024-05-27 19:03:42] INFO root fetch - main [MainThread]: End processing [bergmann] error
+[2024-05-27 19:03:42] INFO root fetch - processPackages [robusta-cli]: Downloading https://files.pythonhosted.org/packages/39/60/df780a4cd33fb6c25e7e6b0c86022d93aaa4490b1a758140e3d98a02996e/robusta-cli-0.9.7.tar.gz
+[2024-05-27 19:03:42] INFO root fetch - processPackages [fastsql]: Downloading https://files.pythonhosted.org/packages/8b/f5/7a94afce9e6ca87a18e6ca250b9767ed88b2926204dc80d0589cb491a2d4/fastsql-1.0.0.tar.gz
+[2024-05-27 19:03:42] INFO root fetch - processPackages [pycfutils]: Downloading https://files.pythonhosted.org/packages/f2/3c/2038725e72568236242007a1feca540168fb466b5b9fa92a09d7353cd17e/pycfutils-2024.5.12.post1.tar.gz
+[2024-05-27 19:03:42] INFO root fetch - processPackages [generate-temp-table-sql]: Downloading https://files.pythonhosted.org/packages/20/a4/1fb8bd97d2f40c2f155f9a05ee64987d107c649391441658c2f5be324efe/generate_temp_table_sql-0.3.tar.gz
+[2024-05-27 19:03:42] INFO root fetch - processPackages [robusta-cli]: Downloading https://files.pythonhosted.org/packages/9f/ff/a70074935ded21551e9900241be83e06dcddd697498c8fa3eeab30d0105c/robusta-cli-0.9.9.tar.gz
+[2024-05-27 19:03:43] INFO root fetch - processPackages [generate-temp-table-sql]: executing diffoscope
+[2024-05-27 19:03:43] INFO root fetch - processPackages [generate-temp-table-sql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/generate_temp_table_sql-0.2.tar.gz tmp/generate_temp_table_sql-0.3.tar.gz --markdown 20240527/g/generate-temp-table-sql/0.2-0.3/README.md --exclude *.pyd
+[2024-05-27 19:03:43] INFO root fetch - processPackages [robusta-cli]: executing diffoscope
+[2024-05-27 19:03:43] INFO root fetch - processPackages [robusta-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robusta-cli-0.9.7.tar.gz tmp/robusta-cli-0.9.9.tar.gz --markdown 20240527/r/robusta-cli/0.9.7-0.9.9/README.md --exclude *.pyd
+[2024-05-27 19:03:43] INFO root fetch - processPackages [fastsql]: Downloading https://files.pythonhosted.org/packages/26/cc/05c4eb422d03bf132852a92492c64874c6e0f09701bee6b31b2964fc926e/fastsql-1.0.1.tar.gz
+[2024-05-27 19:03:43] INFO root fetch - processPackages [pycfutils]: Downloading https://files.pythonhosted.org/packages/f0/7d/237ccd742476041f8380804ec116fd9480785fb65131c22778f6a92ac9cb/pycfutils-2024.5.27.tar.gz
+[2024-05-27 19:03:43] INFO root fetch - processPackages [fastsql]: executing diffoscope
+[2024-05-27 19:03:43] INFO root fetch - processPackages [fastsql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastsql-1.0.0.tar.gz tmp/fastsql-1.0.1.tar.gz --markdown 20240527/f/fastsql/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-27 19:03:43] INFO root fetch - processPackages [pycfutils]: executing diffoscope
+[2024-05-27 19:03:43] INFO root fetch - processPackages [pycfutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycfutils-2024.5.12.post1.tar.gz tmp/pycfutils-2024.5.27.tar.gz --markdown 20240527/p/pycfutils/2024.5.12.post1-2024.5.27/README.md --exclude *.pyd
+[2024-05-27 19:03:43] INFO root fetch - processPackages [generate-temp-table-sql]: Remove: archive file [/home/abi/fetcher/tmp/generate_temp_table_sql-0.2.tar.gz]
+[2024-05-27 19:03:43] INFO root fetch - processPackages [generate-temp-table-sql]: Remove: archive file [/home/abi/fetcher/tmp/generate_temp_table_sql-0.3.tar.gz]
+[2024-05-27 19:03:43] INFO root fetch - main [MainThread]: End processing [generate-temp-table-sql]: success
+[2024-05-27 19:03:43] INFO root fetch - processPackages [fastsql]: Remove: archive file [/home/abi/fetcher/tmp/fastsql-1.0.0.tar.gz]
+[2024-05-27 19:03:43] INFO root fetch - processPackages [fastsql]: Remove: archive file [/home/abi/fetcher/tmp/fastsql-1.0.1.tar.gz]
+[2024-05-27 19:03:43] INFO root fetch - main [MainThread]: End processing [fastsql]: success
+[2024-05-27 19:03:43] INFO root fetch - processPackages [pycfutils]: Remove: archive file [/home/abi/fetcher/tmp/pycfutils-2024.5.12.post1.tar.gz]
+[2024-05-27 19:03:43] INFO root fetch - processPackages [pycfutils]: Remove: archive file [/home/abi/fetcher/tmp/pycfutils-2024.5.27.tar.gz]
+[2024-05-27 19:03:43] INFO root fetch - main [MainThread]: End processing [pycfutils]: success
+[2024-05-27 19:03:44] INFO root fetch - processPackages [robusta-cli]: Remove: archive file [/home/abi/fetcher/tmp/robusta-cli-0.9.7.tar.gz]
+[2024-05-27 19:03:44] INFO root fetch - processPackages [robusta-cli]: Remove: archive file [/home/abi/fetcher/tmp/robusta-cli-0.9.9.tar.gz]
+[2024-05-27 19:03:44] INFO root fetch - main [MainThread]: End processing [robusta-cli]: success
+[2024-05-27 19:03:44] INFO root fetch - main [MainThread]: Store serial: [23398712]
