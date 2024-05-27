@@ -13677,3 +13677,50 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 13:12:44] INFO root fetch - processPackages [FastHPOCR]: Remove: archive file [/home/abi/fetcher/tmp/FastHPOCR-0.1.2.tar.gz]
 [2024-05-27 13:12:44] INFO root fetch - main [MainThread]: End processing [FastHPOCR]: success
 [2024-05-27 13:12:44] INFO root fetch - main [MainThread]: Store serial: [23394596]
+[2024-05-27 13:14:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23394596]
+[2024-05-27 13:14:54] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-27 13:14:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: MiRouter
+[2024-05-27 13:14:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: duplicate_images
+[2024-05-27 13:14:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mcqq-tool
+[2024-05-27 13:14:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bigdl-core-cpp
+[2024-05-27 13:14:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tb-nightly
+[2024-05-27 13:14:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: spider-client
+[2024-05-27 13:14:54] INFO root fetch - processPackages [bigdl-core-cpp]: New version: [2.5.0b20240526] Old Version: [2.5.0b20240525]
+[2024-05-27 13:14:54] INFO root fetch - processPackages [tb-nightly]: New version: [2.9.0a20220502] Old Version: [2.9.0a20220501]
+[2024-05-27 13:14:54] WARNING root fetch - processPackages [MiRouter]: Skipping, unable to determine old version
+[2024-05-27 13:14:54] INFO root fetch - main [MainThread]: End processing [MiRouter] error
+[2024-05-27 13:14:54] INFO root fetch - processPackages [duplicate_images]: New version: [0.9.2] Old Version: [0.9.1]
+[2024-05-27 13:14:54] INFO root fetch - processPackages [spider-client]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-27 13:14:54] INFO root fetch - processPackages [tb-nightly]: Downloading https://files.pythonhosted.org/packages/cc/bf/76bb32cf070e37f4b777ed5596c5d082fb60a1bfc06e9463401d07021a8a/tb_nightly-2.9.0a20220501-py3-none-any.whl
+[2024-05-27 13:14:54] INFO root fetch - processPackages [mcqq-tool]: New version: [1.2.0.post2] Old Version: [1.2.0.post1]
+[2024-05-27 13:14:54] INFO root fetch - processPackages [bigdl-core-cpp]: Downloading https://files.pythonhosted.org/packages/9f/15/77b874b32aa83fc2ce6f5987d155a1400cab4b13bd487ac5394f9ddffae8/bigdl_core_cpp-2.5.0b20240525-py3-none-manylinux2010_x86_64.whl
+[2024-05-27 13:14:55] WARNING root fetch - processPackages [bigdl-core-cpp]: Skipping package: exceeds size limit 88799501>=10485760
+[2024-05-27 13:14:55] INFO root fetch - main [MainThread]: End processing [bigdl-core-cpp] error
+[2024-05-27 13:14:55] INFO root fetch - processPackages [duplicate_images]: Downloading https://files.pythonhosted.org/packages/f7/5c/a98e8cf527b163d3ef9a0e0c80087753e7c055d5b100f21518cb424d744a/duplicate_images-0.9.1.tar.gz
+[2024-05-27 13:14:55] INFO root fetch - processPackages [mcqq-tool]: Downloading https://files.pythonhosted.org/packages/eb/40/8fc0aa1d2a650848d98835775da83fbf6507ef911505aba871dcd39d646a/mcqq_tool-1.2.0.post1.tar.gz
+[2024-05-27 13:14:55] INFO root fetch - processPackages [spider-client]: Downloading https://files.pythonhosted.org/packages/9d/d9/7be1798423f860276976f7d3161861f71b80e69eb3fad19ffea70bae289c/spider-client-0.0.8.tar.gz
+[2024-05-27 13:14:55] INFO root fetch - processPackages [tb-nightly]: Downloading https://files.pythonhosted.org/packages/68/8e/03bca092830a4abf26a80c7387b02478c5f948656cb79d63c1bffab65c00/tb_nightly-2.9.0a20220502-py3-none-any.whl
+[2024-05-27 13:14:55] INFO root fetch - processPackages [mcqq-tool]: Downloading https://files.pythonhosted.org/packages/5b/c9/2ee3ded4ef0a34966c9645aedf94a4712e206f0252b7ee5a045d490eebf8/mcqq_tool-1.2.0.post2.tar.gz
+[2024-05-27 13:14:55] INFO root fetch - processPackages [spider-client]: Downloading https://files.pythonhosted.org/packages/ed/fc/ddefa7a1f8ab8c676aead4ef730b7e074b0c7b5610348be25a28da023d40/spider-client-0.0.9.tar.gz
+[2024-05-27 13:14:55] INFO root fetch - processPackages [mcqq-tool]: executing diffoscope
+[2024-05-27 13:14:55] INFO root fetch - processPackages [mcqq-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mcqq_tool-1.2.0.post1.tar.gz tmp/mcqq_tool-1.2.0.post2.tar.gz --markdown 20240527/m/mcqq-tool/1.2.0.post1-1.2.0.post2/README.md --exclude *.pyd
+[2024-05-27 13:14:55] INFO root fetch - processPackages [duplicate_images]: Downloading https://files.pythonhosted.org/packages/58/c7/92d73673e79db8b896dade8644992cf89cd1e8491c4a9509538e1234034d/duplicate_images-0.9.2.tar.gz
+[2024-05-27 13:14:55] INFO root fetch - processPackages [spider-client]: executing diffoscope
+[2024-05-27 13:14:55] INFO root fetch - processPackages [spider-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spider-client-0.0.8.tar.gz tmp/spider-client-0.0.9.tar.gz --markdown 20240527/s/spider-client/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-27 13:14:55] INFO root fetch - processPackages [duplicate_images]: executing diffoscope
+[2024-05-27 13:14:55] INFO root fetch - processPackages [duplicate_images]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/duplicate_images-0.9.1.tar.gz tmp/duplicate_images-0.9.2.tar.gz --markdown 20240527/d/duplicate_images/0.9.1-0.9.2/README.md --exclude *.pyd
+[2024-05-27 13:14:55] INFO root fetch - processPackages [tb-nightly]: executing diffoscope
+[2024-05-27 13:14:55] INFO root fetch - processPackages [tb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip --markdown 20240527/t/tb-nightly/2.9.0a20220501-2.9.0a20220502/README.md --exclude *.pyd
+[2024-05-27 13:14:56] INFO root fetch - processPackages [mcqq-tool]: Remove: archive file [/home/abi/fetcher/tmp/mcqq_tool-1.2.0.post1.tar.gz]
+[2024-05-27 13:14:56] INFO root fetch - processPackages [mcqq-tool]: Remove: archive file [/home/abi/fetcher/tmp/mcqq_tool-1.2.0.post2.tar.gz]
+[2024-05-27 13:14:56] INFO root fetch - main [MainThread]: End processing [mcqq-tool]: success
+[2024-05-27 13:14:56] INFO root fetch - processPackages [spider-client]: Remove: archive file [/home/abi/fetcher/tmp/spider-client-0.0.8.tar.gz]
+[2024-05-27 13:14:56] INFO root fetch - processPackages [spider-client]: Remove: archive file [/home/abi/fetcher/tmp/spider-client-0.0.9.tar.gz]
+[2024-05-27 13:14:56] INFO root fetch - main [MainThread]: End processing [spider-client]: success
+[2024-05-27 13:14:56] INFO root fetch - processPackages [duplicate_images]: Remove: archive file [/home/abi/fetcher/tmp/duplicate_images-0.9.1.tar.gz]
+[2024-05-27 13:14:56] INFO root fetch - processPackages [duplicate_images]: Remove: archive file [/home/abi/fetcher/tmp/duplicate_images-0.9.2.tar.gz]
+[2024-05-27 13:14:56] INFO root fetch - main [MainThread]: End processing [duplicate_images]: success
+[2024-05-27 13:14:57] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip]
+[2024-05-27 13:14:57] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip]
+[2024-05-27 13:14:57] INFO root fetch - main [MainThread]: End processing [tb-nightly]: success
+[2024-05-27 13:14:57] INFO root fetch - main [MainThread]: Store serial: [23394613]
