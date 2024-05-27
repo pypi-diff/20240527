@@ -4507,3 +4507,33 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 05:18:15] INFO root fetch - processPackages [stefutils]: Remove: archive file [/home/abi/fetcher/tmp/stefutils-0.9.0.tar.gz]
 [2024-05-27 05:18:15] INFO root fetch - main [MainThread]: End processing [stefutils]: success
 [2024-05-27 05:18:15] INFO root fetch - main [MainThread]: Store serial: [23390186]
+[2024-05-27 05:20:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23390186]
+[2024-05-27 05:20:23] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-27 05:20:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: apiverve-triviagenerator
+[2024-05-27 05:20:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: apiverve-unitconverter
+[2024-05-27 05:20:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: apiverve-useragentparser
+[2024-05-27 05:20:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: krezi
+[2024-05-27 05:20:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: discordreactive
+[2024-05-27 05:20:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: apiverve-usernamegenerator
+[2024-05-27 05:20:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gym-examples
+[2024-05-27 05:20:23] INFO root fetch - processPackages [krezi]: New version: [1.2] Old Version: [1.0]
+[2024-05-27 05:20:23] WARNING root fetch - processPackages [gym-examples]: Skipping, unable to determine old version
+[2024-05-27 05:20:23] INFO root fetch - main [MainThread]: End processing [gym-examples] error
+[2024-05-27 05:20:23] WARNING root fetch - processPackages [apiverve-useragentparser]: Skipping, unable to determine old version
+[2024-05-27 05:20:23] INFO root fetch - main [MainThread]: End processing [apiverve-useragentparser] error
+[2024-05-27 05:20:23] ERROR root fetch - processPackages [discordreactive]: Unable to get metadata: No such project 'discordreactive'
+[2024-05-27 05:20:23] INFO root fetch - main [MainThread]: End processing [discordreactive] error
+[2024-05-27 05:20:23] WARNING root fetch - processPackages [apiverve-unitconverter]: Skipping, unable to determine old version
+[2024-05-27 05:20:23] INFO root fetch - main [MainThread]: End processing [apiverve-unitconverter] error
+[2024-05-27 05:20:23] WARNING root fetch - processPackages [apiverve-usernamegenerator]: Skipping, unable to determine old version
+[2024-05-27 05:20:23] INFO root fetch - main [MainThread]: End processing [apiverve-usernamegenerator] error
+[2024-05-27 05:20:23] WARNING root fetch - processPackages [apiverve-triviagenerator]: Skipping, unable to determine old version
+[2024-05-27 05:20:23] INFO root fetch - main [MainThread]: End processing [apiverve-triviagenerator] error
+[2024-05-27 05:20:24] INFO root fetch - processPackages [krezi]: Downloading https://files.pythonhosted.org/packages/56/47/bf1681c7fc3088162949908dd77303b386c19f8d5eca30284bd0fe6f4225/krezi-1.0.tar.gz
+[2024-05-27 05:20:24] INFO root fetch - processPackages [krezi]: Downloading https://files.pythonhosted.org/packages/74/92/330fa9aa96e13e437a7c5da0fd95c281a7979d4875b018f6f06852197b0d/krezi-1.2.tar.gz
+[2024-05-27 05:20:24] INFO root fetch - processPackages [krezi]: executing diffoscope
+[2024-05-27 05:20:24] INFO root fetch - processPackages [krezi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/krezi-1.0.tar.gz tmp/krezi-1.2.tar.gz --markdown 20240527/k/krezi/1.0-1.2/README.md --exclude *.pyd
+[2024-05-27 05:20:24] INFO root fetch - processPackages [krezi]: Remove: archive file [/home/abi/fetcher/tmp/krezi-1.0.tar.gz]
+[2024-05-27 05:20:24] INFO root fetch - processPackages [krezi]: Remove: archive file [/home/abi/fetcher/tmp/krezi-1.2.tar.gz]
+[2024-05-27 05:20:24] INFO root fetch - main [MainThread]: End processing [krezi]: success
+[2024-05-27 05:20:24] INFO root fetch - main [MainThread]: Store serial: [23390220]
