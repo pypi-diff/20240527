@@ -19089,3 +19089,51 @@ EOFError: EOF read where object expected
 [2024-05-27 16:39:09] INFO root fetch - main [MainThread]: End processing [sustainability-scanner]: success
 [2024-05-27 16:39:09] INFO root fetch - main [MainThread]: End processing [sustainability-scanner]: success
 [2024-05-27 16:39:09] INFO root fetch - main [MainThread]: Store serial: [23397151]
+[2024-05-27 16:41:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23397151]
+[2024-05-27 16:41:19] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-27 16:41:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: CI-CloudConnector
+[2024-05-27 16:41:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hnt-sap-gui-library
+[2024-05-27 16:41:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pynonymizer
+[2024-05-27 16:41:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: netbluemind4
+[2024-05-27 16:41:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rooms-shared-services
+[2024-05-27 16:41:19] INFO root fetch - processPackages [CI-CloudConnector]: New version: [0.9] Old Version: [0.86]
+[2024-05-27 16:41:19] INFO root fetch - processPackages [pynonymizer]: New version: [2.2.1] Old Version: [2.2.0]
+[2024-05-27 16:41:19] INFO root fetch - processPackages [rooms-shared-services]: New version: [0.1.99] Old Version: [0.1.97]
+[2024-05-27 16:41:19] INFO root fetch - processPackages [hnt-sap-gui-library]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-27 16:41:19] INFO root fetch - processPackages [netbluemind4]: New version: [4.9.3581] Old Version: [4.9.3572]
+[2024-05-27 16:41:19] INFO root fetch - processPackages [pynonymizer]: Downloading https://files.pythonhosted.org/packages/92/0b/2241817bd19d32d94abe9e9df245e017dc551a4a50558f0e456498ed8f18/pynonymizer-2.2.0.tar.gz
+[2024-05-27 16:41:19] INFO root fetch - processPackages [rooms-shared-services]: Downloading https://files.pythonhosted.org/packages/16/6e/7a35dabe25e96c04274cbd9f69a6e68b4f36dc149e22451fb099f79d153e/rooms_shared_services-0.1.97.tar.gz
+[2024-05-27 16:41:19] INFO root fetch - processPackages [CI-CloudConnector]: Downloading https://files.pythonhosted.org/packages/bb/53/c7e35369198646bed4a281b1a18f8e719e2a3af2c0f208631d233285cbac/ci_cloudconnector-0.86.tar.gz
+[2024-05-27 16:41:19] INFO root fetch - processPackages [hnt-sap-gui-library]: Downloading https://files.pythonhosted.org/packages/f1/96/ea209b94dc1936505f80eb77ad4daf5d4e3c0c324256748a20b13d657b82/hnt_sap_gui_library-0.0.8.tar.gz
+[2024-05-27 16:41:19] INFO root fetch - processPackages [pynonymizer]: Downloading https://files.pythonhosted.org/packages/f7/94/9c9a5f185dae0a9faf75d60c5e4ff1db3dc5112657106fb63342effb3254/pynonymizer-2.2.1.tar.gz
+[2024-05-27 16:41:19] INFO root fetch - processPackages [netbluemind4]: Downloading https://files.pythonhosted.org/packages/9a/7b/df93d47dd5f6138f216404f50db33a9890963b2b81c4cc785819a9d9b6e3/netbluemind4-4.9.3572.tar.gz
+[2024-05-27 16:41:19] INFO root fetch - processPackages [rooms-shared-services]: Downloading https://files.pythonhosted.org/packages/69/d1/238526d33d58183ec73b9cb900a4aea16c13e7618af0394e6c55838d4395/rooms_shared_services-0.1.99.tar.gz
+[2024-05-27 16:41:19] INFO root fetch - processPackages [CI-CloudConnector]: Downloading https://files.pythonhosted.org/packages/4c/eb/b4639debe39d86d516b4aa0b9e6cdec32e0a06d0220a60ed52a6b5fada1f/CI_CloudConnector-0.9.zip
+[2024-05-27 16:41:19] INFO root fetch - processPackages [rooms-shared-services]: executing diffoscope
+[2024-05-27 16:41:19] INFO root fetch - processPackages [rooms-shared-services]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rooms_shared_services-0.1.97.tar.gz tmp/rooms_shared_services-0.1.99.tar.gz --markdown 20240527/r/rooms-shared-services/0.1.97-0.1.99/README.md --exclude *.pyd
+[2024-05-27 16:41:20] INFO root fetch - processPackages [pynonymizer]: executing diffoscope
+[2024-05-27 16:41:20] INFO root fetch - processPackages [pynonymizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynonymizer-2.2.0.tar.gz tmp/pynonymizer-2.2.1.tar.gz --markdown 20240527/p/pynonymizer/2.2.0-2.2.1/README.md --exclude *.pyd
+[2024-05-27 16:41:20] INFO root fetch - processPackages [CI-CloudConnector]: executing diffoscope
+[2024-05-27 16:41:20] INFO root fetch - processPackages [CI-CloudConnector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ci_cloudconnector-0.86.tar.gz tmp/CI_CloudConnector-0.9.zip --markdown 20240527/C/CI-CloudConnector/0.86-0.9/README.md --exclude *.pyd
+[2024-05-27 16:41:20] INFO root fetch - processPackages [hnt-sap-gui-library]: Downloading https://files.pythonhosted.org/packages/b4/09/37ee44f483f91eb969849cc3a42a1d99a151bac148504be6d453b8fddb4f/hnt_sap_gui_library-0.0.9.tar.gz
+[2024-05-27 16:41:20] INFO root fetch - processPackages [netbluemind4]: Downloading https://files.pythonhosted.org/packages/9c/7a/7730f1b5a9c4aeca8fe71274f400f985dd7aff89537a13335505d9e668a6/netbluemind4-4.9.3581.tar.gz
+[2024-05-27 16:41:20] INFO root fetch - processPackages [hnt-sap-gui-library]: executing diffoscope
+[2024-05-27 16:41:20] INFO root fetch - processPackages [hnt-sap-gui-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hnt_sap_gui_library-0.0.8.tar.gz tmp/hnt_sap_gui_library-0.0.9.tar.gz --markdown 20240527/h/hnt-sap-gui-library/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-27 16:41:20] INFO root fetch - processPackages [netbluemind4]: executing diffoscope
+[2024-05-27 16:41:20] INFO root fetch - processPackages [netbluemind4]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbluemind4-4.9.3572.tar.gz tmp/netbluemind4-4.9.3581.tar.gz --markdown 20240527/n/netbluemind4/4.9.3572-4.9.3581/README.md --exclude *.pyd
+[2024-05-27 16:41:20] INFO root fetch - processPackages [rooms-shared-services]: Remove: archive file [/home/abi/fetcher/tmp/rooms_shared_services-0.1.97.tar.gz]
+[2024-05-27 16:41:20] INFO root fetch - processPackages [rooms-shared-services]: Remove: archive file [/home/abi/fetcher/tmp/rooms_shared_services-0.1.99.tar.gz]
+[2024-05-27 16:41:20] INFO root fetch - main [MainThread]: End processing [rooms-shared-services]: success
+[2024-05-27 16:41:20] INFO root fetch - processPackages [CI-CloudConnector]: Remove: archive file [/home/abi/fetcher/tmp/ci_cloudconnector-0.86.tar.gz]
+[2024-05-27 16:41:20] INFO root fetch - processPackages [CI-CloudConnector]: Remove: archive file [/home/abi/fetcher/tmp/CI_CloudConnector-0.9.zip]
+[2024-05-27 16:41:20] INFO root fetch - main [MainThread]: End processing [CI-CloudConnector]: success
+[2024-05-27 16:41:20] INFO root fetch - processPackages [pynonymizer]: Remove: archive file [/home/abi/fetcher/tmp/pynonymizer-2.2.0.tar.gz]
+[2024-05-27 16:41:20] INFO root fetch - processPackages [pynonymizer]: Remove: archive file [/home/abi/fetcher/tmp/pynonymizer-2.2.1.tar.gz]
+[2024-05-27 16:41:20] INFO root fetch - main [MainThread]: End processing [pynonymizer]: success
+[2024-05-27 16:41:20] INFO root fetch - processPackages [hnt-sap-gui-library]: Remove: archive file [/home/abi/fetcher/tmp/hnt_sap_gui_library-0.0.8.tar.gz]
+[2024-05-27 16:41:20] INFO root fetch - processPackages [hnt-sap-gui-library]: Remove: archive file [/home/abi/fetcher/tmp/hnt_sap_gui_library-0.0.9.tar.gz]
+[2024-05-27 16:41:20] INFO root fetch - main [MainThread]: End processing [hnt-sap-gui-library]: success
+[2024-05-27 16:41:22] INFO root fetch - processPackages [netbluemind4]: Remove: archive file [/home/abi/fetcher/tmp/netbluemind4-4.9.3572.tar.gz]
+[2024-05-27 16:41:22] INFO root fetch - processPackages [netbluemind4]: Remove: archive file [/home/abi/fetcher/tmp/netbluemind4-4.9.3581.tar.gz]
+[2024-05-27 16:41:22] INFO root fetch - main [MainThread]: End processing [netbluemind4]: success
+[2024-05-27 16:41:22] INFO root fetch - main [MainThread]: Store serial: [23397165]
