@@ -15144,3 +15144,53 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 14:19:03] INFO root fetch - processPackages [climetlab-maelstrom-downscaling]: Remove: archive file [/home/abi/fetcher/tmp/climetlab_maelstrom_downscaling-0.4.0.tar.gz]
 [2024-05-27 14:19:03] INFO root fetch - main [MainThread]: End processing [climetlab-maelstrom-downscaling]: success
 [2024-05-27 14:19:03] INFO root fetch - main [MainThread]: Store serial: [23395359]
+[2024-05-27 14:21:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23395359]
+[2024-05-27 14:21:12] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-27 14:21:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyexmars
+[2024-05-27 14:21:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyvrp-load_balancing
+[2024-05-27 14:21:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: conda-inject
+[2024-05-27 14:21:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo12-addon-sm-carsharing-structure
+[2024-05-27 14:21:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo12-addon-sm-carsharing-structure-sommobilitat
+[2024-05-27 14:21:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: moto-ext
+[2024-05-27 14:21:12] INFO root fetch - processPackages [pyexmars]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-27 14:21:12] INFO root fetch - processPackages [conda-inject]: New version: [1.3.2] Old Version: [1.3.1]
+[2024-05-27 14:21:12] INFO root fetch - processPackages [odoo12-addon-sm-carsharing-structure]: New version: [12.0.0.0.9] Old Version: [12.0.0.0.8]
+[2024-05-27 14:21:12] INFO root fetch - processPackages [pyexmars]: Downloading https://files.pythonhosted.org/packages/f5/ea/450e92ecec3de8b8c48f75ea845423569b838d95282d8bd1cfbca6a93bcc/pyexmars-1.0.8.tar.gz
+[2024-05-27 14:21:12] WARNING root fetch - processPackages [pyvrp-load_balancing]: Skipping, unable to determine old version
+[2024-05-27 14:21:12] INFO root fetch - main [MainThread]: End processing [pyvrp-load_balancing] error
+[2024-05-27 14:21:12] INFO root fetch - processPackages [odoo12-addon-sm-carsharing-structure-sommobilitat]: New version: [12.0.0.0.6] Old Version: [12.0.0.0.5]
+[2024-05-27 14:21:12] INFO root fetch - processPackages [conda-inject]: Downloading https://files.pythonhosted.org/packages/f8/6c/fc8bf18a8245cd96303d5fbfab0762ed35e3b3ecddeefdc181aa7ce6ead5/conda_inject-1.3.1.tar.gz
+[2024-05-27 14:21:12] INFO root fetch - processPackages [pyexmars]: Downloading https://files.pythonhosted.org/packages/50/d1/a2145ee44f0f4ae6052d7d86300c1d66fa728fc265646b849c15ca966759/pyexmars-1.0.9.tar.gz
+[2024-05-27 14:21:12] INFO root fetch - processPackages [odoo12-addon-sm-carsharing-structure]: Downloading https://files.pythonhosted.org/packages/5d/22/7aa5886841e54d27ef0556f8e95727f82b179f1701205fb5c053d482a261/odoo12_addon_sm_carsharing_structure-12.0.0.0.8-py2.py3-none-any.whl
+[2024-05-27 14:21:12] INFO root fetch - processPackages [odoo12-addon-sm-carsharing-structure-sommobilitat]: Downloading https://files.pythonhosted.org/packages/b0/65/15f496031b58069b0bd18083716055c4ba2177182159f11fbfba2f328e55/odoo12-addon-sm_carsharing_structure_sommobilitat-12.0.0.0.5.tar.gz
+[2024-05-27 14:21:12] INFO root fetch - processPackages [moto-ext]: New version: [5.0.8.post1] Old Version: [5.0.7.post2]
+[2024-05-27 14:21:12] INFO root fetch - processPackages [pyexmars]: executing diffoscope
+[2024-05-27 14:21:12] INFO root fetch - processPackages [pyexmars]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyexmars-1.0.8.tar.gz tmp/pyexmars-1.0.9.tar.gz --markdown 20240527/p/pyexmars/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-27 14:21:13] INFO root fetch - processPackages [conda-inject]: Downloading https://files.pythonhosted.org/packages/b1/a8/8dc86113c65c949cc72d651461d6e4c544b3302a85ed14a5298829e6a419/conda_inject-1.3.2.tar.gz
+[2024-05-27 14:21:13] INFO root fetch - processPackages [odoo12-addon-sm-carsharing-structure-sommobilitat]: Downloading https://files.pythonhosted.org/packages/c1/0b/d94d866545cce2be12f1871d83b067ae4a2569fcfaf3399b18fac11d3195/odoo12_addon_sm_carsharing_structure_sommobilitat-12.0.0.0.6-py2.py3-none-any.whl
+[2024-05-27 14:21:13] INFO root fetch - processPackages [odoo12-addon-sm-carsharing-structure]: Downloading https://files.pythonhosted.org/packages/de/f9/3286bc521a07cc5e985ce609b1f54d89f5b1b680dc68fa74f88a0c155048/odoo12-addon-sm_carsharing_structure-12.0.0.0.9.tar.gz
+[2024-05-27 14:21:13] INFO root fetch - processPackages [moto-ext]: Downloading https://files.pythonhosted.org/packages/13/5c/3d5bdfab99776627b251e66fdb80cdf1c41a6e5d436111101c6a22f91355/moto_ext-5.0.8.post1-py2.py3-none-any.whl
+[2024-05-27 14:21:13] INFO root fetch - processPackages [pyexmars]: Remove: archive file [/home/abi/fetcher/tmp/pyexmars-1.0.8.tar.gz]
+[2024-05-27 14:21:13] INFO root fetch - processPackages [pyexmars]: Remove: archive file [/home/abi/fetcher/tmp/pyexmars-1.0.9.tar.gz]
+[2024-05-27 14:21:13] INFO root fetch - main [MainThread]: End processing [pyexmars]: success
+[2024-05-27 14:21:13] INFO root fetch - processPackages [conda-inject]: executing diffoscope
+[2024-05-27 14:21:13] INFO root fetch - processPackages [conda-inject]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/conda_inject-1.3.1.tar.gz tmp/conda_inject-1.3.2.tar.gz --markdown 20240527/c/conda-inject/1.3.1-1.3.2/README.md --exclude *.pyd
+[2024-05-27 14:21:13] INFO root fetch - processPackages [odoo12-addon-sm-carsharing-structure]: executing diffoscope
+[2024-05-27 14:21:13] INFO root fetch - processPackages [odoo12-addon-sm-carsharing-structure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_sm_carsharing_structure-12.0.0.0.8-py2.py3-none-any.whl.zip tmp/odoo12-addon-sm_carsharing_structure-12.0.0.0.9.tar.gz --markdown 20240527/o/odoo12-addon-sm-carsharing-structure/12.0.0.0.8-12.0.0.0.9/README.md --exclude *.pyd
+[2024-05-27 14:21:13] INFO root fetch - processPackages [odoo12-addon-sm-carsharing-structure-sommobilitat]: executing diffoscope
+[2024-05-27 14:21:13] INFO root fetch - processPackages [odoo12-addon-sm-carsharing-structure-sommobilitat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12-addon-sm_carsharing_structure_sommobilitat-12.0.0.0.5.tar.gz tmp/odoo12_addon_sm_carsharing_structure_sommobilitat-12.0.0.0.6-py2.py3-none-any.whl.zip --markdown 20240527/o/odoo12-addon-sm-carsharing-structure-sommobilitat/12.0.0.0.5-12.0.0.0.6/README.md --exclude *.pyd
+[2024-05-27 14:21:13] INFO root fetch - processPackages [conda-inject]: Remove: archive file [/home/abi/fetcher/tmp/conda_inject-1.3.1.tar.gz]
+[2024-05-27 14:21:13] INFO root fetch - processPackages [conda-inject]: Remove: archive file [/home/abi/fetcher/tmp/conda_inject-1.3.2.tar.gz]
+[2024-05-27 14:21:13] INFO root fetch - main [MainThread]: End processing [conda-inject]: success
+[2024-05-27 14:21:13] INFO root fetch - processPackages [odoo12-addon-sm-carsharing-structure]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_sm_carsharing_structure-12.0.0.0.8-py2.py3-none-any.whl.zip]
+[2024-05-27 14:21:13] INFO root fetch - processPackages [odoo12-addon-sm-carsharing-structure]: Remove: archive file [/home/abi/fetcher/tmp/odoo12-addon-sm_carsharing_structure-12.0.0.0.9.tar.gz]
+[2024-05-27 14:21:14] INFO root fetch - main [MainThread]: End processing [odoo12-addon-sm-carsharing-structure]: success
+[2024-05-27 14:21:14] INFO root fetch - processPackages [odoo12-addon-sm-carsharing-structure-sommobilitat]: Remove: archive file [/home/abi/fetcher/tmp/odoo12-addon-sm_carsharing_structure_sommobilitat-12.0.0.0.5.tar.gz]
+[2024-05-27 14:21:14] INFO root fetch - processPackages [odoo12-addon-sm-carsharing-structure-sommobilitat]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_sm_carsharing_structure_sommobilitat-12.0.0.0.6-py2.py3-none-any.whl.zip]
+[2024-05-27 14:21:14] INFO root fetch - main [MainThread]: End processing [odoo12-addon-sm-carsharing-structure-sommobilitat]: success
+[2024-05-27 14:21:14] INFO root fetch - processPackages [moto-ext]: executing diffoscope
+[2024-05-27 14:21:14] INFO root fetch - processPackages [moto-ext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto_ext-5.0.7.post2.tar.gz tmp/moto_ext-5.0.8.post1-py2.py3-none-any.whl.zip --markdown 20240527/m/moto-ext/5.0.7.post2-5.0.8.post1/README.md --exclude *.pyd
+[2024-05-27 14:21:17] INFO root fetch - processPackages [moto-ext]: Remove: archive file [/home/abi/fetcher/tmp/moto_ext-5.0.7.post2.tar.gz]
+[2024-05-27 14:21:17] INFO root fetch - processPackages [moto-ext]: Remove: archive file [/home/abi/fetcher/tmp/moto_ext-5.0.8.post1-py2.py3-none-any.whl.zip]
+[2024-05-27 14:21:17] INFO root fetch - main [MainThread]: End processing [moto-ext]: success
+[2024-05-27 14:21:17] INFO root fetch - main [MainThread]: Store serial: [23395376]
