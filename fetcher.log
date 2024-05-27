@@ -2664,3 +2664,27 @@
 [2024-05-27 03:22:57] INFO root fetch - processPackages [eras]: Remove: archive file [/home/abi/fetcher/tmp/eras-0.5.0.tar.gz]
 [2024-05-27 03:22:57] INFO root fetch - main [MainThread]: End processing [eras]: success
 [2024-05-27 03:22:57] INFO root fetch - main [MainThread]: Store serial: [23389384]
+[2024-05-27 03:25:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23389384]
+[2024-05-27 03:25:06] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-27 03:25:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rxd
+[2024-05-27 03:25:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: apeboiy
+[2024-05-27 03:25:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: LatticeToolbox
+[2024-05-27 03:25:06] INFO root fetch - processPackages [apeboiy]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-27 03:25:06] INFO root fetch - processPackages [rxd]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-27 03:25:06] INFO root fetch - processPackages [rxd]: Downloading https://files.pythonhosted.org/packages/9e/9d/0fe1353b7f9ab18e47fd18102ef7fea253a0ee8de24185e7470c7a1064f7/rxd-0.0.7.tar.gz
+[2024-05-27 03:25:06] INFO root fetch - processPackages [apeboiy]: Downloading https://files.pythonhosted.org/packages/2c/d1/13ae5c5ceb0c97a91d946e1dd5fc329b3f384b59630ad259ab7ebe72713d/apeboiy-0.0.8.tar.gz
+[2024-05-27 03:25:06] WARNING root fetch - processPackages [LatticeToolbox]: Skipping, unable to determine old version
+[2024-05-27 03:25:06] INFO root fetch - main [MainThread]: End processing [LatticeToolbox] error
+[2024-05-27 03:25:06] INFO root fetch - processPackages [apeboiy]: Downloading https://files.pythonhosted.org/packages/04/42/a8230541f443842d5b00d865f7079650b8c865bda89a3de4ebc4010d0579/apeboiy-0.0.9.tar.gz
+[2024-05-27 03:25:06] INFO root fetch - processPackages [rxd]: Downloading https://files.pythonhosted.org/packages/21/c2/38cf8db50595c42a9258c3370b82b7757ed2485638d9d5e7cc8aa2b6ea9d/rxd-0.0.8.tar.gz
+[2024-05-27 03:25:06] INFO root fetch - processPackages [apeboiy]: executing diffoscope
+[2024-05-27 03:25:06] INFO root fetch - processPackages [apeboiy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apeboiy-0.0.8.tar.gz tmp/apeboiy-0.0.9.tar.gz --markdown 20240527/a/apeboiy/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-27 03:25:06] INFO root fetch - processPackages [rxd]: executing diffoscope
+[2024-05-27 03:25:06] INFO root fetch - processPackages [rxd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rxd-0.0.7.tar.gz tmp/rxd-0.0.8.tar.gz --markdown 20240527/r/rxd/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-27 03:25:07] INFO root fetch - processPackages [apeboiy]: Remove: archive file [/home/abi/fetcher/tmp/apeboiy-0.0.8.tar.gz]
+[2024-05-27 03:25:07] INFO root fetch - processPackages [apeboiy]: Remove: archive file [/home/abi/fetcher/tmp/apeboiy-0.0.9.tar.gz]
+[2024-05-27 03:25:07] INFO root fetch - main [MainThread]: End processing [apeboiy]: success
+[2024-05-27 03:25:07] INFO root fetch - processPackages [rxd]: Remove: archive file [/home/abi/fetcher/tmp/rxd-0.0.7.tar.gz]
+[2024-05-27 03:25:07] INFO root fetch - processPackages [rxd]: Remove: archive file [/home/abi/fetcher/tmp/rxd-0.0.8.tar.gz]
+[2024-05-27 03:25:07] INFO root fetch - main [MainThread]: End processing [rxd]: success
+[2024-05-27 03:25:07] INFO root fetch - main [MainThread]: Store serial: [23389395]
