@@ -6734,3 +6734,27 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 08:03:03] INFO root fetch - processPackages [afeng-py-tools]: Remove: archive file [/home/abi/fetcher/tmp/afeng-py-tools-0.0.99.tar.gz]
 [2024-05-27 08:03:03] INFO root fetch - main [MainThread]: End processing [afeng-py-tools]: success
 [2024-05-27 08:03:03] INFO root fetch - main [MainThread]: Store serial: [23391196]
+[2024-05-27 08:05:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23391196]
+[2024-05-27 08:05:12] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-27 08:05:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: launcherctl
+[2024-05-27 08:05:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nonebot-plugin-sanyao
+[2024-05-27 08:05:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: liveflask
+[2024-05-27 08:05:12] WARNING root fetch - processPackages [launcherctl]: Skipping, unable to determine old version
+[2024-05-27 08:05:12] INFO root fetch - main [MainThread]: End processing [launcherctl] error
+[2024-05-27 08:05:12] INFO root fetch - processPackages [nonebot-plugin-sanyao]: New version: [0.2.6] Old Version: [0.2.4]
+[2024-05-27 08:05:12] INFO root fetch - processPackages [liveflask]: New version: [1.0.9rc6] Old Version: [1.0.9rc5]
+[2024-05-27 08:05:13] INFO root fetch - processPackages [nonebot-plugin-sanyao]: Downloading https://files.pythonhosted.org/packages/6c/89/0c963c133a964cc290cea185e3d2adf595189a346bc2e27353418e33f3fe/nonebot_plugin_sanyao-0.2.4.tar.gz
+[2024-05-27 08:05:13] INFO root fetch - processPackages [liveflask]: Downloading https://files.pythonhosted.org/packages/4f/f7/9fa1b550df92979d3653b69ad0f8af57358884c417fc600ac326b87f6266/liveflask-1.0.9rc5.tar.gz
+[2024-05-27 08:05:13] INFO root fetch - processPackages [nonebot-plugin-sanyao]: Downloading https://files.pythonhosted.org/packages/7d/c9/1fa7bfd40bb8941ff7062961d9dbc879102270b20c2de4129e6d885dd1ec/nonebot_plugin_sanyao-0.2.6.tar.gz
+[2024-05-27 08:05:13] INFO root fetch - processPackages [liveflask]: Downloading https://files.pythonhosted.org/packages/c9/85/db794ba1759ab4e9865cd2537ac486073560649c795fb7212df21fe29eaf/liveflask-1.0.9rc6.tar.gz
+[2024-05-27 08:05:13] INFO root fetch - processPackages [nonebot-plugin-sanyao]: executing diffoscope
+[2024-05-27 08:05:13] INFO root fetch - processPackages [nonebot-plugin-sanyao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_sanyao-0.2.4.tar.gz tmp/nonebot_plugin_sanyao-0.2.6.tar.gz --markdown 20240527/n/nonebot-plugin-sanyao/0.2.4-0.2.6/README.md --exclude *.pyd
+[2024-05-27 08:05:13] INFO root fetch - processPackages [liveflask]: executing diffoscope
+[2024-05-27 08:05:13] INFO root fetch - processPackages [liveflask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liveflask-1.0.9rc5.tar.gz tmp/liveflask-1.0.9rc6.tar.gz --markdown 20240527/l/liveflask/1.0.9rc5-1.0.9rc6/README.md --exclude *.pyd
+[2024-05-27 08:05:14] INFO root fetch - processPackages [nonebot-plugin-sanyao]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_sanyao-0.2.4.tar.gz]
+[2024-05-27 08:05:14] INFO root fetch - processPackages [nonebot-plugin-sanyao]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_sanyao-0.2.6.tar.gz]
+[2024-05-27 08:05:14] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-sanyao]: success
+[2024-05-27 08:05:14] INFO root fetch - processPackages [liveflask]: Remove: archive file [/home/abi/fetcher/tmp/liveflask-1.0.9rc5.tar.gz]
+[2024-05-27 08:05:14] INFO root fetch - processPackages [liveflask]: Remove: archive file [/home/abi/fetcher/tmp/liveflask-1.0.9rc6.tar.gz]
+[2024-05-27 08:05:14] INFO root fetch - main [MainThread]: End processing [liveflask]: success
+[2024-05-27 08:05:14] INFO root fetch - main [MainThread]: Store serial: [23391215]
