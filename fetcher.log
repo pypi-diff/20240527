@@ -6595,3 +6595,39 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 07:54:23] INFO root fetch - processPackages [django-mfa2]: Remove: archive file [/home/abi/fetcher/tmp/django-mfa2-2.9.0b1.tar.gz]
 [2024-05-27 07:54:23] INFO root fetch - main [MainThread]: End processing [django-mfa2]: success
 [2024-05-27 07:54:23] INFO root fetch - main [MainThread]: Store serial: [23391062]
+[2024-05-27 07:56:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23391062]
+[2024-05-27 07:56:32] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-27 07:56:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PlayDrissionPage
+[2024-05-27 07:56:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: arrow-odbc
+[2024-05-27 07:56:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: py-tools-wd
+[2024-05-27 07:56:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dqpu
+[2024-05-27 07:56:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: telegram-gmail-bot
+[2024-05-27 07:56:32] INFO root fetch - processPackages [telegram-gmail-bot]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-27 07:56:32] INFO root fetch - processPackages [dqpu]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-05-27 07:56:32] WARNING root fetch - processPackages [PlayDrissionPage]: Skipping, unable to determine old version
+[2024-05-27 07:56:32] INFO root fetch - main [MainThread]: End processing [PlayDrissionPage] error
+[2024-05-27 07:56:32] WARNING root fetch - processPackages [py-tools-wd]: Skipping, unable to determine old version
+[2024-05-27 07:56:32] INFO root fetch - processPackages [telegram-gmail-bot]: Downloading https://files.pythonhosted.org/packages/6b/7e/1326f919165c27e20e76c5f3dfab62280c8d8769408921c648207422794c/telegram_gmail_bot-0.1.8.tar.gz
+[2024-05-27 07:56:32] INFO root fetch - main [MainThread]: End processing [py-tools-wd] error
+[2024-05-27 07:56:32] INFO root fetch - processPackages [dqpu]: Downloading https://files.pythonhosted.org/packages/b8/a2/f2874b5c22dddd84673832981c5ded3758322e2db9d145da5f3cc024b0fc/dqpu-0.2.2.tar.gz
+[2024-05-27 07:56:32] INFO root fetch - processPackages [arrow-odbc]: New version: [7.0.2] Old Version: [7.0.1]
+[2024-05-27 07:56:32] INFO root fetch - processPackages [arrow-odbc]: Downloading https://files.pythonhosted.org/packages/6b/b8/e32cd1d72be8fe245d5d6d530f434e9d5d02416b8b93fb29a2ad3823aa9e/arrow_odbc-7.0.1.tar.gz
+[2024-05-27 07:56:32] INFO root fetch - processPackages [telegram-gmail-bot]: Downloading https://files.pythonhosted.org/packages/c4/3b/687bbff879a48808b9a8c8e2594b51368210cd7b9d3ac9959c5ca4b70e4a/telegram_gmail_bot-0.1.9.tar.gz
+[2024-05-27 07:56:32] INFO root fetch - processPackages [dqpu]: Downloading https://files.pythonhosted.org/packages/b9/cd/2f6e6525e688d2d5e15d2f2dedc5a1ddf33614f5e90a6cf40198ff9c8505/dqpu-0.2.3.tar.gz
+[2024-05-27 07:56:32] INFO root fetch - processPackages [telegram-gmail-bot]: executing diffoscope
+[2024-05-27 07:56:32] INFO root fetch - processPackages [telegram-gmail-bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/telegram_gmail_bot-0.1.8.tar.gz tmp/telegram_gmail_bot-0.1.9.tar.gz --markdown 20240527/t/telegram-gmail-bot/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-27 07:56:32] INFO root fetch - processPackages [dqpu]: executing diffoscope
+[2024-05-27 07:56:32] INFO root fetch - processPackages [dqpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dqpu-0.2.2.tar.gz tmp/dqpu-0.2.3.tar.gz --markdown 20240527/d/dqpu/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-05-27 07:56:32] INFO root fetch - processPackages [arrow-odbc]: Downloading https://files.pythonhosted.org/packages/0d/9c/255604d1c129db78bae3392ee654e1ac9a0538590faaa3fb90aedeefeb0f/arrow_odbc-7.0.2.tar.gz
+[2024-05-27 07:56:33] INFO root fetch - processPackages [arrow-odbc]: executing diffoscope
+[2024-05-27 07:56:33] INFO root fetch - processPackages [arrow-odbc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arrow_odbc-7.0.1.tar.gz tmp/arrow_odbc-7.0.2.tar.gz --markdown 20240527/a/arrow-odbc/7.0.1-7.0.2/README.md --exclude *.pyd
+[2024-05-27 07:56:33] INFO root fetch - processPackages [telegram-gmail-bot]: Remove: archive file [/home/abi/fetcher/tmp/telegram_gmail_bot-0.1.8.tar.gz]
+[2024-05-27 07:56:33] INFO root fetch - processPackages [telegram-gmail-bot]: Remove: archive file [/home/abi/fetcher/tmp/telegram_gmail_bot-0.1.9.tar.gz]
+[2024-05-27 07:56:33] INFO root fetch - main [MainThread]: End processing [telegram-gmail-bot]: success
+[2024-05-27 07:56:33] INFO root fetch - processPackages [dqpu]: Remove: archive file [/home/abi/fetcher/tmp/dqpu-0.2.2.tar.gz]
+[2024-05-27 07:56:33] INFO root fetch - processPackages [dqpu]: Remove: archive file [/home/abi/fetcher/tmp/dqpu-0.2.3.tar.gz]
+[2024-05-27 07:56:33] INFO root fetch - main [MainThread]: End processing [dqpu]: success
+[2024-05-27 07:56:33] INFO root fetch - processPackages [arrow-odbc]: Remove: archive file [/home/abi/fetcher/tmp/arrow_odbc-7.0.1.tar.gz]
+[2024-05-27 07:56:33] INFO root fetch - processPackages [arrow-odbc]: Remove: archive file [/home/abi/fetcher/tmp/arrow_odbc-7.0.2.tar.gz]
+[2024-05-27 07:56:33] INFO root fetch - main [MainThread]: End processing [arrow-odbc]: success
+[2024-05-27 07:56:33] INFO root fetch - main [MainThread]: Store serial: [23391078]
