@@ -24060,3 +24060,52 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-05-27 20:03:06] INFO root fetch - processPackages [linearwavetheory]: Remove: archive file [/home/abi/fetcher/tmp/linearwavetheory-0.0.9.tar.gz]
 [2024-05-27 20:03:06] INFO root fetch - main [MainThread]: End processing [linearwavetheory]: success
 [2024-05-27 20:03:06] INFO root fetch - main [MainThread]: Store serial: [23399568]
+[2024-05-27 20:05:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23399568]
+[2024-05-27 20:05:15] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-27 20:05:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bordersandpoints
+[2024-05-27 20:05:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: class-cache
+[2024-05-27 20:05:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: compas-eve
+[2024-05-27 20:05:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: promptic
+[2024-05-27 20:05:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nuon
+[2024-05-27 20:05:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: promptic
+[2024-05-27 20:05:15] INFO root fetch - processPackages [class-cache]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-27 20:05:15] INFO root fetch - processPackages [promptic]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-27 20:05:15] INFO root fetch - processPackages [promptic]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-27 20:05:15] WARNING root fetch - processPackages [bordersandpoints]: Skipping, unable to determine old version
+[2024-05-27 20:05:15] INFO root fetch - main [MainThread]: End processing [bordersandpoints] error
+[2024-05-27 20:05:15] INFO root fetch - processPackages [class-cache]: Downloading https://files.pythonhosted.org/packages/01/e5/ba3d573a89388ec5a4f168f7ac661f774f252c9ce939bebccdbde204ff79/class_cache-0.2.0.tar.gz
+[2024-05-27 20:05:15] INFO root fetch - processPackages [promptic]: Downloading https://files.pythonhosted.org/packages/f0/6f/8c551d6f51b257e2d24fbefa0a458c24cfad8f6fe555e675e4ff3a467791/promptic-0.1.3.tar.gz
+[2024-05-27 20:05:15] INFO root fetch - processPackages [compas-eve]: New version: [1.0.0] Old Version: [0.5.0]
+[2024-05-27 20:05:15] INFO root fetch - processPackages [promptic]: Downloading https://files.pythonhosted.org/packages/f0/6f/8c551d6f51b257e2d24fbefa0a458c24cfad8f6fe555e675e4ff3a467791/promptic-0.1.3.tar.gz
+[2024-05-27 20:05:15] INFO root fetch - processPackages [nuon]: New version: [0.19.99] Old Version: [0.19.98]
+[2024-05-27 20:05:15] INFO root fetch - processPackages [compas-eve]: Downloading https://files.pythonhosted.org/packages/db/75/fc0de4c75e038e7844a18588ef5c4fcee75b956ad465fcc1df53d83f075f/compas_eve-0.5.0.tar.gz
+[2024-05-27 20:05:15] INFO root fetch - processPackages [nuon]: Downloading https://files.pythonhosted.org/packages/8d/82/73a4a9564f53819f1d2ce0052786b8fbaac8797092a6e5b9ad8368807e5a/nuon-0.19.98.tar.gz
+[2024-05-27 20:05:15] INFO root fetch - processPackages [class-cache]: Downloading https://files.pythonhosted.org/packages/b5/de/7c9d6f8e57459fee5fb47d2bd033ac568ae89115f10a283e1901cc0094f4/class_cache-0.2.1.tar.gz
+[2024-05-27 20:05:15] INFO root fetch - processPackages [promptic]: Downloading https://files.pythonhosted.org/packages/cb/f6/364feab66856e699721766064eb04d25311e11a571227a707d8d6cf7e0ae/promptic-0.1.4.tar.gz
+[2024-05-27 20:05:15] INFO root fetch - processPackages [promptic]: Downloading https://files.pythonhosted.org/packages/cb/f6/364feab66856e699721766064eb04d25311e11a571227a707d8d6cf7e0ae/promptic-0.1.4.tar.gz
+[2024-05-27 20:05:15] INFO root fetch - processPackages [class-cache]: executing diffoscope
+[2024-05-27 20:05:15] INFO root fetch - processPackages [class-cache]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/class_cache-0.2.0.tar.gz tmp/class_cache-0.2.1.tar.gz --markdown 20240527/c/class-cache/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-27 20:05:15] INFO root fetch - processPackages [promptic]: executing diffoscope
+[2024-05-27 20:05:15] INFO root fetch - processPackages [promptic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/promptic-0.1.3.tar.gz tmp/promptic-0.1.4.tar.gz --markdown 20240527/p/promptic/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-27 20:05:15] INFO root fetch - processPackages [promptic]: executing diffoscope
+[2024-05-27 20:05:15] INFO root fetch - processPackages [promptic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/promptic-0.1.3.tar.gz tmp/promptic-0.1.4.tar.gz --markdown 20240527/p/promptic/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-27 20:05:15] INFO root fetch - processPackages [compas-eve]: Downloading https://files.pythonhosted.org/packages/d4/0f/26e979b1687faf6b4790df9ea4ef45d3c9c5693e384034235b63c8b28566/compas_eve-1.0.0.tar.gz
+[2024-05-27 20:05:15] INFO root fetch - processPackages [nuon]: Downloading https://files.pythonhosted.org/packages/2e/32/73fde17d65f51538c324ffecb418e1d8709cd44e594ad86a351bb39fa67f/nuon-0.19.99.tar.gz
+[2024-05-27 20:05:16] INFO root fetch - processPackages [nuon]: executing diffoscope
+[2024-05-27 20:05:16] INFO root fetch - processPackages [nuon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nuon-0.19.98.tar.gz tmp/nuon-0.19.99.tar.gz --markdown 20240527/n/nuon/0.19.98-0.19.99/README.md --exclude *.pyd
+[2024-05-27 20:05:16] INFO root fetch - processPackages [compas-eve]: executing diffoscope
+[2024-05-27 20:05:16] INFO root fetch - processPackages [compas-eve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/compas_eve-0.5.0.tar.gz tmp/compas_eve-1.0.0.tar.gz --markdown 20240527/c/compas-eve/0.5.0-1.0.0/README.md --exclude *.pyd
+[2024-05-27 20:05:16] INFO root fetch - processPackages [class-cache]: Remove: archive file [/home/abi/fetcher/tmp/class_cache-0.2.0.tar.gz]
+[2024-05-27 20:05:16] INFO root fetch - processPackages [class-cache]: Remove: archive file [/home/abi/fetcher/tmp/class_cache-0.2.1.tar.gz]
+[2024-05-27 20:05:16] INFO root fetch - main [MainThread]: End processing [class-cache]: success
+[2024-05-27 20:05:16] INFO root fetch - processPackages [promptic]: Remove: archive file [/home/abi/fetcher/tmp/promptic-0.1.3.tar.gz]
+[2024-05-27 20:05:16] INFO root fetch - processPackages [promptic]: Remove: archive file [/home/abi/fetcher/tmp/promptic-0.1.4.tar.gz]
+[2024-05-27 20:05:16] INFO root fetch - main [MainThread]: End processing [promptic]: success
+[2024-05-27 20:05:16] INFO root fetch - main [MainThread]: End processing [promptic]: success
+[2024-05-27 20:05:16] INFO root fetch - processPackages [compas-eve]: Remove: archive file [/home/abi/fetcher/tmp/compas_eve-0.5.0.tar.gz]
+[2024-05-27 20:05:16] INFO root fetch - processPackages [compas-eve]: Remove: archive file [/home/abi/fetcher/tmp/compas_eve-1.0.0.tar.gz]
+[2024-05-27 20:05:16] INFO root fetch - main [MainThread]: End processing [compas-eve]: success
+[2024-05-27 20:05:18] INFO root fetch - processPackages [nuon]: Remove: archive file [/home/abi/fetcher/tmp/nuon-0.19.98.tar.gz]
+[2024-05-27 20:05:18] INFO root fetch - processPackages [nuon]: Remove: archive file [/home/abi/fetcher/tmp/nuon-0.19.99.tar.gz]
+[2024-05-27 20:05:18] INFO root fetch - main [MainThread]: End processing [nuon]: success
+[2024-05-27 20:05:18] INFO root fetch - main [MainThread]: Store serial: [23399593]
