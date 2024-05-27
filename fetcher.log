@@ -20282,3 +20282,51 @@ EOFError: EOF read where object expected
 [2024-05-27 17:24:16] INFO root fetch - processPackages [odoo-addon-donation]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_donation-16.0.2.0.0-py3-none-any.whl.zip]
 [2024-05-27 17:24:16] INFO root fetch - main [MainThread]: End processing [odoo-addon-donation]: success
 [2024-05-27 17:24:16] INFO root fetch - main [MainThread]: Store serial: [23397632]
+[2024-05-27 17:26:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23397632]
+[2024-05-27 17:26:25] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-27 17:26:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qwak-core
+[2024-05-27 17:26:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hundred-x
+[2024-05-27 17:26:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: google-ads-api-report-fetcher
+[2024-05-27 17:26:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdklabs.generative-ai-cdk-constructs
+[2024-05-27 17:26:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: conifer
+[2024-05-27 17:26:25] INFO root fetch - processPackages [qwak-core]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-05-27 17:26:25] INFO root fetch - processPackages [cdklabs.generative-ai-cdk-constructs]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-05-27 17:26:25] INFO root fetch - processPackages [hundred-x]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-27 17:26:25] INFO root fetch - processPackages [google-ads-api-report-fetcher]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-27 17:26:25] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/40/dc/9bf7a0a11e5d16704620fd9a2d038eee79e38d502983f2c9975412d1053c/qwak_core-0.4.8.tar.gz
+[2024-05-27 17:26:25] INFO root fetch - processPackages [conifer]: New version: [1.5] Old Version: [1.4b1]
+[2024-05-27 17:26:25] INFO root fetch - processPackages [hundred-x]: Downloading https://files.pythonhosted.org/packages/8c/e7/ee610591ff6c98f6a2075f6d733312d4d99b5b97c91cf644b053d105b851/hundred_x-0.1.8.tar.gz
+[2024-05-27 17:26:25] INFO root fetch - processPackages [google-ads-api-report-fetcher]: Downloading https://files.pythonhosted.org/packages/ce/11/b29d095af06b2bfc1cde6fa4989fad36da533b43177d165dfbd90bf0b748/google-ads-api-report-fetcher-1.8.0.tar.gz
+[2024-05-27 17:26:25] INFO root fetch - processPackages [cdklabs.generative-ai-cdk-constructs]: Downloading https://files.pythonhosted.org/packages/79/87/07cb65a8c0c2fc2875a184fdc369cb5cae8af38496f859dbedf1593cf94a/cdklabs.generative-ai-cdk-constructs-0.1.98.tar.gz
+[2024-05-27 17:26:25] INFO root fetch - processPackages [conifer]: Downloading https://files.pythonhosted.org/packages/7a/71/0f499106ec0bf1c392a5529de96388b767de4343d0342d33ba130b51cffb/conifer-1.4b1.tar.gz
+[2024-05-27 17:26:25] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/fe/09/8867573c92d18e200499a583b45f6adb1552d9e721e39370c8aa578b7080/qwak_core-0.4.9.tar.gz
+[2024-05-27 17:26:26] INFO root fetch - processPackages [qwak-core]: executing diffoscope
+[2024-05-27 17:26:26] INFO root fetch - processPackages [qwak-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qwak_core-0.4.8.tar.gz tmp/qwak_core-0.4.9.tar.gz --markdown 20240527/q/qwak-core/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-05-27 17:26:26] INFO root fetch - processPackages [google-ads-api-report-fetcher]: Downloading https://files.pythonhosted.org/packages/3e/04/56bc27d4b7dc33148c26c598b5f008d2528b1e13e0a31acd21f820539747/google-ads-api-report-fetcher-1.9.0.tar.gz
+[2024-05-27 17:26:26] INFO root fetch - processPackages [hundred-x]: Downloading https://files.pythonhosted.org/packages/25/ac/34e103a76e4d1e6ee3cd5e035470df42a5a0d1877f43f38d4413da35691b/hundred_x-0.1.9.tar.gz
+[2024-05-27 17:26:26] INFO root fetch - processPackages [google-ads-api-report-fetcher]: executing diffoscope
+[2024-05-27 17:26:26] INFO root fetch - processPackages [google-ads-api-report-fetcher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-ads-api-report-fetcher-1.8.0.tar.gz tmp/google-ads-api-report-fetcher-1.9.0.tar.gz --markdown 20240527/g/google-ads-api-report-fetcher/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-05-27 17:26:26] INFO root fetch - processPackages [conifer]: Downloading https://files.pythonhosted.org/packages/1a/2d/465046c9b9269cf2ee965b123460b49209f03914743279dd2803528453c1/conifer-1.5.tar.gz
+[2024-05-27 17:26:26] INFO root fetch - processPackages [cdklabs.generative-ai-cdk-constructs]: Downloading https://files.pythonhosted.org/packages/b1/3f/bb620aad2e3c9827bbd2a2a36dc64be1b0084b319f0f120e13690f4f1f17/cdklabs.generative-ai-cdk-constructs-0.1.99.tar.gz
+[2024-05-27 17:26:26] INFO root fetch - processPackages [hundred-x]: executing diffoscope
+[2024-05-27 17:26:26] INFO root fetch - processPackages [hundred-x]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hundred_x-0.1.8.tar.gz tmp/hundred_x-0.1.9.tar.gz --markdown 20240527/h/hundred-x/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-27 17:26:26] INFO root fetch - processPackages [cdklabs.generative-ai-cdk-constructs]: executing diffoscope
+[2024-05-27 17:26:26] INFO root fetch - processPackages [cdklabs.generative-ai-cdk-constructs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.generative-ai-cdk-constructs-0.1.98.tar.gz tmp/cdklabs.generative-ai-cdk-constructs-0.1.99.tar.gz --markdown 20240527/c/cdklabs.generative-ai-cdk-constructs/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-05-27 17:26:26] INFO root fetch - processPackages [hundred-x]: Remove: archive file [/home/abi/fetcher/tmp/hundred_x-0.1.8.tar.gz]
+[2024-05-27 17:26:26] INFO root fetch - processPackages [hundred-x]: Remove: archive file [/home/abi/fetcher/tmp/hundred_x-0.1.9.tar.gz]
+[2024-05-27 17:26:26] INFO root fetch - main [MainThread]: End processing [hundred-x]: success
+[2024-05-27 17:26:26] INFO root fetch - processPackages [google-ads-api-report-fetcher]: Remove: archive file [/home/abi/fetcher/tmp/google-ads-api-report-fetcher-1.8.0.tar.gz]
+[2024-05-27 17:26:26] INFO root fetch - processPackages [google-ads-api-report-fetcher]: Remove: archive file [/home/abi/fetcher/tmp/google-ads-api-report-fetcher-1.9.0.tar.gz]
+[2024-05-27 17:26:26] INFO root fetch - main [MainThread]: End processing [google-ads-api-report-fetcher]: success
+[2024-05-27 17:26:27] INFO root fetch - processPackages [conifer]: executing diffoscope
+[2024-05-27 17:26:27] INFO root fetch - processPackages [conifer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/conifer-1.4b1.tar.gz tmp/conifer-1.5.tar.gz --markdown 20240527/c/conifer/1.4b1-1.5/README.md --exclude *.pyd
+[2024-05-27 17:26:27] INFO root fetch - processPackages [cdklabs.generative-ai-cdk-constructs]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.generative-ai-cdk-constructs-0.1.98.tar.gz]
+[2024-05-27 17:26:27] INFO root fetch - processPackages [cdklabs.generative-ai-cdk-constructs]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.generative-ai-cdk-constructs-0.1.99.tar.gz]
+[2024-05-27 17:26:27] INFO root fetch - main [MainThread]: End processing [cdklabs.generative-ai-cdk-constructs]: success
+[2024-05-27 17:26:27] INFO root fetch - processPackages [conifer]: Remove: archive file [/home/abi/fetcher/tmp/conifer-1.4b1.tar.gz]
+[2024-05-27 17:26:27] INFO root fetch - processPackages [conifer]: Remove: archive file [/home/abi/fetcher/tmp/conifer-1.5.tar.gz]
+[2024-05-27 17:26:27] INFO root fetch - main [MainThread]: End processing [conifer]: success
+[2024-05-27 17:26:28] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.4.8.tar.gz]
+[2024-05-27 17:26:28] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.4.9.tar.gz]
+[2024-05-27 17:26:28] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
+[2024-05-27 17:26:28] INFO root fetch - main [MainThread]: Store serial: [23397655]
