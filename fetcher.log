@@ -21975,3 +21975,96 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-05-27 18:34:58] INFO root fetch - processPackages [kedro]: Remove: archive file [/home/abi/fetcher/tmp/kedro-0.19.6.tar.gz]
 [2024-05-27 18:34:58] INFO root fetch - main [MainThread]: End processing [kedro]: success
 [2024-05-27 18:34:58] INFO root fetch - main [MainThread]: Store serial: [23398421]
+[2024-05-27 18:37:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23398421]
+[2024-05-27 18:37:07] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-27 18:37:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: coqui-tts
+[2024-05-27 18:37:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pycitysim
+[2024-05-27 18:37:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyarcamsolo
+[2024-05-27 18:37:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: FJFormer
+[2024-05-27 18:37:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: django-simple-deploy
+[2024-05-27 18:37:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: quickQrLib
+[2024-05-27 18:37:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: flet-core
+[2024-05-27 18:37:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: flet-runtime
+[2024-05-27 18:37:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: flet-embed
+[2024-05-27 18:37:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: flet
+[2024-05-27 18:37:07] INFO root fetch - processPackages [pyarcamsolo]: New version: [0.1.0] Old Version: [0.0.6]
+[2024-05-27 18:37:07] INFO root fetch - processPackages [pycitysim]: New version: [1.14.0] Old Version: [1.13.0]
+[2024-05-27 18:37:07] INFO root fetch - processPackages [quickQrLib]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-05-27 18:37:07] INFO root fetch - processPackages [coqui-tts]: New version: [0.24.0] Old Version: [0.23.1]
+[2024-05-27 18:37:07] INFO root fetch - processPackages [pycitysim]: Downloading https://files.pythonhosted.org/packages/88/36/6d79070c06dfe63f745eb2a427c0e74ab48824178bdaa6ee72fe4836fc3a/pycitysim-1.13.0.tar.gz
+[2024-05-27 18:37:07] INFO root fetch - processPackages [pyarcamsolo]: Downloading https://files.pythonhosted.org/packages/d9/5b/1a5a2e474441d815370520362cd22ee47fe211e023633ae35f31dc1458f8/pyarcamsolo-0.0.6.tar.gz
+[2024-05-27 18:37:07] INFO root fetch - processPackages [flet-core]: New version: [0.9.0.dev1631] Old Version: [0.9.0.dev1630]
+[2024-05-27 18:37:07] INFO root fetch - processPackages [flet-runtime]: New version: [0.9.0] Old Version: [0.23.0.dev2913]
+[2024-05-27 18:37:07] INFO root fetch - processPackages [django-simple-deploy]: New version: [0.6.2] Old Version: [0.6.1]
+[2024-05-27 18:37:07] INFO root fetch - processPackages [FJFormer]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-27 18:37:07] INFO root fetch - processPackages [quickQrLib]: Downloading https://files.pythonhosted.org/packages/b7/f9/c304427091efbc09dd0026539ff955066a746ef824e2382801b35ea96d7a/quickQrLib-0.2.2.tar.gz
+[2024-05-27 18:37:07] INFO root fetch - processPackages [flet-embed]: New version: [0.9.0] Old Version: [0.23.0.dev2913]
+[2024-05-27 18:37:08] INFO root fetch - processPackages [coqui-tts]: Downloading https://files.pythonhosted.org/packages/00/9b/1207be7edb45797769ecac608e808de2b1730e0266d75980aea0196e8d53/coqui_tts-0.23.1.tar.gz
+[2024-05-27 18:37:08] INFO root fetch - processPackages [flet]: New version: [0.9.0] Old Version: [0.23.0.dev2913]
+[2024-05-27 18:37:08] INFO root fetch - processPackages [flet-runtime]: Downloading https://files.pythonhosted.org/packages/5b/20/e39c51f58518ae43aad9823b68ce68e5fc5d605fb7f5eb121081f1a94847/flet_runtime-0.23.0.dev2913-py3-none-any.whl
+[2024-05-27 18:37:08] INFO root fetch - processPackages [FJFormer]: Downloading https://files.pythonhosted.org/packages/0b/43/850472cfcc60a0b17d735c2f45192f54fa27699e51327cc54c462f338d8b/fjformer-0.0.8.tar.gz
+[2024-05-27 18:37:08] INFO root fetch - processPackages [flet-embed]: Downloading https://files.pythonhosted.org/packages/f9/c8/6268f4e4080b668a2cd65e1d4da5d0ec0088363778136a3313cc0985c1ac/flet_embed-0.23.0.dev2913-py3-none-any.whl
+[2024-05-27 18:37:08] INFO root fetch - processPackages [pycitysim]: Downloading https://files.pythonhosted.org/packages/30/f7/2a652a1c2c88eceea006a619b904952f2064698c876c5cf7e3e0d18cc862/pycitysim-1.14.0.tar.gz
+[2024-05-27 18:37:08] INFO root fetch - processPackages [flet-core]: Downloading https://files.pythonhosted.org/packages/06/78/2b607ba8cf90f09185f6b1de3138bf723d510d19ee11130a68433cce2d20/flet_core-0.9.0.dev1630.tar.gz
+[2024-05-27 18:37:08] INFO root fetch - processPackages [django-simple-deploy]: Downloading https://files.pythonhosted.org/packages/72/5a/293359f0419b9e381ebfb21924a250551678979f092c34328597309f8685/django-simple-deploy-0.6.1.tar.gz
+[2024-05-27 18:37:08] INFO root fetch - processPackages [quickQrLib]: Downloading https://files.pythonhosted.org/packages/4f/c6/28a93422f844fe15ea2064ce15e198d6c57ca5f83a0af9d5eaf24bc0d8e3/quickQrLib-0.2.3.tar.gz
+[2024-05-27 18:37:08] INFO root fetch - processPackages [pyarcamsolo]: Downloading https://files.pythonhosted.org/packages/2f/11/7b9b39826dc68d375936b6f08d3f1be9f98dcbc9a88395ff6fbed5d52b5b/pyarcamsolo-0.1.0.tar.gz
+[2024-05-27 18:37:08] INFO root fetch - processPackages [pycitysim]: executing diffoscope
+[2024-05-27 18:37:08] INFO root fetch - processPackages [pycitysim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycitysim-1.13.0.tar.gz tmp/pycitysim-1.14.0.tar.gz --markdown 20240527/p/pycitysim/1.13.0-1.14.0/README.md --exclude *.pyd
+[2024-05-27 18:37:08] INFO root fetch - processPackages [flet]: Downloading https://files.pythonhosted.org/packages/d7/40/c27a6a5af1a8dda7754263ad7ffaaacf323d289c01774d0c551086323200/flet-0.23.0.dev2913-py3-none-manylinux_2_17_armv7l.manylinux2014_armv7l.whl
+[2024-05-27 18:37:08] INFO root fetch - processPackages [pyarcamsolo]: executing diffoscope
+[2024-05-27 18:37:08] INFO root fetch - processPackages [pyarcamsolo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyarcamsolo-0.0.6.tar.gz tmp/pyarcamsolo-0.1.0.tar.gz --markdown 20240527/p/pyarcamsolo/0.0.6-0.1.0/README.md --exclude *.pyd
+[2024-05-27 18:37:08] INFO root fetch - processPackages [quickQrLib]: executing diffoscope
+[2024-05-27 18:37:08] INFO root fetch - processPackages [quickQrLib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickQrLib-0.2.2.tar.gz tmp/quickQrLib-0.2.3.tar.gz --markdown 20240527/q/quickQrLib/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-05-27 18:37:08] INFO root fetch - processPackages [coqui-tts]: Downloading https://files.pythonhosted.org/packages/96/8e/f54932ee4278a9be4e7287ead723d6b5612b4a56203d9331836b15750621/coqui_tts-0.24.0.tar.gz
+[2024-05-27 18:37:08] INFO root fetch - processPackages [FJFormer]: Downloading https://files.pythonhosted.org/packages/8f/ec/c16449606954b352deeb85b070a59df2b7f8672cf157269ebbf120b62e62/fjformer-0.0.9.tar.gz
+[2024-05-27 18:37:08] INFO root fetch - processPackages [flet-embed]: Downloading https://files.pythonhosted.org/packages/81/7e/d8933b7cb514fb7fd415c9368e2a55ab10465ad0c1277670abc72164e31b/flet_embed-0.9.0.tar.gz
+[2024-05-27 18:37:08] INFO root fetch - processPackages [flet-runtime]: Downloading https://files.pythonhosted.org/packages/7d/21/4486f082fce6b7ee7174ae6b6c9bd62faeeb1cf712e65ccbd42d2a02b641/flet_runtime-0.9.0.tar.gz
+[2024-05-27 18:37:08] INFO root fetch - processPackages [flet-core]: Downloading https://files.pythonhosted.org/packages/4f/c9/c2705045754a5e96e2a0e04c30f12e30cc27d1e60b1fb83e686da4c0a8e6/flet_core-0.9.0.dev1631.tar.gz
+[2024-05-27 18:37:08] INFO root fetch - processPackages [django-simple-deploy]: Downloading https://files.pythonhosted.org/packages/93/8e/4a59cafc2a56727ee10d79e149822d02ea0faa5fb792243893d5db5c98e1/django_simple_deploy-0.6.2.tar.gz
+[2024-05-27 18:37:08] INFO root fetch - processPackages [flet-runtime]: executing diffoscope
+[2024-05-27 18:37:08] INFO root fetch - processPackages [flet-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet_runtime-0.23.0.dev2913-py3-none-any.whl.zip tmp/flet_runtime-0.9.0.tar.gz --markdown 20240527/f/flet-runtime/0.23.0.dev2913-0.9.0/README.md --exclude *.pyd
+[2024-05-27 18:37:08] INFO root fetch - processPackages [flet-embed]: executing diffoscope
+[2024-05-27 18:37:08] INFO root fetch - processPackages [flet-embed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet_embed-0.23.0.dev2913-py3-none-any.whl.zip tmp/flet_embed-0.9.0.tar.gz --markdown 20240527/f/flet-embed/0.23.0.dev2913-0.9.0/README.md --exclude *.pyd
+[2024-05-27 18:37:08] INFO root fetch - processPackages [FJFormer]: executing diffoscope
+[2024-05-27 18:37:08] INFO root fetch - processPackages [FJFormer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fjformer-0.0.8.tar.gz tmp/fjformer-0.0.9.tar.gz --markdown 20240527/F/FJFormer/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-27 18:37:08] INFO root fetch - processPackages [coqui-tts]: executing diffoscope
+[2024-05-27 18:37:08] INFO root fetch - processPackages [coqui-tts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coqui_tts-0.23.1.tar.gz tmp/coqui_tts-0.24.0.tar.gz --markdown 20240527/c/coqui-tts/0.23.1-0.24.0/README.md --exclude *.pyd
+[2024-05-27 18:37:08] INFO root fetch - processPackages [flet-core]: executing diffoscope
+[2024-05-27 18:37:08] INFO root fetch - processPackages [flet-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet_core-0.9.0.dev1630.tar.gz tmp/flet_core-0.9.0.dev1631.tar.gz --markdown 20240527/f/flet-core/0.9.0.dev1630-0.9.0.dev1631/README.md --exclude *.pyd
+[2024-05-27 18:37:08] INFO root fetch - processPackages [django-simple-deploy]: executing diffoscope
+[2024-05-27 18:37:08] INFO root fetch - processPackages [django-simple-deploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-simple-deploy-0.6.1.tar.gz tmp/django_simple_deploy-0.6.2.tar.gz --markdown 20240527/d/django-simple-deploy/0.6.1-0.6.2/README.md --exclude *.pyd
+[2024-05-27 18:37:09] INFO root fetch - processPackages [pyarcamsolo]: Remove: archive file [/home/abi/fetcher/tmp/pyarcamsolo-0.0.6.tar.gz]
+[2024-05-27 18:37:09] INFO root fetch - processPackages [pyarcamsolo]: Remove: archive file [/home/abi/fetcher/tmp/pyarcamsolo-0.1.0.tar.gz]
+[2024-05-27 18:37:09] INFO root fetch - main [MainThread]: End processing [pyarcamsolo]: success
+[2024-05-27 18:37:09] INFO root fetch - processPackages [pycitysim]: Remove: archive file [/home/abi/fetcher/tmp/pycitysim-1.13.0.tar.gz]
+[2024-05-27 18:37:09] INFO root fetch - processPackages [pycitysim]: Remove: archive file [/home/abi/fetcher/tmp/pycitysim-1.14.0.tar.gz]
+[2024-05-27 18:37:09] INFO root fetch - main [MainThread]: End processing [pycitysim]: success
+[2024-05-27 18:37:09] INFO root fetch - processPackages [quickQrLib]: Remove: archive file [/home/abi/fetcher/tmp/quickQrLib-0.2.2.tar.gz]
+[2024-05-27 18:37:09] INFO root fetch - processPackages [quickQrLib]: Remove: archive file [/home/abi/fetcher/tmp/quickQrLib-0.2.3.tar.gz]
+[2024-05-27 18:37:09] INFO root fetch - main [MainThread]: End processing [quickQrLib]: success
+[2024-05-27 18:37:09] INFO root fetch - processPackages [flet-embed]: Remove: archive file [/home/abi/fetcher/tmp/flet_embed-0.23.0.dev2913-py3-none-any.whl.zip]
+[2024-05-27 18:37:09] INFO root fetch - processPackages [flet-embed]: Remove: archive file [/home/abi/fetcher/tmp/flet_embed-0.9.0.tar.gz]
+[2024-05-27 18:37:09] INFO root fetch - main [MainThread]: End processing [flet-embed]: success
+[2024-05-27 18:37:09] INFO root fetch - processPackages [flet-runtime]: Remove: archive file [/home/abi/fetcher/tmp/flet_runtime-0.23.0.dev2913-py3-none-any.whl.zip]
+[2024-05-27 18:37:09] INFO root fetch - processPackages [flet-runtime]: Remove: archive file [/home/abi/fetcher/tmp/flet_runtime-0.9.0.tar.gz]
+[2024-05-27 18:37:09] INFO root fetch - main [MainThread]: End processing [flet-runtime]: success
+[2024-05-27 18:37:09] INFO root fetch - processPackages [FJFormer]: Remove: archive file [/home/abi/fetcher/tmp/fjformer-0.0.8.tar.gz]
+[2024-05-27 18:37:09] INFO root fetch - processPackages [FJFormer]: Remove: archive file [/home/abi/fetcher/tmp/fjformer-0.0.9.tar.gz]
+[2024-05-27 18:37:09] INFO root fetch - main [MainThread]: End processing [FJFormer]: success
+[2024-05-27 18:37:09] INFO root fetch - processPackages [django-simple-deploy]: Remove: archive file [/home/abi/fetcher/tmp/django-simple-deploy-0.6.1.tar.gz]
+[2024-05-27 18:37:09] INFO root fetch - processPackages [django-simple-deploy]: Remove: archive file [/home/abi/fetcher/tmp/django_simple_deploy-0.6.2.tar.gz]
+[2024-05-27 18:37:09] INFO root fetch - main [MainThread]: End processing [django-simple-deploy]: success
+[2024-05-27 18:37:10] INFO root fetch - processPackages [flet-core]: Remove: archive file [/home/abi/fetcher/tmp/flet_core-0.9.0.dev1630.tar.gz]
+[2024-05-27 18:37:10] INFO root fetch - processPackages [flet-core]: Remove: archive file [/home/abi/fetcher/tmp/flet_core-0.9.0.dev1631.tar.gz]
+[2024-05-27 18:37:10] INFO root fetch - main [MainThread]: End processing [flet-core]: success
+[2024-05-27 18:37:10] INFO root fetch - processPackages [coqui-tts]: Remove: archive file [/home/abi/fetcher/tmp/coqui_tts-0.23.1.tar.gz]
+[2024-05-27 18:37:10] INFO root fetch - processPackages [coqui-tts]: Remove: archive file [/home/abi/fetcher/tmp/coqui_tts-0.24.0.tar.gz]
+[2024-05-27 18:37:10] INFO root fetch - main [MainThread]: End processing [coqui-tts]: success
+[2024-05-27 18:37:11] INFO root fetch - processPackages [flet]: Downloading https://files.pythonhosted.org/packages/70/f1/c96f61c9817584ef31d84401520cb5d02e9b320f79d8aff85ba005ca6132/flet-0.9.0.tar.gz
+[2024-05-27 18:37:12] INFO root fetch - processPackages [flet]: executing diffoscope
+[2024-05-27 18:37:12] INFO root fetch - processPackages [flet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet-0.23.0.dev2913-py3-none-manylinux_2_17_armv7l.manylinux2014_armv7l.whl.zip tmp/flet-0.9.0.tar.gz --markdown 20240527/f/flet/0.23.0.dev2913-0.9.0/README.md --exclude *.pyd
+[2024-05-27 18:37:15] INFO root fetch - processPackages [flet]: Remove: archive file [/home/abi/fetcher/tmp/flet-0.23.0.dev2913-py3-none-manylinux_2_17_armv7l.manylinux2014_armv7l.whl.zip]
+[2024-05-27 18:37:15] INFO root fetch - processPackages [flet]: Remove: archive file [/home/abi/fetcher/tmp/flet-0.9.0.tar.gz]
+[2024-05-27 18:37:15] INFO root fetch - main [MainThread]: End processing [flet]: success
+[2024-05-27 18:37:15] INFO root fetch - main [MainThread]: Store serial: [23398463]
