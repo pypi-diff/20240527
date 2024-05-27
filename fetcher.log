@@ -12225,3 +12225,24 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 12:17:33] INFO root fetch - processPackages [openhexa.sdk]: Remove: archive file [/home/abi/fetcher/tmp/openhexa.sdk-0.1.9.tar.gz]
 [2024-05-27 12:17:33] INFO root fetch - main [MainThread]: End processing [openhexa.sdk]: success
 [2024-05-27 12:17:33] INFO root fetch - main [MainThread]: Store serial: [23393913]
+[2024-05-27 12:19:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23393913]
+[2024-05-27 12:19:42] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-27 12:19:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pydantic-scim2
+[2024-05-27 12:19:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: twitch-archiver
+[2024-05-27 12:19:42] INFO root fetch - processPackages [twitch-archiver]: New version: [4.0.9] Old Version: [4.0.8]
+[2024-05-27 12:19:42] INFO root fetch - processPackages [pydantic-scim2]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-05-27 12:19:42] INFO root fetch - processPackages [pydantic-scim2]: Downloading https://files.pythonhosted.org/packages/3c/21/79c2e280905c79abef0acae377fe12f5975542460fcc52fc1c873a304073/pydantic_scim2-0.1.0.tar.gz
+[2024-05-27 12:19:42] INFO root fetch - processPackages [twitch-archiver]: Downloading https://files.pythonhosted.org/packages/a3/2f/1b9422342fcf89544ca9b0f7661c3e7f9933b84bd6e997de47295c20ca85/twitch_archiver-4.0.8.tar.gz
+[2024-05-27 12:19:43] INFO root fetch - processPackages [pydantic-scim2]: Downloading https://files.pythonhosted.org/packages/c3/be/10b56f08bddfe3325cfc5422be9c843cd5b4320b6c2dd2aa81d1f5262c74/pydantic_scim2-0.2.0.tar.gz
+[2024-05-27 12:19:43] INFO root fetch - processPackages [twitch-archiver]: Downloading https://files.pythonhosted.org/packages/9d/b9/727acc132b5e6604064c488865e52a4b7a78bf7fa659d07f5397005fc1ef/twitch_archiver-4.0.9.tar.gz
+[2024-05-27 12:19:43] INFO root fetch - processPackages [pydantic-scim2]: executing diffoscope
+[2024-05-27 12:19:43] INFO root fetch - processPackages [pydantic-scim2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydantic_scim2-0.1.0.tar.gz tmp/pydantic_scim2-0.2.0.tar.gz --markdown 20240527/p/pydantic-scim2/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-05-27 12:19:43] INFO root fetch - processPackages [twitch-archiver]: executing diffoscope
+[2024-05-27 12:19:43] INFO root fetch - processPackages [twitch-archiver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twitch_archiver-4.0.8.tar.gz tmp/twitch_archiver-4.0.9.tar.gz --markdown 20240527/t/twitch-archiver/4.0.8-4.0.9/README.md --exclude *.pyd
+[2024-05-27 12:19:43] INFO root fetch - processPackages [pydantic-scim2]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_scim2-0.1.0.tar.gz]
+[2024-05-27 12:19:43] INFO root fetch - processPackages [pydantic-scim2]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_scim2-0.2.0.tar.gz]
+[2024-05-27 12:19:43] INFO root fetch - main [MainThread]: End processing [pydantic-scim2]: success
+[2024-05-27 12:19:44] INFO root fetch - processPackages [twitch-archiver]: Remove: archive file [/home/abi/fetcher/tmp/twitch_archiver-4.0.8.tar.gz]
+[2024-05-27 12:19:44] INFO root fetch - processPackages [twitch-archiver]: Remove: archive file [/home/abi/fetcher/tmp/twitch_archiver-4.0.9.tar.gz]
+[2024-05-27 12:19:44] INFO root fetch - main [MainThread]: End processing [twitch-archiver]: success
+[2024-05-27 12:19:44] INFO root fetch - main [MainThread]: Store serial: [23393919]
