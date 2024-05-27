@@ -21843,3 +21843,90 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-05-27 18:27:57] INFO root fetch - processPackages [chainlit]: Remove: archive file [/home/abi/fetcher/tmp/chainlit-1.1.202.tar.gz]
 [2024-05-27 18:27:57] INFO root fetch - main [MainThread]: End processing [chainlit]: success
 [2024-05-27 18:27:57] INFO root fetch - main [MainThread]: Store serial: [23398293]
+[2024-05-27 18:30:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23398293]
+[2024-05-27 18:30:08] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-27 18:30:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fancykimai
+[2024-05-27 18:30:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: FlaskFarm
+[2024-05-27 18:30:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: quickQrLib
+[2024-05-27 18:30:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: suzieq
+[2024-05-27 18:30:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: short-transformers
+[2024-05-27 18:30:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pystreed
+[2024-05-27 18:30:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: assisted-service-client
+[2024-05-27 18:30:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: airbyte-source-instagram
+[2024-05-27 18:30:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: arbitro-typing
+[2024-05-27 18:30:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: hxr
+[2024-05-27 18:30:09] INFO root fetch - processPackages [quickQrLib]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-05-27 18:30:09] INFO root fetch - processPackages [fancykimai]: New version: [0.1.2] Old Version: [0.1.0]
+[2024-05-27 18:30:09] INFO root fetch - processPackages [FlaskFarm]: New version: [4.0.108] Old Version: [4.0.107]
+[2024-05-27 18:30:09] INFO root fetch - processPackages [assisted-service-client]: New version: [2.9.0.post9] Old Version: [2.9.0.post8]
+[2024-05-27 18:30:09] WARNING root fetch - processPackages [hxr]: Skipping, unable to determine old version
+[2024-05-27 18:30:09] INFO root fetch - main [MainThread]: End processing [hxr] error
+[2024-05-27 18:30:09] INFO root fetch - processPackages [fancykimai]: Downloading https://files.pythonhosted.org/packages/58/90/a9953e61a29f3be54a9a3c9d8d8996cecca06fd93605d604cec22b476167/fancykimai-0.1.0.tar.gz
+[2024-05-27 18:30:09] INFO root fetch - processPackages [FlaskFarm]: Downloading https://files.pythonhosted.org/packages/2b/1f/c09e3ba0678a663c9a089e1dce7e71ba7fef7ff8bda8532665ccd31af13e/FlaskFarm-4.0.107.tar.gz
+[2024-05-27 18:30:09] INFO root fetch - processPackages [quickQrLib]: Downloading https://files.pythonhosted.org/packages/b7/f9/c304427091efbc09dd0026539ff955066a746ef824e2382801b35ea96d7a/quickQrLib-0.2.2.tar.gz
+[2024-05-27 18:30:09] INFO root fetch - processPackages [arbitro-typing]: New version: [1.2.0] Old Version: [1.1.0]
+[2024-05-27 18:30:09] INFO root fetch - processPackages [airbyte-source-instagram]: New version: [3.0.9] Old Version: [3.0.8]
+[2024-05-27 18:30:09] INFO root fetch - processPackages [short-transformers]: New version: [1.0.0] Old Version: [0.4.0]
+[2024-05-27 18:30:09] INFO root fetch - processPackages [suzieq]: New version: [0.8.0] Old Version: [0.23.0]
+[2024-05-27 18:30:09] INFO root fetch - processPackages [pystreed]: New version: [1.3.0] Old Version: [1.2.3]
+[2024-05-27 18:30:09] INFO root fetch - processPackages [assisted-service-client]: Downloading https://files.pythonhosted.org/packages/a5/ee/a5837c5427b0689f863021f5d65c42ff9d4ae267905a751492653198b2dc/assisted_service_client-2.9.0.post8-py3-none-any.whl
+[2024-05-27 18:30:09] INFO root fetch - processPackages [short-transformers]: Downloading https://files.pythonhosted.org/packages/fc/67/aa3fbad4f40915b311809a3d3b88f686be6a27701790f930762c5d64d80c/short_transformers-0.4.0.tar.gz
+[2024-05-27 18:30:09] INFO root fetch - processPackages [fancykimai]: Downloading https://files.pythonhosted.org/packages/73/a5/d39e778751ca69392abb89b8b3c00451440039df463c325132c1f5a50516/fancykimai-0.1.2.tar.gz
+[2024-05-27 18:30:09] INFO root fetch - processPackages [suzieq]: Downloading https://files.pythonhosted.org/packages/0b/e3/691794c2799843eae4df8daba526b48e47de9386aad627c0a934085b3831/suzieq-0.23.0.tar.gz
+[2024-05-27 18:30:09] INFO root fetch - processPackages [quickQrLib]: Downloading https://files.pythonhosted.org/packages/4f/c6/28a93422f844fe15ea2064ce15e198d6c57ca5f83a0af9d5eaf24bc0d8e3/quickQrLib-0.2.3.tar.gz
+[2024-05-27 18:30:09] INFO root fetch - processPackages [airbyte-source-instagram]: Downloading https://files.pythonhosted.org/packages/2b/29/f7ce29cc0a13e5202bd63fd09d031f8e5d1fb3709ba859552c0ef0ed0ac9/airbyte_source_instagram-3.0.8.tar.gz
+[2024-05-27 18:30:09] INFO root fetch - processPackages [arbitro-typing]: Downloading https://files.pythonhosted.org/packages/76/18/7ec07a424fdce93e38cdf7695b50367671886a3f4e5bc1aac70751e602b4/arbitro_typing-1.1.0.tar.gz
+[2024-05-27 18:30:09] INFO root fetch - processPackages [pystreed]: Downloading https://files.pythonhosted.org/packages/2e/31/33fa3d96c3d12865cea932369e19aed2ad2b93135beb4e7fdac920a46bd6/pystreed-1.2.3.tar.gz
+[2024-05-27 18:30:09] INFO root fetch - processPackages [assisted-service-client]: Downloading https://files.pythonhosted.org/packages/f6/90/2599b3c134ea21c06d22f83dd1dfac6801d974b9aa0958f008fb332e5b4d/assisted_service_client-2.9.0.post9-py3-none-any.whl
+[2024-05-27 18:30:09] INFO root fetch - processPackages [FlaskFarm]: Downloading https://files.pythonhosted.org/packages/92/cd/38581b19ad3d33b48f2b123e0c1262f49d3c097e005b70084701923a8077/FlaskFarm-4.0.108.tar.gz
+[2024-05-27 18:30:09] INFO root fetch - processPackages [fancykimai]: executing diffoscope
+[2024-05-27 18:30:09] INFO root fetch - processPackages [fancykimai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fancykimai-0.1.0.tar.gz tmp/fancykimai-0.1.2.tar.gz --markdown 20240527/f/fancykimai/0.1.0-0.1.2/README.md --exclude *.pyd
+[2024-05-27 18:30:09] INFO root fetch - processPackages [quickQrLib]: executing diffoscope
+[2024-05-27 18:30:09] INFO root fetch - processPackages [quickQrLib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickQrLib-0.2.2.tar.gz tmp/quickQrLib-0.2.3.tar.gz --markdown 20240527/q/quickQrLib/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-05-27 18:30:09] INFO root fetch - processPackages [assisted-service-client]: executing diffoscope
+[2024-05-27 18:30:09] INFO root fetch - processPackages [assisted-service-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip --markdown 20240527/a/assisted-service-client/2.9.0.post8-2.9.0.post9/README.md --exclude *.pyd
+[2024-05-27 18:30:09] INFO root fetch - processPackages [airbyte-source-instagram]: Downloading https://files.pythonhosted.org/packages/cd/4a/b95bf8a267f3ff1761f0c405c5ecfe9e3d6a7ffc21a388bf61243e21f7b7/airbyte_source_instagram-3.0.9-py3-none-any.whl
+[2024-05-27 18:30:09] INFO root fetch - processPackages [suzieq]: Downloading https://files.pythonhosted.org/packages/5d/81/700f6c41a76269bbb239577f64d2ac2a13222d599e881a6c215144d48e27/suzieq-0.8.0.tar.gz
+[2024-05-27 18:30:09] INFO root fetch - processPackages [short-transformers]: Downloading https://files.pythonhosted.org/packages/83/a3/e861a56f66990aac735066eb31c0a0ac3f79108e0d753b6f139d5e0f38c0/short_transformers-1.0.0.tar.gz
+[2024-05-27 18:30:09] INFO root fetch - processPackages [FlaskFarm]: executing diffoscope
+[2024-05-27 18:30:09] INFO root fetch - processPackages [FlaskFarm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FlaskFarm-4.0.107.tar.gz tmp/FlaskFarm-4.0.108.tar.gz --markdown 20240527/F/FlaskFarm/4.0.107-4.0.108/README.md --exclude *.pyd
+[2024-05-27 18:30:09] INFO root fetch - processPackages [arbitro-typing]: Downloading https://files.pythonhosted.org/packages/eb/ee/918597f196b37555d5bda7e48b3c241a5342710383c199504cf15f92b1b0/arbitro_typing-1.2.0.tar.gz
+[2024-05-27 18:30:10] INFO root fetch - processPackages [short-transformers]: executing diffoscope
+[2024-05-27 18:30:10] INFO root fetch - processPackages [short-transformers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/short_transformers-0.4.0.tar.gz tmp/short_transformers-1.0.0.tar.gz --markdown 20240527/s/short-transformers/0.4.0-1.0.0/README.md --exclude *.pyd
+[2024-05-27 18:30:10] INFO root fetch - processPackages [suzieq]: executing diffoscope
+[2024-05-27 18:30:10] INFO root fetch - processPackages [suzieq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/suzieq-0.23.0.tar.gz tmp/suzieq-0.8.0.tar.gz --markdown 20240527/s/suzieq/0.23.0-0.8.0/README.md --exclude *.pyd
+[2024-05-27 18:30:10] INFO root fetch - processPackages [airbyte-source-instagram]: executing diffoscope
+[2024-05-27 18:30:10] INFO root fetch - processPackages [airbyte-source-instagram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte_source_instagram-3.0.8.tar.gz tmp/airbyte_source_instagram-3.0.9-py3-none-any.whl.zip --markdown 20240527/a/airbyte-source-instagram/3.0.8-3.0.9/README.md --exclude *.pyd
+[2024-05-27 18:30:10] INFO root fetch - processPackages [pystreed]: Downloading https://files.pythonhosted.org/packages/fa/98/46966c711e4e4e22d02f028cdd88f4f87e8d15389b00fe74bbce0fdae7ce/pystreed-1.3.0.tar.gz
+[2024-05-27 18:30:10] INFO root fetch - processPackages [arbitro-typing]: executing diffoscope
+[2024-05-27 18:30:10] INFO root fetch - processPackages [arbitro-typing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arbitro_typing-1.1.0.tar.gz tmp/arbitro_typing-1.2.0.tar.gz --markdown 20240527/a/arbitro-typing/1.1.0-1.2.0/README.md --exclude *.pyd
+[2024-05-27 18:30:10] INFO root fetch - processPackages [fancykimai]: Remove: archive file [/home/abi/fetcher/tmp/fancykimai-0.1.0.tar.gz]
+[2024-05-27 18:30:10] INFO root fetch - processPackages [fancykimai]: Remove: archive file [/home/abi/fetcher/tmp/fancykimai-0.1.2.tar.gz]
+[2024-05-27 18:30:10] INFO root fetch - main [MainThread]: End processing [fancykimai]: success
+[2024-05-27 18:30:10] INFO root fetch - processPackages [pystreed]: executing diffoscope
+[2024-05-27 18:30:10] INFO root fetch - processPackages [pystreed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pystreed-1.2.3.tar.gz tmp/pystreed-1.3.0.tar.gz --markdown 20240527/p/pystreed/1.2.3-1.3.0/README.md --exclude *.pyd
+[2024-05-27 18:30:10] INFO root fetch - processPackages [quickQrLib]: Remove: archive file [/home/abi/fetcher/tmp/quickQrLib-0.2.2.tar.gz]
+[2024-05-27 18:30:10] INFO root fetch - processPackages [quickQrLib]: Remove: archive file [/home/abi/fetcher/tmp/quickQrLib-0.2.3.tar.gz]
+[2024-05-27 18:30:10] INFO root fetch - main [MainThread]: End processing [quickQrLib]: success
+[2024-05-27 18:30:10] INFO root fetch - processPackages [airbyte-source-instagram]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_instagram-3.0.8.tar.gz]
+[2024-05-27 18:30:10] INFO root fetch - processPackages [airbyte-source-instagram]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_instagram-3.0.9-py3-none-any.whl.zip]
+[2024-05-27 18:30:10] INFO root fetch - main [MainThread]: End processing [airbyte-source-instagram]: success
+[2024-05-27 18:30:10] INFO root fetch - processPackages [short-transformers]: Remove: archive file [/home/abi/fetcher/tmp/short_transformers-0.4.0.tar.gz]
+[2024-05-27 18:30:10] INFO root fetch - processPackages [short-transformers]: Remove: archive file [/home/abi/fetcher/tmp/short_transformers-1.0.0.tar.gz]
+[2024-05-27 18:30:10] INFO root fetch - main [MainThread]: End processing [short-transformers]: success
+[2024-05-27 18:30:11] INFO root fetch - processPackages [arbitro-typing]: Remove: archive file [/home/abi/fetcher/tmp/arbitro_typing-1.1.0.tar.gz]
+[2024-05-27 18:30:11] INFO root fetch - processPackages [arbitro-typing]: Remove: archive file [/home/abi/fetcher/tmp/arbitro_typing-1.2.0.tar.gz]
+[2024-05-27 18:30:11] INFO root fetch - main [MainThread]: End processing [arbitro-typing]: success
+[2024-05-27 18:30:11] INFO root fetch - processPackages [suzieq]: Remove: archive file [/home/abi/fetcher/tmp/suzieq-0.23.0.tar.gz]
+[2024-05-27 18:30:11] INFO root fetch - processPackages [suzieq]: Remove: archive file [/home/abi/fetcher/tmp/suzieq-0.8.0.tar.gz]
+[2024-05-27 18:30:11] INFO root fetch - main [MainThread]: End processing [suzieq]: success
+[2024-05-27 18:30:11] INFO root fetch - processPackages [pystreed]: Remove: archive file [/home/abi/fetcher/tmp/pystreed-1.2.3.tar.gz]
+[2024-05-27 18:30:11] INFO root fetch - processPackages [pystreed]: Remove: archive file [/home/abi/fetcher/tmp/pystreed-1.3.0.tar.gz]
+[2024-05-27 18:30:11] INFO root fetch - main [MainThread]: End processing [pystreed]: success
+[2024-05-27 18:30:11] INFO root fetch - processPackages [assisted-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip]
+[2024-05-27 18:30:11] INFO root fetch - processPackages [assisted-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip]
+[2024-05-27 18:30:11] INFO root fetch - main [MainThread]: End processing [assisted-service-client]: success
+[2024-05-27 18:30:22] INFO root fetch - processPackages [FlaskFarm]: Remove: archive file [/home/abi/fetcher/tmp/FlaskFarm-4.0.107.tar.gz]
+[2024-05-27 18:30:22] INFO root fetch - processPackages [FlaskFarm]: Remove: archive file [/home/abi/fetcher/tmp/FlaskFarm-4.0.108.tar.gz]
+[2024-05-27 18:30:22] INFO root fetch - main [MainThread]: End processing [FlaskFarm]: success
+[2024-05-27 18:30:22] INFO root fetch - main [MainThread]: Store serial: [23398374]
