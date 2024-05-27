@@ -13247,3 +13247,66 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 12:57:19] INFO root fetch - processPackages [django-debug-toolbar]: Remove: archive file [/home/abi/fetcher/tmp/django_debug_toolbar-4.4.1.tar.gz]
 [2024-05-27 12:57:19] INFO root fetch - main [MainThread]: End processing [django-debug-toolbar]: success
 [2024-05-27 12:57:19] INFO root fetch - main [MainThread]: Store serial: [23394374]
+[2024-05-27 12:59:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23394374]
+[2024-05-27 12:59:28] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-27 12:59:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-debug-toolbar
+[2024-05-27 12:59:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: datasiphon
+[2024-05-27 12:59:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: astro-extras
+[2024-05-27 12:59:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: shellmarkets
+[2024-05-27 12:59:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: metabotk
+[2024-05-27 12:59:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aioshutil
+[2024-05-27 12:59:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bstblue
+[2024-05-27 12:59:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: card-management-sdk
+[2024-05-27 12:59:28] INFO root fetch - processPackages [datasiphon]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-27 12:59:28] WARNING root fetch - processPackages [shellmarkets]: Skipping, unable to determine old version
+[2024-05-27 12:59:28] INFO root fetch - main [MainThread]: End processing [shellmarkets] error
+[2024-05-27 12:59:28] INFO root fetch - processPackages [datasiphon]: Downloading https://files.pythonhosted.org/packages/61/f1/549b7cde0fc5e75d3473d71db0df1c8c7484090e715a58003c73bc130ba5/datasiphon-0.2.8.tar.gz
+[2024-05-27 12:59:28] INFO root fetch - processPackages [django-debug-toolbar]: New version: [4.4.2] Old Version: [4.4.1]
+[2024-05-27 12:59:28] INFO root fetch - processPackages [metabotk]: New version: [0.1.37] Old Version: [0.1.36]
+[2024-05-27 12:59:28] INFO root fetch - processPackages [aioshutil]: New version: [1.4] Old Version: [1.3]
+[2024-05-27 12:59:28] INFO root fetch - processPackages [bstblue]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-27 12:59:28] INFO root fetch - processPackages [astro-extras]: New version: [0.1.5.1] Old Version: [0.1.5]
+[2024-05-27 12:59:28] WARNING root fetch - processPackages [card-management-sdk]: Skipping, unable to determine old version
+[2024-05-27 12:59:28] INFO root fetch - main [MainThread]: End processing [card-management-sdk] error
+[2024-05-27 12:59:28] INFO root fetch - processPackages [django-debug-toolbar]: Downloading https://files.pythonhosted.org/packages/63/70/d7f951984f58c3de1b4e4f5d35fdb2e57e374e4a5c9d1ef95dd889d1c8a5/django_debug_toolbar-4.4.1.tar.gz
+[2024-05-27 12:59:28] INFO root fetch - processPackages [metabotk]: Downloading https://files.pythonhosted.org/packages/21/6d/539cc3f762475afa0f75c206f898352d58939034b5afc8596013107a002d/metabotk-0.1.36.tar.gz
+[2024-05-27 12:59:28] INFO root fetch - processPackages [aioshutil]: Downloading https://files.pythonhosted.org/packages/49/b8/c1d4588d5c20a3e1d0f85f2cc0ad5d864c3a4d17d2120049e4a345cd07df/aioshutil-1.3.tar.gz
+[2024-05-27 12:59:28] INFO root fetch - processPackages [astro-extras]: Downloading https://files.pythonhosted.org/packages/56/b7/f7fc057752585dff221ddfecc79e0da2bf97f00f06f9d45e446e61862180/astro_extras-0.1.5.tar.gz
+[2024-05-27 12:59:28] INFO root fetch - processPackages [bstblue]: Downloading https://files.pythonhosted.org/packages/17/d9/9925969afe84c56c1135e3e7f7b157ec58a03376ca9bcf67974ce1bad1f7/bstblue-0.1.0.tar.gz
+[2024-05-27 12:59:28] INFO root fetch - processPackages [datasiphon]: Downloading https://files.pythonhosted.org/packages/6b/ee/b324ebe1616d3f9bb712f432e900c6569729aa3575cc7c6c687e3843930c/datasiphon-0.2.9.tar.gz
+[2024-05-27 12:59:28] INFO root fetch - processPackages [django-debug-toolbar]: Downloading https://files.pythonhosted.org/packages/b8/f0/eaebe83568e7ba9537139d4bde978fa25173226cd30743585e48f5b8e6d6/django_debug_toolbar-4.4.2.tar.gz
+[2024-05-27 12:59:28] INFO root fetch - processPackages [datasiphon]: executing diffoscope
+[2024-05-27 12:59:28] INFO root fetch - processPackages [datasiphon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datasiphon-0.2.8.tar.gz tmp/datasiphon-0.2.9.tar.gz --markdown 20240527/d/datasiphon/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-27 12:59:29] INFO root fetch - processPackages [astro-extras]: Downloading https://files.pythonhosted.org/packages/1a/d3/0654047343aa5e23da61a906c0f0f17f6d2568531bd4916b86a768b5005b/astro_extras-0.1.5.1.tar.gz
+[2024-05-27 12:59:29] INFO root fetch - processPackages [aioshutil]: Downloading https://files.pythonhosted.org/packages/00/e9/f841e5147f34719a90eebc4ea2cb4af27572cc0f8f9c52ed94cbf8275790/aioshutil-1.4.tar.gz
+[2024-05-27 12:59:29] INFO root fetch - processPackages [bstblue]: Downloading https://files.pythonhosted.org/packages/b5/00/8357a51d7a930bb49993e6e5c02f7932d07dcef44fb47ff6cc68cd5facfc/bstblue-0.1.1.tar.gz
+[2024-05-27 12:59:29] INFO root fetch - processPackages [metabotk]: Downloading https://files.pythonhosted.org/packages/21/9d/5b90a6ee1f4abfc7df0d9340e1029741d2974acb10df66526a021ef0d6ce/metabotk-0.1.37.tar.gz
+[2024-05-27 12:59:29] INFO root fetch - processPackages [django-debug-toolbar]: executing diffoscope
+[2024-05-27 12:59:29] INFO root fetch - processPackages [django-debug-toolbar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_debug_toolbar-4.4.1.tar.gz tmp/django_debug_toolbar-4.4.2.tar.gz --markdown 20240527/d/django-debug-toolbar/4.4.1-4.4.2/README.md --exclude *.pyd
+[2024-05-27 12:59:29] INFO root fetch - processPackages [astro-extras]: executing diffoscope
+[2024-05-27 12:59:29] INFO root fetch - processPackages [astro-extras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astro_extras-0.1.5.tar.gz tmp/astro_extras-0.1.5.1.tar.gz --markdown 20240527/a/astro-extras/0.1.5-0.1.5.1/README.md --exclude *.pyd
+[2024-05-27 12:59:29] INFO root fetch - processPackages [aioshutil]: executing diffoscope
+[2024-05-27 12:59:29] INFO root fetch - processPackages [aioshutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aioshutil-1.3.tar.gz tmp/aioshutil-1.4.tar.gz --markdown 20240527/a/aioshutil/1.3-1.4/README.md --exclude *.pyd
+[2024-05-27 12:59:29] INFO root fetch - processPackages [metabotk]: executing diffoscope
+[2024-05-27 12:59:29] INFO root fetch - processPackages [metabotk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metabotk-0.1.36.tar.gz tmp/metabotk-0.1.37.tar.gz --markdown 20240527/m/metabotk/0.1.36-0.1.37/README.md --exclude *.pyd
+[2024-05-27 12:59:29] INFO root fetch - processPackages [bstblue]: executing diffoscope
+[2024-05-27 12:59:29] INFO root fetch - processPackages [bstblue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bstblue-0.1.0.tar.gz tmp/bstblue-0.1.1.tar.gz --markdown 20240527/b/bstblue/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-27 12:59:29] INFO root fetch - processPackages [datasiphon]: Remove: archive file [/home/abi/fetcher/tmp/datasiphon-0.2.8.tar.gz]
+[2024-05-27 12:59:29] INFO root fetch - processPackages [datasiphon]: Remove: archive file [/home/abi/fetcher/tmp/datasiphon-0.2.9.tar.gz]
+[2024-05-27 12:59:29] INFO root fetch - main [MainThread]: End processing [datasiphon]: success
+[2024-05-27 12:59:29] INFO root fetch - processPackages [astro-extras]: Remove: archive file [/home/abi/fetcher/tmp/astro_extras-0.1.5.tar.gz]
+[2024-05-27 12:59:29] INFO root fetch - processPackages [astro-extras]: Remove: archive file [/home/abi/fetcher/tmp/astro_extras-0.1.5.1.tar.gz]
+[2024-05-27 12:59:29] INFO root fetch - main [MainThread]: End processing [astro-extras]: success
+[2024-05-27 12:59:29] INFO root fetch - processPackages [bstblue]: Remove: archive file [/home/abi/fetcher/tmp/bstblue-0.1.0.tar.gz]
+[2024-05-27 12:59:29] INFO root fetch - processPackages [bstblue]: Remove: archive file [/home/abi/fetcher/tmp/bstblue-0.1.1.tar.gz]
+[2024-05-27 12:59:29] INFO root fetch - main [MainThread]: End processing [bstblue]: success
+[2024-05-27 12:59:30] INFO root fetch - processPackages [aioshutil]: Remove: archive file [/home/abi/fetcher/tmp/aioshutil-1.3.tar.gz]
+[2024-05-27 12:59:30] INFO root fetch - processPackages [aioshutil]: Remove: archive file [/home/abi/fetcher/tmp/aioshutil-1.4.tar.gz]
+[2024-05-27 12:59:30] INFO root fetch - main [MainThread]: End processing [aioshutil]: success
+[2024-05-27 12:59:30] INFO root fetch - processPackages [metabotk]: Remove: archive file [/home/abi/fetcher/tmp/metabotk-0.1.36.tar.gz]
+[2024-05-27 12:59:30] INFO root fetch - processPackages [metabotk]: Remove: archive file [/home/abi/fetcher/tmp/metabotk-0.1.37.tar.gz]
+[2024-05-27 12:59:30] INFO root fetch - main [MainThread]: End processing [metabotk]: success
+[2024-05-27 12:59:30] INFO root fetch - processPackages [django-debug-toolbar]: Remove: archive file [/home/abi/fetcher/tmp/django_debug_toolbar-4.4.1.tar.gz]
+[2024-05-27 12:59:30] INFO root fetch - processPackages [django-debug-toolbar]: Remove: archive file [/home/abi/fetcher/tmp/django_debug_toolbar-4.4.2.tar.gz]
+[2024-05-27 12:59:30] INFO root fetch - main [MainThread]: End processing [django-debug-toolbar]: success
+[2024-05-27 12:59:30] INFO root fetch - main [MainThread]: Store serial: [23394395]
