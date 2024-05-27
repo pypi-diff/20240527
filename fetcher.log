@@ -23101,3 +23101,48 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-05-27 19:23:44] INFO root fetch - processPackages [agate]: Remove: archive file [/home/abi/fetcher/tmp/agate-1.9.1.tar.gz]
 [2024-05-27 19:23:44] INFO root fetch - main [MainThread]: End processing [agate]: success
 [2024-05-27 19:23:44] INFO root fetch - main [MainThread]: Store serial: [23399026]
+[2024-05-27 19:25:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23399026]
+[2024-05-27 19:25:53] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-27 19:25:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: discordreactapi
+[2024-05-27 19:25:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: telethon-client
+[2024-05-27 19:25:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: clear-skies-stripe
+[2024-05-27 19:25:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyproject-creator
+[2024-05-27 19:25:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: squice
+[2024-05-27 19:25:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mlconcepts
+[2024-05-27 19:25:53] INFO root fetch - processPackages [telethon-client]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-27 19:25:53] INFO root fetch - processPackages [telethon-client]: Downloading https://files.pythonhosted.org/packages/6b/a4/0f5014d2eef7906ec9e12b528e9d4ae2f4e32852638935820ab106ec572e/telethon-client-0.0.3.tar.gz
+[2024-05-27 19:25:53] WARNING root fetch - processPackages [discordreactapi]: Skipping, unable to determine old version
+[2024-05-27 19:25:53] INFO root fetch - main [MainThread]: End processing [discordreactapi] error
+[2024-05-27 19:25:53] INFO root fetch - processPackages [clear-skies-stripe]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-27 19:25:53] INFO root fetch - processPackages [squice]: New version: [0.5] Old Version: [0.4]
+[2024-05-27 19:25:53] WARNING root fetch - processPackages [pyproject-creator]: Skipping, unable to determine old version
+[2024-05-27 19:25:53] INFO root fetch - main [MainThread]: End processing [pyproject-creator] error
+[2024-05-27 19:25:53] INFO root fetch - processPackages [mlconcepts]: New version: [0.0.1a4] Old Version: [0.0.1a3]
+[2024-05-27 19:25:53] INFO root fetch - processPackages [squice]: Downloading https://files.pythonhosted.org/packages/f1/b8/325aa2e330ea82b58469d673160542d95fdb8ac046267ea4eb1c36669bbb/squice-0.4.tar.gz
+[2024-05-27 19:25:53] INFO root fetch - processPackages [clear-skies-stripe]: Downloading https://files.pythonhosted.org/packages/13/91/c9a9d3f310fd41f3163993e36e2e10ff6b8cf6ceda16fa0994cf222fbea3/clear_skies_stripe-0.9.8.tar.gz
+[2024-05-27 19:25:53] INFO root fetch - processPackages [telethon-client]: Downloading https://files.pythonhosted.org/packages/ee/66/2b079d2888483c8942695ead411b39467945458734cee84b9c072855e1b7/telethon-client-0.0.4.tar.gz
+[2024-05-27 19:25:53] INFO root fetch - processPackages [mlconcepts]: Downloading https://files.pythonhosted.org/packages/52/19/47f7dc0965c23cc3cd3c04fb3faf1e8a0012f3d4e1e3f5ec9e33630a021a/mlconcepts-0.0.1a3.tar.gz
+[2024-05-27 19:25:53] INFO root fetch - processPackages [telethon-client]: executing diffoscope
+[2024-05-27 19:25:53] INFO root fetch - processPackages [telethon-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/telethon-client-0.0.3.tar.gz tmp/telethon-client-0.0.4.tar.gz --markdown 20240527/t/telethon-client/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-27 19:25:53] INFO root fetch - processPackages [clear-skies-stripe]: Downloading https://files.pythonhosted.org/packages/58/38/6abee29ee0d94e2a37ad1ec8c6c236968ae918788b47229c1d212fa01868/clear_skies_stripe-0.9.9.tar.gz
+[2024-05-27 19:25:53] INFO root fetch - processPackages [clear-skies-stripe]: executing diffoscope
+[2024-05-27 19:25:53] INFO root fetch - processPackages [squice]: Downloading https://files.pythonhosted.org/packages/2f/62/1bdf56f2a3dd20bc048b572467988a68f6f66073a1dcf92d565f73d14328/squice-0.5.tar.gz
+[2024-05-27 19:25:53] INFO root fetch - processPackages [clear-skies-stripe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clear_skies_stripe-0.9.8.tar.gz tmp/clear_skies_stripe-0.9.9.tar.gz --markdown 20240527/c/clear-skies-stripe/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-27 19:25:54] INFO root fetch - processPackages [mlconcepts]: Downloading https://files.pythonhosted.org/packages/9c/e2/3591bc41e04ddf3c7e6047a06c42a9012538923ef5c08454cd9507a1de91/mlconcepts-0.0.1a4-cp311-cp311-manylinux_2_17_i686.manylinux2014_i686.whl
+[2024-05-27 19:25:54] INFO root fetch - processPackages [squice]: executing diffoscope
+[2024-05-27 19:25:54] INFO root fetch - processPackages [squice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/squice-0.4.tar.gz tmp/squice-0.5.tar.gz --markdown 20240527/s/squice/0.4-0.5/README.md --exclude *.pyd
+[2024-05-27 19:25:54] INFO root fetch - processPackages [telethon-client]: Remove: archive file [/home/abi/fetcher/tmp/telethon-client-0.0.3.tar.gz]
+[2024-05-27 19:25:54] INFO root fetch - processPackages [telethon-client]: Remove: archive file [/home/abi/fetcher/tmp/telethon-client-0.0.4.tar.gz]
+[2024-05-27 19:25:54] INFO root fetch - main [MainThread]: End processing [telethon-client]: success
+[2024-05-27 19:25:54] INFO root fetch - processPackages [mlconcepts]: executing diffoscope
+[2024-05-27 19:25:54] INFO root fetch - processPackages [mlconcepts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlconcepts-0.0.1a3.tar.gz tmp/mlconcepts-0.0.1a4-cp311-cp311-manylinux_2_17_i686.manylinux2014_i686.whl.zip --markdown 20240527/m/mlconcepts/0.0.1a3-0.0.1a4/README.md --exclude *.pyd
+[2024-05-27 19:25:54] INFO root fetch - processPackages [clear-skies-stripe]: Remove: archive file [/home/abi/fetcher/tmp/clear_skies_stripe-0.9.8.tar.gz]
+[2024-05-27 19:25:54] INFO root fetch - processPackages [clear-skies-stripe]: Remove: archive file [/home/abi/fetcher/tmp/clear_skies_stripe-0.9.9.tar.gz]
+[2024-05-27 19:25:54] INFO root fetch - main [MainThread]: End processing [clear-skies-stripe]: success
+[2024-05-27 19:25:54] INFO root fetch - processPackages [mlconcepts]: Remove: archive file [/home/abi/fetcher/tmp/mlconcepts-0.0.1a3.tar.gz]
+[2024-05-27 19:25:54] INFO root fetch - processPackages [mlconcepts]: Remove: archive file [/home/abi/fetcher/tmp/mlconcepts-0.0.1a4-cp311-cp311-manylinux_2_17_i686.manylinux2014_i686.whl.zip]
+[2024-05-27 19:25:54] INFO root fetch - main [MainThread]: End processing [mlconcepts]: success
+[2024-05-27 19:25:54] INFO root fetch - processPackages [squice]: Remove: archive file [/home/abi/fetcher/tmp/squice-0.4.tar.gz]
+[2024-05-27 19:25:54] INFO root fetch - processPackages [squice]: Remove: archive file [/home/abi/fetcher/tmp/squice-0.5.tar.gz]
+[2024-05-27 19:25:54] INFO root fetch - main [MainThread]: End processing [squice]: success
+[2024-05-27 19:25:54] INFO root fetch - main [MainThread]: Store serial: [23399060]
