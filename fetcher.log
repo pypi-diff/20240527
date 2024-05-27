@@ -5075,3 +5075,15 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 06:10:16] INFO root fetch - processPackages [pix2text]: Remove: archive file [/home/abi/fetcher/tmp/pix2text-1.1.0.5.tar.gz]
 [2024-05-27 06:10:16] INFO root fetch - main [MainThread]: End processing [pix2text]: success
 [2024-05-27 06:10:16] INFO root fetch - main [MainThread]: Store serial: [23390445]
+[2024-05-27 06:12:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23390445]
+[2024-05-27 06:12:25] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-27 06:12:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: GnosisTech
+[2024-05-27 06:12:25] INFO root fetch - processPackages [GnosisTech]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-27 06:12:25] INFO root fetch - processPackages [GnosisTech]: Downloading https://files.pythonhosted.org/packages/a8/d3/221357ffb926b6d787a841f6fe3c15b589c5ea44943ba09e8937f2ba72bc/GnosisTech-0.1.0.tar.gz
+[2024-05-27 06:12:25] INFO root fetch - processPackages [GnosisTech]: Downloading https://files.pythonhosted.org/packages/80/c9/be403a01309c9eec6c98c3bdfe8e605dfc98513458177559f9f9e5c83fe4/gnosistech-0.1.1.tar.gz
+[2024-05-27 06:12:25] INFO root fetch - processPackages [GnosisTech]: executing diffoscope
+[2024-05-27 06:12:25] INFO root fetch - processPackages [GnosisTech]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GnosisTech-0.1.0.tar.gz tmp/gnosistech-0.1.1.tar.gz --markdown 20240527/G/GnosisTech/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-27 06:12:26] INFO root fetch - processPackages [GnosisTech]: Remove: archive file [/home/abi/fetcher/tmp/GnosisTech-0.1.0.tar.gz]
+[2024-05-27 06:12:26] INFO root fetch - processPackages [GnosisTech]: Remove: archive file [/home/abi/fetcher/tmp/gnosistech-0.1.1.tar.gz]
+[2024-05-27 06:12:26] INFO root fetch - main [MainThread]: End processing [GnosisTech]: success
+[2024-05-27 06:12:26] INFO root fetch - main [MainThread]: Store serial: [23390449]
