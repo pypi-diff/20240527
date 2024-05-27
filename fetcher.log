@@ -22988,3 +22988,39 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-05-27 19:16:59] INFO root fetch - processPackages [alibabacloud-cloudfw20171207]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_cloudfw20171207-3.6.2.tar.gz]
 [2024-05-27 19:16:59] INFO root fetch - main [MainThread]: End processing [alibabacloud-cloudfw20171207]: success
 [2024-05-27 19:16:59] INFO root fetch - main [MainThread]: Store serial: [23398946]
+[2024-05-27 19:19:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23398946]
+[2024-05-27 19:19:09] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-27 19:19:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: glide-for-redis
+[2024-05-27 19:19:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: TGNLP
+[2024-05-27 19:19:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gucken
+[2024-05-27 19:19:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spiceai
+[2024-05-27 19:19:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: render-swiper
+[2024-05-27 19:19:09] INFO root fetch - processPackages [gucken]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-27 19:19:09] INFO root fetch - processPackages [glide-for-redis]: New version: [0.4.0rc4] Old Version: [0.4.0rc21]
+[2024-05-27 19:19:09] WARNING root fetch - processPackages [render-swiper]: Skipping, unable to determine old version
+[2024-05-27 19:19:09] INFO root fetch - main [MainThread]: End processing [render-swiper] error
+[2024-05-27 19:19:09] WARNING root fetch - processPackages [TGNLP]: Skipping, unable to determine old version
+[2024-05-27 19:19:09] INFO root fetch - main [MainThread]: End processing [TGNLP] error
+[2024-05-27 19:19:09] INFO root fetch - processPackages [gucken]: Downloading https://files.pythonhosted.org/packages/30/69/03bcc9ee8e02a0dbe543b1d3a29f5ed45073c954aa80e4f068c49d37433b/gucken-0.1.8.tar.gz
+[2024-05-27 19:19:09] INFO root fetch - processPackages [spiceai]: New version: [0.3.8] Old Version: [0.3.7]
+[2024-05-27 19:19:09] INFO root fetch - processPackages [glide-for-redis]: Downloading https://files.pythonhosted.org/packages/60/bb/5439220f2e047bf25bc0fd583500ddb51bef12851d583a9d7cee4d86d171/glide_for_redis-0.4.0rc21-cp39-cp39-manylinux_2_28_aarch64.whl
+[2024-05-27 19:19:09] INFO root fetch - processPackages [gucken]: Downloading https://files.pythonhosted.org/packages/29/d0/b74cfbafbf967b1b9f53aa5296672980aaa7eb9be49efe122e20b96a4aad/gucken-0.1.9.tar.gz
+[2024-05-27 19:19:09] INFO root fetch - processPackages [spiceai]: Downloading https://files.pythonhosted.org/packages/df/59/48a40d3a05773a68cf556b58fcebc207246e9f32efbf5a285b139ceef429/spiceai-0.3.7.tar.gz
+[2024-05-27 19:19:09] INFO root fetch - processPackages [gucken]: executing diffoscope
+[2024-05-27 19:19:09] INFO root fetch - processPackages [gucken]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gucken-0.1.8.tar.gz tmp/gucken-0.1.9.tar.gz --markdown 20240527/g/gucken/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-27 19:19:09] INFO root fetch - processPackages [glide-for-redis]: Downloading https://files.pythonhosted.org/packages/c5/ea/a36d5fd0dab7647960a2afd8cbc58f9f6ab84c6c903a2ae0d90b9954daec/glide_for_redis-0.4.0rc4-cp39-cp39-manylinux_2_28_aarch64.whl
+[2024-05-27 19:19:09] INFO root fetch - processPackages [spiceai]: Downloading https://files.pythonhosted.org/packages/a7/ac/9a44f3efc4c3d41ef9ee5bade154379358b751775e7da3ad5d7891625860/spiceai-0.3.8.tar.gz
+[2024-05-27 19:19:10] INFO root fetch - processPackages [spiceai]: executing diffoscope
+[2024-05-27 19:19:10] INFO root fetch - processPackages [spiceai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spiceai-0.3.7.tar.gz tmp/spiceai-0.3.8.tar.gz --markdown 20240527/s/spiceai/0.3.7-0.3.8/README.md --exclude *.pyd
+[2024-05-27 19:19:10] INFO root fetch - processPackages [glide-for-redis]: executing diffoscope
+[2024-05-27 19:19:10] INFO root fetch - processPackages [glide-for-redis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glide_for_redis-0.4.0rc21-cp39-cp39-manylinux_2_28_aarch64.whl.zip tmp/glide_for_redis-0.4.0rc4-cp39-cp39-manylinux_2_28_aarch64.whl.zip --markdown 20240527/g/glide-for-redis/0.4.0rc21-0.4.0rc4/README.md --exclude *.pyd
+[2024-05-27 19:19:10] INFO root fetch - processPackages [gucken]: Remove: archive file [/home/abi/fetcher/tmp/gucken-0.1.8.tar.gz]
+[2024-05-27 19:19:10] INFO root fetch - processPackages [gucken]: Remove: archive file [/home/abi/fetcher/tmp/gucken-0.1.9.tar.gz]
+[2024-05-27 19:19:10] INFO root fetch - main [MainThread]: End processing [gucken]: success
+[2024-05-27 19:19:10] INFO root fetch - processPackages [spiceai]: Remove: archive file [/home/abi/fetcher/tmp/spiceai-0.3.7.tar.gz]
+[2024-05-27 19:19:10] INFO root fetch - processPackages [spiceai]: Remove: archive file [/home/abi/fetcher/tmp/spiceai-0.3.8.tar.gz]
+[2024-05-27 19:19:10] INFO root fetch - main [MainThread]: End processing [spiceai]: success
+[2024-05-27 19:19:22] INFO root fetch - processPackages [glide-for-redis]: Remove: archive file [/home/abi/fetcher/tmp/glide_for_redis-0.4.0rc21-cp39-cp39-manylinux_2_28_aarch64.whl.zip]
+[2024-05-27 19:19:22] INFO root fetch - processPackages [glide-for-redis]: Remove: archive file [/home/abi/fetcher/tmp/glide_for_redis-0.4.0rc4-cp39-cp39-manylinux_2_28_aarch64.whl.zip]
+[2024-05-27 19:19:22] INFO root fetch - main [MainThread]: End processing [glide-for-redis]: success
+[2024-05-27 19:19:22] INFO root fetch - main [MainThread]: Store serial: [23398983]
