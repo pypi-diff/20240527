@@ -10466,3 +10466,78 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 11:16:01] INFO root fetch - processPackages [tqsdk]: Remove: archive file [/home/abi/fetcher/tmp/tqsdk-3.5.9.tar.gz]
 [2024-05-27 11:16:01] INFO root fetch - main [MainThread]: End processing [tqsdk]: success
 [2024-05-27 11:16:01] INFO root fetch - main [MainThread]: Store serial: [23393069]
+[2024-05-27 11:18:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23393069]
+[2024-05-27 11:18:10] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-27 11:18:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: csnlp
+[2024-05-27 11:18:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: klldFN
+[2024-05-27 11:18:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: foxsenseinnovations.vigil
+[2024-05-27 11:18:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mosstool
+[2024-05-27 11:18:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumiverse-doppler
+[2024-05-27 11:18:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: c4m-flexio
+[2024-05-27 11:18:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: langchain-googledrive
+[2024-05-27 11:18:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addon-product-margin-classification
+[2024-05-27 11:18:11] INFO root fetch - processPackages [csnlp]: New version: [1.5.9rc3] Old Version: [1.5.9rc2]
+[2024-05-27 11:18:11] INFO root fetch - processPackages [mosstool]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-05-27 11:18:11] INFO root fetch - processPackages [foxsenseinnovations.vigil]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-27 11:18:11] INFO root fetch - processPackages [pulumiverse-doppler]: New version: [0.7.1] Old Version: [0.7.0]
+[2024-05-27 11:18:11] INFO root fetch - processPackages [c4m-flexio]: New version: [0.4.5] Old Version: [0.4.4]
+[2024-05-27 11:18:11] INFO root fetch - processPackages [klldFN]: New version: [2.0.1] Old Version: [2.0.0b1]
+[2024-05-27 11:18:11] INFO root fetch - processPackages [langchain-googledrive]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-27 11:18:11] INFO root fetch - processPackages [odoo-addon-product-margin-classification]: New version: [16.0.1.1.1] Old Version: [16.0.1.1.0.2]
+[2024-05-27 11:18:11] INFO root fetch - processPackages [csnlp]: Downloading https://files.pythonhosted.org/packages/2e/2b/01f3b4918ddda421aecf5cbdc4f03bde43a1b66121a33d6667e1ab1e4451/csnlp-1.5.9rc2.tar.gz
+[2024-05-27 11:18:11] INFO root fetch - processPackages [mosstool]: Downloading https://files.pythonhosted.org/packages/c3/9b/ce33842d01d9f1f6045df165c7efb85e1877ebd1e83a953a6eae5751aeb0/mosstool-0.1.0.tar.gz
+[2024-05-27 11:18:11] INFO root fetch - processPackages [klldFN]: Downloading https://files.pythonhosted.org/packages/5e/f6/4eaa21cb31e382fd1949ebe2ea4afaece002819ca3a9b92409de8c8ce806/klldFN-2.0.0b1.tar.gz
+[2024-05-27 11:18:11] INFO root fetch - processPackages [pulumiverse-doppler]: Downloading https://files.pythonhosted.org/packages/35/87/0dfadf5b5ac24b478f65e62467790ff88659116b4011566fc48f8ca2d6c2/pulumiverse_doppler-0.7.0.tar.gz
+[2024-05-27 11:18:11] INFO root fetch - processPackages [foxsenseinnovations.vigil]: Downloading https://files.pythonhosted.org/packages/68/24/9e3d4128a9ca8620011ce2d6c97a85ac37ddd2ed2908e2aee7a0bb911675/foxsenseinnovations_vigil-1.0.2.tar.gz
+[2024-05-27 11:18:11] INFO root fetch - processPackages [langchain-googledrive]: Downloading https://files.pythonhosted.org/packages/9e/d0/1181c6aa45257a7da892292e5b8e92c54e802fc3a08a5a3018d7987c9ede/langchain_googledrive-0.2.0.tar.gz
+[2024-05-27 11:18:11] INFO root fetch - processPackages [c4m-flexio]: Downloading https://files.pythonhosted.org/packages/1c/bf/6547029b01cf594836a3ec6094c0d36d02b7d13ea8da6e4d950e282c7b37/c4m_flexio-0.4.4.tar.gz
+[2024-05-27 11:18:11] INFO root fetch - processPackages [odoo-addon-product-margin-classification]: Downloading https://files.pythonhosted.org/packages/e3/45/6f19498b8fc6d5608b573c7ce75019bed8cb6919afc80f6f584902d8c928/odoo_addon_product_margin_classification-16.0.1.1.0.2-py3-none-any.whl
+[2024-05-27 11:18:11] INFO root fetch - processPackages [klldFN]: Downloading https://files.pythonhosted.org/packages/5a/06/2a04f5bcd6919d74834fb47e13574fcfb403868fe094c277a04bcfd8e5bf/klldFN-2.0.1.tar.gz
+[2024-05-27 11:18:11] INFO root fetch - processPackages [mosstool]: Downloading https://files.pythonhosted.org/packages/0e/e1/67fc3c5df3fc2f59a385cb102fba7edcfbf0a02cabff1325cfbd245bbb70/mosstool-0.2.0.tar.gz
+[2024-05-27 11:18:11] INFO root fetch - processPackages [foxsenseinnovations.vigil]: Downloading https://files.pythonhosted.org/packages/40/08/7e8ec706c018ae647af5d092678e8eda1fb0b074d8075686cfe9deabf72f/foxsenseinnovations_vigil-1.0.3.tar.gz
+[2024-05-27 11:18:11] INFO root fetch - processPackages [pulumiverse-doppler]: Downloading https://files.pythonhosted.org/packages/80/bd/e4cd2b1d265c64abde1b4070ba963ff04f7470159468b3091e7d7de954b9/pulumiverse_doppler-0.7.1.tar.gz
+[2024-05-27 11:18:11] INFO root fetch - processPackages [langchain-googledrive]: Downloading https://files.pythonhosted.org/packages/48/50/bb21f4d75fbb23c1e53573976bfecabebbaff5982891b15c62155ceebcb5/langchain_googledrive-0.2.1.tar.gz
+[2024-05-27 11:18:11] INFO root fetch - processPackages [c4m-flexio]: Downloading https://files.pythonhosted.org/packages/b9/0f/a0aa7dfd88801672a080d9e65b9f02ce9c3b9df251b59d789b4614e70b0b/c4m_flexio-0.4.5.tar.gz
+[2024-05-27 11:18:11] INFO root fetch - processPackages [odoo-addon-product-margin-classification]: Downloading https://files.pythonhosted.org/packages/ae/d5/c6ed15d9d1d2ab93b12339ae49b3711ec645a26b06c11f391a56f4a05742/odoo_addon_product_margin_classification-16.0.1.1.1-py3-none-any.whl
+[2024-05-27 11:18:11] INFO root fetch - processPackages [csnlp]: Downloading https://files.pythonhosted.org/packages/75/46/cbfd8deaa3343e95a5f140e816f1f97a5c135d2e3934e237c6e2f0ee5f94/csnlp-1.5.9rc3.tar.gz
+[2024-05-27 11:18:11] INFO root fetch - processPackages [mosstool]: executing diffoscope
+[2024-05-27 11:18:11] INFO root fetch - processPackages [mosstool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mosstool-0.1.0.tar.gz tmp/mosstool-0.2.0.tar.gz --markdown 20240527/m/mosstool/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-05-27 11:18:12] INFO root fetch - processPackages [foxsenseinnovations.vigil]: executing diffoscope
+[2024-05-27 11:18:12] INFO root fetch - processPackages [foxsenseinnovations.vigil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foxsenseinnovations_vigil-1.0.2.tar.gz tmp/foxsenseinnovations_vigil-1.0.3.tar.gz --markdown 20240527/f/foxsenseinnovations.vigil/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-05-27 11:18:12] INFO root fetch - processPackages [pulumiverse-doppler]: executing diffoscope
+[2024-05-27 11:18:12] INFO root fetch - processPackages [pulumiverse-doppler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumiverse_doppler-0.7.0.tar.gz tmp/pulumiverse_doppler-0.7.1.tar.gz --markdown 20240527/p/pulumiverse-doppler/0.7.0-0.7.1/README.md --exclude *.pyd
+[2024-05-27 11:18:12] INFO root fetch - processPackages [langchain-googledrive]: executing diffoscope
+[2024-05-27 11:18:12] INFO root fetch - processPackages [langchain-googledrive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain_googledrive-0.2.0.tar.gz tmp/langchain_googledrive-0.2.1.tar.gz --markdown 20240527/l/langchain-googledrive/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-27 11:18:12] INFO root fetch - processPackages [c4m-flexio]: executing diffoscope
+[2024-05-27 11:18:12] INFO root fetch - processPackages [c4m-flexio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c4m_flexio-0.4.4.tar.gz tmp/c4m_flexio-0.4.5.tar.gz --markdown 20240527/c/c4m-flexio/0.4.4-0.4.5/README.md --exclude *.pyd
+[2024-05-27 11:18:12] INFO root fetch - processPackages [klldFN]: executing diffoscope
+[2024-05-27 11:18:12] INFO root fetch - processPackages [klldFN]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/klldFN-2.0.0b1.tar.gz tmp/klldFN-2.0.1.tar.gz --markdown 20240527/k/klldFN/2.0.0b1-2.0.1/README.md --exclude *.pyd
+[2024-05-27 11:18:12] INFO root fetch - processPackages [csnlp]: executing diffoscope
+[2024-05-27 11:18:12] INFO root fetch - processPackages [csnlp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/csnlp-1.5.9rc2.tar.gz tmp/csnlp-1.5.9rc3.tar.gz --markdown 20240527/c/csnlp/1.5.9rc2-1.5.9rc3/README.md --exclude *.pyd
+[2024-05-27 11:18:12] INFO root fetch - processPackages [odoo-addon-product-margin-classification]: executing diffoscope
+[2024-05-27 11:18:12] INFO root fetch - processPackages [odoo-addon-product-margin-classification]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_product_margin_classification-16.0.1.1.0.2-py3-none-any.whl.zip tmp/odoo_addon_product_margin_classification-16.0.1.1.1-py3-none-any.whl.zip --markdown 20240527/o/odoo-addon-product-margin-classification/16.0.1.1.0.2-16.0.1.1.1/README.md --exclude *.pyd
+[2024-05-27 11:18:12] INFO root fetch - processPackages [pulumiverse-doppler]: Remove: archive file [/home/abi/fetcher/tmp/pulumiverse_doppler-0.7.0.tar.gz]
+[2024-05-27 11:18:12] INFO root fetch - processPackages [pulumiverse-doppler]: Remove: archive file [/home/abi/fetcher/tmp/pulumiverse_doppler-0.7.1.tar.gz]
+[2024-05-27 11:18:12] INFO root fetch - main [MainThread]: End processing [pulumiverse-doppler]: success
+[2024-05-27 11:18:12] INFO root fetch - processPackages [foxsenseinnovations.vigil]: Remove: archive file [/home/abi/fetcher/tmp/foxsenseinnovations_vigil-1.0.2.tar.gz]
+[2024-05-27 11:18:12] INFO root fetch - processPackages [foxsenseinnovations.vigil]: Remove: archive file [/home/abi/fetcher/tmp/foxsenseinnovations_vigil-1.0.3.tar.gz]
+[2024-05-27 11:18:12] INFO root fetch - main [MainThread]: End processing [foxsenseinnovations.vigil]: success
+[2024-05-27 11:18:13] INFO root fetch - processPackages [mosstool]: Remove: archive file [/home/abi/fetcher/tmp/mosstool-0.1.0.tar.gz]
+[2024-05-27 11:18:13] INFO root fetch - processPackages [mosstool]: Remove: archive file [/home/abi/fetcher/tmp/mosstool-0.2.0.tar.gz]
+[2024-05-27 11:18:13] INFO root fetch - main [MainThread]: End processing [mosstool]: success
+[2024-05-27 11:18:13] INFO root fetch - processPackages [klldFN]: Remove: archive file [/home/abi/fetcher/tmp/klldFN-2.0.0b1.tar.gz]
+[2024-05-27 11:18:13] INFO root fetch - processPackages [klldFN]: Remove: archive file [/home/abi/fetcher/tmp/klldFN-2.0.1.tar.gz]
+[2024-05-27 11:18:13] INFO root fetch - main [MainThread]: End processing [klldFN]: success
+[2024-05-27 11:18:13] INFO root fetch - processPackages [csnlp]: Remove: archive file [/home/abi/fetcher/tmp/csnlp-1.5.9rc2.tar.gz]
+[2024-05-27 11:18:13] INFO root fetch - processPackages [csnlp]: Remove: archive file [/home/abi/fetcher/tmp/csnlp-1.5.9rc3.tar.gz]
+[2024-05-27 11:18:13] INFO root fetch - main [MainThread]: End processing [csnlp]: success
+[2024-05-27 11:18:13] INFO root fetch - processPackages [langchain-googledrive]: Remove: archive file [/home/abi/fetcher/tmp/langchain_googledrive-0.2.0.tar.gz]
+[2024-05-27 11:18:13] INFO root fetch - processPackages [langchain-googledrive]: Remove: archive file [/home/abi/fetcher/tmp/langchain_googledrive-0.2.1.tar.gz]
+[2024-05-27 11:18:13] INFO root fetch - main [MainThread]: End processing [langchain-googledrive]: success
+[2024-05-27 11:18:13] INFO root fetch - processPackages [odoo-addon-product-margin-classification]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_margin_classification-16.0.1.1.0.2-py3-none-any.whl.zip]
+[2024-05-27 11:18:13] INFO root fetch - processPackages [odoo-addon-product-margin-classification]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_margin_classification-16.0.1.1.1-py3-none-any.whl.zip]
+[2024-05-27 11:18:13] INFO root fetch - main [MainThread]: End processing [odoo-addon-product-margin-classification]: success
+[2024-05-27 11:18:13] INFO root fetch - processPackages [c4m-flexio]: Remove: archive file [/home/abi/fetcher/tmp/c4m_flexio-0.4.4.tar.gz]
+[2024-05-27 11:18:13] INFO root fetch - processPackages [c4m-flexio]: Remove: archive file [/home/abi/fetcher/tmp/c4m_flexio-0.4.5.tar.gz]
+[2024-05-27 11:18:13] INFO root fetch - main [MainThread]: End processing [c4m-flexio]: success
+[2024-05-27 11:18:13] INFO root fetch - main [MainThread]: Store serial: [23393093]
