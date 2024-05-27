@@ -17677,3 +17677,128 @@ EOFError: EOF read where object expected
 [2024-05-27 15:52:48] INFO root fetch - processPackages [ms1searchpy]: Remove: archive file [/home/abi/fetcher/tmp/ms1searchpy-2.8.4-py3-none-any.whl.zip]
 [2024-05-27 15:52:48] INFO root fetch - main [MainThread]: End processing [ms1searchpy]: success
 [2024-05-27 15:52:48] INFO root fetch - main [MainThread]: Store serial: [23396524]
+[2024-05-27 15:54:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23396524]
+[2024-05-27 15:54:58] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2024-05-27 15:54:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tf-nightly-intel
+[2024-05-27 15:54:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: imaging-research
+[2024-05-27 15:54:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: digitalhub
+[2024-05-27 15:54:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jaims-py
+[2024-05-27 15:54:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PSO-Logger
+[2024-05-27 15:54:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: detectools
+[2024-05-27 15:54:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: digitalhub-core
+[2024-05-27 15:54:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tensordict-nightly
+[2024-05-27 15:54:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: spatialAUC
+[2024-05-27 15:54:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: rooms-shared-services
+[2024-05-27 15:54:58] INFO root fetch - processPackages [digitalhub-core]: New version: [0.5.0b3] Old Version: [0.5.0b2]
+[2024-05-27 15:54:58] INFO root fetch - processPackages [digitalhub]: New version: [0.5.0b3] Old Version: [0.5.0b2]
+[2024-05-27 15:54:58] INFO root fetch - processPackages [rooms-shared-services]: New version: [0.1.99] Old Version: [0.1.97]
+[2024-05-27 15:54:58] INFO root fetch - processPackages [tf-nightly-intel]: New version: [2.17.0.dev20240526] Old Version: [2.17.0.dev20240524]
+[2024-05-27 15:54:58] WARNING root fetch - processPackages [PSO-Logger]: Skipping, unable to determine old version
+[2024-05-27 15:54:58] INFO root fetch - processPackages [PSO-Logger]: Start processing: ood_detectors
+[2024-05-27 15:54:58] INFO root fetch - main [MainThread]: End processing [PSO-Logger] error
+[2024-05-27 15:54:58] INFO root fetch - processPackages [jaims-py]: New version: [2.0.0b4] Old Version: [2.0.0b3]
+[2024-05-27 15:54:58] INFO root fetch - processPackages [digitalhub-core]: Downloading https://files.pythonhosted.org/packages/3a/b7/3bec3f0817d999f011054017c908a47addb1bc10f0f5cdef56a35c6fe6c9/digitalhub_core-0.5.0b2.tar.gz
+[2024-05-27 15:54:58] WARNING root fetch - processPackages [spatialAUC]: Skipping, unable to determine old version
+[2024-05-27 15:54:58] INFO root fetch - processPackages [spatialAUC]: Start processing: digitalhub-data
+[2024-05-27 15:54:58] INFO root fetch - main [MainThread]: End processing [spatialAUC] error
+[2024-05-27 15:54:58] INFO root fetch - processPackages [digitalhub]: Downloading https://files.pythonhosted.org/packages/5a/2a/8291d828fda993ff3e23a63c7da6e483c7790a36b2aa0ef9039a3ebce38c/digitalhub-0.5.0b2.tar.gz
+[2024-05-27 15:54:58] INFO root fetch - processPackages [detectools]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-05-27 15:54:58] INFO root fetch - processPackages [imaging-research]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-27 15:54:58] INFO root fetch - processPackages [ood_detectors]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-27 15:54:58] INFO root fetch - processPackages [tensordict-nightly]: New version: [2024.5.9] Old Version: [2024.5.8]
+[2024-05-27 15:54:58] INFO root fetch - processPackages [rooms-shared-services]: Downloading https://files.pythonhosted.org/packages/16/6e/7a35dabe25e96c04274cbd9f69a6e68b4f36dc149e22451fb099f79d153e/rooms_shared_services-0.1.97.tar.gz
+[2024-05-27 15:54:58] INFO root fetch - processPackages [digitalhub-data]: New version: [0.5.0b3] Old Version: [0.5.0b2]
+[2024-05-27 15:54:58] INFO root fetch - processPackages [tf-nightly-intel]: Downloading https://files.pythonhosted.org/packages/f7/4d/5537611c9d860449518c382af7f00e11adfefca6adbf4d8e56f50ea6c903/tf_nightly_intel-2.17.0.dev20240524-cp39-cp39-win_amd64.whl
+[2024-05-27 15:54:58] INFO root fetch - processPackages [ood_detectors]: Downloading https://files.pythonhosted.org/packages/2c/c1/0e33f36a315cc0d60a299e5970cb3dbd7fe0ffebd495cef6770f937ba24f/ood_detectors-0.0.8.tar.gz
+[2024-05-27 15:54:58] INFO root fetch - processPackages [jaims-py]: Downloading https://files.pythonhosted.org/packages/44/18/7065935dc0a34e0172216b277196ae4475a8eedae32eeae521436fa415c5/jaims_py-2.0.0b3.tar.gz
+[2024-05-27 15:54:58] WARNING root fetch - processPackages [tf-nightly-intel]: Skipping package: exceeds size limit 218774302>=10485760
+[2024-05-27 15:54:58] INFO root fetch - processPackages [tf-nightly-intel]: Start processing: digitalhub-ml
+[2024-05-27 15:54:58] INFO root fetch - main [MainThread]: End processing [tf-nightly-intel] error
+[2024-05-27 15:54:58] INFO root fetch - processPackages [digitalhub-data]: Downloading https://files.pythonhosted.org/packages/47/96/f6b32721b217b03396bf22bcf3bed4e3ab642b0029af9f3a43a1aa6bcda5/digitalhub_data-0.5.0b2.tar.gz
+[2024-05-27 15:54:58] INFO root fetch - processPackages [digitalhub-ml]: New version: [0.5.0b3] Old Version: [0.5.0b2]
+[2024-05-27 15:54:58] INFO root fetch - processPackages [digitalhub-core]: Downloading https://files.pythonhosted.org/packages/30/e9/f4f3042b54b4d3c2bfb69fd8979744de7a95ccfa0a94c8e07ba6f8d5e9e2/digitalhub_core-0.5.0b3.tar.gz
+[2024-05-27 15:54:58] INFO root fetch - processPackages [imaging-research]: Downloading https://files.pythonhosted.org/packages/60/0c/83783d36a3a657f6467e4df1b6cc3a2d5a91d51a94096f1a01eff2f38267/imaging_research-0.1.1.tar.gz
+[2024-05-27 15:54:59] INFO root fetch - processPackages [tensordict-nightly]: Downloading https://files.pythonhosted.org/packages/92/36/819c077c6f13e604fee257ce897f68e5860a53e54214b83dce4b4878dff6/tensordict_nightly-2024.5.8-cp39-cp39-win_amd64.whl
+[2024-05-27 15:54:59] INFO root fetch - processPackages [detectools]: Downloading https://files.pythonhosted.org/packages/06/ee/a42407ccc1d7b16aa89b340081c0dca77fcb5629919ee87b0b298d074b38/detectools-0.1.6.tar.gz
+[2024-05-27 15:54:59] INFO root fetch - processPackages [rooms-shared-services]: Downloading https://files.pythonhosted.org/packages/69/d1/238526d33d58183ec73b9cb900a4aea16c13e7618af0394e6c55838d4395/rooms_shared_services-0.1.99.tar.gz
+[2024-05-27 15:54:59] INFO root fetch - processPackages [digitalhub-ml]: Downloading https://files.pythonhosted.org/packages/97/ec/b6615cbff654be1ec218ef5adca3a1bafdc1ebf12b6974af458f05069b87/digitalhub_ml-0.5.0b2.tar.gz
+[2024-05-27 15:54:59] INFO root fetch - processPackages [ood_detectors]: Downloading https://files.pythonhosted.org/packages/3f/d6/a55f4bc549efaaabe3d000911be652e72d55a5a47cabc317d531a8ec8ada/ood_detectors-0.0.9.tar.gz
+[2024-05-27 15:54:59] INFO root fetch - processPackages [digitalhub]: Downloading https://files.pythonhosted.org/packages/e9/3b/b16a16c03842be8ed63d4c6b1873a69fc3bb9aa6ab0451124f931759d00e/digitalhub-0.5.0b3.tar.gz
+[2024-05-27 15:54:59] INFO root fetch - processPackages [rooms-shared-services]: executing diffoscope
+[2024-05-27 15:54:59] INFO root fetch - processPackages [rooms-shared-services]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rooms_shared_services-0.1.97.tar.gz tmp/rooms_shared_services-0.1.99.tar.gz --markdown 20240527/r/rooms-shared-services/0.1.97-0.1.99/README.md --exclude *.pyd
+[2024-05-27 15:54:59] INFO root fetch - processPackages [digitalhub-data]: Downloading https://files.pythonhosted.org/packages/c1/52/a0ed5177b91e07dfa6e9d89a11a9b31fbd2f69c1abf3a7128eeb2f94816e/digitalhub_data-0.5.0b3.tar.gz
+[2024-05-27 15:54:59] INFO root fetch - processPackages [digitalhub-core]: executing diffoscope
+[2024-05-27 15:54:59] INFO root fetch - processPackages [digitalhub-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digitalhub_core-0.5.0b2.tar.gz tmp/digitalhub_core-0.5.0b3.tar.gz --markdown 20240527/d/digitalhub-core/0.5.0b2-0.5.0b3/README.md --exclude *.pyd
+[2024-05-27 15:54:59] INFO root fetch - processPackages [jaims-py]: Downloading https://files.pythonhosted.org/packages/4d/02/0193825dbb19dcbd8c1de25de0c83bd06a3f66f4998d98e748f015f8f77c/jaims_py-2.0.0b4.tar.gz
+[2024-05-27 15:54:59] INFO root fetch - processPackages [ood_detectors]: executing diffoscope
+[2024-05-27 15:54:59] INFO root fetch - processPackages [ood_detectors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ood_detectors-0.0.8.tar.gz tmp/ood_detectors-0.0.9.tar.gz --markdown 20240527/o/ood_detectors/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-27 15:54:59] INFO root fetch - processPackages [digitalhub]: executing diffoscope
+[2024-05-27 15:54:59] INFO root fetch - processPackages [digitalhub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digitalhub-0.5.0b2.tar.gz tmp/digitalhub-0.5.0b3.tar.gz --markdown 20240527/d/digitalhub/0.5.0b2-0.5.0b3/README.md --exclude *.pyd
+[2024-05-27 15:54:59] INFO root fetch - processPackages [digitalhub-ml]: Downloading https://files.pythonhosted.org/packages/61/e8/f9deb290b11cc7614b75908898871b8ba64bb9b9552bf3c1e971865db9ad/digitalhub_ml-0.5.0b3.tar.gz
+[2024-05-27 15:54:59] INFO root fetch - processPackages [digitalhub-data]: executing diffoscope
+[2024-05-27 15:54:59] INFO root fetch - processPackages [digitalhub-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digitalhub_data-0.5.0b2.tar.gz tmp/digitalhub_data-0.5.0b3.tar.gz --markdown 20240527/d/digitalhub-data/0.5.0b2-0.5.0b3/README.md --exclude *.pyd
+[2024-05-27 15:54:59] INFO root fetch - processPackages [imaging-research]: Downloading https://files.pythonhosted.org/packages/2e/f9/8312969f114858f0f9b2768b5461266236a80d9c0dddd2aee6f42184052a/imaging_research-0.1.2.tar.gz
+[2024-05-27 15:54:59] INFO root fetch - processPackages [jaims-py]: executing diffoscope
+[2024-05-27 15:54:59] INFO root fetch - processPackages [jaims-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaims_py-2.0.0b3.tar.gz tmp/jaims_py-2.0.0b4.tar.gz --markdown 20240527/j/jaims-py/2.0.0b3-2.0.0b4/README.md --exclude *.pyd
+[2024-05-27 15:54:59] INFO root fetch - processPackages [detectools]: Downloading https://files.pythonhosted.org/packages/31/bb/606da52bed317f1ea53a2cad92fc6d2cdb883e5566bbc971e2bcc11e2276/detectools-0.1.7.tar.gz
+[2024-05-27 15:54:59] INFO root fetch - processPackages [tensordict-nightly]: Downloading https://files.pythonhosted.org/packages/b9/28/e296d4b168e87aedf19b6cf0d7e65b1474a3da33b8e5314b4a04050bda78/tensordict_nightly-2024.5.9-cp39-cp39-win_amd64.whl
+[2024-05-27 15:54:59] INFO root fetch - processPackages [digitalhub-ml]: executing diffoscope
+[2024-05-27 15:54:59] INFO root fetch - processPackages [digitalhub-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digitalhub_ml-0.5.0b2.tar.gz tmp/digitalhub_ml-0.5.0b3.tar.gz --markdown 20240527/d/digitalhub-ml/0.5.0b2-0.5.0b3/README.md --exclude *.pyd
+[2024-05-27 15:54:59] INFO root fetch - processPackages [imaging-research]: executing diffoscope
+[2024-05-27 15:54:59] INFO root fetch - processPackages [imaging-research]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imaging_research-0.1.1.tar.gz tmp/imaging_research-0.1.2.tar.gz --markdown 20240527/i/imaging-research/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-27 15:54:59] INFO root fetch - processPackages [detectools]: executing diffoscope
+[2024-05-27 15:54:59] INFO root fetch - processPackages [detectools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/detectools-0.1.6.tar.gz tmp/detectools-0.1.7.tar.gz --markdown 20240527/d/detectools/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-05-27 15:54:59] INFO root fetch - processPackages [tensordict-nightly]: executing diffoscope
+[2024-05-27 15:54:59] INFO root fetch - processPackages [tensordict-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensordict_nightly-2024.5.8-cp39-cp39-win_amd64.whl.zip tmp/tensordict_nightly-2024.5.9-cp39-cp39-win_amd64.whl.zip --markdown 20240527/t/tensordict-nightly/2024.5.8-2024.5.9/README.md --exclude *.pyd
+[2024-05-27 15:55:00] INFO root fetch - processPackages [rooms-shared-services]: Remove: archive file [/home/abi/fetcher/tmp/rooms_shared_services-0.1.97.tar.gz]
+[2024-05-27 15:55:00] INFO root fetch - processPackages [rooms-shared-services]: Remove: archive file [/home/abi/fetcher/tmp/rooms_shared_services-0.1.99.tar.gz]
+[2024-05-27 15:55:00] INFO root fetch - processPackages [rooms-shared-services]: Start processing: digitalhub-runtime-python
+[2024-05-27 15:55:00] INFO root fetch - main [MainThread]: End processing [rooms-shared-services]: success
+[2024-05-27 15:55:00] INFO root fetch - processPackages [digitalhub]: Remove: archive file [/home/abi/fetcher/tmp/digitalhub-0.5.0b2.tar.gz]
+[2024-05-27 15:55:00] INFO root fetch - processPackages [digitalhub]: Remove: archive file [/home/abi/fetcher/tmp/digitalhub-0.5.0b3.tar.gz]
+[2024-05-27 15:55:00] INFO root fetch - processPackages [digitalhub]: Start processing: django-smartbase-admin
+[2024-05-27 15:55:00] INFO root fetch - main [MainThread]: End processing [digitalhub]: success
+[2024-05-27 15:55:00] WARNING root fetch - processPackages [digitalhub-runtime-python]: Skipping, unable to determine old version
+[2024-05-27 15:55:00] INFO root fetch - processPackages [digitalhub-runtime-python]: Start processing: CADET-RDM
+[2024-05-27 15:55:00] INFO root fetch - main [MainThread]: End processing [digitalhub-runtime-python] error
+[2024-05-27 15:55:00] INFO root fetch - processPackages [jaims-py]: Remove: archive file [/home/abi/fetcher/tmp/jaims_py-2.0.0b3.tar.gz]
+[2024-05-27 15:55:00] INFO root fetch - processPackages [jaims-py]: Remove: archive file [/home/abi/fetcher/tmp/jaims_py-2.0.0b4.tar.gz]
+[2024-05-27 15:55:00] INFO root fetch - main [MainThread]: End processing [jaims-py]: success
+[2024-05-27 15:55:00] INFO root fetch - processPackages [CADET-RDM]: New version: [0.0.9] Old Version: [0.0.6]
+[2024-05-27 15:55:00] INFO root fetch - processPackages [ood_detectors]: Remove: archive file [/home/abi/fetcher/tmp/ood_detectors-0.0.8.tar.gz]
+[2024-05-27 15:55:00] INFO root fetch - processPackages [ood_detectors]: Remove: archive file [/home/abi/fetcher/tmp/ood_detectors-0.0.9.tar.gz]
+[2024-05-27 15:55:00] INFO root fetch - main [MainThread]: End processing [ood_detectors]: success
+[2024-05-27 15:55:00] INFO root fetch - processPackages [django-smartbase-admin]: New version: [0.2.9] Old Version: [0.2.7]
+[2024-05-27 15:55:00] INFO root fetch - processPackages [imaging-research]: Remove: archive file [/home/abi/fetcher/tmp/imaging_research-0.1.1.tar.gz]
+[2024-05-27 15:55:00] INFO root fetch - processPackages [imaging-research]: Remove: archive file [/home/abi/fetcher/tmp/imaging_research-0.1.2.tar.gz]
+[2024-05-27 15:55:00] INFO root fetch - main [MainThread]: End processing [imaging-research]: success
+[2024-05-27 15:55:00] INFO root fetch - processPackages [CADET-RDM]: Downloading https://files.pythonhosted.org/packages/b8/6e/f505128df1dfe596bc3fd6231cab925531191e708a6d398e062915715376/CADET-RDM-0.0.6.tar.gz
+[2024-05-27 15:55:00] INFO root fetch - processPackages [digitalhub-core]: Remove: archive file [/home/abi/fetcher/tmp/digitalhub_core-0.5.0b2.tar.gz]
+[2024-05-27 15:55:00] INFO root fetch - processPackages [digitalhub-core]: Remove: archive file [/home/abi/fetcher/tmp/digitalhub_core-0.5.0b3.tar.gz]
+[2024-05-27 15:55:00] INFO root fetch - main [MainThread]: End processing [digitalhub-core]: success
+[2024-05-27 15:55:00] INFO root fetch - processPackages [digitalhub-data]: Remove: archive file [/home/abi/fetcher/tmp/digitalhub_data-0.5.0b2.tar.gz]
+[2024-05-27 15:55:00] INFO root fetch - processPackages [digitalhub-data]: Remove: archive file [/home/abi/fetcher/tmp/digitalhub_data-0.5.0b3.tar.gz]
+[2024-05-27 15:55:00] INFO root fetch - main [MainThread]: End processing [digitalhub-data]: success
+[2024-05-27 15:55:00] INFO root fetch - processPackages [django-smartbase-admin]: Downloading https://files.pythonhosted.org/packages/4c/b9/c32d7019547d76c2c6c1b8ea747b942212105b1c88767762bab1ac62f415/django_smartbase_admin-0.2.7.tar.gz
+[2024-05-27 15:55:00] INFO root fetch - processPackages [digitalhub-ml]: Remove: archive file [/home/abi/fetcher/tmp/digitalhub_ml-0.5.0b2.tar.gz]
+[2024-05-27 15:55:00] INFO root fetch - processPackages [digitalhub-ml]: Remove: archive file [/home/abi/fetcher/tmp/digitalhub_ml-0.5.0b3.tar.gz]
+[2024-05-27 15:55:00] INFO root fetch - main [MainThread]: End processing [digitalhub-ml]: success
+[2024-05-27 15:55:00] INFO root fetch - processPackages [detectools]: Remove: archive file [/home/abi/fetcher/tmp/detectools-0.1.6.tar.gz]
+[2024-05-27 15:55:00] INFO root fetch - processPackages [detectools]: Remove: archive file [/home/abi/fetcher/tmp/detectools-0.1.7.tar.gz]
+[2024-05-27 15:55:00] INFO root fetch - main [MainThread]: End processing [detectools]: success
+[2024-05-27 15:55:00] INFO root fetch - processPackages [CADET-RDM]: Downloading https://files.pythonhosted.org/packages/8c/4f/cc6992d3cee849248ebcafed89c42d8801d905fc23651ef92b0ef0a83cb5/CADET-RDM-0.0.9.tar.gz
+[2024-05-27 15:55:00] INFO root fetch - processPackages [CADET-RDM]: executing diffoscope
+[2024-05-27 15:55:00] INFO root fetch - processPackages [tensordict-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensordict_nightly-2024.5.8-cp39-cp39-win_amd64.whl.zip]
+[2024-05-27 15:55:00] INFO root fetch - processPackages [CADET-RDM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CADET-RDM-0.0.6.tar.gz tmp/CADET-RDM-0.0.9.tar.gz --markdown 20240527/C/CADET-RDM/0.0.6-0.0.9/README.md --exclude *.pyd
+[2024-05-27 15:55:00] INFO root fetch - processPackages [tensordict-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensordict_nightly-2024.5.9-cp39-cp39-win_amd64.whl.zip]
+[2024-05-27 15:55:00] INFO root fetch - main [MainThread]: End processing [tensordict-nightly]: success
+[2024-05-27 15:55:01] INFO root fetch - processPackages [django-smartbase-admin]: Downloading https://files.pythonhosted.org/packages/63/1e/301c376a330a21311919a45d9762d7c6c5d2090546a3b0d3b0e36db1c986/django_smartbase_admin-0.2.9.tar.gz
+[2024-05-27 15:55:01] INFO root fetch - processPackages [django-smartbase-admin]: executing diffoscope
+[2024-05-27 15:55:01] INFO root fetch - processPackages [django-smartbase-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_smartbase_admin-0.2.7.tar.gz tmp/django_smartbase_admin-0.2.9.tar.gz --markdown 20240527/d/django-smartbase-admin/0.2.7-0.2.9/README.md --exclude *.pyd
+[2024-05-27 15:55:01] INFO root fetch - processPackages [CADET-RDM]: Remove: archive file [/home/abi/fetcher/tmp/CADET-RDM-0.0.6.tar.gz]
+[2024-05-27 15:55:01] INFO root fetch - processPackages [CADET-RDM]: Remove: archive file [/home/abi/fetcher/tmp/CADET-RDM-0.0.9.tar.gz]
+[2024-05-27 15:55:01] INFO root fetch - main [MainThread]: End processing [CADET-RDM]: success
+[2024-05-27 15:55:06] INFO root fetch - processPackages [django-smartbase-admin]: Remove: archive file [/home/abi/fetcher/tmp/django_smartbase_admin-0.2.7.tar.gz]
+[2024-05-27 15:55:06] INFO root fetch - processPackages [django-smartbase-admin]: Remove: archive file [/home/abi/fetcher/tmp/django_smartbase_admin-0.2.9.tar.gz]
+[2024-05-27 15:55:06] INFO root fetch - main [MainThread]: End processing [django-smartbase-admin]: success
+[2024-05-27 15:55:06] INFO root fetch - main [MainThread]: Store serial: [23396585]
