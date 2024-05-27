@@ -24109,3 +24109,78 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-05-27 20:05:18] INFO root fetch - processPackages [nuon]: Remove: archive file [/home/abi/fetcher/tmp/nuon-0.19.99.tar.gz]
 [2024-05-27 20:05:18] INFO root fetch - main [MainThread]: End processing [nuon]: success
 [2024-05-27 20:05:18] INFO root fetch - main [MainThread]: Store serial: [23399593]
+[2024-05-27 20:07:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23399593]
+[2024-05-27 20:07:26] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-27 20:07:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: poetry-polylith-plugin
+[2024-05-27 20:07:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: promptic
+[2024-05-27 20:07:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: piperider-nightly
+[2024-05-27 20:07:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hypersync
+[2024-05-27 20:07:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mosqlient
+[2024-05-27 20:07:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: telethon-client
+[2024-05-27 20:07:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: recce-nightly
+[2024-05-27 20:07:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: linearwavetheory
+[2024-05-27 20:07:26] INFO root fetch - processPackages [promptic]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-05-27 20:07:27] INFO root fetch - processPackages [telethon-client]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-27 20:07:27] INFO root fetch - processPackages [mosqlient]: New version: [1.0.0] Old Version: [0.1.0]
+[2024-05-27 20:07:27] INFO root fetch - processPackages [linearwavetheory]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-27 20:07:27] INFO root fetch - processPackages [recce-nightly]: New version: [0.9.0.20240313] Old Version: [0.9.0.20240312]
+[2024-05-27 20:07:27] INFO root fetch - processPackages [piperider-nightly]: New version: [0.9.0.20220921] Old Version: [0.9.0.20220920]
+[2024-05-27 20:07:27] INFO root fetch - processPackages [poetry-polylith-plugin]: New version: [1.9.0] Old Version: [1.8.3]
+[2024-05-27 20:07:27] INFO root fetch - processPackages [telethon-client]: Downloading https://files.pythonhosted.org/packages/ed/a5/e65047dabc7ce63f944524fb9046ddfb0fe939aa10ae41a53c62969733a6/telethon-client-0.0.7.tar.gz
+[2024-05-27 20:07:27] INFO root fetch - processPackages [linearwavetheory]: Downloading https://files.pythonhosted.org/packages/dc/a4/85d07412e81d1591c15997e20e4aac0f0b86021112dbf2316d71ba307283/linearwavetheory-0.0.8.tar.gz
+[2024-05-27 20:07:27] INFO root fetch - processPackages [recce-nightly]: Downloading https://files.pythonhosted.org/packages/c6/8c/cde0615abf888d0ccade0e1fc90482c4c402fedef38bf8fb00d1202e6ad2/recce-nightly-0.9.0.20240312.tar.gz
+[2024-05-27 20:07:27] INFO root fetch - processPackages [piperider-nightly]: Downloading https://files.pythonhosted.org/packages/ed/93/38dc4b24d947f1ec271781bdb47a50b77ff762d7a701730c6786ca4ec303/piperider-nightly-0.9.0.20220920.tar.gz
+[2024-05-27 20:07:27] INFO root fetch - processPackages [promptic]: Downloading https://files.pythonhosted.org/packages/c5/fd/3acc34ca9d29b4ab2c17e0014a059577e2a9c9bd46226a097903d59ffe28/promptic-0.1.6.tar.gz
+[2024-05-27 20:07:27] INFO root fetch - processPackages [mosqlient]: Downloading https://files.pythonhosted.org/packages/12/c1/659bc93a818d451885858252af0258fd794eca6b291c44620b4bc4d38a7d/mosqlient-0.1.0.tar.gz
+[2024-05-27 20:07:27] INFO root fetch - processPackages [hypersync]: New version: [0.7.0] Old Version: [0.6.2]
+[2024-05-27 20:07:27] INFO root fetch - processPackages [poetry-polylith-plugin]: Downloading https://files.pythonhosted.org/packages/49/29/a828c35757bf7535ba7a9b6395c25166501b045b4b233d801fa6896b0e31/poetry_polylith_plugin-1.8.3.tar.gz
+[2024-05-27 20:07:27] INFO root fetch - processPackages [linearwavetheory]: Downloading https://files.pythonhosted.org/packages/7c/1b/1a369f1209dc45a9aad7eaf8d93c489854d70804051f28a1670894a07619/linearwavetheory-0.0.9.tar.gz
+[2024-05-27 20:07:27] INFO root fetch - processPackages [recce-nightly]: Downloading https://files.pythonhosted.org/packages/52/11/d0c59f6609b46f5766293823d2b30e4fd872dbea146425e2d959b41a44a4/recce-nightly-0.9.0.20240313.tar.gz
+[2024-05-27 20:07:27] INFO root fetch - processPackages [telethon-client]: Downloading https://files.pythonhosted.org/packages/50/f2/ed8d4c22797c13143de5519cec3fab4c48d1a930a67ae26d931c2723adb5/telethon-client-0.0.8.tar.gz
+[2024-05-27 20:07:27] INFO root fetch - processPackages [hypersync]: Downloading https://files.pythonhosted.org/packages/6b/f2/a54dbb5aeb0014485fa2aa845598cfe497c3ed7f167f899901c2a71ff6e6/hypersync-0.6.2.tar.gz
+[2024-05-27 20:07:27] INFO root fetch - processPackages [linearwavetheory]: executing diffoscope
+[2024-05-27 20:07:27] INFO root fetch - processPackages [linearwavetheory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linearwavetheory-0.0.8.tar.gz tmp/linearwavetheory-0.0.9.tar.gz --markdown 20240527/l/linearwavetheory/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-27 20:07:27] INFO root fetch - processPackages [promptic]: Downloading https://files.pythonhosted.org/packages/81/1a/2545970d66766f93216d78a8114d66969d55ec1b42c4acff2a601ffd69e3/promptic-0.1.7.tar.gz
+[2024-05-27 20:07:27] INFO root fetch - processPackages [telethon-client]: executing diffoscope
+[2024-05-27 20:07:27] INFO root fetch - processPackages [telethon-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/telethon-client-0.0.7.tar.gz tmp/telethon-client-0.0.8.tar.gz --markdown 20240527/t/telethon-client/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-27 20:07:27] INFO root fetch - processPackages [mosqlient]: Downloading https://files.pythonhosted.org/packages/d1/56/9a20afeaddb949ee9d339e33ffe0cc240da0d156b8070c7de6de5eaedef8/mosqlient-1.0.0.tar.gz
+[2024-05-27 20:07:27] INFO root fetch - processPackages [promptic]: executing diffoscope
+[2024-05-27 20:07:27] INFO root fetch - processPackages [promptic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/promptic-0.1.6.tar.gz tmp/promptic-0.1.7.tar.gz --markdown 20240527/p/promptic/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-05-27 20:07:27] INFO root fetch - processPackages [piperider-nightly]: Downloading https://files.pythonhosted.org/packages/a4/47/99354233feb8a6a201731f0992c5656ca2eb5728a26eae7fd09fc5e04b4c/piperider-nightly-0.9.0.20220921.tar.gz
+[2024-05-27 20:07:27] INFO root fetch - processPackages [recce-nightly]: executing diffoscope
+[2024-05-27 20:07:27] INFO root fetch - processPackages [recce-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recce-nightly-0.9.0.20240312.tar.gz tmp/recce-nightly-0.9.0.20240313.tar.gz --markdown 20240527/r/recce-nightly/0.9.0.20240312-0.9.0.20240313/README.md --exclude *.pyd
+[2024-05-27 20:07:27] INFO root fetch - processPackages [mosqlient]: executing diffoscope
+[2024-05-27 20:07:27] INFO root fetch - processPackages [mosqlient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mosqlient-0.1.0.tar.gz tmp/mosqlient-1.0.0.tar.gz --markdown 20240527/m/mosqlient/0.1.0-1.0.0/README.md --exclude *.pyd
+[2024-05-27 20:07:27] INFO root fetch - processPackages [hypersync]: Downloading https://files.pythonhosted.org/packages/e9/28/5f7ab399f714ab1cc128e512b0fee171527bb0a41925bee9696e60655fc2/hypersync-0.7.0.tar.gz
+[2024-05-27 20:07:28] INFO root fetch - processPackages [hypersync]: executing diffoscope
+[2024-05-27 20:07:28] INFO root fetch - processPackages [hypersync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hypersync-0.6.2.tar.gz tmp/hypersync-0.7.0.tar.gz --markdown 20240527/h/hypersync/0.6.2-0.7.0/README.md --exclude *.pyd
+[2024-05-27 20:07:28] INFO root fetch - processPackages [linearwavetheory]: Remove: archive file [/home/abi/fetcher/tmp/linearwavetheory-0.0.8.tar.gz]
+[2024-05-27 20:07:28] INFO root fetch - processPackages [linearwavetheory]: Remove: archive file [/home/abi/fetcher/tmp/linearwavetheory-0.0.9.tar.gz]
+[2024-05-27 20:07:28] INFO root fetch - main [MainThread]: End processing [linearwavetheory]: success
+[2024-05-27 20:07:28] INFO root fetch - processPackages [promptic]: Remove: archive file [/home/abi/fetcher/tmp/promptic-0.1.6.tar.gz]
+[2024-05-27 20:07:28] INFO root fetch - processPackages [promptic]: Remove: archive file [/home/abi/fetcher/tmp/promptic-0.1.7.tar.gz]
+[2024-05-27 20:07:28] INFO root fetch - main [MainThread]: End processing [promptic]: success
+[2024-05-27 20:07:28] INFO root fetch - processPackages [poetry-polylith-plugin]: Downloading https://files.pythonhosted.org/packages/de/fb/c9f8f5b2f80b91fb096f4de78316ccfa166654868df2adb403f80746fe2f/poetry_polylith_plugin-1.9.0.tar.gz
+[2024-05-27 20:07:28] INFO root fetch - processPackages [telethon-client]: Remove: archive file [/home/abi/fetcher/tmp/telethon-client-0.0.7.tar.gz]
+[2024-05-27 20:07:28] INFO root fetch - processPackages [telethon-client]: Remove: archive file [/home/abi/fetcher/tmp/telethon-client-0.0.8.tar.gz]
+[2024-05-27 20:07:28] INFO root fetch - main [MainThread]: End processing [telethon-client]: success
+[2024-05-27 20:07:28] INFO root fetch - processPackages [mosqlient]: Remove: archive file [/home/abi/fetcher/tmp/mosqlient-0.1.0.tar.gz]
+[2024-05-27 20:07:28] INFO root fetch - processPackages [mosqlient]: Remove: archive file [/home/abi/fetcher/tmp/mosqlient-1.0.0.tar.gz]
+[2024-05-27 20:07:28] INFO root fetch - main [MainThread]: End processing [mosqlient]: success
+[2024-05-27 20:07:28] INFO root fetch - processPackages [hypersync]: Remove: archive file [/home/abi/fetcher/tmp/hypersync-0.6.2.tar.gz]
+[2024-05-27 20:07:28] INFO root fetch - processPackages [hypersync]: Remove: archive file [/home/abi/fetcher/tmp/hypersync-0.7.0.tar.gz]
+[2024-05-27 20:07:28] INFO root fetch - main [MainThread]: End processing [hypersync]: success
+[2024-05-27 20:07:29] INFO root fetch - processPackages [piperider-nightly]: executing diffoscope
+[2024-05-27 20:07:29] INFO root fetch - processPackages [piperider-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/piperider-nightly-0.9.0.20220920.tar.gz tmp/piperider-nightly-0.9.0.20220921.tar.gz --markdown 20240527/p/piperider-nightly/0.9.0.20220920-0.9.0.20220921/README.md --exclude *.pyd
+[2024-05-27 20:07:29] INFO root fetch - processPackages [recce-nightly]: Remove: archive file [/home/abi/fetcher/tmp/recce-nightly-0.9.0.20240312.tar.gz]
+[2024-05-27 20:07:29] INFO root fetch - processPackages [recce-nightly]: Remove: archive file [/home/abi/fetcher/tmp/recce-nightly-0.9.0.20240313.tar.gz]
+[2024-05-27 20:07:29] INFO root fetch - main [MainThread]: End processing [recce-nightly]: success
+[2024-05-27 20:07:30] INFO root fetch - processPackages [poetry-polylith-plugin]: executing diffoscope
+[2024-05-27 20:07:30] INFO root fetch - processPackages [poetry-polylith-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poetry_polylith_plugin-1.8.3.tar.gz tmp/poetry_polylith_plugin-1.9.0.tar.gz --markdown 20240527/p/poetry-polylith-plugin/1.8.3-1.9.0/README.md --exclude *.pyd
+[2024-05-27 20:07:30] INFO root fetch - processPackages [poetry-polylith-plugin]: Remove: archive file [/home/abi/fetcher/tmp/poetry_polylith_plugin-1.8.3.tar.gz]
+[2024-05-27 20:07:30] INFO root fetch - processPackages [poetry-polylith-plugin]: Remove: archive file [/home/abi/fetcher/tmp/poetry_polylith_plugin-1.9.0.tar.gz]
+[2024-05-27 20:07:30] INFO root fetch - main [MainThread]: End processing [poetry-polylith-plugin]: success
+[2024-05-27 20:07:30] INFO root fetch - processPackages [piperider-nightly]: Remove: archive file [/home/abi/fetcher/tmp/piperider-nightly-0.9.0.20220920.tar.gz]
+[2024-05-27 20:07:30] INFO root fetch - processPackages [piperider-nightly]: Remove: archive file [/home/abi/fetcher/tmp/piperider-nightly-0.9.0.20220921.tar.gz]
+[2024-05-27 20:07:30] INFO root fetch - main [MainThread]: End processing [piperider-nightly]: success
+[2024-05-27 20:07:30] INFO root fetch - main [MainThread]: Store serial: [23399641]
