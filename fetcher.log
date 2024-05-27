@@ -23413,3 +23413,72 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-05-27 19:39:02] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.4.1.dev20240527130959.tar.gz]
 [2024-05-27 19:39:02] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2024-05-27 19:39:02] INFO root fetch - main [MainThread]: Store serial: [23399219]
+[2024-05-27 19:41:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23399219]
+[2024-05-27 19:41:10] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-27 19:41:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: someipy
+[2024-05-27 19:41:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: alita-sdk
+[2024-05-27 19:41:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: NameExtractor
+[2024-05-27 19:41:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: json-schema-tool
+[2024-05-27 19:41:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hermitage-alchemy
+[2024-05-27 19:41:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: crewserve
+[2024-05-27 19:41:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pysql-manager
+[2024-05-27 19:41:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: librds
+[2024-05-27 19:41:10] INFO root fetch - processPackages [NameExtractor]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-27 19:41:10] INFO root fetch - processPackages [hermitage-alchemy]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-05-27 19:41:10] INFO root fetch - processPackages [librds]: New version: [1.3.7] Old Version: [1.3.6]
+[2024-05-27 19:41:10] INFO root fetch - processPackages [alita-sdk]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-27 19:41:10] INFO root fetch - processPackages [someipy]: New version: [0.0.1] Old Version: [0.0.0]
+[2024-05-27 19:41:10] INFO root fetch - processPackages [json-schema-tool]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-05-27 19:41:10] WARNING root fetch - processPackages [crewserve]: Skipping, unable to determine old version
+[2024-05-27 19:41:10] INFO root fetch - main [MainThread]: End processing [crewserve] error
+[2024-05-27 19:41:10] INFO root fetch - processPackages [alita-sdk]: Downloading https://files.pythonhosted.org/packages/58/77/699a43c7f5d3229ed63ff8d8eaba7999323921fbe9a94d3dd2d8b0f9b7a6/alita_sdk-0.1.8.tar.gz
+[2024-05-27 19:41:10] INFO root fetch - processPackages [pysql-manager]: New version: [0.0.3] Old Version: [0.0.1.2]
+[2024-05-27 19:41:10] INFO root fetch - processPackages [hermitage-alchemy]: Downloading https://files.pythonhosted.org/packages/f7/a8/f4ad1defb9b6de63e87d430e695c588924d5ef790b5a138fe84c1705a4e4/hermitage_alchemy-0.2.2.tar.gz
+[2024-05-27 19:41:10] INFO root fetch - processPackages [librds]: Downloading https://files.pythonhosted.org/packages/7b/3c/4f85797fcea7379e321c768997cebfc81298d13b9c6f1a404addf1b8f7c1/librds-1.3.6.tar.gz
+[2024-05-27 19:41:11] INFO root fetch - processPackages [NameExtractor]: Downloading https://files.pythonhosted.org/packages/07/c5/8c1a9e14dc1fc195520b777cda5980efdf9d4f0c7511be1977936f32299b/NameExtractor-1.0.2.tar.gz
+[2024-05-27 19:41:11] INFO root fetch - processPackages [pysql-manager]: Downloading https://files.pythonhosted.org/packages/18/7b/a25f60e6dee92b326428ad0b73805e823d76f14f7025eabf862107300b31/pysql_manager-0.0.1.2.tar.gz
+[2024-05-27 19:41:11] INFO root fetch - processPackages [someipy]: Downloading https://files.pythonhosted.org/packages/24/1e/5b588a6b20196f0231d80df412174fa27d278eb1f49f7520196369a65b21/someipy-0.0.0.tar.gz
+[2024-05-27 19:41:11] INFO root fetch - processPackages [json-schema-tool]: Downloading https://files.pythonhosted.org/packages/84/28/aed6bded3d2e07c6b866748f21e2f9c8563e82743d513ad2f6347630b992/json_schema_tool-0.2.0.tar.gz
+[2024-05-27 19:41:11] INFO root fetch - processPackages [alita-sdk]: Downloading https://files.pythonhosted.org/packages/6d/5f/08f7caedc136fde13091ef88ae35349e7285ef4b9c181b34fb1c4dffd4ba/alita_sdk-0.1.9.tar.gz
+[2024-05-27 19:41:11] INFO root fetch - processPackages [hermitage-alchemy]: Downloading https://files.pythonhosted.org/packages/58/a5/be81b96c95586984c0e661001aa64b942874d239f93ce3cd7366ef70a391/hermitage_alchemy-0.2.3.tar.gz
+[2024-05-27 19:41:11] INFO root fetch - processPackages [librds]: Downloading https://files.pythonhosted.org/packages/0f/62/a72a746049d4863b1af35aa4a5019d8008681939a941ce125608b7174467/librds-1.3.7.tar.gz
+[2024-05-27 19:41:11] INFO root fetch - processPackages [alita-sdk]: executing diffoscope
+[2024-05-27 19:41:11] INFO root fetch - processPackages [alita-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alita_sdk-0.1.8.tar.gz tmp/alita_sdk-0.1.9.tar.gz --markdown 20240527/a/alita-sdk/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-27 19:41:11] INFO root fetch - processPackages [NameExtractor]: Downloading https://files.pythonhosted.org/packages/8a/8f/e69717281b3e4d57fe2c6cf8da6de0f7288e2e96b27f649e6e6cd0027d0a/NameExtractor-1.0.3.tar.gz
+[2024-05-27 19:41:11] INFO root fetch - processPackages [hermitage-alchemy]: executing diffoscope
+[2024-05-27 19:41:11] INFO root fetch - processPackages [hermitage-alchemy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hermitage_alchemy-0.2.2.tar.gz tmp/hermitage_alchemy-0.2.3.tar.gz --markdown 20240527/h/hermitage-alchemy/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-05-27 19:41:11] INFO root fetch - processPackages [librds]: executing diffoscope
+[2024-05-27 19:41:11] INFO root fetch - processPackages [librds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/librds-1.3.6.tar.gz tmp/librds-1.3.7.tar.gz --markdown 20240527/l/librds/1.3.6-1.3.7/README.md --exclude *.pyd
+[2024-05-27 19:41:11] INFO root fetch - processPackages [someipy]: Downloading https://files.pythonhosted.org/packages/4f/4f/f9adc2a4b072fa8c5fbc95b5360ad03cb5eba22663d660a47ee91361776e/someipy-0.0.1.tar.gz
+[2024-05-27 19:41:11] INFO root fetch - processPackages [json-schema-tool]: Downloading https://files.pythonhosted.org/packages/cf/f8/9ebd6ff3da5411823710f2ed9aa299272e0ebb7096fef2032c89bfe5329c/json_schema_tool-0.3.0.tar.gz
+[2024-05-27 19:41:11] INFO root fetch - processPackages [NameExtractor]: executing diffoscope
+[2024-05-27 19:41:11] INFO root fetch - processPackages [NameExtractor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NameExtractor-1.0.2.tar.gz tmp/NameExtractor-1.0.3.tar.gz --markdown 20240527/N/NameExtractor/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-05-27 19:41:11] INFO root fetch - processPackages [pysql-manager]: Downloading https://files.pythonhosted.org/packages/4b/ec/595274ec3288d59cae61ac83e367e71a27b56359b3cead007099af5648e8/pysql_manager-0.0.3.tar.gz
+[2024-05-27 19:41:11] INFO root fetch - processPackages [json-schema-tool]: executing diffoscope
+[2024-05-27 19:41:11] INFO root fetch - processPackages [json-schema-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/json_schema_tool-0.2.0.tar.gz tmp/json_schema_tool-0.3.0.tar.gz --markdown 20240527/j/json-schema-tool/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-05-27 19:41:11] INFO root fetch - processPackages [someipy]: executing diffoscope
+[2024-05-27 19:41:11] INFO root fetch - processPackages [someipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/someipy-0.0.0.tar.gz tmp/someipy-0.0.1.tar.gz --markdown 20240527/s/someipy/0.0.0-0.0.1/README.md --exclude *.pyd
+[2024-05-27 19:41:11] INFO root fetch - processPackages [pysql-manager]: executing diffoscope
+[2024-05-27 19:41:11] INFO root fetch - processPackages [pysql-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysql_manager-0.0.1.2.tar.gz tmp/pysql_manager-0.0.3.tar.gz --markdown 20240527/p/pysql-manager/0.0.1.2-0.0.3/README.md --exclude *.pyd
+[2024-05-27 19:41:12] INFO root fetch - processPackages [alita-sdk]: Remove: archive file [/home/abi/fetcher/tmp/alita_sdk-0.1.8.tar.gz]
+[2024-05-27 19:41:12] INFO root fetch - processPackages [alita-sdk]: Remove: archive file [/home/abi/fetcher/tmp/alita_sdk-0.1.9.tar.gz]
+[2024-05-27 19:41:12] INFO root fetch - main [MainThread]: End processing [alita-sdk]: success
+[2024-05-27 19:41:12] INFO root fetch - processPackages [hermitage-alchemy]: Remove: archive file [/home/abi/fetcher/tmp/hermitage_alchemy-0.2.2.tar.gz]
+[2024-05-27 19:41:12] INFO root fetch - processPackages [hermitage-alchemy]: Remove: archive file [/home/abi/fetcher/tmp/hermitage_alchemy-0.2.3.tar.gz]
+[2024-05-27 19:41:12] INFO root fetch - main [MainThread]: End processing [hermitage-alchemy]: success
+[2024-05-27 19:41:12] INFO root fetch - processPackages [librds]: Remove: archive file [/home/abi/fetcher/tmp/librds-1.3.6.tar.gz]
+[2024-05-27 19:41:12] INFO root fetch - processPackages [librds]: Remove: archive file [/home/abi/fetcher/tmp/librds-1.3.7.tar.gz]
+[2024-05-27 19:41:12] INFO root fetch - main [MainThread]: End processing [librds]: success
+[2024-05-27 19:41:12] INFO root fetch - processPackages [NameExtractor]: Remove: archive file [/home/abi/fetcher/tmp/NameExtractor-1.0.2.tar.gz]
+[2024-05-27 19:41:12] INFO root fetch - processPackages [NameExtractor]: Remove: archive file [/home/abi/fetcher/tmp/NameExtractor-1.0.3.tar.gz]
+[2024-05-27 19:41:12] INFO root fetch - main [MainThread]: End processing [NameExtractor]: success
+[2024-05-27 19:41:12] INFO root fetch - processPackages [json-schema-tool]: Remove: archive file [/home/abi/fetcher/tmp/json_schema_tool-0.2.0.tar.gz]
+[2024-05-27 19:41:12] INFO root fetch - processPackages [json-schema-tool]: Remove: archive file [/home/abi/fetcher/tmp/json_schema_tool-0.3.0.tar.gz]
+[2024-05-27 19:41:12] INFO root fetch - main [MainThread]: End processing [json-schema-tool]: success
+[2024-05-27 19:41:12] INFO root fetch - processPackages [someipy]: Remove: archive file [/home/abi/fetcher/tmp/someipy-0.0.0.tar.gz]
+[2024-05-27 19:41:12] INFO root fetch - processPackages [someipy]: Remove: archive file [/home/abi/fetcher/tmp/someipy-0.0.1.tar.gz]
+[2024-05-27 19:41:12] INFO root fetch - main [MainThread]: End processing [someipy]: success
+[2024-05-27 19:41:12] INFO root fetch - processPackages [pysql-manager]: Remove: archive file [/home/abi/fetcher/tmp/pysql_manager-0.0.1.2.tar.gz]
+[2024-05-27 19:41:12] INFO root fetch - processPackages [pysql-manager]: Remove: archive file [/home/abi/fetcher/tmp/pysql_manager-0.0.3.tar.gz]
+[2024-05-27 19:41:12] INFO root fetch - main [MainThread]: End processing [pysql-manager]: success
+[2024-05-27 19:41:12] INFO root fetch - main [MainThread]: Store serial: [23399254]
