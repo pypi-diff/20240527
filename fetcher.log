@@ -4274,3 +4274,54 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 05:02:57] INFO root fetch - processPackages [simpleai-base]: Remove: archive file [/home/abi/fetcher/tmp/simpleai_base-0.3.7-pp310-pypy310_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2024-05-27 05:02:57] INFO root fetch - main [MainThread]: End processing [simpleai-base]: success
 [2024-05-27 05:02:57] INFO root fetch - main [MainThread]: Store serial: [23390035]
+[2024-05-27 05:05:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23390035]
+[2024-05-27 05:05:13] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-27 05:05:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pami
+[2024-05-27 05:05:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dqlib
+[2024-05-27 05:05:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: CtqKit
+[2024-05-27 05:05:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyfemtet
+[2024-05-27 05:05:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: haniwers
+[2024-05-27 05:05:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ChatTTS
+[2024-05-27 05:05:13] INFO root fetch - processPackages [ChatTTS]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-27 05:05:13] INFO root fetch - processPackages [CtqKit]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-27 05:05:13] WARNING root fetch - processPackages [dqlib]: Skipping, unable to determine old version
+[2024-05-27 05:05:13] INFO root fetch - main [MainThread]: End processing [dqlib] error
+[2024-05-27 05:05:13] INFO root fetch - processPackages [haniwers]: New version: [0.15.0] Old Version: [0.14.4]
+[2024-05-27 05:05:13] INFO root fetch - processPackages [pyfemtet]: New version: [0.4.3] Old Version: [0.4.2]
+[2024-05-27 05:05:13] INFO root fetch - processPackages [pami]: New version: [2024.5.7.1] Old Version: [2024.5.27]
+[2024-05-27 05:05:14] INFO root fetch - processPackages [CtqKit]: Downloading https://files.pythonhosted.org/packages/60/ac/2357d82af1df909dae48b735fca4a40d723359bf3dfbc84fbddd37a5dfe6/ctqkit-0.1.5.tar.gz
+[2024-05-27 05:05:14] INFO root fetch - processPackages [haniwers]: Downloading https://files.pythonhosted.org/packages/9a/29/01eddfd095a9d9cb22015535bba6f13838add0423e06cae881f081aefbc3/haniwers-0.14.4.tar.gz
+[2024-05-27 05:05:14] INFO root fetch - processPackages [ChatTTS]: Downloading https://files.pythonhosted.org/packages/8b/de/96ba3d8cbd160de5ef15ff12503216a81d2ed8ac36d1f73171255a29bdf2/ChatTTS-0.0.3.tar.gz
+[2024-05-27 05:05:14] INFO root fetch - processPackages [pyfemtet]: Downloading https://files.pythonhosted.org/packages/c7/7c/5c1eee381824490e3ee691b2ad3aaa76b976eea7bc61e7c21789740d9a29/pyfemtet-0.4.2.tar.gz
+[2024-05-27 05:05:14] INFO root fetch - processPackages [pami]: Downloading https://files.pythonhosted.org/packages/7e/d7/ddc08ddd9e5533c9705f1a412990d73562ce24f2ec0d63fe39f49554dd91/pami-2024.5.27.tar.gz
+[2024-05-27 05:05:14] INFO root fetch - processPackages [CtqKit]: Downloading https://files.pythonhosted.org/packages/2d/e1/fe26fab56a7bb29ab7578bef20407b7e1ebc07abe87a8a6535dbe57935ee/ctqkit-0.1.6.tar.gz
+[2024-05-27 05:05:14] INFO root fetch - processPackages [ChatTTS]: Downloading https://files.pythonhosted.org/packages/70/60/dc0a7d16a3fb24d28979f0352ff1cdd57f2f4e7116bf1452e660717044e0/ChatTTS-0.0.4.tar.gz
+[2024-05-27 05:05:14] INFO root fetch - processPackages [haniwers]: Downloading https://files.pythonhosted.org/packages/f0/8c/e413138e7774f7d0962d7c28f0a6e37ea421c8f8fd71773270cf4109f06c/haniwers-0.15.0.tar.gz
+[2024-05-27 05:05:14] INFO root fetch - processPackages [CtqKit]: executing diffoscope
+[2024-05-27 05:05:14] INFO root fetch - processPackages [CtqKit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ctqkit-0.1.5.tar.gz tmp/ctqkit-0.1.6.tar.gz --markdown 20240527/C/CtqKit/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-27 05:05:14] INFO root fetch - processPackages [pyfemtet]: Downloading https://files.pythonhosted.org/packages/c0/fe/75a6fa16113e0da422010240bba6edd8e0b180c7378e784f21c0b7dcd834/pyfemtet-0.4.3.tar.gz
+[2024-05-27 05:05:14] INFO root fetch - processPackages [pami]: Downloading https://files.pythonhosted.org/packages/39/e1/8492945bb9b7c83adec0ca90e4a331b9a95ff3680d392a1889bc98aa3823/pami-2024.5.7.1.tar.gz
+[2024-05-27 05:05:14] INFO root fetch - processPackages [haniwers]: executing diffoscope
+[2024-05-27 05:05:14] INFO root fetch - processPackages [haniwers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/haniwers-0.14.4.tar.gz tmp/haniwers-0.15.0.tar.gz --markdown 20240527/h/haniwers/0.14.4-0.15.0/README.md --exclude *.pyd
+[2024-05-27 05:05:14] INFO root fetch - processPackages [ChatTTS]: executing diffoscope
+[2024-05-27 05:05:14] INFO root fetch - processPackages [ChatTTS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ChatTTS-0.0.3.tar.gz tmp/ChatTTS-0.0.4.tar.gz --markdown 20240527/C/ChatTTS/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-27 05:05:14] INFO root fetch - processPackages [pami]: executing diffoscope
+[2024-05-27 05:05:14] INFO root fetch - processPackages [pami]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pami-2024.5.27.tar.gz tmp/pami-2024.5.7.1.tar.gz --markdown 20240527/p/pami/2024.5.27-2024.5.7.1/README.md --exclude *.pyd
+[2024-05-27 05:05:14] INFO root fetch - processPackages [pyfemtet]: executing diffoscope
+[2024-05-27 05:05:14] INFO root fetch - processPackages [pyfemtet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfemtet-0.4.2.tar.gz tmp/pyfemtet-0.4.3.tar.gz --markdown 20240527/p/pyfemtet/0.4.2-0.4.3/README.md --exclude *.pyd
+[2024-05-27 05:05:15] INFO root fetch - processPackages [CtqKit]: Remove: archive file [/home/abi/fetcher/tmp/ctqkit-0.1.5.tar.gz]
+[2024-05-27 05:05:15] INFO root fetch - processPackages [CtqKit]: Remove: archive file [/home/abi/fetcher/tmp/ctqkit-0.1.6.tar.gz]
+[2024-05-27 05:05:15] INFO root fetch - main [MainThread]: End processing [CtqKit]: success
+[2024-05-27 05:05:15] INFO root fetch - processPackages [ChatTTS]: Remove: archive file [/home/abi/fetcher/tmp/ChatTTS-0.0.3.tar.gz]
+[2024-05-27 05:05:15] INFO root fetch - processPackages [ChatTTS]: Remove: archive file [/home/abi/fetcher/tmp/ChatTTS-0.0.4.tar.gz]
+[2024-05-27 05:05:15] INFO root fetch - main [MainThread]: End processing [ChatTTS]: success
+[2024-05-27 05:05:15] INFO root fetch - processPackages [haniwers]: Remove: archive file [/home/abi/fetcher/tmp/haniwers-0.14.4.tar.gz]
+[2024-05-27 05:05:15] INFO root fetch - processPackages [haniwers]: Remove: archive file [/home/abi/fetcher/tmp/haniwers-0.15.0.tar.gz]
+[2024-05-27 05:05:15] INFO root fetch - main [MainThread]: End processing [haniwers]: success
+[2024-05-27 05:05:15] INFO root fetch - processPackages [pyfemtet]: Remove: archive file [/home/abi/fetcher/tmp/pyfemtet-0.4.2.tar.gz]
+[2024-05-27 05:05:15] INFO root fetch - processPackages [pyfemtet]: Remove: archive file [/home/abi/fetcher/tmp/pyfemtet-0.4.3.tar.gz]
+[2024-05-27 05:05:15] INFO root fetch - main [MainThread]: End processing [pyfemtet]: success
+[2024-05-27 05:05:16] INFO root fetch - processPackages [pami]: Remove: archive file [/home/abi/fetcher/tmp/pami-2024.5.27.tar.gz]
+[2024-05-27 05:05:16] INFO root fetch - processPackages [pami]: Remove: archive file [/home/abi/fetcher/tmp/pami-2024.5.7.1.tar.gz]
+[2024-05-27 05:05:16] INFO root fetch - main [MainThread]: End processing [pami]: success
+[2024-05-27 05:05:16] INFO root fetch - main [MainThread]: Store serial: [23390054]
