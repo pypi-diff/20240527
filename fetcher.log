@@ -2053,3 +2053,27 @@
 [2024-05-27 02:39:02] INFO root fetch - processPackages [torchao-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchao_nightly-2024.5.26-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2024-05-27 02:39:02] INFO root fetch - main [MainThread]: End processing [torchao-nightly]: success
 [2024-05-27 02:39:02] INFO root fetch - main [MainThread]: Store serial: [23389132]
+[2024-05-27 02:41:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23389132]
+[2024-05-27 02:41:13] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-27 02:41:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: makepyz
+[2024-05-27 02:41:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: model-explorer-onnx
+[2024-05-27 02:41:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: emaths-tokyo
+[2024-05-27 02:41:13] INFO root fetch - processPackages [model-explorer-onnx]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-05-27 02:41:13] INFO root fetch - processPackages [model-explorer-onnx]: Downloading https://files.pythonhosted.org/packages/10/38/5a3e5ddbfbf91db41761047c3870a20dfaff516f4d583f19e9305f878057/model_explorer_onnx-0.2.4.tar.gz
+[2024-05-27 02:41:13] INFO root fetch - processPackages [makepyz]: New version: [0.0.1b25] Old Version: [0.0.1b23]
+[2024-05-27 02:41:13] WARNING root fetch - processPackages [emaths-tokyo]: Skipping, unable to determine old version
+[2024-05-27 02:41:13] INFO root fetch - main [MainThread]: End processing [emaths-tokyo] error
+[2024-05-27 02:41:13] INFO root fetch - processPackages [makepyz]: Downloading https://files.pythonhosted.org/packages/35/f7/fa5f65defb2fa81bb3b890518c98bf972e4b4d0171d01d02fef079eccdbb/makepyz-0.0.1b23.tar.gz
+[2024-05-27 02:41:13] INFO root fetch - processPackages [model-explorer-onnx]: Downloading https://files.pythonhosted.org/packages/2e/d4/1bf40b06291f6d01d8c7e7518fd94b417f46be10046195d1d3949dad2367/model_explorer_onnx-0.2.5.tar.gz
+[2024-05-27 02:41:13] INFO root fetch - processPackages [model-explorer-onnx]: executing diffoscope
+[2024-05-27 02:41:13] INFO root fetch - processPackages [model-explorer-onnx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/model_explorer_onnx-0.2.4.tar.gz tmp/model_explorer_onnx-0.2.5.tar.gz --markdown 20240527/m/model-explorer-onnx/0.2.4-0.2.5/README.md --exclude *.pyd
+[2024-05-27 02:41:14] INFO root fetch - processPackages [makepyz]: Downloading https://files.pythonhosted.org/packages/27/6b/d5a6d0c0311172c1ae7ce38567c99e24b0bbfbb1719187713368acd1361e/makepyz-0.0.1b25.tar.gz
+[2024-05-27 02:41:14] INFO root fetch - processPackages [makepyz]: executing diffoscope
+[2024-05-27 02:41:14] INFO root fetch - processPackages [makepyz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/makepyz-0.0.1b23.tar.gz tmp/makepyz-0.0.1b25.tar.gz --markdown 20240527/m/makepyz/0.0.1b23-0.0.1b25/README.md --exclude *.pyd
+[2024-05-27 02:41:14] INFO root fetch - processPackages [model-explorer-onnx]: Remove: archive file [/home/abi/fetcher/tmp/model_explorer_onnx-0.2.4.tar.gz]
+[2024-05-27 02:41:14] INFO root fetch - processPackages [model-explorer-onnx]: Remove: archive file [/home/abi/fetcher/tmp/model_explorer_onnx-0.2.5.tar.gz]
+[2024-05-27 02:41:14] INFO root fetch - main [MainThread]: End processing [model-explorer-onnx]: success
+[2024-05-27 02:41:14] INFO root fetch - processPackages [makepyz]: Remove: archive file [/home/abi/fetcher/tmp/makepyz-0.0.1b23.tar.gz]
+[2024-05-27 02:41:14] INFO root fetch - processPackages [makepyz]: Remove: archive file [/home/abi/fetcher/tmp/makepyz-0.0.1b25.tar.gz]
+[2024-05-27 02:41:14] INFO root fetch - main [MainThread]: End processing [makepyz]: success
+[2024-05-27 02:41:14] INFO root fetch - main [MainThread]: Store serial: [23389142]
