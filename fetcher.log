@@ -1876,3 +1876,42 @@
 [2024-05-27 02:26:00] INFO root fetch - processPackages [cdktf-local-exec]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-local-exec-0.5.9.tar.gz]
 [2024-05-27 02:26:00] INFO root fetch - main [MainThread]: End processing [cdktf-local-exec]: success
 [2024-05-27 02:26:00] INFO root fetch - main [MainThread]: Store serial: [23389063]
+[2024-05-27 02:28:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23389063]
+[2024-05-27 02:28:10] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-27 02:28:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdktf-cdk8s
+[2024-05-27 02:28:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-serverless-clamscan
+[2024-05-27 02:28:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-ecs-service-extensions
+[2024-05-27 02:28:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hstream
+[2024-05-27 02:28:10] INFO root fetch - processPackages [hstream]: New version: [0.1.54] Old Version: [0.1.53]
+[2024-05-27 02:28:10] INFO root fetch - processPackages [cdk-ecs-service-extensions]: New version: [2.0.1a99] Old Version: [2.0.1a98]
+[2024-05-27 02:28:10] INFO root fetch - processPackages [hstream]: Downloading https://files.pythonhosted.org/packages/68/b4/ce338a54c89e18c97c3bb7bbf50832444a10fd1b6d3a0753989334a1f54d/hstream-0.1.53.tar.gz
+[2024-05-27 02:28:10] INFO root fetch - processPackages [cdk-ecs-service-extensions]: Downloading https://files.pythonhosted.org/packages/c9/ad/d7965da0f34d52de670def31464963b3971de03ac20cddf5eac577722b31/cdk-ecs-service-extensions-2.0.1a98.tar.gz
+[2024-05-27 02:28:10] INFO root fetch - processPackages [cdktf-cdk8s]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-27 02:28:10] INFO root fetch - processPackages [cdk-serverless-clamscan]: New version: [2.6.99] Old Version: [2.6.98]
+[2024-05-27 02:28:10] INFO root fetch - processPackages [hstream]: Downloading https://files.pythonhosted.org/packages/7a/0c/9ea40ac0a1304b2239818756e7d0d8e7dbc5da5aa7713cebf4ad4484661a/hstream-0.1.54.tar.gz
+[2024-05-27 02:28:10] INFO root fetch - processPackages [cdktf-cdk8s]: Downloading https://files.pythonhosted.org/packages/99/a9/22344888a8fca72d2966fa4f98932af4bdd98bcac60e5d091a8e0b304cce/cdktf-cdk8s-0.9.8.tar.gz
+[2024-05-27 02:28:10] INFO root fetch - processPackages [cdk-ecs-service-extensions]: Downloading https://files.pythonhosted.org/packages/9c/f7/1a593c4ae0d3c80332cec251caad8f13a27842299475718ad186eea220ba/cdk-ecs-service-extensions-2.0.1a99.tar.gz
+[2024-05-27 02:28:10] INFO root fetch - processPackages [cdk-serverless-clamscan]: Downloading https://files.pythonhosted.org/packages/04/67/6fb0e00ee65986b766391e4327a7370cec35f8458c0c80507e3b56a79e57/cdk-serverless-clamscan-2.6.98.tar.gz
+[2024-05-27 02:28:10] INFO root fetch - processPackages [hstream]: executing diffoscope
+[2024-05-27 02:28:10] INFO root fetch - processPackages [hstream]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hstream-0.1.53.tar.gz tmp/hstream-0.1.54.tar.gz --markdown 20240527/h/hstream/0.1.53-0.1.54/README.md --exclude *.pyd
+[2024-05-27 02:28:10] INFO root fetch - processPackages [cdk-ecs-service-extensions]: executing diffoscope
+[2024-05-27 02:28:10] INFO root fetch - processPackages [cdk-ecs-service-extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-ecs-service-extensions-2.0.1a98.tar.gz tmp/cdk-ecs-service-extensions-2.0.1a99.tar.gz --markdown 20240527/c/cdk-ecs-service-extensions/2.0.1a98-2.0.1a99/README.md --exclude *.pyd
+[2024-05-27 02:28:10] INFO root fetch - processPackages [cdktf-cdk8s]: Downloading https://files.pythonhosted.org/packages/20/45/51fb70e05adcb2ecf1886baf859815ec9ba32caaa0a97ffb3e4c544d7025/cdktf-cdk8s-0.9.9.tar.gz
+[2024-05-27 02:28:11] INFO root fetch - processPackages [cdk-serverless-clamscan]: Downloading https://files.pythonhosted.org/packages/53/8f/ea40546b0f696761a1aaeee533ca8a5f53147131c3aa1f0aa1316112f44f/cdk-serverless-clamscan-2.6.99.tar.gz
+[2024-05-27 02:28:11] INFO root fetch - processPackages [cdktf-cdk8s]: executing diffoscope
+[2024-05-27 02:28:11] INFO root fetch - processPackages [cdktf-cdk8s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdk8s-0.9.8.tar.gz tmp/cdktf-cdk8s-0.9.9.tar.gz --markdown 20240527/c/cdktf-cdk8s/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-27 02:28:11] INFO root fetch - processPackages [cdk-serverless-clamscan]: executing diffoscope
+[2024-05-27 02:28:11] INFO root fetch - processPackages [cdk-serverless-clamscan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-serverless-clamscan-2.6.98.tar.gz tmp/cdk-serverless-clamscan-2.6.99.tar.gz --markdown 20240527/c/cdk-serverless-clamscan/2.6.98-2.6.99/README.md --exclude *.pyd
+[2024-05-27 02:28:11] INFO root fetch - processPackages [hstream]: Remove: archive file [/home/abi/fetcher/tmp/hstream-0.1.53.tar.gz]
+[2024-05-27 02:28:11] INFO root fetch - processPackages [hstream]: Remove: archive file [/home/abi/fetcher/tmp/hstream-0.1.54.tar.gz]
+[2024-05-27 02:28:11] INFO root fetch - main [MainThread]: End processing [hstream]: success
+[2024-05-27 02:28:11] INFO root fetch - processPackages [cdk-ecs-service-extensions]: Remove: archive file [/home/abi/fetcher/tmp/cdk-ecs-service-extensions-2.0.1a98.tar.gz]
+[2024-05-27 02:28:11] INFO root fetch - processPackages [cdk-ecs-service-extensions]: Remove: archive file [/home/abi/fetcher/tmp/cdk-ecs-service-extensions-2.0.1a99.tar.gz]
+[2024-05-27 02:28:11] INFO root fetch - main [MainThread]: End processing [cdk-ecs-service-extensions]: success
+[2024-05-27 02:28:11] INFO root fetch - processPackages [cdktf-cdk8s]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdk8s-0.9.8.tar.gz]
+[2024-05-27 02:28:11] INFO root fetch - processPackages [cdktf-cdk8s]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdk8s-0.9.9.tar.gz]
+[2024-05-27 02:28:11] INFO root fetch - main [MainThread]: End processing [cdktf-cdk8s]: success
+[2024-05-27 02:28:11] INFO root fetch - processPackages [cdk-serverless-clamscan]: Remove: archive file [/home/abi/fetcher/tmp/cdk-serverless-clamscan-2.6.98.tar.gz]
+[2024-05-27 02:28:11] INFO root fetch - processPackages [cdk-serverless-clamscan]: Remove: archive file [/home/abi/fetcher/tmp/cdk-serverless-clamscan-2.6.99.tar.gz]
+[2024-05-27 02:28:11] INFO root fetch - main [MainThread]: End processing [cdk-serverless-clamscan]: success
+[2024-05-27 02:28:11] INFO root fetch - main [MainThread]: Store serial: [23389077]
