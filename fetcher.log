@@ -3615,3 +3615,141 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-05-27 04:26:59] ERROR root fetch - processPackages [secretflow-serving-lib]: Timeout during execution of pkgdiff
 [2024-05-27 04:26:59] INFO root fetch - main [MainThread]: End processing [secretflow-serving-lib] error
 [2024-05-27 04:26:59] INFO root fetch - main [MainThread]: Store serial: [23389728]
+[2024-05-27 04:29:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23389728]
+[2024-05-27 04:29:07] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2024-05-27 04:29:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: types-pyserial
+[2024-05-27 04:29:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: types-shapely
+[2024-05-27 04:29:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: types-docker
+[2024-05-27 04:29:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: localstack-core
+[2024-05-27 04:29:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: iam-actions
+[2024-05-27 04:29:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: naif-eop-high-prec
+[2024-05-27 04:29:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: datetime-ru
+[2024-05-27 04:29:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: apeboiy
+[2024-05-27 04:29:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: convocations
+[2024-05-27 04:29:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: absbox
+[2024-05-27 04:29:07] INFO root fetch - processPackages [apeboiy]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-27 04:29:07] INFO root fetch - processPackages [absbox]: New version: [0.9.3] Old Version: [0.8.9]
+[2024-05-27 04:29:08] INFO root fetch - processPackages [localstack-core]: New version: [3.4.1.dev20240526130534] Old Version: [3.4.1.dev20240524203423]
+[2024-05-27 04:29:08] INFO root fetch - processPackages [naif-eop-high-prec]: New version: [2024.5.26] Old Version: [2024.5.25]
+[2024-05-27 04:29:08] INFO root fetch - processPackages [types-pyserial]: New version: [3.5.0.9] Old Version: [3.5.0.8]
+[2024-05-27 04:29:08] INFO root fetch - processPackages [iam-actions]: New version: [1.2.20240526] Old Version: [1.2.20240525]
+[2024-05-27 04:29:08] INFO root fetch - processPackages [types-shapely]: New version: [2.0.0.20240527] Old Version: [2.0.0.20240526]
+[2024-05-27 04:29:08] INFO root fetch - processPackages [types-docker]: New version: [7.0.0.20240527] Old Version: [7.0.0.20240524]
+[2024-05-27 04:29:08] INFO root fetch - processPackages [convocations]: New version: [1.9] Old Version: [1.8]
+[2024-05-27 04:29:08] WARNING root fetch - processPackages [datetime-ru]: Skipping, unable to determine old version
+[2024-05-27 04:29:08] INFO root fetch - processPackages [datetime-ru]: Start processing: nonebot-plugin-with-ai-agents
+[2024-05-27 04:29:08] INFO root fetch - main [MainThread]: End processing [datetime-ru] error
+[2024-05-27 04:29:08] INFO root fetch - processPackages [apeboiy]: Downloading https://files.pythonhosted.org/packages/2c/d1/13ae5c5ceb0c97a91d946e1dd5fc329b3f384b59630ad259ab7ebe72713d/apeboiy-0.0.8.tar.gz
+[2024-05-27 04:29:08] INFO root fetch - processPackages [absbox]: Downloading https://files.pythonhosted.org/packages/f2/f5/d913079148fbe1aebd6fc56849f3245eda346886eb6d2488747d9a978493/AbsBox-0.8.9.tar.gz
+[2024-05-27 04:29:08] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/fc/b2/2c0784c7751048f968f5ea202a28a7a1c9455b101e5a13789b6a4527d236/localstack_core-3.4.1.dev20240524203423.tar.gz
+[2024-05-27 04:29:08] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/52/b0/9472ad62a91d8190897d298607bca5254517942b0b1138ab1e64a37f08f2/iam_actions-1.2.20240525.tar.gz
+[2024-05-27 04:29:08] INFO root fetch - processPackages [nonebot-plugin-with-ai-agents]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-27 04:29:08] INFO root fetch - processPackages [naif-eop-high-prec]: Downloading https://files.pythonhosted.org/packages/87/a0/55ec3521325cfd6c43015206f2bde417e4eaf42edd37f61c30798311df8e/naif_eop_high_prec-2024.5.25.tar.gz
+[2024-05-27 04:29:08] INFO root fetch - processPackages [types-pyserial]: Downloading https://files.pythonhosted.org/packages/b1/3b/add248b26a0fd7ef369888f884ba6102cc36d5a02c1022c5b1f79ff5aa24/types-pyserial-3.5.0.8.tar.gz
+[2024-05-27 04:29:08] INFO root fetch - processPackages [types-shapely]: Downloading https://files.pythonhosted.org/packages/b9/5a/34630f56ad532f564312e73da9ddff90634fc559b3226ad09acc3def5984/types-shapely-2.0.0.20240526.tar.gz
+[2024-05-27 04:29:08] INFO root fetch - processPackages [types-docker]: Downloading https://files.pythonhosted.org/packages/9f/dc/dbdb325bff1d538904d5b72339a7740f2b91ba8d8d3748c3b2cacde54fe9/types-docker-7.0.0.20240524.tar.gz
+[2024-05-27 04:29:08] INFO root fetch - processPackages [convocations]: Downloading https://files.pythonhosted.org/packages/fb/db/da2992e9f055eacb2edfe5237427e57be8ce302e032f3050481941ae1bf7/convocations-1.8.tar.gz
+[2024-05-27 04:29:08] INFO root fetch - processPackages [apeboiy]: Downloading https://files.pythonhosted.org/packages/04/42/a8230541f443842d5b00d865f7079650b8c865bda89a3de4ebc4010d0579/apeboiy-0.0.9.tar.gz
+[2024-05-27 04:29:08] INFO root fetch - processPackages [absbox]: Downloading https://files.pythonhosted.org/packages/63/df/8bc5a95a40d1cc98f7aa27a8baf79a5df19fa8dc2f6836ff02171d21c08a/AbsBox-0.9.3.tar.gz
+[2024-05-27 04:29:08] INFO root fetch - processPackages [nonebot-plugin-with-ai-agents]: Downloading https://files.pythonhosted.org/packages/e3/3d/e2e9f5177423b198ac932e380f0690d2ca12ecaf4e02564e0ae0c86a71a8/nonebot_plugin_with_ai_agents-0.1.8.tar.gz
+[2024-05-27 04:29:08] INFO root fetch - processPackages [apeboiy]: executing diffoscope
+[2024-05-27 04:29:08] INFO root fetch - processPackages [apeboiy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apeboiy-0.0.8.tar.gz tmp/apeboiy-0.0.9.tar.gz --markdown 20240527/a/apeboiy/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-27 04:29:08] INFO root fetch - processPackages [absbox]: executing diffoscope
+[2024-05-27 04:29:08] INFO root fetch - processPackages [absbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AbsBox-0.8.9.tar.gz tmp/AbsBox-0.9.3.tar.gz --markdown 20240527/a/absbox/0.8.9-0.9.3/README.md --exclude *.pyd
+[2024-05-27 04:29:08] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/88/00/9f2665d3c6d9f0e2c5f8405f181047009533ed4bc38f790101cad25cfa29/localstack_core-3.4.1.dev20240526130534.tar.gz
+[2024-05-27 04:29:08] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/ac/49/c7dfb26b6705b5e09f09ea45558602cd0439512b813f7f4bb42379a25363/iam_actions-1.2.20240526.tar.gz
+[2024-05-27 04:29:08] INFO root fetch - processPackages [types-pyserial]: Downloading https://files.pythonhosted.org/packages/1f/d7/2e9d10b2170932ca6bd723d640af2053977b99812a4ca0005ad0bd495393/types-pyserial-3.5.0.9.tar.gz
+[2024-05-27 04:29:08] INFO root fetch - processPackages [types-shapely]: Downloading https://files.pythonhosted.org/packages/75/ca/4513e393eb621a8db11470bfbc7c27ca316b31ffb47754264ca2c4f39fb8/types-shapely-2.0.0.20240527.tar.gz
+[2024-05-27 04:29:08] INFO root fetch - processPackages [types-docker]: Downloading https://files.pythonhosted.org/packages/b5/78/42af8510dad35f63295ebacccbb0fcec36ef5b015641235501a7de080756/types-docker-7.0.0.20240527.tar.gz
+[2024-05-27 04:29:08] INFO root fetch - processPackages [convocations]: Downloading https://files.pythonhosted.org/packages/26/06/8cba7e1f874d3ad177924e3e894b6709038b6ca3e28d49b7f73b9a438925/convocations-1.9.tar.gz
+[2024-05-27 04:29:08] INFO root fetch - processPackages [naif-eop-high-prec]: Downloading https://files.pythonhosted.org/packages/16/30/31d204fe6aed2af5e564e4ec9acfe2c61b9818e60b83bc8865f63fa6a1e2/naif_eop_high_prec-2024.5.26.tar.gz
+[2024-05-27 04:29:08] INFO root fetch - processPackages [types-pyserial]: executing diffoscope
+[2024-05-27 04:29:08] INFO root fetch - processPackages [types-pyserial]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-pyserial-3.5.0.8.tar.gz tmp/types-pyserial-3.5.0.9.tar.gz --markdown 20240527/t/types-pyserial/3.5.0.8-3.5.0.9/README.md --exclude *.pyd
+[2024-05-27 04:29:08] INFO root fetch - processPackages [types-docker]: executing diffoscope
+[2024-05-27 04:29:08] INFO root fetch - processPackages [types-docker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-docker-7.0.0.20240524.tar.gz tmp/types-docker-7.0.0.20240527.tar.gz --markdown 20240527/t/types-docker/7.0.0.20240524-7.0.0.20240527/README.md --exclude *.pyd
+[2024-05-27 04:29:08] INFO root fetch - processPackages [types-shapely]: executing diffoscope
+[2024-05-27 04:29:08] INFO root fetch - processPackages [types-shapely]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-shapely-2.0.0.20240526.tar.gz tmp/types-shapely-2.0.0.20240527.tar.gz --markdown 20240527/t/types-shapely/2.0.0.20240526-2.0.0.20240527/README.md --exclude *.pyd
+[2024-05-27 04:29:08] INFO root fetch - processPackages [iam-actions]: executing diffoscope
+[2024-05-27 04:29:08] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2024-05-27 04:29:08] INFO root fetch - processPackages [iam-actions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iam_actions-1.2.20240525.tar.gz tmp/iam_actions-1.2.20240526.tar.gz --markdown 20240527/i/iam-actions/1.2.20240525-1.2.20240526/README.md --exclude *.pyd
+[2024-05-27 04:29:08] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack_core-3.4.1.dev20240524203423.tar.gz tmp/localstack_core-3.4.1.dev20240526130534.tar.gz --markdown 20240527/l/localstack-core/3.4.1.dev20240524203423-3.4.1.dev20240526130534/README.md --exclude *.pyd
+[2024-05-27 04:29:08] INFO root fetch - processPackages [convocations]: executing diffoscope
+[2024-05-27 04:29:08] INFO root fetch - processPackages [convocations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/convocations-1.8.tar.gz tmp/convocations-1.9.tar.gz --markdown 20240527/c/convocations/1.8-1.9/README.md --exclude *.pyd
+[2024-05-27 04:29:09] INFO root fetch - processPackages [nonebot-plugin-with-ai-agents]: Downloading https://files.pythonhosted.org/packages/f1/8a/09f5c0fa837a20273e3df7293a9e551561d761be566af12e1a3009ba1dde/nonebot_plugin_with_ai_agents-0.1.9.tar.gz
+[2024-05-27 04:29:09] INFO root fetch - processPackages [naif-eop-high-prec]: executing diffoscope
+[2024-05-27 04:29:09] INFO root fetch - processPackages [naif-eop-high-prec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naif_eop_high_prec-2024.5.25.tar.gz tmp/naif_eop_high_prec-2024.5.26.tar.gz --markdown 20240527/n/naif-eop-high-prec/2024.5.25-2024.5.26/README.md --exclude *.pyd
+[2024-05-27 04:29:09] INFO root fetch - processPackages [nonebot-plugin-with-ai-agents]: executing diffoscope
+[2024-05-27 04:29:09] INFO root fetch - processPackages [nonebot-plugin-with-ai-agents]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_with_ai_agents-0.1.8.tar.gz tmp/nonebot_plugin_with_ai_agents-0.1.9.tar.gz --markdown 20240527/n/nonebot-plugin-with-ai-agents/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-27 04:29:09] INFO root fetch - processPackages [apeboiy]: Remove: archive file [/home/abi/fetcher/tmp/apeboiy-0.0.8.tar.gz]
+[2024-05-27 04:29:09] INFO root fetch - processPackages [apeboiy]: Remove: archive file [/home/abi/fetcher/tmp/apeboiy-0.0.9.tar.gz]
+[2024-05-27 04:29:09] INFO root fetch - processPackages [apeboiy]: Start processing: protoc-polyglot
+[2024-05-27 04:29:09] INFO root fetch - main [MainThread]: End processing [apeboiy]: success
+[2024-05-27 04:29:09] INFO root fetch - processPackages [protoc-polyglot]: New version: [0.0.1.post4] Old Version: [0.0.1.post3]
+[2024-05-27 04:29:09] INFO root fetch - processPackages [absbox]: Remove: archive file [/home/abi/fetcher/tmp/AbsBox-0.8.9.tar.gz]
+[2024-05-27 04:29:09] INFO root fetch - processPackages [absbox]: Remove: archive file [/home/abi/fetcher/tmp/AbsBox-0.9.3.tar.gz]
+[2024-05-27 04:29:09] INFO root fetch - processPackages [absbox]: Start processing: postfinancex
+[2024-05-27 04:29:09] INFO root fetch - main [MainThread]: End processing [absbox]: success
+[2024-05-27 04:29:09] INFO root fetch - processPackages [postfinancex]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-27 04:29:09] INFO root fetch - processPackages [protoc-polyglot]: Downloading https://files.pythonhosted.org/packages/f9/c2/b0ea040b334e12d05395c035b3c2b20031c8a573cbe538cf7a72570cc2b1/protoc_polyglot-0.0.1.post3.tar.gz
+[2024-05-27 04:29:09] INFO root fetch - processPackages [postfinancex]: Downloading https://files.pythonhosted.org/packages/2a/21/e425fe5f00504533642d1e2ab7a784e0137fcc13e955b442603714d40033/postfinancex-0.0.4.tar.gz
+[2024-05-27 04:29:09] INFO root fetch - processPackages [types-pyserial]: Remove: archive file [/home/abi/fetcher/tmp/types-pyserial-3.5.0.8.tar.gz]
+[2024-05-27 04:29:09] INFO root fetch - processPackages [types-pyserial]: Remove: archive file [/home/abi/fetcher/tmp/types-pyserial-3.5.0.9.tar.gz]
+[2024-05-27 04:29:09] INFO root fetch - processPackages [types-pyserial]: Start processing: lckytools
+[2024-05-27 04:29:09] INFO root fetch - main [MainThread]: End processing [types-pyserial]: success
+[2024-05-27 04:29:09] INFO root fetch - processPackages [protoc-polyglot]: Downloading https://files.pythonhosted.org/packages/24/c3/d8ccc7076d2cdae9b193850e5c77bcb70fd573aaf7f6019bcdd0f87163b8/protoc_polyglot-0.0.1.post4.tar.gz
+[2024-05-27 04:29:09] INFO root fetch - processPackages [types-shapely]: Remove: archive file [/home/abi/fetcher/tmp/types-shapely-2.0.0.20240526.tar.gz]
+[2024-05-27 04:29:09] INFO root fetch - processPackages [types-shapely]: Remove: archive file [/home/abi/fetcher/tmp/types-shapely-2.0.0.20240527.tar.gz]
+[2024-05-27 04:29:09] INFO root fetch - processPackages [types-shapely]: Start processing: discordreactive
+[2024-05-27 04:29:09] INFO root fetch - main [MainThread]: End processing [types-shapely]: success
+[2024-05-27 04:29:09] INFO root fetch - processPackages [lckytools]: New version: [0.0.0b9] Old Version: [0.0.0b8]
+[2024-05-27 04:29:09] INFO root fetch - processPackages [postfinancex]: Downloading https://files.pythonhosted.org/packages/14/ee/c792954a9f6d2ad8a09aa2d083a8850e8d8e47c78174a3779d24a8c7f3a2/postfinancex-0.0.5.tar.gz
+[2024-05-27 04:29:09] INFO root fetch - processPackages [types-docker]: Remove: archive file [/home/abi/fetcher/tmp/types-docker-7.0.0.20240524.tar.gz]
+[2024-05-27 04:29:09] INFO root fetch - processPackages [types-docker]: Remove: archive file [/home/abi/fetcher/tmp/types-docker-7.0.0.20240527.tar.gz]
+[2024-05-27 04:29:09] INFO root fetch - processPackages [types-docker]: Start processing: carbon-registry-indexer
+[2024-05-27 04:29:09] INFO root fetch - main [MainThread]: End processing [types-docker]: success
+[2024-05-27 04:29:10] WARNING root fetch - processPackages [discordreactive]: Skipping, unable to determine old version
+[2024-05-27 04:29:10] INFO root fetch - processPackages [discordreactive]: Start processing: krezi
+[2024-05-27 04:29:10] INFO root fetch - main [MainThread]: End processing [discordreactive] error
+[2024-05-27 04:29:10] INFO root fetch - processPackages [lckytools]: Downloading https://files.pythonhosted.org/packages/6d/fd/4f8d5200d068fd3b10ad14eedf738f1e677562094d86d724e845edea41ef/lckytools-0.0.0b8.tar.gz
+[2024-05-27 04:29:10] INFO root fetch - processPackages [carbon-registry-indexer]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-27 04:29:10] WARNING root fetch - processPackages [krezi]: Skipping, unable to determine old version
+[2024-05-27 04:29:10] INFO root fetch - main [MainThread]: End processing [krezi] error
+[2024-05-27 04:29:10] INFO root fetch - processPackages [postfinancex]: executing diffoscope
+[2024-05-27 04:29:10] INFO root fetch - processPackages [postfinancex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/postfinancex-0.0.4.tar.gz tmp/postfinancex-0.0.5.tar.gz --markdown 20240527/p/postfinancex/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-27 04:29:10] INFO root fetch - processPackages [protoc-polyglot]: executing diffoscope
+[2024-05-27 04:29:10] INFO root fetch - processPackages [protoc-polyglot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/protoc_polyglot-0.0.1.post3.tar.gz tmp/protoc_polyglot-0.0.1.post4.tar.gz --markdown 20240527/p/protoc-polyglot/0.0.1.post3-0.0.1.post4/README.md --exclude *.pyd
+[2024-05-27 04:29:10] INFO root fetch - processPackages [carbon-registry-indexer]: Downloading https://files.pythonhosted.org/packages/6a/ea/27f744d6e0e724c6e0575edb2c67737c6a70147e7ebcd97674a2959d66dd/carbon-registry-indexer-0.1.8.tar.gz
+[2024-05-27 04:29:10] INFO root fetch - processPackages [nonebot-plugin-with-ai-agents]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_with_ai_agents-0.1.8.tar.gz]
+[2024-05-27 04:29:10] INFO root fetch - processPackages [nonebot-plugin-with-ai-agents]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_with_ai_agents-0.1.9.tar.gz]
+[2024-05-27 04:29:10] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-with-ai-agents]: success
+[2024-05-27 04:29:10] INFO root fetch - processPackages [lckytools]: Downloading https://files.pythonhosted.org/packages/d2/23/dc52e8933b51b938fdd402bf5b1bf168c20f9ee62bbcc26f1f5be70d705c/lckytools-0.0.0b9.tar.gz
+[2024-05-27 04:29:10] INFO root fetch - processPackages [convocations]: Remove: archive file [/home/abi/fetcher/tmp/convocations-1.8.tar.gz]
+[2024-05-27 04:29:10] INFO root fetch - processPackages [convocations]: Remove: archive file [/home/abi/fetcher/tmp/convocations-1.9.tar.gz]
+[2024-05-27 04:29:10] INFO root fetch - main [MainThread]: End processing [convocations]: success
+[2024-05-27 04:29:10] INFO root fetch - processPackages [carbon-registry-indexer]: Downloading https://files.pythonhosted.org/packages/e5/cd/1e1e95e6852f521936093508bcf7bbf278df34c6892a3bcd86aa33caf947/carbon-registry-indexer-0.1.9.tar.gz
+[2024-05-27 04:29:10] INFO root fetch - processPackages [lckytools]: executing diffoscope
+[2024-05-27 04:29:10] INFO root fetch - processPackages [lckytools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lckytools-0.0.0b8.tar.gz tmp/lckytools-0.0.0b9.tar.gz --markdown 20240527/l/lckytools/0.0.0b8-0.0.0b9/README.md --exclude *.pyd
+[2024-05-27 04:29:10] INFO root fetch - processPackages [carbon-registry-indexer]: executing diffoscope
+[2024-05-27 04:29:10] INFO root fetch - processPackages [carbon-registry-indexer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/carbon-registry-indexer-0.1.8.tar.gz tmp/carbon-registry-indexer-0.1.9.tar.gz --markdown 20240527/c/carbon-registry-indexer/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-27 04:29:10] INFO root fetch - processPackages [postfinancex]: Remove: archive file [/home/abi/fetcher/tmp/postfinancex-0.0.4.tar.gz]
+[2024-05-27 04:29:10] INFO root fetch - processPackages [postfinancex]: Remove: archive file [/home/abi/fetcher/tmp/postfinancex-0.0.5.tar.gz]
+[2024-05-27 04:29:10] INFO root fetch - main [MainThread]: End processing [postfinancex]: success
+[2024-05-27 04:29:11] INFO root fetch - processPackages [protoc-polyglot]: Remove: archive file [/home/abi/fetcher/tmp/protoc_polyglot-0.0.1.post3.tar.gz]
+[2024-05-27 04:29:11] INFO root fetch - processPackages [protoc-polyglot]: Remove: archive file [/home/abi/fetcher/tmp/protoc_polyglot-0.0.1.post4.tar.gz]
+[2024-05-27 04:29:11] INFO root fetch - main [MainThread]: End processing [protoc-polyglot]: success
+[2024-05-27 04:29:11] INFO root fetch - processPackages [lckytools]: Remove: archive file [/home/abi/fetcher/tmp/lckytools-0.0.0b8.tar.gz]
+[2024-05-27 04:29:11] INFO root fetch - processPackages [lckytools]: Remove: archive file [/home/abi/fetcher/tmp/lckytools-0.0.0b9.tar.gz]
+[2024-05-27 04:29:11] INFO root fetch - main [MainThread]: End processing [lckytools]: success
+[2024-05-27 04:29:11] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20240525.tar.gz]
+[2024-05-27 04:29:11] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20240526.tar.gz]
+[2024-05-27 04:29:11] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
+[2024-05-27 04:29:11] INFO root fetch - processPackages [carbon-registry-indexer]: Remove: archive file [/home/abi/fetcher/tmp/carbon-registry-indexer-0.1.8.tar.gz]
+[2024-05-27 04:29:11] INFO root fetch - processPackages [carbon-registry-indexer]: Remove: archive file [/home/abi/fetcher/tmp/carbon-registry-indexer-0.1.9.tar.gz]
+[2024-05-27 04:29:11] INFO root fetch - main [MainThread]: End processing [carbon-registry-indexer]: success
+[2024-05-27 04:29:13] INFO root fetch - processPackages [naif-eop-high-prec]: Remove: archive file [/home/abi/fetcher/tmp/naif_eop_high_prec-2024.5.25.tar.gz]
+[2024-05-27 04:29:13] INFO root fetch - processPackages [naif-eop-high-prec]: Remove: archive file [/home/abi/fetcher/tmp/naif_eop_high_prec-2024.5.26.tar.gz]
+[2024-05-27 04:29:13] INFO root fetch - main [MainThread]: End processing [naif-eop-high-prec]: success
+[2024-05-27 04:29:13] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.4.1.dev20240524203423.tar.gz]
+[2024-05-27 04:29:13] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.4.1.dev20240526130534.tar.gz]
+[2024-05-27 04:29:13] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2024-05-27 04:29:13] INFO root fetch - main [MainThread]: Store serial: [23389785]
