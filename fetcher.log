@@ -2829,3 +2829,42 @@
 [2024-05-27 03:33:46] WARNING root fetch - processPackages [testlala]: Skipping, unable to determine old version
 [2024-05-27 03:33:46] INFO root fetch - main [MainThread]: End processing [testlala] error
 [2024-05-27 03:33:46] INFO root fetch - main [MainThread]: Store serial: [23389449]
+[2024-05-27 03:35:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23389449]
+[2024-05-27 03:35:55] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-27 03:35:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-contact-form
+[2024-05-27 03:35:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: marqo
+[2024-05-27 03:35:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zetascale
+[2024-05-27 03:35:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: apeboiy
+[2024-05-27 03:35:55] INFO root fetch - processPackages [apeboiy]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-27 03:35:55] INFO root fetch - processPackages [zetascale]: New version: [2.5.4] Old Version: [2.5.3]
+[2024-05-27 03:35:55] INFO root fetch - processPackages [apeboiy]: Downloading https://files.pythonhosted.org/packages/2c/d1/13ae5c5ceb0c97a91d946e1dd5fc329b3f384b59630ad259ab7ebe72713d/apeboiy-0.0.8.tar.gz
+[2024-05-27 03:35:55] INFO root fetch - processPackages [django-contact-form]: New version: [5.0.0] Old Version: [2.1]
+[2024-05-27 03:35:55] INFO root fetch - processPackages [marqo]: New version: [3.5.1] Old Version: [3.5.0]
+[2024-05-27 03:35:55] INFO root fetch - processPackages [zetascale]: Downloading https://files.pythonhosted.org/packages/e2/e2/70e21cea2fb8be393b1f6de51359a25a6af0908c6488a0419dd784849698/zetascale-2.5.3.tar.gz
+[2024-05-27 03:35:56] INFO root fetch - processPackages [django-contact-form]: Downloading https://files.pythonhosted.org/packages/88/5f/127b499184466c47ed4cd7559284ebcd8638d6dc6d4ba122477632f89f28/django-contact-form-2.1.tar.gz
+[2024-05-27 03:35:56] INFO root fetch - processPackages [apeboiy]: Downloading https://files.pythonhosted.org/packages/04/42/a8230541f443842d5b00d865f7079650b8c865bda89a3de4ebc4010d0579/apeboiy-0.0.9.tar.gz
+[2024-05-27 03:35:56] INFO root fetch - processPackages [marqo]: Downloading https://files.pythonhosted.org/packages/62/10/41936f8b8fa4b45787bd5ea911ad71e4e3b8f1910dfb8a8551b110d85bc3/marqo-3.5.0.tar.gz
+[2024-05-27 03:35:56] INFO root fetch - processPackages [apeboiy]: executing diffoscope
+[2024-05-27 03:35:56] INFO root fetch - processPackages [apeboiy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apeboiy-0.0.8.tar.gz tmp/apeboiy-0.0.9.tar.gz --markdown 20240527/a/apeboiy/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-27 03:35:56] INFO root fetch - processPackages [zetascale]: Downloading https://files.pythonhosted.org/packages/c4/11/a02cef2757c020124b0a63737f092d65c4f90eb1772bf52e99ba112e8b65/zetascale-2.5.4.tar.gz
+[2024-05-27 03:35:56] INFO root fetch - processPackages [django-contact-form]: Downloading https://files.pythonhosted.org/packages/fb/d1/31ded422f3bd0a1ffd871230608c5f0df5b53efac1ae19e89e6c675262cd/django_contact_form-5.0.0.tar.gz
+[2024-05-27 03:35:56] INFO root fetch - processPackages [zetascale]: executing diffoscope
+[2024-05-27 03:35:56] INFO root fetch - processPackages [zetascale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zetascale-2.5.3.tar.gz tmp/zetascale-2.5.4.tar.gz --markdown 20240527/z/zetascale/2.5.3-2.5.4/README.md --exclude *.pyd
+[2024-05-27 03:35:56] INFO root fetch - processPackages [marqo]: Downloading https://files.pythonhosted.org/packages/c7/1d/93b3a178ef466fdc16bb56c8c54b454f5c9525805fde74520bb6481a01cc/marqo-3.5.1.tar.gz
+[2024-05-27 03:35:56] INFO root fetch - processPackages [django-contact-form]: executing diffoscope
+[2024-05-27 03:35:56] INFO root fetch - processPackages [django-contact-form]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-contact-form-2.1.tar.gz tmp/django_contact_form-5.0.0.tar.gz --markdown 20240527/d/django-contact-form/2.1-5.0.0/README.md --exclude *.pyd
+[2024-05-27 03:35:56] INFO root fetch - processPackages [marqo]: executing diffoscope
+[2024-05-27 03:35:56] INFO root fetch - processPackages [marqo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/marqo-3.5.0.tar.gz tmp/marqo-3.5.1.tar.gz --markdown 20240527/m/marqo/3.5.0-3.5.1/README.md --exclude *.pyd
+[2024-05-27 03:35:56] INFO root fetch - processPackages [apeboiy]: Remove: archive file [/home/abi/fetcher/tmp/apeboiy-0.0.8.tar.gz]
+[2024-05-27 03:35:56] INFO root fetch - processPackages [apeboiy]: Remove: archive file [/home/abi/fetcher/tmp/apeboiy-0.0.9.tar.gz]
+[2024-05-27 03:35:56] INFO root fetch - main [MainThread]: End processing [apeboiy]: success
+[2024-05-27 03:35:57] INFO root fetch - processPackages [marqo]: Remove: archive file [/home/abi/fetcher/tmp/marqo-3.5.0.tar.gz]
+[2024-05-27 03:35:57] INFO root fetch - processPackages [marqo]: Remove: archive file [/home/abi/fetcher/tmp/marqo-3.5.1.tar.gz]
+[2024-05-27 03:35:57] INFO root fetch - main [MainThread]: End processing [marqo]: success
+[2024-05-27 03:35:57] INFO root fetch - processPackages [django-contact-form]: Remove: archive file [/home/abi/fetcher/tmp/django-contact-form-2.1.tar.gz]
+[2024-05-27 03:35:57] INFO root fetch - processPackages [django-contact-form]: Remove: archive file [/home/abi/fetcher/tmp/django_contact_form-5.0.0.tar.gz]
+[2024-05-27 03:35:57] INFO root fetch - main [MainThread]: End processing [django-contact-form]: success
+[2024-05-27 03:35:57] INFO root fetch - processPackages [zetascale]: Remove: archive file [/home/abi/fetcher/tmp/zetascale-2.5.3.tar.gz]
+[2024-05-27 03:35:57] INFO root fetch - processPackages [zetascale]: Remove: archive file [/home/abi/fetcher/tmp/zetascale-2.5.4.tar.gz]
+[2024-05-27 03:35:57] INFO root fetch - main [MainThread]: End processing [zetascale]: success
+[2024-05-27 03:35:57] INFO root fetch - main [MainThread]: Store serial: [23389461]
