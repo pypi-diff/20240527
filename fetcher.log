@@ -8374,3 +8374,69 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 09:35:59] INFO root fetch - processPackages [analytics-mesh]: Remove: archive file [/home/abi/fetcher/tmp/analytics_mesh-0.1.9-py3-none-any.whl.zip]
 [2024-05-27 09:35:59] INFO root fetch - main [MainThread]: End processing [analytics-mesh]: success
 [2024-05-27 09:35:59] INFO root fetch - main [MainThread]: Store serial: [23391994]
+[2024-05-27 09:38:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23391994]
+[2024-05-27 09:38:09] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-27 09:38:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ambr-py
+[2024-05-27 09:38:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: multi-modal-tokenizers
+[2024-05-27 09:38:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: json-dict-diff
+[2024-05-27 09:38:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: omspy
+[2024-05-27 09:38:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: stream-zip
+[2024-05-27 09:38:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: python-startfile
+[2024-05-27 09:38:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: folkmq
+[2024-05-27 09:38:09] INFO root fetch - processPackages [json-dict-diff]: New version: [1.0.3] Old Version: [1.0.1]
+[2024-05-27 09:38:09] INFO root fetch - processPackages [stream-zip]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-27 09:38:09] INFO root fetch - processPackages [folkmq]: New version: [1.5.1] Old Version: [1.5.0]
+[2024-05-27 09:38:09] INFO root fetch - processPackages [omspy]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-27 09:38:09] INFO root fetch - processPackages [multi-modal-tokenizers]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-27 09:38:09] INFO root fetch - processPackages [ambr-py]: New version: [1.7.6] Old Version: [1.7.5]
+[2024-05-27 09:38:09] INFO root fetch - processPackages [python-startfile]: New version: [0.0.2] Old Version: [0.0.1.1]
+[2024-05-27 09:38:09] INFO root fetch - processPackages [json-dict-diff]: Downloading https://files.pythonhosted.org/packages/84/4d/52ccd7aa0eba147f900ebfa7e77e8d6dece248665b24d4b6f92cbbb39ae7/json_dict_diff-1.0.1.tar.gz
+[2024-05-27 09:38:09] INFO root fetch - processPackages [stream-zip]: Downloading https://files.pythonhosted.org/packages/4b/65/27b6998732f631a7691a5157fb51c5d5328faa138986c06684c5ae4fe771/stream-zip-0.0.8.tar.gz
+[2024-05-27 09:38:09] INFO root fetch - processPackages [multi-modal-tokenizers]: Downloading https://files.pythonhosted.org/packages/8c/cf/0b962bd9fb9785ce310c8c1ad861ce5edf2eda4801088f24d5a90494fa0c/multi_modal_tokenizers-0.0.1.tar.gz
+[2024-05-27 09:38:09] INFO root fetch - processPackages [folkmq]: Downloading https://files.pythonhosted.org/packages/47/0f/44e9f416162961fe45f5bfbc8b9c03d0894212fc61e96376d2eafbadb5e1/folkmq-1.5.0.tar.gz
+[2024-05-27 09:38:09] INFO root fetch - processPackages [omspy]: Downloading https://files.pythonhosted.org/packages/89/da/13dd50c5057cb20d1f1dfd59d8fa8239c28775ada5acb478fd81e71a8edf/omspy-0.9.0.tar.gz
+[2024-05-27 09:38:09] INFO root fetch - processPackages [ambr-py]: Downloading https://files.pythonhosted.org/packages/d0/99/022aa8bab3b4d666fe371d304feb2155918eaa6d7e315ba7cbc3d80f4264/ambr_py-1.7.5.tar.gz
+[2024-05-27 09:38:10] INFO root fetch - processPackages [python-startfile]: Downloading https://files.pythonhosted.org/packages/e4/09/6c302cfb41d960d8d2f5c75a09de0c0f58b58d6ec5ccd5ec0008e5563513/python_startfile-0.0.1.1.tar.gz
+[2024-05-27 09:38:10] INFO root fetch - processPackages [json-dict-diff]: Downloading https://files.pythonhosted.org/packages/8e/a8/5d36bea826d5846608c8728ed295c2a9edfba96c42cae1031b0415702885/json_dict_diff-1.0.3.tar.gz
+[2024-05-27 09:38:10] INFO root fetch - processPackages [stream-zip]: Downloading https://files.pythonhosted.org/packages/0e/94/162b767659b1b6afe9241c47773d921e2b8a0f97f124d374e76c7f1d2b53/stream-zip-0.0.9.tar.gz
+[2024-05-27 09:38:10] INFO root fetch - processPackages [json-dict-diff]: executing diffoscope
+[2024-05-27 09:38:10] INFO root fetch - processPackages [json-dict-diff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/json_dict_diff-1.0.1.tar.gz tmp/json_dict_diff-1.0.3.tar.gz --markdown 20240527/j/json-dict-diff/1.0.1-1.0.3/README.md --exclude *.pyd
+[2024-05-27 09:38:10] INFO root fetch - processPackages [multi-modal-tokenizers]: Downloading https://files.pythonhosted.org/packages/5d/50/af0d67760762fa93c0b7b353d2b79cb3d64a019eb00b7c30a13c8a76bda7/multi_modal_tokenizers-0.0.2.tar.gz
+[2024-05-27 09:38:10] INFO root fetch - processPackages [stream-zip]: executing diffoscope
+[2024-05-27 09:38:10] INFO root fetch - processPackages [stream-zip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stream-zip-0.0.8.tar.gz tmp/stream-zip-0.0.9.tar.gz --markdown 20240527/s/stream-zip/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-27 09:38:10] INFO root fetch - processPackages [folkmq]: Downloading https://files.pythonhosted.org/packages/a2/70/db5332fafeb1eebb2d64e6a4c5afebb1641c514451526d6ea7f51a65521c/folkmq-1.5.1.tar.gz
+[2024-05-27 09:38:10] INFO root fetch - processPackages [omspy]: Downloading https://files.pythonhosted.org/packages/e3/3f/57e49ea70efb1fcb3d40210e9e1fa481e6605c4de98a3deb18880fc3fdff/omspy-0.9.1.tar.gz
+[2024-05-27 09:38:10] INFO root fetch - processPackages [ambr-py]: Downloading https://files.pythonhosted.org/packages/87/e2/276b1016fe159dccca17a7315dc900c15821e6e1a979961433f545928919/ambr_py-1.7.6.tar.gz
+[2024-05-27 09:38:10] INFO root fetch - processPackages [multi-modal-tokenizers]: executing diffoscope
+[2024-05-27 09:38:10] INFO root fetch - processPackages [multi-modal-tokenizers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multi_modal_tokenizers-0.0.1.tar.gz tmp/multi_modal_tokenizers-0.0.2.tar.gz --markdown 20240527/m/multi-modal-tokenizers/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-27 09:38:10] INFO root fetch - processPackages [folkmq]: executing diffoscope
+[2024-05-27 09:38:10] INFO root fetch - processPackages [folkmq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/folkmq-1.5.0.tar.gz tmp/folkmq-1.5.1.tar.gz --markdown 20240527/f/folkmq/1.5.0-1.5.1/README.md --exclude *.pyd
+[2024-05-27 09:38:10] INFO root fetch - processPackages [python-startfile]: Downloading https://files.pythonhosted.org/packages/50/7a/5128c1bee2073a7a271a9448920af6f81bc39e1ec288f26d84fbf9fb8d95/python_startfile-0.0.2.tar.gz
+[2024-05-27 09:38:10] INFO root fetch - processPackages [omspy]: executing diffoscope
+[2024-05-27 09:38:10] INFO root fetch - processPackages [omspy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omspy-0.9.0.tar.gz tmp/omspy-0.9.1.tar.gz --markdown 20240527/o/omspy/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-27 09:38:10] INFO root fetch - processPackages [ambr-py]: executing diffoscope
+[2024-05-27 09:38:10] INFO root fetch - processPackages [ambr-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ambr_py-1.7.5.tar.gz tmp/ambr_py-1.7.6.tar.gz --markdown 20240527/a/ambr-py/1.7.5-1.7.6/README.md --exclude *.pyd
+[2024-05-27 09:38:10] INFO root fetch - processPackages [python-startfile]: executing diffoscope
+[2024-05-27 09:38:10] INFO root fetch - processPackages [python-startfile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_startfile-0.0.1.1.tar.gz tmp/python_startfile-0.0.2.tar.gz --markdown 20240527/p/python-startfile/0.0.1.1-0.0.2/README.md --exclude *.pyd
+[2024-05-27 09:38:11] INFO root fetch - processPackages [stream-zip]: Remove: archive file [/home/abi/fetcher/tmp/stream-zip-0.0.8.tar.gz]
+[2024-05-27 09:38:11] INFO root fetch - processPackages [stream-zip]: Remove: archive file [/home/abi/fetcher/tmp/stream-zip-0.0.9.tar.gz]
+[2024-05-27 09:38:11] INFO root fetch - main [MainThread]: End processing [stream-zip]: success
+[2024-05-27 09:38:11] INFO root fetch - processPackages [json-dict-diff]: Remove: archive file [/home/abi/fetcher/tmp/json_dict_diff-1.0.1.tar.gz]
+[2024-05-27 09:38:11] INFO root fetch - processPackages [json-dict-diff]: Remove: archive file [/home/abi/fetcher/tmp/json_dict_diff-1.0.3.tar.gz]
+[2024-05-27 09:38:11] INFO root fetch - main [MainThread]: End processing [json-dict-diff]: success
+[2024-05-27 09:38:12] INFO root fetch - processPackages [multi-modal-tokenizers]: Remove: archive file [/home/abi/fetcher/tmp/multi_modal_tokenizers-0.0.1.tar.gz]
+[2024-05-27 09:38:12] INFO root fetch - processPackages [multi-modal-tokenizers]: Remove: archive file [/home/abi/fetcher/tmp/multi_modal_tokenizers-0.0.2.tar.gz]
+[2024-05-27 09:38:12] INFO root fetch - main [MainThread]: End processing [multi-modal-tokenizers]: success
+[2024-05-27 09:38:12] INFO root fetch - processPackages [python-startfile]: Remove: archive file [/home/abi/fetcher/tmp/python_startfile-0.0.1.1.tar.gz]
+[2024-05-27 09:38:12] INFO root fetch - processPackages [python-startfile]: Remove: archive file [/home/abi/fetcher/tmp/python_startfile-0.0.2.tar.gz]
+[2024-05-27 09:38:12] INFO root fetch - main [MainThread]: End processing [python-startfile]: success
+[2024-05-27 09:38:12] INFO root fetch - processPackages [folkmq]: Remove: archive file [/home/abi/fetcher/tmp/folkmq-1.5.0.tar.gz]
+[2024-05-27 09:38:12] INFO root fetch - processPackages [folkmq]: Remove: archive file [/home/abi/fetcher/tmp/folkmq-1.5.1.tar.gz]
+[2024-05-27 09:38:12] INFO root fetch - main [MainThread]: End processing [folkmq]: success
+[2024-05-27 09:38:12] INFO root fetch - processPackages [ambr-py]: Remove: archive file [/home/abi/fetcher/tmp/ambr_py-1.7.5.tar.gz]
+[2024-05-27 09:38:12] INFO root fetch - processPackages [ambr-py]: Remove: archive file [/home/abi/fetcher/tmp/ambr_py-1.7.6.tar.gz]
+[2024-05-27 09:38:12] INFO root fetch - main [MainThread]: End processing [ambr-py]: success
+[2024-05-27 09:38:12] INFO root fetch - processPackages [omspy]: Remove: archive file [/home/abi/fetcher/tmp/omspy-0.9.0.tar.gz]
+[2024-05-27 09:38:12] INFO root fetch - processPackages [omspy]: Remove: archive file [/home/abi/fetcher/tmp/omspy-0.9.1.tar.gz]
+[2024-05-27 09:38:12] INFO root fetch - main [MainThread]: End processing [omspy]: success
+[2024-05-27 09:38:12] INFO root fetch - main [MainThread]: Store serial: [23392014]
