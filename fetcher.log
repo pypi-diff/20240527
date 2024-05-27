@@ -9728,3 +9728,64 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 10:41:10] INFO root fetch - processPackages [django-customvueadmin]: Remove: archive file [/home/abi/fetcher/tmp/django_customvueadmin-0.2.0.tar.gz]
 [2024-05-27 10:41:10] INFO root fetch - main [MainThread]: End processing [django-customvueadmin]: success
 [2024-05-27 10:41:10] INFO root fetch - main [MainThread]: Store serial: [23392688]
+[2024-05-27 10:43:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23392688]
+[2024-05-27 10:43:19] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-27 10:43:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: smsfusion
+[2024-05-27 10:43:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fink-filters
+[2024-05-27 10:43:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mia-vgg
+[2024-05-27 10:43:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pybind11-numpy-example
+[2024-05-27 10:43:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: few-shot-priming
+[2024-05-27 10:43:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: digitalhub-data
+[2024-05-27 10:43:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: z2m-log-parser
+[2024-05-27 10:43:19] INFO root fetch - processPackages [z2m-log-parser]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-27 10:43:19] INFO root fetch - processPackages [fink-filters]: New version: [3.9] Old Version: [3.8]
+[2024-05-27 10:43:19] INFO root fetch - processPackages [z2m-log-parser]: Downloading https://files.pythonhosted.org/packages/3c/bf/045aab314e9a6c6ba6648f7196be4382d805417677bd4ab8597079a40eec/z2m_log_parser-0.0.8.tar.gz
+[2024-05-27 10:43:19] INFO root fetch - processPackages [fink-filters]: Downloading https://files.pythonhosted.org/packages/ad/03/a1e30cd9ef3fd94bad1a3a4191fe94f321e88803bceeeb3342e49219b4af/fink-filters-3.8.tar.gz
+[2024-05-27 10:43:19] INFO root fetch - processPackages [digitalhub-data]: New version: [0.5.0b3] Old Version: [0.5.0b2]
+[2024-05-27 10:43:19] INFO root fetch - processPackages [mia-vgg]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-27 10:43:19] INFO root fetch - processPackages [smsfusion]: New version: [1.0.0] Old Version: [0.3.0]
+[2024-05-27 10:43:19] INFO root fetch - processPackages [few-shot-priming]: New version: [0.3.99] Old Version: [0.3.98]
+[2024-05-27 10:43:20] WARNING root fetch - processPackages [fink-filters]: Skipping package: exceeds size limit 10772648>=10485760
+[2024-05-27 10:43:20] INFO root fetch - main [MainThread]: End processing [fink-filters] error
+[2024-05-27 10:43:20] INFO root fetch - processPackages [pybind11-numpy-example]: New version: [1.0.0] Old Version: [0.0.9]
+[2024-05-27 10:43:20] INFO root fetch - processPackages [smsfusion]: Downloading https://files.pythonhosted.org/packages/ad/ea/973acd1fce45566a6e6bb882f47d8f951e85aa81aa973bb6a95d7facd8b3/smsfusion-0.3.0-py3-none-any.whl
+[2024-05-27 10:43:20] INFO root fetch - processPackages [z2m-log-parser]: Downloading https://files.pythonhosted.org/packages/71/97/7033f666d3eb6726fdd071cf1160a1c1a82f0c16dce62d13168b432e6ac1/z2m_log_parser-0.0.9.tar.gz
+[2024-05-27 10:43:20] INFO root fetch - processPackages [mia-vgg]: Downloading https://files.pythonhosted.org/packages/69/b3/e9653b0952bcfd51a50d92a0c2f21910c7331a584b82d93616be35ba8de6/mia_vgg-0.0.7.tar.gz
+[2024-05-27 10:43:20] INFO root fetch - processPackages [digitalhub-data]: Downloading https://files.pythonhosted.org/packages/47/96/f6b32721b217b03396bf22bcf3bed4e3ab642b0029af9f3a43a1aa6bcda5/digitalhub_data-0.5.0b2.tar.gz
+[2024-05-27 10:43:20] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/eb/67/d15b11d0bfb57369fa16ba7f8c97cd3ddec8f771e6da8f11a3d819004b69/few_shot_priming-0.3.98-py3-none-any.whl
+[2024-05-27 10:43:20] INFO root fetch - processPackages [z2m-log-parser]: executing diffoscope
+[2024-05-27 10:43:20] INFO root fetch - processPackages [z2m-log-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/z2m_log_parser-0.0.8.tar.gz tmp/z2m_log_parser-0.0.9.tar.gz --markdown 20240527/z/z2m-log-parser/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-27 10:43:20] INFO root fetch - processPackages [smsfusion]: Downloading https://files.pythonhosted.org/packages/df/58/6141cc28cb9cd1d8033316b2b4628b0740e4ca332a1e67e5e989cdbc0cbe/smsfusion-1.0.0-py3-none-any.whl
+[2024-05-27 10:43:20] INFO root fetch - processPackages [mia-vgg]: Downloading https://files.pythonhosted.org/packages/7d/99/89bc26b6fc0c4be64ccf67e364ca9e0df91458fd29d11e2358855b46e97d/mia_vgg-0.0.8.tar.gz
+[2024-05-27 10:43:20] INFO root fetch - processPackages [digitalhub-data]: Downloading https://files.pythonhosted.org/packages/c1/52/a0ed5177b91e07dfa6e9d89a11a9b31fbd2f69c1abf3a7128eeb2f94816e/digitalhub_data-0.5.0b3.tar.gz
+[2024-05-27 10:43:20] INFO root fetch - processPackages [smsfusion]: executing diffoscope
+[2024-05-27 10:43:20] INFO root fetch - processPackages [smsfusion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smsfusion-0.3.0-py3-none-any.whl.zip tmp/smsfusion-1.0.0-py3-none-any.whl.zip --markdown 20240527/s/smsfusion/0.3.0-1.0.0/README.md --exclude *.pyd
+[2024-05-27 10:43:20] INFO root fetch - processPackages [mia-vgg]: executing diffoscope
+[2024-05-27 10:43:20] INFO root fetch - processPackages [mia-vgg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mia_vgg-0.0.7.tar.gz tmp/mia_vgg-0.0.8.tar.gz --markdown 20240527/m/mia-vgg/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-27 10:43:20] INFO root fetch - processPackages [digitalhub-data]: executing diffoscope
+[2024-05-27 10:43:20] INFO root fetch - processPackages [digitalhub-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digitalhub_data-0.5.0b2.tar.gz tmp/digitalhub_data-0.5.0b3.tar.gz --markdown 20240527/d/digitalhub-data/0.5.0b2-0.5.0b3/README.md --exclude *.pyd
+[2024-05-27 10:43:20] INFO root fetch - processPackages [pybind11-numpy-example]: Downloading https://files.pythonhosted.org/packages/a3/b1/3b2aa0cbb4fce41dbc5e40610bc7fc35127370c035b83bb8b0268596025a/pybind11_numpy_example-1.0.0.tar.gz
+[2024-05-27 10:43:20] INFO root fetch - processPackages [z2m-log-parser]: Remove: archive file [/home/abi/fetcher/tmp/z2m_log_parser-0.0.8.tar.gz]
+[2024-05-27 10:43:20] INFO root fetch - processPackages [z2m-log-parser]: Remove: archive file [/home/abi/fetcher/tmp/z2m_log_parser-0.0.9.tar.gz]
+[2024-05-27 10:43:20] INFO root fetch - main [MainThread]: End processing [z2m-log-parser]: success
+[2024-05-27 10:43:21] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/ff/11/548f6e96803602e6431dc610d736d401b20fde986f85c35c8ad19a6d0958/few_shot_priming-0.3.99-py3-none-any.whl
+[2024-05-27 10:43:21] INFO root fetch - processPackages [mia-vgg]: Remove: archive file [/home/abi/fetcher/tmp/mia_vgg-0.0.7.tar.gz]
+[2024-05-27 10:43:21] INFO root fetch - processPackages [mia-vgg]: Remove: archive file [/home/abi/fetcher/tmp/mia_vgg-0.0.8.tar.gz]
+[2024-05-27 10:43:21] INFO root fetch - main [MainThread]: End processing [mia-vgg]: success
+[2024-05-27 10:43:21] INFO root fetch - processPackages [smsfusion]: Remove: archive file [/home/abi/fetcher/tmp/smsfusion-0.3.0-py3-none-any.whl.zip]
+[2024-05-27 10:43:21] INFO root fetch - processPackages [smsfusion]: Remove: archive file [/home/abi/fetcher/tmp/smsfusion-1.0.0-py3-none-any.whl.zip]
+[2024-05-27 10:43:21] INFO root fetch - main [MainThread]: End processing [smsfusion]: success
+[2024-05-27 10:43:21] INFO root fetch - processPackages [digitalhub-data]: Remove: archive file [/home/abi/fetcher/tmp/digitalhub_data-0.5.0b2.tar.gz]
+[2024-05-27 10:43:21] INFO root fetch - processPackages [digitalhub-data]: Remove: archive file [/home/abi/fetcher/tmp/digitalhub_data-0.5.0b3.tar.gz]
+[2024-05-27 10:43:21] INFO root fetch - main [MainThread]: End processing [digitalhub-data]: success
+[2024-05-27 10:43:21] INFO root fetch - processPackages [pybind11-numpy-example]: executing diffoscope
+[2024-05-27 10:43:21] INFO root fetch - processPackages [pybind11-numpy-example]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybind11_numpy_example-0.0.9-pp39-pypy39_pp73-win_amd64.whl.zip tmp/pybind11_numpy_example-1.0.0.tar.gz --markdown 20240527/p/pybind11-numpy-example/0.0.9-1.0.0/README.md --exclude *.pyd
+[2024-05-27 10:43:21] INFO root fetch - processPackages [pybind11-numpy-example]: Remove: archive file [/home/abi/fetcher/tmp/pybind11_numpy_example-0.0.9-pp39-pypy39_pp73-win_amd64.whl.zip]
+[2024-05-27 10:43:21] INFO root fetch - processPackages [pybind11-numpy-example]: Remove: archive file [/home/abi/fetcher/tmp/pybind11_numpy_example-1.0.0.tar.gz]
+[2024-05-27 10:43:21] INFO root fetch - main [MainThread]: End processing [pybind11-numpy-example]: success
+[2024-05-27 10:43:22] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2024-05-27 10:43:22] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.3.98-py3-none-any.whl.zip tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip --markdown 20240527/f/few-shot-priming/0.3.98-0.3.99/README.md --exclude *.pyd
+[2024-05-27 10:43:23] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.98-py3-none-any.whl.zip]
+[2024-05-27 10:43:23] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip]
+[2024-05-27 10:43:23] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2024-05-27 10:43:23] INFO root fetch - main [MainThread]: Store serial: [23392770]
