@@ -8795,3 +8795,99 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 09:57:04] INFO root fetch - processPackages [nonebot-plugin-sanyao]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_sanyao-0.2.6.tar.gz]
 [2024-05-27 09:57:04] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-sanyao]: success
 [2024-05-27 09:57:04] INFO root fetch - main [MainThread]: Store serial: [23392199]
+[2024-05-27 09:59:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23392199]
+[2024-05-27 09:59:14] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-27 09:59:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pytest-lambda
+[2024-05-27 09:59:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bootpay-backend
+[2024-05-27 09:59:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: finter
+[2024-05-27 09:59:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tf-nightly
+[2024-05-27 09:59:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: torchcat
+[2024-05-27 09:59:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bharatocr-client
+[2024-05-27 09:59:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: iperturb
+[2024-05-27 09:59:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyexmars
+[2024-05-27 09:59:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: graphene-django-query-optimizer
+[2024-05-27 09:59:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyastroweatherio
+[2024-05-27 09:59:14] INFO root fetch - processPackages [iperturb]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-27 09:59:14] INFO root fetch - processPackages [graphene-django-query-optimizer]: New version: [0.6.1] Old Version: [0.6.0]
+[2024-05-27 09:59:14] INFO root fetch - processPackages [bharatocr-client]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-05-27 09:59:14] INFO root fetch - processPackages [pytest-lambda]: New version: [2.2.1] Old Version: [2.2.0]
+[2024-05-27 09:59:14] INFO root fetch - processPackages [bootpay-backend]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-05-27 09:59:14] WARNING root fetch - processPackages [pyexmars]: Skipping, unable to determine old version
+[2024-05-27 09:59:14] INFO root fetch - processPackages [torchcat]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-27 09:59:14] INFO root fetch - processPackages [pyexmars]: Start processing: ftrack-framework-core
+[2024-05-27 09:59:14] INFO root fetch - main [MainThread]: End processing [pyexmars] error
+[2024-05-27 09:59:14] INFO root fetch - processPackages [finter]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-27 09:59:14] INFO root fetch - processPackages [pyastroweatherio]: New version: [0.50.1] Old Version: [0.50.0.dev13]
+[2024-05-27 09:59:14] INFO root fetch - processPackages [graphene-django-query-optimizer]: Downloading https://files.pythonhosted.org/packages/1c/ef/59921e8456699ecffa03180460b26b63f5eab9c56d97efec5ccb1f54fc9e/graphene_django_query_optimizer-0.6.0.tar.gz
+[2024-05-27 09:59:15] INFO root fetch - processPackages [bharatocr-client]: Downloading https://files.pythonhosted.org/packages/55/fa/1e7f87dbd218f8cbb4b927754d12580065503c2133b589a60396e77d6fac/bharatocr_client-0.2.0.tar.gz
+[2024-05-27 09:59:15] INFO root fetch - processPackages [tf-nightly]: New version: [2.17.0.dev20240527] Old Version: [2.17.0.dev20240526]
+[2024-05-27 09:59:15] INFO root fetch - processPackages [iperturb]: Downloading https://files.pythonhosted.org/packages/6c/de/58841501e462c988f441a7de10861726f72a2116e5dd521748042f0a9d89/iperturb-0.2.0.tar.gz
+[2024-05-27 09:59:15] INFO root fetch - processPackages [pytest-lambda]: Downloading https://files.pythonhosted.org/packages/a8/b2/7e3b2bff21e2e9afa2a954a3d1bde0723310acc365ffacce0e4c29b99ac4/pytest-lambda-2.2.0.tar.gz
+[2024-05-27 09:59:15] INFO root fetch - processPackages [bootpay-backend]: Downloading https://files.pythonhosted.org/packages/b4/ce/e49e24816aa3de003eed14ac93b19d912e1351066a7d2071514aa7be8c46/bootpay-backend-2.0.8.tar.gz
+[2024-05-27 09:59:15] INFO root fetch - processPackages [finter]: Downloading https://files.pythonhosted.org/packages/a5/42/62839a9d04ec1ea057f46ba770914804c9ca13fe76705b86c9503ceb5efd/finter-0.2.8-py3-none-any.whl
+[2024-05-27 09:59:15] INFO root fetch - processPackages [ftrack-framework-core]: New version: [2.3.0rc1] Old Version: [2.2.1]
+[2024-05-27 09:59:15] INFO root fetch - processPackages [torchcat]: Downloading https://files.pythonhosted.org/packages/85/38/36d548f9c758c1297651fc04e1c19632ffacfd3827ae1e7479d3d1309c0c/torchcat-0.0.7.tar.gz
+[2024-05-27 09:59:15] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/2f/a2/1d3e195d0d0ef3f0d3326d23e079ffaf7164186d002f5e8a7c28fe3353e8/tf_nightly-2.17.0.dev20240526-cp39-cp39-win_amd64.whl
+[2024-05-27 09:59:15] INFO root fetch - processPackages [pyastroweatherio]: Downloading https://files.pythonhosted.org/packages/f8/53/c18be077d84c30502f9971f7d5dbb56b704ac7f1d33629b92c95a540999e/pyastroweatherio-0.50.0.dev13.tar.gz
+[2024-05-27 09:59:15] INFO root fetch - processPackages [bharatocr-client]: Downloading https://files.pythonhosted.org/packages/3a/6f/cf86dbc16c9f72f34ad82c21b3b8dcb40b0bb4651ac717ded255296d4c3c/bharatocr_client-0.3.0.tar.gz
+[2024-05-27 09:59:15] INFO root fetch - processPackages [graphene-django-query-optimizer]: Downloading https://files.pythonhosted.org/packages/30/52/e388141c2340e5c43ae2cfca67cecd3c77ef55cc6a8f46440fd2eeeeaada/graphene_django_query_optimizer-0.6.1.tar.gz
+[2024-05-27 09:59:15] INFO root fetch - processPackages [bharatocr-client]: executing diffoscope
+[2024-05-27 09:59:15] INFO root fetch - processPackages [bharatocr-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bharatocr_client-0.2.0.tar.gz tmp/bharatocr_client-0.3.0.tar.gz --markdown 20240527/b/bharatocr-client/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-05-27 09:59:15] INFO root fetch - processPackages [ftrack-framework-core]: Downloading https://files.pythonhosted.org/packages/b2/9a/747cae882558f375f0d4fe6a1f938de7491647179952a976d47422f87b34/ftrack_framework_core-2.2.1.tar.gz
+[2024-05-27 09:59:15] INFO root fetch - processPackages [graphene-django-query-optimizer]: executing diffoscope
+[2024-05-27 09:59:15] INFO root fetch - processPackages [graphene-django-query-optimizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graphene_django_query_optimizer-0.6.0.tar.gz tmp/graphene_django_query_optimizer-0.6.1.tar.gz --markdown 20240527/g/graphene-django-query-optimizer/0.6.0-0.6.1/README.md --exclude *.pyd
+[2024-05-27 09:59:15] INFO root fetch - processPackages [iperturb]: Downloading https://files.pythonhosted.org/packages/d0/66/dda3f777e79caaad13987f29d4644cc23f272258499b35f7193eb8664f08/iperturb-0.2.1.tar.gz
+[2024-05-27 09:59:15] INFO root fetch - processPackages [pytest-lambda]: Downloading https://files.pythonhosted.org/packages/9e/9e/dbb531df175b3d06def4e6518e55b7f29f9faf4e08c74b84ad4089876733/pytest_lambda-2.2.1.tar.gz
+[2024-05-27 09:59:15] INFO root fetch - processPackages [bootpay-backend]: Downloading https://files.pythonhosted.org/packages/2d/95/4a01884ece0cc38693cf75177dfd2402193dec741dddfe81af336ddc8857/bootpay_backend-2.0.9.tar.gz
+[2024-05-27 09:59:15] INFO root fetch - processPackages [torchcat]: Downloading https://files.pythonhosted.org/packages/31/5b/3f96b50f3782ab5ff7cdd7bddac4f6336eb4f5ff36bac5b2eb7fc8d53975/torchcat-0.0.8.tar.gz
+[2024-05-27 09:59:15] INFO root fetch - processPackages [finter]: Downloading https://files.pythonhosted.org/packages/4f/d0/2e1ef5832dd6cbc5f4d24de1b60ad8f90066391220d8d6ebdc279ae3fffd/finter-0.2.9-py3-none-any.whl
+[2024-05-27 09:59:15] INFO root fetch - processPackages [iperturb]: executing diffoscope
+[2024-05-27 09:59:15] INFO root fetch - processPackages [iperturb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iperturb-0.2.0.tar.gz tmp/iperturb-0.2.1.tar.gz --markdown 20240527/i/iperturb/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-27 09:59:15] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/80/07/5f89262ca3c5df5e015bdc6bad950c76de56b2e3716079ee5a2ab0b25795/tf_nightly-2.17.0.dev20240527-cp39-cp39-win_amd64.whl
+[2024-05-27 09:59:15] INFO root fetch - processPackages [pyastroweatherio]: Downloading https://files.pythonhosted.org/packages/78/90/ced9b71da776de16c8a09870908299ab38a1431afde9dfb637f19214214d/pyastroweatherio-0.50.1.tar.gz
+[2024-05-27 09:59:15] INFO root fetch - processPackages [pytest-lambda]: executing diffoscope
+[2024-05-27 09:59:15] INFO root fetch - processPackages [pytest-lambda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-lambda-2.2.0.tar.gz tmp/pytest_lambda-2.2.1.tar.gz --markdown 20240527/p/pytest-lambda/2.2.0-2.2.1/README.md --exclude *.pyd
+[2024-05-27 09:59:15] INFO root fetch - processPackages [bootpay-backend]: executing diffoscope
+[2024-05-27 09:59:15] INFO root fetch - processPackages [bootpay-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bootpay-backend-2.0.8.tar.gz tmp/bootpay_backend-2.0.9.tar.gz --markdown 20240527/b/bootpay-backend/2.0.8-2.0.9/README.md --exclude *.pyd
+[2024-05-27 09:59:15] INFO root fetch - processPackages [torchcat]: executing diffoscope
+[2024-05-27 09:59:15] INFO root fetch - processPackages [torchcat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchcat-0.0.7.tar.gz tmp/torchcat-0.0.8.tar.gz --markdown 20240527/t/torchcat/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-27 09:59:15] INFO root fetch - processPackages [pyastroweatherio]: executing diffoscope
+[2024-05-27 09:59:15] INFO root fetch - processPackages [pyastroweatherio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyastroweatherio-0.50.0.dev13.tar.gz tmp/pyastroweatherio-0.50.1.tar.gz --markdown 20240527/p/pyastroweatherio/0.50.0.dev13-0.50.1/README.md --exclude *.pyd
+[2024-05-27 09:59:15] INFO root fetch - processPackages [finter]: executing diffoscope
+[2024-05-27 09:59:15] INFO root fetch - processPackages [finter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finter-0.2.8-py3-none-any.whl.zip tmp/finter-0.2.9-py3-none-any.whl.zip --markdown 20240527/f/finter/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-27 09:59:15] INFO root fetch - processPackages [tf-nightly]: executing diffoscope
+[2024-05-27 09:59:15] INFO root fetch - processPackages [tf-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly-2.17.0.dev20240526-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly-2.17.0.dev20240527-cp39-cp39-win_amd64.whl.zip --markdown 20240527/t/tf-nightly/2.17.0.dev20240526-2.17.0.dev20240527/README.md --exclude *.pyd
+[2024-05-27 09:59:16] INFO root fetch - processPackages [ftrack-framework-core]: Downloading https://files.pythonhosted.org/packages/57/a7/d3aaf5f1e482f86d0801b462f7463141efa60456369df6bc8ed6239ea3e6/ftrack_framework_core-2.3.0rc1-py3-none-any.whl
+[2024-05-27 09:59:16] INFO root fetch - processPackages [bharatocr-client]: Remove: archive file [/home/abi/fetcher/tmp/bharatocr_client-0.2.0.tar.gz]
+[2024-05-27 09:59:16] INFO root fetch - processPackages [bharatocr-client]: Remove: archive file [/home/abi/fetcher/tmp/bharatocr_client-0.3.0.tar.gz]
+[2024-05-27 09:59:16] INFO root fetch - main [MainThread]: End processing [bharatocr-client]: success
+[2024-05-27 09:59:16] INFO root fetch - processPackages [ftrack-framework-core]: executing diffoscope
+[2024-05-27 09:59:16] INFO root fetch - processPackages [ftrack-framework-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ftrack_framework_core-2.2.1.tar.gz tmp/ftrack_framework_core-2.3.0rc1-py3-none-any.whl.zip --markdown 20240527/f/ftrack-framework-core/2.2.1-2.3.0rc1/README.md --exclude *.pyd
+[2024-05-27 09:59:16] INFO root fetch - processPackages [graphene-django-query-optimizer]: Remove: archive file [/home/abi/fetcher/tmp/graphene_django_query_optimizer-0.6.0.tar.gz]
+[2024-05-27 09:59:16] INFO root fetch - processPackages [graphene-django-query-optimizer]: Remove: archive file [/home/abi/fetcher/tmp/graphene_django_query_optimizer-0.6.1.tar.gz]
+[2024-05-27 09:59:16] INFO root fetch - main [MainThread]: End processing [graphene-django-query-optimizer]: success
+[2024-05-27 09:59:16] INFO root fetch - processPackages [iperturb]: Remove: archive file [/home/abi/fetcher/tmp/iperturb-0.2.0.tar.gz]
+[2024-05-27 09:59:16] INFO root fetch - processPackages [iperturb]: Remove: archive file [/home/abi/fetcher/tmp/iperturb-0.2.1.tar.gz]
+[2024-05-27 09:59:16] INFO root fetch - main [MainThread]: End processing [iperturb]: success
+[2024-05-27 09:59:16] INFO root fetch - processPackages [bootpay-backend]: Remove: archive file [/home/abi/fetcher/tmp/bootpay-backend-2.0.8.tar.gz]
+[2024-05-27 09:59:16] INFO root fetch - processPackages [bootpay-backend]: Remove: archive file [/home/abi/fetcher/tmp/bootpay_backend-2.0.9.tar.gz]
+[2024-05-27 09:59:16] INFO root fetch - main [MainThread]: End processing [bootpay-backend]: success
+[2024-05-27 09:59:16] INFO root fetch - processPackages [pytest-lambda]: Remove: archive file [/home/abi/fetcher/tmp/pytest-lambda-2.2.0.tar.gz]
+[2024-05-27 09:59:16] INFO root fetch - processPackages [pytest-lambda]: Remove: archive file [/home/abi/fetcher/tmp/pytest_lambda-2.2.1.tar.gz]
+[2024-05-27 09:59:16] INFO root fetch - main [MainThread]: End processing [pytest-lambda]: success
+[2024-05-27 09:59:16] INFO root fetch - processPackages [torchcat]: Remove: archive file [/home/abi/fetcher/tmp/torchcat-0.0.7.tar.gz]
+[2024-05-27 09:59:16] INFO root fetch - processPackages [torchcat]: Remove: archive file [/home/abi/fetcher/tmp/torchcat-0.0.8.tar.gz]
+[2024-05-27 09:59:16] INFO root fetch - main [MainThread]: End processing [torchcat]: success
+[2024-05-27 09:59:16] INFO root fetch - processPackages [tf-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly-2.17.0.dev20240526-cp39-cp39-win_amd64.whl.zip]
+[2024-05-27 09:59:16] INFO root fetch - processPackages [tf-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly-2.17.0.dev20240527-cp39-cp39-win_amd64.whl.zip]
+[2024-05-27 09:59:16] INFO root fetch - main [MainThread]: End processing [tf-nightly]: success
+[2024-05-27 09:59:16] INFO root fetch - processPackages [pyastroweatherio]: Remove: archive file [/home/abi/fetcher/tmp/pyastroweatherio-0.50.0.dev13.tar.gz]
+[2024-05-27 09:59:16] INFO root fetch - processPackages [pyastroweatherio]: Remove: archive file [/home/abi/fetcher/tmp/pyastroweatherio-0.50.1.tar.gz]
+[2024-05-27 09:59:16] INFO root fetch - main [MainThread]: End processing [pyastroweatherio]: success
+[2024-05-27 09:59:16] INFO root fetch - processPackages [ftrack-framework-core]: Remove: archive file [/home/abi/fetcher/tmp/ftrack_framework_core-2.2.1.tar.gz]
+[2024-05-27 09:59:16] INFO root fetch - processPackages [ftrack-framework-core]: Remove: archive file [/home/abi/fetcher/tmp/ftrack_framework_core-2.3.0rc1-py3-none-any.whl.zip]
+[2024-05-27 09:59:17] INFO root fetch - main [MainThread]: End processing [ftrack-framework-core]: success
+[2024-05-27 09:59:17] INFO root fetch - processPackages [finter]: Remove: archive file [/home/abi/fetcher/tmp/finter-0.2.8-py3-none-any.whl.zip]
+[2024-05-27 09:59:17] INFO root fetch - processPackages [finter]: Remove: archive file [/home/abi/fetcher/tmp/finter-0.2.9-py3-none-any.whl.zip]
+[2024-05-27 09:59:17] INFO root fetch - main [MainThread]: End processing [finter]: success
+[2024-05-27 09:59:17] INFO root fetch - main [MainThread]: Store serial: [23392231]
