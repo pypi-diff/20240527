@@ -14177,3 +14177,92 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 13:36:56] INFO root fetch - processPackages [reaction-utils]: Remove: archive file [/home/abi/fetcher/tmp/reaction_utils-1.5.0.tar.gz]
 [2024-05-27 13:36:56] INFO root fetch - main [MainThread]: End processing [reaction-utils]: success
 [2024-05-27 13:36:56] INFO root fetch - main [MainThread]: Store serial: [23394790]
+[2024-05-27 13:39:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23394790]
+[2024-05-27 13:39:06] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-27 13:39:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: affixapi
+[2024-05-27 13:39:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dadmatools
+[2024-05-27 13:39:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dashtable2
+[2024-05-27 13:39:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PyE2
+[2024-05-27 13:39:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dcicutils
+[2024-05-27 13:39:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pipefyUts
+[2024-05-27 13:39:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: torchserve-nightly
+[2024-05-27 13:39:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: torch-model-archiver-nightly
+[2024-05-27 13:39:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: torch-workflow-archiver-nightly
+[2024-05-27 13:39:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: datasiphon
+[2024-05-27 13:39:06] INFO root fetch - processPackages [dashtable2]: New version: [1.4.9] Old Version: [1.4.8]
+[2024-05-27 13:39:06] INFO root fetch - processPackages [affixapi]: New version: [1.1.81] Old Version: [1.1.80]
+[2024-05-27 13:39:06] INFO root fetch - processPackages [datasiphon]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-27 13:39:06] INFO root fetch - processPackages [PyE2]: New version: [0.8.9] Old Version: [0.8.8]
+[2024-05-27 13:39:06] INFO root fetch - processPackages [torch-model-archiver-nightly]: New version: [2024.5.9] Old Version: [2024.5.8]
+[2024-05-27 13:39:06] INFO root fetch - processPackages [torchserve-nightly]: New version: [2024.5.9] Old Version: [2024.5.8]
+[2024-05-27 13:39:06] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: New version: [2024.5.9] Old Version: [2024.5.8]
+[2024-05-27 13:39:06] INFO root fetch - processPackages [dadmatools]: New version: [2.0.4] Old Version: [2.0.3]
+[2024-05-27 13:39:06] INFO root fetch - processPackages [dcicutils]: New version: [8.9.0.0b0] Old Version: [8.8.6.1b3]
+[2024-05-27 13:39:06] INFO root fetch - processPackages [pipefyUts]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-05-27 13:39:06] INFO root fetch - processPackages [dashtable2]: Downloading https://files.pythonhosted.org/packages/de/08/10145a7ea263a96146f3307130c92d01878542e398e475cb315545f3b910/dashtable2-1.4.8.tar.gz
+[2024-05-27 13:39:06] INFO root fetch - processPackages [torchserve-nightly]: Downloading https://files.pythonhosted.org/packages/8c/43/921f1201a16b139e5df27112c5f8b7328ee4289bfc10ce1f76883a5ba87d/torchserve_nightly-2024.5.8-py3-none-any.whl
+[2024-05-27 13:39:06] INFO root fetch - processPackages [affixapi]: Downloading https://files.pythonhosted.org/packages/47/18/09cce897d9d013261ff57cf6243a0c9b6d0f55944c7666ef4b8edbb96f53/affixapi-1.1.80.tar.gz
+[2024-05-27 13:39:06] INFO root fetch - processPackages [datasiphon]: Downloading https://files.pythonhosted.org/packages/61/f1/549b7cde0fc5e75d3473d71db0df1c8c7484090e715a58003c73bc130ba5/datasiphon-0.2.8.tar.gz
+[2024-05-27 13:39:06] INFO root fetch - processPackages [PyE2]: Downloading https://files.pythonhosted.org/packages/fb/7b/20cd37a1968b75085222bf1e0afcc30ac5ec1dea21aeef3826a1ed718e28/pye2-0.8.8.tar.gz
+[2024-05-27 13:39:06] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/39/78/71d3bda9b58dfb022af392de084f78f15d848683db00d19d604fd076ecff/torch_workflow_archiver_nightly-2024.5.8-py3-none-any.whl
+[2024-05-27 13:39:06] INFO root fetch - processPackages [torch-model-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/38/34/a73ff276b5dc5c3f2e6e02c0282c2f5aedce8951e022f3add74d284d17a6/torch_model_archiver_nightly-2024.5.8-py3-none-any.whl
+[2024-05-27 13:39:06] WARNING root fetch - processPackages [torchserve-nightly]: Skipping package: exceeds size limit 24333047>=10485760
+[2024-05-27 13:39:06] INFO root fetch - main [MainThread]: End processing [torchserve-nightly] error
+[2024-05-27 13:39:06] INFO root fetch - processPackages [dcicutils]: Downloading https://files.pythonhosted.org/packages/c6/93/0eab20e49ca4659a0ba6575348a1d5f7cadb853680df0ffda1661e36dcd8/dcicutils-8.8.6.1b3.tar.gz
+[2024-05-27 13:39:06] INFO root fetch - processPackages [pipefyUts]: Downloading https://files.pythonhosted.org/packages/cc/f5/3d28a2c351d4559fc6e889fbd232ec4c9f3b2be2dbfc88f3dea0c9626ecf/pipefyUts-1.0.5.tar.gz
+[2024-05-27 13:39:06] INFO root fetch - processPackages [dadmatools]: Downloading https://files.pythonhosted.org/packages/29/91/a1e7384d588e99074c7b4566bc9ebb0b09b0dcb6066f5234731bc826f456/dadmatools-2.0.3.tar.gz
+[2024-05-27 13:39:06] INFO root fetch - processPackages [dashtable2]: Downloading https://files.pythonhosted.org/packages/98/6c/d1db4d289833af3ab19cd26ef013a389de43e6fffe50950a6db8f8b1f488/dashtable2-1.4.9.tar.gz
+[2024-05-27 13:39:06] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/55/73/d6cac6137d8889445aa6a2fbae4644d9528d66859fb2e8149098c685de95/torch_workflow_archiver_nightly-2024.5.9-py3-none-any.whl
+[2024-05-27 13:39:06] INFO root fetch - processPackages [datasiphon]: Downloading https://files.pythonhosted.org/packages/6b/ee/b324ebe1616d3f9bb712f432e900c6569729aa3575cc7c6c687e3843930c/datasiphon-0.2.9.tar.gz
+[2024-05-27 13:39:07] INFO root fetch - processPackages [PyE2]: Downloading https://files.pythonhosted.org/packages/b3/6c/4f3af23f2ebf4a0dacc1b75aeba89f39f85550df77e7a29c57b5ab5f1824/pye2-0.8.9.tar.gz
+[2024-05-27 13:39:07] INFO root fetch - processPackages [affixapi]: Downloading https://files.pythonhosted.org/packages/7d/82/69887b09f72f5b1f3cf73124af1e929a111b8168946a356deeff1de898b3/affixapi-1.1.81.tar.gz
+[2024-05-27 13:39:07] INFO root fetch - processPackages [torch-model-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/5c/3d/7e9f420b3d052022aab0ce6e49d396d1d147acccfc51748d2cfa54ae3390/torch_model_archiver_nightly-2024.5.9-py3-none-any.whl
+[2024-05-27 13:39:07] INFO root fetch - processPackages [dashtable2]: executing diffoscope
+[2024-05-27 13:39:07] INFO root fetch - processPackages [dashtable2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dashtable2-1.4.8.tar.gz tmp/dashtable2-1.4.9.tar.gz --markdown 20240527/d/dashtable2/1.4.8-1.4.9/README.md --exclude *.pyd
+[2024-05-27 13:39:07] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: executing diffoscope
+[2024-05-27 13:39:07] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_workflow_archiver_nightly-2024.5.8-py3-none-any.whl.zip tmp/torch_workflow_archiver_nightly-2024.5.9-py3-none-any.whl.zip --markdown 20240527/t/torch-workflow-archiver-nightly/2024.5.8-2024.5.9/README.md --exclude *.pyd
+[2024-05-27 13:39:07] INFO root fetch - processPackages [datasiphon]: executing diffoscope
+[2024-05-27 13:39:07] INFO root fetch - processPackages [datasiphon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datasiphon-0.2.8.tar.gz tmp/datasiphon-0.2.9.tar.gz --markdown 20240527/d/datasiphon/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-27 13:39:07] INFO root fetch - processPackages [dcicutils]: Downloading https://files.pythonhosted.org/packages/5b/de/ac87d1c9583f507046be7724343035a3e363814633eea93612ca13f3adba/dcicutils-8.9.0.0b0.tar.gz
+[2024-05-27 13:39:07] INFO root fetch - processPackages [PyE2]: executing diffoscope
+[2024-05-27 13:39:07] INFO root fetch - processPackages [PyE2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pye2-0.8.8.tar.gz tmp/pye2-0.8.9.tar.gz --markdown 20240527/P/PyE2/0.8.8-0.8.9/README.md --exclude *.pyd
+[2024-05-27 13:39:07] INFO root fetch - processPackages [pipefyUts]: Downloading https://files.pythonhosted.org/packages/a2/99/ec43b2a330a953d6d15900fef17cd6a3e301a5aa9e8b060ff8c52512bc6e/pipefyUts-1.0.6.tar.gz
+[2024-05-27 13:39:07] INFO root fetch - processPackages [torch-model-archiver-nightly]: executing diffoscope
+[2024-05-27 13:39:07] INFO root fetch - processPackages [torch-model-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_model_archiver_nightly-2024.5.8-py3-none-any.whl.zip tmp/torch_model_archiver_nightly-2024.5.9-py3-none-any.whl.zip --markdown 20240527/t/torch-model-archiver-nightly/2024.5.8-2024.5.9/README.md --exclude *.pyd
+[2024-05-27 13:39:07] INFO root fetch - processPackages [affixapi]: executing diffoscope
+[2024-05-27 13:39:07] INFO root fetch - processPackages [affixapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/affixapi-1.1.80.tar.gz tmp/affixapi-1.1.81.tar.gz --markdown 20240527/a/affixapi/1.1.80-1.1.81/README.md --exclude *.pyd
+[2024-05-27 13:39:07] INFO root fetch - processPackages [pipefyUts]: executing diffoscope
+[2024-05-27 13:39:07] INFO root fetch - processPackages [pipefyUts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipefyUts-1.0.5.tar.gz tmp/pipefyUts-1.0.6.tar.gz --markdown 20240527/p/pipefyUts/1.0.5-1.0.6/README.md --exclude *.pyd
+[2024-05-27 13:39:07] INFO root fetch - processPackages [dcicutils]: executing diffoscope
+[2024-05-27 13:39:07] INFO root fetch - processPackages [dadmatools]: Downloading https://files.pythonhosted.org/packages/55/fc/78fcd30139156795e57d30cdd191bccf9a56cfe677946807b8d6ac40a7c5/dadmatools-2.0.4.tar.gz
+[2024-05-27 13:39:07] INFO root fetch - processPackages [dcicutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcicutils-8.8.6.1b3.tar.gz tmp/dcicutils-8.9.0.0b0.tar.gz --markdown 20240527/d/dcicutils/8.8.6.1b3-8.9.0.0b0/README.md --exclude *.pyd
+[2024-05-27 13:39:07] INFO root fetch - processPackages [dadmatools]: executing diffoscope
+[2024-05-27 13:39:07] INFO root fetch - processPackages [dadmatools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dadmatools-2.0.3.tar.gz tmp/dadmatools-2.0.4.tar.gz --markdown 20240527/d/dadmatools/2.0.3-2.0.4/README.md --exclude *.pyd
+[2024-05-27 13:39:08] INFO root fetch - processPackages [dashtable2]: Remove: archive file [/home/abi/fetcher/tmp/dashtable2-1.4.8.tar.gz]
+[2024-05-27 13:39:08] INFO root fetch - processPackages [dashtable2]: Remove: archive file [/home/abi/fetcher/tmp/dashtable2-1.4.9.tar.gz]
+[2024-05-27 13:39:08] INFO root fetch - main [MainThread]: End processing [dashtable2]: success
+[2024-05-27 13:39:08] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_workflow_archiver_nightly-2024.5.8-py3-none-any.whl.zip]
+[2024-05-27 13:39:08] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_workflow_archiver_nightly-2024.5.9-py3-none-any.whl.zip]
+[2024-05-27 13:39:08] INFO root fetch - main [MainThread]: End processing [torch-workflow-archiver-nightly]: success
+[2024-05-27 13:39:08] INFO root fetch - processPackages [datasiphon]: Remove: archive file [/home/abi/fetcher/tmp/datasiphon-0.2.8.tar.gz]
+[2024-05-27 13:39:08] INFO root fetch - processPackages [datasiphon]: Remove: archive file [/home/abi/fetcher/tmp/datasiphon-0.2.9.tar.gz]
+[2024-05-27 13:39:08] INFO root fetch - main [MainThread]: End processing [datasiphon]: success
+[2024-05-27 13:39:08] INFO root fetch - processPackages [torch-model-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_archiver_nightly-2024.5.8-py3-none-any.whl.zip]
+[2024-05-27 13:39:08] INFO root fetch - processPackages [torch-model-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_archiver_nightly-2024.5.9-py3-none-any.whl.zip]
+[2024-05-27 13:39:08] INFO root fetch - main [MainThread]: End processing [torch-model-archiver-nightly]: success
+[2024-05-27 13:39:08] INFO root fetch - processPackages [pipefyUts]: Remove: archive file [/home/abi/fetcher/tmp/pipefyUts-1.0.5.tar.gz]
+[2024-05-27 13:39:08] INFO root fetch - processPackages [pipefyUts]: Remove: archive file [/home/abi/fetcher/tmp/pipefyUts-1.0.6.tar.gz]
+[2024-05-27 13:39:08] INFO root fetch - main [MainThread]: End processing [pipefyUts]: success
+[2024-05-27 13:39:08] INFO root fetch - processPackages [PyE2]: Remove: archive file [/home/abi/fetcher/tmp/pye2-0.8.8.tar.gz]
+[2024-05-27 13:39:08] INFO root fetch - processPackages [PyE2]: Remove: archive file [/home/abi/fetcher/tmp/pye2-0.8.9.tar.gz]
+[2024-05-27 13:39:08] INFO root fetch - main [MainThread]: End processing [PyE2]: success
+[2024-05-27 13:39:08] INFO root fetch - processPackages [dcicutils]: Remove: archive file [/home/abi/fetcher/tmp/dcicutils-8.8.6.1b3.tar.gz]
+[2024-05-27 13:39:08] INFO root fetch - processPackages [dcicutils]: Remove: archive file [/home/abi/fetcher/tmp/dcicutils-8.9.0.0b0.tar.gz]
+[2024-05-27 13:39:08] INFO root fetch - main [MainThread]: End processing [dcicutils]: success
+[2024-05-27 13:39:08] INFO root fetch - processPackages [affixapi]: Remove: archive file [/home/abi/fetcher/tmp/affixapi-1.1.80.tar.gz]
+[2024-05-27 13:39:08] INFO root fetch - processPackages [affixapi]: Remove: archive file [/home/abi/fetcher/tmp/affixapi-1.1.81.tar.gz]
+[2024-05-27 13:39:08] INFO root fetch - main [MainThread]: End processing [affixapi]: success
+[2024-05-27 13:39:09] INFO root fetch - processPackages [dadmatools]: Remove: archive file [/home/abi/fetcher/tmp/dadmatools-2.0.3.tar.gz]
+[2024-05-27 13:39:09] INFO root fetch - processPackages [dadmatools]: Remove: archive file [/home/abi/fetcher/tmp/dadmatools-2.0.4.tar.gz]
+[2024-05-27 13:39:09] INFO root fetch - main [MainThread]: End processing [dadmatools]: success
+[2024-05-27 13:39:09] INFO root fetch - main [MainThread]: Store serial: [23394820]
