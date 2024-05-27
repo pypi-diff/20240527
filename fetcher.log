@@ -15511,3 +15511,63 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 14:30:11] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.8.9.tar.gz]
 [2024-05-27 14:30:11] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2024-05-27 14:30:11] INFO root fetch - main [MainThread]: Store serial: [23395514]
+[2024-05-27 14:32:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23395514]
+[2024-05-27 14:32:19] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-27 14:32:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ssvc
+[2024-05-27 14:32:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: watchfiles
+[2024-05-27 14:32:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chess-transformer
+[2024-05-27 14:32:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo12-addon-sm-connect
+[2024-05-27 14:32:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: conditional-parser
+[2024-05-27 14:32:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: robusta-cli
+[2024-05-27 14:32:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: flatpack
+[2024-05-27 14:32:20] INFO root fetch - processPackages [chess-transformer]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-27 14:32:20] WARNING root fetch - processPackages [conditional-parser]: Skipping, unable to determine old version
+[2024-05-27 14:32:20] INFO root fetch - main [MainThread]: End processing [conditional-parser] error
+[2024-05-27 14:32:20] INFO root fetch - processPackages [flatpack]: New version: [3.4.99] Old Version: [3.4.98]
+[2024-05-27 14:32:20] INFO root fetch - processPackages [watchfiles]: New version: [0.22.0] Old Version: [0.21.0]
+[2024-05-27 14:32:20] INFO root fetch - processPackages [chess-transformer]: Downloading https://files.pythonhosted.org/packages/83/6b/4af6f3be43bc29449fb466e2f87ef87e36f3f827536a45c98c1f0ec64d25/chess_transformer-0.1.4.tar.gz
+[2024-05-27 14:32:20] INFO root fetch - processPackages [odoo12-addon-sm-connect]: New version: [12.0.0.0.9] Old Version: [12.0.0.0.8]
+[2024-05-27 14:32:20] INFO root fetch - processPackages [ssvc]: New version: [1.0.8] Old Version: [1.0.7]
+[2024-05-27 14:32:20] INFO root fetch - processPackages [robusta-cli]: New version: [0.9.9] Old Version: [0.9.7]
+[2024-05-27 14:32:20] INFO root fetch - processPackages [watchfiles]: Downloading https://files.pythonhosted.org/packages/66/79/0ee412e1228aaf6f9568aa180b43cb482472de52560fbd7c283c786534af/watchfiles-0.21.0.tar.gz
+[2024-05-27 14:32:20] INFO root fetch - processPackages [flatpack]: Downloading https://files.pythonhosted.org/packages/cb/39/adcd388eba8071e3318b3a2224e5c96179761da6dbd7cfa96b20311e810f/flatpack-3.4.98.tar.gz
+[2024-05-27 14:32:20] INFO root fetch - processPackages [odoo12-addon-sm-connect]: Downloading https://files.pythonhosted.org/packages/5f/d0/8a134266161ce9eba436c03396eba07388895bfd15784e33d9e8d297d196/odoo12_addon_sm_connect-12.0.0.0.8-py2.py3-none-any.whl
+[2024-05-27 14:32:20] INFO root fetch - processPackages [ssvc]: Downloading https://files.pythonhosted.org/packages/75/65/bdaf5e0129f886716c7e93c927feaf715dc1c8ef7097fa9596f9501c09d6/ssvc-1.0.7.tar.gz
+[2024-05-27 14:32:20] INFO root fetch - processPackages [chess-transformer]: Downloading https://files.pythonhosted.org/packages/d4/43/902e8468de390d798f1df6dbc5d13ab9fbf9e796a79928c1bc690748c963/chess_transformer-0.1.5.tar.gz
+[2024-05-27 14:32:20] INFO root fetch - processPackages [robusta-cli]: Downloading https://files.pythonhosted.org/packages/39/60/df780a4cd33fb6c25e7e6b0c86022d93aaa4490b1a758140e3d98a02996e/robusta-cli-0.9.7.tar.gz
+[2024-05-27 14:32:20] INFO root fetch - processPackages [flatpack]: Downloading https://files.pythonhosted.org/packages/89/20/a694f72cbfa96253cdb38b9f65c7cfd5f3a4fb145d2fe2483132b80dafd4/flatpack-3.4.99.tar.gz
+[2024-05-27 14:32:20] INFO root fetch - processPackages [watchfiles]: Downloading https://files.pythonhosted.org/packages/8a/95/ab5727eccc9e989b0a04b1ab51453f695bebabadb6f93b2b4d71a112618a/watchfiles-0.22.0-cp38-cp38-macosx_10_12_x86_64.whl
+[2024-05-27 14:32:20] INFO root fetch - processPackages [flatpack]: executing diffoscope
+[2024-05-27 14:32:20] INFO root fetch - processPackages [flatpack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flatpack-3.4.98.tar.gz tmp/flatpack-3.4.99.tar.gz --markdown 20240527/f/flatpack/3.4.98-3.4.99/README.md --exclude *.pyd
+[2024-05-27 14:32:20] INFO root fetch - processPackages [ssvc]: Downloading https://files.pythonhosted.org/packages/96/f8/577dbde19723e923a00c2a6e3a536656e65c9de8124a7dd5fcc8062bfb84/ssvc-1.0.8.tar.gz
+[2024-05-27 14:32:20] INFO root fetch - processPackages [chess-transformer]: executing diffoscope
+[2024-05-27 14:32:20] INFO root fetch - processPackages [chess-transformer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chess_transformer-0.1.4.tar.gz tmp/chess_transformer-0.1.5.tar.gz --markdown 20240527/c/chess-transformer/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-27 14:32:20] INFO root fetch - processPackages [odoo12-addon-sm-connect]: Downloading https://files.pythonhosted.org/packages/94/9f/e9f19f2c6067e9e4fe0754c660ffd9fe40375c06204ac9f1b3df07bb2ef6/odoo12_addon_sm_connect-12.0.0.0.9-py2.py3-none-any.whl
+[2024-05-27 14:32:20] INFO root fetch - processPackages [ssvc]: executing diffoscope
+[2024-05-27 14:32:20] INFO root fetch - processPackages [ssvc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssvc-1.0.7.tar.gz tmp/ssvc-1.0.8.tar.gz --markdown 20240527/s/ssvc/1.0.7-1.0.8/README.md --exclude *.pyd
+[2024-05-27 14:32:20] INFO root fetch - processPackages [robusta-cli]: Downloading https://files.pythonhosted.org/packages/9f/ff/a70074935ded21551e9900241be83e06dcddd697498c8fa3eeab30d0105c/robusta-cli-0.9.9.tar.gz
+[2024-05-27 14:32:20] INFO root fetch - processPackages [odoo12-addon-sm-connect]: executing diffoscope
+[2024-05-27 14:32:20] INFO root fetch - processPackages [odoo12-addon-sm-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_sm_connect-12.0.0.0.8-py2.py3-none-any.whl.zip tmp/odoo12_addon_sm_connect-12.0.0.0.9-py2.py3-none-any.whl.zip --markdown 20240527/o/odoo12-addon-sm-connect/12.0.0.0.8-12.0.0.0.9/README.md --exclude *.pyd
+[2024-05-27 14:32:21] INFO root fetch - processPackages [robusta-cli]: executing diffoscope
+[2024-05-27 14:32:21] INFO root fetch - processPackages [robusta-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robusta-cli-0.9.7.tar.gz tmp/robusta-cli-0.9.9.tar.gz --markdown 20240527/r/robusta-cli/0.9.7-0.9.9/README.md --exclude *.pyd
+[2024-05-27 14:32:21] INFO root fetch - processPackages [flatpack]: Remove: archive file [/home/abi/fetcher/tmp/flatpack-3.4.98.tar.gz]
+[2024-05-27 14:32:21] INFO root fetch - processPackages [flatpack]: Remove: archive file [/home/abi/fetcher/tmp/flatpack-3.4.99.tar.gz]
+[2024-05-27 14:32:21] INFO root fetch - main [MainThread]: End processing [flatpack]: success
+[2024-05-27 14:32:21] INFO root fetch - processPackages [chess-transformer]: Remove: archive file [/home/abi/fetcher/tmp/chess_transformer-0.1.4.tar.gz]
+[2024-05-27 14:32:21] INFO root fetch - processPackages [chess-transformer]: Remove: archive file [/home/abi/fetcher/tmp/chess_transformer-0.1.5.tar.gz]
+[2024-05-27 14:32:21] INFO root fetch - main [MainThread]: End processing [chess-transformer]: success
+[2024-05-27 14:32:21] INFO root fetch - processPackages [ssvc]: Remove: archive file [/home/abi/fetcher/tmp/ssvc-1.0.7.tar.gz]
+[2024-05-27 14:32:21] INFO root fetch - processPackages [ssvc]: Remove: archive file [/home/abi/fetcher/tmp/ssvc-1.0.8.tar.gz]
+[2024-05-27 14:32:21] INFO root fetch - main [MainThread]: End processing [ssvc]: success
+[2024-05-27 14:32:21] INFO root fetch - processPackages [odoo12-addon-sm-connect]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_sm_connect-12.0.0.0.8-py2.py3-none-any.whl.zip]
+[2024-05-27 14:32:21] INFO root fetch - processPackages [odoo12-addon-sm-connect]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_sm_connect-12.0.0.0.9-py2.py3-none-any.whl.zip]
+[2024-05-27 14:32:21] INFO root fetch - main [MainThread]: End processing [odoo12-addon-sm-connect]: success
+[2024-05-27 14:32:21] INFO root fetch - processPackages [watchfiles]: executing diffoscope
+[2024-05-27 14:32:21] INFO root fetch - processPackages [watchfiles]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/watchfiles-0.21.0.tar.gz tmp/watchfiles-0.22.0-cp38-cp38-macosx_10_12_x86_64.whl.zip --markdown 20240527/w/watchfiles/0.21.0-0.22.0/README.md --exclude *.pyd
+[2024-05-27 14:32:22] INFO root fetch - processPackages [robusta-cli]: Remove: archive file [/home/abi/fetcher/tmp/robusta-cli-0.9.7.tar.gz]
+[2024-05-27 14:32:22] INFO root fetch - processPackages [robusta-cli]: Remove: archive file [/home/abi/fetcher/tmp/robusta-cli-0.9.9.tar.gz]
+[2024-05-27 14:32:22] INFO root fetch - main [MainThread]: End processing [robusta-cli]: success
+[2024-05-27 14:32:22] INFO root fetch - processPackages [watchfiles]: Remove: archive file [/home/abi/fetcher/tmp/watchfiles-0.21.0.tar.gz]
+[2024-05-27 14:32:22] INFO root fetch - processPackages [watchfiles]: Remove: archive file [/home/abi/fetcher/tmp/watchfiles-0.22.0-cp38-cp38-macosx_10_12_x86_64.whl.zip]
+[2024-05-27 14:32:22] INFO root fetch - main [MainThread]: End processing [watchfiles]: success
+[2024-05-27 14:32:22] INFO root fetch - main [MainThread]: Store serial: [23395569]
