@@ -7810,3 +7810,39 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 09:10:55] INFO root fetch - processPackages [graphene-django-query-optimizer]: Remove: archive file [/home/abi/fetcher/tmp/graphene_django_query_optimizer-0.6.1.tar.gz]
 [2024-05-27 09:10:55] INFO root fetch - main [MainThread]: End processing [graphene-django-query-optimizer]: success
 [2024-05-27 09:10:55] INFO root fetch - main [MainThread]: Store serial: [23391770]
+[2024-05-27 09:12:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23391770]
+[2024-05-27 09:13:04] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-27 09:13:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: promptic
+[2024-05-27 09:13:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-modeltranslation
+[2024-05-27 09:13:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aesthetic-predictor-v2-5
+[2024-05-27 09:13:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: beam-ds
+[2024-05-27 09:13:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: redhat-qe-cloud-tools
+[2024-05-27 09:13:04] WARNING root fetch - processPackages [promptic]: Skipping, unable to determine old version
+[2024-05-27 09:13:04] INFO root fetch - main [MainThread]: End processing [promptic] error
+[2024-05-27 09:13:04] INFO root fetch - processPackages [beam-ds]: New version: [2.5.4] Old Version: [2.5.0b0]
+[2024-05-27 09:13:04] WARNING root fetch - processPackages [aesthetic-predictor-v2-5]: Skipping, unable to determine old version
+[2024-05-27 09:13:04] INFO root fetch - main [MainThread]: End processing [aesthetic-predictor-v2-5] error
+[2024-05-27 09:13:04] INFO root fetch - processPackages [django-modeltranslation]: New version: [0.9.1] Old Version: [0.9]
+[2024-05-27 09:13:04] INFO root fetch - processPackages [redhat-qe-cloud-tools]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-27 09:13:04] INFO root fetch - processPackages [django-modeltranslation]: Downloading https://files.pythonhosted.org/packages/9e/01/d441cf6e79ae464a19985c24f68e20dd636e925fe74eff84b55f43c284bc/django-modeltranslation-0.9.tar.gz
+[2024-05-27 09:13:04] INFO root fetch - processPackages [redhat-qe-cloud-tools]: Downloading https://files.pythonhosted.org/packages/bb/ba/b006d094180ea2c9d36260eb23821d2bdf0bc3e11192b77282a510ac39ee/redhat_qe_cloud_tools-1.0.8.tar.gz
+[2024-05-27 09:13:04] INFO root fetch - processPackages [beam-ds]: Downloading https://files.pythonhosted.org/packages/a5/fc/b559c8fe668e9587282f23307ee88eb4af89e3ea16373cd618a43c32a5a4/beam-ds-2.5.0b0.tar.gz
+[2024-05-27 09:13:04] INFO root fetch - processPackages [django-modeltranslation]: Downloading https://files.pythonhosted.org/packages/d5/35/af034d89c42b08db5ea0b8f25009e09e41317feb9def4928eeaf3cc57f52/django-modeltranslation-0.9.1.tar.gz
+[2024-05-27 09:13:04] INFO root fetch - processPackages [beam-ds]: Downloading https://files.pythonhosted.org/packages/94/f0/4398eb1214d77936bc60c21aa26b655b699ecf5cff84c7db5489f017eb8e/beam_ds-2.5.4-py3-none-any.whl
+[2024-05-27 09:13:04] INFO root fetch - processPackages [redhat-qe-cloud-tools]: Downloading https://files.pythonhosted.org/packages/73/ee/78f15b2144832b2da8cfd67c1d7f49253a5bbeabe351e94adf1af190017c/redhat_qe_cloud_tools-1.0.9.tar.gz
+[2024-05-27 09:13:04] INFO root fetch - processPackages [django-modeltranslation]: executing diffoscope
+[2024-05-27 09:13:04] INFO root fetch - processPackages [django-modeltranslation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-modeltranslation-0.9.tar.gz tmp/django-modeltranslation-0.9.1.tar.gz --markdown 20240527/d/django-modeltranslation/0.9-0.9.1/README.md --exclude *.pyd
+[2024-05-27 09:13:04] INFO root fetch - processPackages [redhat-qe-cloud-tools]: executing diffoscope
+[2024-05-27 09:13:04] INFO root fetch - processPackages [redhat-qe-cloud-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redhat_qe_cloud_tools-1.0.8.tar.gz tmp/redhat_qe_cloud_tools-1.0.9.tar.gz --markdown 20240527/r/redhat-qe-cloud-tools/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-27 09:13:05] INFO root fetch - processPackages [beam-ds]: executing diffoscope
+[2024-05-27 09:13:05] INFO root fetch - processPackages [beam-ds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/beam-ds-2.5.0b0.tar.gz tmp/beam_ds-2.5.4-py3-none-any.whl.zip --markdown 20240527/b/beam-ds/2.5.0b0-2.5.4/README.md --exclude *.pyd
+[2024-05-27 09:13:05] INFO root fetch - processPackages [redhat-qe-cloud-tools]: Remove: archive file [/home/abi/fetcher/tmp/redhat_qe_cloud_tools-1.0.8.tar.gz]
+[2024-05-27 09:13:05] INFO root fetch - processPackages [redhat-qe-cloud-tools]: Remove: archive file [/home/abi/fetcher/tmp/redhat_qe_cloud_tools-1.0.9.tar.gz]
+[2024-05-27 09:13:05] INFO root fetch - main [MainThread]: End processing [redhat-qe-cloud-tools]: success
+[2024-05-27 09:13:05] INFO root fetch - processPackages [beam-ds]: Remove: archive file [/home/abi/fetcher/tmp/beam-ds-2.5.0b0.tar.gz]
+[2024-05-27 09:13:05] INFO root fetch - processPackages [beam-ds]: Remove: archive file [/home/abi/fetcher/tmp/beam_ds-2.5.4-py3-none-any.whl.zip]
+[2024-05-27 09:13:05] INFO root fetch - main [MainThread]: End processing [beam-ds]: success
+[2024-05-27 09:13:05] INFO root fetch - processPackages [django-modeltranslation]: Remove: archive file [/home/abi/fetcher/tmp/django-modeltranslation-0.9.tar.gz]
+[2024-05-27 09:13:05] INFO root fetch - processPackages [django-modeltranslation]: Remove: archive file [/home/abi/fetcher/tmp/django-modeltranslation-0.9.1.tar.gz]
+[2024-05-27 09:13:05] INFO root fetch - main [MainThread]: End processing [django-modeltranslation]: success
+[2024-05-27 09:13:05] INFO root fetch - main [MainThread]: Store serial: [23391793]
