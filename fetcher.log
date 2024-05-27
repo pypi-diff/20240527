@@ -2820,3 +2820,12 @@
 [2024-05-27 03:31:37] INFO root fetch - processPackages [onediff]: Remove: archive file [/home/abi/fetcher/tmp/onediff-1.1.0.dev202405260130.tar.gz]
 [2024-05-27 03:31:37] INFO root fetch - main [MainThread]: End processing [onediff]: success
 [2024-05-27 03:31:37] INFO root fetch - main [MainThread]: Store serial: [23389442]
+[2024-05-27 03:33:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23389442]
+[2024-05-27 03:33:45] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-27 03:33:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: testlala
+[2024-05-27 03:33:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: LatticeToolbox
+[2024-05-27 03:33:45] WARNING root fetch - processPackages [LatticeToolbox]: Skipping, unable to determine old version
+[2024-05-27 03:33:45] INFO root fetch - main [MainThread]: End processing [LatticeToolbox] error
+[2024-05-27 03:33:46] WARNING root fetch - processPackages [testlala]: Skipping, unable to determine old version
+[2024-05-27 03:33:46] INFO root fetch - main [MainThread]: End processing [testlala] error
+[2024-05-27 03:33:46] INFO root fetch - main [MainThread]: Store serial: [23389449]
