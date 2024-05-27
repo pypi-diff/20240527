@@ -4342,3 +4342,18 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 05:07:26] INFO root fetch - processPackages [video-background-extractor]: Remove: archive file [/home/abi/fetcher/tmp/video_background_extractor-1.1.1-py3-none-any.whl.zip]
 [2024-05-27 05:07:26] INFO root fetch - main [MainThread]: End processing [video-background-extractor]: success
 [2024-05-27 05:07:26] INFO root fetch - main [MainThread]: Store serial: [23390059]
+[2024-05-27 05:09:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23390059]
+[2024-05-27 05:09:35] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-27 05:09:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: apiverve-sentimentanalysis
+[2024-05-27 05:09:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: apiverve-seoscraper
+[2024-05-27 05:09:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: apiverve-seovalidator
+[2024-05-27 05:09:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: apiverve-spamdetector
+[2024-05-27 05:09:35] WARNING root fetch - processPackages [apiverve-spamdetector]: Skipping, unable to determine old version
+[2024-05-27 05:09:35] INFO root fetch - main [MainThread]: End processing [apiverve-spamdetector] error
+[2024-05-27 05:09:35] WARNING root fetch - processPackages [apiverve-seoscraper]: Skipping, unable to determine old version
+[2024-05-27 05:09:35] INFO root fetch - main [MainThread]: End processing [apiverve-seoscraper] error
+[2024-05-27 05:09:35] WARNING root fetch - processPackages [apiverve-seovalidator]: Skipping, unable to determine old version
+[2024-05-27 05:09:35] INFO root fetch - main [MainThread]: End processing [apiverve-seovalidator] error
+[2024-05-27 05:09:35] WARNING root fetch - processPackages [apiverve-sentimentanalysis]: Skipping, unable to determine old version
+[2024-05-27 05:09:35] INFO root fetch - main [MainThread]: End processing [apiverve-sentimentanalysis] error
+[2024-05-27 05:09:35] INFO root fetch - main [MainThread]: Store serial: [23390079]
