@@ -3343,3 +3343,30 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-05-27 04:04:30] INFO root fetch - processPackages [proof-of-train]: Remove: archive file [/home/abi/fetcher/tmp/proof_of_train-0.2.0.tar.gz]
 [2024-05-27 04:04:30] INFO root fetch - main [MainThread]: End processing [proof-of-train]: success
 [2024-05-27 04:04:30] INFO root fetch - main [MainThread]: Store serial: [23389621]
+[2024-05-27 04:06:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23389621]
+[2024-05-27 04:06:38] INFO root fetch - main [MainThread]: No changed packages found
+[2024-05-27 04:08:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23389623]
+[2024-05-27 04:08:44] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-27 04:08:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: makepyz
+[2024-05-27 04:08:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: makepyz
+[2024-05-27 04:08:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: krezi
+[2024-05-27 04:08:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tableau-rest-api
+[2024-05-27 04:08:44] INFO root fetch - processPackages [makepyz]: New version: [0.0.1b31] Old Version: [0.0.1b30]
+[2024-05-27 04:08:44] INFO root fetch - processPackages [makepyz]: New version: [0.0.1b31] Old Version: [0.0.1b30]
+[2024-05-27 04:08:44] WARNING root fetch - processPackages [tableau-rest-api]: Skipping, unable to determine old version
+[2024-05-27 04:08:44] INFO root fetch - main [MainThread]: End processing [tableau-rest-api] error
+[2024-05-27 04:08:44] WARNING root fetch - processPackages [krezi]: Skipping, unable to determine old version
+[2024-05-27 04:08:44] INFO root fetch - main [MainThread]: End processing [krezi] error
+[2024-05-27 04:08:44] INFO root fetch - processPackages [makepyz]: Downloading https://files.pythonhosted.org/packages/56/1f/c6cd476e0eab368f4170638689f5f8bae6c6d4f2d99fe1725a5ea9df574e/makepyz-0.0.1b30.tar.gz
+[2024-05-27 04:08:44] INFO root fetch - processPackages [makepyz]: Downloading https://files.pythonhosted.org/packages/56/1f/c6cd476e0eab368f4170638689f5f8bae6c6d4f2d99fe1725a5ea9df574e/makepyz-0.0.1b30.tar.gz
+[2024-05-27 04:08:44] INFO root fetch - processPackages [makepyz]: Downloading https://files.pythonhosted.org/packages/d5/fa/1410743a08e8fbf4294e4373f7747ec724ad79b5db9b3d0a8a0cdfba5772/makepyz-0.0.1b31.tar.gz
+[2024-05-27 04:08:44] INFO root fetch - processPackages [makepyz]: Downloading https://files.pythonhosted.org/packages/d5/fa/1410743a08e8fbf4294e4373f7747ec724ad79b5db9b3d0a8a0cdfba5772/makepyz-0.0.1b31.tar.gz
+[2024-05-27 04:08:44] INFO root fetch - processPackages [makepyz]: executing diffoscope
+[2024-05-27 04:08:44] INFO root fetch - processPackages [makepyz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/makepyz-0.0.1b30.tar.gz tmp/makepyz-0.0.1b31.tar.gz --markdown 20240527/m/makepyz/0.0.1b30-0.0.1b31/README.md --exclude *.pyd
+[2024-05-27 04:08:44] INFO root fetch - processPackages [makepyz]: executing diffoscope
+[2024-05-27 04:08:44] INFO root fetch - processPackages [makepyz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/makepyz-0.0.1b30.tar.gz tmp/makepyz-0.0.1b31.tar.gz --markdown 20240527/m/makepyz/0.0.1b30-0.0.1b31/README.md --exclude *.pyd
+[2024-05-27 04:08:45] INFO root fetch - processPackages [makepyz]: Remove: archive file [/home/abi/fetcher/tmp/makepyz-0.0.1b30.tar.gz]
+[2024-05-27 04:08:45] INFO root fetch - processPackages [makepyz]: Remove: archive file [/home/abi/fetcher/tmp/makepyz-0.0.1b31.tar.gz]
+[2024-05-27 04:08:45] INFO root fetch - main [MainThread]: End processing [makepyz]: success
+[2024-05-27 04:08:45] INFO root fetch - main [MainThread]: End processing [makepyz]: success
+[2024-05-27 04:08:45] INFO root fetch - main [MainThread]: Store serial: [23389638]
