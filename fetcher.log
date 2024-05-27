@@ -19215,3 +19215,90 @@ EOFError: EOF read where object expected
 [2024-05-27 16:43:37] INFO root fetch - processPackages [django-smartbase-admin]: Remove: archive file [/home/abi/fetcher/tmp/django_smartbase_admin-0.2.9.tar.gz]
 [2024-05-27 16:43:37] INFO root fetch - main [MainThread]: End processing [django-smartbase-admin]: success
 [2024-05-27 16:43:37] INFO root fetch - main [MainThread]: Store serial: [23397211]
+[2024-05-27 16:45:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23397211]
+[2024-05-27 16:45:46] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-27 16:45:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spatialAUC
+[2024-05-27 16:45:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yeref
+[2024-05-27 16:45:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dicio-py
+[2024-05-27 16:45:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mkeima
+[2024-05-27 16:45:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: llama3-package
+[2024-05-27 16:45:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: browserbase
+[2024-05-27 16:45:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pypi-template
+[2024-05-27 16:45:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: Donut-LLM-Tools
+[2024-05-27 16:45:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyfortimanager
+[2024-05-27 16:45:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: hapi-schema
+[2024-05-27 16:45:47] WARNING root fetch - processPackages [spatialAUC]: Skipping, unable to determine old version
+[2024-05-27 16:45:47] INFO root fetch - main [MainThread]: End processing [spatialAUC] error
+[2024-05-27 16:45:47] INFO root fetch - processPackages [Donut-LLM-Tools]: New version: [24.5.27.2] Old Version: [24.5.27]
+[2024-05-27 16:45:47] INFO root fetch - processPackages [dicio-py]: New version: [2.1] Old Version: [2.0]
+[2024-05-27 16:45:47] INFO root fetch - processPackages [hapi-schema]: New version: [0.8.7] Old Version: [0.8.6]
+[2024-05-27 16:45:47] INFO root fetch - processPackages [yeref]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-27 16:45:47] INFO root fetch - processPackages [dicio-py]: Downloading https://files.pythonhosted.org/packages/35/ff/d5803cd988599c3cb193d8b7d11ea79330b88e690e86f96452abae8a2b55/dicio_py-2.0.tar.gz
+[2024-05-27 16:45:47] INFO root fetch - processPackages [mkeima]: New version: [0.5.1] Old Version: [0.5.0]
+[2024-05-27 16:45:47] INFO root fetch - processPackages [Donut-LLM-Tools]: Downloading https://files.pythonhosted.org/packages/be/b3/76069d6bdfe7c6c37f2f8abb213c93c42fcef524a17f4689cdfee4c3fc79/donut_llm_tools-24.5.27.tar.gz
+[2024-05-27 16:45:47] INFO root fetch - processPackages [llama3-package]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-05-27 16:45:47] INFO root fetch - processPackages [pypi-template]: New version: [0.6.0] Old Version: [0.5.0]
+[2024-05-27 16:45:47] INFO root fetch - processPackages [browserbase]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-27 16:45:47] INFO root fetch - processPackages [pyfortimanager]: New version: [2.3.0] Old Version: [2.2.1]
+[2024-05-27 16:45:47] INFO root fetch - processPackages [hapi-schema]: Downloading https://files.pythonhosted.org/packages/22/2d/df1965d84c22c452fd7937f71fe54743fb7eded8a00ea3224d8b1adab2b0/hapi_schema-0.8.6.tar.gz
+[2024-05-27 16:45:47] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/ec/cb/204e6fbe233bbb61cf29c1b491e8c638c8a843edc47fb4e1d8cc8c26608c/yeref-0.9.8.tar.gz
+[2024-05-27 16:45:47] INFO root fetch - processPackages [mkeima]: Downloading https://files.pythonhosted.org/packages/82/bf/b170f767013aa57f5dae7bf709861e34eb95e0baf32ccfe19fadb317d922/mkeima-0.5.0.tar.gz
+[2024-05-27 16:45:47] INFO root fetch - processPackages [Donut-LLM-Tools]: Downloading https://files.pythonhosted.org/packages/54/d0/e6ca6f136d14bac0fc79ef89f80627dd75516c9795b13f879ed2bcfe1be1/donut_llm_tools-24.5.27.2.tar.gz
+[2024-05-27 16:45:47] INFO root fetch - processPackages [llama3-package]: Downloading https://files.pythonhosted.org/packages/d9/7a/02a408a924ba9316eaea7a0c46ca2d4d2161d88eb305ed8c597a4bb3fad3/llama3_package-0.3.0.tar.gz
+[2024-05-27 16:45:47] INFO root fetch - processPackages [pypi-template]: Downloading https://files.pythonhosted.org/packages/97/f7/3ba1f6c5342e4c7aa4cf2332a4430810b3dcdaa75327ac7a2064a3e0891a/pypi-template-0.5.0.tar.gz
+[2024-05-27 16:45:47] INFO root fetch - processPackages [browserbase]: Downloading https://files.pythonhosted.org/packages/c6/2a/c5bef5eda3e53362599d359dc81f02b600dde7db27873877045410da7bf2/browserbase-0.1.4.tar.gz
+[2024-05-27 16:45:47] INFO root fetch - processPackages [pyfortimanager]: Downloading https://files.pythonhosted.org/packages/73/d0/bb022501536c43dd4e52906fedb69d7715fca8caf1df0b08dea50666c565/pyfortimanager-2.2.1.tar.gz
+[2024-05-27 16:45:47] INFO root fetch - processPackages [hapi-schema]: Downloading https://files.pythonhosted.org/packages/d1/4c/890a45099d35d855d8a8aa2080db8ce82fa0c1b4bdf45f8a26c662687c0f/hapi_schema-0.8.7.tar.gz
+[2024-05-27 16:45:47] INFO root fetch - processPackages [Donut-LLM-Tools]: executing diffoscope
+[2024-05-27 16:45:47] INFO root fetch - processPackages [Donut-LLM-Tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/donut_llm_tools-24.5.27.tar.gz tmp/donut_llm_tools-24.5.27.2.tar.gz --markdown 20240527/D/Donut-LLM-Tools/24.5.27-24.5.27.2/README.md --exclude *.pyd
+[2024-05-27 16:45:47] INFO root fetch - processPackages [dicio-py]: Downloading https://files.pythonhosted.org/packages/9c/4c/36cbb72f15268bfef073f3e40224c70fea3366eb95a144a35f031e4ba245/dicio_py-2.1.tar.gz
+[2024-05-27 16:45:47] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/01/13/0f11bb3dfb27aaf16ed48b0046f50ac65b1fde32662fbc314d53e2558b2d/yeref-0.9.9.tar.gz
+[2024-05-27 16:45:47] INFO root fetch - processPackages [hapi-schema]: executing diffoscope
+[2024-05-27 16:45:47] INFO root fetch - processPackages [hapi-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hapi_schema-0.8.6.tar.gz tmp/hapi_schema-0.8.7.tar.gz --markdown 20240527/h/hapi-schema/0.8.6-0.8.7/README.md --exclude *.pyd
+[2024-05-27 16:45:47] INFO root fetch - processPackages [dicio-py]: executing diffoscope
+[2024-05-27 16:45:47] INFO root fetch - processPackages [dicio-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dicio_py-2.0.tar.gz tmp/dicio_py-2.1.tar.gz --markdown 20240527/d/dicio-py/2.0-2.1/README.md --exclude *.pyd
+[2024-05-27 16:45:47] INFO root fetch - processPackages [mkeima]: Downloading https://files.pythonhosted.org/packages/b5/d0/73b3ac742fd7638fc24a1ccf89b63b1573233de74c736f70ebef5837fa56/mkeima-0.5.1.tar.gz
+[2024-05-27 16:45:47] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2024-05-27 16:45:47] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.9.8.tar.gz tmp/yeref-0.9.9.tar.gz --markdown 20240527/y/yeref/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-27 16:45:47] INFO root fetch - processPackages [llama3-package]: Downloading https://files.pythonhosted.org/packages/7e/bc/dba5a41b03b6ee731d9362a2bea61d204b5d0f3ac670c202852043c1ee45/llama3_package-0.4.0.tar.gz
+[2024-05-27 16:45:47] INFO root fetch - processPackages [pypi-template]: Downloading https://files.pythonhosted.org/packages/b0/0b/6f4f167da01ebc2984304c21acfbcc077d83f64d5b25231be2455d6f30a7/pypi-template-0.6.0.tar.gz
+[2024-05-27 16:45:47] INFO root fetch - processPackages [browserbase]: Downloading https://files.pythonhosted.org/packages/fe/86/7999a34d843165b54a07562ac090f7bf17a8168b0699b70c342e99843679/browserbase-0.1.5.tar.gz
+[2024-05-27 16:45:47] INFO root fetch - processPackages [mkeima]: executing diffoscope
+[2024-05-27 16:45:47] INFO root fetch - processPackages [mkeima]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkeima-0.5.0.tar.gz tmp/mkeima-0.5.1.tar.gz --markdown 20240527/m/mkeima/0.5.0-0.5.1/README.md --exclude *.pyd
+[2024-05-27 16:45:48] INFO root fetch - processPackages [pyfortimanager]: Downloading https://files.pythonhosted.org/packages/8e/8e/129713bce1b79164505bf95f12368911426a4239682ffb2b0ebfb6a50b24/pyfortimanager-2.3.0.tar.gz
+[2024-05-27 16:45:48] INFO root fetch - processPackages [llama3-package]: executing diffoscope
+[2024-05-27 16:45:48] INFO root fetch - processPackages [llama3-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama3_package-0.3.0.tar.gz tmp/llama3_package-0.4.0.tar.gz --markdown 20240527/l/llama3-package/0.3.0-0.4.0/README.md --exclude *.pyd
+[2024-05-27 16:45:48] INFO root fetch - processPackages [browserbase]: executing diffoscope
+[2024-05-27 16:45:48] INFO root fetch - processPackages [browserbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/browserbase-0.1.4.tar.gz tmp/browserbase-0.1.5.tar.gz --markdown 20240527/b/browserbase/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-27 16:45:48] INFO root fetch - processPackages [pypi-template]: executing diffoscope
+[2024-05-27 16:45:48] INFO root fetch - processPackages [pypi-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypi-template-0.5.0.tar.gz tmp/pypi-template-0.6.0.tar.gz --markdown 20240527/p/pypi-template/0.5.0-0.6.0/README.md --exclude *.pyd
+[2024-05-27 16:45:48] INFO root fetch - processPackages [pyfortimanager]: executing diffoscope
+[2024-05-27 16:45:48] INFO root fetch - processPackages [pyfortimanager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfortimanager-2.2.1.tar.gz tmp/pyfortimanager-2.3.0.tar.gz --markdown 20240527/p/pyfortimanager/2.2.1-2.3.0/README.md --exclude *.pyd
+[2024-05-27 16:45:48] INFO root fetch - processPackages [Donut-LLM-Tools]: Remove: archive file [/home/abi/fetcher/tmp/donut_llm_tools-24.5.27.tar.gz]
+[2024-05-27 16:45:48] INFO root fetch - processPackages [Donut-LLM-Tools]: Remove: archive file [/home/abi/fetcher/tmp/donut_llm_tools-24.5.27.2.tar.gz]
+[2024-05-27 16:45:48] INFO root fetch - main [MainThread]: End processing [Donut-LLM-Tools]: success
+[2024-05-27 16:45:48] INFO root fetch - processPackages [dicio-py]: Remove: archive file [/home/abi/fetcher/tmp/dicio_py-2.0.tar.gz]
+[2024-05-27 16:45:48] INFO root fetch - processPackages [dicio-py]: Remove: archive file [/home/abi/fetcher/tmp/dicio_py-2.1.tar.gz]
+[2024-05-27 16:45:48] INFO root fetch - main [MainThread]: End processing [dicio-py]: success
+[2024-05-27 16:45:48] INFO root fetch - processPackages [mkeima]: Remove: archive file [/home/abi/fetcher/tmp/mkeima-0.5.0.tar.gz]
+[2024-05-27 16:45:48] INFO root fetch - processPackages [mkeima]: Remove: archive file [/home/abi/fetcher/tmp/mkeima-0.5.1.tar.gz]
+[2024-05-27 16:45:48] INFO root fetch - main [MainThread]: End processing [mkeima]: success
+[2024-05-27 16:45:48] INFO root fetch - processPackages [hapi-schema]: Remove: archive file [/home/abi/fetcher/tmp/hapi_schema-0.8.6.tar.gz]
+[2024-05-27 16:45:48] INFO root fetch - processPackages [hapi-schema]: Remove: archive file [/home/abi/fetcher/tmp/hapi_schema-0.8.7.tar.gz]
+[2024-05-27 16:45:48] INFO root fetch - main [MainThread]: End processing [hapi-schema]: success
+[2024-05-27 16:45:48] INFO root fetch - processPackages [llama3-package]: Remove: archive file [/home/abi/fetcher/tmp/llama3_package-0.3.0.tar.gz]
+[2024-05-27 16:45:48] INFO root fetch - processPackages [llama3-package]: Remove: archive file [/home/abi/fetcher/tmp/llama3_package-0.4.0.tar.gz]
+[2024-05-27 16:45:48] INFO root fetch - main [MainThread]: End processing [llama3-package]: success
+[2024-05-27 16:45:49] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.8.tar.gz]
+[2024-05-27 16:45:49] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.9.tar.gz]
+[2024-05-27 16:45:49] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2024-05-27 16:45:49] INFO root fetch - processPackages [pypi-template]: Remove: archive file [/home/abi/fetcher/tmp/pypi-template-0.5.0.tar.gz]
+[2024-05-27 16:45:49] INFO root fetch - processPackages [pypi-template]: Remove: archive file [/home/abi/fetcher/tmp/pypi-template-0.6.0.tar.gz]
+[2024-05-27 16:45:49] INFO root fetch - main [MainThread]: End processing [pypi-template]: success
+[2024-05-27 16:45:49] INFO root fetch - processPackages [browserbase]: Remove: archive file [/home/abi/fetcher/tmp/browserbase-0.1.4.tar.gz]
+[2024-05-27 16:45:49] INFO root fetch - processPackages [browserbase]: Remove: archive file [/home/abi/fetcher/tmp/browserbase-0.1.5.tar.gz]
+[2024-05-27 16:45:49] INFO root fetch - main [MainThread]: End processing [browserbase]: success
+[2024-05-27 16:45:49] INFO root fetch - processPackages [pyfortimanager]: Remove: archive file [/home/abi/fetcher/tmp/pyfortimanager-2.2.1.tar.gz]
+[2024-05-27 16:45:49] INFO root fetch - processPackages [pyfortimanager]: Remove: archive file [/home/abi/fetcher/tmp/pyfortimanager-2.3.0.tar.gz]
+[2024-05-27 16:45:49] INFO root fetch - main [MainThread]: End processing [pyfortimanager]: success
+[2024-05-27 16:45:49] INFO root fetch - main [MainThread]: Store serial: [23397243]
