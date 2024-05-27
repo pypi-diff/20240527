@@ -22326,3 +22326,30 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-05-27 18:50:29] WARNING root fetch - processPackages [openbot-training-frontend]: Skipping, unable to determine old version
 [2024-05-27 18:50:29] INFO root fetch - main [MainThread]: End processing [openbot-training-frontend] error
 [2024-05-27 18:50:29] INFO root fetch - main [MainThread]: Store serial: [23398577]
+[2024-05-27 18:52:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23398577]
+[2024-05-27 18:52:38] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-27 18:52:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qwak-core
+[2024-05-27 18:52:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: libreflow.extensions.anpo.export-illustrator
+[2024-05-27 18:52:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: libreflow.extensions.anpo.texture-proxies
+[2024-05-27 18:52:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: generate-temp-table-sql
+[2024-05-27 18:52:38] INFO root fetch - processPackages [qwak-core]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-05-27 18:52:38] WARNING root fetch - processPackages [libreflow.extensions.anpo.texture-proxies]: Skipping, unable to determine old version
+[2024-05-27 18:52:38] INFO root fetch - main [MainThread]: End processing [libreflow.extensions.anpo.texture-proxies] error
+[2024-05-27 18:52:38] WARNING root fetch - processPackages [libreflow.extensions.anpo.export-illustrator]: Skipping, unable to determine old version
+[2024-05-27 18:52:38] INFO root fetch - main [MainThread]: End processing [libreflow.extensions.anpo.export-illustrator] error
+[2024-05-27 18:52:38] INFO root fetch - processPackages [generate-temp-table-sql]: New version: [0.3] Old Version: [0.2]
+[2024-05-27 18:52:38] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/40/dc/9bf7a0a11e5d16704620fd9a2d038eee79e38d502983f2c9975412d1053c/qwak_core-0.4.8.tar.gz
+[2024-05-27 18:52:38] INFO root fetch - processPackages [generate-temp-table-sql]: Downloading https://files.pythonhosted.org/packages/48/cd/a2d8258e63d6a864f947580226cd15aacc2b5b3628bee6c3ea846afcea4d/generate_temp_table_sql-0.2.tar.gz
+[2024-05-27 18:52:38] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/fe/09/8867573c92d18e200499a583b45f6adb1552d9e721e39370c8aa578b7080/qwak_core-0.4.9.tar.gz
+[2024-05-27 18:52:38] INFO root fetch - processPackages [generate-temp-table-sql]: Downloading https://files.pythonhosted.org/packages/20/a4/1fb8bd97d2f40c2f155f9a05ee64987d107c649391441658c2f5be324efe/generate_temp_table_sql-0.3.tar.gz
+[2024-05-27 18:52:39] INFO root fetch - processPackages [qwak-core]: executing diffoscope
+[2024-05-27 18:52:39] INFO root fetch - processPackages [qwak-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qwak_core-0.4.8.tar.gz tmp/qwak_core-0.4.9.tar.gz --markdown 20240527/q/qwak-core/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-05-27 18:52:39] INFO root fetch - processPackages [generate-temp-table-sql]: executing diffoscope
+[2024-05-27 18:52:39] INFO root fetch - processPackages [generate-temp-table-sql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/generate_temp_table_sql-0.2.tar.gz tmp/generate_temp_table_sql-0.3.tar.gz --markdown 20240527/g/generate-temp-table-sql/0.2-0.3/README.md --exclude *.pyd
+[2024-05-27 18:52:39] INFO root fetch - processPackages [generate-temp-table-sql]: Remove: archive file [/home/abi/fetcher/tmp/generate_temp_table_sql-0.2.tar.gz]
+[2024-05-27 18:52:39] INFO root fetch - processPackages [generate-temp-table-sql]: Remove: archive file [/home/abi/fetcher/tmp/generate_temp_table_sql-0.3.tar.gz]
+[2024-05-27 18:52:39] INFO root fetch - main [MainThread]: End processing [generate-temp-table-sql]: success
+[2024-05-27 18:52:41] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.4.8.tar.gz]
+[2024-05-27 18:52:41] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.4.9.tar.gz]
+[2024-05-27 18:52:41] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
+[2024-05-27 18:52:41] INFO root fetch - main [MainThread]: Store serial: [23398591]
