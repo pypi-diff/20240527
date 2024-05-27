@@ -24741,3 +24741,24 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-05-27 20:34:09] INFO root fetch - processPackages [django-editor-ymaps]: Remove: archive file [/home/abi/fetcher/tmp/django_editor_ymaps-2.3.9.tar.gz]
 [2024-05-27 20:34:09] INFO root fetch - main [MainThread]: End processing [django-editor-ymaps]: success
 [2024-05-27 20:34:09] INFO root fetch - main [MainThread]: Store serial: [23399844]
+[2024-05-27 20:36:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23399844]
+[2024-05-27 20:36:18] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-27 20:36:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: granian
+[2024-05-27 20:36:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: infisical-python
+[2024-05-27 20:36:18] INFO root fetch - processPackages [infisical-python]: New version: [2.2.1] Old Version: [2.2.0]
+[2024-05-27 20:36:18] INFO root fetch - processPackages [infisical-python]: Downloading https://files.pythonhosted.org/packages/ba/27/11f6bf3946bce5826d8ec3e531561c34babcca21f29b526ee3ac9a14e466/infisical_python-2.2.0.tar.gz
+[2024-05-27 20:36:18] INFO root fetch - processPackages [granian]: New version: [1.4.1] Old Version: [1.4.0]
+[2024-05-27 20:36:18] INFO root fetch - processPackages [infisical-python]: Downloading https://files.pythonhosted.org/packages/5a/bd/4c02e251806ab456f0393ac004a8c5a81cb8ff4b137443fe2157efeb81b6/infisical_python-2.2.1.tar.gz
+[2024-05-27 20:36:18] INFO root fetch - processPackages [granian]: Downloading https://files.pythonhosted.org/packages/67/b5/21d23a4d70c0a14263dc4112a089cb1951c1450e35b46c7b5a919d92ed41/granian-1.4.0.tar.gz
+[2024-05-27 20:36:18] INFO root fetch - processPackages [infisical-python]: executing diffoscope
+[2024-05-27 20:36:18] INFO root fetch - processPackages [infisical-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/infisical_python-2.2.0.tar.gz tmp/infisical_python-2.2.1.tar.gz --markdown 20240527/i/infisical-python/2.2.0-2.2.1/README.md --exclude *.pyd
+[2024-05-27 20:36:19] INFO root fetch - processPackages [granian]: Downloading https://files.pythonhosted.org/packages/6e/42/1c179d394ad911b07a489e2fd2fe4c2e38643bb003e3760f68782f801aab/granian-1.4.1-cp38-cp38-musllinux_1_1_aarch64.whl
+[2024-05-27 20:36:19] INFO root fetch - processPackages [infisical-python]: Remove: archive file [/home/abi/fetcher/tmp/infisical_python-2.2.0.tar.gz]
+[2024-05-27 20:36:19] INFO root fetch - processPackages [infisical-python]: Remove: archive file [/home/abi/fetcher/tmp/infisical_python-2.2.1.tar.gz]
+[2024-05-27 20:36:19] INFO root fetch - main [MainThread]: End processing [infisical-python]: success
+[2024-05-27 20:36:22] INFO root fetch - processPackages [granian]: executing diffoscope
+[2024-05-27 20:36:22] INFO root fetch - processPackages [granian]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/granian-1.4.0.tar.gz tmp/granian-1.4.1-cp38-cp38-musllinux_1_1_aarch64.whl.zip --markdown 20240527/g/granian/1.4.0-1.4.1/README.md --exclude *.pyd
+[2024-05-27 20:36:22] INFO root fetch - processPackages [granian]: Remove: archive file [/home/abi/fetcher/tmp/granian-1.4.0.tar.gz]
+[2024-05-27 20:36:22] INFO root fetch - processPackages [granian]: Remove: archive file [/home/abi/fetcher/tmp/granian-1.4.1-cp38-cp38-musllinux_1_1_aarch64.whl.zip]
+[2024-05-27 20:36:22] INFO root fetch - main [MainThread]: End processing [granian]: success
+[2024-05-27 20:36:22] INFO root fetch - main [MainThread]: Store serial: [23399882]
