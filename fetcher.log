@@ -4765,3 +4765,33 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 05:37:47] INFO root fetch - processPackages [FinaleToolkit]: Remove: archive file [/home/abi/fetcher/tmp/finaletoolkit-0.6.0.tar.gz]
 [2024-05-27 05:37:47] INFO root fetch - main [MainThread]: End processing [FinaleToolkit]: success
 [2024-05-27 05:37:47] INFO root fetch - main [MainThread]: Store serial: [23390305]
+[2024-05-27 05:39:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23390305]
+[2024-05-27 05:39:56] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-27 05:39:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: io_file_validator
+[2024-05-27 05:39:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: daalab
+[2024-05-27 05:39:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mapieng
+[2024-05-27 05:39:56] INFO root fetch - processPackages [io_file_validator]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-27 05:39:56] INFO root fetch - processPackages [daalab]: New version: [1.1] Old Version: [1.0]
+[2024-05-27 05:39:56] INFO root fetch - processPackages [mapieng]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-27 05:39:57] INFO root fetch - processPackages [io_file_validator]: Downloading https://files.pythonhosted.org/packages/57/2a/154bd4c89d87c91b5bfdbbc9de1cfa97d8bf535d1a350076d79475a9ee10/io_file_validator-0.1.4.tar.gz
+[2024-05-27 05:39:57] INFO root fetch - processPackages [daalab]: Downloading https://files.pythonhosted.org/packages/dc/81/c3d231836eb81707e645a4c36fa46d691ba45d723654a3174c8c9720a5cb/daalab-1.0.tar.gz
+[2024-05-27 05:39:57] INFO root fetch - processPackages [mapieng]: Downloading https://files.pythonhosted.org/packages/b4/f5/20b779f1090c7b5b6ddb54d5caa36681711ac3e1871347462a7e2da7e611/mapieng-0.2.1.tar.gz
+[2024-05-27 05:39:57] INFO root fetch - processPackages [io_file_validator]: Downloading https://files.pythonhosted.org/packages/4d/65/2d08aa4f05afbd2ef5567a99cdd8f58ac50342da1106ef4fa3f486cc798b/io_file_validator-0.1.5.tar.gz
+[2024-05-27 05:39:57] INFO root fetch - processPackages [daalab]: Downloading https://files.pythonhosted.org/packages/bd/34/da1a621c7930ae8b1b9d8af098e1a41ac1b24b6a948277891da2d1213fe3/daalab-1.1.tar.gz
+[2024-05-27 05:39:57] INFO root fetch - processPackages [io_file_validator]: executing diffoscope
+[2024-05-27 05:39:57] INFO root fetch - processPackages [io_file_validator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/io_file_validator-0.1.4.tar.gz tmp/io_file_validator-0.1.5.tar.gz --markdown 20240527/i/io_file_validator/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-27 05:39:57] INFO root fetch - processPackages [daalab]: executing diffoscope
+[2024-05-27 05:39:57] INFO root fetch - processPackages [daalab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/daalab-1.0.tar.gz tmp/daalab-1.1.tar.gz --markdown 20240527/d/daalab/1.0-1.1/README.md --exclude *.pyd
+[2024-05-27 05:39:57] INFO root fetch - processPackages [mapieng]: Downloading https://files.pythonhosted.org/packages/a7/bc/2490cb9a40b436923b7fcf32bba6f868a9b65bddd4c05e389893198a2ebf/mapieng-0.2.2.tar.gz
+[2024-05-27 05:39:58] INFO root fetch - processPackages [io_file_validator]: Remove: archive file [/home/abi/fetcher/tmp/io_file_validator-0.1.4.tar.gz]
+[2024-05-27 05:39:58] INFO root fetch - processPackages [io_file_validator]: Remove: archive file [/home/abi/fetcher/tmp/io_file_validator-0.1.5.tar.gz]
+[2024-05-27 05:39:58] INFO root fetch - main [MainThread]: End processing [io_file_validator]: success
+[2024-05-27 05:39:58] INFO root fetch - processPackages [daalab]: Remove: archive file [/home/abi/fetcher/tmp/daalab-1.0.tar.gz]
+[2024-05-27 05:39:58] INFO root fetch - processPackages [daalab]: Remove: archive file [/home/abi/fetcher/tmp/daalab-1.1.tar.gz]
+[2024-05-27 05:39:58] INFO root fetch - main [MainThread]: End processing [daalab]: success
+[2024-05-27 05:39:58] INFO root fetch - processPackages [mapieng]: executing diffoscope
+[2024-05-27 05:39:58] INFO root fetch - processPackages [mapieng]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mapieng-0.2.1.tar.gz tmp/mapieng-0.2.2.tar.gz --markdown 20240527/m/mapieng/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-05-27 05:39:58] INFO root fetch - processPackages [mapieng]: Remove: archive file [/home/abi/fetcher/tmp/mapieng-0.2.1.tar.gz]
+[2024-05-27 05:39:58] INFO root fetch - processPackages [mapieng]: Remove: archive file [/home/abi/fetcher/tmp/mapieng-0.2.2.tar.gz]
+[2024-05-27 05:39:58] INFO root fetch - main [MainThread]: End processing [mapieng]: success
+[2024-05-27 05:39:58] INFO root fetch - main [MainThread]: Store serial: [23390313]
