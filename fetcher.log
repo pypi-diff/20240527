@@ -4849,3 +4849,27 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 05:46:29] INFO root fetch - processPackages [libdaw]: Remove: archive file [/home/abi/fetcher/tmp/libdaw-0.7.0.tar.gz]
 [2024-05-27 05:46:29] INFO root fetch - main [MainThread]: End processing [libdaw]: success
 [2024-05-27 05:46:29] INFO root fetch - main [MainThread]: Store serial: [23390367]
+[2024-05-27 05:48:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23390367]
+[2024-05-27 05:48:39] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-27 05:48:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ip-searcher
+[2024-05-27 05:48:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: daalab
+[2024-05-27 05:48:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: super-ec2
+[2024-05-27 05:48:39] INFO root fetch - processPackages [daalab]: New version: [1.1] Old Version: [1.0]
+[2024-05-27 05:48:39] INFO root fetch - processPackages [ip-searcher]: New version: [2024.5.27.11.45.27] Old Version: [2024.5.27.11.29.53]
+[2024-05-27 05:48:39] INFO root fetch - processPackages [daalab]: Downloading https://files.pythonhosted.org/packages/dc/81/c3d231836eb81707e645a4c36fa46d691ba45d723654a3174c8c9720a5cb/daalab-1.0.tar.gz
+[2024-05-27 05:48:39] WARNING root fetch - processPackages [super-ec2]: Skipping, unable to determine old version
+[2024-05-27 05:48:39] INFO root fetch - main [MainThread]: End processing [super-ec2] error
+[2024-05-27 05:48:39] INFO root fetch - processPackages [ip-searcher]: Downloading https://files.pythonhosted.org/packages/54/e3/9441adefbfe598c4429f40c2683761b5d945954c4e2faa63d4aa47696205/ip_searcher-2024.5.27.11.29.53.tar.gz
+[2024-05-27 05:48:39] INFO root fetch - processPackages [daalab]: Downloading https://files.pythonhosted.org/packages/bd/34/da1a621c7930ae8b1b9d8af098e1a41ac1b24b6a948277891da2d1213fe3/daalab-1.1.tar.gz
+[2024-05-27 05:48:39] INFO root fetch - processPackages [daalab]: executing diffoscope
+[2024-05-27 05:48:39] INFO root fetch - processPackages [daalab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/daalab-1.0.tar.gz tmp/daalab-1.1.tar.gz --markdown 20240527/d/daalab/1.0-1.1/README.md --exclude *.pyd
+[2024-05-27 05:48:40] INFO root fetch - processPackages [ip-searcher]: Downloading https://files.pythonhosted.org/packages/d0/20/497522a084969a7cbd2c6aca9a90e9fe1a1e80277509bbd8e2c23fd33c5a/ip_searcher-2024.5.27.11.45.27.tar.gz
+[2024-05-27 05:48:40] INFO root fetch - processPackages [ip-searcher]: executing diffoscope
+[2024-05-27 05:48:40] INFO root fetch - processPackages [ip-searcher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ip_searcher-2024.5.27.11.29.53.tar.gz tmp/ip_searcher-2024.5.27.11.45.27.tar.gz --markdown 20240527/i/ip-searcher/2024.5.27.11.29.53-2024.5.27.11.45.27/README.md --exclude *.pyd
+[2024-05-27 05:48:40] INFO root fetch - processPackages [daalab]: Remove: archive file [/home/abi/fetcher/tmp/daalab-1.0.tar.gz]
+[2024-05-27 05:48:40] INFO root fetch - processPackages [daalab]: Remove: archive file [/home/abi/fetcher/tmp/daalab-1.1.tar.gz]
+[2024-05-27 05:48:40] INFO root fetch - main [MainThread]: End processing [daalab]: success
+[2024-05-27 05:48:40] INFO root fetch - processPackages [ip-searcher]: Remove: archive file [/home/abi/fetcher/tmp/ip_searcher-2024.5.27.11.29.53.tar.gz]
+[2024-05-27 05:48:40] INFO root fetch - processPackages [ip-searcher]: Remove: archive file [/home/abi/fetcher/tmp/ip_searcher-2024.5.27.11.45.27.tar.gz]
+[2024-05-27 05:48:40] INFO root fetch - main [MainThread]: End processing [ip-searcher]: success
+[2024-05-27 05:48:40] INFO root fetch - main [MainThread]: Store serial: [23390379]
