@@ -9090,3 +9090,45 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 10:10:17] INFO root fetch - processPackages [flowty]: Remove: archive file [/home/abi/fetcher/tmp/flowty-2.0a9-cp39-cp39-win_amd64.whl.zip]
 [2024-05-27 10:10:17] INFO root fetch - main [MainThread]: End processing [flowty]: success
 [2024-05-27 10:10:17] INFO root fetch - main [MainThread]: Store serial: [23392355]
+[2024-05-27 10:12:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23392355]
+[2024-05-27 10:12:26] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-27 10:12:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tui-dsmt
+[2024-05-27 10:12:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: prjit
+[2024-05-27 10:12:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pytest-splunk-addon
+[2024-05-27 10:12:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: safeaipackage
+[2024-05-27 10:12:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: duwi-smarthome-sdk-dev
+[2024-05-27 10:12:26] WARNING root fetch - processPackages [prjit]: Skipping, unable to determine old version
+[2024-05-27 10:12:26] INFO root fetch - main [MainThread]: End processing [prjit] error
+[2024-05-27 10:12:26] INFO root fetch - processPackages [duwi-smarthome-sdk-dev]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-27 10:12:27] INFO root fetch - processPackages [duwi-smarthome-sdk-dev]: Downloading https://files.pythonhosted.org/packages/8e/b1/1a818cd7ebce999864b56bc2bea394d59119bc58e087065699cd93254b72/duwi_smarthome_sdk_dev-0.1.4.tar.gz
+[2024-05-27 10:12:27] INFO root fetch - processPackages [safeaipackage]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-05-27 10:12:27] INFO root fetch - processPackages [tui-dsmt]: New version: [202405251109] Old Version: [202405250837]
+[2024-05-27 10:12:27] INFO root fetch - processPackages [pytest-splunk-addon]: New version: [5.3.0b2] Old Version: [5.3.0b1]
+[2024-05-27 10:12:27] INFO root fetch - processPackages [tui-dsmt]: Downloading https://files.pythonhosted.org/packages/85/1f/2c705219b986615bf22196272f4d05873db25da07c7c9a478621b6c48356/tui_dsmt-202405250837.tar.gz
+[2024-05-27 10:12:27] INFO root fetch - processPackages [safeaipackage]: Downloading https://files.pythonhosted.org/packages/a6/f9/978de025dda0e1f3ab75c4a2eb539fb27dc27980d36e36e6cbfcee64c955/safeaipackage-0.4.0.tar.gz
+[2024-05-27 10:12:27] INFO root fetch - processPackages [duwi-smarthome-sdk-dev]: Downloading https://files.pythonhosted.org/packages/b2/b4/99acfd601a40d71fd5c2ba4dd89929a27d2c39aa8ce2ec5a48ec7301418d/duwi_smarthome_sdk_dev-0.1.5.tar.gz
+[2024-05-27 10:12:27] INFO root fetch - processPackages [duwi-smarthome-sdk-dev]: executing diffoscope
+[2024-05-27 10:12:27] INFO root fetch - processPackages [duwi-smarthome-sdk-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/duwi_smarthome_sdk_dev-0.1.4.tar.gz tmp/duwi_smarthome_sdk_dev-0.1.5.tar.gz --markdown 20240527/d/duwi-smarthome-sdk-dev/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-27 10:12:27] INFO root fetch - processPackages [pytest-splunk-addon]: Downloading https://files.pythonhosted.org/packages/e5/8a/136544793a5b622dcf2e91c9241c14fa69637d0db1792ff6fd516e35e7b9/pytest_splunk_addon-5.3.0b1.tar.gz
+[2024-05-27 10:12:27] INFO root fetch - processPackages [safeaipackage]: Downloading https://files.pythonhosted.org/packages/64/9c/872ccde1a226385d1c61a19ec9cca051dc61c0a023f4df74ac4c4c71a59c/safeaipackage-0.4.1.tar.gz
+[2024-05-27 10:12:27] INFO root fetch - processPackages [pytest-splunk-addon]: Downloading https://files.pythonhosted.org/packages/8e/33/8cd6d768e6db812bb82c898e56d087042d10c20e00c6dfc8661aef032842/pytest_splunk_addon-5.3.0b2.tar.gz
+[2024-05-27 10:12:27] INFO root fetch - processPackages [pytest-splunk-addon]: executing diffoscope
+[2024-05-27 10:12:27] INFO root fetch - processPackages [pytest-splunk-addon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_splunk_addon-5.3.0b1.tar.gz tmp/pytest_splunk_addon-5.3.0b2.tar.gz --markdown 20240527/p/pytest-splunk-addon/5.3.0b1-5.3.0b2/README.md --exclude *.pyd
+[2024-05-27 10:12:27] INFO root fetch - processPackages [safeaipackage]: executing diffoscope
+[2024-05-27 10:12:27] INFO root fetch - processPackages [safeaipackage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/safeaipackage-0.4.0.tar.gz tmp/safeaipackage-0.4.1.tar.gz --markdown 20240527/s/safeaipackage/0.4.0-0.4.1/README.md --exclude *.pyd
+[2024-05-27 10:12:27] INFO root fetch - processPackages [tui-dsmt]: Downloading https://files.pythonhosted.org/packages/47/db/c0958a99e84a3ce7b5734fa6ccd38e1b7e39932b5095fa2b4d216a2fe655/tui_dsmt-202405251109.tar.gz
+[2024-05-27 10:12:27] INFO root fetch - processPackages [duwi-smarthome-sdk-dev]: Remove: archive file [/home/abi/fetcher/tmp/duwi_smarthome_sdk_dev-0.1.4.tar.gz]
+[2024-05-27 10:12:27] INFO root fetch - processPackages [duwi-smarthome-sdk-dev]: Remove: archive file [/home/abi/fetcher/tmp/duwi_smarthome_sdk_dev-0.1.5.tar.gz]
+[2024-05-27 10:12:27] INFO root fetch - main [MainThread]: End processing [duwi-smarthome-sdk-dev]: success
+[2024-05-27 10:12:28] INFO root fetch - processPackages [tui-dsmt]: executing diffoscope
+[2024-05-27 10:12:28] INFO root fetch - processPackages [tui-dsmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tui_dsmt-202405250837.tar.gz tmp/tui_dsmt-202405251109.tar.gz --markdown 20240527/t/tui-dsmt/202405250837-202405251109/README.md --exclude *.pyd
+[2024-05-27 10:12:28] INFO root fetch - processPackages [safeaipackage]: Remove: archive file [/home/abi/fetcher/tmp/safeaipackage-0.4.0.tar.gz]
+[2024-05-27 10:12:28] INFO root fetch - processPackages [safeaipackage]: Remove: archive file [/home/abi/fetcher/tmp/safeaipackage-0.4.1.tar.gz]
+[2024-05-27 10:12:28] INFO root fetch - main [MainThread]: End processing [safeaipackage]: success
+[2024-05-27 10:12:28] INFO root fetch - processPackages [pytest-splunk-addon]: Remove: archive file [/home/abi/fetcher/tmp/pytest_splunk_addon-5.3.0b1.tar.gz]
+[2024-05-27 10:12:28] INFO root fetch - processPackages [pytest-splunk-addon]: Remove: archive file [/home/abi/fetcher/tmp/pytest_splunk_addon-5.3.0b2.tar.gz]
+[2024-05-27 10:12:28] INFO root fetch - main [MainThread]: End processing [pytest-splunk-addon]: success
+[2024-05-27 10:12:29] INFO root fetch - processPackages [tui-dsmt]: Remove: archive file [/home/abi/fetcher/tmp/tui_dsmt-202405250837.tar.gz]
+[2024-05-27 10:12:29] INFO root fetch - processPackages [tui-dsmt]: Remove: archive file [/home/abi/fetcher/tmp/tui_dsmt-202405251109.tar.gz]
+[2024-05-27 10:12:29] INFO root fetch - main [MainThread]: End processing [tui-dsmt]: success
+[2024-05-27 10:12:29] INFO root fetch - main [MainThread]: Store serial: [23392387]
