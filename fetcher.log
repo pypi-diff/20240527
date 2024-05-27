@@ -9132,3 +9132,45 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 10:12:29] INFO root fetch - processPackages [tui-dsmt]: Remove: archive file [/home/abi/fetcher/tmp/tui_dsmt-202405251109.tar.gz]
 [2024-05-27 10:12:29] INFO root fetch - main [MainThread]: End processing [tui-dsmt]: success
 [2024-05-27 10:12:29] INFO root fetch - main [MainThread]: Store serial: [23392387]
+[2024-05-27 10:14:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23392387]
+[2024-05-27 10:14:38] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-27 10:14:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: voicebox-tts
+[2024-05-27 10:14:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zenml-nightly
+[2024-05-27 10:14:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: core-rec
+[2024-05-27 10:14:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: decentriq-platform
+[2024-05-27 10:14:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: alibabacloud-green20220302
+[2024-05-27 10:14:39] WARNING root fetch - processPackages [core-rec]: Skipping, unable to determine old version
+[2024-05-27 10:14:39] INFO root fetch - main [MainThread]: End processing [core-rec] error
+[2024-05-27 10:14:39] INFO root fetch - processPackages [voicebox-tts]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-27 10:14:39] INFO root fetch - processPackages [zenml-nightly]: New version: [0.57.1.dev20240527] Old Version: [0.57.1.dev20240523]
+[2024-05-27 10:14:39] INFO root fetch - processPackages [decentriq-platform]: New version: [0.9.1] Old Version: [0.9.0rc2]
+[2024-05-27 10:14:39] INFO root fetch - processPackages [alibabacloud-green20220302]: New version: [2.2.6] Old Version: [2.2.5]
+[2024-05-27 10:14:39] INFO root fetch - processPackages [voicebox-tts]: Downloading https://files.pythonhosted.org/packages/40/2f/1fbb366e095258c081111dddb0b820e88f3e93d6ddf13643f8108a64db4e/voicebox-tts-0.0.7.tar.gz
+[2024-05-27 10:14:39] INFO root fetch - processPackages [decentriq-platform]: Downloading https://files.pythonhosted.org/packages/8b/c1/695a0f73f216e20fbf9a98a63235989a07b60ced292eb67c210593fda34a/decentriq-platform-0.9.0rc2.tar.gz
+[2024-05-27 10:14:39] INFO root fetch - processPackages [zenml-nightly]: Downloading https://files.pythonhosted.org/packages/59/82/9a9f891baff59602c0269d122a6f84c0ac9350f2e3e8d6d1110ea66de719/zenml_nightly-0.57.1.dev20240523.tar.gz
+[2024-05-27 10:14:39] INFO root fetch - processPackages [alibabacloud-green20220302]: Downloading https://files.pythonhosted.org/packages/64/fa/0895a2860714ef4bc100157b684dc735ef126b002b56e3dbeeafb1d23183/alibabacloud_green20220302-2.2.5.tar.gz
+[2024-05-27 10:14:39] INFO root fetch - processPackages [voicebox-tts]: Downloading https://files.pythonhosted.org/packages/64/b4/0f10cab851624b6a6ca1e01e3b3afa6c60cc350c5f403c468b9a21638648/voicebox_tts-0.0.8.tar.gz
+[2024-05-27 10:14:39] INFO root fetch - processPackages [decentriq-platform]: Downloading https://files.pythonhosted.org/packages/69/7c/b6c9a006e306cc15917be3102e43763687fbce0bf34b98d63390c4fadf94/decentriq-platform-0.9.1.tar.gz
+[2024-05-27 10:14:39] INFO root fetch - processPackages [alibabacloud-green20220302]: Downloading https://files.pythonhosted.org/packages/16/4c/b3d10de9a341dbd12def72de56fc334c36b4ca3cb77235453a0852bcb72b/alibabacloud_green20220302-2.2.6.tar.gz
+[2024-05-27 10:14:39] INFO root fetch - processPackages [voicebox-tts]: executing diffoscope
+[2024-05-27 10:14:39] INFO root fetch - processPackages [voicebox-tts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/voicebox-tts-0.0.7.tar.gz tmp/voicebox_tts-0.0.8.tar.gz --markdown 20240527/v/voicebox-tts/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-27 10:14:39] INFO root fetch - processPackages [decentriq-platform]: executing diffoscope
+[2024-05-27 10:14:39] INFO root fetch - processPackages [decentriq-platform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/decentriq-platform-0.9.0rc2.tar.gz tmp/decentriq-platform-0.9.1.tar.gz --markdown 20240527/d/decentriq-platform/0.9.0rc2-0.9.1/README.md --exclude *.pyd
+[2024-05-27 10:14:39] INFO root fetch - processPackages [alibabacloud-green20220302]: executing diffoscope
+[2024-05-27 10:14:39] INFO root fetch - processPackages [alibabacloud-green20220302]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_green20220302-2.2.5.tar.gz tmp/alibabacloud_green20220302-2.2.6.tar.gz --markdown 20240527/a/alibabacloud-green20220302/2.2.5-2.2.6/README.md --exclude *.pyd
+[2024-05-27 10:14:40] INFO root fetch - processPackages [zenml-nightly]: Downloading https://files.pythonhosted.org/packages/37/f5/b9f988d83f0d3ce64a7cd4e185ddd901fb920eb92ce64771ad83a424e56f/zenml_nightly-0.57.1.dev20240527.tar.gz
+[2024-05-27 10:14:40] INFO root fetch - processPackages [voicebox-tts]: Remove: archive file [/home/abi/fetcher/tmp/voicebox-tts-0.0.7.tar.gz]
+[2024-05-27 10:14:40] INFO root fetch - processPackages [voicebox-tts]: Remove: archive file [/home/abi/fetcher/tmp/voicebox_tts-0.0.8.tar.gz]
+[2024-05-27 10:14:40] INFO root fetch - main [MainThread]: End processing [voicebox-tts]: success
+[2024-05-27 10:14:40] INFO root fetch - processPackages [alibabacloud-green20220302]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_green20220302-2.2.5.tar.gz]
+[2024-05-27 10:14:40] INFO root fetch - processPackages [alibabacloud-green20220302]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_green20220302-2.2.6.tar.gz]
+[2024-05-27 10:14:40] INFO root fetch - main [MainThread]: End processing [alibabacloud-green20220302]: success
+[2024-05-27 10:14:40] INFO root fetch - processPackages [decentriq-platform]: Remove: archive file [/home/abi/fetcher/tmp/decentriq-platform-0.9.0rc2.tar.gz]
+[2024-05-27 10:14:40] INFO root fetch - processPackages [decentriq-platform]: Remove: archive file [/home/abi/fetcher/tmp/decentriq-platform-0.9.1.tar.gz]
+[2024-05-27 10:14:40] INFO root fetch - main [MainThread]: End processing [decentriq-platform]: success
+[2024-05-27 10:14:40] INFO root fetch - processPackages [zenml-nightly]: executing diffoscope
+[2024-05-27 10:14:40] INFO root fetch - processPackages [zenml-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zenml_nightly-0.57.1.dev20240523.tar.gz tmp/zenml_nightly-0.57.1.dev20240527.tar.gz --markdown 20240527/z/zenml-nightly/0.57.1.dev20240523-0.57.1.dev20240527/README.md --exclude *.pyd
+[2024-05-27 10:14:47] INFO root fetch - processPackages [zenml-nightly]: Remove: archive file [/home/abi/fetcher/tmp/zenml_nightly-0.57.1.dev20240523.tar.gz]
+[2024-05-27 10:14:47] INFO root fetch - processPackages [zenml-nightly]: Remove: archive file [/home/abi/fetcher/tmp/zenml_nightly-0.57.1.dev20240527.tar.gz]
+[2024-05-27 10:14:47] INFO root fetch - main [MainThread]: End processing [zenml-nightly]: success
+[2024-05-27 10:14:47] INFO root fetch - main [MainThread]: Store serial: [23392404]
