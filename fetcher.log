@@ -13573,3 +13573,60 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 13:08:21] INFO root fetch - processPackages [gstlearn]: Remove: archive file [/home/abi/fetcher/tmp/gstlearn-1.2.2-cp39-cp39-win_amd64.whl.zip]
 [2024-05-27 13:08:21] INFO root fetch - main [MainThread]: End processing [gstlearn]: success
 [2024-05-27 13:08:21] INFO root fetch - main [MainThread]: Store serial: [23394544]
+[2024-05-27 13:10:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23394544]
+[2024-05-27 13:10:30] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-27 13:10:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ledgerwallet
+[2024-05-27 13:10:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: misc-python-utils
+[2024-05-27 13:10:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ultralytics-rknn
+[2024-05-27 13:10:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: adapta
+[2024-05-27 13:10:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: foundationallm
+[2024-05-27 13:10:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: titli
+[2024-05-27 13:10:30] INFO root fetch - processPackages [foundationallm]: New version: [0.7.6] Old Version: [0.7.5]
+[2024-05-27 13:10:30] INFO root fetch - processPackages [adapta]: New version: [2.9.2] Old Version: [2.9.1]
+[2024-05-27 13:10:31] INFO root fetch - processPackages [misc-python-utils]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-27 13:10:31] INFO root fetch - processPackages [ultralytics-rknn]: New version: [8.0.151] Old Version: [3.3.4]
+[2024-05-27 13:10:31] INFO root fetch - processPackages [foundationallm]: Downloading https://files.pythonhosted.org/packages/69/14/4f927ca0ecebc23a01136d814007c8dcecacd4a4e18349298b605f16ff15/foundationallm-0.7.5.tar.gz
+[2024-05-27 13:10:31] INFO root fetch - processPackages [ledgerwallet]: New version: [0.5.0] Old Version: [0.4.0]
+[2024-05-27 13:10:31] INFO root fetch - processPackages [adapta]: Downloading https://files.pythonhosted.org/packages/35/33/1302d42b2f30e2a721e649391c266b8d25fef79e334f145fe1f59175016a/adapta-2.9.1.tar.gz
+[2024-05-27 13:10:31] INFO root fetch - processPackages [titli]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-27 13:10:31] INFO root fetch - processPackages [misc-python-utils]: Downloading https://files.pythonhosted.org/packages/4b/bd/ea88605154e7091f2a3191908b2ffddeda0817e17ffc29758cfc7731ceaf/misc_python_utils-0.1.8.tar.gz
+[2024-05-27 13:10:31] INFO root fetch - processPackages [ultralytics-rknn]: Downloading https://files.pythonhosted.org/packages/1c/fe/8be350291a2828c5c41f2b24422fe43ba9f7b052a19927d9cc10f85f5400/ultralytics_rknn-3.3.4-py3-none-any.whl
+[2024-05-27 13:10:31] INFO root fetch - processPackages [ledgerwallet]: Downloading https://files.pythonhosted.org/packages/84/4b/a3874de9ac28c5fd72f8ce802c3ad3d9d9c6b17136138c5d63ae88b8faa4/ledgerwallet-0.4.0.tar.gz
+[2024-05-27 13:10:31] INFO root fetch - processPackages [foundationallm]: Downloading https://files.pythonhosted.org/packages/7c/fe/2866cbd5b95d20a67c3744475e5be7cc19282d5b414fea82796b592db5fb/foundationallm-0.7.6.tar.gz
+[2024-05-27 13:10:31] INFO root fetch - processPackages [titli]: Downloading https://files.pythonhosted.org/packages/bd/38/cda518e8d62fe1b594cb3c6241eb149c8a1c5984bfb2a55add0d02349564/titli-0.0.3.tar.gz
+[2024-05-27 13:10:31] INFO root fetch - processPackages [adapta]: Downloading https://files.pythonhosted.org/packages/38/7b/c2e190b90d739aea14559d55ef402f1648abe251bc5e5eb13948fba8b345/adapta-2.9.2.tar.gz
+[2024-05-27 13:10:31] INFO root fetch - processPackages [foundationallm]: executing diffoscope
+[2024-05-27 13:10:31] INFO root fetch - processPackages [foundationallm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foundationallm-0.7.5.tar.gz tmp/foundationallm-0.7.6.tar.gz --markdown 20240527/f/foundationallm/0.7.5-0.7.6/README.md --exclude *.pyd
+[2024-05-27 13:10:31] INFO root fetch - processPackages [adapta]: executing diffoscope
+[2024-05-27 13:10:31] INFO root fetch - processPackages [adapta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adapta-2.9.1.tar.gz tmp/adapta-2.9.2.tar.gz --markdown 20240527/a/adapta/2.9.1-2.9.2/README.md --exclude *.pyd
+[2024-05-27 13:10:31] INFO root fetch - processPackages [misc-python-utils]: Downloading https://files.pythonhosted.org/packages/57/f1/4625809fcb39f4081b4224a6763539efee7a380db502a5dede93b1c12c2e/misc_python_utils-0.1.9.tar.gz
+[2024-05-27 13:10:31] INFO root fetch - processPackages [ledgerwallet]: Downloading https://files.pythonhosted.org/packages/77/33/4194e3059f3a57a18acaff352fce3accdb75e24f25aacd7c6a0347530a42/ledgerwallet-0.5.0.tar.gz
+[2024-05-27 13:10:31] INFO root fetch - processPackages [ultralytics-rknn]: Downloading https://files.pythonhosted.org/packages/6f/8a/8a45793b77f92eadf4608ab85c62e0c7cea9ffde85e459d7a81d5ee5d5fc/ultralytics_rknn-8.0.151-py3-none-any.whl
+[2024-05-27 13:10:31] INFO root fetch - processPackages [titli]: Downloading https://files.pythonhosted.org/packages/b7/35/b4b97aa5ceb4a114cec8fd4d5da21cbfb66c438f0a932a60792d6b63e792/titli-0.0.4.tar.gz
+[2024-05-27 13:10:31] INFO root fetch - processPackages [misc-python-utils]: executing diffoscope
+[2024-05-27 13:10:31] INFO root fetch - processPackages [misc-python-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/misc_python_utils-0.1.8.tar.gz tmp/misc_python_utils-0.1.9.tar.gz --markdown 20240527/m/misc-python-utils/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-27 13:10:31] INFO root fetch - processPackages [ledgerwallet]: executing diffoscope
+[2024-05-27 13:10:31] INFO root fetch - processPackages [ledgerwallet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ledgerwallet-0.4.0.tar.gz tmp/ledgerwallet-0.5.0.tar.gz --markdown 20240527/l/ledgerwallet/0.4.0-0.5.0/README.md --exclude *.pyd
+[2024-05-27 13:10:31] INFO root fetch - processPackages [ultralytics-rknn]: executing diffoscope
+[2024-05-27 13:10:31] INFO root fetch - processPackages [ultralytics-rknn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ultralytics_rknn-3.3.4-py3-none-any.whl.zip tmp/ultralytics_rknn-8.0.151-py3-none-any.whl.zip --markdown 20240527/u/ultralytics-rknn/3.3.4-8.0.151/README.md --exclude *.pyd
+[2024-05-27 13:10:31] INFO root fetch - processPackages [titli]: executing diffoscope
+[2024-05-27 13:10:31] INFO root fetch - processPackages [titli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/titli-0.0.3.tar.gz tmp/titli-0.0.4.tar.gz --markdown 20240527/t/titli/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-27 13:10:31] INFO root fetch - processPackages [foundationallm]: Remove: archive file [/home/abi/fetcher/tmp/foundationallm-0.7.5.tar.gz]
+[2024-05-27 13:10:31] INFO root fetch - processPackages [foundationallm]: Remove: archive file [/home/abi/fetcher/tmp/foundationallm-0.7.6.tar.gz]
+[2024-05-27 13:10:31] INFO root fetch - main [MainThread]: End processing [foundationallm]: success
+[2024-05-27 13:10:32] INFO root fetch - processPackages [adapta]: Remove: archive file [/home/abi/fetcher/tmp/adapta-2.9.1.tar.gz]
+[2024-05-27 13:10:32] INFO root fetch - processPackages [adapta]: Remove: archive file [/home/abi/fetcher/tmp/adapta-2.9.2.tar.gz]
+[2024-05-27 13:10:32] INFO root fetch - main [MainThread]: End processing [adapta]: success
+[2024-05-27 13:10:32] INFO root fetch - processPackages [misc-python-utils]: Remove: archive file [/home/abi/fetcher/tmp/misc_python_utils-0.1.8.tar.gz]
+[2024-05-27 13:10:32] INFO root fetch - processPackages [misc-python-utils]: Remove: archive file [/home/abi/fetcher/tmp/misc_python_utils-0.1.9.tar.gz]
+[2024-05-27 13:10:32] INFO root fetch - main [MainThread]: End processing [misc-python-utils]: success
+[2024-05-27 13:10:32] INFO root fetch - processPackages [ledgerwallet]: Remove: archive file [/home/abi/fetcher/tmp/ledgerwallet-0.4.0.tar.gz]
+[2024-05-27 13:10:32] INFO root fetch - processPackages [ledgerwallet]: Remove: archive file [/home/abi/fetcher/tmp/ledgerwallet-0.5.0.tar.gz]
+[2024-05-27 13:10:32] INFO root fetch - main [MainThread]: End processing [ledgerwallet]: success
+[2024-05-27 13:10:32] INFO root fetch - processPackages [titli]: Remove: archive file [/home/abi/fetcher/tmp/titli-0.0.3.tar.gz]
+[2024-05-27 13:10:32] INFO root fetch - processPackages [titli]: Remove: archive file [/home/abi/fetcher/tmp/titli-0.0.4.tar.gz]
+[2024-05-27 13:10:32] INFO root fetch - main [MainThread]: End processing [titli]: success
+[2024-05-27 13:10:33] INFO root fetch - processPackages [ultralytics-rknn]: Remove: archive file [/home/abi/fetcher/tmp/ultralytics_rknn-3.3.4-py3-none-any.whl.zip]
+[2024-05-27 13:10:33] INFO root fetch - processPackages [ultralytics-rknn]: Remove: archive file [/home/abi/fetcher/tmp/ultralytics_rknn-8.0.151-py3-none-any.whl.zip]
+[2024-05-27 13:10:33] INFO root fetch - main [MainThread]: End processing [ultralytics-rknn]: success
+[2024-05-27 13:10:33] INFO root fetch - main [MainThread]: Store serial: [23394560]
