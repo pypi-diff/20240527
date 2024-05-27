@@ -4133,3 +4133,27 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 04:51:28] WARNING root fetch - processPackages [sourcery-nightly]: Skipping package: exceeds size limit 68491059>=10485760
 [2024-05-27 04:51:28] INFO root fetch - main [MainThread]: End processing [sourcery-nightly] error
 [2024-05-27 04:51:28] INFO root fetch - main [MainThread]: Store serial: [23389909]
+[2024-05-27 04:53:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23389909]
+[2024-05-27 04:53:36] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-27 04:53:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: discordreactive
+[2024-05-27 04:53:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bnb-futures-connector
+[2024-05-27 04:53:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lckytools
+[2024-05-27 04:53:36] INFO root fetch - processPackages [discordreactive]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-27 04:53:36] INFO root fetch - processPackages [lckytools]: New version: [0.0.0a4] Old Version: [0.0.0a3]
+[2024-05-27 04:53:36] INFO root fetch - processPackages [discordreactive]: Downloading https://files.pythonhosted.org/packages/5d/5f/11c1a84e4af6bf7ece0d266545f8b8acb4f6eddf4ae470331a4b89497016/discordreactive-0.0.6.tar.gz
+[2024-05-27 04:53:36] WARNING root fetch - processPackages [bnb-futures-connector]: Skipping, unable to determine old version
+[2024-05-27 04:53:36] INFO root fetch - main [MainThread]: End processing [bnb-futures-connector] error
+[2024-05-27 04:53:36] INFO root fetch - processPackages [lckytools]: Downloading https://files.pythonhosted.org/packages/f6/c2/2135a467c1ab3e379a2d2d24aea591b7ea4a403e2e44f33beb0bcdd2ac3b/lckytools-0.0.0a3.tar.gz
+[2024-05-27 04:53:37] INFO root fetch - processPackages [discordreactive]: Downloading https://files.pythonhosted.org/packages/cd/cc/d264a006d2e2aa77b60704f30be2d80073405d12b7c907279f1649581171/discordreactive-0.0.7.tar.gz
+[2024-05-27 04:53:37] INFO root fetch - processPackages [discordreactive]: executing diffoscope
+[2024-05-27 04:53:37] INFO root fetch - processPackages [discordreactive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discordreactive-0.0.6.tar.gz tmp/discordreactive-0.0.7.tar.gz --markdown 20240527/d/discordreactive/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-27 04:53:37] INFO root fetch - processPackages [lckytools]: Downloading https://files.pythonhosted.org/packages/45/64/d033756be5c32a6715987c5791dba093e972e44c85f72f3f55ad9bff63e2/lckytools-0.0.0a4.tar.gz
+[2024-05-27 04:53:37] INFO root fetch - processPackages [lckytools]: executing diffoscope
+[2024-05-27 04:53:37] INFO root fetch - processPackages [lckytools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lckytools-0.0.0a3.tar.gz tmp/lckytools-0.0.0a4.tar.gz --markdown 20240527/l/lckytools/0.0.0a3-0.0.0a4/README.md --exclude *.pyd
+[2024-05-27 04:53:37] INFO root fetch - processPackages [discordreactive]: Remove: archive file [/home/abi/fetcher/tmp/discordreactive-0.0.6.tar.gz]
+[2024-05-27 04:53:37] INFO root fetch - processPackages [discordreactive]: Remove: archive file [/home/abi/fetcher/tmp/discordreactive-0.0.7.tar.gz]
+[2024-05-27 04:53:37] INFO root fetch - main [MainThread]: End processing [discordreactive]: success
+[2024-05-27 04:53:37] INFO root fetch - processPackages [lckytools]: Remove: archive file [/home/abi/fetcher/tmp/lckytools-0.0.0a3.tar.gz]
+[2024-05-27 04:53:37] INFO root fetch - processPackages [lckytools]: Remove: archive file [/home/abi/fetcher/tmp/lckytools-0.0.0a4.tar.gz]
+[2024-05-27 04:53:37] INFO root fetch - main [MainThread]: End processing [lckytools]: success
+[2024-05-27 04:53:37] INFO root fetch - main [MainThread]: Store serial: [23389918]
