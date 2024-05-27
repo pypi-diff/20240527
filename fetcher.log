@@ -14383,3 +14383,51 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 13:47:56] INFO root fetch - processPackages [owlapy]: Remove: archive file [/home/abi/fetcher/tmp/owlapy-1.1.0.tar.gz]
 [2024-05-27 13:47:56] INFO root fetch - main [MainThread]: End processing [owlapy]: success
 [2024-05-27 13:47:56] INFO root fetch - main [MainThread]: Store serial: [23395032]
+[2024-05-27 13:50:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23395032]
+[2024-05-27 13:50:05] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-27 13:50:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pipefyUts
+[2024-05-27 13:50:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: track2p
+[2024-05-27 13:50:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: polyaxon
+[2024-05-27 13:50:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: haupt
+[2024-05-27 13:50:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: polyaxon-sdk
+[2024-05-27 13:50:06] INFO root fetch - processPackages [pipefyUts]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-05-27 13:50:06] INFO root fetch - processPackages [pipefyUts]: Downloading https://files.pythonhosted.org/packages/cc/f5/3d28a2c351d4559fc6e889fbd232ec4c9f3b2be2dbfc88f3dea0c9626ecf/pipefyUts-1.0.5.tar.gz
+[2024-05-27 13:50:06] INFO root fetch - processPackages [track2p]: New version: [0.5.5] Old Version: [0.5.4]
+[2024-05-27 13:50:06] INFO root fetch - processPackages [polyaxon]: New version: [2.2.0rc1] Old Version: [2.2.0rc0]
+[2024-05-27 13:50:06] INFO root fetch - processPackages [haupt]: New version: [2.2.0rc1] Old Version: [2.2.0rc0]
+[2024-05-27 13:50:06] INFO root fetch - processPackages [polyaxon-sdk]: New version: [2.2.0rc1] Old Version: [2.2.0rc0]
+[2024-05-27 13:50:06] INFO root fetch - processPackages [track2p]: Downloading https://files.pythonhosted.org/packages/34/bf/f79e58967b3de7a87a74ec5a50f96ee8609260695a3fb29a911bfc661e1f/track2p-0.5.4-py3-none-any.whl
+[2024-05-27 13:50:06] INFO root fetch - processPackages [polyaxon]: Downloading https://files.pythonhosted.org/packages/6f/b4/dad63c21c14d29c938baccfd384e856ee1fd53d5c6a511e239842c40a390/polyaxon-2.2.0rc0.tar.gz
+[2024-05-27 13:50:06] INFO root fetch - processPackages [pipefyUts]: Downloading https://files.pythonhosted.org/packages/a2/99/ec43b2a330a953d6d15900fef17cd6a3e301a5aa9e8b060ff8c52512bc6e/pipefyUts-1.0.6.tar.gz
+[2024-05-27 13:50:06] INFO root fetch - processPackages [haupt]: Downloading https://files.pythonhosted.org/packages/4b/13/93559791ce6f092c4001df98219c4484b8b33dbf898bdca195ca2d20f3c5/haupt-2.2.0rc0.tar.gz
+[2024-05-27 13:50:06] INFO root fetch - processPackages [pipefyUts]: executing diffoscope
+[2024-05-27 13:50:06] INFO root fetch - processPackages [pipefyUts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipefyUts-1.0.5.tar.gz tmp/pipefyUts-1.0.6.tar.gz --markdown 20240527/p/pipefyUts/1.0.5-1.0.6/README.md --exclude *.pyd
+[2024-05-27 13:50:06] INFO root fetch - processPackages [polyaxon-sdk]: Downloading https://files.pythonhosted.org/packages/c9/39/1cfd2ae7d66ce5a2b7a306d4607e55b50a63b2f111c51771ab9208d23333/polyaxon-sdk-2.2.0rc0.tar.gz
+[2024-05-27 13:50:06] INFO root fetch - processPackages [track2p]: Downloading https://files.pythonhosted.org/packages/d1/9f/3a045ed4a7454d249544f5147ce09b963c2433ef238def4b21f637b42ca1/track2p-0.5.5.tar.gz
+[2024-05-27 13:50:06] INFO root fetch - processPackages [polyaxon]: Downloading https://files.pythonhosted.org/packages/19/87/e879293e6696225478306795408c0b419e48857fc5e5092814360ee36f2d/polyaxon-2.2.0rc1.tar.gz
+[2024-05-27 13:50:06] INFO root fetch - processPackages [track2p]: executing diffoscope
+[2024-05-27 13:50:06] INFO root fetch - processPackages [track2p]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/track2p-0.5.4-py3-none-any.whl.zip tmp/track2p-0.5.5.tar.gz --markdown 20240527/t/track2p/0.5.4-0.5.5/README.md --exclude *.pyd
+[2024-05-27 13:50:06] INFO root fetch - processPackages [polyaxon-sdk]: Downloading https://files.pythonhosted.org/packages/a8/b9/fc29af4013611e80c98347aa491702616c32f1a2cf88e7fe217761ca1326/polyaxon-sdk-2.2.0rc1.tar.gz
+[2024-05-27 13:50:06] INFO root fetch - processPackages [polyaxon]: executing diffoscope
+[2024-05-27 13:50:06] INFO root fetch - processPackages [polyaxon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polyaxon-2.2.0rc0.tar.gz tmp/polyaxon-2.2.0rc1.tar.gz --markdown 20240527/p/polyaxon/2.2.0rc0-2.2.0rc1/README.md --exclude *.pyd
+[2024-05-27 13:50:07] INFO root fetch - processPackages [pipefyUts]: Remove: archive file [/home/abi/fetcher/tmp/pipefyUts-1.0.5.tar.gz]
+[2024-05-27 13:50:07] INFO root fetch - processPackages [pipefyUts]: Remove: archive file [/home/abi/fetcher/tmp/pipefyUts-1.0.6.tar.gz]
+[2024-05-27 13:50:07] INFO root fetch - main [MainThread]: End processing [pipefyUts]: success
+[2024-05-27 13:50:07] INFO root fetch - processPackages [haupt]: Downloading https://files.pythonhosted.org/packages/0d/0e/562f8b91a19aadaf6586db4d7e58d1f433467590408f6d3560be2f29d39f/haupt-2.2.0rc1.tar.gz
+[2024-05-27 13:50:07] INFO root fetch - processPackages [polyaxon-sdk]: executing diffoscope
+[2024-05-27 13:50:07] INFO root fetch - processPackages [polyaxon-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polyaxon-sdk-2.2.0rc0.tar.gz tmp/polyaxon-sdk-2.2.0rc1.tar.gz --markdown 20240527/p/polyaxon-sdk/2.2.0rc0-2.2.0rc1/README.md --exclude *.pyd
+[2024-05-27 13:50:07] INFO root fetch - processPackages [track2p]: Remove: archive file [/home/abi/fetcher/tmp/track2p-0.5.4-py3-none-any.whl.zip]
+[2024-05-27 13:50:07] INFO root fetch - processPackages [track2p]: Remove: archive file [/home/abi/fetcher/tmp/track2p-0.5.5.tar.gz]
+[2024-05-27 13:50:07] INFO root fetch - main [MainThread]: End processing [track2p]: success
+[2024-05-27 13:50:07] INFO root fetch - processPackages [haupt]: executing diffoscope
+[2024-05-27 13:50:07] INFO root fetch - processPackages [haupt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/haupt-2.2.0rc0.tar.gz tmp/haupt-2.2.0rc1.tar.gz --markdown 20240527/h/haupt/2.2.0rc0-2.2.0rc1/README.md --exclude *.pyd
+[2024-05-27 13:50:09] INFO root fetch - processPackages [polyaxon]: Remove: archive file [/home/abi/fetcher/tmp/polyaxon-2.2.0rc0.tar.gz]
+[2024-05-27 13:50:09] INFO root fetch - processPackages [polyaxon]: Remove: archive file [/home/abi/fetcher/tmp/polyaxon-2.2.0rc1.tar.gz]
+[2024-05-27 13:50:09] INFO root fetch - main [MainThread]: End processing [polyaxon]: success
+[2024-05-27 13:50:10] INFO root fetch - processPackages [polyaxon-sdk]: Remove: archive file [/home/abi/fetcher/tmp/polyaxon-sdk-2.2.0rc0.tar.gz]
+[2024-05-27 13:50:10] INFO root fetch - processPackages [polyaxon-sdk]: Remove: archive file [/home/abi/fetcher/tmp/polyaxon-sdk-2.2.0rc1.tar.gz]
+[2024-05-27 13:50:10] INFO root fetch - main [MainThread]: End processing [polyaxon-sdk]: success
+[2024-05-27 13:50:26] INFO root fetch - processPackages [haupt]: Remove: archive file [/home/abi/fetcher/tmp/haupt-2.2.0rc0.tar.gz]
+[2024-05-27 13:50:26] INFO root fetch - processPackages [haupt]: Remove: archive file [/home/abi/fetcher/tmp/haupt-2.2.0rc1.tar.gz]
+[2024-05-27 13:50:26] INFO root fetch - main [MainThread]: End processing [haupt]: success
+[2024-05-27 13:50:26] INFO root fetch - main [MainThread]: Store serial: [23395046]
