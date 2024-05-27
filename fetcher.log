@@ -5954,3 +5954,24 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 07:08:24] INFO root fetch - processPackages [qcsys]: Remove: archive file [/home/abi/fetcher/tmp/qcsys-0.1.1.tar.gz]
 [2024-05-27 07:08:24] INFO root fetch - main [MainThread]: End processing [qcsys]: success
 [2024-05-27 07:08:24] INFO root fetch - main [MainThread]: Store serial: [23390795]
+[2024-05-27 07:10:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23390795]
+[2024-05-27 07:10:32] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-27 07:10:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: telegram-gmail-bot
+[2024-05-27 07:10:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: keymap-drawer
+[2024-05-27 07:10:32] INFO root fetch - processPackages [telegram-gmail-bot]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-05-27 07:10:32] INFO root fetch - processPackages [telegram-gmail-bot]: Downloading https://files.pythonhosted.org/packages/78/40/f66ed1d4be7eff3d1ae3cbd44c8985ee621f332ea6efd165259ac8c84362/telegram_gmail_bot-0.1.7.tar.gz
+[2024-05-27 07:10:32] INFO root fetch - processPackages [keymap-drawer]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-27 07:10:33] INFO root fetch - processPackages [keymap-drawer]: Downloading https://files.pythonhosted.org/packages/02/c1/342feaefb755c72190f1b94b8460bf874850f06f8f1afe572b15600ce1eb/keymap_drawer-0.8.0-py3-none-any.whl
+[2024-05-27 07:10:33] INFO root fetch - processPackages [telegram-gmail-bot]: Downloading https://files.pythonhosted.org/packages/6b/7e/1326f919165c27e20e76c5f3dfab62280c8d8769408921c648207422794c/telegram_gmail_bot-0.1.8.tar.gz
+[2024-05-27 07:10:33] INFO root fetch - processPackages [telegram-gmail-bot]: executing diffoscope
+[2024-05-27 07:10:33] INFO root fetch - processPackages [telegram-gmail-bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/telegram_gmail_bot-0.1.7.tar.gz tmp/telegram_gmail_bot-0.1.8.tar.gz --markdown 20240527/t/telegram-gmail-bot/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-05-27 07:10:33] INFO root fetch - processPackages [telegram-gmail-bot]: Remove: archive file [/home/abi/fetcher/tmp/telegram_gmail_bot-0.1.7.tar.gz]
+[2024-05-27 07:10:33] INFO root fetch - processPackages [telegram-gmail-bot]: Remove: archive file [/home/abi/fetcher/tmp/telegram_gmail_bot-0.1.8.tar.gz]
+[2024-05-27 07:10:33] INFO root fetch - main [MainThread]: End processing [telegram-gmail-bot]: success
+[2024-05-27 07:10:33] INFO root fetch - processPackages [keymap-drawer]: Downloading https://files.pythonhosted.org/packages/ab/01/dd63e69388a7661d3d81d7c06be238627021a9165bb755783bbbcb693d74/keymap_drawer-0.9.0-py3-none-any.whl
+[2024-05-27 07:10:33] INFO root fetch - processPackages [keymap-drawer]: executing diffoscope
+[2024-05-27 07:10:33] INFO root fetch - processPackages [keymap-drawer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keymap_drawer-0.8.0-py3-none-any.whl.zip tmp/keymap_drawer-0.9.0-py3-none-any.whl.zip --markdown 20240527/k/keymap-drawer/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-27 07:10:34] INFO root fetch - processPackages [keymap-drawer]: Remove: archive file [/home/abi/fetcher/tmp/keymap_drawer-0.8.0-py3-none-any.whl.zip]
+[2024-05-27 07:10:34] INFO root fetch - processPackages [keymap-drawer]: Remove: archive file [/home/abi/fetcher/tmp/keymap_drawer-0.9.0-py3-none-any.whl.zip]
+[2024-05-27 07:10:34] INFO root fetch - main [MainThread]: End processing [keymap-drawer]: success
+[2024-05-27 07:10:34] INFO root fetch - main [MainThread]: Store serial: [23390804]
