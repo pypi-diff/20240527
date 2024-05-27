@@ -6782,3 +6782,59 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 08:07:24] INFO root fetch - processPackages [visiongraph]: Remove: archive file [/home/abi/fetcher/tmp/visiongraph-0.1.57.3-py3-none-any.whl.zip]
 [2024-05-27 08:07:24] INFO root fetch - main [MainThread]: End processing [visiongraph]: success
 [2024-05-27 08:07:24] INFO root fetch - main [MainThread]: Store serial: [23391224]
+[2024-05-27 08:09:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23391224]
+[2024-05-27 08:09:33] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-27 08:09:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: magentic
+[2024-05-27 08:09:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: validmind
+[2024-05-27 08:09:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PyE2
+[2024-05-27 08:09:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kvcommon-flask
+[2024-05-27 08:09:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: refact
+[2024-05-27 08:09:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pms-encoder
+[2024-05-27 08:09:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: telegram-gmail-bot
+[2024-05-27 08:09:33] INFO root fetch - processPackages [pms-encoder]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-27 08:09:33] INFO root fetch - processPackages [telegram-gmail-bot]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-27 08:09:33] INFO root fetch - processPackages [PyE2]: New version: [0.8.9] Old Version: [0.8.8]
+[2024-05-27 08:09:33] INFO root fetch - processPackages [kvcommon-flask]: New version: [0.0.4.1] Old Version: [0.0.3.5]
+[2024-05-27 08:09:33] INFO root fetch - processPackages [pms-encoder]: Downloading https://files.pythonhosted.org/packages/80/f1/88f2f54188c15bf6cca5ba7a3a347b8d1c83b15a626f541acf3dde5aa63d/pms_encoder-0.0.8.tar.gz
+[2024-05-27 08:09:33] INFO root fetch - processPackages [magentic]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-27 08:09:33] INFO root fetch - processPackages [telegram-gmail-bot]: Downloading https://files.pythonhosted.org/packages/6b/7e/1326f919165c27e20e76c5f3dfab62280c8d8769408921c648207422794c/telegram_gmail_bot-0.1.8.tar.gz
+[2024-05-27 08:09:33] WARNING root fetch - processPackages [refact]: Skipping, unable to determine old version
+[2024-05-27 08:09:33] INFO root fetch - main [MainThread]: End processing [refact] error
+[2024-05-27 08:09:33] INFO root fetch - processPackages [validmind]: New version: [2.2.6] Old Version: [2.2.5]
+[2024-05-27 08:09:33] INFO root fetch - processPackages [PyE2]: Downloading https://files.pythonhosted.org/packages/fb/7b/20cd37a1968b75085222bf1e0afcc30ac5ec1dea21aeef3826a1ed718e28/pye2-0.8.8.tar.gz
+[2024-05-27 08:09:33] INFO root fetch - processPackages [kvcommon-flask]: Downloading https://files.pythonhosted.org/packages/b9/46/529a96d3f57f16cadfc8ce50b2ed86f96e139727b166e02ae439b3aa044b/kvcommon_flask-0.0.3.5.tar.gz
+[2024-05-27 08:09:33] INFO root fetch - processPackages [magentic]: Downloading https://files.pythonhosted.org/packages/b1/4c/c92b3a38ac6e6e9e2715083d4b0cd75ceb0e3bcbd7f805d25522283b4708/magentic-0.9.0.tar.gz
+[2024-05-27 08:09:33] INFO root fetch - processPackages [pms-encoder]: Downloading https://files.pythonhosted.org/packages/93/31/8bb081756db42925fab6507b6e0f497d6bf45acd407ff38cb00f2aaec54c/pms_encoder-0.0.9.tar.gz
+[2024-05-27 08:09:33] INFO root fetch - processPackages [validmind]: Downloading https://files.pythonhosted.org/packages/fe/0f/2ab1979d80eee30f8fced01356ac46987982535aeb58decf609c61c192ae/validmind-2.2.5.tar.gz
+[2024-05-27 08:09:33] INFO root fetch - processPackages [PyE2]: Downloading https://files.pythonhosted.org/packages/b3/6c/4f3af23f2ebf4a0dacc1b75aeba89f39f85550df77e7a29c57b5ab5f1824/pye2-0.8.9.tar.gz
+[2024-05-27 08:09:33] WARNING root fetch - processPackages [validmind]: Skipping package: exceeds size limit 12933202>=10485760
+[2024-05-27 08:09:33] INFO root fetch - main [MainThread]: End processing [validmind] error
+[2024-05-27 08:09:34] INFO root fetch - processPackages [pms-encoder]: executing diffoscope
+[2024-05-27 08:09:34] INFO root fetch - processPackages [pms-encoder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pms_encoder-0.0.8.tar.gz tmp/pms_encoder-0.0.9.tar.gz --markdown 20240527/p/pms-encoder/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-27 08:09:34] INFO root fetch - processPackages [telegram-gmail-bot]: Downloading https://files.pythonhosted.org/packages/c4/3b/687bbff879a48808b9a8c8e2594b51368210cd7b9d3ac9959c5ca4b70e4a/telegram_gmail_bot-0.1.9.tar.gz
+[2024-05-27 08:09:34] INFO root fetch - processPackages [PyE2]: executing diffoscope
+[2024-05-27 08:09:34] INFO root fetch - processPackages [PyE2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pye2-0.8.8.tar.gz tmp/pye2-0.8.9.tar.gz --markdown 20240527/P/PyE2/0.8.8-0.8.9/README.md --exclude *.pyd
+[2024-05-27 08:09:34] INFO root fetch - processPackages [telegram-gmail-bot]: executing diffoscope
+[2024-05-27 08:09:34] INFO root fetch - processPackages [telegram-gmail-bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/telegram_gmail_bot-0.1.8.tar.gz tmp/telegram_gmail_bot-0.1.9.tar.gz --markdown 20240527/t/telegram-gmail-bot/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-27 08:09:34] INFO root fetch - processPackages [magentic]: Downloading https://files.pythonhosted.org/packages/14/4d/5c6c2464c5abac2cf0a83ac11e48dd90edf9b6d646f6825ce23b0bfe99bf/magentic-0.9.1.tar.gz
+[2024-05-27 08:09:34] INFO root fetch - processPackages [kvcommon-flask]: Downloading https://files.pythonhosted.org/packages/76/eb/8d5719ad2dc505ec11b02aaa127bb42bf2188e62f5a5ec59710a56fd2718/kvcommon_flask-0.0.4.1.tar.gz
+[2024-05-27 08:09:34] INFO root fetch - processPackages [magentic]: executing diffoscope
+[2024-05-27 08:09:34] INFO root fetch - processPackages [magentic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/magentic-0.9.0.tar.gz tmp/magentic-0.9.1.tar.gz --markdown 20240527/m/magentic/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-27 08:09:34] INFO root fetch - processPackages [kvcommon-flask]: executing diffoscope
+[2024-05-27 08:09:34] INFO root fetch - processPackages [kvcommon-flask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kvcommon_flask-0.0.3.5.tar.gz tmp/kvcommon_flask-0.0.4.1.tar.gz --markdown 20240527/k/kvcommon-flask/0.0.3.5-0.0.4.1/README.md --exclude *.pyd
+[2024-05-27 08:09:34] INFO root fetch - processPackages [pms-encoder]: Remove: archive file [/home/abi/fetcher/tmp/pms_encoder-0.0.8.tar.gz]
+[2024-05-27 08:09:34] INFO root fetch - processPackages [pms-encoder]: Remove: archive file [/home/abi/fetcher/tmp/pms_encoder-0.0.9.tar.gz]
+[2024-05-27 08:09:34] INFO root fetch - main [MainThread]: End processing [pms-encoder]: success
+[2024-05-27 08:09:34] INFO root fetch - processPackages [telegram-gmail-bot]: Remove: archive file [/home/abi/fetcher/tmp/telegram_gmail_bot-0.1.8.tar.gz]
+[2024-05-27 08:09:34] INFO root fetch - processPackages [telegram-gmail-bot]: Remove: archive file [/home/abi/fetcher/tmp/telegram_gmail_bot-0.1.9.tar.gz]
+[2024-05-27 08:09:34] INFO root fetch - main [MainThread]: End processing [telegram-gmail-bot]: success
+[2024-05-27 08:09:34] INFO root fetch - processPackages [kvcommon-flask]: Remove: archive file [/home/abi/fetcher/tmp/kvcommon_flask-0.0.3.5.tar.gz]
+[2024-05-27 08:09:34] INFO root fetch - processPackages [kvcommon-flask]: Remove: archive file [/home/abi/fetcher/tmp/kvcommon_flask-0.0.4.1.tar.gz]
+[2024-05-27 08:09:34] INFO root fetch - main [MainThread]: End processing [kvcommon-flask]: success
+[2024-05-27 08:09:34] INFO root fetch - processPackages [PyE2]: Remove: archive file [/home/abi/fetcher/tmp/pye2-0.8.8.tar.gz]
+[2024-05-27 08:09:34] INFO root fetch - processPackages [PyE2]: Remove: archive file [/home/abi/fetcher/tmp/pye2-0.8.9.tar.gz]
+[2024-05-27 08:09:34] INFO root fetch - main [MainThread]: End processing [PyE2]: success
+[2024-05-27 08:09:35] INFO root fetch - processPackages [magentic]: Remove: archive file [/home/abi/fetcher/tmp/magentic-0.9.0.tar.gz]
+[2024-05-27 08:09:35] INFO root fetch - processPackages [magentic]: Remove: archive file [/home/abi/fetcher/tmp/magentic-0.9.1.tar.gz]
+[2024-05-27 08:09:35] INFO root fetch - main [MainThread]: End processing [magentic]: success
+[2024-05-27 08:09:35] INFO root fetch - main [MainThread]: Store serial: [23391246]
