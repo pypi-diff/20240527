@@ -16126,3 +16126,49 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 15:00:08] INFO root fetch - processPackages [PyDAO-9000]: Remove: archive file [/home/abi/fetcher/tmp/pydao_9000-1.2.5.tar.gz]
 [2024-05-27 15:00:08] INFO root fetch - main [MainThread]: End processing [PyDAO-9000]: success
 [2024-05-27 15:00:08] INFO root fetch - main [MainThread]: Store serial: [23395870]
+[2024-05-27 15:02:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23395870]
+[2024-05-27 15:02:17] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-27 15:02:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ood_detectors
+[2024-05-27 15:02:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dpet
+[2024-05-27 15:02:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dpet
+[2024-05-27 15:02:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jb-manager-bot
+[2024-05-27 15:02:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: iniUts
+[2024-05-27 15:02:17] INFO root fetch - processPackages [jb-manager-bot]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-27 15:02:17] INFO root fetch - processPackages [dpet]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-27 15:02:17] INFO root fetch - processPackages [dpet]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-27 15:02:17] INFO root fetch - processPackages [ood_detectors]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-27 15:02:17] INFO root fetch - processPackages [iniUts]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-05-27 15:02:17] INFO root fetch - processPackages [jb-manager-bot]: Downloading https://files.pythonhosted.org/packages/fe/b9/235a87f714c52495da78078923c0f60b50b951761a5eded264e2b4dec992/jb_manager_bot-0.1.5.tar.gz
+[2024-05-27 15:02:17] INFO root fetch - processPackages [dpet]: Downloading https://files.pythonhosted.org/packages/10/e3/a7d2fe97c56ec5462cf406749d1fcf2e4493b5a75b6339b2a4cf9385e8d1/dpet-1.0.0.tar.gz
+[2024-05-27 15:02:17] INFO root fetch - processPackages [dpet]: Downloading https://files.pythonhosted.org/packages/10/e3/a7d2fe97c56ec5462cf406749d1fcf2e4493b5a75b6339b2a4cf9385e8d1/dpet-1.0.0.tar.gz
+[2024-05-27 15:02:17] INFO root fetch - processPackages [ood_detectors]: Downloading https://files.pythonhosted.org/packages/2c/c1/0e33f36a315cc0d60a299e5970cb3dbd7fe0ffebd495cef6770f937ba24f/ood_detectors-0.0.8.tar.gz
+[2024-05-27 15:02:18] INFO root fetch - processPackages [iniUts]: Downloading https://files.pythonhosted.org/packages/e8/78/90121611f255f07dd2156c97246acf1c08f25fac22602a5605072e639601/iniUts-1.1.8.tar.gz
+[2024-05-27 15:02:18] INFO root fetch - processPackages [jb-manager-bot]: Downloading https://files.pythonhosted.org/packages/15/04/bf5103c13547eb285e13d4e4ed3968119881d6ee077a19aefbc4208d0b97/jb_manager_bot-0.1.6.tar.gz
+[2024-05-27 15:02:18] INFO root fetch - processPackages [jb-manager-bot]: executing diffoscope
+[2024-05-27 15:02:18] INFO root fetch - processPackages [jb-manager-bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jb_manager_bot-0.1.5.tar.gz tmp/jb_manager_bot-0.1.6.tar.gz --markdown 20240527/j/jb-manager-bot/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-27 15:02:18] INFO root fetch - processPackages [dpet]: Downloading https://files.pythonhosted.org/packages/96/7e/95a0ecf3cc8eed2fca4235341796437549f4bb3e1b2af5f8a846a8ca49f1/dpet-1.0.1.tar.gz
+[2024-05-27 15:02:18] INFO root fetch - processPackages [ood_detectors]: Downloading https://files.pythonhosted.org/packages/3f/d6/a55f4bc549efaaabe3d000911be652e72d55a5a47cabc317d531a8ec8ada/ood_detectors-0.0.9.tar.gz
+[2024-05-27 15:02:18] INFO root fetch - processPackages [dpet]: Downloading https://files.pythonhosted.org/packages/96/7e/95a0ecf3cc8eed2fca4235341796437549f4bb3e1b2af5f8a846a8ca49f1/dpet-1.0.1.tar.gz
+[2024-05-27 15:02:18] INFO root fetch - processPackages [dpet]: executing diffoscope
+[2024-05-27 15:02:18] INFO root fetch - processPackages [dpet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dpet-1.0.0.tar.gz tmp/dpet-1.0.1.tar.gz --markdown 20240527/d/dpet/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-27 15:02:18] INFO root fetch - processPackages [dpet]: executing diffoscope
+[2024-05-27 15:02:18] INFO root fetch - processPackages [dpet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dpet-1.0.0.tar.gz tmp/dpet-1.0.1.tar.gz --markdown 20240527/d/dpet/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-27 15:02:18] INFO root fetch - processPackages [ood_detectors]: executing diffoscope
+[2024-05-27 15:02:18] INFO root fetch - processPackages [ood_detectors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ood_detectors-0.0.8.tar.gz tmp/ood_detectors-0.0.9.tar.gz --markdown 20240527/o/ood_detectors/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-27 15:02:18] INFO root fetch - processPackages [iniUts]: Downloading https://files.pythonhosted.org/packages/88/aa/d9fd3729014b88b774805528fc83c6022d745b8ce74c6dfc9f89978d9215/iniUts-1.1.9.tar.gz
+[2024-05-27 15:02:18] INFO root fetch - processPackages [iniUts]: executing diffoscope
+[2024-05-27 15:02:18] INFO root fetch - processPackages [iniUts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iniUts-1.1.8.tar.gz tmp/iniUts-1.1.9.tar.gz --markdown 20240527/i/iniUts/1.1.8-1.1.9/README.md --exclude *.pyd
+[2024-05-27 15:02:18] INFO root fetch - processPackages [jb-manager-bot]: Remove: archive file [/home/abi/fetcher/tmp/jb_manager_bot-0.1.5.tar.gz]
+[2024-05-27 15:02:18] INFO root fetch - processPackages [jb-manager-bot]: Remove: archive file [/home/abi/fetcher/tmp/jb_manager_bot-0.1.6.tar.gz]
+[2024-05-27 15:02:18] INFO root fetch - main [MainThread]: End processing [jb-manager-bot]: success
+[2024-05-27 15:02:19] INFO root fetch - processPackages [dpet]: Remove: archive file [/home/abi/fetcher/tmp/dpet-1.0.0.tar.gz]
+[2024-05-27 15:02:19] INFO root fetch - processPackages [dpet]: Remove: archive file [/home/abi/fetcher/tmp/dpet-1.0.1.tar.gz]
+[2024-05-27 15:02:19] INFO root fetch - main [MainThread]: End processing [dpet]: success
+[2024-05-27 15:02:19] INFO root fetch - processPackages [ood_detectors]: Remove: archive file [/home/abi/fetcher/tmp/ood_detectors-0.0.8.tar.gz]
+[2024-05-27 15:02:19] INFO root fetch - processPackages [ood_detectors]: Remove: archive file [/home/abi/fetcher/tmp/ood_detectors-0.0.9.tar.gz]
+[2024-05-27 15:02:19] INFO root fetch - main [MainThread]: End processing [ood_detectors]: success
+[2024-05-27 15:02:19] INFO root fetch - main [MainThread]: End processing [dpet]: success
+[2024-05-27 15:02:19] INFO root fetch - processPackages [iniUts]: Remove: archive file [/home/abi/fetcher/tmp/iniUts-1.1.8.tar.gz]
+[2024-05-27 15:02:19] INFO root fetch - processPackages [iniUts]: Remove: archive file [/home/abi/fetcher/tmp/iniUts-1.1.9.tar.gz]
+[2024-05-27 15:02:19] INFO root fetch - main [MainThread]: End processing [iniUts]: success
+[2024-05-27 15:02:19] INFO root fetch - main [MainThread]: Store serial: [23395888]
