@@ -3229,3 +3229,24 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 
 [2024-05-27 03:53:37] INFO root fetch - main [MainThread]: End processing [icetcore] error
 [2024-05-27 03:53:37] INFO root fetch - main [MainThread]: Store serial: [23389587]
+[2024-05-27 03:55:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23389587]
+[2024-05-27 03:55:45] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-27 03:55:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: protoc-polyglot
+[2024-05-27 03:55:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: trackerstatus
+[2024-05-27 03:55:45] INFO root fetch - processPackages [protoc-polyglot]: New version: [0.0.1.post3] Old Version: [0.0.1.post2]
+[2024-05-27 03:55:46] INFO root fetch - processPackages [protoc-polyglot]: Downloading https://files.pythonhosted.org/packages/3d/13/b74e50a2dfe500088ce057119d49777dd50bd1fa5e87f613752d2b1552bb/protoc_polyglot-0.0.1.post2-py3-none-any.whl
+[2024-05-27 03:55:46] INFO root fetch - processPackages [trackerstatus]: New version: [0.2.0] Old Version: [0.1.5]
+[2024-05-27 03:55:46] INFO root fetch - processPackages [trackerstatus]: Downloading https://files.pythonhosted.org/packages/e5/42/e44cbe6ffed81f1d7d97d497668f40070aef25aa6e9ee93ec68125cc1547/trackerstatus-0.1.5.tar.gz
+[2024-05-27 03:55:46] INFO root fetch - processPackages [protoc-polyglot]: Downloading https://files.pythonhosted.org/packages/f9/c2/b0ea040b334e12d05395c035b3c2b20031c8a573cbe538cf7a72570cc2b1/protoc_polyglot-0.0.1.post3.tar.gz
+[2024-05-27 03:55:46] INFO root fetch - processPackages [protoc-polyglot]: executing diffoscope
+[2024-05-27 03:55:46] INFO root fetch - processPackages [protoc-polyglot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/protoc_polyglot-0.0.1.post2-py3-none-any.whl.zip tmp/protoc_polyglot-0.0.1.post3.tar.gz --markdown 20240527/p/protoc-polyglot/0.0.1.post2-0.0.1.post3/README.md --exclude *.pyd
+[2024-05-27 03:55:46] INFO root fetch - processPackages [trackerstatus]: Downloading https://files.pythonhosted.org/packages/de/30/3d0d0cf7493e79c32f22a32f0640ca42d96915c419029c942a7c765ae4f9/trackerstatus-0.2.0.tar.gz
+[2024-05-27 03:55:46] INFO root fetch - processPackages [trackerstatus]: executing diffoscope
+[2024-05-27 03:55:46] INFO root fetch - processPackages [trackerstatus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trackerstatus-0.1.5.tar.gz tmp/trackerstatus-0.2.0.tar.gz --markdown 20240527/t/trackerstatus/0.1.5-0.2.0/README.md --exclude *.pyd
+[2024-05-27 03:55:46] INFO root fetch - processPackages [protoc-polyglot]: Remove: archive file [/home/abi/fetcher/tmp/protoc_polyglot-0.0.1.post2-py3-none-any.whl.zip]
+[2024-05-27 03:55:46] INFO root fetch - processPackages [protoc-polyglot]: Remove: archive file [/home/abi/fetcher/tmp/protoc_polyglot-0.0.1.post3.tar.gz]
+[2024-05-27 03:55:46] INFO root fetch - main [MainThread]: End processing [protoc-polyglot]: success
+[2024-05-27 03:55:47] INFO root fetch - processPackages [trackerstatus]: Remove: archive file [/home/abi/fetcher/tmp/trackerstatus-0.1.5.tar.gz]
+[2024-05-27 03:55:47] INFO root fetch - processPackages [trackerstatus]: Remove: archive file [/home/abi/fetcher/tmp/trackerstatus-0.2.0.tar.gz]
+[2024-05-27 03:55:47] INFO root fetch - main [MainThread]: End processing [trackerstatus]: success
+[2024-05-27 03:55:47] INFO root fetch - main [MainThread]: Store serial: [23389593]
