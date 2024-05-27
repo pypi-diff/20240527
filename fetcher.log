@@ -9930,3 +9930,42 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 10:52:06] INFO root fetch - processPackages [django-customvueadmin]: Remove: archive file [/home/abi/fetcher/tmp/django_customvueadmin-0.2.0.tar.gz]
 [2024-05-27 10:52:06] INFO root fetch - main [MainThread]: End processing [django-customvueadmin]: success
 [2024-05-27 10:52:06] INFO root fetch - main [MainThread]: Store serial: [23392843]
+[2024-05-27 10:54:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23392843]
+[2024-05-27 10:54:16] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-27 10:54:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: popoll-backend
+[2024-05-27 10:54:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: z2m-log-parser
+[2024-05-27 10:54:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: servicefoundry
+[2024-05-27 10:54:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: datasiphon
+[2024-05-27 10:54:16] INFO root fetch - processPackages [z2m-log-parser]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-27 10:54:16] INFO root fetch - processPackages [z2m-log-parser]: Downloading https://files.pythonhosted.org/packages/3c/bf/045aab314e9a6c6ba6648f7196be4382d805417677bd4ab8597079a40eec/z2m_log_parser-0.0.8.tar.gz
+[2024-05-27 10:54:16] INFO root fetch - processPackages [popoll-backend]: New version: [0.0.57] Old Version: [0.0.56]
+[2024-05-27 10:54:17] INFO root fetch - processPackages [servicefoundry]: New version: [0.9.9rc2] Old Version: [0.9.9rc1]
+[2024-05-27 10:54:17] INFO root fetch - processPackages [datasiphon]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-27 10:54:17] INFO root fetch - processPackages [popoll-backend]: Downloading https://files.pythonhosted.org/packages/47/34/7f910525ddfb0146fd7d2e6c4af869206267a88ee5cc721cc32675da81d1/popoll_backend-0.0.56.tar.gz
+[2024-05-27 10:54:17] INFO root fetch - processPackages [z2m-log-parser]: Downloading https://files.pythonhosted.org/packages/71/97/7033f666d3eb6726fdd071cf1160a1c1a82f0c16dce62d13168b432e6ac1/z2m_log_parser-0.0.9.tar.gz
+[2024-05-27 10:54:17] INFO root fetch - processPackages [servicefoundry]: Downloading https://files.pythonhosted.org/packages/02/05/5016312c66b2c7a88f194b61f74c045e7449386ad8b2d1c5248a45a6094f/servicefoundry-0.9.9rc1.tar.gz
+[2024-05-27 10:54:17] INFO root fetch - processPackages [datasiphon]: Downloading https://files.pythonhosted.org/packages/61/f1/549b7cde0fc5e75d3473d71db0df1c8c7484090e715a58003c73bc130ba5/datasiphon-0.2.8.tar.gz
+[2024-05-27 10:54:17] INFO root fetch - processPackages [z2m-log-parser]: executing diffoscope
+[2024-05-27 10:54:17] INFO root fetch - processPackages [z2m-log-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/z2m_log_parser-0.0.8.tar.gz tmp/z2m_log_parser-0.0.9.tar.gz --markdown 20240527/z/z2m-log-parser/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-27 10:54:17] INFO root fetch - processPackages [popoll-backend]: Downloading https://files.pythonhosted.org/packages/96/06/04f6d9dd4ef03b8f574a3dbdfb58f371d34cd6df3caf3e35011694f242ec/popoll_backend-0.0.57.tar.gz
+[2024-05-27 10:54:17] INFO root fetch - processPackages [servicefoundry]: Downloading https://files.pythonhosted.org/packages/95/2d/4d48175602335d472c23250316e448a45d05e4002ce13dc0e65cd515514a/servicefoundry-0.9.9rc2.tar.gz
+[2024-05-27 10:54:17] INFO root fetch - processPackages [datasiphon]: Downloading https://files.pythonhosted.org/packages/6b/ee/b324ebe1616d3f9bb712f432e900c6569729aa3575cc7c6c687e3843930c/datasiphon-0.2.9.tar.gz
+[2024-05-27 10:54:17] INFO root fetch - processPackages [popoll-backend]: executing diffoscope
+[2024-05-27 10:54:17] INFO root fetch - processPackages [popoll-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/popoll_backend-0.0.56.tar.gz tmp/popoll_backend-0.0.57.tar.gz --markdown 20240527/p/popoll-backend/0.0.56-0.0.57/README.md --exclude *.pyd
+[2024-05-27 10:54:17] INFO root fetch - processPackages [datasiphon]: executing diffoscope
+[2024-05-27 10:54:17] INFO root fetch - processPackages [datasiphon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datasiphon-0.2.8.tar.gz tmp/datasiphon-0.2.9.tar.gz --markdown 20240527/d/datasiphon/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-27 10:54:17] INFO root fetch - processPackages [servicefoundry]: executing diffoscope
+[2024-05-27 10:54:17] INFO root fetch - processPackages [servicefoundry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/servicefoundry-0.9.9rc1.tar.gz tmp/servicefoundry-0.9.9rc2.tar.gz --markdown 20240527/s/servicefoundry/0.9.9rc1-0.9.9rc2/README.md --exclude *.pyd
+[2024-05-27 10:54:17] INFO root fetch - processPackages [z2m-log-parser]: Remove: archive file [/home/abi/fetcher/tmp/z2m_log_parser-0.0.8.tar.gz]
+[2024-05-27 10:54:17] INFO root fetch - processPackages [z2m-log-parser]: Remove: archive file [/home/abi/fetcher/tmp/z2m_log_parser-0.0.9.tar.gz]
+[2024-05-27 10:54:17] INFO root fetch - main [MainThread]: End processing [z2m-log-parser]: success
+[2024-05-27 10:54:18] INFO root fetch - processPackages [datasiphon]: Remove: archive file [/home/abi/fetcher/tmp/datasiphon-0.2.8.tar.gz]
+[2024-05-27 10:54:18] INFO root fetch - processPackages [datasiphon]: Remove: archive file [/home/abi/fetcher/tmp/datasiphon-0.2.9.tar.gz]
+[2024-05-27 10:54:18] INFO root fetch - main [MainThread]: End processing [datasiphon]: success
+[2024-05-27 10:54:18] INFO root fetch - processPackages [servicefoundry]: Remove: archive file [/home/abi/fetcher/tmp/servicefoundry-0.9.9rc1.tar.gz]
+[2024-05-27 10:54:18] INFO root fetch - processPackages [servicefoundry]: Remove: archive file [/home/abi/fetcher/tmp/servicefoundry-0.9.9rc2.tar.gz]
+[2024-05-27 10:54:18] INFO root fetch - main [MainThread]: End processing [servicefoundry]: success
+[2024-05-27 10:54:18] INFO root fetch - processPackages [popoll-backend]: Remove: archive file [/home/abi/fetcher/tmp/popoll_backend-0.0.56.tar.gz]
+[2024-05-27 10:54:18] INFO root fetch - processPackages [popoll-backend]: Remove: archive file [/home/abi/fetcher/tmp/popoll_backend-0.0.57.tar.gz]
+[2024-05-27 10:54:18] INFO root fetch - main [MainThread]: End processing [popoll-backend]: success
+[2024-05-27 10:54:18] INFO root fetch - main [MainThread]: Store serial: [23392854]
