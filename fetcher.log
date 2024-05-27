@@ -12953,3 +12953,78 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 12:44:01] INFO root fetch - processPackages [glacier-upload]: Remove: archive file [/home/abi/fetcher/tmp/glacier_upload-2.1.1.tar.gz]
 [2024-05-27 12:44:01] INFO root fetch - main [MainThread]: End processing [glacier-upload]: success
 [2024-05-27 12:44:01] INFO root fetch - main [MainThread]: Store serial: [23394234]
+[2024-05-27 12:46:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23394234]
+[2024-05-27 12:46:09] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-27 12:46:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nvidia-dali-tf-plugin-nightly-cuda110
+[2024-05-27 12:46:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: test-core-package
+[2024-05-27 12:46:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: datasiphon
+[2024-05-27 12:46:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cg
+[2024-05-27 12:46:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: testlala
+[2024-05-27 12:46:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: turbocase
+[2024-05-27 12:46:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: absbox
+[2024-05-27 12:46:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nvidia-dali-nightly-cuda110
+[2024-05-27 12:46:09] INFO root fetch - processPackages [testlala]: New version: [1.0.0] Old Version: [0.1.1]
+[2024-05-27 12:46:09] INFO root fetch - processPackages [turbocase]: New version: [1.4] Old Version: [1.3]
+[2024-05-27 12:46:10] INFO root fetch - processPackages [cg]: New version: [60.8.9] Old Version: [60.8.8]
+[2024-05-27 12:46:10] INFO root fetch - processPackages [datasiphon]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-27 12:46:10] INFO root fetch - processPackages [test-core-package]: New version: [1.2.0] Old Version: [1.1.2]
+[2024-05-27 12:46:10] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: New version: [1.39.0.dev20240524] Old Version: [1.39.0.dev20240523]
+[2024-05-27 12:46:10] INFO root fetch - processPackages [testlala]: Downloading https://files.pythonhosted.org/packages/83/40/00f8b1338d3f9b3713b7767fa911004ca8cda468f1c3b223bd7e83b58b40/testlala-0.1.1-py3-none-any.whl
+[2024-05-27 12:46:10] INFO root fetch - processPackages [turbocase]: Downloading https://files.pythonhosted.org/packages/6f/76/244aee2e47354d4cf5cf0ebddf841eca2aa2a45630ed9dd32d1256cb7ef9/turbocase-1.3.tar.gz
+[2024-05-27 12:46:10] INFO root fetch - processPackages [absbox]: New version: [0.9.3] Old Version: [0.8.9]
+[2024-05-27 12:46:10] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: New version: [1.39.0.dev20240524] Old Version: [1.39.0.dev20240523]
+[2024-05-27 12:46:10] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/d6/8e/017bcd413c9044bb3a8ec3e9a9e28ff36b6d814eef56056a4702d375ac95/cg-60.8.8.tar.gz
+[2024-05-27 12:46:10] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: Downloading https://files.pythonhosted.org/packages/28/83/635d25c99613a974ae99490632f6078c8e7492ded043724570e68b92ae69/nvidia_dali_nightly_cuda110-1.39.0.dev20240523.tar.gz
+[2024-05-27 12:46:10] INFO root fetch - processPackages [datasiphon]: Downloading https://files.pythonhosted.org/packages/61/f1/549b7cde0fc5e75d3473d71db0df1c8c7484090e715a58003c73bc130ba5/datasiphon-0.2.8.tar.gz
+[2024-05-27 12:46:10] INFO root fetch - processPackages [test-core-package]: Downloading https://files.pythonhosted.org/packages/c6/02/29f153c7b47fbc9236448bd5b66d84ebac3bb7c0ff12bdf77978d42d5812/test_core_package-1.1.2.tar.gz
+[2024-05-27 12:46:10] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: Downloading https://files.pythonhosted.org/packages/e5/82/427490eb66de9d0237b938ae34e8223616ebf8eb384078cc9c0c66601fdf/nvidia_dali_tf_plugin_nightly_cuda110-1.39.0.dev20240523.tar.gz
+[2024-05-27 12:46:10] INFO root fetch - processPackages [absbox]: Downloading https://files.pythonhosted.org/packages/f2/f5/d913079148fbe1aebd6fc56849f3245eda346886eb6d2488747d9a978493/AbsBox-0.8.9.tar.gz
+[2024-05-27 12:46:10] INFO root fetch - processPackages [turbocase]: Downloading https://files.pythonhosted.org/packages/65/a6/39ec5789fa83a8476c4a4862a464b7ebd8432f912da0321ca79a5c98312a/turbocase-1.4.tar.gz
+[2024-05-27 12:46:10] INFO root fetch - processPackages [testlala]: Downloading https://files.pythonhosted.org/packages/fa/f1/efcbde20f3af1062ce5a0c18631d692567cc23b120c5fd8339cfa46a2ed6/testlala-1.0.0-py3-none-any.whl
+[2024-05-27 12:46:10] INFO root fetch - processPackages [turbocase]: executing diffoscope
+[2024-05-27 12:46:10] INFO root fetch - processPackages [turbocase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/turbocase-1.3.tar.gz tmp/turbocase-1.4.tar.gz --markdown 20240527/t/turbocase/1.3-1.4/README.md --exclude *.pyd
+[2024-05-27 12:46:10] INFO root fetch - processPackages [testlala]: executing diffoscope
+[2024-05-27 12:46:10] INFO root fetch - processPackages [testlala]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testlala-0.1.1-py3-none-any.whl.zip tmp/testlala-1.0.0-py3-none-any.whl.zip --markdown 20240527/t/testlala/0.1.1-1.0.0/README.md --exclude *.pyd
+[2024-05-27 12:46:10] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/df/aa/bcf36edef12ba2ac2c9179507531723a7d2784d50a1cb868497d0120f301/cg-60.8.9.tar.gz
+[2024-05-27 12:46:10] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: Downloading https://files.pythonhosted.org/packages/ed/00/7daa4bae0dac2c006d34d522a19587dcbccb529c7d88421de47b15d25bdd/nvidia_dali_tf_plugin_nightly_cuda110-1.39.0.dev20240524.tar.gz
+[2024-05-27 12:46:10] INFO root fetch - processPackages [datasiphon]: Downloading https://files.pythonhosted.org/packages/6b/ee/b324ebe1616d3f9bb712f432e900c6569729aa3575cc7c6c687e3843930c/datasiphon-0.2.9.tar.gz
+[2024-05-27 12:46:10] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: Downloading https://files.pythonhosted.org/packages/0e/f1/26712e60ce22c1105291a579ed66ada39c5a954b6dd7462f96d14641acff/nvidia_dali_nightly_cuda110-1.39.0.dev20240524.tar.gz
+[2024-05-27 12:46:10] INFO root fetch - processPackages [test-core-package]: Downloading https://files.pythonhosted.org/packages/ec/3d/f3528723573b62ab383aa01d25cfab3e6b8c5f89a7ee1c3fc70a9234701c/test_core_package-1.2.0.tar.gz
+[2024-05-27 12:46:10] INFO root fetch - processPackages [absbox]: Downloading https://files.pythonhosted.org/packages/63/df/8bc5a95a40d1cc98f7aa27a8baf79a5df19fa8dc2f6836ff02171d21c08a/AbsBox-0.9.3.tar.gz
+[2024-05-27 12:46:10] INFO root fetch - processPackages [datasiphon]: executing diffoscope
+[2024-05-27 12:46:10] INFO root fetch - processPackages [datasiphon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datasiphon-0.2.8.tar.gz tmp/datasiphon-0.2.9.tar.gz --markdown 20240527/d/datasiphon/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-27 12:46:10] INFO root fetch - processPackages [test-core-package]: executing diffoscope
+[2024-05-27 12:46:10] INFO root fetch - processPackages [test-core-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/test_core_package-1.1.2.tar.gz tmp/test_core_package-1.2.0.tar.gz --markdown 20240527/t/test-core-package/1.1.2-1.2.0/README.md --exclude *.pyd
+[2024-05-27 12:46:10] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: executing diffoscope
+[2024-05-27 12:46:10] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvidia_dali_tf_plugin_nightly_cuda110-1.39.0.dev20240523.tar.gz tmp/nvidia_dali_tf_plugin_nightly_cuda110-1.39.0.dev20240524.tar.gz --markdown 20240527/n/nvidia-dali-tf-plugin-nightly-cuda110/1.39.0.dev20240523-1.39.0.dev20240524/README.md --exclude *.pyd
+[2024-05-27 12:46:10] INFO root fetch - processPackages [absbox]: executing diffoscope
+[2024-05-27 12:46:10] INFO root fetch - processPackages [absbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AbsBox-0.8.9.tar.gz tmp/AbsBox-0.9.3.tar.gz --markdown 20240527/a/absbox/0.8.9-0.9.3/README.md --exclude *.pyd
+[2024-05-27 12:46:10] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: executing diffoscope
+[2024-05-27 12:46:10] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvidia_dali_nightly_cuda110-1.39.0.dev20240523.tar.gz tmp/nvidia_dali_nightly_cuda110-1.39.0.dev20240524.tar.gz --markdown 20240527/n/nvidia-dali-nightly-cuda110/1.39.0.dev20240523-1.39.0.dev20240524/README.md --exclude *.pyd
+[2024-05-27 12:46:11] INFO root fetch - processPackages [cg]: executing diffoscope
+[2024-05-27 12:46:11] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-60.8.8.tar.gz tmp/cg-60.8.9.tar.gz --markdown 20240527/c/cg/60.8.8-60.8.9/README.md --exclude *.pyd
+[2024-05-27 12:46:11] INFO root fetch - processPackages [testlala]: Remove: archive file [/home/abi/fetcher/tmp/testlala-0.1.1-py3-none-any.whl.zip]
+[2024-05-27 12:46:11] INFO root fetch - processPackages [testlala]: Remove: archive file [/home/abi/fetcher/tmp/testlala-1.0.0-py3-none-any.whl.zip]
+[2024-05-27 12:46:11] INFO root fetch - main [MainThread]: End processing [testlala]: success
+[2024-05-27 12:46:11] INFO root fetch - processPackages [turbocase]: Remove: archive file [/home/abi/fetcher/tmp/turbocase-1.3.tar.gz]
+[2024-05-27 12:46:11] INFO root fetch - processPackages [turbocase]: Remove: archive file [/home/abi/fetcher/tmp/turbocase-1.4.tar.gz]
+[2024-05-27 12:46:11] INFO root fetch - main [MainThread]: End processing [turbocase]: success
+[2024-05-27 12:46:11] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: Remove: archive file [/home/abi/fetcher/tmp/nvidia_dali_tf_plugin_nightly_cuda110-1.39.0.dev20240523.tar.gz]
+[2024-05-27 12:46:11] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: Remove: archive file [/home/abi/fetcher/tmp/nvidia_dali_tf_plugin_nightly_cuda110-1.39.0.dev20240524.tar.gz]
+[2024-05-27 12:46:11] INFO root fetch - main [MainThread]: End processing [nvidia-dali-tf-plugin-nightly-cuda110]: success
+[2024-05-27 12:46:11] INFO root fetch - processPackages [datasiphon]: Remove: archive file [/home/abi/fetcher/tmp/datasiphon-0.2.8.tar.gz]
+[2024-05-27 12:46:11] INFO root fetch - processPackages [datasiphon]: Remove: archive file [/home/abi/fetcher/tmp/datasiphon-0.2.9.tar.gz]
+[2024-05-27 12:46:11] INFO root fetch - main [MainThread]: End processing [datasiphon]: success
+[2024-05-27 12:46:11] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: Remove: archive file [/home/abi/fetcher/tmp/nvidia_dali_nightly_cuda110-1.39.0.dev20240523.tar.gz]
+[2024-05-27 12:46:11] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: Remove: archive file [/home/abi/fetcher/tmp/nvidia_dali_nightly_cuda110-1.39.0.dev20240524.tar.gz]
+[2024-05-27 12:46:11] INFO root fetch - main [MainThread]: End processing [nvidia-dali-nightly-cuda110]: success
+[2024-05-27 12:46:11] INFO root fetch - processPackages [test-core-package]: Remove: archive file [/home/abi/fetcher/tmp/test_core_package-1.1.2.tar.gz]
+[2024-05-27 12:46:11] INFO root fetch - processPackages [test-core-package]: Remove: archive file [/home/abi/fetcher/tmp/test_core_package-1.2.0.tar.gz]
+[2024-05-27 12:46:11] INFO root fetch - main [MainThread]: End processing [test-core-package]: success
+[2024-05-27 12:46:11] INFO root fetch - processPackages [absbox]: Remove: archive file [/home/abi/fetcher/tmp/AbsBox-0.8.9.tar.gz]
+[2024-05-27 12:46:11] INFO root fetch - processPackages [absbox]: Remove: archive file [/home/abi/fetcher/tmp/AbsBox-0.9.3.tar.gz]
+[2024-05-27 12:46:11] INFO root fetch - main [MainThread]: End processing [absbox]: success
+[2024-05-27 12:46:15] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.8.8.tar.gz]
+[2024-05-27 12:46:15] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.8.9.tar.gz]
+[2024-05-27 12:46:15] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2024-05-27 12:46:15] INFO root fetch - main [MainThread]: Store serial: [23394305]
