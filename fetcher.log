@@ -1915,3 +1915,63 @@
 [2024-05-27 02:28:11] INFO root fetch - processPackages [cdk-serverless-clamscan]: Remove: archive file [/home/abi/fetcher/tmp/cdk-serverless-clamscan-2.6.99.tar.gz]
 [2024-05-27 02:28:11] INFO root fetch - main [MainThread]: End processing [cdk-serverless-clamscan]: success
 [2024-05-27 02:28:11] INFO root fetch - main [MainThread]: Store serial: [23389077]
+[2024-05-27 02:30:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23389077]
+[2024-05-27 02:30:19] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-27 02:30:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-secret-manager-wrapper-layer
+[2024-05-27 02:30:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spacestar
+[2024-05-27 02:30:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hagworm
+[2024-05-27 02:30:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: example-package-zl
+[2024-05-27 02:30:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-gitlab-runner
+[2024-05-27 02:30:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk-certbot-dns-route53
+[2024-05-27 02:30:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdk-aurora-globaldatabase
+[2024-05-27 02:30:19] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-05-27 02:30:19] INFO root fetch - processPackages [spacestar]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-05-27 02:30:19] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: New version: [2.3.99] Old Version: [2.3.98]
+[2024-05-27 02:30:20] INFO root fetch - processPackages [cdk-certbot-dns-route53]: New version: [2.4.99] Old Version: [2.4.98]
+[2024-05-27 02:30:20] INFO root fetch - processPackages [cdk-gitlab-runner]: New version: [2.2.99] Old Version: [2.2.98]
+[2024-05-27 02:30:20] WARNING root fetch - processPackages [example-package-zl]: Skipping, unable to determine old version
+[2024-05-27 02:30:20] INFO root fetch - main [MainThread]: End processing [example-package-zl] error
+[2024-05-27 02:30:20] INFO root fetch - processPackages [hagworm]: New version: [5.9.9] Old Version: [5.9.8]
+[2024-05-27 02:30:20] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/e4/39/e997b5acac972df8d777c4a4ad6dfd9f51e03e75fc8e23c973a7772267d5/cdk-aurora-globaldatabase-2.3.98.tar.gz
+[2024-05-27 02:30:20] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Downloading https://files.pythonhosted.org/packages/00/91/545869a3cc999dbc9750aad345d775087610ebf834517c928a0d0e289c4e/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz
+[2024-05-27 02:30:20] INFO root fetch - processPackages [cdk-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/07/29/9f2cc8590770873b6073743e94ff15a2a7913eb0de3e6a4d2fc133008f62/cdk-gitlab-runner-2.2.98.tar.gz
+[2024-05-27 02:30:20] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/7d/4d/b1cb6c8586d736f490cc5099e0220282aadb28d3aefc028cf88e6a183b06/cdk-certbot-dns-route53-2.4.98.tar.gz
+[2024-05-27 02:30:20] INFO root fetch - processPackages [spacestar]: Downloading https://files.pythonhosted.org/packages/be/5b/c35532d4c17a856bd06e4486d1ed2d0d36c0a9928055bd22be0077f85c07/spacestar-0.3.1.tar.gz
+[2024-05-27 02:30:20] INFO root fetch - processPackages [hagworm]: Downloading https://files.pythonhosted.org/packages/e0/1c/5dac91f7c38d49ccecfdc58d536db8299a6047d9ff58930a0d6013757ea4/hagworm-5.9.8.tar.gz
+[2024-05-27 02:30:20] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Downloading https://files.pythonhosted.org/packages/c2/c5/a8a13bb72ea375e2ce99dd389e945478ce7d95d8628acf6db64f14f674f5/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz
+[2024-05-27 02:30:20] INFO root fetch - processPackages [spacestar]: Downloading https://files.pythonhosted.org/packages/7e/9f/bde7a47ca020cf89663e3b4f13debae3cb6f0b700a1c0fff0f1ff9fe2a2b/spacestar-0.3.2.tar.gz
+[2024-05-27 02:30:20] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/51/53/0158facaec2becec86707148eb931de78a7ad1c2b63f80b9911a53e4c17b/cdk-aurora-globaldatabase-2.3.99.tar.gz
+[2024-05-27 02:30:20] INFO root fetch - processPackages [cdk-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/16/61/e9f00b4e877a6352bd641de360f7577c27548fbcedc3aab19b1cf3852b9a/cdk-gitlab-runner-2.2.99.tar.gz
+[2024-05-27 02:30:20] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: executing diffoscope
+[2024-05-27 02:30:20] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz tmp/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz --markdown 20240527/c/cdk-secret-manager-wrapper-layer/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-05-27 02:30:20] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/28/81/76f66486f9d6f5aee6f787bb13f11ab8012414fd95d10756b575fd69b909/cdk-certbot-dns-route53-2.4.99.tar.gz
+[2024-05-27 02:30:20] INFO root fetch - processPackages [spacestar]: executing diffoscope
+[2024-05-27 02:30:20] INFO root fetch - processPackages [spacestar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spacestar-0.3.1.tar.gz tmp/spacestar-0.3.2.tar.gz --markdown 20240527/s/spacestar/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-05-27 02:30:20] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: executing diffoscope
+[2024-05-27 02:30:20] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz --markdown 20240527/c/cdk-aurora-globaldatabase/2.3.98-2.3.99/README.md --exclude *.pyd
+[2024-05-27 02:30:20] INFO root fetch - processPackages [cdk-gitlab-runner]: executing diffoscope
+[2024-05-27 02:30:20] INFO root fetch - processPackages [cdk-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-gitlab-runner-2.2.98.tar.gz tmp/cdk-gitlab-runner-2.2.99.tar.gz --markdown 20240527/c/cdk-gitlab-runner/2.2.98-2.2.99/README.md --exclude *.pyd
+[2024-05-27 02:30:20] INFO root fetch - processPackages [hagworm]: Downloading https://files.pythonhosted.org/packages/2f/0d/16fd32d0754a2e5208aede68d6b772bc36ed5dcefe41035760e37a84fbbc/hagworm-5.9.9.tar.gz
+[2024-05-27 02:30:20] INFO root fetch - processPackages [cdk-certbot-dns-route53]: executing diffoscope
+[2024-05-27 02:30:20] INFO root fetch - processPackages [cdk-certbot-dns-route53]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-certbot-dns-route53-2.4.98.tar.gz tmp/cdk-certbot-dns-route53-2.4.99.tar.gz --markdown 20240527/c/cdk-certbot-dns-route53/2.4.98-2.4.99/README.md --exclude *.pyd
+[2024-05-27 02:30:20] INFO root fetch - processPackages [hagworm]: executing diffoscope
+[2024-05-27 02:30:20] INFO root fetch - processPackages [hagworm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hagworm-5.9.8.tar.gz tmp/hagworm-5.9.9.tar.gz --markdown 20240527/h/hagworm/5.9.8-5.9.9/README.md --exclude *.pyd
+[2024-05-27 02:30:21] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz]
+[2024-05-27 02:30:21] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz]
+[2024-05-27 02:30:21] INFO root fetch - main [MainThread]: End processing [cdk-aurora-globaldatabase]: success
+[2024-05-27 02:30:21] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Remove: archive file [/home/abi/fetcher/tmp/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz]
+[2024-05-27 02:30:21] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Remove: archive file [/home/abi/fetcher/tmp/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz]
+[2024-05-27 02:30:21] INFO root fetch - main [MainThread]: End processing [cdk-secret-manager-wrapper-layer]: success
+[2024-05-27 02:30:21] INFO root fetch - processPackages [cdk-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdk-gitlab-runner-2.2.98.tar.gz]
+[2024-05-27 02:30:21] INFO root fetch - processPackages [cdk-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdk-gitlab-runner-2.2.99.tar.gz]
+[2024-05-27 02:30:21] INFO root fetch - main [MainThread]: End processing [cdk-gitlab-runner]: success
+[2024-05-27 02:30:21] INFO root fetch - processPackages [spacestar]: Remove: archive file [/home/abi/fetcher/tmp/spacestar-0.3.1.tar.gz]
+[2024-05-27 02:30:21] INFO root fetch - processPackages [spacestar]: Remove: archive file [/home/abi/fetcher/tmp/spacestar-0.3.2.tar.gz]
+[2024-05-27 02:30:21] INFO root fetch - main [MainThread]: End processing [spacestar]: success
+[2024-05-27 02:30:21] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Remove: archive file [/home/abi/fetcher/tmp/cdk-certbot-dns-route53-2.4.98.tar.gz]
+[2024-05-27 02:30:21] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Remove: archive file [/home/abi/fetcher/tmp/cdk-certbot-dns-route53-2.4.99.tar.gz]
+[2024-05-27 02:30:21] INFO root fetch - main [MainThread]: End processing [cdk-certbot-dns-route53]: success
+[2024-05-27 02:30:21] INFO root fetch - processPackages [hagworm]: Remove: archive file [/home/abi/fetcher/tmp/hagworm-5.9.8.tar.gz]
+[2024-05-27 02:30:21] INFO root fetch - processPackages [hagworm]: Remove: archive file [/home/abi/fetcher/tmp/hagworm-5.9.9.tar.gz]
+[2024-05-27 02:30:21] INFO root fetch - main [MainThread]: End processing [hagworm]: success
+[2024-05-27 02:30:21] INFO root fetch - main [MainThread]: Store serial: [23389100]
