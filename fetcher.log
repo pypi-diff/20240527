@@ -10151,3 +10151,164 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 11:04:57] INFO root fetch - processPackages [richie]: Remove: archive file [/home/abi/fetcher/tmp/richie-2.9.1.tar.gz]
 [2024-05-27 11:04:57] INFO root fetch - main [MainThread]: End processing [richie]: success
 [2024-05-27 11:04:57] INFO root fetch - main [MainThread]: Store serial: [23392929]
+[2024-05-27 11:07:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23392929]
+[2024-05-27 11:07:07] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2024-05-27 11:07:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: guolei-py3-database
+[2024-05-27 11:07:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: autogluon.common
+[2024-05-27 11:07:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: disai-agents
+[2024-05-27 11:07:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: autogluon.core
+[2024-05-27 11:07:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: codemagic-cli-tools
+[2024-05-27 11:07:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: autogluon.features
+[2024-05-27 11:07:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: autogluon.cloud
+[2024-05-27 11:07:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: autogluon.tabular
+[2024-05-27 11:07:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: chancy
+[2024-05-27 11:07:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: autogluon.multimodal
+[2024-05-27 11:07:08] INFO root fetch - processPackages [autogluon.cloud]: New version: [0.4.0b20240526] Old Version: [0.4.0b20240525]
+[2024-05-27 11:07:08] INFO root fetch - processPackages [autogluon.multimodal]: New version: [1.1.1b20240526] Old Version: [1.1.1b20240525]
+[2024-05-27 11:07:08] INFO root fetch - processPackages [autogluon.common]: New version: [1.1.1b20240526] Old Version: [1.1.1b20240525]
+[2024-05-27 11:07:08] INFO root fetch - processPackages [autogluon.features]: New version: [1.1.1b20240526] Old Version: [1.1.1b20240525]
+[2024-05-27 11:07:08] INFO root fetch - processPackages [autogluon.core]: New version: [1.1.1b20240526] Old Version: [1.1.1b20240525]
+[2024-05-27 11:07:08] WARNING root fetch - processPackages [disai-agents]: Skipping, unable to determine old version
+[2024-05-27 11:07:08] INFO root fetch - processPackages [chancy]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-05-27 11:07:08] INFO root fetch - processPackages [disai-agents]: Start processing: storybuilder
+[2024-05-27 11:07:08] INFO root fetch - main [MainThread]: End processing [disai-agents] error
+[2024-05-27 11:07:08] WARNING root fetch - processPackages [guolei-py3-database]: Skipping, unable to determine old version
+[2024-05-27 11:07:08] INFO root fetch - processPackages [guolei-py3-database]: Start processing: autogluon.timeseries
+[2024-05-27 11:07:08] INFO root fetch - main [MainThread]: End processing [guolei-py3-database] error
+[2024-05-27 11:07:08] INFO root fetch - processPackages [autogluon.tabular]: New version: [1.1.1b20240526] Old Version: [1.1.1b20240525]
+[2024-05-27 11:07:08] INFO root fetch - processPackages [codemagic-cli-tools]: New version: [0.9.8] Old Version: [0.9.7]
+[2024-05-27 11:07:08] INFO root fetch - processPackages [storybuilder]: New version: [0.0.9] Old Version: [0.0.39]
+[2024-05-27 11:07:08] INFO root fetch - processPackages [autogluon.multimodal]: Downloading https://files.pythonhosted.org/packages/62/dd/ac80bee6176e1ec0a8ae41391d0b75b2e82027cdd57b00d7bdc4892b5d16/autogluon.multimodal-1.1.1b20240525.tar.gz
+[2024-05-27 11:07:08] INFO root fetch - processPackages [autogluon.cloud]: Downloading https://files.pythonhosted.org/packages/07/fa/e733023adee7d840f09379c162d8c762ed30ce5743bb44ccb464ebd0b3c6/autogluon.cloud-0.4.0b20240525.tar.gz
+[2024-05-27 11:07:08] INFO root fetch - processPackages [autogluon.common]: Downloading https://files.pythonhosted.org/packages/aa/f1/5e620f043b2134328b51fbd81b4c976fb687c384555fa51f6dd93d4496cd/autogluon.common-1.1.1b20240525.tar.gz
+[2024-05-27 11:07:08] INFO root fetch - processPackages [autogluon.timeseries]: New version: [1.1.1b20240526] Old Version: [1.1.1b20240525]
+[2024-05-27 11:07:08] INFO root fetch - processPackages [autogluon.core]: Downloading https://files.pythonhosted.org/packages/48/ea/a7eaff7a330760049733c06e78fef221653747109c8a707acea0e80ae50b/autogluon.core-1.1.1b20240525.tar.gz
+[2024-05-27 11:07:08] INFO root fetch - processPackages [autogluon.features]: Downloading https://files.pythonhosted.org/packages/2a/03/126ef5ab274c13ada35d447cf5044c365d8f8133494825b39271787139cf/autogluon.features-1.1.1b20240525.tar.gz
+[2024-05-27 11:07:08] INFO root fetch - processPackages [autogluon.tabular]: Downloading https://files.pythonhosted.org/packages/cd/00/80059bd3594591f0bb1c21665bac30259511e06a008154ce1814883fb860/autogluon.tabular-1.1.1b20240525.tar.gz
+[2024-05-27 11:07:08] INFO root fetch - processPackages [storybuilder]: Downloading https://files.pythonhosted.org/packages/66/d8/c054a4e006a00255c79a0b2cda2fe7de77073049d73d6e5b8dc8a7467232/storybuilder-0.0.39-py3-none-any.whl
+[2024-05-27 11:07:08] INFO root fetch - processPackages [chancy]: Downloading https://files.pythonhosted.org/packages/44/8f/046c28330eaecc1f40838588135d285e652ea02391ad0936bfb92237e642/chancy-0.1.0.tar.gz
+[2024-05-27 11:07:08] INFO root fetch - processPackages [codemagic-cli-tools]: Downloading https://files.pythonhosted.org/packages/93/49/07ea6719177fe4b6226690fe45cf5b5ff9674ea427bcdb30ed25ded88aa7/codemagic-cli-tools-0.9.7.tar.gz
+[2024-05-27 11:07:08] INFO root fetch - processPackages [autogluon.timeseries]: Downloading https://files.pythonhosted.org/packages/e2/70/b2166800eb4a3b5136eea05b055d9f1e120d2ec97d24514d8099f71ad1c6/autogluon.timeseries-1.1.1b20240525.tar.gz
+[2024-05-27 11:07:08] INFO root fetch - processPackages [storybuilder]: Downloading https://files.pythonhosted.org/packages/12/10/5d96510eab046eea9f159c71332ebb594fc10fcb9e2a1618e641fc06adac/storybuilder-0.0.9-py3-none-any.whl
+[2024-05-27 11:07:08] INFO root fetch - processPackages [autogluon.common]: Downloading https://files.pythonhosted.org/packages/ca/a5/ae79eeacfad44fdeb97272b4e3ede41416103526338f5d3bf7ed19d4a32c/autogluon.common-1.1.1b20240526.tar.gz
+[2024-05-27 11:07:08] INFO root fetch - processPackages [autogluon.features]: Downloading https://files.pythonhosted.org/packages/df/51/c195aba1ecfe4a09a8f19f29ebe9e55bf0d5d9d7dae2b9c12e145033641b/autogluon.features-1.1.1b20240526.tar.gz
+[2024-05-27 11:07:08] INFO root fetch - processPackages [autogluon.core]: Downloading https://files.pythonhosted.org/packages/8d/a7/c3f1be9eae5c325db9e613f07a201532a2cf5232968ca054c44990d96560/autogluon.core-1.1.1b20240526.tar.gz
+[2024-05-27 11:07:08] INFO root fetch - processPackages [autogluon.cloud]: Downloading https://files.pythonhosted.org/packages/0a/ce/e5571d67d6a791dcbf473324566d61ccf39eb54f1ecc809b1d559b76435b/autogluon.cloud-0.4.0b20240526.tar.gz
+[2024-05-27 11:07:08] INFO root fetch - processPackages [autogluon.tabular]: Downloading https://files.pythonhosted.org/packages/b9/82/c0c2f2224b7ba9f118cd83125f1b48ed483a2aec5f0bee44e14baf406d9f/autogluon.tabular-1.1.1b20240526.tar.gz
+[2024-05-27 11:07:08] INFO root fetch - processPackages [autogluon.multimodal]: Downloading https://files.pythonhosted.org/packages/68/77/ad8a089075bff8c17d24379307d2790aa88606ef33a6d0b2c95660304616/autogluon.multimodal-1.1.1b20240526.tar.gz
+[2024-05-27 11:07:08] INFO root fetch - processPackages [chancy]: Downloading https://files.pythonhosted.org/packages/15/9f/f71865e99ac578d061d10a5e11ca70ada4fa5e5f60d9a84f1df7c0435142/chancy-0.2.0.tar.gz
+[2024-05-27 11:07:08] WARNING root fetch - processPackages [codemagic-cli-tools]: Skipping package: exceeds size limit 22148734>=10485760
+[2024-05-27 11:07:08] INFO root fetch - processPackages [codemagic-cli-tools]: Start processing: autogluon
+[2024-05-27 11:07:08] INFO root fetch - main [MainThread]: End processing [codemagic-cli-tools] error
+[2024-05-27 11:07:09] INFO root fetch - processPackages [storybuilder]: executing diffoscope
+[2024-05-27 11:07:09] INFO root fetch - processPackages [storybuilder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/storybuilder-0.0.39-py3-none-any.whl.zip tmp/storybuilder-0.0.9-py3-none-any.whl.zip --markdown 20240527/s/storybuilder/0.0.39-0.0.9/README.md --exclude *.pyd
+[2024-05-27 11:07:09] INFO root fetch - processPackages [autogluon.common]: executing diffoscope
+[2024-05-27 11:07:09] INFO root fetch - processPackages [autogluon.common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.common-1.1.1b20240525.tar.gz tmp/autogluon.common-1.1.1b20240526.tar.gz --markdown 20240527/a/autogluon.common/1.1.1b20240525-1.1.1b20240526/README.md --exclude *.pyd
+[2024-05-27 11:07:09] INFO root fetch - processPackages [autogluon.timeseries]: Downloading https://files.pythonhosted.org/packages/ff/44/e3f0efe4c3c47d77491a887d398e98659115a3c14b8b05d478f68305990b/autogluon.timeseries-1.1.1b20240526.tar.gz
+[2024-05-27 11:07:09] INFO root fetch - processPackages [autogluon.cloud]: executing diffoscope
+[2024-05-27 11:07:09] INFO root fetch - processPackages [autogluon.cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.cloud-0.4.0b20240525.tar.gz tmp/autogluon.cloud-0.4.0b20240526.tar.gz --markdown 20240527/a/autogluon.cloud/0.4.0b20240525-0.4.0b20240526/README.md --exclude *.pyd
+[2024-05-27 11:07:09] INFO root fetch - processPackages [autogluon]: New version: [1.1.1b20240526] Old Version: [1.1.1b20240525]
+[2024-05-27 11:07:09] INFO root fetch - processPackages [autogluon.core]: executing diffoscope
+[2024-05-27 11:07:09] INFO root fetch - processPackages [autogluon.core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.core-1.1.1b20240525.tar.gz tmp/autogluon.core-1.1.1b20240526.tar.gz --markdown 20240527/a/autogluon.core/1.1.1b20240525-1.1.1b20240526/README.md --exclude *.pyd
+[2024-05-27 11:07:09] INFO root fetch - processPackages [chancy]: executing diffoscope
+[2024-05-27 11:07:09] INFO root fetch - processPackages [chancy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chancy-0.1.0.tar.gz tmp/chancy-0.2.0.tar.gz --markdown 20240527/c/chancy/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-05-27 11:07:09] INFO root fetch - processPackages [autogluon.tabular]: executing diffoscope
+[2024-05-27 11:07:09] INFO root fetch - processPackages [autogluon.tabular]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.tabular-1.1.1b20240525.tar.gz tmp/autogluon.tabular-1.1.1b20240526.tar.gz --markdown 20240527/a/autogluon.tabular/1.1.1b20240525-1.1.1b20240526/README.md --exclude *.pyd
+[2024-05-27 11:07:09] INFO root fetch - processPackages [autogluon.features]: executing diffoscope
+[2024-05-27 11:07:09] INFO root fetch - processPackages [autogluon.features]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.features-1.1.1b20240525.tar.gz tmp/autogluon.features-1.1.1b20240526.tar.gz --markdown 20240527/a/autogluon.features/1.1.1b20240525-1.1.1b20240526/README.md --exclude *.pyd
+[2024-05-27 11:07:09] INFO root fetch - processPackages [autogluon.multimodal]: executing diffoscope
+[2024-05-27 11:07:09] INFO root fetch - processPackages [autogluon.multimodal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.multimodal-1.1.1b20240525.tar.gz tmp/autogluon.multimodal-1.1.1b20240526.tar.gz --markdown 20240527/a/autogluon.multimodal/1.1.1b20240525-1.1.1b20240526/README.md --exclude *.pyd
+[2024-05-27 11:07:09] INFO root fetch - processPackages [autogluon]: Downloading https://files.pythonhosted.org/packages/c1/fa/90b10dd6a0903f46e62534871cc110ff1efc5c94ff06aedca63495a73ab0/autogluon-1.1.1b20240525.tar.gz
+[2024-05-27 11:07:09] INFO root fetch - processPackages [autogluon.timeseries]: executing diffoscope
+[2024-05-27 11:07:09] INFO root fetch - processPackages [autogluon.timeseries]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.timeseries-1.1.1b20240525.tar.gz tmp/autogluon.timeseries-1.1.1b20240526.tar.gz --markdown 20240527/a/autogluon.timeseries/1.1.1b20240525-1.1.1b20240526/README.md --exclude *.pyd
+[2024-05-27 11:07:09] INFO root fetch - processPackages [autogluon]: Downloading https://files.pythonhosted.org/packages/38/0e/0e8012e069f0cb818356163fda91f9bfffea6134fffb7bc24131ce63bcf8/autogluon-1.1.1b20240526.tar.gz
+[2024-05-27 11:07:09] INFO root fetch - processPackages [autogluon]: executing diffoscope
+[2024-05-27 11:07:09] INFO root fetch - processPackages [autogluon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon-1.1.1b20240525.tar.gz tmp/autogluon-1.1.1b20240526.tar.gz --markdown 20240527/a/autogluon/1.1.1b20240525-1.1.1b20240526/README.md --exclude *.pyd
+[2024-05-27 11:07:10] INFO root fetch - processPackages [autogluon.common]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.common-1.1.1b20240525.tar.gz]
+[2024-05-27 11:07:10] INFO root fetch - processPackages [autogluon.common]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.common-1.1.1b20240526.tar.gz]
+[2024-05-27 11:07:10] INFO root fetch - processPackages [autogluon.common]: Start processing: django-customvueadmin
+[2024-05-27 11:07:10] INFO root fetch - main [MainThread]: End processing [autogluon.common]: success
+[2024-05-27 11:07:10] INFO root fetch - processPackages [chancy]: Remove: archive file [/home/abi/fetcher/tmp/chancy-0.1.0.tar.gz]
+[2024-05-27 11:07:10] INFO root fetch - processPackages [chancy]: Remove: archive file [/home/abi/fetcher/tmp/chancy-0.2.0.tar.gz]
+[2024-05-27 11:07:10] INFO root fetch - processPackages [chancy]: Start processing: mia-vgg
+[2024-05-27 11:07:10] INFO root fetch - processPackages [storybuilder]: Remove: archive file [/home/abi/fetcher/tmp/storybuilder-0.0.39-py3-none-any.whl.zip]
+[2024-05-27 11:07:10] INFO root fetch - main [MainThread]: End processing [chancy]: success
+[2024-05-27 11:07:10] INFO root fetch - processPackages [storybuilder]: Remove: archive file [/home/abi/fetcher/tmp/storybuilder-0.0.9-py3-none-any.whl.zip]
+[2024-05-27 11:07:10] INFO root fetch - processPackages [storybuilder]: Start processing: Heimdallr
+[2024-05-27 11:07:10] INFO root fetch - main [MainThread]: End processing [storybuilder]: success
+[2024-05-27 11:07:10] INFO root fetch - processPackages [django-customvueadmin]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-27 11:07:10] INFO root fetch - processPackages [mia-vgg]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-27 11:07:10] INFO root fetch - processPackages [autogluon.cloud]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.cloud-0.4.0b20240525.tar.gz]
+[2024-05-27 11:07:10] INFO root fetch - processPackages [autogluon.cloud]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.cloud-0.4.0b20240526.tar.gz]
+[2024-05-27 11:07:10] INFO root fetch - processPackages [autogluon.cloud]: Start processing: adapta
+[2024-05-27 11:07:10] INFO root fetch - main [MainThread]: End processing [autogluon.cloud]: success
+[2024-05-27 11:07:10] INFO root fetch - processPackages [django-customvueadmin]: Downloading https://files.pythonhosted.org/packages/58/c7/0f2eb36cf9302772b1a173aa99b6af996f1d0325398a3855d20e2c83b2b0/django_customvueadmin-0.2.0.tar.gz
+[2024-05-27 11:07:10] INFO root fetch - processPackages [autogluon.features]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.features-1.1.1b20240525.tar.gz]
+[2024-05-27 11:07:10] INFO root fetch - processPackages [autogluon.features]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.features-1.1.1b20240526.tar.gz]
+[2024-05-27 11:07:10] INFO root fetch - processPackages [autogluon.features]: Start processing: scrapy-selenium-addon
+[2024-05-27 11:07:10] INFO root fetch - main [MainThread]: End processing [autogluon.features]: success
+[2024-05-27 11:07:10] INFO root fetch - processPackages [autogluon.core]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.core-1.1.1b20240525.tar.gz]
+[2024-05-27 11:07:10] INFO root fetch - processPackages [autogluon.core]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.core-1.1.1b20240526.tar.gz]
+[2024-05-27 11:07:10] INFO root fetch - processPackages [autogluon.core]: Start processing: nonebot-plugin-sanyao
+[2024-05-27 11:07:10] INFO root fetch - main [MainThread]: End processing [autogluon.core]: success
+[2024-05-27 11:07:10] INFO root fetch - processPackages [mia-vgg]: Downloading https://files.pythonhosted.org/packages/69/b3/e9653b0952bcfd51a50d92a0c2f21910c7331a584b82d93616be35ba8de6/mia_vgg-0.0.7.tar.gz
+[2024-05-27 11:07:10] INFO root fetch - processPackages [Heimdallr]: New version: [0.2.8] Old Version: [0.2.7]
+[2024-05-27 11:07:10] INFO root fetch - processPackages [adapta]: New version: [2.9.2] Old Version: [2.9.1]
+[2024-05-27 11:07:10] INFO root fetch - processPackages [nonebot-plugin-sanyao]: New version: [0.2.7] Old Version: [0.2.6]
+[2024-05-27 11:07:10] INFO root fetch - processPackages [autogluon.tabular]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.tabular-1.1.1b20240525.tar.gz]
+[2024-05-27 11:07:10] INFO root fetch - processPackages [autogluon.tabular]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.tabular-1.1.1b20240526.tar.gz]
+[2024-05-27 11:07:10] INFO root fetch - processPackages [autogluon.tabular]: Start processing: ophyd-devices
+[2024-05-27 11:07:10] INFO root fetch - main [MainThread]: End processing [autogluon.tabular]: success
+[2024-05-27 11:07:10] INFO root fetch - processPackages [autogluon.timeseries]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.timeseries-1.1.1b20240525.tar.gz]
+[2024-05-27 11:07:10] INFO root fetch - processPackages [autogluon.timeseries]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.timeseries-1.1.1b20240526.tar.gz]
+[2024-05-27 11:07:10] INFO root fetch - main [MainThread]: End processing [autogluon.timeseries]: success
+[2024-05-27 11:07:10] WARNING root fetch - processPackages [scrapy-selenium-addon]: Skipping, unable to determine old version
+[2024-05-27 11:07:10] INFO root fetch - main [MainThread]: End processing [scrapy-selenium-addon] error
+[2024-05-27 11:07:10] INFO root fetch - processPackages [nonebot-plugin-sanyao]: Downloading https://files.pythonhosted.org/packages/7d/c9/1fa7bfd40bb8941ff7062961d9dbc879102270b20c2de4129e6d885dd1ec/nonebot_plugin_sanyao-0.2.6.tar.gz
+[2024-05-27 11:07:10] INFO root fetch - processPackages [autogluon]: Remove: archive file [/home/abi/fetcher/tmp/autogluon-1.1.1b20240525.tar.gz]
+[2024-05-27 11:07:10] INFO root fetch - processPackages [autogluon]: Remove: archive file [/home/abi/fetcher/tmp/autogluon-1.1.1b20240526.tar.gz]
+[2024-05-27 11:07:10] INFO root fetch - main [MainThread]: End processing [autogluon]: success
+[2024-05-27 11:07:10] INFO root fetch - processPackages [Heimdallr]: Downloading https://files.pythonhosted.org/packages/b0/03/c09094928919a961c908d8035c26cbf471b13eab47145a274c00ccdf5d72/Heimdallr-0.2.7.tar.gz
+[2024-05-27 11:07:10] INFO root fetch - processPackages [mia-vgg]: Downloading https://files.pythonhosted.org/packages/7d/99/89bc26b6fc0c4be64ccf67e364ca9e0df91458fd29d11e2358855b46e97d/mia_vgg-0.0.8.tar.gz
+[2024-05-27 11:07:10] INFO root fetch - processPackages [autogluon.multimodal]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.multimodal-1.1.1b20240525.tar.gz]
+[2024-05-27 11:07:10] INFO root fetch - processPackages [autogluon.multimodal]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.multimodal-1.1.1b20240526.tar.gz]
+[2024-05-27 11:07:10] INFO root fetch - main [MainThread]: End processing [autogluon.multimodal]: success
+[2024-05-27 11:07:10] INFO root fetch - processPackages [ophyd-devices]: New version: [1.1.0] Old Version: [1.0.2]
+[2024-05-27 11:07:10] INFO root fetch - processPackages [adapta]: Downloading https://files.pythonhosted.org/packages/35/33/1302d42b2f30e2a721e649391c266b8d25fef79e334f145fe1f59175016a/adapta-2.9.1.tar.gz
+[2024-05-27 11:07:10] INFO root fetch - processPackages [mia-vgg]: executing diffoscope
+[2024-05-27 11:07:10] INFO root fetch - processPackages [mia-vgg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mia_vgg-0.0.7.tar.gz tmp/mia_vgg-0.0.8.tar.gz --markdown 20240527/m/mia-vgg/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-27 11:07:10] INFO root fetch - processPackages [nonebot-plugin-sanyao]: Downloading https://files.pythonhosted.org/packages/13/fe/cd55c873cf70125b22b0b8d966561f37b54b246decc86bfe2126ecb55893/nonebot_plugin_sanyao-0.2.7.tar.gz
+[2024-05-27 11:07:10] INFO root fetch - processPackages [django-customvueadmin]: Downloading https://files.pythonhosted.org/packages/8f/a8/97d6391e8e96b8a0b9cfe2bbb8f2b599271637aa50982d50a03980c52940/django_customvueadmin-0.2.1.tar.gz
+[2024-05-27 11:07:10] INFO root fetch - processPackages [nonebot-plugin-sanyao]: executing diffoscope
+[2024-05-27 11:07:10] INFO root fetch - processPackages [nonebot-plugin-sanyao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_sanyao-0.2.6.tar.gz tmp/nonebot_plugin_sanyao-0.2.7.tar.gz --markdown 20240527/n/nonebot-plugin-sanyao/0.2.6-0.2.7/README.md --exclude *.pyd
+[2024-05-27 11:07:10] INFO root fetch - processPackages [ophyd-devices]: Downloading https://files.pythonhosted.org/packages/d6/38/dcb9e907d116ce7c88b39814ce643c5d4eda6fa2ee96cac5a4a9edafb3ae/ophyd_devices-1.0.2.tar.gz
+[2024-05-27 11:07:10] INFO root fetch - processPackages [Heimdallr]: Downloading https://files.pythonhosted.org/packages/eb/3e/1c6df3e2c944353923893e54c1bce189b0819d18aed28a50340e4ffc88e4/heimdallr-0.2.8.tar.gz
+[2024-05-27 11:07:11] INFO root fetch - processPackages [adapta]: Downloading https://files.pythonhosted.org/packages/38/7b/c2e190b90d739aea14559d55ef402f1648abe251bc5e5eb13948fba8b345/adapta-2.9.2.tar.gz
+[2024-05-27 11:07:11] INFO root fetch - processPackages [django-customvueadmin]: executing diffoscope
+[2024-05-27 11:07:11] INFO root fetch - processPackages [django-customvueadmin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_customvueadmin-0.2.0.tar.gz tmp/django_customvueadmin-0.2.1.tar.gz --markdown 20240527/d/django-customvueadmin/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-27 11:07:11] INFO root fetch - processPackages [Heimdallr]: executing diffoscope
+[2024-05-27 11:07:11] INFO root fetch - processPackages [Heimdallr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Heimdallr-0.2.7.tar.gz tmp/heimdallr-0.2.8.tar.gz --markdown 20240527/H/Heimdallr/0.2.7-0.2.8/README.md --exclude *.pyd
+[2024-05-27 11:07:11] INFO root fetch - processPackages [adapta]: executing diffoscope
+[2024-05-27 11:07:11] INFO root fetch - processPackages [adapta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adapta-2.9.1.tar.gz tmp/adapta-2.9.2.tar.gz --markdown 20240527/a/adapta/2.9.1-2.9.2/README.md --exclude *.pyd
+[2024-05-27 11:07:11] INFO root fetch - processPackages [mia-vgg]: Remove: archive file [/home/abi/fetcher/tmp/mia_vgg-0.0.7.tar.gz]
+[2024-05-27 11:07:11] INFO root fetch - processPackages [mia-vgg]: Remove: archive file [/home/abi/fetcher/tmp/mia_vgg-0.0.8.tar.gz]
+[2024-05-27 11:07:11] INFO root fetch - main [MainThread]: End processing [mia-vgg]: success
+[2024-05-27 11:07:11] INFO root fetch - processPackages [nonebot-plugin-sanyao]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_sanyao-0.2.6.tar.gz]
+[2024-05-27 11:07:11] INFO root fetch - processPackages [nonebot-plugin-sanyao]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_sanyao-0.2.7.tar.gz]
+[2024-05-27 11:07:11] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-sanyao]: success
+[2024-05-27 11:07:11] INFO root fetch - processPackages [ophyd-devices]: Downloading https://files.pythonhosted.org/packages/14/b6/a1e72623e0c03c93f379f7bd391ec5c0cb193afbd4e623ef2c9effa1b704/ophyd_devices-1.1.0.tar.gz
+[2024-05-27 11:07:11] INFO root fetch - processPackages [Heimdallr]: Remove: archive file [/home/abi/fetcher/tmp/Heimdallr-0.2.7.tar.gz]
+[2024-05-27 11:07:11] INFO root fetch - processPackages [Heimdallr]: Remove: archive file [/home/abi/fetcher/tmp/heimdallr-0.2.8.tar.gz]
+[2024-05-27 11:07:11] INFO root fetch - main [MainThread]: End processing [Heimdallr]: success
+[2024-05-27 11:07:12] INFO root fetch - processPackages [adapta]: Remove: archive file [/home/abi/fetcher/tmp/adapta-2.9.1.tar.gz]
+[2024-05-27 11:07:12] INFO root fetch - processPackages [adapta]: Remove: archive file [/home/abi/fetcher/tmp/adapta-2.9.2.tar.gz]
+[2024-05-27 11:07:12] INFO root fetch - main [MainThread]: End processing [adapta]: success
+[2024-05-27 11:07:12] INFO root fetch - processPackages [django-customvueadmin]: Remove: archive file [/home/abi/fetcher/tmp/django_customvueadmin-0.2.0.tar.gz]
+[2024-05-27 11:07:12] INFO root fetch - processPackages [django-customvueadmin]: Remove: archive file [/home/abi/fetcher/tmp/django_customvueadmin-0.2.1.tar.gz]
+[2024-05-27 11:07:12] INFO root fetch - main [MainThread]: End processing [django-customvueadmin]: success
+[2024-05-27 11:07:13] INFO root fetch - processPackages [ophyd-devices]: executing diffoscope
+[2024-05-27 11:07:13] INFO root fetch - processPackages [ophyd-devices]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ophyd_devices-1.0.2.tar.gz tmp/ophyd_devices-1.1.0.tar.gz --markdown 20240527/o/ophyd-devices/1.0.2-1.1.0/README.md --exclude *.pyd
+[2024-05-27 11:07:15] INFO root fetch - processPackages [ophyd-devices]: Remove: archive file [/home/abi/fetcher/tmp/ophyd_devices-1.0.2.tar.gz]
+[2024-05-27 11:07:15] INFO root fetch - processPackages [ophyd-devices]: Remove: archive file [/home/abi/fetcher/tmp/ophyd_devices-1.1.0.tar.gz]
+[2024-05-27 11:07:15] INFO root fetch - main [MainThread]: End processing [ophyd-devices]: success
+[2024-05-27 11:07:15] INFO root fetch - main [MainThread]: Store serial: [23392996]
