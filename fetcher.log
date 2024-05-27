@@ -5828,3 +5828,24 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 07:01:51] INFO root fetch - processPackages [ast-grep-py]: Remove: archive file [/home/abi/fetcher/tmp/ast_grep_py-0.22.4-cp311-cp311-macosx_10_12_x86_64.whl.zip]
 [2024-05-27 07:01:51] INFO root fetch - main [MainThread]: End processing [ast-grep-py]: success
 [2024-05-27 07:01:51] INFO root fetch - main [MainThread]: Store serial: [23390720]
+[2024-05-27 07:03:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23390720]
+[2024-05-27 07:04:00] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-27 07:04:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bosonic
+[2024-05-27 07:04:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rxd
+[2024-05-27 07:04:00] INFO root fetch - processPackages [rxd]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-27 07:04:00] INFO root fetch - processPackages [rxd]: Downloading https://files.pythonhosted.org/packages/21/c2/38cf8db50595c42a9258c3370b82b7757ed2485638d9d5e7cc8aa2b6ea9d/rxd-0.0.8.tar.gz
+[2024-05-27 07:04:00] INFO root fetch - processPackages [bosonic]: New version: [0.1.1] Old Version: [0.0.0]
+[2024-05-27 07:04:00] INFO root fetch - processPackages [bosonic]: Downloading https://files.pythonhosted.org/packages/31/5c/1b89fa9b9126bda4bc0642ca3608600acee02358fa5d31498a4e1460d2ca/bosonic-0.0.0.tar.gz
+[2024-05-27 07:04:00] INFO root fetch - processPackages [rxd]: Downloading https://files.pythonhosted.org/packages/5c/98/033a1b896a5c65fec77f8aa2c7d37aaa0f4d23fe3d4b5cae4731f73ad27e/rxd-0.0.9.tar.gz
+[2024-05-27 07:04:00] INFO root fetch - processPackages [rxd]: executing diffoscope
+[2024-05-27 07:04:00] INFO root fetch - processPackages [rxd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rxd-0.0.8.tar.gz tmp/rxd-0.0.9.tar.gz --markdown 20240527/r/rxd/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-27 07:04:00] INFO root fetch - processPackages [bosonic]: Downloading https://files.pythonhosted.org/packages/69/17/a570c8f9f44c77f0ac71b5052ab3f123c784a216dc1703c05c54a545d2d8/bosonic-0.1.1.tar.gz
+[2024-05-27 07:04:01] INFO root fetch - processPackages [bosonic]: executing diffoscope
+[2024-05-27 07:04:01] INFO root fetch - processPackages [bosonic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bosonic-0.0.0.tar.gz tmp/bosonic-0.1.1.tar.gz --markdown 20240527/b/bosonic/0.0.0-0.1.1/README.md --exclude *.pyd
+[2024-05-27 07:04:01] INFO root fetch - processPackages [rxd]: Remove: archive file [/home/abi/fetcher/tmp/rxd-0.0.8.tar.gz]
+[2024-05-27 07:04:01] INFO root fetch - processPackages [rxd]: Remove: archive file [/home/abi/fetcher/tmp/rxd-0.0.9.tar.gz]
+[2024-05-27 07:04:01] INFO root fetch - main [MainThread]: End processing [rxd]: success
+[2024-05-27 07:04:01] INFO root fetch - processPackages [bosonic]: Remove: archive file [/home/abi/fetcher/tmp/bosonic-0.0.0.tar.gz]
+[2024-05-27 07:04:01] INFO root fetch - processPackages [bosonic]: Remove: archive file [/home/abi/fetcher/tmp/bosonic-0.1.1.tar.gz]
+[2024-05-27 07:04:01] INFO root fetch - main [MainThread]: End processing [bosonic]: success
+[2024-05-27 07:04:01] INFO root fetch - main [MainThread]: Store serial: [23390755]
