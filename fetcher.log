@@ -4951,3 +4951,24 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 05:57:21] INFO root fetch - processPackages [project-utils-config]: Remove: archive file [/home/abi/fetcher/tmp/project-utils-config-1.1.2.tar.gz]
 [2024-05-27 05:57:21] INFO root fetch - main [MainThread]: End processing [project-utils-config]: success
 [2024-05-27 05:57:21] INFO root fetch - main [MainThread]: Store serial: [23390401]
+[2024-05-27 05:59:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23390401]
+[2024-05-27 05:59:29] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-27 05:59:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gammarers.aws-secure-vpc-bucket
+[2024-05-27 05:59:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: timetrace
+[2024-05-27 05:59:29] INFO root fetch - processPackages [timetrace]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-05-27 05:59:29] INFO root fetch - processPackages [gammarers.aws-secure-vpc-bucket]: New version: [1.3.5] Old Version: [1.3.4]
+[2024-05-27 05:59:29] INFO root fetch - processPackages [gammarers.aws-secure-vpc-bucket]: Downloading https://files.pythonhosted.org/packages/7b/71/85618bbed5d600f689cff4b3b9d989f255c6bc8e922433f71d368532e4bd/gammarers.aws-secure-vpc-bucket-1.3.4.tar.gz
+[2024-05-27 05:59:29] INFO root fetch - processPackages [timetrace]: Downloading https://files.pythonhosted.org/packages/c4/40/7eec83afa46fa5968080f58c3cd35b0fb80831af10ee575cb8dffe9d6f00/timetrace-0.1.0-py3-none-any.whl
+[2024-05-27 05:59:29] INFO root fetch - processPackages [gammarers.aws-secure-vpc-bucket]: Downloading https://files.pythonhosted.org/packages/09/f1/bf2fa531f18aa2e4e9b67e8eea38c277967c367a8dc396a888ce7bdfc542/gammarers.aws-secure-vpc-bucket-1.3.5.tar.gz
+[2024-05-27 05:59:29] INFO root fetch - processPackages [gammarers.aws-secure-vpc-bucket]: executing diffoscope
+[2024-05-27 05:59:29] INFO root fetch - processPackages [gammarers.aws-secure-vpc-bucket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gammarers.aws-secure-vpc-bucket-1.3.4.tar.gz tmp/gammarers.aws-secure-vpc-bucket-1.3.5.tar.gz --markdown 20240527/g/gammarers.aws-secure-vpc-bucket/1.3.4-1.3.5/README.md --exclude *.pyd
+[2024-05-27 05:59:29] INFO root fetch - processPackages [timetrace]: Downloading https://files.pythonhosted.org/packages/0a/3b/585507f16c9654a7d4f70a85e5328d21039caa9138081b2eda031be211c8/timetrace-0.2.0.tar.gz
+[2024-05-27 05:59:30] INFO root fetch - processPackages [timetrace]: executing diffoscope
+[2024-05-27 05:59:30] INFO root fetch - processPackages [timetrace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/timetrace-0.1.0-py3-none-any.whl.zip tmp/timetrace-0.2.0.tar.gz --markdown 20240527/t/timetrace/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-05-27 05:59:30] INFO root fetch - processPackages [timetrace]: Remove: archive file [/home/abi/fetcher/tmp/timetrace-0.1.0-py3-none-any.whl.zip]
+[2024-05-27 05:59:30] INFO root fetch - processPackages [timetrace]: Remove: archive file [/home/abi/fetcher/tmp/timetrace-0.2.0.tar.gz]
+[2024-05-27 05:59:30] INFO root fetch - main [MainThread]: End processing [timetrace]: success
+[2024-05-27 05:59:30] INFO root fetch - processPackages [gammarers.aws-secure-vpc-bucket]: Remove: archive file [/home/abi/fetcher/tmp/gammarers.aws-secure-vpc-bucket-1.3.4.tar.gz]
+[2024-05-27 05:59:30] INFO root fetch - processPackages [gammarers.aws-secure-vpc-bucket]: Remove: archive file [/home/abi/fetcher/tmp/gammarers.aws-secure-vpc-bucket-1.3.5.tar.gz]
+[2024-05-27 05:59:30] INFO root fetch - main [MainThread]: End processing [gammarers.aws-secure-vpc-bucket]: success
+[2024-05-27 05:59:30] INFO root fetch - main [MainThread]: Store serial: [23390407]
