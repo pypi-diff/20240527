@@ -6169,3 +6169,45 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 07:23:50] INFO root fetch - processPackages [aa-forum]: Remove: archive file [/home/abi/fetcher/tmp/aa_forum-2.3.0.tar.gz]
 [2024-05-27 07:23:50] INFO root fetch - main [MainThread]: End processing [aa-forum]: success
 [2024-05-27 07:23:50] INFO root fetch - main [MainThread]: Store serial: [23390872]
+[2024-05-27 07:25:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23390872]
+[2024-05-27 07:25:59] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-27 07:25:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: imfacesnap
+[2024-05-27 07:25:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: common-test-ceair
+[2024-05-27 07:25:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wellbeing-calculator
+[2024-05-27 07:25:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: DESimpy
+[2024-05-27 07:25:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: color-change-filter
+[2024-05-27 07:25:59] INFO root fetch - processPackages [color-change-filter]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-05-27 07:25:59] INFO root fetch - processPackages [wellbeing-calculator]: New version: [0.4] Old Version: [0.3]
+[2024-05-27 07:25:59] INFO root fetch - processPackages [wellbeing-calculator]: Downloading https://files.pythonhosted.org/packages/31/5e/c40fc53231979f655beb23d56bf25a30ffb0fcafd00032a4f34dd98d401b/wellbeing_calculator-0.3.tar.gz
+[2024-05-27 07:25:59] INFO root fetch - processPackages [color-change-filter]: Downloading https://files.pythonhosted.org/packages/1a/72/ce4075f2abd266de6545c6317a7f931301504f346b1e2319b58821521438/color_change_filter-1.1.1.tar.gz
+[2024-05-27 07:25:59] INFO root fetch - processPackages [DESimpy]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-27 07:25:59] WARNING root fetch - processPackages [common-test-ceair]: Skipping, unable to determine old version
+[2024-05-27 07:25:59] INFO root fetch - main [MainThread]: End processing [common-test-ceair] error
+[2024-05-27 07:25:59] INFO root fetch - processPackages [imfacesnap]: New version: [0.0.0.4] Old Version: [0.0.0.3]
+[2024-05-27 07:25:59] INFO root fetch - processPackages [DESimpy]: Downloading https://files.pythonhosted.org/packages/30/e5/cb3f6d13ec4ffd0335a1f5c6d855a926faf40f818aab1857b35483a844b8/desimpy-0.0.4.tar.gz
+[2024-05-27 07:25:59] INFO root fetch - processPackages [imfacesnap]: Downloading https://files.pythonhosted.org/packages/72/ea/e100ff527a71473eaa177190fcbdd980421e84f6780f3015a17f1b39a074/imfacesnap-0.0.0.3.tar.gz
+[2024-05-27 07:25:59] INFO root fetch - processPackages [color-change-filter]: Downloading https://files.pythonhosted.org/packages/f0/fa/93861940f09b35956fadcd73af6e190b597b08d8d1c315ad07093c528f32/color_change_filter-1.1.2.tar.gz
+[2024-05-27 07:25:59] INFO root fetch - processPackages [wellbeing-calculator]: Downloading https://files.pythonhosted.org/packages/a2/46/3107d7fd58eb767e4cc132946a73bb0e9ad7c2e96d8e020c7abd3e73188b/wellbeing_calculator-0.4.tar.gz
+[2024-05-27 07:25:59] INFO root fetch - processPackages [color-change-filter]: executing diffoscope
+[2024-05-27 07:25:59] INFO root fetch - processPackages [color-change-filter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/color_change_filter-1.1.1.tar.gz tmp/color_change_filter-1.1.2.tar.gz --markdown 20240527/c/color-change-filter/1.1.1-1.1.2/README.md --exclude *.pyd
+[2024-05-27 07:25:59] INFO root fetch - processPackages [wellbeing-calculator]: executing diffoscope
+[2024-05-27 07:25:59] INFO root fetch - processPackages [wellbeing-calculator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wellbeing_calculator-0.3.tar.gz tmp/wellbeing_calculator-0.4.tar.gz --markdown 20240527/w/wellbeing-calculator/0.3-0.4/README.md --exclude *.pyd
+[2024-05-27 07:26:00] INFO root fetch - processPackages [imfacesnap]: Downloading https://files.pythonhosted.org/packages/f9/42/8b681b40904f38a41a58cd1d8c314d042c8c5f6f76eaf24c82a080a9c123/imfacesnap-0.0.0.4.tar.gz
+[2024-05-27 07:26:00] INFO root fetch - processPackages [DESimpy]: Downloading https://files.pythonhosted.org/packages/cd/d4/fe1707ab78fd81b356ff6e0397aa090d3f717d9e11a712261ebdd6108328/desimpy-0.0.5.tar.gz
+[2024-05-27 07:26:00] INFO root fetch - processPackages [imfacesnap]: executing diffoscope
+[2024-05-27 07:26:00] INFO root fetch - processPackages [imfacesnap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imfacesnap-0.0.0.3.tar.gz tmp/imfacesnap-0.0.0.4.tar.gz --markdown 20240527/i/imfacesnap/0.0.0.3-0.0.0.4/README.md --exclude *.pyd
+[2024-05-27 07:26:00] INFO root fetch - processPackages [DESimpy]: executing diffoscope
+[2024-05-27 07:26:00] INFO root fetch - processPackages [DESimpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/desimpy-0.0.4.tar.gz tmp/desimpy-0.0.5.tar.gz --markdown 20240527/D/DESimpy/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-27 07:26:00] INFO root fetch - processPackages [color-change-filter]: Remove: archive file [/home/abi/fetcher/tmp/color_change_filter-1.1.1.tar.gz]
+[2024-05-27 07:26:00] INFO root fetch - processPackages [color-change-filter]: Remove: archive file [/home/abi/fetcher/tmp/color_change_filter-1.1.2.tar.gz]
+[2024-05-27 07:26:00] INFO root fetch - main [MainThread]: End processing [color-change-filter]: success
+[2024-05-27 07:26:00] INFO root fetch - processPackages [wellbeing-calculator]: Remove: archive file [/home/abi/fetcher/tmp/wellbeing_calculator-0.3.tar.gz]
+[2024-05-27 07:26:00] INFO root fetch - processPackages [wellbeing-calculator]: Remove: archive file [/home/abi/fetcher/tmp/wellbeing_calculator-0.4.tar.gz]
+[2024-05-27 07:26:00] INFO root fetch - main [MainThread]: End processing [wellbeing-calculator]: success
+[2024-05-27 07:26:00] INFO root fetch - processPackages [DESimpy]: Remove: archive file [/home/abi/fetcher/tmp/desimpy-0.0.4.tar.gz]
+[2024-05-27 07:26:00] INFO root fetch - processPackages [DESimpy]: Remove: archive file [/home/abi/fetcher/tmp/desimpy-0.0.5.tar.gz]
+[2024-05-27 07:26:00] INFO root fetch - main [MainThread]: End processing [DESimpy]: success
+[2024-05-27 07:26:00] INFO root fetch - processPackages [imfacesnap]: Remove: archive file [/home/abi/fetcher/tmp/imfacesnap-0.0.0.3.tar.gz]
+[2024-05-27 07:26:00] INFO root fetch - processPackages [imfacesnap]: Remove: archive file [/home/abi/fetcher/tmp/imfacesnap-0.0.0.4.tar.gz]
+[2024-05-27 07:26:00] INFO root fetch - main [MainThread]: End processing [imfacesnap]: success
+[2024-05-27 07:26:00] INFO root fetch - main [MainThread]: Store serial: [23390888]
