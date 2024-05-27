@@ -24363,3 +24363,60 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-05-27 20:18:28] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-enterprise-iac-0.0.99.tar.gz]
 [2024-05-27 20:18:28] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-enterprise-iac]: success
 [2024-05-27 20:18:28] INFO root fetch - main [MainThread]: Store serial: [23399722]
+[2024-05-27 20:20:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23399722]
+[2024-05-27 20:20:39] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-27 20:20:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: RadeonMaster
+[2024-05-27 20:20:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: special-octo-robot
+[2024-05-27 20:20:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: promptic
+[2024-05-27 20:20:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: discordreactive
+[2024-05-27 20:20:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: django-editor-ymaps
+[2024-05-27 20:20:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hnt-sap-gui-library
+[2024-05-27 20:20:40] INFO root fetch - processPackages [hnt-sap-gui-library]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-27 20:20:40] INFO root fetch - processPackages [discordreactive]: New version: [0.6] Old Version: [0.5]
+[2024-05-27 20:20:40] INFO root fetch - processPackages [promptic]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-27 20:20:40] INFO root fetch - processPackages [django-editor-ymaps]: New version: [2.3.9] Old Version: [2.3.8]
+[2024-05-27 20:20:40] INFO root fetch - processPackages [special-octo-robot]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-27 20:20:40] INFO root fetch - processPackages [hnt-sap-gui-library]: Downloading https://files.pythonhosted.org/packages/f1/96/ea209b94dc1936505f80eb77ad4daf5d4e3c0c324256748a20b13d657b82/hnt_sap_gui_library-0.0.8.tar.gz
+[2024-05-27 20:20:40] INFO root fetch - processPackages [RadeonMaster]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-27 20:20:40] INFO root fetch - processPackages [discordreactive]: Downloading https://files.pythonhosted.org/packages/f5/67/db0def4b950d5701b33f7e57ffb1c16a7e6fd70091631ce2977134b4de0d/discordreactive-0.5.tar.gz
+[2024-05-27 20:20:40] INFO root fetch - processPackages [promptic]: Downloading https://files.pythonhosted.org/packages/e3/c2/f344b26dc399901803b187ab3d0251d95070627270f37ead1c936f451375/promptic-0.1.8.tar.gz
+[2024-05-27 20:20:40] INFO root fetch - processPackages [django-editor-ymaps]: Downloading https://files.pythonhosted.org/packages/22/48/7687f7fea967edc60be0b8bb25005558a2cec8bedb6b5ac4ee2a5d05c229/django-editor-ymaps-2.3.8.tar.gz
+[2024-05-27 20:20:40] INFO root fetch - processPackages [special-octo-robot]: Downloading https://files.pythonhosted.org/packages/b6/38/8d7688260777c590eeaf06a0ead2e1b8cb6354e22c2852c6d771b90c810e/special-octo-robot-0.0.8.tar.gz
+[2024-05-27 20:20:40] INFO root fetch - processPackages [RadeonMaster]: Downloading https://files.pythonhosted.org/packages/e2/e7/67803f57d0165c468c8aab613cdd155d31bf95e3ff492632c7316e8eb09d/RadeonMaster-0.1.0.tar.gz
+[2024-05-27 20:20:40] INFO root fetch - processPackages [hnt-sap-gui-library]: Downloading https://files.pythonhosted.org/packages/b4/09/37ee44f483f91eb969849cc3a42a1d99a151bac148504be6d453b8fddb4f/hnt_sap_gui_library-0.0.9.tar.gz
+[2024-05-27 20:20:40] INFO root fetch - processPackages [promptic]: Downloading https://files.pythonhosted.org/packages/32/d7/6626f97afad8f6b8bc9230077918171bbbac65c53d593cda75eca1c2f425/promptic-0.1.9.tar.gz
+[2024-05-27 20:20:40] INFO root fetch - processPackages [hnt-sap-gui-library]: executing diffoscope
+[2024-05-27 20:20:40] INFO root fetch - processPackages [hnt-sap-gui-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hnt_sap_gui_library-0.0.8.tar.gz tmp/hnt_sap_gui_library-0.0.9.tar.gz --markdown 20240527/h/hnt-sap-gui-library/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-27 20:20:40] INFO root fetch - processPackages [discordreactive]: Downloading https://files.pythonhosted.org/packages/bb/bc/e3fc91c71af69375834b6fa53e8bb249aaabb04c2fd25eb39dbcb70ccfe0/discordreactive-0.6.tar.gz
+[2024-05-27 20:20:40] INFO root fetch - processPackages [promptic]: executing diffoscope
+[2024-05-27 20:20:40] INFO root fetch - processPackages [promptic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/promptic-0.1.8.tar.gz tmp/promptic-0.1.9.tar.gz --markdown 20240527/p/promptic/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-27 20:20:40] INFO root fetch - processPackages [special-octo-robot]: Downloading https://files.pythonhosted.org/packages/66/03/57aebdc9ccc448c64ae32373fa63eb5979ca906daf2c270bd2a19a19d996/special-octo-robot-0.0.9.tar.gz
+[2024-05-27 20:20:40] INFO root fetch - processPackages [django-editor-ymaps]: Downloading https://files.pythonhosted.org/packages/ec/63/0bd08d6028fdcc6ede975c117d1260fd976d7259f014f38e5f2215ff0d67/django_editor_ymaps-2.3.9.tar.gz
+[2024-05-27 20:20:40] INFO root fetch - processPackages [discordreactive]: executing diffoscope
+[2024-05-27 20:20:40] INFO root fetch - processPackages [discordreactive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discordreactive-0.5.tar.gz tmp/discordreactive-0.6.tar.gz --markdown 20240527/d/discordreactive/0.5-0.6/README.md --exclude *.pyd
+[2024-05-27 20:20:40] INFO root fetch - processPackages [RadeonMaster]: Downloading https://files.pythonhosted.org/packages/11/40/3f0093a4dc6cbc5756174e22f51369c8af8ced90a04f5b8b4d23daa19bc0/radeonmaster-0.1.1.tar.gz
+[2024-05-27 20:20:40] INFO root fetch - processPackages [special-octo-robot]: executing diffoscope
+[2024-05-27 20:20:40] INFO root fetch - processPackages [special-octo-robot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/special-octo-robot-0.0.8.tar.gz tmp/special-octo-robot-0.0.9.tar.gz --markdown 20240527/s/special-octo-robot/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-27 20:20:40] INFO root fetch - processPackages [RadeonMaster]: executing diffoscope
+[2024-05-27 20:20:40] INFO root fetch - processPackages [RadeonMaster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RadeonMaster-0.1.0.tar.gz tmp/radeonmaster-0.1.1.tar.gz --markdown 20240527/R/RadeonMaster/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-27 20:20:41] INFO root fetch - processPackages [hnt-sap-gui-library]: Remove: archive file [/home/abi/fetcher/tmp/hnt_sap_gui_library-0.0.8.tar.gz]
+[2024-05-27 20:20:41] INFO root fetch - processPackages [hnt-sap-gui-library]: Remove: archive file [/home/abi/fetcher/tmp/hnt_sap_gui_library-0.0.9.tar.gz]
+[2024-05-27 20:20:41] INFO root fetch - main [MainThread]: End processing [hnt-sap-gui-library]: success
+[2024-05-27 20:20:41] INFO root fetch - processPackages [promptic]: Remove: archive file [/home/abi/fetcher/tmp/promptic-0.1.8.tar.gz]
+[2024-05-27 20:20:41] INFO root fetch - processPackages [promptic]: Remove: archive file [/home/abi/fetcher/tmp/promptic-0.1.9.tar.gz]
+[2024-05-27 20:20:41] INFO root fetch - main [MainThread]: End processing [promptic]: success
+[2024-05-27 20:20:41] INFO root fetch - processPackages [discordreactive]: Remove: archive file [/home/abi/fetcher/tmp/discordreactive-0.5.tar.gz]
+[2024-05-27 20:20:41] INFO root fetch - processPackages [discordreactive]: Remove: archive file [/home/abi/fetcher/tmp/discordreactive-0.6.tar.gz]
+[2024-05-27 20:20:41] INFO root fetch - main [MainThread]: End processing [discordreactive]: success
+[2024-05-27 20:20:41] INFO root fetch - processPackages [django-editor-ymaps]: executing diffoscope
+[2024-05-27 20:20:41] INFO root fetch - processPackages [django-editor-ymaps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-editor-ymaps-2.3.8.tar.gz tmp/django_editor_ymaps-2.3.9.tar.gz --markdown 20240527/d/django-editor-ymaps/2.3.8-2.3.9/README.md --exclude *.pyd
+[2024-05-27 20:20:41] INFO root fetch - processPackages [special-octo-robot]: Remove: archive file [/home/abi/fetcher/tmp/special-octo-robot-0.0.8.tar.gz]
+[2024-05-27 20:20:41] INFO root fetch - processPackages [special-octo-robot]: Remove: archive file [/home/abi/fetcher/tmp/special-octo-robot-0.0.9.tar.gz]
+[2024-05-27 20:20:41] INFO root fetch - main [MainThread]: End processing [special-octo-robot]: success
+[2024-05-27 20:20:41] INFO root fetch - processPackages [RadeonMaster]: Remove: archive file [/home/abi/fetcher/tmp/RadeonMaster-0.1.0.tar.gz]
+[2024-05-27 20:20:41] INFO root fetch - processPackages [RadeonMaster]: Remove: archive file [/home/abi/fetcher/tmp/radeonmaster-0.1.1.tar.gz]
+[2024-05-27 20:20:41] INFO root fetch - main [MainThread]: End processing [RadeonMaster]: success
+[2024-05-27 20:20:52] INFO root fetch - processPackages [django-editor-ymaps]: Remove: archive file [/home/abi/fetcher/tmp/django-editor-ymaps-2.3.8.tar.gz]
+[2024-05-27 20:20:52] INFO root fetch - processPackages [django-editor-ymaps]: Remove: archive file [/home/abi/fetcher/tmp/django_editor_ymaps-2.3.9.tar.gz]
+[2024-05-27 20:20:52] INFO root fetch - main [MainThread]: End processing [django-editor-ymaps]: success
+[2024-05-27 20:20:52] INFO root fetch - main [MainThread]: Store serial: [23399737]
