@@ -12524,3 +12524,82 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 12:32:58] INFO root fetch - processPackages [wwpdb.utils.nmr]: Remove: archive file [/home/abi/fetcher/tmp/wwpdb_utils_nmr-0.36.tar.gz]
 [2024-05-27 12:32:58] INFO root fetch - main [MainThread]: End processing [wwpdb.utils.nmr]: success
 [2024-05-27 12:32:58] INFO root fetch - main [MainThread]: Store serial: [23394079]
+[2024-05-27 12:35:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23394079]
+[2024-05-27 12:35:10] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-27 12:35:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: otpcr
+[2024-05-27 12:35:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: crypt4gh
+[2024-05-27 12:35:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: telegram-video-downloader
+[2024-05-27 12:35:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ivande-combiner
+[2024-05-27 12:35:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pip-hello-japan
+[2024-05-27 12:35:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: artsem
+[2024-05-27 12:35:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: artsem
+[2024-05-27 12:35:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: artsem
+[2024-05-27 12:35:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: artsem
+[2024-05-27 12:35:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: artsem
+[2024-05-27 12:35:10] INFO root fetch - processPackages [ivande-combiner]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-27 12:35:10] INFO root fetch - processPackages [ivande-combiner]: Downloading https://files.pythonhosted.org/packages/e2/68/4605bffb5a3ac9e99ed7fdb5b2cf4fbd8ce7e3d592151e9678ad20828d98/ivande_combiner-0.0.7.tar.gz
+[2024-05-27 12:35:10] INFO root fetch - processPackages [otpcr]: New version: [9] Old Version: [8]
+[2024-05-27 12:35:10] INFO root fetch - processPackages [telegram-video-downloader]: New version: [1.1] Old Version: [1.0]
+[2024-05-27 12:35:10] INFO root fetch - processPackages [artsem]: New version: [0.0.43] Old Version: [0.0.42]
+[2024-05-27 12:35:10] INFO root fetch - processPackages [artsem]: New version: [0.0.43] Old Version: [0.0.42]
+[2024-05-27 12:35:10] INFO root fetch - processPackages [artsem]: New version: [0.0.43] Old Version: [0.0.42]
+[2024-05-27 12:35:10] INFO root fetch - processPackages [artsem]: New version: [0.0.43] Old Version: [0.0.42]
+[2024-05-27 12:35:10] INFO root fetch - processPackages [artsem]: New version: [0.0.43] Old Version: [0.0.42]
+[2024-05-27 12:35:10] WARNING root fetch - processPackages [pip-hello-japan]: Skipping, unable to determine old version
+[2024-05-27 12:35:10] INFO root fetch - main [MainThread]: End processing [pip-hello-japan] error
+[2024-05-27 12:35:10] INFO root fetch - processPackages [crypt4gh]: New version: [1.7] Old Version: [1.6]
+[2024-05-27 12:35:10] INFO root fetch - processPackages [artsem]: Downloading https://files.pythonhosted.org/packages/61/b2/de40dd3fa4df0e4abce58b818b2fc67010547b63e3ca75c758be005dd69c/artsem-0.0.42.tar.gz
+[2024-05-27 12:35:10] INFO root fetch - processPackages [artsem]: Downloading https://files.pythonhosted.org/packages/61/b2/de40dd3fa4df0e4abce58b818b2fc67010547b63e3ca75c758be005dd69c/artsem-0.0.42.tar.gz
+[2024-05-27 12:35:10] INFO root fetch - processPackages [telegram-video-downloader]: Downloading https://files.pythonhosted.org/packages/96/16/de6c0be80fde33e27047cd9b35e403219b698294c1a2d3632e2b11a3fbf8/telegram-video-downloader-1.0.tar.gz
+[2024-05-27 12:35:10] INFO root fetch - processPackages [ivande-combiner]: Downloading https://files.pythonhosted.org/packages/3f/a9/80386ed0c5d112f1438ac694dabdb34f4e73326a821141c1c17b4096135a/ivande_combiner-0.0.8.tar.gz
+[2024-05-27 12:35:10] INFO root fetch - processPackages [artsem]: Downloading https://files.pythonhosted.org/packages/61/b2/de40dd3fa4df0e4abce58b818b2fc67010547b63e3ca75c758be005dd69c/artsem-0.0.42.tar.gz
+[2024-05-27 12:35:10] INFO root fetch - processPackages [artsem]: Downloading https://files.pythonhosted.org/packages/61/b2/de40dd3fa4df0e4abce58b818b2fc67010547b63e3ca75c758be005dd69c/artsem-0.0.42.tar.gz
+[2024-05-27 12:35:10] INFO root fetch - processPackages [artsem]: Downloading https://files.pythonhosted.org/packages/61/b2/de40dd3fa4df0e4abce58b818b2fc67010547b63e3ca75c758be005dd69c/artsem-0.0.42.tar.gz
+[2024-05-27 12:35:10] INFO root fetch - processPackages [otpcr]: Downloading https://files.pythonhosted.org/packages/37/0b/8bd06d4112258b1b2c7a9453b3a01eae742c0312cd1f9fdac10d84e634b6/otpcr-8.tar.gz
+[2024-05-27 12:35:11] INFO root fetch - processPackages [crypt4gh]: Downloading https://files.pythonhosted.org/packages/f4/87/d7f6a17f5e6707ccb2e685232aeb56d8db417a4e24e4f03ce9356e9a385e/crypt4gh-1.6.tar.gz
+[2024-05-27 12:35:11] INFO root fetch - processPackages [ivande-combiner]: executing diffoscope
+[2024-05-27 12:35:11] INFO root fetch - processPackages [ivande-combiner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ivande_combiner-0.0.7.tar.gz tmp/ivande_combiner-0.0.8.tar.gz --markdown 20240527/i/ivande-combiner/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-27 12:35:11] INFO root fetch - processPackages [artsem]: Downloading https://files.pythonhosted.org/packages/f1/d1/29af2c1a2252f2d44104142b4a6b208c042672d134d76743e06b847e0a85/artsem-0.0.43.tar.gz
+[2024-05-27 12:35:11] INFO root fetch - processPackages [artsem]: Downloading https://files.pythonhosted.org/packages/f1/d1/29af2c1a2252f2d44104142b4a6b208c042672d134d76743e06b847e0a85/artsem-0.0.43.tar.gz
+[2024-05-27 12:35:11] INFO root fetch - processPackages [artsem]: Downloading https://files.pythonhosted.org/packages/f1/d1/29af2c1a2252f2d44104142b4a6b208c042672d134d76743e06b847e0a85/artsem-0.0.43.tar.gz
+[2024-05-27 12:35:11] INFO root fetch - processPackages [artsem]: Downloading https://files.pythonhosted.org/packages/f1/d1/29af2c1a2252f2d44104142b4a6b208c042672d134d76743e06b847e0a85/artsem-0.0.43.tar.gz
+[2024-05-27 12:35:11] INFO root fetch - processPackages [telegram-video-downloader]: Downloading https://files.pythonhosted.org/packages/76/77/18192c18e1ff1ea2f06971e0851c003fc0db41ed69bd585506658588edc2/telegram-video-downloader-1.1.tar.gz
+[2024-05-27 12:35:11] INFO root fetch - processPackages [artsem]: Downloading https://files.pythonhosted.org/packages/f1/d1/29af2c1a2252f2d44104142b4a6b208c042672d134d76743e06b847e0a85/artsem-0.0.43.tar.gz
+[2024-05-27 12:35:11] INFO root fetch - processPackages [crypt4gh]: Downloading https://files.pythonhosted.org/packages/0d/17/f91f2bc504a3b4bd95087b18498f1820b88aef04f830afa13107129a1782/crypt4gh-1.7.tar.gz
+[2024-05-27 12:35:11] INFO root fetch - processPackages [artsem]: executing diffoscope
+[2024-05-27 12:35:11] INFO root fetch - processPackages [artsem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/artsem-0.0.42.tar.gz tmp/artsem-0.0.43.tar.gz --markdown 20240527/a/artsem/0.0.42-0.0.43/README.md --exclude *.pyd
+[2024-05-27 12:35:11] INFO root fetch - processPackages [artsem]: executing diffoscope
+[2024-05-27 12:35:11] INFO root fetch - processPackages [artsem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/artsem-0.0.42.tar.gz tmp/artsem-0.0.43.tar.gz --markdown 20240527/a/artsem/0.0.42-0.0.43/README.md --exclude *.pyd
+[2024-05-27 12:35:11] INFO root fetch - processPackages [telegram-video-downloader]: executing diffoscope
+[2024-05-27 12:35:11] INFO root fetch - processPackages [telegram-video-downloader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/telegram-video-downloader-1.0.tar.gz tmp/telegram-video-downloader-1.1.tar.gz --markdown 20240527/t/telegram-video-downloader/1.0-1.1/README.md --exclude *.pyd
+[2024-05-27 12:35:11] INFO root fetch - processPackages [artsem]: executing diffoscope
+[2024-05-27 12:35:11] INFO root fetch - processPackages [artsem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/artsem-0.0.42.tar.gz tmp/artsem-0.0.43.tar.gz --markdown 20240527/a/artsem/0.0.42-0.0.43/README.md --exclude *.pyd
+[2024-05-27 12:35:11] INFO root fetch - processPackages [artsem]: executing diffoscope
+[2024-05-27 12:35:11] INFO root fetch - processPackages [artsem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/artsem-0.0.42.tar.gz tmp/artsem-0.0.43.tar.gz --markdown 20240527/a/artsem/0.0.42-0.0.43/README.md --exclude *.pyd
+[2024-05-27 12:35:11] INFO root fetch - processPackages [artsem]: executing diffoscope
+[2024-05-27 12:35:11] INFO root fetch - processPackages [artsem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/artsem-0.0.42.tar.gz tmp/artsem-0.0.43.tar.gz --markdown 20240527/a/artsem/0.0.42-0.0.43/README.md --exclude *.pyd
+[2024-05-27 12:35:11] INFO root fetch - processPackages [crypt4gh]: executing diffoscope
+[2024-05-27 12:35:11] INFO root fetch - processPackages [crypt4gh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crypt4gh-1.6.tar.gz tmp/crypt4gh-1.7.tar.gz --markdown 20240527/c/crypt4gh/1.6-1.7/README.md --exclude *.pyd
+[2024-05-27 12:35:11] INFO root fetch - processPackages [otpcr]: Downloading https://files.pythonhosted.org/packages/54/7e/af8cf1cb765a2f3cb2416931b8e932571cea62c675981c5a5ae52fc76702/otpcr-9.tar.gz
+[2024-05-27 12:35:11] INFO root fetch - processPackages [ivande-combiner]: Remove: archive file [/home/abi/fetcher/tmp/ivande_combiner-0.0.7.tar.gz]
+[2024-05-27 12:35:11] INFO root fetch - processPackages [ivande-combiner]: Remove: archive file [/home/abi/fetcher/tmp/ivande_combiner-0.0.8.tar.gz]
+[2024-05-27 12:35:11] INFO root fetch - main [MainThread]: End processing [ivande-combiner]: success
+[2024-05-27 12:35:12] INFO root fetch - processPackages [otpcr]: executing diffoscope
+[2024-05-27 12:35:12] INFO root fetch - processPackages [otpcr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/otpcr-8.tar.gz tmp/otpcr-9.tar.gz --markdown 20240527/o/otpcr/8-9/README.md --exclude *.pyd
+[2024-05-27 12:35:12] INFO root fetch - processPackages [artsem]: Remove: archive file [/home/abi/fetcher/tmp/artsem-0.0.42.tar.gz]
+[2024-05-27 12:35:12] INFO root fetch - processPackages [artsem]: Remove: archive file [/home/abi/fetcher/tmp/artsem-0.0.43.tar.gz]
+[2024-05-27 12:35:12] INFO root fetch - main [MainThread]: End processing [artsem]: success
+[2024-05-27 12:35:12] INFO root fetch - main [MainThread]: End processing [artsem]: success
+[2024-05-27 12:35:12] INFO root fetch - main [MainThread]: End processing [artsem]: success
+[2024-05-27 12:35:12] INFO root fetch - main [MainThread]: End processing [artsem]: success
+[2024-05-27 12:35:12] INFO root fetch - main [MainThread]: End processing [artsem]: success
+[2024-05-27 12:35:12] INFO root fetch - processPackages [crypt4gh]: Remove: archive file [/home/abi/fetcher/tmp/crypt4gh-1.6.tar.gz]
+[2024-05-27 12:35:12] INFO root fetch - processPackages [crypt4gh]: Remove: archive file [/home/abi/fetcher/tmp/crypt4gh-1.7.tar.gz]
+[2024-05-27 12:35:12] INFO root fetch - main [MainThread]: End processing [crypt4gh]: success
+[2024-05-27 12:35:12] INFO root fetch - processPackages [telegram-video-downloader]: Remove: archive file [/home/abi/fetcher/tmp/telegram-video-downloader-1.0.tar.gz]
+[2024-05-27 12:35:12] INFO root fetch - processPackages [telegram-video-downloader]: Remove: archive file [/home/abi/fetcher/tmp/telegram-video-downloader-1.1.tar.gz]
+[2024-05-27 12:35:12] INFO root fetch - main [MainThread]: End processing [telegram-video-downloader]: success
+[2024-05-27 12:35:13] INFO root fetch - processPackages [otpcr]: Remove: archive file [/home/abi/fetcher/tmp/otpcr-8.tar.gz]
+[2024-05-27 12:35:13] INFO root fetch - processPackages [otpcr]: Remove: archive file [/home/abi/fetcher/tmp/otpcr-9.tar.gz]
+[2024-05-27 12:35:13] INFO root fetch - main [MainThread]: End processing [otpcr]: success
+[2024-05-27 12:35:13] INFO root fetch - main [MainThread]: Store serial: [23394113]
