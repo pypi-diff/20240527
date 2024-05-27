@@ -9999,3 +9999,51 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 10:56:30] INFO root fetch - processPackages [dvc]: Remove: archive file [/home/abi/fetcher/tmp/dvc-3.9.1.tar.gz]
 [2024-05-27 10:56:30] INFO root fetch - main [MainThread]: End processing [dvc]: success
 [2024-05-27 10:56:30] INFO root fetch - main [MainThread]: Store serial: [23392864]
+[2024-05-27 10:58:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23392864]
+[2024-05-27 10:58:39] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-27 10:58:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: digitalhub
+[2024-05-27 10:58:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pearson
+[2024-05-27 10:58:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wd-fw-update
+[2024-05-27 10:58:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: NetHyTech-DeepTTS
+[2024-05-27 10:58:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ivande-combiner
+[2024-05-27 10:58:39] INFO root fetch - processPackages [ivande-combiner]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-27 10:58:39] INFO root fetch - processPackages [NetHyTech-DeepTTS]: New version: [0.2] Old Version: [0.1]
+[2024-05-27 10:58:39] INFO root fetch - processPackages [pearson]: New version: [2.6] Old Version: [2.5]
+[2024-05-27 10:58:40] INFO root fetch - processPackages [pearson]: Downloading https://files.pythonhosted.org/packages/5e/47/8758bf08ac3a3999301844229183df5009fd935a95edd336df74ec6e32d8/pearson-2.5.tar.gz
+[2024-05-27 10:58:40] INFO root fetch - processPackages [ivande-combiner]: Downloading https://files.pythonhosted.org/packages/e2/68/4605bffb5a3ac9e99ed7fdb5b2cf4fbd8ce7e3d592151e9678ad20828d98/ivande_combiner-0.0.7.tar.gz
+[2024-05-27 10:58:40] INFO root fetch - processPackages [digitalhub]: New version: [0.5.0b3] Old Version: [0.5.0b2]
+[2024-05-27 10:58:40] INFO root fetch - processPackages [wd-fw-update]: New version: [1.2.2] Old Version: [1.2.1]
+[2024-05-27 10:58:40] INFO root fetch - processPackages [NetHyTech-DeepTTS]: Downloading https://files.pythonhosted.org/packages/4b/7f/16e30493a3c4eb625fef23633c85350ff8dc23af4e46eea3b5532c5357a5/NetHyTech-DeepTTS-0.1.tar.gz
+[2024-05-27 10:58:40] INFO root fetch - processPackages [digitalhub]: Downloading https://files.pythonhosted.org/packages/5a/2a/8291d828fda993ff3e23a63c7da6e483c7790a36b2aa0ef9039a3ebce38c/digitalhub-0.5.0b2.tar.gz
+[2024-05-27 10:58:40] INFO root fetch - processPackages [wd-fw-update]: Downloading https://files.pythonhosted.org/packages/64/bf/b5df421ab78a4d353789879eb93a6b2759ef953e7ca74dc610511423b59f/wd_fw_update-1.2.1.tar.gz
+[2024-05-27 10:58:40] INFO root fetch - processPackages [ivande-combiner]: Downloading https://files.pythonhosted.org/packages/3f/a9/80386ed0c5d112f1438ac694dabdb34f4e73326a821141c1c17b4096135a/ivande_combiner-0.0.8.tar.gz
+[2024-05-27 10:58:40] INFO root fetch - processPackages [pearson]: Downloading https://files.pythonhosted.org/packages/a4/87/ca2c5fad68e72022735e57521f401686a18e82f5d36311cf00b72f1d28a8/pearson-2.6.tar.gz
+[2024-05-27 10:58:40] INFO root fetch - processPackages [ivande-combiner]: executing diffoscope
+[2024-05-27 10:58:40] INFO root fetch - processPackages [ivande-combiner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ivande_combiner-0.0.7.tar.gz tmp/ivande_combiner-0.0.8.tar.gz --markdown 20240527/i/ivande-combiner/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-27 10:58:40] INFO root fetch - processPackages [pearson]: executing diffoscope
+[2024-05-27 10:58:40] INFO root fetch - processPackages [pearson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pearson-2.5.tar.gz tmp/pearson-2.6.tar.gz --markdown 20240527/p/pearson/2.5-2.6/README.md --exclude *.pyd
+[2024-05-27 10:58:40] INFO root fetch - processPackages [NetHyTech-DeepTTS]: Downloading https://files.pythonhosted.org/packages/20/b4/80794145ad5369210b698e68a4e0f680a468591fc9f5219e1ec11203495e/NetHyTech-DeepTTS-0.2.tar.gz
+[2024-05-27 10:58:40] INFO root fetch - processPackages [digitalhub]: Downloading https://files.pythonhosted.org/packages/e9/3b/b16a16c03842be8ed63d4c6b1873a69fc3bb9aa6ab0451124f931759d00e/digitalhub-0.5.0b3.tar.gz
+[2024-05-27 10:58:40] INFO root fetch - processPackages [NetHyTech-DeepTTS]: executing diffoscope
+[2024-05-27 10:58:40] INFO root fetch - processPackages [digitalhub]: executing diffoscope
+[2024-05-27 10:58:40] INFO root fetch - processPackages [digitalhub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digitalhub-0.5.0b2.tar.gz tmp/digitalhub-0.5.0b3.tar.gz --markdown 20240527/d/digitalhub/0.5.0b2-0.5.0b3/README.md --exclude *.pyd
+[2024-05-27 10:58:40] INFO root fetch - processPackages [NetHyTech-DeepTTS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NetHyTech-DeepTTS-0.1.tar.gz tmp/NetHyTech-DeepTTS-0.2.tar.gz --markdown 20240527/N/NetHyTech-DeepTTS/0.1-0.2/README.md --exclude *.pyd
+[2024-05-27 10:58:40] INFO root fetch - processPackages [wd-fw-update]: Downloading https://files.pythonhosted.org/packages/15/5a/145afbce26020b21f9e763b42efed6395031063f6cf683f06358e84db862/wd_fw_update-1.2.2.tar.gz
+[2024-05-27 10:58:40] INFO root fetch - processPackages [wd-fw-update]: executing diffoscope
+[2024-05-27 10:58:40] INFO root fetch - processPackages [wd-fw-update]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wd_fw_update-1.2.1.tar.gz tmp/wd_fw_update-1.2.2.tar.gz --markdown 20240527/w/wd-fw-update/1.2.1-1.2.2/README.md --exclude *.pyd
+[2024-05-27 10:58:41] INFO root fetch - processPackages [ivande-combiner]: Remove: archive file [/home/abi/fetcher/tmp/ivande_combiner-0.0.7.tar.gz]
+[2024-05-27 10:58:41] INFO root fetch - processPackages [ivande-combiner]: Remove: archive file [/home/abi/fetcher/tmp/ivande_combiner-0.0.8.tar.gz]
+[2024-05-27 10:58:41] INFO root fetch - main [MainThread]: End processing [ivande-combiner]: success
+[2024-05-27 10:58:41] INFO root fetch - processPackages [pearson]: Remove: archive file [/home/abi/fetcher/tmp/pearson-2.5.tar.gz]
+[2024-05-27 10:58:41] INFO root fetch - processPackages [pearson]: Remove: archive file [/home/abi/fetcher/tmp/pearson-2.6.tar.gz]
+[2024-05-27 10:58:41] INFO root fetch - main [MainThread]: End processing [pearson]: success
+[2024-05-27 10:58:41] INFO root fetch - processPackages [NetHyTech-DeepTTS]: Remove: archive file [/home/abi/fetcher/tmp/NetHyTech-DeepTTS-0.1.tar.gz]
+[2024-05-27 10:58:41] INFO root fetch - processPackages [NetHyTech-DeepTTS]: Remove: archive file [/home/abi/fetcher/tmp/NetHyTech-DeepTTS-0.2.tar.gz]
+[2024-05-27 10:58:41] INFO root fetch - main [MainThread]: End processing [NetHyTech-DeepTTS]: success
+[2024-05-27 10:58:41] INFO root fetch - processPackages [digitalhub]: Remove: archive file [/home/abi/fetcher/tmp/digitalhub-0.5.0b2.tar.gz]
+[2024-05-27 10:58:41] INFO root fetch - processPackages [digitalhub]: Remove: archive file [/home/abi/fetcher/tmp/digitalhub-0.5.0b3.tar.gz]
+[2024-05-27 10:58:41] INFO root fetch - main [MainThread]: End processing [digitalhub]: success
+[2024-05-27 10:58:41] INFO root fetch - processPackages [wd-fw-update]: Remove: archive file [/home/abi/fetcher/tmp/wd_fw_update-1.2.1.tar.gz]
+[2024-05-27 10:58:41] INFO root fetch - processPackages [wd-fw-update]: Remove: archive file [/home/abi/fetcher/tmp/wd_fw_update-1.2.2.tar.gz]
+[2024-05-27 10:58:41] INFO root fetch - main [MainThread]: End processing [wd-fw-update]: success
+[2024-05-27 10:58:41] INFO root fetch - main [MainThread]: Store serial: [23392879]
