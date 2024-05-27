@@ -21804,3 +21804,42 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-05-27 18:23:59] INFO root fetch - processPackages [zuspec-parser]: Remove: archive file [/home/abi/fetcher/tmp/zuspec_parser-0.0.1.9257795183-cp312-cp312-macosx_14_0_arm64.whl.zip]
 [2024-05-27 18:23:59] INFO root fetch - main [MainThread]: End processing [zuspec-parser]: success
 [2024-05-27 18:23:59] INFO root fetch - main [MainThread]: Store serial: [23398276]
+[2024-05-27 18:26:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23398276]
+[2024-05-27 18:26:08] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-27 18:26:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: interpretable-tsne
+[2024-05-27 18:26:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openet-landsat-lst
+[2024-05-27 18:26:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chainlit
+[2024-05-27 18:26:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: quickQrLib
+[2024-05-27 18:26:08] INFO root fetch - processPackages [quickQrLib]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-05-27 18:26:08] INFO root fetch - processPackages [chainlit]: New version: [1.1.202] Old Version: [1.1.201]
+[2024-05-27 18:26:08] INFO root fetch - processPackages [quickQrLib]: Downloading https://files.pythonhosted.org/packages/b7/f9/c304427091efbc09dd0026539ff955066a746ef824e2382801b35ea96d7a/quickQrLib-0.2.2.tar.gz
+[2024-05-27 18:26:08] INFO root fetch - processPackages [interpretable-tsne]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-27 18:26:08] INFO root fetch - processPackages [openet-landsat-lst]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-27 18:26:08] INFO root fetch - processPackages [chainlit]: Downloading https://files.pythonhosted.org/packages/2c/a2/c853fa0f0fdd019a757d8dc9d751fa489a56dde238c2e97932fdbbc3fec9/chainlit-1.1.201.tar.gz
+[2024-05-27 18:26:08] INFO root fetch - processPackages [interpretable-tsne]: Downloading https://files.pythonhosted.org/packages/b4/56/bd3a4c52266823f8f9cf5c68a884bf2f685e923fabf5f24ed33f1cdb315e/interpretable_tsne-0.0.3.tar.gz
+[2024-05-27 18:26:08] INFO root fetch - processPackages [openet-landsat-lst]: Downloading https://files.pythonhosted.org/packages/21/3f/25a0181d602bcafa9fc47059258f3e450d36dc0ed5b6c56b28cb66456b78/openet-landsat-lst-0.2.0.tar.gz
+[2024-05-27 18:26:08] INFO root fetch - processPackages [quickQrLib]: Downloading https://files.pythonhosted.org/packages/4f/c6/28a93422f844fe15ea2064ce15e198d6c57ca5f83a0af9d5eaf24bc0d8e3/quickQrLib-0.2.3.tar.gz
+[2024-05-27 18:26:08] INFO root fetch - processPackages [quickQrLib]: executing diffoscope
+[2024-05-27 18:26:08] INFO root fetch - processPackages [quickQrLib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickQrLib-0.2.2.tar.gz tmp/quickQrLib-0.2.3.tar.gz --markdown 20240527/q/quickQrLib/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-05-27 18:26:08] INFO root fetch - processPackages [interpretable-tsne]: Downloading https://files.pythonhosted.org/packages/a9/fe/f36144d2c552d6df78e753912ff6edcd564e916c0dc7b6ee30c2d80817f2/interpretable_tsne-0.0.4.tar.gz
+[2024-05-27 18:26:08] INFO root fetch - processPackages [openet-landsat-lst]: Downloading https://files.pythonhosted.org/packages/f9/eb/45de4c0a6a9953ad2f100b18d5e9c8a840c777d3dc07972f97be8aae1a7a/openet_landsat_lst-0.2.1.tar.gz
+[2024-05-27 18:26:09] INFO root fetch - processPackages [interpretable-tsne]: executing diffoscope
+[2024-05-27 18:26:09] INFO root fetch - processPackages [interpretable-tsne]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/interpretable_tsne-0.0.3.tar.gz tmp/interpretable_tsne-0.0.4.tar.gz --markdown 20240527/i/interpretable-tsne/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-27 18:26:09] INFO root fetch - processPackages [openet-landsat-lst]: executing diffoscope
+[2024-05-27 18:26:09] INFO root fetch - processPackages [openet-landsat-lst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openet-landsat-lst-0.2.0.tar.gz tmp/openet_landsat_lst-0.2.1.tar.gz --markdown 20240527/o/openet-landsat-lst/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-27 18:26:09] INFO root fetch - processPackages [quickQrLib]: Remove: archive file [/home/abi/fetcher/tmp/quickQrLib-0.2.2.tar.gz]
+[2024-05-27 18:26:09] INFO root fetch - processPackages [quickQrLib]: Remove: archive file [/home/abi/fetcher/tmp/quickQrLib-0.2.3.tar.gz]
+[2024-05-27 18:26:09] INFO root fetch - main [MainThread]: End processing [quickQrLib]: success
+[2024-05-27 18:26:09] INFO root fetch - processPackages [chainlit]: Downloading https://files.pythonhosted.org/packages/9f/6d/a2e6209dafd7166a282395eb4ac93d936265602ab5cf7a5c180366f4a42c/chainlit-1.1.202.tar.gz
+[2024-05-27 18:26:09] INFO root fetch - processPackages [openet-landsat-lst]: Remove: archive file [/home/abi/fetcher/tmp/openet-landsat-lst-0.2.0.tar.gz]
+[2024-05-27 18:26:09] INFO root fetch - processPackages [openet-landsat-lst]: Remove: archive file [/home/abi/fetcher/tmp/openet_landsat_lst-0.2.1.tar.gz]
+[2024-05-27 18:26:09] INFO root fetch - main [MainThread]: End processing [openet-landsat-lst]: success
+[2024-05-27 18:26:09] INFO root fetch - processPackages [chainlit]: executing diffoscope
+[2024-05-27 18:26:09] INFO root fetch - processPackages [chainlit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chainlit-1.1.201.tar.gz tmp/chainlit-1.1.202.tar.gz --markdown 20240527/c/chainlit/1.1.201-1.1.202/README.md --exclude *.pyd
+[2024-05-27 18:26:11] INFO root fetch - processPackages [interpretable-tsne]: Remove: archive file [/home/abi/fetcher/tmp/interpretable_tsne-0.0.3.tar.gz]
+[2024-05-27 18:26:11] INFO root fetch - processPackages [interpretable-tsne]: Remove: archive file [/home/abi/fetcher/tmp/interpretable_tsne-0.0.4.tar.gz]
+[2024-05-27 18:26:11] INFO root fetch - main [MainThread]: End processing [interpretable-tsne]: success
+[2024-05-27 18:27:57] INFO root fetch - processPackages [chainlit]: Remove: archive file [/home/abi/fetcher/tmp/chainlit-1.1.201.tar.gz]
+[2024-05-27 18:27:57] INFO root fetch - processPackages [chainlit]: Remove: archive file [/home/abi/fetcher/tmp/chainlit-1.1.202.tar.gz]
+[2024-05-27 18:27:57] INFO root fetch - main [MainThread]: End processing [chainlit]: success
+[2024-05-27 18:27:57] INFO root fetch - main [MainThread]: Store serial: [23398293]
