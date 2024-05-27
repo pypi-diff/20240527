@@ -6085,3 +6085,15 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 07:17:05] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
 [2024-05-27 07:17:05] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
 [2024-05-27 07:17:05] INFO root fetch - main [MainThread]: Store serial: [23390844]
+[2024-05-27 07:19:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23390844]
+[2024-05-27 07:19:14] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-27 07:19:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tpdk
+[2024-05-27 07:19:14] INFO root fetch - processPackages [tpdk]: New version: [2.0.92] Old Version: [2.0.91]
+[2024-05-27 07:19:14] INFO root fetch - processPackages [tpdk]: Downloading https://files.pythonhosted.org/packages/5d/ac/bdcc3150b174bb73fa25bbb62d9f130981fabc59a13cb01ee65ef6b6fd99/tpdk-2.0.91.tar.gz
+[2024-05-27 07:19:15] INFO root fetch - processPackages [tpdk]: Downloading https://files.pythonhosted.org/packages/d5/7c/44d78002238e192a0d546cf509623ba9ed3d288b68af2d254853203c63f8/tpdk-2.0.92.tar.gz
+[2024-05-27 07:19:15] INFO root fetch - processPackages [tpdk]: executing diffoscope
+[2024-05-27 07:19:15] INFO root fetch - processPackages [tpdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tpdk-2.0.91.tar.gz tmp/tpdk-2.0.92.tar.gz --markdown 20240527/t/tpdk/2.0.91-2.0.92/README.md --exclude *.pyd
+[2024-05-27 07:19:17] INFO root fetch - processPackages [tpdk]: Remove: archive file [/home/abi/fetcher/tmp/tpdk-2.0.91.tar.gz]
+[2024-05-27 07:19:17] INFO root fetch - processPackages [tpdk]: Remove: archive file [/home/abi/fetcher/tmp/tpdk-2.0.92.tar.gz]
+[2024-05-27 07:19:17] INFO root fetch - main [MainThread]: End processing [tpdk]: success
+[2024-05-27 07:19:17] INFO root fetch - main [MainThread]: Store serial: [23390847]
