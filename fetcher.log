@@ -24762,3 +24762,51 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-05-27 20:36:22] INFO root fetch - processPackages [granian]: Remove: archive file [/home/abi/fetcher/tmp/granian-1.4.1-cp38-cp38-musllinux_1_1_aarch64.whl.zip]
 [2024-05-27 20:36:22] INFO root fetch - main [MainThread]: End processing [granian]: success
 [2024-05-27 20:36:22] INFO root fetch - main [MainThread]: Store serial: [23399882]
+[2024-05-27 20:38:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23399882]
+[2024-05-27 20:38:31] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-27 20:38:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dh-potluck
+[2024-05-27 20:38:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: telethon-client
+[2024-05-27 20:38:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: torchbringer
+[2024-05-27 20:38:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pbc_sjfhsjfh
+[2024-05-27 20:38:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: yeref
+[2024-05-27 20:38:31] INFO root fetch - processPackages [torchbringer]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-27 20:38:31] INFO root fetch - processPackages [pbc_sjfhsjfh]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-27 20:38:31] INFO root fetch - processPackages [telethon-client]: New version: [0.1.0] Old Version: [0.0.9]
+[2024-05-27 20:38:31] INFO root fetch - processPackages [yeref]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-27 20:38:31] INFO root fetch - processPackages [torchbringer]: Downloading https://files.pythonhosted.org/packages/ca/73/613fa2637b40eb1485bbbad60dd37e3f262fc54cabd46ffb86dbbb567044/torchbringer-0.2.0.tar.gz
+[2024-05-27 20:38:31] INFO root fetch - processPackages [dh-potluck]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-05-27 20:38:31] INFO root fetch - processPackages [pbc_sjfhsjfh]: Downloading https://files.pythonhosted.org/packages/4d/08/9536dfa1a91498198420b601f9e07d51a59fd3a6eff4f19bdd7ac8332f8e/pbc_sjfhsjfh-0.0.2.tar.gz
+[2024-05-27 20:38:31] INFO root fetch - processPackages [telethon-client]: Downloading https://files.pythonhosted.org/packages/c9/5f/df21e312376c04e828b1e941e09915ac372498abd13c4dd522947e82c4e1/telethon-client-0.0.9.tar.gz
+[2024-05-27 20:38:31] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/ec/cb/204e6fbe233bbb61cf29c1b491e8c638c8a843edc47fb4e1d8cc8c26608c/yeref-0.9.8.tar.gz
+[2024-05-27 20:38:31] INFO root fetch - processPackages [dh-potluck]: Downloading https://files.pythonhosted.org/packages/6c/85/d5529ba47bcfff2278b73467b2003491ff930a8916ec90ab6d347fbd037b/dh-potluck-1.9.0.tar.gz
+[2024-05-27 20:38:31] INFO root fetch - processPackages [torchbringer]: Downloading https://files.pythonhosted.org/packages/53/35/50ed3f2fae86c0be93c5b83a248791d05fe8d800181a38eff0b017ea4daa/torchbringer-0.2.1.tar.gz
+[2024-05-27 20:38:32] INFO root fetch - processPackages [telethon-client]: Downloading https://files.pythonhosted.org/packages/c4/e0/8aa2812969e6d74e58a48b613275ce9af94acc8bf737fbfffe0d4a635ce6/telethon-client-0.1.0.tar.gz
+[2024-05-27 20:38:32] INFO root fetch - processPackages [pbc_sjfhsjfh]: Downloading https://files.pythonhosted.org/packages/ec/a0/37aab0eade8b78a0c32671b5f202fafb939ba061a5a21b013f9efde60ef4/pbc_sjfhsjfh-0.0.3.tar.gz
+[2024-05-27 20:38:32] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/01/13/0f11bb3dfb27aaf16ed48b0046f50ac65b1fde32662fbc314d53e2558b2d/yeref-0.9.9.tar.gz
+[2024-05-27 20:38:32] INFO root fetch - processPackages [torchbringer]: executing diffoscope
+[2024-05-27 20:38:32] INFO root fetch - processPackages [torchbringer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchbringer-0.2.0.tar.gz tmp/torchbringer-0.2.1.tar.gz --markdown 20240527/t/torchbringer/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-27 20:38:32] INFO root fetch - processPackages [telethon-client]: executing diffoscope
+[2024-05-27 20:38:32] INFO root fetch - processPackages [telethon-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/telethon-client-0.0.9.tar.gz tmp/telethon-client-0.1.0.tar.gz --markdown 20240527/t/telethon-client/0.0.9-0.1.0/README.md --exclude *.pyd
+[2024-05-27 20:38:32] INFO root fetch - processPackages [dh-potluck]: Downloading https://files.pythonhosted.org/packages/5d/ea/c5f6e8c82d824dad4198a98dfb092cefc1dfdd950baaf6168a964441a559/dh-potluck-1.9.1.tar.gz
+[2024-05-27 20:38:32] INFO root fetch - processPackages [pbc_sjfhsjfh]: executing diffoscope
+[2024-05-27 20:38:32] INFO root fetch - processPackages [pbc_sjfhsjfh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pbc_sjfhsjfh-0.0.2.tar.gz tmp/pbc_sjfhsjfh-0.0.3.tar.gz --markdown 20240527/p/pbc_sjfhsjfh/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-27 20:38:32] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2024-05-27 20:38:32] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.9.8.tar.gz tmp/yeref-0.9.9.tar.gz --markdown 20240527/y/yeref/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-27 20:38:32] INFO root fetch - processPackages [dh-potluck]: executing diffoscope
+[2024-05-27 20:38:32] INFO root fetch - processPackages [dh-potluck]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dh-potluck-1.9.0.tar.gz tmp/dh-potluck-1.9.1.tar.gz --markdown 20240527/d/dh-potluck/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-05-27 20:38:32] INFO root fetch - processPackages [pbc_sjfhsjfh]: Remove: archive file [/home/abi/fetcher/tmp/pbc_sjfhsjfh-0.0.2.tar.gz]
+[2024-05-27 20:38:32] INFO root fetch - processPackages [pbc_sjfhsjfh]: Remove: archive file [/home/abi/fetcher/tmp/pbc_sjfhsjfh-0.0.3.tar.gz]
+[2024-05-27 20:38:32] INFO root fetch - main [MainThread]: End processing [pbc_sjfhsjfh]: success
+[2024-05-27 20:38:32] INFO root fetch - processPackages [torchbringer]: Remove: archive file [/home/abi/fetcher/tmp/torchbringer-0.2.0.tar.gz]
+[2024-05-27 20:38:32] INFO root fetch - processPackages [torchbringer]: Remove: archive file [/home/abi/fetcher/tmp/torchbringer-0.2.1.tar.gz]
+[2024-05-27 20:38:32] INFO root fetch - main [MainThread]: End processing [torchbringer]: success
+[2024-05-27 20:38:32] INFO root fetch - processPackages [telethon-client]: Remove: archive file [/home/abi/fetcher/tmp/telethon-client-0.0.9.tar.gz]
+[2024-05-27 20:38:32] INFO root fetch - processPackages [telethon-client]: Remove: archive file [/home/abi/fetcher/tmp/telethon-client-0.1.0.tar.gz]
+[2024-05-27 20:38:32] INFO root fetch - main [MainThread]: End processing [telethon-client]: success
+[2024-05-27 20:38:33] INFO root fetch - processPackages [dh-potluck]: Remove: archive file [/home/abi/fetcher/tmp/dh-potluck-1.9.0.tar.gz]
+[2024-05-27 20:38:33] INFO root fetch - processPackages [dh-potluck]: Remove: archive file [/home/abi/fetcher/tmp/dh-potluck-1.9.1.tar.gz]
+[2024-05-27 20:38:33] INFO root fetch - main [MainThread]: End processing [dh-potluck]: success
+[2024-05-27 20:38:33] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.8.tar.gz]
+[2024-05-27 20:38:33] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.9.tar.gz]
+[2024-05-27 20:38:33] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2024-05-27 20:38:33] INFO root fetch - main [MainThread]: Store serial: [23399955]
