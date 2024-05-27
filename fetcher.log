@@ -18217,3 +18217,63 @@ EOFError: EOF read where object expected
 [2024-05-27 16:11:21] INFO root fetch - processPackages [fermo-core]: Remove: archive file [/home/abi/fetcher/tmp/fermo_core-0.2.1.tar.gz]
 [2024-05-27 16:11:21] INFO root fetch - main [MainThread]: End processing [fermo-core]: success
 [2024-05-27 16:11:21] INFO root fetch - main [MainThread]: Store serial: [23396809]
+[2024-05-27 16:13:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23396809]
+[2024-05-27 16:13:30] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-27 16:13:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dcicutils
+[2024-05-27 16:13:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: CADET-RDM
+[2024-05-27 16:13:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: exploitfarm
+[2024-05-27 16:13:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: digitalhub-runtime-python
+[2024-05-27 16:13:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: liveflask
+[2024-05-27 16:13:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dspy-ai
+[2024-05-27 16:13:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Donut-LLM-Tools
+[2024-05-27 16:13:31] WARNING root fetch - processPackages [digitalhub-runtime-python]: Skipping, unable to determine old version
+[2024-05-27 16:13:31] INFO root fetch - main [MainThread]: End processing [digitalhub-runtime-python] error
+[2024-05-27 16:13:31] INFO root fetch - processPackages [liveflask]: New version: [1.0.9rc6] Old Version: [1.0.9rc5]
+[2024-05-27 16:13:31] INFO root fetch - processPackages [CADET-RDM]: New version: [0.0.9] Old Version: [0.0.6]
+[2024-05-27 16:13:31] INFO root fetch - processPackages [dcicutils]: New version: [8.9.0.0b0] Old Version: [8.8.6.1b8]
+[2024-05-27 16:13:31] INFO root fetch - processPackages [liveflask]: Downloading https://files.pythonhosted.org/packages/4f/f7/9fa1b550df92979d3653b69ad0f8af57358884c417fc600ac326b87f6266/liveflask-1.0.9rc5.tar.gz
+[2024-05-27 16:13:31] INFO root fetch - processPackages [exploitfarm]: New version: [0.1.0] Old Version: [0.0.0]
+[2024-05-27 16:13:31] INFO root fetch - processPackages [Donut-LLM-Tools]: New version: [24.5.27.2] Old Version: [24.5.27]
+[2024-05-27 16:13:31] INFO root fetch - processPackages [CADET-RDM]: Downloading https://files.pythonhosted.org/packages/b8/6e/f505128df1dfe596bc3fd6231cab925531191e708a6d398e062915715376/CADET-RDM-0.0.6.tar.gz
+[2024-05-27 16:13:31] INFO root fetch - processPackages [dspy-ai]: New version: [2.5.0rc1] Old Version: [2.4.9]
+[2024-05-27 16:13:31] INFO root fetch - processPackages [dcicutils]: Downloading https://files.pythonhosted.org/packages/1f/9d/6bc6ec8cb9a509132abc6a2d6ba9badcc617468fe719f3a4ad74592ba472/dcicutils-8.8.6.1b8.tar.gz
+[2024-05-27 16:13:31] INFO root fetch - processPackages [dspy-ai]: Downloading https://files.pythonhosted.org/packages/7b/53/9abeeb61d73ace10c70973c21ff126b5aab30b89ac6c33562a7f7459a889/dspy-ai-2.4.9.tar.gz
+[2024-05-27 16:13:31] INFO root fetch - processPackages [exploitfarm]: Downloading https://files.pythonhosted.org/packages/08/45/17b60b8ac766c99b398ed60be003e30f9b8d29f4c0e9aad5f76c690cabae/exploitfarm-0.0.0.tar.gz
+[2024-05-27 16:13:31] INFO root fetch - processPackages [Donut-LLM-Tools]: Downloading https://files.pythonhosted.org/packages/be/b3/76069d6bdfe7c6c37f2f8abb213c93c42fcef524a17f4689cdfee4c3fc79/donut_llm_tools-24.5.27.tar.gz
+[2024-05-27 16:13:31] INFO root fetch - processPackages [CADET-RDM]: Downloading https://files.pythonhosted.org/packages/8c/4f/cc6992d3cee849248ebcafed89c42d8801d905fc23651ef92b0ef0a83cb5/CADET-RDM-0.0.9.tar.gz
+[2024-05-27 16:13:31] INFO root fetch - processPackages [liveflask]: Downloading https://files.pythonhosted.org/packages/c9/85/db794ba1759ab4e9865cd2537ac486073560649c795fb7212df21fe29eaf/liveflask-1.0.9rc6.tar.gz
+[2024-05-27 16:13:31] INFO root fetch - processPackages [CADET-RDM]: executing diffoscope
+[2024-05-27 16:13:31] INFO root fetch - processPackages [CADET-RDM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CADET-RDM-0.0.6.tar.gz tmp/CADET-RDM-0.0.9.tar.gz --markdown 20240527/C/CADET-RDM/0.0.6-0.0.9/README.md --exclude *.pyd
+[2024-05-27 16:13:31] INFO root fetch - processPackages [dcicutils]: Downloading https://files.pythonhosted.org/packages/5b/de/ac87d1c9583f507046be7724343035a3e363814633eea93612ca13f3adba/dcicutils-8.9.0.0b0.tar.gz
+[2024-05-27 16:13:31] INFO root fetch - processPackages [liveflask]: executing diffoscope
+[2024-05-27 16:13:31] INFO root fetch - processPackages [liveflask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liveflask-1.0.9rc5.tar.gz tmp/liveflask-1.0.9rc6.tar.gz --markdown 20240527/l/liveflask/1.0.9rc5-1.0.9rc6/README.md --exclude *.pyd
+[2024-05-27 16:13:31] INFO root fetch - processPackages [dspy-ai]: Downloading https://files.pythonhosted.org/packages/e2/0e/c1a7393de3fb92a7e2d733a1d7534e21f8f96471a6e34ed399f69c4bbfe6/dspy_ai-2.5.0rc1.tar.gz
+[2024-05-27 16:13:31] INFO root fetch - processPackages [exploitfarm]: Downloading https://files.pythonhosted.org/packages/65/9e/a3b14a64aa6e5d32bcb57eb95f7d61a7ac4a25c89b4a44c3c530d99eb834/exploitfarm-0.1.0.tar.gz
+[2024-05-27 16:13:31] INFO root fetch - processPackages [Donut-LLM-Tools]: Downloading https://files.pythonhosted.org/packages/54/d0/e6ca6f136d14bac0fc79ef89f80627dd75516c9795b13f879ed2bcfe1be1/donut_llm_tools-24.5.27.2.tar.gz
+[2024-05-27 16:13:31] INFO root fetch - processPackages [dcicutils]: executing diffoscope
+[2024-05-27 16:13:31] INFO root fetch - processPackages [dcicutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcicutils-8.8.6.1b8.tar.gz tmp/dcicutils-8.9.0.0b0.tar.gz --markdown 20240527/d/dcicutils/8.8.6.1b8-8.9.0.0b0/README.md --exclude *.pyd
+[2024-05-27 16:13:32] INFO root fetch - processPackages [exploitfarm]: executing diffoscope
+[2024-05-27 16:13:32] INFO root fetch - processPackages [exploitfarm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exploitfarm-0.0.0.tar.gz tmp/exploitfarm-0.1.0.tar.gz --markdown 20240527/e/exploitfarm/0.0.0-0.1.0/README.md --exclude *.pyd
+[2024-05-27 16:13:32] INFO root fetch - processPackages [Donut-LLM-Tools]: executing diffoscope
+[2024-05-27 16:13:32] INFO root fetch - processPackages [Donut-LLM-Tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/donut_llm_tools-24.5.27.tar.gz tmp/donut_llm_tools-24.5.27.2.tar.gz --markdown 20240527/D/Donut-LLM-Tools/24.5.27-24.5.27.2/README.md --exclude *.pyd
+[2024-05-27 16:13:32] INFO root fetch - processPackages [dspy-ai]: executing diffoscope
+[2024-05-27 16:13:32] INFO root fetch - processPackages [dspy-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dspy-ai-2.4.9.tar.gz tmp/dspy_ai-2.5.0rc1.tar.gz --markdown 20240527/d/dspy-ai/2.4.9-2.5.0rc1/README.md --exclude *.pyd
+[2024-05-27 16:13:32] INFO root fetch - processPackages [CADET-RDM]: Remove: archive file [/home/abi/fetcher/tmp/CADET-RDM-0.0.6.tar.gz]
+[2024-05-27 16:13:32] INFO root fetch - processPackages [CADET-RDM]: Remove: archive file [/home/abi/fetcher/tmp/CADET-RDM-0.0.9.tar.gz]
+[2024-05-27 16:13:32] INFO root fetch - main [MainThread]: End processing [CADET-RDM]: success
+[2024-05-27 16:13:32] INFO root fetch - processPackages [exploitfarm]: Remove: archive file [/home/abi/fetcher/tmp/exploitfarm-0.0.0.tar.gz]
+[2024-05-27 16:13:32] INFO root fetch - processPackages [exploitfarm]: Remove: archive file [/home/abi/fetcher/tmp/exploitfarm-0.1.0.tar.gz]
+[2024-05-27 16:13:32] INFO root fetch - main [MainThread]: End processing [exploitfarm]: success
+[2024-05-27 16:13:32] INFO root fetch - processPackages [liveflask]: Remove: archive file [/home/abi/fetcher/tmp/liveflask-1.0.9rc5.tar.gz]
+[2024-05-27 16:13:32] INFO root fetch - processPackages [liveflask]: Remove: archive file [/home/abi/fetcher/tmp/liveflask-1.0.9rc6.tar.gz]
+[2024-05-27 16:13:32] INFO root fetch - main [MainThread]: End processing [liveflask]: success
+[2024-05-27 16:13:32] INFO root fetch - processPackages [Donut-LLM-Tools]: Remove: archive file [/home/abi/fetcher/tmp/donut_llm_tools-24.5.27.tar.gz]
+[2024-05-27 16:13:32] INFO root fetch - processPackages [Donut-LLM-Tools]: Remove: archive file [/home/abi/fetcher/tmp/donut_llm_tools-24.5.27.2.tar.gz]
+[2024-05-27 16:13:32] INFO root fetch - main [MainThread]: End processing [Donut-LLM-Tools]: success
+[2024-05-27 16:13:32] INFO root fetch - processPackages [dcicutils]: Remove: archive file [/home/abi/fetcher/tmp/dcicutils-8.8.6.1b8.tar.gz]
+[2024-05-27 16:13:32] INFO root fetch - processPackages [dcicutils]: Remove: archive file [/home/abi/fetcher/tmp/dcicutils-8.9.0.0b0.tar.gz]
+[2024-05-27 16:13:32] INFO root fetch - main [MainThread]: End processing [dcicutils]: success
+[2024-05-27 16:13:33] INFO root fetch - processPackages [dspy-ai]: Remove: archive file [/home/abi/fetcher/tmp/dspy-ai-2.4.9.tar.gz]
+[2024-05-27 16:13:33] INFO root fetch - processPackages [dspy-ai]: Remove: archive file [/home/abi/fetcher/tmp/dspy_ai-2.5.0rc1.tar.gz]
+[2024-05-27 16:13:33] INFO root fetch - main [MainThread]: End processing [dspy-ai]: success
+[2024-05-27 16:13:33] INFO root fetch - main [MainThread]: Store serial: [23396834]
