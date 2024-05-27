@@ -17036,3 +17036,78 @@ EOFError: EOF read where object expected
 [2024-05-27 15:32:32] INFO root fetch - processPackages [irispie]: Remove: archive file [/home/abi/fetcher/tmp/irispie-0.9.0.tar.gz]
 [2024-05-27 15:32:32] INFO root fetch - main [MainThread]: End processing [irispie]: success
 [2024-05-27 15:32:32] INFO root fetch - main [MainThread]: Store serial: [23396261]
+[2024-05-27 15:34:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23396261]
+[2024-05-27 15:34:42] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-27 15:34:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: d3vis-ipynb
+[2024-05-27 15:34:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: py-avro-schema
+[2024-05-27 15:34:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: isystem.connect
+[2024-05-27 15:34:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: yeref
+[2024-05-27 15:34:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ble-serial
+[2024-05-27 15:34:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: python-filewrap
+[2024-05-27 15:34:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: HalChat
+[2024-05-27 15:34:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dicio-py
+[2024-05-27 15:34:42] INFO root fetch - processPackages [dicio-py]: New version: [1.6] Old Version: [1.5]
+[2024-05-27 15:34:42] INFO root fetch - processPackages [HalChat]: New version: [0.0.3.1] Old Version: [0.0.3]
+[2024-05-27 15:34:42] INFO root fetch - processPackages [yeref]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-27 15:34:42] INFO root fetch - processPackages [d3vis-ipynb]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-05-27 15:34:42] INFO root fetch - processPackages [py-avro-schema]: New version: [3.7.1] Old Version: [3.7.0]
+[2024-05-27 15:34:42] INFO root fetch - processPackages [python-filewrap]: New version: [0.1] Old Version: [0.0.8]
+[2024-05-27 15:34:42] INFO root fetch - processPackages [dicio-py]: Downloading https://files.pythonhosted.org/packages/c9/d1/6116fb63910e0af371715ae70c9f3f3cda0d954a9ef5adf48e8d8ce8eef0/dicio_py-1.5.tar.gz
+[2024-05-27 15:34:42] INFO root fetch - processPackages [HalChat]: Downloading https://files.pythonhosted.org/packages/42/a3/448fa742b1ff1a2ff58a6b8b371c25a0b1e614dc7b60aea01abcfa4f3a3b/halchat-0.0.3.tar.gz
+[2024-05-27 15:34:42] INFO root fetch - processPackages [ble-serial]: New version: [2.7.2] Old Version: [2.7.1]
+[2024-05-27 15:34:42] INFO root fetch - processPackages [isystem.connect]: New version: [9.21.99.0] Old Version: [9.21.98.0]
+[2024-05-27 15:34:42] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/ec/cb/204e6fbe233bbb61cf29c1b491e8c638c8a843edc47fb4e1d8cc8c26608c/yeref-0.9.8.tar.gz
+[2024-05-27 15:34:43] INFO root fetch - processPackages [d3vis-ipynb]: Downloading https://files.pythonhosted.org/packages/24/69/d57ed88f62239765695761c10f76244ad875dcc676d58cda4f56f7043bf2/d3vis_ipynb-0.2.2.tar.gz
+[2024-05-27 15:34:43] INFO root fetch - processPackages [python-filewrap]: Downloading https://files.pythonhosted.org/packages/fb/17/2fbe7b49f2ac8a35e38cf235edf864a9a14c4d0160c8d4c0b5ead937d16c/python_filewrap-0.0.8.tar.gz
+[2024-05-27 15:34:43] INFO root fetch - processPackages [py-avro-schema]: Downloading https://files.pythonhosted.org/packages/43/52/811e5813347e061330a529930fa9c81073787f47a1448312b57c8bc431bb/py_avro_schema-3.7.0.tar.gz
+[2024-05-27 15:34:43] INFO root fetch - processPackages [ble-serial]: Downloading https://files.pythonhosted.org/packages/4a/82/b2fed01dd95f4d1bdde309be1691bb1bcb21239bfe3733f14817a079989b/ble-serial-2.7.1.tar.gz
+[2024-05-27 15:34:43] INFO root fetch - processPackages [isystem.connect]: Downloading https://files.pythonhosted.org/packages/5d/9f/30b1143a09e60e7a4ac2753bf53d1a1dd6b6de276c7b3b3141d9acc535c7/isystem.connect-9.21.98.0-cp39-none-win_amd64.whl
+[2024-05-27 15:34:43] INFO root fetch - processPackages [dicio-py]: Downloading https://files.pythonhosted.org/packages/b9/77/55f855390db9edcd96671c9c1b46a82e63f8f0695f359d698142fc0f9146/dicio_py-1.6.tar.gz
+[2024-05-27 15:34:43] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/01/13/0f11bb3dfb27aaf16ed48b0046f50ac65b1fde32662fbc314d53e2558b2d/yeref-0.9.9.tar.gz
+[2024-05-27 15:34:43] INFO root fetch - processPackages [HalChat]: Downloading https://files.pythonhosted.org/packages/8a/1e/6b5392b6a907a8446620f4f2eeae258b773018771c40e301bf2b4ac0ece6/halchat-0.0.3.1.tar.gz
+[2024-05-27 15:34:43] INFO root fetch - processPackages [dicio-py]: executing diffoscope
+[2024-05-27 15:34:43] INFO root fetch - processPackages [dicio-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dicio_py-1.5.tar.gz tmp/dicio_py-1.6.tar.gz --markdown 20240527/d/dicio-py/1.5-1.6/README.md --exclude *.pyd
+[2024-05-27 15:34:43] INFO root fetch - processPackages [d3vis-ipynb]: Downloading https://files.pythonhosted.org/packages/7c/68/c9bcba7a76d400b2ae85708e21e162c28664b9535aa9be09ea6aa38a3cbc/d3vis_ipynb-0.2.3.tar.gz
+[2024-05-27 15:34:43] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2024-05-27 15:34:43] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.9.8.tar.gz tmp/yeref-0.9.9.tar.gz --markdown 20240527/y/yeref/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-27 15:34:43] INFO root fetch - processPackages [HalChat]: executing diffoscope
+[2024-05-27 15:34:43] INFO root fetch - processPackages [HalChat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/halchat-0.0.3.tar.gz tmp/halchat-0.0.3.1.tar.gz --markdown 20240527/H/HalChat/0.0.3-0.0.3.1/README.md --exclude *.pyd
+[2024-05-27 15:34:43] INFO root fetch - processPackages [python-filewrap]: Downloading https://files.pythonhosted.org/packages/f0/9d/e21ee18a549a2eb583979575eddc31406571ad0327791a952a9c3fa2c52d/python_filewrap-0.1.tar.gz
+[2024-05-27 15:34:43] INFO root fetch - processPackages [ble-serial]: Downloading https://files.pythonhosted.org/packages/2c/e0/b907bce8620ee0a261cc5aae614b703ec8ec640ce58b16417b8c7e85a271/ble_serial-2.7.2.tar.gz
+[2024-05-27 15:34:43] INFO root fetch - processPackages [py-avro-schema]: Downloading https://files.pythonhosted.org/packages/5f/c0/fcc2cd7b849f9998bd49915f742617407aa52478265f15a7d96d2bc99c89/py_avro_schema-3.7.1.tar.gz
+[2024-05-27 15:34:43] INFO root fetch - processPackages [d3vis-ipynb]: executing diffoscope
+[2024-05-27 15:34:43] INFO root fetch - processPackages [d3vis-ipynb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/d3vis_ipynb-0.2.2.tar.gz tmp/d3vis_ipynb-0.2.3.tar.gz --markdown 20240527/d/d3vis-ipynb/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-05-27 15:34:43] INFO root fetch - processPackages [python-filewrap]: executing diffoscope
+[2024-05-27 15:34:43] INFO root fetch - processPackages [python-filewrap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_filewrap-0.0.8.tar.gz tmp/python_filewrap-0.1.tar.gz --markdown 20240527/p/python-filewrap/0.0.8-0.1/README.md --exclude *.pyd
+[2024-05-27 15:34:43] INFO root fetch - processPackages [ble-serial]: executing diffoscope
+[2024-05-27 15:34:43] INFO root fetch - processPackages [ble-serial]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ble-serial-2.7.1.tar.gz tmp/ble_serial-2.7.2.tar.gz --markdown 20240527/b/ble-serial/2.7.1-2.7.2/README.md --exclude *.pyd
+[2024-05-27 15:34:43] INFO root fetch - processPackages [py-avro-schema]: executing diffoscope
+[2024-05-27 15:34:43] INFO root fetch - processPackages [py-avro-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_avro_schema-3.7.0.tar.gz tmp/py_avro_schema-3.7.1.tar.gz --markdown 20240527/p/py-avro-schema/3.7.0-3.7.1/README.md --exclude *.pyd
+[2024-05-27 15:34:44] INFO root fetch - processPackages [dicio-py]: Remove: archive file [/home/abi/fetcher/tmp/dicio_py-1.5.tar.gz]
+[2024-05-27 15:34:44] INFO root fetch - processPackages [dicio-py]: Remove: archive file [/home/abi/fetcher/tmp/dicio_py-1.6.tar.gz]
+[2024-05-27 15:34:44] INFO root fetch - main [MainThread]: End processing [dicio-py]: success
+[2024-05-27 15:34:44] INFO root fetch - processPackages [HalChat]: Remove: archive file [/home/abi/fetcher/tmp/halchat-0.0.3.tar.gz]
+[2024-05-27 15:34:44] INFO root fetch - processPackages [HalChat]: Remove: archive file [/home/abi/fetcher/tmp/halchat-0.0.3.1.tar.gz]
+[2024-05-27 15:34:44] INFO root fetch - main [MainThread]: End processing [HalChat]: success
+[2024-05-27 15:34:44] INFO root fetch - processPackages [python-filewrap]: Remove: archive file [/home/abi/fetcher/tmp/python_filewrap-0.0.8.tar.gz]
+[2024-05-27 15:34:44] INFO root fetch - processPackages [python-filewrap]: Remove: archive file [/home/abi/fetcher/tmp/python_filewrap-0.1.tar.gz]
+[2024-05-27 15:34:44] INFO root fetch - main [MainThread]: End processing [python-filewrap]: success
+[2024-05-27 15:34:44] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.8.tar.gz]
+[2024-05-27 15:34:44] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.9.tar.gz]
+[2024-05-27 15:34:44] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2024-05-27 15:34:44] INFO root fetch - processPackages [py-avro-schema]: Remove: archive file [/home/abi/fetcher/tmp/py_avro_schema-3.7.0.tar.gz]
+[2024-05-27 15:34:44] INFO root fetch - processPackages [py-avro-schema]: Remove: archive file [/home/abi/fetcher/tmp/py_avro_schema-3.7.1.tar.gz]
+[2024-05-27 15:34:44] INFO root fetch - main [MainThread]: End processing [py-avro-schema]: success
+[2024-05-27 15:34:44] INFO root fetch - processPackages [ble-serial]: Remove: archive file [/home/abi/fetcher/tmp/ble-serial-2.7.1.tar.gz]
+[2024-05-27 15:34:44] INFO root fetch - processPackages [ble-serial]: Remove: archive file [/home/abi/fetcher/tmp/ble_serial-2.7.2.tar.gz]
+[2024-05-27 15:34:44] INFO root fetch - main [MainThread]: End processing [ble-serial]: success
+[2024-05-27 15:34:44] INFO root fetch - processPackages [isystem.connect]: Downloading https://files.pythonhosted.org/packages/27/b1/d981879b837518117ae5b16714ad63be1c2b0214805deb0eac63c5cd22f9/isystem.connect-9.21.99.0-cp39-none-win_amd64.whl
+[2024-05-27 15:34:45] INFO root fetch - processPackages [isystem.connect]: executing diffoscope
+[2024-05-27 15:34:45] INFO root fetch - processPackages [isystem.connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/isystem.connect-9.21.98.0-cp39-none-win_amd64.whl.zip tmp/isystem.connect-9.21.99.0-cp39-none-win_amd64.whl.zip --markdown 20240527/i/isystem.connect/9.21.98.0-9.21.99.0/README.md --exclude *.pyd
+[2024-05-27 15:34:46] INFO root fetch - processPackages [isystem.connect]: Remove: archive file [/home/abi/fetcher/tmp/isystem.connect-9.21.98.0-cp39-none-win_amd64.whl.zip]
+[2024-05-27 15:34:46] INFO root fetch - processPackages [isystem.connect]: Remove: archive file [/home/abi/fetcher/tmp/isystem.connect-9.21.99.0-cp39-none-win_amd64.whl.zip]
+[2024-05-27 15:34:46] INFO root fetch - main [MainThread]: End processing [isystem.connect]: success
+[2024-05-27 15:34:46] INFO root fetch - processPackages [d3vis-ipynb]: Remove: archive file [/home/abi/fetcher/tmp/d3vis_ipynb-0.2.2.tar.gz]
+[2024-05-27 15:34:46] INFO root fetch - processPackages [d3vis-ipynb]: Remove: archive file [/home/abi/fetcher/tmp/d3vis_ipynb-0.2.3.tar.gz]
+[2024-05-27 15:34:46] INFO root fetch - main [MainThread]: End processing [d3vis-ipynb]: success
+[2024-05-27 15:34:46] INFO root fetch - main [MainThread]: Store serial: [23396293]
