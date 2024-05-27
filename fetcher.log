@@ -13630,3 +13630,50 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 13:10:33] INFO root fetch - processPackages [ultralytics-rknn]: Remove: archive file [/home/abi/fetcher/tmp/ultralytics_rknn-8.0.151-py3-none-any.whl.zip]
 [2024-05-27 13:10:33] INFO root fetch - main [MainThread]: End processing [ultralytics-rknn]: success
 [2024-05-27 13:10:33] INFO root fetch - main [MainThread]: Store serial: [23394560]
+[2024-05-27 13:12:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23394560]
+[2024-05-27 13:12:42] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-27 13:12:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ximu3
+[2024-05-27 13:12:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: telethon-client
+[2024-05-27 13:12:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tonpy-dev
+[2024-05-27 13:12:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: biobb-dna
+[2024-05-27 13:12:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: FastHPOCR
+[2024-05-27 13:12:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: spider-python
+[2024-05-27 13:12:42] INFO root fetch - processPackages [FastHPOCR]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-27 13:12:42] INFO root fetch - processPackages [tonpy-dev]: New version: [0.0.0.4.4a1] Old Version: [0.0.0.4.3rc1]
+[2024-05-27 13:12:42] WARNING root fetch - processPackages [telethon-client]: Skipping, unable to determine old version
+[2024-05-27 13:12:42] INFO root fetch - main [MainThread]: End processing [telethon-client] error
+[2024-05-27 13:12:42] INFO root fetch - processPackages [ximu3]: New version: [1.4.5] Old Version: [1.4.4]
+[2024-05-27 13:12:42] INFO root fetch - processPackages [FastHPOCR]: Downloading https://files.pythonhosted.org/packages/63/41/3aeb922ca13b08e5266a5ac83bd163aad7a0d0516c0392a59542c5422280/FastHPOCR-0.1.1.tar.gz
+[2024-05-27 13:12:42] INFO root fetch - processPackages [spider-python]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-27 13:12:43] INFO root fetch - processPackages [tonpy-dev]: Downloading https://files.pythonhosted.org/packages/14/48/91972836ffb713d23563146667286a527232dd795545fae0e06aafda1efa/tonpy_dev-0.0.0.4.3rc1-cp39-cp39-manylinux2014_x86_64.whl
+[2024-05-27 13:12:43] INFO root fetch - processPackages [biobb-dna]: New version: [4.2.0] Old Version: [4.1.0]
+[2024-05-27 13:12:43] WARNING root fetch - processPackages [tonpy-dev]: Skipping package: exceeds size limit 11301622>=10485760
+[2024-05-27 13:12:43] INFO root fetch - main [MainThread]: End processing [tonpy-dev] error
+[2024-05-27 13:12:43] INFO root fetch - processPackages [ximu3]: Downloading https://files.pythonhosted.org/packages/a6/9a/30e33d580e683e1ce800f21434464fbaf9e8e212d0a2531e4fff3be5bfc8/ximu3-1.4.4-cp312-cp312-win_amd64.whl
+[2024-05-27 13:12:43] INFO root fetch - processPackages [biobb-dna]: Downloading https://files.pythonhosted.org/packages/68/53/b24397eff3a7d7fcf3879d395e60304feb10a571024ca8f1924ad2fedeec/biobb_dna-4.1.0.tar.gz
+[2024-05-27 13:12:43] INFO root fetch - processPackages [spider-python]: Downloading https://files.pythonhosted.org/packages/c0/62/2acb1e4739798c7db884d3b23b8746d003aaf760d7a97a7afb460afd6263/spider-python-0.1.8.tar.gz
+[2024-05-27 13:12:43] INFO root fetch - processPackages [FastHPOCR]: Downloading https://files.pythonhosted.org/packages/7f/42/1badd041657dba7e979bbbe6f33fdde92a168534b02b0a0c3023e033f6f3/FastHPOCR-0.1.2.tar.gz
+[2024-05-27 13:12:43] INFO root fetch - processPackages [biobb-dna]: Downloading https://files.pythonhosted.org/packages/6a/82/fa879d949eb9e7abafa4bb82af940c224fc4e6e19b613d541c2ce048c2cd/biobb_dna-4.2.0.tar.gz
+[2024-05-27 13:12:43] INFO root fetch - processPackages [spider-python]: Downloading https://files.pythonhosted.org/packages/f9/06/20c7dbf9c08147211dabbf15985a904ed993a798be09b41615911ef07762/spider-python-0.1.9.tar.gz
+[2024-05-27 13:12:43] INFO root fetch - processPackages [ximu3]: Downloading https://files.pythonhosted.org/packages/4d/7c/fbdabc33fbe595e2e4b1c047ecf23166f23c9604bcf57ccc058adde9b776/ximu3-1.4.5-cp312-cp312-win_amd64.whl
+[2024-05-27 13:12:43] INFO root fetch - processPackages [FastHPOCR]: executing diffoscope
+[2024-05-27 13:12:43] INFO root fetch - processPackages [FastHPOCR]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FastHPOCR-0.1.1.tar.gz tmp/FastHPOCR-0.1.2.tar.gz --markdown 20240527/F/FastHPOCR/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-27 13:12:43] INFO root fetch - processPackages [biobb-dna]: executing diffoscope
+[2024-05-27 13:12:43] INFO root fetch - processPackages [biobb-dna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biobb_dna-4.1.0.tar.gz tmp/biobb_dna-4.2.0.tar.gz --markdown 20240527/b/biobb-dna/4.1.0-4.2.0/README.md --exclude *.pyd
+[2024-05-27 13:12:43] INFO root fetch - processPackages [spider-python]: executing diffoscope
+[2024-05-27 13:12:43] INFO root fetch - processPackages [spider-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spider-python-0.1.8.tar.gz tmp/spider-python-0.1.9.tar.gz --markdown 20240527/s/spider-python/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-27 13:12:43] INFO root fetch - processPackages [ximu3]: executing diffoscope
+[2024-05-27 13:12:43] INFO root fetch - processPackages [ximu3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ximu3-1.4.4-cp312-cp312-win_amd64.whl.zip tmp/ximu3-1.4.5-cp312-cp312-win_amd64.whl.zip --markdown 20240527/x/ximu3/1.4.4-1.4.5/README.md --exclude *.pyd
+[2024-05-27 13:12:44] INFO root fetch - processPackages [ximu3]: Remove: archive file [/home/abi/fetcher/tmp/ximu3-1.4.4-cp312-cp312-win_amd64.whl.zip]
+[2024-05-27 13:12:44] INFO root fetch - processPackages [ximu3]: Remove: archive file [/home/abi/fetcher/tmp/ximu3-1.4.5-cp312-cp312-win_amd64.whl.zip]
+[2024-05-27 13:12:44] INFO root fetch - main [MainThread]: End processing [ximu3]: success
+[2024-05-27 13:12:44] INFO root fetch - processPackages [biobb-dna]: Remove: archive file [/home/abi/fetcher/tmp/biobb_dna-4.1.0.tar.gz]
+[2024-05-27 13:12:44] INFO root fetch - processPackages [biobb-dna]: Remove: archive file [/home/abi/fetcher/tmp/biobb_dna-4.2.0.tar.gz]
+[2024-05-27 13:12:44] INFO root fetch - main [MainThread]: End processing [biobb-dna]: success
+[2024-05-27 13:12:44] INFO root fetch - processPackages [spider-python]: Remove: archive file [/home/abi/fetcher/tmp/spider-python-0.1.8.tar.gz]
+[2024-05-27 13:12:44] INFO root fetch - processPackages [spider-python]: Remove: archive file [/home/abi/fetcher/tmp/spider-python-0.1.9.tar.gz]
+[2024-05-27 13:12:44] INFO root fetch - main [MainThread]: End processing [spider-python]: success
+[2024-05-27 13:12:44] INFO root fetch - processPackages [FastHPOCR]: Remove: archive file [/home/abi/fetcher/tmp/FastHPOCR-0.1.1.tar.gz]
+[2024-05-27 13:12:44] INFO root fetch - processPackages [FastHPOCR]: Remove: archive file [/home/abi/fetcher/tmp/FastHPOCR-0.1.2.tar.gz]
+[2024-05-27 13:12:44] INFO root fetch - main [MainThread]: End processing [FastHPOCR]: success
+[2024-05-27 13:12:44] INFO root fetch - main [MainThread]: Store serial: [23394596]
