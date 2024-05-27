@@ -1545,3 +1545,32 @@
 [2024-05-27 02:08:24] INFO root fetch - processPackages [raindrop-io-py]: Remove: archive file [/home/abi/fetcher/tmp/raindrop_io_py-0.2.5.tar.gz]
 [2024-05-27 02:08:24] INFO root fetch - main [MainThread]: End processing [raindrop-io-py]: success
 [2024-05-27 02:08:24] INFO root fetch - main [MainThread]: Store serial: [23388900]
+[2024-05-27 02:10:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23388900]
+[2024-05-27 02:10:34] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-27 02:10:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-common
+[2024-05-27 02:10:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-amazon-chime-resources
+[2024-05-27 02:10:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: quest-decoding
+[2024-05-27 02:10:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: giskard-hub
+[2024-05-27 02:10:34] INFO root fetch - processPackages [quest-decoding]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-27 02:10:34] INFO root fetch - processPackages [cdk-common]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-05-27 02:10:34] INFO root fetch - processPackages [quest-decoding]: Downloading https://files.pythonhosted.org/packages/84/36/f9644650bd0463143adc9319506ae0936df1fa77ffa4f00b2352cc6bf83d/quest-decoding-1.0.8.tar.gz
+[2024-05-27 02:10:34] WARNING root fetch - processPackages [giskard-hub]: Skipping, unable to determine old version
+[2024-05-27 02:10:34] INFO root fetch - main [MainThread]: End processing [giskard-hub] error
+[2024-05-27 02:10:34] INFO root fetch - processPackages [cdk-amazon-chime-resources]: New version: [3.2.9] Old Version: [3.2.8]
+[2024-05-27 02:10:34] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/f3/30/796e7080e9a9b293ccf386b0d95f40dde8e214e0415d2c59be9c661105a9/cdk-common-2.0.98.tar.gz
+[2024-05-27 02:10:34] INFO root fetch - processPackages [quest-decoding]: Downloading https://files.pythonhosted.org/packages/d6/9d/fca54e398d6df81e0c62852a021b6be44c0be663204ba56b510cebe4d48c/quest-decoding-1.0.9.tar.gz
+[2024-05-27 02:10:34] INFO root fetch - processPackages [cdk-amazon-chime-resources]: Downloading https://files.pythonhosted.org/packages/53/8e/af4ea53f622275d6ec0f84caa323cfc63e80989bde3151c2291175f43f4c/cdk-amazon-chime-resources-3.2.8.tar.gz
+[2024-05-27 02:10:34] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/11/10/ca183f281275ec945ede082d9491c0bb5bfb9152c437124c86e37cba7079/cdk-common-2.0.99.tar.gz
+[2024-05-27 02:10:34] INFO root fetch - processPackages [quest-decoding]: executing diffoscope
+[2024-05-27 02:10:34] INFO root fetch - processPackages [quest-decoding]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quest-decoding-1.0.8.tar.gz tmp/quest-decoding-1.0.9.tar.gz --markdown 20240527/q/quest-decoding/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-27 02:10:34] WARNING root fetch - processPackages [cdk-amazon-chime-resources]: Skipping package: exceeds size limit 15472143>=10485760
+[2024-05-27 02:10:34] INFO root fetch - main [MainThread]: End processing [cdk-amazon-chime-resources] error
+[2024-05-27 02:10:35] INFO root fetch - processPackages [quest-decoding]: Remove: archive file [/home/abi/fetcher/tmp/quest-decoding-1.0.8.tar.gz]
+[2024-05-27 02:10:35] INFO root fetch - processPackages [quest-decoding]: Remove: archive file [/home/abi/fetcher/tmp/quest-decoding-1.0.9.tar.gz]
+[2024-05-27 02:10:35] INFO root fetch - main [MainThread]: End processing [quest-decoding]: success
+[2024-05-27 02:10:35] INFO root fetch - processPackages [cdk-common]: executing diffoscope
+[2024-05-27 02:10:35] INFO root fetch - processPackages [cdk-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-common-2.0.98.tar.gz tmp/cdk-common-2.0.99.tar.gz --markdown 20240527/c/cdk-common/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-05-27 02:10:36] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.98.tar.gz]
+[2024-05-27 02:10:36] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.99.tar.gz]
+[2024-05-27 02:10:36] INFO root fetch - main [MainThread]: End processing [cdk-common]: success
+[2024-05-27 02:10:36] INFO root fetch - main [MainThread]: Store serial: [23388915]
