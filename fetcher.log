@@ -5666,3 +5666,24 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 06:53:08] INFO root fetch - processPackages [wellbeing-calculator]: Remove: archive file [/home/abi/fetcher/tmp/wellbeing_calculator-0.3.tar.gz]
 [2024-05-27 06:53:08] INFO root fetch - main [MainThread]: End processing [wellbeing-calculator]: success
 [2024-05-27 06:53:08] INFO root fetch - main [MainThread]: Store serial: [23390669]
+[2024-05-27 06:55:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23390669]
+[2024-05-27 06:55:16] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-27 06:55:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: autopipeline
+[2024-05-27 06:55:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hklpy2
+[2024-05-27 06:55:16] INFO root fetch - processPackages [hklpy2]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-27 06:55:16] INFO root fetch - processPackages [autopipeline]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-05-27 06:55:17] INFO root fetch - processPackages [hklpy2]: Downloading https://files.pythonhosted.org/packages/82/8d/5c9570a4a75253dcdf327c259c5c6c07c03b52cb1d033e98aaaa64a7124e/hklpy2-0.0.8.tar.gz
+[2024-05-27 06:55:17] INFO root fetch - processPackages [autopipeline]: Downloading https://files.pythonhosted.org/packages/5f/0f/9eaf209b6d540115afdc9ae31de828df0234756277bceae49a4d1a0ea8b3/autopipeline-0.1.98.tar.gz
+[2024-05-27 06:55:17] INFO root fetch - processPackages [hklpy2]: Downloading https://files.pythonhosted.org/packages/53/9b/f66f707afd80d550e6ae3a7275571b4ee8983e8dcdfdd13fc56f085c695d/hklpy2-0.0.9.tar.gz
+[2024-05-27 06:55:17] INFO root fetch - processPackages [autopipeline]: Downloading https://files.pythonhosted.org/packages/5f/4a/f3df97d414e0a5e9120459fd5c7ab663092d540df59f7deacc45810deb41/autopipeline-0.1.99.tar.gz
+[2024-05-27 06:55:17] INFO root fetch - processPackages [hklpy2]: executing diffoscope
+[2024-05-27 06:55:17] INFO root fetch - processPackages [hklpy2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hklpy2-0.0.8.tar.gz tmp/hklpy2-0.0.9.tar.gz --markdown 20240527/h/hklpy2/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-27 06:55:17] INFO root fetch - processPackages [autopipeline]: executing diffoscope
+[2024-05-27 06:55:17] INFO root fetch - processPackages [autopipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autopipeline-0.1.98.tar.gz tmp/autopipeline-0.1.99.tar.gz --markdown 20240527/a/autopipeline/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-05-27 06:55:18] INFO root fetch - processPackages [autopipeline]: Remove: archive file [/home/abi/fetcher/tmp/autopipeline-0.1.98.tar.gz]
+[2024-05-27 06:55:18] INFO root fetch - processPackages [autopipeline]: Remove: archive file [/home/abi/fetcher/tmp/autopipeline-0.1.99.tar.gz]
+[2024-05-27 06:55:18] INFO root fetch - main [MainThread]: End processing [autopipeline]: success
+[2024-05-27 06:55:18] INFO root fetch - processPackages [hklpy2]: Remove: archive file [/home/abi/fetcher/tmp/hklpy2-0.0.8.tar.gz]
+[2024-05-27 06:55:18] INFO root fetch - processPackages [hklpy2]: Remove: archive file [/home/abi/fetcher/tmp/hklpy2-0.0.9.tar.gz]
+[2024-05-27 06:55:18] INFO root fetch - main [MainThread]: End processing [hklpy2]: success
+[2024-05-27 06:55:18] INFO root fetch - main [MainThread]: Store serial: [23390676]
