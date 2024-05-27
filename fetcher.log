@@ -15589,3 +15589,38 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 14:34:32] INFO root fetch - processPackages [paradance]: Remove: archive file [/home/abi/fetcher/tmp/paradance-0.4.9.tar.gz]
 [2024-05-27 14:34:32] INFO root fetch - main [MainThread]: End processing [paradance]: success
 [2024-05-27 14:34:32] INFO root fetch - main [MainThread]: Store serial: [23395620]
+[2024-05-27 14:36:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23395620]
+[2024-05-27 14:36:40] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-27 14:36:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: isar-robot
+[2024-05-27 14:36:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jsonUts
+[2024-05-27 14:36:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: audiconnectpy
+[2024-05-27 14:36:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: logbesselk
+[2024-05-27 14:36:41] INFO root fetch - processPackages [audiconnectpy]: New version: [2.2.7] Old Version: [2.2.6]
+[2024-05-27 14:36:41] INFO root fetch - processPackages [isar-robot]: New version: [1.4.0] Old Version: [1.3.16]
+[2024-05-27 14:36:41] INFO root fetch - processPackages [jsonUts]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-27 14:36:41] INFO root fetch - processPackages [logbesselk]: New version: [3.3.1] Old Version: [3.3.0]
+[2024-05-27 14:36:41] INFO root fetch - processPackages [isar-robot]: Downloading https://files.pythonhosted.org/packages/7a/5d/375a63c7215d2afa7d662181b1b84380dd969e0439225cfaefb25bcbe5e4/isar-robot-1.3.16.tar.gz
+[2024-05-27 14:36:41] INFO root fetch - processPackages [jsonUts]: Downloading https://files.pythonhosted.org/packages/2b/1e/7e1a90e3e51879a8e58d26d1a5d3b6517ee10eeab0a93d7804f880e94cc8/jsonUts-1.0.2.tar.gz
+[2024-05-27 14:36:41] INFO root fetch - processPackages [audiconnectpy]: Downloading https://files.pythonhosted.org/packages/98/a2/c745a112406a0febaefac1f0b297698a01ef7474cde882ee5e8401b030a1/audiconnectpy-2.2.6.tar.gz
+[2024-05-27 14:36:41] INFO root fetch - processPackages [logbesselk]: Downloading https://files.pythonhosted.org/packages/48/05/34fa0ab3e859499df344986554e2554b0a42128e6a90bfca875cf9803c33/logbesselk-3.3.0.tar.gz
+[2024-05-27 14:36:41] INFO root fetch - processPackages [jsonUts]: Downloading https://files.pythonhosted.org/packages/1d/33/73d92730b849dcb266d31f8713f8a43b81f762aa47a55e4dfebbd87704d5/jsonUts-1.0.3.tar.gz
+[2024-05-27 14:36:41] INFO root fetch - processPackages [audiconnectpy]: Downloading https://files.pythonhosted.org/packages/d0/f0/ce0137fe83bef335ffd155da2e6f63f793d3d4e7c89caf70c81bba0651dd/audiconnectpy-2.2.7.tar.gz
+[2024-05-27 14:36:41] INFO root fetch - processPackages [logbesselk]: Downloading https://files.pythonhosted.org/packages/6a/d3/533e1720769e29cfa62270a615d0a7ab9a97e230b876d0e46f3634637c5f/logbesselk-3.3.1.tar.gz
+[2024-05-27 14:36:41] INFO root fetch - processPackages [jsonUts]: executing diffoscope
+[2024-05-27 14:36:41] INFO root fetch - processPackages [jsonUts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jsonUts-1.0.2.tar.gz tmp/jsonUts-1.0.3.tar.gz --markdown 20240527/j/jsonUts/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-05-27 14:36:41] WARNING root fetch - processPackages [isar-robot]: Skipping package: exceeds size limit 18482635>=10485760
+[2024-05-27 14:36:41] INFO root fetch - main [MainThread]: End processing [isar-robot] error
+[2024-05-27 14:36:41] INFO root fetch - processPackages [audiconnectpy]: executing diffoscope
+[2024-05-27 14:36:41] INFO root fetch - processPackages [audiconnectpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audiconnectpy-2.2.6.tar.gz tmp/audiconnectpy-2.2.7.tar.gz --markdown 20240527/a/audiconnectpy/2.2.6-2.2.7/README.md --exclude *.pyd
+[2024-05-27 14:36:42] INFO root fetch - processPackages [logbesselk]: executing diffoscope
+[2024-05-27 14:36:42] INFO root fetch - processPackages [logbesselk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logbesselk-3.3.0.tar.gz tmp/logbesselk-3.3.1.tar.gz --markdown 20240527/l/logbesselk/3.3.0-3.3.1/README.md --exclude *.pyd
+[2024-05-27 14:36:42] INFO root fetch - processPackages [jsonUts]: Remove: archive file [/home/abi/fetcher/tmp/jsonUts-1.0.2.tar.gz]
+[2024-05-27 14:36:42] INFO root fetch - processPackages [jsonUts]: Remove: archive file [/home/abi/fetcher/tmp/jsonUts-1.0.3.tar.gz]
+[2024-05-27 14:36:42] INFO root fetch - main [MainThread]: End processing [jsonUts]: success
+[2024-05-27 14:36:42] INFO root fetch - processPackages [audiconnectpy]: Remove: archive file [/home/abi/fetcher/tmp/audiconnectpy-2.2.6.tar.gz]
+[2024-05-27 14:36:42] INFO root fetch - processPackages [audiconnectpy]: Remove: archive file [/home/abi/fetcher/tmp/audiconnectpy-2.2.7.tar.gz]
+[2024-05-27 14:36:42] INFO root fetch - main [MainThread]: End processing [audiconnectpy]: success
+[2024-05-27 14:36:42] INFO root fetch - processPackages [logbesselk]: Remove: archive file [/home/abi/fetcher/tmp/logbesselk-3.3.0.tar.gz]
+[2024-05-27 14:36:42] INFO root fetch - processPackages [logbesselk]: Remove: archive file [/home/abi/fetcher/tmp/logbesselk-3.3.1.tar.gz]
+[2024-05-27 14:36:42] INFO root fetch - main [MainThread]: End processing [logbesselk]: success
+[2024-05-27 14:36:42] INFO root fetch - main [MainThread]: Store serial: [23395633]
