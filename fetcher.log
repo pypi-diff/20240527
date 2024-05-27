@@ -21626,3 +21626,78 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 
 [2024-05-27 18:17:19] INFO root fetch - main [MainThread]: End processing [funboost] error
 [2024-05-27 18:17:19] INFO root fetch - main [MainThread]: Store serial: [23398224]
+[2024-05-27 18:19:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23398224]
+[2024-05-27 18:19:27] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-27 18:19:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: myelectricaldatapy
+[2024-05-27 18:19:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: py-alpaca-daily-losers
+[2024-05-27 18:19:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: heatzypy
+[2024-05-27 18:19:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: giskard-hub
+[2024-05-27 18:19:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: discovery-capability
+[2024-05-27 18:19:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: xingpyc
+[2024-05-27 18:19:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sbcli-dev
+[2024-05-27 18:19:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: common-image-tools
+[2024-05-27 18:19:27] INFO root fetch - processPackages [giskard-hub]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-27 18:19:27] INFO root fetch - processPackages [py-alpaca-daily-losers]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-27 18:19:27] INFO root fetch - processPackages [myelectricaldatapy]: New version: [2.2.1] Old Version: [2.2.0]
+[2024-05-27 18:19:27] INFO root fetch - processPackages [giskard-hub]: Downloading https://files.pythonhosted.org/packages/23/27/4f8682a837b1bbccd9c8d8737db60b88eb46a34548a975a4b12c1d033b79/giskard_hub-0.1.0.tar.gz
+[2024-05-27 18:19:27] INFO root fetch - processPackages [xingpyc]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-27 18:19:27] INFO root fetch - processPackages [common-image-tools]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-05-27 18:19:27] INFO root fetch - processPackages [heatzypy]: New version: [2.5.5] Old Version: [2.5.4]
+[2024-05-27 18:19:27] INFO root fetch - processPackages [py-alpaca-daily-losers]: Downloading https://files.pythonhosted.org/packages/08/41/d8ce00cc6bc55a344ce5ce351b750baf9bd3db06f25ec8417746af1c52b1/py_alpaca_daily_losers-0.2.8.tar.gz
+[2024-05-27 18:19:27] INFO root fetch - processPackages [sbcli-dev]: New version: [2.7.6] Old Version: [2.7.5]
+[2024-05-27 18:19:27] INFO root fetch - processPackages [discovery-capability]: New version: [0.9.6] Old Version: [0.9.5]
+[2024-05-27 18:19:27] INFO root fetch - processPackages [myelectricaldatapy]: Downloading https://files.pythonhosted.org/packages/53/fe/d18e1f78509f40c72398f0487f20bd4982e267794414efeb6a3485c1d5f0/myelectricaldatapy-2.2.0.tar.gz
+[2024-05-27 18:19:28] INFO root fetch - processPackages [heatzypy]: Downloading https://files.pythonhosted.org/packages/89/eb/3449063be968f92faf68ab046948811e5f2ded3af41e65264b6bd909dd48/heatzypy-2.5.4.tar.gz
+[2024-05-27 18:19:28] INFO root fetch - processPackages [xingpyc]: Downloading https://files.pythonhosted.org/packages/69/62/b6a5bf9b2bb2d264761d00aa23b01073ee6b0e635fc74a150cf0b8c91cb8/xingpyc-0.2.0.tar.gz
+[2024-05-27 18:19:28] INFO root fetch - processPackages [giskard-hub]: Downloading https://files.pythonhosted.org/packages/4c/cd/18c62c26c686205126ec79fa28944ed94f7417523fa6769fec0845e7fd2b/giskard_hub-0.1.1.tar.gz
+[2024-05-27 18:19:28] INFO root fetch - processPackages [common-image-tools]: Downloading https://files.pythonhosted.org/packages/9a/31/4847a7f6535378d6a29b92a196696051cde28026e34216ea557d849d123b/common_image_tools-0.1.7.tar.gz
+[2024-05-27 18:19:28] INFO root fetch - processPackages [py-alpaca-daily-losers]: Downloading https://files.pythonhosted.org/packages/20/8e/0e69d5a56580a934a15e2d3ccede49d97af88c834695f1569502e4974cf7/py_alpaca_daily_losers-0.2.9.tar.gz
+[2024-05-27 18:19:28] INFO root fetch - processPackages [discovery-capability]: Downloading https://files.pythonhosted.org/packages/83/8f/f38725d6455cc1003611428fc791259aa621e8871affc4ce1bb32f282c8f/discovery-capability-0.9.5.tar.gz
+[2024-05-27 18:19:28] INFO root fetch - processPackages [sbcli-dev]: Downloading https://files.pythonhosted.org/packages/f3/45/e92f402235b3c6757ac85a8df384df45c2e9be070493255195b3d7df9134/sbcli_dev-2.7.5.zip
+[2024-05-27 18:19:28] INFO root fetch - processPackages [giskard-hub]: executing diffoscope
+[2024-05-27 18:19:28] INFO root fetch - processPackages [giskard-hub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/giskard_hub-0.1.0.tar.gz tmp/giskard_hub-0.1.1.tar.gz --markdown 20240527/g/giskard-hub/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-27 18:19:28] INFO root fetch - processPackages [py-alpaca-daily-losers]: executing diffoscope
+[2024-05-27 18:19:28] INFO root fetch - processPackages [py-alpaca-daily-losers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_alpaca_daily_losers-0.2.8.tar.gz tmp/py_alpaca_daily_losers-0.2.9.tar.gz --markdown 20240527/p/py-alpaca-daily-losers/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-27 18:19:28] INFO root fetch - processPackages [myelectricaldatapy]: Downloading https://files.pythonhosted.org/packages/28/66/95a0b8c164b2e98b9d764d2cae9a918f1db1675b963054433ef605c1ec9c/myelectricaldatapy-2.2.1.tar.gz
+[2024-05-27 18:19:28] INFO root fetch - processPackages [xingpyc]: Downloading https://files.pythonhosted.org/packages/3d/40/1cc286e090a4f8ccb357181cbca21421eee9eb80d2b71193c933fea5a51f/xingpyc-0.2.1.tar.gz
+[2024-05-27 18:19:28] INFO root fetch - processPackages [common-image-tools]: Downloading https://files.pythonhosted.org/packages/d3/45/e0018d17c65d5fc9c2b93f420a4ce425a83b349bc091e98b612989066814/common_image_tools-0.1.8.tar.gz
+[2024-05-27 18:19:28] INFO root fetch - processPackages [heatzypy]: Downloading https://files.pythonhosted.org/packages/de/7d/dd8d149368a5f4584ef034beb207177d641ce0dfc8803c78233b094a16bd/heatzypy-2.5.5.tar.gz
+[2024-05-27 18:19:28] INFO root fetch - processPackages [myelectricaldatapy]: executing diffoscope
+[2024-05-27 18:19:28] INFO root fetch - processPackages [myelectricaldatapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myelectricaldatapy-2.2.0.tar.gz tmp/myelectricaldatapy-2.2.1.tar.gz --markdown 20240527/m/myelectricaldatapy/2.2.0-2.2.1/README.md --exclude *.pyd
+[2024-05-27 18:19:28] INFO root fetch - processPackages [sbcli-dev]: Downloading https://files.pythonhosted.org/packages/3f/57/1bb0c5f817d254c3a4ac0f0a6b3569fe1b4a5f708ad05a36fba151d13fd1/sbcli_dev-2.7.6.zip
+[2024-05-27 18:19:28] INFO root fetch - processPackages [common-image-tools]: executing diffoscope
+[2024-05-27 18:19:28] INFO root fetch - processPackages [common-image-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/common_image_tools-0.1.7.tar.gz tmp/common_image_tools-0.1.8.tar.gz --markdown 20240527/c/common-image-tools/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-05-27 18:19:28] INFO root fetch - processPackages [xingpyc]: executing diffoscope
+[2024-05-27 18:19:28] INFO root fetch - processPackages [xingpyc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xingpyc-0.2.0.tar.gz tmp/xingpyc-0.2.1.tar.gz --markdown 20240527/x/xingpyc/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-27 18:19:28] INFO root fetch - processPackages [heatzypy]: executing diffoscope
+[2024-05-27 18:19:28] INFO root fetch - processPackages [heatzypy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heatzypy-2.5.4.tar.gz tmp/heatzypy-2.5.5.tar.gz --markdown 20240527/h/heatzypy/2.5.4-2.5.5/README.md --exclude *.pyd
+[2024-05-27 18:19:28] INFO root fetch - processPackages [sbcli-dev]: executing diffoscope
+[2024-05-27 18:19:28] INFO root fetch - processPackages [sbcli-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sbcli_dev-2.7.5.zip tmp/sbcli_dev-2.7.6.zip --markdown 20240527/s/sbcli-dev/2.7.5-2.7.6/README.md --exclude *.pyd
+[2024-05-27 18:19:28] INFO root fetch - processPackages [giskard-hub]: Remove: archive file [/home/abi/fetcher/tmp/giskard_hub-0.1.0.tar.gz]
+[2024-05-27 18:19:28] INFO root fetch - processPackages [giskard-hub]: Remove: archive file [/home/abi/fetcher/tmp/giskard_hub-0.1.1.tar.gz]
+[2024-05-27 18:19:28] INFO root fetch - main [MainThread]: End processing [giskard-hub]: success
+[2024-05-27 18:19:29] INFO root fetch - processPackages [py-alpaca-daily-losers]: Remove: archive file [/home/abi/fetcher/tmp/py_alpaca_daily_losers-0.2.8.tar.gz]
+[2024-05-27 18:19:29] INFO root fetch - processPackages [py-alpaca-daily-losers]: Remove: archive file [/home/abi/fetcher/tmp/py_alpaca_daily_losers-0.2.9.tar.gz]
+[2024-05-27 18:19:29] INFO root fetch - main [MainThread]: End processing [py-alpaca-daily-losers]: success
+[2024-05-27 18:19:29] INFO root fetch - processPackages [myelectricaldatapy]: Remove: archive file [/home/abi/fetcher/tmp/myelectricaldatapy-2.2.0.tar.gz]
+[2024-05-27 18:19:29] INFO root fetch - processPackages [myelectricaldatapy]: Remove: archive file [/home/abi/fetcher/tmp/myelectricaldatapy-2.2.1.tar.gz]
+[2024-05-27 18:19:29] INFO root fetch - main [MainThread]: End processing [myelectricaldatapy]: success
+[2024-05-27 18:19:29] INFO root fetch - processPackages [common-image-tools]: Remove: archive file [/home/abi/fetcher/tmp/common_image_tools-0.1.7.tar.gz]
+[2024-05-27 18:19:29] INFO root fetch - processPackages [common-image-tools]: Remove: archive file [/home/abi/fetcher/tmp/common_image_tools-0.1.8.tar.gz]
+[2024-05-27 18:19:29] INFO root fetch - main [MainThread]: End processing [common-image-tools]: success
+[2024-05-27 18:19:29] INFO root fetch - processPackages [xingpyc]: Remove: archive file [/home/abi/fetcher/tmp/xingpyc-0.2.0.tar.gz]
+[2024-05-27 18:19:29] INFO root fetch - processPackages [xingpyc]: Remove: archive file [/home/abi/fetcher/tmp/xingpyc-0.2.1.tar.gz]
+[2024-05-27 18:19:29] INFO root fetch - main [MainThread]: End processing [xingpyc]: success
+[2024-05-27 18:19:29] INFO root fetch - processPackages [heatzypy]: Remove: archive file [/home/abi/fetcher/tmp/heatzypy-2.5.4.tar.gz]
+[2024-05-27 18:19:29] INFO root fetch - processPackages [heatzypy]: Remove: archive file [/home/abi/fetcher/tmp/heatzypy-2.5.5.tar.gz]
+[2024-05-27 18:19:29] INFO root fetch - main [MainThread]: End processing [heatzypy]: success
+[2024-05-27 18:19:29] INFO root fetch - processPackages [sbcli-dev]: Remove: archive file [/home/abi/fetcher/tmp/sbcli_dev-2.7.5.zip]
+[2024-05-27 18:19:29] INFO root fetch - processPackages [sbcli-dev]: Remove: archive file [/home/abi/fetcher/tmp/sbcli_dev-2.7.6.zip]
+[2024-05-27 18:19:29] INFO root fetch - main [MainThread]: End processing [sbcli-dev]: success
+[2024-05-27 18:19:30] INFO root fetch - processPackages [discovery-capability]: Downloading https://files.pythonhosted.org/packages/0d/e7/2d5a9cd35dad13a2bf242a085d468be8bce92c11b9877f6700e390adf170/discovery-capability-0.9.6.tar.gz
+[2024-05-27 18:19:32] INFO root fetch - processPackages [discovery-capability]: executing diffoscope
+[2024-05-27 18:19:32] INFO root fetch - processPackages [discovery-capability]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discovery-capability-0.9.5.tar.gz tmp/discovery-capability-0.9.6.tar.gz --markdown 20240527/d/discovery-capability/0.9.5-0.9.6/README.md --exclude *.pyd
+[2024-05-27 18:19:35] INFO root fetch - processPackages [discovery-capability]: Remove: archive file [/home/abi/fetcher/tmp/discovery-capability-0.9.5.tar.gz]
+[2024-05-27 18:19:35] INFO root fetch - processPackages [discovery-capability]: Remove: archive file [/home/abi/fetcher/tmp/discovery-capability-0.9.6.tar.gz]
+[2024-05-27 18:19:35] INFO root fetch - main [MainThread]: End processing [discovery-capability]: success
+[2024-05-27 18:19:35] INFO root fetch - main [MainThread]: Store serial: [23398247]
