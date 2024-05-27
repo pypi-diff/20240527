@@ -8732,3 +8732,51 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 09:52:43] INFO root fetch - processPackages [physbiblio]: Remove: archive file [/home/abi/fetcher/tmp/physbiblio-2.1.4.tar.gz]
 [2024-05-27 09:52:43] INFO root fetch - main [MainThread]: End processing [physbiblio]: success
 [2024-05-27 09:52:43] INFO root fetch - main [MainThread]: Store serial: [23392165]
+[2024-05-27 09:54:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23392165]
+[2024-05-27 09:54:52] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-27 09:54:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo14-addon-delivery-ups-oca
+[2024-05-27 09:54:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: datapipe-core
+[2024-05-27 09:54:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: redbrick-sdk
+[2024-05-27 09:54:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pygifconvt-KANG97
+[2024-05-27 09:54:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: redis-cached
+[2024-05-27 09:54:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: django-adx
+[2024-05-27 09:54:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kingsoftcloud-sdk-python
+[2024-05-27 09:54:52] WARNING root fetch - processPackages [django-adx]: Skipping, unable to determine old version
+[2024-05-27 09:54:52] INFO root fetch - main [MainThread]: End processing [django-adx] error
+[2024-05-27 09:54:52] WARNING root fetch - processPackages [odoo14-addon-delivery-ups-oca]: Skipping, unable to determine old version
+[2024-05-27 09:54:52] INFO root fetch - main [MainThread]: End processing [odoo14-addon-delivery-ups-oca] error
+[2024-05-27 09:54:52] WARNING root fetch - processPackages [pygifconvt-KANG97]: Skipping, unable to determine old version
+[2024-05-27 09:54:52] INFO root fetch - processPackages [redis-cached]: New version: [0.4.2] Old Version: [0.4.1]
+[2024-05-27 09:54:52] INFO root fetch - main [MainThread]: End processing [pygifconvt-KANG97] error
+[2024-05-27 09:54:52] INFO root fetch - processPackages [kingsoftcloud-sdk-python]: New version: [1.4.3] Old Version: [1.4.2]
+[2024-05-27 09:54:52] INFO root fetch - processPackages [redbrick-sdk]: New version: [2.9.1] Old Version: [2.9.0]
+[2024-05-27 09:54:52] INFO root fetch - processPackages [datapipe-core]: New version: [0.13.9] Old Version: [0.13.7]
+[2024-05-27 09:54:52] INFO root fetch - processPackages [redbrick-sdk]: Downloading https://files.pythonhosted.org/packages/39/80/dc7084102f17b9bfc0989d45c43808a79888bb2b1ede233fc3c06f239087/redbrick-sdk-2.9.0.tar.gz
+[2024-05-27 09:54:52] INFO root fetch - processPackages [datapipe-core]: Downloading https://files.pythonhosted.org/packages/95/4b/6e26e56f6a4aa887420ae61d9b7deb06355f4f2e80d3cc27d9d6dd6fec59/datapipe_core-0.13.7.tar.gz
+[2024-05-27 09:54:52] INFO root fetch - processPackages [kingsoftcloud-sdk-python]: Downloading https://files.pythonhosted.org/packages/af/cf/50f0f1ad57d8593975e2f19c94b9d2178df4900164804d23a763960e633f/kingsoftcloud_sdk_python-1.4.2.tar.gz
+[2024-05-27 09:54:52] INFO root fetch - processPackages [redis-cached]: Downloading https://files.pythonhosted.org/packages/1f/32/6da811ae2540c75d20e7774636de7c27df1a10060cff53ad99608c10bc67/redis_cached-0.4.1.tar.gz
+[2024-05-27 09:54:52] INFO root fetch - processPackages [datapipe-core]: Downloading https://files.pythonhosted.org/packages/11/72/f56b0d2e5be4238b1a417dc2d85ccaea2002120387c2943af3f952253e46/datapipe_core-0.13.9.tar.gz
+[2024-05-27 09:54:52] INFO root fetch - processPackages [redbrick-sdk]: Downloading https://files.pythonhosted.org/packages/a7/76/019f7262b8485c21cf169b7845636395b17c40312c8ef76d03c3492c4218/redbrick-sdk-2.9.1.tar.gz
+[2024-05-27 09:54:53] INFO root fetch - processPackages [kingsoftcloud-sdk-python]: Downloading https://files.pythonhosted.org/packages/cf/3e/384bff5e963c05f7c7a5ae0d71a0867dcc11b3bdc8ae40bf16b9892b8b9b/kingsoftcloud_sdk_python-1.4.3.tar.gz
+[2024-05-27 09:54:53] INFO root fetch - processPackages [redis-cached]: Downloading https://files.pythonhosted.org/packages/2a/93/9aeb2fc7f688855b8cc4d6c4e51d4284bdc2ca310ffc78cd1e492eb231f4/redis_cached-0.4.2.tar.gz
+[2024-05-27 09:54:53] INFO root fetch - processPackages [datapipe-core]: executing diffoscope
+[2024-05-27 09:54:53] INFO root fetch - processPackages [datapipe-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datapipe_core-0.13.7.tar.gz tmp/datapipe_core-0.13.9.tar.gz --markdown 20240527/d/datapipe-core/0.13.7-0.13.9/README.md --exclude *.pyd
+[2024-05-27 09:54:53] INFO root fetch - processPackages [redbrick-sdk]: executing diffoscope
+[2024-05-27 09:54:53] INFO root fetch - processPackages [redbrick-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redbrick-sdk-2.9.0.tar.gz tmp/redbrick-sdk-2.9.1.tar.gz --markdown 20240527/r/redbrick-sdk/2.9.0-2.9.1/README.md --exclude *.pyd
+[2024-05-27 09:54:53] INFO root fetch - processPackages [redis-cached]: executing diffoscope
+[2024-05-27 09:54:53] INFO root fetch - processPackages [redis-cached]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redis_cached-0.4.1.tar.gz tmp/redis_cached-0.4.2.tar.gz --markdown 20240527/r/redis-cached/0.4.1-0.4.2/README.md --exclude *.pyd
+[2024-05-27 09:54:53] INFO root fetch - processPackages [kingsoftcloud-sdk-python]: executing diffoscope
+[2024-05-27 09:54:53] INFO root fetch - processPackages [kingsoftcloud-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kingsoftcloud_sdk_python-1.4.2.tar.gz tmp/kingsoftcloud_sdk_python-1.4.3.tar.gz --markdown 20240527/k/kingsoftcloud-sdk-python/1.4.2-1.4.3/README.md --exclude *.pyd
+[2024-05-27 09:54:53] INFO root fetch - processPackages [redis-cached]: Remove: archive file [/home/abi/fetcher/tmp/redis_cached-0.4.1.tar.gz]
+[2024-05-27 09:54:53] INFO root fetch - processPackages [redis-cached]: Remove: archive file [/home/abi/fetcher/tmp/redis_cached-0.4.2.tar.gz]
+[2024-05-27 09:54:53] INFO root fetch - main [MainThread]: End processing [redis-cached]: success
+[2024-05-27 09:54:53] INFO root fetch - processPackages [datapipe-core]: Remove: archive file [/home/abi/fetcher/tmp/datapipe_core-0.13.7.tar.gz]
+[2024-05-27 09:54:53] INFO root fetch - processPackages [datapipe-core]: Remove: archive file [/home/abi/fetcher/tmp/datapipe_core-0.13.9.tar.gz]
+[2024-05-27 09:54:53] INFO root fetch - main [MainThread]: End processing [datapipe-core]: success
+[2024-05-27 09:54:53] INFO root fetch - processPackages [redbrick-sdk]: Remove: archive file [/home/abi/fetcher/tmp/redbrick-sdk-2.9.0.tar.gz]
+[2024-05-27 09:54:53] INFO root fetch - processPackages [redbrick-sdk]: Remove: archive file [/home/abi/fetcher/tmp/redbrick-sdk-2.9.1.tar.gz]
+[2024-05-27 09:54:53] INFO root fetch - main [MainThread]: End processing [redbrick-sdk]: success
+[2024-05-27 09:54:54] INFO root fetch - processPackages [kingsoftcloud-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/kingsoftcloud_sdk_python-1.4.2.tar.gz]
+[2024-05-27 09:54:54] INFO root fetch - processPackages [kingsoftcloud-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/kingsoftcloud_sdk_python-1.4.3.tar.gz]
+[2024-05-27 09:54:54] INFO root fetch - main [MainThread]: End processing [kingsoftcloud-sdk-python]: success
+[2024-05-27 09:54:54] INFO root fetch - main [MainThread]: Store serial: [23392189]
