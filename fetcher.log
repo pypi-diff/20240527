@@ -4720,3 +4720,15 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 05:33:28] INFO root fetch - processPackages [keras-nlp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras-nlp-nightly-0.9.0.dev2024041003.tar.gz]
 [2024-05-27 05:33:28] INFO root fetch - main [MainThread]: End processing [keras-nlp-nightly]: success
 [2024-05-27 05:33:28] INFO root fetch - main [MainThread]: Store serial: [23390288]
+[2024-05-27 05:35:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23390288]
+[2024-05-27 05:35:36] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-27 05:35:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: movie-downloader
+[2024-05-27 05:35:36] INFO root fetch - processPackages [movie-downloader]: New version: [0.2.6] Old Version: [0.2.5]
+[2024-05-27 05:35:36] INFO root fetch - processPackages [movie-downloader]: Downloading https://files.pythonhosted.org/packages/73/f9/42e93bdaa6754f001b4d1234b07e116a8a97aef56f405b860950690cdee6/movie-downloader-0.2.5.tar.gz
+[2024-05-27 05:35:37] INFO root fetch - processPackages [movie-downloader]: Downloading https://files.pythonhosted.org/packages/5d/be/202b6e08254a3c00d24013a84f5cd55d45699aa70c1aa8d198f0948dc02c/movie-downloader-0.2.6.tar.gz
+[2024-05-27 05:35:37] INFO root fetch - processPackages [movie-downloader]: executing diffoscope
+[2024-05-27 05:35:37] INFO root fetch - processPackages [movie-downloader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/movie-downloader-0.2.5.tar.gz tmp/movie-downloader-0.2.6.tar.gz --markdown 20240527/m/movie-downloader/0.2.5-0.2.6/README.md --exclude *.pyd
+[2024-05-27 05:35:37] INFO root fetch - processPackages [movie-downloader]: Remove: archive file [/home/abi/fetcher/tmp/movie-downloader-0.2.5.tar.gz]
+[2024-05-27 05:35:37] INFO root fetch - processPackages [movie-downloader]: Remove: archive file [/home/abi/fetcher/tmp/movie-downloader-0.2.6.tar.gz]
+[2024-05-27 05:35:37] INFO root fetch - main [MainThread]: End processing [movie-downloader]: success
+[2024-05-27 05:35:37] INFO root fetch - main [MainThread]: Store serial: [23390291]
