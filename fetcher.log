@@ -4885,3 +4885,24 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 05:50:50] INFO root fetch - processPackages [annonition]: Remove: archive file [/home/abi/fetcher/tmp/annonition-0.1.4.tar.gz]
 [2024-05-27 05:50:50] INFO root fetch - main [MainThread]: End processing [annonition]: success
 [2024-05-27 05:50:50] INFO root fetch - main [MainThread]: Store serial: [23390382]
+[2024-05-27 05:52:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23390382]
+[2024-05-27 05:52:58] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-27 05:52:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ivande-combiner
+[2024-05-27 05:52:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jarvis-ui
+[2024-05-27 05:52:58] INFO root fetch - processPackages [jarvis-ui]: New version: [2.3.1] Old Version: [2.3]
+[2024-05-27 05:52:58] INFO root fetch - processPackages [ivande-combiner]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-27 05:52:58] INFO root fetch - processPackages [ivande-combiner]: Downloading https://files.pythonhosted.org/packages/e2/68/4605bffb5a3ac9e99ed7fdb5b2cf4fbd8ce7e3d592151e9678ad20828d98/ivande_combiner-0.0.7.tar.gz
+[2024-05-27 05:52:58] INFO root fetch - processPackages [jarvis-ui]: Downloading https://files.pythonhosted.org/packages/8a/7c/b22c4ce6d7c605deea55806b4aa131abe59e518504284c03f254a316ccec/jarvis_ui-2.3-py3-none-any.whl
+[2024-05-27 05:52:59] INFO root fetch - processPackages [ivande-combiner]: Downloading https://files.pythonhosted.org/packages/3f/a9/80386ed0c5d112f1438ac694dabdb34f4e73326a821141c1c17b4096135a/ivande_combiner-0.0.8.tar.gz
+[2024-05-27 05:52:59] INFO root fetch - processPackages [ivande-combiner]: executing diffoscope
+[2024-05-27 05:52:59] INFO root fetch - processPackages [ivande-combiner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ivande_combiner-0.0.7.tar.gz tmp/ivande_combiner-0.0.8.tar.gz --markdown 20240527/i/ivande-combiner/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-27 05:52:59] INFO root fetch - processPackages [jarvis-ui]: Downloading https://files.pythonhosted.org/packages/f6/09/1b0280c1061b143b30171a8744cefd3b119962426b0bb31c2b9704d83b39/jarvis_ui-2.3.1-py3-none-any.whl
+[2024-05-27 05:52:59] INFO root fetch - processPackages [jarvis-ui]: executing diffoscope
+[2024-05-27 05:52:59] INFO root fetch - processPackages [jarvis-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jarvis_ui-2.3-py3-none-any.whl.zip tmp/jarvis_ui-2.3.1-py3-none-any.whl.zip --markdown 20240527/j/jarvis-ui/2.3-2.3.1/README.md --exclude *.pyd
+[2024-05-27 05:52:59] INFO root fetch - processPackages [ivande-combiner]: Remove: archive file [/home/abi/fetcher/tmp/ivande_combiner-0.0.7.tar.gz]
+[2024-05-27 05:52:59] INFO root fetch - processPackages [ivande-combiner]: Remove: archive file [/home/abi/fetcher/tmp/ivande_combiner-0.0.8.tar.gz]
+[2024-05-27 05:52:59] INFO root fetch - main [MainThread]: End processing [ivande-combiner]: success
+[2024-05-27 05:53:00] INFO root fetch - processPackages [jarvis-ui]: Remove: archive file [/home/abi/fetcher/tmp/jarvis_ui-2.3-py3-none-any.whl.zip]
+[2024-05-27 05:53:00] INFO root fetch - processPackages [jarvis-ui]: Remove: archive file [/home/abi/fetcher/tmp/jarvis_ui-2.3.1-py3-none-any.whl.zip]
+[2024-05-27 05:53:00] INFO root fetch - main [MainThread]: End processing [jarvis-ui]: success
+[2024-05-27 05:53:00] INFO root fetch - main [MainThread]: Store serial: [23390387]
