@@ -3436,3 +3436,31 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-05-27 04:13:05] INFO root fetch - processPackages [baml-py]: Remove: archive file [/home/abi/fetcher/tmp/baml_py-0.1.9-cp38-abi3-win_amd64.whl.zip]
 [2024-05-27 04:13:05] INFO root fetch - main [MainThread]: End processing [baml-py]: success
 [2024-05-27 04:13:05] INFO root fetch - main [MainThread]: Store serial: [23389670]
+[2024-05-27 04:15:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23389670]
+[2024-05-27 04:15:13] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-27 04:15:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lckytools
+[2024-05-27 04:15:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: makepyz
+[2024-05-27 04:15:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: makepyz
+[2024-05-27 04:15:13] INFO root fetch - processPackages [lckytools]: New version: [0.0.0b7] Old Version: [0.0.0b6]
+[2024-05-27 04:15:13] INFO root fetch - processPackages [makepyz]: New version: [0.0.1b34] Old Version: [0.0.1b33]
+[2024-05-27 04:15:13] INFO root fetch - processPackages [makepyz]: New version: [0.0.1b34] Old Version: [0.0.1b33]
+[2024-05-27 04:15:13] INFO root fetch - processPackages [lckytools]: Downloading https://files.pythonhosted.org/packages/84/e7/a6a9c431c5d6081b31220cf7d55babbcf144dcb34c96f4239d24888ae0fa/lckytools-0.0.0b6.tar.gz
+[2024-05-27 04:15:13] INFO root fetch - processPackages [makepyz]: Downloading https://files.pythonhosted.org/packages/14/1f/a10ff42dff23f1fb214792414453204b9b0bdf1c188cbf657684e13a02ed/makepyz-0.0.1b33.tar.gz
+[2024-05-27 04:15:13] INFO root fetch - processPackages [makepyz]: Downloading https://files.pythonhosted.org/packages/14/1f/a10ff42dff23f1fb214792414453204b9b0bdf1c188cbf657684e13a02ed/makepyz-0.0.1b33.tar.gz
+[2024-05-27 04:15:14] INFO root fetch - processPackages [lckytools]: Downloading https://files.pythonhosted.org/packages/8a/02/a8f49d95462fefa592c12a15432d94392ca214e4b59a5e5d1dd45c4635fd/lckytools-0.0.0b7.tar.gz
+[2024-05-27 04:15:14] INFO root fetch - processPackages [makepyz]: Downloading https://files.pythonhosted.org/packages/6a/11/a6912ee610219be2b67f5aa092c59cee360993f9d0fb21f2c129509404f1/makepyz-0.0.1b34.tar.gz
+[2024-05-27 04:15:14] INFO root fetch - processPackages [makepyz]: Downloading https://files.pythonhosted.org/packages/6a/11/a6912ee610219be2b67f5aa092c59cee360993f9d0fb21f2c129509404f1/makepyz-0.0.1b34.tar.gz
+[2024-05-27 04:15:14] INFO root fetch - processPackages [lckytools]: executing diffoscope
+[2024-05-27 04:15:14] INFO root fetch - processPackages [lckytools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lckytools-0.0.0b6.tar.gz tmp/lckytools-0.0.0b7.tar.gz --markdown 20240527/l/lckytools/0.0.0b6-0.0.0b7/README.md --exclude *.pyd
+[2024-05-27 04:15:14] INFO root fetch - processPackages [makepyz]: executing diffoscope
+[2024-05-27 04:15:14] INFO root fetch - processPackages [makepyz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/makepyz-0.0.1b33.tar.gz tmp/makepyz-0.0.1b34.tar.gz --markdown 20240527/m/makepyz/0.0.1b33-0.0.1b34/README.md --exclude *.pyd
+[2024-05-27 04:15:14] INFO root fetch - processPackages [makepyz]: executing diffoscope
+[2024-05-27 04:15:14] INFO root fetch - processPackages [makepyz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/makepyz-0.0.1b33.tar.gz tmp/makepyz-0.0.1b34.tar.gz --markdown 20240527/m/makepyz/0.0.1b33-0.0.1b34/README.md --exclude *.pyd
+[2024-05-27 04:15:14] INFO root fetch - processPackages [lckytools]: Remove: archive file [/home/abi/fetcher/tmp/lckytools-0.0.0b6.tar.gz]
+[2024-05-27 04:15:14] INFO root fetch - processPackages [lckytools]: Remove: archive file [/home/abi/fetcher/tmp/lckytools-0.0.0b7.tar.gz]
+[2024-05-27 04:15:14] INFO root fetch - main [MainThread]: End processing [lckytools]: success
+[2024-05-27 04:15:14] INFO root fetch - processPackages [makepyz]: Remove: archive file [/home/abi/fetcher/tmp/makepyz-0.0.1b33.tar.gz]
+[2024-05-27 04:15:14] INFO root fetch - processPackages [makepyz]: Remove: archive file [/home/abi/fetcher/tmp/makepyz-0.0.1b34.tar.gz]
+[2024-05-27 04:15:14] INFO root fetch - main [MainThread]: End processing [makepyz]: success
+[2024-05-27 04:15:14] INFO root fetch - main [MainThread]: End processing [makepyz]: success
+[2024-05-27 04:15:14] INFO root fetch - main [MainThread]: Store serial: [23389677]
