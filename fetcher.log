@@ -7714,3 +7714,36 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 09:06:22] INFO root fetch - processPackages [gpt-researcher]: Remove: archive file [/home/abi/fetcher/tmp/gpt-researcher-0.6.0.tar.gz]
 [2024-05-27 09:06:22] INFO root fetch - main [MainThread]: End processing [gpt-researcher]: success
 [2024-05-27 09:06:22] INFO root fetch - main [MainThread]: Store serial: [23391728]
+[2024-05-27 09:08:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23391728]
+[2024-05-27 09:08:32] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-27 09:08:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: azure-mgmt-network
+[2024-05-27 09:08:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fastsafetensors
+[2024-05-27 09:08:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: apeboiy
+[2024-05-27 09:08:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: python-datamatrix
+[2024-05-27 09:08:32] INFO root fetch - processPackages [azure-mgmt-network]: New version: [9.0.0] Old Version: [8.0.0]
+[2024-05-27 09:08:32] INFO root fetch - processPackages [apeboiy]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-27 09:08:32] INFO root fetch - processPackages [fastsafetensors]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-27 09:08:32] WARNING root fetch - processPackages [python-datamatrix]: Skipping, unable to determine old version
+[2024-05-27 09:08:32] INFO root fetch - main [MainThread]: End processing [python-datamatrix] error
+[2024-05-27 09:08:32] INFO root fetch - processPackages [azure-mgmt-network]: Downloading https://files.pythonhosted.org/packages/97/28/6cb33ab8c36044241c708815e56b398171df214336064449abe946b22569/azure-mgmt-network-8.0.0.zip
+[2024-05-27 09:08:33] INFO root fetch - processPackages [apeboiy]: Downloading https://files.pythonhosted.org/packages/2c/d1/13ae5c5ceb0c97a91d946e1dd5fc329b3f384b59630ad259ab7ebe72713d/apeboiy-0.0.8.tar.gz
+[2024-05-27 09:08:33] INFO root fetch - processPackages [fastsafetensors]: Downloading https://files.pythonhosted.org/packages/90/d8/5be2279634d37ce2beaf1ea2c6b0f9f2dcf7459443d62b803aa77e937fdb/fastsafetensors-0.1.0.tar.gz
+[2024-05-27 09:08:33] INFO root fetch - processPackages [apeboiy]: Downloading https://files.pythonhosted.org/packages/04/42/a8230541f443842d5b00d865f7079650b8c865bda89a3de4ebc4010d0579/apeboiy-0.0.9.tar.gz
+[2024-05-27 09:08:33] INFO root fetch - processPackages [fastsafetensors]: Downloading https://files.pythonhosted.org/packages/28/ce/474be16485ffcae08f09628a83cc121109136158d35f1448e44a5db3e79d/fastsafetensors-0.1.1.tar.gz
+[2024-05-27 09:08:33] INFO root fetch - processPackages [apeboiy]: executing diffoscope
+[2024-05-27 09:08:33] INFO root fetch - processPackages [apeboiy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apeboiy-0.0.8.tar.gz tmp/apeboiy-0.0.9.tar.gz --markdown 20240527/a/apeboiy/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-27 09:08:33] INFO root fetch - processPackages [fastsafetensors]: executing diffoscope
+[2024-05-27 09:08:33] INFO root fetch - processPackages [fastsafetensors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastsafetensors-0.1.0.tar.gz tmp/fastsafetensors-0.1.1.tar.gz --markdown 20240527/f/fastsafetensors/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-27 09:08:33] INFO root fetch - processPackages [azure-mgmt-network]: Downloading https://files.pythonhosted.org/packages/44/e7/700fc045e69afd654874ab4b7ccb07d2df6284785eb9d28381dede0eb775/azure-mgmt-network-9.0.0.zip
+[2024-05-27 09:08:33] INFO root fetch - processPackages [apeboiy]: Remove: archive file [/home/abi/fetcher/tmp/apeboiy-0.0.8.tar.gz]
+[2024-05-27 09:08:33] INFO root fetch - processPackages [apeboiy]: Remove: archive file [/home/abi/fetcher/tmp/apeboiy-0.0.9.tar.gz]
+[2024-05-27 09:08:33] INFO root fetch - main [MainThread]: End processing [apeboiy]: success
+[2024-05-27 09:08:34] INFO root fetch - processPackages [fastsafetensors]: Remove: archive file [/home/abi/fetcher/tmp/fastsafetensors-0.1.0.tar.gz]
+[2024-05-27 09:08:34] INFO root fetch - processPackages [fastsafetensors]: Remove: archive file [/home/abi/fetcher/tmp/fastsafetensors-0.1.1.tar.gz]
+[2024-05-27 09:08:34] INFO root fetch - main [MainThread]: End processing [fastsafetensors]: success
+[2024-05-27 09:08:34] INFO root fetch - processPackages [azure-mgmt-network]: executing diffoscope
+[2024-05-27 09:08:34] INFO root fetch - processPackages [azure-mgmt-network]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure-mgmt-network-8.0.0.zip tmp/azure-mgmt-network-9.0.0.zip --markdown 20240527/a/azure-mgmt-network/8.0.0-9.0.0/README.md --exclude *.pyd
+[2024-05-27 09:08:44] INFO root fetch - processPackages [azure-mgmt-network]: Remove: archive file [/home/abi/fetcher/tmp/azure-mgmt-network-8.0.0.zip]
+[2024-05-27 09:08:44] INFO root fetch - processPackages [azure-mgmt-network]: Remove: archive file [/home/abi/fetcher/tmp/azure-mgmt-network-9.0.0.zip]
+[2024-05-27 09:08:44] INFO root fetch - main [MainThread]: End processing [azure-mgmt-network]: success
+[2024-05-27 09:08:44] INFO root fetch - main [MainThread]: Store serial: [23391743]
