@@ -7142,3 +7142,18 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 08:31:18] INFO root fetch - processPackages [g2p-en-plus]: Remove: archive file [/home/abi/fetcher/tmp/g2p_en_plus-2.0.2-py3-none-any.whl.zip]
 [2024-05-27 08:31:18] INFO root fetch - main [MainThread]: End processing [g2p-en-plus]: success
 [2024-05-27 08:31:18] INFO root fetch - main [MainThread]: Store serial: [23391357]
+[2024-05-27 08:33:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23391357]
+[2024-05-27 08:33:26] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-27 08:33:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: momongamonga
+[2024-05-27 08:33:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: common-test-ceair
+[2024-05-27 08:33:26] INFO root fetch - processPackages [common-test-ceair]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-27 08:33:26] WARNING root fetch - processPackages [momongamonga]: Skipping, unable to determine old version
+[2024-05-27 08:33:26] INFO root fetch - main [MainThread]: End processing [momongamonga] error
+[2024-05-27 08:33:26] INFO root fetch - processPackages [common-test-ceair]: Downloading https://files.pythonhosted.org/packages/a0/a7/6cc7269ac438dd0e7b75d442fdf6d011300d7d1da3b582cdc16a7fe696e3/common_test_ceair-0.0.1.tar.gz
+[2024-05-27 08:33:26] INFO root fetch - processPackages [common-test-ceair]: Downloading https://files.pythonhosted.org/packages/5d/d8/c6b344234454f2d2ec99da331b97b1e69a34abf001e955e6955cddb47a41/common_test_ceair-0.0.2.tar.gz
+[2024-05-27 08:33:27] INFO root fetch - processPackages [common-test-ceair]: executing diffoscope
+[2024-05-27 08:33:27] INFO root fetch - processPackages [common-test-ceair]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/common_test_ceair-0.0.1.tar.gz tmp/common_test_ceair-0.0.2.tar.gz --markdown 20240527/c/common-test-ceair/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-27 08:33:27] INFO root fetch - processPackages [common-test-ceair]: Remove: archive file [/home/abi/fetcher/tmp/common_test_ceair-0.0.1.tar.gz]
+[2024-05-27 08:33:27] INFO root fetch - processPackages [common-test-ceair]: Remove: archive file [/home/abi/fetcher/tmp/common_test_ceair-0.0.2.tar.gz]
+[2024-05-27 08:33:27] INFO root fetch - main [MainThread]: End processing [common-test-ceair]: success
+[2024-05-27 08:33:27] INFO root fetch - main [MainThread]: Store serial: [23391365]
