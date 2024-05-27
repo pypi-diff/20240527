@@ -8591,3 +8591,105 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 09:48:14] ERROR root fetch - processPackages [pyceres]: Timeout during execution of pkgdiff
 [2024-05-27 09:48:14] INFO root fetch - main [MainThread]: End processing [pyceres] error
 [2024-05-27 09:48:14] INFO root fetch - main [MainThread]: Store serial: [23392108]
+[2024-05-27 09:50:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23392108]
+[2024-05-27 09:50:22] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-05-27 09:50:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sensation
+[2024-05-27 09:50:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pproto-py
+[2024-05-27 09:50:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cam-manager
+[2024-05-27 09:50:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ReverseBox
+[2024-05-27 09:50:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pykechain
+[2024-05-27 09:50:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pokerFunctions
+[2024-05-27 09:50:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aa-ledger
+[2024-05-27 09:50:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: core-rec
+[2024-05-27 09:50:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: neurom
+[2024-05-27 09:50:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: broken-source
+[2024-05-27 09:50:22] INFO root fetch - processPackages [cam-manager]: New version: [0.2.0] Old Version: [0.1.3]
+[2024-05-27 09:50:23] INFO root fetch - processPackages [pokerFunctions]: New version: [0.5.1] Old Version: [0.3]
+[2024-05-27 09:50:23] INFO root fetch - processPackages [cam-manager]: Downloading https://files.pythonhosted.org/packages/b7/7a/5cbd814381f204720cac0aa90d3545f37e3c8cb3b238bad72f0462cf7743/cam_manager-0.1.3.tar.gz
+[2024-05-27 09:50:23] INFO root fetch - processPackages [broken-source]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-05-27 09:50:23] INFO root fetch - processPackages [pokerFunctions]: Downloading https://files.pythonhosted.org/packages/26/24/5187c856b40084962a0217bf97ae08eb4a43e755d765134d321bf2d5da35/pokerfunctions-0.3.tar.gz
+[2024-05-27 09:50:23] WARNING root fetch - processPackages [core-rec]: Skipping, unable to determine old version
+[2024-05-27 09:50:23] INFO root fetch - processPackages [core-rec]: Start processing: odoo-addon-purchase-cancel-reason
+[2024-05-27 09:50:23] INFO root fetch - main [MainThread]: End processing [core-rec] error
+[2024-05-27 09:50:23] INFO root fetch - processPackages [pproto-py]: New version: [2.0.1] Old Version: [1.3.2]
+[2024-05-27 09:50:23] WARNING root fetch - processPackages [sensation]: Skipping, unable to determine old version
+[2024-05-27 09:50:23] INFO root fetch - processPackages [sensation]: Start processing: org-ds-cdk
+[2024-05-27 09:50:23] INFO root fetch - main [MainThread]: End processing [sensation] error
+[2024-05-27 09:50:23] INFO root fetch - processPackages [aa-ledger]: New version: [0.5.0b1] Old Version: [0.5.0a1]
+[2024-05-27 09:50:23] INFO root fetch - processPackages [pykechain]: New version: [4.9.0] Old Version: [4.8.1]
+[2024-05-27 09:50:23] INFO root fetch - processPackages [ReverseBox]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-27 09:50:23] INFO root fetch - processPackages [neurom]: New version: [4.0.0] Old Version: [3.2.9]
+[2024-05-27 09:50:23] INFO root fetch - processPackages [org-ds-cdk]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-05-27 09:50:23] WARNING root fetch - processPackages [odoo-addon-purchase-cancel-reason]: Skipping, unable to determine old version
+[2024-05-27 09:50:23] INFO root fetch - processPackages [odoo-addon-purchase-cancel-reason]: Start processing: physbiblio
+[2024-05-27 09:50:23] INFO root fetch - main [MainThread]: End processing [odoo-addon-purchase-cancel-reason] error
+[2024-05-27 09:50:23] INFO root fetch - processPackages [org-ds-cdk]: Downloading https://files.pythonhosted.org/packages/36/4e/99c47a53f5e261e971f195be217c802b811e80bb9a121a08f7dfbda830c6/org-ds-cdk-0.1.6.tar.gz
+[2024-05-27 09:50:23] INFO root fetch - processPackages [aa-ledger]: Downloading https://files.pythonhosted.org/packages/77/80/a24f320b7bfd7facb161a9894b0d4153b24141fbf654a2b105c92a50e4a9/aa_ledger-0.5.0a1.tar.gz
+[2024-05-27 09:50:23] INFO root fetch - processPackages [pproto-py]: Downloading https://files.pythonhosted.org/packages/51/dd/74c5dd8df0a3007249c2b1a13b2cc73ad6a3828136cdeb5ab1fe9e340484/pproto-py-1.3.2.tar.gz
+[2024-05-27 09:50:23] INFO root fetch - processPackages [broken-source]: Downloading https://files.pythonhosted.org/packages/c5/b7/cf71868c2795e55dc71477fa36436698a409426fe3ed4c776874edb7d228/broken_source-0.3.0-py3-none-any.whl
+[2024-05-27 09:50:23] INFO root fetch - processPackages [ReverseBox]: Downloading https://files.pythonhosted.org/packages/4a/58/7a7b782237cfeaa6f4930edfd83b87995cd40b65c79be087c32798140949/ReverseBox-0.9.8.tar.gz
+[2024-05-27 09:50:23] INFO root fetch - processPackages [neurom]: Downloading https://files.pythonhosted.org/packages/38/d9/7a311610b1b66e408ef4b3ee9edbed70af03245d599b3894ec9c661ccf37/neurom-3.2.9.tar.gz
+[2024-05-27 09:50:23] INFO root fetch - processPackages [pykechain]: Downloading https://files.pythonhosted.org/packages/19/68/4e3c7360ec765f6ca987799f883d59abddd8ad88f6c2740f650ae0d13f5a/pykechain-4.8.1.tar.gz
+[2024-05-27 09:50:23] INFO root fetch - processPackages [physbiblio]: New version: [2.1.4] Old Version: [2.1.3]
+[2024-05-27 09:50:23] INFO root fetch - processPackages [org-ds-cdk]: Downloading https://files.pythonhosted.org/packages/d6/f7/c135576dbd1ee6837381cd81f2fac462ab3ec758fe7408d28fd83831d9e9/org-ds-cdk-0.1.7.tar.gz
+[2024-05-27 09:50:23] INFO root fetch - processPackages [pokerFunctions]: Downloading https://files.pythonhosted.org/packages/6e/bf/d1b9684ca90b82b8cbe89fcbdc524b7a4e8770ad2858db4bac86410dbcfc/pokerfunctions-0.5.1.tar.gz
+[2024-05-27 09:50:23] INFO root fetch - processPackages [org-ds-cdk]: executing diffoscope
+[2024-05-27 09:50:23] INFO root fetch - processPackages [org-ds-cdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/org-ds-cdk-0.1.6.tar.gz tmp/org-ds-cdk-0.1.7.tar.gz --markdown 20240527/o/org-ds-cdk/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-05-27 09:50:23] INFO root fetch - processPackages [pokerFunctions]: executing diffoscope
+[2024-05-27 09:50:23] INFO root fetch - processPackages [pokerFunctions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pokerfunctions-0.3.tar.gz tmp/pokerfunctions-0.5.1.tar.gz --markdown 20240527/p/pokerFunctions/0.3-0.5.1/README.md --exclude *.pyd
+[2024-05-27 09:50:23] INFO root fetch - processPackages [physbiblio]: Downloading https://files.pythonhosted.org/packages/16/d6/92a825fc999767af6b43ffa42e82f737b42a8893b235ad4773b7437aa1d7/physbiblio-2.1.3.tar.gz
+[2024-05-27 09:50:23] INFO root fetch - processPackages [aa-ledger]: Downloading https://files.pythonhosted.org/packages/b5/b2/64634a7b5147d28c9d2eb9fe86f7a58f966ed337b4e734bf1d08bfc93397/aa_ledger-0.5.0b1.tar.gz
+[2024-05-27 09:50:23] INFO root fetch - processPackages [broken-source]: Downloading https://files.pythonhosted.org/packages/ed/05/861b4185139f20bcd32b10f4c26198d7c9bfc734519ade6dae7da5f62d40/broken_source-0.3.1-py3-none-any.whl
+[2024-05-27 09:50:23] INFO root fetch - processPackages [pproto-py]: Downloading https://files.pythonhosted.org/packages/30/56/15493a45175928644a0b080be9ba317ee35c9e7263b44b9e25ba72f22b6b/pproto-py-2.0.1.tar.gz
+[2024-05-27 09:50:23] INFO root fetch - processPackages [neurom]: Downloading https://files.pythonhosted.org/packages/75/e9/10d852749c702194f6e1d7b8a2015698ed594cd34f3e01ec2eeae94cede8/neurom-4.0.0.tar.gz
+[2024-05-27 09:50:23] INFO root fetch - processPackages [cam-manager]: Downloading https://files.pythonhosted.org/packages/d5/74/8b2ce67be8b1926a0a6ee0367e9f9efc4695321d35945994a2f7f5b2fe0e/cam_manager-0.2.0.tar.gz
+[2024-05-27 09:50:23] INFO root fetch - processPackages [pproto-py]: executing diffoscope
+[2024-05-27 09:50:23] INFO root fetch - processPackages [pproto-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pproto-py-1.3.2.tar.gz tmp/pproto-py-2.0.1.tar.gz --markdown 20240527/p/pproto-py/1.3.2-2.0.1/README.md --exclude *.pyd
+[2024-05-27 09:50:23] INFO root fetch - processPackages [ReverseBox]: Downloading https://files.pythonhosted.org/packages/d7/8f/aa29e161586daf66c5f6fd603cf46241f860d6b15409053887e60b6bf890/ReverseBox-0.9.9.tar.gz
+[2024-05-27 09:50:23] INFO root fetch - processPackages [aa-ledger]: executing diffoscope
+[2024-05-27 09:50:23] INFO root fetch - processPackages [aa-ledger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aa_ledger-0.5.0a1.tar.gz tmp/aa_ledger-0.5.0b1.tar.gz --markdown 20240527/a/aa-ledger/0.5.0a1-0.5.0b1/README.md --exclude *.pyd
+[2024-05-27 09:50:23] INFO root fetch - processPackages [cam-manager]: executing diffoscope
+[2024-05-27 09:50:23] INFO root fetch - processPackages [cam-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cam_manager-0.1.3.tar.gz tmp/cam_manager-0.2.0.tar.gz --markdown 20240527/c/cam-manager/0.1.3-0.2.0/README.md --exclude *.pyd
+[2024-05-27 09:50:23] INFO root fetch - processPackages [broken-source]: executing diffoscope
+[2024-05-27 09:50:23] INFO root fetch - processPackages [broken-source]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/broken_source-0.3.0-py3-none-any.whl.zip tmp/broken_source-0.3.1-py3-none-any.whl.zip --markdown 20240527/b/broken-source/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-05-27 09:50:23] INFO root fetch - processPackages [neurom]: executing diffoscope
+[2024-05-27 09:50:23] INFO root fetch - processPackages [neurom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neurom-3.2.9.tar.gz tmp/neurom-4.0.0.tar.gz --markdown 20240527/n/neurom/3.2.9-4.0.0/README.md --exclude *.pyd
+[2024-05-27 09:50:24] INFO root fetch - processPackages [ReverseBox]: executing diffoscope
+[2024-05-27 09:50:24] INFO root fetch - processPackages [ReverseBox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ReverseBox-0.9.8.tar.gz tmp/ReverseBox-0.9.9.tar.gz --markdown 20240527/R/ReverseBox/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-27 09:50:24] INFO root fetch - processPackages [physbiblio]: Downloading https://files.pythonhosted.org/packages/c9/f7/a8eef15b4366a1dd5b0dd368cd9b3f36a563d4019a6439165872e5a34e76/physbiblio-2.1.4.tar.gz
+[2024-05-27 09:50:24] INFO root fetch - processPackages [pokerFunctions]: Remove: archive file [/home/abi/fetcher/tmp/pokerfunctions-0.3.tar.gz]
+[2024-05-27 09:50:24] INFO root fetch - processPackages [pokerFunctions]: Remove: archive file [/home/abi/fetcher/tmp/pokerfunctions-0.5.1.tar.gz]
+[2024-05-27 09:50:24] INFO root fetch - main [MainThread]: End processing [pokerFunctions]: success
+[2024-05-27 09:50:24] INFO root fetch - processPackages [org-ds-cdk]: Remove: archive file [/home/abi/fetcher/tmp/org-ds-cdk-0.1.6.tar.gz]
+[2024-05-27 09:50:24] INFO root fetch - processPackages [org-ds-cdk]: Remove: archive file [/home/abi/fetcher/tmp/org-ds-cdk-0.1.7.tar.gz]
+[2024-05-27 09:50:24] INFO root fetch - main [MainThread]: End processing [org-ds-cdk]: success
+[2024-05-27 09:50:24] INFO root fetch - processPackages [pproto-py]: Remove: archive file [/home/abi/fetcher/tmp/pproto-py-1.3.2.tar.gz]
+[2024-05-27 09:50:24] INFO root fetch - processPackages [pproto-py]: Remove: archive file [/home/abi/fetcher/tmp/pproto-py-2.0.1.tar.gz]
+[2024-05-27 09:50:24] INFO root fetch - main [MainThread]: End processing [pproto-py]: success
+[2024-05-27 09:50:24] INFO root fetch - processPackages [physbiblio]: executing diffoscope
+[2024-05-27 09:50:24] INFO root fetch - processPackages [physbiblio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/physbiblio-2.1.3.tar.gz tmp/physbiblio-2.1.4.tar.gz --markdown 20240527/p/physbiblio/2.1.3-2.1.4/README.md --exclude *.pyd
+[2024-05-27 09:50:24] INFO root fetch - processPackages [aa-ledger]: Remove: archive file [/home/abi/fetcher/tmp/aa_ledger-0.5.0a1.tar.gz]
+[2024-05-27 09:50:24] INFO root fetch - processPackages [aa-ledger]: Remove: archive file [/home/abi/fetcher/tmp/aa_ledger-0.5.0b1.tar.gz]
+[2024-05-27 09:50:24] INFO root fetch - main [MainThread]: End processing [aa-ledger]: success
+[2024-05-27 09:50:24] INFO root fetch - processPackages [cam-manager]: Remove: archive file [/home/abi/fetcher/tmp/cam_manager-0.1.3.tar.gz]
+[2024-05-27 09:50:24] INFO root fetch - processPackages [cam-manager]: Remove: archive file [/home/abi/fetcher/tmp/cam_manager-0.2.0.tar.gz]
+[2024-05-27 09:50:24] INFO root fetch - main [MainThread]: End processing [cam-manager]: success
+[2024-05-27 09:50:25] INFO root fetch - processPackages [ReverseBox]: Remove: archive file [/home/abi/fetcher/tmp/ReverseBox-0.9.8.tar.gz]
+[2024-05-27 09:50:25] INFO root fetch - processPackages [ReverseBox]: Remove: archive file [/home/abi/fetcher/tmp/ReverseBox-0.9.9.tar.gz]
+[2024-05-27 09:50:25] INFO root fetch - main [MainThread]: End processing [ReverseBox]: success
+[2024-05-27 09:50:25] INFO root fetch - processPackages [neurom]: Remove: archive file [/home/abi/fetcher/tmp/neurom-3.2.9.tar.gz]
+[2024-05-27 09:50:25] INFO root fetch - processPackages [neurom]: Remove: archive file [/home/abi/fetcher/tmp/neurom-4.0.0.tar.gz]
+[2024-05-27 09:50:25] INFO root fetch - main [MainThread]: End processing [neurom]: success
+[2024-05-27 09:50:25] INFO root fetch - processPackages [broken-source]: Remove: archive file [/home/abi/fetcher/tmp/broken_source-0.3.0-py3-none-any.whl.zip]
+[2024-05-27 09:50:25] INFO root fetch - processPackages [broken-source]: Remove: archive file [/home/abi/fetcher/tmp/broken_source-0.3.1-py3-none-any.whl.zip]
+[2024-05-27 09:50:25] INFO root fetch - main [MainThread]: End processing [broken-source]: success
+[2024-05-27 09:50:26] INFO root fetch - processPackages [physbiblio]: Remove: archive file [/home/abi/fetcher/tmp/physbiblio-2.1.3.tar.gz]
+[2024-05-27 09:50:26] INFO root fetch - processPackages [physbiblio]: Remove: archive file [/home/abi/fetcher/tmp/physbiblio-2.1.4.tar.gz]
+[2024-05-27 09:50:26] INFO root fetch - main [MainThread]: End processing [physbiblio]: success
+[2024-05-27 09:50:26] INFO root fetch - processPackages [pykechain]: Downloading https://files.pythonhosted.org/packages/f2/e8/545582a136cf0392e916c95257d1f27393804146ebfba0b2ff6c2eeaec81/pykechain-4.9.0.tar.gz
+[2024-05-27 09:50:28] INFO root fetch - processPackages [pykechain]: executing diffoscope
+[2024-05-27 09:50:28] INFO root fetch - processPackages [pykechain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pykechain-4.8.1.tar.gz tmp/pykechain-4.9.0.tar.gz --markdown 20240527/p/pykechain/4.8.1-4.9.0/README.md --exclude *.pyd
+[2024-05-27 09:50:33] INFO root fetch - processPackages [pykechain]: Remove: archive file [/home/abi/fetcher/tmp/pykechain-4.8.1.tar.gz]
+[2024-05-27 09:50:33] INFO root fetch - processPackages [pykechain]: Remove: archive file [/home/abi/fetcher/tmp/pykechain-4.9.0.tar.gz]
+[2024-05-27 09:50:33] INFO root fetch - main [MainThread]: End processing [pykechain]: success
+[2024-05-27 09:50:33] INFO root fetch - main [MainThread]: Store serial: [23392156]
