@@ -22353,3 +22353,33 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-05-27 18:52:41] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.4.9.tar.gz]
 [2024-05-27 18:52:41] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
 [2024-05-27 18:52:41] INFO root fetch - main [MainThread]: Store serial: [23398591]
+[2024-05-27 18:54:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23398591]
+[2024-05-27 18:54:50] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-27 18:54:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: quickQrLib
+[2024-05-27 18:54:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: octopize.avatar
+[2024-05-27 18:54:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zenml
+[2024-05-27 18:54:50] INFO root fetch - processPackages [quickQrLib]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-05-27 18:54:50] INFO root fetch - processPackages [quickQrLib]: Downloading https://files.pythonhosted.org/packages/b7/f9/c304427091efbc09dd0026539ff955066a746ef824e2382801b35ea96d7a/quickQrLib-0.2.2.tar.gz
+[2024-05-27 18:54:50] INFO root fetch - processPackages [octopize.avatar]: New version: [0.7.4] Old Version: [0.7.3]
+[2024-05-27 18:54:50] INFO root fetch - processPackages [zenml]: New version: [0.9.0] Old Version: [0.8.1rc0]
+[2024-05-27 18:54:50] INFO root fetch - processPackages [octopize.avatar]: Downloading https://files.pythonhosted.org/packages/60/2b/4d922416f9d2df4c131f02faa83e06391cf44d3ba67bb37ffb55d988482f/octopize_avatar-0.7.3.tar.gz
+[2024-05-27 18:54:50] INFO root fetch - processPackages [quickQrLib]: Downloading https://files.pythonhosted.org/packages/4f/c6/28a93422f844fe15ea2064ce15e198d6c57ca5f83a0af9d5eaf24bc0d8e3/quickQrLib-0.2.3.tar.gz
+[2024-05-27 18:54:50] INFO root fetch - processPackages [zenml]: Downloading https://files.pythonhosted.org/packages/a4/ba/9dd131570801a06d93e9cd4378d1f0d8501cf5e70ba8de510e199e4d3cc5/zenml-0.8.1rc0.tar.gz
+[2024-05-27 18:54:50] INFO root fetch - processPackages [quickQrLib]: executing diffoscope
+[2024-05-27 18:54:50] INFO root fetch - processPackages [quickQrLib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickQrLib-0.2.2.tar.gz tmp/quickQrLib-0.2.3.tar.gz --markdown 20240527/q/quickQrLib/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-05-27 18:54:50] INFO root fetch - processPackages [zenml]: Downloading https://files.pythonhosted.org/packages/2c/42/78e070bea92d65044e034f70260230101d041ea1f99d781d2f29f7c995c5/zenml-0.9.0.tar.gz
+[2024-05-27 18:54:50] INFO root fetch - processPackages [octopize.avatar]: Downloading https://files.pythonhosted.org/packages/74/ab/d6eb2500af04ff18b446fecfaa923aee0b371aade5cab2ffb7d57534f500/octopize_avatar-0.7.4.tar.gz
+[2024-05-27 18:54:51] INFO root fetch - processPackages [octopize.avatar]: executing diffoscope
+[2024-05-27 18:54:51] INFO root fetch - processPackages [octopize.avatar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/octopize_avatar-0.7.3.tar.gz tmp/octopize_avatar-0.7.4.tar.gz --markdown 20240527/o/octopize.avatar/0.7.3-0.7.4/README.md --exclude *.pyd
+[2024-05-27 18:54:51] INFO root fetch - processPackages [zenml]: executing diffoscope
+[2024-05-27 18:54:51] INFO root fetch - processPackages [zenml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zenml-0.8.1rc0.tar.gz tmp/zenml-0.9.0.tar.gz --markdown 20240527/z/zenml/0.8.1rc0-0.9.0/README.md --exclude *.pyd
+[2024-05-27 18:54:51] INFO root fetch - processPackages [quickQrLib]: Remove: archive file [/home/abi/fetcher/tmp/quickQrLib-0.2.2.tar.gz]
+[2024-05-27 18:54:51] INFO root fetch - processPackages [quickQrLib]: Remove: archive file [/home/abi/fetcher/tmp/quickQrLib-0.2.3.tar.gz]
+[2024-05-27 18:54:51] INFO root fetch - main [MainThread]: End processing [quickQrLib]: success
+[2024-05-27 18:54:51] INFO root fetch - processPackages [octopize.avatar]: Remove: archive file [/home/abi/fetcher/tmp/octopize_avatar-0.7.3.tar.gz]
+[2024-05-27 18:54:51] INFO root fetch - processPackages [octopize.avatar]: Remove: archive file [/home/abi/fetcher/tmp/octopize_avatar-0.7.4.tar.gz]
+[2024-05-27 18:54:51] INFO root fetch - main [MainThread]: End processing [octopize.avatar]: success
+[2024-05-27 18:54:54] INFO root fetch - processPackages [zenml]: Remove: archive file [/home/abi/fetcher/tmp/zenml-0.8.1rc0.tar.gz]
+[2024-05-27 18:54:54] INFO root fetch - processPackages [zenml]: Remove: archive file [/home/abi/fetcher/tmp/zenml-0.9.0.tar.gz]
+[2024-05-27 18:54:54] INFO root fetch - main [MainThread]: End processing [zenml]: success
+[2024-05-27 18:54:54] INFO root fetch - main [MainThread]: Store serial: [23398599]
