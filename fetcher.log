@@ -13199,3 +13199,51 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 12:55:07] INFO root fetch - processPackages [django-smartbase-admin]: Remove: archive file [/home/abi/fetcher/tmp/django_smartbase_admin-0.2.9.tar.gz]
 [2024-05-27 12:55:07] INFO root fetch - main [MainThread]: End processing [django-smartbase-admin]: success
 [2024-05-27 12:55:07] INFO root fetch - main [MainThread]: Store serial: [23394362]
+[2024-05-27 12:57:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23394362]
+[2024-05-27 12:57:17] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-27 12:57:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: alita-sdk
+[2024-05-27 12:57:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyexmars
+[2024-05-27 12:57:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zern
+[2024-05-27 12:57:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ln-markets
+[2024-05-27 12:57:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: django-debug-toolbar
+[2024-05-27 12:57:17] INFO root fetch - processPackages [pyexmars]: New version: [1.0.7] Old Version: [1.0.6]
+[2024-05-27 12:57:17] INFO root fetch - processPackages [django-debug-toolbar]: New version: [4.4.1] Old Version: [4.3.0]
+[2024-05-27 12:57:17] INFO root fetch - processPackages [pyexmars]: Downloading https://files.pythonhosted.org/packages/b8/fc/c91892ba90b6b4cafe3a4f9d1c5daabde95be0b138c035db236048911ad9/pyexmars-1.0.6.tar.gz
+[2024-05-27 12:57:17] INFO root fetch - processPackages [django-debug-toolbar]: Downloading https://files.pythonhosted.org/packages/61/ff/b6d3cc2c31f9a6cf68eda0f7a640ada743f5c39122a0c14db8d3eee3f412/django_debug_toolbar-4.3.0.tar.gz
+[2024-05-27 12:57:17] INFO root fetch - processPackages [alita-sdk]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-27 12:57:17] INFO root fetch - processPackages [zern]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-27 12:57:17] INFO root fetch - processPackages [ln-markets]: New version: [2.0.7] Old Version: [2.0.6]
+[2024-05-27 12:57:17] INFO root fetch - processPackages [pyexmars]: Downloading https://files.pythonhosted.org/packages/a5/78/5f59d9941b8d3ccee3b20f49472d83886915598205b9eda0c3ee9eec4edc/pyexmars-1.0.7.tar.gz
+[2024-05-27 12:57:17] INFO root fetch - processPackages [zern]: Downloading https://files.pythonhosted.org/packages/1f/da/00162e2371310a89c93444b828c4ef9046e808f78d46d6d744de51a78a29/zern-0.0.8.tar.gz
+[2024-05-27 12:57:17] INFO root fetch - processPackages [ln-markets]: Downloading https://files.pythonhosted.org/packages/13/81/55cf98e5f2f2c150e3bd58414821146ffab27c470f1312b72c016c2fc0fc/ln_markets-2.0.6.tar.gz
+[2024-05-27 12:57:17] INFO root fetch - processPackages [django-debug-toolbar]: Downloading https://files.pythonhosted.org/packages/63/70/d7f951984f58c3de1b4e4f5d35fdb2e57e374e4a5c9d1ef95dd889d1c8a5/django_debug_toolbar-4.4.1.tar.gz
+[2024-05-27 12:57:17] INFO root fetch - processPackages [alita-sdk]: Downloading https://files.pythonhosted.org/packages/58/77/699a43c7f5d3229ed63ff8d8eaba7999323921fbe9a94d3dd2d8b0f9b7a6/alita_sdk-0.1.8.tar.gz
+[2024-05-27 12:57:18] INFO root fetch - processPackages [pyexmars]: executing diffoscope
+[2024-05-27 12:57:18] INFO root fetch - processPackages [pyexmars]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyexmars-1.0.6.tar.gz tmp/pyexmars-1.0.7.tar.gz --markdown 20240527/p/pyexmars/1.0.6-1.0.7/README.md --exclude *.pyd
+[2024-05-27 12:57:18] INFO root fetch - processPackages [django-debug-toolbar]: executing diffoscope
+[2024-05-27 12:57:18] INFO root fetch - processPackages [django-debug-toolbar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_debug_toolbar-4.3.0.tar.gz tmp/django_debug_toolbar-4.4.1.tar.gz --markdown 20240527/d/django-debug-toolbar/4.3.0-4.4.1/README.md --exclude *.pyd
+[2024-05-27 12:57:18] INFO root fetch - processPackages [ln-markets]: Downloading https://files.pythonhosted.org/packages/c6/fe/e4fec3206fd53f16eea40bedeb31e1c5f6c7b98e0094d599b7a2bb6fcea6/ln_markets-2.0.7.tar.gz
+[2024-05-27 12:57:18] INFO root fetch - processPackages [zern]: Downloading https://files.pythonhosted.org/packages/da/2b/b995610e20e170f20bfa70249e2c9ccfa458bda26c1898ebe6ba0844b9e6/zern-0.0.9.tar.gz
+[2024-05-27 12:57:18] INFO root fetch - processPackages [alita-sdk]: Downloading https://files.pythonhosted.org/packages/6d/5f/08f7caedc136fde13091ef88ae35349e7285ef4b9c181b34fb1c4dffd4ba/alita_sdk-0.1.9.tar.gz
+[2024-05-27 12:57:18] INFO root fetch - processPackages [zern]: executing diffoscope
+[2024-05-27 12:57:18] INFO root fetch - processPackages [zern]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zern-0.0.8.tar.gz tmp/zern-0.0.9.tar.gz --markdown 20240527/z/zern/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-27 12:57:18] INFO root fetch - processPackages [alita-sdk]: executing diffoscope
+[2024-05-27 12:57:18] INFO root fetch - processPackages [alita-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alita_sdk-0.1.8.tar.gz tmp/alita_sdk-0.1.9.tar.gz --markdown 20240527/a/alita-sdk/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-27 12:57:18] INFO root fetch - processPackages [ln-markets]: executing diffoscope
+[2024-05-27 12:57:18] INFO root fetch - processPackages [ln-markets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ln_markets-2.0.6.tar.gz tmp/ln_markets-2.0.7.tar.gz --markdown 20240527/l/ln-markets/2.0.6-2.0.7/README.md --exclude *.pyd
+[2024-05-27 12:57:18] INFO root fetch - processPackages [pyexmars]: Remove: archive file [/home/abi/fetcher/tmp/pyexmars-1.0.6.tar.gz]
+[2024-05-27 12:57:18] INFO root fetch - processPackages [pyexmars]: Remove: archive file [/home/abi/fetcher/tmp/pyexmars-1.0.7.tar.gz]
+[2024-05-27 12:57:18] INFO root fetch - main [MainThread]: End processing [pyexmars]: success
+[2024-05-27 12:57:19] INFO root fetch - processPackages [zern]: Remove: archive file [/home/abi/fetcher/tmp/zern-0.0.8.tar.gz]
+[2024-05-27 12:57:19] INFO root fetch - processPackages [zern]: Remove: archive file [/home/abi/fetcher/tmp/zern-0.0.9.tar.gz]
+[2024-05-27 12:57:19] INFO root fetch - main [MainThread]: End processing [zern]: success
+[2024-05-27 12:57:19] INFO root fetch - processPackages [alita-sdk]: Remove: archive file [/home/abi/fetcher/tmp/alita_sdk-0.1.8.tar.gz]
+[2024-05-27 12:57:19] INFO root fetch - processPackages [alita-sdk]: Remove: archive file [/home/abi/fetcher/tmp/alita_sdk-0.1.9.tar.gz]
+[2024-05-27 12:57:19] INFO root fetch - main [MainThread]: End processing [alita-sdk]: success
+[2024-05-27 12:57:19] INFO root fetch - processPackages [ln-markets]: Remove: archive file [/home/abi/fetcher/tmp/ln_markets-2.0.6.tar.gz]
+[2024-05-27 12:57:19] INFO root fetch - processPackages [ln-markets]: Remove: archive file [/home/abi/fetcher/tmp/ln_markets-2.0.7.tar.gz]
+[2024-05-27 12:57:19] INFO root fetch - main [MainThread]: End processing [ln-markets]: success
+[2024-05-27 12:57:19] INFO root fetch - processPackages [django-debug-toolbar]: Remove: archive file [/home/abi/fetcher/tmp/django_debug_toolbar-4.3.0.tar.gz]
+[2024-05-27 12:57:19] INFO root fetch - processPackages [django-debug-toolbar]: Remove: archive file [/home/abi/fetcher/tmp/django_debug_toolbar-4.4.1.tar.gz]
+[2024-05-27 12:57:19] INFO root fetch - main [MainThread]: End processing [django-debug-toolbar]: success
+[2024-05-27 12:57:19] INFO root fetch - main [MainThread]: Store serial: [23394374]
