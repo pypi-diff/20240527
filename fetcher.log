@@ -7187,3 +7187,51 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 08:35:37] INFO root fetch - processPackages [chemtsv2]: Remove: archive file [/home/abi/fetcher/tmp/chemtsv2-1.0.3.tar.gz]
 [2024-05-27 08:35:37] INFO root fetch - main [MainThread]: End processing [chemtsv2]: success
 [2024-05-27 08:35:37] INFO root fetch - main [MainThread]: Store serial: [23391375]
+[2024-05-27 08:37:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23391375]
+[2024-05-27 08:37:45] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-27 08:37:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: solar-registry
+[2024-05-27 08:37:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyresearchutils
+[2024-05-27 08:37:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: baml-py
+[2024-05-27 08:37:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: python-aresti
+[2024-05-27 08:37:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: py2docfx
+[2024-05-27 08:37:46] INFO root fetch - processPackages [solar-registry]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-27 08:37:46] INFO root fetch - processPackages [python-aresti]: New version: [0.6] Old Version: [0.5]
+[2024-05-27 08:37:46] INFO root fetch - processPackages [py2docfx]: New version: [0.1.8.dev1739236] Old Version: [0.1.7rc1727773]
+[2024-05-27 08:37:46] INFO root fetch - processPackages [pyresearchutils]: New version: [0.2.1] Old Version: [0.1.0]
+[2024-05-27 08:37:46] INFO root fetch - processPackages [baml-py]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-27 08:37:46] INFO root fetch - processPackages [solar-registry]: Downloading https://files.pythonhosted.org/packages/0e/f2/d054c6d47257d36b6862b3c6612ca69f03a2aa4b63af145d0ea8a522075a/solar_registry-0.2.8.tar.gz
+[2024-05-27 08:37:46] INFO root fetch - processPackages [python-aresti]: Downloading https://files.pythonhosted.org/packages/71/44/25cac91b353f3bb74f454bf8b7beb3b89ff73fb51900a0ef8f371c01737c/python-aresti-0.5.tar.gz
+[2024-05-27 08:37:46] INFO root fetch - processPackages [pyresearchutils]: Downloading https://files.pythonhosted.org/packages/bc/22/d61d0abcfa56e0316572e9f0fbcd812fd849e36bd1feb9a4e4c250718d93/pyresearchutils-0.1.0.tar.gz
+[2024-05-27 08:37:46] INFO root fetch - processPackages [baml-py]: Downloading https://files.pythonhosted.org/packages/e9/42/107de39e54932745ce1b6948b52cab9a47b2f4440f9cd2e7c9afe8338e17/baml_py-0.1.8-cp38-abi3-win_amd64.whl
+[2024-05-27 08:37:46] INFO root fetch - processPackages [py2docfx]: Downloading https://files.pythonhosted.org/packages/94/67/326fb5ca8ea14c11c91fded462b2a8d4172e84c5d28cc28423d5b9c10aba/py2docfx-0.1.7rc1727773-py3-none-any.whl
+[2024-05-27 08:37:46] INFO root fetch - processPackages [solar-registry]: Downloading https://files.pythonhosted.org/packages/cd/40/34eee216b08c5fa01cbb36635892aad7693c83fa5e87387b29ae05c737f0/solar_registry-0.2.9.tar.gz
+[2024-05-27 08:37:46] INFO root fetch - processPackages [pyresearchutils]: Downloading https://files.pythonhosted.org/packages/c4/2f/8b242b2f6a5b6135dd3d9004ab7642df0209c8f9e757cc6ece04b8fc608e/pyresearchutils-0.2.1.tar.gz
+[2024-05-27 08:37:46] INFO root fetch - processPackages [python-aresti]: Downloading https://files.pythonhosted.org/packages/a5/78/df099e8952e41335263b5813df92202412e0bbd1cacc85bade036c92e8e4/python_aresti-0.6.tar.gz
+[2024-05-27 08:37:46] INFO root fetch - processPackages [py2docfx]: Downloading https://files.pythonhosted.org/packages/17/ea/c143c6ffcb54e047454ee312187476d5f8fc575d52805138ac61c09d3a3c/py2docfx-0.1.8.dev1739236-py3-none-any.whl
+[2024-05-27 08:37:46] INFO root fetch - processPackages [solar-registry]: executing diffoscope
+[2024-05-27 08:37:46] INFO root fetch - processPackages [solar-registry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/solar_registry-0.2.8.tar.gz tmp/solar_registry-0.2.9.tar.gz --markdown 20240527/s/solar-registry/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-27 08:37:46] INFO root fetch - processPackages [pyresearchutils]: executing diffoscope
+[2024-05-27 08:37:46] INFO root fetch - processPackages [pyresearchutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyresearchutils-0.1.0.tar.gz tmp/pyresearchutils-0.2.1.tar.gz --markdown 20240527/p/pyresearchutils/0.1.0-0.2.1/README.md --exclude *.pyd
+[2024-05-27 08:37:46] INFO root fetch - processPackages [python-aresti]: executing diffoscope
+[2024-05-27 08:37:46] INFO root fetch - processPackages [python-aresti]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-aresti-0.5.tar.gz tmp/python_aresti-0.6.tar.gz --markdown 20240527/p/python-aresti/0.5-0.6/README.md --exclude *.pyd
+[2024-05-27 08:37:47] INFO root fetch - processPackages [py2docfx]: executing diffoscope
+[2024-05-27 08:37:47] INFO root fetch - processPackages [py2docfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py2docfx-0.1.7rc1727773-py3-none-any.whl.zip tmp/py2docfx-0.1.8.dev1739236-py3-none-any.whl.zip --markdown 20240527/p/py2docfx/0.1.7rc1727773-0.1.8.dev1739236/README.md --exclude *.pyd
+[2024-05-27 08:37:47] INFO root fetch - processPackages [baml-py]: Downloading https://files.pythonhosted.org/packages/3e/87/fcf0a5417f646d138f5db6819b2d7110f5c8440298d8d7b11ecaf5711660/baml_py-0.1.9-cp38-abi3-win_amd64.whl
+[2024-05-27 08:37:47] INFO root fetch - processPackages [pyresearchutils]: Remove: archive file [/home/abi/fetcher/tmp/pyresearchutils-0.1.0.tar.gz]
+[2024-05-27 08:37:47] INFO root fetch - processPackages [pyresearchutils]: Remove: archive file [/home/abi/fetcher/tmp/pyresearchutils-0.2.1.tar.gz]
+[2024-05-27 08:37:47] INFO root fetch - main [MainThread]: End processing [pyresearchutils]: success
+[2024-05-27 08:37:47] INFO root fetch - processPackages [python-aresti]: Remove: archive file [/home/abi/fetcher/tmp/python-aresti-0.5.tar.gz]
+[2024-05-27 08:37:47] INFO root fetch - processPackages [python-aresti]: Remove: archive file [/home/abi/fetcher/tmp/python_aresti-0.6.tar.gz]
+[2024-05-27 08:37:47] INFO root fetch - main [MainThread]: End processing [python-aresti]: success
+[2024-05-27 08:37:47] INFO root fetch - processPackages [baml-py]: executing diffoscope
+[2024-05-27 08:37:47] INFO root fetch - processPackages [baml-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/baml_py-0.1.8-cp38-abi3-win_amd64.whl.zip tmp/baml_py-0.1.9-cp38-abi3-win_amd64.whl.zip --markdown 20240527/b/baml-py/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-27 08:37:47] INFO root fetch - processPackages [solar-registry]: Remove: archive file [/home/abi/fetcher/tmp/solar_registry-0.2.8.tar.gz]
+[2024-05-27 08:37:47] INFO root fetch - processPackages [solar-registry]: Remove: archive file [/home/abi/fetcher/tmp/solar_registry-0.2.9.tar.gz]
+[2024-05-27 08:37:47] INFO root fetch - main [MainThread]: End processing [solar-registry]: success
+[2024-05-27 08:37:47] INFO root fetch - processPackages [py2docfx]: Remove: archive file [/home/abi/fetcher/tmp/py2docfx-0.1.7rc1727773-py3-none-any.whl.zip]
+[2024-05-27 08:37:47] INFO root fetch - processPackages [py2docfx]: Remove: archive file [/home/abi/fetcher/tmp/py2docfx-0.1.8.dev1739236-py3-none-any.whl.zip]
+[2024-05-27 08:37:47] INFO root fetch - main [MainThread]: End processing [py2docfx]: success
+[2024-05-27 08:37:48] INFO root fetch - processPackages [baml-py]: Remove: archive file [/home/abi/fetcher/tmp/baml_py-0.1.8-cp38-abi3-win_amd64.whl.zip]
+[2024-05-27 08:37:48] INFO root fetch - processPackages [baml-py]: Remove: archive file [/home/abi/fetcher/tmp/baml_py-0.1.9-cp38-abi3-win_amd64.whl.zip]
+[2024-05-27 08:37:48] INFO root fetch - main [MainThread]: End processing [baml-py]: success
+[2024-05-27 08:37:48] INFO root fetch - main [MainThread]: Store serial: [23391403]
