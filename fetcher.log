@@ -18897,3 +18897,60 @@ EOFError: EOF read where object expected
 [2024-05-27 16:32:25] INFO root fetch - processPackages [glide-for-redis]: Remove: archive file [/home/abi/fetcher/tmp/glide_for_redis-0.4.0rc4-cp39-cp39-manylinux_2_28_aarch64.whl.zip]
 [2024-05-27 16:32:25] INFO root fetch - main [MainThread]: End processing [glide-for-redis]: success
 [2024-05-27 16:32:25] INFO root fetch - main [MainThread]: Store serial: [23397067]
+[2024-05-27 16:34:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23397067]
+[2024-05-27 16:34:39] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-27 16:34:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: openhexa.toolbox
+[2024-05-27 16:34:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ansys-tools-visualization-interface
+[2024-05-27 16:34:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nrv-py
+[2024-05-27 16:34:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gstlearn
+[2024-05-27 16:34:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dragonion
+[2024-05-27 16:34:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jupyterlab-new-launcher
+[2024-05-27 16:34:39] INFO root fetch - processPackages [jupyterlab-new-launcher]: New version: [0.4.0] Old Version: [0.3.3]
+[2024-05-27 16:34:39] INFO root fetch - processPackages [dragonion]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-27 16:34:39] INFO root fetch - processPackages [openhexa.toolbox]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-05-27 16:34:39] INFO root fetch - processPackages [nrv-py]: New version: [1.1.0] Old Version: [1.0.1]
+[2024-05-27 16:34:39] INFO root fetch - processPackages [ansys-tools-visualization-interface]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-05-27 16:34:39] INFO root fetch - processPackages [jupyterlab-new-launcher]: Downloading https://files.pythonhosted.org/packages/fb/de/0f5bfc84cf9900789decf9c75e105976e8c28553c20f2353f9857bd4fc78/jupyterlab_new_launcher-0.3.3.tar.gz
+[2024-05-27 16:34:39] INFO root fetch - processPackages [dragonion]: Downloading https://files.pythonhosted.org/packages/e8/c9/42bfd589f9be0bc7869004d5c639ab6bcca0b9c4847a9133f3327d0e8633/dragonion-1.0.1-py3-none-any.whl
+[2024-05-27 16:34:39] INFO root fetch - processPackages [gstlearn]: New version: [1.2.3] Old Version: [1.2.2]
+[2024-05-27 16:34:39] INFO root fetch - processPackages [openhexa.toolbox]: Downloading https://files.pythonhosted.org/packages/42/33/e6a5eddd6fc7c3f878453bc41695bcd94703af0c6d25fb0a9d805288312e/openhexa_toolbox-0.2.2.tar.gz
+[2024-05-27 16:34:39] INFO root fetch - processPackages [nrv-py]: Downloading https://files.pythonhosted.org/packages/2d/c2/2a8dba33bcf4c1ea13a20bb35b2ffcba24afcef2ca56e92473654aba76b2/nrv-py-1.0.1.tar.gz
+[2024-05-27 16:34:39] INFO root fetch - processPackages [ansys-tools-visualization-interface]: Downloading https://files.pythonhosted.org/packages/df/61/9d8f7e613623bb7d76af67a4a3a5caa3a8374ae4fb86852452e9efbb833b/ansys_tools_visualization_interface-0.1.0.tar.gz
+[2024-05-27 16:34:39] INFO root fetch - processPackages [jupyterlab-new-launcher]: Downloading https://files.pythonhosted.org/packages/b2/c8/7cb7292197a819a09ea1dd0515190e5bb44430ad90c49410a03486486801/jupyterlab_new_launcher-0.4.0.tar.gz
+[2024-05-27 16:34:39] INFO root fetch - processPackages [dragonion]: Downloading https://files.pythonhosted.org/packages/2b/5f/24f25698b699ae27ad06b28a4d7eaea02fbd4866cbe7bfbe62b4ff1e07d3/dragonion-1.0.2-py3-none-any.whl
+[2024-05-27 16:34:40] INFO root fetch - processPackages [gstlearn]: Downloading https://files.pythonhosted.org/packages/30/0b/8f18910ec8bbb8a1dc4ad4bad4c31b6da9d3e3af83ff026215596fbd888d/gstlearn-1.2.2-cp39-cp39-manylinux1_x86_64.whl
+[2024-05-27 16:34:40] INFO root fetch - processPackages [jupyterlab-new-launcher]: executing diffoscope
+[2024-05-27 16:34:40] INFO root fetch - processPackages [jupyterlab-new-launcher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterlab_new_launcher-0.3.3.tar.gz tmp/jupyterlab_new_launcher-0.4.0.tar.gz --markdown 20240527/j/jupyterlab-new-launcher/0.3.3-0.4.0/README.md --exclude *.pyd
+[2024-05-27 16:34:40] INFO root fetch - processPackages [dragonion]: executing diffoscope
+[2024-05-27 16:34:40] INFO root fetch - processPackages [dragonion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonion-1.0.1-py3-none-any.whl.zip tmp/dragonion-1.0.2-py3-none-any.whl.zip --markdown 20240527/d/dragonion/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-27 16:34:40] INFO root fetch - processPackages [ansys-tools-visualization-interface]: Downloading https://files.pythonhosted.org/packages/6e/66/e115244631ed370b1f5dd7f4ec4df22557a219df8ae828f5e95857a81232/ansys_tools_visualization_interface-0.2.0.tar.gz
+[2024-05-27 16:34:40] INFO root fetch - processPackages [openhexa.toolbox]: Downloading https://files.pythonhosted.org/packages/4a/9c/50ab533465f88f57d136cbb9c460e3afe480cc2ad026c7b62a24db90b9a6/openhexa_toolbox-0.2.3.tar.gz
+[2024-05-27 16:34:40] INFO root fetch - processPackages [openhexa.toolbox]: executing diffoscope
+[2024-05-27 16:34:40] INFO root fetch - processPackages [openhexa.toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openhexa_toolbox-0.2.2.tar.gz tmp/openhexa_toolbox-0.2.3.tar.gz --markdown 20240527/o/openhexa.toolbox/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-05-27 16:34:40] INFO root fetch - processPackages [ansys-tools-visualization-interface]: executing diffoscope
+[2024-05-27 16:34:40] INFO root fetch - processPackages [ansys-tools-visualization-interface]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansys_tools_visualization_interface-0.1.0.tar.gz tmp/ansys_tools_visualization_interface-0.2.0.tar.gz --markdown 20240527/a/ansys-tools-visualization-interface/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-05-27 16:34:40] INFO root fetch - processPackages [nrv-py]: Downloading https://files.pythonhosted.org/packages/90/e7/4af3aaad2a657c730968c0aee90369ed41038caecc22a31d2dfb0ce7de19/nrv_py-1.1.0.tar.gz
+[2024-05-27 16:34:40] INFO root fetch - processPackages [dragonion]: Remove: archive file [/home/abi/fetcher/tmp/dragonion-1.0.1-py3-none-any.whl.zip]
+[2024-05-27 16:34:40] INFO root fetch - processPackages [dragonion]: Remove: archive file [/home/abi/fetcher/tmp/dragonion-1.0.2-py3-none-any.whl.zip]
+[2024-05-27 16:34:40] INFO root fetch - main [MainThread]: End processing [dragonion]: success
+[2024-05-27 16:34:40] INFO root fetch - processPackages [openhexa.toolbox]: Remove: archive file [/home/abi/fetcher/tmp/openhexa_toolbox-0.2.2.tar.gz]
+[2024-05-27 16:34:40] INFO root fetch - processPackages [openhexa.toolbox]: Remove: archive file [/home/abi/fetcher/tmp/openhexa_toolbox-0.2.3.tar.gz]
+[2024-05-27 16:34:40] INFO root fetch - main [MainThread]: End processing [openhexa.toolbox]: success
+[2024-05-27 16:34:41] INFO root fetch - processPackages [ansys-tools-visualization-interface]: Remove: archive file [/home/abi/fetcher/tmp/ansys_tools_visualization_interface-0.1.0.tar.gz]
+[2024-05-27 16:34:41] INFO root fetch - processPackages [ansys-tools-visualization-interface]: Remove: archive file [/home/abi/fetcher/tmp/ansys_tools_visualization_interface-0.2.0.tar.gz]
+[2024-05-27 16:34:41] INFO root fetch - main [MainThread]: End processing [ansys-tools-visualization-interface]: success
+[2024-05-27 16:34:41] INFO root fetch - processPackages [gstlearn]: Downloading https://files.pythonhosted.org/packages/4f/90/be7b8cef089b4de80fcc404cdc46325f195d0b5911d2b810e5e4c30f7fd9/gstlearn-1.2.3-cp39-cp39-win_amd64.whl
+[2024-05-27 16:34:41] INFO root fetch - processPackages [nrv-py]: executing diffoscope
+[2024-05-27 16:34:41] INFO root fetch - processPackages [nrv-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nrv-py-1.0.1.tar.gz tmp/nrv_py-1.1.0.tar.gz --markdown 20240527/n/nrv-py/1.0.1-1.1.0/README.md --exclude *.pyd
+[2024-05-27 16:34:41] INFO root fetch - processPackages [jupyterlab-new-launcher]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_new_launcher-0.3.3.tar.gz]
+[2024-05-27 16:34:41] INFO root fetch - processPackages [jupyterlab-new-launcher]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_new_launcher-0.4.0.tar.gz]
+[2024-05-27 16:34:41] INFO root fetch - main [MainThread]: End processing [jupyterlab-new-launcher]: success
+[2024-05-27 16:34:43] INFO root fetch - processPackages [gstlearn]: executing diffoscope
+[2024-05-27 16:34:43] INFO root fetch - processPackages [gstlearn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gstlearn-1.2.2-cp39-cp39-manylinux1_x86_64.whl.zip tmp/gstlearn-1.2.3-cp39-cp39-win_amd64.whl.zip --markdown 20240527/g/gstlearn/1.2.2-1.2.3/README.md --exclude *.pyd
+[2024-05-27 16:34:43] INFO root fetch - processPackages [nrv-py]: Remove: archive file [/home/abi/fetcher/tmp/nrv-py-1.0.1.tar.gz]
+[2024-05-27 16:34:43] INFO root fetch - processPackages [nrv-py]: Remove: archive file [/home/abi/fetcher/tmp/nrv_py-1.1.0.tar.gz]
+[2024-05-27 16:34:43] INFO root fetch - main [MainThread]: End processing [nrv-py]: success
+[2024-05-27 16:34:44] INFO root fetch - processPackages [gstlearn]: Remove: archive file [/home/abi/fetcher/tmp/gstlearn-1.2.2-cp39-cp39-manylinux1_x86_64.whl.zip]
+[2024-05-27 16:34:44] INFO root fetch - processPackages [gstlearn]: Remove: archive file [/home/abi/fetcher/tmp/gstlearn-1.2.3-cp39-cp39-win_amd64.whl.zip]
+[2024-05-27 16:34:44] INFO root fetch - main [MainThread]: End processing [gstlearn]: success
+[2024-05-27 16:34:44] INFO root fetch - main [MainThread]: Store serial: [23397103]
