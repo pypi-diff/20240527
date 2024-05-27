@@ -15349,3 +15349,63 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 14:25:44] INFO root fetch - processPackages [netbox-docker-plugin]: Remove: archive file [/home/abi/fetcher/tmp/netbox_docker_plugin-2.0.0.tar.gz]
 [2024-05-27 14:25:44] INFO root fetch - main [MainThread]: End processing [netbox-docker-plugin]: success
 [2024-05-27 14:25:44] INFO root fetch - main [MainThread]: Store serial: [23395451]
+[2024-05-27 14:27:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23395451]
+[2024-05-27 14:27:53] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-27 14:27:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: osw
+[2024-05-27 14:27:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdktf
+[2024-05-27 14:27:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: OpenDocument
+[2024-05-27 14:27:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: databricks-labs-ucx
+[2024-05-27 14:27:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vectice
+[2024-05-27 14:27:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mlcvzoo-mmdetection
+[2024-05-27 14:27:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pylibclang-stubs
+[2024-05-27 14:27:53] INFO root fetch - processPackages [cdktf]: New version: [0.9.4] Old Version: [0.9.3]
+[2024-05-27 14:27:53] WARNING root fetch - processPackages [OpenDocument]: Skipping, unable to determine old version
+[2024-05-27 14:27:53] INFO root fetch - main [MainThread]: End processing [OpenDocument] error
+[2024-05-27 14:27:53] INFO root fetch - processPackages [mlcvzoo-mmdetection]: New version: [6.6.0] Old Version: [6.5.1]
+[2024-05-27 14:27:53] INFO root fetch - processPackages [databricks-labs-ucx]: New version: [0.24.0] Old Version: [0.23.1]
+[2024-05-27 14:27:53] INFO root fetch - processPackages [pylibclang-stubs]: New version: [318.1.1] Old Version: [316.0.6]
+[2024-05-27 14:27:53] INFO root fetch - processPackages [vectice]: New version: [24.2.7.0] Old Version: [24.2.6.0]
+[2024-05-27 14:27:53] INFO root fetch - processPackages [osw]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-05-27 14:27:53] INFO root fetch - processPackages [cdktf]: Downloading https://files.pythonhosted.org/packages/87/b3/c146d54086d890741cc9d05c63504e1386b268ef8cbc52d9aa78c1080aa3/cdktf-0.9.3.tar.gz
+[2024-05-27 14:27:53] INFO root fetch - processPackages [osw]: Downloading https://files.pythonhosted.org/packages/26/a8/326700e2a6461b1445964baa8f725eaa49b86e7d01b90acfe28e9cd8dd9c/osw-0.8.1.tar.gz
+[2024-05-27 14:27:53] INFO root fetch - processPackages [pylibclang-stubs]: Downloading https://files.pythonhosted.org/packages/c6/c1/d056812fa72d86ade6578437bd4d23c83dcfadfa43f4a5cc9571edfdc405/pylibclang-stubs-316.0.6.tar.gz
+[2024-05-27 14:27:53] INFO root fetch - processPackages [vectice]: Downloading https://files.pythonhosted.org/packages/54/63/650a2036a811b9d57554ab5a402da4086425081801253fe4f1c7843efb87/vectice-24.2.6.0.tar.gz
+[2024-05-27 14:27:53] INFO root fetch - processPackages [mlcvzoo-mmdetection]: Downloading https://files.pythonhosted.org/packages/cf/36/4943bead6c35514bbda5c74be6a2eb18ca60757f71f661529144302ecbfa/mlcvzoo_mmdetection-6.5.1.tar.gz
+[2024-05-27 14:27:53] INFO root fetch - processPackages [databricks-labs-ucx]: Downloading https://files.pythonhosted.org/packages/51/af/bda3fcfd2158dc5a68f08375940aeb7172671dfe06fbef0305697dbc1087/databricks_labs_ucx-0.23.1.tar.gz
+[2024-05-27 14:27:54] INFO root fetch - processPackages [osw]: Downloading https://files.pythonhosted.org/packages/13/cc/74dd2c87432fecad0abe454330808f96c0eb0589faea2daeb46dd621947a/osw-0.9.0.tar.gz
+[2024-05-27 14:27:54] INFO root fetch - processPackages [mlcvzoo-mmdetection]: Downloading https://files.pythonhosted.org/packages/ea/11/30627c99d217e750db56da18500329bfa8fee8aa89cdd4f1d89fc4b76c9a/mlcvzoo_mmdetection-6.6.0.tar.gz
+[2024-05-27 14:27:54] INFO root fetch - processPackages [vectice]: Downloading https://files.pythonhosted.org/packages/c7/c7/b5bab71f06244e77ea9b39821a68daacec356252270ff172fb6372426e1d/vectice-24.2.7.0.tar.gz
+[2024-05-27 14:27:54] INFO root fetch - processPackages [pylibclang-stubs]: Downloading https://files.pythonhosted.org/packages/8a/60/f7d11d47a0ebcff9e938ea98d652dd8e3bbbc5d0416f30f4815cd798892f/pylibclang_stubs-318.1.1.tar.gz
+[2024-05-27 14:27:54] INFO root fetch - processPackages [osw]: executing diffoscope
+[2024-05-27 14:27:54] INFO root fetch - processPackages [osw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/osw-0.8.1.tar.gz tmp/osw-0.9.0.tar.gz --markdown 20240527/o/osw/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-05-27 14:27:54] INFO root fetch - processPackages [mlcvzoo-mmdetection]: executing diffoscope
+[2024-05-27 14:27:54] INFO root fetch - processPackages [mlcvzoo-mmdetection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlcvzoo_mmdetection-6.5.1.tar.gz tmp/mlcvzoo_mmdetection-6.6.0.tar.gz --markdown 20240527/m/mlcvzoo-mmdetection/6.5.1-6.6.0/README.md --exclude *.pyd
+[2024-05-27 14:27:54] INFO root fetch - processPackages [databricks-labs-ucx]: Downloading https://files.pythonhosted.org/packages/5f/7b/53fdd79f3331f32c6f15b9b46699c282908182e2b96b2d32875dbdc5e820/databricks_labs_ucx-0.24.0.tar.gz
+[2024-05-27 14:27:54] INFO root fetch - processPackages [cdktf]: Downloading https://files.pythonhosted.org/packages/80/8d/cbc9ef418f046a8c17f614889aba72b6e668540a2966498bef6f1dbb3a10/cdktf-0.9.4.tar.gz
+[2024-05-27 14:27:54] INFO root fetch - processPackages [vectice]: executing diffoscope
+[2024-05-27 14:27:54] INFO root fetch - processPackages [vectice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vectice-24.2.6.0.tar.gz tmp/vectice-24.2.7.0.tar.gz --markdown 20240527/v/vectice/24.2.6.0-24.2.7.0/README.md --exclude *.pyd
+[2024-05-27 14:27:54] INFO root fetch - processPackages [pylibclang-stubs]: executing diffoscope
+[2024-05-27 14:27:54] INFO root fetch - processPackages [pylibclang-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylibclang-stubs-316.0.6.tar.gz tmp/pylibclang_stubs-318.1.1.tar.gz --markdown 20240527/p/pylibclang-stubs/316.0.6-318.1.1/README.md --exclude *.pyd
+[2024-05-27 14:27:54] INFO root fetch - processPackages [databricks-labs-ucx]: executing diffoscope
+[2024-05-27 14:27:54] INFO root fetch - processPackages [databricks-labs-ucx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/databricks_labs_ucx-0.23.1.tar.gz tmp/databricks_labs_ucx-0.24.0.tar.gz --markdown 20240527/d/databricks-labs-ucx/0.23.1-0.24.0/README.md --exclude *.pyd
+[2024-05-27 14:27:54] INFO root fetch - processPackages [cdktf]: executing diffoscope
+[2024-05-27 14:27:54] INFO root fetch - processPackages [cdktf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-0.9.3.tar.gz tmp/cdktf-0.9.4.tar.gz --markdown 20240527/c/cdktf/0.9.3-0.9.4/README.md --exclude *.pyd
+[2024-05-27 14:27:55] INFO root fetch - processPackages [mlcvzoo-mmdetection]: Remove: archive file [/home/abi/fetcher/tmp/mlcvzoo_mmdetection-6.5.1.tar.gz]
+[2024-05-27 14:27:55] INFO root fetch - processPackages [mlcvzoo-mmdetection]: Remove: archive file [/home/abi/fetcher/tmp/mlcvzoo_mmdetection-6.6.0.tar.gz]
+[2024-05-27 14:27:55] INFO root fetch - main [MainThread]: End processing [mlcvzoo-mmdetection]: success
+[2024-05-27 14:27:55] INFO root fetch - processPackages [osw]: Remove: archive file [/home/abi/fetcher/tmp/osw-0.8.1.tar.gz]
+[2024-05-27 14:27:55] INFO root fetch - processPackages [osw]: Remove: archive file [/home/abi/fetcher/tmp/osw-0.9.0.tar.gz]
+[2024-05-27 14:27:55] INFO root fetch - main [MainThread]: End processing [osw]: success
+[2024-05-27 14:27:55] INFO root fetch - processPackages [pylibclang-stubs]: Remove: archive file [/home/abi/fetcher/tmp/pylibclang-stubs-316.0.6.tar.gz]
+[2024-05-27 14:27:55] INFO root fetch - processPackages [pylibclang-stubs]: Remove: archive file [/home/abi/fetcher/tmp/pylibclang_stubs-318.1.1.tar.gz]
+[2024-05-27 14:27:55] INFO root fetch - main [MainThread]: End processing [pylibclang-stubs]: success
+[2024-05-27 14:27:55] INFO root fetch - processPackages [cdktf]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-0.9.3.tar.gz]
+[2024-05-27 14:27:55] INFO root fetch - processPackages [cdktf]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-0.9.4.tar.gz]
+[2024-05-27 14:27:55] INFO root fetch - main [MainThread]: End processing [cdktf]: success
+[2024-05-27 14:27:55] INFO root fetch - processPackages [vectice]: Remove: archive file [/home/abi/fetcher/tmp/vectice-24.2.6.0.tar.gz]
+[2024-05-27 14:27:55] INFO root fetch - processPackages [vectice]: Remove: archive file [/home/abi/fetcher/tmp/vectice-24.2.7.0.tar.gz]
+[2024-05-27 14:27:55] INFO root fetch - main [MainThread]: End processing [vectice]: success
+[2024-05-27 14:27:55] INFO root fetch - processPackages [databricks-labs-ucx]: Remove: archive file [/home/abi/fetcher/tmp/databricks_labs_ucx-0.23.1.tar.gz]
+[2024-05-27 14:27:55] INFO root fetch - processPackages [databricks-labs-ucx]: Remove: archive file [/home/abi/fetcher/tmp/databricks_labs_ucx-0.24.0.tar.gz]
+[2024-05-27 14:27:55] INFO root fetch - main [MainThread]: End processing [databricks-labs-ucx]: success
+[2024-05-27 14:27:55] INFO root fetch - main [MainThread]: Store serial: [23395484]
