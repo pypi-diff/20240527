@@ -15571,3 +15571,21 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 14:32:22] INFO root fetch - processPackages [watchfiles]: Remove: archive file [/home/abi/fetcher/tmp/watchfiles-0.22.0-cp38-cp38-macosx_10_12_x86_64.whl.zip]
 [2024-05-27 14:32:22] INFO root fetch - main [MainThread]: End processing [watchfiles]: success
 [2024-05-27 14:32:22] INFO root fetch - main [MainThread]: Store serial: [23395569]
+[2024-05-27 14:34:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23395569]
+[2024-05-27 14:34:30] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-27 14:34:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: paradance
+[2024-05-27 14:34:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rl-language
+[2024-05-27 14:34:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: esp-rainmaker-cli
+[2024-05-27 14:34:31] WARNING root fetch - processPackages [rl-language]: Skipping, unable to determine old version
+[2024-05-27 14:34:31] INFO root fetch - main [MainThread]: End processing [rl-language] error
+[2024-05-27 14:34:31] INFO root fetch - processPackages [paradance]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-05-27 14:34:31] WARNING root fetch - processPackages [esp-rainmaker-cli]: Skipping, unable to determine old version
+[2024-05-27 14:34:31] INFO root fetch - main [MainThread]: End processing [esp-rainmaker-cli] error
+[2024-05-27 14:34:31] INFO root fetch - processPackages [paradance]: Downloading https://files.pythonhosted.org/packages/8f/4c/6a3c7d4731f17fd3b3e4130274d7bbae13be34f848072567de4b0ab61969/paradance-0.4.8.tar.gz
+[2024-05-27 14:34:31] INFO root fetch - processPackages [paradance]: Downloading https://files.pythonhosted.org/packages/ab/20/cc427c1600f67ef9036e4f225cc6bcdac42746ca6db329d2d1029be4c84e/paradance-0.4.9.tar.gz
+[2024-05-27 14:34:31] INFO root fetch - processPackages [paradance]: executing diffoscope
+[2024-05-27 14:34:31] INFO root fetch - processPackages [paradance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paradance-0.4.8.tar.gz tmp/paradance-0.4.9.tar.gz --markdown 20240527/p/paradance/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-05-27 14:34:32] INFO root fetch - processPackages [paradance]: Remove: archive file [/home/abi/fetcher/tmp/paradance-0.4.8.tar.gz]
+[2024-05-27 14:34:32] INFO root fetch - processPackages [paradance]: Remove: archive file [/home/abi/fetcher/tmp/paradance-0.4.9.tar.gz]
+[2024-05-27 14:34:32] INFO root fetch - main [MainThread]: End processing [paradance]: success
+[2024-05-27 14:34:32] INFO root fetch - main [MainThread]: Store serial: [23395620]
