@@ -7618,3 +7618,42 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 08:59:49] INFO root fetch - processPackages [chess-transformer]: Remove: archive file [/home/abi/fetcher/tmp/chess_transformer-0.1.2.tar.gz]
 [2024-05-27 08:59:49] INFO root fetch - main [MainThread]: End processing [chess-transformer]: success
 [2024-05-27 08:59:49] INFO root fetch - main [MainThread]: Store serial: [23391602]
+[2024-05-27 09:01:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23391602]
+[2024-05-27 09:01:57] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-27 09:01:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: transstellar-antd
+[2024-05-27 09:01:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: postgresqlite
+[2024-05-27 09:01:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: streamlit-nightly
+[2024-05-27 09:01:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tf-models-nightly
+[2024-05-27 09:01:57] INFO root fetch - processPackages [tf-models-nightly]: New version: [2.9.0.dev20220920] Old Version: [2.9.0.dev20220919]
+[2024-05-27 09:01:57] INFO root fetch - processPackages [transstellar-antd]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-05-27 09:01:57] INFO root fetch - processPackages [postgresqlite]: New version: [0.4.4] Old Version: [0.4.3]
+[2024-05-27 09:01:57] INFO root fetch - processPackages [tf-models-nightly]: Downloading https://files.pythonhosted.org/packages/73/e9/06af7a12cda1722ec668213b9e91a8a2e918011d3ef8e9a98146ee4f76ef/tf_models_nightly-2.9.0.dev20220919-py2.py3-none-any.whl
+[2024-05-27 09:01:57] INFO root fetch - processPackages [streamlit-nightly]: New version: [1.35.1.dev20240526] Old Version: [1.35.1.dev20240525]
+[2024-05-27 09:01:58] INFO root fetch - processPackages [transstellar-antd]: Downloading https://files.pythonhosted.org/packages/8f/a6/d619f3451d6a76e12fef710752e73b34964d894a417d58432367108c9910/transstellar_antd-0.8.1.tar.gz
+[2024-05-27 09:01:58] INFO root fetch - processPackages [postgresqlite]: Downloading https://files.pythonhosted.org/packages/ae/97/84eba514ca55c7937a525399fcf6fe84e5b29ac7b1d09fcc1db850218b6f/postgresqlite-0.4.3.tar.gz
+[2024-05-27 09:01:58] INFO root fetch - processPackages [tf-models-nightly]: Downloading https://files.pythonhosted.org/packages/e2/76/79c5fb2cd23f346ee912b9c289c2a9bab6fc8d178658f931ac9a023224c6/tf_models_nightly-2.9.0.dev20220920-py2.py3-none-any.whl
+[2024-05-27 09:01:58] INFO root fetch - processPackages [streamlit-nightly]: Downloading https://files.pythonhosted.org/packages/55/41/c07226b5754edda1f04e2cba27853b375c7a8bb3eb5702ff31c2728354d7/streamlit_nightly-1.35.1.dev20240525.tar.gz
+[2024-05-27 09:01:58] INFO root fetch - processPackages [postgresqlite]: Downloading https://files.pythonhosted.org/packages/24/01/8dab49f32774e398c7018e8b32b91d5211cb2acb2a65d09ab81a096e61e0/postgresqlite-0.4.4.tar.gz
+[2024-05-27 09:01:58] INFO root fetch - processPackages [transstellar-antd]: Downloading https://files.pythonhosted.org/packages/71/89/6a56e920e316df0da9580cc9789cd02c1fe6b93a5d4fd10dc20c13fd9f5f/transstellar_antd-0.9.0.tar.gz
+[2024-05-27 09:01:58] INFO root fetch - processPackages [postgresqlite]: executing diffoscope
+[2024-05-27 09:01:58] INFO root fetch - processPackages [postgresqlite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/postgresqlite-0.4.3.tar.gz tmp/postgresqlite-0.4.4.tar.gz --markdown 20240527/p/postgresqlite/0.4.3-0.4.4/README.md --exclude *.pyd
+[2024-05-27 09:01:58] INFO root fetch - processPackages [transstellar-antd]: executing diffoscope
+[2024-05-27 09:01:58] INFO root fetch - processPackages [transstellar-antd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/transstellar_antd-0.8.1.tar.gz tmp/transstellar_antd-0.9.0.tar.gz --markdown 20240527/t/transstellar-antd/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-05-27 09:01:58] INFO root fetch - processPackages [tf-models-nightly]: executing diffoscope
+[2024-05-27 09:01:58] INFO root fetch - processPackages [tf-models-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_models_nightly-2.9.0.dev20220919-py2.py3-none-any.whl.zip tmp/tf_models_nightly-2.9.0.dev20220920-py2.py3-none-any.whl.zip --markdown 20240527/t/tf-models-nightly/2.9.0.dev20220919-2.9.0.dev20220920/README.md --exclude *.pyd
+[2024-05-27 09:01:58] INFO root fetch - processPackages [streamlit-nightly]: Downloading https://files.pythonhosted.org/packages/6b/18/f1593d37c2666728ab0f87795c68e95f73d0bf013a138265692577abed5e/streamlit_nightly-1.35.1.dev20240526.tar.gz
+[2024-05-27 09:01:59] INFO root fetch - processPackages [postgresqlite]: Remove: archive file [/home/abi/fetcher/tmp/postgresqlite-0.4.3.tar.gz]
+[2024-05-27 09:01:59] INFO root fetch - processPackages [postgresqlite]: Remove: archive file [/home/abi/fetcher/tmp/postgresqlite-0.4.4.tar.gz]
+[2024-05-27 09:01:59] INFO root fetch - main [MainThread]: End processing [postgresqlite]: success
+[2024-05-27 09:01:59] INFO root fetch - processPackages [streamlit-nightly]: executing diffoscope
+[2024-05-27 09:01:59] INFO root fetch - processPackages [streamlit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit_nightly-1.35.1.dev20240525.tar.gz tmp/streamlit_nightly-1.35.1.dev20240526.tar.gz --markdown 20240527/s/streamlit-nightly/1.35.1.dev20240525-1.35.1.dev20240526/README.md --exclude *.pyd
+[2024-05-27 09:01:59] INFO root fetch - processPackages [transstellar-antd]: Remove: archive file [/home/abi/fetcher/tmp/transstellar_antd-0.8.1.tar.gz]
+[2024-05-27 09:01:59] INFO root fetch - processPackages [transstellar-antd]: Remove: archive file [/home/abi/fetcher/tmp/transstellar_antd-0.9.0.tar.gz]
+[2024-05-27 09:01:59] INFO root fetch - main [MainThread]: End processing [transstellar-antd]: success
+[2024-05-27 09:02:01] INFO root fetch - processPackages [tf-models-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_models_nightly-2.9.0.dev20220919-py2.py3-none-any.whl.zip]
+[2024-05-27 09:02:01] INFO root fetch - processPackages [tf-models-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_models_nightly-2.9.0.dev20220920-py2.py3-none-any.whl.zip]
+[2024-05-27 09:02:01] INFO root fetch - main [MainThread]: End processing [tf-models-nightly]: success
+[2024-05-27 09:02:02] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_nightly-1.35.1.dev20240525.tar.gz]
+[2024-05-27 09:02:02] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_nightly-1.35.1.dev20240526.tar.gz]
+[2024-05-27 09:02:02] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
+[2024-05-27 09:02:02] INFO root fetch - main [MainThread]: Store serial: [23391636]
