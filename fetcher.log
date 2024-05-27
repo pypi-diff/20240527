@@ -1975,3 +1975,33 @@
 [2024-05-27 02:30:21] INFO root fetch - processPackages [hagworm]: Remove: archive file [/home/abi/fetcher/tmp/hagworm-5.9.9.tar.gz]
 [2024-05-27 02:30:21] INFO root fetch - main [MainThread]: End processing [hagworm]: success
 [2024-05-27 02:30:21] INFO root fetch - main [MainThread]: Store serial: [23389100]
+[2024-05-27 02:32:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23389100]
+[2024-05-27 02:32:29] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-27 02:32:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: astropy-iers-data
+[2024-05-27 02:32:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gmail-connector
+[2024-05-27 02:32:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aeppl-nightly
+[2024-05-27 02:32:29] INFO root fetch - processPackages [gmail-connector]: New version: [1.0b0] Old Version: [1.0a0]
+[2024-05-27 02:32:29] INFO root fetch - processPackages [aeppl-nightly]: New version: [0.1.5.dev20240526] Old Version: [0.1.5.dev20240525]
+[2024-05-27 02:32:29] INFO root fetch - processPackages [gmail-connector]: Downloading https://files.pythonhosted.org/packages/52/3a/7c9912ea75f93b36cb62c9ab9c6173fd677d5acfc6c62e9cd97d35b7ea09/gmail_connector-1.0a0-py3-none-any.whl
+[2024-05-27 02:32:29] INFO root fetch - processPackages [aeppl-nightly]: Downloading https://files.pythonhosted.org/packages/9c/36/d3846c5ebad3e78f1fa105ec0b5200244b6ddb71b3dcfb3276caf8491ead/aeppl_nightly-0.1.5.dev20240525.tar.gz
+[2024-05-27 02:32:29] INFO root fetch - processPackages [astropy-iers-data]: New version: [0.2024.5.6.0.29.28] Old Version: [0.2024.5.27.0.30.8]
+[2024-05-27 02:32:29] INFO root fetch - processPackages [astropy-iers-data]: Downloading https://files.pythonhosted.org/packages/d1/25/a259069fc73cddfec55d239be56a043c376aa976c6c1369bee96e13c2922/astropy_iers_data-0.2024.5.27.0.30.8.tar.gz
+[2024-05-27 02:32:30] INFO root fetch - processPackages [gmail-connector]: Downloading https://files.pythonhosted.org/packages/b7/e7/61858f79394c1897d58aa14712eb7b695076817e5ee745099d5366ffd0bb/gmail_connector-1.0b0-py3-none-any.whl
+[2024-05-27 02:32:30] INFO root fetch - processPackages [gmail-connector]: executing diffoscope
+[2024-05-27 02:32:30] INFO root fetch - processPackages [gmail-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gmail_connector-1.0a0-py3-none-any.whl.zip tmp/gmail_connector-1.0b0-py3-none-any.whl.zip --markdown 20240527/g/gmail-connector/1.0a0-1.0b0/README.md --exclude *.pyd
+[2024-05-27 02:32:30] INFO root fetch - processPackages [aeppl-nightly]: Downloading https://files.pythonhosted.org/packages/d5/9f/6b0288b679cafd4df3a0802bac72d48df4bef37d81d7067a589e30650f5f/aeppl_nightly-0.1.5.dev20240526.tar.gz
+[2024-05-27 02:32:30] INFO root fetch - processPackages [aeppl-nightly]: executing diffoscope
+[2024-05-27 02:32:30] INFO root fetch - processPackages [aeppl-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aeppl_nightly-0.1.5.dev20240525.tar.gz tmp/aeppl_nightly-0.1.5.dev20240526.tar.gz --markdown 20240527/a/aeppl-nightly/0.1.5.dev20240525-0.1.5.dev20240526/README.md --exclude *.pyd
+[2024-05-27 02:32:30] INFO root fetch - processPackages [astropy-iers-data]: Downloading https://files.pythonhosted.org/packages/28/a2/5cf0b233b4a6a64f61cb83772b273ea44fb849db662d55e625f44bfa92c6/astropy_iers_data-0.2024.5.6.0.29.28.tar.gz
+[2024-05-27 02:32:30] INFO root fetch - processPackages [astropy-iers-data]: executing diffoscope
+[2024-05-27 02:32:30] INFO root fetch - processPackages [astropy-iers-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astropy_iers_data-0.2024.5.27.0.30.8.tar.gz tmp/astropy_iers_data-0.2024.5.6.0.29.28.tar.gz --markdown 20240527/a/astropy-iers-data/0.2024.5.27.0.30.8-0.2024.5.6.0.29.28/README.md --exclude *.pyd
+[2024-05-27 02:32:30] INFO root fetch - processPackages [gmail-connector]: Remove: archive file [/home/abi/fetcher/tmp/gmail_connector-1.0a0-py3-none-any.whl.zip]
+[2024-05-27 02:32:30] INFO root fetch - processPackages [gmail-connector]: Remove: archive file [/home/abi/fetcher/tmp/gmail_connector-1.0b0-py3-none-any.whl.zip]
+[2024-05-27 02:32:30] INFO root fetch - main [MainThread]: End processing [gmail-connector]: success
+[2024-05-27 02:32:30] INFO root fetch - processPackages [aeppl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aeppl_nightly-0.1.5.dev20240525.tar.gz]
+[2024-05-27 02:32:30] INFO root fetch - processPackages [aeppl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aeppl_nightly-0.1.5.dev20240526.tar.gz]
+[2024-05-27 02:32:30] INFO root fetch - main [MainThread]: End processing [aeppl-nightly]: success
+[2024-05-27 02:32:32] INFO root fetch - processPackages [astropy-iers-data]: Remove: archive file [/home/abi/fetcher/tmp/astropy_iers_data-0.2024.5.27.0.30.8.tar.gz]
+[2024-05-27 02:32:32] INFO root fetch - processPackages [astropy-iers-data]: Remove: archive file [/home/abi/fetcher/tmp/astropy_iers_data-0.2024.5.6.0.29.28.tar.gz]
+[2024-05-27 02:32:32] INFO root fetch - main [MainThread]: End processing [astropy-iers-data]: success
+[2024-05-27 02:32:32] INFO root fetch - main [MainThread]: Store serial: [23389109]
