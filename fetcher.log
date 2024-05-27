@@ -2212,3 +2212,45 @@
 [2024-05-27 02:52:14] INFO root fetch - processPackages [poseutil]: Remove: archive file [/home/abi/fetcher/tmp/poseutil-0.5.9.tar.gz]
 [2024-05-27 02:52:14] INFO root fetch - main [MainThread]: End processing [poseutil]: success
 [2024-05-27 02:52:14] INFO root fetch - main [MainThread]: Store serial: [23389180]
+[2024-05-27 02:54:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23389180]
+[2024-05-27 02:54:24] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-27 02:54:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bioversions
+[2024-05-27 02:54:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hstream
+[2024-05-27 02:54:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cloudquicklabs-kg
+[2024-05-27 02:54:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: postfinancex
+[2024-05-27 02:54:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-emrserverless-with-delta-lake
+[2024-05-27 02:54:24] INFO root fetch - processPackages [hstream]: New version: [0.1.55] Old Version: [0.1.54]
+[2024-05-27 02:54:24] INFO root fetch - processPackages [bioversions]: New version: [0.5.99] Old Version: [0.5.98]
+[2024-05-27 02:54:24] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-05-27 02:54:24] INFO root fetch - processPackages [postfinancex]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-27 02:54:24] INFO root fetch - processPackages [hstream]: Downloading https://files.pythonhosted.org/packages/7a/0c/9ea40ac0a1304b2239818756e7d0d8e7dbc5da5aa7713cebf4ad4484661a/hstream-0.1.54.tar.gz
+[2024-05-27 02:54:24] WARNING root fetch - processPackages [cloudquicklabs-kg]: Skipping, unable to determine old version
+[2024-05-27 02:54:24] INFO root fetch - main [MainThread]: End processing [cloudquicklabs-kg] error
+[2024-05-27 02:54:24] INFO root fetch - processPackages [bioversions]: Downloading https://files.pythonhosted.org/packages/e6/34/7c40209c13edc9fe7c611a00fd4b0d6e59d501613427ed6713ad6398b655/bioversions-0.5.98.tar.gz
+[2024-05-27 02:54:24] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Downloading https://files.pythonhosted.org/packages/ca/c8/c8aec8668c8ae715e0e15ea3ea2e2e326fea6b5d0258b79e2b876aefa521/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz
+[2024-05-27 02:54:24] INFO root fetch - processPackages [postfinancex]: Downloading https://files.pythonhosted.org/packages/2a/21/e425fe5f00504533642d1e2ab7a784e0137fcc13e955b442603714d40033/postfinancex-0.0.4.tar.gz
+[2024-05-27 02:54:24] INFO root fetch - processPackages [bioversions]: Downloading https://files.pythonhosted.org/packages/0d/f5/5956eccd9643084cc5f7aba6325ec9de1ed3a2bb3568a8ee7ab88d0eac77/bioversions-0.5.99.tar.gz
+[2024-05-27 02:54:24] INFO root fetch - processPackages [hstream]: Downloading https://files.pythonhosted.org/packages/1c/20/8ad9de99d2f1db538685d9621d75968597aa92fa4ed5fb33f413bef660a7/hstream-0.1.55.tar.gz
+[2024-05-27 02:54:24] INFO root fetch - processPackages [bioversions]: executing diffoscope
+[2024-05-27 02:54:24] INFO root fetch - processPackages [bioversions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioversions-0.5.98.tar.gz tmp/bioversions-0.5.99.tar.gz --markdown 20240527/b/bioversions/0.5.98-0.5.99/README.md --exclude *.pyd
+[2024-05-27 02:54:24] INFO root fetch - processPackages [hstream]: executing diffoscope
+[2024-05-27 02:54:24] INFO root fetch - processPackages [hstream]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hstream-0.1.54.tar.gz tmp/hstream-0.1.55.tar.gz --markdown 20240527/h/hstream/0.1.54-0.1.55/README.md --exclude *.pyd
+[2024-05-27 02:54:24] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Downloading https://files.pythonhosted.org/packages/7f/24/30b3ba3f3be3fa0cda5f66dcfce20bb782a7327b2635d12d6f66d6acf91f/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz
+[2024-05-27 02:54:25] INFO root fetch - processPackages [postfinancex]: Downloading https://files.pythonhosted.org/packages/14/ee/c792954a9f6d2ad8a09aa2d083a8850e8d8e47c78174a3779d24a8c7f3a2/postfinancex-0.0.5.tar.gz
+[2024-05-27 02:54:25] INFO root fetch - processPackages [postfinancex]: executing diffoscope
+[2024-05-27 02:54:25] INFO root fetch - processPackages [postfinancex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/postfinancex-0.0.4.tar.gz tmp/postfinancex-0.0.5.tar.gz --markdown 20240527/p/postfinancex/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-27 02:54:25] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: executing diffoscope
+[2024-05-27 02:54:25] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz tmp/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz --markdown 20240527/c/cdk-emrserverless-with-delta-lake/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-05-27 02:54:25] INFO root fetch - processPackages [hstream]: Remove: archive file [/home/abi/fetcher/tmp/hstream-0.1.54.tar.gz]
+[2024-05-27 02:54:25] INFO root fetch - processPackages [hstream]: Remove: archive file [/home/abi/fetcher/tmp/hstream-0.1.55.tar.gz]
+[2024-05-27 02:54:25] INFO root fetch - main [MainThread]: End processing [hstream]: success
+[2024-05-27 02:54:25] INFO root fetch - processPackages [postfinancex]: Remove: archive file [/home/abi/fetcher/tmp/postfinancex-0.0.4.tar.gz]
+[2024-05-27 02:54:25] INFO root fetch - processPackages [postfinancex]: Remove: archive file [/home/abi/fetcher/tmp/postfinancex-0.0.5.tar.gz]
+[2024-05-27 02:54:25] INFO root fetch - main [MainThread]: End processing [postfinancex]: success
+[2024-05-27 02:54:26] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Remove: archive file [/home/abi/fetcher/tmp/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz]
+[2024-05-27 02:54:26] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Remove: archive file [/home/abi/fetcher/tmp/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz]
+[2024-05-27 02:54:26] INFO root fetch - main [MainThread]: End processing [cdk-emrserverless-with-delta-lake]: success
+[2024-05-27 02:54:43] INFO root fetch - processPackages [bioversions]: Remove: archive file [/home/abi/fetcher/tmp/bioversions-0.5.98.tar.gz]
+[2024-05-27 02:54:43] INFO root fetch - processPackages [bioversions]: Remove: archive file [/home/abi/fetcher/tmp/bioversions-0.5.99.tar.gz]
+[2024-05-27 02:54:43] INFO root fetch - main [MainThread]: End processing [bioversions]: success
+[2024-05-27 02:54:43] INFO root fetch - main [MainThread]: Store serial: [23389198]
