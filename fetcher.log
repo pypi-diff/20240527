@@ -14431,3 +14431,32 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 13:50:26] INFO root fetch - processPackages [haupt]: Remove: archive file [/home/abi/fetcher/tmp/haupt-2.2.0rc1.tar.gz]
 [2024-05-27 13:50:26] INFO root fetch - main [MainThread]: End processing [haupt]: success
 [2024-05-27 13:50:26] INFO root fetch - main [MainThread]: Store serial: [23395046]
+[2024-05-27 13:52:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23395046]
+[2024-05-27 13:52:36] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-27 13:52:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gpt-computer-assistant
+[2024-05-27 13:52:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Grid2Op
+[2024-05-27 13:52:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: devopstestor
+[2024-05-27 13:52:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dashtable2
+[2024-05-27 13:52:36] INFO root fetch - processPackages [dashtable2]: New version: [1.4.9] Old Version: [1.4.8]
+[2024-05-27 13:52:36] INFO root fetch - processPackages [dashtable2]: Downloading https://files.pythonhosted.org/packages/de/08/10145a7ea263a96146f3307130c92d01878542e398e475cb315545f3b910/dashtable2-1.4.8.tar.gz
+[2024-05-27 13:52:36] WARNING root fetch - processPackages [gpt-computer-assistant]: Skipping, unable to determine old version
+[2024-05-27 13:52:36] INFO root fetch - main [MainThread]: End processing [gpt-computer-assistant] error
+[2024-05-27 13:52:36] INFO root fetch - processPackages [devopstestor]: New version: [2.0.8] Old Version: [2.0.7]
+[2024-05-27 13:52:36] INFO root fetch - processPackages [Grid2Op]: New version: [1.9.8] Old Version: [1.9.7]
+[2024-05-27 13:52:36] INFO root fetch - processPackages [Grid2Op]: Downloading https://files.pythonhosted.org/packages/53/45/946fc53c9195f648b739861b804d6ad14b14433f31f29d4298d4479d3dd1/Grid2Op-1.9.7.tar.gz
+[2024-05-27 13:52:36] INFO root fetch - processPackages [devopstestor]: Downloading https://files.pythonhosted.org/packages/c2/58/a7c0388cc90dc65f131040873a861543f0741f0759522f85c19f990590eb/devopstestor-2.0.7.tar.gz
+[2024-05-27 13:52:36] INFO root fetch - processPackages [dashtable2]: Downloading https://files.pythonhosted.org/packages/98/6c/d1db4d289833af3ab19cd26ef013a389de43e6fffe50950a6db8f8b1f488/dashtable2-1.4.9.tar.gz
+[2024-05-27 13:52:36] WARNING root fetch - processPackages [Grid2Op]: Skipping package: exceeds size limit 15944569>=10485760
+[2024-05-27 13:52:36] INFO root fetch - main [MainThread]: End processing [Grid2Op] error
+[2024-05-27 13:52:36] INFO root fetch - processPackages [dashtable2]: executing diffoscope
+[2024-05-27 13:52:36] INFO root fetch - processPackages [dashtable2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dashtable2-1.4.8.tar.gz tmp/dashtable2-1.4.9.tar.gz --markdown 20240527/d/dashtable2/1.4.8-1.4.9/README.md --exclude *.pyd
+[2024-05-27 13:52:36] INFO root fetch - processPackages [devopstestor]: Downloading https://files.pythonhosted.org/packages/78/c5/756ef86154c855e3a44f645b286dcaa3de95b9077838dc789cd1718cd40a/devopstestor-2.0.8.tar.gz
+[2024-05-27 13:52:36] INFO root fetch - processPackages [devopstestor]: executing diffoscope
+[2024-05-27 13:52:36] INFO root fetch - processPackages [devopstestor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/devopstestor-2.0.7.tar.gz tmp/devopstestor-2.0.8.tar.gz --markdown 20240527/d/devopstestor/2.0.7-2.0.8/README.md --exclude *.pyd
+[2024-05-27 13:52:37] INFO root fetch - processPackages [dashtable2]: Remove: archive file [/home/abi/fetcher/tmp/dashtable2-1.4.8.tar.gz]
+[2024-05-27 13:52:37] INFO root fetch - processPackages [dashtable2]: Remove: archive file [/home/abi/fetcher/tmp/dashtable2-1.4.9.tar.gz]
+[2024-05-27 13:52:37] INFO root fetch - main [MainThread]: End processing [dashtable2]: success
+[2024-05-27 13:52:37] INFO root fetch - processPackages [devopstestor]: Remove: archive file [/home/abi/fetcher/tmp/devopstestor-2.0.7.tar.gz]
+[2024-05-27 13:52:37] INFO root fetch - processPackages [devopstestor]: Remove: archive file [/home/abi/fetcher/tmp/devopstestor-2.0.8.tar.gz]
+[2024-05-27 13:52:37] INFO root fetch - main [MainThread]: End processing [devopstestor]: success
+[2024-05-27 13:52:37] INFO root fetch - main [MainThread]: Store serial: [23395061]
