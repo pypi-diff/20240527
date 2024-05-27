@@ -5756,3 +5756,75 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 06:59:37] INFO root fetch - processPackages [databend-udf]: Remove: archive file [/home/abi/fetcher/tmp/databend_udf-0.2.3.tar.gz]
 [2024-05-27 06:59:37] INFO root fetch - main [MainThread]: End processing [databend-udf]: success
 [2024-05-27 06:59:37] INFO root fetch - main [MainThread]: Store serial: [23390696]
+[2024-05-27 07:01:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23390696]
+[2024-05-27 07:01:45] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-27 07:01:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: maesyorikun
+[2024-05-27 07:01:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jaxquantum
+[2024-05-27 07:01:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: file-renamer
+[2024-05-27 07:01:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: postfinancex
+[2024-05-27 07:01:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rxd
+[2024-05-27 07:01:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: databend-udf
+[2024-05-27 07:01:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: simscv
+[2024-05-27 07:01:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ast-grep-py
+[2024-05-27 07:01:46] INFO root fetch - processPackages [rxd]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-27 07:01:46] INFO root fetch - processPackages [maesyorikun]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-27 07:01:46] INFO root fetch - processPackages [databend-udf]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-05-27 07:01:46] INFO root fetch - processPackages [postfinancex]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-27 07:01:46] INFO root fetch - processPackages [rxd]: Downloading https://files.pythonhosted.org/packages/21/c2/38cf8db50595c42a9258c3370b82b7757ed2485638d9d5e7cc8aa2b6ea9d/rxd-0.0.8.tar.gz
+[2024-05-27 07:01:46] INFO root fetch - processPackages [simscv]: New version: [0.0.4] Old Version: [0.0.2]
+[2024-05-27 07:01:46] INFO root fetch - processPackages [jaxquantum]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-27 07:01:46] INFO root fetch - processPackages [maesyorikun]: Downloading https://files.pythonhosted.org/packages/1c/ea/55524d20c8757df8b6f8e659e8620b7031bbacf435e06bfc17006f56b3c6/maesyorikun-0.1.2-py3-none-any.whl
+[2024-05-27 07:01:46] INFO root fetch - processPackages [file-renamer]: New version: [1.0.6] Old Version: [1.0.5.1]
+[2024-05-27 07:01:46] INFO root fetch - processPackages [postfinancex]: Downloading https://files.pythonhosted.org/packages/14/ee/c792954a9f6d2ad8a09aa2d083a8850e8d8e47c78174a3779d24a8c7f3a2/postfinancex-0.0.5.tar.gz
+[2024-05-27 07:01:46] INFO root fetch - processPackages [databend-udf]: Downloading https://files.pythonhosted.org/packages/0a/50/3bf1eb26f9594071477f9db722ae5226bdbf356ce12309ec634c06ed8b04/databend-udf-0.2.2.tar.gz
+[2024-05-27 07:01:46] INFO root fetch - processPackages [jaxquantum]: Downloading https://files.pythonhosted.org/packages/5f/80/4f2518b7f4a7878abc94e7695f8b0746c3ec030870af592d9887b54d7d80/jaxquantum-0.1.0.tar.gz
+[2024-05-27 07:01:46] INFO root fetch - processPackages [rxd]: Downloading https://files.pythonhosted.org/packages/5c/98/033a1b896a5c65fec77f8aa2c7d37aaa0f4d23fe3d4b5cae4731f73ad27e/rxd-0.0.9.tar.gz
+[2024-05-27 07:01:46] INFO root fetch - processPackages [simscv]: Downloading https://files.pythonhosted.org/packages/9d/53/8c61c4af797f7ede38c994ea30e1cda10b0a0bdaed38ad7161814868bf46/simscv-0.0.2.tar.gz
+[2024-05-27 07:01:46] INFO root fetch - processPackages [file-renamer]: Downloading https://files.pythonhosted.org/packages/c2/af/60ab6da90cb3d081b37bcd8ccfbcd89554fe799e12b510f70d7d52e95052/file_renamer-1.0.5.1.tar.gz
+[2024-05-27 07:01:46] INFO root fetch - processPackages [ast-grep-py]: New version: [0.22.4] Old Version: [0.22.3]
+[2024-05-27 07:01:46] INFO root fetch - processPackages [postfinancex]: Downloading https://files.pythonhosted.org/packages/67/11/e05fef7ce9cabe3efdab8c123f3496f6d3fb8b1ef3664b57c4817d1e6d34/postfinancex-0.0.6.tar.gz
+[2024-05-27 07:01:46] INFO root fetch - processPackages [databend-udf]: Downloading https://files.pythonhosted.org/packages/2c/6e/0aa8c59f95cb7a6a71dad807d127dad8ff51d33493e4a1870d561cb20ee5/databend_udf-0.2.3.tar.gz
+[2024-05-27 07:01:46] INFO root fetch - processPackages [maesyorikun]: Downloading https://files.pythonhosted.org/packages/22/ba/3705d054776558cf0221e8b339097a541c812b9df091bde7d976007d51f9/maesyorikun-0.1.3-py3-none-any.whl
+[2024-05-27 07:01:46] INFO root fetch - processPackages [rxd]: executing diffoscope
+[2024-05-27 07:01:46] INFO root fetch - processPackages [rxd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rxd-0.0.8.tar.gz tmp/rxd-0.0.9.tar.gz --markdown 20240527/r/rxd/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-27 07:01:46] INFO root fetch - processPackages [postfinancex]: executing diffoscope
+[2024-05-27 07:01:46] INFO root fetch - processPackages [postfinancex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/postfinancex-0.0.5.tar.gz tmp/postfinancex-0.0.6.tar.gz --markdown 20240527/p/postfinancex/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-27 07:01:46] INFO root fetch - processPackages [databend-udf]: executing diffoscope
+[2024-05-27 07:01:46] INFO root fetch - processPackages [databend-udf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/databend-udf-0.2.2.tar.gz tmp/databend_udf-0.2.3.tar.gz --markdown 20240527/d/databend-udf/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-05-27 07:01:46] INFO root fetch - processPackages [maesyorikun]: executing diffoscope
+[2024-05-27 07:01:46] INFO root fetch - processPackages [maesyorikun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maesyorikun-0.1.2-py3-none-any.whl.zip tmp/maesyorikun-0.1.3-py3-none-any.whl.zip --markdown 20240527/m/maesyorikun/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-27 07:01:46] INFO root fetch - processPackages [jaxquantum]: Downloading https://files.pythonhosted.org/packages/ab/1d/069f7c0bf23a98b44cd8f071d88d6d48dec1a072b3d146b764f345c3d7fb/jaxquantum-0.1.1.tar.gz
+[2024-05-27 07:01:46] INFO root fetch - processPackages [ast-grep-py]: Downloading https://files.pythonhosted.org/packages/be/21/33325b5aef4844375e78056bcad38b1f4c0cd8cbe43c3b40fc1f42d29c38/ast_grep_py-0.22.3.tar.gz
+[2024-05-27 07:01:46] INFO root fetch - processPackages [simscv]: Downloading https://files.pythonhosted.org/packages/6a/59/170a98f00ca790a95663bac5fc6be7e3a0ff89bb4d8908ec93870e25159d/simscv-0.0.4.tar.gz
+[2024-05-27 07:01:46] INFO root fetch - processPackages [jaxquantum]: executing diffoscope
+[2024-05-27 07:01:46] INFO root fetch - processPackages [jaxquantum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxquantum-0.1.0.tar.gz tmp/jaxquantum-0.1.1.tar.gz --markdown 20240527/j/jaxquantum/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-27 07:01:46] INFO root fetch - processPackages [file-renamer]: Downloading https://files.pythonhosted.org/packages/dc/1b/794041f934c982f9474d85e13e37d388c93d23c52ca46fa016f1f9d12f45/file_renamer-1.0.6.tar.gz
+[2024-05-27 07:01:47] INFO root fetch - processPackages [simscv]: executing diffoscope
+[2024-05-27 07:01:47] INFO root fetch - processPackages [simscv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simscv-0.0.2.tar.gz tmp/simscv-0.0.4.tar.gz --markdown 20240527/s/simscv/0.0.2-0.0.4/README.md --exclude *.pyd
+[2024-05-27 07:01:47] WARNING root fetch - processPackages [file-renamer]: Skipping package: exceeds size limit 45217534>=10485760
+[2024-05-27 07:01:47] INFO root fetch - main [MainThread]: End processing [file-renamer] error
+[2024-05-27 07:01:47] INFO root fetch - processPackages [ast-grep-py]: Downloading https://files.pythonhosted.org/packages/0c/05/2c8c7ef42b4cee93b2aa465ef998df585e44c9853ccd6cf55415e2a92798/ast_grep_py-0.22.4-cp311-cp311-macosx_10_12_x86_64.whl
+[2024-05-27 07:01:47] INFO root fetch - processPackages [rxd]: Remove: archive file [/home/abi/fetcher/tmp/rxd-0.0.8.tar.gz]
+[2024-05-27 07:01:47] INFO root fetch - processPackages [rxd]: Remove: archive file [/home/abi/fetcher/tmp/rxd-0.0.9.tar.gz]
+[2024-05-27 07:01:47] INFO root fetch - main [MainThread]: End processing [rxd]: success
+[2024-05-27 07:01:47] INFO root fetch - processPackages [postfinancex]: Remove: archive file [/home/abi/fetcher/tmp/postfinancex-0.0.5.tar.gz]
+[2024-05-27 07:01:47] INFO root fetch - processPackages [postfinancex]: Remove: archive file [/home/abi/fetcher/tmp/postfinancex-0.0.6.tar.gz]
+[2024-05-27 07:01:47] INFO root fetch - main [MainThread]: End processing [postfinancex]: success
+[2024-05-27 07:01:47] INFO root fetch - processPackages [databend-udf]: Remove: archive file [/home/abi/fetcher/tmp/databend-udf-0.2.2.tar.gz]
+[2024-05-27 07:01:47] INFO root fetch - processPackages [databend-udf]: Remove: archive file [/home/abi/fetcher/tmp/databend_udf-0.2.3.tar.gz]
+[2024-05-27 07:01:47] INFO root fetch - main [MainThread]: End processing [databend-udf]: success
+[2024-05-27 07:01:47] INFO root fetch - processPackages [maesyorikun]: Remove: archive file [/home/abi/fetcher/tmp/maesyorikun-0.1.2-py3-none-any.whl.zip]
+[2024-05-27 07:01:47] INFO root fetch - processPackages [maesyorikun]: Remove: archive file [/home/abi/fetcher/tmp/maesyorikun-0.1.3-py3-none-any.whl.zip]
+[2024-05-27 07:01:47] INFO root fetch - main [MainThread]: End processing [maesyorikun]: success
+[2024-05-27 07:01:47] INFO root fetch - processPackages [jaxquantum]: Remove: archive file [/home/abi/fetcher/tmp/jaxquantum-0.1.0.tar.gz]
+[2024-05-27 07:01:47] INFO root fetch - processPackages [jaxquantum]: Remove: archive file [/home/abi/fetcher/tmp/jaxquantum-0.1.1.tar.gz]
+[2024-05-27 07:01:47] INFO root fetch - main [MainThread]: End processing [jaxquantum]: success
+[2024-05-27 07:01:47] INFO root fetch - processPackages [simscv]: Remove: archive file [/home/abi/fetcher/tmp/simscv-0.0.2.tar.gz]
+[2024-05-27 07:01:47] INFO root fetch - processPackages [simscv]: Remove: archive file [/home/abi/fetcher/tmp/simscv-0.0.4.tar.gz]
+[2024-05-27 07:01:47] INFO root fetch - main [MainThread]: End processing [simscv]: success
+[2024-05-27 07:01:49] INFO root fetch - processPackages [ast-grep-py]: executing diffoscope
+[2024-05-27 07:01:49] INFO root fetch - processPackages [ast-grep-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ast_grep_py-0.22.3.tar.gz tmp/ast_grep_py-0.22.4-cp311-cp311-macosx_10_12_x86_64.whl.zip --markdown 20240527/a/ast-grep-py/0.22.3-0.22.4/README.md --exclude *.pyd
+[2024-05-27 07:01:51] INFO root fetch - processPackages [ast-grep-py]: Remove: archive file [/home/abi/fetcher/tmp/ast_grep_py-0.22.3.tar.gz]
+[2024-05-27 07:01:51] INFO root fetch - processPackages [ast-grep-py]: Remove: archive file [/home/abi/fetcher/tmp/ast_grep_py-0.22.4-cp311-cp311-macosx_10_12_x86_64.whl.zip]
+[2024-05-27 07:01:51] INFO root fetch - main [MainThread]: End processing [ast-grep-py]: success
+[2024-05-27 07:01:51] INFO root fetch - main [MainThread]: Store serial: [23390720]
