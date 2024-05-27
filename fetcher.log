@@ -9037,3 +9037,56 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 10:08:06] INFO root fetch - processPackages [oceanum]: Remove: archive file [/home/abi/fetcher/tmp/oceanum-0.9.8.tar.gz]
 [2024-05-27 10:08:06] INFO root fetch - main [MainThread]: End processing [oceanum]: success
 [2024-05-27 10:08:06] INFO root fetch - main [MainThread]: Store serial: [23392331]
+[2024-05-27 10:10:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23392331]
+[2024-05-27 10:10:15] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-27 10:10:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyglove
+[2024-05-27 10:10:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ctube
+[2024-05-27 10:10:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sulguk
+[2024-05-27 10:10:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pnnx
+[2024-05-27 10:10:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pearson
+[2024-05-27 10:10:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: flowty
+[2024-05-27 10:10:15] INFO root fetch - processPackages [pearson]: New version: [2.4] Old Version: [2.3]
+[2024-05-27 10:10:15] INFO root fetch - processPackages [pyglove]: New version: [0.4.5.dev20240526] Old Version: [0.4.5.dev20240525]
+[2024-05-27 10:10:15] INFO root fetch - processPackages [sulguk]: New version: [0.8.0] Old Version: [0.7.0]
+[2024-05-27 10:10:15] INFO root fetch - processPackages [pearson]: Downloading https://files.pythonhosted.org/packages/ea/9c/3d5ee0005edab9f49d25f73df6fe42a369a70af069802f1f832b3fdd2b2f/pearson-2.3.tar.gz
+[2024-05-27 10:10:15] INFO root fetch - processPackages [ctube]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-27 10:10:15] INFO root fetch - processPackages [pnnx]: New version: [20240527] Old Version: [20240410]
+[2024-05-27 10:10:15] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/4f/37/814aacfe410f42e98b17c5f25fca6c4854983c01250579483c748544b910/pyglove-0.4.5.dev20240525.tar.gz
+[2024-05-27 10:10:15] INFO root fetch - processPackages [flowty]: New version: [2.0a9] Old Version: [2.0a8]
+[2024-05-27 10:10:15] INFO root fetch - processPackages [pnnx]: Downloading https://files.pythonhosted.org/packages/c9/ad/f656856947309c0f59a2215a8b383569a2cd98f6acf6b1bf35916edddc28/pnnx-20240410-py3-none-win_amd64.whl
+[2024-05-27 10:10:16] INFO root fetch - processPackages [ctube]: Downloading https://files.pythonhosted.org/packages/3c/a2/1f6bd249ce739e73ee555e73078b1bb925aeeed740e9fda3ba45538d6f12/ctube-0.0.7.tar.gz
+[2024-05-27 10:10:16] INFO root fetch - processPackages [pearson]: Downloading https://files.pythonhosted.org/packages/b4/22/ecab26c1d9884fa11030a130d52a9e639dbb54cdb577eb707652b92cabb7/pearson-2.4.tar.gz
+[2024-05-27 10:10:16] INFO root fetch - processPackages [sulguk]: Downloading https://files.pythonhosted.org/packages/31/32/e2a7fca9b2d39a111e9ed3137c2a6664831954a1fc820fae584505cd7df2/sulguk-0.7.0.tar.gz
+[2024-05-27 10:10:16] INFO root fetch - processPackages [flowty]: Downloading https://files.pythonhosted.org/packages/8a/21/0ef35cb4f837c514f719e4a803fe92df8a925ad34cf509ade3368bc7a9d9/flowty-2.0a8-cp39-cp39-win_amd64.whl
+[2024-05-27 10:10:16] INFO root fetch - processPackages [pearson]: executing diffoscope
+[2024-05-27 10:10:16] INFO root fetch - processPackages [pearson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pearson-2.3.tar.gz tmp/pearson-2.4.tar.gz --markdown 20240527/p/pearson/2.3-2.4/README.md --exclude *.pyd
+[2024-05-27 10:10:16] WARNING root fetch - processPackages [pnnx]: Skipping package: exceeds size limit 12959038>=10485760
+[2024-05-27 10:10:16] INFO root fetch - main [MainThread]: End processing [pnnx] error
+[2024-05-27 10:10:16] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/72/af/21a7cf5fb674d3b20108c52b5c3d3b905f5203073e99ae4a403f980055d3/pyglove-0.4.5.dev20240526.tar.gz
+[2024-05-27 10:10:16] INFO root fetch - processPackages [ctube]: Downloading https://files.pythonhosted.org/packages/14/4d/fbb6507e09410a783ee01eb7ae7ac93c9f1cc664a1d8112344ea43e2bb6f/ctube-0.0.8.tar.gz
+[2024-05-27 10:10:16] INFO root fetch - processPackages [sulguk]: Downloading https://files.pythonhosted.org/packages/46/43/d92a7728b89447379b08d30a2853d3e6e6b09571320f2f3a8edbe14538b1/sulguk-0.8.0.tar.gz
+[2024-05-27 10:10:16] INFO root fetch - processPackages [pyglove]: executing diffoscope
+[2024-05-27 10:10:16] INFO root fetch - processPackages [pyglove]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyglove-0.4.5.dev20240525.tar.gz tmp/pyglove-0.4.5.dev20240526.tar.gz --markdown 20240527/p/pyglove/0.4.5.dev20240525-0.4.5.dev20240526/README.md --exclude *.pyd
+[2024-05-27 10:10:16] INFO root fetch - processPackages [ctube]: executing diffoscope
+[2024-05-27 10:10:16] INFO root fetch - processPackages [ctube]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ctube-0.0.7.tar.gz tmp/ctube-0.0.8.tar.gz --markdown 20240527/c/ctube/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-27 10:10:16] INFO root fetch - processPackages [sulguk]: executing diffoscope
+[2024-05-27 10:10:16] INFO root fetch - processPackages [sulguk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sulguk-0.7.0.tar.gz tmp/sulguk-0.8.0.tar.gz --markdown 20240527/s/sulguk/0.7.0-0.8.0/README.md --exclude *.pyd
+[2024-05-27 10:10:16] INFO root fetch - processPackages [pearson]: Remove: archive file [/home/abi/fetcher/tmp/pearson-2.3.tar.gz]
+[2024-05-27 10:10:16] INFO root fetch - processPackages [pearson]: Remove: archive file [/home/abi/fetcher/tmp/pearson-2.4.tar.gz]
+[2024-05-27 10:10:16] INFO root fetch - main [MainThread]: End processing [pearson]: success
+[2024-05-27 10:10:16] INFO root fetch - processPackages [ctube]: Remove: archive file [/home/abi/fetcher/tmp/ctube-0.0.7.tar.gz]
+[2024-05-27 10:10:16] INFO root fetch - processPackages [ctube]: Remove: archive file [/home/abi/fetcher/tmp/ctube-0.0.8.tar.gz]
+[2024-05-27 10:10:16] INFO root fetch - main [MainThread]: End processing [ctube]: success
+[2024-05-27 10:10:17] INFO root fetch - processPackages [flowty]: Downloading https://files.pythonhosted.org/packages/86/06/633363dc6df20f628161857a8880273ffd4dd4926dd4625f1a1f5c596f73/flowty-2.0a9-cp39-cp39-win_amd64.whl
+[2024-05-27 10:10:17] INFO root fetch - processPackages [sulguk]: Remove: archive file [/home/abi/fetcher/tmp/sulguk-0.7.0.tar.gz]
+[2024-05-27 10:10:17] INFO root fetch - processPackages [sulguk]: Remove: archive file [/home/abi/fetcher/tmp/sulguk-0.8.0.tar.gz]
+[2024-05-27 10:10:17] INFO root fetch - main [MainThread]: End processing [sulguk]: success
+[2024-05-27 10:10:17] INFO root fetch - processPackages [flowty]: executing diffoscope
+[2024-05-27 10:10:17] INFO root fetch - processPackages [flowty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowty-2.0a8-cp39-cp39-win_amd64.whl.zip tmp/flowty-2.0a9-cp39-cp39-win_amd64.whl.zip --markdown 20240527/f/flowty/2.0a8-2.0a9/README.md --exclude *.pyd
+[2024-05-27 10:10:17] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.4.5.dev20240525.tar.gz]
+[2024-05-27 10:10:17] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.4.5.dev20240526.tar.gz]
+[2024-05-27 10:10:17] INFO root fetch - main [MainThread]: End processing [pyglove]: success
+[2024-05-27 10:10:17] INFO root fetch - processPackages [flowty]: Remove: archive file [/home/abi/fetcher/tmp/flowty-2.0a8-cp39-cp39-win_amd64.whl.zip]
+[2024-05-27 10:10:17] INFO root fetch - processPackages [flowty]: Remove: archive file [/home/abi/fetcher/tmp/flowty-2.0a9-cp39-cp39-win_amd64.whl.zip]
+[2024-05-27 10:10:17] INFO root fetch - main [MainThread]: End processing [flowty]: success
+[2024-05-27 10:10:17] INFO root fetch - main [MainThread]: Store serial: [23392355]
