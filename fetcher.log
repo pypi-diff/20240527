@@ -1494,3 +1494,54 @@
 [2024-05-27 02:06:14] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-2.0.0.20240526.437.tar.gz]
 [2024-05-27 02:06:14] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
 [2024-05-27 02:06:14] INFO root fetch - main [MainThread]: Store serial: [23388881]
+[2024-05-27 02:08:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23388881]
+[2024-05-27 02:08:22] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-27 02:08:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fastdev
+[2024-05-27 02:08:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: compressed-tensors-nightly
+[2024-05-27 02:08:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jaxutils-nightly
+[2024-05-27 02:08:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gitlab-projects-migrate
+[2024-05-27 02:08:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: conflict-rpa
+[2024-05-27 02:08:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: raindrop-io-py
+[2024-05-27 02:08:23] INFO root fetch - processPackages [gitlab-projects-migrate]: New version: [4.0.0] Old Version: [3.1.0]
+[2024-05-27 02:08:23] INFO root fetch - processPackages [jaxutils-nightly]: New version: [0.0.8.dev20240526] Old Version: [0.0.8.dev20240525]
+[2024-05-27 02:08:23] INFO root fetch - processPackages [compressed-tensors-nightly]: New version: [0.3.3.20240526] Old Version: [0.3.3.20240525]
+[2024-05-27 02:08:23] INFO root fetch - processPackages [gitlab-projects-migrate]: Downloading https://files.pythonhosted.org/packages/2c/87/96558588828b5bc914b048caa3c3a5bcc32e7e75e28b81d663f5381ee6a3/gitlab_projects_migrate-3.1.0.tar.gz
+[2024-05-27 02:08:23] WARNING root fetch - processPackages [conflict-rpa]: Skipping, unable to determine old version
+[2024-05-27 02:08:23] INFO root fetch - main [MainThread]: End processing [conflict-rpa] error
+[2024-05-27 02:08:23] INFO root fetch - processPackages [fastdev]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-27 02:08:23] INFO root fetch - processPackages [compressed-tensors-nightly]: Downloading https://files.pythonhosted.org/packages/be/00/c598237e8aa71b71a7dd2cdacddb5d0c3e4ebc393186c193922b5a365266/compressed_tensors_nightly-0.3.3.20240525-py3-none-any.whl
+[2024-05-27 02:08:23] INFO root fetch - processPackages [raindrop-io-py]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-05-27 02:08:23] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/1e/3b/f2a858700a61cf4ba47c48e26e71eee74a9d988494ccdf98cb4571311725/jaxutils-nightly-0.0.8.dev20240525.tar.gz
+[2024-05-27 02:08:23] INFO root fetch - processPackages [gitlab-projects-migrate]: Downloading https://files.pythonhosted.org/packages/d5/91/f9f93339cce60af3b069a3291542ede8525ad589b5103e134fa8924bc7d0/gitlab_projects_migrate-4.0.0.tar.gz
+[2024-05-27 02:08:23] INFO root fetch - processPackages [fastdev]: Downloading https://files.pythonhosted.org/packages/14/93/91ab8bb2cb23512945cd500f43f0d25a7a45b0c8ef8a474e0a87ffd358f5/fastdev-0.0.6.tar.gz
+[2024-05-27 02:08:23] INFO root fetch - processPackages [raindrop-io-py]: Downloading https://files.pythonhosted.org/packages/f8/ef/b327ab1a0d4ceb70e7836d668b1d950709c21560dac08915c25eee4e9b7f/raindrop_io_py-0.2.4.tar.gz
+[2024-05-27 02:08:23] INFO root fetch - processPackages [compressed-tensors-nightly]: Downloading https://files.pythonhosted.org/packages/5a/47/519bbb031fff8bc23ff8b30d21b19027eedb467b6e540517832f6c682d87/compressed_tensors_nightly-0.3.3.20240526-py3-none-any.whl
+[2024-05-27 02:08:23] INFO root fetch - processPackages [gitlab-projects-migrate]: executing diffoscope
+[2024-05-27 02:08:23] INFO root fetch - processPackages [gitlab-projects-migrate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitlab_projects_migrate-3.1.0.tar.gz tmp/gitlab_projects_migrate-4.0.0.tar.gz --markdown 20240527/g/gitlab-projects-migrate/3.1.0-4.0.0/README.md --exclude *.pyd
+[2024-05-27 02:08:23] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/1b/54/d9f9767294d3c4652886d6d2d10f95db12c8d461803f3c9395d111a0e69b/jaxutils-nightly-0.0.8.dev20240526.tar.gz
+[2024-05-27 02:08:23] INFO root fetch - processPackages [compressed-tensors-nightly]: executing diffoscope
+[2024-05-27 02:08:23] INFO root fetch - processPackages [compressed-tensors-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/compressed_tensors_nightly-0.3.3.20240525-py3-none-any.whl.zip tmp/compressed_tensors_nightly-0.3.3.20240526-py3-none-any.whl.zip --markdown 20240527/c/compressed-tensors-nightly/0.3.3.20240525-0.3.3.20240526/README.md --exclude *.pyd
+[2024-05-27 02:08:23] INFO root fetch - processPackages [fastdev]: Downloading https://files.pythonhosted.org/packages/73/02/e1afa918df2339c94f0d16fc969109c8eeade895731613df3fc31a4c2bdb/fastdev-0.0.7.tar.gz
+[2024-05-27 02:08:23] INFO root fetch - processPackages [jaxutils-nightly]: executing diffoscope
+[2024-05-27 02:08:23] INFO root fetch - processPackages [jaxutils-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxutils-nightly-0.0.8.dev20240525.tar.gz tmp/jaxutils-nightly-0.0.8.dev20240526.tar.gz --markdown 20240527/j/jaxutils-nightly/0.0.8.dev20240525-0.0.8.dev20240526/README.md --exclude *.pyd
+[2024-05-27 02:08:23] INFO root fetch - processPackages [fastdev]: executing diffoscope
+[2024-05-27 02:08:23] INFO root fetch - processPackages [fastdev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastdev-0.0.6.tar.gz tmp/fastdev-0.0.7.tar.gz --markdown 20240527/f/fastdev/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-27 02:08:23] INFO root fetch - processPackages [raindrop-io-py]: Downloading https://files.pythonhosted.org/packages/42/33/f4ff8819d834d1c8546bee1c9444534151666080690f2bede5317797324e/raindrop_io_py-0.2.5.tar.gz
+[2024-05-27 02:08:23] INFO root fetch - processPackages [raindrop-io-py]: executing diffoscope
+[2024-05-27 02:08:23] INFO root fetch - processPackages [raindrop-io-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raindrop_io_py-0.2.4.tar.gz tmp/raindrop_io_py-0.2.5.tar.gz --markdown 20240527/r/raindrop-io-py/0.2.4-0.2.5/README.md --exclude *.pyd
+[2024-05-27 02:08:24] INFO root fetch - processPackages [gitlab-projects-migrate]: Remove: archive file [/home/abi/fetcher/tmp/gitlab_projects_migrate-3.1.0.tar.gz]
+[2024-05-27 02:08:24] INFO root fetch - processPackages [gitlab-projects-migrate]: Remove: archive file [/home/abi/fetcher/tmp/gitlab_projects_migrate-4.0.0.tar.gz]
+[2024-05-27 02:08:24] INFO root fetch - main [MainThread]: End processing [gitlab-projects-migrate]: success
+[2024-05-27 02:08:24] INFO root fetch - processPackages [compressed-tensors-nightly]: Remove: archive file [/home/abi/fetcher/tmp/compressed_tensors_nightly-0.3.3.20240525-py3-none-any.whl.zip]
+[2024-05-27 02:08:24] INFO root fetch - processPackages [compressed-tensors-nightly]: Remove: archive file [/home/abi/fetcher/tmp/compressed_tensors_nightly-0.3.3.20240526-py3-none-any.whl.zip]
+[2024-05-27 02:08:24] INFO root fetch - main [MainThread]: End processing [compressed-tensors-nightly]: success
+[2024-05-27 02:08:24] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20240525.tar.gz]
+[2024-05-27 02:08:24] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20240526.tar.gz]
+[2024-05-27 02:08:24] INFO root fetch - main [MainThread]: End processing [jaxutils-nightly]: success
+[2024-05-27 02:08:24] INFO root fetch - processPackages [fastdev]: Remove: archive file [/home/abi/fetcher/tmp/fastdev-0.0.6.tar.gz]
+[2024-05-27 02:08:24] INFO root fetch - processPackages [fastdev]: Remove: archive file [/home/abi/fetcher/tmp/fastdev-0.0.7.tar.gz]
+[2024-05-27 02:08:24] INFO root fetch - main [MainThread]: End processing [fastdev]: success
+[2024-05-27 02:08:24] INFO root fetch - processPackages [raindrop-io-py]: Remove: archive file [/home/abi/fetcher/tmp/raindrop_io_py-0.2.4.tar.gz]
+[2024-05-27 02:08:24] INFO root fetch - processPackages [raindrop-io-py]: Remove: archive file [/home/abi/fetcher/tmp/raindrop_io_py-0.2.5.tar.gz]
+[2024-05-27 02:08:24] INFO root fetch - main [MainThread]: End processing [raindrop-io-py]: success
+[2024-05-27 02:08:24] INFO root fetch - main [MainThread]: Store serial: [23388900]
