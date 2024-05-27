@@ -5337,3 +5337,49 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 06:32:02] INFO root fetch - processPackages [calculate-savings]: Remove: archive file [/home/abi/fetcher/tmp/calculate_savings-0.1.4.tar.gz]
 [2024-05-27 06:32:02] INFO root fetch - main [MainThread]: End processing [calculate-savings]: success
 [2024-05-27 06:32:02] INFO root fetch - main [MainThread]: Store serial: [23390533]
+[2024-05-27 06:34:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23390533]
+[2024-05-27 06:34:10] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-27 06:34:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Length-of-body-image
+[2024-05-27 06:34:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xray-disease-detector
+[2024-05-27 06:34:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: telegram-gmail-bot
+[2024-05-27 06:34:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: damage-calculator
+[2024-05-27 06:34:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: telegram-gmail-bot
+[2024-05-27 06:34:10] INFO root fetch - processPackages [telegram-gmail-bot]: New version: [0.1.3] Old Version: [0.1.1]
+[2024-05-27 06:34:10] INFO root fetch - processPackages [xray-disease-detector]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-27 06:34:10] INFO root fetch - processPackages [telegram-gmail-bot]: New version: [0.1.3] Old Version: [0.1.1]
+[2024-05-27 06:34:10] INFO root fetch - processPackages [damage-calculator]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-05-27 06:34:10] INFO root fetch - processPackages [telegram-gmail-bot]: Downloading https://files.pythonhosted.org/packages/13/95/56ce273a494e09a27e2ce308be6b37207ca1a065bc150927eca22d8fef29/telegram_gmail_bot-0.1.1.tar.gz
+[2024-05-27 06:34:10] INFO root fetch - processPackages [Length-of-body-image]: New version: [0.2] Old Version: [0.1]
+[2024-05-27 06:34:10] INFO root fetch - processPackages [xray-disease-detector]: Downloading https://files.pythonhosted.org/packages/64/40/ad051fdece12c05144d8f606cf19f11d45d68a20bff2ec64f2990ac42fb2/xray_disease_detector-0.1.0.tar.gz
+[2024-05-27 06:34:10] INFO root fetch - processPackages [telegram-gmail-bot]: Downloading https://files.pythonhosted.org/packages/13/95/56ce273a494e09a27e2ce308be6b37207ca1a065bc150927eca22d8fef29/telegram_gmail_bot-0.1.1.tar.gz
+[2024-05-27 06:34:11] INFO root fetch - processPackages [Length-of-body-image]: Downloading https://files.pythonhosted.org/packages/5c/24/b83d69ef7c3eb861c85e25a28e9b5a38ce2a54cadbe60c5f0f11777c3f16/Length_of_body_image-0.1-py3-none-any.whl
+[2024-05-27 06:34:11] INFO root fetch - processPackages [damage-calculator]: Downloading https://files.pythonhosted.org/packages/84/6c/cd1b8ea89f0c6d27891d82a7c12b315e0f9c9cb241ef963517ae4d71bfd3/damage_calculator-0.1.0.tar.gz
+[2024-05-27 06:34:11] INFO root fetch - processPackages [xray-disease-detector]: Downloading https://files.pythonhosted.org/packages/1b/c3/730b69d062baed89d81cef87ed7925a80dbe8616c39550b048e73728bfa0/xray_disease_detector-0.1.1.tar.gz
+[2024-05-27 06:34:11] INFO root fetch - processPackages [xray-disease-detector]: executing diffoscope
+[2024-05-27 06:34:11] INFO root fetch - processPackages [xray-disease-detector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xray_disease_detector-0.1.0.tar.gz tmp/xray_disease_detector-0.1.1.tar.gz --markdown 20240527/x/xray-disease-detector/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-27 06:34:11] INFO root fetch - processPackages [telegram-gmail-bot]: Downloading https://files.pythonhosted.org/packages/87/7f/863ca14a167331b319a1325c20455cf0c2db38fe67aa3e04efdc079d2de0/telegram_gmail_bot-0.1.3.tar.gz
+[2024-05-27 06:34:11] INFO root fetch - processPackages [telegram-gmail-bot]: Downloading https://files.pythonhosted.org/packages/87/7f/863ca14a167331b319a1325c20455cf0c2db38fe67aa3e04efdc079d2de0/telegram_gmail_bot-0.1.3.tar.gz
+[2024-05-27 06:34:11] INFO root fetch - processPackages [telegram-gmail-bot]: executing diffoscope
+[2024-05-27 06:34:11] INFO root fetch - processPackages [telegram-gmail-bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/telegram_gmail_bot-0.1.1.tar.gz tmp/telegram_gmail_bot-0.1.3.tar.gz --markdown 20240527/t/telegram-gmail-bot/0.1.1-0.1.3/README.md --exclude *.pyd
+[2024-05-27 06:34:11] INFO root fetch - processPackages [Length-of-body-image]: Downloading https://files.pythonhosted.org/packages/00/e2/d9831c907a2440b2548683f54a7647747897a65affdbf00ab9a3068ca01d/Length_of_body_image-0.2.tar.gz
+[2024-05-27 06:34:11] INFO root fetch - processPackages [telegram-gmail-bot]: executing diffoscope
+[2024-05-27 06:34:11] INFO root fetch - processPackages [telegram-gmail-bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/telegram_gmail_bot-0.1.1.tar.gz tmp/telegram_gmail_bot-0.1.3.tar.gz --markdown 20240527/t/telegram-gmail-bot/0.1.1-0.1.3/README.md --exclude *.pyd
+[2024-05-27 06:34:11] INFO root fetch - processPackages [damage-calculator]: Downloading https://files.pythonhosted.org/packages/cf/62/35fb82d0ca0ab567ce8658b1312d00e12b9f29589ab8fc31347396cc7abe/damage_calculator-0.2.0.tar.gz
+[2024-05-27 06:34:11] INFO root fetch - processPackages [Length-of-body-image]: executing diffoscope
+[2024-05-27 06:34:11] INFO root fetch - processPackages [Length-of-body-image]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Length_of_body_image-0.1-py3-none-any.whl.zip tmp/Length_of_body_image-0.2.tar.gz --markdown 20240527/L/Length-of-body-image/0.1-0.2/README.md --exclude *.pyd
+[2024-05-27 06:34:11] INFO root fetch - processPackages [damage-calculator]: executing diffoscope
+[2024-05-27 06:34:11] INFO root fetch - processPackages [damage-calculator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/damage_calculator-0.1.0.tar.gz tmp/damage_calculator-0.2.0.tar.gz --markdown 20240527/d/damage-calculator/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-05-27 06:34:11] INFO root fetch - processPackages [xray-disease-detector]: Remove: archive file [/home/abi/fetcher/tmp/xray_disease_detector-0.1.0.tar.gz]
+[2024-05-27 06:34:11] INFO root fetch - processPackages [xray-disease-detector]: Remove: archive file [/home/abi/fetcher/tmp/xray_disease_detector-0.1.1.tar.gz]
+[2024-05-27 06:34:11] INFO root fetch - main [MainThread]: End processing [xray-disease-detector]: success
+[2024-05-27 06:34:12] INFO root fetch - processPackages [telegram-gmail-bot]: Remove: archive file [/home/abi/fetcher/tmp/telegram_gmail_bot-0.1.1.tar.gz]
+[2024-05-27 06:34:12] INFO root fetch - processPackages [telegram-gmail-bot]: Remove: archive file [/home/abi/fetcher/tmp/telegram_gmail_bot-0.1.3.tar.gz]
+[2024-05-27 06:34:12] INFO root fetch - main [MainThread]: End processing [telegram-gmail-bot]: success
+[2024-05-27 06:34:12] INFO root fetch - processPackages [damage-calculator]: Remove: archive file [/home/abi/fetcher/tmp/damage_calculator-0.1.0.tar.gz]
+[2024-05-27 06:34:12] INFO root fetch - processPackages [damage-calculator]: Remove: archive file [/home/abi/fetcher/tmp/damage_calculator-0.2.0.tar.gz]
+[2024-05-27 06:34:12] INFO root fetch - main [MainThread]: End processing [damage-calculator]: success
+[2024-05-27 06:34:12] INFO root fetch - main [MainThread]: End processing [telegram-gmail-bot]: success
+[2024-05-27 06:34:12] INFO root fetch - processPackages [Length-of-body-image]: Remove: archive file [/home/abi/fetcher/tmp/Length_of_body_image-0.1-py3-none-any.whl.zip]
+[2024-05-27 06:34:12] INFO root fetch - processPackages [Length-of-body-image]: Remove: archive file [/home/abi/fetcher/tmp/Length_of_body_image-0.2.tar.gz]
+[2024-05-27 06:34:12] INFO root fetch - main [MainThread]: End processing [Length-of-body-image]: success
+[2024-05-27 06:34:12] INFO root fetch - main [MainThread]: Store serial: [23390547]
