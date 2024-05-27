@@ -4325,3 +4325,20 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 05:05:16] INFO root fetch - processPackages [pami]: Remove: archive file [/home/abi/fetcher/tmp/pami-2024.5.7.1.tar.gz]
 [2024-05-27 05:05:16] INFO root fetch - main [MainThread]: End processing [pami]: success
 [2024-05-27 05:05:16] INFO root fetch - main [MainThread]: Store serial: [23390054]
+[2024-05-27 05:07:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23390054]
+[2024-05-27 05:07:25] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-27 05:07:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: video-background-extractor
+[2024-05-27 05:07:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jneqsim
+[2024-05-27 05:07:25] INFO root fetch - processPackages [video-background-extractor]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-05-27 05:07:25] INFO root fetch - processPackages [jneqsim]: New version: [2.5.25] Old Version: [2.5.22]
+[2024-05-27 05:07:25] INFO root fetch - processPackages [video-background-extractor]: Downloading https://files.pythonhosted.org/packages/79/9e/27e1ec684f8b342b4fa1f169300dbdeb59e157a99674fe3c476f1607f23e/video_background_extractor-1.1.0-py3-none-any.whl
+[2024-05-27 05:07:25] INFO root fetch - processPackages [jneqsim]: Downloading https://files.pythonhosted.org/packages/34/d9/abfa5a8266bd37e2acd3131fba4aac617b37ed7bd6b94959473c36549c50/jneqsim-2.5.22.tar.gz
+[2024-05-27 05:07:26] WARNING root fetch - processPackages [jneqsim]: Skipping package: exceeds size limit 87784112>=10485760
+[2024-05-27 05:07:26] INFO root fetch - main [MainThread]: End processing [jneqsim] error
+[2024-05-27 05:07:26] INFO root fetch - processPackages [video-background-extractor]: Downloading https://files.pythonhosted.org/packages/07/17/7a3b6e88224bd5e7a0e628e1090cf22a160401234961b29f7ab3028f97dc/video_background_extractor-1.1.1-py3-none-any.whl
+[2024-05-27 05:07:26] INFO root fetch - processPackages [video-background-extractor]: executing diffoscope
+[2024-05-27 05:07:26] INFO root fetch - processPackages [video-background-extractor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/video_background_extractor-1.1.0-py3-none-any.whl.zip tmp/video_background_extractor-1.1.1-py3-none-any.whl.zip --markdown 20240527/v/video-background-extractor/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-05-27 05:07:26] INFO root fetch - processPackages [video-background-extractor]: Remove: archive file [/home/abi/fetcher/tmp/video_background_extractor-1.1.0-py3-none-any.whl.zip]
+[2024-05-27 05:07:26] INFO root fetch - processPackages [video-background-extractor]: Remove: archive file [/home/abi/fetcher/tmp/video_background_extractor-1.1.1-py3-none-any.whl.zip]
+[2024-05-27 05:07:26] INFO root fetch - main [MainThread]: End processing [video-background-extractor]: success
+[2024-05-27 05:07:26] INFO root fetch - main [MainThread]: Store serial: [23390059]
