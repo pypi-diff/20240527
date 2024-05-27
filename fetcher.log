@@ -2299,3 +2299,24 @@
 [2024-05-27 02:59:04] INFO root fetch - processPackages [zetascale]: Remove: archive file [/home/abi/fetcher/tmp/zetascale-2.5.3.tar.gz]
 [2024-05-27 02:59:04] INFO root fetch - main [MainThread]: End processing [zetascale]: success
 [2024-05-27 02:59:04] INFO root fetch - main [MainThread]: Store serial: [23389230]
+[2024-05-27 03:01:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23389230]
+[2024-05-27 03:01:13] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-27 03:01:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gdextension-cli
+[2024-05-27 03:01:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zetascale
+[2024-05-27 03:01:13] INFO root fetch - processPackages [gdextension-cli]: New version: [0.0.2b3] Old Version: [0.0.2b1]
+[2024-05-27 03:01:13] INFO root fetch - processPackages [zetascale]: New version: [2.5.3] Old Version: [2.5.1]
+[2024-05-27 03:01:13] INFO root fetch - processPackages [zetascale]: Downloading https://files.pythonhosted.org/packages/35/9e/dfe62ba23f367e3a17276e9b527924d71279c58fcc7551da2d0ad1a86963/zetascale-2.5.1.tar.gz
+[2024-05-27 03:01:13] INFO root fetch - processPackages [gdextension-cli]: Downloading https://files.pythonhosted.org/packages/17/ef/d22dfbed8adcb7c37dfcb79d1d55e33f94003db0979980fe12c4ebc8210e/gdextension_cli-0.0.2b1.tar.gz
+[2024-05-27 03:01:13] INFO root fetch - processPackages [zetascale]: Downloading https://files.pythonhosted.org/packages/e2/e2/70e21cea2fb8be393b1f6de51359a25a6af0908c6488a0419dd784849698/zetascale-2.5.3.tar.gz
+[2024-05-27 03:01:13] INFO root fetch - processPackages [zetascale]: executing diffoscope
+[2024-05-27 03:01:13] INFO root fetch - processPackages [zetascale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zetascale-2.5.1.tar.gz tmp/zetascale-2.5.3.tar.gz --markdown 20240527/z/zetascale/2.5.1-2.5.3/README.md --exclude *.pyd
+[2024-05-27 03:01:14] INFO root fetch - processPackages [gdextension-cli]: Downloading https://files.pythonhosted.org/packages/a9/01/a990e9d0dee15ef4d5317b0922cb1bbb664a9e821e4e47bcb75c96188642/gdextension_cli-0.0.2b3.tar.gz
+[2024-05-27 03:01:14] INFO root fetch - processPackages [gdextension-cli]: executing diffoscope
+[2024-05-27 03:01:14] INFO root fetch - processPackages [gdextension-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gdextension_cli-0.0.2b1.tar.gz tmp/gdextension_cli-0.0.2b3.tar.gz --markdown 20240527/g/gdextension-cli/0.0.2b1-0.0.2b3/README.md --exclude *.pyd
+[2024-05-27 03:01:14] INFO root fetch - processPackages [gdextension-cli]: Remove: archive file [/home/abi/fetcher/tmp/gdextension_cli-0.0.2b1.tar.gz]
+[2024-05-27 03:01:14] INFO root fetch - processPackages [gdextension-cli]: Remove: archive file [/home/abi/fetcher/tmp/gdextension_cli-0.0.2b3.tar.gz]
+[2024-05-27 03:01:14] INFO root fetch - main [MainThread]: End processing [gdextension-cli]: success
+[2024-05-27 03:01:15] INFO root fetch - processPackages [zetascale]: Remove: archive file [/home/abi/fetcher/tmp/zetascale-2.5.1.tar.gz]
+[2024-05-27 03:01:15] INFO root fetch - processPackages [zetascale]: Remove: archive file [/home/abi/fetcher/tmp/zetascale-2.5.3.tar.gz]
+[2024-05-27 03:01:15] INFO root fetch - main [MainThread]: End processing [zetascale]: success
+[2024-05-27 03:01:15] INFO root fetch - main [MainThread]: Store serial: [23389244]
