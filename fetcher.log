@@ -11428,3 +11428,60 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 11:45:43] INFO root fetch - processPackages [django-customvueadmin]: Remove: archive file [/home/abi/fetcher/tmp/django_customvueadmin-0.2.3.tar.gz]
 [2024-05-27 11:45:43] INFO root fetch - main [MainThread]: End processing [django-customvueadmin]: success
 [2024-05-27 11:45:43] INFO root fetch - main [MainThread]: Store serial: [23393478]
+[2024-05-27 11:47:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23393478]
+[2024-05-27 11:47:52] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-27 11:47:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lazy-type-hint
+[2024-05-27 11:47:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pysql-repo
+[2024-05-27 11:47:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: typeguard
+[2024-05-27 11:47:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qulacs
+[2024-05-27 11:47:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: onetl
+[2024-05-27 11:47:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: imio.smartweb.core
+[2024-05-27 11:47:52] INFO root fetch - processPackages [typeguard]: New version: [4.3.0] Old Version: [4.2.1]
+[2024-05-27 11:47:52] INFO root fetch - processPackages [pysql-repo]: New version: [0.7.3.3] Old Version: [0.7.3.2]
+[2024-05-27 11:47:52] INFO root fetch - processPackages [onetl]: New version: [0.9.5] Old Version: [0.9.4]
+[2024-05-27 11:47:52] INFO root fetch - processPackages [lazy-type-hint]: New version: [2.2.4] Old Version: [2.2.3]
+[2024-05-27 11:47:52] INFO root fetch - processPackages [imio.smartweb.core]: New version: [1.2.9] Old Version: [1.2.8]
+[2024-05-27 11:47:52] INFO root fetch - processPackages [qulacs]: New version: [0.6.4] Old Version: [0.6.3]
+[2024-05-27 11:47:52] INFO root fetch - processPackages [typeguard]: Downloading https://files.pythonhosted.org/packages/6e/0e/96ec359939521f8c3e6c7b69526afab96fafe0520b5e1b890e061a66abc9/typeguard-4.2.1.tar.gz
+[2024-05-27 11:47:52] INFO root fetch - processPackages [pysql-repo]: Downloading https://files.pythonhosted.org/packages/b3/87/66d05fe792ab6da15ee42f261fb5927df9157a0be386f6dad4a5e551ce4f/pysql-repo-0.7.3.2.tar.gz
+[2024-05-27 11:47:52] INFO root fetch - processPackages [onetl]: Downloading https://files.pythonhosted.org/packages/c8/dd/507c13f99975c15478a5dfc267e7994d72e3afb7564bcfa51aefcf85abe9/onetl-0.9.4.tar.gz
+[2024-05-27 11:47:52] INFO root fetch - processPackages [lazy-type-hint]: Downloading https://files.pythonhosted.org/packages/c3/52/ea88e429eda12107dc4a67ed3819d12689df3d93b11a7ae897b27ab922fb/lazy_type_hint-2.2.3.tar.gz
+[2024-05-27 11:47:52] INFO root fetch - processPackages [qulacs]: Downloading https://files.pythonhosted.org/packages/c2/86/886949db3231edba0e24b0ffa5745a7b29dd18f28ca6fb758139233f6287/qulacs-0.6.3.tar.gz
+[2024-05-27 11:47:52] INFO root fetch - processPackages [imio.smartweb.core]: Downloading https://files.pythonhosted.org/packages/50/cf/4f2efdd5a6362b7fd0cc7499d23f0fba4c41b1e069fa580bd514e95cdcc5/imio.smartweb.core-1.2.8.tar.gz
+[2024-05-27 11:47:53] INFO root fetch - processPackages [typeguard]: Downloading https://files.pythonhosted.org/packages/8d/e1/3178b3e5369a98239ed7301e3946747048c66f4023163d55918f11b82d4e/typeguard-4.3.0.tar.gz
+[2024-05-27 11:47:53] INFO root fetch - processPackages [pysql-repo]: Downloading https://files.pythonhosted.org/packages/0c/e7/12251868a85b3d9738e0b6908fd3fba3cff9cdca34302ae7bfe424fef441/pysql-repo-0.7.3.3.tar.gz
+[2024-05-27 11:47:53] INFO root fetch - processPackages [onetl]: Downloading https://files.pythonhosted.org/packages/09/7d/1f9a165c793c284f67046936613eb24865821d59729b9b51f49ec35eb62e/onetl-0.9.5.tar.gz
+[2024-05-27 11:47:53] INFO root fetch - processPackages [lazy-type-hint]: Downloading https://files.pythonhosted.org/packages/11/d3/411f5c9a27c68bbf0de994059991a4af3467411d33af67e3104c3ef61364/lazy_type_hint-2.2.4.tar.gz
+[2024-05-27 11:47:53] INFO root fetch - processPackages [typeguard]: executing diffoscope
+[2024-05-27 11:47:53] INFO root fetch - processPackages [typeguard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typeguard-4.2.1.tar.gz tmp/typeguard-4.3.0.tar.gz --markdown 20240527/t/typeguard/4.2.1-4.3.0/README.md --exclude *.pyd
+[2024-05-27 11:47:53] INFO root fetch - processPackages [qulacs]: Downloading https://files.pythonhosted.org/packages/79/a1/de93b1a5efba4e4ccf977ae2373e3afd5171e1e6f6355cbee3fafec18bca/qulacs-0.6.4.tar.gz
+[2024-05-27 11:47:53] INFO root fetch - processPackages [pysql-repo]: executing diffoscope
+[2024-05-27 11:47:53] INFO root fetch - processPackages [pysql-repo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysql-repo-0.7.3.2.tar.gz tmp/pysql-repo-0.7.3.3.tar.gz --markdown 20240527/p/pysql-repo/0.7.3.2-0.7.3.3/README.md --exclude *.pyd
+[2024-05-27 11:47:53] INFO root fetch - processPackages [lazy-type-hint]: executing diffoscope
+[2024-05-27 11:47:53] INFO root fetch - processPackages [lazy-type-hint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazy_type_hint-2.2.3.tar.gz tmp/lazy_type_hint-2.2.4.tar.gz --markdown 20240527/l/lazy-type-hint/2.2.3-2.2.4/README.md --exclude *.pyd
+[2024-05-27 11:47:53] INFO root fetch - processPackages [onetl]: executing diffoscope
+[2024-05-27 11:47:53] INFO root fetch - processPackages [onetl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onetl-0.9.4.tar.gz tmp/onetl-0.9.5.tar.gz --markdown 20240527/o/onetl/0.9.4-0.9.5/README.md --exclude *.pyd
+[2024-05-27 11:47:53] INFO root fetch - processPackages [qulacs]: executing diffoscope
+[2024-05-27 11:47:53] INFO root fetch - processPackages [qulacs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qulacs-0.6.3.tar.gz tmp/qulacs-0.6.4.tar.gz --markdown 20240527/q/qulacs/0.6.3-0.6.4/README.md --exclude *.pyd
+[2024-05-27 11:47:53] INFO root fetch - processPackages [imio.smartweb.core]: Downloading https://files.pythonhosted.org/packages/fa/86/df6913561be9d1503fca6dc066040ebfbb358b73c5eaafd6f169cdebe0d2/imio.smartweb.core-1.2.9.tar.gz
+[2024-05-27 11:47:53] INFO root fetch - processPackages [imio.smartweb.core]: executing diffoscope
+[2024-05-27 11:47:53] INFO root fetch - processPackages [imio.smartweb.core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imio.smartweb.core-1.2.8.tar.gz tmp/imio.smartweb.core-1.2.9.tar.gz --markdown 20240527/i/imio.smartweb.core/1.2.8-1.2.9/README.md --exclude *.pyd
+[2024-05-27 11:47:54] INFO root fetch - processPackages [lazy-type-hint]: Remove: archive file [/home/abi/fetcher/tmp/lazy_type_hint-2.2.3.tar.gz]
+[2024-05-27 11:47:54] INFO root fetch - processPackages [lazy-type-hint]: Remove: archive file [/home/abi/fetcher/tmp/lazy_type_hint-2.2.4.tar.gz]
+[2024-05-27 11:47:54] INFO root fetch - main [MainThread]: End processing [lazy-type-hint]: success
+[2024-05-27 11:47:54] INFO root fetch - processPackages [pysql-repo]: Remove: archive file [/home/abi/fetcher/tmp/pysql-repo-0.7.3.2.tar.gz]
+[2024-05-27 11:47:54] INFO root fetch - processPackages [pysql-repo]: Remove: archive file [/home/abi/fetcher/tmp/pysql-repo-0.7.3.3.tar.gz]
+[2024-05-27 11:47:54] INFO root fetch - main [MainThread]: End processing [pysql-repo]: success
+[2024-05-27 11:47:54] INFO root fetch - processPackages [typeguard]: Remove: archive file [/home/abi/fetcher/tmp/typeguard-4.2.1.tar.gz]
+[2024-05-27 11:47:54] INFO root fetch - processPackages [typeguard]: Remove: archive file [/home/abi/fetcher/tmp/typeguard-4.3.0.tar.gz]
+[2024-05-27 11:47:54] INFO root fetch - main [MainThread]: End processing [typeguard]: success
+[2024-05-27 11:47:54] INFO root fetch - processPackages [onetl]: Remove: archive file [/home/abi/fetcher/tmp/onetl-0.9.4.tar.gz]
+[2024-05-27 11:47:54] INFO root fetch - processPackages [onetl]: Remove: archive file [/home/abi/fetcher/tmp/onetl-0.9.5.tar.gz]
+[2024-05-27 11:47:54] INFO root fetch - main [MainThread]: End processing [onetl]: success
+[2024-05-27 11:47:56] INFO root fetch - processPackages [imio.smartweb.core]: Remove: archive file [/home/abi/fetcher/tmp/imio.smartweb.core-1.2.8.tar.gz]
+[2024-05-27 11:47:56] INFO root fetch - processPackages [imio.smartweb.core]: Remove: archive file [/home/abi/fetcher/tmp/imio.smartweb.core-1.2.9.tar.gz]
+[2024-05-27 11:47:56] INFO root fetch - main [MainThread]: End processing [imio.smartweb.core]: success
+[2024-05-27 11:48:06] INFO root fetch - processPackages [qulacs]: Remove: archive file [/home/abi/fetcher/tmp/qulacs-0.6.3.tar.gz]
+[2024-05-27 11:48:06] INFO root fetch - processPackages [qulacs]: Remove: archive file [/home/abi/fetcher/tmp/qulacs-0.6.4.tar.gz]
+[2024-05-27 11:48:06] INFO root fetch - main [MainThread]: End processing [qulacs]: success
+[2024-05-27 11:48:06] INFO root fetch - main [MainThread]: Store serial: [23393495]
