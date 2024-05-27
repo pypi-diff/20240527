@@ -6945,3 +6945,30 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 08:16:10] INFO root fetch - processPackages [pycityproto]: Remove: archive file [/home/abi/fetcher/tmp/pycityproto-1.14.0.tar.gz]
 [2024-05-27 08:16:10] INFO root fetch - main [MainThread]: End processing [pycityproto]: success
 [2024-05-27 08:16:10] INFO root fetch - main [MainThread]: Store serial: [23391289]
+[2024-05-27 08:18:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23391289]
+[2024-05-27 08:18:19] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-27 08:18:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: osbee
+[2024-05-27 08:18:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pms-encoder
+[2024-05-27 08:18:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: md2tgmd
+[2024-05-27 08:18:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: discord-buttons
+[2024-05-27 08:18:19] INFO root fetch - processPackages [md2tgmd]: New version: [0.2.0] Old Version: [0.1.9]
+[2024-05-27 08:18:19] INFO root fetch - processPackages [pms-encoder]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-27 08:18:19] INFO root fetch - processPackages [md2tgmd]: Downloading https://files.pythonhosted.org/packages/81/fd/582eb514b69d67c455107e569b9116e866cd7d78b1f915946e2fb2dbe9ea/md2tgmd-0.1.9.tar.gz
+[2024-05-27 08:18:19] INFO root fetch - processPackages [pms-encoder]: Downloading https://files.pythonhosted.org/packages/80/f1/88f2f54188c15bf6cca5ba7a3a347b8d1c83b15a626f541acf3dde5aa63d/pms_encoder-0.0.8.tar.gz
+[2024-05-27 08:18:19] WARNING root fetch - processPackages [discord-buttons]: Skipping, unable to determine old version
+[2024-05-27 08:18:19] INFO root fetch - main [MainThread]: End processing [discord-buttons] error
+[2024-05-27 08:18:19] WARNING root fetch - processPackages [osbee]: Skipping, unable to determine old version
+[2024-05-27 08:18:19] INFO root fetch - main [MainThread]: End processing [osbee] error
+[2024-05-27 08:18:19] INFO root fetch - processPackages [pms-encoder]: Downloading https://files.pythonhosted.org/packages/93/31/8bb081756db42925fab6507b6e0f497d6bf45acd407ff38cb00f2aaec54c/pms_encoder-0.0.9.tar.gz
+[2024-05-27 08:18:19] INFO root fetch - processPackages [md2tgmd]: Downloading https://files.pythonhosted.org/packages/5a/3e/6b373d9183a66916e1bad79cecc0c84bce44c8789de182de7de74895f666/md2tgmd-0.2.0.tar.gz
+[2024-05-27 08:18:19] INFO root fetch - processPackages [pms-encoder]: executing diffoscope
+[2024-05-27 08:18:19] INFO root fetch - processPackages [pms-encoder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pms_encoder-0.0.8.tar.gz tmp/pms_encoder-0.0.9.tar.gz --markdown 20240527/p/pms-encoder/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-27 08:18:19] INFO root fetch - processPackages [md2tgmd]: executing diffoscope
+[2024-05-27 08:18:19] INFO root fetch - processPackages [md2tgmd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/md2tgmd-0.1.9.tar.gz tmp/md2tgmd-0.2.0.tar.gz --markdown 20240527/m/md2tgmd/0.1.9-0.2.0/README.md --exclude *.pyd
+[2024-05-27 08:18:20] INFO root fetch - processPackages [md2tgmd]: Remove: archive file [/home/abi/fetcher/tmp/md2tgmd-0.1.9.tar.gz]
+[2024-05-27 08:18:20] INFO root fetch - processPackages [md2tgmd]: Remove: archive file [/home/abi/fetcher/tmp/md2tgmd-0.2.0.tar.gz]
+[2024-05-27 08:18:20] INFO root fetch - main [MainThread]: End processing [md2tgmd]: success
+[2024-05-27 08:18:20] INFO root fetch - processPackages [pms-encoder]: Remove: archive file [/home/abi/fetcher/tmp/pms_encoder-0.0.8.tar.gz]
+[2024-05-27 08:18:20] INFO root fetch - processPackages [pms-encoder]: Remove: archive file [/home/abi/fetcher/tmp/pms_encoder-0.0.9.tar.gz]
+[2024-05-27 08:18:20] INFO root fetch - main [MainThread]: End processing [pms-encoder]: success
+[2024-05-27 08:18:20] INFO root fetch - main [MainThread]: Store serial: [23391305]
