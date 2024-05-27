@@ -1691,3 +1691,42 @@
 [2024-05-27 02:15:00] INFO root fetch - processPackages [tdrpa.tdcore]: Remove: archive file [/home/abi/fetcher/tmp/tdrpa.tdcore-1.1.43-py311-none-win_amd64.whl.zip]
 [2024-05-27 02:15:00] INFO root fetch - main [MainThread]: End processing [tdrpa.tdcore]: success
 [2024-05-27 02:15:00] INFO root fetch - main [MainThread]: Store serial: [23388953]
+[2024-05-27 02:17:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23388953]
+[2024-05-27 02:17:10] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-27 02:17:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdktf-tf-module-stack
+[2024-05-27 02:17:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rxd
+[2024-05-27 02:17:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdklabs.cdk-hyperledger-fabric-network
+[2024-05-27 02:17:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: python-redux
+[2024-05-27 02:17:10] INFO root fetch - processPackages [rxd]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-27 02:17:10] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: New version: [0.8.99] Old Version: [0.8.98]
+[2024-05-27 02:17:10] INFO root fetch - processPackages [rxd]: Downloading https://files.pythonhosted.org/packages/d0/c4/5d2d29e8f61c6f41d2fdb77a6508cf4cd247f55858b36f33418d6544f071/rxd-0.0.4.tar.gz
+[2024-05-27 02:17:10] INFO root fetch - processPackages [python-redux]: New version: [0.9.9a0] Old Version: [0.9.9]
+[2024-05-27 02:17:10] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: Downloading https://files.pythonhosted.org/packages/9b/c8/ddb4d2575b42b36bf1ebf5daccec9c3c53a9ac9cadaeffb66bed93dc3bab/cdklabs.cdk-hyperledger-fabric-network-0.8.98.tar.gz
+[2024-05-27 02:17:10] INFO root fetch - processPackages [cdktf-tf-module-stack]: New version: [5.0.9] Old Version: [5.0.8]
+[2024-05-27 02:17:10] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: Downloading https://files.pythonhosted.org/packages/56/40/cbf52f4213018f2d82f0aad0f2fa90e69c2923704c1905bd7e090d3accf2/cdklabs.cdk-hyperledger-fabric-network-0.8.99.tar.gz
+[2024-05-27 02:17:10] INFO root fetch - processPackages [cdktf-tf-module-stack]: Downloading https://files.pythonhosted.org/packages/c1/d6/bcdb03cd6a1d878e00460831e6347159681b80373ee2f77adf41661e8719/cdktf-tf-module-stack-5.0.8.tar.gz
+[2024-05-27 02:17:10] INFO root fetch - processPackages [python-redux]: Downloading https://files.pythonhosted.org/packages/25/f6/7f30f318faa9b9b4ed3d5b4517bc78ba60a0a3853efcecbfb8f1093f06f8/python_redux-0.9.9.tar.gz
+[2024-05-27 02:17:10] INFO root fetch - processPackages [rxd]: Downloading https://files.pythonhosted.org/packages/d2/14/59584506421bc20cbcf2215bdf088d85d55df0bf99dbf49684891283321f/rxd-0.0.5.tar.gz
+[2024-05-27 02:17:10] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: executing diffoscope
+[2024-05-27 02:17:10] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.cdk-hyperledger-fabric-network-0.8.98.tar.gz tmp/cdklabs.cdk-hyperledger-fabric-network-0.8.99.tar.gz --markdown 20240527/c/cdklabs.cdk-hyperledger-fabric-network/0.8.98-0.8.99/README.md --exclude *.pyd
+[2024-05-27 02:17:11] INFO root fetch - processPackages [rxd]: executing diffoscope
+[2024-05-27 02:17:11] INFO root fetch - processPackages [rxd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rxd-0.0.4.tar.gz tmp/rxd-0.0.5.tar.gz --markdown 20240527/r/rxd/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-27 02:17:11] INFO root fetch - processPackages [cdktf-tf-module-stack]: Downloading https://files.pythonhosted.org/packages/af/b7/75603d995d5224ba49ee11765e757fab2ecf9e2a28e00a542ad9d8669ba4/cdktf-tf-module-stack-5.0.9.tar.gz
+[2024-05-27 02:17:11] INFO root fetch - processPackages [python-redux]: Downloading https://files.pythonhosted.org/packages/78/88/2425c5253a8005201b5b26b38481ea8784a32bea175f334a08082da43388/python_redux-0.9.9a0.tar.gz
+[2024-05-27 02:17:11] INFO root fetch - processPackages [python-redux]: executing diffoscope
+[2024-05-27 02:17:11] INFO root fetch - processPackages [python-redux]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_redux-0.9.9.tar.gz tmp/python_redux-0.9.9a0.tar.gz --markdown 20240527/p/python-redux/0.9.9-0.9.9a0/README.md --exclude *.pyd
+[2024-05-27 02:17:11] INFO root fetch - processPackages [cdktf-tf-module-stack]: executing diffoscope
+[2024-05-27 02:17:11] INFO root fetch - processPackages [cdktf-tf-module-stack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-tf-module-stack-5.0.8.tar.gz tmp/cdktf-tf-module-stack-5.0.9.tar.gz --markdown 20240527/c/cdktf-tf-module-stack/5.0.8-5.0.9/README.md --exclude *.pyd
+[2024-05-27 02:17:11] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-hyperledger-fabric-network-0.8.98.tar.gz]
+[2024-05-27 02:17:11] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-hyperledger-fabric-network-0.8.99.tar.gz]
+[2024-05-27 02:17:11] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-hyperledger-fabric-network]: success
+[2024-05-27 02:17:11] INFO root fetch - processPackages [rxd]: Remove: archive file [/home/abi/fetcher/tmp/rxd-0.0.4.tar.gz]
+[2024-05-27 02:17:11] INFO root fetch - processPackages [rxd]: Remove: archive file [/home/abi/fetcher/tmp/rxd-0.0.5.tar.gz]
+[2024-05-27 02:17:11] INFO root fetch - main [MainThread]: End processing [rxd]: success
+[2024-05-27 02:17:11] INFO root fetch - processPackages [python-redux]: Remove: archive file [/home/abi/fetcher/tmp/python_redux-0.9.9.tar.gz]
+[2024-05-27 02:17:11] INFO root fetch - processPackages [python-redux]: Remove: archive file [/home/abi/fetcher/tmp/python_redux-0.9.9a0.tar.gz]
+[2024-05-27 02:17:11] INFO root fetch - main [MainThread]: End processing [python-redux]: success
+[2024-05-27 02:17:11] INFO root fetch - processPackages [cdktf-tf-module-stack]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-tf-module-stack-5.0.8.tar.gz]
+[2024-05-27 02:17:11] INFO root fetch - processPackages [cdktf-tf-module-stack]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-tf-module-stack-5.0.9.tar.gz]
+[2024-05-27 02:17:11] INFO root fetch - main [MainThread]: End processing [cdktf-tf-module-stack]: success
+[2024-05-27 02:17:11] INFO root fetch - main [MainThread]: Store serial: [23388979]
