@@ -18277,3 +18277,54 @@ EOFError: EOF read where object expected
 [2024-05-27 16:13:33] INFO root fetch - processPackages [dspy-ai]: Remove: archive file [/home/abi/fetcher/tmp/dspy_ai-2.5.0rc1.tar.gz]
 [2024-05-27 16:13:33] INFO root fetch - main [MainThread]: End processing [dspy-ai]: success
 [2024-05-27 16:13:33] INFO root fetch - main [MainThread]: Store serial: [23396834]
+[2024-05-27 16:15:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23396834]
+[2024-05-27 16:15:41] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-27 16:15:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spanishconjugator
+[2024-05-27 16:15:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yeref
+[2024-05-27 16:15:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: class-cache
+[2024-05-27 16:15:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ETH-GTD-cli
+[2024-05-27 16:15:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: spanishconjugator
+[2024-05-27 16:15:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cryptoadvance.specter
+[2024-05-27 16:15:42] INFO root fetch - processPackages [ETH-GTD-cli]: New version: [0.0.90] Old Version: [0.0.89]
+[2024-05-27 16:15:42] INFO root fetch - processPackages [cryptoadvance.specter]: New version: [2.0.5rc5] Old Version: [2.0.4rc7]
+[2024-05-27 16:15:42] INFO root fetch - processPackages [class-cache]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-05-27 16:15:42] INFO root fetch - processPackages [yeref]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-27 16:15:42] INFO root fetch - processPackages [class-cache]: Downloading https://files.pythonhosted.org/packages/93/8c/625a079353f8d83e34efc96936a6b355b99c9f83b8d337d1a471362d7edb/class_cache-0.1.0.tar.gz
+[2024-05-27 16:15:42] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/ec/cb/204e6fbe233bbb61cf29c1b491e8c638c8a843edc47fb4e1d8cc8c26608c/yeref-0.9.8.tar.gz
+[2024-05-27 16:15:42] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2024-05-27 16:15:42] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2024-05-27 16:15:42] INFO root fetch - processPackages [cryptoadvance.specter]: Downloading https://files.pythonhosted.org/packages/0d/15/521ff6c7e0dfb3d2954ee0b75015c7b776073d299f1005faf5eace0d7ca9/cryptoadvance.specter-2.0.4rc7.tar.gz
+[2024-05-27 16:15:42] INFO root fetch - processPackages [ETH-GTD-cli]: Downloading https://files.pythonhosted.org/packages/de/8b/6b0596a5b0171292d40a862d0f3f54eaf54a7707856ed8bef99e8c1e4820/eth_gtd_cli-0.0.89.tar.gz
+[2024-05-27 16:15:42] WARNING root fetch - processPackages [cryptoadvance.specter]: Skipping package: exceeds size limit 13678104>=10485760
+[2024-05-27 16:15:42] INFO root fetch - main [MainThread]: End processing [cryptoadvance.specter] error
+[2024-05-27 16:15:42] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2024-05-27 16:15:42] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2024-05-27 16:15:42] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/01/13/0f11bb3dfb27aaf16ed48b0046f50ac65b1fde32662fbc314d53e2558b2d/yeref-0.9.9.tar.gz
+[2024-05-27 16:15:42] INFO root fetch - processPackages [class-cache]: Downloading https://files.pythonhosted.org/packages/01/e5/ba3d573a89388ec5a4f168f7ac661f774f252c9ce939bebccdbde204ff79/class_cache-0.2.0.tar.gz
+[2024-05-27 16:15:42] INFO root fetch - processPackages [ETH-GTD-cli]: Downloading https://files.pythonhosted.org/packages/00/18/fb20a53f42b0ac7a05c444ae84159cc63739b211eb8e92449369adc60119/eth_gtd_cli-0.0.90.tar.gz
+[2024-05-27 16:15:42] INFO root fetch - processPackages [class-cache]: executing diffoscope
+[2024-05-27 16:15:42] INFO root fetch - processPackages [class-cache]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/class_cache-0.1.0.tar.gz tmp/class_cache-0.2.0.tar.gz --markdown 20240527/c/class-cache/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-05-27 16:15:42] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2024-05-27 16:15:42] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.9.8.tar.gz tmp/yeref-0.9.9.tar.gz --markdown 20240527/y/yeref/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-27 16:15:42] INFO root fetch - processPackages [ETH-GTD-cli]: executing diffoscope
+[2024-05-27 16:15:42] INFO root fetch - processPackages [ETH-GTD-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eth_gtd_cli-0.0.89.tar.gz tmp/eth_gtd_cli-0.0.90.tar.gz --markdown 20240527/E/ETH-GTD-cli/0.0.89-0.0.90/README.md --exclude *.pyd
+[2024-05-27 16:15:42] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2024-05-27 16:15:42] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2024-05-27 16:15:43] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2024-05-27 16:15:43] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20240527/s/spanishconjugator/2.3.998-2.3.999/README.md --exclude *.pyd
+[2024-05-27 16:15:43] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2024-05-27 16:15:43] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20240527/s/spanishconjugator/2.3.998-2.3.999/README.md --exclude *.pyd
+[2024-05-27 16:15:43] INFO root fetch - processPackages [class-cache]: Remove: archive file [/home/abi/fetcher/tmp/class_cache-0.1.0.tar.gz]
+[2024-05-27 16:15:43] INFO root fetch - processPackages [class-cache]: Remove: archive file [/home/abi/fetcher/tmp/class_cache-0.2.0.tar.gz]
+[2024-05-27 16:15:43] INFO root fetch - main [MainThread]: End processing [class-cache]: success
+[2024-05-27 16:15:43] INFO root fetch - processPackages [ETH-GTD-cli]: Remove: archive file [/home/abi/fetcher/tmp/eth_gtd_cli-0.0.89.tar.gz]
+[2024-05-27 16:15:43] INFO root fetch - processPackages [ETH-GTD-cli]: Remove: archive file [/home/abi/fetcher/tmp/eth_gtd_cli-0.0.90.tar.gz]
+[2024-05-27 16:15:43] INFO root fetch - main [MainThread]: End processing [ETH-GTD-cli]: success
+[2024-05-27 16:15:43] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.8.tar.gz]
+[2024-05-27 16:15:43] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.9.tar.gz]
+[2024-05-27 16:15:43] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2024-05-27 16:15:43] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2024-05-27 16:15:43] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2024-05-27 16:15:43] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2024-05-27 16:15:43] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2024-05-27 16:15:43] INFO root fetch - main [MainThread]: Store serial: [23396852]
