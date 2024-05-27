@@ -19508,3 +19508,39 @@ EOFError: EOF read where object expected
 [2024-05-27 16:55:21] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.9.tar.gz]
 [2024-05-27 16:55:21] INFO root fetch - main [MainThread]: End processing [yeref]: success
 [2024-05-27 16:55:21] INFO root fetch - main [MainThread]: Store serial: [23397309]
+[2024-05-27 16:57:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23397309]
+[2024-05-27 16:57:30] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-27 16:57:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: idcn
+[2024-05-27 16:57:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: quickQrLib
+[2024-05-27 16:57:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dicio-py
+[2024-05-27 16:57:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: btrview
+[2024-05-27 16:57:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pip2deb
+[2024-05-27 16:57:30] INFO root fetch - processPackages [dicio-py]: New version: [2.2] Old Version: [2.1]
+[2024-05-27 16:57:30] INFO root fetch - processPackages [pip2deb]: New version: [1.8] Old Version: [1.7]
+[2024-05-27 16:57:30] INFO root fetch - processPackages [dicio-py]: Downloading https://files.pythonhosted.org/packages/9c/4c/36cbb72f15268bfef073f3e40224c70fea3366eb95a144a35f031e4ba245/dicio_py-2.1.tar.gz
+[2024-05-27 16:57:30] INFO root fetch - processPackages [pip2deb]: Downloading https://files.pythonhosted.org/packages/8c/c0/1a789ca9c454219ae2e6e361a10984e7032f8e97a5db6936f5a3b31287ec/pip2deb-1.7.tar.gz
+[2024-05-27 16:57:30] WARNING root fetch - processPackages [idcn]: Skipping, unable to determine old version
+[2024-05-27 16:57:30] INFO root fetch - main [MainThread]: End processing [idcn] error
+[2024-05-27 16:57:30] WARNING root fetch - processPackages [quickQrLib]: Skipping, unable to determine old version
+[2024-05-27 16:57:30] INFO root fetch - main [MainThread]: End processing [quickQrLib] error
+[2024-05-27 16:57:30] INFO root fetch - processPackages [btrview]: New version: [0.7.2] Old Version: [0.7.1]
+[2024-05-27 16:57:30] INFO root fetch - processPackages [btrview]: Downloading https://files.pythonhosted.org/packages/7e/7d/bb7d2b30069e88a635c4e0cac03689364519e35125d54f4a4faf5618ebb5/btrview-0.7.1.tar.gz
+[2024-05-27 16:57:30] INFO root fetch - processPackages [dicio-py]: Downloading https://files.pythonhosted.org/packages/8c/d3/a68badfe601aca0246435c46cf699e9276465fa800f3d39b8680f5066520/dicio_py-2.2.tar.gz
+[2024-05-27 16:57:30] INFO root fetch - processPackages [pip2deb]: Downloading https://files.pythonhosted.org/packages/99/fb/d96f84a6984ad96a7f234425be5b137192f5bd59a62a0f85db20b8239202/pip2deb-1.8.tar.gz
+[2024-05-27 16:57:31] INFO root fetch - processPackages [dicio-py]: executing diffoscope
+[2024-05-27 16:57:31] INFO root fetch - processPackages [dicio-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dicio_py-2.1.tar.gz tmp/dicio_py-2.2.tar.gz --markdown 20240527/d/dicio-py/2.1-2.2/README.md --exclude *.pyd
+[2024-05-27 16:57:31] INFO root fetch - processPackages [pip2deb]: executing diffoscope
+[2024-05-27 16:57:31] INFO root fetch - processPackages [pip2deb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pip2deb-1.7.tar.gz tmp/pip2deb-1.8.tar.gz --markdown 20240527/p/pip2deb/1.7-1.8/README.md --exclude *.pyd
+[2024-05-27 16:57:31] INFO root fetch - processPackages [btrview]: Downloading https://files.pythonhosted.org/packages/f1/e7/9465180d798414412c003d09eaa54a32706c10d3bc46091f65c844d34066/btrview-0.7.2.tar.gz
+[2024-05-27 16:57:31] INFO root fetch - processPackages [btrview]: executing diffoscope
+[2024-05-27 16:57:31] INFO root fetch - processPackages [btrview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/btrview-0.7.1.tar.gz tmp/btrview-0.7.2.tar.gz --markdown 20240527/b/btrview/0.7.1-0.7.2/README.md --exclude *.pyd
+[2024-05-27 16:57:31] INFO root fetch - processPackages [dicio-py]: Remove: archive file [/home/abi/fetcher/tmp/dicio_py-2.1.tar.gz]
+[2024-05-27 16:57:31] INFO root fetch - processPackages [dicio-py]: Remove: archive file [/home/abi/fetcher/tmp/dicio_py-2.2.tar.gz]
+[2024-05-27 16:57:31] INFO root fetch - main [MainThread]: End processing [dicio-py]: success
+[2024-05-27 16:57:31] INFO root fetch - processPackages [pip2deb]: Remove: archive file [/home/abi/fetcher/tmp/pip2deb-1.7.tar.gz]
+[2024-05-27 16:57:31] INFO root fetch - processPackages [pip2deb]: Remove: archive file [/home/abi/fetcher/tmp/pip2deb-1.8.tar.gz]
+[2024-05-27 16:57:31] INFO root fetch - main [MainThread]: End processing [pip2deb]: success
+[2024-05-27 16:57:32] INFO root fetch - processPackages [btrview]: Remove: archive file [/home/abi/fetcher/tmp/btrview-0.7.1.tar.gz]
+[2024-05-27 16:57:32] INFO root fetch - processPackages [btrview]: Remove: archive file [/home/abi/fetcher/tmp/btrview-0.7.2.tar.gz]
+[2024-05-27 16:57:32] INFO root fetch - main [MainThread]: End processing [btrview]: success
+[2024-05-27 16:57:32] INFO root fetch - main [MainThread]: Store serial: [23397334]
