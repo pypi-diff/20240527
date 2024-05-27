@@ -6211,3 +6211,11 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 07:26:00] INFO root fetch - processPackages [imfacesnap]: Remove: archive file [/home/abi/fetcher/tmp/imfacesnap-0.0.0.4.tar.gz]
 [2024-05-27 07:26:00] INFO root fetch - main [MainThread]: End processing [imfacesnap]: success
 [2024-05-27 07:26:00] INFO root fetch - main [MainThread]: Store serial: [23390888]
+[2024-05-27 07:28:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23390888]
+[2024-05-27 07:28:10] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-27 07:28:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: metadrive-simulator-py3-12
+[2024-05-27 07:28:10] INFO root fetch - processPackages [metadrive-simulator-py3-12]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-05-27 07:28:10] INFO root fetch - processPackages [metadrive-simulator-py3-12]: Downloading https://files.pythonhosted.org/packages/0e/fb/5c6cfffc58f8a6c162a76167135328ce2fe5816f9447ace4b7366d001815/metadrive_simulator_py3_12-0.2.0.tar.gz
+[2024-05-27 07:28:10] WARNING root fetch - processPackages [metadrive-simulator-py3-12]: Skipping package: exceeds size limit 54210013>=10485760
+[2024-05-27 07:28:10] INFO root fetch - main [MainThread]: End processing [metadrive-simulator-py3-12] error
+[2024-05-27 07:28:10] INFO root fetch - main [MainThread]: Store serial: [23390890]
