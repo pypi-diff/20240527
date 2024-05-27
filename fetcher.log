@@ -19137,3 +19137,81 @@ EOFError: EOF read where object expected
 [2024-05-27 16:41:22] INFO root fetch - processPackages [netbluemind4]: Remove: archive file [/home/abi/fetcher/tmp/netbluemind4-4.9.3581.tar.gz]
 [2024-05-27 16:41:22] INFO root fetch - main [MainThread]: End processing [netbluemind4]: success
 [2024-05-27 16:41:22] INFO root fetch - main [MainThread]: Store serial: [23397165]
+[2024-05-27 16:43:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23397165]
+[2024-05-27 16:43:31] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-27 16:43:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: simular-evm
+[2024-05-27 16:43:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-smartbase-admin
+[2024-05-27 16:43:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: akshare
+[2024-05-27 16:43:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qoa4ml
+[2024-05-27 16:43:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: stigg-api-client
+[2024-05-27 16:43:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: BarteSDK
+[2024-05-27 16:43:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: diamond-hpc
+[2024-05-27 16:43:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bus-user
+[2024-05-27 16:43:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: stigg-api-client-v2
+[2024-05-27 16:43:31] INFO root fetch - processPackages [BarteSDK]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-27 16:43:31] INFO root fetch - processPackages [django-smartbase-admin]: New version: [0.2.9] Old Version: [0.2.7]
+[2024-05-27 16:43:31] INFO root fetch - processPackages [qoa4ml]: New version: [0.2.0] Old Version: [0.1.9]
+[2024-05-27 16:43:31] INFO root fetch - processPackages [stigg-api-client]: New version: [1.98.1] Old Version: [1.98.0]
+[2024-05-27 16:43:31] INFO root fetch - processPackages [BarteSDK]: Downloading https://files.pythonhosted.org/packages/1c/24/f265a111f10a855a327643e87273d1f3ba56190ad02e0175f3b5b6319e4c/bartesdk-0.1.8.tar.gz
+[2024-05-27 16:43:31] INFO root fetch - processPackages [stigg-api-client-v2]: New version: [1.98.1] Old Version: [1.98.0]
+[2024-05-27 16:43:31] INFO root fetch - processPackages [akshare]: New version: [1.9.99] Old Version: [1.9.98]
+[2024-05-27 16:43:31] INFO root fetch - processPackages [simular-evm]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-05-27 16:43:31] WARNING root fetch - processPackages [diamond-hpc]: Skipping, unable to determine old version
+[2024-05-27 16:43:31] INFO root fetch - main [MainThread]: End processing [diamond-hpc] error
+[2024-05-27 16:43:31] INFO root fetch - processPackages [bus-user]: New version: [0.3.0] Old Version: [0.2.9]
+[2024-05-27 16:43:31] INFO root fetch - processPackages [stigg-api-client-v2]: Downloading https://files.pythonhosted.org/packages/9e/ad/1fefc56e33c405d4aa0b5a382414f77d27efc7861a1cedce255c72c8f7d7/stigg_api_client_v2-1.98.0.tar.gz
+[2024-05-27 16:43:31] INFO root fetch - processPackages [django-smartbase-admin]: Downloading https://files.pythonhosted.org/packages/4c/b9/c32d7019547d76c2c6c1b8ea747b942212105b1c88767762bab1ac62f415/django_smartbase_admin-0.2.7.tar.gz
+[2024-05-27 16:43:31] INFO root fetch - processPackages [stigg-api-client]: Downloading https://files.pythonhosted.org/packages/98/38/1422eb2135687adff8e0844dc4afcdcdd3c44140b3b89335819f7a678037/stigg_api_client-1.98.0.tar.gz
+[2024-05-27 16:43:31] INFO root fetch - processPackages [qoa4ml]: Downloading https://files.pythonhosted.org/packages/c3/df/b71177aada41849b60a21e46cb0dfab148123f789faea90222361a74528c/qoa4ml-0.1.9.tar.gz
+[2024-05-27 16:43:31] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/ec/a4/f1c21d8fbb349e15f0bf76d32a496003bcff9b66215f81b940337a510e36/akshare-1.9.98.tar.gz
+[2024-05-27 16:43:32] INFO root fetch - processPackages [BarteSDK]: Downloading https://files.pythonhosted.org/packages/15/ee/a85c9e9d9f84f12e1c3ab4801827286e3ad5588e1683d13c5130caaa29f2/bartesdk-0.1.9.tar.gz
+[2024-05-27 16:43:32] INFO root fetch - processPackages [simular-evm]: Downloading https://files.pythonhosted.org/packages/75/5d/df119f8971d4ec67247aabf6683594568b70541de7b6f76ca8ae87f9899d/simular_evm-0.2.2.tar.gz
+[2024-05-27 16:43:32] INFO root fetch - processPackages [stigg-api-client-v2]: Downloading https://files.pythonhosted.org/packages/e4/6e/6806296621be882a70042a1d47ba321aad0c99c69b0e1a5f16346a41b4b5/stigg_api_client_v2-1.98.1.tar.gz
+[2024-05-27 16:43:32] INFO root fetch - processPackages [stigg-api-client]: Downloading https://files.pythonhosted.org/packages/da/d2/6b7a0c4e4205896d09042773fe56913ad646e6493900cc11613eabb26e05/stigg_api_client-1.98.1.tar.gz
+[2024-05-27 16:43:32] INFO root fetch - processPackages [bus-user]: Downloading https://files.pythonhosted.org/packages/a6/26/ff8307b4b7506dd979c15253fc3dff9cc01826c3f9f32a859b6437baa699/bus_user-0.2.9.tar.gz
+[2024-05-27 16:43:32] INFO root fetch - processPackages [BarteSDK]: executing diffoscope
+[2024-05-27 16:43:32] INFO root fetch - processPackages [BarteSDK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bartesdk-0.1.8.tar.gz tmp/bartesdk-0.1.9.tar.gz --markdown 20240527/B/BarteSDK/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-27 16:43:32] INFO root fetch - processPackages [qoa4ml]: Downloading https://files.pythonhosted.org/packages/90/e2/c9e00de2035d51595356c9cf5b8bfda02830645ba7adcd5091dc46779c60/qoa4ml-0.2.0.tar.gz
+[2024-05-27 16:43:32] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/53/e8/f58e96016752567ca09f3f67abdc7e935d0afa919aded528d50590ed9170/akshare-1.9.99.tar.gz
+[2024-05-27 16:43:32] INFO root fetch - processPackages [django-smartbase-admin]: Downloading https://files.pythonhosted.org/packages/63/1e/301c376a330a21311919a45d9762d7c6c5d2090546a3b0d3b0e36db1c986/django_smartbase_admin-0.2.9.tar.gz
+[2024-05-27 16:43:32] INFO root fetch - processPackages [stigg-api-client]: executing diffoscope
+[2024-05-27 16:43:32] INFO root fetch - processPackages [stigg-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stigg_api_client-1.98.0.tar.gz tmp/stigg_api_client-1.98.1.tar.gz --markdown 20240527/s/stigg-api-client/1.98.0-1.98.1/README.md --exclude *.pyd
+[2024-05-27 16:43:32] INFO root fetch - processPackages [stigg-api-client-v2]: executing diffoscope
+[2024-05-27 16:43:32] INFO root fetch - processPackages [stigg-api-client-v2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stigg_api_client_v2-1.98.0.tar.gz tmp/stigg_api_client_v2-1.98.1.tar.gz --markdown 20240527/s/stigg-api-client-v2/1.98.0-1.98.1/README.md --exclude *.pyd
+[2024-05-27 16:43:32] INFO root fetch - processPackages [simular-evm]: Downloading https://files.pythonhosted.org/packages/dd/7f/f420781b73c5e2302151703c8f7455b77aabd55f3d799b25a623ce0d8a3c/simular_evm-0.2.3.tar.gz
+[2024-05-27 16:43:32] INFO root fetch - processPackages [qoa4ml]: executing diffoscope
+[2024-05-27 16:43:32] INFO root fetch - processPackages [qoa4ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qoa4ml-0.1.9.tar.gz tmp/qoa4ml-0.2.0.tar.gz --markdown 20240527/q/qoa4ml/0.1.9-0.2.0/README.md --exclude *.pyd
+[2024-05-27 16:43:32] INFO root fetch - processPackages [bus-user]: Downloading https://files.pythonhosted.org/packages/f2/3b/8d32da1ddaee223b463c9388b7525d65ff3b890c0054440644d158180d9f/bus_user-0.3.0.tar.gz
+[2024-05-27 16:43:32] INFO root fetch - processPackages [akshare]: executing diffoscope
+[2024-05-27 16:43:32] INFO root fetch - processPackages [akshare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akshare-1.9.98.tar.gz tmp/akshare-1.9.99.tar.gz --markdown 20240527/a/akshare/1.9.98-1.9.99/README.md --exclude *.pyd
+[2024-05-27 16:43:32] INFO root fetch - processPackages [simular-evm]: executing diffoscope
+[2024-05-27 16:43:32] INFO root fetch - processPackages [simular-evm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simular_evm-0.2.2.tar.gz tmp/simular_evm-0.2.3.tar.gz --markdown 20240527/s/simular-evm/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-05-27 16:43:32] INFO root fetch - processPackages [django-smartbase-admin]: executing diffoscope
+[2024-05-27 16:43:32] INFO root fetch - processPackages [django-smartbase-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_smartbase_admin-0.2.7.tar.gz tmp/django_smartbase_admin-0.2.9.tar.gz --markdown 20240527/d/django-smartbase-admin/0.2.7-0.2.9/README.md --exclude *.pyd
+[2024-05-27 16:43:32] INFO root fetch - processPackages [bus-user]: executing diffoscope
+[2024-05-27 16:43:32] INFO root fetch - processPackages [bus-user]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bus_user-0.2.9.tar.gz tmp/bus_user-0.3.0.tar.gz --markdown 20240527/b/bus-user/0.2.9-0.3.0/README.md --exclude *.pyd
+[2024-05-27 16:43:32] INFO root fetch - processPackages [BarteSDK]: Remove: archive file [/home/abi/fetcher/tmp/bartesdk-0.1.8.tar.gz]
+[2024-05-27 16:43:32] INFO root fetch - processPackages [BarteSDK]: Remove: archive file [/home/abi/fetcher/tmp/bartesdk-0.1.9.tar.gz]
+[2024-05-27 16:43:32] INFO root fetch - main [MainThread]: End processing [BarteSDK]: success
+[2024-05-27 16:43:33] INFO root fetch - processPackages [stigg-api-client]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client-1.98.0.tar.gz]
+[2024-05-27 16:43:33] INFO root fetch - processPackages [stigg-api-client]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client-1.98.1.tar.gz]
+[2024-05-27 16:43:33] INFO root fetch - main [MainThread]: End processing [stigg-api-client]: success
+[2024-05-27 16:43:33] INFO root fetch - processPackages [qoa4ml]: Remove: archive file [/home/abi/fetcher/tmp/qoa4ml-0.1.9.tar.gz]
+[2024-05-27 16:43:33] INFO root fetch - processPackages [qoa4ml]: Remove: archive file [/home/abi/fetcher/tmp/qoa4ml-0.2.0.tar.gz]
+[2024-05-27 16:43:33] INFO root fetch - main [MainThread]: End processing [qoa4ml]: success
+[2024-05-27 16:43:33] INFO root fetch - processPackages [bus-user]: Remove: archive file [/home/abi/fetcher/tmp/bus_user-0.2.9.tar.gz]
+[2024-05-27 16:43:33] INFO root fetch - processPackages [bus-user]: Remove: archive file [/home/abi/fetcher/tmp/bus_user-0.3.0.tar.gz]
+[2024-05-27 16:43:33] INFO root fetch - main [MainThread]: End processing [bus-user]: success
+[2024-05-27 16:43:33] INFO root fetch - processPackages [simular-evm]: Remove: archive file [/home/abi/fetcher/tmp/simular_evm-0.2.2.tar.gz]
+[2024-05-27 16:43:33] INFO root fetch - processPackages [simular-evm]: Remove: archive file [/home/abi/fetcher/tmp/simular_evm-0.2.3.tar.gz]
+[2024-05-27 16:43:33] INFO root fetch - main [MainThread]: End processing [simular-evm]: success
+[2024-05-27 16:43:33] INFO root fetch - processPackages [stigg-api-client-v2]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client_v2-1.98.0.tar.gz]
+[2024-05-27 16:43:33] INFO root fetch - processPackages [stigg-api-client-v2]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client_v2-1.98.1.tar.gz]
+[2024-05-27 16:43:33] INFO root fetch - main [MainThread]: End processing [stigg-api-client-v2]: success
+[2024-05-27 16:43:35] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.98.tar.gz]
+[2024-05-27 16:43:35] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.99.tar.gz]
+[2024-05-27 16:43:35] INFO root fetch - main [MainThread]: End processing [akshare]: success
+[2024-05-27 16:43:37] INFO root fetch - processPackages [django-smartbase-admin]: Remove: archive file [/home/abi/fetcher/tmp/django_smartbase_admin-0.2.7.tar.gz]
+[2024-05-27 16:43:37] INFO root fetch - processPackages [django-smartbase-admin]: Remove: archive file [/home/abi/fetcher/tmp/django_smartbase_admin-0.2.9.tar.gz]
+[2024-05-27 16:43:37] INFO root fetch - main [MainThread]: End processing [django-smartbase-admin]: success
+[2024-05-27 16:43:37] INFO root fetch - main [MainThread]: Store serial: [23397211]
