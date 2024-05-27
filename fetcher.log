@@ -7846,3 +7846,57 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 09:13:05] INFO root fetch - processPackages [django-modeltranslation]: Remove: archive file [/home/abi/fetcher/tmp/django-modeltranslation-0.9.1.tar.gz]
 [2024-05-27 09:13:05] INFO root fetch - main [MainThread]: End processing [django-modeltranslation]: success
 [2024-05-27 09:13:05] INFO root fetch - main [MainThread]: Store serial: [23391793]
+[2024-05-27 09:15:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23391793]
+[2024-05-27 09:15:13] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-27 09:15:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: redhat-qe-cloud-tools
+[2024-05-27 09:15:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pwned-passwords-django
+[2024-05-27 09:15:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dytools
+[2024-05-27 09:15:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nutritious
+[2024-05-27 09:15:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: conflict-rpa
+[2024-05-27 09:15:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fyle-accounting-mappings
+[2024-05-27 09:15:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: openshift-cli-installer
+[2024-05-27 09:15:14] WARNING root fetch - processPackages [nutritious]: Skipping, unable to determine old version
+[2024-05-27 09:15:14] INFO root fetch - main [MainThread]: End processing [nutritious] error
+[2024-05-27 09:15:14] INFO root fetch - processPackages [redhat-qe-cloud-tools]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-27 09:15:14] INFO root fetch - processPackages [conflict-rpa]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-27 09:15:14] INFO root fetch - processPackages [fyle-accounting-mappings]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-27 09:15:14] INFO root fetch - processPackages [redhat-qe-cloud-tools]: Downloading https://files.pythonhosted.org/packages/bb/ba/b006d094180ea2c9d36260eb23821d2bdf0bc3e11192b77282a510ac39ee/redhat_qe_cloud_tools-1.0.8.tar.gz
+[2024-05-27 09:15:14] INFO root fetch - processPackages [conflict-rpa]: Downloading https://files.pythonhosted.org/packages/fd/14/6edde25ff7c00b4f2c307bff6eb49ed56da88cf40f3aa998c2cb262bb172/conflict_rpa-0.0.8.tar.gz
+[2024-05-27 09:15:14] INFO root fetch - processPackages [pwned-passwords-django]: New version: [5.0.0] Old Version: [2.1]
+[2024-05-27 09:15:14] WARNING root fetch - processPackages [dytools]: Skipping, unable to determine old version
+[2024-05-27 09:15:14] INFO root fetch - main [MainThread]: End processing [dytools] error
+[2024-05-27 09:15:14] INFO root fetch - processPackages [openshift-cli-installer]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-05-27 09:15:14] INFO root fetch - processPackages [pwned-passwords-django]: Downloading https://files.pythonhosted.org/packages/a6/4b/6bc8dafb24154935ddae31225c45fe189cdd03ba7fdeeab21a81c1ad541f/pwned-passwords-django-2.1.tar.gz
+[2024-05-27 09:15:14] INFO root fetch - processPackages [redhat-qe-cloud-tools]: Downloading https://files.pythonhosted.org/packages/73/ee/78f15b2144832b2da8cfd67c1d7f49253a5bbeabe351e94adf1af190017c/redhat_qe_cloud_tools-1.0.9.tar.gz
+[2024-05-27 09:15:14] INFO root fetch - processPackages [fyle-accounting-mappings]: Downloading https://files.pythonhosted.org/packages/ee/e4/584f8a92de035d96a9702ffb19955efc4d93d5610034bbfaa3eb3e345586/fyle-accounting-mappings-1.8.0.tar.gz
+[2024-05-27 09:15:14] INFO root fetch - processPackages [openshift-cli-installer]: Downloading https://files.pythonhosted.org/packages/93/ea/081916b4f7f911ee0b4d2373be0df43c7c020915e4dc0daddae9d0c85d23/openshift_cli_installer-2.0.8.tar.gz
+[2024-05-27 09:15:14] INFO root fetch - processPackages [conflict-rpa]: Downloading https://files.pythonhosted.org/packages/6f/24/760f5d2b758553e4e2028ca3e4d369965d1a66e67fc0621a30a7ffd217b8/conflict_rpa-0.0.9.tar.gz
+[2024-05-27 09:15:14] INFO root fetch - processPackages [redhat-qe-cloud-tools]: executing diffoscope
+[2024-05-27 09:15:14] INFO root fetch - processPackages [redhat-qe-cloud-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redhat_qe_cloud_tools-1.0.8.tar.gz tmp/redhat_qe_cloud_tools-1.0.9.tar.gz --markdown 20240527/r/redhat-qe-cloud-tools/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-27 09:15:14] INFO root fetch - processPackages [conflict-rpa]: executing diffoscope
+[2024-05-27 09:15:14] INFO root fetch - processPackages [conflict-rpa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/conflict_rpa-0.0.8.tar.gz tmp/conflict_rpa-0.0.9.tar.gz --markdown 20240527/c/conflict-rpa/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-27 09:15:14] INFO root fetch - processPackages [pwned-passwords-django]: Downloading https://files.pythonhosted.org/packages/72/17/0521b336ebf51a663fb677d3f6522af0ee1ea8cc05c85ec88f317a6f9a2a/pwned_passwords_django-5.0.0.tar.gz
+[2024-05-27 09:15:14] INFO root fetch - processPackages [fyle-accounting-mappings]: Downloading https://files.pythonhosted.org/packages/0e/69/e0030f5b6d0b91631cfdb65f832ec00fda7e938ac982a3a43b6587639e62/fyle-accounting-mappings-1.9.0.tar.gz
+[2024-05-27 09:15:14] INFO root fetch - processPackages [pwned-passwords-django]: executing diffoscope
+[2024-05-27 09:15:14] INFO root fetch - processPackages [pwned-passwords-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pwned-passwords-django-2.1.tar.gz tmp/pwned_passwords_django-5.0.0.tar.gz --markdown 20240527/p/pwned-passwords-django/2.1-5.0.0/README.md --exclude *.pyd
+[2024-05-27 09:15:14] INFO root fetch - processPackages [openshift-cli-installer]: Downloading https://files.pythonhosted.org/packages/2e/36/23bd27005a72d5bc87d2d81bd55477f2c4cbdee088189ef184dea2fb149c/openshift_cli_installer-2.0.9.tar.gz
+[2024-05-27 09:15:14] INFO root fetch - processPackages [fyle-accounting-mappings]: executing diffoscope
+[2024-05-27 09:15:14] INFO root fetch - processPackages [fyle-accounting-mappings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fyle-accounting-mappings-1.8.0.tar.gz tmp/fyle-accounting-mappings-1.9.0.tar.gz --markdown 20240527/f/fyle-accounting-mappings/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-05-27 09:15:14] INFO root fetch - processPackages [openshift-cli-installer]: executing diffoscope
+[2024-05-27 09:15:14] INFO root fetch - processPackages [openshift-cli-installer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openshift_cli_installer-2.0.8.tar.gz tmp/openshift_cli_installer-2.0.9.tar.gz --markdown 20240527/o/openshift-cli-installer/2.0.8-2.0.9/README.md --exclude *.pyd
+[2024-05-27 09:15:15] INFO root fetch - processPackages [redhat-qe-cloud-tools]: Remove: archive file [/home/abi/fetcher/tmp/redhat_qe_cloud_tools-1.0.8.tar.gz]
+[2024-05-27 09:15:15] INFO root fetch - processPackages [redhat-qe-cloud-tools]: Remove: archive file [/home/abi/fetcher/tmp/redhat_qe_cloud_tools-1.0.9.tar.gz]
+[2024-05-27 09:15:15] INFO root fetch - main [MainThread]: End processing [redhat-qe-cloud-tools]: success
+[2024-05-27 09:15:15] INFO root fetch - processPackages [conflict-rpa]: Remove: archive file [/home/abi/fetcher/tmp/conflict_rpa-0.0.8.tar.gz]
+[2024-05-27 09:15:15] INFO root fetch - processPackages [conflict-rpa]: Remove: archive file [/home/abi/fetcher/tmp/conflict_rpa-0.0.9.tar.gz]
+[2024-05-27 09:15:15] INFO root fetch - main [MainThread]: End processing [conflict-rpa]: success
+[2024-05-27 09:15:15] INFO root fetch - processPackages [pwned-passwords-django]: Remove: archive file [/home/abi/fetcher/tmp/pwned-passwords-django-2.1.tar.gz]
+[2024-05-27 09:15:15] INFO root fetch - processPackages [pwned-passwords-django]: Remove: archive file [/home/abi/fetcher/tmp/pwned_passwords_django-5.0.0.tar.gz]
+[2024-05-27 09:15:15] INFO root fetch - main [MainThread]: End processing [pwned-passwords-django]: success
+[2024-05-27 09:15:15] INFO root fetch - processPackages [fyle-accounting-mappings]: Remove: archive file [/home/abi/fetcher/tmp/fyle-accounting-mappings-1.8.0.tar.gz]
+[2024-05-27 09:15:15] INFO root fetch - processPackages [fyle-accounting-mappings]: Remove: archive file [/home/abi/fetcher/tmp/fyle-accounting-mappings-1.9.0.tar.gz]
+[2024-05-27 09:15:15] INFO root fetch - main [MainThread]: End processing [fyle-accounting-mappings]: success
+[2024-05-27 09:15:15] INFO root fetch - processPackages [openshift-cli-installer]: Remove: archive file [/home/abi/fetcher/tmp/openshift_cli_installer-2.0.8.tar.gz]
+[2024-05-27 09:15:15] INFO root fetch - processPackages [openshift-cli-installer]: Remove: archive file [/home/abi/fetcher/tmp/openshift_cli_installer-2.0.9.tar.gz]
+[2024-05-27 09:15:15] INFO root fetch - main [MainThread]: End processing [openshift-cli-installer]: success
+[2024-05-27 09:15:15] INFO root fetch - main [MainThread]: Store serial: [23391815]
