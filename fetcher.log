@@ -3063,3 +3063,63 @@
 [2024-05-27 03:49:17] INFO root fetch - main [MainThread]: End processing [protoc-polyglot]: success
 [2024-05-27 03:49:17] INFO root fetch - main [MainThread]: End processing [protoc-polyglot]: success
 [2024-05-27 03:49:17] INFO root fetch - main [MainThread]: Store serial: [23389561]
+[2024-05-27 03:51:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23389561]
+[2024-05-27 03:51:25] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-27 03:51:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: requeue
+[2024-05-27 03:51:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: protoc-polyglot
+[2024-05-27 03:51:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: apeboiy
+[2024-05-27 03:51:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: torch-onnx
+[2024-05-27 03:51:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sasuke-quiz
+[2024-05-27 03:51:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: grid2demand
+[2024-05-27 03:51:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: geocif
+[2024-05-27 03:51:25] INFO root fetch - processPackages [apeboiy]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-27 03:51:25] INFO root fetch - processPackages [protoc-polyglot]: New version: [0.0.1.post2] Old Version: [0.0.1.post1]
+[2024-05-27 03:51:25] INFO root fetch - processPackages [torch-onnx]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-27 03:51:25] INFO root fetch - processPackages [geocif]: New version: [0.1.30] Old Version: [0.1.29]
+[2024-05-27 03:51:25] INFO root fetch - processPackages [grid2demand]: New version: [0.4.6] Old Version: [0.4.5]
+[2024-05-27 03:51:25] INFO root fetch - processPackages [requeue]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-05-27 03:51:26] WARNING root fetch - processPackages [sasuke-quiz]: Skipping, unable to determine old version
+[2024-05-27 03:51:26] INFO root fetch - main [MainThread]: End processing [sasuke-quiz] error
+[2024-05-27 03:51:26] INFO root fetch - processPackages [protoc-polyglot]: Downloading https://files.pythonhosted.org/packages/ee/a9/95b78b0302bd098ba6af704bca2a45421742662d4db36fb6ded3ced34f0f/protoc_polyglot-0.0.1.post1-py3-none-any.whl
+[2024-05-27 03:51:26] INFO root fetch - processPackages [apeboiy]: Downloading https://files.pythonhosted.org/packages/2c/d1/13ae5c5ceb0c97a91d946e1dd5fc329b3f384b59630ad259ab7ebe72713d/apeboiy-0.0.8.tar.gz
+[2024-05-27 03:51:26] INFO root fetch - processPackages [geocif]: Downloading https://files.pythonhosted.org/packages/ff/7f/f38712cc056fa0ac8d850b1aaa80aad25870648e60fdfeaf23f76a96f593/geocif-0.1.29.tar.gz
+[2024-05-27 03:51:26] INFO root fetch - processPackages [torch-onnx]: Downloading https://files.pythonhosted.org/packages/75/bc/b5458199ef85501314a47cd2d9f2cc3637650f55e29ea811e8f3ad3258dc/torch_onnx-0.0.1.tar.gz
+[2024-05-27 03:51:26] INFO root fetch - processPackages [requeue]: Downloading https://files.pythonhosted.org/packages/33/7e/f5744b51892f00e026799d89dac2420255cbdd539eb90376d5024f3f66e6/requeue-0.3.0.tar.gz
+[2024-05-27 03:51:26] INFO root fetch - processPackages [grid2demand]: Downloading https://files.pythonhosted.org/packages/b5/37/88f0dd606e3cac531b5322fcdfc79815b0ecb5d680b94970ad91ddca3858/grid2demand-0.4.5.tar.gz
+[2024-05-27 03:51:26] INFO root fetch - processPackages [protoc-polyglot]: Downloading https://files.pythonhosted.org/packages/3d/13/b74e50a2dfe500088ce057119d49777dd50bd1fa5e87f613752d2b1552bb/protoc_polyglot-0.0.1.post2-py3-none-any.whl
+[2024-05-27 03:51:26] INFO root fetch - processPackages [apeboiy]: Downloading https://files.pythonhosted.org/packages/04/42/a8230541f443842d5b00d865f7079650b8c865bda89a3de4ebc4010d0579/apeboiy-0.0.9.tar.gz
+[2024-05-27 03:51:26] INFO root fetch - processPackages [geocif]: Downloading https://files.pythonhosted.org/packages/4d/86/b2311608e590eaa0d86033768e1722c83686d1bd7dc925aaa526ac40fea6/geocif-0.1.30.tar.gz
+[2024-05-27 03:51:26] INFO root fetch - processPackages [protoc-polyglot]: executing diffoscope
+[2024-05-27 03:51:26] INFO root fetch - processPackages [protoc-polyglot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/protoc_polyglot-0.0.1.post1-py3-none-any.whl.zip tmp/protoc_polyglot-0.0.1.post2-py3-none-any.whl.zip --markdown 20240527/p/protoc-polyglot/0.0.1.post1-0.0.1.post2/README.md --exclude *.pyd
+[2024-05-27 03:51:26] INFO root fetch - processPackages [apeboiy]: executing diffoscope
+[2024-05-27 03:51:26] INFO root fetch - processPackages [apeboiy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apeboiy-0.0.8.tar.gz tmp/apeboiy-0.0.9.tar.gz --markdown 20240527/a/apeboiy/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-27 03:51:26] INFO root fetch - processPackages [geocif]: executing diffoscope
+[2024-05-27 03:51:26] INFO root fetch - processPackages [geocif]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geocif-0.1.29.tar.gz tmp/geocif-0.1.30.tar.gz --markdown 20240527/g/geocif/0.1.29-0.1.30/README.md --exclude *.pyd
+[2024-05-27 03:51:26] INFO root fetch - processPackages [torch-onnx]: Downloading https://files.pythonhosted.org/packages/a9/c8/44757fd123e50b43c6d4221ef772e76ab3d87756f4c4a5ac1a359d8ab888/torch_onnx-0.0.2.tar.gz
+[2024-05-27 03:51:26] INFO root fetch - processPackages [grid2demand]: Downloading https://files.pythonhosted.org/packages/ca/b8/3587f0bb1e58b16fcceb40862d58999220e2b0397b658540c00aba6b29a8/grid2demand-0.4.6.tar.gz
+[2024-05-27 03:51:26] INFO root fetch - processPackages [torch-onnx]: executing diffoscope
+[2024-05-27 03:51:26] INFO root fetch - processPackages [torch-onnx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_onnx-0.0.1.tar.gz tmp/torch_onnx-0.0.2.tar.gz --markdown 20240527/t/torch-onnx/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-27 03:51:26] INFO root fetch - processPackages [requeue]: Downloading https://files.pythonhosted.org/packages/8c/1e/a63eaf6cb96f7cc7775c6328e4ea985393b2c8df8475f60db6991af6f439/requeue-0.4.0.tar.gz
+[2024-05-27 03:51:26] INFO root fetch - processPackages [grid2demand]: executing diffoscope
+[2024-05-27 03:51:26] INFO root fetch - processPackages [grid2demand]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grid2demand-0.4.5.tar.gz tmp/grid2demand-0.4.6.tar.gz --markdown 20240527/g/grid2demand/0.4.5-0.4.6/README.md --exclude *.pyd
+[2024-05-27 03:51:26] INFO root fetch - processPackages [requeue]: executing diffoscope
+[2024-05-27 03:51:26] INFO root fetch - processPackages [requeue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/requeue-0.3.0.tar.gz tmp/requeue-0.4.0.tar.gz --markdown 20240527/r/requeue/0.3.0-0.4.0/README.md --exclude *.pyd
+[2024-05-27 03:51:27] INFO root fetch - processPackages [protoc-polyglot]: Remove: archive file [/home/abi/fetcher/tmp/protoc_polyglot-0.0.1.post1-py3-none-any.whl.zip]
+[2024-05-27 03:51:27] INFO root fetch - processPackages [protoc-polyglot]: Remove: archive file [/home/abi/fetcher/tmp/protoc_polyglot-0.0.1.post2-py3-none-any.whl.zip]
+[2024-05-27 03:51:27] INFO root fetch - main [MainThread]: End processing [protoc-polyglot]: success
+[2024-05-27 03:51:27] INFO root fetch - processPackages [apeboiy]: Remove: archive file [/home/abi/fetcher/tmp/apeboiy-0.0.8.tar.gz]
+[2024-05-27 03:51:27] INFO root fetch - processPackages [apeboiy]: Remove: archive file [/home/abi/fetcher/tmp/apeboiy-0.0.9.tar.gz]
+[2024-05-27 03:51:27] INFO root fetch - main [MainThread]: End processing [apeboiy]: success
+[2024-05-27 03:51:27] INFO root fetch - processPackages [torch-onnx]: Remove: archive file [/home/abi/fetcher/tmp/torch_onnx-0.0.1.tar.gz]
+[2024-05-27 03:51:27] INFO root fetch - processPackages [torch-onnx]: Remove: archive file [/home/abi/fetcher/tmp/torch_onnx-0.0.2.tar.gz]
+[2024-05-27 03:51:27] INFO root fetch - main [MainThread]: End processing [torch-onnx]: success
+[2024-05-27 03:51:27] INFO root fetch - processPackages [geocif]: Remove: archive file [/home/abi/fetcher/tmp/geocif-0.1.29.tar.gz]
+[2024-05-27 03:51:27] INFO root fetch - processPackages [geocif]: Remove: archive file [/home/abi/fetcher/tmp/geocif-0.1.30.tar.gz]
+[2024-05-27 03:51:27] INFO root fetch - main [MainThread]: End processing [geocif]: success
+[2024-05-27 03:51:27] INFO root fetch - processPackages [requeue]: Remove: archive file [/home/abi/fetcher/tmp/requeue-0.3.0.tar.gz]
+[2024-05-27 03:51:27] INFO root fetch - processPackages [requeue]: Remove: archive file [/home/abi/fetcher/tmp/requeue-0.4.0.tar.gz]
+[2024-05-27 03:51:27] INFO root fetch - main [MainThread]: End processing [requeue]: success
+[2024-05-27 03:51:27] INFO root fetch - processPackages [grid2demand]: Remove: archive file [/home/abi/fetcher/tmp/grid2demand-0.4.5.tar.gz]
+[2024-05-27 03:51:27] INFO root fetch - processPackages [grid2demand]: Remove: archive file [/home/abi/fetcher/tmp/grid2demand-0.4.6.tar.gz]
+[2024-05-27 03:51:27] INFO root fetch - main [MainThread]: End processing [grid2demand]: success
+[2024-05-27 03:51:27] INFO root fetch - main [MainThread]: Store serial: [23389582]
