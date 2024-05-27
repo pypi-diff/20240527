@@ -2005,3 +2005,15 @@
 [2024-05-27 02:32:32] INFO root fetch - processPackages [astropy-iers-data]: Remove: archive file [/home/abi/fetcher/tmp/astropy_iers_data-0.2024.5.6.0.29.28.tar.gz]
 [2024-05-27 02:32:32] INFO root fetch - main [MainThread]: End processing [astropy-iers-data]: success
 [2024-05-27 02:32:32] INFO root fetch - main [MainThread]: Store serial: [23389109]
+[2024-05-27 02:34:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23389109]
+[2024-05-27 02:34:40] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-27 02:34:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nadl
+[2024-05-27 02:34:40] INFO root fetch - processPackages [nadl]: New version: [1.4.7] Old Version: [1.4.6]
+[2024-05-27 02:34:40] INFO root fetch - processPackages [nadl]: Downloading https://files.pythonhosted.org/packages/64/8f/10c2b4fd0de6a18f5cf9e226125611b2fb8e3ff13f0e6774415ae014e26b/nadl-1.4.6.tar.gz
+[2024-05-27 02:34:41] INFO root fetch - processPackages [nadl]: Downloading https://files.pythonhosted.org/packages/fe/44/8658e8776d8e0c3eef46009c463fd63de9231ddc90b441b5690db6fbb2d4/nadl-1.4.7.tar.gz
+[2024-05-27 02:34:41] INFO root fetch - processPackages [nadl]: executing diffoscope
+[2024-05-27 02:34:41] INFO root fetch - processPackages [nadl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nadl-1.4.6.tar.gz tmp/nadl-1.4.7.tar.gz --markdown 20240527/n/nadl/1.4.6-1.4.7/README.md --exclude *.pyd
+[2024-05-27 02:34:41] INFO root fetch - processPackages [nadl]: Remove: archive file [/home/abi/fetcher/tmp/nadl-1.4.6.tar.gz]
+[2024-05-27 02:34:41] INFO root fetch - processPackages [nadl]: Remove: archive file [/home/abi/fetcher/tmp/nadl-1.4.7.tar.gz]
+[2024-05-27 02:34:41] INFO root fetch - main [MainThread]: End processing [nadl]: success
+[2024-05-27 02:34:41] INFO root fetch - main [MainThread]: Store serial: [23389112]
