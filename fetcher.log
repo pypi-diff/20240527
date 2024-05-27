@@ -14771,3 +14771,30 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 14:05:52] INFO root fetch - processPackages [bo4e]: Remove: archive file [/home/abi/fetcher/tmp/bo4e-202401.2.1.tar.gz]
 [2024-05-27 14:05:52] INFO root fetch - main [MainThread]: End processing [bo4e]: success
 [2024-05-27 14:05:52] INFO root fetch - main [MainThread]: Store serial: [23395219]
+[2024-05-27 14:07:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23395219]
+[2024-05-27 14:08:00] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-27 14:08:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: 3way
+[2024-05-27 14:08:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openbot-training-frontend
+[2024-05-27 14:08:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mentabotix
+[2024-05-27 14:08:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lyrebird
+[2024-05-27 14:08:00] WARNING root fetch - processPackages [3way]: Skipping, unable to determine old version
+[2024-05-27 14:08:00] INFO root fetch - main [MainThread]: End processing [3way] error
+[2024-05-27 14:08:00] INFO root fetch - processPackages [mentabotix]: New version: [0.1.5.7] Old Version: [0.1.5.6]
+[2024-05-27 14:08:00] INFO root fetch - processPackages [mentabotix]: Downloading https://files.pythonhosted.org/packages/48/65/b85a4398dfff8d77a0f7ea9711455282906690164c9e0f5bf5275a6496c0/mentabotix-0.1.5.6.tar.gz
+[2024-05-27 14:08:00] WARNING root fetch - processPackages [openbot-training-frontend]: Skipping, unable to determine old version
+[2024-05-27 14:08:00] INFO root fetch - main [MainThread]: End processing [openbot-training-frontend] error
+[2024-05-27 14:08:00] INFO root fetch - processPackages [lyrebird]: New version: [3.0.2] Old Version: [3.0.1]
+[2024-05-27 14:08:00] INFO root fetch - processPackages [lyrebird]: Downloading https://files.pythonhosted.org/packages/29/6d/6d1e123123ab3ac1acccecbcc4cd93b86bc5de5bf1e09eb698c4040d5100/lyrebird-3.0.1.tar.gz
+[2024-05-27 14:08:01] INFO root fetch - processPackages [mentabotix]: Downloading https://files.pythonhosted.org/packages/1e/8e/5370cd550c049f31e0d04cb4786381709dc5307729d16640c875e5a88a22/mentabotix-0.1.5.7.tar.gz
+[2024-05-27 14:08:01] INFO root fetch - processPackages [mentabotix]: executing diffoscope
+[2024-05-27 14:08:01] INFO root fetch - processPackages [mentabotix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mentabotix-0.1.5.6.tar.gz tmp/mentabotix-0.1.5.7.tar.gz --markdown 20240527/m/mentabotix/0.1.5.6-0.1.5.7/README.md --exclude *.pyd
+[2024-05-27 14:08:01] INFO root fetch - processPackages [lyrebird]: Downloading https://files.pythonhosted.org/packages/10/11/682f7786f1588948fe95a3a0387fe5ea456722e287f7a7b272061f9ab4fa/lyrebird-3.0.2.tar.gz
+[2024-05-27 14:08:01] INFO root fetch - processPackages [mentabotix]: Remove: archive file [/home/abi/fetcher/tmp/mentabotix-0.1.5.6.tar.gz]
+[2024-05-27 14:08:01] INFO root fetch - processPackages [mentabotix]: Remove: archive file [/home/abi/fetcher/tmp/mentabotix-0.1.5.7.tar.gz]
+[2024-05-27 14:08:01] INFO root fetch - main [MainThread]: End processing [mentabotix]: success
+[2024-05-27 14:08:02] INFO root fetch - processPackages [lyrebird]: executing diffoscope
+[2024-05-27 14:08:02] INFO root fetch - processPackages [lyrebird]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lyrebird-3.0.1.tar.gz tmp/lyrebird-3.0.2.tar.gz --markdown 20240527/l/lyrebird/3.0.1-3.0.2/README.md --exclude *.pyd
+[2024-05-27 14:08:04] INFO root fetch - processPackages [lyrebird]: Remove: archive file [/home/abi/fetcher/tmp/lyrebird-3.0.1.tar.gz]
+[2024-05-27 14:08:04] INFO root fetch - processPackages [lyrebird]: Remove: archive file [/home/abi/fetcher/tmp/lyrebird-3.0.2.tar.gz]
+[2024-05-27 14:08:04] INFO root fetch - main [MainThread]: End processing [lyrebird]: success
+[2024-05-27 14:08:04] INFO root fetch - main [MainThread]: Store serial: [23395233]
