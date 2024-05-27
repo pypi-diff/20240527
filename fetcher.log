@@ -19783,3 +19783,117 @@ EOFError: EOF read where object expected
 [2024-05-27 17:06:20] INFO root fetch - processPackages [cook-builder]: Remove: archive file [/home/abi/fetcher/tmp/cook_builder-0.1.5.tar.gz]
 [2024-05-27 17:06:20] INFO root fetch - main [MainThread]: End processing [cook-builder]: success
 [2024-05-27 17:06:20] INFO root fetch - main [MainThread]: Store serial: [23397452]
+[2024-05-27 17:08:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23397452]
+[2024-05-27 17:08:29] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-05-27 17:08:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ivylantern
+[2024-05-27 17:08:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: schwab-api-wrapper
+[2024-05-27 17:08:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdo-sdk-python
+[2024-05-27 17:08:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: discordreactive
+[2024-05-27 17:08:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ipex-llm
+[2024-05-27 17:08:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pymupdf4llm
+[2024-05-27 17:08:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rooms-shared-services
+[2024-05-27 17:08:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dicio-py
+[2024-05-27 17:08:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: few-shot-priming
+[2024-05-27 17:08:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: torchbringer
+[2024-05-27 17:08:29] INFO root fetch - processPackages [schwab-api-wrapper]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-27 17:08:29] WARNING root fetch - processPackages [discordreactive]: Skipping, unable to determine old version
+[2024-05-27 17:08:29] INFO root fetch - processPackages [discordreactive]: Start processing: discrete-optimization
+[2024-05-27 17:08:29] INFO root fetch - main [MainThread]: End processing [discordreactive] error
+[2024-05-27 17:08:29] INFO root fetch - processPackages [cdo-sdk-python]: New version: [1.0.99] Old Version: [1.0.98]
+[2024-05-27 17:08:29] INFO root fetch - processPackages [ipex-llm]: New version: [2.1.0b20240526] Old Version: [2.1.0b20240525]
+[2024-05-27 17:08:29] INFO root fetch - processPackages [pymupdf4llm]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-27 17:08:29] INFO root fetch - processPackages [torchbringer]: New version: [0.2.0] Old Version: [0.1.2]
+[2024-05-27 17:08:29] INFO root fetch - processPackages [ivylantern]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-27 17:08:29] INFO root fetch - processPackages [rooms-shared-services]: New version: [0.1.99] Old Version: [0.1.97]
+[2024-05-27 17:08:29] INFO root fetch - processPackages [few-shot-priming]: New version: [0.3.99] Old Version: [0.3.98]
+[2024-05-27 17:08:29] INFO root fetch - processPackages [dicio-py]: New version: [2.4] Old Version: [2.3]
+[2024-05-27 17:08:29] INFO root fetch - processPackages [schwab-api-wrapper]: Downloading https://files.pythonhosted.org/packages/72/66/54f9ce3af53a2c4310c45eb6ec2ca5bb77cc63e96df7eafe506b70d74a0d/schwab_api_wrapper-0.0.7.tar.gz
+[2024-05-27 17:08:29] INFO root fetch - processPackages [discrete-optimization]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-05-27 17:08:29] INFO root fetch - processPackages [cdo-sdk-python]: Downloading https://files.pythonhosted.org/packages/aa/54/d9c631d5702693a0921bbc1c50cad785f8fa75671cabdd662546a416a6b9/cdo-sdk-python-1.0.98.tar.gz
+[2024-05-27 17:08:29] INFO root fetch - processPackages [ipex-llm]: Downloading https://files.pythonhosted.org/packages/c9/75/d2432acc6c866cfce303a14ccefa4eb0205d0f8600393533e9786d4f5450/ipex_llm-2.1.0b20240525-py3-none-win_amd64.whl
+[2024-05-27 17:08:29] INFO root fetch - processPackages [ivylantern]: Downloading https://files.pythonhosted.org/packages/8e/78/1b4e6148164072ff0531c2a42276690311041f1d322d602a465939c4e966/ivylantern-0.2.1.tar.gz
+[2024-05-27 17:08:29] INFO root fetch - processPackages [pymupdf4llm]: Downloading https://files.pythonhosted.org/packages/dd/83/49b02d48a170ed040ebfaad905cd35055fadf43e99ad4d1fabc1111d96d1/pymupdf4llm-0.0.3.tar.gz
+[2024-05-27 17:08:29] INFO root fetch - processPackages [torchbringer]: Downloading https://files.pythonhosted.org/packages/7d/7c/4fe95afcdfd93f9eca602aba197b193246c1f14532b3f00dbd9924fc846a/torchbringer-0.1.2.tar.gz
+[2024-05-27 17:08:29] INFO root fetch - processPackages [rooms-shared-services]: Downloading https://files.pythonhosted.org/packages/16/6e/7a35dabe25e96c04274cbd9f69a6e68b4f36dc149e22451fb099f79d153e/rooms_shared_services-0.1.97.tar.gz
+[2024-05-27 17:08:29] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/eb/67/d15b11d0bfb57369fa16ba7f8c97cd3ddec8f771e6da8f11a3d819004b69/few_shot_priming-0.3.98-py3-none-any.whl
+[2024-05-27 17:08:29] INFO root fetch - processPackages [dicio-py]: Downloading https://files.pythonhosted.org/packages/5c/d6/23586600d70a1fa35769e71750e05c3fb569f29603ffe3f263c05ba76991/dicio_py-2.3.tar.gz
+[2024-05-27 17:08:29] INFO root fetch - processPackages [discrete-optimization]: Downloading https://files.pythonhosted.org/packages/66/54/9db2ac532561e655d91fad92be70fa75712e8bb6c380c28927e28279b675/discrete_optimization-0.3.0.tar.gz
+[2024-05-27 17:08:29] INFO root fetch - processPackages [schwab-api-wrapper]: Downloading https://files.pythonhosted.org/packages/c7/1d/1aa0d8b0a4e6a95b6e8dfb76f08a785def3ef2acee28a2e9d1262e1f61da/schwab_api_wrapper-0.0.8.tar.gz
+[2024-05-27 17:08:29] INFO root fetch - processPackages [cdo-sdk-python]: Downloading https://files.pythonhosted.org/packages/9b/76/7267c3f3ac308bacc9e809ed54663a42556e896ff4e2d73a469a15d3556a/cdo-sdk-python-1.0.99.tar.gz
+[2024-05-27 17:08:29] INFO root fetch - processPackages [rooms-shared-services]: Downloading https://files.pythonhosted.org/packages/69/d1/238526d33d58183ec73b9cb900a4aea16c13e7618af0394e6c55838d4395/rooms_shared_services-0.1.99.tar.gz
+[2024-05-27 17:08:30] INFO root fetch - processPackages [pymupdf4llm]: Downloading https://files.pythonhosted.org/packages/90/58/d52ffc1fec0987ea76eb0fd202479f5f981abf54b63e271195f1ba1b6b20/pymupdf4llm-0.0.4.tar.gz
+[2024-05-27 17:08:30] INFO root fetch - processPackages [torchbringer]: Downloading https://files.pythonhosted.org/packages/ca/73/613fa2637b40eb1485bbbad60dd37e3f262fc54cabd46ffb86dbbb567044/torchbringer-0.2.0.tar.gz
+[2024-05-27 17:08:30] INFO root fetch - processPackages [ivylantern]: Downloading https://files.pythonhosted.org/packages/7e/4b/64d37c33760471f7eecc8eae694a45700f61a09ac7d6edb1a9ff4f39a0e9/ivylantern-0.2.2.tar.gz
+[2024-05-27 17:08:30] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/ff/11/548f6e96803602e6431dc610d736d401b20fde986f85c35c8ad19a6d0958/few_shot_priming-0.3.99-py3-none-any.whl
+[2024-05-27 17:08:30] INFO root fetch - processPackages [schwab-api-wrapper]: executing diffoscope
+[2024-05-27 17:08:30] INFO root fetch - processPackages [schwab-api-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/schwab_api_wrapper-0.0.7.tar.gz tmp/schwab_api_wrapper-0.0.8.tar.gz --markdown 20240527/s/schwab-api-wrapper/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-27 17:08:30] INFO root fetch - processPackages [cdo-sdk-python]: executing diffoscope
+[2024-05-27 17:08:30] INFO root fetch - processPackages [cdo-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdo-sdk-python-1.0.98.tar.gz tmp/cdo-sdk-python-1.0.99.tar.gz --markdown 20240527/c/cdo-sdk-python/1.0.98-1.0.99/README.md --exclude *.pyd
+[2024-05-27 17:08:30] INFO root fetch - processPackages [pymupdf4llm]: executing diffoscope
+[2024-05-27 17:08:30] INFO root fetch - processPackages [rooms-shared-services]: executing diffoscope
+[2024-05-27 17:08:30] INFO root fetch - processPackages [pymupdf4llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymupdf4llm-0.0.3.tar.gz tmp/pymupdf4llm-0.0.4.tar.gz --markdown 20240527/p/pymupdf4llm/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-27 17:08:30] INFO root fetch - processPackages [dicio-py]: Downloading https://files.pythonhosted.org/packages/52/f7/8cff9675f9c67916016a8646caf81e4fd645b623700820a6b185f47b42ad/dicio_py-2.4.tar.gz
+[2024-05-27 17:08:30] INFO root fetch - processPackages [rooms-shared-services]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rooms_shared_services-0.1.97.tar.gz tmp/rooms_shared_services-0.1.99.tar.gz --markdown 20240527/r/rooms-shared-services/0.1.97-0.1.99/README.md --exclude *.pyd
+[2024-05-27 17:08:30] INFO root fetch - processPackages [torchbringer]: executing diffoscope
+[2024-05-27 17:08:30] INFO root fetch - processPackages [torchbringer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchbringer-0.1.2.tar.gz tmp/torchbringer-0.2.0.tar.gz --markdown 20240527/t/torchbringer/0.1.2-0.2.0/README.md --exclude *.pyd
+[2024-05-27 17:08:30] INFO root fetch - processPackages [ivylantern]: executing diffoscope
+[2024-05-27 17:08:30] INFO root fetch - processPackages [ivylantern]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ivylantern-0.2.1.tar.gz tmp/ivylantern-0.2.2.tar.gz --markdown 20240527/i/ivylantern/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-05-27 17:08:30] INFO root fetch - processPackages [ipex-llm]: Downloading https://files.pythonhosted.org/packages/b9/44/8274b8dee251277f10bffab3afe17e474b45fd793f7370f21bfa1ab4e3f6/ipex_llm-2.1.0b20240526-py3-none-win_amd64.whl
+[2024-05-27 17:08:30] INFO root fetch - processPackages [discrete-optimization]: Downloading https://files.pythonhosted.org/packages/8d/0e/a891fe57eec4a96ff1001169abef9d9ea9259d637a4bff7951b46cd02491/discrete_optimization-0.3.1.tar.gz
+[2024-05-27 17:08:30] INFO root fetch - processPackages [dicio-py]: executing diffoscope
+[2024-05-27 17:08:30] INFO root fetch - processPackages [dicio-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dicio_py-2.3.tar.gz tmp/dicio_py-2.4.tar.gz --markdown 20240527/d/dicio-py/2.3-2.4/README.md --exclude *.pyd
+[2024-05-27 17:08:30] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2024-05-27 17:08:30] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.3.98-py3-none-any.whl.zip tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip --markdown 20240527/f/few-shot-priming/0.3.98-0.3.99/README.md --exclude *.pyd
+[2024-05-27 17:08:30] INFO root fetch - processPackages [discrete-optimization]: executing diffoscope
+[2024-05-27 17:08:30] INFO root fetch - processPackages [discrete-optimization]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discrete_optimization-0.3.0.tar.gz tmp/discrete_optimization-0.3.1.tar.gz --markdown 20240527/d/discrete-optimization/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-05-27 17:08:30] INFO root fetch - processPackages [ipex-llm]: executing diffoscope
+[2024-05-27 17:08:30] INFO root fetch - processPackages [ipex-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipex_llm-2.1.0b20240525-py3-none-win_amd64.whl.zip tmp/ipex_llm-2.1.0b20240526-py3-none-win_amd64.whl.zip --markdown 20240527/i/ipex-llm/2.1.0b20240525-2.1.0b20240526/README.md --exclude *.pyd
+[2024-05-27 17:08:31] INFO root fetch - processPackages [schwab-api-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/schwab_api_wrapper-0.0.7.tar.gz]
+[2024-05-27 17:08:31] INFO root fetch - processPackages [schwab-api-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/schwab_api_wrapper-0.0.8.tar.gz]
+[2024-05-27 17:08:31] INFO root fetch - processPackages [schwab-api-wrapper]: Start processing: odoo14-addon-purchase-operating-unit
+[2024-05-27 17:08:31] INFO root fetch - main [MainThread]: End processing [schwab-api-wrapper]: success
+[2024-05-27 17:08:31] INFO root fetch - processPackages [torchbringer]: Remove: archive file [/home/abi/fetcher/tmp/torchbringer-0.1.2.tar.gz]
+[2024-05-27 17:08:31] INFO root fetch - processPackages [torchbringer]: Remove: archive file [/home/abi/fetcher/tmp/torchbringer-0.2.0.tar.gz]
+[2024-05-27 17:08:31] INFO root fetch - processPackages [torchbringer]: Start processing: pygentic
+[2024-05-27 17:08:31] INFO root fetch - main [MainThread]: End processing [torchbringer]: success
+[2024-05-27 17:08:31] INFO root fetch - processPackages [ivylantern]: Remove: archive file [/home/abi/fetcher/tmp/ivylantern-0.2.1.tar.gz]
+[2024-05-27 17:08:31] INFO root fetch - processPackages [ivylantern]: Remove: archive file [/home/abi/fetcher/tmp/ivylantern-0.2.2.tar.gz]
+[2024-05-27 17:08:31] INFO root fetch - main [MainThread]: End processing [ivylantern]: success
+[2024-05-27 17:08:31] INFO root fetch - processPackages [pymupdf4llm]: Remove: archive file [/home/abi/fetcher/tmp/pymupdf4llm-0.0.3.tar.gz]
+[2024-05-27 17:08:31] INFO root fetch - processPackages [pymupdf4llm]: Remove: archive file [/home/abi/fetcher/tmp/pymupdf4llm-0.0.4.tar.gz]
+[2024-05-27 17:08:31] INFO root fetch - main [MainThread]: End processing [pymupdf4llm]: success
+[2024-05-27 17:08:31] INFO root fetch - processPackages [odoo14-addon-purchase-operating-unit]: New version: [14.0.2.0.0] Old Version: [14.0.1.2.1.dev1]
+[2024-05-27 17:08:31] INFO root fetch - processPackages [dicio-py]: Remove: archive file [/home/abi/fetcher/tmp/dicio_py-2.3.tar.gz]
+[2024-05-27 17:08:31] INFO root fetch - processPackages [dicio-py]: Remove: archive file [/home/abi/fetcher/tmp/dicio_py-2.4.tar.gz]
+[2024-05-27 17:08:31] INFO root fetch - main [MainThread]: End processing [dicio-py]: success
+[2024-05-27 17:08:31] INFO root fetch - processPackages [pygentic]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-05-27 17:08:31] INFO root fetch - processPackages [rooms-shared-services]: Remove: archive file [/home/abi/fetcher/tmp/rooms_shared_services-0.1.97.tar.gz]
+[2024-05-27 17:08:31] INFO root fetch - processPackages [rooms-shared-services]: Remove: archive file [/home/abi/fetcher/tmp/rooms_shared_services-0.1.99.tar.gz]
+[2024-05-27 17:08:31] INFO root fetch - main [MainThread]: End processing [rooms-shared-services]: success
+[2024-05-27 17:08:31] INFO root fetch - processPackages [odoo14-addon-purchase-operating-unit]: Downloading https://files.pythonhosted.org/packages/44/78/c4ffa778e581d878600f65f5686ac1783366f9f755df4f44fdac625bcdff/odoo14_addon_purchase_operating_unit-14.0.1.2.1.dev1-py3-none-any.whl
+[2024-05-27 17:08:31] INFO root fetch - processPackages [pygentic]: Downloading https://files.pythonhosted.org/packages/0d/0a/6c22f48ca07ef49f19ef2afc778e1c9b268149a3bf89f9f01f52da34f37b/pygentic-0.2.2.tar.gz
+[2024-05-27 17:08:31] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.98-py3-none-any.whl.zip]
+[2024-05-27 17:08:31] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip]
+[2024-05-27 17:08:31] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2024-05-27 17:08:31] INFO root fetch - processPackages [odoo14-addon-purchase-operating-unit]: Downloading https://files.pythonhosted.org/packages/d7/2e/7ba7fc8a1fb1a0db1f10005fb135daaeaa233812aa6285e9ec84c84d4426/odoo14_addon_purchase_operating_unit-14.0.2.0.0-py3-none-any.whl
+[2024-05-27 17:08:31] INFO root fetch - processPackages [pygentic]: Downloading https://files.pythonhosted.org/packages/9c/a2/f112a1efddb7d35930c42d8973d485c31fbd67ac0b2a5d7582c77dde6b3c/pygentic-0.2.3.tar.gz
+[2024-05-27 17:08:32] INFO root fetch - processPackages [cdo-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/cdo-sdk-python-1.0.98.tar.gz]
+[2024-05-27 17:08:32] INFO root fetch - processPackages [cdo-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/cdo-sdk-python-1.0.99.tar.gz]
+[2024-05-27 17:08:32] INFO root fetch - main [MainThread]: End processing [cdo-sdk-python]: success
+[2024-05-27 17:08:32] INFO root fetch - processPackages [odoo14-addon-purchase-operating-unit]: executing diffoscope
+[2024-05-27 17:08:32] INFO root fetch - processPackages [odoo14-addon-purchase-operating-unit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_purchase_operating_unit-14.0.1.2.1.dev1-py3-none-any.whl.zip tmp/odoo14_addon_purchase_operating_unit-14.0.2.0.0-py3-none-any.whl.zip --markdown 20240527/o/odoo14-addon-purchase-operating-unit/14.0.1.2.1.dev1-14.0.2.0.0/README.md --exclude *.pyd
+[2024-05-27 17:08:32] INFO root fetch - processPackages [pygentic]: executing diffoscope
+[2024-05-27 17:08:32] INFO root fetch - processPackages [pygentic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygentic-0.2.2.tar.gz tmp/pygentic-0.2.3.tar.gz --markdown 20240527/p/pygentic/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-05-27 17:08:32] INFO root fetch - processPackages [pygentic]: Remove: archive file [/home/abi/fetcher/tmp/pygentic-0.2.2.tar.gz]
+[2024-05-27 17:08:32] INFO root fetch - processPackages [pygentic]: Remove: archive file [/home/abi/fetcher/tmp/pygentic-0.2.3.tar.gz]
+[2024-05-27 17:08:32] INFO root fetch - main [MainThread]: End processing [pygentic]: success
+[2024-05-27 17:08:32] INFO root fetch - processPackages [odoo14-addon-purchase-operating-unit]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_purchase_operating_unit-14.0.1.2.1.dev1-py3-none-any.whl.zip]
+[2024-05-27 17:08:32] INFO root fetch - processPackages [odoo14-addon-purchase-operating-unit]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_purchase_operating_unit-14.0.2.0.0-py3-none-any.whl.zip]
+[2024-05-27 17:08:32] INFO root fetch - main [MainThread]: End processing [odoo14-addon-purchase-operating-unit]: success
+[2024-05-27 17:08:33] INFO root fetch - processPackages [discrete-optimization]: Remove: archive file [/home/abi/fetcher/tmp/discrete_optimization-0.3.0.tar.gz]
+[2024-05-27 17:08:33] INFO root fetch - processPackages [discrete-optimization]: Remove: archive file [/home/abi/fetcher/tmp/discrete_optimization-0.3.1.tar.gz]
+[2024-05-27 17:08:33] INFO root fetch - main [MainThread]: End processing [discrete-optimization]: success
+[2024-05-27 17:08:58] INFO root fetch - processPackages [ipex-llm]: Remove: archive file [/home/abi/fetcher/tmp/ipex_llm-2.1.0b20240525-py3-none-win_amd64.whl.zip]
+[2024-05-27 17:08:58] INFO root fetch - processPackages [ipex-llm]: Remove: archive file [/home/abi/fetcher/tmp/ipex_llm-2.1.0b20240526-py3-none-win_amd64.whl.zip]
+[2024-05-27 17:08:58] INFO root fetch - main [MainThread]: End processing [ipex-llm]: success
+[2024-05-27 17:08:58] INFO root fetch - main [MainThread]: Store serial: [23397491]
