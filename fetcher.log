@@ -2092,3 +2092,51 @@
 [2024-05-27 02:43:25] INFO root fetch - processPackages [tabswitcher]: Remove: archive file [/home/abi/fetcher/tmp/tabswitcher-0.1.0.tar.gz]
 [2024-05-27 02:43:25] INFO root fetch - main [MainThread]: End processing [tabswitcher]: success
 [2024-05-27 02:43:25] INFO root fetch - main [MainThread]: Store serial: [23389149]
+[2024-05-27 02:45:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23389149]
+[2024-05-27 02:45:34] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-27 02:45:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: req-update
+[2024-05-27 02:45:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: poseutil
+[2024-05-27 02:45:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: eras
+[2024-05-27 02:45:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tfds-nightly
+[2024-05-27 02:45:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: codal-tsetmc
+[2024-05-27 02:45:34] INFO root fetch - processPackages [eras]: New version: [0.4.8] Old Version: [0.4.7]
+[2024-05-27 02:45:34] INFO root fetch - processPackages [tfds-nightly]: New version: [4.9.4.dev202405260044] Old Version: [4.9.4.dev202405250044]
+[2024-05-27 02:45:34] INFO root fetch - processPackages [eras]: Downloading https://files.pythonhosted.org/packages/82/e1/5438db8ccb650a5f3a74d4385d355f5b1f5f2398e348a139f13425ed82f2/eras-0.4.7.tar.gz
+[2024-05-27 02:45:34] INFO root fetch - processPackages [poseutil]: New version: [0.5.8] Old Version: [0.5.7]
+[2024-05-27 02:45:34] INFO root fetch - processPackages [req-update]: New version: [2.6.0] Old Version: [2.5.1]
+[2024-05-27 02:45:34] INFO root fetch - processPackages [codal-tsetmc]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-27 02:45:34] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/16/37/676c5cb8dcc71785432cbf1e8c9fbe60546bd306eac897d09dccd71e02c0/tfds-nightly-4.9.4.dev202405250044.tar.gz
+[2024-05-27 02:45:34] INFO root fetch - processPackages [poseutil]: Downloading https://files.pythonhosted.org/packages/59/1c/f0e1d21d47b3534e2ebc3320f76a7053309246054121c848d5b7fe6a1f68/poseutil-0.5.7.tar.gz
+[2024-05-27 02:45:34] INFO root fetch - processPackages [req-update]: Downloading https://files.pythonhosted.org/packages/f9/7a/b5375c468ba693f4dac97829bb5d2ce8869a664641ec3d303530347534af/req-update-2.5.1.tar.gz
+[2024-05-27 02:45:34] INFO root fetch - processPackages [eras]: Downloading https://files.pythonhosted.org/packages/aa/7c/4a0d448ceb3e5348a28df6be1221b75d3b98ff498ce829dc435c50e47a17/eras-0.4.8.tar.gz
+[2024-05-27 02:45:34] INFO root fetch - processPackages [codal-tsetmc]: Downloading https://files.pythonhosted.org/packages/b0/5f/de0e10b131066b07b977c76038d181ff4dab9963dda4d6779ac5f9a73b48/codal_tsetmc-0.0.7.tar.gz
+[2024-05-27 02:45:34] INFO root fetch - processPackages [eras]: executing diffoscope
+[2024-05-27 02:45:34] INFO root fetch - processPackages [eras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eras-0.4.7.tar.gz tmp/eras-0.4.8.tar.gz --markdown 20240527/e/eras/0.4.7-0.4.8/README.md --exclude *.pyd
+[2024-05-27 02:45:34] INFO root fetch - processPackages [poseutil]: Downloading https://files.pythonhosted.org/packages/ae/e5/7f8dfa26a4f25d3f2e0c9c093701838a4329fc6c7391e99796f59dc96be9/poseutil-0.5.8.tar.gz
+[2024-05-27 02:45:34] INFO root fetch - processPackages [req-update]: Downloading https://files.pythonhosted.org/packages/ae/5f/42e49ae7909578f5f79ce0c5916ed0b39f45a74a2e3149f72c4c2d533677/req_update-2.6.0.tar.gz
+[2024-05-27 02:45:35] INFO root fetch - processPackages [poseutil]: executing diffoscope
+[2024-05-27 02:45:35] INFO root fetch - processPackages [poseutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poseutil-0.5.7.tar.gz tmp/poseutil-0.5.8.tar.gz --markdown 20240527/p/poseutil/0.5.7-0.5.8/README.md --exclude *.pyd
+[2024-05-27 02:45:35] INFO root fetch - processPackages [req-update]: executing diffoscope
+[2024-05-27 02:45:35] INFO root fetch - processPackages [req-update]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/req-update-2.5.1.tar.gz tmp/req_update-2.6.0.tar.gz --markdown 20240527/r/req-update/2.5.1-2.6.0/README.md --exclude *.pyd
+[2024-05-27 02:45:35] INFO root fetch - processPackages [codal-tsetmc]: Downloading https://files.pythonhosted.org/packages/c7/2e/183999dff8fc975f04b02c8904bb4df5202989e28fb982756384f72d7b40/codal_tsetmc-0.0.8-py3-none-any.whl
+[2024-05-27 02:45:35] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/09/6c/c38ffa947b04302b023dbf700d00782c6d1ec3386282fd272fd25af301d8/tfds-nightly-4.9.4.dev202405260044.tar.gz
+[2024-05-27 02:45:35] INFO root fetch - processPackages [codal-tsetmc]: executing diffoscope
+[2024-05-27 02:45:35] INFO root fetch - processPackages [codal-tsetmc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codal_tsetmc-0.0.7.tar.gz tmp/codal_tsetmc-0.0.8-py3-none-any.whl.zip --markdown 20240527/c/codal-tsetmc/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-27 02:45:35] INFO root fetch - processPackages [tfds-nightly]: executing diffoscope
+[2024-05-27 02:45:35] INFO root fetch - processPackages [tfds-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfds-nightly-4.9.4.dev202405250044.tar.gz tmp/tfds-nightly-4.9.4.dev202405260044.tar.gz --markdown 20240527/t/tfds-nightly/4.9.4.dev202405250044-4.9.4.dev202405260044/README.md --exclude *.pyd
+[2024-05-27 02:45:35] INFO root fetch - processPackages [eras]: Remove: archive file [/home/abi/fetcher/tmp/eras-0.4.7.tar.gz]
+[2024-05-27 02:45:35] INFO root fetch - processPackages [eras]: Remove: archive file [/home/abi/fetcher/tmp/eras-0.4.8.tar.gz]
+[2024-05-27 02:45:35] INFO root fetch - main [MainThread]: End processing [eras]: success
+[2024-05-27 02:45:35] INFO root fetch - processPackages [poseutil]: Remove: archive file [/home/abi/fetcher/tmp/poseutil-0.5.7.tar.gz]
+[2024-05-27 02:45:35] INFO root fetch - processPackages [poseutil]: Remove: archive file [/home/abi/fetcher/tmp/poseutil-0.5.8.tar.gz]
+[2024-05-27 02:45:35] INFO root fetch - main [MainThread]: End processing [poseutil]: success
+[2024-05-27 02:45:35] INFO root fetch - processPackages [req-update]: Remove: archive file [/home/abi/fetcher/tmp/req-update-2.5.1.tar.gz]
+[2024-05-27 02:45:35] INFO root fetch - processPackages [req-update]: Remove: archive file [/home/abi/fetcher/tmp/req_update-2.6.0.tar.gz]
+[2024-05-27 02:45:35] INFO root fetch - main [MainThread]: End processing [req-update]: success
+[2024-05-27 02:45:35] INFO root fetch - processPackages [codal-tsetmc]: Remove: archive file [/home/abi/fetcher/tmp/codal_tsetmc-0.0.7.tar.gz]
+[2024-05-27 02:45:35] INFO root fetch - processPackages [codal-tsetmc]: Remove: archive file [/home/abi/fetcher/tmp/codal_tsetmc-0.0.8-py3-none-any.whl.zip]
+[2024-05-27 02:45:35] INFO root fetch - main [MainThread]: End processing [codal-tsetmc]: success
+[2024-05-27 02:45:44] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.4.dev202405250044.tar.gz]
+[2024-05-27 02:45:44] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.4.dev202405260044.tar.gz]
+[2024-05-27 02:45:44] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
+[2024-05-27 02:45:44] INFO root fetch - main [MainThread]: Store serial: [23389162]
