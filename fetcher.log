@@ -20058,3 +20058,60 @@ EOFError: EOF read where object expected
 [2024-05-27 17:15:32] INFO root fetch - processPackages [python-steam-api]: Remove: archive file [/home/abi/fetcher/tmp/python_steam_api-2.0.1.tar.gz]
 [2024-05-27 17:15:32] INFO root fetch - main [MainThread]: End processing [python-steam-api]: success
 [2024-05-27 17:15:32] INFO root fetch - main [MainThread]: Store serial: [23397550]
+[2024-05-27 17:17:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23397550]
+[2024-05-27 17:17:40] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-27 17:17:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rcplus_alloy_common
+[2024-05-27 17:17:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: boolgen
+[2024-05-27 17:17:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ezcoding
+[2024-05-27 17:17:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: few-shot-priming
+[2024-05-27 17:17:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: flamapy-fw
+[2024-05-27 17:17:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: BarteSDK
+[2024-05-27 17:17:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Gcs-file-dependency-monitor
+[2024-05-27 17:17:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: OpenGeodeWeb-Back
+[2024-05-27 17:17:40] INFO root fetch - processPackages [BarteSDK]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-27 17:17:40] INFO root fetch - processPackages [OpenGeodeWeb-Back]: New version: [4.2.0rc1] Old Version: [4.1.1]
+[2024-05-27 17:17:40] INFO root fetch - processPackages [few-shot-priming]: New version: [0.3.99] Old Version: [0.3.98]
+[2024-05-27 17:17:40] INFO root fetch - processPackages [rcplus_alloy_common]: New version: [5.1.0] Old Version: [5.0.0]
+[2024-05-27 17:17:40] INFO root fetch - processPackages [BarteSDK]: Downloading https://files.pythonhosted.org/packages/1c/24/f265a111f10a855a327643e87273d1f3ba56190ad02e0175f3b5b6319e4c/bartesdk-0.1.8.tar.gz
+[2024-05-27 17:17:40] WARNING root fetch - processPackages [ezcoding]: Skipping, unable to determine old version
+[2024-05-27 17:17:40] INFO root fetch - main [MainThread]: End processing [ezcoding] error
+[2024-05-27 17:17:40] WARNING root fetch - processPackages [Gcs-file-dependency-monitor]: Skipping, unable to determine old version
+[2024-05-27 17:17:40] INFO root fetch - processPackages [boolgen]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-05-27 17:17:40] INFO root fetch - main [MainThread]: End processing [Gcs-file-dependency-monitor] error
+[2024-05-27 17:17:40] INFO root fetch - processPackages [OpenGeodeWeb-Back]: Downloading https://files.pythonhosted.org/packages/8c/50/7272ffc61695f2eb2ffcf7ef864c2f8bce3577a2df4c0ad59f186540a4a0/opengeodeweb_back-4.1.1.tar.gz
+[2024-05-27 17:17:40] WARNING root fetch - processPackages [flamapy-fw]: Skipping, unable to determine old version
+[2024-05-27 17:17:40] INFO root fetch - main [MainThread]: End processing [flamapy-fw] error
+[2024-05-27 17:17:40] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/eb/67/d15b11d0bfb57369fa16ba7f8c97cd3ddec8f771e6da8f11a3d819004b69/few_shot_priming-0.3.98-py3-none-any.whl
+[2024-05-27 17:17:40] INFO root fetch - processPackages [rcplus_alloy_common]: Downloading https://files.pythonhosted.org/packages/82/f8/e0965ff50fe03ee2fdb37467003a6aead9293f7db491c67fb71ee81fa5d7/rcplus_alloy_common-5.0.0.tar.gz
+[2024-05-27 17:17:40] INFO root fetch - processPackages [boolgen]: Downloading https://files.pythonhosted.org/packages/25/22/787bceec8770adc4c8bb87489027b36d4000ab3d7691fcfd386ceb2105f6/boolgen-1.0.0.tar.gz
+[2024-05-27 17:17:41] INFO root fetch - processPackages [BarteSDK]: Downloading https://files.pythonhosted.org/packages/15/ee/a85c9e9d9f84f12e1c3ab4801827286e3ad5588e1683d13c5130caaa29f2/bartesdk-0.1.9.tar.gz
+[2024-05-27 17:17:41] INFO root fetch - processPackages [OpenGeodeWeb-Back]: Downloading https://files.pythonhosted.org/packages/01/fb/97978fa00642d68e2d84ebdaadd08fcad39099f5610959606f98698551d6/opengeodeweb_back-4.2.0rc1.tar.gz
+[2024-05-27 17:17:41] INFO root fetch - processPackages [BarteSDK]: executing diffoscope
+[2024-05-27 17:17:41] INFO root fetch - processPackages [BarteSDK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bartesdk-0.1.8.tar.gz tmp/bartesdk-0.1.9.tar.gz --markdown 20240527/B/BarteSDK/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-27 17:17:41] INFO root fetch - processPackages [OpenGeodeWeb-Back]: executing diffoscope
+[2024-05-27 17:17:41] INFO root fetch - processPackages [OpenGeodeWeb-Back]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opengeodeweb_back-4.1.1.tar.gz tmp/opengeodeweb_back-4.2.0rc1.tar.gz --markdown 20240527/O/OpenGeodeWeb-Back/4.1.1-4.2.0rc1/README.md --exclude *.pyd
+[2024-05-27 17:17:41] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/ff/11/548f6e96803602e6431dc610d736d401b20fde986f85c35c8ad19a6d0958/few_shot_priming-0.3.99-py3-none-any.whl
+[2024-05-27 17:17:41] INFO root fetch - processPackages [boolgen]: Downloading https://files.pythonhosted.org/packages/1b/45/61272a9f20cece652a3303ede1e18d1f7998ff76a82c7c09f6b5ae569527/boolgen-1.1.0.tar.gz
+[2024-05-27 17:17:41] INFO root fetch - processPackages [rcplus_alloy_common]: Downloading https://files.pythonhosted.org/packages/f8/72/1312e377524b747333ac568575e779c4c140acb7d538b9a048c3bd36d3d9/rcplus_alloy_common-5.1.0.tar.gz
+[2024-05-27 17:17:41] INFO root fetch - processPackages [boolgen]: executing diffoscope
+[2024-05-27 17:17:41] INFO root fetch - processPackages [boolgen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boolgen-1.0.0.tar.gz tmp/boolgen-1.1.0.tar.gz --markdown 20240527/b/boolgen/1.0.0-1.1.0/README.md --exclude *.pyd
+[2024-05-27 17:17:41] INFO root fetch - processPackages [rcplus_alloy_common]: executing diffoscope
+[2024-05-27 17:17:41] INFO root fetch - processPackages [rcplus_alloy_common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rcplus_alloy_common-5.0.0.tar.gz tmp/rcplus_alloy_common-5.1.0.tar.gz --markdown 20240527/r/rcplus_alloy_common/5.0.0-5.1.0/README.md --exclude *.pyd
+[2024-05-27 17:17:41] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2024-05-27 17:17:41] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.3.98-py3-none-any.whl.zip tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip --markdown 20240527/f/few-shot-priming/0.3.98-0.3.99/README.md --exclude *.pyd
+[2024-05-27 17:17:41] INFO root fetch - processPackages [BarteSDK]: Remove: archive file [/home/abi/fetcher/tmp/bartesdk-0.1.8.tar.gz]
+[2024-05-27 17:17:41] INFO root fetch - processPackages [BarteSDK]: Remove: archive file [/home/abi/fetcher/tmp/bartesdk-0.1.9.tar.gz]
+[2024-05-27 17:17:41] INFO root fetch - main [MainThread]: End processing [BarteSDK]: success
+[2024-05-27 17:17:41] INFO root fetch - processPackages [OpenGeodeWeb-Back]: Remove: archive file [/home/abi/fetcher/tmp/opengeodeweb_back-4.1.1.tar.gz]
+[2024-05-27 17:17:41] INFO root fetch - processPackages [OpenGeodeWeb-Back]: Remove: archive file [/home/abi/fetcher/tmp/opengeodeweb_back-4.2.0rc1.tar.gz]
+[2024-05-27 17:17:41] INFO root fetch - main [MainThread]: End processing [OpenGeodeWeb-Back]: success
+[2024-05-27 17:17:42] INFO root fetch - processPackages [rcplus_alloy_common]: Remove: archive file [/home/abi/fetcher/tmp/rcplus_alloy_common-5.0.0.tar.gz]
+[2024-05-27 17:17:42] INFO root fetch - processPackages [rcplus_alloy_common]: Remove: archive file [/home/abi/fetcher/tmp/rcplus_alloy_common-5.1.0.tar.gz]
+[2024-05-27 17:17:42] INFO root fetch - main [MainThread]: End processing [rcplus_alloy_common]: success
+[2024-05-27 17:17:42] INFO root fetch - processPackages [boolgen]: Remove: archive file [/home/abi/fetcher/tmp/boolgen-1.0.0.tar.gz]
+[2024-05-27 17:17:42] INFO root fetch - processPackages [boolgen]: Remove: archive file [/home/abi/fetcher/tmp/boolgen-1.1.0.tar.gz]
+[2024-05-27 17:17:42] INFO root fetch - main [MainThread]: End processing [boolgen]: success
+[2024-05-27 17:17:42] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.98-py3-none-any.whl.zip]
+[2024-05-27 17:17:42] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip]
+[2024-05-27 17:17:42] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2024-05-27 17:17:42] INFO root fetch - main [MainThread]: Store serial: [23397580]
