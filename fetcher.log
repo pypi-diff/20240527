@@ -2077,3 +2077,18 @@
 [2024-05-27 02:41:14] INFO root fetch - processPackages [makepyz]: Remove: archive file [/home/abi/fetcher/tmp/makepyz-0.0.1b25.tar.gz]
 [2024-05-27 02:41:14] INFO root fetch - main [MainThread]: End processing [makepyz]: success
 [2024-05-27 02:41:14] INFO root fetch - main [MainThread]: Store serial: [23389142]
+[2024-05-27 02:43:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23389142]
+[2024-05-27 02:43:24] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-27 02:43:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tabswitcher
+[2024-05-27 02:43:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: louvainsplit
+[2024-05-27 02:43:24] WARNING root fetch - processPackages [louvainsplit]: Skipping, unable to determine old version
+[2024-05-27 02:43:24] INFO root fetch - main [MainThread]: End processing [louvainsplit] error
+[2024-05-27 02:43:24] INFO root fetch - processPackages [tabswitcher]: New version: [0.1.0] Old Version: [0.0.8]
+[2024-05-27 02:43:24] INFO root fetch - processPackages [tabswitcher]: Downloading https://files.pythonhosted.org/packages/81/a9/3401facfe996959674b7d50054931eaeb0bf3086665b84654258cc7cc82e/tabswitcher-0.0.8.tar.gz
+[2024-05-27 02:43:24] INFO root fetch - processPackages [tabswitcher]: Downloading https://files.pythonhosted.org/packages/47/ea/051b5ccc67c7520f62bfd88108db1cbf7c6aed09b8d7a6286a547d178092/tabswitcher-0.1.0.tar.gz
+[2024-05-27 02:43:25] INFO root fetch - processPackages [tabswitcher]: executing diffoscope
+[2024-05-27 02:43:25] INFO root fetch - processPackages [tabswitcher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tabswitcher-0.0.8.tar.gz tmp/tabswitcher-0.1.0.tar.gz --markdown 20240527/t/tabswitcher/0.0.8-0.1.0/README.md --exclude *.pyd
+[2024-05-27 02:43:25] INFO root fetch - processPackages [tabswitcher]: Remove: archive file [/home/abi/fetcher/tmp/tabswitcher-0.0.8.tar.gz]
+[2024-05-27 02:43:25] INFO root fetch - processPackages [tabswitcher]: Remove: archive file [/home/abi/fetcher/tmp/tabswitcher-0.1.0.tar.gz]
+[2024-05-27 02:43:25] INFO root fetch - main [MainThread]: End processing [tabswitcher]: success
+[2024-05-27 02:43:25] INFO root fetch - main [MainThread]: Store serial: [23389149]
