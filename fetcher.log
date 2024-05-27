@@ -13897,3 +13897,41 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 13:23:43] INFO root fetch - processPackages [django-stubs]: Remove: archive file [/home/abi/fetcher/tmp/django_stubs-5.0.0.tar.gz]
 [2024-05-27 13:23:43] INFO root fetch - main [MainThread]: End processing [django-stubs]: success
 [2024-05-27 13:23:43] INFO root fetch - main [MainThread]: Store serial: [23394688]
+[2024-05-27 13:25:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23394688]
+[2024-05-27 13:25:53] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-27 13:25:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: proof-of-training
+[2024-05-27 13:25:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-debug-toolbar
+[2024-05-27 13:25:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bigdl-core-xe-21
+[2024-05-27 13:25:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: torchrl-nightly
+[2024-05-27 13:25:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: geomockimages
+[2024-05-27 13:25:53] INFO root fetch - processPackages [django-debug-toolbar]: New version: [4.4.2] Old Version: [4.4.1]
+[2024-05-27 13:25:53] INFO root fetch - processPackages [geomockimages]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-05-27 13:25:53] INFO root fetch - processPackages [django-debug-toolbar]: Downloading https://files.pythonhosted.org/packages/63/70/d7f951984f58c3de1b4e4f5d35fdb2e57e374e4a5c9d1ef95dd889d1c8a5/django_debug_toolbar-4.4.1.tar.gz
+[2024-05-27 13:25:53] WARNING root fetch - processPackages [proof-of-training]: Skipping, unable to determine old version
+[2024-05-27 13:25:53] INFO root fetch - main [MainThread]: End processing [proof-of-training] error
+[2024-05-27 13:25:53] INFO root fetch - processPackages [geomockimages]: Downloading https://files.pythonhosted.org/packages/f0/25/4fd51900c62327402e1b3556baa392890791d299804317a2568b288ec255/geomockimages-0.2.2.tar.gz
+[2024-05-27 13:25:53] INFO root fetch - processPackages [torchrl-nightly]: New version: [2024.5.9] Old Version: [2024.5.8]
+[2024-05-27 13:25:53] INFO root fetch - processPackages [bigdl-core-xe-21]: New version: [2.5.0b20240527] Old Version: [2.5.0b20240526]
+[2024-05-27 13:25:54] INFO root fetch - processPackages [django-debug-toolbar]: Downloading https://files.pythonhosted.org/packages/b8/f0/eaebe83568e7ba9537139d4bde978fa25173226cd30743585e48f5b8e6d6/django_debug_toolbar-4.4.2.tar.gz
+[2024-05-27 13:25:54] INFO root fetch - processPackages [bigdl-core-xe-21]: Downloading https://files.pythonhosted.org/packages/59/63/a0f181978b15966889066d711f758ae5d308215688fd5eb9dea2063fabe4/bigdl_core_xe_21-2.5.0b20240526-cp39-cp39-manylinux2010_x86_64.whl
+[2024-05-27 13:25:54] INFO root fetch - processPackages [torchrl-nightly]: Downloading https://files.pythonhosted.org/packages/a5/6d/9461214af24f1d24305421c7f45896fa740108e193fceb8f3145648e07e2/torchrl_nightly-2024.5.8-cp39-cp39-win_amd64.whl
+[2024-05-27 13:25:54] WARNING root fetch - processPackages [bigdl-core-xe-21]: Skipping package: exceeds size limit 99334693>=10485760
+[2024-05-27 13:25:54] INFO root fetch - main [MainThread]: End processing [bigdl-core-xe-21] error
+[2024-05-27 13:25:54] INFO root fetch - processPackages [geomockimages]: Downloading https://files.pythonhosted.org/packages/a9/af/622dad4e36f808c350f4c50b310f98c85854ddef2dc3f72b269be9e36d46/geomockimages-0.2.3.tar.gz
+[2024-05-27 13:25:54] INFO root fetch - processPackages [django-debug-toolbar]: executing diffoscope
+[2024-05-27 13:25:54] INFO root fetch - processPackages [django-debug-toolbar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_debug_toolbar-4.4.1.tar.gz tmp/django_debug_toolbar-4.4.2.tar.gz --markdown 20240527/d/django-debug-toolbar/4.4.1-4.4.2/README.md --exclude *.pyd
+[2024-05-27 13:25:54] INFO root fetch - processPackages [geomockimages]: executing diffoscope
+[2024-05-27 13:25:54] INFO root fetch - processPackages [geomockimages]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geomockimages-0.2.2.tar.gz tmp/geomockimages-0.2.3.tar.gz --markdown 20240527/g/geomockimages/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-05-27 13:25:54] INFO root fetch - processPackages [torchrl-nightly]: Downloading https://files.pythonhosted.org/packages/e9/e4/1d21a71adb0d6367cd81a5f47617cabf90f99ac96a421dda991f6aeefff2/torchrl_nightly-2024.5.9-cp39-cp39-win_amd64.whl
+[2024-05-27 13:25:54] INFO root fetch - processPackages [geomockimages]: Remove: archive file [/home/abi/fetcher/tmp/geomockimages-0.2.2.tar.gz]
+[2024-05-27 13:25:54] INFO root fetch - processPackages [geomockimages]: Remove: archive file [/home/abi/fetcher/tmp/geomockimages-0.2.3.tar.gz]
+[2024-05-27 13:25:54] INFO root fetch - main [MainThread]: End processing [geomockimages]: success
+[2024-05-27 13:25:54] INFO root fetch - processPackages [torchrl-nightly]: executing diffoscope
+[2024-05-27 13:25:54] INFO root fetch - processPackages [torchrl-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchrl_nightly-2024.5.8-cp39-cp39-win_amd64.whl.zip tmp/torchrl_nightly-2024.5.9-cp39-cp39-win_amd64.whl.zip --markdown 20240527/t/torchrl-nightly/2024.5.8-2024.5.9/README.md --exclude *.pyd
+[2024-05-27 13:25:55] INFO root fetch - processPackages [django-debug-toolbar]: Remove: archive file [/home/abi/fetcher/tmp/django_debug_toolbar-4.4.1.tar.gz]
+[2024-05-27 13:25:55] INFO root fetch - processPackages [django-debug-toolbar]: Remove: archive file [/home/abi/fetcher/tmp/django_debug_toolbar-4.4.2.tar.gz]
+[2024-05-27 13:25:55] INFO root fetch - main [MainThread]: End processing [django-debug-toolbar]: success
+[2024-05-27 13:25:55] INFO root fetch - processPackages [torchrl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrl_nightly-2024.5.8-cp39-cp39-win_amd64.whl.zip]
+[2024-05-27 13:25:55] INFO root fetch - processPackages [torchrl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrl_nightly-2024.5.9-cp39-cp39-win_amd64.whl.zip]
+[2024-05-27 13:25:55] INFO root fetch - main [MainThread]: End processing [torchrl-nightly]: success
+[2024-05-27 13:25:55] INFO root fetch - main [MainThread]: Store serial: [23394707]
