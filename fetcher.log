@@ -9891,3 +9891,42 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 10:49:56] INFO root fetch - processPackages [prophecy-libs]: Remove: archive file [/home/abi/fetcher/tmp/prophecy-libs-1.9.2.dev0.tar.gz]
 [2024-05-27 10:49:56] INFO root fetch - main [MainThread]: End processing [prophecy-libs]: success
 [2024-05-27 10:49:56] INFO root fetch - main [MainThread]: Store serial: [23392831]
+[2024-05-27 10:52:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23392831]
+[2024-05-27 10:52:04] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-27 10:52:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-customvueadmin
+[2024-05-27 10:52:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: imio.directory.core
+[2024-05-27 10:52:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: intersphinx-registry
+[2024-05-27 10:52:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: common-tools-ai-bnq
+[2024-05-27 10:52:04] INFO root fetch - processPackages [django-customvueadmin]: New version: [0.2.0] Old Version: [0.1.9]
+[2024-05-27 10:52:04] INFO root fetch - processPackages [common-tools-ai-bnq]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-05-27 10:52:04] INFO root fetch - processPackages [django-customvueadmin]: Downloading https://files.pythonhosted.org/packages/d8/b4/d8ed66d757c0e6f03e7cd5ee5b378818027ed3bcff5118e94ea6612ccdae/django-customvueadmin-0.1.9.tar.gz
+[2024-05-27 10:52:04] INFO root fetch - processPackages [imio.directory.core]: New version: [1.2.9] Old Version: [1.2.8]
+[2024-05-27 10:52:04] INFO root fetch - processPackages [intersphinx-registry]: New version: [0.2405.27] Old Version: [0.0.4]
+[2024-05-27 10:52:05] INFO root fetch - processPackages [common-tools-ai-bnq]: Downloading https://files.pythonhosted.org/packages/70/ec/5aca2294308ba9a8ab7277f092e5d63d1f1a81c88c2e8758b87aff7a094d/common-tools-ai-bnq-0.2.2.tar.gz
+[2024-05-27 10:52:05] INFO root fetch - processPackages [intersphinx-registry]: Downloading https://files.pythonhosted.org/packages/ff/03/1099c1b8f9d9d60ec58ffcc919666292a6fcbbf8043c29e2230cfed82199/intersphinx_registry-0.0.4.tar.gz
+[2024-05-27 10:52:05] INFO root fetch - processPackages [imio.directory.core]: Downloading https://files.pythonhosted.org/packages/b0/4a/446d18a1d2abda13227fa4e660b3d9452dfc59f7290f61108384942aa0a1/imio.directory.core-1.2.8.tar.gz
+[2024-05-27 10:52:05] INFO root fetch - processPackages [django-customvueadmin]: Downloading https://files.pythonhosted.org/packages/58/c7/0f2eb36cf9302772b1a173aa99b6af996f1d0325398a3855d20e2c83b2b0/django_customvueadmin-0.2.0.tar.gz
+[2024-05-27 10:52:05] INFO root fetch - processPackages [imio.directory.core]: Downloading https://files.pythonhosted.org/packages/1b/88/1a07e759becc6b850dffddb0bb3bb81417e08cef87191d8747c65a9cef85/imio.directory.core-1.2.9.tar.gz
+[2024-05-27 10:52:05] INFO root fetch - processPackages [common-tools-ai-bnq]: Downloading https://files.pythonhosted.org/packages/68/50/804b7d1d0604773d4bb924dd2a9d1b0e4d67cb0addb65272950fd867581a/common-tools-ai-bnq-0.2.3.tar.gz
+[2024-05-27 10:52:05] INFO root fetch - processPackages [imio.directory.core]: executing diffoscope
+[2024-05-27 10:52:05] INFO root fetch - processPackages [imio.directory.core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imio.directory.core-1.2.8.tar.gz tmp/imio.directory.core-1.2.9.tar.gz --markdown 20240527/i/imio.directory.core/1.2.8-1.2.9/README.md --exclude *.pyd
+[2024-05-27 10:52:05] INFO root fetch - processPackages [intersphinx-registry]: Downloading https://files.pythonhosted.org/packages/44/23/97e9fdd0457b5a187b3545a4448fa7f9df0d69be9e9e950101253fd1b71a/intersphinx_registry-0.2405.27.tar.gz
+[2024-05-27 10:52:05] INFO root fetch - processPackages [common-tools-ai-bnq]: executing diffoscope
+[2024-05-27 10:52:05] INFO root fetch - processPackages [common-tools-ai-bnq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/common-tools-ai-bnq-0.2.2.tar.gz tmp/common-tools-ai-bnq-0.2.3.tar.gz --markdown 20240527/c/common-tools-ai-bnq/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-05-27 10:52:05] INFO root fetch - processPackages [django-customvueadmin]: executing diffoscope
+[2024-05-27 10:52:05] INFO root fetch - processPackages [django-customvueadmin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-customvueadmin-0.1.9.tar.gz tmp/django_customvueadmin-0.2.0.tar.gz --markdown 20240527/d/django-customvueadmin/0.1.9-0.2.0/README.md --exclude *.pyd
+[2024-05-27 10:52:05] INFO root fetch - processPackages [intersphinx-registry]: executing diffoscope
+[2024-05-27 10:52:05] INFO root fetch - processPackages [intersphinx-registry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/intersphinx_registry-0.0.4.tar.gz tmp/intersphinx_registry-0.2405.27.tar.gz --markdown 20240527/i/intersphinx-registry/0.0.4-0.2405.27/README.md --exclude *.pyd
+[2024-05-27 10:52:06] INFO root fetch - processPackages [common-tools-ai-bnq]: Remove: archive file [/home/abi/fetcher/tmp/common-tools-ai-bnq-0.2.2.tar.gz]
+[2024-05-27 10:52:06] INFO root fetch - processPackages [common-tools-ai-bnq]: Remove: archive file [/home/abi/fetcher/tmp/common-tools-ai-bnq-0.2.3.tar.gz]
+[2024-05-27 10:52:06] INFO root fetch - main [MainThread]: End processing [common-tools-ai-bnq]: success
+[2024-05-27 10:52:06] INFO root fetch - processPackages [intersphinx-registry]: Remove: archive file [/home/abi/fetcher/tmp/intersphinx_registry-0.0.4.tar.gz]
+[2024-05-27 10:52:06] INFO root fetch - processPackages [intersphinx-registry]: Remove: archive file [/home/abi/fetcher/tmp/intersphinx_registry-0.2405.27.tar.gz]
+[2024-05-27 10:52:06] INFO root fetch - main [MainThread]: End processing [intersphinx-registry]: success
+[2024-05-27 10:52:06] INFO root fetch - processPackages [imio.directory.core]: Remove: archive file [/home/abi/fetcher/tmp/imio.directory.core-1.2.8.tar.gz]
+[2024-05-27 10:52:06] INFO root fetch - processPackages [imio.directory.core]: Remove: archive file [/home/abi/fetcher/tmp/imio.directory.core-1.2.9.tar.gz]
+[2024-05-27 10:52:06] INFO root fetch - main [MainThread]: End processing [imio.directory.core]: success
+[2024-05-27 10:52:06] INFO root fetch - processPackages [django-customvueadmin]: Remove: archive file [/home/abi/fetcher/tmp/django-customvueadmin-0.1.9.tar.gz]
+[2024-05-27 10:52:06] INFO root fetch - processPackages [django-customvueadmin]: Remove: archive file [/home/abi/fetcher/tmp/django_customvueadmin-0.2.0.tar.gz]
+[2024-05-27 10:52:06] INFO root fetch - main [MainThread]: End processing [django-customvueadmin]: success
+[2024-05-27 10:52:06] INFO root fetch - main [MainThread]: Store serial: [23392843]
