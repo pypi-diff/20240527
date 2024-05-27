@@ -8929,3 +8929,24 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 10:01:30] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.4.1.dev20240527022455.tar.gz]
 [2024-05-27 10:01:30] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2024-05-27 10:01:30] INFO root fetch - main [MainThread]: Store serial: [23392244]
+[2024-05-27 10:03:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23392244]
+[2024-05-27 10:03:40] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-27 10:03:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fighting-sound
+[2024-05-27 10:03:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: truefoundry
+[2024-05-27 10:03:40] INFO root fetch - processPackages [truefoundry]: New version: [0.2.2rc4] Old Version: [0.2.2rc3]
+[2024-05-27 10:03:40] INFO root fetch - processPackages [fighting-sound]: New version: [0.3] Old Version: [0.2]
+[2024-05-27 10:03:41] INFO root fetch - processPackages [fighting-sound]: Downloading https://files.pythonhosted.org/packages/89/dd/6e7d99ad1552ee2dbaf05ed7b8c85db68f74d69e09c3eb4b1ac17e622bfa/fighting_sound-0.2.tar.gz
+[2024-05-27 10:03:41] INFO root fetch - processPackages [truefoundry]: Downloading https://files.pythonhosted.org/packages/74/3e/3f69e85c061fec44e4faafe0b483e8be4c796413910db305faa303f13c1e/truefoundry-0.2.2rc3.tar.gz
+[2024-05-27 10:03:41] INFO root fetch - processPackages [fighting-sound]: Downloading https://files.pythonhosted.org/packages/95/c6/8399e3ac12e39f33614088c9de6746f5c919ffee410bbe3912a325665871/fighting_sound-0.3.tar.gz
+[2024-05-27 10:03:41] INFO root fetch - processPackages [fighting-sound]: executing diffoscope
+[2024-05-27 10:03:41] INFO root fetch - processPackages [fighting-sound]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fighting_sound-0.2.tar.gz tmp/fighting_sound-0.3.tar.gz --markdown 20240527/f/fighting-sound/0.2-0.3/README.md --exclude *.pyd
+[2024-05-27 10:03:41] INFO root fetch - processPackages [truefoundry]: Downloading https://files.pythonhosted.org/packages/6b/bb/8c519381d944c31126b7707211a97c51af06c5e3a6ee4023da053c90b69f/truefoundry-0.2.2rc4.tar.gz
+[2024-05-27 10:03:41] INFO root fetch - processPackages [truefoundry]: executing diffoscope
+[2024-05-27 10:03:41] INFO root fetch - processPackages [truefoundry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/truefoundry-0.2.2rc3.tar.gz tmp/truefoundry-0.2.2rc4.tar.gz --markdown 20240527/t/truefoundry/0.2.2rc3-0.2.2rc4/README.md --exclude *.pyd
+[2024-05-27 10:03:42] INFO root fetch - processPackages [fighting-sound]: Remove: archive file [/home/abi/fetcher/tmp/fighting_sound-0.2.tar.gz]
+[2024-05-27 10:03:42] INFO root fetch - processPackages [fighting-sound]: Remove: archive file [/home/abi/fetcher/tmp/fighting_sound-0.3.tar.gz]
+[2024-05-27 10:03:42] INFO root fetch - main [MainThread]: End processing [fighting-sound]: success
+[2024-05-27 10:03:42] INFO root fetch - processPackages [truefoundry]: Remove: archive file [/home/abi/fetcher/tmp/truefoundry-0.2.2rc3.tar.gz]
+[2024-05-27 10:03:42] INFO root fetch - processPackages [truefoundry]: Remove: archive file [/home/abi/fetcher/tmp/truefoundry-0.2.2rc4.tar.gz]
+[2024-05-27 10:03:42] INFO root fetch - main [MainThread]: End processing [truefoundry]: success
+[2024-05-27 10:03:42] INFO root fetch - main [MainThread]: Store serial: [23392250]
