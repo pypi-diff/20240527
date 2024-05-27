@@ -6699,3 +6699,38 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 08:00:53] WARNING root fetch - processPackages [duckdb]: Skipping package: exceeds size limit 10640161>=10485760
 [2024-05-27 08:00:53] INFO root fetch - main [MainThread]: End processing [duckdb] error
 [2024-05-27 08:00:53] INFO root fetch - main [MainThread]: Store serial: [23391136]
+[2024-05-27 08:02:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23391136]
+[2024-05-27 08:03:01] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-27 08:03:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: duckdb
+[2024-05-27 08:03:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: afeng-py-tools
+[2024-05-27 08:03:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: shipper-shippy
+[2024-05-27 08:03:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dqpu
+[2024-05-27 08:03:01] INFO root fetch - processPackages [dqpu]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-05-27 08:03:01] INFO root fetch - processPackages [afeng-py-tools]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-27 08:03:01] INFO root fetch - processPackages [duckdb]: New version: [0.9.2] Old Version: [0.9.1]
+[2024-05-27 08:03:01] INFO root fetch - processPackages [dqpu]: Downloading https://files.pythonhosted.org/packages/b9/cd/2f6e6525e688d2d5e15d2f2dedc5a1ddf33614f5e90a6cf40198ff9c8505/dqpu-0.2.3.tar.gz
+[2024-05-27 08:03:01] INFO root fetch - processPackages [shipper-shippy]: New version: [2.37.9] Old Version: [2.37.8]
+[2024-05-27 08:03:01] INFO root fetch - processPackages [duckdb]: Downloading https://files.pythonhosted.org/packages/83/36/ea553454969fa7f356555da1ffcf31acc82172548be77278159002d34514/duckdb-0.9.1.tar.gz
+[2024-05-27 08:03:01] INFO root fetch - processPackages [afeng-py-tools]: Downloading https://files.pythonhosted.org/packages/03/96/e24f6bbf418707708ed1ab31dd8f4af000cdfcd56c3955e6bcf876e28182/afeng-py-tools-0.0.98.tar.gz
+[2024-05-27 08:03:01] WARNING root fetch - processPackages [duckdb]: Skipping package: exceeds size limit 10640161>=10485760
+[2024-05-27 08:03:01] INFO root fetch - main [MainThread]: End processing [duckdb] error
+[2024-05-27 08:03:01] INFO root fetch - processPackages [shipper-shippy]: Downloading https://files.pythonhosted.org/packages/df/66/ead109041ad94fd977b80bb43fd2ab7b64da9e973760051358699bf10474/shipper_shippy-2.37.8.tar.gz
+[2024-05-27 08:03:01] INFO root fetch - processPackages [afeng-py-tools]: Downloading https://files.pythonhosted.org/packages/b2/0a/41c6034fd5c224a859e4249b1b09e63d7acefba4ae5ac80d406a778a1e32/afeng-py-tools-0.0.99.tar.gz
+[2024-05-27 08:03:01] INFO root fetch - processPackages [dqpu]: Downloading https://files.pythonhosted.org/packages/12/b0/5e95d225fd097a7ffe601c7bc39897ad808c4f0cf482c9e1258487ef4546/dqpu-0.2.4.tar.gz
+[2024-05-27 08:03:01] INFO root fetch - processPackages [afeng-py-tools]: executing diffoscope
+[2024-05-27 08:03:01] INFO root fetch - processPackages [afeng-py-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/afeng-py-tools-0.0.98.tar.gz tmp/afeng-py-tools-0.0.99.tar.gz --markdown 20240527/a/afeng-py-tools/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-27 08:03:01] INFO root fetch - processPackages [dqpu]: executing diffoscope
+[2024-05-27 08:03:01] INFO root fetch - processPackages [dqpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dqpu-0.2.3.tar.gz tmp/dqpu-0.2.4.tar.gz --markdown 20240527/d/dqpu/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-05-27 08:03:01] INFO root fetch - processPackages [shipper-shippy]: Downloading https://files.pythonhosted.org/packages/33/16/11194fac18c7766cb0968cb746312169b6b9c8f12e87745e195995821e2a/shipper_shippy-2.37.9.tar.gz
+[2024-05-27 08:03:02] INFO root fetch - processPackages [shipper-shippy]: executing diffoscope
+[2024-05-27 08:03:02] INFO root fetch - processPackages [shipper-shippy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shipper_shippy-2.37.8.tar.gz tmp/shipper_shippy-2.37.9.tar.gz --markdown 20240527/s/shipper-shippy/2.37.8-2.37.9/README.md --exclude *.pyd
+[2024-05-27 08:03:02] INFO root fetch - processPackages [dqpu]: Remove: archive file [/home/abi/fetcher/tmp/dqpu-0.2.3.tar.gz]
+[2024-05-27 08:03:02] INFO root fetch - processPackages [dqpu]: Remove: archive file [/home/abi/fetcher/tmp/dqpu-0.2.4.tar.gz]
+[2024-05-27 08:03:02] INFO root fetch - main [MainThread]: End processing [dqpu]: success
+[2024-05-27 08:03:02] INFO root fetch - processPackages [shipper-shippy]: Remove: archive file [/home/abi/fetcher/tmp/shipper_shippy-2.37.8.tar.gz]
+[2024-05-27 08:03:02] INFO root fetch - processPackages [shipper-shippy]: Remove: archive file [/home/abi/fetcher/tmp/shipper_shippy-2.37.9.tar.gz]
+[2024-05-27 08:03:02] INFO root fetch - main [MainThread]: End processing [shipper-shippy]: success
+[2024-05-27 08:03:03] INFO root fetch - processPackages [afeng-py-tools]: Remove: archive file [/home/abi/fetcher/tmp/afeng-py-tools-0.0.98.tar.gz]
+[2024-05-27 08:03:03] INFO root fetch - processPackages [afeng-py-tools]: Remove: archive file [/home/abi/fetcher/tmp/afeng-py-tools-0.0.99.tar.gz]
+[2024-05-27 08:03:03] INFO root fetch - main [MainThread]: End processing [afeng-py-tools]: success
+[2024-05-27 08:03:03] INFO root fetch - main [MainThread]: Store serial: [23391196]
