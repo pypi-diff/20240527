@@ -24036,3 +24036,27 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-05-27 20:00:56] INFO root fetch - processPackages [arrow-mssql]: Remove: archive file [/home/abi/fetcher/tmp/arrow_mssql-0.0.83.tar.gz]
 [2024-05-27 20:00:56] INFO root fetch - main [MainThread]: End processing [arrow-mssql]: success
 [2024-05-27 20:00:56] INFO root fetch - main [MainThread]: Store serial: [23399558]
+[2024-05-27 20:03:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23399558]
+[2024-05-27 20:03:05] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-27 20:03:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: linearwavetheory
+[2024-05-27 20:03:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: librds
+[2024-05-27 20:03:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: resource-abstractor-client
+[2024-05-27 20:03:05] WARNING root fetch - processPackages [resource-abstractor-client]: Skipping, unable to determine old version
+[2024-05-27 20:03:05] INFO root fetch - main [MainThread]: End processing [resource-abstractor-client] error
+[2024-05-27 20:03:05] INFO root fetch - processPackages [librds]: New version: [1.381] Old Version: [1.3.8]
+[2024-05-27 20:03:05] INFO root fetch - processPackages [librds]: Downloading https://files.pythonhosted.org/packages/c9/e8/6461b7ace177b632b79dbe5bbc910750e3e55d4fd64637a73db639041b93/librds-1.3.8.tar.gz
+[2024-05-27 20:03:05] INFO root fetch - processPackages [linearwavetheory]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-27 20:03:05] INFO root fetch - processPackages [linearwavetheory]: Downloading https://files.pythonhosted.org/packages/dc/a4/85d07412e81d1591c15997e20e4aac0f0b86021112dbf2316d71ba307283/linearwavetheory-0.0.8.tar.gz
+[2024-05-27 20:03:05] INFO root fetch - processPackages [librds]: Downloading https://files.pythonhosted.org/packages/1a/fd/7ba36bc005072d95a0fc8af0acfac0b18faf7b4e76f63caa1da2da1b562a/librds-1.381.tar.gz
+[2024-05-27 20:03:05] INFO root fetch - processPackages [librds]: executing diffoscope
+[2024-05-27 20:03:05] INFO root fetch - processPackages [librds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/librds-1.3.8.tar.gz tmp/librds-1.381.tar.gz --markdown 20240527/l/librds/1.3.8-1.381/README.md --exclude *.pyd
+[2024-05-27 20:03:05] INFO root fetch - processPackages [linearwavetheory]: Downloading https://files.pythonhosted.org/packages/7c/1b/1a369f1209dc45a9aad7eaf8d93c489854d70804051f28a1670894a07619/linearwavetheory-0.0.9.tar.gz
+[2024-05-27 20:03:05] INFO root fetch - processPackages [linearwavetheory]: executing diffoscope
+[2024-05-27 20:03:05] INFO root fetch - processPackages [linearwavetheory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linearwavetheory-0.0.8.tar.gz tmp/linearwavetheory-0.0.9.tar.gz --markdown 20240527/l/linearwavetheory/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-27 20:03:06] INFO root fetch - processPackages [librds]: Remove: archive file [/home/abi/fetcher/tmp/librds-1.3.8.tar.gz]
+[2024-05-27 20:03:06] INFO root fetch - processPackages [librds]: Remove: archive file [/home/abi/fetcher/tmp/librds-1.381.tar.gz]
+[2024-05-27 20:03:06] INFO root fetch - main [MainThread]: End processing [librds]: success
+[2024-05-27 20:03:06] INFO root fetch - processPackages [linearwavetheory]: Remove: archive file [/home/abi/fetcher/tmp/linearwavetheory-0.0.8.tar.gz]
+[2024-05-27 20:03:06] INFO root fetch - processPackages [linearwavetheory]: Remove: archive file [/home/abi/fetcher/tmp/linearwavetheory-0.0.9.tar.gz]
+[2024-05-27 20:03:06] INFO root fetch - main [MainThread]: End processing [linearwavetheory]: success
+[2024-05-27 20:03:06] INFO root fetch - main [MainThread]: Store serial: [23399568]
