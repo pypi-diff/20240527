@@ -18328,3 +18328,123 @@ EOFError: EOF read where object expected
 [2024-05-27 16:15:43] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
 [2024-05-27 16:15:43] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
 [2024-05-27 16:15:43] INFO root fetch - main [MainThread]: Store serial: [23396852]
+[2024-05-27 16:17:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23396852]
+[2024-05-27 16:17:53] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-05-27 16:17:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hermitage-alchemy
+[2024-05-27 16:17:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: concreteproperties
+[2024-05-27 16:17:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ragfmk
+[2024-05-27 16:17:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: glassesTools
+[2024-05-27 16:17:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: clargs
+[2024-05-27 16:17:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ObjectToString
+[2024-05-27 16:17:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: yeref
+[2024-05-27 16:17:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: assemblyline-service-client
+[2024-05-27 16:17:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: livestyled
+[2024-05-27 16:17:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: give-up-the-func
+[2024-05-27 16:17:54] INFO root fetch - processPackages [glassesTools]: New version: [1.0.0] Old Version: [0.5.1]
+[2024-05-27 16:17:54] INFO root fetch - processPackages [give-up-the-func]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-27 16:17:54] INFO root fetch - processPackages [ragfmk]: New version: [0.1.4.8] Old Version: [0.1.4.7]
+[2024-05-27 16:17:54] INFO root fetch - processPackages [clargs]: New version: [0.9.0a0.dev5] Old Version: [0.9.0a0.dev4]
+[2024-05-27 16:17:54] INFO root fetch - processPackages [ObjectToString]: New version: [0.2.72] Old Version: [0.2.71]
+[2024-05-27 16:17:54] INFO root fetch - processPackages [yeref]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-27 16:17:54] INFO root fetch - processPackages [hermitage-alchemy]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-27 16:17:54] INFO root fetch - processPackages [ragfmk]: Downloading https://files.pythonhosted.org/packages/6b/f9/5b5532b03c8fc2b33c269909433ebea1399e5b91e9074d80646405f432e8/ragfmk-0.1.4.7-py3-none-any.whl
+[2024-05-27 16:17:54] INFO root fetch - processPackages [concreteproperties]: New version: [0.6.3] Old Version: [0.6.2]
+[2024-05-27 16:17:54] INFO root fetch - processPackages [glassesTools]: Downloading https://files.pythonhosted.org/packages/7b/1e/2bffa2e10f617a414bca1881a46a05fa12885d2d9c393b17164096555f01/glassestools-0.5.1.tar.gz
+[2024-05-27 16:17:54] INFO root fetch - processPackages [livestyled]: New version: [1.4.9] Old Version: [1.4.8]
+[2024-05-27 16:17:54] INFO root fetch - processPackages [give-up-the-func]: Downloading https://files.pythonhosted.org/packages/e3/c5/67edcfc8c08e6159e5d085dc36e81bbbdbcf90db451843935b7c5451b496/give_up_the_func-0.0.2.tar.gz
+[2024-05-27 16:17:54] INFO root fetch - processPackages [assemblyline-service-client]: New version: [4.5.1.dev99] Old Version: [4.5.1.dev98]
+[2024-05-27 16:17:54] INFO root fetch - processPackages [clargs]: Downloading https://files.pythonhosted.org/packages/b6/fa/7c4d8dc036d3426a87bcf865254ebf356b24b84deeed777d512b4aa43e61/clargs-0.9.0a0.dev4.tar.gz
+[2024-05-27 16:17:54] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/ec/cb/204e6fbe233bbb61cf29c1b491e8c638c8a843edc47fb4e1d8cc8c26608c/yeref-0.9.8.tar.gz
+[2024-05-27 16:17:54] INFO root fetch - processPackages [ObjectToString]: Downloading https://files.pythonhosted.org/packages/65/0a/94d089b9cb5b3e5f724d3354bf87658da53f34b8ac0151291ad02d83b176/ObjectToString-0.2.71.tar.gz
+[2024-05-27 16:17:54] INFO root fetch - processPackages [hermitage-alchemy]: Downloading https://files.pythonhosted.org/packages/35/5e/3185cc1ee6f155b06136adddafee9933e3b7e218a8a0f5d09bf037d63973/hermitage_alchemy-0.2.1.tar.gz
+[2024-05-27 16:17:54] INFO root fetch - processPackages [concreteproperties]: Downloading https://files.pythonhosted.org/packages/b6/53/509e9cb0f4e26036d4ee971cdc4d536fe5071da406cbe0a4bf0da593e90c/concreteproperties-0.6.2.tar.gz
+[2024-05-27 16:17:54] INFO root fetch - processPackages [livestyled]: Downloading https://files.pythonhosted.org/packages/d9/5b/dd0c5e58592af54ce169081c59ea48ed2bd6e92badd9882aee35ee9a7e20/livestyled-1.4.8.tar.gz
+[2024-05-27 16:17:54] INFO root fetch - processPackages [glassesTools]: Downloading https://files.pythonhosted.org/packages/ea/8d/82db6e8e91a24a90e55a4a696c76e1e9be1c771e046dff00eef4f6fa3ce7/glassestools-1.0.0.tar.gz
+[2024-05-27 16:17:54] INFO root fetch - processPackages [assemblyline-service-client]: Downloading https://files.pythonhosted.org/packages/09/f6/461581aa3df5df687f3412c4e34ee4b73d2e6bffec292b864c2b7703ce20/assemblyline_service_client-4.5.1.dev98-py3-none-any.whl
+[2024-05-27 16:17:54] INFO root fetch - processPackages [give-up-the-func]: Downloading https://files.pythonhosted.org/packages/33/27/2b5613e5088f2325be2fd3103a5a9f25a23bc49e1b25d8f7fce120cd92fc/give_up_the_func-0.0.3.tar.gz
+[2024-05-27 16:17:54] INFO root fetch - processPackages [ragfmk]: Downloading https://files.pythonhosted.org/packages/69/0e/8b40bf546f700a14f83b663ba73dd122e9a862db8f9faf691c9a76cafb2b/ragfmk-0.1.4.8-py3-none-any.whl
+[2024-05-27 16:17:54] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/01/13/0f11bb3dfb27aaf16ed48b0046f50ac65b1fde32662fbc314d53e2558b2d/yeref-0.9.9.tar.gz
+[2024-05-27 16:17:54] INFO root fetch - processPackages [clargs]: Downloading https://files.pythonhosted.org/packages/b4/08/94b5e6d3f4a904b22e41c11c3fd486df8b99ae619dfb7c9a52d0978f0866/clargs-0.9.0a0.dev5.tar.gz
+[2024-05-27 16:17:54] INFO root fetch - processPackages [give-up-the-func]: executing diffoscope
+[2024-05-27 16:17:54] INFO root fetch - processPackages [give-up-the-func]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/give_up_the_func-0.0.2.tar.gz tmp/give_up_the_func-0.0.3.tar.gz --markdown 20240527/g/give-up-the-func/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-27 16:17:54] INFO root fetch - processPackages [glassesTools]: executing diffoscope
+[2024-05-27 16:17:54] INFO root fetch - processPackages [glassesTools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glassestools-0.5.1.tar.gz tmp/glassestools-1.0.0.tar.gz --markdown 20240527/g/glassesTools/0.5.1-1.0.0/README.md --exclude *.pyd
+[2024-05-27 16:17:54] INFO root fetch - processPackages [ragfmk]: executing diffoscope
+[2024-05-27 16:17:54] INFO root fetch - processPackages [ragfmk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ragfmk-0.1.4.7-py3-none-any.whl.zip tmp/ragfmk-0.1.4.8-py3-none-any.whl.zip --markdown 20240527/r/ragfmk/0.1.4.7-0.1.4.8/README.md --exclude *.pyd
+[2024-05-27 16:17:54] INFO root fetch - processPackages [ObjectToString]: Downloading https://files.pythonhosted.org/packages/bd/a7/c6249c7c7e405ee64cb6d1171ce6e2a86d02c535bdea9096b12a94e3e2cb/ObjectToString-0.2.72.tar.gz
+[2024-05-27 16:17:54] INFO root fetch - processPackages [hermitage-alchemy]: Downloading https://files.pythonhosted.org/packages/f7/a8/f4ad1defb9b6de63e87d430e695c588924d5ef790b5a138fe84c1705a4e4/hermitage_alchemy-0.2.2.tar.gz
+[2024-05-27 16:17:54] INFO root fetch - processPackages [clargs]: executing diffoscope
+[2024-05-27 16:17:54] INFO root fetch - processPackages [clargs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clargs-0.9.0a0.dev4.tar.gz tmp/clargs-0.9.0a0.dev5.tar.gz --markdown 20240527/c/clargs/0.9.0a0.dev4-0.9.0a0.dev5/README.md --exclude *.pyd
+[2024-05-27 16:17:54] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2024-05-27 16:17:54] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.9.8.tar.gz tmp/yeref-0.9.9.tar.gz --markdown 20240527/y/yeref/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-27 16:17:54] INFO root fetch - processPackages [concreteproperties]: Downloading https://files.pythonhosted.org/packages/62/22/b5fdd341b9c9413405e34a3f03ee632092019f046b7ccb6d5aa70dc694a0/concreteproperties-0.6.3.tar.gz
+[2024-05-27 16:17:54] INFO root fetch - processPackages [hermitage-alchemy]: executing diffoscope
+[2024-05-27 16:17:54] INFO root fetch - processPackages [hermitage-alchemy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hermitage_alchemy-0.2.1.tar.gz tmp/hermitage_alchemy-0.2.2.tar.gz --markdown 20240527/h/hermitage-alchemy/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-05-27 16:17:54] INFO root fetch - processPackages [livestyled]: Downloading https://files.pythonhosted.org/packages/79/14/4e07921bd1394c3c8e5993ee638b4b4333304be955eab2b8175c68748f11/livestyled-1.4.9.tar.gz
+[2024-05-27 16:17:55] INFO root fetch - processPackages [assemblyline-service-client]: Downloading https://files.pythonhosted.org/packages/71/b9/931accceaab4b85f0403f7e1e99c5e67613d62945cec643f8cbe392edb99/assemblyline_service_client-4.5.1.dev99-py3-none-any.whl
+[2024-05-27 16:17:55] INFO root fetch - processPackages [concreteproperties]: executing diffoscope
+[2024-05-27 16:17:55] INFO root fetch - processPackages [concreteproperties]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/concreteproperties-0.6.2.tar.gz tmp/concreteproperties-0.6.3.tar.gz --markdown 20240527/c/concreteproperties/0.6.2-0.6.3/README.md --exclude *.pyd
+[2024-05-27 16:17:55] INFO root fetch - processPackages [ObjectToString]: executing diffoscope
+[2024-05-27 16:17:55] INFO root fetch - processPackages [ObjectToString]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ObjectToString-0.2.71.tar.gz tmp/ObjectToString-0.2.72.tar.gz --markdown 20240527/O/ObjectToString/0.2.71-0.2.72/README.md --exclude *.pyd
+[2024-05-27 16:17:55] INFO root fetch - processPackages [assemblyline-service-client]: executing diffoscope
+[2024-05-27 16:17:55] INFO root fetch - processPackages [assemblyline-service-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_service_client-4.5.1.dev98-py3-none-any.whl.zip tmp/assemblyline_service_client-4.5.1.dev99-py3-none-any.whl.zip --markdown 20240527/a/assemblyline-service-client/4.5.1.dev98-4.5.1.dev99/README.md --exclude *.pyd
+[2024-05-27 16:17:55] INFO root fetch - processPackages [livestyled]: executing diffoscope
+[2024-05-27 16:17:55] INFO root fetch - processPackages [livestyled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/livestyled-1.4.8.tar.gz tmp/livestyled-1.4.9.tar.gz --markdown 20240527/l/livestyled/1.4.8-1.4.9/README.md --exclude *.pyd
+[2024-05-27 16:17:55] INFO root fetch - processPackages [give-up-the-func]: Remove: archive file [/home/abi/fetcher/tmp/give_up_the_func-0.0.2.tar.gz]
+[2024-05-27 16:17:55] INFO root fetch - processPackages [give-up-the-func]: Remove: archive file [/home/abi/fetcher/tmp/give_up_the_func-0.0.3.tar.gz]
+[2024-05-27 16:17:55] INFO root fetch - processPackages [give-up-the-func]: Start processing: assemblyline-service-server
+[2024-05-27 16:17:55] INFO root fetch - main [MainThread]: End processing [give-up-the-func]: success
+[2024-05-27 16:17:55] INFO root fetch - processPackages [ragfmk]: Remove: archive file [/home/abi/fetcher/tmp/ragfmk-0.1.4.7-py3-none-any.whl.zip]
+[2024-05-27 16:17:55] INFO root fetch - processPackages [ragfmk]: Remove: archive file [/home/abi/fetcher/tmp/ragfmk-0.1.4.8-py3-none-any.whl.zip]
+[2024-05-27 16:17:55] INFO root fetch - processPackages [ragfmk]: Start processing: banduppy
+[2024-05-27 16:17:55] INFO root fetch - main [MainThread]: End processing [ragfmk]: success
+[2024-05-27 16:17:55] INFO root fetch - processPackages [assemblyline-service-server]: New version: [4.5.1.dev99] Old Version: [4.5.1.dev98]
+[2024-05-27 16:17:55] INFO root fetch - processPackages [clargs]: Remove: archive file [/home/abi/fetcher/tmp/clargs-0.9.0a0.dev4.tar.gz]
+[2024-05-27 16:17:55] INFO root fetch - processPackages [clargs]: Remove: archive file [/home/abi/fetcher/tmp/clargs-0.9.0a0.dev5.tar.gz]
+[2024-05-27 16:17:55] INFO root fetch - processPackages [clargs]: Start processing: assemblyline-ui
+[2024-05-27 16:17:55] INFO root fetch - main [MainThread]: End processing [clargs]: success
+[2024-05-27 16:17:55] INFO root fetch - processPackages [banduppy]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-05-27 16:17:55] INFO root fetch - processPackages [hermitage-alchemy]: Remove: archive file [/home/abi/fetcher/tmp/hermitage_alchemy-0.2.1.tar.gz]
+[2024-05-27 16:17:55] INFO root fetch - processPackages [hermitage-alchemy]: Remove: archive file [/home/abi/fetcher/tmp/hermitage_alchemy-0.2.2.tar.gz]
+[2024-05-27 16:17:55] INFO root fetch - main [MainThread]: End processing [hermitage-alchemy]: success
+[2024-05-27 16:17:55] INFO root fetch - processPackages [glassesTools]: Remove: archive file [/home/abi/fetcher/tmp/glassestools-0.5.1.tar.gz]
+[2024-05-27 16:17:55] INFO root fetch - processPackages [glassesTools]: Remove: archive file [/home/abi/fetcher/tmp/glassestools-1.0.0.tar.gz]
+[2024-05-27 16:17:55] INFO root fetch - main [MainThread]: End processing [glassesTools]: success
+[2024-05-27 16:17:56] INFO root fetch - processPackages [assemblyline-service-server]: Downloading https://files.pythonhosted.org/packages/f2/74/b8237d72f5bff6c82a740d48ec21ed2b8942846129c189028d0c66238da1/assemblyline_service_server-4.5.1.dev98-py3-none-any.whl
+[2024-05-27 16:17:56] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.8.tar.gz]
+[2024-05-27 16:17:56] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.9.tar.gz]
+[2024-05-27 16:17:56] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2024-05-27 16:17:56] INFO root fetch - processPackages [ObjectToString]: Remove: archive file [/home/abi/fetcher/tmp/ObjectToString-0.2.71.tar.gz]
+[2024-05-27 16:17:56] INFO root fetch - processPackages [ObjectToString]: Remove: archive file [/home/abi/fetcher/tmp/ObjectToString-0.2.72.tar.gz]
+[2024-05-27 16:17:56] INFO root fetch - main [MainThread]: End processing [ObjectToString]: success
+[2024-05-27 16:17:56] INFO root fetch - processPackages [banduppy]: Downloading https://files.pythonhosted.org/packages/f7/b8/880416eb90223595528e9e60fb2e89d58acf088af4e7968143277816ea7e/banduppy-0.2.0-py3-none-any.whl
+[2024-05-27 16:17:56] INFO root fetch - processPackages [assemblyline-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_service_client-4.5.1.dev98-py3-none-any.whl.zip]
+[2024-05-27 16:17:56] INFO root fetch - processPackages [assemblyline-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_service_client-4.5.1.dev99-py3-none-any.whl.zip]
+[2024-05-27 16:17:56] INFO root fetch - main [MainThread]: End processing [assemblyline-service-client]: success
+[2024-05-27 16:17:56] INFO root fetch - processPackages [concreteproperties]: Remove: archive file [/home/abi/fetcher/tmp/concreteproperties-0.6.2.tar.gz]
+[2024-05-27 16:17:56] INFO root fetch - processPackages [concreteproperties]: Remove: archive file [/home/abi/fetcher/tmp/concreteproperties-0.6.3.tar.gz]
+[2024-05-27 16:17:56] INFO root fetch - main [MainThread]: End processing [concreteproperties]: success
+[2024-05-27 16:17:56] INFO root fetch - processPackages [livestyled]: Remove: archive file [/home/abi/fetcher/tmp/livestyled-1.4.8.tar.gz]
+[2024-05-27 16:17:56] INFO root fetch - processPackages [livestyled]: Remove: archive file [/home/abi/fetcher/tmp/livestyled-1.4.9.tar.gz]
+[2024-05-27 16:17:56] INFO root fetch - main [MainThread]: End processing [livestyled]: success
+[2024-05-27 16:17:56] INFO root fetch - processPackages [assemblyline-service-server]: Downloading https://files.pythonhosted.org/packages/56/40/7aa376ad2c2a5e676da4626e03b7f92a1e4368e86ecfac6183027c093511/assemblyline_service_server-4.5.1.dev99-py3-none-any.whl
+[2024-05-27 16:17:56] INFO root fetch - processPackages [banduppy]: Downloading https://files.pythonhosted.org/packages/8c/99/55a27afe29c82ca76ed2886973e8326b71fc56e140cac437a7bade2422c2/banduppy-0.3.0.tar.gz
+[2024-05-27 16:17:56] INFO root fetch - processPackages [assemblyline-service-server]: executing diffoscope
+[2024-05-27 16:17:56] INFO root fetch - processPackages [assemblyline-service-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_service_server-4.5.1.dev98-py3-none-any.whl.zip tmp/assemblyline_service_server-4.5.1.dev99-py3-none-any.whl.zip --markdown 20240527/a/assemblyline-service-server/4.5.1.dev98-4.5.1.dev99/README.md --exclude *.pyd
+[2024-05-27 16:17:56] INFO root fetch - processPackages [assemblyline-ui]: New version: [4.5.1.dev99] Old Version: [4.5.1.dev98]
+[2024-05-27 16:17:56] INFO root fetch - processPackages [banduppy]: executing diffoscope
+[2024-05-27 16:17:56] INFO root fetch - processPackages [banduppy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/banduppy-0.2.0-py3-none-any.whl.zip tmp/banduppy-0.3.0.tar.gz --markdown 20240527/b/banduppy/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-05-27 16:17:56] INFO root fetch - processPackages [assemblyline-ui]: Downloading https://files.pythonhosted.org/packages/b5/68/4bf2882ecdfd3493ba5557cff1c06d2e527fe7e8ba2963a37bcad30bf714/assemblyline_ui-4.5.1.dev98-py3-none-any.whl
+[2024-05-27 16:17:57] INFO root fetch - processPackages [assemblyline-service-server]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_service_server-4.5.1.dev98-py3-none-any.whl.zip]
+[2024-05-27 16:17:57] INFO root fetch - processPackages [assemblyline-service-server]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_service_server-4.5.1.dev99-py3-none-any.whl.zip]
+[2024-05-27 16:17:57] INFO root fetch - main [MainThread]: End processing [assemblyline-service-server]: success
+[2024-05-27 16:17:57] INFO root fetch - processPackages [assemblyline-ui]: Downloading https://files.pythonhosted.org/packages/fb/ac/688fc1bf55eadae3eb16a0bc260554cc144adfd2057b87015cb6e58ed6d9/assemblyline_ui-4.5.1.dev99-py3-none-any.whl
+[2024-05-27 16:17:57] INFO root fetch - processPackages [banduppy]: Remove: archive file [/home/abi/fetcher/tmp/banduppy-0.2.0-py3-none-any.whl.zip]
+[2024-05-27 16:17:57] INFO root fetch - processPackages [banduppy]: Remove: archive file [/home/abi/fetcher/tmp/banduppy-0.3.0.tar.gz]
+[2024-05-27 16:17:57] INFO root fetch - main [MainThread]: End processing [banduppy]: success
+[2024-05-27 16:17:57] INFO root fetch - processPackages [assemblyline-ui]: executing diffoscope
+[2024-05-27 16:17:57] INFO root fetch - processPackages [assemblyline-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_ui-4.5.1.dev98-py3-none-any.whl.zip tmp/assemblyline_ui-4.5.1.dev99-py3-none-any.whl.zip --markdown 20240527/a/assemblyline-ui/4.5.1.dev98-4.5.1.dev99/README.md --exclude *.pyd
+[2024-05-27 16:17:57] INFO root fetch - processPackages [assemblyline-ui]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_ui-4.5.1.dev98-py3-none-any.whl.zip]
+[2024-05-27 16:17:57] INFO root fetch - processPackages [assemblyline-ui]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_ui-4.5.1.dev99-py3-none-any.whl.zip]
+[2024-05-27 16:17:57] INFO root fetch - main [MainThread]: End processing [assemblyline-ui]: success
+[2024-05-27 16:17:57] INFO root fetch - main [MainThread]: Store serial: [23396889]
