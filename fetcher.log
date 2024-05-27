@@ -14978,3 +14978,48 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 14:12:30] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.8.9.tar.gz]
 [2024-05-27 14:12:30] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2024-05-27 14:12:30] INFO root fetch - main [MainThread]: Store serial: [23395305]
+[2024-05-27 14:14:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23395305]
+[2024-05-27 14:14:38] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-27 14:14:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk8s
+[2024-05-27 14:14:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: imio.actionspanel
+[2024-05-27 14:14:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gpt-computer-assistant
+[2024-05-27 14:14:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: probe-design
+[2024-05-27 14:14:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: scrapy-selenium-addon
+[2024-05-27 14:14:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyrt-lib-rasmusklitgaard
+[2024-05-27 14:14:38] WARNING root fetch - processPackages [scrapy-selenium-addon]: Skipping, unable to determine old version
+[2024-05-27 14:14:38] INFO root fetch - main [MainThread]: End processing [scrapy-selenium-addon] error
+[2024-05-27 14:14:38] INFO root fetch - processPackages [imio.actionspanel]: New version: [1.66] Old Version: [1.65]
+[2024-05-27 14:14:38] WARNING root fetch - processPackages [gpt-computer-assistant]: Skipping, unable to determine old version
+[2024-05-27 14:14:38] INFO root fetch - main [MainThread]: End processing [gpt-computer-assistant] error
+[2024-05-27 14:14:38] INFO root fetch - processPackages [imio.actionspanel]: Downloading https://files.pythonhosted.org/packages/14/14/595fa75f1063096f4fe8d02cd368f64a19be6e82191cc978cb48e65fea3b/imio.actionspanel-1.65.tar.gz
+[2024-05-27 14:14:38] INFO root fetch - processPackages [probe-design]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-27 14:14:38] INFO root fetch - processPackages [pyrt-lib-rasmusklitgaard]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-05-27 14:14:38] INFO root fetch - processPackages [cdk8s]: New version: [2.9.0] Old Version: [2.8.0]
+[2024-05-27 14:14:38] INFO root fetch - processPackages [imio.actionspanel]: Downloading https://files.pythonhosted.org/packages/bb/a7/103e0e8bf472253653c4c70777e615dd750516bca87bf3c437dff9c4d3f3/imio.actionspanel-1.66.tar.gz
+[2024-05-27 14:14:39] INFO root fetch - processPackages [probe-design]: Downloading https://files.pythonhosted.org/packages/e4/de/217073b59e430d72d25a28f92c27d4dcfed602224c5db64977da9995539e/probe_design-0.2.8.tar.gz
+[2024-05-27 14:14:39] INFO root fetch - processPackages [pyrt-lib-rasmusklitgaard]: Downloading https://files.pythonhosted.org/packages/b0/3b/a64e68c53d773a6ab5a350db4af58ea593cdf6465b5243f937a2de106f83/pyrt_lib_rasmusklitgaard-0.4.8.tar.gz
+[2024-05-27 14:14:39] INFO root fetch - processPackages [cdk8s]: Downloading https://files.pythonhosted.org/packages/7d/c5/592391e50b273450851cb1dd87401069971eead9d407a9d5c5ec13704f65/cdk8s-2.8.0.tar.gz
+[2024-05-27 14:14:39] INFO root fetch - processPackages [imio.actionspanel]: executing diffoscope
+[2024-05-27 14:14:39] INFO root fetch - processPackages [imio.actionspanel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imio.actionspanel-1.65.tar.gz tmp/imio.actionspanel-1.66.tar.gz --markdown 20240527/i/imio.actionspanel/1.65-1.66/README.md --exclude *.pyd
+[2024-05-27 14:14:39] INFO root fetch - processPackages [pyrt-lib-rasmusklitgaard]: Downloading https://files.pythonhosted.org/packages/2a/e7/25f2f7c22a9735e928cdf1c78957d63cb329e39a301e55b6fb60af3695f6/pyrt_lib_rasmusklitgaard-0.4.9.tar.gz
+[2024-05-27 14:14:39] INFO root fetch - processPackages [probe-design]: Downloading https://files.pythonhosted.org/packages/56/10/4d2bc3f41506a6a5373b6d321509f939ebc56944086733654075c23adbba/probe_design-0.2.9.tar.gz
+[2024-05-27 14:14:39] INFO root fetch - processPackages [cdk8s]: Downloading https://files.pythonhosted.org/packages/3b/6d/920a6a9be9d1576059ced41c1fd11a3f7214589f1add4c7d3da2290b1198/cdk8s-2.9.0.tar.gz
+[2024-05-27 14:14:39] INFO root fetch - processPackages [pyrt-lib-rasmusklitgaard]: executing diffoscope
+[2024-05-27 14:14:39] INFO root fetch - processPackages [pyrt-lib-rasmusklitgaard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrt_lib_rasmusklitgaard-0.4.8.tar.gz tmp/pyrt_lib_rasmusklitgaard-0.4.9.tar.gz --markdown 20240527/p/pyrt-lib-rasmusklitgaard/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-05-27 14:14:39] INFO root fetch - processPackages [cdk8s]: executing diffoscope
+[2024-05-27 14:14:39] INFO root fetch - processPackages [cdk8s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-2.8.0.tar.gz tmp/cdk8s-2.9.0.tar.gz --markdown 20240527/c/cdk8s/2.8.0-2.9.0/README.md --exclude *.pyd
+[2024-05-27 14:14:39] INFO root fetch - processPackages [imio.actionspanel]: Remove: archive file [/home/abi/fetcher/tmp/imio.actionspanel-1.65.tar.gz]
+[2024-05-27 14:14:39] INFO root fetch - processPackages [imio.actionspanel]: Remove: archive file [/home/abi/fetcher/tmp/imio.actionspanel-1.66.tar.gz]
+[2024-05-27 14:14:39] INFO root fetch - main [MainThread]: End processing [imio.actionspanel]: success
+[2024-05-27 14:14:40] INFO root fetch - processPackages [pyrt-lib-rasmusklitgaard]: Remove: archive file [/home/abi/fetcher/tmp/pyrt_lib_rasmusklitgaard-0.4.8.tar.gz]
+[2024-05-27 14:14:40] INFO root fetch - processPackages [pyrt-lib-rasmusklitgaard]: Remove: archive file [/home/abi/fetcher/tmp/pyrt_lib_rasmusklitgaard-0.4.9.tar.gz]
+[2024-05-27 14:14:40] INFO root fetch - main [MainThread]: End processing [pyrt-lib-rasmusklitgaard]: success
+[2024-05-27 14:14:40] INFO root fetch - processPackages [cdk8s]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-2.8.0.tar.gz]
+[2024-05-27 14:14:40] INFO root fetch - processPackages [cdk8s]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-2.9.0.tar.gz]
+[2024-05-27 14:14:40] INFO root fetch - main [MainThread]: End processing [cdk8s]: success
+[2024-05-27 14:14:41] INFO root fetch - processPackages [probe-design]: executing diffoscope
+[2024-05-27 14:14:41] INFO root fetch - processPackages [probe-design]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/probe_design-0.2.8.tar.gz tmp/probe_design-0.2.9.tar.gz --markdown 20240527/p/probe-design/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-27 14:14:42] INFO root fetch - processPackages [probe-design]: Remove: archive file [/home/abi/fetcher/tmp/probe_design-0.2.8.tar.gz]
+[2024-05-27 14:14:42] INFO root fetch - processPackages [probe-design]: Remove: archive file [/home/abi/fetcher/tmp/probe_design-0.2.9.tar.gz]
+[2024-05-27 14:14:42] INFO root fetch - main [MainThread]: End processing [probe-design]: success
+[2024-05-27 14:14:42] INFO root fetch - main [MainThread]: Store serial: [23395320]
