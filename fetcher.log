@@ -11949,3 +11949,78 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 12:08:30] INFO root fetch - processPackages [xklb]: Remove: archive file [/home/abi/fetcher/tmp/xklb-2.8.9.tar.gz]
 [2024-05-27 12:08:30] INFO root fetch - main [MainThread]: End processing [xklb]: success
 [2024-05-27 12:08:30] INFO root fetch - main [MainThread]: Store serial: [23393681]
+[2024-05-27 12:10:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23393681]
+[2024-05-27 12:10:39] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-27 12:10:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: castle-ai
+[2024-05-27 12:10:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: deepeval
+[2024-05-27 12:10:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: z2m-log-parser
+[2024-05-27 12:10:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dtw-python
+[2024-05-27 12:10:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: antchain-trade
+[2024-05-27 12:10:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: movement-primitives
+[2024-05-27 12:10:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: foundationallm
+[2024-05-27 12:10:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: FlaskFarm
+[2024-05-27 12:10:39] INFO root fetch - processPackages [castle-ai]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-27 12:10:39] INFO root fetch - processPackages [z2m-log-parser]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-27 12:10:39] INFO root fetch - processPackages [deepeval]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-27 12:10:39] INFO root fetch - processPackages [castle-ai]: Downloading https://files.pythonhosted.org/packages/54/1f/3c7e32e755ac4b4f651d9591e8646ba71d8ceb1e080b92772fcc0e201622/castle_ai-0.0.3.tar.gz
+[2024-05-27 12:10:39] INFO root fetch - processPackages [foundationallm]: New version: [0.7.6] Old Version: [0.7.5]
+[2024-05-27 12:10:39] INFO root fetch - processPackages [z2m-log-parser]: Downloading https://files.pythonhosted.org/packages/3c/bf/045aab314e9a6c6ba6648f7196be4382d805417677bd4ab8597079a40eec/z2m_log_parser-0.0.8.tar.gz
+[2024-05-27 12:10:39] INFO root fetch - processPackages [movement-primitives]: New version: [0.7.1] Old Version: [0.7.0]
+[2024-05-27 12:10:39] INFO root fetch - processPackages [antchain-trade]: New version: [3.6.3] Old Version: [3.13.2]
+[2024-05-27 12:10:39] INFO root fetch - processPackages [FlaskFarm]: New version: [4.0.108] Old Version: [4.0.107]
+[2024-05-27 12:10:39] INFO root fetch - processPackages [dtw-python]: New version: [1.5.1] Old Version: [1.5.0]
+[2024-05-27 12:10:39] INFO root fetch - processPackages [deepeval]: Downloading https://files.pythonhosted.org/packages/8b/4e/74892f0e4e740898d3d9bbcb8e3e22adc9d2ca430699cb8a78a8b5e2697b/deepeval-0.9.8.tar.gz
+[2024-05-27 12:10:39] INFO root fetch - processPackages [foundationallm]: Downloading https://files.pythonhosted.org/packages/69/14/4f927ca0ecebc23a01136d814007c8dcecacd4a4e18349298b605f16ff15/foundationallm-0.7.5.tar.gz
+[2024-05-27 12:10:39] INFO root fetch - processPackages [antchain-trade]: Downloading https://files.pythonhosted.org/packages/99/6c/361a813e59f4a120c714030a4de95ef1dda0e33384e0e2de0b419dd8d546/antchain_trade-3.13.2.tar.gz
+[2024-05-27 12:10:39] INFO root fetch - processPackages [z2m-log-parser]: Downloading https://files.pythonhosted.org/packages/71/97/7033f666d3eb6726fdd071cf1160a1c1a82f0c16dce62d13168b432e6ac1/z2m_log_parser-0.0.9.tar.gz
+[2024-05-27 12:10:39] INFO root fetch - processPackages [FlaskFarm]: Downloading https://files.pythonhosted.org/packages/2b/1f/c09e3ba0678a663c9a089e1dce7e71ba7fef7ff8bda8532665ccd31af13e/FlaskFarm-4.0.107.tar.gz
+[2024-05-27 12:10:39] INFO root fetch - processPackages [castle-ai]: Downloading https://files.pythonhosted.org/packages/43/a0/ebd33b4291a0e3d44dabe2779171733b078f69e26bb89c254f8261f73d59/castle_ai-0.0.4.tar.gz
+[2024-05-27 12:10:39] INFO root fetch - processPackages [dtw-python]: Downloading https://files.pythonhosted.org/packages/18/54/b713623652aad993ce2313f2728bd02fc0452a03331ab6ab1d75d53da127/dtw_python-1.5.0.tar.gz
+[2024-05-27 12:10:39] INFO root fetch - processPackages [movement-primitives]: Downloading https://files.pythonhosted.org/packages/0a/73/9251164080d3e044694d8dc48ac2f4fef1ba72f7d09980210718c550ed96/movement_primitives-0.7.0.tar.gz
+[2024-05-27 12:10:39] INFO root fetch - processPackages [z2m-log-parser]: executing diffoscope
+[2024-05-27 12:10:39] INFO root fetch - processPackages [z2m-log-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/z2m_log_parser-0.0.8.tar.gz tmp/z2m_log_parser-0.0.9.tar.gz --markdown 20240527/z/z2m-log-parser/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-27 12:10:39] INFO root fetch - processPackages [castle-ai]: executing diffoscope
+[2024-05-27 12:10:39] INFO root fetch - processPackages [castle-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/castle_ai-0.0.3.tar.gz tmp/castle_ai-0.0.4.tar.gz --markdown 20240527/c/castle-ai/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-27 12:10:40] INFO root fetch - processPackages [foundationallm]: Downloading https://files.pythonhosted.org/packages/7c/fe/2866cbd5b95d20a67c3744475e5be7cc19282d5b414fea82796b592db5fb/foundationallm-0.7.6.tar.gz
+[2024-05-27 12:10:40] INFO root fetch - processPackages [deepeval]: Downloading https://files.pythonhosted.org/packages/79/cd/f07ea4ba3fa8fae91bc1bdecc3a7fc8882146f65614215058425221ac2e8/deepeval-0.9.9.tar.gz
+[2024-05-27 12:10:40] INFO root fetch - processPackages [antchain-trade]: Downloading https://files.pythonhosted.org/packages/0d/8b/87e2be118331f9e0fedbcf856bbfb4e6ec9f6774adb043cfdd63320b5f61/antchain_trade-3.6.3.tar.gz
+[2024-05-27 12:10:40] INFO root fetch - processPackages [foundationallm]: executing diffoscope
+[2024-05-27 12:10:40] INFO root fetch - processPackages [foundationallm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foundationallm-0.7.5.tar.gz tmp/foundationallm-0.7.6.tar.gz --markdown 20240527/f/foundationallm/0.7.5-0.7.6/README.md --exclude *.pyd
+[2024-05-27 12:10:40] INFO root fetch - processPackages [dtw-python]: Downloading https://files.pythonhosted.org/packages/8c/83/f17ef914654f4c4c294bdcaedb57d78bc25d581057e09375ff8dfcb19ca1/dtw_python-1.5.1.tar.gz
+[2024-05-27 12:10:40] INFO root fetch - processPackages [deepeval]: executing diffoscope
+[2024-05-27 12:10:40] INFO root fetch - processPackages [deepeval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepeval-0.9.8.tar.gz tmp/deepeval-0.9.9.tar.gz --markdown 20240527/d/deepeval/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-27 12:10:40] INFO root fetch - processPackages [antchain-trade]: executing diffoscope
+[2024-05-27 12:10:40] INFO root fetch - processPackages [antchain-trade]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antchain_trade-3.13.2.tar.gz tmp/antchain_trade-3.6.3.tar.gz --markdown 20240527/a/antchain-trade/3.13.2-3.6.3/README.md --exclude *.pyd
+[2024-05-27 12:10:40] INFO root fetch - processPackages [FlaskFarm]: Downloading https://files.pythonhosted.org/packages/92/cd/38581b19ad3d33b48f2b123e0c1262f49d3c097e005b70084701923a8077/FlaskFarm-4.0.108.tar.gz
+[2024-05-27 12:10:40] INFO root fetch - processPackages [dtw-python]: executing diffoscope
+[2024-05-27 12:10:40] INFO root fetch - processPackages [dtw-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dtw_python-1.5.0.tar.gz tmp/dtw_python-1.5.1.tar.gz --markdown 20240527/d/dtw-python/1.5.0-1.5.1/README.md --exclude *.pyd
+[2024-05-27 12:10:40] INFO root fetch - processPackages [movement-primitives]: Downloading https://files.pythonhosted.org/packages/6e/ce/428fd6839b9a168999d26d35895030f6d519cc1b6b4fc3f8da33b6814b2e/movement_primitives-0.7.1.tar.gz
+[2024-05-27 12:10:40] INFO root fetch - processPackages [z2m-log-parser]: Remove: archive file [/home/abi/fetcher/tmp/z2m_log_parser-0.0.8.tar.gz]
+[2024-05-27 12:10:40] INFO root fetch - processPackages [z2m-log-parser]: Remove: archive file [/home/abi/fetcher/tmp/z2m_log_parser-0.0.9.tar.gz]
+[2024-05-27 12:10:40] INFO root fetch - processPackages [FlaskFarm]: executing diffoscope
+[2024-05-27 12:10:40] INFO root fetch - main [MainThread]: End processing [z2m-log-parser]: success
+[2024-05-27 12:10:40] INFO root fetch - processPackages [FlaskFarm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FlaskFarm-4.0.107.tar.gz tmp/FlaskFarm-4.0.108.tar.gz --markdown 20240527/F/FlaskFarm/4.0.107-4.0.108/README.md --exclude *.pyd
+[2024-05-27 12:10:40] INFO root fetch - processPackages [movement-primitives]: executing diffoscope
+[2024-05-27 12:10:40] INFO root fetch - processPackages [movement-primitives]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/movement_primitives-0.7.0.tar.gz tmp/movement_primitives-0.7.1.tar.gz --markdown 20240527/m/movement-primitives/0.7.0-0.7.1/README.md --exclude *.pyd
+[2024-05-27 12:10:40] INFO root fetch - processPackages [castle-ai]: Remove: archive file [/home/abi/fetcher/tmp/castle_ai-0.0.3.tar.gz]
+[2024-05-27 12:10:40] INFO root fetch - processPackages [castle-ai]: Remove: archive file [/home/abi/fetcher/tmp/castle_ai-0.0.4.tar.gz]
+[2024-05-27 12:10:40] INFO root fetch - main [MainThread]: End processing [castle-ai]: success
+[2024-05-27 12:10:41] INFO root fetch - processPackages [deepeval]: Remove: archive file [/home/abi/fetcher/tmp/deepeval-0.9.8.tar.gz]
+[2024-05-27 12:10:41] INFO root fetch - processPackages [deepeval]: Remove: archive file [/home/abi/fetcher/tmp/deepeval-0.9.9.tar.gz]
+[2024-05-27 12:10:41] INFO root fetch - main [MainThread]: End processing [deepeval]: success
+[2024-05-27 12:10:41] INFO root fetch - processPackages [foundationallm]: Remove: archive file [/home/abi/fetcher/tmp/foundationallm-0.7.5.tar.gz]
+[2024-05-27 12:10:41] INFO root fetch - processPackages [foundationallm]: Remove: archive file [/home/abi/fetcher/tmp/foundationallm-0.7.6.tar.gz]
+[2024-05-27 12:10:41] INFO root fetch - main [MainThread]: End processing [foundationallm]: success
+[2024-05-27 12:10:41] INFO root fetch - processPackages [antchain-trade]: Remove: archive file [/home/abi/fetcher/tmp/antchain_trade-3.13.2.tar.gz]
+[2024-05-27 12:10:41] INFO root fetch - processPackages [antchain-trade]: Remove: archive file [/home/abi/fetcher/tmp/antchain_trade-3.6.3.tar.gz]
+[2024-05-27 12:10:41] INFO root fetch - main [MainThread]: End processing [antchain-trade]: success
+[2024-05-27 12:10:41] INFO root fetch - processPackages [dtw-python]: Remove: archive file [/home/abi/fetcher/tmp/dtw_python-1.5.0.tar.gz]
+[2024-05-27 12:10:41] INFO root fetch - processPackages [dtw-python]: Remove: archive file [/home/abi/fetcher/tmp/dtw_python-1.5.1.tar.gz]
+[2024-05-27 12:10:41] INFO root fetch - main [MainThread]: End processing [dtw-python]: success
+[2024-05-27 12:10:42] INFO root fetch - processPackages [movement-primitives]: Remove: archive file [/home/abi/fetcher/tmp/movement_primitives-0.7.0.tar.gz]
+[2024-05-27 12:10:42] INFO root fetch - processPackages [movement-primitives]: Remove: archive file [/home/abi/fetcher/tmp/movement_primitives-0.7.1.tar.gz]
+[2024-05-27 12:10:42] INFO root fetch - main [MainThread]: End processing [movement-primitives]: success
+[2024-05-27 12:10:52] INFO root fetch - processPackages [FlaskFarm]: Remove: archive file [/home/abi/fetcher/tmp/FlaskFarm-4.0.107.tar.gz]
+[2024-05-27 12:10:52] INFO root fetch - processPackages [FlaskFarm]: Remove: archive file [/home/abi/fetcher/tmp/FlaskFarm-4.0.108.tar.gz]
+[2024-05-27 12:10:52] INFO root fetch - main [MainThread]: End processing [FlaskFarm]: success
+[2024-05-27 12:10:52] INFO root fetch - main [MainThread]: Store serial: [23393727]
