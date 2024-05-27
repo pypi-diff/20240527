@@ -1368,3 +1368,51 @@
 [2024-05-27 01:59:37] INFO root fetch - processPackages [py-alpaca-api]: Remove: archive file [/home/abi/fetcher/tmp/py_alpaca_api-0.5.9.tar.gz]
 [2024-05-27 01:59:37] INFO root fetch - main [MainThread]: End processing [py-alpaca-api]: success
 [2024-05-27 01:59:37] INFO root fetch - main [MainThread]: Store serial: [23388846]
+[2024-05-27 02:01:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23388846]
+[2024-05-27 02:01:45] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-27 02:01:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ormspace
+[2024-05-27 02:01:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: itables
+[2024-05-27 02:01:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: silgeai
+[2024-05-27 02:01:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: deposit
+[2024-05-27 02:01:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dkdc
+[2024-05-27 02:01:45] INFO root fetch - processPackages [silgeai]: New version: [1.3.2] Old Version: [1.3.1]
+[2024-05-27 02:01:45] INFO root fetch - processPackages [deposit]: New version: [1.4.42] Old Version: [1.4.41]
+[2024-05-27 02:01:45] INFO root fetch - processPackages [itables]: New version: [2.1.0rc1] Old Version: [2.0.1]
+[2024-05-27 02:01:45] INFO root fetch - processPackages [silgeai]: Downloading https://files.pythonhosted.org/packages/65/c2/41b340c6a05675d86afbd368772313859a855d8ff932feb9b6ef3a19911f/silgeai-1.3.1.tar.gz
+[2024-05-27 02:01:45] INFO root fetch - processPackages [ormspace]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-05-27 02:01:45] INFO root fetch - processPackages [deposit]: Downloading https://files.pythonhosted.org/packages/52/7e/137fb2c99279b28fbb24fbfe728e9b66486aea3752a3c9b7cab39dd15bba/deposit-1.4.41.tar.gz
+[2024-05-27 02:01:45] INFO root fetch - processPackages [dkdc]: New version: [0.6.0] Old Version: [0.5.0]
+[2024-05-27 02:01:45] INFO root fetch - processPackages [itables]: Downloading https://files.pythonhosted.org/packages/a7/70/cacc01bb6895c6a5c6db8f05dbbbea1fbf9355c92d8cdd94c01209f1c832/itables-2.0.1.tar.gz
+[2024-05-27 02:01:46] INFO root fetch - processPackages [ormspace]: Downloading https://files.pythonhosted.org/packages/d1/7e/bffb0b910e7bc4edc22e186cf375d4862dbbac2f6f6334f7974a3e4d4a6c/ormspace-0.3.0.tar.gz
+[2024-05-27 02:01:46] INFO root fetch - processPackages [deposit]: Downloading https://files.pythonhosted.org/packages/2e/44/1dfeb03ed7cc05a90f390f193e23b064a6f6954f62a1a8d214c6311cdf74/deposit-1.4.42.tar.gz
+[2024-05-27 02:01:46] INFO root fetch - processPackages [dkdc]: Downloading https://files.pythonhosted.org/packages/45/58/db3b942dfe4af8e18afffd863ca789efe849ba4427e3c119c29c1d4a5428/dkdc-0.5.0.tar.gz
+[2024-05-27 02:01:46] INFO root fetch - processPackages [silgeai]: Downloading https://files.pythonhosted.org/packages/76/5e/c041f49fd43bc91104c28866682c8a6e3431cb57ca4002119a7fbf8fa0c6/silgeai-1.3.2.tar.gz
+[2024-05-27 02:01:46] INFO root fetch - processPackages [itables]: Downloading https://files.pythonhosted.org/packages/de/cf/772f93bbd008c1cf2fed7e5dd58c6f4b94d5229c75b6a1633cc2e961dada/itables-2.1.0rc1.tar.gz
+[2024-05-27 02:01:46] INFO root fetch - processPackages [deposit]: executing diffoscope
+[2024-05-27 02:01:46] INFO root fetch - processPackages [deposit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deposit-1.4.41.tar.gz tmp/deposit-1.4.42.tar.gz --markdown 20240527/d/deposit/1.4.41-1.4.42/README.md --exclude *.pyd
+[2024-05-27 02:01:46] INFO root fetch - processPackages [silgeai]: executing diffoscope
+[2024-05-27 02:01:46] INFO root fetch - processPackages [silgeai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/silgeai-1.3.1.tar.gz tmp/silgeai-1.3.2.tar.gz --markdown 20240527/s/silgeai/1.3.1-1.3.2/README.md --exclude *.pyd
+[2024-05-27 02:01:46] INFO root fetch - processPackages [ormspace]: Downloading https://files.pythonhosted.org/packages/09/9c/e76a5828657a4bcb200fadb449d939843accf626d9fdca34d73bba3dfbb3/ormspace-0.3.1.tar.gz
+[2024-05-27 02:01:46] INFO root fetch - processPackages [dkdc]: Downloading https://files.pythonhosted.org/packages/05/c8/e2be2919eeb193d84561f0ce267587a29f8cae349fb4b602b6a3eadef5ac/dkdc-0.6.0.tar.gz
+[2024-05-27 02:01:46] INFO root fetch - processPackages [itables]: executing diffoscope
+[2024-05-27 02:01:46] INFO root fetch - processPackages [itables]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/itables-2.0.1.tar.gz tmp/itables-2.1.0rc1.tar.gz --markdown 20240527/i/itables/2.0.1-2.1.0rc1/README.md --exclude *.pyd
+[2024-05-27 02:01:46] INFO root fetch - processPackages [dkdc]: executing diffoscope
+[2024-05-27 02:01:46] INFO root fetch - processPackages [dkdc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dkdc-0.5.0.tar.gz tmp/dkdc-0.6.0.tar.gz --markdown 20240527/d/dkdc/0.5.0-0.6.0/README.md --exclude *.pyd
+[2024-05-27 02:01:46] INFO root fetch - processPackages [ormspace]: executing diffoscope
+[2024-05-27 02:01:46] INFO root fetch - processPackages [ormspace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ormspace-0.3.0.tar.gz tmp/ormspace-0.3.1.tar.gz --markdown 20240527/o/ormspace/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-05-27 02:01:46] INFO root fetch - processPackages [silgeai]: Remove: archive file [/home/abi/fetcher/tmp/silgeai-1.3.1.tar.gz]
+[2024-05-27 02:01:46] INFO root fetch - processPackages [silgeai]: Remove: archive file [/home/abi/fetcher/tmp/silgeai-1.3.2.tar.gz]
+[2024-05-27 02:01:46] INFO root fetch - main [MainThread]: End processing [silgeai]: success
+[2024-05-27 02:01:46] INFO root fetch - processPackages [deposit]: Remove: archive file [/home/abi/fetcher/tmp/deposit-1.4.41.tar.gz]
+[2024-05-27 02:01:46] INFO root fetch - processPackages [deposit]: Remove: archive file [/home/abi/fetcher/tmp/deposit-1.4.42.tar.gz]
+[2024-05-27 02:01:47] INFO root fetch - main [MainThread]: End processing [deposit]: success
+[2024-05-27 02:01:47] INFO root fetch - processPackages [dkdc]: Remove: archive file [/home/abi/fetcher/tmp/dkdc-0.5.0.tar.gz]
+[2024-05-27 02:01:47] INFO root fetch - processPackages [dkdc]: Remove: archive file [/home/abi/fetcher/tmp/dkdc-0.6.0.tar.gz]
+[2024-05-27 02:01:47] INFO root fetch - main [MainThread]: End processing [dkdc]: success
+[2024-05-27 02:01:47] INFO root fetch - processPackages [ormspace]: Remove: archive file [/home/abi/fetcher/tmp/ormspace-0.3.0.tar.gz]
+[2024-05-27 02:01:47] INFO root fetch - processPackages [ormspace]: Remove: archive file [/home/abi/fetcher/tmp/ormspace-0.3.1.tar.gz]
+[2024-05-27 02:01:47] INFO root fetch - main [MainThread]: End processing [ormspace]: success
+[2024-05-27 02:01:51] INFO root fetch - processPackages [itables]: Remove: archive file [/home/abi/fetcher/tmp/itables-2.0.1.tar.gz]
+[2024-05-27 02:01:51] INFO root fetch - processPackages [itables]: Remove: archive file [/home/abi/fetcher/tmp/itables-2.1.0rc1.tar.gz]
+[2024-05-27 02:01:51] INFO root fetch - main [MainThread]: End processing [itables]: success
+[2024-05-27 02:01:51] INFO root fetch - main [MainThread]: Store serial: [23388860]
