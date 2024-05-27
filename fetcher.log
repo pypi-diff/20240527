@@ -11293,3 +11293,81 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 11:41:02] INFO root fetch - processPackages [mkdocs-material]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs_material-9.5.9.tar.gz]
 [2024-05-27 11:41:02] INFO root fetch - main [MainThread]: End processing [mkdocs-material]: success
 [2024-05-27 11:41:02] INFO root fetch - main [MainThread]: Store serial: [23393418]
+[2024-05-27 11:43:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23393418]
+[2024-05-27 11:43:11] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-27 11:43:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: modelpark
+[2024-05-27 11:43:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: testlala
+[2024-05-27 11:43:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pymupdf4llm
+[2024-05-27 11:43:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdktf-cdktf-provider-gitlab
+[2024-05-27 11:43:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lazylinop
+[2024-05-27 11:43:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mountaineer
+[2024-05-27 11:43:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: polars-qt
+[2024-05-27 11:43:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: prophecy-libs
+[2024-05-27 11:43:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: agenta
+[2024-05-27 11:43:12] WARNING root fetch - processPackages [testlala]: Skipping, unable to determine old version
+[2024-05-27 11:43:12] INFO root fetch - main [MainThread]: End processing [testlala] error
+[2024-05-27 11:43:12] INFO root fetch - processPackages [prophecy-libs]: New version: [1.9.2.dev0] Old Version: [1.9.1]
+[2024-05-27 11:43:12] INFO root fetch - processPackages [lazylinop]: New version: [1.9.1a0] Old Version: [1.9.1]
+[2024-05-27 11:43:12] INFO root fetch - processPackages [modelpark]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-05-27 11:43:12] INFO root fetch - processPackages [pymupdf4llm]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-27 11:43:12] INFO root fetch - processPackages [polars-qt]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-05-27 11:43:12] INFO root fetch - processPackages [prophecy-libs]: Downloading https://files.pythonhosted.org/packages/a2/98/56834a07f68f25591fce833c330258dc0f86a4a2e6c5dc46359d7c6ed975/prophecy-libs-1.9.1.tar.gz
+[2024-05-27 11:43:12] INFO root fetch - processPackages [mountaineer]: New version: [0.5.0.dev8] Old Version: [0.5.0.dev7]
+[2024-05-27 11:43:12] INFO root fetch - processPackages [agenta]: New version: [0.9.0] Old Version: [0.8.4]
+[2024-05-27 11:43:12] INFO root fetch - processPackages [cdktf-cdktf-provider-gitlab]: New version: [9.0.3] Old Version: [9.0.2]
+[2024-05-27 11:43:12] INFO root fetch - processPackages [lazylinop]: Downloading https://files.pythonhosted.org/packages/3c/3e/7a581818e7f56d650adade71845d87138c6e65d3bb329b52b20b5d4ed84f/lazylinop-1.9.1-py3-none-any.whl
+[2024-05-27 11:43:12] INFO root fetch - processPackages [modelpark]: Downloading https://files.pythonhosted.org/packages/f8/f3/67681c2b8ee8e0d75e2973aabd3127445b8a34216d5c4765074f362c7e79/modelpark-0.1.7.tar.gz
+[2024-05-27 11:43:12] INFO root fetch - processPackages [mountaineer]: Downloading https://files.pythonhosted.org/packages/52/2a/7d9af617720c38caf42360db1cd032ded12e32b952607badd3ab0f88ff1b/mountaineer-0.5.0.dev7.tar.gz
+[2024-05-27 11:43:12] INFO root fetch - processPackages [pymupdf4llm]: Downloading https://files.pythonhosted.org/packages/dd/83/49b02d48a170ed040ebfaad905cd35055fadf43e99ad4d1fabc1111d96d1/pymupdf4llm-0.0.3.tar.gz
+[2024-05-27 11:43:12] INFO root fetch - processPackages [polars-qt]: Downloading https://files.pythonhosted.org/packages/33/43/450220390ea6f8586f9c178bc66f7372999013a60708134cfe6acf5db821/polars_qt-0.1.7.tar.gz
+[2024-05-27 11:43:12] INFO root fetch - processPackages [cdktf-cdktf-provider-gitlab]: Downloading https://files.pythonhosted.org/packages/88/e3/60d57c9fcc6102776e3bd7723e13c3a6b8d821c384c69321757a4b4ae436/cdktf-cdktf-provider-gitlab-9.0.2.tar.gz
+[2024-05-27 11:43:12] INFO root fetch - processPackages [prophecy-libs]: Downloading https://files.pythonhosted.org/packages/f5/5c/f34985cb5fb82fd8be30d2996b9000f4a57258e29789bcd50253f7e74587/prophecy-libs-1.9.2.dev0.tar.gz
+[2024-05-27 11:43:12] INFO root fetch - processPackages [agenta]: Downloading https://files.pythonhosted.org/packages/e1/b3/694bb4fe67f0b63ef67836f5924bdc436dfb590d7e7da0824cbbc4b71853/agenta-0.8.4.tar.gz
+[2024-05-27 11:43:12] INFO root fetch - processPackages [prophecy-libs]: executing diffoscope
+[2024-05-27 11:43:12] INFO root fetch - processPackages [prophecy-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prophecy-libs-1.9.1.tar.gz tmp/prophecy-libs-1.9.2.dev0.tar.gz --markdown 20240527/p/prophecy-libs/1.9.1-1.9.2.dev0/README.md --exclude *.pyd
+[2024-05-27 11:43:12] INFO root fetch - processPackages [lazylinop]: Downloading https://files.pythonhosted.org/packages/d8/ac/f6789b4ccf99cb84a6ceb2a00b986e2b6748021affe8fe540664b003b1c7/lazylinop-1.9.1a0-py3-none-any.whl
+[2024-05-27 11:43:12] INFO root fetch - processPackages [modelpark]: Downloading https://files.pythonhosted.org/packages/e9/1c/65fa6477b6a31dc7c8fa1c2a071de29b5c918e96808a4ccbc8c385cf3b87/modelpark-0.1.8.tar.gz
+[2024-05-27 11:43:12] INFO root fetch - processPackages [pymupdf4llm]: Downloading https://files.pythonhosted.org/packages/90/58/d52ffc1fec0987ea76eb0fd202479f5f981abf54b63e271195f1ba1b6b20/pymupdf4llm-0.0.4.tar.gz
+[2024-05-27 11:43:12] INFO root fetch - processPackages [polars-qt]: Downloading https://files.pythonhosted.org/packages/ee/bc/4973f1e5557e28230eab9637758c3c632dc8c3510d8715540c6e927b7f81/polars_qt-0.1.8.tar.gz
+[2024-05-27 11:43:12] INFO root fetch - processPackages [modelpark]: executing diffoscope
+[2024-05-27 11:43:12] INFO root fetch - processPackages [modelpark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelpark-0.1.7.tar.gz tmp/modelpark-0.1.8.tar.gz --markdown 20240527/m/modelpark/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-05-27 11:43:12] INFO root fetch - processPackages [pymupdf4llm]: executing diffoscope
+[2024-05-27 11:43:12] INFO root fetch - processPackages [pymupdf4llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymupdf4llm-0.0.3.tar.gz tmp/pymupdf4llm-0.0.4.tar.gz --markdown 20240527/p/pymupdf4llm/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-27 11:43:12] INFO root fetch - processPackages [agenta]: Downloading https://files.pythonhosted.org/packages/f7/a1/73689fd1faf7fbbd3985f8ed9673e4784bae27b1789d6fe5f7e4f001ed89/agenta-0.9.0.tar.gz
+[2024-05-27 11:43:12] INFO root fetch - processPackages [lazylinop]: executing diffoscope
+[2024-05-27 11:43:12] INFO root fetch - processPackages [lazylinop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazylinop-1.9.1-py3-none-any.whl.zip tmp/lazylinop-1.9.1a0-py3-none-any.whl.zip --markdown 20240527/l/lazylinop/1.9.1-1.9.1a0/README.md --exclude *.pyd
+[2024-05-27 11:43:13] INFO root fetch - processPackages [agenta]: executing diffoscope
+[2024-05-27 11:43:13] INFO root fetch - processPackages [agenta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agenta-0.8.4.tar.gz tmp/agenta-0.9.0.tar.gz --markdown 20240527/a/agenta/0.8.4-0.9.0/README.md --exclude *.pyd
+[2024-05-27 11:43:13] INFO root fetch - processPackages [polars-qt]: executing diffoscope
+[2024-05-27 11:43:13] INFO root fetch - processPackages [polars-qt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polars_qt-0.1.7.tar.gz tmp/polars_qt-0.1.8.tar.gz --markdown 20240527/p/polars-qt/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-05-27 11:43:13] INFO root fetch - processPackages [mountaineer]: Downloading https://files.pythonhosted.org/packages/bc/20/9bea0d89ae6c6dcc25e67f5b8fcb056ea37bdb1a39325916a2369e183b5b/mountaineer-0.5.0.dev8.tar.gz
+[2024-05-27 11:43:13] INFO root fetch - processPackages [prophecy-libs]: Remove: archive file [/home/abi/fetcher/tmp/prophecy-libs-1.9.1.tar.gz]
+[2024-05-27 11:43:13] INFO root fetch - processPackages [prophecy-libs]: Remove: archive file [/home/abi/fetcher/tmp/prophecy-libs-1.9.2.dev0.tar.gz]
+[2024-05-27 11:43:13] INFO root fetch - main [MainThread]: End processing [prophecy-libs]: success
+[2024-05-27 11:43:13] INFO root fetch - processPackages [mountaineer]: executing diffoscope
+[2024-05-27 11:43:13] INFO root fetch - processPackages [mountaineer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mountaineer-0.5.0.dev7.tar.gz tmp/mountaineer-0.5.0.dev8.tar.gz --markdown 20240527/m/mountaineer/0.5.0.dev7-0.5.0.dev8/README.md --exclude *.pyd
+[2024-05-27 11:43:13] INFO root fetch - processPackages [modelpark]: Remove: archive file [/home/abi/fetcher/tmp/modelpark-0.1.7.tar.gz]
+[2024-05-27 11:43:13] INFO root fetch - processPackages [modelpark]: Remove: archive file [/home/abi/fetcher/tmp/modelpark-0.1.8.tar.gz]
+[2024-05-27 11:43:13] INFO root fetch - main [MainThread]: End processing [modelpark]: success
+[2024-05-27 11:43:13] INFO root fetch - processPackages [pymupdf4llm]: Remove: archive file [/home/abi/fetcher/tmp/pymupdf4llm-0.0.3.tar.gz]
+[2024-05-27 11:43:13] INFO root fetch - processPackages [pymupdf4llm]: Remove: archive file [/home/abi/fetcher/tmp/pymupdf4llm-0.0.4.tar.gz]
+[2024-05-27 11:43:13] INFO root fetch - main [MainThread]: End processing [pymupdf4llm]: success
+[2024-05-27 11:43:13] INFO root fetch - processPackages [cdktf-cdktf-provider-gitlab]: Downloading https://files.pythonhosted.org/packages/8b/9d/1ba307dd4c9978f8b899414eee43fe5983451d720258ca0469a1ab1593ea/cdktf-cdktf-provider-gitlab-9.0.3.tar.gz
+[2024-05-27 11:43:13] INFO root fetch - processPackages [polars-qt]: Remove: archive file [/home/abi/fetcher/tmp/polars_qt-0.1.7.tar.gz]
+[2024-05-27 11:43:13] INFO root fetch - processPackages [polars-qt]: Remove: archive file [/home/abi/fetcher/tmp/polars_qt-0.1.8.tar.gz]
+[2024-05-27 11:43:13] INFO root fetch - main [MainThread]: End processing [polars-qt]: success
+[2024-05-27 11:43:13] INFO root fetch - processPackages [lazylinop]: Remove: archive file [/home/abi/fetcher/tmp/lazylinop-1.9.1-py3-none-any.whl.zip]
+[2024-05-27 11:43:13] INFO root fetch - processPackages [lazylinop]: Remove: archive file [/home/abi/fetcher/tmp/lazylinop-1.9.1a0-py3-none-any.whl.zip]
+[2024-05-27 11:43:13] INFO root fetch - main [MainThread]: End processing [lazylinop]: success
+[2024-05-27 11:43:13] INFO root fetch - processPackages [agenta]: Remove: archive file [/home/abi/fetcher/tmp/agenta-0.8.4.tar.gz]
+[2024-05-27 11:43:13] INFO root fetch - processPackages [agenta]: Remove: archive file [/home/abi/fetcher/tmp/agenta-0.9.0.tar.gz]
+[2024-05-27 11:43:13] INFO root fetch - main [MainThread]: End processing [agenta]: success
+[2024-05-27 11:43:14] INFO root fetch - processPackages [cdktf-cdktf-provider-gitlab]: executing diffoscope
+[2024-05-27 11:43:14] INFO root fetch - processPackages [cdktf-cdktf-provider-gitlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-gitlab-9.0.2.tar.gz tmp/cdktf-cdktf-provider-gitlab-9.0.3.tar.gz --markdown 20240527/c/cdktf-cdktf-provider-gitlab/9.0.2-9.0.3/README.md --exclude *.pyd
+[2024-05-27 11:43:15] INFO root fetch - processPackages [mountaineer]: Remove: archive file [/home/abi/fetcher/tmp/mountaineer-0.5.0.dev7.tar.gz]
+[2024-05-27 11:43:15] INFO root fetch - processPackages [mountaineer]: Remove: archive file [/home/abi/fetcher/tmp/mountaineer-0.5.0.dev8.tar.gz]
+[2024-05-27 11:43:15] INFO root fetch - main [MainThread]: End processing [mountaineer]: success
+[2024-05-27 11:43:17] INFO root fetch - processPackages [cdktf-cdktf-provider-gitlab]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-gitlab-9.0.2.tar.gz]
+[2024-05-27 11:43:17] INFO root fetch - processPackages [cdktf-cdktf-provider-gitlab]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-gitlab-9.0.3.tar.gz]
+[2024-05-27 11:43:17] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-gitlab]: success
+[2024-05-27 11:43:17] INFO root fetch - main [MainThread]: Store serial: [23393461]
