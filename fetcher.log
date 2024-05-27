@@ -3331,3 +3331,15 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-05-27 04:02:20] INFO root fetch - processPackages [matematikk]: Remove: archive file [/home/abi/fetcher/tmp/matematikk-0.0.99.tar.gz]
 [2024-05-27 04:02:20] INFO root fetch - main [MainThread]: End processing [matematikk]: success
 [2024-05-27 04:02:20] INFO root fetch - main [MainThread]: Store serial: [23389618]
+[2024-05-27 04:04:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23389618]
+[2024-05-27 04:04:29] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-27 04:04:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: proof-of-train
+[2024-05-27 04:04:29] INFO root fetch - processPackages [proof-of-train]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-05-27 04:04:29] INFO root fetch - processPackages [proof-of-train]: Downloading https://files.pythonhosted.org/packages/43/97/8bbd946db7c777856957f38d8c951689b0815e0031e5eebd6396fd507837/proof_of_train-0.1.0.tar.gz
+[2024-05-27 04:04:29] INFO root fetch - processPackages [proof-of-train]: Downloading https://files.pythonhosted.org/packages/d1/8e/615af3ad1cb1dcb3b669f3eedb205ab4d616a90f6d7e9e66a9951f9b1bcb/proof_of_train-0.2.0.tar.gz
+[2024-05-27 04:04:29] INFO root fetch - processPackages [proof-of-train]: executing diffoscope
+[2024-05-27 04:04:29] INFO root fetch - processPackages [proof-of-train]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proof_of_train-0.1.0.tar.gz tmp/proof_of_train-0.2.0.tar.gz --markdown 20240527/p/proof-of-train/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-05-27 04:04:30] INFO root fetch - processPackages [proof-of-train]: Remove: archive file [/home/abi/fetcher/tmp/proof_of_train-0.1.0.tar.gz]
+[2024-05-27 04:04:30] INFO root fetch - processPackages [proof-of-train]: Remove: archive file [/home/abi/fetcher/tmp/proof_of_train-0.2.0.tar.gz]
+[2024-05-27 04:04:30] INFO root fetch - main [MainThread]: End processing [proof-of-train]: success
+[2024-05-27 04:04:30] INFO root fetch - main [MainThread]: Store serial: [23389621]
