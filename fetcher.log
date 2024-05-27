@@ -9620,3 +9620,36 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 10:36:46] INFO root fetch - processPackages [kuzu]: Remove: archive file [/home/abi/fetcher/tmp/kuzu-0.4.3.dev9.tar.gz]
 [2024-05-27 10:36:46] INFO root fetch - main [MainThread]: End processing [kuzu]: success
 [2024-05-27 10:36:46] INFO root fetch - main [MainThread]: Store serial: [23392651]
+[2024-05-27 10:38:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23392651]
+[2024-05-27 10:38:55] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-27 10:38:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyexmars
+[2024-05-27 10:38:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ivande-combiner
+[2024-05-27 10:38:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-botmanager
+[2024-05-27 10:38:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cppiniter
+[2024-05-27 10:38:55] WARNING root fetch - processPackages [pyexmars]: Skipping, unable to determine old version
+[2024-05-27 10:38:55] INFO root fetch - main [MainThread]: End processing [pyexmars] error
+[2024-05-27 10:38:55] INFO root fetch - processPackages [ivande-combiner]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-27 10:38:55] INFO root fetch - processPackages [cppiniter]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-05-27 10:38:55] INFO root fetch - processPackages [django-botmanager]: New version: [0.2.18] Old Version: [0.2.17]
+[2024-05-27 10:38:55] INFO root fetch - processPackages [ivande-combiner]: Downloading https://files.pythonhosted.org/packages/e2/68/4605bffb5a3ac9e99ed7fdb5b2cf4fbd8ce7e3d592151e9678ad20828d98/ivande_combiner-0.0.7.tar.gz
+[2024-05-27 10:38:56] INFO root fetch - processPackages [cppiniter]: Downloading https://files.pythonhosted.org/packages/93/34/3197d374719ad4abf56eecd2a24adcb35bc6f97676bf0164446d3b033099/cppiniter-1.1.8.tar.gz
+[2024-05-27 10:38:56] INFO root fetch - processPackages [django-botmanager]: Downloading https://files.pythonhosted.org/packages/b1/bc/5ff7ab9c0d8dd05a5df1d89f15eabd78efb3c63a4b309e6f4dbf513a4115/django-botmanager-0.2.17.tar.gz
+[2024-05-27 10:38:56] INFO root fetch - processPackages [ivande-combiner]: Downloading https://files.pythonhosted.org/packages/3f/a9/80386ed0c5d112f1438ac694dabdb34f4e73326a821141c1c17b4096135a/ivande_combiner-0.0.8.tar.gz
+[2024-05-27 10:38:56] INFO root fetch - processPackages [ivande-combiner]: executing diffoscope
+[2024-05-27 10:38:56] INFO root fetch - processPackages [ivande-combiner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ivande_combiner-0.0.7.tar.gz tmp/ivande_combiner-0.0.8.tar.gz --markdown 20240527/i/ivande-combiner/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-27 10:38:56] INFO root fetch - processPackages [django-botmanager]: Downloading https://files.pythonhosted.org/packages/9a/ef/963630ea1a4c3f847439ac1ba96a766805ace6c2f22b008bada89df3d321/django_botmanager-0.2.18.tar.gz
+[2024-05-27 10:38:56] INFO root fetch - processPackages [cppiniter]: Downloading https://files.pythonhosted.org/packages/69/18/ba3f779f3a2f178f14fd502c2e24ca68e0bd2d3e356d27a4ac8682f43b06/cppiniter-1.1.9.tar.gz
+[2024-05-27 10:38:56] INFO root fetch - processPackages [django-botmanager]: executing diffoscope
+[2024-05-27 10:38:56] INFO root fetch - processPackages [cppiniter]: executing diffoscope
+[2024-05-27 10:38:56] INFO root fetch - processPackages [django-botmanager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-botmanager-0.2.17.tar.gz tmp/django_botmanager-0.2.18.tar.gz --markdown 20240527/d/django-botmanager/0.2.17-0.2.18/README.md --exclude *.pyd
+[2024-05-27 10:38:56] INFO root fetch - processPackages [cppiniter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cppiniter-1.1.8.tar.gz tmp/cppiniter-1.1.9.tar.gz --markdown 20240527/c/cppiniter/1.1.8-1.1.9/README.md --exclude *.pyd
+[2024-05-27 10:38:57] INFO root fetch - processPackages [ivande-combiner]: Remove: archive file [/home/abi/fetcher/tmp/ivande_combiner-0.0.7.tar.gz]
+[2024-05-27 10:38:57] INFO root fetch - processPackages [ivande-combiner]: Remove: archive file [/home/abi/fetcher/tmp/ivande_combiner-0.0.8.tar.gz]
+[2024-05-27 10:38:57] INFO root fetch - main [MainThread]: End processing [ivande-combiner]: success
+[2024-05-27 10:38:57] INFO root fetch - processPackages [cppiniter]: Remove: archive file [/home/abi/fetcher/tmp/cppiniter-1.1.8.tar.gz]
+[2024-05-27 10:38:57] INFO root fetch - processPackages [cppiniter]: Remove: archive file [/home/abi/fetcher/tmp/cppiniter-1.1.9.tar.gz]
+[2024-05-27 10:38:57] INFO root fetch - main [MainThread]: End processing [cppiniter]: success
+[2024-05-27 10:38:57] INFO root fetch - processPackages [django-botmanager]: Remove: archive file [/home/abi/fetcher/tmp/django-botmanager-0.2.17.tar.gz]
+[2024-05-27 10:38:57] INFO root fetch - processPackages [django-botmanager]: Remove: archive file [/home/abi/fetcher/tmp/django_botmanager-0.2.18.tar.gz]
+[2024-05-27 10:38:57] INFO root fetch - main [MainThread]: End processing [django-botmanager]: success
+[2024-05-27 10:38:57] INFO root fetch - main [MainThread]: Store serial: [23392666]
