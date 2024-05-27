@@ -9512,3 +9512,51 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 10:30:07] INFO root fetch - processPackages [synapse-token-authenticator]: Remove: archive file [/home/abi/fetcher/tmp/synapse_token_authenticator-0.5.0.tar.gz]
 [2024-05-27 10:30:07] INFO root fetch - main [MainThread]: End processing [synapse-token-authenticator]: success
 [2024-05-27 10:30:07] INFO root fetch - main [MainThread]: Store serial: [23392582]
+[2024-05-27 10:32:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23392582]
+[2024-05-27 10:32:16] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-27 10:32:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: huggingface-hub
+[2024-05-27 10:32:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: paperless
+[2024-05-27 10:32:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: thermolib
+[2024-05-27 10:32:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dao-analyzer
+[2024-05-27 10:32:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: unstract-adapters
+[2024-05-27 10:32:16] INFO root fetch - processPackages [dao-analyzer]: New version: [1.3.2.dev2] Old Version: [1.3.1]
+[2024-05-27 10:32:16] INFO root fetch - processPackages [huggingface-hub]: New version: [0.9.1] Old Version: [0.9.0rc3]
+[2024-05-27 10:32:16] INFO root fetch - processPackages [thermolib]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-05-27 10:32:16] INFO root fetch - processPackages [paperless]: New version: [1.5.1] Old Version: [1.5.0]
+[2024-05-27 10:32:16] INFO root fetch - processPackages [unstract-adapters]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-27 10:32:16] INFO root fetch - processPackages [dao-analyzer]: Downloading https://files.pythonhosted.org/packages/3c/4f/211e1e44dc227f59c433169dc91c164ddbddd919577843f9d5f3b59dd323/dao_analyzer-1.3.1.tar.gz
+[2024-05-27 10:32:16] INFO root fetch - processPackages [huggingface-hub]: Downloading https://files.pythonhosted.org/packages/18/22/396f7b9147571df8656841321b502255d5c918c485460fb0f61bd9bc4c10/huggingface_hub-0.9.0rc3.tar.gz
+[2024-05-27 10:32:16] INFO root fetch - processPackages [thermolib]: Downloading https://files.pythonhosted.org/packages/f5/95/9eaab2527c4b4fe259f678606615667f596d38bb392fbb5e353e3a8a3d21/thermolib-0.3.0.tar.gz
+[2024-05-27 10:32:16] INFO root fetch - processPackages [paperless]: Downloading https://files.pythonhosted.org/packages/09/b7/19f6be42228603c96aa19c038f07af6fc26fefcbcc32e899714151742fc0/paperless-1.5.0.tar.gz
+[2024-05-27 10:32:16] INFO root fetch - processPackages [unstract-adapters]: Downloading https://files.pythonhosted.org/packages/e8/8e/065b97ce989e6044404e38526e7f56617c4721e67eb13b24e0b64270bd97/unstract_adapters-0.9.0.tar.gz
+[2024-05-27 10:32:17] INFO root fetch - processPackages [dao-analyzer]: Downloading https://files.pythonhosted.org/packages/f2/02/2d231e6aecfb006c7ff4999facffbc7f3bff6886f02f434fc7f63f50f14e/dao_analyzer-1.3.2.dev2.tar.gz
+[2024-05-27 10:32:17] INFO root fetch - processPackages [huggingface-hub]: Downloading https://files.pythonhosted.org/packages/f2/ba/09da7dd3a60abdba0bdab4391adf26bf74ee3d13ee431cd6edd9c842da05/huggingface_hub-0.9.1.tar.gz
+[2024-05-27 10:32:17] INFO root fetch - processPackages [paperless]: Downloading https://files.pythonhosted.org/packages/e8/ef/dc13b0908b9f2c0714aca319f35877f50c51b70560155f4e80db7200d1b6/paperless-1.5.1.tar.gz
+[2024-05-27 10:32:17] INFO root fetch - processPackages [dao-analyzer]: executing diffoscope
+[2024-05-27 10:32:17] INFO root fetch - processPackages [dao-analyzer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dao_analyzer-1.3.1.tar.gz tmp/dao_analyzer-1.3.2.dev2.tar.gz --markdown 20240527/d/dao-analyzer/1.3.1-1.3.2.dev2/README.md --exclude *.pyd
+[2024-05-27 10:32:17] INFO root fetch - processPackages [huggingface-hub]: executing diffoscope
+[2024-05-27 10:32:17] INFO root fetch - processPackages [huggingface-hub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huggingface_hub-0.9.0rc3.tar.gz tmp/huggingface_hub-0.9.1.tar.gz --markdown 20240527/h/huggingface-hub/0.9.0rc3-0.9.1/README.md --exclude *.pyd
+[2024-05-27 10:32:17] INFO root fetch - processPackages [thermolib]: Downloading https://files.pythonhosted.org/packages/33/e9/cba8be0b0944c12bb215dcd188e72884298c81d41986c6621a09624a9f2e/thermolib-0.3.1.tar.gz
+[2024-05-27 10:32:17] INFO root fetch - processPackages [unstract-adapters]: Downloading https://files.pythonhosted.org/packages/6f/8e/ce2b23e3f8dd41f9d591f7aae8133bb3bff3bf86aa1c663dc8a4ba504c9e/unstract_adapters-0.9.1.tar.gz
+[2024-05-27 10:32:17] INFO root fetch - processPackages [paperless]: executing diffoscope
+[2024-05-27 10:32:17] INFO root fetch - processPackages [paperless]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paperless-1.5.0.tar.gz tmp/paperless-1.5.1.tar.gz --markdown 20240527/p/paperless/1.5.0-1.5.1/README.md --exclude *.pyd
+[2024-05-27 10:32:17] INFO root fetch - processPackages [thermolib]: executing diffoscope
+[2024-05-27 10:32:17] INFO root fetch - processPackages [thermolib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thermolib-0.3.0.tar.gz tmp/thermolib-0.3.1.tar.gz --markdown 20240527/t/thermolib/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-05-27 10:32:17] INFO root fetch - processPackages [unstract-adapters]: executing diffoscope
+[2024-05-27 10:32:17] INFO root fetch - processPackages [unstract-adapters]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unstract_adapters-0.9.0.tar.gz tmp/unstract_adapters-0.9.1.tar.gz --markdown 20240527/u/unstract-adapters/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-27 10:32:18] INFO root fetch - processPackages [huggingface-hub]: Remove: archive file [/home/abi/fetcher/tmp/huggingface_hub-0.9.0rc3.tar.gz]
+[2024-05-27 10:32:18] INFO root fetch - processPackages [huggingface-hub]: Remove: archive file [/home/abi/fetcher/tmp/huggingface_hub-0.9.1.tar.gz]
+[2024-05-27 10:32:18] INFO root fetch - main [MainThread]: End processing [huggingface-hub]: success
+[2024-05-27 10:32:18] INFO root fetch - processPackages [paperless]: Remove: archive file [/home/abi/fetcher/tmp/paperless-1.5.0.tar.gz]
+[2024-05-27 10:32:18] INFO root fetch - processPackages [paperless]: Remove: archive file [/home/abi/fetcher/tmp/paperless-1.5.1.tar.gz]
+[2024-05-27 10:32:18] INFO root fetch - main [MainThread]: End processing [paperless]: success
+[2024-05-27 10:32:18] INFO root fetch - processPackages [unstract-adapters]: Remove: archive file [/home/abi/fetcher/tmp/unstract_adapters-0.9.0.tar.gz]
+[2024-05-27 10:32:18] INFO root fetch - processPackages [unstract-adapters]: Remove: archive file [/home/abi/fetcher/tmp/unstract_adapters-0.9.1.tar.gz]
+[2024-05-27 10:32:18] INFO root fetch - main [MainThread]: End processing [unstract-adapters]: success
+[2024-05-27 10:32:18] INFO root fetch - processPackages [thermolib]: Remove: archive file [/home/abi/fetcher/tmp/thermolib-0.3.0.tar.gz]
+[2024-05-27 10:32:18] INFO root fetch - processPackages [thermolib]: Remove: archive file [/home/abi/fetcher/tmp/thermolib-0.3.1.tar.gz]
+[2024-05-27 10:32:18] INFO root fetch - main [MainThread]: End processing [thermolib]: success
+[2024-05-27 10:32:19] INFO root fetch - processPackages [dao-analyzer]: Remove: archive file [/home/abi/fetcher/tmp/dao_analyzer-1.3.1.tar.gz]
+[2024-05-27 10:32:19] INFO root fetch - processPackages [dao-analyzer]: Remove: archive file [/home/abi/fetcher/tmp/dao_analyzer-1.3.2.dev2.tar.gz]
+[2024-05-27 10:32:19] INFO root fetch - main [MainThread]: End processing [dao-analyzer]: success
+[2024-05-27 10:32:19] INFO root fetch - main [MainThread]: Store serial: [23392600]
