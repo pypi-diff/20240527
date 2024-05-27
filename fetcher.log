@@ -17802,3 +17802,62 @@ EOFError: EOF read where object expected
 [2024-05-27 15:55:06] INFO root fetch - processPackages [django-smartbase-admin]: Remove: archive file [/home/abi/fetcher/tmp/django_smartbase_admin-0.2.9.tar.gz]
 [2024-05-27 15:55:06] INFO root fetch - main [MainThread]: End processing [django-smartbase-admin]: success
 [2024-05-27 15:55:06] INFO root fetch - main [MainThread]: Store serial: [23396585]
+[2024-05-27 15:57:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23396585]
+[2024-05-27 15:57:14] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-27 15:57:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: neurowave-logger
+[2024-05-27 15:57:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: clargs
+[2024-05-27 15:57:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cerebrumscanner
+[2024-05-27 15:57:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pywechat391019
+[2024-05-27 15:57:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: stocknotebridgenew
+[2024-05-27 15:57:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: yeref
+[2024-05-27 15:57:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lions
+[2024-05-27 15:57:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aliyun-python-sdk-oceanbasepro
+[2024-05-27 15:57:15] INFO root fetch - processPackages [lions]: New version: [1.4.2] Old Version: [1.4.1]
+[2024-05-27 15:57:15] INFO root fetch - processPackages [clargs]: New version: [0.9.0a0.dev2] Old Version: [0.9.0a0.dev1]
+[2024-05-27 15:57:15] INFO root fetch - processPackages [pywechat391019]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-27 15:57:15] INFO root fetch - processPackages [aliyun-python-sdk-oceanbasepro]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-27 15:57:15] INFO root fetch - processPackages [yeref]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-27 15:57:15] INFO root fetch - processPackages [clargs]: Downloading https://files.pythonhosted.org/packages/ec/9a/9b3c7f258067de09c176f02b01bba19009839d5e9d5bddc8c87355a48638/clargs-0.9.0a0.dev1.tar.gz
+[2024-05-27 15:57:15] INFO root fetch - processPackages [lions]: Downloading https://files.pythonhosted.org/packages/10/13/f2b94efb2a0a9cbe928b72e2f61ab9dfe1cf37ace29184109ae35dfbaf71/lions-1.4.1.tar.gz
+[2024-05-27 15:57:15] WARNING root fetch - processPackages [stocknotebridgenew]: Skipping, unable to determine old version
+[2024-05-27 15:57:15] INFO root fetch - main [MainThread]: End processing [stocknotebridgenew] error
+[2024-05-27 15:57:15] WARNING root fetch - processPackages [cerebrumscanner]: Skipping, unable to determine old version
+[2024-05-27 15:57:15] INFO root fetch - main [MainThread]: End processing [cerebrumscanner] error
+[2024-05-27 15:57:15] INFO root fetch - processPackages [neurowave-logger]: New version: [0.2.4b0] Old Version: [0.2.3b0]
+[2024-05-27 15:57:15] INFO root fetch - processPackages [aliyun-python-sdk-oceanbasepro]: Downloading https://files.pythonhosted.org/packages/90/5f/1de7337bae3cc1b8f259096a42eec2dca760cbfc604fd20cd82329bab5dd/aliyun-python-sdk-oceanbasepro-1.0.8.tar.gz
+[2024-05-27 15:57:15] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/ec/cb/204e6fbe233bbb61cf29c1b491e8c638c8a843edc47fb4e1d8cc8c26608c/yeref-0.9.8.tar.gz
+[2024-05-27 15:57:15] INFO root fetch - processPackages [pywechat391019]: Downloading https://files.pythonhosted.org/packages/1e/d7/506b126a303e10716d0bce7f75c135554e2b5d7b4eedf2df75611d625711/pywechat391019-0.0.2.tar.gz
+[2024-05-27 15:57:15] WARNING root fetch - processPackages [pywechat391019]: Skipping package: exceeds size limit 17660615>=10485760
+[2024-05-27 15:57:15] INFO root fetch - main [MainThread]: End processing [pywechat391019] error
+[2024-05-27 15:57:15] INFO root fetch - processPackages [aliyun-python-sdk-oceanbasepro]: Downloading https://files.pythonhosted.org/packages/64/6a/7ecb0f58b900d7523fb978fed0b70a92bb9da24c05de4c5becf0068b5f91/aliyun-python-sdk-oceanbasepro-1.0.9.tar.gz
+[2024-05-27 15:57:15] INFO root fetch - processPackages [neurowave-logger]: Downloading https://files.pythonhosted.org/packages/36/1c/e539d7b1156f466794236f0fd64564e7cf31934de1aafaa585c2a94990ef/neurowave_logger-0.2.3b0.tar.gz
+[2024-05-27 15:57:15] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/01/13/0f11bb3dfb27aaf16ed48b0046f50ac65b1fde32662fbc314d53e2558b2d/yeref-0.9.9.tar.gz
+[2024-05-27 15:57:15] INFO root fetch - processPackages [clargs]: Downloading https://files.pythonhosted.org/packages/5f/18/6866f91039dac4c2e326855944eeb0fdbe235853800d29b7e56c5cb2e32b/clargs-0.9.0a0.dev2.tar.gz
+[2024-05-27 15:57:15] INFO root fetch - processPackages [aliyun-python-sdk-oceanbasepro]: executing diffoscope
+[2024-05-27 15:57:15] INFO root fetch - processPackages [aliyun-python-sdk-oceanbasepro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-oceanbasepro-1.0.8.tar.gz tmp/aliyun-python-sdk-oceanbasepro-1.0.9.tar.gz --markdown 20240527/a/aliyun-python-sdk-oceanbasepro/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-27 15:57:15] INFO root fetch - processPackages [lions]: Downloading https://files.pythonhosted.org/packages/53/e0/5c2e0434c55ad76644614f11e33f4497e00cd9e5cb06eb62d890fa08f495/lions-1.4.2.tar.gz
+[2024-05-27 15:57:15] INFO root fetch - processPackages [clargs]: executing diffoscope
+[2024-05-27 15:57:15] INFO root fetch - processPackages [clargs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clargs-0.9.0a0.dev1.tar.gz tmp/clargs-0.9.0a0.dev2.tar.gz --markdown 20240527/c/clargs/0.9.0a0.dev1-0.9.0a0.dev2/README.md --exclude *.pyd
+[2024-05-27 15:57:15] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2024-05-27 15:57:15] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.9.8.tar.gz tmp/yeref-0.9.9.tar.gz --markdown 20240527/y/yeref/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-27 15:57:15] INFO root fetch - processPackages [lions]: executing diffoscope
+[2024-05-27 15:57:15] INFO root fetch - processPackages [lions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lions-1.4.1.tar.gz tmp/lions-1.4.2.tar.gz --markdown 20240527/l/lions/1.4.1-1.4.2/README.md --exclude *.pyd
+[2024-05-27 15:57:15] INFO root fetch - processPackages [neurowave-logger]: Downloading https://files.pythonhosted.org/packages/d7/a2/a30f417603f55efc9a6562338addeec08e60dfdc8971e4fbffb5db632860/neurowave_logger-0.2.4b0.tar.gz
+[2024-05-27 15:57:16] INFO root fetch - processPackages [neurowave-logger]: executing diffoscope
+[2024-05-27 15:57:16] INFO root fetch - processPackages [neurowave-logger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neurowave_logger-0.2.3b0.tar.gz tmp/neurowave_logger-0.2.4b0.tar.gz --markdown 20240527/n/neurowave-logger/0.2.3b0-0.2.4b0/README.md --exclude *.pyd
+[2024-05-27 15:57:16] INFO root fetch - processPackages [clargs]: Remove: archive file [/home/abi/fetcher/tmp/clargs-0.9.0a0.dev1.tar.gz]
+[2024-05-27 15:57:16] INFO root fetch - processPackages [clargs]: Remove: archive file [/home/abi/fetcher/tmp/clargs-0.9.0a0.dev2.tar.gz]
+[2024-05-27 15:57:16] INFO root fetch - main [MainThread]: End processing [clargs]: success
+[2024-05-27 15:57:16] INFO root fetch - processPackages [lions]: Remove: archive file [/home/abi/fetcher/tmp/lions-1.4.1.tar.gz]
+[2024-05-27 15:57:16] INFO root fetch - processPackages [lions]: Remove: archive file [/home/abi/fetcher/tmp/lions-1.4.2.tar.gz]
+[2024-05-27 15:57:16] INFO root fetch - main [MainThread]: End processing [lions]: success
+[2024-05-27 15:57:16] INFO root fetch - processPackages [aliyun-python-sdk-oceanbasepro]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-oceanbasepro-1.0.8.tar.gz]
+[2024-05-27 15:57:16] INFO root fetch - processPackages [aliyun-python-sdk-oceanbasepro]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-oceanbasepro-1.0.9.tar.gz]
+[2024-05-27 15:57:16] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-oceanbasepro]: success
+[2024-05-27 15:57:16] INFO root fetch - processPackages [neurowave-logger]: Remove: archive file [/home/abi/fetcher/tmp/neurowave_logger-0.2.3b0.tar.gz]
+[2024-05-27 15:57:16] INFO root fetch - processPackages [neurowave-logger]: Remove: archive file [/home/abi/fetcher/tmp/neurowave_logger-0.2.4b0.tar.gz]
+[2024-05-27 15:57:16] INFO root fetch - main [MainThread]: End processing [neurowave-logger]: success
+[2024-05-27 15:57:16] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.8.tar.gz]
+[2024-05-27 15:57:16] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.9.tar.gz]
+[2024-05-27 15:57:16] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2024-05-27 15:57:16] INFO root fetch - main [MainThread]: Store serial: [23396612]
