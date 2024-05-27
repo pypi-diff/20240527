@@ -23146,3 +23146,27 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-05-27 19:25:54] INFO root fetch - processPackages [squice]: Remove: archive file [/home/abi/fetcher/tmp/squice-0.5.tar.gz]
 [2024-05-27 19:25:54] INFO root fetch - main [MainThread]: End processing [squice]: success
 [2024-05-27 19:25:54] INFO root fetch - main [MainThread]: Store serial: [23399060]
+[2024-05-27 19:27:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23399060]
+[2024-05-27 19:28:03] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-27 19:28:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sbcli-dev
+[2024-05-27 19:28:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: terminal-ai-assistant
+[2024-05-27 19:28:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: NameExtractor
+[2024-05-27 19:28:03] INFO root fetch - processPackages [terminal-ai-assistant]: New version: [3.0.1] Old Version: [3.0.0]
+[2024-05-27 19:28:03] INFO root fetch - processPackages [sbcli-dev]: New version: [2.7.6] Old Version: [2.7.5]
+[2024-05-27 19:28:03] INFO root fetch - processPackages [sbcli-dev]: Downloading https://files.pythonhosted.org/packages/f3/45/e92f402235b3c6757ac85a8df384df45c2e9be070493255195b3d7df9134/sbcli_dev-2.7.5.zip
+[2024-05-27 19:28:03] WARNING root fetch - processPackages [NameExtractor]: Skipping, unable to determine old version
+[2024-05-27 19:28:03] INFO root fetch - main [MainThread]: End processing [NameExtractor] error
+[2024-05-27 19:28:03] INFO root fetch - processPackages [terminal-ai-assistant]: Downloading https://files.pythonhosted.org/packages/34/0e/f55c6d7b7b2fa398c4a6e20325a668e1a69bcc781228c686b2d38947d8c6/terminal_ai_assistant-3.0.0.tar.gz
+[2024-05-27 19:28:04] INFO root fetch - processPackages [sbcli-dev]: Downloading https://files.pythonhosted.org/packages/3f/57/1bb0c5f817d254c3a4ac0f0a6b3569fe1b4a5f708ad05a36fba151d13fd1/sbcli_dev-2.7.6.zip
+[2024-05-27 19:28:04] INFO root fetch - processPackages [terminal-ai-assistant]: Downloading https://files.pythonhosted.org/packages/52/4d/4b90c19e5805b00b817f2c65318c5863a67630205a3609a98707094dfb80/terminal_ai_assistant-3.0.1.tar.gz
+[2024-05-27 19:28:04] INFO root fetch - processPackages [sbcli-dev]: executing diffoscope
+[2024-05-27 19:28:04] INFO root fetch - processPackages [sbcli-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sbcli_dev-2.7.5.zip tmp/sbcli_dev-2.7.6.zip --markdown 20240527/s/sbcli-dev/2.7.5-2.7.6/README.md --exclude *.pyd
+[2024-05-27 19:28:04] INFO root fetch - processPackages [terminal-ai-assistant]: executing diffoscope
+[2024-05-27 19:28:04] INFO root fetch - processPackages [terminal-ai-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/terminal_ai_assistant-3.0.0.tar.gz tmp/terminal_ai_assistant-3.0.1.tar.gz --markdown 20240527/t/terminal-ai-assistant/3.0.0-3.0.1/README.md --exclude *.pyd
+[2024-05-27 19:28:04] INFO root fetch - processPackages [terminal-ai-assistant]: Remove: archive file [/home/abi/fetcher/tmp/terminal_ai_assistant-3.0.0.tar.gz]
+[2024-05-27 19:28:04] INFO root fetch - processPackages [terminal-ai-assistant]: Remove: archive file [/home/abi/fetcher/tmp/terminal_ai_assistant-3.0.1.tar.gz]
+[2024-05-27 19:28:04] INFO root fetch - main [MainThread]: End processing [terminal-ai-assistant]: success
+[2024-05-27 19:28:05] INFO root fetch - processPackages [sbcli-dev]: Remove: archive file [/home/abi/fetcher/tmp/sbcli_dev-2.7.5.zip]
+[2024-05-27 19:28:05] INFO root fetch - processPackages [sbcli-dev]: Remove: archive file [/home/abi/fetcher/tmp/sbcli_dev-2.7.6.zip]
+[2024-05-27 19:28:05] INFO root fetch - main [MainThread]: End processing [sbcli-dev]: success
+[2024-05-27 19:28:05] INFO root fetch - main [MainThread]: Store serial: [23399130]
