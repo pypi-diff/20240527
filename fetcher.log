@@ -9828,3 +9828,42 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 10:45:33] INFO root fetch - processPackages [imio.events.core]: Remove: archive file [/home/abi/fetcher/tmp/imio.events.core-1.2.9.tar.gz]
 [2024-05-27 10:45:33] INFO root fetch - main [MainThread]: End processing [imio.events.core]: success
 [2024-05-27 10:45:33] INFO root fetch - main [MainThread]: Store serial: [23392808]
+[2024-05-27 10:47:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23392808]
+[2024-05-27 10:47:42] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-27 10:47:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tfp-nightly
+[2024-05-27 10:47:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: alsacommonutils
+[2024-05-27 10:47:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: digitalhub-ml
+[2024-05-27 10:47:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aliyun-python-sdk-sls
+[2024-05-27 10:47:42] INFO root fetch - processPackages [tfp-nightly]: New version: [0.9.0.dev20200114] Old Version: [0.9.0.dev20200113]
+[2024-05-27 10:47:42] INFO root fetch - processPackages [digitalhub-ml]: New version: [0.5.0b3] Old Version: [0.5.0b2]
+[2024-05-27 10:47:42] INFO root fetch - processPackages [aliyun-python-sdk-sls]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-05-27 10:47:42] INFO root fetch - processPackages [alsacommonutils]: New version: [0.2] Old Version: [0.1]
+[2024-05-27 10:47:42] INFO root fetch - processPackages [tfp-nightly]: Downloading https://files.pythonhosted.org/packages/be/16/ebf16b1094e104257af6265eee53833e4f737ef6d11426d959009fa9952a/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl
+[2024-05-27 10:47:42] INFO root fetch - processPackages [digitalhub-ml]: Downloading https://files.pythonhosted.org/packages/97/ec/b6615cbff654be1ec218ef5adca3a1bafdc1ebf12b6974af458f05069b87/digitalhub_ml-0.5.0b2.tar.gz
+[2024-05-27 10:47:42] INFO root fetch - processPackages [aliyun-python-sdk-sls]: Downloading https://files.pythonhosted.org/packages/65/c5/fbf074a5af6238e51b4b391d8f81c49724b3930e80cf6024f1a224ea9539/aliyun-python-sdk-sls-1.1.1.tar.gz
+[2024-05-27 10:47:42] INFO root fetch - processPackages [alsacommonutils]: Downloading https://files.pythonhosted.org/packages/65/a3/d5356bdfd96945285b35895a435b048749b526e2eb412e21334259f6a053/alsacommonutils-0.1-py3-none-any.whl
+[2024-05-27 10:47:43] INFO root fetch - processPackages [tfp-nightly]: Downloading https://files.pythonhosted.org/packages/f1/98/c1f5a754a26ea1f08e3558803ffb67dd65482de4f6bfadc5415573cd3cb7/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl
+[2024-05-27 10:47:43] INFO root fetch - processPackages [aliyun-python-sdk-sls]: Downloading https://files.pythonhosted.org/packages/8d/fb/c6bbbd4dc7362e74b4d9eeb14b85cc519e5925a48cbfe63c4610582130ff/aliyun-python-sdk-sls-1.1.2.tar.gz
+[2024-05-27 10:47:43] INFO root fetch - processPackages [alsacommonutils]: Downloading https://files.pythonhosted.org/packages/c9/1d/8acc7c943faa20e757d3962c6bea574ba28e9e9d3b832abb086b28527165/alsacommonutils-0.2-py3-none-any.whl
+[2024-05-27 10:47:43] INFO root fetch - processPackages [digitalhub-ml]: Downloading https://files.pythonhosted.org/packages/61/e8/f9deb290b11cc7614b75908898871b8ba64bb9b9552bf3c1e971865db9ad/digitalhub_ml-0.5.0b3.tar.gz
+[2024-05-27 10:47:43] INFO root fetch - processPackages [aliyun-python-sdk-sls]: executing diffoscope
+[2024-05-27 10:47:43] INFO root fetch - processPackages [aliyun-python-sdk-sls]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-sls-1.1.1.tar.gz tmp/aliyun-python-sdk-sls-1.1.2.tar.gz --markdown 20240527/a/aliyun-python-sdk-sls/1.1.1-1.1.2/README.md --exclude *.pyd
+[2024-05-27 10:47:43] INFO root fetch - processPackages [alsacommonutils]: executing diffoscope
+[2024-05-27 10:47:43] INFO root fetch - processPackages [alsacommonutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alsacommonutils-0.1-py3-none-any.whl.zip tmp/alsacommonutils-0.2-py3-none-any.whl.zip --markdown 20240527/a/alsacommonutils/0.1-0.2/README.md --exclude *.pyd
+[2024-05-27 10:47:43] INFO root fetch - processPackages [digitalhub-ml]: executing diffoscope
+[2024-05-27 10:47:43] INFO root fetch - processPackages [digitalhub-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digitalhub_ml-0.5.0b2.tar.gz tmp/digitalhub_ml-0.5.0b3.tar.gz --markdown 20240527/d/digitalhub-ml/0.5.0b2-0.5.0b3/README.md --exclude *.pyd
+[2024-05-27 10:47:43] INFO root fetch - processPackages [tfp-nightly]: executing diffoscope
+[2024-05-27 10:47:43] INFO root fetch - processPackages [tfp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip --markdown 20240527/t/tfp-nightly/0.9.0.dev20200113-0.9.0.dev20200114/README.md --exclude *.pyd
+[2024-05-27 10:47:43] INFO root fetch - processPackages [digitalhub-ml]: Remove: archive file [/home/abi/fetcher/tmp/digitalhub_ml-0.5.0b2.tar.gz]
+[2024-05-27 10:47:43] INFO root fetch - processPackages [digitalhub-ml]: Remove: archive file [/home/abi/fetcher/tmp/digitalhub_ml-0.5.0b3.tar.gz]
+[2024-05-27 10:47:43] INFO root fetch - main [MainThread]: End processing [digitalhub-ml]: success
+[2024-05-27 10:47:43] INFO root fetch - processPackages [alsacommonutils]: Remove: archive file [/home/abi/fetcher/tmp/alsacommonutils-0.1-py3-none-any.whl.zip]
+[2024-05-27 10:47:43] INFO root fetch - processPackages [alsacommonutils]: Remove: archive file [/home/abi/fetcher/tmp/alsacommonutils-0.2-py3-none-any.whl.zip]
+[2024-05-27 10:47:43] INFO root fetch - main [MainThread]: End processing [alsacommonutils]: success
+[2024-05-27 10:47:44] INFO root fetch - processPackages [aliyun-python-sdk-sls]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-sls-1.1.1.tar.gz]
+[2024-05-27 10:47:44] INFO root fetch - processPackages [aliyun-python-sdk-sls]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-sls-1.1.2.tar.gz]
+[2024-05-27 10:47:44] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-sls]: success
+[2024-05-27 10:47:46] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip]
+[2024-05-27 10:47:46] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip]
+[2024-05-27 10:47:46] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
+[2024-05-27 10:47:46] INFO root fetch - main [MainThread]: Store serial: [23392820]
