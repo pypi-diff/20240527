@@ -22575,3 +22575,27 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-05-27 18:57:11] INFO root fetch - processPackages [compliance-checker]: Remove: archive file [/home/abi/fetcher/tmp/compliance_checker-5.1.1.tar.gz]
 [2024-05-27 18:57:11] INFO root fetch - main [MainThread]: End processing [compliance-checker]: success
 [2024-05-27 18:57:11] INFO root fetch - main [MainThread]: Store serial: [23398662]
+[2024-05-27 18:59:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23398662]
+[2024-05-27 18:59:20] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-27 18:59:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: licenselib
+[2024-05-27 18:59:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: river-core
+[2024-05-27 18:59:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tracing-auto-instrumentation
+[2024-05-27 18:59:20] INFO root fetch - processPackages [river-core]: New version: [1.6.0] Old Version: [1.5.0]
+[2024-05-27 18:59:20] WARNING root fetch - processPackages [licenselib]: Skipping, unable to determine old version
+[2024-05-27 18:59:20] INFO root fetch - main [MainThread]: End processing [licenselib] error
+[2024-05-27 18:59:20] INFO root fetch - processPackages [tracing-auto-instrumentation]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-27 18:59:20] INFO root fetch - processPackages [tracing-auto-instrumentation]: Downloading https://files.pythonhosted.org/packages/6c/1b/e01aa8aa657b51d34e90244e68a8f05bbfa86334ce1dc76750b3ef9bdfb6/tracing_auto_instrumentation-0.0.3.tar.gz
+[2024-05-27 18:59:20] INFO root fetch - processPackages [river-core]: Downloading https://files.pythonhosted.org/packages/50/fc/ee78bf2d6bf325a652a364d4924708b1cabf3def87310a88f34a341fb542/river_core-1.5.0.tar.gz
+[2024-05-27 18:59:21] INFO root fetch - processPackages [tracing-auto-instrumentation]: Downloading https://files.pythonhosted.org/packages/74/00/24fcc24c9faf3f1a162201fd27f327fa2ccb4ad441f4ed64d1d8270811ca/tracing_auto_instrumentation-0.0.4.tar.gz
+[2024-05-27 18:59:21] INFO root fetch - processPackages [tracing-auto-instrumentation]: executing diffoscope
+[2024-05-27 18:59:21] INFO root fetch - processPackages [tracing-auto-instrumentation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tracing_auto_instrumentation-0.0.3.tar.gz tmp/tracing_auto_instrumentation-0.0.4.tar.gz --markdown 20240527/t/tracing-auto-instrumentation/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-27 18:59:21] INFO root fetch - processPackages [river-core]: Downloading https://files.pythonhosted.org/packages/20/b0/31cf52c63bb3e84deed0e954ca5efafa21a602e71b118d24ecac06a89510/river_core-1.6.0.tar.gz
+[2024-05-27 18:59:21] INFO root fetch - processPackages [river-core]: executing diffoscope
+[2024-05-27 18:59:21] INFO root fetch - processPackages [river-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/river_core-1.5.0.tar.gz tmp/river_core-1.6.0.tar.gz --markdown 20240527/r/river-core/1.5.0-1.6.0/README.md --exclude *.pyd
+[2024-05-27 18:59:21] INFO root fetch - processPackages [tracing-auto-instrumentation]: Remove: archive file [/home/abi/fetcher/tmp/tracing_auto_instrumentation-0.0.3.tar.gz]
+[2024-05-27 18:59:21] INFO root fetch - processPackages [tracing-auto-instrumentation]: Remove: archive file [/home/abi/fetcher/tmp/tracing_auto_instrumentation-0.0.4.tar.gz]
+[2024-05-27 18:59:21] INFO root fetch - main [MainThread]: End processing [tracing-auto-instrumentation]: success
+[2024-05-27 18:59:22] INFO root fetch - processPackages [river-core]: Remove: archive file [/home/abi/fetcher/tmp/river_core-1.5.0.tar.gz]
+[2024-05-27 18:59:22] INFO root fetch - processPackages [river-core]: Remove: archive file [/home/abi/fetcher/tmp/river_core-1.6.0.tar.gz]
+[2024-05-27 18:59:22] INFO root fetch - main [MainThread]: End processing [river-core]: success
+[2024-05-27 18:59:22] INFO root fetch - main [MainThread]: Store serial: [23398675]
