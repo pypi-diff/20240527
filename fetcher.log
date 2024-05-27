@@ -20992,3 +20992,27 @@ EOFError: EOF read where object expected
 [2024-05-27 17:53:10] INFO root fetch - processPackages [tksheet]: Remove: archive file [/home/abi/fetcher/tmp/tksheet-7.2.2.tar.gz]
 [2024-05-27 17:53:10] INFO root fetch - main [MainThread]: End processing [tksheet]: success
 [2024-05-27 17:53:10] INFO root fetch - main [MainThread]: Store serial: [23397900]
+[2024-05-27 17:55:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23397900]
+[2024-05-27 17:55:19] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-27 17:55:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: SMILES-RNN
+[2024-05-27 17:55:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ChatGPTWeb
+[2024-05-27 17:55:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: efel
+[2024-05-27 17:55:19] INFO root fetch - processPackages [efel]: New version: [5.6.9] Old Version: [5.6.8]
+[2024-05-27 17:55:19] WARNING root fetch - processPackages [SMILES-RNN]: Skipping, unable to determine old version
+[2024-05-27 17:55:19] INFO root fetch - main [MainThread]: End processing [SMILES-RNN] error
+[2024-05-27 17:55:19] INFO root fetch - processPackages [ChatGPTWeb]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-27 17:55:19] INFO root fetch - processPackages [efel]: Downloading https://files.pythonhosted.org/packages/79/1e/31cbb4d223fa5779a1791b711bb7cd79f7dad2bf7ab6bce1a22e8e7c0d2f/efel-5.6.8.tar.gz
+[2024-05-27 17:55:19] INFO root fetch - processPackages [ChatGPTWeb]: Downloading https://files.pythonhosted.org/packages/82/0b/2f40072238e539ff3dafbd19d986e0824e96f181027997b032d565a7250f/ChatGPTWeb-0.2.8.tar.gz
+[2024-05-27 17:55:19] INFO root fetch - processPackages [efel]: Downloading https://files.pythonhosted.org/packages/49/8d/514d183040a164204dbbc17e6552e3c6fba522bfada39777899423fa195d/efel-5.6.9.tar.gz
+[2024-05-27 17:55:19] INFO root fetch - processPackages [efel]: executing diffoscope
+[2024-05-27 17:55:19] INFO root fetch - processPackages [efel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/efel-5.6.8.tar.gz tmp/efel-5.6.9.tar.gz --markdown 20240527/e/efel/5.6.8-5.6.9/README.md --exclude *.pyd
+[2024-05-27 17:55:19] INFO root fetch - processPackages [ChatGPTWeb]: Downloading https://files.pythonhosted.org/packages/c2/07/48a39963a051837ad1394281b0a7803bd8e57f7bd348e48ace95874fc0bb/ChatGPTWeb-0.2.9.tar.gz
+[2024-05-27 17:55:20] INFO root fetch - processPackages [ChatGPTWeb]: executing diffoscope
+[2024-05-27 17:55:20] INFO root fetch - processPackages [ChatGPTWeb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ChatGPTWeb-0.2.8.tar.gz tmp/ChatGPTWeb-0.2.9.tar.gz --markdown 20240527/C/ChatGPTWeb/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-27 17:55:20] INFO root fetch - processPackages [efel]: Remove: archive file [/home/abi/fetcher/tmp/efel-5.6.8.tar.gz]
+[2024-05-27 17:55:20] INFO root fetch - processPackages [efel]: Remove: archive file [/home/abi/fetcher/tmp/efel-5.6.9.tar.gz]
+[2024-05-27 17:55:20] INFO root fetch - main [MainThread]: End processing [efel]: success
+[2024-05-27 17:55:20] INFO root fetch - processPackages [ChatGPTWeb]: Remove: archive file [/home/abi/fetcher/tmp/ChatGPTWeb-0.2.8.tar.gz]
+[2024-05-27 17:55:20] INFO root fetch - processPackages [ChatGPTWeb]: Remove: archive file [/home/abi/fetcher/tmp/ChatGPTWeb-0.2.9.tar.gz]
+[2024-05-27 17:55:20] INFO root fetch - main [MainThread]: End processing [ChatGPTWeb]: success
+[2024-05-27 17:55:20] INFO root fetch - main [MainThread]: Store serial: [23397922]
