@@ -5099,3 +5099,24 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 06:14:35] INFO root fetch - processPackages [lckytools]: Remove: archive file [/home/abi/fetcher/tmp/lckytools-0.0.0a6.tar.gz]
 [2024-05-27 06:14:35] INFO root fetch - main [MainThread]: End processing [lckytools]: success
 [2024-05-27 06:14:35] INFO root fetch - main [MainThread]: Store serial: [23390452]
+[2024-05-27 06:16:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23390452]
+[2024-05-27 06:16:44] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-27 06:16:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tree-of-thoughts
+[2024-05-27 06:16:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: assessment-episode-matcher
+[2024-05-27 06:16:45] INFO root fetch - processPackages [assessment-episode-matcher]: New version: [0.5.2] Old Version: [0.4.0]
+[2024-05-27 06:16:45] INFO root fetch - processPackages [tree-of-thoughts]: New version: [0.5.5] Old Version: [0.5.4]
+[2024-05-27 06:16:45] INFO root fetch - processPackages [assessment-episode-matcher]: Downloading https://files.pythonhosted.org/packages/9c/6c/7176b302fd281ac6e47599394cee6dcb9f4668bb079eb247400ba48ebc9b/assessment_episode_matcher-0.4.0.tar.gz
+[2024-05-27 06:16:45] INFO root fetch - processPackages [tree-of-thoughts]: Downloading https://files.pythonhosted.org/packages/8e/2a/ef600f1e78d42336bc26fbe2f9ba750ee442f1e09b2fc1274eddffbdc12c/tree_of_thoughts-0.5.4.tar.gz
+[2024-05-27 06:16:45] INFO root fetch - processPackages [tree-of-thoughts]: Downloading https://files.pythonhosted.org/packages/e8/0a/2057624eb4fe7b4d07191dfe8267caf4af46f7fed51ac870915e47945f34/tree_of_thoughts-0.5.5.tar.gz
+[2024-05-27 06:16:45] INFO root fetch - processPackages [assessment-episode-matcher]: Downloading https://files.pythonhosted.org/packages/a8/8b/80927d3c2485dbe12a80ad42ca396b246af9f1e697b9025f27da14eca373/assessment_episode_matcher-0.5.2.tar.gz
+[2024-05-27 06:16:45] INFO root fetch - processPackages [tree-of-thoughts]: executing diffoscope
+[2024-05-27 06:16:45] INFO root fetch - processPackages [tree-of-thoughts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tree_of_thoughts-0.5.4.tar.gz tmp/tree_of_thoughts-0.5.5.tar.gz --markdown 20240527/t/tree-of-thoughts/0.5.4-0.5.5/README.md --exclude *.pyd
+[2024-05-27 06:16:45] INFO root fetch - processPackages [assessment-episode-matcher]: executing diffoscope
+[2024-05-27 06:16:45] INFO root fetch - processPackages [assessment-episode-matcher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assessment_episode_matcher-0.4.0.tar.gz tmp/assessment_episode_matcher-0.5.2.tar.gz --markdown 20240527/a/assessment-episode-matcher/0.4.0-0.5.2/README.md --exclude *.pyd
+[2024-05-27 06:16:46] INFO root fetch - processPackages [tree-of-thoughts]: Remove: archive file [/home/abi/fetcher/tmp/tree_of_thoughts-0.5.4.tar.gz]
+[2024-05-27 06:16:46] INFO root fetch - processPackages [tree-of-thoughts]: Remove: archive file [/home/abi/fetcher/tmp/tree_of_thoughts-0.5.5.tar.gz]
+[2024-05-27 06:16:46] INFO root fetch - main [MainThread]: End processing [tree-of-thoughts]: success
+[2024-05-27 06:16:46] INFO root fetch - processPackages [assessment-episode-matcher]: Remove: archive file [/home/abi/fetcher/tmp/assessment_episode_matcher-0.4.0.tar.gz]
+[2024-05-27 06:16:46] INFO root fetch - processPackages [assessment-episode-matcher]: Remove: archive file [/home/abi/fetcher/tmp/assessment_episode_matcher-0.5.2.tar.gz]
+[2024-05-27 06:16:46] INFO root fetch - main [MainThread]: End processing [assessment-episode-matcher]: success
+[2024-05-27 06:16:46] INFO root fetch - main [MainThread]: Store serial: [23390458]
