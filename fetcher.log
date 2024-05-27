@@ -16054,3 +16054,63 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 14:55:46] INFO root fetch - processPackages [py-rattler]: Remove: archive file [/home/abi/fetcher/tmp/py_rattler-0.6.0.tar.gz]
 [2024-05-27 14:55:46] INFO root fetch - main [MainThread]: End processing [py-rattler]: success
 [2024-05-27 14:55:46] INFO root fetch - main [MainThread]: Store serial: [23395826]
+[2024-05-27 14:57:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23395826]
+[2024-05-27 14:57:56] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-27 14:57:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ops-py-cert-report
+[2024-05-27 14:57:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: neworder
+[2024-05-27 14:57:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gaitmap
+[2024-05-27 14:57:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gaitmap-mad
+[2024-05-27 14:57:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: plotsurfacetool
+[2024-05-27 14:57:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: motleycrew
+[2024-05-27 14:57:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: djangocms-oidc
+[2024-05-27 14:57:56] INFO root fetch - processPackages [ops-py-cert-report]: New version: [2.0.0] Old Version: [1.0.1]
+[2024-05-27 14:57:56] INFO root fetch - processPackages [ops-py-cert-report]: Downloading https://files.pythonhosted.org/packages/74/b1/d475c55f440edbe0ba72cb60ff5c465011c0a38c7e37ab60bf08c0b63413/ops-py-cert-report-1.0.1.tar.gz
+[2024-05-27 14:57:57] INFO root fetch - processPackages [neworder]: New version: [1.4.2] Old Version: [1.4.1]
+[2024-05-27 14:57:57] INFO root fetch - processPackages [gaitmap-mad]: New version: [2.5.1] Old Version: [2.5.0]
+[2024-05-27 14:57:57] INFO root fetch - processPackages [motleycrew]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-27 14:57:57] INFO root fetch - processPackages [djangocms-oidc]: New version: [4.1.0] Old Version: [4.0.0]
+[2024-05-27 14:57:57] ERROR root fetch - processPackages [plotsurfacetool]: Unable to get metadata: No such project 'plotsurfacetool'
+[2024-05-27 14:57:57] INFO root fetch - processPackages [gaitmap]: New version: [2.5.1] Old Version: [2.5.0]
+[2024-05-27 14:57:57] INFO root fetch - main [MainThread]: End processing [plotsurfacetool] error
+[2024-05-27 14:57:57] INFO root fetch - processPackages [ops-py-cert-report]: Downloading https://files.pythonhosted.org/packages/04/05/a94bb5866dd6a5f19dbcc496e65224da0dcbf7ad62d9974bf2115a8dd379/ops_py_cert_report-2.0.0.tar.gz
+[2024-05-27 14:57:57] INFO root fetch - processPackages [neworder]: Downloading https://files.pythonhosted.org/packages/d4/ea/785b4229eab515ba8cc4bf746cb6e0dd6ac48cb45984e03f07db3771df8e/neworder-1.4.1.tar.gz
+[2024-05-27 14:57:57] INFO root fetch - processPackages [gaitmap-mad]: Downloading https://files.pythonhosted.org/packages/ee/c0/6f127d310b491ecc3f0862ea034e42f7bf0742ce55fc106e484e40083eca/gaitmap_mad-2.5.0.tar.gz
+[2024-05-27 14:57:57] INFO root fetch - processPackages [djangocms-oidc]: Downloading https://files.pythonhosted.org/packages/63/34/ccf54f71557d7222c596b6df009fd7c0be8a41f56e1d08a3d6741dc90ad2/djangocms-oidc-4.0.0.tar.gz
+[2024-05-27 14:57:57] INFO root fetch - processPackages [gaitmap]: Downloading https://files.pythonhosted.org/packages/b2/a6/fab589da713bc7dbc5ff4ff365d8d7ac4663f4c2b8560d5047a45f4cdfbd/gaitmap-2.5.0.tar.gz
+[2024-05-27 14:57:57] INFO root fetch - processPackages [motleycrew]: Downloading https://files.pythonhosted.org/packages/d2/b4/2ef29d48739ca26bd124b8124b5a89d31b535574b8b9f48d902c290b6924/motleycrew-0.1.0.tar.gz
+[2024-05-27 14:57:57] INFO root fetch - processPackages [ops-py-cert-report]: executing diffoscope
+[2024-05-27 14:57:57] INFO root fetch - processPackages [ops-py-cert-report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ops-py-cert-report-1.0.1.tar.gz tmp/ops_py_cert_report-2.0.0.tar.gz --markdown 20240527/o/ops-py-cert-report/1.0.1-2.0.0/README.md --exclude *.pyd
+[2024-05-27 14:57:57] INFO root fetch - processPackages [motleycrew]: Downloading https://files.pythonhosted.org/packages/5e/db/6f77ec37977489a8d8711c1c0438e0d23d7bf16c002346947d8d677fede7/motleycrew-0.1.1.tar.gz
+[2024-05-27 14:57:57] INFO root fetch - processPackages [djangocms-oidc]: Downloading https://files.pythonhosted.org/packages/7b/66/1e7670d97444498bac6f3da5accd06e1a7f40abbe78f41af664a439895fb/djangocms_oidc-4.1.0.tar.gz
+[2024-05-27 14:57:57] INFO root fetch - processPackages [gaitmap-mad]: Downloading https://files.pythonhosted.org/packages/4b/2b/ef8823425b22d9c73f1b96f449cb07364e194d1a77ac083906cd57b05564/gaitmap_mad-2.5.1.tar.gz
+[2024-05-27 14:57:57] INFO root fetch - processPackages [gaitmap]: Downloading https://files.pythonhosted.org/packages/36/90/54f98699b83f1d04bf6d6ddd5c980b5c453e13495ec672fd984e28b80135/gaitmap-2.5.1.tar.gz
+[2024-05-27 14:57:57] INFO root fetch - processPackages [neworder]: Downloading https://files.pythonhosted.org/packages/f8/8d/0f9adb28354b1dbbccce678b15adc3f89fc5c3de74f52eb1d27bd927447e/neworder-1.4.2.tar.gz
+[2024-05-27 14:57:57] INFO root fetch - processPackages [motleycrew]: executing diffoscope
+[2024-05-27 14:57:57] INFO root fetch - processPackages [motleycrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/motleycrew-0.1.0.tar.gz tmp/motleycrew-0.1.1.tar.gz --markdown 20240527/m/motleycrew/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-27 14:57:57] INFO root fetch - processPackages [gaitmap-mad]: executing diffoscope
+[2024-05-27 14:57:57] INFO root fetch - processPackages [gaitmap-mad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gaitmap_mad-2.5.0.tar.gz tmp/gaitmap_mad-2.5.1.tar.gz --markdown 20240527/g/gaitmap-mad/2.5.0-2.5.1/README.md --exclude *.pyd
+[2024-05-27 14:57:57] INFO root fetch - processPackages [djangocms-oidc]: executing diffoscope
+[2024-05-27 14:57:57] INFO root fetch - processPackages [djangocms-oidc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangocms-oidc-4.0.0.tar.gz tmp/djangocms_oidc-4.1.0.tar.gz --markdown 20240527/d/djangocms-oidc/4.0.0-4.1.0/README.md --exclude *.pyd
+[2024-05-27 14:57:57] INFO root fetch - processPackages [gaitmap]: executing diffoscope
+[2024-05-27 14:57:57] INFO root fetch - processPackages [gaitmap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gaitmap-2.5.0.tar.gz tmp/gaitmap-2.5.1.tar.gz --markdown 20240527/g/gaitmap/2.5.0-2.5.1/README.md --exclude *.pyd
+[2024-05-27 14:57:57] INFO root fetch - processPackages [neworder]: executing diffoscope
+[2024-05-27 14:57:57] INFO root fetch - processPackages [neworder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neworder-1.4.1.tar.gz tmp/neworder-1.4.2.tar.gz --markdown 20240527/n/neworder/1.4.1-1.4.2/README.md --exclude *.pyd
+[2024-05-27 14:57:57] INFO root fetch - processPackages [ops-py-cert-report]: Remove: archive file [/home/abi/fetcher/tmp/ops-py-cert-report-1.0.1.tar.gz]
+[2024-05-27 14:57:57] INFO root fetch - processPackages [ops-py-cert-report]: Remove: archive file [/home/abi/fetcher/tmp/ops_py_cert_report-2.0.0.tar.gz]
+[2024-05-27 14:57:57] INFO root fetch - main [MainThread]: End processing [ops-py-cert-report]: success
+[2024-05-27 14:57:58] INFO root fetch - processPackages [gaitmap-mad]: Remove: archive file [/home/abi/fetcher/tmp/gaitmap_mad-2.5.0.tar.gz]
+[2024-05-27 14:57:58] INFO root fetch - processPackages [gaitmap-mad]: Remove: archive file [/home/abi/fetcher/tmp/gaitmap_mad-2.5.1.tar.gz]
+[2024-05-27 14:57:58] INFO root fetch - main [MainThread]: End processing [gaitmap-mad]: success
+[2024-05-27 14:57:58] INFO root fetch - processPackages [djangocms-oidc]: Remove: archive file [/home/abi/fetcher/tmp/djangocms-oidc-4.0.0.tar.gz]
+[2024-05-27 14:57:58] INFO root fetch - processPackages [djangocms-oidc]: Remove: archive file [/home/abi/fetcher/tmp/djangocms_oidc-4.1.0.tar.gz]
+[2024-05-27 14:57:58] INFO root fetch - main [MainThread]: End processing [djangocms-oidc]: success
+[2024-05-27 14:57:58] INFO root fetch - processPackages [neworder]: Remove: archive file [/home/abi/fetcher/tmp/neworder-1.4.1.tar.gz]
+[2024-05-27 14:57:58] INFO root fetch - processPackages [neworder]: Remove: archive file [/home/abi/fetcher/tmp/neworder-1.4.2.tar.gz]
+[2024-05-27 14:57:58] INFO root fetch - main [MainThread]: End processing [neworder]: success
+[2024-05-27 14:57:58] INFO root fetch - processPackages [gaitmap]: Remove: archive file [/home/abi/fetcher/tmp/gaitmap-2.5.0.tar.gz]
+[2024-05-27 14:57:58] INFO root fetch - processPackages [gaitmap]: Remove: archive file [/home/abi/fetcher/tmp/gaitmap-2.5.1.tar.gz]
+[2024-05-27 14:57:58] INFO root fetch - main [MainThread]: End processing [gaitmap]: success
+[2024-05-27 14:57:58] INFO root fetch - processPackages [motleycrew]: Remove: archive file [/home/abi/fetcher/tmp/motleycrew-0.1.0.tar.gz]
+[2024-05-27 14:57:58] INFO root fetch - processPackages [motleycrew]: Remove: archive file [/home/abi/fetcher/tmp/motleycrew-0.1.1.tar.gz]
+[2024-05-27 14:57:58] INFO root fetch - main [MainThread]: End processing [motleycrew]: success
+[2024-05-27 14:57:58] INFO root fetch - main [MainThread]: Store serial: [23395865]
