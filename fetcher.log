@@ -20528,3 +20528,54 @@ EOFError: EOF read where object expected
 [2024-05-27 17:35:22] INFO root fetch - processPackages [pypomes-core]: Remove: archive file [/home/abi/fetcher/tmp/pypomes_core-1.0.9.tar.gz]
 [2024-05-27 17:35:22] INFO root fetch - main [MainThread]: End processing [pypomes-core]: success
 [2024-05-27 17:35:22] INFO root fetch - main [MainThread]: Store serial: [23397741]
+[2024-05-27 17:37:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23397741]
+[2024-05-27 17:37:31] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-27 17:37:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: biobb-pmx
+[2024-05-27 17:37:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: multiply-internship-2024
+[2024-05-27 17:37:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: few-shot-priming
+[2024-05-27 17:37:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rooms-shared-services
+[2024-05-27 17:37:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: probit
+[2024-05-27 17:37:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: craft-ai-sdk
+[2024-05-27 17:37:31] INFO root fetch - processPackages [few-shot-priming]: New version: [0.3.99] Old Version: [0.3.98]
+[2024-05-27 17:37:31] INFO root fetch - processPackages [rooms-shared-services]: New version: [0.1.99] Old Version: [0.1.97]
+[2024-05-27 17:37:31] INFO root fetch - processPackages [probit]: New version: [0.0.2] Old Version: [0.0.0]
+[2024-05-27 17:37:31] INFO root fetch - processPackages [biobb-pmx]: New version: [4.2.0] Old Version: [4.1.0]
+[2024-05-27 17:37:31] WARNING root fetch - processPackages [multiply-internship-2024]: Skipping, unable to determine old version
+[2024-05-27 17:37:31] INFO root fetch - main [MainThread]: End processing [multiply-internship-2024] error
+[2024-05-27 17:37:31] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/eb/67/d15b11d0bfb57369fa16ba7f8c97cd3ddec8f771e6da8f11a3d819004b69/few_shot_priming-0.3.98-py3-none-any.whl
+[2024-05-27 17:37:31] INFO root fetch - processPackages [craft-ai-sdk]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-27 17:37:31] INFO root fetch - processPackages [rooms-shared-services]: Downloading https://files.pythonhosted.org/packages/16/6e/7a35dabe25e96c04274cbd9f69a6e68b4f36dc149e22451fb099f79d153e/rooms_shared_services-0.1.97.tar.gz
+[2024-05-27 17:37:32] INFO root fetch - processPackages [biobb-pmx]: Downloading https://files.pythonhosted.org/packages/37/0f/1fa8ec1e1ecd1b4524795df74b6145cc92de44073c477f96bae9d6e7bef7/biobb_pmx-4.1.0.tar.gz
+[2024-05-27 17:37:32] INFO root fetch - processPackages [probit]: Downloading https://files.pythonhosted.org/packages/41/b2/f133c75578c2f27045f793e4f02cae440b4656211a32e66017e0bc8299ec/probit-0.0.0.tar.gz
+[2024-05-27 17:37:32] INFO root fetch - processPackages [rooms-shared-services]: Downloading https://files.pythonhosted.org/packages/69/d1/238526d33d58183ec73b9cb900a4aea16c13e7618af0394e6c55838d4395/rooms_shared_services-0.1.99.tar.gz
+[2024-05-27 17:37:32] INFO root fetch - processPackages [craft-ai-sdk]: Downloading https://files.pythonhosted.org/packages/37/9a/425e98770d7c632e8edaa1eda238a5459ba6f00ddc434fcf87962f118a27/craft_ai_sdk-0.9.0.tar.gz
+[2024-05-27 17:37:32] INFO root fetch - processPackages [rooms-shared-services]: executing diffoscope
+[2024-05-27 17:37:32] INFO root fetch - processPackages [rooms-shared-services]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rooms_shared_services-0.1.97.tar.gz tmp/rooms_shared_services-0.1.99.tar.gz --markdown 20240527/r/rooms-shared-services/0.1.97-0.1.99/README.md --exclude *.pyd
+[2024-05-27 17:37:32] INFO root fetch - processPackages [biobb-pmx]: Downloading https://files.pythonhosted.org/packages/79/00/10e0e021c6d42f5abd9b35e1ac55f3378f543e07c7adad27ab5c897ad8ef/biobb_pmx-4.2.0.tar.gz
+[2024-05-27 17:37:32] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/ff/11/548f6e96803602e6431dc610d736d401b20fde986f85c35c8ad19a6d0958/few_shot_priming-0.3.99-py3-none-any.whl
+[2024-05-27 17:37:32] INFO root fetch - processPackages [biobb-pmx]: executing diffoscope
+[2024-05-27 17:37:32] INFO root fetch - processPackages [biobb-pmx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biobb_pmx-4.1.0.tar.gz tmp/biobb_pmx-4.2.0.tar.gz --markdown 20240527/b/biobb-pmx/4.1.0-4.2.0/README.md --exclude *.pyd
+[2024-05-27 17:37:32] INFO root fetch - processPackages [probit]: Downloading https://files.pythonhosted.org/packages/ed/d7/16ac87b75e157e745150fa620d9c848831343548dac544aed28f5859046a/probit-0.0.2.tar.gz
+[2024-05-27 17:37:32] INFO root fetch - processPackages [craft-ai-sdk]: Downloading https://files.pythonhosted.org/packages/4b/d1/169475b438f1184af924d80d3cc7cb68caa2e756a9acb5c8cf6eafc0ca61/craft_ai_sdk-0.9.1.tar.gz
+[2024-05-27 17:37:32] INFO root fetch - processPackages [craft-ai-sdk]: executing diffoscope
+[2024-05-27 17:37:32] INFO root fetch - processPackages [craft-ai-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/craft_ai_sdk-0.9.0.tar.gz tmp/craft_ai_sdk-0.9.1.tar.gz --markdown 20240527/c/craft-ai-sdk/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-27 17:37:32] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2024-05-27 17:37:32] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.3.98-py3-none-any.whl.zip tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip --markdown 20240527/f/few-shot-priming/0.3.98-0.3.99/README.md --exclude *.pyd
+[2024-05-27 17:37:32] INFO root fetch - processPackages [probit]: executing diffoscope
+[2024-05-27 17:37:32] INFO root fetch - processPackages [probit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/probit-0.0.0.tar.gz tmp/probit-0.0.2.tar.gz --markdown 20240527/p/probit/0.0.0-0.0.2/README.md --exclude *.pyd
+[2024-05-27 17:37:32] INFO root fetch - processPackages [rooms-shared-services]: Remove: archive file [/home/abi/fetcher/tmp/rooms_shared_services-0.1.97.tar.gz]
+[2024-05-27 17:37:32] INFO root fetch - processPackages [rooms-shared-services]: Remove: archive file [/home/abi/fetcher/tmp/rooms_shared_services-0.1.99.tar.gz]
+[2024-05-27 17:37:32] INFO root fetch - main [MainThread]: End processing [rooms-shared-services]: success
+[2024-05-27 17:37:33] INFO root fetch - processPackages [biobb-pmx]: Remove: archive file [/home/abi/fetcher/tmp/biobb_pmx-4.1.0.tar.gz]
+[2024-05-27 17:37:33] INFO root fetch - processPackages [biobb-pmx]: Remove: archive file [/home/abi/fetcher/tmp/biobb_pmx-4.2.0.tar.gz]
+[2024-05-27 17:37:33] INFO root fetch - main [MainThread]: End processing [biobb-pmx]: success
+[2024-05-27 17:37:33] INFO root fetch - processPackages [probit]: Remove: archive file [/home/abi/fetcher/tmp/probit-0.0.0.tar.gz]
+[2024-05-27 17:37:33] INFO root fetch - processPackages [probit]: Remove: archive file [/home/abi/fetcher/tmp/probit-0.0.2.tar.gz]
+[2024-05-27 17:37:33] INFO root fetch - main [MainThread]: End processing [probit]: success
+[2024-05-27 17:37:33] INFO root fetch - processPackages [craft-ai-sdk]: Remove: archive file [/home/abi/fetcher/tmp/craft_ai_sdk-0.9.0.tar.gz]
+[2024-05-27 17:37:33] INFO root fetch - processPackages [craft-ai-sdk]: Remove: archive file [/home/abi/fetcher/tmp/craft_ai_sdk-0.9.1.tar.gz]
+[2024-05-27 17:37:33] INFO root fetch - main [MainThread]: End processing [craft-ai-sdk]: success
+[2024-05-27 17:37:33] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.98-py3-none-any.whl.zip]
+[2024-05-27 17:37:33] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip]
+[2024-05-27 17:37:33] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2024-05-27 17:37:33] INFO root fetch - main [MainThread]: Store serial: [23397760]
