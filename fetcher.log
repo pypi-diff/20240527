@@ -12090,3 +12090,72 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 12:13:08] INFO root fetch - processPackages [emcache]: Remove: archive file [/home/abi/fetcher/tmp/emcache-1.2.2-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2024-05-27 12:13:08] INFO root fetch - main [MainThread]: End processing [emcache]: success
 [2024-05-27 12:13:08] INFO root fetch - main [MainThread]: Store serial: [23393760]
+[2024-05-27 12:15:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23393760]
+[2024-05-27 12:15:19] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-27 12:15:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yara-python
+[2024-05-27 12:15:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: whatnow
+[2024-05-27 12:15:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dnv-net-runtime
+[2024-05-27 12:15:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: parahash
+[2024-05-27 12:15:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: collective.contact.plonegroup
+[2024-05-27 12:15:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: allnc
+[2024-05-27 12:15:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: whatnow
+[2024-05-27 12:15:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: corebridge
+[2024-05-27 12:15:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: resurfemg
+[2024-05-27 12:15:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: opsramp-analytics-utils
+[2024-05-27 12:15:19] WARNING root fetch - processPackages [whatnow]: Skipping, unable to determine old version
+[2024-05-27 12:15:19] INFO root fetch - main [MainThread]: End processing [whatnow] error
+[2024-05-27 12:15:19] WARNING root fetch - processPackages [whatnow]: Skipping, unable to determine old version
+[2024-05-27 12:15:19] INFO root fetch - main [MainThread]: End processing [whatnow] error
+[2024-05-27 12:15:19] INFO root fetch - processPackages [corebridge]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-05-27 12:15:19] INFO root fetch - processPackages [yara-python]: New version: [4.5.1] Old Version: [4.5.0]
+[2024-05-27 12:15:19] WARNING root fetch - processPackages [parahash]: Skipping, unable to determine old version
+[2024-05-27 12:15:19] INFO root fetch - main [MainThread]: End processing [parahash] error
+[2024-05-27 12:15:19] INFO root fetch - processPackages [corebridge]: Downloading https://files.pythonhosted.org/packages/82/a1/d2c0816522b577ffac2f7f0a47d6c66bbc1e453d5e2821fe9dae8fca18ee/corebridge-0.2.4.tar.gz
+[2024-05-27 12:15:19] INFO root fetch - processPackages [allnc]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-27 12:15:19] INFO root fetch - processPackages [resurfemg]: New version: [0.3.0] Old Version: [0.2.2a0]
+[2024-05-27 12:15:19] WARNING root fetch - processPackages [dnv-net-runtime]: Skipping, unable to determine old version
+[2024-05-27 12:15:19] INFO root fetch - main [MainThread]: End processing [dnv-net-runtime] error
+[2024-05-27 12:15:19] INFO root fetch - processPackages [collective.contact.plonegroup]: New version: [1.9] Old Version: [1.8.1]
+[2024-05-27 12:15:19] INFO root fetch - processPackages [yara-python]: Downloading https://files.pythonhosted.org/packages/62/7b/81789fafcc6167fe8cfd94b3813c0971a083cde142731213007e2456f35b/yara-python-4.5.0.tar.gz
+[2024-05-27 12:15:19] INFO root fetch - processPackages [opsramp-analytics-utils]: New version: [3.5.5] Old Version: [3.5.4]
+[2024-05-27 12:15:19] INFO root fetch - processPackages [corebridge]: Downloading https://files.pythonhosted.org/packages/03/4e/e0c1cb7b92d2e7afd9cfbe7f4ecd23110ca8f258a21e5d123bd0de4d5993/corebridge-0.2.5.tar.gz
+[2024-05-27 12:15:19] INFO root fetch - processPackages [allnc]: Downloading https://files.pythonhosted.org/packages/c0/26/8777bae60710c75cb07974ea263fee2cdf5649273f041fd304f0212ef6d9/allnc-0.1.0.tar.gz
+[2024-05-27 12:15:19] INFO root fetch - processPackages [collective.contact.plonegroup]: Downloading https://files.pythonhosted.org/packages/2e/9b/71ee7ef5c36bd49fd05c91cdc62c20312cbb0af72ec938c27229f920acbf/collective.contact.plonegroup-1.8.1.tar.gz
+[2024-05-27 12:15:19] INFO root fetch - processPackages [yara-python]: Downloading https://files.pythonhosted.org/packages/11/e8/7ad2bb30700bcaaee26bbf0e62aa07e52350e307973eb11f838bbf47c43e/yara_python-4.5.1-cp310-cp310-macosx_10_9_universal2.whl
+[2024-05-27 12:15:19] INFO root fetch - processPackages [resurfemg]: Downloading https://files.pythonhosted.org/packages/7f/d0/21dcceef09d4369ee0b3a5e6fda305e4c5b503ba06cc7c9276ba18f6b81b/resurfemg-0.2.2a0-py3-none-any.whl
+[2024-05-27 12:15:19] INFO root fetch - processPackages [corebridge]: executing diffoscope
+[2024-05-27 12:15:19] INFO root fetch - processPackages [corebridge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/corebridge-0.2.4.tar.gz tmp/corebridge-0.2.5.tar.gz --markdown 20240527/c/corebridge/0.2.4-0.2.5/README.md --exclude *.pyd
+[2024-05-27 12:15:19] INFO root fetch - processPackages [opsramp-analytics-utils]: Downloading https://files.pythonhosted.org/packages/7f/98/7d4911449d8a4432594578d23bb591a4f4f05bcb71576e59b2d7e532c8ff/opsramp-analytics-utils-3.5.4.tar.gz
+[2024-05-27 12:15:19] INFO root fetch - processPackages [yara-python]: executing diffoscope
+[2024-05-27 12:15:19] INFO root fetch - processPackages [yara-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yara-python-4.5.0.tar.gz tmp/yara_python-4.5.1-cp310-cp310-macosx_10_9_universal2.whl.zip --markdown 20240527/y/yara-python/4.5.0-4.5.1/README.md --exclude *.pyd
+[2024-05-27 12:15:19] INFO root fetch - processPackages [allnc]: Downloading https://files.pythonhosted.org/packages/16/72/086cd66d2f8d3f66cf8744a64dc6348db20ae39f836efd2ecc1e9fbfa930/allnc-0.1.1.tar.gz
+[2024-05-27 12:15:20] INFO root fetch - processPackages [resurfemg]: Downloading https://files.pythonhosted.org/packages/74/7d/afd35182264228b538cf3123c45d5afed87da8b9f90c1b7c1f45595edbd7/resurfemg-0.3.0-py3-none-any.whl
+[2024-05-27 12:15:20] INFO root fetch - processPackages [collective.contact.plonegroup]: Downloading https://files.pythonhosted.org/packages/16/34/ee58f99ff322dd11966406911ee6e8ebf03da8824012861e4b44bb5cc757/collective.contact.plonegroup-1.9.tar.gz
+[2024-05-27 12:15:20] INFO root fetch - processPackages [allnc]: executing diffoscope
+[2024-05-27 12:15:20] INFO root fetch - processPackages [allnc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/allnc-0.1.0.tar.gz tmp/allnc-0.1.1.tar.gz --markdown 20240527/a/allnc/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-27 12:15:20] INFO root fetch - processPackages [collective.contact.plonegroup]: executing diffoscope
+[2024-05-27 12:15:20] INFO root fetch - processPackages [collective.contact.plonegroup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/collective.contact.plonegroup-1.8.1.tar.gz tmp/collective.contact.plonegroup-1.9.tar.gz --markdown 20240527/c/collective.contact.plonegroup/1.8.1-1.9/README.md --exclude *.pyd
+[2024-05-27 12:15:20] INFO root fetch - processPackages [resurfemg]: executing diffoscope
+[2024-05-27 12:15:20] INFO root fetch - processPackages [resurfemg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resurfemg-0.2.2a0-py3-none-any.whl.zip tmp/resurfemg-0.3.0-py3-none-any.whl.zip --markdown 20240527/r/resurfemg/0.2.2a0-0.3.0/README.md --exclude *.pyd
+[2024-05-27 12:15:20] INFO root fetch - processPackages [corebridge]: Remove: archive file [/home/abi/fetcher/tmp/corebridge-0.2.4.tar.gz]
+[2024-05-27 12:15:20] INFO root fetch - processPackages [corebridge]: Remove: archive file [/home/abi/fetcher/tmp/corebridge-0.2.5.tar.gz]
+[2024-05-27 12:15:20] INFO root fetch - main [MainThread]: End processing [corebridge]: success
+[2024-05-27 12:15:20] INFO root fetch - processPackages [opsramp-analytics-utils]: Downloading https://files.pythonhosted.org/packages/4f/d0/964f5c806f43738b9540d9fe3e93fcf2def4175f3bfac42b4edb096dd9f1/opsramp-analytics-utils-3.5.5.tar.gz
+[2024-05-27 12:15:20] INFO root fetch - processPackages [yara-python]: Remove: archive file [/home/abi/fetcher/tmp/yara-python-4.5.0.tar.gz]
+[2024-05-27 12:15:20] INFO root fetch - processPackages [yara-python]: Remove: archive file [/home/abi/fetcher/tmp/yara_python-4.5.1-cp310-cp310-macosx_10_9_universal2.whl.zip]
+[2024-05-27 12:15:20] INFO root fetch - main [MainThread]: End processing [yara-python]: success
+[2024-05-27 12:15:20] INFO root fetch - processPackages [allnc]: Remove: archive file [/home/abi/fetcher/tmp/allnc-0.1.0.tar.gz]
+[2024-05-27 12:15:20] INFO root fetch - processPackages [allnc]: Remove: archive file [/home/abi/fetcher/tmp/allnc-0.1.1.tar.gz]
+[2024-05-27 12:15:20] INFO root fetch - main [MainThread]: End processing [allnc]: success
+[2024-05-27 12:15:20] INFO root fetch - processPackages [resurfemg]: Remove: archive file [/home/abi/fetcher/tmp/resurfemg-0.2.2a0-py3-none-any.whl.zip]
+[2024-05-27 12:15:20] INFO root fetch - processPackages [resurfemg]: Remove: archive file [/home/abi/fetcher/tmp/resurfemg-0.3.0-py3-none-any.whl.zip]
+[2024-05-27 12:15:20] INFO root fetch - main [MainThread]: End processing [resurfemg]: success
+[2024-05-27 12:15:21] INFO root fetch - processPackages [collective.contact.plonegroup]: Remove: archive file [/home/abi/fetcher/tmp/collective.contact.plonegroup-1.8.1.tar.gz]
+[2024-05-27 12:15:21] INFO root fetch - processPackages [collective.contact.plonegroup]: Remove: archive file [/home/abi/fetcher/tmp/collective.contact.plonegroup-1.9.tar.gz]
+[2024-05-27 12:15:21] INFO root fetch - main [MainThread]: End processing [collective.contact.plonegroup]: success
+[2024-05-27 12:15:21] INFO root fetch - processPackages [opsramp-analytics-utils]: executing diffoscope
+[2024-05-27 12:15:21] INFO root fetch - processPackages [opsramp-analytics-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opsramp-analytics-utils-3.5.4.tar.gz tmp/opsramp-analytics-utils-3.5.5.tar.gz --markdown 20240527/o/opsramp-analytics-utils/3.5.4-3.5.5/README.md --exclude *.pyd
+[2024-05-27 12:15:22] INFO root fetch - processPackages [opsramp-analytics-utils]: Remove: archive file [/home/abi/fetcher/tmp/opsramp-analytics-utils-3.5.4.tar.gz]
+[2024-05-27 12:15:22] INFO root fetch - processPackages [opsramp-analytics-utils]: Remove: archive file [/home/abi/fetcher/tmp/opsramp-analytics-utils-3.5.5.tar.gz]
+[2024-05-27 12:15:22] INFO root fetch - main [MainThread]: End processing [opsramp-analytics-utils]: success
+[2024-05-27 12:15:22] INFO root fetch - main [MainThread]: Store serial: [23393866]
