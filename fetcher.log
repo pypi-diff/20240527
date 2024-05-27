@@ -23676,3 +23676,95 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-05-27 19:47:45] INFO root fetch - processPackages [linkedit]: Remove: archive file [/home/abi/fetcher/tmp/linkedit-1.0.7.tar.gz]
 [2024-05-27 19:47:45] INFO root fetch - main [MainThread]: End processing [linkedit]: success
 [2024-05-27 19:47:45] INFO root fetch - main [MainThread]: Store serial: [23399356]
+[2024-05-27 19:49:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23399356]
+[2024-05-27 19:49:54] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-27 19:49:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: waii-sdk-py
+[2024-05-27 19:49:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nqrduck-measurement
+[2024-05-27 19:49:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pygalfitm
+[2024-05-27 19:49:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tf-nightly-tpu
+[2024-05-27 19:49:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: librds
+[2024-05-27 19:49:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: exllamav2
+[2024-05-27 19:49:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: resend
+[2024-05-27 19:49:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lawaf
+[2024-05-27 19:49:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: crewlog
+[2024-05-27 19:49:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: archerysec-cli
+[2024-05-27 19:49:54] INFO root fetch - processPackages [librds]: New version: [1.3.8] Old Version: [1.3.7]
+[2024-05-27 19:49:54] INFO root fetch - processPackages [pygalfitm]: New version: [1.4] Old Version: [1.3]
+[2024-05-27 19:49:54] WARNING root fetch - processPackages [crewlog]: Skipping, unable to determine old version
+[2024-05-27 19:49:54] INFO root fetch - processPackages [crewlog]: Start processing: impdar
+[2024-05-27 19:49:54] INFO root fetch - main [MainThread]: End processing [crewlog] error
+[2024-05-27 19:49:54] INFO root fetch - processPackages [nqrduck-measurement]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-27 19:49:54] INFO root fetch - processPackages [waii-sdk-py]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-05-27 19:49:54] INFO root fetch - processPackages [tf-nightly-tpu]: New version: [2.17.0.dev20240527] Old Version: [2.17.0.dev20240526]
+[2024-05-27 19:49:54] INFO root fetch - processPackages [librds]: Downloading https://files.pythonhosted.org/packages/0f/62/a72a746049d4863b1af35aa4a5019d8008681939a941ce125608b7174467/librds-1.3.7.tar.gz
+[2024-05-27 19:49:54] INFO root fetch - processPackages [exllamav2]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-27 19:49:54] INFO root fetch - processPackages [lawaf]: New version: [0.2.1] Old Version: [0.1.0]
+[2024-05-27 19:49:54] INFO root fetch - processPackages [archerysec-cli]: New version: [3.1.9] Old Version: [3.1.8]
+[2024-05-27 19:49:54] INFO root fetch - processPackages [resend]: New version: [2.0.0] Old Version: [1.2.0]
+[2024-05-27 19:49:55] INFO root fetch - processPackages [pygalfitm]: Downloading https://files.pythonhosted.org/packages/69/02/153d46b71ed5e1212bc93d90f412db9b5f6b6db00995616451804e365d6c/pygalfitm-1.3-py3-none-any.whl
+[2024-05-27 19:49:55] INFO root fetch - processPackages [archerysec-cli]: Downloading https://files.pythonhosted.org/packages/df/ac/eec3619c09e1a620e5e3decef5ded577930e31a721beb5ba1078797264a2/archerysec_cli-3.1.8.tar.gz
+[2024-05-27 19:49:55] INFO root fetch - processPackages [impdar]: New version: [1.2.0] Old Version: [1.1.8.post4]
+[2024-05-27 19:49:55] INFO root fetch - processPackages [nqrduck-measurement]: Downloading https://files.pythonhosted.org/packages/0c/bf/0eb62b1778f8cb4f3e1c22450292cbcd5902abee303840726c9c9d9c6903/nqrduck_measurement-0.0.5.tar.gz
+[2024-05-27 19:49:55] INFO root fetch - processPackages [tf-nightly-tpu]: Downloading https://files.pythonhosted.org/packages/b4/6d/2631c3d09a3614279a866028f1f447d1b72991be8755a4607c85e9fff493/tf_nightly_tpu-2.17.0.dev20240526-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-27 19:49:55] INFO root fetch - processPackages [exllamav2]: Downloading https://files.pythonhosted.org/packages/48/c0/e9a7c824bbb9e39ace5e98f2156d18462b0beb250413ec7a1c6f15de4b48/exllamav2-0.1.0-py3-none-any.whl
+[2024-05-27 19:49:55] INFO root fetch - processPackages [waii-sdk-py]: Downloading https://files.pythonhosted.org/packages/66/9c/2c87fc22d28c4ea1b75c79ce5a78be2a0493900c8354fa627df4f02ef50f/waii-sdk-py-1.9.0.tar.gz
+[2024-05-27 19:49:55] INFO root fetch - processPackages [lawaf]: Downloading https://files.pythonhosted.org/packages/a3/d6/a0d646e44aa74da4c009817824a84789b2a076f4ec13e12553127aba3746/lawaf-0.1.0.tar.gz
+[2024-05-27 19:49:55] INFO root fetch - processPackages [resend]: Downloading https://files.pythonhosted.org/packages/0d/3e/199a7755e8301908178adf5a0bdf0e61339601f2a0e4e8cf7af70a0e6b11/resend-1.2.0.tar.gz
+[2024-05-27 19:49:55] WARNING root fetch - processPackages [tf-nightly-tpu]: Skipping package: exceeds size limit 224796260>=10485760
+[2024-05-27 19:49:55] INFO root fetch - main [MainThread]: End processing [tf-nightly-tpu] error
+[2024-05-27 19:49:55] INFO root fetch - processPackages [librds]: Downloading https://files.pythonhosted.org/packages/c9/e8/6461b7ace177b632b79dbe5bbc910750e3e55d4fd64637a73db639041b93/librds-1.3.8.tar.gz
+[2024-05-27 19:49:55] INFO root fetch - processPackages [impdar]: Downloading https://files.pythonhosted.org/packages/83/b6/e1d44e78e8565fa52c7374de34c0e3d16cead9abcef685242d4d350f3e7b/impdar-1.1.8.post4.tar.gz
+[2024-05-27 19:49:55] INFO root fetch - processPackages [pygalfitm]: Downloading https://files.pythonhosted.org/packages/67/58/4bf4a372a85fb8adc891742cff5ed9df150f14c279d15646498e3384b08c/pygalfitm-1.4-py3-none-any.whl
+[2024-05-27 19:49:55] INFO root fetch - processPackages [librds]: executing diffoscope
+[2024-05-27 19:49:55] INFO root fetch - processPackages [librds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/librds-1.3.7.tar.gz tmp/librds-1.3.8.tar.gz --markdown 20240527/l/librds/1.3.7-1.3.8/README.md --exclude *.pyd
+[2024-05-27 19:49:55] INFO root fetch - processPackages [exllamav2]: Downloading https://files.pythonhosted.org/packages/60/94/6af0d7d7e310adaeb55ec445e70cc89c801948b3c283ba62f7b61d5a6c89/exllamav2-0.1.1-py3-none-any.whl
+[2024-05-27 19:49:55] INFO root fetch - processPackages [resend]: Downloading https://files.pythonhosted.org/packages/27/62/0e1d85c902f013e7a505d21f799011420dd455d8593ff9fc80a10d6fb180/resend-2.0.0.tar.gz
+[2024-05-27 19:49:55] INFO root fetch - processPackages [archerysec-cli]: Downloading https://files.pythonhosted.org/packages/0a/32/b1f5adb955402432ce7fe1a3cf641e33eaa1674089ed2768332afef80f8f/archerysec_cli-3.1.9.tar.gz
+[2024-05-27 19:49:55] INFO root fetch - processPackages [pygalfitm]: executing diffoscope
+[2024-05-27 19:49:55] INFO root fetch - processPackages [pygalfitm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygalfitm-1.3-py3-none-any.whl.zip tmp/pygalfitm-1.4-py3-none-any.whl.zip --markdown 20240527/p/pygalfitm/1.3-1.4/README.md --exclude *.pyd
+[2024-05-27 19:49:55] INFO root fetch - processPackages [waii-sdk-py]: Downloading https://files.pythonhosted.org/packages/31/e8/ee7289f00157a5259fec17cd83451e92f8300f69ef9884cef2adb87ca6cf/waii-sdk-py-1.9.1.tar.gz
+[2024-05-27 19:49:55] INFO root fetch - processPackages [lawaf]: Downloading https://files.pythonhosted.org/packages/c9/ae/6737539088ee57ab1e2462abeb7d8aa79ce654ddbc1cc2478f0bd830ead6/lawaf-0.2.1.tar.gz
+[2024-05-27 19:49:55] INFO root fetch - processPackages [resend]: executing diffoscope
+[2024-05-27 19:49:55] INFO root fetch - processPackages [resend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resend-1.2.0.tar.gz tmp/resend-2.0.0.tar.gz --markdown 20240527/r/resend/1.2.0-2.0.0/README.md --exclude *.pyd
+[2024-05-27 19:49:55] INFO root fetch - processPackages [exllamav2]: executing diffoscope
+[2024-05-27 19:49:55] INFO root fetch - processPackages [exllamav2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exllamav2-0.1.0-py3-none-any.whl.zip tmp/exllamav2-0.1.1-py3-none-any.whl.zip --markdown 20240527/e/exllamav2/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-27 19:49:55] INFO root fetch - processPackages [lawaf]: executing diffoscope
+[2024-05-27 19:49:55] INFO root fetch - processPackages [lawaf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lawaf-0.1.0.tar.gz tmp/lawaf-0.2.1.tar.gz --markdown 20240527/l/lawaf/0.1.0-0.2.1/README.md --exclude *.pyd
+[2024-05-27 19:49:55] INFO root fetch - processPackages [archerysec-cli]: executing diffoscope
+[2024-05-27 19:49:55] INFO root fetch - processPackages [archerysec-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/archerysec_cli-3.1.8.tar.gz tmp/archerysec_cli-3.1.9.tar.gz --markdown 20240527/a/archerysec-cli/3.1.8-3.1.9/README.md --exclude *.pyd
+[2024-05-27 19:49:55] INFO root fetch - processPackages [waii-sdk-py]: executing diffoscope
+[2024-05-27 19:49:55] INFO root fetch - processPackages [waii-sdk-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/waii-sdk-py-1.9.0.tar.gz tmp/waii-sdk-py-1.9.1.tar.gz --markdown 20240527/w/waii-sdk-py/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-05-27 19:49:55] INFO root fetch - processPackages [impdar]: Downloading https://files.pythonhosted.org/packages/e2/7b/3928ca7a17b862123ea0368599201e33cf35d1095ddc24ed4d218b2d14e2/impdar-1.2.0-cp39-cp39-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl
+[2024-05-27 19:49:55] INFO root fetch - processPackages [nqrduck-measurement]: Downloading https://files.pythonhosted.org/packages/5a/22/93efb20d8d8e97b095f05f866c99dfa59cc365269677bb38b78de205ec38/nqrduck_measurement-0.0.6.tar.gz
+[2024-05-27 19:49:56] INFO root fetch - processPackages [librds]: Remove: archive file [/home/abi/fetcher/tmp/librds-1.3.7.tar.gz]
+[2024-05-27 19:49:56] INFO root fetch - processPackages [librds]: Remove: archive file [/home/abi/fetcher/tmp/librds-1.3.8.tar.gz]
+[2024-05-27 19:49:56] INFO root fetch - main [MainThread]: End processing [librds]: success
+[2024-05-27 19:49:56] INFO root fetch - processPackages [nqrduck-measurement]: executing diffoscope
+[2024-05-27 19:49:56] INFO root fetch - processPackages [nqrduck-measurement]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nqrduck_measurement-0.0.5.tar.gz tmp/nqrduck_measurement-0.0.6.tar.gz --markdown 20240527/n/nqrduck-measurement/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-27 19:49:56] INFO root fetch - processPackages [pygalfitm]: Remove: archive file [/home/abi/fetcher/tmp/pygalfitm-1.3-py3-none-any.whl.zip]
+[2024-05-27 19:49:56] INFO root fetch - processPackages [pygalfitm]: Remove: archive file [/home/abi/fetcher/tmp/pygalfitm-1.4-py3-none-any.whl.zip]
+[2024-05-27 19:49:56] INFO root fetch - main [MainThread]: End processing [pygalfitm]: success
+[2024-05-27 19:49:56] INFO root fetch - processPackages [resend]: Remove: archive file [/home/abi/fetcher/tmp/resend-1.2.0.tar.gz]
+[2024-05-27 19:49:56] INFO root fetch - processPackages [resend]: Remove: archive file [/home/abi/fetcher/tmp/resend-2.0.0.tar.gz]
+[2024-05-27 19:49:56] INFO root fetch - main [MainThread]: End processing [resend]: success
+[2024-05-27 19:49:56] INFO root fetch - processPackages [archerysec-cli]: Remove: archive file [/home/abi/fetcher/tmp/archerysec_cli-3.1.8.tar.gz]
+[2024-05-27 19:49:56] INFO root fetch - processPackages [archerysec-cli]: Remove: archive file [/home/abi/fetcher/tmp/archerysec_cli-3.1.9.tar.gz]
+[2024-05-27 19:49:56] INFO root fetch - main [MainThread]: End processing [archerysec-cli]: success
+[2024-05-27 19:49:56] INFO root fetch - processPackages [waii-sdk-py]: Remove: archive file [/home/abi/fetcher/tmp/waii-sdk-py-1.9.0.tar.gz]
+[2024-05-27 19:49:56] INFO root fetch - processPackages [waii-sdk-py]: Remove: archive file [/home/abi/fetcher/tmp/waii-sdk-py-1.9.1.tar.gz]
+[2024-05-27 19:49:56] INFO root fetch - main [MainThread]: End processing [waii-sdk-py]: success
+[2024-05-27 19:49:56] INFO root fetch - processPackages [lawaf]: Remove: archive file [/home/abi/fetcher/tmp/lawaf-0.1.0.tar.gz]
+[2024-05-27 19:49:56] INFO root fetch - processPackages [lawaf]: Remove: archive file [/home/abi/fetcher/tmp/lawaf-0.2.1.tar.gz]
+[2024-05-27 19:49:56] INFO root fetch - main [MainThread]: End processing [lawaf]: success
+[2024-05-27 19:49:56] INFO root fetch - processPackages [impdar]: executing diffoscope
+[2024-05-27 19:49:56] INFO root fetch - processPackages [impdar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/impdar-1.1.8.post4.tar.gz tmp/impdar-1.2.0-cp39-cp39-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl.zip --markdown 20240527/i/impdar/1.1.8.post4-1.2.0/README.md --exclude *.pyd
+[2024-05-27 19:49:57] INFO root fetch - processPackages [exllamav2]: Remove: archive file [/home/abi/fetcher/tmp/exllamav2-0.1.0-py3-none-any.whl.zip]
+[2024-05-27 19:49:57] INFO root fetch - processPackages [exllamav2]: Remove: archive file [/home/abi/fetcher/tmp/exllamav2-0.1.1-py3-none-any.whl.zip]
+[2024-05-27 19:49:57] INFO root fetch - main [MainThread]: End processing [exllamav2]: success
+[2024-05-27 19:49:57] INFO root fetch - processPackages [impdar]: Remove: archive file [/home/abi/fetcher/tmp/impdar-1.1.8.post4.tar.gz]
+[2024-05-27 19:49:57] INFO root fetch - processPackages [impdar]: Remove: archive file [/home/abi/fetcher/tmp/impdar-1.2.0-cp39-cp39-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl.zip]
+[2024-05-27 19:49:57] INFO root fetch - main [MainThread]: End processing [impdar]: success
+[2024-05-27 19:49:57] INFO root fetch - processPackages [nqrduck-measurement]: Remove: archive file [/home/abi/fetcher/tmp/nqrduck_measurement-0.0.5.tar.gz]
+[2024-05-27 19:49:57] INFO root fetch - processPackages [nqrduck-measurement]: Remove: archive file [/home/abi/fetcher/tmp/nqrduck_measurement-0.0.6.tar.gz]
+[2024-05-27 19:49:57] INFO root fetch - main [MainThread]: End processing [nqrduck-measurement]: success
+[2024-05-27 19:49:57] INFO root fetch - main [MainThread]: Store serial: [23399425]
