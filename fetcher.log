@@ -8302,3 +8302,18 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 09:31:35] INFO root fetch - processPackages [codegrade]: Remove: archive file [/home/abi/fetcher/tmp/codegrade-16.1.9.tar.gz]
 [2024-05-27 09:31:35] INFO root fetch - main [MainThread]: End processing [codegrade]: success
 [2024-05-27 09:31:35] INFO root fetch - main [MainThread]: Store serial: [23391971]
+[2024-05-27 09:33:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23391971]
+[2024-05-27 09:33:44] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-27 09:33:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xontrib-fzf-completions
+[2024-05-27 09:33:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: worker-dispatcher
+[2024-05-27 09:33:44] WARNING root fetch - processPackages [xontrib-fzf-completions]: Skipping, unable to determine old version
+[2024-05-27 09:33:44] INFO root fetch - main [MainThread]: End processing [xontrib-fzf-completions] error
+[2024-05-27 09:33:44] INFO root fetch - processPackages [worker-dispatcher]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-27 09:33:44] INFO root fetch - processPackages [worker-dispatcher]: Downloading https://files.pythonhosted.org/packages/ff/3c/f25292adb6d7580d2f578ad2cc80a93b6615b618ef0fe312c6a7aa70368c/worker_dispatcher-1.0.2.tar.gz
+[2024-05-27 09:33:44] INFO root fetch - processPackages [worker-dispatcher]: Downloading https://files.pythonhosted.org/packages/66/81/f7a836b5bd035ea808e951fab39438da3118e51a00ecbbddffc51dfdefcd/worker_dispatcher-1.0.3.tar.gz
+[2024-05-27 09:33:45] INFO root fetch - processPackages [worker-dispatcher]: executing diffoscope
+[2024-05-27 09:33:45] INFO root fetch - processPackages [worker-dispatcher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/worker_dispatcher-1.0.2.tar.gz tmp/worker_dispatcher-1.0.3.tar.gz --markdown 20240527/w/worker-dispatcher/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-05-27 09:33:45] INFO root fetch - processPackages [worker-dispatcher]: Remove: archive file [/home/abi/fetcher/tmp/worker_dispatcher-1.0.2.tar.gz]
+[2024-05-27 09:33:45] INFO root fetch - processPackages [worker-dispatcher]: Remove: archive file [/home/abi/fetcher/tmp/worker_dispatcher-1.0.3.tar.gz]
+[2024-05-27 09:33:45] INFO root fetch - main [MainThread]: End processing [worker-dispatcher]: success
+[2024-05-27 09:33:45] INFO root fetch - main [MainThread]: Store serial: [23391979]
