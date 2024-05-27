@@ -12480,3 +12480,47 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 12:30:44] INFO root fetch - processPackages [stam]: Remove: archive file [/home/abi/fetcher/tmp/stam-0.8.2-cp39-cp39-musllinux_1_2_x86_64.whl.zip]
 [2024-05-27 12:30:44] INFO root fetch - main [MainThread]: End processing [stam]: success
 [2024-05-27 12:30:44] INFO root fetch - main [MainThread]: Store serial: [23394050]
+[2024-05-27 12:32:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23394050]
+[2024-05-27 12:32:52] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-27 12:32:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: servicelayer
+[2024-05-27 12:32:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: certora-cli-alpha-master
+[2024-05-27 12:32:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wwpdb.utils.nmr
+[2024-05-27 12:32:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lyytkmain
+[2024-05-27 12:32:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mteb
+[2024-05-27 12:32:53] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20240526.12.55.335529] Old Version: [20240526.12.29.80612]
+[2024-05-27 12:32:53] INFO root fetch - processPackages [lyytkmain]: New version: [1.9] Old Version: [1.8]
+[2024-05-27 12:32:53] INFO root fetch - processPackages [wwpdb.utils.nmr]: New version: [0.36] Old Version: [0.35]
+[2024-05-27 12:32:53] INFO root fetch - processPackages [servicelayer]: New version: [1.9.9] Old Version: [1.9.7]
+[2024-05-27 12:32:53] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/2d/4c/0f058a18d6d2d9bb1253d376a2442497f008e79b852414cfb71af2d2bf3c/certora-cli-alpha-master-20240526.12.29.80612.tar.gz
+[2024-05-27 12:32:53] INFO root fetch - processPackages [mteb]: New version: [1.9.3] Old Version: [1.9.2]
+[2024-05-27 12:32:53] INFO root fetch - processPackages [lyytkmain]: Downloading https://files.pythonhosted.org/packages/93/f9/55fecdd7b3759ba91040a2583a5608935eb5eb76ec8a5bcdb849ff04f989/lyytkmain-1.8.tar.gz
+[2024-05-27 12:32:53] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 14595142>=10485760
+[2024-05-27 12:32:53] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2024-05-27 12:32:53] INFO root fetch - processPackages [wwpdb.utils.nmr]: Downloading https://files.pythonhosted.org/packages/0c/5a/f9b63a0c4878e83e3d19d3cf97155182f1392717f8ab929516416886ea1a/wwpdb_utils_nmr-0.35.tar.gz
+[2024-05-27 12:32:53] INFO root fetch - processPackages [servicelayer]: Downloading https://files.pythonhosted.org/packages/ee/db/1796fab38fcee1f8829f20fd361bcf31f85f757974dd2b15ccd78d6367bd/servicelayer-1.9.7.tar.gz
+[2024-05-27 12:32:53] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/aa/99/be58df74a89833b5d44fbd8f00e5c99b4ca82aa67a9c1487fd782328d3b5/mteb-1.9.2.tar.gz
+[2024-05-27 12:32:53] INFO root fetch - processPackages [lyytkmain]: Downloading https://files.pythonhosted.org/packages/aa/90/ddff16952991ddaefd58d196ca84296d7b085ca577ed033691174f08e73b/lyytkmain-1.9.tar.gz
+[2024-05-27 12:32:53] INFO root fetch - processPackages [servicelayer]: Downloading https://files.pythonhosted.org/packages/97/a6/7dd98e9095ddcfd768ec511ffba0fade37609396a850259086dac16c4924/servicelayer-1.9.9.tar.gz
+[2024-05-27 12:32:53] INFO root fetch - processPackages [lyytkmain]: executing diffoscope
+[2024-05-27 12:32:53] INFO root fetch - processPackages [lyytkmain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lyytkmain-1.8.tar.gz tmp/lyytkmain-1.9.tar.gz --markdown 20240527/l/lyytkmain/1.8-1.9/README.md --exclude *.pyd
+[2024-05-27 12:32:53] INFO root fetch - processPackages [servicelayer]: executing diffoscope
+[2024-05-27 12:32:53] INFO root fetch - processPackages [servicelayer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/servicelayer-1.9.7.tar.gz tmp/servicelayer-1.9.9.tar.gz --markdown 20240527/s/servicelayer/1.9.7-1.9.9/README.md --exclude *.pyd
+[2024-05-27 12:32:53] INFO root fetch - processPackages [wwpdb.utils.nmr]: Downloading https://files.pythonhosted.org/packages/ee/5f/029a56d8a20f098514f4000b314f4e0c51458bd39f7aff855c708ec94d10/wwpdb_utils_nmr-0.36.tar.gz
+[2024-05-27 12:32:54] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/1a/05/483a4778dcfb42b672c3c28ac435e64d386b1df507d3c0059e5da9194653/mteb-1.9.3.tar.gz
+[2024-05-27 12:32:54] INFO root fetch - processPackages [wwpdb.utils.nmr]: executing diffoscope
+[2024-05-27 12:32:54] INFO root fetch - processPackages [wwpdb.utils.nmr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wwpdb_utils_nmr-0.35.tar.gz tmp/wwpdb_utils_nmr-0.36.tar.gz --markdown 20240527/w/wwpdb.utils.nmr/0.35-0.36/README.md --exclude *.pyd
+[2024-05-27 12:32:54] INFO root fetch - processPackages [mteb]: executing diffoscope
+[2024-05-27 12:32:54] INFO root fetch - processPackages [mteb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mteb-1.9.2.tar.gz tmp/mteb-1.9.3.tar.gz --markdown 20240527/m/mteb/1.9.2-1.9.3/README.md --exclude *.pyd
+[2024-05-27 12:32:54] INFO root fetch - processPackages [lyytkmain]: Remove: archive file [/home/abi/fetcher/tmp/lyytkmain-1.8.tar.gz]
+[2024-05-27 12:32:54] INFO root fetch - processPackages [lyytkmain]: Remove: archive file [/home/abi/fetcher/tmp/lyytkmain-1.9.tar.gz]
+[2024-05-27 12:32:54] INFO root fetch - main [MainThread]: End processing [lyytkmain]: success
+[2024-05-27 12:32:54] INFO root fetch - processPackages [servicelayer]: Remove: archive file [/home/abi/fetcher/tmp/servicelayer-1.9.7.tar.gz]
+[2024-05-27 12:32:54] INFO root fetch - processPackages [servicelayer]: Remove: archive file [/home/abi/fetcher/tmp/servicelayer-1.9.9.tar.gz]
+[2024-05-27 12:32:54] INFO root fetch - main [MainThread]: End processing [servicelayer]: success
+[2024-05-27 12:32:57] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.9.2.tar.gz]
+[2024-05-27 12:32:57] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.9.3.tar.gz]
+[2024-05-27 12:32:57] INFO root fetch - main [MainThread]: End processing [mteb]: success
+[2024-05-27 12:32:58] INFO root fetch - processPackages [wwpdb.utils.nmr]: Remove: archive file [/home/abi/fetcher/tmp/wwpdb_utils_nmr-0.35.tar.gz]
+[2024-05-27 12:32:58] INFO root fetch - processPackages [wwpdb.utils.nmr]: Remove: archive file [/home/abi/fetcher/tmp/wwpdb_utils_nmr-0.36.tar.gz]
+[2024-05-27 12:32:58] INFO root fetch - main [MainThread]: End processing [wwpdb.utils.nmr]: success
+[2024-05-27 12:32:58] INFO root fetch - main [MainThread]: Store serial: [23394079]
