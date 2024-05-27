@@ -2320,3 +2320,33 @@
 [2024-05-27 03:01:15] INFO root fetch - processPackages [zetascale]: Remove: archive file [/home/abi/fetcher/tmp/zetascale-2.5.3.tar.gz]
 [2024-05-27 03:01:15] INFO root fetch - main [MainThread]: End processing [zetascale]: success
 [2024-05-27 03:01:15] INFO root fetch - main [MainThread]: Store serial: [23389244]
+[2024-05-27 03:03:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23389244]
+[2024-05-27 03:03:23] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-27 03:03:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: makepyz
+[2024-05-27 03:03:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: opyls
+[2024-05-27 03:03:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: firecrawl-py
+[2024-05-27 03:03:23] INFO root fetch - processPackages [makepyz]: New version: [0.0.1b25] Old Version: [0.0.1b23]
+[2024-05-27 03:03:23] INFO root fetch - processPackages [makepyz]: Downloading https://files.pythonhosted.org/packages/35/f7/fa5f65defb2fa81bb3b890518c98bf972e4b4d0171d01d02fef079eccdbb/makepyz-0.0.1b23.tar.gz
+[2024-05-27 03:03:23] INFO root fetch - processPackages [opyls]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-27 03:03:23] INFO root fetch - processPackages [firecrawl-py]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-27 03:03:23] INFO root fetch - processPackages [opyls]: Downloading https://files.pythonhosted.org/packages/14/74/918bd47db8395099fb139a66b95a3e28d8ca2d89aac0d10cdfd5d9adc4aa/opyls-0.0.7.tar.gz
+[2024-05-27 03:03:23] INFO root fetch - processPackages [makepyz]: Downloading https://files.pythonhosted.org/packages/27/6b/d5a6d0c0311172c1ae7ce38567c99e24b0bbfbb1719187713368acd1361e/makepyz-0.0.1b25.tar.gz
+[2024-05-27 03:03:23] INFO root fetch - processPackages [firecrawl-py]: Downloading https://files.pythonhosted.org/packages/dd/4a/1b2a1f27bd6897bcf92e8afd6be799dfd218e3f13ef4f1d6c4a849631eb5/firecrawl-py-0.0.8.tar.gz
+[2024-05-27 03:03:23] INFO root fetch - processPackages [makepyz]: executing diffoscope
+[2024-05-27 03:03:23] INFO root fetch - processPackages [makepyz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/makepyz-0.0.1b23.tar.gz tmp/makepyz-0.0.1b25.tar.gz --markdown 20240527/m/makepyz/0.0.1b23-0.0.1b25/README.md --exclude *.pyd
+[2024-05-27 03:03:24] INFO root fetch - processPackages [opyls]: Downloading https://files.pythonhosted.org/packages/df/48/9722ac93c2326b9c0c7f380aad86e35bf043e2b77868abc5b4cdd80a9497/opyls-0.0.8.tar.gz
+[2024-05-27 03:03:24] INFO root fetch - processPackages [firecrawl-py]: Downloading https://files.pythonhosted.org/packages/5b/2d/bd36be3347bfa5266084742223768c89101550246ea4d87b7e0354dda17b/firecrawl-py-0.0.9.tar.gz
+[2024-05-27 03:03:24] INFO root fetch - processPackages [opyls]: executing diffoscope
+[2024-05-27 03:03:24] INFO root fetch - processPackages [opyls]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opyls-0.0.7.tar.gz tmp/opyls-0.0.8.tar.gz --markdown 20240527/o/opyls/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-27 03:03:24] INFO root fetch - processPackages [firecrawl-py]: executing diffoscope
+[2024-05-27 03:03:24] INFO root fetch - processPackages [firecrawl-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/firecrawl-py-0.0.8.tar.gz tmp/firecrawl-py-0.0.9.tar.gz --markdown 20240527/f/firecrawl-py/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-27 03:03:24] INFO root fetch - processPackages [makepyz]: Remove: archive file [/home/abi/fetcher/tmp/makepyz-0.0.1b23.tar.gz]
+[2024-05-27 03:03:24] INFO root fetch - processPackages [makepyz]: Remove: archive file [/home/abi/fetcher/tmp/makepyz-0.0.1b25.tar.gz]
+[2024-05-27 03:03:24] INFO root fetch - main [MainThread]: End processing [makepyz]: success
+[2024-05-27 03:03:24] INFO root fetch - processPackages [opyls]: Remove: archive file [/home/abi/fetcher/tmp/opyls-0.0.7.tar.gz]
+[2024-05-27 03:03:24] INFO root fetch - processPackages [opyls]: Remove: archive file [/home/abi/fetcher/tmp/opyls-0.0.8.tar.gz]
+[2024-05-27 03:03:24] INFO root fetch - main [MainThread]: End processing [opyls]: success
+[2024-05-27 03:03:24] INFO root fetch - processPackages [firecrawl-py]: Remove: archive file [/home/abi/fetcher/tmp/firecrawl-py-0.0.8.tar.gz]
+[2024-05-27 03:03:24] INFO root fetch - processPackages [firecrawl-py]: Remove: archive file [/home/abi/fetcher/tmp/firecrawl-py-0.0.9.tar.gz]
+[2024-05-27 03:03:24] INFO root fetch - main [MainThread]: End processing [firecrawl-py]: success
+[2024-05-27 03:03:24] INFO root fetch - main [MainThread]: Store serial: [23389253]
