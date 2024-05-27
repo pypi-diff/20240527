@@ -21749,3 +21749,58 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-05-27 18:21:45] INFO root fetch - processPackages [pipeline-telemetry]: Remove: archive file [/home/abi/fetcher/tmp/pipeline_telemetry-1.1.0.tar.gz]
 [2024-05-27 18:21:45] INFO root fetch - main [MainThread]: End processing [pipeline-telemetry]: success
 [2024-05-27 18:21:45] INFO root fetch - main [MainThread]: Store serial: [23398261]
+[2024-05-27 18:23:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23398261]
+[2024-05-27 18:23:54] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-27 18:23:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: quickQrLib
+[2024-05-27 18:23:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: quickQrLib
+[2024-05-27 18:23:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: datakart
+[2024-05-27 18:23:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: MPSPEnv
+[2024-05-27 18:23:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: zuspec-parser
+[2024-05-27 18:23:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lightorch
+[2024-05-27 18:23:54] INFO root fetch - processPackages [quickQrLib]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-05-27 18:23:54] INFO root fetch - processPackages [quickQrLib]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-05-27 18:23:54] INFO root fetch - processPackages [MPSPEnv]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-27 18:23:54] INFO root fetch - processPackages [lightorch]: New version: [5.0.6] Old Version: [0.0.1]
+[2024-05-27 18:23:54] INFO root fetch - processPackages [datakart]: New version: [1.6.9] Old Version: [1.6.8]
+[2024-05-27 18:23:54] INFO root fetch - processPackages [zuspec-parser]: New version: [0.0.1.9257795183] Old Version: [0.0.1.9230735755]
+[2024-05-27 18:23:54] INFO root fetch - processPackages [quickQrLib]: Downloading https://files.pythonhosted.org/packages/b7/f9/c304427091efbc09dd0026539ff955066a746ef824e2382801b35ea96d7a/quickQrLib-0.2.2.tar.gz
+[2024-05-27 18:23:54] INFO root fetch - processPackages [quickQrLib]: Downloading https://files.pythonhosted.org/packages/b7/f9/c304427091efbc09dd0026539ff955066a746ef824e2382801b35ea96d7a/quickQrLib-0.2.2.tar.gz
+[2024-05-27 18:23:55] INFO root fetch - processPackages [MPSPEnv]: Downloading https://files.pythonhosted.org/packages/77/84/b8909b1fc341a4c00ea584b966ed2082280c25149d965d3f5da41212f637/mpspenv-0.1.3.tar.gz
+[2024-05-27 18:23:55] INFO root fetch - processPackages [lightorch]: Downloading https://files.pythonhosted.org/packages/0e/e6/fd213e391cd628628d34bfe22caf969d0754cc41736f36136be4a9cc20ce/lightorch-0.0.1.tar.gz
+[2024-05-27 18:23:55] INFO root fetch - processPackages [datakart]: Downloading https://files.pythonhosted.org/packages/36/e4/fc0965bff80fceba41b3741c4cc22ecfe8ea95b175b4bb14efb770f55695/datakart-1.6.8.tar.gz
+[2024-05-27 18:23:55] INFO root fetch - processPackages [zuspec-parser]: Downloading https://files.pythonhosted.org/packages/26/b8/1482db146fff6f63ae2f6f458f8f1f5ed0d5140d3849d08bc9b089473c6b/zuspec_parser-0.0.1.9230735755-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-27 18:23:55] INFO root fetch - processPackages [quickQrLib]: Downloading https://files.pythonhosted.org/packages/4f/c6/28a93422f844fe15ea2064ce15e198d6c57ca5f83a0af9d5eaf24bc0d8e3/quickQrLib-0.2.3.tar.gz
+[2024-05-27 18:23:55] INFO root fetch - processPackages [quickQrLib]: Downloading https://files.pythonhosted.org/packages/4f/c6/28a93422f844fe15ea2064ce15e198d6c57ca5f83a0af9d5eaf24bc0d8e3/quickQrLib-0.2.3.tar.gz
+[2024-05-27 18:23:55] INFO root fetch - processPackages [MPSPEnv]: Downloading https://files.pythonhosted.org/packages/de/f1/7b0b075f4752c89070fb0b42b312882ad0e51beaee00b298ecabccf667ad/mpspenv-0.1.4.tar.gz
+[2024-05-27 18:23:55] INFO root fetch - processPackages [quickQrLib]: executing diffoscope
+[2024-05-27 18:23:55] INFO root fetch - processPackages [quickQrLib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickQrLib-0.2.2.tar.gz tmp/quickQrLib-0.2.3.tar.gz --markdown 20240527/q/quickQrLib/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-05-27 18:23:55] INFO root fetch - processPackages [quickQrLib]: executing diffoscope
+[2024-05-27 18:23:55] INFO root fetch - processPackages [quickQrLib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickQrLib-0.2.2.tar.gz tmp/quickQrLib-0.2.3.tar.gz --markdown 20240527/q/quickQrLib/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-05-27 18:23:55] INFO root fetch - processPackages [datakart]: Downloading https://files.pythonhosted.org/packages/b9/22/5b8941d89905df74cfb3d0c346b93c6a92f115601df5b5be789df37e06e0/datakart-1.6.9.tar.gz
+[2024-05-27 18:23:55] INFO root fetch - processPackages [MPSPEnv]: executing diffoscope
+[2024-05-27 18:23:55] INFO root fetch - processPackages [MPSPEnv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpspenv-0.1.3.tar.gz tmp/mpspenv-0.1.4.tar.gz --markdown 20240527/M/MPSPEnv/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-27 18:23:55] INFO root fetch - processPackages [lightorch]: Downloading https://files.pythonhosted.org/packages/f3/1d/052fde71020cd76fadd34ff9fc134c49d2ba52b083de6e09ec1d3726b024/lightorch-5.0.6.tar.gz
+[2024-05-27 18:23:55] INFO root fetch - processPackages [datakart]: executing diffoscope
+[2024-05-27 18:23:55] INFO root fetch - processPackages [datakart]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datakart-1.6.8.tar.gz tmp/datakart-1.6.9.tar.gz --markdown 20240527/d/datakart/1.6.8-1.6.9/README.md --exclude *.pyd
+[2024-05-27 18:23:55] INFO root fetch - processPackages [lightorch]: executing diffoscope
+[2024-05-27 18:23:55] INFO root fetch - processPackages [lightorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightorch-0.0.1.tar.gz tmp/lightorch-5.0.6.tar.gz --markdown 20240527/l/lightorch/0.0.1-5.0.6/README.md --exclude *.pyd
+[2024-05-27 18:23:56] INFO root fetch - processPackages [zuspec-parser]: Downloading https://files.pythonhosted.org/packages/ef/df/a94522777ae87f258c8e7481e8dc9397dc7122224e75c1b50f665b0ad584/zuspec_parser-0.0.1.9257795183-cp312-cp312-macosx_14_0_arm64.whl
+[2024-05-27 18:23:56] INFO root fetch - processPackages [quickQrLib]: Remove: archive file [/home/abi/fetcher/tmp/quickQrLib-0.2.2.tar.gz]
+[2024-05-27 18:23:56] INFO root fetch - processPackages [quickQrLib]: Remove: archive file [/home/abi/fetcher/tmp/quickQrLib-0.2.3.tar.gz]
+[2024-05-27 18:23:56] INFO root fetch - main [MainThread]: End processing [quickQrLib]: success
+[2024-05-27 18:23:56] INFO root fetch - main [MainThread]: End processing [quickQrLib]: success
+[2024-05-27 18:23:56] INFO root fetch - processPackages [MPSPEnv]: Remove: archive file [/home/abi/fetcher/tmp/mpspenv-0.1.3.tar.gz]
+[2024-05-27 18:23:56] INFO root fetch - processPackages [MPSPEnv]: Remove: archive file [/home/abi/fetcher/tmp/mpspenv-0.1.4.tar.gz]
+[2024-05-27 18:23:56] INFO root fetch - main [MainThread]: End processing [MPSPEnv]: success
+[2024-05-27 18:23:56] INFO root fetch - processPackages [lightorch]: Remove: archive file [/home/abi/fetcher/tmp/lightorch-0.0.1.tar.gz]
+[2024-05-27 18:23:56] INFO root fetch - processPackages [lightorch]: Remove: archive file [/home/abi/fetcher/tmp/lightorch-5.0.6.tar.gz]
+[2024-05-27 18:23:56] INFO root fetch - main [MainThread]: End processing [lightorch]: success
+[2024-05-27 18:23:56] INFO root fetch - processPackages [zuspec-parser]: executing diffoscope
+[2024-05-27 18:23:56] INFO root fetch - processPackages [zuspec-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zuspec_parser-0.0.1.9230735755-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/zuspec_parser-0.0.1.9257795183-cp312-cp312-macosx_14_0_arm64.whl.zip --markdown 20240527/z/zuspec-parser/0.0.1.9230735755-0.0.1.9257795183/README.md --exclude *.pyd
+[2024-05-27 18:23:56] INFO root fetch - processPackages [datakart]: Remove: archive file [/home/abi/fetcher/tmp/datakart-1.6.8.tar.gz]
+[2024-05-27 18:23:56] INFO root fetch - processPackages [datakart]: Remove: archive file [/home/abi/fetcher/tmp/datakart-1.6.9.tar.gz]
+[2024-05-27 18:23:56] INFO root fetch - main [MainThread]: End processing [datakart]: success
+[2024-05-27 18:23:59] INFO root fetch - processPackages [zuspec-parser]: Remove: archive file [/home/abi/fetcher/tmp/zuspec_parser-0.0.1.9230735755-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-27 18:23:59] INFO root fetch - processPackages [zuspec-parser]: Remove: archive file [/home/abi/fetcher/tmp/zuspec_parser-0.0.1.9257795183-cp312-cp312-macosx_14_0_arm64.whl.zip]
+[2024-05-27 18:23:59] INFO root fetch - main [MainThread]: End processing [zuspec-parser]: success
+[2024-05-27 18:23:59] INFO root fetch - main [MainThread]: Store serial: [23398276]
