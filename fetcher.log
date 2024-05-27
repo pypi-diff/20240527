@@ -9476,3 +9476,27 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 10:25:47] INFO root fetch - processPackages [dao-analyzer]: Remove: archive file [/home/abi/fetcher/tmp/dao_analyzer-1.3.2.dev2.tar.gz]
 [2024-05-27 10:25:47] INFO root fetch - main [MainThread]: End processing [dao-analyzer]: success
 [2024-05-27 10:25:47] INFO root fetch - main [MainThread]: Store serial: [23392568]
+[2024-05-27 10:27:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23392568]
+[2024-05-27 10:27:56] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-27 10:27:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ai2-kit
+[2024-05-27 10:27:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pathway
+[2024-05-27 10:27:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pygomo
+[2024-05-27 10:27:56] INFO root fetch - processPackages [ai2-kit]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-27 10:27:56] WARNING root fetch - processPackages [pygomo]: Skipping, unable to determine old version
+[2024-05-27 10:27:56] INFO root fetch - main [MainThread]: End processing [pygomo] error
+[2024-05-27 10:27:56] INFO root fetch - processPackages [ai2-kit]: Downloading https://files.pythonhosted.org/packages/2f/ac/f68fb35a03f26fbbf6dcc4c0484b2a2c730f858907b176791f95259979fa/ai2_kit-0.9.8.tar.gz
+[2024-05-27 10:27:56] INFO root fetch - processPackages [pathway]: New version: [0.post1] Old Version: [0.dev0]
+[2024-05-27 10:27:56] INFO root fetch - processPackages [ai2-kit]: Downloading https://files.pythonhosted.org/packages/92/7d/d7c2c21a8ae2d8df9e79cbff8b4677c6171799dbb041ec440b5827feeea9/ai2_kit-0.9.9.tar.gz
+[2024-05-27 10:27:57] INFO root fetch - processPackages [pathway]: Downloading https://files.pythonhosted.org/packages/e0/02/fb36638c9f3fe2923cfe9d746323617f43f70019ae52c39cd843706b3cd1/pathway-0.dev0.tar.gz
+[2024-05-27 10:27:57] INFO root fetch - processPackages [ai2-kit]: executing diffoscope
+[2024-05-27 10:27:57] INFO root fetch - processPackages [ai2-kit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai2_kit-0.9.8.tar.gz tmp/ai2_kit-0.9.9.tar.gz --markdown 20240527/a/ai2-kit/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-27 10:27:57] INFO root fetch - processPackages [pathway]: Downloading https://files.pythonhosted.org/packages/66/84/5b59ac757d5591b5ed60573cf6ff867bb7023232ce007e988302fbdc2275/pathway-0.post1.tar.gz
+[2024-05-27 10:27:57] INFO root fetch - processPackages [pathway]: executing diffoscope
+[2024-05-27 10:27:57] INFO root fetch - processPackages [pathway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pathway-0.dev0.tar.gz tmp/pathway-0.post1.tar.gz --markdown 20240527/p/pathway/0.dev0-0.post1/README.md --exclude *.pyd
+[2024-05-27 10:27:57] INFO root fetch - processPackages [ai2-kit]: Remove: archive file [/home/abi/fetcher/tmp/ai2_kit-0.9.8.tar.gz]
+[2024-05-27 10:27:57] INFO root fetch - processPackages [ai2-kit]: Remove: archive file [/home/abi/fetcher/tmp/ai2_kit-0.9.9.tar.gz]
+[2024-05-27 10:27:57] INFO root fetch - main [MainThread]: End processing [ai2-kit]: success
+[2024-05-27 10:27:58] INFO root fetch - processPackages [pathway]: Remove: archive file [/home/abi/fetcher/tmp/pathway-0.dev0.tar.gz]
+[2024-05-27 10:27:58] INFO root fetch - processPackages [pathway]: Remove: archive file [/home/abi/fetcher/tmp/pathway-0.post1.tar.gz]
+[2024-05-27 10:27:58] INFO root fetch - main [MainThread]: End processing [pathway]: success
+[2024-05-27 10:27:58] INFO root fetch - main [MainThread]: Store serial: [23392579]
