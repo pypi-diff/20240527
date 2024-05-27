@@ -8219,3 +8219,86 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 09:29:19] INFO root fetch - processPackages [pantos-service-node]: Remove: archive file [/home/abi/fetcher/tmp/pantos_service_node-1.7.0-py3-none-any.whl.zip]
 [2024-05-27 09:29:19] INFO root fetch - main [MainThread]: End processing [pantos-service-node]: success
 [2024-05-27 09:29:19] INFO root fetch - main [MainThread]: Store serial: [23391934]
+[2024-05-27 09:31:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23391934]
+[2024-05-27 09:31:29] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-27 09:31:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dvcx
+[2024-05-27 09:31:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dwh-oppfolging
+[2024-05-27 09:31:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: codegrade
+[2024-05-27 09:31:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tinybird-cdk
+[2024-05-27 09:31:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: terminal-ai-assistant
+[2024-05-27 09:31:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: labda
+[2024-05-27 09:31:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aioli-sdk
+[2024-05-27 09:31:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: SCRIP
+[2024-05-27 09:31:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: organization-profile-local
+[2024-05-27 09:31:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bilifm
+[2024-05-27 09:31:30] INFO root fetch - processPackages [codegrade]: New version: [16.1.9] Old Version: [16.1.8]
+[2024-05-27 09:31:30] INFO root fetch - processPackages [bilifm]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-27 09:31:30] INFO root fetch - processPackages [dwh-oppfolging]: New version: [0.0.93] Old Version: [0.0.92]
+[2024-05-27 09:31:30] INFO root fetch - processPackages [dvcx]: New version: [0.84.2] Old Version: [0.84.1]
+[2024-05-27 09:31:30] INFO root fetch - processPackages [labda]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-27 09:31:30] WARNING root fetch - processPackages [terminal-ai-assistant]: Skipping, unable to determine old version
+[2024-05-27 09:31:30] INFO root fetch - main [MainThread]: End processing [terminal-ai-assistant] error
+[2024-05-27 09:31:30] INFO root fetch - processPackages [organization-profile-local]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-27 09:31:30] INFO root fetch - processPackages [SCRIP]: New version: [0.1.240527] Old Version: [0.1.220630]
+[2024-05-27 09:31:30] INFO root fetch - processPackages [aioli-sdk]: New version: [0.2.4.dev9] Old Version: [0.2.4.dev8]
+[2024-05-27 09:31:30] INFO root fetch - processPackages [tinybird-cdk]: New version: [0.17.9] Old Version: [0.17.7]
+[2024-05-27 09:31:30] INFO root fetch - processPackages [codegrade]: Downloading https://files.pythonhosted.org/packages/a2/99/6dd91f125d60162d9298aca4e361d64263b90012dc12a802e2171ac952ee/codegrade-16.1.8.tar.gz
+[2024-05-27 09:31:30] INFO root fetch - processPackages [bilifm]: Downloading https://files.pythonhosted.org/packages/ef/72/d2ac1d3df50a7ae6e784f0fa4d8873a67c853bf6130575eeace7afa92582/bilifm-0.2.1.tar.gz
+[2024-05-27 09:31:30] INFO root fetch - processPackages [labda]: Downloading https://files.pythonhosted.org/packages/87/8c/8b66a4921565559a76391b28bff4f10d6fcb7cdde6706f9412113b15be64/labda-0.0.7.tar.gz
+[2024-05-27 09:31:30] INFO root fetch - processPackages [dwh-oppfolging]: Downloading https://files.pythonhosted.org/packages/b9/3c/94503cb82b2aea4f8ff5ced8203087e5316d12bdc61bf6cafb95f8f9d9f1/dwh_oppfolging-0.0.92.tar.gz
+[2024-05-27 09:31:30] INFO root fetch - processPackages [dvcx]: Downloading https://files.pythonhosted.org/packages/2b/a0/9ceb98eb551ba326b29e3b0ec73a13d8e0cca16323c198b5e6cf3268ac34/dvcx-0.84.1.tar.gz
+[2024-05-27 09:31:30] INFO root fetch - processPackages [organization-profile-local]: Downloading https://files.pythonhosted.org/packages/9f/a7/0d119af09de23094a7d3c9636932d14c66638f511798ca29a364aa8a8ef3/organization_profile_local-0.0.6.tar.gz
+[2024-05-27 09:31:30] INFO root fetch - processPackages [aioli-sdk]: Downloading https://files.pythonhosted.org/packages/41/22/a68a0b8afa86af8f7495b222843e5a457fea1e1881f3bc96eed5c464e540/aioli_sdk-0.2.4.dev8.tar.gz
+[2024-05-27 09:31:30] INFO root fetch - processPackages [SCRIP]: Downloading https://files.pythonhosted.org/packages/59/0d/615371417b3d20c9d6f31dde0c753e6a1c64dd3d0093eb74e83941fb23d9/SCRIP-0.1.220630.tar.gz
+[2024-05-27 09:31:30] INFO root fetch - processPackages [tinybird-cdk]: Downloading https://files.pythonhosted.org/packages/f3/81/f30f9f528ee749955097b3b30e9e4a3bda7150fe0f441e292388e5b3538f/tinybird_cdk-0.17.7.tar.gz
+[2024-05-27 09:31:30] WARNING root fetch - processPackages [SCRIP]: Skipping package: exceeds size limit 17427171>=10485760
+[2024-05-27 09:31:30] INFO root fetch - main [MainThread]: End processing [SCRIP] error
+[2024-05-27 09:31:31] INFO root fetch - processPackages [bilifm]: Downloading https://files.pythonhosted.org/packages/88/33/5c0857e1a35f13aa264e13c76e100ccc8bb97789b58a7ae023880fa27a48/bilifm-0.2.2.tar.gz
+[2024-05-27 09:31:31] INFO root fetch - processPackages [codegrade]: Downloading https://files.pythonhosted.org/packages/5c/19/067059110db7547fcfe643055d33ab487be554e0741049ea108c0e330c22/codegrade-16.1.9.tar.gz
+[2024-05-27 09:31:31] INFO root fetch - processPackages [organization-profile-local]: Downloading https://files.pythonhosted.org/packages/73/b3/f86e58823b7c30476049628b03681261ca34a78391a23635cd1d2886a02c/organization_profile_local-0.0.7.tar.gz
+[2024-05-27 09:31:31] INFO root fetch - processPackages [dwh-oppfolging]: Downloading https://files.pythonhosted.org/packages/cb/a9/c553ef188a9d6b38efbee82bdf140a23177f3cbe7f4cab5f78b61ec9deb0/dwh_oppfolging-0.0.93.tar.gz
+[2024-05-27 09:31:31] INFO root fetch - processPackages [labda]: Downloading https://files.pythonhosted.org/packages/a7/30/621da87c43bac0e7b340d84f29626a5a83d3dc7efcd16662f611276a48dc/labda-0.0.8.tar.gz
+[2024-05-27 09:31:31] INFO root fetch - processPackages [dvcx]: Downloading https://files.pythonhosted.org/packages/f4/0d/001f508ec7ff933d38afafdef8e1c3cd8b11644a23832ec11dffee9ed980/dvcx-0.84.2.tar.gz
+[2024-05-27 09:31:31] INFO root fetch - processPackages [bilifm]: executing diffoscope
+[2024-05-27 09:31:31] INFO root fetch - processPackages [bilifm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bilifm-0.2.1.tar.gz tmp/bilifm-0.2.2.tar.gz --markdown 20240527/b/bilifm/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-05-27 09:31:31] INFO root fetch - processPackages [aioli-sdk]: Downloading https://files.pythonhosted.org/packages/cd/25/d9848a3a017be39218d1ccb6f4e8007a0c7781325b6e49f176c030e37d80/aioli_sdk-0.2.4.dev9.tar.gz
+[2024-05-27 09:31:31] INFO root fetch - processPackages [tinybird-cdk]: Downloading https://files.pythonhosted.org/packages/c0/52/ca33789ac475a5f5a554bfa9bed5120e1b89730afac4d6adf74847cf8839/tinybird_cdk-0.17.9.tar.gz
+[2024-05-27 09:31:31] INFO root fetch - processPackages [organization-profile-local]: executing diffoscope
+[2024-05-27 09:31:31] INFO root fetch - processPackages [organization-profile-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/organization_profile_local-0.0.6.tar.gz tmp/organization_profile_local-0.0.7.tar.gz --markdown 20240527/o/organization-profile-local/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-27 09:31:31] INFO root fetch - processPackages [codegrade]: executing diffoscope
+[2024-05-27 09:31:31] INFO root fetch - processPackages [codegrade]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codegrade-16.1.8.tar.gz tmp/codegrade-16.1.9.tar.gz --markdown 20240527/c/codegrade/16.1.8-16.1.9/README.md --exclude *.pyd
+[2024-05-27 09:31:31] INFO root fetch - processPackages [dwh-oppfolging]: executing diffoscope
+[2024-05-27 09:31:31] INFO root fetch - processPackages [dwh-oppfolging]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dwh_oppfolging-0.0.92.tar.gz tmp/dwh_oppfolging-0.0.93.tar.gz --markdown 20240527/d/dwh-oppfolging/0.0.92-0.0.93/README.md --exclude *.pyd
+[2024-05-27 09:31:31] INFO root fetch - processPackages [labda]: executing diffoscope
+[2024-05-27 09:31:31] INFO root fetch - processPackages [labda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/labda-0.0.7.tar.gz tmp/labda-0.0.8.tar.gz --markdown 20240527/l/labda/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-27 09:31:31] INFO root fetch - processPackages [dvcx]: executing diffoscope
+[2024-05-27 09:31:31] INFO root fetch - processPackages [dvcx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dvcx-0.84.1.tar.gz tmp/dvcx-0.84.2.tar.gz --markdown 20240527/d/dvcx/0.84.1-0.84.2/README.md --exclude *.pyd
+[2024-05-27 09:31:31] INFO root fetch - processPackages [aioli-sdk]: executing diffoscope
+[2024-05-27 09:31:31] INFO root fetch - processPackages [aioli-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aioli_sdk-0.2.4.dev8.tar.gz tmp/aioli_sdk-0.2.4.dev9.tar.gz --markdown 20240527/a/aioli-sdk/0.2.4.dev8-0.2.4.dev9/README.md --exclude *.pyd
+[2024-05-27 09:31:31] INFO root fetch - processPackages [tinybird-cdk]: executing diffoscope
+[2024-05-27 09:31:31] INFO root fetch - processPackages [tinybird-cdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinybird_cdk-0.17.7.tar.gz tmp/tinybird_cdk-0.17.9.tar.gz --markdown 20240527/t/tinybird-cdk/0.17.7-0.17.9/README.md --exclude *.pyd
+[2024-05-27 09:31:32] INFO root fetch - processPackages [bilifm]: Remove: archive file [/home/abi/fetcher/tmp/bilifm-0.2.1.tar.gz]
+[2024-05-27 09:31:32] INFO root fetch - processPackages [bilifm]: Remove: archive file [/home/abi/fetcher/tmp/bilifm-0.2.2.tar.gz]
+[2024-05-27 09:31:32] INFO root fetch - main [MainThread]: End processing [bilifm]: success
+[2024-05-27 09:31:32] INFO root fetch - processPackages [organization-profile-local]: Remove: archive file [/home/abi/fetcher/tmp/organization_profile_local-0.0.6.tar.gz]
+[2024-05-27 09:31:32] INFO root fetch - processPackages [organization-profile-local]: Remove: archive file [/home/abi/fetcher/tmp/organization_profile_local-0.0.7.tar.gz]
+[2024-05-27 09:31:32] INFO root fetch - main [MainThread]: End processing [organization-profile-local]: success
+[2024-05-27 09:31:32] INFO root fetch - processPackages [dwh-oppfolging]: Remove: archive file [/home/abi/fetcher/tmp/dwh_oppfolging-0.0.92.tar.gz]
+[2024-05-27 09:31:32] INFO root fetch - processPackages [dwh-oppfolging]: Remove: archive file [/home/abi/fetcher/tmp/dwh_oppfolging-0.0.93.tar.gz]
+[2024-05-27 09:31:32] INFO root fetch - main [MainThread]: End processing [dwh-oppfolging]: success
+[2024-05-27 09:31:32] INFO root fetch - processPackages [tinybird-cdk]: Remove: archive file [/home/abi/fetcher/tmp/tinybird_cdk-0.17.7.tar.gz]
+[2024-05-27 09:31:32] INFO root fetch - processPackages [tinybird-cdk]: Remove: archive file [/home/abi/fetcher/tmp/tinybird_cdk-0.17.9.tar.gz]
+[2024-05-27 09:31:32] INFO root fetch - main [MainThread]: End processing [tinybird-cdk]: success
+[2024-05-27 09:31:32] INFO root fetch - processPackages [labda]: Remove: archive file [/home/abi/fetcher/tmp/labda-0.0.7.tar.gz]
+[2024-05-27 09:31:32] INFO root fetch - processPackages [labda]: Remove: archive file [/home/abi/fetcher/tmp/labda-0.0.8.tar.gz]
+[2024-05-27 09:31:32] INFO root fetch - main [MainThread]: End processing [labda]: success
+[2024-05-27 09:31:33] INFO root fetch - processPackages [dvcx]: Remove: archive file [/home/abi/fetcher/tmp/dvcx-0.84.1.tar.gz]
+[2024-05-27 09:31:33] INFO root fetch - processPackages [dvcx]: Remove: archive file [/home/abi/fetcher/tmp/dvcx-0.84.2.tar.gz]
+[2024-05-27 09:31:33] INFO root fetch - main [MainThread]: End processing [dvcx]: success
+[2024-05-27 09:31:33] INFO root fetch - processPackages [aioli-sdk]: Remove: archive file [/home/abi/fetcher/tmp/aioli_sdk-0.2.4.dev8.tar.gz]
+[2024-05-27 09:31:33] INFO root fetch - processPackages [aioli-sdk]: Remove: archive file [/home/abi/fetcher/tmp/aioli_sdk-0.2.4.dev9.tar.gz]
+[2024-05-27 09:31:33] INFO root fetch - main [MainThread]: End processing [aioli-sdk]: success
+[2024-05-27 09:31:35] INFO root fetch - processPackages [codegrade]: Remove: archive file [/home/abi/fetcher/tmp/codegrade-16.1.8.tar.gz]
+[2024-05-27 09:31:35] INFO root fetch - processPackages [codegrade]: Remove: archive file [/home/abi/fetcher/tmp/codegrade-16.1.9.tar.gz]
+[2024-05-27 09:31:35] INFO root fetch - main [MainThread]: End processing [codegrade]: success
+[2024-05-27 09:31:35] INFO root fetch - main [MainThread]: Store serial: [23391971]
