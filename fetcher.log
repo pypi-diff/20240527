@@ -11075,3 +11075,86 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 11:33:23] INFO root fetch - processPackages [dao-analyzer]: Remove: archive file [/home/abi/fetcher/tmp/dao_analyzer-1.3.2.dev8.tar.gz]
 [2024-05-27 11:33:23] INFO root fetch - main [MainThread]: End processing [dao-analyzer]: success
 [2024-05-27 11:33:23] INFO root fetch - main [MainThread]: Store serial: [23393326]
+[2024-05-27 11:35:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23393326]
+[2024-05-27 11:35:31] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-27 11:35:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: databend-driver
+[2024-05-27 11:35:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: swarmtube
+[2024-05-27 11:35:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: skysurvey
+[2024-05-27 11:35:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cycode
+[2024-05-27 11:35:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: disai-agents
+[2024-05-27 11:35:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cogflow
+[2024-05-27 11:35:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: oxpecker
+[2024-05-27 11:35:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: agptools
+[2024-05-27 11:35:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: syncmodels
+[2024-05-27 11:35:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sdkit
+[2024-05-27 11:35:32] WARNING root fetch - processPackages [disai-agents]: Skipping, unable to determine old version
+[2024-05-27 11:35:32] INFO root fetch - main [MainThread]: End processing [disai-agents] error
+[2024-05-27 11:35:32] INFO root fetch - processPackages [swarmtube]: New version: [0.1.49] Old Version: [0.1.48]
+[2024-05-27 11:35:32] INFO root fetch - processPackages [agptools]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-27 11:35:32] INFO root fetch - processPackages [cogflow]: New version: [1.9.9] Old Version: [1.9.8]
+[2024-05-27 11:35:32] INFO root fetch - processPackages [syncmodels]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-27 11:35:32] INFO root fetch - processPackages [sdkit]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-05-27 11:35:32] INFO root fetch - processPackages [databend-driver]: New version: [0.9.5] Old Version: [0.9.4]
+[2024-05-27 11:35:32] INFO root fetch - processPackages [oxpecker]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-27 11:35:32] INFO root fetch - processPackages [skysurvey]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-05-27 11:35:32] INFO root fetch - processPackages [swarmtube]: Downloading https://files.pythonhosted.org/packages/a9/a0/bc22456fb8f99a14b1811b3690a250161697a0af7d3f3380ae64e9d024e5/swarmtube-0.1.48-py2.py3-none-any.whl
+[2024-05-27 11:35:32] INFO root fetch - processPackages [agptools]: Downloading https://files.pythonhosted.org/packages/ef/90/08317ea7b8434657a0c64c671a0ce91127781d19896203a19175d974fc12/agptools-0.1.8-py2.py3-none-any.whl
+[2024-05-27 11:35:32] INFO root fetch - processPackages [cycode]: New version: [1.9.6.dev2] Old Version: [1.9.6.dev1]
+[2024-05-27 11:35:32] INFO root fetch - processPackages [cogflow]: Downloading https://files.pythonhosted.org/packages/3a/44/2dd887dfefc5e198a68539c2565726dced636a615597d201136d1a92a466/cogflow-1.9.8.tar.gz
+[2024-05-27 11:35:32] INFO root fetch - processPackages [sdkit]: Downloading https://files.pythonhosted.org/packages/4f/d9/7218fa4642a4063b7605ea2709719503ddae7889d494777e16effbcd2447/sdkit-2.0.8.tar.gz
+[2024-05-27 11:35:32] INFO root fetch - processPackages [syncmodels]: Downloading https://files.pythonhosted.org/packages/09/13/db4988a642af43523190154e2a5fc392ebeed8a8fa626973e593b7c6b635/syncmodels-0.1.8-py2.py3-none-any.whl
+[2024-05-27 11:35:32] INFO root fetch - processPackages [databend-driver]: Downloading https://files.pythonhosted.org/packages/9e/d2/0bd5410dd972dbb678b40872c610f4f48032a9640df408af5feea4cb50b1/databend_driver-0.9.4-cp37-abi3-win_amd64.whl
+[2024-05-27 11:35:32] INFO root fetch - processPackages [skysurvey]: Downloading https://files.pythonhosted.org/packages/fb/e7/62f5e458bdd2314fa80bb25a591f62057398a47d673bf52b96e357d9ed41/skysurvey-0.9.2.tar.gz
+[2024-05-27 11:35:32] INFO root fetch - processPackages [oxpecker]: Downloading https://files.pythonhosted.org/packages/8b/a8/2a406de72e63c7c4352732ecb73606f7c1c11446365bdefa987762e07081/oxpecker-0.1.1-py3-none-any.whl
+[2024-05-27 11:35:32] INFO root fetch - processPackages [cycode]: Downloading https://files.pythonhosted.org/packages/1e/36/2bd2318a3185566999ef171ead515c66e093ebe35ef120dcc194a7e4a4e8/cycode-1.9.6.dev1.tar.gz
+[2024-05-27 11:35:32] WARNING root fetch - processPackages [oxpecker]: Skipping package: exceeds size limit 23656865>=10485760
+[2024-05-27 11:35:32] INFO root fetch - main [MainThread]: End processing [oxpecker] error
+[2024-05-27 11:35:32] INFO root fetch - processPackages [agptools]: Downloading https://files.pythonhosted.org/packages/b4/96/a1fa0a1e147cbeb8acd6a36e118eb3b3ecfbf93d5b5de31b99b5d8bef5f4/agptools-0.1.9-py2.py3-none-any.whl
+[2024-05-27 11:35:32] INFO root fetch - processPackages [cogflow]: Downloading https://files.pythonhosted.org/packages/0e/16/8f5f931a1aa5b5143fe0b0ad8fd8950276383f3e063a3d599473897f4af3/cogflow-1.9.9.tar.gz
+[2024-05-27 11:35:32] INFO root fetch - processPackages [swarmtube]: Downloading https://files.pythonhosted.org/packages/3d/47/84623511e2f85f62888db3e3361a75b9abff6a5af90cd4fa8637bec019ce/swarmtube-0.1.49-py2.py3-none-any.whl
+[2024-05-27 11:35:32] INFO root fetch - processPackages [sdkit]: Downloading https://files.pythonhosted.org/packages/a3/3b/170fb343234797b20456dea2c5c46bfe6a8c52594affdec77735ecf76561/sdkit-2.0.9.tar.gz
+[2024-05-27 11:35:32] INFO root fetch - processPackages [syncmodels]: Downloading https://files.pythonhosted.org/packages/fa/f6/eeeb0b12fc045f5917cfc3967317eddb0f896b12df99ee9cb26dd42b0529/syncmodels-0.1.9-py2.py3-none-any.whl
+[2024-05-27 11:35:32] INFO root fetch - processPackages [agptools]: executing diffoscope
+[2024-05-27 11:35:32] INFO root fetch - processPackages [agptools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agptools-0.1.8-py2.py3-none-any.whl.zip tmp/agptools-0.1.9-py2.py3-none-any.whl.zip --markdown 20240527/a/agptools/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-27 11:35:32] INFO root fetch - processPackages [cogflow]: executing diffoscope
+[2024-05-27 11:35:32] INFO root fetch - processPackages [cogflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cogflow-1.9.8.tar.gz tmp/cogflow-1.9.9.tar.gz --markdown 20240527/c/cogflow/1.9.8-1.9.9/README.md --exclude *.pyd
+[2024-05-27 11:35:32] INFO root fetch - processPackages [sdkit]: executing diffoscope
+[2024-05-27 11:35:32] INFO root fetch - processPackages [sdkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdkit-2.0.8.tar.gz tmp/sdkit-2.0.9.tar.gz --markdown 20240527/s/sdkit/2.0.8-2.0.9/README.md --exclude *.pyd
+[2024-05-27 11:35:32] INFO root fetch - processPackages [skysurvey]: Downloading https://files.pythonhosted.org/packages/1b/91/f27b501144d4c0b7e7173db0503f390533e28c7672ba18c71cba4b33db92/skysurvey-0.9.3.tar.gz
+[2024-05-27 11:35:32] INFO root fetch - processPackages [syncmodels]: executing diffoscope
+[2024-05-27 11:35:32] INFO root fetch - processPackages [syncmodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syncmodels-0.1.8-py2.py3-none-any.whl.zip tmp/syncmodels-0.1.9-py2.py3-none-any.whl.zip --markdown 20240527/s/syncmodels/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-27 11:35:32] INFO root fetch - processPackages [cycode]: Downloading https://files.pythonhosted.org/packages/50/7e/fbe6d931a27756e37698bd0d7229e679e4ba94312af9380f58c968cbc258/cycode-1.9.6.dev2.tar.gz
+[2024-05-27 11:35:32] INFO root fetch - processPackages [swarmtube]: executing diffoscope
+[2024-05-27 11:35:32] INFO root fetch - processPackages [swarmtube]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarmtube-0.1.48-py2.py3-none-any.whl.zip tmp/swarmtube-0.1.49-py2.py3-none-any.whl.zip --markdown 20240527/s/swarmtube/0.1.48-0.1.49/README.md --exclude *.pyd
+[2024-05-27 11:35:33] INFO root fetch - processPackages [skysurvey]: executing diffoscope
+[2024-05-27 11:35:33] INFO root fetch - processPackages [skysurvey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skysurvey-0.9.2.tar.gz tmp/skysurvey-0.9.3.tar.gz --markdown 20240527/s/skysurvey/0.9.2-0.9.3/README.md --exclude *.pyd
+[2024-05-27 11:35:33] INFO root fetch - processPackages [cycode]: executing diffoscope
+[2024-05-27 11:35:33] INFO root fetch - processPackages [cycode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cycode-1.9.6.dev1.tar.gz tmp/cycode-1.9.6.dev2.tar.gz --markdown 20240527/c/cycode/1.9.6.dev1-1.9.6.dev2/README.md --exclude *.pyd
+[2024-05-27 11:35:33] INFO root fetch - processPackages [cogflow]: Remove: archive file [/home/abi/fetcher/tmp/cogflow-1.9.8.tar.gz]
+[2024-05-27 11:35:33] INFO root fetch - processPackages [cogflow]: Remove: archive file [/home/abi/fetcher/tmp/cogflow-1.9.9.tar.gz]
+[2024-05-27 11:35:33] INFO root fetch - main [MainThread]: End processing [cogflow]: success
+[2024-05-27 11:35:33] INFO root fetch - processPackages [agptools]: Remove: archive file [/home/abi/fetcher/tmp/agptools-0.1.8-py2.py3-none-any.whl.zip]
+[2024-05-27 11:35:33] INFO root fetch - processPackages [agptools]: Remove: archive file [/home/abi/fetcher/tmp/agptools-0.1.9-py2.py3-none-any.whl.zip]
+[2024-05-27 11:35:33] INFO root fetch - main [MainThread]: End processing [agptools]: success
+[2024-05-27 11:35:33] INFO root fetch - processPackages [skysurvey]: Remove: archive file [/home/abi/fetcher/tmp/skysurvey-0.9.2.tar.gz]
+[2024-05-27 11:35:33] INFO root fetch - processPackages [skysurvey]: Remove: archive file [/home/abi/fetcher/tmp/skysurvey-0.9.3.tar.gz]
+[2024-05-27 11:35:33] INFO root fetch - main [MainThread]: End processing [skysurvey]: success
+[2024-05-27 11:35:33] INFO root fetch - processPackages [swarmtube]: Remove: archive file [/home/abi/fetcher/tmp/swarmtube-0.1.48-py2.py3-none-any.whl.zip]
+[2024-05-27 11:35:33] INFO root fetch - processPackages [swarmtube]: Remove: archive file [/home/abi/fetcher/tmp/swarmtube-0.1.49-py2.py3-none-any.whl.zip]
+[2024-05-27 11:35:33] INFO root fetch - main [MainThread]: End processing [swarmtube]: success
+[2024-05-27 11:35:33] INFO root fetch - processPackages [syncmodels]: Remove: archive file [/home/abi/fetcher/tmp/syncmodels-0.1.8-py2.py3-none-any.whl.zip]
+[2024-05-27 11:35:33] INFO root fetch - processPackages [syncmodels]: Remove: archive file [/home/abi/fetcher/tmp/syncmodels-0.1.9-py2.py3-none-any.whl.zip]
+[2024-05-27 11:35:33] INFO root fetch - main [MainThread]: End processing [syncmodels]: success
+[2024-05-27 11:35:33] INFO root fetch - processPackages [sdkit]: Remove: archive file [/home/abi/fetcher/tmp/sdkit-2.0.8.tar.gz]
+[2024-05-27 11:35:33] INFO root fetch - processPackages [sdkit]: Remove: archive file [/home/abi/fetcher/tmp/sdkit-2.0.9.tar.gz]
+[2024-05-27 11:35:33] INFO root fetch - main [MainThread]: End processing [sdkit]: success
+[2024-05-27 11:35:34] INFO root fetch - processPackages [cycode]: Remove: archive file [/home/abi/fetcher/tmp/cycode-1.9.6.dev1.tar.gz]
+[2024-05-27 11:35:34] INFO root fetch - processPackages [cycode]: Remove: archive file [/home/abi/fetcher/tmp/cycode-1.9.6.dev2.tar.gz]
+[2024-05-27 11:35:34] INFO root fetch - main [MainThread]: End processing [cycode]: success
+[2024-05-27 11:35:35] INFO root fetch - processPackages [databend-driver]: Downloading https://files.pythonhosted.org/packages/b7/e3/195c2e775c9ea50822c2431f0a00f48ae03a7a10be4d3e583cce489052ee/databend_driver-0.9.5-cp37-abi3-win_amd64.whl
+[2024-05-27 11:35:37] INFO root fetch - processPackages [databend-driver]: executing diffoscope
+[2024-05-27 11:35:37] INFO root fetch - processPackages [databend-driver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/databend_driver-0.9.4-cp37-abi3-win_amd64.whl.zip tmp/databend_driver-0.9.5-cp37-abi3-win_amd64.whl.zip --markdown 20240527/d/databend-driver/0.9.4-0.9.5/README.md --exclude *.pyd
+[2024-05-27 11:35:37] INFO root fetch - processPackages [databend-driver]: Remove: archive file [/home/abi/fetcher/tmp/databend_driver-0.9.4-cp37-abi3-win_amd64.whl.zip]
+[2024-05-27 11:35:37] INFO root fetch - processPackages [databend-driver]: Remove: archive file [/home/abi/fetcher/tmp/databend_driver-0.9.5-cp37-abi3-win_amd64.whl.zip]
+[2024-05-27 11:35:37] INFO root fetch - main [MainThread]: End processing [databend-driver]: success
+[2024-05-27 11:35:37] INFO root fetch - main [MainThread]: Store serial: [23393360]
