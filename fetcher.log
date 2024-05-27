@@ -21374,3 +21374,87 @@ AssertionError: tmp/quickQrLib-0.2.tar.gz does not exist
 [2024-05-27 18:08:34] INFO root fetch - processPackages [easy-encryption-tool]: Remove: archive file [/home/abi/fetcher/tmp/easy_encryption_tool-1.2.1-py3-none-any.whl.zip]
 [2024-05-27 18:08:34] INFO root fetch - main [MainThread]: End processing [easy-encryption-tool]: success
 [2024-05-27 18:08:34] INFO root fetch - main [MainThread]: Store serial: [23398153]
+[2024-05-27 18:10:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23398153]
+[2024-05-27 18:10:43] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-27 18:10:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: apexdevkit
+[2024-05-27 18:10:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: readme-ation
+[2024-05-27 18:10:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bats-core-pkg
+[2024-05-27 18:10:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nebuly
+[2024-05-27 18:10:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: catalystwan
+[2024-05-27 18:10:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ctube
+[2024-05-27 18:10:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: va-am
+[2024-05-27 18:10:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: edurpa-document
+[2024-05-27 18:10:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: olas-operate-middleware
+[2024-05-27 18:10:43] INFO root fetch - processPackages [readme-ation]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-27 18:10:43] INFO root fetch - processPackages [apexdevkit]: New version: [1.2.2] Old Version: [1.2.1]
+[2024-05-27 18:10:43] INFO root fetch - processPackages [ctube]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-27 18:10:43] INFO root fetch - processPackages [edurpa-document]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-27 18:10:43] INFO root fetch - processPackages [olas-operate-middleware]: New version: [0.1.0rc9] Old Version: [0.1.0rc8]
+[2024-05-27 18:10:43] INFO root fetch - processPackages [va-am]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-27 18:10:43] INFO root fetch - processPackages [readme-ation]: Downloading https://files.pythonhosted.org/packages/78/ac/449d48f676af8bc5f716bc4ae71f81fc3c3d728a454f33fc59c87a492724/readme_ation-0.1.8.tar.gz
+[2024-05-27 18:10:43] INFO root fetch - processPackages [bats-core-pkg]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-27 18:10:43] INFO root fetch - processPackages [nebuly]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-27 18:10:43] INFO root fetch - processPackages [catalystwan]: New version: [0.33.7.dev2] Old Version: [0.33.7.dev1]
+[2024-05-27 18:10:43] INFO root fetch - processPackages [apexdevkit]: Downloading https://files.pythonhosted.org/packages/fb/bf/c6491ddc40764a31b88d8251dc2ea5246e848ca67c95b7f0cdb6775a771e/apexdevkit-1.2.1.tar.gz
+[2024-05-27 18:10:43] INFO root fetch - processPackages [ctube]: Downloading https://files.pythonhosted.org/packages/3c/a2/1f6bd249ce739e73ee555e73078b1bb925aeeed740e9fda3ba45538d6f12/ctube-0.0.7.tar.gz
+[2024-05-27 18:10:43] INFO root fetch - processPackages [edurpa-document]: Downloading https://files.pythonhosted.org/packages/df/98/79bc8311d8c5e6b0439c97dabf056c930205d9ab94911854669bc6a81dbc/edurpa_document-0.0.5-py3-none-any.whl
+[2024-05-27 18:10:43] INFO root fetch - processPackages [olas-operate-middleware]: Downloading https://files.pythonhosted.org/packages/d2/22/dc91171f9f5c12f72fbef4ec6b6962b4e66e69f3a3fde86b4f32a9648c5c/olas_operate_middleware-0.1.0rc8.tar.gz
+[2024-05-27 18:10:43] INFO root fetch - processPackages [bats-core-pkg]: Downloading https://files.pythonhosted.org/packages/df/a8/a9e84061af200a1ab4cda977f99428ed04e2048bcd0f951e14b579143cf2/bats_core_pkg-0.1.2.tar.gz
+[2024-05-27 18:10:43] INFO root fetch - processPackages [nebuly]: Downloading https://files.pythonhosted.org/packages/94/b6/f21344fd1425b8820300e9c2ae64888e9a0aa7116af77d6b75f32efd83c5/nebuly-0.3.8.tar.gz
+[2024-05-27 18:10:43] INFO root fetch - processPackages [catalystwan]: Downloading https://files.pythonhosted.org/packages/8f/4a/02d0b8c4ba5b8991407ebf62382cfdd03e853c27397a3eebb1f629a37465/catalystwan-0.33.7.dev1.tar.gz
+[2024-05-27 18:10:43] INFO root fetch - processPackages [readme-ation]: Downloading https://files.pythonhosted.org/packages/e8/93/9d877d1be3c8c3b16f10c844933acd48372fdbd22c0d4f63cf9ee47baa4a/readme_ation-0.1.9.tar.gz
+[2024-05-27 18:10:43] INFO root fetch - processPackages [va-am]: Downloading https://files.pythonhosted.org/packages/21/b8/35f019dd379a1e791458004bbab304b1414077dbe8b9c96ccf032bd1d529/va_am-0.1.4.tar.gz
+[2024-05-27 18:10:43] INFO root fetch - processPackages [ctube]: Downloading https://files.pythonhosted.org/packages/14/4d/fbb6507e09410a783ee01eb7ae7ac93c9f1cc664a1d8112344ea43e2bb6f/ctube-0.0.8.tar.gz
+[2024-05-27 18:10:44] INFO root fetch - processPackages [olas-operate-middleware]: Downloading https://files.pythonhosted.org/packages/8f/69/3a83cbcad75fcbdca3d7a77b5edfa7b4511dea20e87d2aacfe22a9188bc8/olas_operate_middleware-0.1.0rc9.tar.gz
+[2024-05-27 18:10:44] INFO root fetch - processPackages [apexdevkit]: Downloading https://files.pythonhosted.org/packages/a5/15/46e96a62ed8805780b112be199003601ee5ff528bdf8350482165af95b0a/apexdevkit-1.2.2.tar.gz
+[2024-05-27 18:10:44] INFO root fetch - processPackages [readme-ation]: executing diffoscope
+[2024-05-27 18:10:44] INFO root fetch - processPackages [readme-ation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/readme_ation-0.1.8.tar.gz tmp/readme_ation-0.1.9.tar.gz --markdown 20240527/r/readme-ation/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-27 18:10:44] INFO root fetch - processPackages [ctube]: executing diffoscope
+[2024-05-27 18:10:44] INFO root fetch - processPackages [ctube]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ctube-0.0.7.tar.gz tmp/ctube-0.0.8.tar.gz --markdown 20240527/c/ctube/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-27 18:10:44] INFO root fetch - processPackages [edurpa-document]: Downloading https://files.pythonhosted.org/packages/26/88/64b0e20ef9255a1e205418a25922377ba5ccded56362be6b5143fe859596/edurpa_document-0.0.6-py3-none-any.whl
+[2024-05-27 18:10:44] INFO root fetch - processPackages [apexdevkit]: executing diffoscope
+[2024-05-27 18:10:44] INFO root fetch - processPackages [apexdevkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apexdevkit-1.2.1.tar.gz tmp/apexdevkit-1.2.2.tar.gz --markdown 20240527/a/apexdevkit/1.2.1-1.2.2/README.md --exclude *.pyd
+[2024-05-27 18:10:44] INFO root fetch - processPackages [olas-operate-middleware]: executing diffoscope
+[2024-05-27 18:10:44] INFO root fetch - processPackages [olas-operate-middleware]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/olas_operate_middleware-0.1.0rc8.tar.gz tmp/olas_operate_middleware-0.1.0rc9.tar.gz --markdown 20240527/o/olas-operate-middleware/0.1.0rc8-0.1.0rc9/README.md --exclude *.pyd
+[2024-05-27 18:10:44] INFO root fetch - processPackages [bats-core-pkg]: Downloading https://files.pythonhosted.org/packages/17/93/c000895ca37d9340eb4010c0e62e3b0881bda63106b2971262b61717a91e/bats_core_pkg-0.1.3.tar.gz
+[2024-05-27 18:10:44] INFO root fetch - processPackages [nebuly]: Downloading https://files.pythonhosted.org/packages/af/90/c5c513e1a89e526323bf88b2f23a7ada2395457e8b5294fcbde2782c049b/nebuly-0.3.9.tar.gz
+[2024-05-27 18:10:44] INFO root fetch - processPackages [edurpa-document]: executing diffoscope
+[2024-05-27 18:10:44] INFO root fetch - processPackages [edurpa-document]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edurpa_document-0.0.5-py3-none-any.whl.zip tmp/edurpa_document-0.0.6-py3-none-any.whl.zip --markdown 20240527/e/edurpa-document/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-27 18:10:44] INFO root fetch - processPackages [catalystwan]: Downloading https://files.pythonhosted.org/packages/1d/d6/c9c9eb2758ef64b4e0a974f1502963cc4acfec062f8d962d555b41f3b037/catalystwan-0.33.7.dev2.tar.gz
+[2024-05-27 18:10:44] INFO root fetch - processPackages [va-am]: Downloading https://files.pythonhosted.org/packages/e9/17/986c7e8e5f45ffcb9d6a273b6516ea21bcfa6c2cc018da05bae99c0fdf67/va_am-0.1.5.tar.gz
+[2024-05-27 18:10:44] INFO root fetch - processPackages [bats-core-pkg]: executing diffoscope
+[2024-05-27 18:10:44] INFO root fetch - processPackages [bats-core-pkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bats_core_pkg-0.1.2.tar.gz tmp/bats_core_pkg-0.1.3.tar.gz --markdown 20240527/b/bats-core-pkg/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-27 18:10:44] INFO root fetch - processPackages [nebuly]: executing diffoscope
+[2024-05-27 18:10:44] INFO root fetch - processPackages [nebuly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nebuly-0.3.8.tar.gz tmp/nebuly-0.3.9.tar.gz --markdown 20240527/n/nebuly/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-27 18:10:44] INFO root fetch - processPackages [catalystwan]: executing diffoscope
+[2024-05-27 18:10:44] INFO root fetch - processPackages [catalystwan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/catalystwan-0.33.7.dev1.tar.gz tmp/catalystwan-0.33.7.dev2.tar.gz --markdown 20240527/c/catalystwan/0.33.7.dev1-0.33.7.dev2/README.md --exclude *.pyd
+[2024-05-27 18:10:44] INFO root fetch - processPackages [va-am]: executing diffoscope
+[2024-05-27 18:10:44] INFO root fetch - processPackages [va-am]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/va_am-0.1.4.tar.gz tmp/va_am-0.1.5.tar.gz --markdown 20240527/v/va-am/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-27 18:10:44] INFO root fetch - processPackages [readme-ation]: Remove: archive file [/home/abi/fetcher/tmp/readme_ation-0.1.8.tar.gz]
+[2024-05-27 18:10:44] INFO root fetch - processPackages [readme-ation]: Remove: archive file [/home/abi/fetcher/tmp/readme_ation-0.1.9.tar.gz]
+[2024-05-27 18:10:44] INFO root fetch - main [MainThread]: End processing [readme-ation]: success
+[2024-05-27 18:10:45] INFO root fetch - processPackages [apexdevkit]: Remove: archive file [/home/abi/fetcher/tmp/apexdevkit-1.2.1.tar.gz]
+[2024-05-27 18:10:45] INFO root fetch - processPackages [apexdevkit]: Remove: archive file [/home/abi/fetcher/tmp/apexdevkit-1.2.2.tar.gz]
+[2024-05-27 18:10:45] INFO root fetch - main [MainThread]: End processing [apexdevkit]: success
+[2024-05-27 18:10:45] INFO root fetch - processPackages [edurpa-document]: Remove: archive file [/home/abi/fetcher/tmp/edurpa_document-0.0.5-py3-none-any.whl.zip]
+[2024-05-27 18:10:45] INFO root fetch - processPackages [edurpa-document]: Remove: archive file [/home/abi/fetcher/tmp/edurpa_document-0.0.6-py3-none-any.whl.zip]
+[2024-05-27 18:10:45] INFO root fetch - main [MainThread]: End processing [edurpa-document]: success
+[2024-05-27 18:10:45] INFO root fetch - processPackages [olas-operate-middleware]: Remove: archive file [/home/abi/fetcher/tmp/olas_operate_middleware-0.1.0rc8.tar.gz]
+[2024-05-27 18:10:45] INFO root fetch - processPackages [olas-operate-middleware]: Remove: archive file [/home/abi/fetcher/tmp/olas_operate_middleware-0.1.0rc9.tar.gz]
+[2024-05-27 18:10:45] INFO root fetch - main [MainThread]: End processing [olas-operate-middleware]: success
+[2024-05-27 18:10:45] INFO root fetch - processPackages [ctube]: Remove: archive file [/home/abi/fetcher/tmp/ctube-0.0.7.tar.gz]
+[2024-05-27 18:10:45] INFO root fetch - processPackages [ctube]: Remove: archive file [/home/abi/fetcher/tmp/ctube-0.0.8.tar.gz]
+[2024-05-27 18:10:45] INFO root fetch - main [MainThread]: End processing [ctube]: success
+[2024-05-27 18:10:45] INFO root fetch - processPackages [bats-core-pkg]: Remove: archive file [/home/abi/fetcher/tmp/bats_core_pkg-0.1.2.tar.gz]
+[2024-05-27 18:10:45] INFO root fetch - processPackages [bats-core-pkg]: Remove: archive file [/home/abi/fetcher/tmp/bats_core_pkg-0.1.3.tar.gz]
+[2024-05-27 18:10:45] INFO root fetch - main [MainThread]: End processing [bats-core-pkg]: success
+[2024-05-27 18:10:45] INFO root fetch - processPackages [nebuly]: Remove: archive file [/home/abi/fetcher/tmp/nebuly-0.3.8.tar.gz]
+[2024-05-27 18:10:45] INFO root fetch - processPackages [nebuly]: Remove: archive file [/home/abi/fetcher/tmp/nebuly-0.3.9.tar.gz]
+[2024-05-27 18:10:45] INFO root fetch - main [MainThread]: End processing [nebuly]: success
+[2024-05-27 18:10:45] INFO root fetch - processPackages [va-am]: Remove: archive file [/home/abi/fetcher/tmp/va_am-0.1.4.tar.gz]
+[2024-05-27 18:10:45] INFO root fetch - processPackages [va-am]: Remove: archive file [/home/abi/fetcher/tmp/va_am-0.1.5.tar.gz]
+[2024-05-27 18:10:45] INFO root fetch - main [MainThread]: End processing [va-am]: success
+[2024-05-27 18:10:47] INFO root fetch - processPackages [catalystwan]: Remove: archive file [/home/abi/fetcher/tmp/catalystwan-0.33.7.dev1.tar.gz]
+[2024-05-27 18:10:47] INFO root fetch - processPackages [catalystwan]: Remove: archive file [/home/abi/fetcher/tmp/catalystwan-0.33.7.dev2.tar.gz]
+[2024-05-27 18:10:47] INFO root fetch - main [MainThread]: End processing [catalystwan]: success
+[2024-05-27 18:10:47] INFO root fetch - main [MainThread]: Store serial: [23398179]
