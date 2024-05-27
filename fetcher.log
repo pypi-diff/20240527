@@ -19897,3 +19897,81 @@ EOFError: EOF read where object expected
 [2024-05-27 17:08:58] INFO root fetch - processPackages [ipex-llm]: Remove: archive file [/home/abi/fetcher/tmp/ipex_llm-2.1.0b20240526-py3-none-win_amd64.whl.zip]
 [2024-05-27 17:08:58] INFO root fetch - main [MainThread]: End processing [ipex-llm]: success
 [2024-05-27 17:08:58] INFO root fetch - main [MainThread]: Store serial: [23397491]
+[2024-05-27 17:11:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23397491]
+[2024-05-27 17:11:07] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-27 17:11:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fixpoint_openapi
+[2024-05-27 17:11:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ivylantern
+[2024-05-27 17:11:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sphinx-docsearch
+[2024-05-27 17:11:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sarus-data-spec-public
+[2024-05-27 17:11:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pip2deb
+[2024-05-27 17:11:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: track2p
+[2024-05-27 17:11:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bondzai.media-handler
+[2024-05-27 17:11:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyimport
+[2024-05-27 17:11:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: xga
+[2024-05-27 17:11:07] INFO root fetch - processPackages [ivylantern]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-27 17:11:07] INFO root fetch - processPackages [pip2deb]: New version: [1.9] Old Version: [1.8]
+[2024-05-27 17:11:07] INFO root fetch - processPackages [sphinx-docsearch]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-27 17:11:07] INFO root fetch - processPackages [ivylantern]: Downloading https://files.pythonhosted.org/packages/8e/78/1b4e6148164072ff0531c2a42276690311041f1d322d602a465939c4e966/ivylantern-0.2.1.tar.gz
+[2024-05-27 17:11:07] INFO root fetch - processPackages [pip2deb]: Downloading https://files.pythonhosted.org/packages/99/fb/d96f84a6984ad96a7f234425be5b137192f5bd59a62a0f85db20b8239202/pip2deb-1.8.tar.gz
+[2024-05-27 17:11:07] INFO root fetch - processPackages [fixpoint_openapi]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-05-27 17:11:07] INFO root fetch - processPackages [track2p]: New version: [0.5.7] Old Version: [0.5.6]
+[2024-05-27 17:11:07] WARNING root fetch - processPackages [pyimport]: Skipping, unable to determine old version
+[2024-05-27 17:11:07] INFO root fetch - main [MainThread]: End processing [pyimport] error
+[2024-05-27 17:11:07] INFO root fetch - processPackages [xga]: New version: [0.4.5] Old Version: [0.4.4]
+[2024-05-27 17:11:07] INFO root fetch - processPackages [bondzai.media-handler]: New version: [0.0.18] Old Version: [0.0.17]
+[2024-05-27 17:11:07] INFO root fetch - processPackages [sarus-data-spec-public]: New version: [4.0.3.dev0] Old Version: [4.0.2.dev0]
+[2024-05-27 17:11:07] INFO root fetch - processPackages [sphinx-docsearch]: Downloading https://files.pythonhosted.org/packages/08/a6/9820eb01fa3e92af9df2dc8625b732a3202f5e333b7b18fcad6d7f5d873d/sphinx_docsearch-0.0.4.tar.gz
+[2024-05-27 17:11:08] INFO root fetch - processPackages [fixpoint_openapi]: Downloading https://files.pythonhosted.org/packages/e8/05/516c82e654c6b5aee3a3b573d2456810e84b1ea154b4e0f3aad357c87599/fixpoint_openapi-0.3.0.tar.gz
+[2024-05-27 17:11:08] INFO root fetch - processPackages [bondzai.media-handler]: Downloading https://files.pythonhosted.org/packages/da/66/d6c4a28d5e10a50e29e9a87a2c1a95ce54bec5c920b6c5622e7f2734a2f6/bondzai.media-handler-0.0.17.tar.gz
+[2024-05-27 17:11:08] INFO root fetch - processPackages [track2p]: Downloading https://files.pythonhosted.org/packages/2f/dd/eeca840adb890f5c52aca702105c40f6b861b4f9074b028cd9f8d687e8cf/track2p-0.5.6.tar.gz
+[2024-05-27 17:11:08] INFO root fetch - processPackages [sarus-data-spec-public]: Downloading https://files.pythonhosted.org/packages/5c/f4/c0e603c32ae1cb6845c0e1f235b45776c275e27f5b7d211d0cc0cae0a239/sarus_data_spec_public-4.0.2.dev0.tar.gz
+[2024-05-27 17:11:08] INFO root fetch - processPackages [ivylantern]: Downloading https://files.pythonhosted.org/packages/7e/4b/64d37c33760471f7eecc8eae694a45700f61a09ac7d6edb1a9ff4f39a0e9/ivylantern-0.2.2.tar.gz
+[2024-05-27 17:11:08] INFO root fetch - processPackages [xga]: Downloading https://files.pythonhosted.org/packages/39/c3/9e3c26253c481403ee6929c6ebd793cd931c9b89f5a97ebc1343c8e89fbf/xga-0.4.4.tar.gz
+[2024-05-27 17:11:08] INFO root fetch - processPackages [pip2deb]: Downloading https://files.pythonhosted.org/packages/48/15/0f52fdebc520eec71e72960e8f133502688b12c2813fd3821f8d410c0001/pip2deb-1.9.tar.gz
+[2024-05-27 17:11:08] INFO root fetch - processPackages [ivylantern]: executing diffoscope
+[2024-05-27 17:11:08] INFO root fetch - processPackages [ivylantern]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ivylantern-0.2.1.tar.gz tmp/ivylantern-0.2.2.tar.gz --markdown 20240527/i/ivylantern/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-05-27 17:11:08] INFO root fetch - processPackages [pip2deb]: executing diffoscope
+[2024-05-27 17:11:08] INFO root fetch - processPackages [pip2deb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pip2deb-1.8.tar.gz tmp/pip2deb-1.9.tar.gz --markdown 20240527/p/pip2deb/1.8-1.9/README.md --exclude *.pyd
+[2024-05-27 17:11:08] INFO root fetch - processPackages [sphinx-docsearch]: Downloading https://files.pythonhosted.org/packages/a7/f2/4b4f45ff37a2337bada82a3831f06b722704925976a2fb5d8b0e7b5dba79/sphinx_docsearch-0.0.5.tar.gz
+[2024-05-27 17:11:08] INFO root fetch - processPackages [bondzai.media-handler]: Downloading https://files.pythonhosted.org/packages/6b/03/96935b049ab8178074aff566b4b1996ec187176de4ac0e37dae4caea125e/bondzai.media-handler-0.0.18.tar.gz
+[2024-05-27 17:11:08] INFO root fetch - processPackages [track2p]: Downloading https://files.pythonhosted.org/packages/d4/b9/b086f5bedb6d5fd61a38beab3d46194ada43f5e72af7746f55e697c7f2b8/track2p-0.5.7.tar.gz
+[2024-05-27 17:11:08] INFO root fetch - processPackages [sarus-data-spec-public]: Downloading https://files.pythonhosted.org/packages/04/2d/87b367089292bbfa9ddd293ff69daec1d204f47ce148249b9920cfb14530/sarus_data_spec_public-4.0.3.dev0.tar.gz
+[2024-05-27 17:11:08] INFO root fetch - processPackages [sphinx-docsearch]: executing diffoscope
+[2024-05-27 17:11:08] INFO root fetch - processPackages [sphinx-docsearch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinx_docsearch-0.0.4.tar.gz tmp/sphinx_docsearch-0.0.5.tar.gz --markdown 20240527/s/sphinx-docsearch/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-27 17:11:08] INFO root fetch - processPackages [fixpoint_openapi]: Downloading https://files.pythonhosted.org/packages/7b/5d/705d2077dd7174ca64467a5e51c92b28e1144ac4df569c6a072fdd92e60a/fixpoint_openapi-0.4.0.tar.gz
+[2024-05-27 17:11:08] INFO root fetch - processPackages [bondzai.media-handler]: executing diffoscope
+[2024-05-27 17:11:08] INFO root fetch - processPackages [bondzai.media-handler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bondzai.media-handler-0.0.17.tar.gz tmp/bondzai.media-handler-0.0.18.tar.gz --markdown 20240527/b/bondzai.media-handler/0.0.17-0.0.18/README.md --exclude *.pyd
+[2024-05-27 17:11:08] INFO root fetch - processPackages [fixpoint_openapi]: executing diffoscope
+[2024-05-27 17:11:08] INFO root fetch - processPackages [fixpoint_openapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fixpoint_openapi-0.3.0.tar.gz tmp/fixpoint_openapi-0.4.0.tar.gz --markdown 20240527/f/fixpoint_openapi/0.3.0-0.4.0/README.md --exclude *.pyd
+[2024-05-27 17:11:08] INFO root fetch - processPackages [xga]: Downloading https://files.pythonhosted.org/packages/9b/c9/ddbac82201aa66d26666dc039226635cbf796b09a1cc10a215227714cb6c/xga-0.4.5.tar.gz
+[2024-05-27 17:11:08] INFO root fetch - processPackages [track2p]: executing diffoscope
+[2024-05-27 17:11:08] INFO root fetch - processPackages [track2p]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/track2p-0.5.6.tar.gz tmp/track2p-0.5.7.tar.gz --markdown 20240527/t/track2p/0.5.6-0.5.7/README.md --exclude *.pyd
+[2024-05-27 17:11:08] INFO root fetch - processPackages [sarus-data-spec-public]: executing diffoscope
+[2024-05-27 17:11:08] INFO root fetch - processPackages [sarus-data-spec-public]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sarus_data_spec_public-4.0.2.dev0.tar.gz tmp/sarus_data_spec_public-4.0.3.dev0.tar.gz --markdown 20240527/s/sarus-data-spec-public/4.0.2.dev0-4.0.3.dev0/README.md --exclude *.pyd
+[2024-05-27 17:11:08] INFO root fetch - processPackages [ivylantern]: Remove: archive file [/home/abi/fetcher/tmp/ivylantern-0.2.1.tar.gz]
+[2024-05-27 17:11:08] INFO root fetch - processPackages [ivylantern]: Remove: archive file [/home/abi/fetcher/tmp/ivylantern-0.2.2.tar.gz]
+[2024-05-27 17:11:08] INFO root fetch - main [MainThread]: End processing [ivylantern]: success
+[2024-05-27 17:11:08] INFO root fetch - processPackages [xga]: executing diffoscope
+[2024-05-27 17:11:08] INFO root fetch - processPackages [xga]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xga-0.4.4.tar.gz tmp/xga-0.4.5.tar.gz --markdown 20240527/x/xga/0.4.4-0.4.5/README.md --exclude *.pyd
+[2024-05-27 17:11:08] INFO root fetch - processPackages [pip2deb]: Remove: archive file [/home/abi/fetcher/tmp/pip2deb-1.8.tar.gz]
+[2024-05-27 17:11:08] INFO root fetch - processPackages [pip2deb]: Remove: archive file [/home/abi/fetcher/tmp/pip2deb-1.9.tar.gz]
+[2024-05-27 17:11:08] INFO root fetch - main [MainThread]: End processing [pip2deb]: success
+[2024-05-27 17:11:09] INFO root fetch - processPackages [bondzai.media-handler]: Remove: archive file [/home/abi/fetcher/tmp/bondzai.media-handler-0.0.17.tar.gz]
+[2024-05-27 17:11:09] INFO root fetch - processPackages [bondzai.media-handler]: Remove: archive file [/home/abi/fetcher/tmp/bondzai.media-handler-0.0.18.tar.gz]
+[2024-05-27 17:11:09] INFO root fetch - main [MainThread]: End processing [bondzai.media-handler]: success
+[2024-05-27 17:11:09] INFO root fetch - processPackages [track2p]: Remove: archive file [/home/abi/fetcher/tmp/track2p-0.5.6.tar.gz]
+[2024-05-27 17:11:09] INFO root fetch - processPackages [track2p]: Remove: archive file [/home/abi/fetcher/tmp/track2p-0.5.7.tar.gz]
+[2024-05-27 17:11:09] INFO root fetch - main [MainThread]: End processing [track2p]: success
+[2024-05-27 17:11:09] INFO root fetch - processPackages [fixpoint_openapi]: Remove: archive file [/home/abi/fetcher/tmp/fixpoint_openapi-0.3.0.tar.gz]
+[2024-05-27 17:11:09] INFO root fetch - processPackages [fixpoint_openapi]: Remove: archive file [/home/abi/fetcher/tmp/fixpoint_openapi-0.4.0.tar.gz]
+[2024-05-27 17:11:09] INFO root fetch - main [MainThread]: End processing [fixpoint_openapi]: success
+[2024-05-27 17:11:10] INFO root fetch - processPackages [sarus-data-spec-public]: Remove: archive file [/home/abi/fetcher/tmp/sarus_data_spec_public-4.0.2.dev0.tar.gz]
+[2024-05-27 17:11:10] INFO root fetch - processPackages [sarus-data-spec-public]: Remove: archive file [/home/abi/fetcher/tmp/sarus_data_spec_public-4.0.3.dev0.tar.gz]
+[2024-05-27 17:11:10] INFO root fetch - main [MainThread]: End processing [sarus-data-spec-public]: success
+[2024-05-27 17:11:10] INFO root fetch - processPackages [sphinx-docsearch]: Remove: archive file [/home/abi/fetcher/tmp/sphinx_docsearch-0.0.4.tar.gz]
+[2024-05-27 17:11:10] INFO root fetch - processPackages [sphinx-docsearch]: Remove: archive file [/home/abi/fetcher/tmp/sphinx_docsearch-0.0.5.tar.gz]
+[2024-05-27 17:11:10] INFO root fetch - main [MainThread]: End processing [sphinx-docsearch]: success
+[2024-05-27 17:11:10] INFO root fetch - processPackages [xga]: Remove: archive file [/home/abi/fetcher/tmp/xga-0.4.4.tar.gz]
+[2024-05-27 17:11:10] INFO root fetch - processPackages [xga]: Remove: archive file [/home/abi/fetcher/tmp/xga-0.4.5.tar.gz]
+[2024-05-27 17:11:10] INFO root fetch - main [MainThread]: End processing [xga]: success
+[2024-05-27 17:11:10] INFO root fetch - main [MainThread]: Store serial: [23397520]
