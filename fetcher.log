@@ -6145,3 +6145,27 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 07:21:39] INFO root fetch - processPackages [flash-attn]: Remove: archive file [/home/abi/fetcher/tmp/flash_attn-2.5.9.post1.tar.gz]
 [2024-05-27 07:21:39] INFO root fetch - main [MainThread]: End processing [flash-attn]: success
 [2024-05-27 07:21:39] INFO root fetch - main [MainThread]: Store serial: [23390862]
+[2024-05-27 07:23:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23390862]
+[2024-05-27 07:23:48] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-27 07:23:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vedro-jira-failed-reporter
+[2024-05-27 07:23:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aa-forum
+[2024-05-27 07:23:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: my-unique-word-counter
+[2024-05-27 07:23:48] INFO root fetch - processPackages [vedro-jira-failed-reporter]: New version: [2.1.0] Old Version: [2.0.0]
+[2024-05-27 07:23:48] WARNING root fetch - processPackages [my-unique-word-counter]: Skipping, unable to determine old version
+[2024-05-27 07:23:48] INFO root fetch - main [MainThread]: End processing [my-unique-word-counter] error
+[2024-05-27 07:23:48] INFO root fetch - processPackages [aa-forum]: New version: [2.3.0] Old Version: [2.2.1]
+[2024-05-27 07:23:48] INFO root fetch - processPackages [vedro-jira-failed-reporter]: Downloading https://files.pythonhosted.org/packages/bb/ec/ccedea8f1a84df03998600ef76d69e17dbfc2750bf30c8eff16d7977e5ee/vedro-jira-failed-reporter-2.0.0.tar.gz
+[2024-05-27 07:23:48] INFO root fetch - processPackages [aa-forum]: Downloading https://files.pythonhosted.org/packages/fe/80/a2c51eea6310c9a592614b52fc99894de1b795bfdf4a98beac072581ae93/aa_forum-2.2.1.tar.gz
+[2024-05-27 07:23:49] INFO root fetch - processPackages [vedro-jira-failed-reporter]: Downloading https://files.pythonhosted.org/packages/f2/53/5513cebebad8ad76b7491e6f71f1a3fbccee13c7b09e9f9a6406f3e7f588/vedro_jira_failed_reporter-2.1.0.tar.gz
+[2024-05-27 07:23:49] INFO root fetch - processPackages [vedro-jira-failed-reporter]: executing diffoscope
+[2024-05-27 07:23:49] INFO root fetch - processPackages [vedro-jira-failed-reporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vedro-jira-failed-reporter-2.0.0.tar.gz tmp/vedro_jira_failed_reporter-2.1.0.tar.gz --markdown 20240527/v/vedro-jira-failed-reporter/2.0.0-2.1.0/README.md --exclude *.pyd
+[2024-05-27 07:23:49] INFO root fetch - processPackages [aa-forum]: Downloading https://files.pythonhosted.org/packages/a7/fc/12cbcb534cad3d0910d7764d4c73e94430c6625856534dbf2f26809d19eb/aa_forum-2.3.0.tar.gz
+[2024-05-27 07:23:49] INFO root fetch - processPackages [aa-forum]: executing diffoscope
+[2024-05-27 07:23:49] INFO root fetch - processPackages [aa-forum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aa_forum-2.2.1.tar.gz tmp/aa_forum-2.3.0.tar.gz --markdown 20240527/a/aa-forum/2.2.1-2.3.0/README.md --exclude *.pyd
+[2024-05-27 07:23:49] INFO root fetch - processPackages [vedro-jira-failed-reporter]: Remove: archive file [/home/abi/fetcher/tmp/vedro-jira-failed-reporter-2.0.0.tar.gz]
+[2024-05-27 07:23:49] INFO root fetch - processPackages [vedro-jira-failed-reporter]: Remove: archive file [/home/abi/fetcher/tmp/vedro_jira_failed_reporter-2.1.0.tar.gz]
+[2024-05-27 07:23:49] INFO root fetch - main [MainThread]: End processing [vedro-jira-failed-reporter]: success
+[2024-05-27 07:23:50] INFO root fetch - processPackages [aa-forum]: Remove: archive file [/home/abi/fetcher/tmp/aa_forum-2.2.1.tar.gz]
+[2024-05-27 07:23:50] INFO root fetch - processPackages [aa-forum]: Remove: archive file [/home/abi/fetcher/tmp/aa_forum-2.3.0.tar.gz]
+[2024-05-27 07:23:50] INFO root fetch - main [MainThread]: End processing [aa-forum]: success
+[2024-05-27 07:23:50] INFO root fetch - main [MainThread]: Store serial: [23390872]
