@@ -14798,3 +14798,114 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 14:08:04] INFO root fetch - processPackages [lyrebird]: Remove: archive file [/home/abi/fetcher/tmp/lyrebird-3.0.2.tar.gz]
 [2024-05-27 14:08:04] INFO root fetch - main [MainThread]: End processing [lyrebird]: success
 [2024-05-27 14:08:04] INFO root fetch - main [MainThread]: Store serial: [23395233]
+[2024-05-27 14:10:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23395233]
+[2024-05-27 14:10:12] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2024-05-27 14:10:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: approck-services
+[2024-05-27 14:10:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dicio-py
+[2024-05-27 14:10:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: malaya-gpu
+[2024-05-27 14:10:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: esiaccel
+[2024-05-27 14:10:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyexmars
+[2024-05-27 14:10:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: talkytrend
+[2024-05-27 14:10:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: diffusers
+[2024-05-27 14:10:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pandalytics
+[2024-05-27 14:10:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: snlo-helper
+[2024-05-27 14:10:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: foundationallm
+[2024-05-27 14:10:12] INFO root fetch - processPackages [dicio-py]: New version: [1.2] Old Version: [1.1]
+[2024-05-27 14:10:12] INFO root fetch - processPackages [pyexmars]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-27 14:10:12] WARNING root fetch - processPackages [pandalytics]: Skipping, unable to determine old version
+[2024-05-27 14:10:12] INFO root fetch - processPackages [pandalytics]: Start processing: edwh-auth-rbac
+[2024-05-27 14:10:12] INFO root fetch - main [MainThread]: End processing [pandalytics] error
+[2024-05-27 14:10:12] INFO root fetch - processPackages [foundationallm]: New version: [0.7.7] Old Version: [0.7.6]
+[2024-05-27 14:10:12] INFO root fetch - processPackages [diffusers]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-05-27 14:10:13] INFO root fetch - processPackages [approck-services]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-27 14:10:13] INFO root fetch - processPackages [edwh-auth-rbac]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-05-27 14:10:13] WARNING root fetch - processPackages [malaya-gpu]: Skipping, unable to determine old version
+[2024-05-27 14:10:13] INFO root fetch - processPackages [malaya-gpu]: Start processing: mosqlient
+[2024-05-27 14:10:13] INFO root fetch - main [MainThread]: End processing [malaya-gpu] error
+[2024-05-27 14:10:13] INFO root fetch - processPackages [snlo-helper]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-05-27 14:10:13] INFO root fetch - processPackages [dicio-py]: Downloading https://files.pythonhosted.org/packages/c7/c0/8a8dff4284149f9c2b4f18511b89fb27f6f326b303824774bb0d43fa8830/dicio_py-1.1.tar.gz
+[2024-05-27 14:10:13] INFO root fetch - processPackages [esiaccel]: New version: [0.0.5.dev22] Old Version: [0.0.4]
+[2024-05-27 14:10:13] INFO root fetch - processPackages [pyexmars]: Downloading https://files.pythonhosted.org/packages/f5/ea/450e92ecec3de8b8c48f75ea845423569b838d95282d8bd1cfbca6a93bcc/pyexmars-1.0.8.tar.gz
+[2024-05-27 14:10:13] INFO root fetch - processPackages [talkytrend]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-05-27 14:10:13] WARNING root fetch - processPackages [mosqlient]: Skipping, unable to determine old version
+[2024-05-27 14:10:13] INFO root fetch - processPackages [mosqlient]: Start processing: cdk8s-awscdk-resolver
+[2024-05-27 14:10:13] INFO root fetch - main [MainThread]: End processing [mosqlient] error
+[2024-05-27 14:10:13] INFO root fetch - processPackages [foundationallm]: Downloading https://files.pythonhosted.org/packages/7c/fe/2866cbd5b95d20a67c3744475e5be7cc19282d5b414fea82796b592db5fb/foundationallm-0.7.6.tar.gz
+[2024-05-27 14:10:13] INFO root fetch - processPackages [edwh-auth-rbac]: Downloading https://files.pythonhosted.org/packages/5c/ee/2589e8f71152e8744a156020c4f0eae7e3d7f1894c8d3c207f77f5467d9b/edwh_auth_rbac-0.2.2.tar.gz
+[2024-05-27 14:10:13] INFO root fetch - processPackages [diffusers]: Downloading https://files.pythonhosted.org/packages/bc/a6/709af54ca1141f176d00b36f078693f9f9efe4ce2cfde8fbae3bf30f1537/diffusers-0.8.1.tar.gz
+[2024-05-27 14:10:13] INFO root fetch - processPackages [approck-services]: Downloading https://files.pythonhosted.org/packages/74/03/7e0d1d2cd87f0a511d588ec3b724a7b4de24511955fde137e4ac8642b7b1/approck_services-0.1.0.tar.gz
+[2024-05-27 14:10:13] INFO root fetch - processPackages [cdk8s-awscdk-resolver]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-27 14:10:13] INFO root fetch - processPackages [esiaccel]: Downloading https://files.pythonhosted.org/packages/f3/73/781c53b79fd2831c12c2d76cf1a677dac26f9b8757c0add505191f140d80/esiaccel-0.0.4-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-27 14:10:13] INFO root fetch - processPackages [snlo-helper]: Downloading https://files.pythonhosted.org/packages/34/ff/dbef864a084ab68f45eb837315789fe3f3a75429b39e61cf42db8e05740b/snlo_helper-0.2.0.tar.gz
+[2024-05-27 14:10:13] INFO root fetch - processPackages [talkytrend]: Downloading https://files.pythonhosted.org/packages/ea/1a/d04f1433816847e928b17d9e6c0e90e8459f488952009fe839e87a89d7fa/talkytrend-2.0.8.tar.gz
+[2024-05-27 14:10:13] INFO root fetch - processPackages [dicio-py]: Downloading https://files.pythonhosted.org/packages/e5/cb/f85694f6d9abb10d6f14651e6906bcdc24c74478d874104223540676ae61/dicio_py-1.2.tar.gz
+[2024-05-27 14:10:13] INFO root fetch - processPackages [pyexmars]: Downloading https://files.pythonhosted.org/packages/50/d1/a2145ee44f0f4ae6052d7d86300c1d66fa728fc265646b849c15ca966759/pyexmars-1.0.9.tar.gz
+[2024-05-27 14:10:13] INFO root fetch - processPackages [edwh-auth-rbac]: Downloading https://files.pythonhosted.org/packages/84/a4/05f5741d37bb6572e51aad916f0012b10ef44cfb2a5fac6e9c75cf869aa3/edwh_auth_rbac-0.2.3.tar.gz
+[2024-05-27 14:10:13] INFO root fetch - processPackages [pyexmars]: executing diffoscope
+[2024-05-27 14:10:13] INFO root fetch - processPackages [pyexmars]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyexmars-1.0.8.tar.gz tmp/pyexmars-1.0.9.tar.gz --markdown 20240527/p/pyexmars/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-27 14:10:13] INFO root fetch - processPackages [foundationallm]: Downloading https://files.pythonhosted.org/packages/60/2b/92f5b97061474d348b888362d474fcbf5733210b6a993d78e1e320b743a8/foundationallm-0.7.7.tar.gz
+[2024-05-27 14:10:13] INFO root fetch - processPackages [dicio-py]: executing diffoscope
+[2024-05-27 14:10:13] INFO root fetch - processPackages [dicio-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dicio_py-1.1.tar.gz tmp/dicio_py-1.2.tar.gz --markdown 20240527/d/dicio-py/1.1-1.2/README.md --exclude *.pyd
+[2024-05-27 14:10:13] INFO root fetch - processPackages [cdk8s-awscdk-resolver]: Downloading https://files.pythonhosted.org/packages/07/20/19ec9266389742d2a3c04ab3687b33ce4fbc2bbb57bfcec31da1a9bcbd23/cdk8s-awscdk-resolver-0.0.98.tar.gz
+[2024-05-27 14:10:13] INFO root fetch - processPackages [approck-services]: Downloading https://files.pythonhosted.org/packages/c3/94/116ca122bc287f2deec0551634f5f854c4cd207646cab395c8cbe00127d1/approck_services-0.1.1.tar.gz
+[2024-05-27 14:10:13] INFO root fetch - processPackages [edwh-auth-rbac]: executing diffoscope
+[2024-05-27 14:10:13] INFO root fetch - processPackages [edwh-auth-rbac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edwh_auth_rbac-0.2.2.tar.gz tmp/edwh_auth_rbac-0.2.3.tar.gz --markdown 20240527/e/edwh-auth-rbac/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-05-27 14:10:13] INFO root fetch - processPackages [foundationallm]: executing diffoscope
+[2024-05-27 14:10:13] INFO root fetch - processPackages [foundationallm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foundationallm-0.7.6.tar.gz tmp/foundationallm-0.7.7.tar.gz --markdown 20240527/f/foundationallm/0.7.6-0.7.7/README.md --exclude *.pyd
+[2024-05-27 14:10:13] INFO root fetch - processPackages [talkytrend]: Downloading https://files.pythonhosted.org/packages/a8/ac/85c2085482e8605071233f8932cefc380144eddfe79bd52977eb45970c7f/talkytrend-2.0.9.tar.gz
+[2024-05-27 14:10:13] INFO root fetch - processPackages [diffusers]: Downloading https://files.pythonhosted.org/packages/7d/bf/3eee65a76bafb3954ae41137c790491a098e32902893dfa2997091a8f441/diffusers-0.9.0.tar.gz
+[2024-05-27 14:10:13] INFO root fetch - processPackages [approck-services]: executing diffoscope
+[2024-05-27 14:10:13] INFO root fetch - processPackages [approck-services]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/approck_services-0.1.0.tar.gz tmp/approck_services-0.1.1.tar.gz --markdown 20240527/a/approck-services/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-27 14:10:13] INFO root fetch - processPackages [snlo-helper]: Downloading https://files.pythonhosted.org/packages/b5/8f/ef369316206692ab1176edfd226ffbd42f7e26b45e7bd7d540965fefbffe/snlo_helper-0.3.0.tar.gz
+[2024-05-27 14:10:13] INFO root fetch - processPackages [talkytrend]: executing diffoscope
+[2024-05-27 14:10:13] INFO root fetch - processPackages [talkytrend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/talkytrend-2.0.8.tar.gz tmp/talkytrend-2.0.9.tar.gz --markdown 20240527/t/talkytrend/2.0.8-2.0.9/README.md --exclude *.pyd
+[2024-05-27 14:10:14] INFO root fetch - processPackages [snlo-helper]: executing diffoscope
+[2024-05-27 14:10:14] INFO root fetch - processPackages [snlo-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snlo_helper-0.2.0.tar.gz tmp/snlo_helper-0.3.0.tar.gz --markdown 20240527/s/snlo-helper/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-05-27 14:10:14] INFO root fetch - processPackages [diffusers]: executing diffoscope
+[2024-05-27 14:10:14] INFO root fetch - processPackages [diffusers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/diffusers-0.8.1.tar.gz tmp/diffusers-0.9.0.tar.gz --markdown 20240527/d/diffusers/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-05-27 14:10:14] INFO root fetch - processPackages [cdk8s-awscdk-resolver]: Downloading https://files.pythonhosted.org/packages/c7/b2/54a44e3f76d560a3b27d6d369382450e19f3b34970ec7c2ee462c06c50c0/cdk8s-awscdk-resolver-0.0.99.tar.gz
+[2024-05-27 14:10:14] INFO root fetch - processPackages [esiaccel]: Downloading https://files.pythonhosted.org/packages/aa/68/3f8f0676283a210acf3cc821e49fa6c955129c8b1a42d574ddae86209fa6/esiaccel-0.0.5.dev22-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-27 14:10:14] INFO root fetch - processPackages [pyexmars]: Remove: archive file [/home/abi/fetcher/tmp/pyexmars-1.0.8.tar.gz]
+[2024-05-27 14:10:14] INFO root fetch - processPackages [pyexmars]: Remove: archive file [/home/abi/fetcher/tmp/pyexmars-1.0.9.tar.gz]
+[2024-05-27 14:10:14] INFO root fetch - processPackages [pyexmars]: Start processing: spider-python
+[2024-05-27 14:10:14] INFO root fetch - main [MainThread]: End processing [pyexmars]: success
+[2024-05-27 14:10:14] INFO root fetch - processPackages [spider-python]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-27 14:10:14] INFO root fetch - processPackages [cdk8s-awscdk-resolver]: executing diffoscope
+[2024-05-27 14:10:14] INFO root fetch - processPackages [cdk8s-awscdk-resolver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-awscdk-resolver-0.0.98.tar.gz tmp/cdk8s-awscdk-resolver-0.0.99.tar.gz --markdown 20240527/c/cdk8s-awscdk-resolver/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-27 14:10:14] INFO root fetch - processPackages [spider-python]: Downloading https://files.pythonhosted.org/packages/c0/62/2acb1e4739798c7db884d3b23b8746d003aaf760d7a97a7afb460afd6263/spider-python-0.1.8.tar.gz
+[2024-05-27 14:10:14] INFO root fetch - processPackages [foundationallm]: Remove: archive file [/home/abi/fetcher/tmp/foundationallm-0.7.6.tar.gz]
+[2024-05-27 14:10:14] INFO root fetch - processPackages [foundationallm]: Remove: archive file [/home/abi/fetcher/tmp/foundationallm-0.7.7.tar.gz]
+[2024-05-27 14:10:14] INFO root fetch - main [MainThread]: End processing [foundationallm]: success
+[2024-05-27 14:10:14] INFO root fetch - processPackages [dicio-py]: Remove: archive file [/home/abi/fetcher/tmp/dicio_py-1.1.tar.gz]
+[2024-05-27 14:10:14] INFO root fetch - processPackages [dicio-py]: Remove: archive file [/home/abi/fetcher/tmp/dicio_py-1.2.tar.gz]
+[2024-05-27 14:10:14] INFO root fetch - main [MainThread]: End processing [dicio-py]: success
+[2024-05-27 14:10:14] INFO root fetch - processPackages [approck-services]: Remove: archive file [/home/abi/fetcher/tmp/approck_services-0.1.0.tar.gz]
+[2024-05-27 14:10:14] INFO root fetch - processPackages [approck-services]: Remove: archive file [/home/abi/fetcher/tmp/approck_services-0.1.1.tar.gz]
+[2024-05-27 14:10:14] INFO root fetch - main [MainThread]: End processing [approck-services]: success
+[2024-05-27 14:10:14] INFO root fetch - processPackages [spider-python]: Downloading https://files.pythonhosted.org/packages/f9/06/20c7dbf9c08147211dabbf15985a904ed993a798be09b41615911ef07762/spider-python-0.1.9.tar.gz
+[2024-05-27 14:10:14] INFO root fetch - processPackages [talkytrend]: Remove: archive file [/home/abi/fetcher/tmp/talkytrend-2.0.8.tar.gz]
+[2024-05-27 14:10:14] INFO root fetch - processPackages [talkytrend]: Remove: archive file [/home/abi/fetcher/tmp/talkytrend-2.0.9.tar.gz]
+[2024-05-27 14:10:14] INFO root fetch - main [MainThread]: End processing [talkytrend]: success
+[2024-05-27 14:10:14] INFO root fetch - processPackages [esiaccel]: executing diffoscope
+[2024-05-27 14:10:14] INFO root fetch - processPackages [esiaccel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esiaccel-0.0.4-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/esiaccel-0.0.5.dev22-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240527/e/esiaccel/0.0.4-0.0.5.dev22/README.md --exclude *.pyd
+[2024-05-27 14:10:14] INFO root fetch - processPackages [spider-python]: executing diffoscope
+[2024-05-27 14:10:14] INFO root fetch - processPackages [spider-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spider-python-0.1.8.tar.gz tmp/spider-python-0.1.9.tar.gz --markdown 20240527/s/spider-python/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-27 14:10:14] INFO root fetch - processPackages [edwh-auth-rbac]: Remove: archive file [/home/abi/fetcher/tmp/edwh_auth_rbac-0.2.2.tar.gz]
+[2024-05-27 14:10:14] INFO root fetch - processPackages [edwh-auth-rbac]: Remove: archive file [/home/abi/fetcher/tmp/edwh_auth_rbac-0.2.3.tar.gz]
+[2024-05-27 14:10:14] INFO root fetch - main [MainThread]: End processing [edwh-auth-rbac]: success
+[2024-05-27 14:10:14] INFO root fetch - processPackages [snlo-helper]: Remove: archive file [/home/abi/fetcher/tmp/snlo_helper-0.2.0.tar.gz]
+[2024-05-27 14:10:14] INFO root fetch - processPackages [snlo-helper]: Remove: archive file [/home/abi/fetcher/tmp/snlo_helper-0.3.0.tar.gz]
+[2024-05-27 14:10:14] INFO root fetch - main [MainThread]: End processing [snlo-helper]: success
+[2024-05-27 14:10:15] INFO root fetch - processPackages [cdk8s-awscdk-resolver]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-awscdk-resolver-0.0.98.tar.gz]
+[2024-05-27 14:10:15] INFO root fetch - processPackages [cdk8s-awscdk-resolver]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-awscdk-resolver-0.0.99.tar.gz]
+[2024-05-27 14:10:15] INFO root fetch - main [MainThread]: End processing [cdk8s-awscdk-resolver]: success
+[2024-05-27 14:10:15] INFO root fetch - processPackages [esiaccel]: Remove: archive file [/home/abi/fetcher/tmp/esiaccel-0.0.4-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-27 14:10:15] INFO root fetch - processPackages [esiaccel]: Remove: archive file [/home/abi/fetcher/tmp/esiaccel-0.0.5.dev22-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-27 14:10:15] INFO root fetch - main [MainThread]: End processing [esiaccel]: success
+[2024-05-27 14:10:15] INFO root fetch - processPackages [spider-python]: Remove: archive file [/home/abi/fetcher/tmp/spider-python-0.1.8.tar.gz]
+[2024-05-27 14:10:15] INFO root fetch - processPackages [spider-python]: Remove: archive file [/home/abi/fetcher/tmp/spider-python-0.1.9.tar.gz]
+[2024-05-27 14:10:15] INFO root fetch - main [MainThread]: End processing [spider-python]: success
+[2024-05-27 14:10:15] INFO root fetch - processPackages [diffusers]: Remove: archive file [/home/abi/fetcher/tmp/diffusers-0.8.1.tar.gz]
+[2024-05-27 14:10:15] INFO root fetch - processPackages [diffusers]: Remove: archive file [/home/abi/fetcher/tmp/diffusers-0.9.0.tar.gz]
+[2024-05-27 14:10:15] INFO root fetch - main [MainThread]: End processing [diffusers]: success
+[2024-05-27 14:10:15] INFO root fetch - main [MainThread]: Store serial: [23395283]
