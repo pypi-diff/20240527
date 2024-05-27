@@ -5220,3 +5220,30 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 06:23:19] INFO root fetch - processPackages [FastHPOCR]: Remove: archive file [/home/abi/fetcher/tmp/FastHPOCR-0.1.2.tar.gz]
 [2024-05-27 06:23:19] INFO root fetch - main [MainThread]: End processing [FastHPOCR]: success
 [2024-05-27 06:23:19] INFO root fetch - main [MainThread]: Store serial: [23390492]
+[2024-05-27 06:25:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23390492]
+[2024-05-27 06:25:27] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-27 06:25:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: smt-portfolio
+[2024-05-27 06:25:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: memorygenerator
+[2024-05-27 06:25:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: iperturb
+[2024-05-27 06:25:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: diveharder
+[2024-05-27 06:25:27] INFO root fetch - processPackages [memorygenerator]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-27 06:25:27] WARNING root fetch - processPackages [iperturb]: Skipping, unable to determine old version
+[2024-05-27 06:25:27] WARNING root fetch - processPackages [diveharder]: Skipping, unable to determine old version
+[2024-05-27 06:25:27] INFO root fetch - main [MainThread]: End processing [iperturb] error
+[2024-05-27 06:25:27] INFO root fetch - main [MainThread]: End processing [diveharder] error
+[2024-05-27 06:25:27] INFO root fetch - processPackages [smt-portfolio]: New version: [1.0.0] Old Version: [0.3.3]
+[2024-05-27 06:25:27] INFO root fetch - processPackages [memorygenerator]: Downloading https://files.pythonhosted.org/packages/34/13/2ed949e2bddfa39b0f05e78faaf77987e198d9ddbcb708577eec4a47d66c/memorygenerator-0.1.0.tar.gz
+[2024-05-27 06:25:28] INFO root fetch - processPackages [smt-portfolio]: Downloading https://files.pythonhosted.org/packages/8e/b6/f58d5026b6dad7e93338080b5e6af7bbfe9aa5a0224a0b8d65f2d795ceee/smt_portfolio-0.3.3.tar.gz
+[2024-05-27 06:25:28] INFO root fetch - processPackages [smt-portfolio]: Downloading https://files.pythonhosted.org/packages/5e/d8/8c99adb9e970ffc53180234ed082741edc1ea115249e0df903796580f561/smt_portfolio-1.0.0.tar.gz
+[2024-05-27 06:25:28] INFO root fetch - processPackages [memorygenerator]: Downloading https://files.pythonhosted.org/packages/39/04/671b0cb265483bfa8ef1807b68ec9bcc4f6af6290d8c00ed71a4e7fabe5b/memorygenerator-0.1.1-py3-none-any.whl
+[2024-05-27 06:25:28] INFO root fetch - processPackages [memorygenerator]: executing diffoscope
+[2024-05-27 06:25:28] INFO root fetch - processPackages [memorygenerator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/memorygenerator-0.1.0.tar.gz tmp/memorygenerator-0.1.1-py3-none-any.whl.zip --markdown 20240527/m/memorygenerator/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-27 06:25:28] INFO root fetch - processPackages [smt-portfolio]: executing diffoscope
+[2024-05-27 06:25:28] INFO root fetch - processPackages [smt-portfolio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smt_portfolio-0.3.3.tar.gz tmp/smt_portfolio-1.0.0.tar.gz --markdown 20240527/s/smt-portfolio/0.3.3-1.0.0/README.md --exclude *.pyd
+[2024-05-27 06:25:28] INFO root fetch - processPackages [memorygenerator]: Remove: archive file [/home/abi/fetcher/tmp/memorygenerator-0.1.0.tar.gz]
+[2024-05-27 06:25:28] INFO root fetch - processPackages [memorygenerator]: Remove: archive file [/home/abi/fetcher/tmp/memorygenerator-0.1.1-py3-none-any.whl.zip]
+[2024-05-27 06:25:28] INFO root fetch - main [MainThread]: End processing [memorygenerator]: success
+[2024-05-27 06:25:28] INFO root fetch - processPackages [smt-portfolio]: Remove: archive file [/home/abi/fetcher/tmp/smt_portfolio-0.3.3.tar.gz]
+[2024-05-27 06:25:28] INFO root fetch - processPackages [smt-portfolio]: Remove: archive file [/home/abi/fetcher/tmp/smt_portfolio-1.0.0.tar.gz]
+[2024-05-27 06:25:28] INFO root fetch - main [MainThread]: End processing [smt-portfolio]: success
+[2024-05-27 06:25:28] INFO root fetch - main [MainThread]: Store serial: [23390510]
