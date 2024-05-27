@@ -14305,3 +14305,33 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 13:41:21] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.9.3.tar.gz]
 [2024-05-27 13:41:21] INFO root fetch - main [MainThread]: End processing [mteb]: success
 [2024-05-27 13:41:21] INFO root fetch - main [MainThread]: Store serial: [23394832]
+[2024-05-27 13:43:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23394832]
+[2024-05-27 13:43:30] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-27 13:43:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: scylla-cqlsh
+[2024-05-27 13:43:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rustgi
+[2024-05-27 13:43:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chatgpt-interface
+[2024-05-27 13:43:30] INFO root fetch - processPackages [chatgpt-interface]: New version: [0.1.2] Old Version: [0.1.0]
+[2024-05-27 13:43:30] INFO root fetch - processPackages [scylla-cqlsh]: New version: [6.0.9] Old Version: [6.0.8]
+[2024-05-27 13:43:30] INFO root fetch - processPackages [rustgi]: New version: [0.1.8] Old Version: [0.1.20]
+[2024-05-27 13:43:30] INFO root fetch - processPackages [chatgpt-interface]: Downloading https://files.pythonhosted.org/packages/eb/4e/26e0a18d937e6f81dd0f4dcddf2cd713d61fe53812310d66b904b23d39fc/chatgpt_interface-0.1.0.tar.gz
+[2024-05-27 13:43:31] INFO root fetch - processPackages [rustgi]: Downloading https://files.pythonhosted.org/packages/ed/30/2a3355c22c44e6f5b8554fe0b8d9f33db36927699df11dbb6eb6ce745952/rustgi-0.1.20-cp311-cp311-musllinux_1_1_aarch64.whl
+[2024-05-27 13:43:31] INFO root fetch - processPackages [scylla-cqlsh]: Downloading https://files.pythonhosted.org/packages/c3/44/6b5fdb40eb94f9bc6429a64df0ef93536f1704c686c2970ae7ccc34f81ed/scylla-cqlsh-6.0.8.tar.gz
+[2024-05-27 13:43:31] INFO root fetch - processPackages [chatgpt-interface]: Downloading https://files.pythonhosted.org/packages/c9/cd/46324a5294472cdd280dc1d59d37b7ab068a24b108ce15eadba762a54bf4/chatgpt_interface-0.1.2.tar.gz
+[2024-05-27 13:43:31] INFO root fetch - processPackages [chatgpt-interface]: executing diffoscope
+[2024-05-27 13:43:31] INFO root fetch - processPackages [chatgpt-interface]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatgpt_interface-0.1.0.tar.gz tmp/chatgpt_interface-0.1.2.tar.gz --markdown 20240527/c/chatgpt-interface/0.1.0-0.1.2/README.md --exclude *.pyd
+[2024-05-27 13:43:31] INFO root fetch - processPackages [scylla-cqlsh]: Downloading https://files.pythonhosted.org/packages/53/27/c44270b183ff5326eb16ffc1de7cd7313ce3ce5d68eb0100a87665e4aeed/scylla-cqlsh-6.0.9.tar.gz
+[2024-05-27 13:43:31] INFO root fetch - processPackages [scylla-cqlsh]: executing diffoscope
+[2024-05-27 13:43:31] INFO root fetch - processPackages [scylla-cqlsh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scylla-cqlsh-6.0.8.tar.gz tmp/scylla-cqlsh-6.0.9.tar.gz --markdown 20240527/s/scylla-cqlsh/6.0.8-6.0.9/README.md --exclude *.pyd
+[2024-05-27 13:43:31] INFO root fetch - processPackages [chatgpt-interface]: Remove: archive file [/home/abi/fetcher/tmp/chatgpt_interface-0.1.0.tar.gz]
+[2024-05-27 13:43:31] INFO root fetch - processPackages [chatgpt-interface]: Remove: archive file [/home/abi/fetcher/tmp/chatgpt_interface-0.1.2.tar.gz]
+[2024-05-27 13:43:31] INFO root fetch - main [MainThread]: End processing [chatgpt-interface]: success
+[2024-05-27 13:43:32] INFO root fetch - processPackages [rustgi]: Downloading https://files.pythonhosted.org/packages/cf/82/22831df768e88074917ab6c2fc29ccfe1529ceac2bcc71aaef24b2c3916a/rustgi-0.1.8.tar.gz
+[2024-05-27 13:43:32] INFO root fetch - processPackages [rustgi]: executing diffoscope
+[2024-05-27 13:43:32] INFO root fetch - processPackages [rustgi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rustgi-0.1.20-cp311-cp311-musllinux_1_1_aarch64.whl.zip tmp/rustgi-0.1.8.tar.gz --markdown 20240527/r/rustgi/0.1.20-0.1.8/README.md --exclude *.pyd
+[2024-05-27 13:43:32] INFO root fetch - processPackages [scylla-cqlsh]: Remove: archive file [/home/abi/fetcher/tmp/scylla-cqlsh-6.0.8.tar.gz]
+[2024-05-27 13:43:32] INFO root fetch - processPackages [scylla-cqlsh]: Remove: archive file [/home/abi/fetcher/tmp/scylla-cqlsh-6.0.9.tar.gz]
+[2024-05-27 13:43:32] INFO root fetch - main [MainThread]: End processing [scylla-cqlsh]: success
+[2024-05-27 13:43:33] INFO root fetch - processPackages [rustgi]: Remove: archive file [/home/abi/fetcher/tmp/rustgi-0.1.20-cp311-cp311-musllinux_1_1_aarch64.whl.zip]
+[2024-05-27 13:43:33] INFO root fetch - processPackages [rustgi]: Remove: archive file [/home/abi/fetcher/tmp/rustgi-0.1.8.tar.gz]
+[2024-05-27 13:43:33] INFO root fetch - main [MainThread]: End processing [rustgi]: success
+[2024-05-27 13:43:33] INFO root fetch - main [MainThread]: Store serial: [23394885]
