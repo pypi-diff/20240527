@@ -23024,3 +23024,32 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-05-27 19:19:22] INFO root fetch - processPackages [glide-for-redis]: Remove: archive file [/home/abi/fetcher/tmp/glide_for_redis-0.4.0rc4-cp39-cp39-manylinux_2_28_aarch64.whl.zip]
 [2024-05-27 19:19:22] INFO root fetch - main [MainThread]: End processing [glide-for-redis]: success
 [2024-05-27 19:19:22] INFO root fetch - main [MainThread]: Store serial: [23398983]
+[2024-05-27 19:21:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23398983]
+[2024-05-27 19:21:30] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-27 19:21:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: openvino-nightly
+[2024-05-27 19:21:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: py-Ayiin
+[2024-05-27 19:21:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: medium-article-py
+[2024-05-27 19:21:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: b3fileparser
+[2024-05-27 19:21:31] INFO root fetch - processPackages [py-Ayiin]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-05-27 19:21:31] INFO root fetch - processPackages [py-Ayiin]: Downloading https://files.pythonhosted.org/packages/e5/04/01fef5b699efc04f2e30f3f1cd73d1ae60ba217f978fc3f2be036857ac62/py-Ayiin-0.4.8.tar.gz
+[2024-05-27 19:21:31] INFO root fetch - processPackages [openvino-nightly]: New version: [2024.3.0.dev20240527] Old Version: [2024.3.0.dev20240524]
+[2024-05-27 19:21:31] WARNING root fetch - processPackages [medium-article-py]: Skipping, unable to determine old version
+[2024-05-27 19:21:31] INFO root fetch - main [MainThread]: End processing [medium-article-py] error
+[2024-05-27 19:21:31] INFO root fetch - processPackages [b3fileparser]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-27 19:21:31] INFO root fetch - processPackages [openvino-nightly]: Downloading https://files.pythonhosted.org/packages/08/85/ee3e164b265fe6c2c5b175a6179fe7962c442de92551fab374fdd96ecbf2/openvino_nightly-2024.3.0.dev20240524-15502-cp39-cp39-win_amd64.whl
+[2024-05-27 19:21:31] INFO root fetch - processPackages [b3fileparser]: Downloading https://files.pythonhosted.org/packages/7e/2e/46203a2db3ba418d8f2e09287586d271ca8a3a9b0e25ace9e8be7cce4447/b3fileparser-0.2.0.tar.gz
+[2024-05-27 19:21:31] INFO root fetch - processPackages [py-Ayiin]: Downloading https://files.pythonhosted.org/packages/2a/e5/b175e1443991838a79cb107f9a8e76328578760c4e2cebdea747939d4b53/py_Ayiin-0.4.9-cp39-cp39-manylinux2014_x86_64.whl
+[2024-05-27 19:21:31] WARNING root fetch - processPackages [openvino-nightly]: Skipping package: exceeds size limit 32429608>=10485760
+[2024-05-27 19:21:31] INFO root fetch - main [MainThread]: End processing [openvino-nightly] error
+[2024-05-27 19:21:31] INFO root fetch - processPackages [b3fileparser]: Downloading https://files.pythonhosted.org/packages/dc/3f/1410d99ea655e280d9682dd9be8ea84a949e31d726568273e1d073442a55/b3fileparser-0.2.1.tar.gz
+[2024-05-27 19:21:31] INFO root fetch - processPackages [b3fileparser]: executing diffoscope
+[2024-05-27 19:21:31] INFO root fetch - processPackages [b3fileparser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/b3fileparser-0.2.0.tar.gz tmp/b3fileparser-0.2.1.tar.gz --markdown 20240527/b/b3fileparser/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-27 19:21:32] INFO root fetch - processPackages [py-Ayiin]: executing diffoscope
+[2024-05-27 19:21:32] INFO root fetch - processPackages [py-Ayiin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-Ayiin-0.4.8.tar.gz tmp/py_Ayiin-0.4.9-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20240527/p/py-Ayiin/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-05-27 19:21:32] INFO root fetch - processPackages [b3fileparser]: Remove: archive file [/home/abi/fetcher/tmp/b3fileparser-0.2.0.tar.gz]
+[2024-05-27 19:21:32] INFO root fetch - processPackages [b3fileparser]: Remove: archive file [/home/abi/fetcher/tmp/b3fileparser-0.2.1.tar.gz]
+[2024-05-27 19:21:32] INFO root fetch - main [MainThread]: End processing [b3fileparser]: success
+[2024-05-27 19:21:33] INFO root fetch - processPackages [py-Ayiin]: Remove: archive file [/home/abi/fetcher/tmp/py-Ayiin-0.4.8.tar.gz]
+[2024-05-27 19:21:33] INFO root fetch - processPackages [py-Ayiin]: Remove: archive file [/home/abi/fetcher/tmp/py_Ayiin-0.4.9-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2024-05-27 19:21:33] INFO root fetch - main [MainThread]: End processing [py-Ayiin]: success
+[2024-05-27 19:21:33] INFO root fetch - main [MainThread]: Store serial: [23399006]
