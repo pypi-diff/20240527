@@ -9428,3 +9428,51 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 10:23:36] INFO root fetch - processPackages [dao-analyzer]: Remove: archive file [/home/abi/fetcher/tmp/dao_analyzer-1.3.2.dev2.tar.gz]
 [2024-05-27 10:23:36] INFO root fetch - main [MainThread]: End processing [dao-analyzer]: success
 [2024-05-27 10:23:36] INFO root fetch - main [MainThread]: Store serial: [23392553]
+[2024-05-27 10:25:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23392553]
+[2024-05-27 10:25:45] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-27 10:25:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: digitalhub-core
+[2024-05-27 10:25:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdnmon
+[2024-05-27 10:25:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pimelon
+[2024-05-27 10:25:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dao-analyzer
+[2024-05-27 10:25:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: weightfactors
+[2024-05-27 10:25:45] INFO root fetch - processPackages [dao-analyzer]: New version: [1.3.2.dev2] Old Version: [1.3.1]
+[2024-05-27 10:25:45] INFO root fetch - processPackages [cdnmon]: New version: [0.5.4] Old Version: [0.5.3]
+[2024-05-27 10:25:45] INFO root fetch - processPackages [dao-analyzer]: Downloading https://files.pythonhosted.org/packages/3c/4f/211e1e44dc227f59c433169dc91c164ddbddd919577843f9d5f3b59dd323/dao_analyzer-1.3.1.tar.gz
+[2024-05-27 10:25:45] INFO root fetch - processPackages [pimelon]: New version: [6.16.9] Old Version: [6.16.8]
+[2024-05-27 10:25:45] INFO root fetch - processPackages [digitalhub-core]: New version: [0.5.0b3] Old Version: [0.5.0b2]
+[2024-05-27 10:25:45] INFO root fetch - processPackages [weightfactors]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-27 10:25:45] INFO root fetch - processPackages [cdnmon]: Downloading https://files.pythonhosted.org/packages/ec/bf/427ee6b16a8f017ddb771e1f33bc67fc9f7d7879b4cab3587e416c6c085e/cdnmon-0.5.3.tar.gz
+[2024-05-27 10:25:45] INFO root fetch - processPackages [pimelon]: Downloading https://files.pythonhosted.org/packages/28/76/785ad4b63ae06af601d02ea88d732388acbbd07cd354129da390d10ce5ef/pimelon-6.16.8.tar.gz
+[2024-05-27 10:25:45] INFO root fetch - processPackages [digitalhub-core]: Downloading https://files.pythonhosted.org/packages/3a/b7/3bec3f0817d999f011054017c908a47addb1bc10f0f5cdef56a35c6fe6c9/digitalhub_core-0.5.0b2.tar.gz
+[2024-05-27 10:25:45] INFO root fetch - processPackages [weightfactors]: Downloading https://files.pythonhosted.org/packages/17/42/a2c114ad1437689afdc797f51ac2327688b2959c5f79995de10e91182306/weightfactors-0.0.3.tar.gz
+[2024-05-27 10:25:45] INFO root fetch - processPackages [dao-analyzer]: Downloading https://files.pythonhosted.org/packages/f2/02/2d231e6aecfb006c7ff4999facffbc7f3bff6886f02f434fc7f63f50f14e/dao_analyzer-1.3.2.dev2.tar.gz
+[2024-05-27 10:25:46] INFO root fetch - processPackages [cdnmon]: Downloading https://files.pythonhosted.org/packages/e9/71/82466511bd2352919f7d9a47488b9b61919778d0f21d6a17fa43b180d9cc/cdnmon-0.5.4.tar.gz
+[2024-05-27 10:25:46] INFO root fetch - processPackages [pimelon]: Downloading https://files.pythonhosted.org/packages/f7/99/743d09f1a25dd78831b27b37b7b2aed5f4d5bb9b05295833900064ea4eab/pimelon-6.16.9.tar.gz
+[2024-05-27 10:25:46] INFO root fetch - processPackages [digitalhub-core]: Downloading https://files.pythonhosted.org/packages/30/e9/f4f3042b54b4d3c2bfb69fd8979744de7a95ccfa0a94c8e07ba6f8d5e9e2/digitalhub_core-0.5.0b3.tar.gz
+[2024-05-27 10:25:46] INFO root fetch - processPackages [cdnmon]: executing diffoscope
+[2024-05-27 10:25:46] INFO root fetch - processPackages [cdnmon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdnmon-0.5.3.tar.gz tmp/cdnmon-0.5.4.tar.gz --markdown 20240527/c/cdnmon/0.5.3-0.5.4/README.md --exclude *.pyd
+[2024-05-27 10:25:46] INFO root fetch - processPackages [dao-analyzer]: executing diffoscope
+[2024-05-27 10:25:46] INFO root fetch - processPackages [dao-analyzer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dao_analyzer-1.3.1.tar.gz tmp/dao_analyzer-1.3.2.dev2.tar.gz --markdown 20240527/d/dao-analyzer/1.3.1-1.3.2.dev2/README.md --exclude *.pyd
+[2024-05-27 10:25:46] INFO root fetch - processPackages [weightfactors]: Downloading https://files.pythonhosted.org/packages/4a/7a/e33f4f99d0cc0fb6c7fc725cf7723352ebb82c5379f92c7c0c5390e28c16/weightfactors-0.0.4.tar.gz
+[2024-05-27 10:25:46] INFO root fetch - processPackages [pimelon]: executing diffoscope
+[2024-05-27 10:25:46] INFO root fetch - processPackages [pimelon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pimelon-6.16.8.tar.gz tmp/pimelon-6.16.9.tar.gz --markdown 20240527/p/pimelon/6.16.8-6.16.9/README.md --exclude *.pyd
+[2024-05-27 10:25:46] INFO root fetch - processPackages [digitalhub-core]: executing diffoscope
+[2024-05-27 10:25:46] INFO root fetch - processPackages [digitalhub-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digitalhub_core-0.5.0b2.tar.gz tmp/digitalhub_core-0.5.0b3.tar.gz --markdown 20240527/d/digitalhub-core/0.5.0b2-0.5.0b3/README.md --exclude *.pyd
+[2024-05-27 10:25:46] INFO root fetch - processPackages [weightfactors]: executing diffoscope
+[2024-05-27 10:25:46] INFO root fetch - processPackages [weightfactors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weightfactors-0.0.3.tar.gz tmp/weightfactors-0.0.4.tar.gz --markdown 20240527/w/weightfactors/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-27 10:25:46] INFO root fetch - processPackages [weightfactors]: Remove: archive file [/home/abi/fetcher/tmp/weightfactors-0.0.3.tar.gz]
+[2024-05-27 10:25:46] INFO root fetch - processPackages [weightfactors]: Remove: archive file [/home/abi/fetcher/tmp/weightfactors-0.0.4.tar.gz]
+[2024-05-27 10:25:46] INFO root fetch - main [MainThread]: End processing [weightfactors]: success
+[2024-05-27 10:25:46] INFO root fetch - processPackages [cdnmon]: Remove: archive file [/home/abi/fetcher/tmp/cdnmon-0.5.3.tar.gz]
+[2024-05-27 10:25:46] INFO root fetch - processPackages [cdnmon]: Remove: archive file [/home/abi/fetcher/tmp/cdnmon-0.5.4.tar.gz]
+[2024-05-27 10:25:46] INFO root fetch - main [MainThread]: End processing [cdnmon]: success
+[2024-05-27 10:25:47] INFO root fetch - processPackages [digitalhub-core]: Remove: archive file [/home/abi/fetcher/tmp/digitalhub_core-0.5.0b2.tar.gz]
+[2024-05-27 10:25:47] INFO root fetch - processPackages [digitalhub-core]: Remove: archive file [/home/abi/fetcher/tmp/digitalhub_core-0.5.0b3.tar.gz]
+[2024-05-27 10:25:47] INFO root fetch - main [MainThread]: End processing [digitalhub-core]: success
+[2024-05-27 10:25:47] INFO root fetch - processPackages [pimelon]: Remove: archive file [/home/abi/fetcher/tmp/pimelon-6.16.8.tar.gz]
+[2024-05-27 10:25:47] INFO root fetch - processPackages [pimelon]: Remove: archive file [/home/abi/fetcher/tmp/pimelon-6.16.9.tar.gz]
+[2024-05-27 10:25:47] INFO root fetch - main [MainThread]: End processing [pimelon]: success
+[2024-05-27 10:25:47] INFO root fetch - processPackages [dao-analyzer]: Remove: archive file [/home/abi/fetcher/tmp/dao_analyzer-1.3.1.tar.gz]
+[2024-05-27 10:25:47] INFO root fetch - processPackages [dao-analyzer]: Remove: archive file [/home/abi/fetcher/tmp/dao_analyzer-1.3.2.dev2.tar.gz]
+[2024-05-27 10:25:47] INFO root fetch - main [MainThread]: End processing [dao-analyzer]: success
+[2024-05-27 10:25:47] INFO root fetch - main [MainThread]: Store serial: [23392568]
