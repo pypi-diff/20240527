@@ -19448,3 +19448,42 @@ EOFError: EOF read where object expected
 [2024-05-27 16:50:59] INFO root fetch - processPackages [dpdispatcher]: Remove: archive file [/home/abi/fetcher/tmp/dpdispatcher-0.6.5.tar.gz]
 [2024-05-27 16:50:59] INFO root fetch - main [MainThread]: End processing [dpdispatcher]: success
 [2024-05-27 16:50:59] INFO root fetch - main [MainThread]: Store serial: [23397286]
+[2024-05-27 16:53:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23397286]
+[2024-05-27 16:53:07] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-27 16:53:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yeref
+[2024-05-27 16:53:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: adetailer
+[2024-05-27 16:53:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: BarteSDK
+[2024-05-27 16:53:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: epyk
+[2024-05-27 16:53:08] INFO root fetch - processPackages [BarteSDK]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-27 16:53:08] INFO root fetch - processPackages [yeref]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-27 16:53:08] INFO root fetch - processPackages [adetailer]: New version: [24.5.1] Old Version: [24.5.0]
+[2024-05-27 16:53:08] INFO root fetch - processPackages [BarteSDK]: Downloading https://files.pythonhosted.org/packages/1c/24/f265a111f10a855a327643e87273d1f3ba56190ad02e0175f3b5b6319e4c/bartesdk-0.1.8.tar.gz
+[2024-05-27 16:53:08] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/ec/cb/204e6fbe233bbb61cf29c1b491e8c638c8a843edc47fb4e1d8cc8c26608c/yeref-0.9.8.tar.gz
+[2024-05-27 16:53:08] INFO root fetch - processPackages [epyk]: New version: [1.9.9] Old Version: [1.9.8]
+[2024-05-27 16:53:08] INFO root fetch - processPackages [BarteSDK]: Downloading https://files.pythonhosted.org/packages/15/ee/a85c9e9d9f84f12e1c3ab4801827286e3ad5588e1683d13c5130caaa29f2/bartesdk-0.1.9.tar.gz
+[2024-05-27 16:53:08] INFO root fetch - processPackages [adetailer]: Downloading https://files.pythonhosted.org/packages/a7/bd/1bb65392a6aea3bc3e4fc31426e9eab90b532a851383e61b5d01e067dbe3/adetailer-24.5.0.tar.gz
+[2024-05-27 16:53:08] INFO root fetch - processPackages [epyk]: Downloading https://files.pythonhosted.org/packages/2b/b7/d8534d999b9d58a4412b4db34fefcdfbe6c581e844864d76492fdcb43548/epyk-1.9.8-py3-none-any.whl
+[2024-05-27 16:53:08] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/01/13/0f11bb3dfb27aaf16ed48b0046f50ac65b1fde32662fbc314d53e2558b2d/yeref-0.9.9.tar.gz
+[2024-05-27 16:53:08] INFO root fetch - processPackages [BarteSDK]: executing diffoscope
+[2024-05-27 16:53:08] INFO root fetch - processPackages [BarteSDK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bartesdk-0.1.8.tar.gz tmp/bartesdk-0.1.9.tar.gz --markdown 20240527/B/BarteSDK/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-27 16:53:08] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2024-05-27 16:53:08] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.9.8.tar.gz tmp/yeref-0.9.9.tar.gz --markdown 20240527/y/yeref/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-27 16:53:08] INFO root fetch - processPackages [adetailer]: Downloading https://files.pythonhosted.org/packages/e0/d7/838cfba290003f94969bbb61a514216642af3f8f6431670a8e139e41100d/adetailer-24.5.1.tar.gz
+[2024-05-27 16:53:08] INFO root fetch - processPackages [adetailer]: executing diffoscope
+[2024-05-27 16:53:08] INFO root fetch - processPackages [adetailer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adetailer-24.5.0.tar.gz tmp/adetailer-24.5.1.tar.gz --markdown 20240527/a/adetailer/24.5.0-24.5.1/README.md --exclude *.pyd
+[2024-05-27 16:53:09] INFO root fetch - processPackages [BarteSDK]: Remove: archive file [/home/abi/fetcher/tmp/bartesdk-0.1.8.tar.gz]
+[2024-05-27 16:53:09] INFO root fetch - processPackages [BarteSDK]: Remove: archive file [/home/abi/fetcher/tmp/bartesdk-0.1.9.tar.gz]
+[2024-05-27 16:53:09] INFO root fetch - main [MainThread]: End processing [BarteSDK]: success
+[2024-05-27 16:53:09] INFO root fetch - processPackages [epyk]: Downloading https://files.pythonhosted.org/packages/16/be/cd2f93881ffe92a847a9cfff5f05b11b2f5cd93f2b1c552a7982a06aab4e/epyk-1.9.9-py3-none-any.whl
+[2024-05-27 16:53:09] INFO root fetch - processPackages [epyk]: executing diffoscope
+[2024-05-27 16:53:09] INFO root fetch - processPackages [epyk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/epyk-1.9.8-py3-none-any.whl.zip tmp/epyk-1.9.9-py3-none-any.whl.zip --markdown 20240527/e/epyk/1.9.8-1.9.9/README.md --exclude *.pyd
+[2024-05-27 16:53:09] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.8.tar.gz]
+[2024-05-27 16:53:09] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.9.tar.gz]
+[2024-05-27 16:53:09] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2024-05-27 16:53:09] INFO root fetch - processPackages [adetailer]: Remove: archive file [/home/abi/fetcher/tmp/adetailer-24.5.0.tar.gz]
+[2024-05-27 16:53:09] INFO root fetch - processPackages [adetailer]: Remove: archive file [/home/abi/fetcher/tmp/adetailer-24.5.1.tar.gz]
+[2024-05-27 16:53:09] INFO root fetch - main [MainThread]: End processing [adetailer]: success
+[2024-05-27 16:53:11] INFO root fetch - processPackages [epyk]: Remove: archive file [/home/abi/fetcher/tmp/epyk-1.9.8-py3-none-any.whl.zip]
+[2024-05-27 16:53:11] INFO root fetch - processPackages [epyk]: Remove: archive file [/home/abi/fetcher/tmp/epyk-1.9.9-py3-none-any.whl.zip]
+[2024-05-27 16:53:11] INFO root fetch - main [MainThread]: End processing [epyk]: success
+[2024-05-27 16:53:11] INFO root fetch - main [MainThread]: Store serial: [23397299]
