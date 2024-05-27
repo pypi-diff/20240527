@@ -22170,3 +22170,24 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-05-27 18:41:48] INFO root fetch - processPackages [rateslib]: Remove: archive file [/home/abi/fetcher/tmp/rateslib-1.2.0.tar.gz]
 [2024-05-27 18:41:48] INFO root fetch - main [MainThread]: End processing [rateslib]: success
 [2024-05-27 18:41:48] INFO root fetch - main [MainThread]: Store serial: [23398515]
+[2024-05-27 18:43:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23398515]
+[2024-05-27 18:43:57] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-27 18:43:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pygrinder
+[2024-05-27 18:43:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ppynet
+[2024-05-27 18:43:57] INFO root fetch - processPackages [ppynet]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-27 18:43:57] INFO root fetch - processPackages [ppynet]: Downloading https://files.pythonhosted.org/packages/0e/27/d1cf531071dc53c5bc9a712f972764318c9596d16cc82628d2ffed3fe5c6/ppynet-0.0.2.tar.gz
+[2024-05-27 18:43:57] INFO root fetch - processPackages [pygrinder]: New version: [0.5] Old Version: [0.4]
+[2024-05-27 18:43:57] INFO root fetch - processPackages [ppynet]: Downloading https://files.pythonhosted.org/packages/99/5b/14299f97743f7813ebc3df6f4afa31fc66c5ff41700cdf1cd966df4095b8/ppynet-0.0.3.tar.gz
+[2024-05-27 18:43:57] INFO root fetch - processPackages [pygrinder]: Downloading https://files.pythonhosted.org/packages/fd/ee/f447888de3424bb71b4aa77e078fc13551905d403e66d1f17ad2a5cb1280/pygrinder-0.4.tar.gz
+[2024-05-27 18:43:57] INFO root fetch - processPackages [ppynet]: executing diffoscope
+[2024-05-27 18:43:57] INFO root fetch - processPackages [ppynet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ppynet-0.0.2.tar.gz tmp/ppynet-0.0.3.tar.gz --markdown 20240527/p/ppynet/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-27 18:43:58] INFO root fetch - processPackages [pygrinder]: Downloading https://files.pythonhosted.org/packages/c2/be/95a67e3b4881be93bf66029bacf7f80b3eabad821e006612bb86f44777fa/pygrinder-0.5.tar.gz
+[2024-05-27 18:43:58] INFO root fetch - processPackages [pygrinder]: executing diffoscope
+[2024-05-27 18:43:58] INFO root fetch - processPackages [pygrinder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygrinder-0.4.tar.gz tmp/pygrinder-0.5.tar.gz --markdown 20240527/p/pygrinder/0.4-0.5/README.md --exclude *.pyd
+[2024-05-27 18:43:58] INFO root fetch - processPackages [ppynet]: Remove: archive file [/home/abi/fetcher/tmp/ppynet-0.0.2.tar.gz]
+[2024-05-27 18:43:58] INFO root fetch - processPackages [ppynet]: Remove: archive file [/home/abi/fetcher/tmp/ppynet-0.0.3.tar.gz]
+[2024-05-27 18:43:58] INFO root fetch - main [MainThread]: End processing [ppynet]: success
+[2024-05-27 18:43:58] INFO root fetch - processPackages [pygrinder]: Remove: archive file [/home/abi/fetcher/tmp/pygrinder-0.4.tar.gz]
+[2024-05-27 18:43:58] INFO root fetch - processPackages [pygrinder]: Remove: archive file [/home/abi/fetcher/tmp/pygrinder-0.5.tar.gz]
+[2024-05-27 18:43:58] INFO root fetch - main [MainThread]: End processing [pygrinder]: success
+[2024-05-27 18:43:58] INFO root fetch - main [MainThread]: Store serial: [23398520]
