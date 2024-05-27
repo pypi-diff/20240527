@@ -7020,3 +7020,24 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 08:20:32] INFO root fetch - processPackages [argo-workflows]: Remove: archive file [/home/abi/fetcher/tmp/argo_workflows-6.5.7.tar.gz]
 [2024-05-27 08:20:32] INFO root fetch - main [MainThread]: End processing [argo-workflows]: success
 [2024-05-27 08:20:32] INFO root fetch - main [MainThread]: Store serial: [23391319]
+[2024-05-27 08:22:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23391319]
+[2024-05-27 08:22:40] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-27 08:22:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kvcommon-flask
+[2024-05-27 08:22:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: stefutils
+[2024-05-27 08:22:40] INFO root fetch - processPackages [stefutils]: New version: [0.9.0] Old Version: [0.8.2]
+[2024-05-27 08:22:40] INFO root fetch - processPackages [stefutils]: Downloading https://files.pythonhosted.org/packages/35/8a/1e1d14788f07a9e2f1f826ff7ed0782d942b144ca6bdd3e7aba10d88d63c/stefutils-0.8.2.tar.gz
+[2024-05-27 08:22:40] INFO root fetch - processPackages [kvcommon-flask]: New version: [0.0.4b0] Old Version: [0.0.3.5]
+[2024-05-27 08:22:40] INFO root fetch - processPackages [kvcommon-flask]: Downloading https://files.pythonhosted.org/packages/b9/46/529a96d3f57f16cadfc8ce50b2ed86f96e139727b166e02ae439b3aa044b/kvcommon_flask-0.0.3.5.tar.gz
+[2024-05-27 08:22:40] INFO root fetch - processPackages [stefutils]: Downloading https://files.pythonhosted.org/packages/97/83/18c4d714dca8e70776fec14f20e075956fd6a82321ac6df03f78534d47eb/stefutils-0.9.0.tar.gz
+[2024-05-27 08:22:40] INFO root fetch - processPackages [stefutils]: executing diffoscope
+[2024-05-27 08:22:40] INFO root fetch - processPackages [stefutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stefutils-0.8.2.tar.gz tmp/stefutils-0.9.0.tar.gz --markdown 20240527/s/stefutils/0.8.2-0.9.0/README.md --exclude *.pyd
+[2024-05-27 08:22:41] INFO root fetch - processPackages [kvcommon-flask]: Downloading https://files.pythonhosted.org/packages/d9/b8/3ad569512657c17505523f9648ebc4443ad75ba4e79d653fecdc993f936a/kvcommon_flask-0.0.4b0.tar.gz
+[2024-05-27 08:22:41] INFO root fetch - processPackages [kvcommon-flask]: executing diffoscope
+[2024-05-27 08:22:41] INFO root fetch - processPackages [kvcommon-flask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kvcommon_flask-0.0.3.5.tar.gz tmp/kvcommon_flask-0.0.4b0.tar.gz --markdown 20240527/k/kvcommon-flask/0.0.3.5-0.0.4b0/README.md --exclude *.pyd
+[2024-05-27 08:22:41] INFO root fetch - processPackages [stefutils]: Remove: archive file [/home/abi/fetcher/tmp/stefutils-0.8.2.tar.gz]
+[2024-05-27 08:22:41] INFO root fetch - processPackages [stefutils]: Remove: archive file [/home/abi/fetcher/tmp/stefutils-0.9.0.tar.gz]
+[2024-05-27 08:22:41] INFO root fetch - main [MainThread]: End processing [stefutils]: success
+[2024-05-27 08:22:41] INFO root fetch - processPackages [kvcommon-flask]: Remove: archive file [/home/abi/fetcher/tmp/kvcommon_flask-0.0.3.5.tar.gz]
+[2024-05-27 08:22:41] INFO root fetch - processPackages [kvcommon-flask]: Remove: archive file [/home/abi/fetcher/tmp/kvcommon_flask-0.0.4b0.tar.gz]
+[2024-05-27 08:22:41] INFO root fetch - main [MainThread]: End processing [kvcommon-flask]: success
+[2024-05-27 08:22:41] INFO root fetch - main [MainThread]: Store serial: [23391324]
