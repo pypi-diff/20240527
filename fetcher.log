@@ -2140,3 +2140,15 @@
 [2024-05-27 02:45:44] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.4.dev202405260044.tar.gz]
 [2024-05-27 02:45:44] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
 [2024-05-27 02:45:44] INFO root fetch - main [MainThread]: Store serial: [23389162]
+[2024-05-27 02:47:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23389162]
+[2024-05-27 02:47:54] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-27 02:47:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: codal-tsetmc
+[2024-05-27 02:47:54] INFO root fetch - processPackages [codal-tsetmc]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-27 02:47:54] INFO root fetch - processPackages [codal-tsetmc]: Downloading https://files.pythonhosted.org/packages/b0/5f/de0e10b131066b07b977c76038d181ff4dab9963dda4d6779ac5f9a73b48/codal_tsetmc-0.0.7.tar.gz
+[2024-05-27 02:47:54] INFO root fetch - processPackages [codal-tsetmc]: Downloading https://files.pythonhosted.org/packages/c7/2e/183999dff8fc975f04b02c8904bb4df5202989e28fb982756384f72d7b40/codal_tsetmc-0.0.8-py3-none-any.whl
+[2024-05-27 02:47:54] INFO root fetch - processPackages [codal-tsetmc]: executing diffoscope
+[2024-05-27 02:47:54] INFO root fetch - processPackages [codal-tsetmc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codal_tsetmc-0.0.7.tar.gz tmp/codal_tsetmc-0.0.8-py3-none-any.whl.zip --markdown 20240527/c/codal-tsetmc/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-27 02:47:55] INFO root fetch - processPackages [codal-tsetmc]: Remove: archive file [/home/abi/fetcher/tmp/codal_tsetmc-0.0.7.tar.gz]
+[2024-05-27 02:47:55] INFO root fetch - processPackages [codal-tsetmc]: Remove: archive file [/home/abi/fetcher/tmp/codal_tsetmc-0.0.8-py3-none-any.whl.zip]
+[2024-05-27 02:47:55] INFO root fetch - main [MainThread]: End processing [codal-tsetmc]: success
+[2024-05-27 02:47:55] INFO root fetch - main [MainThread]: Store serial: [23389165]
