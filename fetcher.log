@@ -14663,3 +14663,36 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 14:01:29] INFO root fetch - processPackages [matcha-tts]: Remove: archive file [/home/abi/fetcher/tmp/matcha-tts-0.0.6.0.tar.gz]
 [2024-05-27 14:01:29] INFO root fetch - main [MainThread]: End processing [matcha-tts]: success
 [2024-05-27 14:01:29] INFO root fetch - main [MainThread]: Store serial: [23395160]
+[2024-05-27 14:03:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23395160]
+[2024-05-27 14:03:38] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-27 14:03:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pybaseutils
+[2024-05-27 14:03:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: opengateway-sandbox-sdk
+[2024-05-27 14:03:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PyVRP_BM_load_balancing
+[2024-05-27 14:03:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: basicmathematicsw
+[2024-05-27 14:03:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dataset-tools
+[2024-05-27 14:03:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: chaos-stratus
+[2024-05-27 14:03:38] WARNING root fetch - processPackages [chaos-stratus]: Skipping, unable to determine old version
+[2024-05-27 14:03:38] INFO root fetch - main [MainThread]: End processing [chaos-stratus] error
+[2024-05-27 14:03:38] WARNING root fetch - processPackages [opengateway-sandbox-sdk]: Skipping, unable to determine old version
+[2024-05-27 14:03:38] INFO root fetch - main [MainThread]: End processing [opengateway-sandbox-sdk] error
+[2024-05-27 14:03:38] WARNING root fetch - processPackages [PyVRP_BM_load_balancing]: Skipping, unable to determine old version
+[2024-05-27 14:03:38] INFO root fetch - main [MainThread]: End processing [PyVRP_BM_load_balancing] error
+[2024-05-27 14:03:38] WARNING root fetch - processPackages [basicmathematicsw]: Skipping, unable to determine old version
+[2024-05-27 14:03:38] INFO root fetch - main [MainThread]: End processing [basicmathematicsw] error
+[2024-05-27 14:03:38] INFO root fetch - processPackages [pybaseutils]: New version: [1.1.1] Old Version: [1.0.9]
+[2024-05-27 14:03:38] INFO root fetch - processPackages [dataset-tools]: New version: [0.0.9] Old Version: [0.0.86]
+[2024-05-27 14:03:38] INFO root fetch - processPackages [pybaseutils]: Downloading https://files.pythonhosted.org/packages/e8/fa/56fb42bb6dffa501706abdea3d44fa1990b5e7196138ef0a331bc840f84d/pybaseutils-1.0.9.tar.gz
+[2024-05-27 14:03:38] INFO root fetch - processPackages [dataset-tools]: Downloading https://files.pythonhosted.org/packages/41/3b/89622dc4a1021497b7439d39c2c11b9d070bff3d97379d623acca4f51b2f/dataset_tools-0.0.86.tar.gz
+[2024-05-27 14:03:38] INFO root fetch - processPackages [pybaseutils]: Downloading https://files.pythonhosted.org/packages/ba/12/59002ccfa5574f93e722f4961f183e01f437b147f73f0c0640fde0345bb9/pybaseutils-1.1.1.tar.gz
+[2024-05-27 14:03:39] INFO root fetch - processPackages [pybaseutils]: executing diffoscope
+[2024-05-27 14:03:39] INFO root fetch - processPackages [pybaseutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybaseutils-1.0.9.tar.gz tmp/pybaseutils-1.1.1.tar.gz --markdown 20240527/p/pybaseutils/1.0.9-1.1.1/README.md --exclude *.pyd
+[2024-05-27 14:03:39] INFO root fetch - processPackages [dataset-tools]: Downloading https://files.pythonhosted.org/packages/b8/58/c030ec40cb92d73145fa4f9c8df9dc35360f48d85535390567bd984369b2/dataset-tools-0.0.9.tar.gz
+[2024-05-27 14:03:39] INFO root fetch - processPackages [dataset-tools]: executing diffoscope
+[2024-05-27 14:03:39] INFO root fetch - processPackages [dataset-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataset_tools-0.0.86.tar.gz tmp/dataset-tools-0.0.9.tar.gz --markdown 20240527/d/dataset-tools/0.0.86-0.0.9/README.md --exclude *.pyd
+[2024-05-27 14:03:40] INFO root fetch - processPackages [pybaseutils]: Remove: archive file [/home/abi/fetcher/tmp/pybaseutils-1.0.9.tar.gz]
+[2024-05-27 14:03:40] INFO root fetch - processPackages [pybaseutils]: Remove: archive file [/home/abi/fetcher/tmp/pybaseutils-1.1.1.tar.gz]
+[2024-05-27 14:03:40] INFO root fetch - main [MainThread]: End processing [pybaseutils]: success
+[2024-05-27 14:03:40] INFO root fetch - processPackages [dataset-tools]: Remove: archive file [/home/abi/fetcher/tmp/dataset_tools-0.0.86.tar.gz]
+[2024-05-27 14:03:40] INFO root fetch - processPackages [dataset-tools]: Remove: archive file [/home/abi/fetcher/tmp/dataset-tools-0.0.9.tar.gz]
+[2024-05-27 14:03:40] INFO root fetch - main [MainThread]: End processing [dataset-tools]: success
+[2024-05-27 14:03:40] INFO root fetch - main [MainThread]: Store serial: [23395183]
