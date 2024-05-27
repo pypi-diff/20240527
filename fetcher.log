@@ -12334,3 +12334,56 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 12:24:08] INFO root fetch - processPackages [otcextensions]: Remove: archive file [/home/abi/fetcher/tmp/otcextensions-0.9.1.tar.gz]
 [2024-05-27 12:24:08] INFO root fetch - main [MainThread]: End processing [otcextensions]: success
 [2024-05-27 12:24:08] INFO root fetch - main [MainThread]: Store serial: [23393946]
+[2024-05-27 12:26:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23393946]
+[2024-05-27 12:26:17] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-27 12:26:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: assisted-service-client
+[2024-05-27 12:26:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: SBGeom
+[2024-05-27 12:26:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: txdpy
+[2024-05-27 12:26:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: examon-core
+[2024-05-27 12:26:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: alibabacloud-oceanbasepro20190901
+[2024-05-27 12:26:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: agenta
+[2024-05-27 12:26:17] INFO root fetch - processPackages [SBGeom]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-27 12:26:17] INFO root fetch - processPackages [txdpy]: New version: [8.9.0] Old Version: [8.8.9]
+[2024-05-27 12:26:17] INFO root fetch - processPackages [agenta]: New version: [0.9.0] Old Version: [0.8.4]
+[2024-05-27 12:26:17] INFO root fetch - processPackages [txdpy]: Downloading https://files.pythonhosted.org/packages/46/36/090ad9364b1d9e4499838c583b1472e80d6a40056c5419f91cff66016480/txdpy-8.8.9.tar.gz
+[2024-05-27 12:26:17] INFO root fetch - processPackages [alibabacloud-oceanbasepro20190901]: New version: [4.1.0] Old Version: [4.0.0]
+[2024-05-27 12:26:17] INFO root fetch - processPackages [examon-core]: New version: [2.0.4] Old Version: [2.0.2]
+[2024-05-27 12:26:17] INFO root fetch - processPackages [agenta]: Downloading https://files.pythonhosted.org/packages/e1/b3/694bb4fe67f0b63ef67836f5924bdc436dfb590d7e7da0824cbbc4b71853/agenta-0.8.4.tar.gz
+[2024-05-27 12:26:17] INFO root fetch - processPackages [assisted-service-client]: New version: [2.9.0.post9] Old Version: [2.9.0.post8]
+[2024-05-27 12:26:17] INFO root fetch - processPackages [SBGeom]: Downloading https://files.pythonhosted.org/packages/25/e0/1d64fe3afac17e1d06157df30ed7143f7ce9e5c02d5a8af94ac020b97afa/sbgeom-0.0.2.tar.gz
+[2024-05-27 12:26:17] WARNING root fetch - processPackages [SBGeom]: Skipping package: exceeds size limit 12920495>=10485760
+[2024-05-27 12:26:17] INFO root fetch - main [MainThread]: End processing [SBGeom] error
+[2024-05-27 12:26:17] INFO root fetch - processPackages [agenta]: Downloading https://files.pythonhosted.org/packages/f7/a1/73689fd1faf7fbbd3985f8ed9673e4784bae27b1789d6fe5f7e4f001ed89/agenta-0.9.0.tar.gz
+[2024-05-27 12:26:17] INFO root fetch - processPackages [examon-core]: Downloading https://files.pythonhosted.org/packages/a8/36/cde328513ded301d0f8342a65e2b007c85ff05f77cedee0a4540befb6436/examon_core-2.0.2.tar.gz
+[2024-05-27 12:26:17] INFO root fetch - processPackages [alibabacloud-oceanbasepro20190901]: Downloading https://files.pythonhosted.org/packages/1d/06/37bbf2b32b197dfa709cb13091e6fa05b8826c8dba881956973b884fc57f/alibabacloud_oceanbasepro20190901-4.0.0.tar.gz
+[2024-05-27 12:26:17] INFO root fetch - processPackages [assisted-service-client]: Downloading https://files.pythonhosted.org/packages/a5/ee/a5837c5427b0689f863021f5d65c42ff9d4ae267905a751492653198b2dc/assisted_service_client-2.9.0.post8-py3-none-any.whl
+[2024-05-27 12:26:18] INFO root fetch - processPackages [txdpy]: Downloading https://files.pythonhosted.org/packages/d5/eb/19b3b7f24a1a4276bb50599c88f5be441cb67ba570863bc23ce4254ccc52/txdpy-8.9.0.tar.gz
+[2024-05-27 12:26:18] INFO root fetch - processPackages [agenta]: executing diffoscope
+[2024-05-27 12:26:18] INFO root fetch - processPackages [agenta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agenta-0.8.4.tar.gz tmp/agenta-0.9.0.tar.gz --markdown 20240527/a/agenta/0.8.4-0.9.0/README.md --exclude *.pyd
+[2024-05-27 12:26:18] INFO root fetch - processPackages [txdpy]: executing diffoscope
+[2024-05-27 12:26:18] INFO root fetch - processPackages [txdpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/txdpy-8.8.9.tar.gz tmp/txdpy-8.9.0.tar.gz --markdown 20240527/t/txdpy/8.8.9-8.9.0/README.md --exclude *.pyd
+[2024-05-27 12:26:18] INFO root fetch - processPackages [examon-core]: Downloading https://files.pythonhosted.org/packages/47/d6/1ecfeeb8d7deb9e7e08e32dea6cad0434f2491ce7ee934060bff77d3494b/examon_core-2.0.4.tar.gz
+[2024-05-27 12:26:18] INFO root fetch - processPackages [assisted-service-client]: Downloading https://files.pythonhosted.org/packages/f6/90/2599b3c134ea21c06d22f83dd1dfac6801d974b9aa0958f008fb332e5b4d/assisted_service_client-2.9.0.post9-py3-none-any.whl
+[2024-05-27 12:26:18] INFO root fetch - processPackages [alibabacloud-oceanbasepro20190901]: Downloading https://files.pythonhosted.org/packages/d3/c5/ec9719a4fcf68cde1c5a8698b91d6c199f7b31d1e329824670eb968cb332/alibabacloud_oceanbasepro20190901-4.1.0.tar.gz
+[2024-05-27 12:26:18] INFO root fetch - processPackages [examon-core]: executing diffoscope
+[2024-05-27 12:26:18] INFO root fetch - processPackages [examon-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/examon_core-2.0.2.tar.gz tmp/examon_core-2.0.4.tar.gz --markdown 20240527/e/examon-core/2.0.2-2.0.4/README.md --exclude *.pyd
+[2024-05-27 12:26:18] INFO root fetch - processPackages [assisted-service-client]: executing diffoscope
+[2024-05-27 12:26:18] INFO root fetch - processPackages [assisted-service-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip --markdown 20240527/a/assisted-service-client/2.9.0.post8-2.9.0.post9/README.md --exclude *.pyd
+[2024-05-27 12:26:18] INFO root fetch - processPackages [alibabacloud-oceanbasepro20190901]: executing diffoscope
+[2024-05-27 12:26:18] INFO root fetch - processPackages [alibabacloud-oceanbasepro20190901]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_oceanbasepro20190901-4.0.0.tar.gz tmp/alibabacloud_oceanbasepro20190901-4.1.0.tar.gz --markdown 20240527/a/alibabacloud-oceanbasepro20190901/4.0.0-4.1.0/README.md --exclude *.pyd
+[2024-05-27 12:26:18] INFO root fetch - processPackages [txdpy]: Remove: archive file [/home/abi/fetcher/tmp/txdpy-8.8.9.tar.gz]
+[2024-05-27 12:26:18] INFO root fetch - processPackages [txdpy]: Remove: archive file [/home/abi/fetcher/tmp/txdpy-8.9.0.tar.gz]
+[2024-05-27 12:26:18] INFO root fetch - main [MainThread]: End processing [txdpy]: success
+[2024-05-27 12:26:18] INFO root fetch - processPackages [agenta]: Remove: archive file [/home/abi/fetcher/tmp/agenta-0.8.4.tar.gz]
+[2024-05-27 12:26:18] INFO root fetch - processPackages [agenta]: Remove: archive file [/home/abi/fetcher/tmp/agenta-0.9.0.tar.gz]
+[2024-05-27 12:26:18] INFO root fetch - main [MainThread]: End processing [agenta]: success
+[2024-05-27 12:26:19] INFO root fetch - processPackages [examon-core]: Remove: archive file [/home/abi/fetcher/tmp/examon_core-2.0.2.tar.gz]
+[2024-05-27 12:26:19] INFO root fetch - processPackages [examon-core]: Remove: archive file [/home/abi/fetcher/tmp/examon_core-2.0.4.tar.gz]
+[2024-05-27 12:26:19] INFO root fetch - main [MainThread]: End processing [examon-core]: success
+[2024-05-27 12:26:19] INFO root fetch - processPackages [assisted-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip]
+[2024-05-27 12:26:19] INFO root fetch - processPackages [assisted-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip]
+[2024-05-27 12:26:19] INFO root fetch - main [MainThread]: End processing [assisted-service-client]: success
+[2024-05-27 12:26:20] INFO root fetch - processPackages [alibabacloud-oceanbasepro20190901]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_oceanbasepro20190901-4.0.0.tar.gz]
+[2024-05-27 12:26:20] INFO root fetch - processPackages [alibabacloud-oceanbasepro20190901]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_oceanbasepro20190901-4.1.0.tar.gz]
+[2024-05-27 12:26:20] INFO root fetch - main [MainThread]: End processing [alibabacloud-oceanbasepro20190901]: success
+[2024-05-27 12:26:20] INFO root fetch - main [MainThread]: Store serial: [23393984]
