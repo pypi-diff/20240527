@@ -6327,3 +6327,15 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 07:36:51] INFO root fetch - processPackages [CUQIpy]: Remove: archive file [/home/abi/fetcher/tmp/CUQIpy-1.0.0.post0.dev91.tar.gz]
 [2024-05-27 07:36:51] INFO root fetch - main [MainThread]: End processing [CUQIpy]: success
 [2024-05-27 07:36:51] INFO root fetch - main [MainThread]: Store serial: [23390936]
+[2024-05-27 07:38:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23390936]
+[2024-05-27 07:39:01] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-27 07:39:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ansar-create
+[2024-05-27 07:39:01] INFO root fetch - processPackages [ansar-create]: New version: [0.1.98] Old Version: [0.1.97]
+[2024-05-27 07:39:01] INFO root fetch - processPackages [ansar-create]: Downloading https://files.pythonhosted.org/packages/0a/19/98f1877ec2c3df66168349e14ee3e09a4391d7fd1969e52f29d9743e0435/ansar_create-0.1.97.tar.gz
+[2024-05-27 07:39:01] INFO root fetch - processPackages [ansar-create]: Downloading https://files.pythonhosted.org/packages/2c/fa/d6b4decbaa03c2822eb7f061b4611e838890f6fda60cde4bdb315388e3ec/ansar_create-0.1.98.tar.gz
+[2024-05-27 07:39:01] INFO root fetch - processPackages [ansar-create]: executing diffoscope
+[2024-05-27 07:39:01] INFO root fetch - processPackages [ansar-create]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansar_create-0.1.97.tar.gz tmp/ansar_create-0.1.98.tar.gz --markdown 20240527/a/ansar-create/0.1.97-0.1.98/README.md --exclude *.pyd
+[2024-05-27 07:39:02] INFO root fetch - processPackages [ansar-create]: Remove: archive file [/home/abi/fetcher/tmp/ansar_create-0.1.97.tar.gz]
+[2024-05-27 07:39:02] INFO root fetch - processPackages [ansar-create]: Remove: archive file [/home/abi/fetcher/tmp/ansar_create-0.1.98.tar.gz]
+[2024-05-27 07:39:02] INFO root fetch - main [MainThread]: End processing [ansar-create]: success
+[2024-05-27 07:39:02] INFO root fetch - main [MainThread]: Store serial: [23390939]
