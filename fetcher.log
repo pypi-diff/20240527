@@ -17960,3 +17960,47 @@ EOFError: EOF read where object expected
 [2024-05-27 16:01:37] INFO root fetch - processPackages [eis_toolkit]: Remove: archive file [/home/abi/fetcher/tmp/eis_toolkit-1.0.0.tar.gz]
 [2024-05-27 16:01:37] INFO root fetch - main [MainThread]: End processing [eis_toolkit]: success
 [2024-05-27 16:01:37] INFO root fetch - main [MainThread]: Store serial: [23396658]
+[2024-05-27 16:03:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23396658]
+[2024-05-27 16:03:46] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-27 16:03:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pywechat391019
+[2024-05-27 16:03:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: airbyte-source-salesforce
+[2024-05-27 16:03:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: yeref
+[2024-05-27 16:03:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jaqpotpy
+[2024-05-27 16:03:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: openepd
+[2024-05-27 16:03:46] INFO root fetch - processPackages [pywechat391019]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-27 16:03:46] INFO root fetch - processPackages [yeref]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-27 16:03:46] INFO root fetch - processPackages [openepd]: New version: [3.2.0] Old Version: [3.1.4]
+[2024-05-27 16:03:46] INFO root fetch - processPackages [jaqpotpy]: New version: [1.1.1] Old Version: [1.0.99]
+[2024-05-27 16:03:46] INFO root fetch - processPackages [airbyte-source-salesforce]: New version: [2.5.9] Old Version: [2.5.8]
+[2024-05-27 16:03:46] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/ec/cb/204e6fbe233bbb61cf29c1b491e8c638c8a843edc47fb4e1d8cc8c26608c/yeref-0.9.8.tar.gz
+[2024-05-27 16:03:46] INFO root fetch - processPackages [pywechat391019]: Downloading https://files.pythonhosted.org/packages/6b/2c/e73ec22b8ebf5f7ebe3ca2a583dcf2fd343268b31d383df477350ecbcb17/pywechat391019-0.0.3.tar.gz
+[2024-05-27 16:03:46] WARNING root fetch - processPackages [pywechat391019]: Skipping package: exceeds size limit 17660745>=10485760
+[2024-05-27 16:03:46] INFO root fetch - main [MainThread]: End processing [pywechat391019] error
+[2024-05-27 16:03:47] INFO root fetch - processPackages [jaqpotpy]: Downloading https://files.pythonhosted.org/packages/14/91/897869a5738551a93eeb5ddddc881caf841e3f8fb74fb2d424201290af3e/jaqpotpy-1.0.99-py3-none-any.whl
+[2024-05-27 16:03:47] INFO root fetch - processPackages [openepd]: Downloading https://files.pythonhosted.org/packages/3f/ab/2c2c22b7cf2e73c942cab590c149df5ff7e864f017764b2ef9fa24a922d5/openepd-3.1.4.tar.gz
+[2024-05-27 16:03:47] INFO root fetch - processPackages [airbyte-source-salesforce]: Downloading https://files.pythonhosted.org/packages/5a/bc/dd53179ac39fa0c948b03814f7a0f3ea56ff7d61e79644d48298941e44b3/airbyte_source_salesforce-2.5.8.tar.gz
+[2024-05-27 16:03:47] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/01/13/0f11bb3dfb27aaf16ed48b0046f50ac65b1fde32662fbc314d53e2558b2d/yeref-0.9.9.tar.gz
+[2024-05-27 16:03:47] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2024-05-27 16:03:47] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.9.8.tar.gz tmp/yeref-0.9.9.tar.gz --markdown 20240527/y/yeref/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-27 16:03:47] INFO root fetch - processPackages [airbyte-source-salesforce]: Downloading https://files.pythonhosted.org/packages/af/14/5e6ec129c317e6125da32345043611eebfe5d2c8999948acbcb76cf613e2/airbyte_source_salesforce-2.5.9.tar.gz
+[2024-05-27 16:03:47] INFO root fetch - processPackages [openepd]: Downloading https://files.pythonhosted.org/packages/fb/8f/2f9008c2f8222c5aeed154dab62112402c032926fd769a8274fd6dd9189d/openepd-3.2.0.tar.gz
+[2024-05-27 16:03:47] INFO root fetch - processPackages [airbyte-source-salesforce]: executing diffoscope
+[2024-05-27 16:03:47] INFO root fetch - processPackages [airbyte-source-salesforce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte_source_salesforce-2.5.8.tar.gz tmp/airbyte_source_salesforce-2.5.9.tar.gz --markdown 20240527/a/airbyte-source-salesforce/2.5.8-2.5.9/README.md --exclude *.pyd
+[2024-05-27 16:03:47] INFO root fetch - processPackages [openepd]: executing diffoscope
+[2024-05-27 16:03:47] INFO root fetch - processPackages [openepd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openepd-3.1.4.tar.gz tmp/openepd-3.2.0.tar.gz --markdown 20240527/o/openepd/3.1.4-3.2.0/README.md --exclude *.pyd
+[2024-05-27 16:03:48] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.8.tar.gz]
+[2024-05-27 16:03:48] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.9.tar.gz]
+[2024-05-27 16:03:48] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2024-05-27 16:03:48] INFO root fetch - processPackages [airbyte-source-salesforce]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_salesforce-2.5.8.tar.gz]
+[2024-05-27 16:03:48] INFO root fetch - processPackages [airbyte-source-salesforce]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_salesforce-2.5.9.tar.gz]
+[2024-05-27 16:03:48] INFO root fetch - main [MainThread]: End processing [airbyte-source-salesforce]: success
+[2024-05-27 16:03:48] INFO root fetch - processPackages [jaqpotpy]: Downloading https://files.pythonhosted.org/packages/76/fc/92ed08577d87aefdfb0ca03f536757957baa58adeb288705aa6c0c952fb5/jaqpotpy-1.1.1.tar.gz
+[2024-05-27 16:03:48] INFO root fetch - processPackages [jaqpotpy]: executing diffoscope
+[2024-05-27 16:03:48] INFO root fetch - processPackages [jaqpotpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaqpotpy-1.0.99-py3-none-any.whl.zip tmp/jaqpotpy-1.1.1.tar.gz --markdown 20240527/j/jaqpotpy/1.0.99-1.1.1/README.md --exclude *.pyd
+[2024-05-27 16:03:48] INFO root fetch - processPackages [openepd]: Remove: archive file [/home/abi/fetcher/tmp/openepd-3.1.4.tar.gz]
+[2024-05-27 16:03:48] INFO root fetch - processPackages [openepd]: Remove: archive file [/home/abi/fetcher/tmp/openepd-3.2.0.tar.gz]
+[2024-05-27 16:03:48] INFO root fetch - main [MainThread]: End processing [openepd]: success
+[2024-05-27 16:03:56] INFO root fetch - processPackages [jaqpotpy]: Remove: archive file [/home/abi/fetcher/tmp/jaqpotpy-1.0.99-py3-none-any.whl.zip]
+[2024-05-27 16:03:56] INFO root fetch - processPackages [jaqpotpy]: Remove: archive file [/home/abi/fetcher/tmp/jaqpotpy-1.1.1.tar.gz]
+[2024-05-27 16:03:56] INFO root fetch - main [MainThread]: End processing [jaqpotpy]: success
+[2024-05-27 16:03:56] INFO root fetch - main [MainThread]: Store serial: [23396677]
