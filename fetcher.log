@@ -12024,3 +12024,69 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 12:10:52] INFO root fetch - processPackages [FlaskFarm]: Remove: archive file [/home/abi/fetcher/tmp/FlaskFarm-4.0.108.tar.gz]
 [2024-05-27 12:10:52] INFO root fetch - main [MainThread]: End processing [FlaskFarm]: success
 [2024-05-27 12:10:52] INFO root fetch - main [MainThread]: Store serial: [23393727]
+[2024-05-27 12:12:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23393727]
+[2024-05-27 12:13:02] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-27 12:13:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: olas-operate-middleware
+[2024-05-27 12:13:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: OpenGeodeWeb-Back
+[2024-05-27 12:13:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: iothpy
+[2024-05-27 12:13:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cognee
+[2024-05-27 12:13:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: postgres-tq
+[2024-05-27 12:13:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: emcache
+[2024-05-27 12:13:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: yara-python
+[2024-05-27 12:13:03] INFO root fetch - processPackages [cognee]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-05-27 12:13:03] INFO root fetch - processPackages [postgres-tq]: New version: [1.0.0] Old Version: [0.0.6]
+[2024-05-27 12:13:03] INFO root fetch - processPackages [cognee]: Downloading https://files.pythonhosted.org/packages/86/30/0fc4ec4eb7ca0eafec5a090cb308f0f4ddd5638c71ab734222105aa536bc/cognee-0.1.7.tar.gz
+[2024-05-27 12:13:03] INFO root fetch - processPackages [olas-operate-middleware]: New version: [0.1.0rc9] Old Version: [0.1.0rc8]
+[2024-05-27 12:13:03] INFO root fetch - processPackages [OpenGeodeWeb-Back]: New version: [4.2.0rc1] Old Version: [4.1.1]
+[2024-05-27 12:13:03] INFO root fetch - processPackages [iothpy]: New version: [1.3.5] Old Version: [1.3.4]
+[2024-05-27 12:13:03] INFO root fetch - processPackages [emcache]: New version: [1.2.2] Old Version: [1.2.1]
+[2024-05-27 12:13:03] INFO root fetch - processPackages [yara-python]: New version: [4.5.1] Old Version: [4.5.0]
+[2024-05-27 12:13:03] INFO root fetch - processPackages [postgres-tq]: Downloading https://files.pythonhosted.org/packages/3c/a7/1df68df9d583cc1a0389db823dbd2b74352689db55b90f721f367c13e8b5/postgres-tq-0.0.6.tar.gz
+[2024-05-27 12:13:03] INFO root fetch - processPackages [olas-operate-middleware]: Downloading https://files.pythonhosted.org/packages/d2/22/dc91171f9f5c12f72fbef4ec6b6962b4e66e69f3a3fde86b4f32a9648c5c/olas_operate_middleware-0.1.0rc8.tar.gz
+[2024-05-27 12:13:03] INFO root fetch - processPackages [OpenGeodeWeb-Back]: Downloading https://files.pythonhosted.org/packages/8c/50/7272ffc61695f2eb2ffcf7ef864c2f8bce3577a2df4c0ad59f186540a4a0/opengeodeweb_back-4.1.1.tar.gz
+[2024-05-27 12:13:03] INFO root fetch - processPackages [iothpy]: Downloading https://files.pythonhosted.org/packages/76/21/a76adb1212505fbd09f959007153b1bbffc5248c1dc00a2632231eb7e486/iothpy-1.3.4.tar.gz
+[2024-05-27 12:13:03] INFO root fetch - processPackages [yara-python]: Downloading https://files.pythonhosted.org/packages/62/7b/81789fafcc6167fe8cfd94b3813c0971a083cde142731213007e2456f35b/yara-python-4.5.0.tar.gz
+[2024-05-27 12:13:03] INFO root fetch - processPackages [emcache]: Downloading https://files.pythonhosted.org/packages/ff/e8/e48b14faca66096ce7876256d205714bdbc41c20bdafea8c75111af6b141/emcache-1.2.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-27 12:13:04] INFO root fetch - processPackages [cognee]: Downloading https://files.pythonhosted.org/packages/2b/22/1e0124e79ba53756dc4b6126a16053aafc892d17296db2e3cee026024b21/cognee-0.1.8.tar.gz
+[2024-05-27 12:13:04] INFO root fetch - processPackages [OpenGeodeWeb-Back]: Downloading https://files.pythonhosted.org/packages/01/fb/97978fa00642d68e2d84ebdaadd08fcad39099f5610959606f98698551d6/opengeodeweb_back-4.2.0rc1.tar.gz
+[2024-05-27 12:13:04] INFO root fetch - processPackages [olas-operate-middleware]: Downloading https://files.pythonhosted.org/packages/8f/69/3a83cbcad75fcbdca3d7a77b5edfa7b4511dea20e87d2aacfe22a9188bc8/olas_operate_middleware-0.1.0rc9.tar.gz
+[2024-05-27 12:13:04] INFO root fetch - processPackages [iothpy]: Downloading https://files.pythonhosted.org/packages/4f/f8/10af6d6f0911f802cb18be7a5debc9835f2be6b085513ca385372c03b042/iothpy-1.3.5.tar.gz
+[2024-05-27 12:13:04] INFO root fetch - processPackages [postgres-tq]: Downloading https://files.pythonhosted.org/packages/fa/8a/bb61ba1e6bbac799cbe0cc0153130c5c63f8e0b8b0149c8aec106dae9e2e/postgres_tq-1.0.0.tar.gz
+[2024-05-27 12:13:04] INFO root fetch - processPackages [cognee]: executing diffoscope
+[2024-05-27 12:13:04] INFO root fetch - processPackages [cognee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognee-0.1.7.tar.gz tmp/cognee-0.1.8.tar.gz --markdown 20240527/c/cognee/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-05-27 12:13:04] INFO root fetch - processPackages [OpenGeodeWeb-Back]: executing diffoscope
+[2024-05-27 12:13:04] INFO root fetch - processPackages [OpenGeodeWeb-Back]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opengeodeweb_back-4.1.1.tar.gz tmp/opengeodeweb_back-4.2.0rc1.tar.gz --markdown 20240527/O/OpenGeodeWeb-Back/4.1.1-4.2.0rc1/README.md --exclude *.pyd
+[2024-05-27 12:13:04] INFO root fetch - processPackages [olas-operate-middleware]: executing diffoscope
+[2024-05-27 12:13:04] INFO root fetch - processPackages [olas-operate-middleware]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/olas_operate_middleware-0.1.0rc8.tar.gz tmp/olas_operate_middleware-0.1.0rc9.tar.gz --markdown 20240527/o/olas-operate-middleware/0.1.0rc8-0.1.0rc9/README.md --exclude *.pyd
+[2024-05-27 12:13:04] INFO root fetch - processPackages [yara-python]: Downloading https://files.pythonhosted.org/packages/11/e8/7ad2bb30700bcaaee26bbf0e62aa07e52350e307973eb11f838bbf47c43e/yara_python-4.5.1-cp310-cp310-macosx_10_9_universal2.whl
+[2024-05-27 12:13:04] INFO root fetch - processPackages [postgres-tq]: executing diffoscope
+[2024-05-27 12:13:04] INFO root fetch - processPackages [postgres-tq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/postgres-tq-0.0.6.tar.gz tmp/postgres_tq-1.0.0.tar.gz --markdown 20240527/p/postgres-tq/0.0.6-1.0.0/README.md --exclude *.pyd
+[2024-05-27 12:13:04] INFO root fetch - processPackages [iothpy]: executing diffoscope
+[2024-05-27 12:13:04] INFO root fetch - processPackages [iothpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iothpy-1.3.4.tar.gz tmp/iothpy-1.3.5.tar.gz --markdown 20240527/i/iothpy/1.3.4-1.3.5/README.md --exclude *.pyd
+[2024-05-27 12:13:05] INFO root fetch - processPackages [emcache]: Downloading https://files.pythonhosted.org/packages/07/d5/6fc658a95c5ee997233f8584ce10d14001ec85a8ab5ab38c64f0662c4c65/emcache-1.2.2-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-27 12:13:05] INFO root fetch - processPackages [yara-python]: executing diffoscope
+[2024-05-27 12:13:05] INFO root fetch - processPackages [yara-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yara-python-4.5.0.tar.gz tmp/yara_python-4.5.1-cp310-cp310-macosx_10_9_universal2.whl.zip --markdown 20240527/y/yara-python/4.5.0-4.5.1/README.md --exclude *.pyd
+[2024-05-27 12:13:05] INFO root fetch - processPackages [emcache]: executing diffoscope
+[2024-05-27 12:13:05] INFO root fetch - processPackages [emcache]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emcache-1.2.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/emcache-1.2.2-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240527/e/emcache/1.2.1-1.2.2/README.md --exclude *.pyd
+[2024-05-27 12:13:05] INFO root fetch - processPackages [postgres-tq]: Remove: archive file [/home/abi/fetcher/tmp/postgres-tq-0.0.6.tar.gz]
+[2024-05-27 12:13:05] INFO root fetch - processPackages [postgres-tq]: Remove: archive file [/home/abi/fetcher/tmp/postgres_tq-1.0.0.tar.gz]
+[2024-05-27 12:13:05] INFO root fetch - main [MainThread]: End processing [postgres-tq]: success
+[2024-05-27 12:13:05] INFO root fetch - processPackages [OpenGeodeWeb-Back]: Remove: archive file [/home/abi/fetcher/tmp/opengeodeweb_back-4.1.1.tar.gz]
+[2024-05-27 12:13:05] INFO root fetch - processPackages [OpenGeodeWeb-Back]: Remove: archive file [/home/abi/fetcher/tmp/opengeodeweb_back-4.2.0rc1.tar.gz]
+[2024-05-27 12:13:05] INFO root fetch - main [MainThread]: End processing [OpenGeodeWeb-Back]: success
+[2024-05-27 12:13:05] INFO root fetch - processPackages [olas-operate-middleware]: Remove: archive file [/home/abi/fetcher/tmp/olas_operate_middleware-0.1.0rc8.tar.gz]
+[2024-05-27 12:13:05] INFO root fetch - processPackages [olas-operate-middleware]: Remove: archive file [/home/abi/fetcher/tmp/olas_operate_middleware-0.1.0rc9.tar.gz]
+[2024-05-27 12:13:05] INFO root fetch - main [MainThread]: End processing [olas-operate-middleware]: success
+[2024-05-27 12:13:05] INFO root fetch - processPackages [iothpy]: Remove: archive file [/home/abi/fetcher/tmp/iothpy-1.3.4.tar.gz]
+[2024-05-27 12:13:05] INFO root fetch - processPackages [iothpy]: Remove: archive file [/home/abi/fetcher/tmp/iothpy-1.3.5.tar.gz]
+[2024-05-27 12:13:05] INFO root fetch - main [MainThread]: End processing [iothpy]: success
+[2024-05-27 12:13:05] INFO root fetch - processPackages [yara-python]: Remove: archive file [/home/abi/fetcher/tmp/yara-python-4.5.0.tar.gz]
+[2024-05-27 12:13:05] INFO root fetch - processPackages [yara-python]: Remove: archive file [/home/abi/fetcher/tmp/yara_python-4.5.1-cp310-cp310-macosx_10_9_universal2.whl.zip]
+[2024-05-27 12:13:05] INFO root fetch - main [MainThread]: End processing [yara-python]: success
+[2024-05-27 12:13:06] INFO root fetch - processPackages [cognee]: Remove: archive file [/home/abi/fetcher/tmp/cognee-0.1.7.tar.gz]
+[2024-05-27 12:13:06] INFO root fetch - processPackages [cognee]: Remove: archive file [/home/abi/fetcher/tmp/cognee-0.1.8.tar.gz]
+[2024-05-27 12:13:06] INFO root fetch - main [MainThread]: End processing [cognee]: success
+[2024-05-27 12:13:08] INFO root fetch - processPackages [emcache]: Remove: archive file [/home/abi/fetcher/tmp/emcache-1.2.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-27 12:13:08] INFO root fetch - processPackages [emcache]: Remove: archive file [/home/abi/fetcher/tmp/emcache-1.2.2-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-27 12:13:08] INFO root fetch - main [MainThread]: End processing [emcache]: success
+[2024-05-27 12:13:08] INFO root fetch - main [MainThread]: Store serial: [23393760]
