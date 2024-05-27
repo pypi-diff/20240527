@@ -5087,3 +5087,15 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 06:12:26] INFO root fetch - processPackages [GnosisTech]: Remove: archive file [/home/abi/fetcher/tmp/gnosistech-0.1.1.tar.gz]
 [2024-05-27 06:12:26] INFO root fetch - main [MainThread]: End processing [GnosisTech]: success
 [2024-05-27 06:12:26] INFO root fetch - main [MainThread]: Store serial: [23390449]
+[2024-05-27 06:14:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23390449]
+[2024-05-27 06:14:34] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-27 06:14:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lckytools
+[2024-05-27 06:14:34] INFO root fetch - processPackages [lckytools]: New version: [0.0.0a6] Old Version: [0.0.0a5]
+[2024-05-27 06:14:34] INFO root fetch - processPackages [lckytools]: Downloading https://files.pythonhosted.org/packages/a3/99/f0534090fda1b1f6419b9d607c11c9ddc67dfaded3beae506089bd13d0c5/lckytools-0.0.0a5.tar.gz
+[2024-05-27 06:14:34] INFO root fetch - processPackages [lckytools]: Downloading https://files.pythonhosted.org/packages/09/4f/2d4dfbe8e4d492e7415d672a3e8dd350825d5cde403858cd062e4775c015/lckytools-0.0.0a6.tar.gz
+[2024-05-27 06:14:35] INFO root fetch - processPackages [lckytools]: executing diffoscope
+[2024-05-27 06:14:35] INFO root fetch - processPackages [lckytools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lckytools-0.0.0a5.tar.gz tmp/lckytools-0.0.0a6.tar.gz --markdown 20240527/l/lckytools/0.0.0a5-0.0.0a6/README.md --exclude *.pyd
+[2024-05-27 06:14:35] INFO root fetch - processPackages [lckytools]: Remove: archive file [/home/abi/fetcher/tmp/lckytools-0.0.0a5.tar.gz]
+[2024-05-27 06:14:35] INFO root fetch - processPackages [lckytools]: Remove: archive file [/home/abi/fetcher/tmp/lckytools-0.0.0a6.tar.gz]
+[2024-05-27 06:14:35] INFO root fetch - main [MainThread]: End processing [lckytools]: success
+[2024-05-27 06:14:35] INFO root fetch - main [MainThread]: Store serial: [23390452]
