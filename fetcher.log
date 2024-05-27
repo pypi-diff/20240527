@@ -7355,3 +7355,30 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 08:44:26] INFO root fetch - processPackages [zipreport-lib]: Remove: archive file [/home/abi/fetcher/tmp/zipreport-lib-2.1.0.tar.gz]
 [2024-05-27 08:44:26] INFO root fetch - main [MainThread]: End processing [zipreport-lib]: success
 [2024-05-27 08:44:26] INFO root fetch - main [MainThread]: Store serial: [23391444]
+[2024-05-27 08:46:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23391444]
+[2024-05-27 08:46:35] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-27 08:46:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bigdl-core-xe-addons-21
+[2024-05-27 08:46:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tipyverse
+[2024-05-27 08:46:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: TypeSaveArgParse
+[2024-05-27 08:46:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: drf-material
+[2024-05-27 08:46:35] WARNING root fetch - processPackages [bigdl-core-xe-addons-21]: Skipping, unable to determine old version
+[2024-05-27 08:46:35] INFO root fetch - processPackages [tipyverse]: New version: [0.0.2.1] Old Version: [0.0.2]
+[2024-05-27 08:46:35] INFO root fetch - main [MainThread]: End processing [bigdl-core-xe-addons-21] error
+[2024-05-27 08:46:35] WARNING root fetch - processPackages [TypeSaveArgParse]: Skipping, unable to determine old version
+[2024-05-27 08:46:35] INFO root fetch - main [MainThread]: End processing [TypeSaveArgParse] error
+[2024-05-27 08:46:35] INFO root fetch - processPackages [drf-material]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-05-27 08:46:35] INFO root fetch - processPackages [tipyverse]: Downloading https://files.pythonhosted.org/packages/c4/33/8fc51195f9bb597b9d56a1f6f976ad5064c6bfd460aae9f6494f10ebb659/tipyverse-0.0.2.tar.gz
+[2024-05-27 08:46:35] INFO root fetch - processPackages [drf-material]: Downloading https://files.pythonhosted.org/packages/c7/5c/9391ebffcc42ed41d21cb1c325e0be176fdfb15861aea846d69ecbd396ba/drf_material-0.3.1.tar.gz
+[2024-05-27 08:46:35] INFO root fetch - processPackages [tipyverse]: Downloading https://files.pythonhosted.org/packages/2d/b4/46f2aaa687f176b4f40f038ba362a39f21c6a3ad81552c94fca09e1ad50f/tipyverse-0.0.2.1.tar.gz
+[2024-05-27 08:46:35] INFO root fetch - processPackages [tipyverse]: executing diffoscope
+[2024-05-27 08:46:35] INFO root fetch - processPackages [tipyverse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tipyverse-0.0.2.tar.gz tmp/tipyverse-0.0.2.1.tar.gz --markdown 20240527/t/tipyverse/0.0.2-0.0.2.1/README.md --exclude *.pyd
+[2024-05-27 08:46:35] INFO root fetch - processPackages [drf-material]: Downloading https://files.pythonhosted.org/packages/4b/be/3e494ebb2716e6b3718afbf20cd602b57fec0a8a2191b72a64ee9d94a009/drf_material-0.3.2.tar.gz
+[2024-05-27 08:46:36] INFO root fetch - processPackages [drf-material]: executing diffoscope
+[2024-05-27 08:46:36] INFO root fetch - processPackages [drf-material]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drf_material-0.3.1.tar.gz tmp/drf_material-0.3.2.tar.gz --markdown 20240527/d/drf-material/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-05-27 08:46:36] INFO root fetch - processPackages [tipyverse]: Remove: archive file [/home/abi/fetcher/tmp/tipyverse-0.0.2.tar.gz]
+[2024-05-27 08:46:36] INFO root fetch - processPackages [tipyverse]: Remove: archive file [/home/abi/fetcher/tmp/tipyverse-0.0.2.1.tar.gz]
+[2024-05-27 08:46:36] INFO root fetch - main [MainThread]: End processing [tipyverse]: success
+[2024-05-27 08:46:36] INFO root fetch - processPackages [drf-material]: Remove: archive file [/home/abi/fetcher/tmp/drf_material-0.3.1.tar.gz]
+[2024-05-27 08:46:36] INFO root fetch - processPackages [drf-material]: Remove: archive file [/home/abi/fetcher/tmp/drf_material-0.3.2.tar.gz]
+[2024-05-27 08:46:36] INFO root fetch - main [MainThread]: End processing [drf-material]: success
+[2024-05-27 08:46:36] INFO root fetch - main [MainThread]: Store serial: [23391459]
