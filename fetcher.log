@@ -3981,3 +3981,19 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 04:38:11] INFO root fetch - processPackages [Lires]: Remove: archive file [/home/abi/fetcher/tmp/Lires-1.8.4.tar.gz]
 [2024-05-27 04:38:11] INFO root fetch - main [MainThread]: End processing [Lires]: success
 [2024-05-27 04:38:11] INFO root fetch - main [MainThread]: Store serial: [23389839]
+[2024-05-27 04:40:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23389839]
+[2024-05-27 04:40:20] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-27 04:40:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lckytools
+[2024-05-27 04:40:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: discordreactive
+[2024-05-27 04:40:20] INFO root fetch - processPackages [lckytools]: New version: [0.0.0b8] Old Version: [0.0.0b7]
+[2024-05-27 04:40:20] INFO root fetch - processPackages [discordreactive]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-27 04:40:20] ERROR root fetch - processPackages [lckytools]: Unable to fetch info: No such project/version 'lckytools' 0.0.0b7
+[2024-05-27 04:40:20] INFO root fetch - main [MainThread]: End processing [lckytools] error
+[2024-05-27 04:40:20] INFO root fetch - processPackages [discordreactive]: Downloading https://files.pythonhosted.org/packages/d0/ca/a8cfbcdc297181dae2d1b3f0bc2195257e7268a9b48b3162e3da206680a4/discordreactive-0.0.4.tar.gz
+[2024-05-27 04:40:21] INFO root fetch - processPackages [discordreactive]: Downloading https://files.pythonhosted.org/packages/b3/06/928922536ec4f7c87df0ad73c24fbc695e9422dd797c14a03cd969df1990/discordreactive-0.0.5.tar.gz
+[2024-05-27 04:40:21] INFO root fetch - processPackages [discordreactive]: executing diffoscope
+[2024-05-27 04:40:21] INFO root fetch - processPackages [discordreactive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discordreactive-0.0.4.tar.gz tmp/discordreactive-0.0.5.tar.gz --markdown 20240527/d/discordreactive/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-27 04:40:21] INFO root fetch - processPackages [discordreactive]: Remove: archive file [/home/abi/fetcher/tmp/discordreactive-0.0.4.tar.gz]
+[2024-05-27 04:40:21] INFO root fetch - processPackages [discordreactive]: Remove: archive file [/home/abi/fetcher/tmp/discordreactive-0.0.5.tar.gz]
+[2024-05-27 04:40:21] INFO root fetch - main [MainThread]: End processing [discordreactive]: success
+[2024-05-27 04:40:21] INFO root fetch - main [MainThread]: Store serial: [23389855]
