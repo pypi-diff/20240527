@@ -21016,3 +21016,36 @@ EOFError: EOF read where object expected
 [2024-05-27 17:55:20] INFO root fetch - processPackages [ChatGPTWeb]: Remove: archive file [/home/abi/fetcher/tmp/ChatGPTWeb-0.2.9.tar.gz]
 [2024-05-27 17:55:20] INFO root fetch - main [MainThread]: End processing [ChatGPTWeb]: success
 [2024-05-27 17:55:20] INFO root fetch - main [MainThread]: Store serial: [23397922]
+[2024-05-27 17:57:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23397922]
+[2024-05-27 17:57:29] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-27 17:57:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: MobileInventoryCLI
+[2024-05-27 17:57:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ETH-GTD-cli
+[2024-05-27 17:57:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pip2deb
+[2024-05-27 17:57:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: absolutely-not-scikit-video
+[2024-05-27 17:57:29] INFO root fetch - processPackages [ETH-GTD-cli]: New version: [0.0.94] Old Version: [0.0.93]
+[2024-05-27 17:57:29] WARNING root fetch - processPackages [absolutely-not-scikit-video]: Skipping, unable to determine old version
+[2024-05-27 17:57:29] INFO root fetch - main [MainThread]: End processing [absolutely-not-scikit-video] error
+[2024-05-27 17:57:29] INFO root fetch - processPackages [MobileInventoryCLI]: New version: [0.4.99] Old Version: [0.4.98]
+[2024-05-27 17:57:29] INFO root fetch - processPackages [ETH-GTD-cli]: Downloading https://files.pythonhosted.org/packages/65/72/675d314dff0b6e793f83dbde9c11c3861876b01180bed655a0e42afed864/eth_gtd_cli-0.0.93.tar.gz
+[2024-05-27 17:57:29] INFO root fetch - processPackages [pip2deb]: New version: [2.0.2] Old Version: [2.0.1]
+[2024-05-27 17:57:29] INFO root fetch - processPackages [MobileInventoryCLI]: Downloading https://files.pythonhosted.org/packages/34/2d/1e50d7f512e3d39590afb4a6c37340af98e5c4eadc77d9de653aab0cb49f/MobileInventoryCLI-0.4.98.tar.gz
+[2024-05-27 17:57:29] INFO root fetch - processPackages [MobileInventoryCLI]: Downloading https://files.pythonhosted.org/packages/44/8c/14cdf7fc3f0b69cae35ba7ee2852fb70e3cab687142869ee3deb104ffc71/MobileInventoryCLI-0.4.99.tar.gz
+[2024-05-27 17:57:29] INFO root fetch - processPackages [ETH-GTD-cli]: Downloading https://files.pythonhosted.org/packages/51/d0/8a81789acffc90ca235c07694f7992a725cbcb8b5ddab1c835cadecbedbe/eth_gtd_cli-0.0.94.tar.gz
+[2024-05-27 17:57:29] INFO root fetch - processPackages [pip2deb]: Downloading https://files.pythonhosted.org/packages/c2/98/ef63ce3e8dbdb443b3cd97cdab3380754dfd1f75f4748415ebf22e725a5c/pip2deb-2.0.1.tar.gz
+[2024-05-27 17:57:29] INFO root fetch - processPackages [ETH-GTD-cli]: executing diffoscope
+[2024-05-27 17:57:29] INFO root fetch - processPackages [ETH-GTD-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eth_gtd_cli-0.0.93.tar.gz tmp/eth_gtd_cli-0.0.94.tar.gz --markdown 20240527/E/ETH-GTD-cli/0.0.93-0.0.94/README.md --exclude *.pyd
+[2024-05-27 17:57:29] INFO root fetch - processPackages [MobileInventoryCLI]: executing diffoscope
+[2024-05-27 17:57:29] INFO root fetch - processPackages [MobileInventoryCLI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MobileInventoryCLI-0.4.98.tar.gz tmp/MobileInventoryCLI-0.4.99.tar.gz --markdown 20240527/M/MobileInventoryCLI/0.4.98-0.4.99/README.md --exclude *.pyd
+[2024-05-27 17:57:30] INFO root fetch - processPackages [pip2deb]: Downloading https://files.pythonhosted.org/packages/ad/23/c68c014fc2785b215d9f3fd22fa20cdf203abdd9ea99fd3f4d60461fb06c/pip2deb-2.0.2.tar.gz
+[2024-05-27 17:57:30] INFO root fetch - processPackages [pip2deb]: executing diffoscope
+[2024-05-27 17:57:30] INFO root fetch - processPackages [pip2deb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pip2deb-2.0.1.tar.gz tmp/pip2deb-2.0.2.tar.gz --markdown 20240527/p/pip2deb/2.0.1-2.0.2/README.md --exclude *.pyd
+[2024-05-27 17:57:30] INFO root fetch - processPackages [ETH-GTD-cli]: Remove: archive file [/home/abi/fetcher/tmp/eth_gtd_cli-0.0.93.tar.gz]
+[2024-05-27 17:57:30] INFO root fetch - processPackages [ETH-GTD-cli]: Remove: archive file [/home/abi/fetcher/tmp/eth_gtd_cli-0.0.94.tar.gz]
+[2024-05-27 17:57:30] INFO root fetch - main [MainThread]: End processing [ETH-GTD-cli]: success
+[2024-05-27 17:57:30] INFO root fetch - processPackages [MobileInventoryCLI]: Remove: archive file [/home/abi/fetcher/tmp/MobileInventoryCLI-0.4.98.tar.gz]
+[2024-05-27 17:57:30] INFO root fetch - processPackages [MobileInventoryCLI]: Remove: archive file [/home/abi/fetcher/tmp/MobileInventoryCLI-0.4.99.tar.gz]
+[2024-05-27 17:57:30] INFO root fetch - main [MainThread]: End processing [MobileInventoryCLI]: success
+[2024-05-27 17:57:30] INFO root fetch - processPackages [pip2deb]: Remove: archive file [/home/abi/fetcher/tmp/pip2deb-2.0.1.tar.gz]
+[2024-05-27 17:57:30] INFO root fetch - processPackages [pip2deb]: Remove: archive file [/home/abi/fetcher/tmp/pip2deb-2.0.2.tar.gz]
+[2024-05-27 17:57:30] INFO root fetch - main [MainThread]: End processing [pip2deb]: success
+[2024-05-27 17:57:30] INFO root fetch - main [MainThread]: Store serial: [23397936]
