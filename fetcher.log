@@ -22958,3 +22958,33 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-05-27 19:14:47] INFO root fetch - processPackages [py-Ayiin]: Remove: archive file [/home/abi/fetcher/tmp/py_Ayiin-0.4.9-cp39-cp39-manylinux2014_x86_64.whl.zip]
 [2024-05-27 19:14:48] INFO root fetch - main [MainThread]: End processing [py-Ayiin]: success
 [2024-05-27 19:14:48] INFO root fetch - main [MainThread]: Store serial: [23398871]
+[2024-05-27 19:16:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23398871]
+[2024-05-27 19:16:56] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-27 19:16:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: alibabacloud-cloudfw20171207
+[2024-05-27 19:16:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: alibabacloud-cs20151215
+[2024-05-27 19:16:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: edgegap-api
+[2024-05-27 19:16:57] INFO root fetch - processPackages [edgegap-api]: New version: [1.7.1] Old Version: [1.7.0]
+[2024-05-27 19:16:57] INFO root fetch - processPackages [alibabacloud-cloudfw20171207]: New version: [3.6.2] Old Version: [3.6.1]
+[2024-05-27 19:16:57] INFO root fetch - processPackages [alibabacloud-cs20151215]: New version: [4.1.1] Old Version: [4.1.0]
+[2024-05-27 19:16:57] INFO root fetch - processPackages [edgegap-api]: Downloading https://files.pythonhosted.org/packages/bb/37/cc48250393e78b7746ac4aa4f12fa07a6e184217735a07f889cff683886c/edgegap_api-1.7.0.tar.gz
+[2024-05-27 19:16:57] INFO root fetch - processPackages [alibabacloud-cs20151215]: Downloading https://files.pythonhosted.org/packages/4f/e5/c3e61988943da1ce76829836b21790f208b96b44aad64818b546e7989a1e/alibabacloud_cs20151215-4.1.0.tar.gz
+[2024-05-27 19:16:57] INFO root fetch - processPackages [alibabacloud-cloudfw20171207]: Downloading https://files.pythonhosted.org/packages/f0/e5/fc7600306478c16e92d89bb76115a777414bba88f44304284ffef05fea1c/alibabacloud_cloudfw20171207-3.6.1.tar.gz
+[2024-05-27 19:16:57] INFO root fetch - processPackages [alibabacloud-cs20151215]: Downloading https://files.pythonhosted.org/packages/17/10/1ce4d3d1c2b254bb1b119e59edda340d165156f5df2b332529b147541351/alibabacloud_cs20151215-4.1.1.tar.gz
+[2024-05-27 19:16:57] INFO root fetch - processPackages [alibabacloud-cloudfw20171207]: Downloading https://files.pythonhosted.org/packages/d3/77/c8771f48e4f6168b878f1a0fdb0d611eed5f92f6dea1eaea22058e1fc5a7/alibabacloud_cloudfw20171207-3.6.2.tar.gz
+[2024-05-27 19:16:57] INFO root fetch - processPackages [edgegap-api]: Downloading https://files.pythonhosted.org/packages/78/6d/1de9c96b781bb1e7763a65adac9e7c5583b6bec5ada78c19b12dfd50709d/edgegap_api-1.7.1.tar.gz
+[2024-05-27 19:16:57] INFO root fetch - processPackages [alibabacloud-cs20151215]: executing diffoscope
+[2024-05-27 19:16:57] INFO root fetch - processPackages [alibabacloud-cs20151215]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_cs20151215-4.1.0.tar.gz tmp/alibabacloud_cs20151215-4.1.1.tar.gz --markdown 20240527/a/alibabacloud-cs20151215/4.1.0-4.1.1/README.md --exclude *.pyd
+[2024-05-27 19:16:57] INFO root fetch - processPackages [edgegap-api]: executing diffoscope
+[2024-05-27 19:16:57] INFO root fetch - processPackages [edgegap-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edgegap_api-1.7.0.tar.gz tmp/edgegap_api-1.7.1.tar.gz --markdown 20240527/e/edgegap-api/1.7.0-1.7.1/README.md --exclude *.pyd
+[2024-05-27 19:16:57] INFO root fetch - processPackages [alibabacloud-cloudfw20171207]: executing diffoscope
+[2024-05-27 19:16:57] INFO root fetch - processPackages [alibabacloud-cloudfw20171207]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_cloudfw20171207-3.6.1.tar.gz tmp/alibabacloud_cloudfw20171207-3.6.2.tar.gz --markdown 20240527/a/alibabacloud-cloudfw20171207/3.6.1-3.6.2/README.md --exclude *.pyd
+[2024-05-27 19:16:58] INFO root fetch - processPackages [edgegap-api]: Remove: archive file [/home/abi/fetcher/tmp/edgegap_api-1.7.0.tar.gz]
+[2024-05-27 19:16:58] INFO root fetch - processPackages [edgegap-api]: Remove: archive file [/home/abi/fetcher/tmp/edgegap_api-1.7.1.tar.gz]
+[2024-05-27 19:16:58] INFO root fetch - main [MainThread]: End processing [edgegap-api]: success
+[2024-05-27 19:16:59] INFO root fetch - processPackages [alibabacloud-cs20151215]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_cs20151215-4.1.0.tar.gz]
+[2024-05-27 19:16:59] INFO root fetch - processPackages [alibabacloud-cs20151215]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_cs20151215-4.1.1.tar.gz]
+[2024-05-27 19:16:59] INFO root fetch - main [MainThread]: End processing [alibabacloud-cs20151215]: success
+[2024-05-27 19:16:59] INFO root fetch - processPackages [alibabacloud-cloudfw20171207]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_cloudfw20171207-3.6.1.tar.gz]
+[2024-05-27 19:16:59] INFO root fetch - processPackages [alibabacloud-cloudfw20171207]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_cloudfw20171207-3.6.2.tar.gz]
+[2024-05-27 19:16:59] INFO root fetch - main [MainThread]: End processing [alibabacloud-cloudfw20171207]: success
+[2024-05-27 19:16:59] INFO root fetch - main [MainThread]: Store serial: [23398946]
