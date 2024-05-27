@@ -11703,3 +11703,101 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 11:59:30] INFO root fetch - processPackages [django-customvueadmin]: Remove: archive file [/home/abi/fetcher/tmp/django_customvueadmin-0.2.5.tar.gz]
 [2024-05-27 11:59:30] INFO root fetch - main [MainThread]: End processing [django-customvueadmin]: success
 [2024-05-27 11:59:30] INFO root fetch - main [MainThread]: Store serial: [23393576]
+[2024-05-27 12:01:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23393576]
+[2024-05-27 12:01:40] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-27 12:01:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: danila-lib
+[2024-05-27 12:01:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: beancount-multitool
+[2024-05-27 12:01:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dao-analyzer
+[2024-05-27 12:01:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: easypip
+[2024-05-27 12:01:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tf-keras-nightly
+[2024-05-27 12:01:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dao-analyzer
+[2024-05-27 12:01:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: create-mountaineer-app
+[2024-05-27 12:01:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dao-analyzer
+[2024-05-27 12:01:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: qulacs
+[2024-05-27 12:01:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: django_forms_plus
+[2024-05-27 12:01:40] INFO root fetch - processPackages [dao-analyzer]: New version: [1.3.2.dev8] Old Version: [1.3.2.dev4]
+[2024-05-27 12:01:40] INFO root fetch - processPackages [danila-lib]: New version: [1.7.8] Old Version: [1.7.7]
+[2024-05-27 12:01:40] INFO root fetch - processPackages [dao-analyzer]: New version: [1.3.2.dev8] Old Version: [1.3.2.dev4]
+[2024-05-27 12:01:40] INFO root fetch - processPackages [qulacs]: New version: [0.6.3] Old Version: [0.6.2]
+[2024-05-27 12:01:40] INFO root fetch - processPackages [dao-analyzer]: New version: [1.3.2.dev8] Old Version: [1.3.2.dev4]
+[2024-05-27 12:01:40] INFO root fetch - processPackages [tf-keras-nightly]: New version: [2.17.0.dev2024052609] Old Version: [2.17.0.dev2024052509]
+[2024-05-27 12:01:40] INFO root fetch - processPackages [beancount-multitool]: New version: [0.5.0] Old Version: [0.4.1]
+[2024-05-27 12:01:40] INFO root fetch - processPackages [create-mountaineer-app]: New version: [0.5.0.dev8] Old Version: [0.5.0.dev7]
+[2024-05-27 12:01:40] INFO root fetch - processPackages [easypip]: New version: [1.3.1] Old Version: [1.3.0]
+[2024-05-27 12:01:40] INFO root fetch - processPackages [django_forms_plus]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-27 12:01:40] INFO root fetch - processPackages [danila-lib]: Downloading https://files.pythonhosted.org/packages/d2/c9/84a42148c7857542f7b8e31a08e6150ea760aaf4f246df1d63a1e8b1bf1b/danila-lib-1.7.7.tar.gz
+[2024-05-27 12:01:40] INFO root fetch - processPackages [dao-analyzer]: Downloading https://files.pythonhosted.org/packages/09/51/8a20c3812afc9be820b44b141f1a933f817a6d68128352233fdd9e3fee83/dao_analyzer-1.3.2.dev4.tar.gz
+[2024-05-27 12:01:40] INFO root fetch - processPackages [dao-analyzer]: Downloading https://files.pythonhosted.org/packages/09/51/8a20c3812afc9be820b44b141f1a933f817a6d68128352233fdd9e3fee83/dao_analyzer-1.3.2.dev4.tar.gz
+[2024-05-27 12:01:40] INFO root fetch - processPackages [qulacs]: Downloading https://files.pythonhosted.org/packages/b2/7b/7217f4b913411f3462a6b39d8a37664d4f28d60d2952f603d25f5204a71c/qulacs-0.6.2.tar.gz
+[2024-05-27 12:01:40] INFO root fetch - processPackages [dao-analyzer]: Downloading https://files.pythonhosted.org/packages/09/51/8a20c3812afc9be820b44b141f1a933f817a6d68128352233fdd9e3fee83/dao_analyzer-1.3.2.dev4.tar.gz
+[2024-05-27 12:01:40] INFO root fetch - processPackages [tf-keras-nightly]: Downloading https://files.pythonhosted.org/packages/51/79/d54499bd1549368c1c7e9e75b0f99c89f6a54ae3ef79aaa6887d6b489807/tf_keras_nightly-2.17.0.dev2024052509.tar.gz
+[2024-05-27 12:01:40] INFO root fetch - processPackages [beancount-multitool]: Downloading https://files.pythonhosted.org/packages/36/ee/9962d8d011f92040b596efe15049272caf1ca814698293d3facdce67e577/beancount_multitool-0.4.1.tar.gz
+[2024-05-27 12:01:40] INFO root fetch - processPackages [easypip]: Downloading https://files.pythonhosted.org/packages/24/43/21b32d7952e7b741773e546f370fc7fe9bfc96942e746d263c6b6b29704d/easypip-1.3.0.tar.gz
+[2024-05-27 12:01:40] INFO root fetch - processPackages [create-mountaineer-app]: Downloading https://files.pythonhosted.org/packages/82/44/3380b2755a270bc8c5fd94c2a245260b9b0b63edec34e7dce909b0840149/create_mountaineer_app-0.5.0.dev7.tar.gz
+[2024-05-27 12:01:40] INFO root fetch - processPackages [django_forms_plus]: Downloading https://files.pythonhosted.org/packages/17/0e/f79e56cbbdc79f927f3c0a84be419ffe6da4dae45bde17f62e4a9620af0f/django_forms_plus-0.8.0.tar.gz
+[2024-05-27 12:01:40] INFO root fetch - processPackages [danila-lib]: Downloading https://files.pythonhosted.org/packages/33/47/027739617512625f50bd944bc7ba135427ae70fffa161b9f7443ce9d091b/danila-lib-1.7.8.tar.gz
+[2024-05-27 12:01:40] INFO root fetch - processPackages [qulacs]: Downloading https://files.pythonhosted.org/packages/c2/86/886949db3231edba0e24b0ffa5745a7b29dd18f28ca6fb758139233f6287/qulacs-0.6.3.tar.gz
+[2024-05-27 12:01:40] INFO root fetch - processPackages [dao-analyzer]: Downloading https://files.pythonhosted.org/packages/6f/25/2763ad880ea16e0623dd700691271e37dbd271f8b1e0b161a035ff03e2ca/dao_analyzer-1.3.2.dev8.tar.gz
+[2024-05-27 12:01:41] INFO root fetch - processPackages [beancount-multitool]: Downloading https://files.pythonhosted.org/packages/c8/28/eeb8a09842ea4b38d5c00ea65f6b7f7238aeffcc1939811733bfd23fda2b/beancount_multitool-0.5.0.tar.gz
+[2024-05-27 12:01:41] INFO root fetch - processPackages [dao-analyzer]: Downloading https://files.pythonhosted.org/packages/6f/25/2763ad880ea16e0623dd700691271e37dbd271f8b1e0b161a035ff03e2ca/dao_analyzer-1.3.2.dev8.tar.gz
+[2024-05-27 12:01:41] INFO root fetch - processPackages [dao-analyzer]: Downloading https://files.pythonhosted.org/packages/6f/25/2763ad880ea16e0623dd700691271e37dbd271f8b1e0b161a035ff03e2ca/dao_analyzer-1.3.2.dev8.tar.gz
+[2024-05-27 12:01:41] INFO root fetch - processPackages [easypip]: Downloading https://files.pythonhosted.org/packages/a7/5e/351de2135d0d3e837d9f9537d8f29ad16cb1fbc8194905e9f1fcb5c91e21/easypip-1.3.1.tar.gz
+[2024-05-27 12:01:41] INFO root fetch - processPackages [danila-lib]: executing diffoscope
+[2024-05-27 12:01:41] INFO root fetch - processPackages [danila-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/danila-lib-1.7.7.tar.gz tmp/danila-lib-1.7.8.tar.gz --markdown 20240527/d/danila-lib/1.7.7-1.7.8/README.md --exclude *.pyd
+[2024-05-27 12:01:41] INFO root fetch - processPackages [create-mountaineer-app]: Downloading https://files.pythonhosted.org/packages/c7/bc/15cc54bfddfdd307264a2f13495bd8ee3b01eb36f026c878abd97254beec/create_mountaineer_app-0.5.0.dev8.tar.gz
+[2024-05-27 12:01:41] INFO root fetch - processPackages [tf-keras-nightly]: Downloading https://files.pythonhosted.org/packages/77/07/785f085150723b486d79591d6440bcbe5761bd7b6c1a02a4f94e3322eea7/tf_keras_nightly-2.17.0.dev2024052609.tar.gz
+[2024-05-27 12:01:41] INFO root fetch - processPackages [qulacs]: executing diffoscope
+[2024-05-27 12:01:41] INFO root fetch - processPackages [qulacs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qulacs-0.6.2.tar.gz tmp/qulacs-0.6.3.tar.gz --markdown 20240527/q/qulacs/0.6.2-0.6.3/README.md --exclude *.pyd
+[2024-05-27 12:01:41] INFO root fetch - processPackages [beancount-multitool]: executing diffoscope
+[2024-05-27 12:01:41] INFO root fetch - processPackages [beancount-multitool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/beancount_multitool-0.4.1.tar.gz tmp/beancount_multitool-0.5.0.tar.gz --markdown 20240527/b/beancount-multitool/0.4.1-0.5.0/README.md --exclude *.pyd
+[2024-05-27 12:01:41] INFO root fetch - processPackages [easypip]: executing diffoscope
+[2024-05-27 12:01:41] INFO root fetch - processPackages [easypip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easypip-1.3.0.tar.gz tmp/easypip-1.3.1.tar.gz --markdown 20240527/e/easypip/1.3.0-1.3.1/README.md --exclude *.pyd
+[2024-05-27 12:01:41] INFO root fetch - processPackages [django_forms_plus]: Downloading https://files.pythonhosted.org/packages/54/f3/c85ac8ce94145bb3872c12320f60f50e48053a66266349c0d4cbf452a9dd/django_forms_plus-0.9.0.tar.gz
+[2024-05-27 12:01:41] INFO root fetch - processPackages [dao-analyzer]: executing diffoscope
+[2024-05-27 12:01:41] INFO root fetch - processPackages [dao-analyzer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dao_analyzer-1.3.2.dev4.tar.gz tmp/dao_analyzer-1.3.2.dev8.tar.gz --markdown 20240527/d/dao-analyzer/1.3.2.dev4-1.3.2.dev8/README.md --exclude *.pyd
+[2024-05-27 12:01:41] INFO root fetch - processPackages [create-mountaineer-app]: executing diffoscope
+[2024-05-27 12:01:41] INFO root fetch - processPackages [create-mountaineer-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/create_mountaineer_app-0.5.0.dev7.tar.gz tmp/create_mountaineer_app-0.5.0.dev8.tar.gz --markdown 20240527/c/create-mountaineer-app/0.5.0.dev7-0.5.0.dev8/README.md --exclude *.pyd
+[2024-05-27 12:01:41] INFO root fetch - processPackages [dao-analyzer]: executing diffoscope
+[2024-05-27 12:01:41] INFO root fetch - processPackages [dao-analyzer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dao_analyzer-1.3.2.dev4.tar.gz tmp/dao_analyzer-1.3.2.dev8.tar.gz --markdown 20240527/d/dao-analyzer/1.3.2.dev4-1.3.2.dev8/README.md --exclude *.pyd
+[2024-05-27 12:01:41] INFO root fetch - processPackages [dao-analyzer]: executing diffoscope
+[2024-05-27 12:01:41] INFO root fetch - processPackages [dao-analyzer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dao_analyzer-1.3.2.dev4.tar.gz tmp/dao_analyzer-1.3.2.dev8.tar.gz --markdown 20240527/d/dao-analyzer/1.3.2.dev4-1.3.2.dev8/README.md --exclude *.pyd
+[2024-05-27 12:01:41] INFO root fetch - processPackages [tf-keras-nightly]: executing diffoscope
+[2024-05-27 12:01:41] INFO root fetch - processPackages [tf-keras-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_keras_nightly-2.17.0.dev2024052509.tar.gz tmp/tf_keras_nightly-2.17.0.dev2024052609.tar.gz --markdown 20240527/t/tf-keras-nightly/2.17.0.dev2024052509-2.17.0.dev2024052609/README.md --exclude *.pyd
+[2024-05-27 12:01:41] INFO root fetch - processPackages [django_forms_plus]: executing diffoscope
+[2024-05-27 12:01:41] INFO root fetch - processPackages [django_forms_plus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_forms_plus-0.8.0.tar.gz tmp/django_forms_plus-0.9.0.tar.gz --markdown 20240527/d/django_forms_plus/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-27 12:01:42] INFO root fetch - processPackages [easypip]: Remove: archive file [/home/abi/fetcher/tmp/easypip-1.3.0.tar.gz]
+[2024-05-27 12:01:42] INFO root fetch - processPackages [easypip]: Remove: archive file [/home/abi/fetcher/tmp/easypip-1.3.1.tar.gz]
+[2024-05-27 12:01:42] INFO root fetch - processPackages [easypip]: Start processing: pysquril
+[2024-05-27 12:01:42] INFO root fetch - main [MainThread]: End processing [easypip]: success
+[2024-05-27 12:01:42] INFO root fetch - processPackages [danila-lib]: Remove: archive file [/home/abi/fetcher/tmp/danila-lib-1.7.7.tar.gz]
+[2024-05-27 12:01:42] INFO root fetch - processPackages [danila-lib]: Remove: archive file [/home/abi/fetcher/tmp/danila-lib-1.7.8.tar.gz]
+[2024-05-27 12:01:42] INFO root fetch - main [MainThread]: End processing [danila-lib]: success
+[2024-05-27 12:01:42] INFO root fetch - processPackages [beancount-multitool]: Remove: archive file [/home/abi/fetcher/tmp/beancount_multitool-0.4.1.tar.gz]
+[2024-05-27 12:01:42] INFO root fetch - processPackages [beancount-multitool]: Remove: archive file [/home/abi/fetcher/tmp/beancount_multitool-0.5.0.tar.gz]
+[2024-05-27 12:01:42] INFO root fetch - main [MainThread]: End processing [beancount-multitool]: success
+[2024-05-27 12:01:42] INFO root fetch - processPackages [pysquril]: New version: [0.7.0] Old Version: [0.6.2]
+[2024-05-27 12:01:42] INFO root fetch - processPackages [create-mountaineer-app]: Remove: archive file [/home/abi/fetcher/tmp/create_mountaineer_app-0.5.0.dev7.tar.gz]
+[2024-05-27 12:01:42] INFO root fetch - processPackages [create-mountaineer-app]: Remove: archive file [/home/abi/fetcher/tmp/create_mountaineer_app-0.5.0.dev8.tar.gz]
+[2024-05-27 12:01:42] INFO root fetch - main [MainThread]: End processing [create-mountaineer-app]: success
+[2024-05-27 12:01:42] INFO root fetch - processPackages [pysquril]: Downloading https://files.pythonhosted.org/packages/09/3d/db7604aebeccd7c6c2a3546518f551114a3afff467921cb62567c5556537/pysquril-0.6.2.tar.gz
+[2024-05-27 12:01:43] INFO root fetch - processPackages [pysquril]: Downloading https://files.pythonhosted.org/packages/cf/ec/586642e3fd3da783919d148dd3f087ee9ddcbd8cb54324cd738d4c2bbac8/pysquril-0.7.0.tar.gz
+[2024-05-27 12:01:43] INFO root fetch - processPackages [pysquril]: executing diffoscope
+[2024-05-27 12:01:43] INFO root fetch - processPackages [pysquril]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysquril-0.6.2.tar.gz tmp/pysquril-0.7.0.tar.gz --markdown 20240527/p/pysquril/0.6.2-0.7.0/README.md --exclude *.pyd
+[2024-05-27 12:01:43] INFO root fetch - processPackages [dao-analyzer]: Remove: archive file [/home/abi/fetcher/tmp/dao_analyzer-1.3.2.dev4.tar.gz]
+[2024-05-27 12:01:43] INFO root fetch - processPackages [dao-analyzer]: Remove: archive file [/home/abi/fetcher/tmp/dao_analyzer-1.3.2.dev8.tar.gz]
+[2024-05-27 12:01:43] INFO root fetch - main [MainThread]: End processing [dao-analyzer]: success
+[2024-05-27 12:01:43] INFO root fetch - main [MainThread]: End processing [dao-analyzer]: success
+[2024-05-27 12:01:43] INFO root fetch - main [MainThread]: End processing [dao-analyzer]: success
+[2024-05-27 12:01:44] INFO root fetch - processPackages [pysquril]: Remove: archive file [/home/abi/fetcher/tmp/pysquril-0.6.2.tar.gz]
+[2024-05-27 12:01:44] INFO root fetch - processPackages [pysquril]: Remove: archive file [/home/abi/fetcher/tmp/pysquril-0.7.0.tar.gz]
+[2024-05-27 12:01:44] INFO root fetch - main [MainThread]: End processing [pysquril]: success
+[2024-05-27 12:01:44] INFO root fetch - processPackages [tf-keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_keras_nightly-2.17.0.dev2024052509.tar.gz]
+[2024-05-27 12:01:44] INFO root fetch - processPackages [tf-keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_keras_nightly-2.17.0.dev2024052609.tar.gz]
+[2024-05-27 12:01:44] INFO root fetch - main [MainThread]: End processing [tf-keras-nightly]: success
+[2024-05-27 12:01:52] INFO root fetch - processPackages [django_forms_plus]: Remove: archive file [/home/abi/fetcher/tmp/django_forms_plus-0.8.0.tar.gz]
+[2024-05-27 12:01:52] INFO root fetch - processPackages [django_forms_plus]: Remove: archive file [/home/abi/fetcher/tmp/django_forms_plus-0.9.0.tar.gz]
+[2024-05-27 12:01:52] INFO root fetch - main [MainThread]: End processing [django_forms_plus]: success
+[2024-05-27 12:01:53] INFO root fetch - processPackages [qulacs]: Remove: archive file [/home/abi/fetcher/tmp/qulacs-0.6.2.tar.gz]
+[2024-05-27 12:01:53] INFO root fetch - processPackages [qulacs]: Remove: archive file [/home/abi/fetcher/tmp/qulacs-0.6.3.tar.gz]
+[2024-05-27 12:01:53] INFO root fetch - main [MainThread]: End processing [qulacs]: success
+[2024-05-27 12:01:53] INFO root fetch - main [MainThread]: Store serial: [23393606]
