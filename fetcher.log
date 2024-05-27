@@ -12246,3 +12246,56 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 12:19:44] INFO root fetch - processPackages [twitch-archiver]: Remove: archive file [/home/abi/fetcher/tmp/twitch_archiver-4.0.9.tar.gz]
 [2024-05-27 12:19:44] INFO root fetch - main [MainThread]: End processing [twitch-archiver]: success
 [2024-05-27 12:19:44] INFO root fetch - main [MainThread]: Store serial: [23393919]
+[2024-05-27 12:21:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23393919]
+[2024-05-27 12:21:52] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-27 12:21:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: matfree
+[2024-05-27 12:21:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: collective.eeafaceted.z3ctable
+[2024-05-27 12:21:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ginger-dj
+[2024-05-27 12:21:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: imio.actionspanel
+[2024-05-27 12:21:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: disai-agents
+[2024-05-27 12:21:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: create-mountaineer-app
+[2024-05-27 12:21:52] INFO root fetch - processPackages [disai-agents]: New version: [0.378] Old Version: [0.377]
+[2024-05-27 12:21:52] INFO root fetch - processPackages [ginger-dj]: New version: [5.2.dev20240527095553] Old Version: [5.2]
+[2024-05-27 12:21:52] INFO root fetch - processPackages [matfree]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-27 12:21:52] INFO root fetch - processPackages [collective.eeafaceted.z3ctable]: New version: [2.9] Old Version: [2.8]
+[2024-05-27 12:21:52] INFO root fetch - processPackages [imio.actionspanel]: New version: [1.66] Old Version: [1.65]
+[2024-05-27 12:21:52] INFO root fetch - processPackages [create-mountaineer-app]: New version: [0.5.0.dev9] Old Version: [0.5.0.dev8]
+[2024-05-27 12:21:52] INFO root fetch - processPackages [disai-agents]: Downloading https://files.pythonhosted.org/packages/6d/98/36f63a3a79074f76ac5f5f085cfdb2df1abf3ea26fe1e1ff6da3ceea2900/disai-agents-0.377.tar.gz
+[2024-05-27 12:21:52] INFO root fetch - processPackages [ginger-dj]: Downloading https://files.pythonhosted.org/packages/21/36/2152df79c8c621d527a4b9eb47d6d3d738fd7994906fe279f15ea7af2c88/ginger_dj-5.2-py3-none-any.whl
+[2024-05-27 12:21:52] WARNING root fetch - processPackages [ginger-dj]: Skipping package: exceeds size limit 12391139>=10485760
+[2024-05-27 12:21:52] INFO root fetch - main [MainThread]: End processing [ginger-dj] error
+[2024-05-27 12:21:52] INFO root fetch - processPackages [matfree]: Downloading https://files.pythonhosted.org/packages/77/f5/a49ff854179a9f6ee2f8ff50e252eec11bf3ec533292fa6d8ae829c16b84/matfree-0.0.8.tar.gz
+[2024-05-27 12:21:52] INFO root fetch - processPackages [collective.eeafaceted.z3ctable]: Downloading https://files.pythonhosted.org/packages/9f/ec/4cffcdf9107ddd7c84dd3dcc10f5557c4ebbf33dec622106ff803537c125/collective.eeafaceted.z3ctable-2.8.tar.gz
+[2024-05-27 12:21:52] INFO root fetch - processPackages [imio.actionspanel]: Downloading https://files.pythonhosted.org/packages/14/14/595fa75f1063096f4fe8d02cd368f64a19be6e82191cc978cb48e65fea3b/imio.actionspanel-1.65.tar.gz
+[2024-05-27 12:21:52] INFO root fetch - processPackages [create-mountaineer-app]: Downloading https://files.pythonhosted.org/packages/c7/bc/15cc54bfddfdd307264a2f13495bd8ee3b01eb36f026c878abd97254beec/create_mountaineer_app-0.5.0.dev8.tar.gz
+[2024-05-27 12:21:52] INFO root fetch - processPackages [disai-agents]: Downloading https://files.pythonhosted.org/packages/f0/68/79a94c33ed2fa71d43afe0d00c2be60219fb6e566e97d1d1dfa7264f5173/disai-agents-0.378.tar.gz
+[2024-05-27 12:21:52] INFO root fetch - processPackages [matfree]: Downloading https://files.pythonhosted.org/packages/80/71/78a842f49668a013399ae044db96aea6b7bd38387e2c345b454f51f44f6a/matfree-0.0.9.tar.gz
+[2024-05-27 12:21:52] INFO root fetch - processPackages [imio.actionspanel]: Downloading https://files.pythonhosted.org/packages/bb/a7/103e0e8bf472253653c4c70777e615dd750516bca87bf3c437dff9c4d3f3/imio.actionspanel-1.66.tar.gz
+[2024-05-27 12:21:53] INFO root fetch - processPackages [disai-agents]: executing diffoscope
+[2024-05-27 12:21:53] INFO root fetch - processPackages [disai-agents]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/disai-agents-0.377.tar.gz tmp/disai-agents-0.378.tar.gz --markdown 20240527/d/disai-agents/0.377-0.378/README.md --exclude *.pyd
+[2024-05-27 12:21:53] INFO root fetch - processPackages [collective.eeafaceted.z3ctable]: Downloading https://files.pythonhosted.org/packages/06/f4/a6dbc951df4f0e6ab1da75ce145fa71af6bd37f82167f0dd62d8da94b9a8/collective.eeafaceted.z3ctable-2.9.tar.gz
+[2024-05-27 12:21:53] INFO root fetch - processPackages [create-mountaineer-app]: Downloading https://files.pythonhosted.org/packages/ce/f2/209dc1cb00ffb1f936e7b0ec5903d46e67345cd14a852aa3498afd796fb5/create_mountaineer_app-0.5.0.dev9.tar.gz
+[2024-05-27 12:21:53] INFO root fetch - processPackages [matfree]: executing diffoscope
+[2024-05-27 12:21:53] INFO root fetch - processPackages [matfree]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matfree-0.0.8.tar.gz tmp/matfree-0.0.9.tar.gz --markdown 20240527/m/matfree/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-27 12:21:53] INFO root fetch - processPackages [imio.actionspanel]: executing diffoscope
+[2024-05-27 12:21:53] INFO root fetch - processPackages [imio.actionspanel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imio.actionspanel-1.65.tar.gz tmp/imio.actionspanel-1.66.tar.gz --markdown 20240527/i/imio.actionspanel/1.65-1.66/README.md --exclude *.pyd
+[2024-05-27 12:21:53] INFO root fetch - processPackages [collective.eeafaceted.z3ctable]: executing diffoscope
+[2024-05-27 12:21:53] INFO root fetch - processPackages [collective.eeafaceted.z3ctable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/collective.eeafaceted.z3ctable-2.8.tar.gz tmp/collective.eeafaceted.z3ctable-2.9.tar.gz --markdown 20240527/c/collective.eeafaceted.z3ctable/2.8-2.9/README.md --exclude *.pyd
+[2024-05-27 12:21:53] INFO root fetch - processPackages [disai-agents]: Remove: archive file [/home/abi/fetcher/tmp/disai-agents-0.377.tar.gz]
+[2024-05-27 12:21:53] INFO root fetch - processPackages [disai-agents]: Remove: archive file [/home/abi/fetcher/tmp/disai-agents-0.378.tar.gz]
+[2024-05-27 12:21:53] INFO root fetch - main [MainThread]: End processing [disai-agents]: success
+[2024-05-27 12:21:53] INFO root fetch - processPackages [create-mountaineer-app]: executing diffoscope
+[2024-05-27 12:21:53] INFO root fetch - processPackages [create-mountaineer-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/create_mountaineer_app-0.5.0.dev8.tar.gz tmp/create_mountaineer_app-0.5.0.dev9.tar.gz --markdown 20240527/c/create-mountaineer-app/0.5.0.dev8-0.5.0.dev9/README.md --exclude *.pyd
+[2024-05-27 12:21:53] INFO root fetch - processPackages [matfree]: Remove: archive file [/home/abi/fetcher/tmp/matfree-0.0.8.tar.gz]
+[2024-05-27 12:21:53] INFO root fetch - processPackages [matfree]: Remove: archive file [/home/abi/fetcher/tmp/matfree-0.0.9.tar.gz]
+[2024-05-27 12:21:53] INFO root fetch - main [MainThread]: End processing [matfree]: success
+[2024-05-27 12:21:53] INFO root fetch - processPackages [imio.actionspanel]: Remove: archive file [/home/abi/fetcher/tmp/imio.actionspanel-1.65.tar.gz]
+[2024-05-27 12:21:53] INFO root fetch - processPackages [imio.actionspanel]: Remove: archive file [/home/abi/fetcher/tmp/imio.actionspanel-1.66.tar.gz]
+[2024-05-27 12:21:53] INFO root fetch - main [MainThread]: End processing [imio.actionspanel]: success
+[2024-05-27 12:21:53] INFO root fetch - processPackages [collective.eeafaceted.z3ctable]: Remove: archive file [/home/abi/fetcher/tmp/collective.eeafaceted.z3ctable-2.8.tar.gz]
+[2024-05-27 12:21:53] INFO root fetch - processPackages [collective.eeafaceted.z3ctable]: Remove: archive file [/home/abi/fetcher/tmp/collective.eeafaceted.z3ctable-2.9.tar.gz]
+[2024-05-27 12:21:53] INFO root fetch - main [MainThread]: End processing [collective.eeafaceted.z3ctable]: success
+[2024-05-27 12:21:54] INFO root fetch - processPackages [create-mountaineer-app]: Remove: archive file [/home/abi/fetcher/tmp/create_mountaineer_app-0.5.0.dev8.tar.gz]
+[2024-05-27 12:21:54] INFO root fetch - processPackages [create-mountaineer-app]: Remove: archive file [/home/abi/fetcher/tmp/create_mountaineer_app-0.5.0.dev9.tar.gz]
+[2024-05-27 12:21:54] INFO root fetch - main [MainThread]: End processing [create-mountaineer-app]: success
+[2024-05-27 12:21:54] INFO root fetch - main [MainThread]: Store serial: [23393935]
