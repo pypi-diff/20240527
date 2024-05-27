@@ -5687,3 +5687,42 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 06:55:18] INFO root fetch - processPackages [hklpy2]: Remove: archive file [/home/abi/fetcher/tmp/hklpy2-0.0.9.tar.gz]
 [2024-05-27 06:55:18] INFO root fetch - main [MainThread]: End processing [hklpy2]: success
 [2024-05-27 06:55:18] INFO root fetch - main [MainThread]: Store serial: [23390676]
+[2024-05-27 06:57:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23390676]
+[2024-05-27 06:57:26] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-27 06:57:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: telegram-gmail-bot
+[2024-05-27 06:57:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rxd
+[2024-05-27 06:57:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ragdaemon
+[2024-05-27 06:57:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: online-scheduler
+[2024-05-27 06:57:26] INFO root fetch - processPackages [rxd]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-27 06:57:26] INFO root fetch - processPackages [telegram-gmail-bot]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-27 06:57:26] INFO root fetch - processPackages [ragdaemon]: New version: [0.7.2] Old Version: [0.7.1]
+[2024-05-27 06:57:26] INFO root fetch - processPackages [rxd]: Downloading https://files.pythonhosted.org/packages/21/c2/38cf8db50595c42a9258c3370b82b7757ed2485638d9d5e7cc8aa2b6ea9d/rxd-0.0.8.tar.gz
+[2024-05-27 06:57:26] INFO root fetch - processPackages [online-scheduler]: New version: [1.6] Old Version: [1.5]
+[2024-05-27 06:57:26] INFO root fetch - processPackages [ragdaemon]: Downloading https://files.pythonhosted.org/packages/96/40/460607cf914ef823a0c9beb8af10afdb9b79ffdb3de7ecf2e735cbf6ef55/ragdaemon-0.7.1.tar.gz
+[2024-05-27 06:57:26] INFO root fetch - processPackages [telegram-gmail-bot]: Downloading https://files.pythonhosted.org/packages/f6/bf/b63b5058d23af476b7a5cab1628857fbe38ba8a896fc5c2038de5b8eaca1/telegram_gmail_bot-0.1.4.tar.gz
+[2024-05-27 06:57:27] INFO root fetch - processPackages [online-scheduler]: Downloading https://files.pythonhosted.org/packages/f8/e6/79b774db14a692c8e5901f4614552c155fffa8900ccfc3072118fd264f2d/online_scheduler-1.5.tar.gz
+[2024-05-27 06:57:27] INFO root fetch - processPackages [rxd]: Downloading https://files.pythonhosted.org/packages/5c/98/033a1b896a5c65fec77f8aa2c7d37aaa0f4d23fe3d4b5cae4731f73ad27e/rxd-0.0.9.tar.gz
+[2024-05-27 06:57:27] INFO root fetch - processPackages [rxd]: executing diffoscope
+[2024-05-27 06:57:27] INFO root fetch - processPackages [rxd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rxd-0.0.8.tar.gz tmp/rxd-0.0.9.tar.gz --markdown 20240527/r/rxd/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-27 06:57:27] INFO root fetch - processPackages [ragdaemon]: Downloading https://files.pythonhosted.org/packages/48/ee/38ae05124d7ec52aca3cd4ea4682a154a977847a1ea698700cc36aeaa0b6/ragdaemon-0.7.2.tar.gz
+[2024-05-27 06:57:27] INFO root fetch - processPackages [telegram-gmail-bot]: Downloading https://files.pythonhosted.org/packages/ef/cc/70cf4c2af511bc55da908af16f67bfcac04f5f16dd67e79cc844cc69df02/telegram_gmail_bot-0.1.5.tar.gz
+[2024-05-27 06:57:27] INFO root fetch - processPackages [ragdaemon]: executing diffoscope
+[2024-05-27 06:57:27] INFO root fetch - processPackages [ragdaemon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ragdaemon-0.7.1.tar.gz tmp/ragdaemon-0.7.2.tar.gz --markdown 20240527/r/ragdaemon/0.7.1-0.7.2/README.md --exclude *.pyd
+[2024-05-27 06:57:27] INFO root fetch - processPackages [online-scheduler]: Downloading https://files.pythonhosted.org/packages/7b/e8/5f25d383f9a9c413f63c966644d9193f5b8950a12226f8ed9a9736d73b1a/online_scheduler-1.6.tar.gz
+[2024-05-27 06:57:27] INFO root fetch - processPackages [telegram-gmail-bot]: executing diffoscope
+[2024-05-27 06:57:27] INFO root fetch - processPackages [telegram-gmail-bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/telegram_gmail_bot-0.1.4.tar.gz tmp/telegram_gmail_bot-0.1.5.tar.gz --markdown 20240527/t/telegram-gmail-bot/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-27 06:57:27] INFO root fetch - processPackages [online-scheduler]: executing diffoscope
+[2024-05-27 06:57:27] INFO root fetch - processPackages [online-scheduler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/online_scheduler-1.5.tar.gz tmp/online_scheduler-1.6.tar.gz --markdown 20240527/o/online-scheduler/1.5-1.6/README.md --exclude *.pyd
+[2024-05-27 06:57:27] INFO root fetch - processPackages [rxd]: Remove: archive file [/home/abi/fetcher/tmp/rxd-0.0.8.tar.gz]
+[2024-05-27 06:57:27] INFO root fetch - processPackages [rxd]: Remove: archive file [/home/abi/fetcher/tmp/rxd-0.0.9.tar.gz]
+[2024-05-27 06:57:27] INFO root fetch - main [MainThread]: End processing [rxd]: success
+[2024-05-27 06:57:27] INFO root fetch - processPackages [telegram-gmail-bot]: Remove: archive file [/home/abi/fetcher/tmp/telegram_gmail_bot-0.1.4.tar.gz]
+[2024-05-27 06:57:27] INFO root fetch - processPackages [telegram-gmail-bot]: Remove: archive file [/home/abi/fetcher/tmp/telegram_gmail_bot-0.1.5.tar.gz]
+[2024-05-27 06:57:27] INFO root fetch - main [MainThread]: End processing [telegram-gmail-bot]: success
+[2024-05-27 06:57:27] INFO root fetch - processPackages [ragdaemon]: Remove: archive file [/home/abi/fetcher/tmp/ragdaemon-0.7.1.tar.gz]
+[2024-05-27 06:57:27] INFO root fetch - processPackages [ragdaemon]: Remove: archive file [/home/abi/fetcher/tmp/ragdaemon-0.7.2.tar.gz]
+[2024-05-27 06:57:27] INFO root fetch - main [MainThread]: End processing [ragdaemon]: success
+[2024-05-27 06:57:28] INFO root fetch - processPackages [online-scheduler]: Remove: archive file [/home/abi/fetcher/tmp/online_scheduler-1.5.tar.gz]
+[2024-05-27 06:57:28] INFO root fetch - processPackages [online-scheduler]: Remove: archive file [/home/abi/fetcher/tmp/online_scheduler-1.6.tar.gz]
+[2024-05-27 06:57:28] INFO root fetch - main [MainThread]: End processing [online-scheduler]: success
+[2024-05-27 06:57:28] INFO root fetch - main [MainThread]: Store serial: [23390688]
