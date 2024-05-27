@@ -16863,3 +16863,69 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 15:28:08] INFO root fetch - processPackages [gs2-cdk]: Remove: archive file [/home/abi/fetcher/tmp/gs2-cdk-1.0.9.tar.gz]
 [2024-05-27 15:28:08] INFO root fetch - main [MainThread]: End processing [gs2-cdk]: success
 [2024-05-27 15:28:08] INFO root fetch - main [MainThread]: Store serial: [23396221]
+[2024-05-27 15:30:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23396221]
+[2024-05-27 15:30:17] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-27 15:30:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jupyterlab-new-launcher
+[2024-05-27 15:30:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: md2tgmd
+[2024-05-27 15:30:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyelq-sdk
+[2024-05-27 15:30:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tinytoolslib
+[2024-05-27 15:30:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nestipy-peewee
+[2024-05-27 15:30:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: HalChat
+[2024-05-27 15:30:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gaea-operator
+[2024-05-27 15:30:17] INFO root fetch - processPackages [md2tgmd]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-27 15:30:17] INFO root fetch - processPackages [HalChat]: New version: [0.0.3] Old Version: [0.0.2.2]
+[2024-05-27 15:30:17] INFO root fetch - processPackages [nestipy-peewee]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-27 15:30:17] INFO root fetch - processPackages [tinytoolslib]: New version: [0.3.1] Old Version: [0.2.5]
+[2024-05-27 15:30:17] INFO root fetch - processPackages [pyelq-sdk]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-05-27 15:30:17] INFO root fetch - processPackages [jupyterlab-new-launcher]: New version: [0.4.0] Old Version: [0.3.3]
+[2024-05-27 15:30:17] INFO root fetch - processPackages [md2tgmd]: Downloading https://files.pythonhosted.org/packages/5a/3e/6b373d9183a66916e1bad79cecc0c84bce44c8789de182de7de74895f666/md2tgmd-0.2.0.tar.gz
+[2024-05-27 15:30:17] INFO root fetch - processPackages [HalChat]: Downloading https://files.pythonhosted.org/packages/f9/41/a19809f27aa6e99d1a6c3c8ea500cf06f169f558a949251b25bb377c0659/halchat-0.0.2.2.tar.gz
+[2024-05-27 15:30:17] INFO root fetch - processPackages [gaea-operator]: New version: [4.1.3.dev1] Old Version: [4.1.2.dev8]
+[2024-05-27 15:30:17] INFO root fetch - processPackages [nestipy-peewee]: Downloading https://files.pythonhosted.org/packages/db/91/0f6d23972dec9193e9c1482d64a58ea0c2f895e670f119687e8e2b307209/nestipy_peewee-0.2.0.tar.gz
+[2024-05-27 15:30:17] INFO root fetch - processPackages [jupyterlab-new-launcher]: Downloading https://files.pythonhosted.org/packages/fb/de/0f5bfc84cf9900789decf9c75e105976e8c28553c20f2353f9857bd4fc78/jupyterlab_new_launcher-0.3.3.tar.gz
+[2024-05-27 15:30:18] INFO root fetch - processPackages [tinytoolslib]: Downloading https://files.pythonhosted.org/packages/6d/9d/928e12779df2a1e1bdf581aff2da24cb9db4b15ffbfd70ce5571626cc913/tinytoolslib-0.2.5.tar.gz
+[2024-05-27 15:30:18] INFO root fetch - processPackages [pyelq-sdk]: Downloading https://files.pythonhosted.org/packages/06/49/d24e8df2b75b9ce3aae88a23bf0c878c38046f2fbe99a3be2a1b5018b0bc/pyelq_sdk-1.0.4.tar.gz
+[2024-05-27 15:30:18] INFO root fetch - processPackages [gaea-operator]: Downloading https://files.pythonhosted.org/packages/3e/bb/2b409c98938d3b5a98a2381de43a00a6c94b2de908d5795dd7b1ec042bbc/gaea_operator-4.1.2.dev8-py3-none-any.whl
+[2024-05-27 15:30:18] INFO root fetch - processPackages [HalChat]: Downloading https://files.pythonhosted.org/packages/42/a3/448fa742b1ff1a2ff58a6b8b371c25a0b1e614dc7b60aea01abcfa4f3a3b/halchat-0.0.3.tar.gz
+[2024-05-27 15:30:18] INFO root fetch - processPackages [md2tgmd]: Downloading https://files.pythonhosted.org/packages/e5/0c/56ee4e2f930b6ff3273ddab0308966619691cfa88a06ee139186c87add0f/md2tgmd-0.2.1.tar.gz
+[2024-05-27 15:30:18] INFO root fetch - processPackages [HalChat]: executing diffoscope
+[2024-05-27 15:30:18] INFO root fetch - processPackages [HalChat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/halchat-0.0.2.2.tar.gz tmp/halchat-0.0.3.tar.gz --markdown 20240527/H/HalChat/0.0.2.2-0.0.3/README.md --exclude *.pyd
+[2024-05-27 15:30:18] INFO root fetch - processPackages [md2tgmd]: executing diffoscope
+[2024-05-27 15:30:18] INFO root fetch - processPackages [md2tgmd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/md2tgmd-0.2.0.tar.gz tmp/md2tgmd-0.2.1.tar.gz --markdown 20240527/m/md2tgmd/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-27 15:30:18] INFO root fetch - processPackages [jupyterlab-new-launcher]: Downloading https://files.pythonhosted.org/packages/b2/c8/7cb7292197a819a09ea1dd0515190e5bb44430ad90c49410a03486486801/jupyterlab_new_launcher-0.4.0.tar.gz
+[2024-05-27 15:30:18] INFO root fetch - processPackages [nestipy-peewee]: Downloading https://files.pythonhosted.org/packages/67/91/c2d52706a84a597b6973cc7e4f5de2b92acc1d29d1288cd950228eddc907/nestipy_peewee-0.2.1.tar.gz
+[2024-05-27 15:30:18] INFO root fetch - processPackages [pyelq-sdk]: Downloading https://files.pythonhosted.org/packages/46/eb/2981eadbcee1272dc6235d4835ae6742a074483160c38c45084802cf44e1/pyelq_sdk-1.0.5.tar.gz
+[2024-05-27 15:30:18] INFO root fetch - processPackages [tinytoolslib]: Downloading https://files.pythonhosted.org/packages/af/ae/e31c12e33b6943fa428e45c0d19e9135c9c3db3045fa2791d0cda951df4e/tinytoolslib-0.3.1.tar.gz
+[2024-05-27 15:30:18] INFO root fetch - processPackages [gaea-operator]: Downloading https://files.pythonhosted.org/packages/cc/e5/aba8c7f138d95a1d79409f387057ea40f63435a06405e77d9b427cba72dd/gaea_operator-4.1.3.dev1-py3-none-any.whl
+[2024-05-27 15:30:18] INFO root fetch - processPackages [nestipy-peewee]: executing diffoscope
+[2024-05-27 15:30:18] INFO root fetch - processPackages [nestipy-peewee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nestipy_peewee-0.2.0.tar.gz tmp/nestipy_peewee-0.2.1.tar.gz --markdown 20240527/n/nestipy-peewee/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-27 15:30:18] INFO root fetch - processPackages [pyelq-sdk]: executing diffoscope
+[2024-05-27 15:30:18] INFO root fetch - processPackages [pyelq-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyelq_sdk-1.0.4.tar.gz tmp/pyelq_sdk-1.0.5.tar.gz --markdown 20240527/p/pyelq-sdk/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-05-27 15:30:18] INFO root fetch - processPackages [jupyterlab-new-launcher]: executing diffoscope
+[2024-05-27 15:30:18] INFO root fetch - processPackages [jupyterlab-new-launcher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterlab_new_launcher-0.3.3.tar.gz tmp/jupyterlab_new_launcher-0.4.0.tar.gz --markdown 20240527/j/jupyterlab-new-launcher/0.3.3-0.4.0/README.md --exclude *.pyd
+[2024-05-27 15:30:18] INFO root fetch - processPackages [tinytoolslib]: executing diffoscope
+[2024-05-27 15:30:18] INFO root fetch - processPackages [tinytoolslib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinytoolslib-0.2.5.tar.gz tmp/tinytoolslib-0.3.1.tar.gz --markdown 20240527/t/tinytoolslib/0.2.5-0.3.1/README.md --exclude *.pyd
+[2024-05-27 15:30:18] INFO root fetch - processPackages [gaea-operator]: executing diffoscope
+[2024-05-27 15:30:18] INFO root fetch - processPackages [gaea-operator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gaea_operator-4.1.2.dev8-py3-none-any.whl.zip tmp/gaea_operator-4.1.3.dev1-py3-none-any.whl.zip --markdown 20240527/g/gaea-operator/4.1.2.dev8-4.1.3.dev1/README.md --exclude *.pyd
+[2024-05-27 15:30:18] INFO root fetch - processPackages [HalChat]: Remove: archive file [/home/abi/fetcher/tmp/halchat-0.0.2.2.tar.gz]
+[2024-05-27 15:30:18] INFO root fetch - processPackages [HalChat]: Remove: archive file [/home/abi/fetcher/tmp/halchat-0.0.3.tar.gz]
+[2024-05-27 15:30:18] INFO root fetch - main [MainThread]: End processing [HalChat]: success
+[2024-05-27 15:30:18] INFO root fetch - processPackages [md2tgmd]: Remove: archive file [/home/abi/fetcher/tmp/md2tgmd-0.2.0.tar.gz]
+[2024-05-27 15:30:18] INFO root fetch - processPackages [md2tgmd]: Remove: archive file [/home/abi/fetcher/tmp/md2tgmd-0.2.1.tar.gz]
+[2024-05-27 15:30:18] INFO root fetch - main [MainThread]: End processing [md2tgmd]: success
+[2024-05-27 15:30:19] INFO root fetch - processPackages [nestipy-peewee]: Remove: archive file [/home/abi/fetcher/tmp/nestipy_peewee-0.2.0.tar.gz]
+[2024-05-27 15:30:19] INFO root fetch - processPackages [nestipy-peewee]: Remove: archive file [/home/abi/fetcher/tmp/nestipy_peewee-0.2.1.tar.gz]
+[2024-05-27 15:30:19] INFO root fetch - main [MainThread]: End processing [nestipy-peewee]: success
+[2024-05-27 15:30:19] INFO root fetch - processPackages [tinytoolslib]: Remove: archive file [/home/abi/fetcher/tmp/tinytoolslib-0.2.5.tar.gz]
+[2024-05-27 15:30:19] INFO root fetch - processPackages [tinytoolslib]: Remove: archive file [/home/abi/fetcher/tmp/tinytoolslib-0.3.1.tar.gz]
+[2024-05-27 15:30:19] INFO root fetch - main [MainThread]: End processing [tinytoolslib]: success
+[2024-05-27 15:30:19] INFO root fetch - processPackages [pyelq-sdk]: Remove: archive file [/home/abi/fetcher/tmp/pyelq_sdk-1.0.4.tar.gz]
+[2024-05-27 15:30:19] INFO root fetch - processPackages [pyelq-sdk]: Remove: archive file [/home/abi/fetcher/tmp/pyelq_sdk-1.0.5.tar.gz]
+[2024-05-27 15:30:19] INFO root fetch - main [MainThread]: End processing [pyelq-sdk]: success
+[2024-05-27 15:30:19] INFO root fetch - processPackages [gaea-operator]: Remove: archive file [/home/abi/fetcher/tmp/gaea_operator-4.1.2.dev8-py3-none-any.whl.zip]
+[2024-05-27 15:30:19] INFO root fetch - processPackages [gaea-operator]: Remove: archive file [/home/abi/fetcher/tmp/gaea_operator-4.1.3.dev1-py3-none-any.whl.zip]
+[2024-05-27 15:30:19] INFO root fetch - main [MainThread]: End processing [gaea-operator]: success
+[2024-05-27 15:30:20] INFO root fetch - processPackages [jupyterlab-new-launcher]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_new_launcher-0.3.3.tar.gz]
+[2024-05-27 15:30:20] INFO root fetch - processPackages [jupyterlab-new-launcher]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_new_launcher-0.4.0.tar.gz]
+[2024-05-27 15:30:20] INFO root fetch - main [MainThread]: End processing [jupyterlab-new-launcher]: success
+[2024-05-27 15:30:20] INFO root fetch - main [MainThread]: Store serial: [23396241]
