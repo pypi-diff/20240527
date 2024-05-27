@@ -9500,3 +9500,15 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 10:27:58] INFO root fetch - processPackages [pathway]: Remove: archive file [/home/abi/fetcher/tmp/pathway-0.post1.tar.gz]
 [2024-05-27 10:27:58] INFO root fetch - main [MainThread]: End processing [pathway]: success
 [2024-05-27 10:27:58] INFO root fetch - main [MainThread]: Store serial: [23392579]
+[2024-05-27 10:30:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23392579]
+[2024-05-27 10:30:06] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-27 10:30:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: synapse-token-authenticator
+[2024-05-27 10:30:06] INFO root fetch - processPackages [synapse-token-authenticator]: New version: [0.5.0] Old Version: [0.4.6]
+[2024-05-27 10:30:06] INFO root fetch - processPackages [synapse-token-authenticator]: Downloading https://files.pythonhosted.org/packages/e4/51/6d1e0965f395793a29382185929cc5bfaeb84d592036d62b2a775dd7610c/synapse_token_authenticator-0.4.6.tar.gz
+[2024-05-27 10:30:07] INFO root fetch - processPackages [synapse-token-authenticator]: Downloading https://files.pythonhosted.org/packages/ff/24/4dad8382efd5bef6882754f43506698f548de43ad68e61c95b69215e3725/synapse_token_authenticator-0.5.0.tar.gz
+[2024-05-27 10:30:07] INFO root fetch - processPackages [synapse-token-authenticator]: executing diffoscope
+[2024-05-27 10:30:07] INFO root fetch - processPackages [synapse-token-authenticator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/synapse_token_authenticator-0.4.6.tar.gz tmp/synapse_token_authenticator-0.5.0.tar.gz --markdown 20240527/s/synapse-token-authenticator/0.4.6-0.5.0/README.md --exclude *.pyd
+[2024-05-27 10:30:07] INFO root fetch - processPackages [synapse-token-authenticator]: Remove: archive file [/home/abi/fetcher/tmp/synapse_token_authenticator-0.4.6.tar.gz]
+[2024-05-27 10:30:07] INFO root fetch - processPackages [synapse-token-authenticator]: Remove: archive file [/home/abi/fetcher/tmp/synapse_token_authenticator-0.5.0.tar.gz]
+[2024-05-27 10:30:07] INFO root fetch - main [MainThread]: End processing [synapse-token-authenticator]: success
+[2024-05-27 10:30:07] INFO root fetch - main [MainThread]: Store serial: [23392582]
