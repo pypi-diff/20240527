@@ -8054,3 +8054,74 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 09:22:41] ERROR root fetch - processPackages [uiautomator2]: Timeout during execution of pkgdiff
 [2024-05-27 09:22:41] INFO root fetch - main [MainThread]: End processing [uiautomator2] error
 [2024-05-27 09:22:41] INFO root fetch - main [MainThread]: Store serial: [23391868]
+[2024-05-27 09:24:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23391868]
+[2024-05-27 09:24:49] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-27 09:24:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: blockapi
+[2024-05-27 09:24:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: stepup
+[2024-05-27 09:24:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fh-fablib
+[2024-05-27 09:24:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gefpy
+[2024-05-27 09:24:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: syngen
+[2024-05-27 09:24:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: stream-zip
+[2024-05-27 09:24:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: py2docfx
+[2024-05-27 09:24:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pulumi-openai
+[2024-05-27 09:24:50] INFO root fetch - processPackages [py2docfx]: New version: [0.1.8rc1739271] Old Version: [0.1.8.dev1739236]
+[2024-05-27 09:24:50] INFO root fetch - processPackages [stream-zip]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-27 09:24:50] INFO root fetch - processPackages [blockapi]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-05-27 09:24:50] INFO root fetch - processPackages [gefpy]: New version: [1.1.7] Old Version: [1.1.6]
+[2024-05-27 09:24:50] INFO root fetch - processPackages [stepup]: New version: [1.2.4] Old Version: [1.2.3]
+[2024-05-27 09:24:50] INFO root fetch - processPackages [pulumi-openai]: New version: [0.0.8] Old Version: [0.0.5]
+[2024-05-27 09:24:50] INFO root fetch - processPackages [fh-fablib]: New version: [1.0.20240527] Old Version: [1.0.20240517.1]
+[2024-05-27 09:24:50] INFO root fetch - processPackages [syngen]: New version: [0.8.5] Old Version: [0.8.4]
+[2024-05-27 09:24:50] INFO root fetch - processPackages [stream-zip]: Downloading https://files.pythonhosted.org/packages/4b/65/27b6998732f631a7691a5157fb51c5d5328faa138986c06684c5ae4fe771/stream-zip-0.0.8.tar.gz
+[2024-05-27 09:24:50] INFO root fetch - processPackages [py2docfx]: Downloading https://files.pythonhosted.org/packages/17/ea/c143c6ffcb54e047454ee312187476d5f8fc575d52805138ac61c09d3a3c/py2docfx-0.1.8.dev1739236-py3-none-any.whl
+[2024-05-27 09:24:50] INFO root fetch - processPackages [blockapi]: Downloading https://files.pythonhosted.org/packages/31/4d/7d461a226992bb823af9a205b83532fd5cf942306b4ad4f220a2817a8ee4/blockapi-0.8.1.tar.gz
+[2024-05-27 09:24:50] INFO root fetch - processPackages [gefpy]: Downloading https://files.pythonhosted.org/packages/2b/a4/1189b8ed62b9a106a26f32ce1f34c8b526f24540e6c6b62e07720a0f53f7/gefpy-1.1.6-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-27 09:24:50] INFO root fetch - processPackages [pulumi-openai]: Downloading https://files.pythonhosted.org/packages/66/58/95a7f6037668496977aa8b4cb24dbadba6429ca07df7aa4a96e17f983073/pulumi_openai-0.0.5.tar.gz
+[2024-05-27 09:24:50] INFO root fetch - processPackages [stepup]: Downloading https://files.pythonhosted.org/packages/1d/36/7d0cbcf4a442988c9ab03d57e2f03a54c6fa8fb01dd54149efcb74523d3f/stepup-1.2.3.tar.gz
+[2024-05-27 09:24:50] WARNING root fetch - processPackages [gefpy]: Skipping package: exceeds size limit 24133438>=10485760
+[2024-05-27 09:24:50] INFO root fetch - main [MainThread]: End processing [gefpy] error
+[2024-05-27 09:24:50] INFO root fetch - processPackages [fh-fablib]: Downloading https://files.pythonhosted.org/packages/8e/39/aead8b4fdf923b3885eb18d015950fd10550aa3ca458272f6a61564c8867/fh_fablib-1.0.20240517.1.tar.gz
+[2024-05-27 09:24:50] INFO root fetch - processPackages [syngen]: Downloading https://files.pythonhosted.org/packages/63/13/21e80db3201f2fd799363f946534abaaf127f41d8c22326ff18caf746e92/syngen-0.8.4.tar.gz
+[2024-05-27 09:24:50] INFO root fetch - processPackages [stream-zip]: Downloading https://files.pythonhosted.org/packages/0e/94/162b767659b1b6afe9241c47773d921e2b8a0f97f124d374e76c7f1d2b53/stream-zip-0.0.9.tar.gz
+[2024-05-27 09:24:50] INFO root fetch - processPackages [py2docfx]: Downloading https://files.pythonhosted.org/packages/bd/e1/16f15f471968252df9bba6837855d84c84d3a701467c0749b0d85881778d/py2docfx-0.1.8rc1739271-py3-none-any.whl
+[2024-05-27 09:24:50] INFO root fetch - processPackages [stream-zip]: executing diffoscope
+[2024-05-27 09:24:50] INFO root fetch - processPackages [stream-zip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stream-zip-0.0.8.tar.gz tmp/stream-zip-0.0.9.tar.gz --markdown 20240527/s/stream-zip/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-27 09:24:50] INFO root fetch - processPackages [pulumi-openai]: Downloading https://files.pythonhosted.org/packages/0e/3f/3f4b105d8dee7f8fdcdaa718fe34acb7f2a3f14797c60bafa1115955c140/pulumi_openai-0.0.8.tar.gz
+[2024-05-27 09:24:50] INFO root fetch - processPackages [py2docfx]: executing diffoscope
+[2024-05-27 09:24:50] INFO root fetch - processPackages [py2docfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py2docfx-0.1.8.dev1739236-py3-none-any.whl.zip tmp/py2docfx-0.1.8rc1739271-py3-none-any.whl.zip --markdown 20240527/p/py2docfx/0.1.8.dev1739236-0.1.8rc1739271/README.md --exclude *.pyd
+[2024-05-27 09:24:51] INFO root fetch - processPackages [blockapi]: Downloading https://files.pythonhosted.org/packages/6a/ed/17b1b9e53b4a0bb6d3d31ae17aeaa73238a3bc01d6b208f6b4fb0812d638/blockapi-0.9.0.tar.gz
+[2024-05-27 09:24:51] INFO root fetch - processPackages [stepup]: Downloading https://files.pythonhosted.org/packages/34/7c/2faafd0667e4c54ff2ead2ae7b6227428e3703d59e6592286d06df6e97fa/stepup-1.2.4.tar.gz
+[2024-05-27 09:24:51] INFO root fetch - processPackages [fh-fablib]: Downloading https://files.pythonhosted.org/packages/6a/ef/a556750133adc6b77477939fdcd0ededdc384e0baa80de9e1e2921d033ab/fh_fablib-1.0.20240527.tar.gz
+[2024-05-27 09:24:51] INFO root fetch - processPackages [syngen]: Downloading https://files.pythonhosted.org/packages/61/b0/314019356cf03ae5c10b7e2beae442ef95cc9b43d8e0c27c13d67919abd2/syngen-0.8.5.tar.gz
+[2024-05-27 09:24:51] INFO root fetch - processPackages [pulumi-openai]: executing diffoscope
+[2024-05-27 09:24:51] INFO root fetch - processPackages [pulumi-openai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_openai-0.0.5.tar.gz tmp/pulumi_openai-0.0.8.tar.gz --markdown 20240527/p/pulumi-openai/0.0.5-0.0.8/README.md --exclude *.pyd
+[2024-05-27 09:24:51] INFO root fetch - processPackages [stepup]: executing diffoscope
+[2024-05-27 09:24:51] INFO root fetch - processPackages [fh-fablib]: executing diffoscope
+[2024-05-27 09:24:51] INFO root fetch - processPackages [stepup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stepup-1.2.3.tar.gz tmp/stepup-1.2.4.tar.gz --markdown 20240527/s/stepup/1.2.3-1.2.4/README.md --exclude *.pyd
+[2024-05-27 09:24:51] INFO root fetch - processPackages [fh-fablib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fh_fablib-1.0.20240517.1.tar.gz tmp/fh_fablib-1.0.20240527.tar.gz --markdown 20240527/f/fh-fablib/1.0.20240517.1-1.0.20240527/README.md --exclude *.pyd
+[2024-05-27 09:24:51] INFO root fetch - processPackages [blockapi]: executing diffoscope
+[2024-05-27 09:24:51] INFO root fetch - processPackages [blockapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blockapi-0.8.1.tar.gz tmp/blockapi-0.9.0.tar.gz --markdown 20240527/b/blockapi/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-05-27 09:24:51] INFO root fetch - processPackages [syngen]: executing diffoscope
+[2024-05-27 09:24:51] INFO root fetch - processPackages [syngen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syngen-0.8.4.tar.gz tmp/syngen-0.8.5.tar.gz --markdown 20240527/s/syngen/0.8.4-0.8.5/README.md --exclude *.pyd
+[2024-05-27 09:24:51] INFO root fetch - processPackages [stream-zip]: Remove: archive file [/home/abi/fetcher/tmp/stream-zip-0.0.8.tar.gz]
+[2024-05-27 09:24:51] INFO root fetch - processPackages [stream-zip]: Remove: archive file [/home/abi/fetcher/tmp/stream-zip-0.0.9.tar.gz]
+[2024-05-27 09:24:52] INFO root fetch - main [MainThread]: End processing [stream-zip]: success
+[2024-05-27 09:24:52] INFO root fetch - processPackages [fh-fablib]: Remove: archive file [/home/abi/fetcher/tmp/fh_fablib-1.0.20240517.1.tar.gz]
+[2024-05-27 09:24:52] INFO root fetch - processPackages [fh-fablib]: Remove: archive file [/home/abi/fetcher/tmp/fh_fablib-1.0.20240527.tar.gz]
+[2024-05-27 09:24:52] INFO root fetch - main [MainThread]: End processing [fh-fablib]: success
+[2024-05-27 09:24:52] INFO root fetch - processPackages [pulumi-openai]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_openai-0.0.5.tar.gz]
+[2024-05-27 09:24:52] INFO root fetch - processPackages [pulumi-openai]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_openai-0.0.8.tar.gz]
+[2024-05-27 09:24:52] INFO root fetch - main [MainThread]: End processing [pulumi-openai]: success
+[2024-05-27 09:24:52] INFO root fetch - processPackages [py2docfx]: Remove: archive file [/home/abi/fetcher/tmp/py2docfx-0.1.8.dev1739236-py3-none-any.whl.zip]
+[2024-05-27 09:24:52] INFO root fetch - processPackages [py2docfx]: Remove: archive file [/home/abi/fetcher/tmp/py2docfx-0.1.8rc1739271-py3-none-any.whl.zip]
+[2024-05-27 09:24:52] INFO root fetch - main [MainThread]: End processing [py2docfx]: success
+[2024-05-27 09:24:52] INFO root fetch - processPackages [blockapi]: Remove: archive file [/home/abi/fetcher/tmp/blockapi-0.8.1.tar.gz]
+[2024-05-27 09:24:52] INFO root fetch - processPackages [blockapi]: Remove: archive file [/home/abi/fetcher/tmp/blockapi-0.9.0.tar.gz]
+[2024-05-27 09:24:52] INFO root fetch - main [MainThread]: End processing [blockapi]: success
+[2024-05-27 09:24:53] INFO root fetch - processPackages [syngen]: Remove: archive file [/home/abi/fetcher/tmp/syngen-0.8.4.tar.gz]
+[2024-05-27 09:24:53] INFO root fetch - processPackages [syngen]: Remove: archive file [/home/abi/fetcher/tmp/syngen-0.8.5.tar.gz]
+[2024-05-27 09:24:53] INFO root fetch - main [MainThread]: End processing [syngen]: success
+[2024-05-27 09:24:55] INFO root fetch - processPackages [stepup]: Remove: archive file [/home/abi/fetcher/tmp/stepup-1.2.3.tar.gz]
+[2024-05-27 09:24:55] INFO root fetch - processPackages [stepup]: Remove: archive file [/home/abi/fetcher/tmp/stepup-1.2.4.tar.gz]
+[2024-05-27 09:24:55] INFO root fetch - main [MainThread]: End processing [stepup]: success
+[2024-05-27 09:24:55] INFO root fetch - main [MainThread]: Store serial: [23391893]
