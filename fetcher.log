@@ -7594,3 +7594,27 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 08:57:39] INFO root fetch - processPackages [bmsdna-sql-utils]: Remove: archive file [/home/abi/fetcher/tmp/bmsdna_sql_utils-0.12.9.tar.gz]
 [2024-05-27 08:57:39] INFO root fetch - main [MainThread]: End processing [bmsdna-sql-utils]: success
 [2024-05-27 08:57:39] INFO root fetch - main [MainThread]: Store serial: [23391578]
+[2024-05-27 08:59:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23391578]
+[2024-05-27 08:59:48] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-27 08:59:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: original-janken
+[2024-05-27 08:59:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: chess-transformer
+[2024-05-27 08:59:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pydantic-prompter
+[2024-05-27 08:59:48] WARNING root fetch - processPackages [original-janken]: Skipping, unable to determine old version
+[2024-05-27 08:59:48] INFO root fetch - processPackages [chess-transformer]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-27 08:59:48] INFO root fetch - main [MainThread]: End processing [original-janken] error
+[2024-05-27 08:59:48] INFO root fetch - processPackages [pydantic-prompter]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-27 08:59:48] INFO root fetch - processPackages [chess-transformer]: Downloading https://files.pythonhosted.org/packages/8d/f2/58d38e98b5ec8c3ff1a84d0cc67c952c9a19c3a73247db5d36614f0cb2af/chess_transformer-0.1.1.tar.gz
+[2024-05-27 08:59:48] INFO root fetch - processPackages [pydantic-prompter]: Downloading https://files.pythonhosted.org/packages/d0/ae/30699b10fcbef779ac2d02556eaaf57dc9d275de626d980fce2b993aed15/pydantic_prompter-0.1.8.tar.gz
+[2024-05-27 08:59:48] INFO root fetch - processPackages [pydantic-prompter]: Downloading https://files.pythonhosted.org/packages/18/fc/acc5a7f2375e89641a9f32c26ff68822c95ccb59951ad4a39f3ab3c88e5b/pydantic_prompter-0.1.9.tar.gz
+[2024-05-27 08:59:48] INFO root fetch - processPackages [pydantic-prompter]: executing diffoscope
+[2024-05-27 08:59:48] INFO root fetch - processPackages [pydantic-prompter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydantic_prompter-0.1.8.tar.gz tmp/pydantic_prompter-0.1.9.tar.gz --markdown 20240527/p/pydantic-prompter/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-27 08:59:48] INFO root fetch - processPackages [chess-transformer]: Downloading https://files.pythonhosted.org/packages/7c/f6/7d314b3198962be8d5d45a5168d93c724f83b25d951345c21784619f6def/chess_transformer-0.1.2.tar.gz
+[2024-05-27 08:59:48] INFO root fetch - processPackages [chess-transformer]: executing diffoscope
+[2024-05-27 08:59:48] INFO root fetch - processPackages [chess-transformer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chess_transformer-0.1.1.tar.gz tmp/chess_transformer-0.1.2.tar.gz --markdown 20240527/c/chess-transformer/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-27 08:59:49] INFO root fetch - processPackages [pydantic-prompter]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_prompter-0.1.8.tar.gz]
+[2024-05-27 08:59:49] INFO root fetch - processPackages [pydantic-prompter]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_prompter-0.1.9.tar.gz]
+[2024-05-27 08:59:49] INFO root fetch - main [MainThread]: End processing [pydantic-prompter]: success
+[2024-05-27 08:59:49] INFO root fetch - processPackages [chess-transformer]: Remove: archive file [/home/abi/fetcher/tmp/chess_transformer-0.1.1.tar.gz]
+[2024-05-27 08:59:49] INFO root fetch - processPackages [chess-transformer]: Remove: archive file [/home/abi/fetcher/tmp/chess_transformer-0.1.2.tar.gz]
+[2024-05-27 08:59:49] INFO root fetch - main [MainThread]: End processing [chess-transformer]: success
+[2024-05-27 08:59:49] INFO root fetch - main [MainThread]: Store serial: [23391602]
