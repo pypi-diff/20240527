@@ -24624,3 +24624,60 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-05-27 20:29:36] INFO root fetch - processPackages [agentcrew]: Remove: archive file [/home/abi/fetcher/tmp/agentcrew-0.0.1a1.tar.gz]
 [2024-05-27 20:29:36] INFO root fetch - main [MainThread]: End processing [agentcrew]: success
 [2024-05-27 20:29:36] INFO root fetch - main [MainThread]: Store serial: [23399808]
+[2024-05-27 20:31:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23399808]
+[2024-05-27 20:31:45] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-27 20:31:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jsl-pathfinder
+[2024-05-27 20:31:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: alita-sdk
+[2024-05-27 20:31:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: agentcrew
+[2024-05-27 20:31:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: QuickEcharts
+[2024-05-27 20:31:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-quality-control-oca
+[2024-05-27 20:31:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: chatmemorydb
+[2024-05-27 20:31:46] INFO root fetch - processPackages [alita-sdk]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-27 20:31:46] INFO root fetch - processPackages [agentcrew]: New version: [0.0.1a1] Old Version: [0.0.1]
+[2024-05-27 20:31:46] INFO root fetch - processPackages [alita-sdk]: Downloading https://files.pythonhosted.org/packages/58/77/699a43c7f5d3229ed63ff8d8eaba7999323921fbe9a94d3dd2d8b0f9b7a6/alita_sdk-0.1.8.tar.gz
+[2024-05-27 20:31:46] INFO root fetch - processPackages [jsl-pathfinder]: New version: [1.5.0] Old Version: [1.4.5]
+[2024-05-27 20:31:46] INFO root fetch - processPackages [agentcrew]: Downloading https://files.pythonhosted.org/packages/1b/ff/68073e7896d94da1ff3c01393e18b2ae565edf87d0335ccb8f7821c16d13/agentcrew-0.0.1.tar.gz
+[2024-05-27 20:31:46] INFO root fetch - processPackages [QuickEcharts]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-05-27 20:31:46] INFO root fetch - processPackages [odoo-addon-quality-control-oca]: New version: [17.0.1.0.0.2] Old Version: [16.0.1.2.0]
+[2024-05-27 20:31:46] INFO root fetch - processPackages [chatmemorydb]: New version: [0.7] Old Version: [0.6]
+[2024-05-27 20:31:46] INFO root fetch - processPackages [jsl-pathfinder]: Downloading https://files.pythonhosted.org/packages/42/83/50f3f1cab59d3f22c3ed4c750f3398584fe2beb78ad1d747fab931aa5c95/jsl-pathfinder-1.4.5.tar.gz
+[2024-05-27 20:31:46] INFO root fetch - processPackages [alita-sdk]: Downloading https://files.pythonhosted.org/packages/6d/5f/08f7caedc136fde13091ef88ae35349e7285ef4b9c181b34fb1c4dffd4ba/alita_sdk-0.1.9.tar.gz
+[2024-05-27 20:31:46] INFO root fetch - processPackages [QuickEcharts]: Downloading https://files.pythonhosted.org/packages/3d/0c/b67caca330707849c423f7a7f25ec6649f6f92c453efb47cda542ac65722/quickecharts-1.1.0.tar.gz
+[2024-05-27 20:31:46] INFO root fetch - processPackages [agentcrew]: Downloading https://files.pythonhosted.org/packages/1f/ad/da4d145f9e2fe2b3ea9cc1ee039d8e56c68fb3b04e526fee278e76998ed4/agentcrew-0.0.1a1.tar.gz
+[2024-05-27 20:31:46] INFO root fetch - processPackages [odoo-addon-quality-control-oca]: Downloading https://files.pythonhosted.org/packages/43/ed/f2e8e8fb467ce08832a425e5b485eb59172f1e632265f187d1b2e4730812/odoo_addon_quality_control_oca-16.0.1.2.0-py3-none-any.whl
+[2024-05-27 20:31:46] INFO root fetch - processPackages [chatmemorydb]: Downloading https://files.pythonhosted.org/packages/45/fc/b88937330c3d4725d479141cb3b9b037da1b78989cf53e314bfda186b0c3/chatmemorydb-0.6.tar.gz
+[2024-05-27 20:31:46] INFO root fetch - processPackages [alita-sdk]: executing diffoscope
+[2024-05-27 20:31:46] INFO root fetch - processPackages [alita-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alita_sdk-0.1.8.tar.gz tmp/alita_sdk-0.1.9.tar.gz --markdown 20240527/a/alita-sdk/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-27 20:31:46] INFO root fetch - processPackages [agentcrew]: executing diffoscope
+[2024-05-27 20:31:46] INFO root fetch - processPackages [agentcrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agentcrew-0.0.1.tar.gz tmp/agentcrew-0.0.1a1.tar.gz --markdown 20240527/a/agentcrew/0.0.1-0.0.1a1/README.md --exclude *.pyd
+[2024-05-27 20:31:46] INFO root fetch - processPackages [jsl-pathfinder]: Downloading https://files.pythonhosted.org/packages/4e/c1/d02d0d1a6cf9de3e0dc7a0e62d418917d3eda505d9df94508d0bb7eb9687/jsl-pathfinder-1.5.0.tar.gz
+[2024-05-27 20:31:46] INFO root fetch - processPackages [chatmemorydb]: Downloading https://files.pythonhosted.org/packages/72/2f/637e056b11ea16332dc6cd13d99884f36bd59abe9176c7cce287576986c1/chatmemorydb-0.7.tar.gz
+[2024-05-27 20:31:46] INFO root fetch - processPackages [odoo-addon-quality-control-oca]: Downloading https://files.pythonhosted.org/packages/28/ca/3c97c9dfe414db8131ca88f41995a8483f2467ccdadbd45099c7eb8c19a6/odoo_addon_quality_control_oca-17.0.1.0.0.2-py3-none-any.whl
+[2024-05-27 20:31:46] INFO root fetch - processPackages [jsl-pathfinder]: executing diffoscope
+[2024-05-27 20:31:46] INFO root fetch - processPackages [jsl-pathfinder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jsl-pathfinder-1.4.5.tar.gz tmp/jsl-pathfinder-1.5.0.tar.gz --markdown 20240527/j/jsl-pathfinder/1.4.5-1.5.0/README.md --exclude *.pyd
+[2024-05-27 20:31:46] INFO root fetch - processPackages [QuickEcharts]: Downloading https://files.pythonhosted.org/packages/95/79/7f84427c68001e71bc1071649da5fc2973a1c6fc3e4641b41086472ac399/quickecharts-1.1.1.tar.gz
+[2024-05-27 20:31:47] INFO root fetch - processPackages [odoo-addon-quality-control-oca]: executing diffoscope
+[2024-05-27 20:31:47] INFO root fetch - processPackages [odoo-addon-quality-control-oca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_quality_control_oca-16.0.1.2.0-py3-none-any.whl.zip tmp/odoo_addon_quality_control_oca-17.0.1.0.0.2-py3-none-any.whl.zip --markdown 20240527/o/odoo-addon-quality-control-oca/16.0.1.2.0-17.0.1.0.0.2/README.md --exclude *.pyd
+[2024-05-27 20:31:47] INFO root fetch - processPackages [chatmemorydb]: executing diffoscope
+[2024-05-27 20:31:47] INFO root fetch - processPackages [chatmemorydb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatmemorydb-0.6.tar.gz tmp/chatmemorydb-0.7.tar.gz --markdown 20240527/c/chatmemorydb/0.6-0.7/README.md --exclude *.pyd
+[2024-05-27 20:31:47] INFO root fetch - processPackages [QuickEcharts]: executing diffoscope
+[2024-05-27 20:31:47] INFO root fetch - processPackages [QuickEcharts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickecharts-1.1.0.tar.gz tmp/quickecharts-1.1.1.tar.gz --markdown 20240527/Q/QuickEcharts/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-05-27 20:31:47] INFO root fetch - processPackages [alita-sdk]: Remove: archive file [/home/abi/fetcher/tmp/alita_sdk-0.1.8.tar.gz]
+[2024-05-27 20:31:47] INFO root fetch - processPackages [alita-sdk]: Remove: archive file [/home/abi/fetcher/tmp/alita_sdk-0.1.9.tar.gz]
+[2024-05-27 20:31:47] INFO root fetch - main [MainThread]: End processing [alita-sdk]: success
+[2024-05-27 20:31:47] INFO root fetch - processPackages [agentcrew]: Remove: archive file [/home/abi/fetcher/tmp/agentcrew-0.0.1.tar.gz]
+[2024-05-27 20:31:47] INFO root fetch - processPackages [agentcrew]: Remove: archive file [/home/abi/fetcher/tmp/agentcrew-0.0.1a1.tar.gz]
+[2024-05-27 20:31:47] INFO root fetch - main [MainThread]: End processing [agentcrew]: success
+[2024-05-27 20:31:47] INFO root fetch - processPackages [jsl-pathfinder]: Remove: archive file [/home/abi/fetcher/tmp/jsl-pathfinder-1.4.5.tar.gz]
+[2024-05-27 20:31:47] INFO root fetch - processPackages [jsl-pathfinder]: Remove: archive file [/home/abi/fetcher/tmp/jsl-pathfinder-1.5.0.tar.gz]
+[2024-05-27 20:31:47] INFO root fetch - main [MainThread]: End processing [jsl-pathfinder]: success
+[2024-05-27 20:31:47] INFO root fetch - processPackages [chatmemorydb]: Remove: archive file [/home/abi/fetcher/tmp/chatmemorydb-0.6.tar.gz]
+[2024-05-27 20:31:47] INFO root fetch - processPackages [chatmemorydb]: Remove: archive file [/home/abi/fetcher/tmp/chatmemorydb-0.7.tar.gz]
+[2024-05-27 20:31:47] INFO root fetch - main [MainThread]: End processing [chatmemorydb]: success
+[2024-05-27 20:31:47] INFO root fetch - processPackages [QuickEcharts]: Remove: archive file [/home/abi/fetcher/tmp/quickecharts-1.1.0.tar.gz]
+[2024-05-27 20:31:47] INFO root fetch - processPackages [QuickEcharts]: Remove: archive file [/home/abi/fetcher/tmp/quickecharts-1.1.1.tar.gz]
+[2024-05-27 20:31:47] INFO root fetch - main [MainThread]: End processing [QuickEcharts]: success
+[2024-05-27 20:31:48] INFO root fetch - processPackages [odoo-addon-quality-control-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_quality_control_oca-16.0.1.2.0-py3-none-any.whl.zip]
+[2024-05-27 20:31:48] INFO root fetch - processPackages [odoo-addon-quality-control-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_quality_control_oca-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-05-27 20:31:48] INFO root fetch - main [MainThread]: End processing [odoo-addon-quality-control-oca]: success
+[2024-05-27 20:31:48] INFO root fetch - main [MainThread]: Store serial: [23399824]
