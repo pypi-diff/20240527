@@ -13082,3 +13082,85 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 12:50:35] INFO root fetch - processPackages [aiohttp-oauth2-client]: Remove: archive file [/home/abi/fetcher/tmp/aiohttp_oauth2_client-1.0.1.tar.gz]
 [2024-05-27 12:50:35] INFO root fetch - main [MainThread]: End processing [aiohttp-oauth2-client]: success
 [2024-05-27 12:50:35] INFO root fetch - main [MainThread]: Store serial: [23394324]
+[2024-05-27 12:52:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23394324]
+[2024-05-27 12:52:44] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-27 12:52:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: alphaz-next
+[2024-05-27 12:52:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: streetview
+[2024-05-27 12:52:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fumis-wircu
+[2024-05-27 12:52:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fumis-wircu
+[2024-05-27 12:52:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cg
+[2024-05-27 12:52:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: afeng-py-tools
+[2024-05-27 12:52:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: testlala
+[2024-05-27 12:52:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: guarddog
+[2024-05-27 12:52:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dff
+[2024-05-27 12:52:44] INFO root fetch - processPackages [testlala]: New version: [3.0.0] Old Version: [2.0.0]
+[2024-05-27 12:52:44] INFO root fetch - processPackages [afeng-py-tools]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-27 12:52:44] INFO root fetch - processPackages [cg]: New version: [60.8.9] Old Version: [60.8.8]
+[2024-05-27 12:52:44] INFO root fetch - processPackages [guarddog]: New version: [1.8.2] Old Version: [1.8.1]
+[2024-05-27 12:52:44] INFO root fetch - processPackages [streetview]: New version: [0.0.9] Old Version: [0.0.6]
+[2024-05-27 12:52:44] INFO root fetch - processPackages [fumis-wircu]: New version: [0.1.4] Old Version: [0.1.1]
+[2024-05-27 12:52:44] INFO root fetch - processPackages [fumis-wircu]: New version: [0.1.4] Old Version: [0.1.1]
+[2024-05-27 12:52:44] INFO root fetch - processPackages [dff]: New version: [0.7.0] Old Version: [0.6.4.dev0]
+[2024-05-27 12:52:44] INFO root fetch - processPackages [alphaz-next]: New version: [0.7.3.4] Old Version: [0.7.3.3]
+[2024-05-27 12:52:44] INFO root fetch - processPackages [testlala]: Downloading https://files.pythonhosted.org/packages/8a/17/d0cb15d9bbc426189bc23de031b722b5c7743a006c4f306a5ef5c6d97ee9/testlala-2.0.0.tar.gz
+[2024-05-27 12:52:44] INFO root fetch - processPackages [afeng-py-tools]: Downloading https://files.pythonhosted.org/packages/03/96/e24f6bbf418707708ed1ab31dd8f4af000cdfcd56c3955e6bcf876e28182/afeng-py-tools-0.0.98.tar.gz
+[2024-05-27 12:52:44] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/d6/8e/017bcd413c9044bb3a8ec3e9a9e28ff36b6d814eef56056a4702d375ac95/cg-60.8.8.tar.gz
+[2024-05-27 12:52:44] INFO root fetch - processPackages [guarddog]: Downloading https://files.pythonhosted.org/packages/f4/b2/a9204e72bdec09184aed97942c111a3ce9cbefcaa3125bc5168fb1cb3c5b/guarddog-1.8.1.tar.gz
+[2024-05-27 12:52:44] INFO root fetch - processPackages [streetview]: Downloading https://files.pythonhosted.org/packages/dc/c6/215aaabf57e03f4f367749feffdd9889ec50ca25c6784fed8b29375945a1/streetview-0.0.6.tar.gz
+[2024-05-27 12:52:44] INFO root fetch - processPackages [alphaz-next]: Downloading https://files.pythonhosted.org/packages/c7/ca/729a6351e593dfcef5783f680fa489fbcecf3a7a1a403e65121ca93a770b/alphaz-next-0.7.3.3.tar.gz
+[2024-05-27 12:52:44] INFO root fetch - processPackages [fumis-wircu]: Downloading https://files.pythonhosted.org/packages/1c/b1/ff9c3c04a47180141b78193eb2d8b29731c5ea063a2ee31198230f80f721/fumis_wircu-0.1.1.tar.gz
+[2024-05-27 12:52:44] INFO root fetch - processPackages [fumis-wircu]: Downloading https://files.pythonhosted.org/packages/1c/b1/ff9c3c04a47180141b78193eb2d8b29731c5ea063a2ee31198230f80f721/fumis_wircu-0.1.1.tar.gz
+[2024-05-27 12:52:44] INFO root fetch - processPackages [dff]: Downloading https://files.pythonhosted.org/packages/b7/63/c57621b4d7329802d31814cf9c189d1d2d593695587ea33724e99d5356cb/dff-0.6.4.dev0-py3-none-any.whl
+[2024-05-27 12:52:44] INFO root fetch - processPackages [afeng-py-tools]: Downloading https://files.pythonhosted.org/packages/b2/0a/41c6034fd5c224a859e4249b1b09e63d7acefba4ae5ac80d406a778a1e32/afeng-py-tools-0.0.99.tar.gz
+[2024-05-27 12:52:44] INFO root fetch - processPackages [testlala]: Downloading https://files.pythonhosted.org/packages/43/26/c855fbd99cca7e13564c3986ceb2c25357402f0fa6b2fdabba53a6ab795f/testlala-3.0.0-py3-none-any.whl
+[2024-05-27 12:52:45] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/df/aa/bcf36edef12ba2ac2c9179507531723a7d2784d50a1cb868497d0120f301/cg-60.8.9.tar.gz
+[2024-05-27 12:52:45] INFO root fetch - processPackages [streetview]: Downloading https://files.pythonhosted.org/packages/b8/1a/6e3594f96538a8153c7aaf6af8de42df4f2382ee2a5130b60105742730ea/streetview-0.0.9.tar.gz
+[2024-05-27 12:52:45] INFO root fetch - processPackages [testlala]: executing diffoscope
+[2024-05-27 12:52:45] INFO root fetch - processPackages [testlala]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testlala-2.0.0.tar.gz tmp/testlala-3.0.0-py3-none-any.whl.zip --markdown 20240527/t/testlala/2.0.0-3.0.0/README.md --exclude *.pyd
+[2024-05-27 12:52:45] INFO root fetch - processPackages [afeng-py-tools]: executing diffoscope
+[2024-05-27 12:52:45] INFO root fetch - processPackages [afeng-py-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/afeng-py-tools-0.0.98.tar.gz tmp/afeng-py-tools-0.0.99.tar.gz --markdown 20240527/a/afeng-py-tools/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-27 12:52:45] INFO root fetch - processPackages [alphaz-next]: Downloading https://files.pythonhosted.org/packages/59/76/2e7afd7434762b1dacae06cd126368684f5bb44588bec11dbc341ff90083/alphaz-next-0.7.3.4.tar.gz
+[2024-05-27 12:52:45] INFO root fetch - processPackages [streetview]: executing diffoscope
+[2024-05-27 12:52:45] INFO root fetch - processPackages [streetview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streetview-0.0.6.tar.gz tmp/streetview-0.0.9.tar.gz --markdown 20240527/s/streetview/0.0.6-0.0.9/README.md --exclude *.pyd
+[2024-05-27 12:52:45] INFO root fetch - processPackages [fumis-wircu]: Downloading https://files.pythonhosted.org/packages/bb/22/ea71c00e22338666671d8d631110663a91bc56913357c341fe79c5922341/fumis_wircu-0.1.4.tar.gz
+[2024-05-27 12:52:45] INFO root fetch - processPackages [fumis-wircu]: Downloading https://files.pythonhosted.org/packages/bb/22/ea71c00e22338666671d8d631110663a91bc56913357c341fe79c5922341/fumis_wircu-0.1.4.tar.gz
+[2024-05-27 12:52:45] INFO root fetch - processPackages [guarddog]: Downloading https://files.pythonhosted.org/packages/3e/e5/6c51b09970b3bc3960bdce4e1782b8dce0fa28585485428064c88152023c/guarddog-1.8.2.tar.gz
+[2024-05-27 12:52:45] INFO root fetch - processPackages [alphaz-next]: executing diffoscope
+[2024-05-27 12:52:45] INFO root fetch - processPackages [alphaz-next]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alphaz-next-0.7.3.3.tar.gz tmp/alphaz-next-0.7.3.4.tar.gz --markdown 20240527/a/alphaz-next/0.7.3.3-0.7.3.4/README.md --exclude *.pyd
+[2024-05-27 12:52:45] INFO root fetch - processPackages [cg]: executing diffoscope
+[2024-05-27 12:52:45] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-60.8.8.tar.gz tmp/cg-60.8.9.tar.gz --markdown 20240527/c/cg/60.8.8-60.8.9/README.md --exclude *.pyd
+[2024-05-27 12:52:45] INFO root fetch - processPackages [fumis-wircu]: executing diffoscope
+[2024-05-27 12:52:45] INFO root fetch - processPackages [fumis-wircu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fumis_wircu-0.1.1.tar.gz tmp/fumis_wircu-0.1.4.tar.gz --markdown 20240527/f/fumis-wircu/0.1.1-0.1.4/README.md --exclude *.pyd
+[2024-05-27 12:52:45] INFO root fetch - processPackages [fumis-wircu]: executing diffoscope
+[2024-05-27 12:52:45] INFO root fetch - processPackages [fumis-wircu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fumis_wircu-0.1.1.tar.gz tmp/fumis_wircu-0.1.4.tar.gz --markdown 20240527/f/fumis-wircu/0.1.1-0.1.4/README.md --exclude *.pyd
+[2024-05-27 12:52:45] INFO root fetch - processPackages [dff]: Downloading https://files.pythonhosted.org/packages/f7/33/baaccecedc887f558dd5bed13ba44594c064c985d268b35096c7a19953b9/dff-0.7.0.tar.gz
+[2024-05-27 12:52:45] INFO root fetch - processPackages [guarddog]: executing diffoscope
+[2024-05-27 12:52:45] INFO root fetch - processPackages [guarddog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/guarddog-1.8.1.tar.gz tmp/guarddog-1.8.2.tar.gz --markdown 20240527/g/guarddog/1.8.1-1.8.2/README.md --exclude *.pyd
+[2024-05-27 12:52:45] INFO root fetch - processPackages [dff]: executing diffoscope
+[2024-05-27 12:52:45] INFO root fetch - processPackages [dff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dff-0.6.4.dev0-py3-none-any.whl.zip tmp/dff-0.7.0.tar.gz --markdown 20240527/d/dff/0.6.4.dev0-0.7.0/README.md --exclude *.pyd
+[2024-05-27 12:52:45] INFO root fetch - processPackages [testlala]: Remove: archive file [/home/abi/fetcher/tmp/testlala-2.0.0.tar.gz]
+[2024-05-27 12:52:45] INFO root fetch - processPackages [testlala]: Remove: archive file [/home/abi/fetcher/tmp/testlala-3.0.0-py3-none-any.whl.zip]
+[2024-05-27 12:52:45] INFO root fetch - main [MainThread]: End processing [testlala]: success
+[2024-05-27 12:52:46] INFO root fetch - processPackages [streetview]: Remove: archive file [/home/abi/fetcher/tmp/streetview-0.0.6.tar.gz]
+[2024-05-27 12:52:46] INFO root fetch - processPackages [streetview]: Remove: archive file [/home/abi/fetcher/tmp/streetview-0.0.9.tar.gz]
+[2024-05-27 12:52:46] INFO root fetch - main [MainThread]: End processing [streetview]: success
+[2024-05-27 12:52:46] INFO root fetch - processPackages [fumis-wircu]: Remove: archive file [/home/abi/fetcher/tmp/fumis_wircu-0.1.1.tar.gz]
+[2024-05-27 12:52:46] INFO root fetch - processPackages [fumis-wircu]: Remove: archive file [/home/abi/fetcher/tmp/fumis_wircu-0.1.4.tar.gz]
+[2024-05-27 12:52:46] INFO root fetch - main [MainThread]: End processing [fumis-wircu]: success
+[2024-05-27 12:52:46] INFO root fetch - processPackages [alphaz-next]: Remove: archive file [/home/abi/fetcher/tmp/alphaz-next-0.7.3.3.tar.gz]
+[2024-05-27 12:52:46] INFO root fetch - processPackages [alphaz-next]: Remove: archive file [/home/abi/fetcher/tmp/alphaz-next-0.7.3.4.tar.gz]
+[2024-05-27 12:52:46] INFO root fetch - main [MainThread]: End processing [alphaz-next]: success
+[2024-05-27 12:52:46] INFO root fetch - main [MainThread]: End processing [fumis-wircu]: success
+[2024-05-27 12:52:46] INFO root fetch - processPackages [dff]: Remove: archive file [/home/abi/fetcher/tmp/dff-0.6.4.dev0-py3-none-any.whl.zip]
+[2024-05-27 12:52:46] INFO root fetch - processPackages [dff]: Remove: archive file [/home/abi/fetcher/tmp/dff-0.7.0.tar.gz]
+[2024-05-27 12:52:46] INFO root fetch - main [MainThread]: End processing [dff]: success
+[2024-05-27 12:52:46] INFO root fetch - processPackages [guarddog]: Remove: archive file [/home/abi/fetcher/tmp/guarddog-1.8.1.tar.gz]
+[2024-05-27 12:52:46] INFO root fetch - processPackages [guarddog]: Remove: archive file [/home/abi/fetcher/tmp/guarddog-1.8.2.tar.gz]
+[2024-05-27 12:52:46] INFO root fetch - main [MainThread]: End processing [guarddog]: success
+[2024-05-27 12:52:46] INFO root fetch - processPackages [afeng-py-tools]: Remove: archive file [/home/abi/fetcher/tmp/afeng-py-tools-0.0.98.tar.gz]
+[2024-05-27 12:52:46] INFO root fetch - processPackages [afeng-py-tools]: Remove: archive file [/home/abi/fetcher/tmp/afeng-py-tools-0.0.99.tar.gz]
+[2024-05-27 12:52:46] INFO root fetch - main [MainThread]: End processing [afeng-py-tools]: success
+[2024-05-27 12:52:49] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.8.8.tar.gz]
+[2024-05-27 12:52:49] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.8.9.tar.gz]
+[2024-05-27 12:52:49] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2024-05-27 12:52:49] INFO root fetch - main [MainThread]: Store serial: [23394349]
