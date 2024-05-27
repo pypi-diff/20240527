@@ -13813,3 +13813,24 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 13:19:18] INFO root fetch - processPackages [cosmosis]: Remove: archive file [/home/abi/fetcher/tmp/cosmosis-3.6.tar.gz]
 [2024-05-27 13:19:18] INFO root fetch - main [MainThread]: End processing [cosmosis]: success
 [2024-05-27 13:19:18] INFO root fetch - main [MainThread]: Store serial: [23394647]
+[2024-05-27 13:21:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23394647]
+[2024-05-27 13:21:28] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-27 13:21:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: molgenis-emx2-pyclient
+[2024-05-27 13:21:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyexmars
+[2024-05-27 13:21:28] INFO root fetch - processPackages [pyexmars]: New version: [1.0.8] Old Version: [1.0.7]
+[2024-05-27 13:21:28] INFO root fetch - processPackages [pyexmars]: Downloading https://files.pythonhosted.org/packages/a5/78/5f59d9941b8d3ccee3b20f49472d83886915598205b9eda0c3ee9eec4edc/pyexmars-1.0.7.tar.gz
+[2024-05-27 13:21:28] INFO root fetch - processPackages [molgenis-emx2-pyclient]: New version: [8.225.1] Old Version: [8.225.0]
+[2024-05-27 13:21:29] INFO root fetch - processPackages [molgenis-emx2-pyclient]: Downloading https://files.pythonhosted.org/packages/cd/13/5a7f4bf210b216bdbb47182becc9caec83ffad938f89ea1ca8061e5aa4b0/molgenis_emx2_pyclient-8.225.0.tar.gz
+[2024-05-27 13:21:29] INFO root fetch - processPackages [pyexmars]: Downloading https://files.pythonhosted.org/packages/f5/ea/450e92ecec3de8b8c48f75ea845423569b838d95282d8bd1cfbca6a93bcc/pyexmars-1.0.8.tar.gz
+[2024-05-27 13:21:29] INFO root fetch - processPackages [pyexmars]: executing diffoscope
+[2024-05-27 13:21:29] INFO root fetch - processPackages [pyexmars]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyexmars-1.0.7.tar.gz tmp/pyexmars-1.0.8.tar.gz --markdown 20240527/p/pyexmars/1.0.7-1.0.8/README.md --exclude *.pyd
+[2024-05-27 13:21:29] INFO root fetch - processPackages [pyexmars]: Remove: archive file [/home/abi/fetcher/tmp/pyexmars-1.0.7.tar.gz]
+[2024-05-27 13:21:29] INFO root fetch - processPackages [pyexmars]: Remove: archive file [/home/abi/fetcher/tmp/pyexmars-1.0.8.tar.gz]
+[2024-05-27 13:21:29] INFO root fetch - main [MainThread]: End processing [pyexmars]: success
+[2024-05-27 13:21:30] INFO root fetch - processPackages [molgenis-emx2-pyclient]: Downloading https://files.pythonhosted.org/packages/11/0f/5913bab3b148d06e2830123d0a1fd123ad7fbbf0311445140dc6a7fdb27f/molgenis_emx2_pyclient-8.225.1.tar.gz
+[2024-05-27 13:21:30] INFO root fetch - processPackages [molgenis-emx2-pyclient]: executing diffoscope
+[2024-05-27 13:21:30] INFO root fetch - processPackages [molgenis-emx2-pyclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/molgenis_emx2_pyclient-8.225.0.tar.gz tmp/molgenis_emx2_pyclient-8.225.1.tar.gz --markdown 20240527/m/molgenis-emx2-pyclient/8.225.0-8.225.1/README.md --exclude *.pyd
+[2024-05-27 13:21:30] INFO root fetch - processPackages [molgenis-emx2-pyclient]: Remove: archive file [/home/abi/fetcher/tmp/molgenis_emx2_pyclient-8.225.0.tar.gz]
+[2024-05-27 13:21:30] INFO root fetch - processPackages [molgenis-emx2-pyclient]: Remove: archive file [/home/abi/fetcher/tmp/molgenis_emx2_pyclient-8.225.1.tar.gz]
+[2024-05-27 13:21:30] INFO root fetch - main [MainThread]: End processing [molgenis-emx2-pyclient]: success
+[2024-05-27 13:21:30] INFO root fetch - main [MainThread]: Store serial: [23394661]
