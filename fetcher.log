@@ -8493,3 +8493,81 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 09:40:39] INFO root fetch - processPackages [glide-for-redis]: Remove: archive file [/home/abi/fetcher/tmp/glide_for_redis-0.4.0rc4-cp39-cp39-manylinux_2_28_aarch64.whl.zip]
 [2024-05-27 09:40:39] INFO root fetch - main [MainThread]: End processing [glide-for-redis]: success
 [2024-05-27 09:40:39] INFO root fetch - main [MainThread]: Store serial: [23392059]
+[2024-05-27 09:42:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23392059]
+[2024-05-27 09:42:52] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-27 09:42:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: akshare
+[2024-05-27 09:42:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jcci
+[2024-05-27 09:42:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Brightify
+[2024-05-27 09:42:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vishgraphs
+[2024-05-27 09:42:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: inoopa_utils
+[2024-05-27 09:42:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: json-dict-diff
+[2024-05-27 09:42:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: danila-lib
+[2024-05-27 09:42:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cluster-experiments
+[2024-05-27 09:42:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: jb-manager-bot
+[2024-05-27 09:42:52] INFO root fetch - processPackages [json-dict-diff]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-05-27 09:42:52] INFO root fetch - processPackages [danila-lib]: New version: [1.7.7] Old Version: [1.7.6]
+[2024-05-27 09:42:52] INFO root fetch - processPackages [jcci]: New version: [0.2.0] Old Version: [0.1.5]
+[2024-05-27 09:42:52] INFO root fetch - processPackages [Brightify]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-27 09:42:52] INFO root fetch - processPackages [jb-manager-bot]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-27 09:42:52] WARNING root fetch - processPackages [vishgraphs]: Skipping, unable to determine old version
+[2024-05-27 09:42:52] INFO root fetch - main [MainThread]: End processing [vishgraphs] error
+[2024-05-27 09:42:52] INFO root fetch - processPackages [cluster-experiments]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-27 09:42:52] INFO root fetch - processPackages [inoopa_utils]: New version: [2.9.9] Old Version: [2.9.8]
+[2024-05-27 09:42:52] INFO root fetch - processPackages [json-dict-diff]: Downloading https://files.pythonhosted.org/packages/8e/a8/5d36bea826d5846608c8728ed295c2a9edfba96c42cae1031b0415702885/json_dict_diff-1.0.3.tar.gz
+[2024-05-27 09:42:52] INFO root fetch - processPackages [danila-lib]: Downloading https://files.pythonhosted.org/packages/47/f3/ac90ef8b4f464565e3a4e2a8b5e3c2b82cb01b49a32d78c5880acc7caebf/danila-lib-1.7.6.tar.gz
+[2024-05-27 09:42:52] INFO root fetch - processPackages [akshare]: New version: [1.9.99] Old Version: [1.9.98]
+[2024-05-27 09:42:52] INFO root fetch - processPackages [jcci]: Downloading https://files.pythonhosted.org/packages/d4/80/1068dee4f93a6d6a1b76845d862087d6fcbfa62f87d8504299e9259cfee4/jcci-0.1.5.tar.gz
+[2024-05-27 09:42:52] INFO root fetch - processPackages [inoopa_utils]: Downloading https://files.pythonhosted.org/packages/a0/24/b911a769e68404b28a043df8fa70dcb1a205d883a5b8eb5551b2e29e769b/inoopa_utils-2.9.8.tar.gz
+[2024-05-27 09:42:52] INFO root fetch - processPackages [Brightify]: Downloading https://files.pythonhosted.org/packages/5e/ad/8cc5a40f74cc7830faa64c85e9d92cbe1a1f7d9c0333b3b9059d99d6d5e5/brightify-0.1.2.tar.gz
+[2024-05-27 09:42:52] INFO root fetch - processPackages [jb-manager-bot]: Downloading https://files.pythonhosted.org/packages/fe/b9/235a87f714c52495da78078923c0f60b50b951761a5eded264e2b4dec992/jb_manager_bot-0.1.5.tar.gz
+[2024-05-27 09:42:52] INFO root fetch - processPackages [cluster-experiments]: Downloading https://files.pythonhosted.org/packages/5f/03/8c64016f07cd05d06cfc7431563abf72b878f164205c259493e786328e54/cluster_experiments-0.9.0.tar.gz
+[2024-05-27 09:42:52] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/ec/a4/f1c21d8fbb349e15f0bf76d32a496003bcff9b66215f81b940337a510e36/akshare-1.9.98.tar.gz
+[2024-05-27 09:42:52] INFO root fetch - processPackages [danila-lib]: Downloading https://files.pythonhosted.org/packages/d2/c9/84a42148c7857542f7b8e31a08e6150ea760aaf4f246df1d63a1e8b1bf1b/danila-lib-1.7.7.tar.gz
+[2024-05-27 09:42:52] INFO root fetch - processPackages [json-dict-diff]: Downloading https://files.pythonhosted.org/packages/b7/7f/2c5d4229865f528d0ac574746e13b5a0b0764146480acd4af3a081641328/json_dict_diff-1.0.4.tar.gz
+[2024-05-27 09:42:53] INFO root fetch - processPackages [danila-lib]: executing diffoscope
+[2024-05-27 09:42:53] INFO root fetch - processPackages [danila-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/danila-lib-1.7.6.tar.gz tmp/danila-lib-1.7.7.tar.gz --markdown 20240527/d/danila-lib/1.7.6-1.7.7/README.md --exclude *.pyd
+[2024-05-27 09:42:53] INFO root fetch - processPackages [inoopa_utils]: Downloading https://files.pythonhosted.org/packages/d9/a2/9ecd86dc35b14396fac082afed001b7cf3eb323bec68b4986cf3b5194b67/inoopa_utils-2.9.9.tar.gz
+[2024-05-27 09:42:53] INFO root fetch - processPackages [Brightify]: Downloading https://files.pythonhosted.org/packages/5d/19/f38a7c68e8bbba8f8e1ab806980d21358215002a65ba1c005d1b9305b295/brightify-0.1.3.tar.gz
+[2024-05-27 09:42:53] INFO root fetch - processPackages [jcci]: Downloading https://files.pythonhosted.org/packages/0c/8b/8e643a43f09c53faf16c978fcbb5cda8aa1481760beb4021c8d99ca62627/jcci-0.2.0.tar.gz
+[2024-05-27 09:42:53] INFO root fetch - processPackages [jb-manager-bot]: Downloading https://files.pythonhosted.org/packages/15/04/bf5103c13547eb285e13d4e4ed3968119881d6ee077a19aefbc4208d0b97/jb_manager_bot-0.1.6.tar.gz
+[2024-05-27 09:42:53] INFO root fetch - processPackages [json-dict-diff]: executing diffoscope
+[2024-05-27 09:42:53] INFO root fetch - processPackages [json-dict-diff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/json_dict_diff-1.0.3.tar.gz tmp/json_dict_diff-1.0.4.tar.gz --markdown 20240527/j/json-dict-diff/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-05-27 09:42:53] INFO root fetch - processPackages [cluster-experiments]: Downloading https://files.pythonhosted.org/packages/79/1b/2879e29c43e6f62a2a1220a5fe132d28c2e5973201cee57278fe6283acf0/cluster_experiments-0.9.1.tar.gz
+[2024-05-27 09:42:53] INFO root fetch - processPackages [inoopa_utils]: executing diffoscope
+[2024-05-27 09:42:53] INFO root fetch - processPackages [inoopa_utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inoopa_utils-2.9.8.tar.gz tmp/inoopa_utils-2.9.9.tar.gz --markdown 20240527/i/inoopa_utils/2.9.8-2.9.9/README.md --exclude *.pyd
+[2024-05-27 09:42:53] INFO root fetch - processPackages [Brightify]: executing diffoscope
+[2024-05-27 09:42:53] INFO root fetch - processPackages [Brightify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brightify-0.1.2.tar.gz tmp/brightify-0.1.3.tar.gz --markdown 20240527/B/Brightify/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-27 09:42:53] INFO root fetch - processPackages [jb-manager-bot]: executing diffoscope
+[2024-05-27 09:42:53] INFO root fetch - processPackages [jb-manager-bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jb_manager_bot-0.1.5.tar.gz tmp/jb_manager_bot-0.1.6.tar.gz --markdown 20240527/j/jb-manager-bot/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-27 09:42:53] INFO root fetch - processPackages [jcci]: executing diffoscope
+[2024-05-27 09:42:53] INFO root fetch - processPackages [jcci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jcci-0.1.5.tar.gz tmp/jcci-0.2.0.tar.gz --markdown 20240527/j/jcci/0.1.5-0.2.0/README.md --exclude *.pyd
+[2024-05-27 09:42:53] INFO root fetch - processPackages [cluster-experiments]: executing diffoscope
+[2024-05-27 09:42:53] INFO root fetch - processPackages [cluster-experiments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cluster_experiments-0.9.0.tar.gz tmp/cluster_experiments-0.9.1.tar.gz --markdown 20240527/c/cluster-experiments/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-27 09:42:53] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/53/e8/f58e96016752567ca09f3f67abdc7e935d0afa919aded528d50590ed9170/akshare-1.9.99.tar.gz
+[2024-05-27 09:42:53] INFO root fetch - processPackages [akshare]: executing diffoscope
+[2024-05-27 09:42:53] INFO root fetch - processPackages [akshare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akshare-1.9.98.tar.gz tmp/akshare-1.9.99.tar.gz --markdown 20240527/a/akshare/1.9.98-1.9.99/README.md --exclude *.pyd
+[2024-05-27 09:42:54] INFO root fetch - processPackages [inoopa_utils]: Remove: archive file [/home/abi/fetcher/tmp/inoopa_utils-2.9.8.tar.gz]
+[2024-05-27 09:42:54] INFO root fetch - processPackages [inoopa_utils]: Remove: archive file [/home/abi/fetcher/tmp/inoopa_utils-2.9.9.tar.gz]
+[2024-05-27 09:42:54] INFO root fetch - main [MainThread]: End processing [inoopa_utils]: success
+[2024-05-27 09:42:54] INFO root fetch - processPackages [danila-lib]: Remove: archive file [/home/abi/fetcher/tmp/danila-lib-1.7.6.tar.gz]
+[2024-05-27 09:42:54] INFO root fetch - processPackages [danila-lib]: Remove: archive file [/home/abi/fetcher/tmp/danila-lib-1.7.7.tar.gz]
+[2024-05-27 09:42:54] INFO root fetch - main [MainThread]: End processing [danila-lib]: success
+[2024-05-27 09:42:54] INFO root fetch - processPackages [jb-manager-bot]: Remove: archive file [/home/abi/fetcher/tmp/jb_manager_bot-0.1.5.tar.gz]
+[2024-05-27 09:42:54] INFO root fetch - processPackages [jb-manager-bot]: Remove: archive file [/home/abi/fetcher/tmp/jb_manager_bot-0.1.6.tar.gz]
+[2024-05-27 09:42:54] INFO root fetch - main [MainThread]: End processing [jb-manager-bot]: success
+[2024-05-27 09:42:54] INFO root fetch - processPackages [Brightify]: Remove: archive file [/home/abi/fetcher/tmp/brightify-0.1.2.tar.gz]
+[2024-05-27 09:42:54] INFO root fetch - processPackages [Brightify]: Remove: archive file [/home/abi/fetcher/tmp/brightify-0.1.3.tar.gz]
+[2024-05-27 09:42:54] INFO root fetch - main [MainThread]: End processing [Brightify]: success
+[2024-05-27 09:42:54] INFO root fetch - processPackages [jcci]: Remove: archive file [/home/abi/fetcher/tmp/jcci-0.1.5.tar.gz]
+[2024-05-27 09:42:54] INFO root fetch - processPackages [json-dict-diff]: Remove: archive file [/home/abi/fetcher/tmp/json_dict_diff-1.0.3.tar.gz]
+[2024-05-27 09:42:54] INFO root fetch - processPackages [jcci]: Remove: archive file [/home/abi/fetcher/tmp/jcci-0.2.0.tar.gz]
+[2024-05-27 09:42:54] INFO root fetch - processPackages [json-dict-diff]: Remove: archive file [/home/abi/fetcher/tmp/json_dict_diff-1.0.4.tar.gz]
+[2024-05-27 09:42:54] INFO root fetch - main [MainThread]: End processing [jcci]: success
+[2024-05-27 09:42:54] INFO root fetch - main [MainThread]: End processing [json-dict-diff]: success
+[2024-05-27 09:42:55] INFO root fetch - processPackages [cluster-experiments]: Remove: archive file [/home/abi/fetcher/tmp/cluster_experiments-0.9.0.tar.gz]
+[2024-05-27 09:42:55] INFO root fetch - processPackages [cluster-experiments]: Remove: archive file [/home/abi/fetcher/tmp/cluster_experiments-0.9.1.tar.gz]
+[2024-05-27 09:42:55] INFO root fetch - main [MainThread]: End processing [cluster-experiments]: success
+[2024-05-27 09:42:57] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.98.tar.gz]
+[2024-05-27 09:42:57] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.99.tar.gz]
+[2024-05-27 09:42:57] INFO root fetch - main [MainThread]: End processing [akshare]: success
+[2024-05-27 09:42:57] INFO root fetch - main [MainThread]: Store serial: [23392093]
