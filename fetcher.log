@@ -15069,3 +15069,78 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 14:16:52] INFO root fetch - main [MainThread]: End processing [tinybird-cli]: success
 [2024-05-27 14:16:52] INFO root fetch - main [MainThread]: End processing [tinybird-cli]: success
 [2024-05-27 14:16:52] INFO root fetch - main [MainThread]: Store serial: [23395336]
+[2024-05-27 14:18:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23395336]
+[2024-05-27 14:19:01] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-27 14:19:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: climetlab-maelstrom-downscaling
+[2024-05-27 14:19:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: liveflask
+[2024-05-27 14:19:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: foundationallm
+[2024-05-27 14:19:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ragfmk
+[2024-05-27 14:19:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: django-stubs-ext
+[2024-05-27 14:19:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dicio-py
+[2024-05-27 14:19:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: approck-fastapi-utils
+[2024-05-27 14:19:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: unstract-sdk
+[2024-05-27 14:19:01] INFO root fetch - processPackages [dicio-py]: New version: [1.3] Old Version: [1.2]
+[2024-05-27 14:19:01] INFO root fetch - processPackages [foundationallm]: New version: [0.7.8] Old Version: [0.7.7]
+[2024-05-27 14:19:01] INFO root fetch - processPackages [liveflask]: New version: [1.0.9rc6] Old Version: [1.0.9rc5]
+[2024-05-27 14:19:01] INFO root fetch - processPackages [approck-fastapi-utils]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-27 14:19:01] INFO root fetch - processPackages [ragfmk]: New version: [0.1.4.8] Old Version: [0.1.4.7]
+[2024-05-27 14:19:01] INFO root fetch - processPackages [unstract-sdk]: New version: [0.9.0] Old Version: [0.28.0]
+[2024-05-27 14:19:01] INFO root fetch - processPackages [django-stubs-ext]: New version: [5.0.2] Old Version: [5.0.0]
+[2024-05-27 14:19:01] INFO root fetch - processPackages [climetlab-maelstrom-downscaling]: New version: [0.4.0] Old Version: [0.3.1]
+[2024-05-27 14:19:01] INFO root fetch - processPackages [liveflask]: Downloading https://files.pythonhosted.org/packages/4f/f7/9fa1b550df92979d3653b69ad0f8af57358884c417fc600ac326b87f6266/liveflask-1.0.9rc5.tar.gz
+[2024-05-27 14:19:01] INFO root fetch - processPackages [foundationallm]: Downloading https://files.pythonhosted.org/packages/60/2b/92f5b97061474d348b888362d474fcbf5733210b6a993d78e1e320b743a8/foundationallm-0.7.7.tar.gz
+[2024-05-27 14:19:01] INFO root fetch - processPackages [dicio-py]: Downloading https://files.pythonhosted.org/packages/e5/cb/f85694f6d9abb10d6f14651e6906bcdc24c74478d874104223540676ae61/dicio_py-1.2.tar.gz
+[2024-05-27 14:19:01] INFO root fetch - processPackages [ragfmk]: Downloading https://files.pythonhosted.org/packages/6b/f9/5b5532b03c8fc2b33c269909433ebea1399e5b91e9074d80646405f432e8/ragfmk-0.1.4.7-py3-none-any.whl
+[2024-05-27 14:19:01] INFO root fetch - processPackages [unstract-sdk]: Downloading https://files.pythonhosted.org/packages/bb/30/8aec91220863140c3728b50ee7265353ce72046795fec4808f4a666f056b/unstract_sdk-0.28.0.tar.gz
+[2024-05-27 14:19:02] INFO root fetch - processPackages [django-stubs-ext]: Downloading https://files.pythonhosted.org/packages/f9/20/6af33e339856776df1b0eca0553d302dbb10e1c14741482da8eeb34f3526/django_stubs_ext-5.0.0.tar.gz
+[2024-05-27 14:19:02] INFO root fetch - processPackages [climetlab-maelstrom-downscaling]: Downloading https://files.pythonhosted.org/packages/21/ed/4ade880f819840b7a5b8f1e29ac2e71182ffc8aab371325d6701589b0031/climetlab_maelstrom_downscaling-0.3.1.tar.gz
+[2024-05-27 14:19:02] INFO root fetch - processPackages [approck-fastapi-utils]: Downloading https://files.pythonhosted.org/packages/85/10/0e7677a8d3c52f9bde87b85b3551b2200fd3995e1d1f9bdb75fe5533b786/approck_fastapi_utils-0.1.5.tar.gz
+[2024-05-27 14:19:02] INFO root fetch - processPackages [liveflask]: Downloading https://files.pythonhosted.org/packages/c9/85/db794ba1759ab4e9865cd2537ac486073560649c795fb7212df21fe29eaf/liveflask-1.0.9rc6.tar.gz
+[2024-05-27 14:19:02] INFO root fetch - processPackages [foundationallm]: Downloading https://files.pythonhosted.org/packages/b1/db/176f551c8c12a48ab754882403db0be82c2297eca1238131956e68718238/foundationallm-0.7.8.tar.gz
+[2024-05-27 14:19:02] INFO root fetch - processPackages [liveflask]: executing diffoscope
+[2024-05-27 14:19:02] INFO root fetch - processPackages [liveflask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liveflask-1.0.9rc5.tar.gz tmp/liveflask-1.0.9rc6.tar.gz --markdown 20240527/l/liveflask/1.0.9rc5-1.0.9rc6/README.md --exclude *.pyd
+[2024-05-27 14:19:02] INFO root fetch - processPackages [dicio-py]: Downloading https://files.pythonhosted.org/packages/c5/5c/edfff69eaf597c92f256de2f1d79c9ef46608e760f7fff305e115586b873/dicio_py-1.3.tar.gz
+[2024-05-27 14:19:02] INFO root fetch - processPackages [foundationallm]: executing diffoscope
+[2024-05-27 14:19:02] INFO root fetch - processPackages [foundationallm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foundationallm-0.7.7.tar.gz tmp/foundationallm-0.7.8.tar.gz --markdown 20240527/f/foundationallm/0.7.7-0.7.8/README.md --exclude *.pyd
+[2024-05-27 14:19:02] INFO root fetch - processPackages [ragfmk]: Downloading https://files.pythonhosted.org/packages/69/0e/8b40bf546f700a14f83b663ba73dd122e9a862db8f9faf691c9a76cafb2b/ragfmk-0.1.4.8-py3-none-any.whl
+[2024-05-27 14:19:02] INFO root fetch - processPackages [django-stubs-ext]: Downloading https://files.pythonhosted.org/packages/39/8e/ebe7a551511b4034ad4fe9c3d5333650e4d0d1d8700fd458ed64647394d9/django_stubs_ext-5.0.2.tar.gz
+[2024-05-27 14:19:02] INFO root fetch - processPackages [approck-fastapi-utils]: Downloading https://files.pythonhosted.org/packages/95/1c/aa9ab0a4e2b3875b4186aa0c1b5a21c8e955adc390345802d1f21f4beb55/approck_fastapi_utils-0.1.6.tar.gz
+[2024-05-27 14:19:02] INFO root fetch - processPackages [dicio-py]: executing diffoscope
+[2024-05-27 14:19:02] INFO root fetch - processPackages [dicio-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dicio_py-1.2.tar.gz tmp/dicio_py-1.3.tar.gz --markdown 20240527/d/dicio-py/1.2-1.3/README.md --exclude *.pyd
+[2024-05-27 14:19:02] INFO root fetch - processPackages [climetlab-maelstrom-downscaling]: Downloading https://files.pythonhosted.org/packages/21/f0/3e7b64ce10c512aa18c9e43cd8c21685c1616ab7e66dbc2c46fe6b2a0786/climetlab_maelstrom_downscaling-0.4.0.tar.gz
+[2024-05-27 14:19:02] INFO root fetch - processPackages [django-stubs-ext]: executing diffoscope
+[2024-05-27 14:19:02] INFO root fetch - processPackages [django-stubs-ext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_stubs_ext-5.0.0.tar.gz tmp/django_stubs_ext-5.0.2.tar.gz --markdown 20240527/d/django-stubs-ext/5.0.0-5.0.2/README.md --exclude *.pyd
+[2024-05-27 14:19:02] INFO root fetch - processPackages [ragfmk]: executing diffoscope
+[2024-05-27 14:19:02] INFO root fetch - processPackages [ragfmk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ragfmk-0.1.4.7-py3-none-any.whl.zip tmp/ragfmk-0.1.4.8-py3-none-any.whl.zip --markdown 20240527/r/ragfmk/0.1.4.7-0.1.4.8/README.md --exclude *.pyd
+[2024-05-27 14:19:02] INFO root fetch - processPackages [unstract-sdk]: Downloading https://files.pythonhosted.org/packages/22/1f/50c387a8927cd896566732d9181d7f9f7e3401ecd3b8958f546dd4dc605f/unstract_sdk-0.9.0.tar.gz
+[2024-05-27 14:19:02] INFO root fetch - processPackages [approck-fastapi-utils]: executing diffoscope
+[2024-05-27 14:19:02] INFO root fetch - processPackages [approck-fastapi-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/approck_fastapi_utils-0.1.5.tar.gz tmp/approck_fastapi_utils-0.1.6.tar.gz --markdown 20240527/a/approck-fastapi-utils/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-27 14:19:02] INFO root fetch - processPackages [climetlab-maelstrom-downscaling]: executing diffoscope
+[2024-05-27 14:19:02] INFO root fetch - processPackages [climetlab-maelstrom-downscaling]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/climetlab_maelstrom_downscaling-0.3.1.tar.gz tmp/climetlab_maelstrom_downscaling-0.4.0.tar.gz --markdown 20240527/c/climetlab-maelstrom-downscaling/0.3.1-0.4.0/README.md --exclude *.pyd
+[2024-05-27 14:19:02] INFO root fetch - processPackages [unstract-sdk]: executing diffoscope
+[2024-05-27 14:19:02] INFO root fetch - processPackages [unstract-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unstract_sdk-0.28.0.tar.gz tmp/unstract_sdk-0.9.0.tar.gz --markdown 20240527/u/unstract-sdk/0.28.0-0.9.0/README.md --exclude *.pyd
+[2024-05-27 14:19:03] INFO root fetch - processPackages [django-stubs-ext]: Remove: archive file [/home/abi/fetcher/tmp/django_stubs_ext-5.0.0.tar.gz]
+[2024-05-27 14:19:03] INFO root fetch - processPackages [django-stubs-ext]: Remove: archive file [/home/abi/fetcher/tmp/django_stubs_ext-5.0.2.tar.gz]
+[2024-05-27 14:19:03] INFO root fetch - main [MainThread]: End processing [django-stubs-ext]: success
+[2024-05-27 14:19:03] INFO root fetch - processPackages [dicio-py]: Remove: archive file [/home/abi/fetcher/tmp/dicio_py-1.2.tar.gz]
+[2024-05-27 14:19:03] INFO root fetch - processPackages [dicio-py]: Remove: archive file [/home/abi/fetcher/tmp/dicio_py-1.3.tar.gz]
+[2024-05-27 14:19:03] INFO root fetch - main [MainThread]: End processing [dicio-py]: success
+[2024-05-27 14:19:03] INFO root fetch - processPackages [foundationallm]: Remove: archive file [/home/abi/fetcher/tmp/foundationallm-0.7.7.tar.gz]
+[2024-05-27 14:19:03] INFO root fetch - processPackages [foundationallm]: Remove: archive file [/home/abi/fetcher/tmp/foundationallm-0.7.8.tar.gz]
+[2024-05-27 14:19:03] INFO root fetch - main [MainThread]: End processing [foundationallm]: success
+[2024-05-27 14:19:03] INFO root fetch - processPackages [liveflask]: Remove: archive file [/home/abi/fetcher/tmp/liveflask-1.0.9rc5.tar.gz]
+[2024-05-27 14:19:03] INFO root fetch - processPackages [liveflask]: Remove: archive file [/home/abi/fetcher/tmp/liveflask-1.0.9rc6.tar.gz]
+[2024-05-27 14:19:03] INFO root fetch - main [MainThread]: End processing [liveflask]: success
+[2024-05-27 14:19:03] INFO root fetch - processPackages [ragfmk]: Remove: archive file [/home/abi/fetcher/tmp/ragfmk-0.1.4.7-py3-none-any.whl.zip]
+[2024-05-27 14:19:03] INFO root fetch - processPackages [ragfmk]: Remove: archive file [/home/abi/fetcher/tmp/ragfmk-0.1.4.8-py3-none-any.whl.zip]
+[2024-05-27 14:19:03] INFO root fetch - main [MainThread]: End processing [ragfmk]: success
+[2024-05-27 14:19:03] INFO root fetch - processPackages [approck-fastapi-utils]: Remove: archive file [/home/abi/fetcher/tmp/approck_fastapi_utils-0.1.5.tar.gz]
+[2024-05-27 14:19:03] INFO root fetch - processPackages [approck-fastapi-utils]: Remove: archive file [/home/abi/fetcher/tmp/approck_fastapi_utils-0.1.6.tar.gz]
+[2024-05-27 14:19:03] INFO root fetch - main [MainThread]: End processing [approck-fastapi-utils]: success
+[2024-05-27 14:19:03] INFO root fetch - processPackages [unstract-sdk]: Remove: archive file [/home/abi/fetcher/tmp/unstract_sdk-0.28.0.tar.gz]
+[2024-05-27 14:19:03] INFO root fetch - processPackages [unstract-sdk]: Remove: archive file [/home/abi/fetcher/tmp/unstract_sdk-0.9.0.tar.gz]
+[2024-05-27 14:19:03] INFO root fetch - main [MainThread]: End processing [unstract-sdk]: success
+[2024-05-27 14:19:03] INFO root fetch - processPackages [climetlab-maelstrom-downscaling]: Remove: archive file [/home/abi/fetcher/tmp/climetlab_maelstrom_downscaling-0.3.1.tar.gz]
+[2024-05-27 14:19:03] INFO root fetch - processPackages [climetlab-maelstrom-downscaling]: Remove: archive file [/home/abi/fetcher/tmp/climetlab_maelstrom_downscaling-0.4.0.tar.gz]
+[2024-05-27 14:19:03] INFO root fetch - main [MainThread]: End processing [climetlab-maelstrom-downscaling]: success
+[2024-05-27 14:19:03] INFO root fetch - main [MainThread]: Store serial: [23395359]
