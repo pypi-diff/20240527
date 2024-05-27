@@ -4003,3 +4003,52 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 04:42:29] WARNING root fetch - processPackages [lckytools]: Skipping, unable to determine old version
 [2024-05-27 04:42:29] INFO root fetch - main [MainThread]: End processing [lckytools] error
 [2024-05-27 04:42:29] INFO root fetch - main [MainThread]: Store serial: [23389859]
+[2024-05-27 04:44:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23389859]
+[2024-05-27 04:44:39] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-27 04:44:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: import-expression
+[2024-05-27 04:44:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pypdfzipcracker
+[2024-05-27 04:44:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lckytools
+[2024-05-27 04:44:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pypdfzipcracker
+[2024-05-27 04:44:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: timedate-ru
+[2024-05-27 04:44:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: janim
+[2024-05-27 04:44:39] INFO root fetch - processPackages [import-expression]: New version: [2.0.0] Old Version: [1.1.5]
+[2024-05-27 04:44:39] INFO root fetch - processPackages [lckytools]: New version: [0.0.0a2] Old Version: [0.0.0a1]
+[2024-05-27 04:44:39] INFO root fetch - processPackages [janim]: New version: [1.1.0] Old Version: [1.0.4]
+[2024-05-27 04:44:39] INFO root fetch - processPackages [pypdfzipcracker]: New version: [2.1] Old Version: [1.3]
+[2024-05-27 04:44:39] INFO root fetch - processPackages [pypdfzipcracker]: New version: [2.1] Old Version: [1.3]
+[2024-05-27 04:44:39] WARNING root fetch - processPackages [timedate-ru]: Skipping, unable to determine old version
+[2024-05-27 04:44:39] INFO root fetch - main [MainThread]: End processing [timedate-ru] error
+[2024-05-27 04:44:39] INFO root fetch - processPackages [import-expression]: Downloading https://files.pythonhosted.org/packages/cf/12/e6749c41b342460843ce92eb069e7c2c04c040f848390b3f28eee4f161af/import_expression-1.1.5.tar.gz
+[2024-05-27 04:44:39] INFO root fetch - processPackages [lckytools]: Downloading https://files.pythonhosted.org/packages/ad/dd/e058e4c53f0bf9832e8612e28ec6907b42769cfc84ae493583b38549971b/lckytools-0.0.0a1.tar.gz
+[2024-05-27 04:44:39] INFO root fetch - processPackages [pypdfzipcracker]: Downloading https://files.pythonhosted.org/packages/33/9d/55b295c0d257e51de9c9663cce9e828c6dd8e547c4f2b02cfd71e754a51c/pypdfzipcracker-1.3-py3-none-any.whl
+[2024-05-27 04:44:39] INFO root fetch - processPackages [pypdfzipcracker]: Downloading https://files.pythonhosted.org/packages/33/9d/55b295c0d257e51de9c9663cce9e828c6dd8e547c4f2b02cfd71e754a51c/pypdfzipcracker-1.3-py3-none-any.whl
+[2024-05-27 04:44:39] INFO root fetch - processPackages [janim]: Downloading https://files.pythonhosted.org/packages/86/39/c6cc18037753ce4246cdf98134f515ee09b4f0991c97213082df7165a203/janim-1.0.4.tar.gz
+[2024-05-27 04:44:40] INFO root fetch - processPackages [lckytools]: Downloading https://files.pythonhosted.org/packages/7e/33/4ff213938a1845b5155c0a339d32049de6975a2c9712429e943201c80c88/lckytools-0.0.0a2.tar.gz
+[2024-05-27 04:44:40] INFO root fetch - processPackages [pypdfzipcracker]: Downloading https://files.pythonhosted.org/packages/00/23/f4e5504608eb1a004c92bf9794d7cc89f5083a098eaf171762a746f14af3/pypdfzipcracker-2.1-py3-none-any.whl
+[2024-05-27 04:44:40] INFO root fetch - processPackages [pypdfzipcracker]: Downloading https://files.pythonhosted.org/packages/00/23/f4e5504608eb1a004c92bf9794d7cc89f5083a098eaf171762a746f14af3/pypdfzipcracker-2.1-py3-none-any.whl
+[2024-05-27 04:44:40] INFO root fetch - processPackages [import-expression]: Downloading https://files.pythonhosted.org/packages/2f/3f/1fb8ca1c50530bdc0d271f506e2d8a5851688caf28c79808f9218495271b/import_expression-2.0.0.tar.gz
+[2024-05-27 04:44:40] INFO root fetch - processPackages [lckytools]: executing diffoscope
+[2024-05-27 04:44:40] INFO root fetch - processPackages [lckytools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lckytools-0.0.0a1.tar.gz tmp/lckytools-0.0.0a2.tar.gz --markdown 20240527/l/lckytools/0.0.0a1-0.0.0a2/README.md --exclude *.pyd
+[2024-05-27 04:44:40] INFO root fetch - processPackages [janim]: Downloading https://files.pythonhosted.org/packages/52/54/06770bc9949b0b9f66bba9f40ecbe812dcbf066f7cddc00a177ad151c2fb/janim-1.1.0.tar.gz
+[2024-05-27 04:44:40] INFO root fetch - processPackages [pypdfzipcracker]: executing diffoscope
+[2024-05-27 04:44:40] INFO root fetch - processPackages [pypdfzipcracker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypdfzipcracker-1.3-py3-none-any.whl.zip tmp/pypdfzipcracker-2.1-py3-none-any.whl.zip --markdown 20240527/p/pypdfzipcracker/1.3-2.1/README.md --exclude *.pyd
+[2024-05-27 04:44:40] INFO root fetch - processPackages [pypdfzipcracker]: executing diffoscope
+[2024-05-27 04:44:40] INFO root fetch - processPackages [pypdfzipcracker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypdfzipcracker-1.3-py3-none-any.whl.zip tmp/pypdfzipcracker-2.1-py3-none-any.whl.zip --markdown 20240527/p/pypdfzipcracker/1.3-2.1/README.md --exclude *.pyd
+[2024-05-27 04:44:40] INFO root fetch - processPackages [import-expression]: executing diffoscope
+[2024-05-27 04:44:40] INFO root fetch - processPackages [import-expression]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/import_expression-1.1.5.tar.gz tmp/import_expression-2.0.0.tar.gz --markdown 20240527/i/import-expression/1.1.5-2.0.0/README.md --exclude *.pyd
+[2024-05-27 04:44:40] INFO root fetch - processPackages [janim]: executing diffoscope
+[2024-05-27 04:44:40] INFO root fetch - processPackages [janim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/janim-1.0.4.tar.gz tmp/janim-1.1.0.tar.gz --markdown 20240527/j/janim/1.0.4-1.1.0/README.md --exclude *.pyd
+[2024-05-27 04:44:40] INFO root fetch - processPackages [lckytools]: Remove: archive file [/home/abi/fetcher/tmp/lckytools-0.0.0a1.tar.gz]
+[2024-05-27 04:44:40] INFO root fetch - processPackages [lckytools]: Remove: archive file [/home/abi/fetcher/tmp/lckytools-0.0.0a2.tar.gz]
+[2024-05-27 04:44:40] INFO root fetch - main [MainThread]: End processing [lckytools]: success
+[2024-05-27 04:44:40] INFO root fetch - processPackages [pypdfzipcracker]: Remove: archive file [/home/abi/fetcher/tmp/pypdfzipcracker-1.3-py3-none-any.whl.zip]
+[2024-05-27 04:44:40] INFO root fetch - processPackages [pypdfzipcracker]: Remove: archive file [/home/abi/fetcher/tmp/pypdfzipcracker-2.1-py3-none-any.whl.zip]
+[2024-05-27 04:44:40] INFO root fetch - main [MainThread]: End processing [pypdfzipcracker]: success
+[2024-05-27 04:44:41] INFO root fetch - processPackages [import-expression]: Remove: archive file [/home/abi/fetcher/tmp/import_expression-1.1.5.tar.gz]
+[2024-05-27 04:44:41] INFO root fetch - processPackages [import-expression]: Remove: archive file [/home/abi/fetcher/tmp/import_expression-2.0.0.tar.gz]
+[2024-05-27 04:44:41] INFO root fetch - main [MainThread]: End processing [import-expression]: success
+[2024-05-27 04:44:41] INFO root fetch - main [MainThread]: End processing [pypdfzipcracker]: success
+[2024-05-27 04:44:41] INFO root fetch - processPackages [janim]: Remove: archive file [/home/abi/fetcher/tmp/janim-1.0.4.tar.gz]
+[2024-05-27 04:44:41] INFO root fetch - processPackages [janim]: Remove: archive file [/home/abi/fetcher/tmp/janim-1.1.0.tar.gz]
+[2024-05-27 04:44:41] INFO root fetch - main [MainThread]: End processing [janim]: success
+[2024-05-27 04:44:41] INFO root fetch - main [MainThread]: Store serial: [23389877]
