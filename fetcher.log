@@ -6631,3 +6631,60 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 07:56:33] INFO root fetch - processPackages [arrow-odbc]: Remove: archive file [/home/abi/fetcher/tmp/arrow_odbc-7.0.2.tar.gz]
 [2024-05-27 07:56:33] INFO root fetch - main [MainThread]: End processing [arrow-odbc]: success
 [2024-05-27 07:56:33] INFO root fetch - main [MainThread]: Store serial: [23391078]
+[2024-05-27 07:58:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23391078]
+[2024-05-27 07:58:41] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-27 07:58:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: autopipeline
+[2024-05-27 07:58:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openbharatocr
+[2024-05-27 07:58:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ivande-combiner
+[2024-05-27 07:58:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: camlab
+[2024-05-27 07:58:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: niquests
+[2024-05-27 07:58:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: libdaw
+[2024-05-27 07:58:41] INFO root fetch - processPackages [camlab]: New version: [0.1.0] Old Version: [0.0.8.6]
+[2024-05-27 07:58:41] INFO root fetch - processPackages [ivande-combiner]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-27 07:58:41] INFO root fetch - processPackages [niquests]: New version: [3.6.6] Old Version: [3.6.5]
+[2024-05-27 07:58:42] INFO root fetch - processPackages [autopipeline]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-05-27 07:58:42] INFO root fetch - processPackages [openbharatocr]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-05-27 07:58:42] INFO root fetch - processPackages [camlab]: Downloading https://files.pythonhosted.org/packages/c6/2c/ae9d2c2c78e75195931e3ac1e479a669c28975cd96aaae8a2948d68c478c/camlab-0.0.8.6.tar.gz
+[2024-05-27 07:58:42] INFO root fetch - processPackages [ivande-combiner]: Downloading https://files.pythonhosted.org/packages/e2/68/4605bffb5a3ac9e99ed7fdb5b2cf4fbd8ce7e3d592151e9678ad20828d98/ivande_combiner-0.0.7.tar.gz
+[2024-05-27 07:58:42] INFO root fetch - processPackages [libdaw]: New version: [0.8.0] Old Version: [0.7.0]
+[2024-05-27 07:58:42] INFO root fetch - processPackages [niquests]: Downloading https://files.pythonhosted.org/packages/1d/5a/b94e6e8b79ea95fd0f6153921d7f63125fe8d3178f4f3796c418b5ed62ac/niquests-3.6.5.tar.gz
+[2024-05-27 07:58:42] INFO root fetch - processPackages [openbharatocr]: Downloading https://files.pythonhosted.org/packages/39/44/99356b378f80eb9b70a5be9fbd0ecb812a6ee43d64c529e92b23f779b72a/openbharatocr-0.3.0.tar.gz
+[2024-05-27 07:58:42] INFO root fetch - processPackages [autopipeline]: Downloading https://files.pythonhosted.org/packages/5f/0f/9eaf209b6d540115afdc9ae31de828df0234756277bceae49a4d1a0ea8b3/autopipeline-0.1.98.tar.gz
+[2024-05-27 07:58:42] INFO root fetch - processPackages [ivande-combiner]: Downloading https://files.pythonhosted.org/packages/3f/a9/80386ed0c5d112f1438ac694dabdb34f4e73326a821141c1c17b4096135a/ivande_combiner-0.0.8.tar.gz
+[2024-05-27 07:58:42] INFO root fetch - processPackages [camlab]: Downloading https://files.pythonhosted.org/packages/26/56/13a738d48403db10010a4bee112a9a27234393ba4190355bdde0c734c562/camlab-0.1.0.tar.gz
+[2024-05-27 07:58:42] INFO root fetch - processPackages [libdaw]: Downloading https://files.pythonhosted.org/packages/14/c2/023c0dfe3b6da6f707728a82531a9c264a80bd6a23612ced81e988a426b5/libdaw-0.7.0.tar.gz
+[2024-05-27 07:58:42] INFO root fetch - processPackages [ivande-combiner]: executing diffoscope
+[2024-05-27 07:58:42] INFO root fetch - processPackages [ivande-combiner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ivande_combiner-0.0.7.tar.gz tmp/ivande_combiner-0.0.8.tar.gz --markdown 20240527/i/ivande-combiner/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-27 07:58:42] INFO root fetch - processPackages [camlab]: executing diffoscope
+[2024-05-27 07:58:42] INFO root fetch - processPackages [camlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/camlab-0.0.8.6.tar.gz tmp/camlab-0.1.0.tar.gz --markdown 20240527/c/camlab/0.0.8.6-0.1.0/README.md --exclude *.pyd
+[2024-05-27 07:58:42] INFO root fetch - processPackages [niquests]: Downloading https://files.pythonhosted.org/packages/d5/dc/bcb8c5eb919da99b64a90dfd840598d9573110ea7c5a451e8c958ffe4a0a/niquests-3.6.6.tar.gz
+[2024-05-27 07:58:42] INFO root fetch - processPackages [autopipeline]: Downloading https://files.pythonhosted.org/packages/5f/4a/f3df97d414e0a5e9120459fd5c7ab663092d540df59f7deacc45810deb41/autopipeline-0.1.99.tar.gz
+[2024-05-27 07:58:42] INFO root fetch - processPackages [openbharatocr]: Downloading https://files.pythonhosted.org/packages/27/7d/8d2778a0eb789c236f36343a3a6e8ec415a7291970b3277b64acfd84ad23/openbharatocr-0.3.1.tar.gz
+[2024-05-27 07:58:42] INFO root fetch - processPackages [libdaw]: Downloading https://files.pythonhosted.org/packages/d2/a7/ea5fedc30a02a86d7cf2d7603fc164cfa7deac4008ed37bf8fb0c4f0a708/libdaw-0.8.0-cp311-cp311-manylinux_2_17_i686.manylinux2014_i686.whl
+[2024-05-27 07:58:42] INFO root fetch - processPackages [autopipeline]: executing diffoscope
+[2024-05-27 07:58:42] INFO root fetch - processPackages [autopipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autopipeline-0.1.98.tar.gz tmp/autopipeline-0.1.99.tar.gz --markdown 20240527/a/autopipeline/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-05-27 07:58:42] INFO root fetch - processPackages [openbharatocr]: executing diffoscope
+[2024-05-27 07:58:42] INFO root fetch - processPackages [openbharatocr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openbharatocr-0.3.0.tar.gz tmp/openbharatocr-0.3.1.tar.gz --markdown 20240527/o/openbharatocr/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-05-27 07:58:42] INFO root fetch - processPackages [niquests]: executing diffoscope
+[2024-05-27 07:58:42] INFO root fetch - processPackages [niquests]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/niquests-3.6.5.tar.gz tmp/niquests-3.6.6.tar.gz --markdown 20240527/n/niquests/3.6.5-3.6.6/README.md --exclude *.pyd
+[2024-05-27 07:58:43] INFO root fetch - processPackages [ivande-combiner]: Remove: archive file [/home/abi/fetcher/tmp/ivande_combiner-0.0.7.tar.gz]
+[2024-05-27 07:58:43] INFO root fetch - processPackages [ivande-combiner]: Remove: archive file [/home/abi/fetcher/tmp/ivande_combiner-0.0.8.tar.gz]
+[2024-05-27 07:58:43] INFO root fetch - main [MainThread]: End processing [ivande-combiner]: success
+[2024-05-27 07:58:43] INFO root fetch - processPackages [camlab]: Remove: archive file [/home/abi/fetcher/tmp/camlab-0.0.8.6.tar.gz]
+[2024-05-27 07:58:43] INFO root fetch - processPackages [camlab]: Remove: archive file [/home/abi/fetcher/tmp/camlab-0.1.0.tar.gz]
+[2024-05-27 07:58:43] INFO root fetch - main [MainThread]: End processing [camlab]: success
+[2024-05-27 07:58:43] INFO root fetch - processPackages [libdaw]: executing diffoscope
+[2024-05-27 07:58:43] INFO root fetch - processPackages [libdaw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libdaw-0.7.0.tar.gz tmp/libdaw-0.8.0-cp311-cp311-manylinux_2_17_i686.manylinux2014_i686.whl.zip --markdown 20240527/l/libdaw/0.7.0-0.8.0/README.md --exclude *.pyd
+[2024-05-27 07:58:43] INFO root fetch - processPackages [openbharatocr]: Remove: archive file [/home/abi/fetcher/tmp/openbharatocr-0.3.0.tar.gz]
+[2024-05-27 07:58:43] INFO root fetch - processPackages [openbharatocr]: Remove: archive file [/home/abi/fetcher/tmp/openbharatocr-0.3.1.tar.gz]
+[2024-05-27 07:58:43] INFO root fetch - main [MainThread]: End processing [openbharatocr]: success
+[2024-05-27 07:58:43] INFO root fetch - processPackages [autopipeline]: Remove: archive file [/home/abi/fetcher/tmp/autopipeline-0.1.98.tar.gz]
+[2024-05-27 07:58:43] INFO root fetch - processPackages [autopipeline]: Remove: archive file [/home/abi/fetcher/tmp/autopipeline-0.1.99.tar.gz]
+[2024-05-27 07:58:43] INFO root fetch - main [MainThread]: End processing [autopipeline]: success
+[2024-05-27 07:58:43] INFO root fetch - processPackages [niquests]: Remove: archive file [/home/abi/fetcher/tmp/niquests-3.6.5.tar.gz]
+[2024-05-27 07:58:43] INFO root fetch - processPackages [niquests]: Remove: archive file [/home/abi/fetcher/tmp/niquests-3.6.6.tar.gz]
+[2024-05-27 07:58:43] INFO root fetch - main [MainThread]: End processing [niquests]: success
+[2024-05-27 07:58:44] INFO root fetch - processPackages [libdaw]: Remove: archive file [/home/abi/fetcher/tmp/libdaw-0.7.0.tar.gz]
+[2024-05-27 07:58:44] INFO root fetch - processPackages [libdaw]: Remove: archive file [/home/abi/fetcher/tmp/libdaw-0.8.0-cp311-cp311-manylinux_2_17_i686.manylinux2014_i686.whl.zip]
+[2024-05-27 07:58:44] INFO root fetch - main [MainThread]: End processing [libdaw]: success
+[2024-05-27 07:58:44] INFO root fetch - main [MainThread]: Store serial: [23391097]
