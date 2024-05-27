@@ -13543,3 +13543,33 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 13:06:10] INFO root fetch - processPackages [composabl-train-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_train_dev-0.8.0.dev98-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2024-05-27 13:06:10] INFO root fetch - main [MainThread]: End processing [composabl-train-dev]: success
 [2024-05-27 13:06:10] INFO root fetch - main [MainThread]: Store serial: [23394513]
+[2024-05-27 13:08:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23394513]
+[2024-05-27 13:08:18] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-27 13:08:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gstlearn
+[2024-05-27 13:08:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: combadge
+[2024-05-27 13:08:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: examon-pcep-package
+[2024-05-27 13:08:18] INFO root fetch - processPackages [examon-pcep-package]: New version: [0.4.0] Old Version: [0.2.2]
+[2024-05-27 13:08:18] INFO root fetch - processPackages [combadge]: New version: [4.2.4] Old Version: [4.2.3]
+[2024-05-27 13:08:18] INFO root fetch - processPackages [examon-pcep-package]: Downloading https://files.pythonhosted.org/packages/ee/fc/f899a762d4c81c4b2f8360af3313015eba08b7f263e334205c9e66267322/examon_pcep_package-0.2.2.tar.gz
+[2024-05-27 13:08:18] INFO root fetch - processPackages [combadge]: Downloading https://files.pythonhosted.org/packages/9e/9e/7d164ef926dcbfb5712c360b52a83ebd8761e9773bd5d872356486a229f2/combadge-4.2.3.tar.gz
+[2024-05-27 13:08:18] INFO root fetch - processPackages [gstlearn]: New version: [1.2.2] Old Version: [1.2.1]
+[2024-05-27 13:08:19] INFO root fetch - processPackages [gstlearn]: Downloading https://files.pythonhosted.org/packages/fd/c1/4c1394ddfc528b54545d77be360f7063647def8f95e1b8c31153fe3d38c4/gstlearn-1.2.1-cp39-cp39-win_amd64.whl
+[2024-05-27 13:08:19] INFO root fetch - processPackages [examon-pcep-package]: Downloading https://files.pythonhosted.org/packages/a3/c1/015a5abffd280b23b49d2547704083d9f94bef7412289fa78bf4ee006b73/examon_pcep_package-0.4.0.tar.gz
+[2024-05-27 13:08:19] INFO root fetch - processPackages [combadge]: Downloading https://files.pythonhosted.org/packages/e7/6c/8629141ca242d16e4127aff57ed22bf13a200c12a0bf9686daa3130f6555/combadge-4.2.4.tar.gz
+[2024-05-27 13:08:19] INFO root fetch - processPackages [examon-pcep-package]: executing diffoscope
+[2024-05-27 13:08:19] INFO root fetch - processPackages [examon-pcep-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/examon_pcep_package-0.2.2.tar.gz tmp/examon_pcep_package-0.4.0.tar.gz --markdown 20240527/e/examon-pcep-package/0.2.2-0.4.0/README.md --exclude *.pyd
+[2024-05-27 13:08:19] INFO root fetch - processPackages [combadge]: executing diffoscope
+[2024-05-27 13:08:19] INFO root fetch - processPackages [combadge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/combadge-4.2.3.tar.gz tmp/combadge-4.2.4.tar.gz --markdown 20240527/c/combadge/4.2.3-4.2.4/README.md --exclude *.pyd
+[2024-05-27 13:08:19] INFO root fetch - processPackages [examon-pcep-package]: Remove: archive file [/home/abi/fetcher/tmp/examon_pcep_package-0.2.2.tar.gz]
+[2024-05-27 13:08:19] INFO root fetch - processPackages [examon-pcep-package]: Remove: archive file [/home/abi/fetcher/tmp/examon_pcep_package-0.4.0.tar.gz]
+[2024-05-27 13:08:19] INFO root fetch - main [MainThread]: End processing [examon-pcep-package]: success
+[2024-05-27 13:08:19] INFO root fetch - processPackages [combadge]: Remove: archive file [/home/abi/fetcher/tmp/combadge-4.2.3.tar.gz]
+[2024-05-27 13:08:19] INFO root fetch - processPackages [combadge]: Remove: archive file [/home/abi/fetcher/tmp/combadge-4.2.4.tar.gz]
+[2024-05-27 13:08:19] INFO root fetch - main [MainThread]: End processing [combadge]: success
+[2024-05-27 13:08:20] INFO root fetch - processPackages [gstlearn]: Downloading https://files.pythonhosted.org/packages/ee/87/3ddafabbf9916ae61568fc51dd69cb8e72252ef409e735a12de42dbbafa4/gstlearn-1.2.2-cp39-cp39-win_amd64.whl
+[2024-05-27 13:08:20] INFO root fetch - processPackages [gstlearn]: executing diffoscope
+[2024-05-27 13:08:20] INFO root fetch - processPackages [gstlearn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gstlearn-1.2.1-cp39-cp39-win_amd64.whl.zip tmp/gstlearn-1.2.2-cp39-cp39-win_amd64.whl.zip --markdown 20240527/g/gstlearn/1.2.1-1.2.2/README.md --exclude *.pyd
+[2024-05-27 13:08:21] INFO root fetch - processPackages [gstlearn]: Remove: archive file [/home/abi/fetcher/tmp/gstlearn-1.2.1-cp39-cp39-win_amd64.whl.zip]
+[2024-05-27 13:08:21] INFO root fetch - processPackages [gstlearn]: Remove: archive file [/home/abi/fetcher/tmp/gstlearn-1.2.2-cp39-cp39-win_amd64.whl.zip]
+[2024-05-27 13:08:21] INFO root fetch - main [MainThread]: End processing [gstlearn]: success
+[2024-05-27 13:08:21] INFO root fetch - main [MainThread]: Store serial: [23394544]
