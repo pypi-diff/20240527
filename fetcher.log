@@ -20579,3 +20579,78 @@ EOFError: EOF read where object expected
 [2024-05-27 17:37:33] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip]
 [2024-05-27 17:37:33] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
 [2024-05-27 17:37:33] INFO root fetch - main [MainThread]: Store serial: [23397760]
+[2024-05-27 17:39:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23397760]
+[2024-05-27 17:39:42] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-27 17:39:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: twyn
+[2024-05-27 17:39:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: torchoutil
+[2024-05-27 17:39:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: yeref
+[2024-05-27 17:39:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-smartbase-admin
+[2024-05-27 17:39:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: resc-backend
+[2024-05-27 17:39:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: few-shot-priming
+[2024-05-27 17:39:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: apexdevkit
+[2024-05-27 17:39:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: goodboy-sqlalchemy
+[2024-05-27 17:39:42] INFO root fetch - processPackages [apexdevkit]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-05-27 17:39:42] INFO root fetch - processPackages [django-smartbase-admin]: New version: [0.2.9] Old Version: [0.2.7]
+[2024-05-27 17:39:43] INFO root fetch - processPackages [yeref]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-27 17:39:43] INFO root fetch - processPackages [few-shot-priming]: New version: [0.3.99] Old Version: [0.3.98]
+[2024-05-27 17:39:43] INFO root fetch - processPackages [twyn]: New version: [2.6.9] Old Version: [2.6.8]
+[2024-05-27 17:39:43] INFO root fetch - processPackages [goodboy-sqlalchemy]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-05-27 17:39:43] INFO root fetch - processPackages [apexdevkit]: Downloading https://files.pythonhosted.org/packages/cd/df/6ebf69b09bb1cbcff0eef5846ad5a95b1dc4e95d8d0fdef0808fc977568e/apexdevkit-1.1.1.tar.gz
+[2024-05-27 17:39:43] INFO root fetch - processPackages [resc-backend]: New version: [3.3.1] Old Version: [3.3.0]
+[2024-05-27 17:39:43] INFO root fetch - processPackages [torchoutil]: New version: [0.4.0] Old Version: [0.3.1]
+[2024-05-27 17:39:43] INFO root fetch - processPackages [django-smartbase-admin]: Downloading https://files.pythonhosted.org/packages/4c/b9/c32d7019547d76c2c6c1b8ea747b942212105b1c88767762bab1ac62f415/django_smartbase_admin-0.2.7.tar.gz
+[2024-05-27 17:39:43] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/ec/cb/204e6fbe233bbb61cf29c1b491e8c638c8a843edc47fb4e1d8cc8c26608c/yeref-0.9.8.tar.gz
+[2024-05-27 17:39:43] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/eb/67/d15b11d0bfb57369fa16ba7f8c97cd3ddec8f771e6da8f11a3d819004b69/few_shot_priming-0.3.98-py3-none-any.whl
+[2024-05-27 17:39:43] INFO root fetch - processPackages [twyn]: Downloading https://files.pythonhosted.org/packages/3e/65/9a67763e70ad9b9b3fe662256881abfbdd085de12bd040fa57c2a3fa47d3/twyn-2.6.8.tar.gz
+[2024-05-27 17:39:43] INFO root fetch - processPackages [torchoutil]: Downloading https://files.pythonhosted.org/packages/c4/cb/cfa5faf5f7464909673c25289cb82a3ab43dcbc6ed6d8caec3ef743faa22/torchoutil-0.3.1.tar.gz
+[2024-05-27 17:39:43] INFO root fetch - processPackages [resc-backend]: Downloading https://files.pythonhosted.org/packages/5d/43/2c39d7d7590072e3bc7ebc0a6f809c20f5f45ce897c47e41b951b7a45307/resc_backend-3.3.0.tar.gz
+[2024-05-27 17:39:43] INFO root fetch - processPackages [goodboy-sqlalchemy]: Downloading https://files.pythonhosted.org/packages/a3/a4/8f14eaeae0807b140175a2dc080c995b1b3f20eecbc2dd7cb3438468a5db/goodboy_sqlalchemy-0.2.2.tar.gz
+[2024-05-27 17:39:43] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/01/13/0f11bb3dfb27aaf16ed48b0046f50ac65b1fde32662fbc314d53e2558b2d/yeref-0.9.9.tar.gz
+[2024-05-27 17:39:43] INFO root fetch - processPackages [apexdevkit]: Downloading https://files.pythonhosted.org/packages/49/b3/2da9397d2792ccca81562b6ea20e10047628c4fdcad06f45b0d3fa747c74/apexdevkit-1.1.2.tar.gz
+[2024-05-27 17:39:43] INFO root fetch - processPackages [django-smartbase-admin]: Downloading https://files.pythonhosted.org/packages/63/1e/301c376a330a21311919a45d9762d7c6c5d2090546a3b0d3b0e36db1c986/django_smartbase_admin-0.2.9.tar.gz
+[2024-05-27 17:39:43] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2024-05-27 17:39:43] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.9.8.tar.gz tmp/yeref-0.9.9.tar.gz --markdown 20240527/y/yeref/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-27 17:39:43] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/ff/11/548f6e96803602e6431dc610d736d401b20fde986f85c35c8ad19a6d0958/few_shot_priming-0.3.99-py3-none-any.whl
+[2024-05-27 17:39:43] INFO root fetch - processPackages [torchoutil]: Downloading https://files.pythonhosted.org/packages/54/66/3b1784e74938845c07c94f8f2dcf02902ed7deca368ea13fd756a64d0016/torchoutil-0.4.0.tar.gz
+[2024-05-27 17:39:43] INFO root fetch - processPackages [apexdevkit]: executing diffoscope
+[2024-05-27 17:39:43] INFO root fetch - processPackages [apexdevkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apexdevkit-1.1.1.tar.gz tmp/apexdevkit-1.1.2.tar.gz --markdown 20240527/a/apexdevkit/1.1.1-1.1.2/README.md --exclude *.pyd
+[2024-05-27 17:39:43] INFO root fetch - processPackages [resc-backend]: Downloading https://files.pythonhosted.org/packages/42/27/15325b14a1cc170d9af5fa08590c75ad4effdc76f995ccb5e2b622262ee1/resc_backend-3.3.1.tar.gz
+[2024-05-27 17:39:43] INFO root fetch - processPackages [goodboy-sqlalchemy]: Downloading https://files.pythonhosted.org/packages/f3/46/6fc566d9dc90f7268cc1109880b9b3d6c63dc0031c6cbbf2f11062572842/goodboy_sqlalchemy-0.2.3.tar.gz
+[2024-05-27 17:39:43] INFO root fetch - processPackages [twyn]: Downloading https://files.pythonhosted.org/packages/61/66/200fb13e9086b43ae9bb85b1e3325ec6da3d55eb634ac4b1bd2020be5677/twyn-2.6.9.tar.gz
+[2024-05-27 17:39:43] INFO root fetch - processPackages [torchoutil]: executing diffoscope
+[2024-05-27 17:39:43] INFO root fetch - processPackages [torchoutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchoutil-0.3.1.tar.gz tmp/torchoutil-0.4.0.tar.gz --markdown 20240527/t/torchoutil/0.3.1-0.4.0/README.md --exclude *.pyd
+[2024-05-27 17:39:43] INFO root fetch - processPackages [twyn]: executing diffoscope
+[2024-05-27 17:39:43] INFO root fetch - processPackages [twyn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twyn-2.6.8.tar.gz tmp/twyn-2.6.9.tar.gz --markdown 20240527/t/twyn/2.6.8-2.6.9/README.md --exclude *.pyd
+[2024-05-27 17:39:43] INFO root fetch - processPackages [django-smartbase-admin]: executing diffoscope
+[2024-05-27 17:39:43] INFO root fetch - processPackages [django-smartbase-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_smartbase_admin-0.2.7.tar.gz tmp/django_smartbase_admin-0.2.9.tar.gz --markdown 20240527/d/django-smartbase-admin/0.2.7-0.2.9/README.md --exclude *.pyd
+[2024-05-27 17:39:43] INFO root fetch - processPackages [resc-backend]: executing diffoscope
+[2024-05-27 17:39:43] INFO root fetch - processPackages [resc-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resc_backend-3.3.0.tar.gz tmp/resc_backend-3.3.1.tar.gz --markdown 20240527/r/resc-backend/3.3.0-3.3.1/README.md --exclude *.pyd
+[2024-05-27 17:39:43] INFO root fetch - processPackages [goodboy-sqlalchemy]: executing diffoscope
+[2024-05-27 17:39:43] INFO root fetch - processPackages [goodboy-sqlalchemy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/goodboy_sqlalchemy-0.2.2.tar.gz tmp/goodboy_sqlalchemy-0.2.3.tar.gz --markdown 20240527/g/goodboy-sqlalchemy/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-05-27 17:39:44] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2024-05-27 17:39:44] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.3.98-py3-none-any.whl.zip tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip --markdown 20240527/f/few-shot-priming/0.3.98-0.3.99/README.md --exclude *.pyd
+[2024-05-27 17:39:44] INFO root fetch - processPackages [apexdevkit]: Remove: archive file [/home/abi/fetcher/tmp/apexdevkit-1.1.1.tar.gz]
+[2024-05-27 17:39:44] INFO root fetch - processPackages [apexdevkit]: Remove: archive file [/home/abi/fetcher/tmp/apexdevkit-1.1.2.tar.gz]
+[2024-05-27 17:39:44] INFO root fetch - main [MainThread]: End processing [apexdevkit]: success
+[2024-05-27 17:39:44] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.8.tar.gz]
+[2024-05-27 17:39:44] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.9.tar.gz]
+[2024-05-27 17:39:44] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2024-05-27 17:39:44] INFO root fetch - processPackages [twyn]: Remove: archive file [/home/abi/fetcher/tmp/twyn-2.6.8.tar.gz]
+[2024-05-27 17:39:44] INFO root fetch - processPackages [twyn]: Remove: archive file [/home/abi/fetcher/tmp/twyn-2.6.9.tar.gz]
+[2024-05-27 17:39:44] INFO root fetch - main [MainThread]: End processing [twyn]: success
+[2024-05-27 17:39:44] INFO root fetch - processPackages [goodboy-sqlalchemy]: Remove: archive file [/home/abi/fetcher/tmp/goodboy_sqlalchemy-0.2.2.tar.gz]
+[2024-05-27 17:39:44] INFO root fetch - processPackages [goodboy-sqlalchemy]: Remove: archive file [/home/abi/fetcher/tmp/goodboy_sqlalchemy-0.2.3.tar.gz]
+[2024-05-27 17:39:44] INFO root fetch - main [MainThread]: End processing [goodboy-sqlalchemy]: success
+[2024-05-27 17:39:44] INFO root fetch - processPackages [torchoutil]: Remove: archive file [/home/abi/fetcher/tmp/torchoutil-0.3.1.tar.gz]
+[2024-05-27 17:39:44] INFO root fetch - processPackages [torchoutil]: Remove: archive file [/home/abi/fetcher/tmp/torchoutil-0.4.0.tar.gz]
+[2024-05-27 17:39:44] INFO root fetch - main [MainThread]: End processing [torchoutil]: success
+[2024-05-27 17:39:44] INFO root fetch - processPackages [resc-backend]: Remove: archive file [/home/abi/fetcher/tmp/resc_backend-3.3.0.tar.gz]
+[2024-05-27 17:39:44] INFO root fetch - processPackages [resc-backend]: Remove: archive file [/home/abi/fetcher/tmp/resc_backend-3.3.1.tar.gz]
+[2024-05-27 17:39:44] INFO root fetch - main [MainThread]: End processing [resc-backend]: success
+[2024-05-27 17:39:45] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.98-py3-none-any.whl.zip]
+[2024-05-27 17:39:45] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip]
+[2024-05-27 17:39:45] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2024-05-27 17:39:49] INFO root fetch - processPackages [django-smartbase-admin]: Remove: archive file [/home/abi/fetcher/tmp/django_smartbase_admin-0.2.7.tar.gz]
+[2024-05-27 17:39:49] INFO root fetch - processPackages [django-smartbase-admin]: Remove: archive file [/home/abi/fetcher/tmp/django_smartbase_admin-0.2.9.tar.gz]
+[2024-05-27 17:39:49] INFO root fetch - main [MainThread]: End processing [django-smartbase-admin]: success
+[2024-05-27 17:39:49] INFO root fetch - main [MainThread]: Store serial: [23397783]
