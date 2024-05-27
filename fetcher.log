@@ -7070,3 +7070,36 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 08:26:57] INFO root fetch - processPackages [capsule-manager-sdk]: Remove: archive file [/home/abi/fetcher/tmp/capsule_manager_sdk-0.2.0.dev20240527-py3-none-manylinux2014_x86_64.whl.zip]
 [2024-05-27 08:26:57] INFO root fetch - main [MainThread]: End processing [capsule-manager-sdk]: success
 [2024-05-27 08:26:57] INFO root fetch - main [MainThread]: Store serial: [23391336]
+[2024-05-27 08:29:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23391336]
+[2024-05-27 08:29:06] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-27 08:29:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: conflict-rpa
+[2024-05-27 08:29:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xontrib-fzf-completions
+[2024-05-27 08:29:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: GameWorldNavigator
+[2024-05-27 08:29:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: stefutils
+[2024-05-27 08:29:06] INFO root fetch - processPackages [conflict-rpa]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-27 08:29:06] INFO root fetch - processPackages [stefutils]: New version: [0.9.0] Old Version: [0.8.2]
+[2024-05-27 08:29:06] INFO root fetch - processPackages [conflict-rpa]: Downloading https://files.pythonhosted.org/packages/c9/a5/7bb7166332d6af17bc4f1d33ba74a43e54b42069d395a4fa64eb3fe2f0a0/conflict_rpa-0.0.7.tar.gz
+[2024-05-27 08:29:06] WARNING root fetch - processPackages [xontrib-fzf-completions]: Skipping, unable to determine old version
+[2024-05-27 08:29:06] INFO root fetch - main [MainThread]: End processing [xontrib-fzf-completions] error
+[2024-05-27 08:29:06] INFO root fetch - processPackages [stefutils]: Downloading https://files.pythonhosted.org/packages/35/8a/1e1d14788f07a9e2f1f826ff7ed0782d942b144ca6bdd3e7aba10d88d63c/stefutils-0.8.2.tar.gz
+[2024-05-27 08:29:06] INFO root fetch - processPackages [GameWorldNavigator]: New version: [0.0.7] Old Version: [0.0.6.3]
+[2024-05-27 08:29:06] INFO root fetch - processPackages [GameWorldNavigator]: Downloading https://files.pythonhosted.org/packages/33/da/68c5ee231494f632b4c98fcfe3b843d744eebe5b9347ea98e15b646ed648/GameWorldNavigator-0.0.6.3.tar.gz
+[2024-05-27 08:29:06] INFO root fetch - processPackages [stefutils]: Downloading https://files.pythonhosted.org/packages/97/83/18c4d714dca8e70776fec14f20e075956fd6a82321ac6df03f78534d47eb/stefutils-0.9.0.tar.gz
+[2024-05-27 08:29:06] INFO root fetch - processPackages [conflict-rpa]: Downloading https://files.pythonhosted.org/packages/fd/14/6edde25ff7c00b4f2c307bff6eb49ed56da88cf40f3aa998c2cb262bb172/conflict_rpa-0.0.8.tar.gz
+[2024-05-27 08:29:06] INFO root fetch - processPackages [stefutils]: executing diffoscope
+[2024-05-27 08:29:06] INFO root fetch - processPackages [stefutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stefutils-0.8.2.tar.gz tmp/stefutils-0.9.0.tar.gz --markdown 20240527/s/stefutils/0.8.2-0.9.0/README.md --exclude *.pyd
+[2024-05-27 08:29:06] INFO root fetch - processPackages [conflict-rpa]: executing diffoscope
+[2024-05-27 08:29:06] INFO root fetch - processPackages [conflict-rpa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/conflict_rpa-0.0.7.tar.gz tmp/conflict_rpa-0.0.8.tar.gz --markdown 20240527/c/conflict-rpa/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-27 08:29:06] INFO root fetch - processPackages [GameWorldNavigator]: Downloading https://files.pythonhosted.org/packages/48/8c/67f42d0ab6497e18938c4fcb3e2af59c624f25297ddc45a08a6de1e0b65a/GameWorldNavigator-0.0.7.tar.gz
+[2024-05-27 08:29:06] INFO root fetch - processPackages [GameWorldNavigator]: executing diffoscope
+[2024-05-27 08:29:06] INFO root fetch - processPackages [GameWorldNavigator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GameWorldNavigator-0.0.6.3.tar.gz tmp/GameWorldNavigator-0.0.7.tar.gz --markdown 20240527/G/GameWorldNavigator/0.0.6.3-0.0.7/README.md --exclude *.pyd
+[2024-05-27 08:29:07] INFO root fetch - processPackages [stefutils]: Remove: archive file [/home/abi/fetcher/tmp/stefutils-0.8.2.tar.gz]
+[2024-05-27 08:29:07] INFO root fetch - processPackages [stefutils]: Remove: archive file [/home/abi/fetcher/tmp/stefutils-0.9.0.tar.gz]
+[2024-05-27 08:29:07] INFO root fetch - main [MainThread]: End processing [stefutils]: success
+[2024-05-27 08:29:07] INFO root fetch - processPackages [conflict-rpa]: Remove: archive file [/home/abi/fetcher/tmp/conflict_rpa-0.0.7.tar.gz]
+[2024-05-27 08:29:07] INFO root fetch - processPackages [conflict-rpa]: Remove: archive file [/home/abi/fetcher/tmp/conflict_rpa-0.0.8.tar.gz]
+[2024-05-27 08:29:07] INFO root fetch - main [MainThread]: End processing [conflict-rpa]: success
+[2024-05-27 08:29:07] INFO root fetch - processPackages [GameWorldNavigator]: Remove: archive file [/home/abi/fetcher/tmp/GameWorldNavigator-0.0.6.3.tar.gz]
+[2024-05-27 08:29:07] INFO root fetch - processPackages [GameWorldNavigator]: Remove: archive file [/home/abi/fetcher/tmp/GameWorldNavigator-0.0.7.tar.gz]
+[2024-05-27 08:29:07] INFO root fetch - main [MainThread]: End processing [GameWorldNavigator]: success
+[2024-05-27 08:29:07] INFO root fetch - main [MainThread]: Store serial: [23391347]
