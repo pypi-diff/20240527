@@ -6303,3 +6303,27 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 07:34:41] INFO root fetch - processPackages [tflite-runtime-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite_runtime_nightly-2.17.0.dev20240525-cp39-cp39-manylinux_2_34_armv7l.whl.zip]
 [2024-05-27 07:34:41] INFO root fetch - main [MainThread]: End processing [tflite-runtime-nightly]: success
 [2024-05-27 07:34:41] INFO root fetch - main [MainThread]: Store serial: [23390927]
+[2024-05-27 07:36:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23390927]
+[2024-05-27 07:36:49] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-27 07:36:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: CUQIpy
+[2024-05-27 07:36:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: my-unique-word-counter
+[2024-05-27 07:36:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: morphdb-utils
+[2024-05-27 07:36:49] WARNING root fetch - processPackages [my-unique-word-counter]: Skipping, unable to determine old version
+[2024-05-27 07:36:49] INFO root fetch - main [MainThread]: End processing [my-unique-word-counter] error
+[2024-05-27 07:36:49] INFO root fetch - processPackages [morphdb-utils]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-27 07:36:49] INFO root fetch - processPackages [CUQIpy]: New version: [1.0.0.post0.dev91] Old Version: [1.0.0.post0.dev84]
+[2024-05-27 07:36:49] INFO root fetch - processPackages [morphdb-utils]: Downloading https://files.pythonhosted.org/packages/cd/4f/c6949258d5647c0aa4d14e61014c6e3a7c9f08086b8ff176bee34576864d/morphdb_utils-0.1.8.tar.gz
+[2024-05-27 07:36:49] INFO root fetch - processPackages [CUQIpy]: Downloading https://files.pythonhosted.org/packages/a3/7a/3055a8605b15ec5a340925b0806d2098b023cdcdfbce3a64efc80ac9b179/CUQIpy-1.0.0.post0.dev84.tar.gz
+[2024-05-27 07:36:50] INFO root fetch - processPackages [morphdb-utils]: Downloading https://files.pythonhosted.org/packages/f4/69/729494d22abe49b72c25e4b1efa215d54cab59388bae925f40777fce21f3/morphdb_utils-0.1.9.tar.gz
+[2024-05-27 07:36:50] INFO root fetch - processPackages [morphdb-utils]: executing diffoscope
+[2024-05-27 07:36:50] INFO root fetch - processPackages [morphdb-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/morphdb_utils-0.1.8.tar.gz tmp/morphdb_utils-0.1.9.tar.gz --markdown 20240527/m/morphdb-utils/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-27 07:36:50] INFO root fetch - processPackages [CUQIpy]: Downloading https://files.pythonhosted.org/packages/20/73/290e5c26c332d440fb4538f8ec866910cfe4be75fbfeb121b4d47fcd6a21/CUQIpy-1.0.0.post0.dev91.tar.gz
+[2024-05-27 07:36:51] INFO root fetch - processPackages [CUQIpy]: executing diffoscope
+[2024-05-27 07:36:51] INFO root fetch - processPackages [CUQIpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CUQIpy-1.0.0.post0.dev84.tar.gz tmp/CUQIpy-1.0.0.post0.dev91.tar.gz --markdown 20240527/C/CUQIpy/1.0.0.post0.dev84-1.0.0.post0.dev91/README.md --exclude *.pyd
+[2024-05-27 07:36:51] INFO root fetch - processPackages [morphdb-utils]: Remove: archive file [/home/abi/fetcher/tmp/morphdb_utils-0.1.8.tar.gz]
+[2024-05-27 07:36:51] INFO root fetch - processPackages [morphdb-utils]: Remove: archive file [/home/abi/fetcher/tmp/morphdb_utils-0.1.9.tar.gz]
+[2024-05-27 07:36:51] INFO root fetch - main [MainThread]: End processing [morphdb-utils]: success
+[2024-05-27 07:36:51] INFO root fetch - processPackages [CUQIpy]: Remove: archive file [/home/abi/fetcher/tmp/CUQIpy-1.0.0.post0.dev84.tar.gz]
+[2024-05-27 07:36:51] INFO root fetch - processPackages [CUQIpy]: Remove: archive file [/home/abi/fetcher/tmp/CUQIpy-1.0.0.post0.dev91.tar.gz]
+[2024-05-27 07:36:51] INFO root fetch - main [MainThread]: End processing [CUQIpy]: success
+[2024-05-27 07:36:51] INFO root fetch - main [MainThread]: Store serial: [23390936]
