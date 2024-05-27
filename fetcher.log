@@ -10937,3 +10937,141 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 11:31:09] INFO root fetch - processPackages [open-aea-ledger-fetchai]: Remove: archive file [/home/abi/fetcher/tmp/open-aea-ledger-fetchai-1.9.0.post1.tar.gz]
 [2024-05-27 11:31:09] INFO root fetch - main [MainThread]: End processing [open-aea-ledger-fetchai]: success
 [2024-05-27 11:31:09] INFO root fetch - main [MainThread]: Store serial: [23393266]
+[2024-05-27 11:33:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23393266]
+[2024-05-27 11:33:18] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2024-05-27 11:33:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rooms-shared-services
+[2024-05-27 11:33:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pwact
+[2024-05-27 11:33:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chess-notation
+[2024-05-27 11:33:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: varnaapi
+[2024-05-27 11:33:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: diracx
+[2024-05-27 11:33:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: diracx-api
+[2024-05-27 11:33:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: diracx-cli
+[2024-05-27 11:33:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: diracx-client
+[2024-05-27 11:33:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: diracx-core
+[2024-05-27 11:33:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: diracx-db
+[2024-05-27 11:33:18] INFO root fetch - processPackages [rooms-shared-services]: New version: [0.1.99] Old Version: [0.1.97]
+[2024-05-27 11:33:18] INFO root fetch - processPackages [rooms-shared-services]: Downloading https://files.pythonhosted.org/packages/16/6e/7a35dabe25e96c04274cbd9f69a6e68b4f36dc149e22451fb099f79d153e/rooms_shared_services-0.1.97.tar.gz
+[2024-05-27 11:33:18] INFO root fetch - processPackages [varnaapi]: New version: [1.2.0] Old Version: [1.1.1]
+[2024-05-27 11:33:18] INFO root fetch - processPackages [diracx-client]: New version: [0.0.1a9] Old Version: [0.0.1a8]
+[2024-05-27 11:33:18] INFO root fetch - processPackages [diracx-core]: New version: [0.0.1a9] Old Version: [0.0.1a8]
+[2024-05-27 11:33:19] INFO root fetch - processPackages [diracx-db]: New version: [0.0.1a9] Old Version: [0.0.1a8]
+[2024-05-27 11:33:19] INFO root fetch - processPackages [chess-notation]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-27 11:33:19] WARNING root fetch - processPackages [pwact]: Skipping, unable to determine old version
+[2024-05-27 11:33:19] INFO root fetch - processPackages [diracx-cli]: New version: [0.0.1a9] Old Version: [0.0.1a8]
+[2024-05-27 11:33:19] INFO root fetch - processPackages [diracx]: New version: [0.0.1a9] Old Version: [0.0.1a8]
+[2024-05-27 11:33:19] INFO root fetch - processPackages [pwact]: Start processing: diracx-routers
+[2024-05-27 11:33:19] INFO root fetch - main [MainThread]: End processing [pwact] error
+[2024-05-27 11:33:19] INFO root fetch - processPackages [diracx-api]: New version: [0.0.1a9] Old Version: [0.0.1a8]
+[2024-05-27 11:33:19] INFO root fetch - processPackages [diracx-db]: Downloading https://files.pythonhosted.org/packages/8c/15/9ebb18fb8523dde6babe342351a7c519a6295527cb53e5504b4224627db6/diracx-db-0.0.1a8.tar.gz
+[2024-05-27 11:33:19] INFO root fetch - processPackages [varnaapi]: Downloading https://files.pythonhosted.org/packages/d4/8a/841378138b90e77e2d7a215fe67469c83e73f07fbd385b31df364ee6662f/varnaapi-1.1.1.tar.gz
+[2024-05-27 11:33:19] INFO root fetch - processPackages [diracx-client]: Downloading https://files.pythonhosted.org/packages/6a/85/4463285da81621d21c47a620fd5ab89423c288f28cafd8a02ec202bd9d54/diracx-client-0.0.1a8.tar.gz
+[2024-05-27 11:33:19] INFO root fetch - processPackages [diracx-routers]: New version: [0.0.1a9] Old Version: [0.0.1a8]
+[2024-05-27 11:33:19] INFO root fetch - processPackages [diracx-core]: Downloading https://files.pythonhosted.org/packages/f8/6a/9ea732540d9df7f9ce19951f4c88ceac6f465e5fe98e790ee096028ebf21/diracx-core-0.0.1a8.tar.gz
+[2024-05-27 11:33:19] INFO root fetch - processPackages [diracx-cli]: Downloading https://files.pythonhosted.org/packages/d0/73/d44d694e41f7b3aeaa0569d1d5d8e204dc371cefd20f4a9e7f62708b7e22/diracx-cli-0.0.1a8.tar.gz
+[2024-05-27 11:33:19] INFO root fetch - processPackages [rooms-shared-services]: Downloading https://files.pythonhosted.org/packages/69/d1/238526d33d58183ec73b9cb900a4aea16c13e7618af0394e6c55838d4395/rooms_shared_services-0.1.99.tar.gz
+[2024-05-27 11:33:19] INFO root fetch - processPackages [diracx-api]: Downloading https://files.pythonhosted.org/packages/3a/5d/4ebbdf96935d1505724fbd77b61df20519300c9dab9c6bbc855ffb38d745/diracx-api-0.0.1a8.tar.gz
+[2024-05-27 11:33:19] INFO root fetch - processPackages [chess-notation]: Downloading https://files.pythonhosted.org/packages/32/5b/321aa148837de99a6e8c33c737a8184b9c471a64de7ec63e8881680817ce/chess_notation-0.1.8.tar.gz
+[2024-05-27 11:33:19] INFO root fetch - processPackages [diracx]: Downloading https://files.pythonhosted.org/packages/a5/74/c6efaef6fe5cee190529c24a6234daf3e745817b35946a49120731dbcc33/diracx-0.0.1a8.tar.gz
+[2024-05-27 11:33:19] INFO root fetch - processPackages [diracx-routers]: Downloading https://files.pythonhosted.org/packages/5d/bc/aa4b7d93a4b4a07cae7a4e3c900e500a3871bcd66e0a5e0f4c91df2db95e/diracx-routers-0.0.1a8.tar.gz
+[2024-05-27 11:33:19] INFO root fetch - processPackages [rooms-shared-services]: executing diffoscope
+[2024-05-27 11:33:19] INFO root fetch - processPackages [rooms-shared-services]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rooms_shared_services-0.1.97.tar.gz tmp/rooms_shared_services-0.1.99.tar.gz --markdown 20240527/r/rooms-shared-services/0.1.97-0.1.99/README.md --exclude *.pyd
+[2024-05-27 11:33:19] INFO root fetch - processPackages [varnaapi]: Downloading https://files.pythonhosted.org/packages/bb/01/371699393ce80ac0f9a2ea87e928a9095014b53e302efbf41ec70366c8b3/varnaapi-1.2.0.tar.gz
+[2024-05-27 11:33:19] INFO root fetch - processPackages [diracx-client]: Downloading https://files.pythonhosted.org/packages/77/f2/ee870621bd99d6970f2afaba98a0d2a4ae85aef8d87248728e5ee5a6ed65/diracx-client-0.0.1a9.tar.gz
+[2024-05-27 11:33:19] INFO root fetch - processPackages [diracx-cli]: Downloading https://files.pythonhosted.org/packages/ad/1e/4fc10a41dc0255c1230c13b71de557dbb5fe1d92e8ace3b656e0b24775ab/diracx-cli-0.0.1a9.tar.gz
+[2024-05-27 11:33:19] INFO root fetch - processPackages [diracx-core]: Downloading https://files.pythonhosted.org/packages/b5/03/d422dd8ea1a500de8706ec851bac10d7788516bd63a79ef6b54a7a482df0/diracx-core-0.0.1a9.tar.gz
+[2024-05-27 11:33:19] INFO root fetch - processPackages [diracx-db]: Downloading https://files.pythonhosted.org/packages/80/bf/30b8b3f4dd60b04e06402081f88700122b21f559f01873e95999c1a0e0e6/diracx-db-0.0.1a9.tar.gz
+[2024-05-27 11:33:19] INFO root fetch - processPackages [varnaapi]: executing diffoscope
+[2024-05-27 11:33:19] INFO root fetch - processPackages [varnaapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/varnaapi-1.1.1.tar.gz tmp/varnaapi-1.2.0.tar.gz --markdown 20240527/v/varnaapi/1.1.1-1.2.0/README.md --exclude *.pyd
+[2024-05-27 11:33:19] INFO root fetch - processPackages [diracx]: Downloading https://files.pythonhosted.org/packages/cc/47/e66d31f00e4513980d8e6549a35edca5482646c7ddc44953780e9dedb8c9/diracx-0.0.1a9.tar.gz
+[2024-05-27 11:33:19] INFO root fetch - processPackages [chess-notation]: Downloading https://files.pythonhosted.org/packages/e6/ec/1281095fa95f2033d2f36787c9714dd3449d8ab54104c0b842fe3ab0c72f/chess_notation-0.1.9.tar.gz
+[2024-05-27 11:33:19] INFO root fetch - processPackages [diracx-api]: Downloading https://files.pythonhosted.org/packages/d2/b3/ce27b3660c83452ef3c216c818490538c3075c10ac867a694d120a304735/diracx-api-0.0.1a9.tar.gz
+[2024-05-27 11:33:19] INFO root fetch - processPackages [diracx-cli]: executing diffoscope
+[2024-05-27 11:33:19] INFO root fetch - processPackages [diracx-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/diracx-cli-0.0.1a8.tar.gz tmp/diracx-cli-0.0.1a9.tar.gz --markdown 20240527/d/diracx-cli/0.0.1a8-0.0.1a9/README.md --exclude *.pyd
+[2024-05-27 11:33:19] INFO root fetch - processPackages [diracx-routers]: Downloading https://files.pythonhosted.org/packages/4f/c4/f7fb0d87c4ccbae9fc1449f5dbdf1c82c4f729505da92845d92d5fba55ae/diracx-routers-0.0.1a9.tar.gz
+[2024-05-27 11:33:19] INFO root fetch - processPackages [diracx-client]: executing diffoscope
+[2024-05-27 11:33:19] INFO root fetch - processPackages [diracx-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/diracx-client-0.0.1a8.tar.gz tmp/diracx-client-0.0.1a9.tar.gz --markdown 20240527/d/diracx-client/0.0.1a8-0.0.1a9/README.md --exclude *.pyd
+[2024-05-27 11:33:19] INFO root fetch - processPackages [diracx-db]: executing diffoscope
+[2024-05-27 11:33:19] INFO root fetch - processPackages [diracx-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/diracx-db-0.0.1a8.tar.gz tmp/diracx-db-0.0.1a9.tar.gz --markdown 20240527/d/diracx-db/0.0.1a8-0.0.1a9/README.md --exclude *.pyd
+[2024-05-27 11:33:20] INFO root fetch - processPackages [rooms-shared-services]: Remove: archive file [/home/abi/fetcher/tmp/rooms_shared_services-0.1.97.tar.gz]
+[2024-05-27 11:33:20] INFO root fetch - processPackages [rooms-shared-services]: Remove: archive file [/home/abi/fetcher/tmp/rooms_shared_services-0.1.99.tar.gz]
+[2024-05-27 11:33:20] INFO root fetch - processPackages [rooms-shared-services]: Start processing: diracx-testing
+[2024-05-27 11:33:20] INFO root fetch - main [MainThread]: End processing [rooms-shared-services]: success
+[2024-05-27 11:33:20] INFO root fetch - processPackages [diracx]: executing diffoscope
+[2024-05-27 11:33:20] INFO root fetch - processPackages [diracx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/diracx-0.0.1a8.tar.gz tmp/diracx-0.0.1a9.tar.gz --markdown 20240527/d/diracx/0.0.1a8-0.0.1a9/README.md --exclude *.pyd
+[2024-05-27 11:33:20] INFO root fetch - processPackages [chess-notation]: executing diffoscope
+[2024-05-27 11:33:20] INFO root fetch - processPackages [chess-notation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chess_notation-0.1.8.tar.gz tmp/chess_notation-0.1.9.tar.gz --markdown 20240527/c/chess-notation/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-27 11:33:20] INFO root fetch - processPackages [diracx-routers]: executing diffoscope
+[2024-05-27 11:33:20] INFO root fetch - processPackages [diracx-routers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/diracx-routers-0.0.1a8.tar.gz tmp/diracx-routers-0.0.1a9.tar.gz --markdown 20240527/d/diracx-routers/0.0.1a8-0.0.1a9/README.md --exclude *.pyd
+[2024-05-27 11:33:20] INFO root fetch - processPackages [diracx-core]: executing diffoscope
+[2024-05-27 11:33:20] INFO root fetch - processPackages [diracx-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/diracx-core-0.0.1a8.tar.gz tmp/diracx-core-0.0.1a9.tar.gz --markdown 20240527/d/diracx-core/0.0.1a8-0.0.1a9/README.md --exclude *.pyd
+[2024-05-27 11:33:20] INFO root fetch - processPackages [diracx-testing]: New version: [0.0.1a9] Old Version: [0.0.1a8]
+[2024-05-27 11:33:20] INFO root fetch - processPackages [diracx-testing]: Downloading https://files.pythonhosted.org/packages/5b/4d/8a38a0d7f179fcdc2534825f82dabda112f178e4bcd73e879e2fba3d8c4f/diracx-testing-0.0.1a8.tar.gz
+[2024-05-27 11:33:20] INFO root fetch - processPackages [varnaapi]: Remove: archive file [/home/abi/fetcher/tmp/varnaapi-1.1.1.tar.gz]
+[2024-05-27 11:33:20] INFO root fetch - processPackages [varnaapi]: Remove: archive file [/home/abi/fetcher/tmp/varnaapi-1.2.0.tar.gz]
+[2024-05-27 11:33:20] INFO root fetch - processPackages [varnaapi]: Start processing: bpetokenizer
+[2024-05-27 11:33:20] INFO root fetch - main [MainThread]: End processing [varnaapi]: success
+[2024-05-27 11:33:20] WARNING root fetch - processPackages [bpetokenizer]: Skipping, unable to determine old version
+[2024-05-27 11:33:20] INFO root fetch - processPackages [bpetokenizer]: Start processing: zyb-image
+[2024-05-27 11:33:20] INFO root fetch - main [MainThread]: End processing [bpetokenizer] error
+[2024-05-27 11:33:20] INFO root fetch - processPackages [diracx]: Remove: archive file [/home/abi/fetcher/tmp/diracx-0.0.1a8.tar.gz]
+[2024-05-27 11:33:20] INFO root fetch - processPackages [diracx]: Remove: archive file [/home/abi/fetcher/tmp/diracx-0.0.1a9.tar.gz]
+[2024-05-27 11:33:20] INFO root fetch - processPackages [diracx]: Start processing: adbutils
+[2024-05-27 11:33:20] INFO root fetch - main [MainThread]: End processing [diracx]: success
+[2024-05-27 11:33:20] INFO root fetch - processPackages [diracx-testing]: Downloading https://files.pythonhosted.org/packages/7d/5d/4451be8482ce9b7b7a83e185035e3ce4795951ee18ac3be8ef50bc10f095/diracx-testing-0.0.1a9.tar.gz
+[2024-05-27 11:33:20] INFO root fetch - processPackages [diracx-client]: Remove: archive file [/home/abi/fetcher/tmp/diracx-client-0.0.1a8.tar.gz]
+[2024-05-27 11:33:20] INFO root fetch - processPackages [diracx-client]: Remove: archive file [/home/abi/fetcher/tmp/diracx-client-0.0.1a9.tar.gz]
+[2024-05-27 11:33:20] INFO root fetch - processPackages [diracx-client]: Start processing: dao-analyzer
+[2024-05-27 11:33:20] INFO root fetch - main [MainThread]: End processing [diracx-client]: success
+[2024-05-27 11:33:20] INFO root fetch - processPackages [zyb-image]: New version: [0.2.1] Old Version: [0.1]
+[2024-05-27 11:33:20] INFO root fetch - processPackages [adbutils]: New version: [2.7.2] Old Version: [2.7.1]
+[2024-05-27 11:33:20] INFO root fetch - processPackages [dao-analyzer]: New version: [1.3.2.dev8] Old Version: [1.3.2.dev4]
+[2024-05-27 11:33:20] INFO root fetch - processPackages [diracx-testing]: executing diffoscope
+[2024-05-27 11:33:20] INFO root fetch - processPackages [diracx-testing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/diracx-testing-0.0.1a8.tar.gz tmp/diracx-testing-0.0.1a9.tar.gz --markdown 20240527/d/diracx-testing/0.0.1a8-0.0.1a9/README.md --exclude *.pyd
+[2024-05-27 11:33:20] INFO root fetch - processPackages [diracx-core]: Remove: archive file [/home/abi/fetcher/tmp/diracx-core-0.0.1a8.tar.gz]
+[2024-05-27 11:33:20] INFO root fetch - processPackages [diracx-core]: Remove: archive file [/home/abi/fetcher/tmp/diracx-core-0.0.1a9.tar.gz]
+[2024-05-27 11:33:20] INFO root fetch - processPackages [diracx-core]: Start processing: myHealth
+[2024-05-27 11:33:20] INFO root fetch - main [MainThread]: End processing [diracx-core]: success
+[2024-05-27 11:33:20] INFO root fetch - processPackages [diracx-cli]: Remove: archive file [/home/abi/fetcher/tmp/diracx-cli-0.0.1a8.tar.gz]
+[2024-05-27 11:33:20] INFO root fetch - processPackages [diracx-cli]: Remove: archive file [/home/abi/fetcher/tmp/diracx-cli-0.0.1a9.tar.gz]
+[2024-05-27 11:33:20] INFO root fetch - main [MainThread]: End processing [diracx-cli]: success
+[2024-05-27 11:33:20] INFO root fetch - processPackages [diracx-api]: executing diffoscope
+[2024-05-27 11:33:20] INFO root fetch - processPackages [diracx-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/diracx-api-0.0.1a8.tar.gz tmp/diracx-api-0.0.1a9.tar.gz --markdown 20240527/d/diracx-api/0.0.1a8-0.0.1a9/README.md --exclude *.pyd
+[2024-05-27 11:33:21] INFO root fetch - processPackages [dao-analyzer]: Downloading https://files.pythonhosted.org/packages/09/51/8a20c3812afc9be820b44b141f1a933f817a6d68128352233fdd9e3fee83/dao_analyzer-1.3.2.dev4.tar.gz
+[2024-05-27 11:33:21] INFO root fetch - processPackages [zyb-image]: Downloading https://files.pythonhosted.org/packages/2f/55/92f3bae63ae779b80babf56c5fc7e74564cbf148039183c84207d0443d18/zyb_image-0.1.tar.gz
+[2024-05-27 11:33:21] INFO root fetch - processPackages [diracx-db]: Remove: archive file [/home/abi/fetcher/tmp/diracx-db-0.0.1a8.tar.gz]
+[2024-05-27 11:33:21] INFO root fetch - processPackages [diracx-db]: Remove: archive file [/home/abi/fetcher/tmp/diracx-db-0.0.1a9.tar.gz]
+[2024-05-27 11:33:21] INFO root fetch - main [MainThread]: End processing [diracx-db]: success
+[2024-05-27 11:33:21] WARNING root fetch - processPackages [myHealth]: Skipping, unable to determine old version
+[2024-05-27 11:33:21] INFO root fetch - main [MainThread]: End processing [myHealth] error
+[2024-05-27 11:33:21] INFO root fetch - processPackages [diracx-routers]: Remove: archive file [/home/abi/fetcher/tmp/diracx-routers-0.0.1a8.tar.gz]
+[2024-05-27 11:33:21] INFO root fetch - processPackages [diracx-routers]: Remove: archive file [/home/abi/fetcher/tmp/diracx-routers-0.0.1a9.tar.gz]
+[2024-05-27 11:33:21] INFO root fetch - main [MainThread]: End processing [diracx-routers]: success
+[2024-05-27 11:33:21] INFO root fetch - processPackages [adbutils]: Downloading https://files.pythonhosted.org/packages/b3/9b/6cc4eb5b794ff8b1071acb930361a7e5b0b1113b76b47453d3efbbd30d63/adbutils-2.7.1.tar.gz
+[2024-05-27 11:33:21] INFO root fetch - processPackages [chess-notation]: Remove: archive file [/home/abi/fetcher/tmp/chess_notation-0.1.8.tar.gz]
+[2024-05-27 11:33:21] INFO root fetch - processPackages [chess-notation]: Remove: archive file [/home/abi/fetcher/tmp/chess_notation-0.1.9.tar.gz]
+[2024-05-27 11:33:21] INFO root fetch - main [MainThread]: End processing [chess-notation]: success
+[2024-05-27 11:33:21] INFO root fetch - processPackages [zyb-image]: Downloading https://files.pythonhosted.org/packages/b6/71/32a37e3ed461a90b9745bd8b501d054d2971505b7b3930cb641366c0731c/zyb_image-0.2.1-py3-none-any.whl
+[2024-05-27 11:33:21] INFO root fetch - processPackages [dao-analyzer]: Downloading https://files.pythonhosted.org/packages/6f/25/2763ad880ea16e0623dd700691271e37dbd271f8b1e0b161a035ff03e2ca/dao_analyzer-1.3.2.dev8.tar.gz
+[2024-05-27 11:33:21] INFO root fetch - processPackages [adbutils]: Downloading https://files.pythonhosted.org/packages/2d/07/197d16083bc7af3848d518c69215da44d05bc80db08bcffa5c69519583dc/adbutils-2.7.2.tar.gz
+[2024-05-27 11:33:21] INFO root fetch - processPackages [diracx-testing]: Remove: archive file [/home/abi/fetcher/tmp/diracx-testing-0.0.1a8.tar.gz]
+[2024-05-27 11:33:21] INFO root fetch - processPackages [diracx-testing]: Remove: archive file [/home/abi/fetcher/tmp/diracx-testing-0.0.1a9.tar.gz]
+[2024-05-27 11:33:21] INFO root fetch - main [MainThread]: End processing [diracx-testing]: success
+[2024-05-27 11:33:21] INFO root fetch - processPackages [adbutils]: executing diffoscope
+[2024-05-27 11:33:21] INFO root fetch - processPackages [adbutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adbutils-2.7.1.tar.gz tmp/adbutils-2.7.2.tar.gz --markdown 20240527/a/adbutils/2.7.1-2.7.2/README.md --exclude *.pyd
+[2024-05-27 11:33:21] INFO root fetch - processPackages [dao-analyzer]: executing diffoscope
+[2024-05-27 11:33:21] INFO root fetch - processPackages [dao-analyzer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dao_analyzer-1.3.2.dev4.tar.gz tmp/dao_analyzer-1.3.2.dev8.tar.gz --markdown 20240527/d/dao-analyzer/1.3.2.dev4-1.3.2.dev8/README.md --exclude *.pyd
+[2024-05-27 11:33:21] INFO root fetch - processPackages [diracx-api]: Remove: archive file [/home/abi/fetcher/tmp/diracx-api-0.0.1a8.tar.gz]
+[2024-05-27 11:33:21] INFO root fetch - processPackages [diracx-api]: Remove: archive file [/home/abi/fetcher/tmp/diracx-api-0.0.1a9.tar.gz]
+[2024-05-27 11:33:21] INFO root fetch - main [MainThread]: End processing [diracx-api]: success
+[2024-05-27 11:33:21] INFO root fetch - processPackages [zyb-image]: executing diffoscope
+[2024-05-27 11:33:21] INFO root fetch - processPackages [zyb-image]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zyb_image-0.1.tar.gz tmp/zyb_image-0.2.1-py3-none-any.whl.zip --markdown 20240527/z/zyb-image/0.1-0.2.1/README.md --exclude *.pyd
+[2024-05-27 11:33:22] INFO root fetch - processPackages [adbutils]: Remove: archive file [/home/abi/fetcher/tmp/adbutils-2.7.1.tar.gz]
+[2024-05-27 11:33:22] INFO root fetch - processPackages [adbutils]: Remove: archive file [/home/abi/fetcher/tmp/adbutils-2.7.2.tar.gz]
+[2024-05-27 11:33:22] INFO root fetch - main [MainThread]: End processing [adbutils]: success
+[2024-05-27 11:33:22] INFO root fetch - processPackages [zyb-image]: Remove: archive file [/home/abi/fetcher/tmp/zyb_image-0.1.tar.gz]
+[2024-05-27 11:33:22] INFO root fetch - processPackages [zyb-image]: Remove: archive file [/home/abi/fetcher/tmp/zyb_image-0.2.1-py3-none-any.whl.zip]
+[2024-05-27 11:33:22] INFO root fetch - main [MainThread]: End processing [zyb-image]: success
+[2024-05-27 11:33:23] INFO root fetch - processPackages [dao-analyzer]: Remove: archive file [/home/abi/fetcher/tmp/dao_analyzer-1.3.2.dev4.tar.gz]
+[2024-05-27 11:33:23] INFO root fetch - processPackages [dao-analyzer]: Remove: archive file [/home/abi/fetcher/tmp/dao_analyzer-1.3.2.dev8.tar.gz]
+[2024-05-27 11:33:23] INFO root fetch - main [MainThread]: End processing [dao-analyzer]: success
+[2024-05-27 11:33:23] INFO root fetch - main [MainThread]: Store serial: [23393326]
