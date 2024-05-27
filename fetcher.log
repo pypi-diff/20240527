@@ -17861,3 +17861,63 @@ EOFError: EOF read where object expected
 [2024-05-27 15:57:16] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.9.tar.gz]
 [2024-05-27 15:57:16] INFO root fetch - main [MainThread]: End processing [yeref]: success
 [2024-05-27 15:57:16] INFO root fetch - main [MainThread]: Store serial: [23396612]
+[2024-05-27 15:59:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23396612]
+[2024-05-27 15:59:25] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-27 15:59:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: py-seal
+[2024-05-27 15:59:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: adapta
+[2024-05-27 15:59:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ood_detectors
+[2024-05-27 15:59:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: openeo-pg-parser-networkx
+[2024-05-27 15:59:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bbo-calibcam
+[2024-05-27 15:59:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dicio-py
+[2024-05-27 15:59:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: binarysearchfile
+[2024-05-27 15:59:25] WARNING root fetch - processPackages [py-seal]: Skipping, unable to determine old version
+[2024-05-27 15:59:25] INFO root fetch - main [MainThread]: End processing [py-seal] error
+[2024-05-27 15:59:25] INFO root fetch - processPackages [ood_detectors]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-27 15:59:25] INFO root fetch - processPackages [dicio-py]: New version: [1.8] Old Version: [1.7]
+[2024-05-27 15:59:25] INFO root fetch - processPackages [adapta]: New version: [2.9.2] Old Version: [2.9.1]
+[2024-05-27 15:59:25] INFO root fetch - processPackages [ood_detectors]: Downloading https://files.pythonhosted.org/packages/2c/c1/0e33f36a315cc0d60a299e5970cb3dbd7fe0ffebd495cef6770f937ba24f/ood_detectors-0.0.8.tar.gz
+[2024-05-27 15:59:25] INFO root fetch - processPackages [openeo-pg-parser-networkx]: New version: [2024.5.0] Old Version: [2024.4.0]
+[2024-05-27 15:59:25] INFO root fetch - processPackages [dicio-py]: Downloading https://files.pythonhosted.org/packages/94/b0/dc9bb889b95290beda2062acd79c41164a2f837d67e19d729bdf46d4496f/dicio_py-1.7.tar.gz
+[2024-05-27 15:59:25] INFO root fetch - processPackages [binarysearchfile]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-05-27 15:59:25] INFO root fetch - processPackages [bbo-calibcam]: New version: [3.0.0] Old Version: [2.4.2]
+[2024-05-27 15:59:25] INFO root fetch - processPackages [adapta]: Downloading https://files.pythonhosted.org/packages/35/33/1302d42b2f30e2a721e649391c266b8d25fef79e334f145fe1f59175016a/adapta-2.9.1.tar.gz
+[2024-05-27 15:59:25] INFO root fetch - processPackages [ood_detectors]: Downloading https://files.pythonhosted.org/packages/3f/d6/a55f4bc549efaaabe3d000911be652e72d55a5a47cabc317d531a8ec8ada/ood_detectors-0.0.9.tar.gz
+[2024-05-27 15:59:25] INFO root fetch - processPackages [openeo-pg-parser-networkx]: Downloading https://files.pythonhosted.org/packages/39/50/55889669806d5b20f813f2515a83d3a120c0d29d315b4981565c91eadcda/openeo_pg_parser_networkx-2024.4.0.tar.gz
+[2024-05-27 15:59:25] INFO root fetch - processPackages [bbo-calibcam]: Downloading https://files.pythonhosted.org/packages/36/9a/e3301dc5f47f967b4af4cd933104dbf9334b9741a9198059999a7e0a1453/bbo-calibcam-2.4.2.tar.gz
+[2024-05-27 15:59:25] INFO root fetch - processPackages [adapta]: Downloading https://files.pythonhosted.org/packages/38/7b/c2e190b90d739aea14559d55ef402f1648abe251bc5e5eb13948fba8b345/adapta-2.9.2.tar.gz
+[2024-05-27 15:59:25] INFO root fetch - processPackages [binarysearchfile]: Downloading https://files.pythonhosted.org/packages/cd/45/9d83ac223f5dba9d5b4f7aac3f13da1f2e3cb045810d59a5b9059c30bf08/binarysearchfile-0.1.0.tar.gz
+[2024-05-27 15:59:26] INFO root fetch - processPackages [dicio-py]: Downloading https://files.pythonhosted.org/packages/8c/fb/c754d246cddc84431144de9078bbbc9e7de97a9514a607bca0ad108199b9/dicio_py-1.8.tar.gz
+[2024-05-27 15:59:26] INFO root fetch - processPackages [ood_detectors]: executing diffoscope
+[2024-05-27 15:59:26] INFO root fetch - processPackages [ood_detectors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ood_detectors-0.0.8.tar.gz tmp/ood_detectors-0.0.9.tar.gz --markdown 20240527/o/ood_detectors/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-27 15:59:26] INFO root fetch - processPackages [adapta]: executing diffoscope
+[2024-05-27 15:59:26] INFO root fetch - processPackages [adapta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adapta-2.9.1.tar.gz tmp/adapta-2.9.2.tar.gz --markdown 20240527/a/adapta/2.9.1-2.9.2/README.md --exclude *.pyd
+[2024-05-27 15:59:26] INFO root fetch - processPackages [dicio-py]: executing diffoscope
+[2024-05-27 15:59:26] INFO root fetch - processPackages [dicio-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dicio_py-1.7.tar.gz tmp/dicio_py-1.8.tar.gz --markdown 20240527/d/dicio-py/1.7-1.8/README.md --exclude *.pyd
+[2024-05-27 15:59:26] INFO root fetch - processPackages [bbo-calibcam]: Downloading https://files.pythonhosted.org/packages/99/1a/5e309c47d2c55223e07412905346dd433b8aecf8763de78ee1b6c5ee205d/bbo-calibcam-3.0.0.tar.gz
+[2024-05-27 15:59:26] INFO root fetch - processPackages [binarysearchfile]: Downloading https://files.pythonhosted.org/packages/62/ea/9e8b2b6fb83daaad42c9ff9a26aa18b973bbd8806886b4cf08cc704a8f54/binarysearchfile-0.2.0.tar.gz
+[2024-05-27 15:59:26] INFO root fetch - processPackages [openeo-pg-parser-networkx]: Downloading https://files.pythonhosted.org/packages/fa/0a/7bea0db281dcf23447e6ec8695770a5578dac459cdd07e7a5d271ec85fb6/openeo_pg_parser_networkx-2024.5.0.tar.gz
+[2024-05-27 15:59:26] INFO root fetch - processPackages [bbo-calibcam]: executing diffoscope
+[2024-05-27 15:59:26] INFO root fetch - processPackages [bbo-calibcam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bbo-calibcam-2.4.2.tar.gz tmp/bbo-calibcam-3.0.0.tar.gz --markdown 20240527/b/bbo-calibcam/2.4.2-3.0.0/README.md --exclude *.pyd
+[2024-05-27 15:59:26] INFO root fetch - processPackages [binarysearchfile]: executing diffoscope
+[2024-05-27 15:59:26] INFO root fetch - processPackages [binarysearchfile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/binarysearchfile-0.1.0.tar.gz tmp/binarysearchfile-0.2.0.tar.gz --markdown 20240527/b/binarysearchfile/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-05-27 15:59:26] INFO root fetch - processPackages [openeo-pg-parser-networkx]: executing diffoscope
+[2024-05-27 15:59:26] INFO root fetch - processPackages [openeo-pg-parser-networkx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openeo_pg_parser_networkx-2024.4.0.tar.gz tmp/openeo_pg_parser_networkx-2024.5.0.tar.gz --markdown 20240527/o/openeo-pg-parser-networkx/2024.4.0-2024.5.0/README.md --exclude *.pyd
+[2024-05-27 15:59:26] INFO root fetch - processPackages [ood_detectors]: Remove: archive file [/home/abi/fetcher/tmp/ood_detectors-0.0.8.tar.gz]
+[2024-05-27 15:59:26] INFO root fetch - processPackages [ood_detectors]: Remove: archive file [/home/abi/fetcher/tmp/ood_detectors-0.0.9.tar.gz]
+[2024-05-27 15:59:26] INFO root fetch - main [MainThread]: End processing [ood_detectors]: success
+[2024-05-27 15:59:26] INFO root fetch - processPackages [dicio-py]: Remove: archive file [/home/abi/fetcher/tmp/dicio_py-1.7.tar.gz]
+[2024-05-27 15:59:26] INFO root fetch - processPackages [dicio-py]: Remove: archive file [/home/abi/fetcher/tmp/dicio_py-1.8.tar.gz]
+[2024-05-27 15:59:26] INFO root fetch - main [MainThread]: End processing [dicio-py]: success
+[2024-05-27 15:59:27] INFO root fetch - processPackages [adapta]: Remove: archive file [/home/abi/fetcher/tmp/adapta-2.9.1.tar.gz]
+[2024-05-27 15:59:27] INFO root fetch - processPackages [adapta]: Remove: archive file [/home/abi/fetcher/tmp/adapta-2.9.2.tar.gz]
+[2024-05-27 15:59:27] INFO root fetch - main [MainThread]: End processing [adapta]: success
+[2024-05-27 15:59:27] INFO root fetch - processPackages [binarysearchfile]: Remove: archive file [/home/abi/fetcher/tmp/binarysearchfile-0.1.0.tar.gz]
+[2024-05-27 15:59:27] INFO root fetch - processPackages [binarysearchfile]: Remove: archive file [/home/abi/fetcher/tmp/binarysearchfile-0.2.0.tar.gz]
+[2024-05-27 15:59:27] INFO root fetch - main [MainThread]: End processing [binarysearchfile]: success
+[2024-05-27 15:59:27] INFO root fetch - processPackages [bbo-calibcam]: Remove: archive file [/home/abi/fetcher/tmp/bbo-calibcam-2.4.2.tar.gz]
+[2024-05-27 15:59:27] INFO root fetch - processPackages [bbo-calibcam]: Remove: archive file [/home/abi/fetcher/tmp/bbo-calibcam-3.0.0.tar.gz]
+[2024-05-27 15:59:27] INFO root fetch - main [MainThread]: End processing [bbo-calibcam]: success
+[2024-05-27 15:59:27] INFO root fetch - processPackages [openeo-pg-parser-networkx]: Remove: archive file [/home/abi/fetcher/tmp/openeo_pg_parser_networkx-2024.4.0.tar.gz]
+[2024-05-27 15:59:27] INFO root fetch - processPackages [openeo-pg-parser-networkx]: Remove: archive file [/home/abi/fetcher/tmp/openeo_pg_parser_networkx-2024.5.0.tar.gz]
+[2024-05-27 15:59:27] INFO root fetch - main [MainThread]: End processing [openeo-pg-parser-networkx]: success
+[2024-05-27 15:59:27] INFO root fetch - main [MainThread]: Store serial: [23396641]
