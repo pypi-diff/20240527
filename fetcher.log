@@ -3464,3 +3464,37 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-05-27 04:15:14] INFO root fetch - main [MainThread]: End processing [makepyz]: success
 [2024-05-27 04:15:14] INFO root fetch - main [MainThread]: End processing [makepyz]: success
 [2024-05-27 04:15:14] INFO root fetch - main [MainThread]: Store serial: [23389677]
+[2024-05-27 04:17:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23389677]
+[2024-05-27 04:17:23] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-27 04:17:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: makepyz
+[2024-05-27 04:17:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: makepyz
+[2024-05-27 04:17:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: verses
+[2024-05-27 04:17:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gym-examples
+[2024-05-27 04:17:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: asynch-lxneng
+[2024-05-27 04:17:23] INFO root fetch - processPackages [makepyz]: New version: [0.0.1b35] Old Version: [0.0.1b34]
+[2024-05-27 04:17:23] INFO root fetch - processPackages [makepyz]: New version: [0.0.1b35] Old Version: [0.0.1b34]
+[2024-05-27 04:17:23] WARNING root fetch - processPackages [verses]: Skipping, unable to determine old version
+[2024-05-27 04:17:23] INFO root fetch - main [MainThread]: End processing [verses] error
+[2024-05-27 04:17:23] INFO root fetch - processPackages [makepyz]: Downloading https://files.pythonhosted.org/packages/6a/11/a6912ee610219be2b67f5aa092c59cee360993f9d0fb21f2c129509404f1/makepyz-0.0.1b34.tar.gz
+[2024-05-27 04:17:23] INFO root fetch - processPackages [makepyz]: Downloading https://files.pythonhosted.org/packages/6a/11/a6912ee610219be2b67f5aa092c59cee360993f9d0fb21f2c129509404f1/makepyz-0.0.1b34.tar.gz
+[2024-05-27 04:17:23] WARNING root fetch - processPackages [gym-examples]: Skipping, unable to determine old version
+[2024-05-27 04:17:23] INFO root fetch - main [MainThread]: End processing [gym-examples] error
+[2024-05-27 04:17:23] INFO root fetch - processPackages [asynch-lxneng]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-05-27 04:17:23] INFO root fetch - processPackages [asynch-lxneng]: Downloading https://files.pythonhosted.org/packages/d4/a1/c78c62b463017e79ec0d17ae0de6e463ff8475fce7159596d690ac27d329/asynch_lxneng-0.2.4.tar.gz
+[2024-05-27 04:17:23] INFO root fetch - processPackages [makepyz]: Downloading https://files.pythonhosted.org/packages/f1/44/df189b834a6fe2c284b9f37c2d52d350d2235ecc5ea498cd7a6b6081181c/makepyz-0.0.1b35.tar.gz
+[2024-05-27 04:17:23] INFO root fetch - processPackages [makepyz]: Downloading https://files.pythonhosted.org/packages/f1/44/df189b834a6fe2c284b9f37c2d52d350d2235ecc5ea498cd7a6b6081181c/makepyz-0.0.1b35.tar.gz
+[2024-05-27 04:17:23] INFO root fetch - processPackages [makepyz]: executing diffoscope
+[2024-05-27 04:17:23] INFO root fetch - processPackages [makepyz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/makepyz-0.0.1b34.tar.gz tmp/makepyz-0.0.1b35.tar.gz --markdown 20240527/m/makepyz/0.0.1b34-0.0.1b35/README.md --exclude *.pyd
+[2024-05-27 04:17:23] INFO root fetch - processPackages [makepyz]: executing diffoscope
+[2024-05-27 04:17:23] INFO root fetch - processPackages [makepyz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/makepyz-0.0.1b34.tar.gz tmp/makepyz-0.0.1b35.tar.gz --markdown 20240527/m/makepyz/0.0.1b34-0.0.1b35/README.md --exclude *.pyd
+[2024-05-27 04:17:24] INFO root fetch - processPackages [asynch-lxneng]: Downloading https://files.pythonhosted.org/packages/b8/28/91c00323b58091fdec8729ae8c7a284a8a896ce16e851160b302ad08a5d9/asynch_lxneng-0.2.5.tar.gz
+[2024-05-27 04:17:24] INFO root fetch - processPackages [asynch-lxneng]: executing diffoscope
+[2024-05-27 04:17:24] INFO root fetch - processPackages [asynch-lxneng]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asynch_lxneng-0.2.4.tar.gz tmp/asynch_lxneng-0.2.5.tar.gz --markdown 20240527/a/asynch-lxneng/0.2.4-0.2.5/README.md --exclude *.pyd
+[2024-05-27 04:17:24] INFO root fetch - processPackages [makepyz]: Remove: archive file [/home/abi/fetcher/tmp/makepyz-0.0.1b34.tar.gz]
+[2024-05-27 04:17:24] INFO root fetch - processPackages [makepyz]: Remove: archive file [/home/abi/fetcher/tmp/makepyz-0.0.1b35.tar.gz]
+[2024-05-27 04:17:24] INFO root fetch - main [MainThread]: End processing [makepyz]: success
+[2024-05-27 04:17:24] INFO root fetch - main [MainThread]: End processing [makepyz]: success
+[2024-05-27 04:17:24] INFO root fetch - processPackages [asynch-lxneng]: Remove: archive file [/home/abi/fetcher/tmp/asynch_lxneng-0.2.4.tar.gz]
+[2024-05-27 04:17:24] INFO root fetch - processPackages [asynch-lxneng]: Remove: archive file [/home/abi/fetcher/tmp/asynch_lxneng-0.2.5.tar.gz]
+[2024-05-27 04:17:24] INFO root fetch - main [MainThread]: End processing [asynch-lxneng]: success
+[2024-05-27 04:17:24] INFO root fetch - main [MainThread]: Store serial: [23389696]
