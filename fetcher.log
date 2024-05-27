@@ -6838,3 +6838,38 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 08:09:35] INFO root fetch - processPackages [magentic]: Remove: archive file [/home/abi/fetcher/tmp/magentic-0.9.1.tar.gz]
 [2024-05-27 08:09:35] INFO root fetch - main [MainThread]: End processing [magentic]: success
 [2024-05-27 08:09:35] INFO root fetch - main [MainThread]: Store serial: [23391246]
+[2024-05-27 08:11:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23391246]
+[2024-05-27 08:11:44] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-27 08:11:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mikeio
+[2024-05-27 08:11:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yputils
+[2024-05-27 08:11:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dqpu
+[2024-05-27 08:11:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyg-nightly
+[2024-05-27 08:11:44] INFO root fetch - processPackages [dqpu]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-05-27 08:11:44] INFO root fetch - processPackages [pyg-nightly]: New version: [2.6.0.dev20240526] Old Version: [2.6.0.dev20240525]
+[2024-05-27 08:11:44] INFO root fetch - processPackages [mikeio]: New version: [2.0b1] Old Version: [2.0b0]
+[2024-05-27 08:11:44] INFO root fetch - processPackages [dqpu]: Downloading https://files.pythonhosted.org/packages/12/b0/5e95d225fd097a7ffe601c7bc39897ad808c4f0cf482c9e1258487ef4546/dqpu-0.2.4.tar.gz
+[2024-05-27 08:11:44] INFO root fetch - processPackages [yputils]: New version: [0.7.0] Old Version: [0.6.3]
+[2024-05-27 08:11:44] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/f8/75/26bc3f7c7a1003738000dfb8dd4618434396a26cc98e3ebbf62431875a96/pyg_nightly-2.6.0.dev20240525.tar.gz
+[2024-05-27 08:11:45] INFO root fetch - processPackages [mikeio]: Downloading https://files.pythonhosted.org/packages/6d/b7/96f1292cdee5f6ddb697abb303a4a7f4c5f030aedebefe03103a3bbf5ad3/mikeio-2.0b0.tar.gz
+[2024-05-27 08:11:45] INFO root fetch - processPackages [yputils]: Downloading https://files.pythonhosted.org/packages/4e/6c/f263d9d15bec05e784c1ffe6f7b36f9ce8faacc4dfaef0f945d2ab23e63c/yputils-0.6.3.tar.gz
+[2024-05-27 08:11:45] ERROR root fetch - processPackages [dqpu]: Unable to fetch info: No such project/version 'dqpu' 0.2.5
+[2024-05-27 08:11:45] INFO root fetch - main [MainThread]: End processing [dqpu] error
+[2024-05-27 08:11:45] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/e1/dc/1954c348cd1e924d383fcee48adb6d4bac938c4f1ea87fd6098f501b15d3/pyg_nightly-2.6.0.dev20240526.tar.gz
+[2024-05-27 08:11:45] INFO root fetch - processPackages [yputils]: Downloading https://files.pythonhosted.org/packages/04/b1/43a28ca2989811ead9e59498547b1bab4bf63937eb212f533aee15ef9ba6/yputils-0.7.0.tar.gz
+[2024-05-27 08:11:45] INFO root fetch - processPackages [yputils]: executing diffoscope
+[2024-05-27 08:11:45] INFO root fetch - processPackages [yputils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yputils-0.6.3.tar.gz tmp/yputils-0.7.0.tar.gz --markdown 20240527/y/yputils/0.6.3-0.7.0/README.md --exclude *.pyd
+[2024-05-27 08:11:45] INFO root fetch - processPackages [pyg-nightly]: executing diffoscope
+[2024-05-27 08:11:45] INFO root fetch - processPackages [pyg-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyg_nightly-2.6.0.dev20240525.tar.gz tmp/pyg_nightly-2.6.0.dev20240526.tar.gz --markdown 20240527/p/pyg-nightly/2.6.0.dev20240525-2.6.0.dev20240526/README.md --exclude *.pyd
+[2024-05-27 08:11:45] INFO root fetch - processPackages [mikeio]: Downloading https://files.pythonhosted.org/packages/8b/c9/955d4c26924c240c64942aaed49493d8436ba8fcf47491a00b8215c0548e/mikeio-2.0b1.tar.gz
+[2024-05-27 08:11:46] INFO root fetch - processPackages [yputils]: Remove: archive file [/home/abi/fetcher/tmp/yputils-0.6.3.tar.gz]
+[2024-05-27 08:11:46] INFO root fetch - processPackages [yputils]: Remove: archive file [/home/abi/fetcher/tmp/yputils-0.7.0.tar.gz]
+[2024-05-27 08:11:46] INFO root fetch - main [MainThread]: End processing [yputils]: success
+[2024-05-27 08:11:46] INFO root fetch - processPackages [mikeio]: executing diffoscope
+[2024-05-27 08:11:46] INFO root fetch - processPackages [mikeio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mikeio-2.0b0.tar.gz tmp/mikeio-2.0b1.tar.gz --markdown 20240527/m/mikeio/2.0b0-2.0b1/README.md --exclude *.pyd
+[2024-05-27 08:11:47] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.6.0.dev20240525.tar.gz]
+[2024-05-27 08:11:47] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.6.0.dev20240526.tar.gz]
+[2024-05-27 08:11:47] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
+[2024-05-27 08:11:49] INFO root fetch - processPackages [mikeio]: Remove: archive file [/home/abi/fetcher/tmp/mikeio-2.0b0.tar.gz]
+[2024-05-27 08:11:49] INFO root fetch - processPackages [mikeio]: Remove: archive file [/home/abi/fetcher/tmp/mikeio-2.0b1.tar.gz]
+[2024-05-27 08:11:49] INFO root fetch - main [MainThread]: End processing [mikeio]: success
+[2024-05-27 08:11:49] INFO root fetch - main [MainThread]: Store serial: [23391262]
