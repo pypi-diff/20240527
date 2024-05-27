@@ -11628,3 +11628,36 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 11:54:41] INFO root fetch - processPackages [pulumiverse-cockroach]: Remove: archive file [/home/abi/fetcher/tmp/pulumiverse_cockroach-0.2.3a1713452126.tar.gz]
 [2024-05-27 11:54:41] INFO root fetch - main [MainThread]: End processing [pulumiverse-cockroach]: success
 [2024-05-27 11:54:41] INFO root fetch - main [MainThread]: Store serial: [23393543]
+[2024-05-27 11:56:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23393543]
+[2024-05-27 11:56:51] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-27 11:56:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qulacs
+[2024-05-27 11:56:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: topologicpy
+[2024-05-27 11:56:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wolfsoftware.template-package-importable
+[2024-05-27 11:56:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pybiolib
+[2024-05-27 11:56:51] INFO root fetch - processPackages [topologicpy]: New version: [6.0.0] Old Version: [0.7.6]
+[2024-05-27 11:56:51] WARNING root fetch - processPackages [wolfsoftware.template-package-importable]: Skipping, unable to determine old version
+[2024-05-27 11:56:51] INFO root fetch - main [MainThread]: End processing [wolfsoftware.template-package-importable] error
+[2024-05-27 11:56:51] INFO root fetch - processPackages [topologicpy]: Downloading https://files.pythonhosted.org/packages/18/e3/3dcd00764c20757b26fec3a43338725f4302b3d9b445e988e2d5d8acfbaa/topologicpy-0.7.6-py3-none-any.whl
+[2024-05-27 11:56:51] INFO root fetch - processPackages [qulacs]: New version: [0.6.3] Old Version: [0.6.2]
+[2024-05-27 11:56:51] INFO root fetch - processPackages [pybiolib]: New version: [1.1.999] Old Version: [1.1.997]
+[2024-05-27 11:56:51] INFO root fetch - processPackages [qulacs]: Downloading https://files.pythonhosted.org/packages/b2/7b/7217f4b913411f3462a6b39d8a37664d4f28d60d2952f603d25f5204a71c/qulacs-0.6.2.tar.gz
+[2024-05-27 11:56:51] INFO root fetch - processPackages [topologicpy]: Downloading https://files.pythonhosted.org/packages/65/d7/de982dd19dedb2387a9d3c48ff9384633b27b874064c9d3614a3c6dc530b/topologicpy-6.0.0-py3-none-any.whl
+[2024-05-27 11:56:51] INFO root fetch - processPackages [topologicpy]: executing diffoscope
+[2024-05-27 11:56:51] INFO root fetch - processPackages [topologicpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/topologicpy-0.7.6-py3-none-any.whl.zip tmp/topologicpy-6.0.0-py3-none-any.whl.zip --markdown 20240527/t/topologicpy/0.7.6-6.0.0/README.md --exclude *.pyd
+[2024-05-27 11:56:51] INFO root fetch - processPackages [pybiolib]: Downloading https://files.pythonhosted.org/packages/3a/9a/8d08460188d169ab51c67693f2c3b0bab2c3fa9157e378bd6b8de3c94c22/pybiolib-1.1.997.tar.gz
+[2024-05-27 11:56:52] INFO root fetch - processPackages [qulacs]: Downloading https://files.pythonhosted.org/packages/c2/86/886949db3231edba0e24b0ffa5745a7b29dd18f28ca6fb758139233f6287/qulacs-0.6.3.tar.gz
+[2024-05-27 11:56:52] INFO root fetch - processPackages [qulacs]: executing diffoscope
+[2024-05-27 11:56:52] INFO root fetch - processPackages [qulacs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qulacs-0.6.2.tar.gz tmp/qulacs-0.6.3.tar.gz --markdown 20240527/q/qulacs/0.6.2-0.6.3/README.md --exclude *.pyd
+[2024-05-27 11:56:52] INFO root fetch - processPackages [pybiolib]: Downloading https://files.pythonhosted.org/packages/63/4d/ccfc9f32e5d27ecd72b00bec47623fd00317dfdd6724e0fa9865b2f036d3/pybiolib-1.1.999.tar.gz
+[2024-05-27 11:56:52] INFO root fetch - processPackages [pybiolib]: executing diffoscope
+[2024-05-27 11:56:52] INFO root fetch - processPackages [pybiolib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybiolib-1.1.997.tar.gz tmp/pybiolib-1.1.999.tar.gz --markdown 20240527/p/pybiolib/1.1.997-1.1.999/README.md --exclude *.pyd
+[2024-05-27 11:56:53] INFO root fetch - processPackages [pybiolib]: Remove: archive file [/home/abi/fetcher/tmp/pybiolib-1.1.997.tar.gz]
+[2024-05-27 11:56:53] INFO root fetch - processPackages [pybiolib]: Remove: archive file [/home/abi/fetcher/tmp/pybiolib-1.1.999.tar.gz]
+[2024-05-27 11:56:53] INFO root fetch - main [MainThread]: End processing [pybiolib]: success
+[2024-05-27 11:56:53] INFO root fetch - processPackages [topologicpy]: Remove: archive file [/home/abi/fetcher/tmp/topologicpy-0.7.6-py3-none-any.whl.zip]
+[2024-05-27 11:56:53] INFO root fetch - processPackages [topologicpy]: Remove: archive file [/home/abi/fetcher/tmp/topologicpy-6.0.0-py3-none-any.whl.zip]
+[2024-05-27 11:56:53] INFO root fetch - main [MainThread]: End processing [topologicpy]: success
+[2024-05-27 11:57:04] INFO root fetch - processPackages [qulacs]: Remove: archive file [/home/abi/fetcher/tmp/qulacs-0.6.2.tar.gz]
+[2024-05-27 11:57:04] INFO root fetch - processPackages [qulacs]: Remove: archive file [/home/abi/fetcher/tmp/qulacs-0.6.3.tar.gz]
+[2024-05-27 11:57:04] INFO root fetch - main [MainThread]: End processing [qulacs]: success
+[2024-05-27 11:57:04] INFO root fetch - main [MainThread]: Store serial: [23393558]
