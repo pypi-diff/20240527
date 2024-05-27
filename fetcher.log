@@ -19544,3 +19544,99 @@ EOFError: EOF read where object expected
 [2024-05-27 16:57:32] INFO root fetch - processPackages [btrview]: Remove: archive file [/home/abi/fetcher/tmp/btrview-0.7.2.tar.gz]
 [2024-05-27 16:57:32] INFO root fetch - main [MainThread]: End processing [btrview]: success
 [2024-05-27 16:57:32] INFO root fetch - main [MainThread]: Store serial: [23397334]
+[2024-05-27 16:59:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23397334]
+[2024-05-27 16:59:40] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-27 16:59:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: efel
+[2024-05-27 16:59:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: datasphere
+[2024-05-27 16:59:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: py-tools-wd
+[2024-05-27 16:59:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: discordreactive
+[2024-05-27 16:59:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: qxelarator
+[2024-05-27 16:59:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: byte-triggers
+[2024-05-27 16:59:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ivylantern
+[2024-05-27 16:59:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: logfire
+[2024-05-27 16:59:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: starling-sim
+[2024-05-27 16:59:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: scoda
+[2024-05-27 16:59:41] INFO root fetch - processPackages [py-tools-wd]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-27 16:59:41] INFO root fetch - processPackages [ivylantern]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-27 16:59:41] INFO root fetch - processPackages [datasphere]: New version: [0.7.1] Old Version: [0.6.9]
+[2024-05-27 16:59:41] INFO root fetch - processPackages [ivylantern]: Downloading https://files.pythonhosted.org/packages/2e/9e/483610b2dffa144a3fa8f2b5749324e92df00eb4b450467517234d76c3b1/ivylantern-0.1.3.tar.gz
+[2024-05-27 16:59:41] WARNING root fetch - processPackages [discordreactive]: Skipping, unable to determine old version
+[2024-05-27 16:59:41] INFO root fetch - processPackages [discordreactive]: Start processing: yeref
+[2024-05-27 16:59:41] INFO root fetch - main [MainThread]: End processing [discordreactive] error
+[2024-05-27 16:59:41] INFO root fetch - processPackages [byte-triggers]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-05-27 16:59:41] INFO root fetch - processPackages [efel]: New version: [5.6.9] Old Version: [5.6.8]
+[2024-05-27 16:59:41] INFO root fetch - processPackages [logfire]: New version: [0.36.0] Old Version: [0.35.0]
+[2024-05-27 16:59:41] INFO root fetch - processPackages [qxelarator]: New version: [0.7.1] Old Version: [0.7.0]
+[2024-05-27 16:59:41] INFO root fetch - processPackages [scoda]: New version: [2.1b6] Old Version: [2.1b5]
+[2024-05-27 16:59:41] INFO root fetch - processPackages [starling-sim]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-27 16:59:41] INFO root fetch - processPackages [yeref]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-27 16:59:41] INFO root fetch - processPackages [py-tools-wd]: Downloading https://files.pythonhosted.org/packages/a6/10/3d54ee4460babd28d17d92d09975283b5f5fbc7c1f3544571b1475a4f329/py_tools_wd-0.0.1.tar.gz
+[2024-05-27 16:59:41] INFO root fetch - processPackages [datasphere]: Downloading https://files.pythonhosted.org/packages/db/e4/a778c5158500ab1a5a41a47e7d3a3fba1b44b1f249926738aa536f143b78/datasphere-0.6.9.tar.gz
+[2024-05-27 16:59:41] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/ec/cb/204e6fbe233bbb61cf29c1b491e8c638c8a843edc47fb4e1d8cc8c26608c/yeref-0.9.8.tar.gz
+[2024-05-27 16:59:41] INFO root fetch - processPackages [byte-triggers]: Downloading https://files.pythonhosted.org/packages/c2/91/461f5b281b23403f0ff38a00b8dfdf1a60194927c00bf9928c098b7981f6/byte_triggers-0.3.0.tar.gz
+[2024-05-27 16:59:41] INFO root fetch - processPackages [efel]: Downloading https://files.pythonhosted.org/packages/79/1e/31cbb4d223fa5779a1791b711bb7cd79f7dad2bf7ab6bce1a22e8e7c0d2f/efel-5.6.8.tar.gz
+[2024-05-27 16:59:41] INFO root fetch - processPackages [qxelarator]: Downloading https://files.pythonhosted.org/packages/48/24/14e79b35de03d67c94e1b7dffc27ae54460282543f3e4c3cec3f6a32eaa1/qxelarator-0.7.0-cp39-cp39-win_amd64.whl
+[2024-05-27 16:59:41] INFO root fetch - processPackages [logfire]: Downloading https://files.pythonhosted.org/packages/2b/70/6cb56c28144e396b2938a29976a304dc395def1a6d90dccf6377764c866a/logfire-0.35.0.tar.gz
+[2024-05-27 16:59:41] INFO root fetch - processPackages [scoda]: Downloading https://files.pythonhosted.org/packages/b7/e3/29dec9820ce6c079b9b5184e4b61904f51e2a1c6628fd02c816e1e3a36cd/scoda-2.1b5.tar.gz
+[2024-05-27 16:59:41] INFO root fetch - processPackages [starling-sim]: Downloading https://files.pythonhosted.org/packages/c4/a4/bcdceaa0acf95209340a3d77d72651ce61f256f8a1d91b1884a092aaba8c/starling-sim-0.9.0.tar.gz
+[2024-05-27 16:59:41] INFO root fetch - processPackages [ivylantern]: Downloading https://files.pythonhosted.org/packages/b4/0a/7568e368b8ecbbf7647ab32ec75eccd23047a61702ddb5a7dc012c06d53f/ivylantern-0.1.4.tar.gz
+[2024-05-27 16:59:41] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/01/13/0f11bb3dfb27aaf16ed48b0046f50ac65b1fde32662fbc314d53e2558b2d/yeref-0.9.9.tar.gz
+[2024-05-27 16:59:41] INFO root fetch - processPackages [py-tools-wd]: Downloading https://files.pythonhosted.org/packages/60/a9/aad03986147e6ef0ae3269a29b2c80854a02ec0409a4c5527153d1ced46f/py-tools-wd-0.0.2.tar.gz
+[2024-05-27 16:59:41] INFO root fetch - processPackages [ivylantern]: executing diffoscope
+[2024-05-27 16:59:41] INFO root fetch - processPackages [ivylantern]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ivylantern-0.1.3.tar.gz tmp/ivylantern-0.1.4.tar.gz --markdown 20240527/i/ivylantern/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-27 16:59:41] INFO root fetch - processPackages [datasphere]: Downloading https://files.pythonhosted.org/packages/10/a5/3c02f1b5901d00d9b92a1e58721fb39141d020b316c017a0a94715074edc/datasphere-0.7.1.tar.gz
+[2024-05-27 16:59:41] INFO root fetch - processPackages [py-tools-wd]: executing diffoscope
+[2024-05-27 16:59:41] INFO root fetch - processPackages [py-tools-wd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_tools_wd-0.0.1.tar.gz tmp/py-tools-wd-0.0.2.tar.gz --markdown 20240527/p/py-tools-wd/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-27 16:59:41] INFO root fetch - processPackages [qxelarator]: Downloading https://files.pythonhosted.org/packages/e6/4b/8e69db4ccff1b13929a0fa284cc059c192e7315387dd1cda93eefb96fa0e/qxelarator-0.7.1-cp39-cp39-win_amd64.whl
+[2024-05-27 16:59:41] INFO root fetch - processPackages [logfire]: Downloading https://files.pythonhosted.org/packages/c4/aa/5ed55d8063d9b343d9de6257575ec97952489b41dcede150d8d203bfce39/logfire-0.36.0.tar.gz
+[2024-05-27 16:59:42] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2024-05-27 16:59:42] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.9.8.tar.gz tmp/yeref-0.9.9.tar.gz --markdown 20240527/y/yeref/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-27 16:59:42] INFO root fetch - processPackages [scoda]: Downloading https://files.pythonhosted.org/packages/d7/ff/7d575363ee0f388ecc94084a9cdad0a74acf5248b2ac767bcfb0f8fb5790/scoda-2.1b6.tar.gz
+[2024-05-27 16:59:42] INFO root fetch - processPackages [byte-triggers]: Downloading https://files.pythonhosted.org/packages/3a/89/f5866f1259d0c24a4f9fb700d462fd0880f3023021eb46b37c183cbc00e1/byte_triggers-0.4.0.tar.gz
+[2024-05-27 16:59:42] INFO root fetch - processPackages [efel]: Downloading https://files.pythonhosted.org/packages/49/8d/514d183040a164204dbbc17e6552e3c6fba522bfada39777899423fa195d/efel-5.6.9.tar.gz
+[2024-05-27 16:59:42] INFO root fetch - processPackages [starling-sim]: Downloading https://files.pythonhosted.org/packages/d1/33/b7cd951bbc37d3888545a7c5b0eef64942d66c2a5924e9e1fcf9786a41a5/starling-sim-0.9.1.tar.gz
+[2024-05-27 16:59:42] INFO root fetch - processPackages [datasphere]: executing diffoscope
+[2024-05-27 16:59:42] INFO root fetch - processPackages [datasphere]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datasphere-0.6.9.tar.gz tmp/datasphere-0.7.1.tar.gz --markdown 20240527/d/datasphere/0.6.9-0.7.1/README.md --exclude *.pyd
+[2024-05-27 16:59:42] INFO root fetch - processPackages [logfire]: executing diffoscope
+[2024-05-27 16:59:42] INFO root fetch - processPackages [logfire]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logfire-0.35.0.tar.gz tmp/logfire-0.36.0.tar.gz --markdown 20240527/l/logfire/0.35.0-0.36.0/README.md --exclude *.pyd
+[2024-05-27 16:59:42] INFO root fetch - processPackages [byte-triggers]: executing diffoscope
+[2024-05-27 16:59:42] INFO root fetch - processPackages [byte-triggers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/byte_triggers-0.3.0.tar.gz tmp/byte_triggers-0.4.0.tar.gz --markdown 20240527/b/byte-triggers/0.3.0-0.4.0/README.md --exclude *.pyd
+[2024-05-27 16:59:42] INFO root fetch - processPackages [efel]: executing diffoscope
+[2024-05-27 16:59:42] INFO root fetch - processPackages [efel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/efel-5.6.8.tar.gz tmp/efel-5.6.9.tar.gz --markdown 20240527/e/efel/5.6.8-5.6.9/README.md --exclude *.pyd
+[2024-05-27 16:59:42] INFO root fetch - processPackages [starling-sim]: executing diffoscope
+[2024-05-27 16:59:42] INFO root fetch - processPackages [starling-sim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/starling-sim-0.9.0.tar.gz tmp/starling-sim-0.9.1.tar.gz --markdown 20240527/s/starling-sim/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-27 16:59:42] INFO root fetch - processPackages [scoda]: executing diffoscope
+[2024-05-27 16:59:42] INFO root fetch - processPackages [scoda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scoda-2.1b5.tar.gz tmp/scoda-2.1b6.tar.gz --markdown 20240527/s/scoda/2.1b5-2.1b6/README.md --exclude *.pyd
+[2024-05-27 16:59:42] INFO root fetch - processPackages [qxelarator]: executing diffoscope
+[2024-05-27 16:59:42] INFO root fetch - processPackages [qxelarator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qxelarator-0.7.0-cp39-cp39-win_amd64.whl.zip tmp/qxelarator-0.7.1-cp39-cp39-win_amd64.whl.zip --markdown 20240527/q/qxelarator/0.7.0-0.7.1/README.md --exclude *.pyd
+[2024-05-27 16:59:42] INFO root fetch - processPackages [ivylantern]: Remove: archive file [/home/abi/fetcher/tmp/ivylantern-0.1.3.tar.gz]
+[2024-05-27 16:59:42] INFO root fetch - processPackages [ivylantern]: Remove: archive file [/home/abi/fetcher/tmp/ivylantern-0.1.4.tar.gz]
+[2024-05-27 16:59:42] INFO root fetch - main [MainThread]: End processing [ivylantern]: success
+[2024-05-27 16:59:42] INFO root fetch - processPackages [py-tools-wd]: Remove: archive file [/home/abi/fetcher/tmp/py_tools_wd-0.0.1.tar.gz]
+[2024-05-27 16:59:42] INFO root fetch - processPackages [py-tools-wd]: Remove: archive file [/home/abi/fetcher/tmp/py-tools-wd-0.0.2.tar.gz]
+[2024-05-27 16:59:42] INFO root fetch - main [MainThread]: End processing [py-tools-wd]: success
+[2024-05-27 16:59:43] INFO root fetch - processPackages [byte-triggers]: Remove: archive file [/home/abi/fetcher/tmp/byte_triggers-0.3.0.tar.gz]
+[2024-05-27 16:59:43] INFO root fetch - processPackages [byte-triggers]: Remove: archive file [/home/abi/fetcher/tmp/byte_triggers-0.4.0.tar.gz]
+[2024-05-27 16:59:43] INFO root fetch - main [MainThread]: End processing [byte-triggers]: success
+[2024-05-27 16:59:43] INFO root fetch - processPackages [efel]: Remove: archive file [/home/abi/fetcher/tmp/efel-5.6.8.tar.gz]
+[2024-05-27 16:59:43] INFO root fetch - processPackages [efel]: Remove: archive file [/home/abi/fetcher/tmp/efel-5.6.9.tar.gz]
+[2024-05-27 16:59:43] INFO root fetch - main [MainThread]: End processing [efel]: success
+[2024-05-27 16:59:43] INFO root fetch - processPackages [qxelarator]: Remove: archive file [/home/abi/fetcher/tmp/qxelarator-0.7.0-cp39-cp39-win_amd64.whl.zip]
+[2024-05-27 16:59:43] INFO root fetch - processPackages [qxelarator]: Remove: archive file [/home/abi/fetcher/tmp/qxelarator-0.7.1-cp39-cp39-win_amd64.whl.zip]
+[2024-05-27 16:59:43] INFO root fetch - main [MainThread]: End processing [qxelarator]: success
+[2024-05-27 16:59:43] INFO root fetch - processPackages [scoda]: Remove: archive file [/home/abi/fetcher/tmp/scoda-2.1b5.tar.gz]
+[2024-05-27 16:59:43] INFO root fetch - processPackages [scoda]: Remove: archive file [/home/abi/fetcher/tmp/scoda-2.1b6.tar.gz]
+[2024-05-27 16:59:43] INFO root fetch - main [MainThread]: End processing [scoda]: success
+[2024-05-27 16:59:43] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.8.tar.gz]
+[2024-05-27 16:59:43] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.9.tar.gz]
+[2024-05-27 16:59:43] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2024-05-27 16:59:43] INFO root fetch - processPackages [starling-sim]: Remove: archive file [/home/abi/fetcher/tmp/starling-sim-0.9.0.tar.gz]
+[2024-05-27 16:59:43] INFO root fetch - processPackages [starling-sim]: Remove: archive file [/home/abi/fetcher/tmp/starling-sim-0.9.1.tar.gz]
+[2024-05-27 16:59:43] INFO root fetch - main [MainThread]: End processing [starling-sim]: success
+[2024-05-27 16:59:43] INFO root fetch - processPackages [logfire]: Remove: archive file [/home/abi/fetcher/tmp/logfire-0.35.0.tar.gz]
+[2024-05-27 16:59:43] INFO root fetch - processPackages [logfire]: Remove: archive file [/home/abi/fetcher/tmp/logfire-0.36.0.tar.gz]
+[2024-05-27 16:59:43] INFO root fetch - main [MainThread]: End processing [logfire]: success
+[2024-05-27 16:59:48] INFO root fetch - processPackages [datasphere]: Remove: archive file [/home/abi/fetcher/tmp/datasphere-0.6.9.tar.gz]
+[2024-05-27 16:59:48] INFO root fetch - processPackages [datasphere]: Remove: archive file [/home/abi/fetcher/tmp/datasphere-0.7.1.tar.gz]
+[2024-05-27 16:59:48] INFO root fetch - main [MainThread]: End processing [datasphere]: success
+[2024-05-27 16:59:48] INFO root fetch - main [MainThread]: Store serial: [23397400]
