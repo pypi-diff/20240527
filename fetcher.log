@@ -4558,3 +4558,63 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 05:22:34] INFO root fetch - processPackages [nonebot-plugin-plus-one]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_plus_one-0.1.4.tar.gz]
 [2024-05-27 05:22:34] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-plus-one]: success
 [2024-05-27 05:22:34] INFO root fetch - main [MainThread]: Store serial: [23390226]
+[2024-05-27 05:24:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23390226]
+[2024-05-27 05:24:42] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-27 05:24:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tablemaster
+[2024-05-27 05:24:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: project-utils-config
+[2024-05-27 05:24:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fastybird-modules-metadata
+[2024-05-27 05:24:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: discordreactive
+[2024-05-27 05:24:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: keras-nightly
+[2024-05-27 05:24:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: playwright-network-spy
+[2024-05-27 05:24:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fudstop
+[2024-05-27 05:24:42] INFO root fetch - processPackages [keras-nightly]: New version: [3.3.3.dev2024052603] Old Version: [3.3.3.dev2024052503]
+[2024-05-27 05:24:42] INFO root fetch - processPackages [playwright-network-spy]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-27 05:24:43] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/b9/48/ff8d1fe9b181c11e08b185931499a7cdac18728897fd95faa8f1349ac545/keras_nightly-3.3.3.dev2024052503.tar.gz
+[2024-05-27 05:24:43] INFO root fetch - processPackages [playwright-network-spy]: Downloading https://files.pythonhosted.org/packages/c7/b0/fa9419ec13b3d10f08a8c41f355c3c9d3b8f7c78890ad0a055f48a38bdf6/playwright_network_spy-0.1.2.tar.gz
+[2024-05-27 05:24:43] INFO root fetch - processPackages [project-utils-config]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-05-27 05:24:43] INFO root fetch - processPackages [tablemaster]: New version: [1.2.3] Old Version: [1.2.2]
+[2024-05-27 05:24:43] WARNING root fetch - processPackages [fastybird-modules-metadata]: Skipping, unable to determine old version
+[2024-05-27 05:24:43] INFO root fetch - main [MainThread]: End processing [fastybird-modules-metadata] error
+[2024-05-27 05:24:43] INFO root fetch - processPackages [discordreactive]: New version: [0.2] Old Version: [0.1]
+[2024-05-27 05:24:43] INFO root fetch - processPackages [fudstop]: New version: [2.7.4] Old Version: [2.7.3]
+[2024-05-27 05:24:43] INFO root fetch - processPackages [discordreactive]: Downloading https://files.pythonhosted.org/packages/dc/c8/b4b2f0e63a66b86965d962cbe58e862dcce74077377b477c10a34a6dedb3/discordreactive-0.1.tar.gz
+[2024-05-27 05:24:43] INFO root fetch - processPackages [project-utils-config]: Downloading https://files.pythonhosted.org/packages/09/9e/fd6e274c79e1f2fe42620dcd280e42010095cef2ab6b807f019bb7e509e1/project-utils-config-1.0.0.tar.gz
+[2024-05-27 05:24:43] INFO root fetch - processPackages [tablemaster]: Downloading https://files.pythonhosted.org/packages/50/15/ed3a03ce102d3833fd362818976174bb17dd06058c10f419369749ce17e7/tablemaster-1.2.2.tar.gz
+[2024-05-27 05:24:43] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/90/2b/a5ca655b96e0d280ff130a58af7490cadd79c1c064fa7cf3f68afa1e3553/keras_nightly-3.3.3.dev2024052603.tar.gz
+[2024-05-27 05:24:43] INFO root fetch - processPackages [playwright-network-spy]: Downloading https://files.pythonhosted.org/packages/bd/a6/74329f8935b7fb20e467ed17312d11ce5bc83a1cf8b03fadf7912dddffda/playwright_network_spy-0.1.3.tar.gz
+[2024-05-27 05:24:43] INFO root fetch - processPackages [fudstop]: Downloading https://files.pythonhosted.org/packages/ea/79/bb11c659f8a67843aa51d4683b1b0aab963130d147be1d51fe5f87590a46/fudstop-2.7.3.tar.gz
+[2024-05-27 05:24:43] INFO root fetch - processPackages [discordreactive]: Downloading https://files.pythonhosted.org/packages/28/dc/9111e48ec6f1ec45d8b49af24d41c144b29a66d879fbaa1f53dbeccd61f2/discordreactive-0.2.tar.gz
+[2024-05-27 05:24:43] INFO root fetch - processPackages [project-utils-config]: Downloading https://files.pythonhosted.org/packages/a3/df/a8810e5701bd58aa0e4cb7026d7c01b2e2ef98563a58e65f41b779970ac1/project-utils-config-1.1.0.tar.gz
+[2024-05-27 05:24:43] INFO root fetch - processPackages [playwright-network-spy]: executing diffoscope
+[2024-05-27 05:24:43] INFO root fetch - processPackages [playwright-network-spy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/playwright_network_spy-0.1.2.tar.gz tmp/playwright_network_spy-0.1.3.tar.gz --markdown 20240527/p/playwright-network-spy/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-27 05:24:43] INFO root fetch - processPackages [keras-nightly]: executing diffoscope
+[2024-05-27 05:24:43] INFO root fetch - processPackages [keras-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras_nightly-3.3.3.dev2024052503.tar.gz tmp/keras_nightly-3.3.3.dev2024052603.tar.gz --markdown 20240527/k/keras-nightly/3.3.3.dev2024052503-3.3.3.dev2024052603/README.md --exclude *.pyd
+[2024-05-27 05:24:43] INFO root fetch - processPackages [tablemaster]: Downloading https://files.pythonhosted.org/packages/63/9a/461f3ba8c776abd23418ea50dd1bd25dc993ac5be063254ad4ce09f2ab4a/tablemaster-1.2.3.tar.gz
+[2024-05-27 05:24:43] INFO root fetch - processPackages [discordreactive]: executing diffoscope
+[2024-05-27 05:24:43] INFO root fetch - processPackages [discordreactive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discordreactive-0.1.tar.gz tmp/discordreactive-0.2.tar.gz --markdown 20240527/d/discordreactive/0.1-0.2/README.md --exclude *.pyd
+[2024-05-27 05:24:43] INFO root fetch - processPackages [project-utils-config]: executing diffoscope
+[2024-05-27 05:24:43] INFO root fetch - processPackages [project-utils-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/project-utils-config-1.0.0.tar.gz tmp/project-utils-config-1.1.0.tar.gz --markdown 20240527/p/project-utils-config/1.0.0-1.1.0/README.md --exclude *.pyd
+[2024-05-27 05:24:43] INFO root fetch - processPackages [tablemaster]: executing diffoscope
+[2024-05-27 05:24:43] INFO root fetch - processPackages [tablemaster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tablemaster-1.2.2.tar.gz tmp/tablemaster-1.2.3.tar.gz --markdown 20240527/t/tablemaster/1.2.2-1.2.3/README.md --exclude *.pyd
+[2024-05-27 05:24:43] INFO root fetch - processPackages [fudstop]: Downloading https://files.pythonhosted.org/packages/60/b5/58daed29c7e7b0deeba9598e531ff5762679044d9950123a8fa19394a314/fudstop-2.7.4.tar.gz
+[2024-05-27 05:24:44] INFO root fetch - processPackages [fudstop]: executing diffoscope
+[2024-05-27 05:24:44] INFO root fetch - processPackages [fudstop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fudstop-2.7.3.tar.gz tmp/fudstop-2.7.4.tar.gz --markdown 20240527/f/fudstop/2.7.3-2.7.4/README.md --exclude *.pyd
+[2024-05-27 05:24:44] INFO root fetch - processPackages [playwright-network-spy]: Remove: archive file [/home/abi/fetcher/tmp/playwright_network_spy-0.1.2.tar.gz]
+[2024-05-27 05:24:44] INFO root fetch - processPackages [playwright-network-spy]: Remove: archive file [/home/abi/fetcher/tmp/playwright_network_spy-0.1.3.tar.gz]
+[2024-05-27 05:24:44] INFO root fetch - main [MainThread]: End processing [playwright-network-spy]: success
+[2024-05-27 05:24:44] INFO root fetch - processPackages [discordreactive]: Remove: archive file [/home/abi/fetcher/tmp/discordreactive-0.1.tar.gz]
+[2024-05-27 05:24:44] INFO root fetch - processPackages [discordreactive]: Remove: archive file [/home/abi/fetcher/tmp/discordreactive-0.2.tar.gz]
+[2024-05-27 05:24:44] INFO root fetch - main [MainThread]: End processing [discordreactive]: success
+[2024-05-27 05:24:44] INFO root fetch - processPackages [tablemaster]: Remove: archive file [/home/abi/fetcher/tmp/tablemaster-1.2.2.tar.gz]
+[2024-05-27 05:24:44] INFO root fetch - processPackages [tablemaster]: Remove: archive file [/home/abi/fetcher/tmp/tablemaster-1.2.3.tar.gz]
+[2024-05-27 05:24:44] INFO root fetch - main [MainThread]: End processing [tablemaster]: success
+[2024-05-27 05:24:44] INFO root fetch - processPackages [project-utils-config]: Remove: archive file [/home/abi/fetcher/tmp/project-utils-config-1.0.0.tar.gz]
+[2024-05-27 05:24:44] INFO root fetch - processPackages [project-utils-config]: Remove: archive file [/home/abi/fetcher/tmp/project-utils-config-1.1.0.tar.gz]
+[2024-05-27 05:24:44] INFO root fetch - main [MainThread]: End processing [project-utils-config]: success
+[2024-05-27 05:24:45] INFO root fetch - processPackages [fudstop]: Remove: archive file [/home/abi/fetcher/tmp/fudstop-2.7.3.tar.gz]
+[2024-05-27 05:24:45] INFO root fetch - processPackages [fudstop]: Remove: archive file [/home/abi/fetcher/tmp/fudstop-2.7.4.tar.gz]
+[2024-05-27 05:24:45] INFO root fetch - main [MainThread]: End processing [fudstop]: success
+[2024-05-27 05:24:45] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-3.3.3.dev2024052503.tar.gz]
+[2024-05-27 05:24:45] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-3.3.3.dev2024052603.tar.gz]
+[2024-05-27 05:24:45] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
+[2024-05-27 05:24:45] INFO root fetch - main [MainThread]: Store serial: [23390249]
