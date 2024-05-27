@@ -13986,3 +13986,33 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 13:28:07] INFO root fetch - processPackages [torchx-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchx_nightly-2024.5.9-py3-none-any.whl.zip]
 [2024-05-27 13:28:07] INFO root fetch - main [MainThread]: End processing [torchx-nightly]: success
 [2024-05-27 13:28:07] INFO root fetch - main [MainThread]: Store serial: [23394725]
+[2024-05-27 13:30:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23394725]
+[2024-05-27 13:30:17] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-27 13:30:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: telethon-client
+[2024-05-27 13:30:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tuf-on-ci-sign
+[2024-05-27 13:30:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: localstack-core
+[2024-05-27 13:30:17] INFO root fetch - processPackages [telethon-client]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-27 13:30:17] INFO root fetch - processPackages [localstack-core]: New version: [3.4.1.dev20240527080017] Old Version: [3.4.1.dev20240527022455]
+[2024-05-27 13:30:17] INFO root fetch - processPackages [tuf-on-ci-sign]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-27 13:30:17] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/9a/77/58926e51b8cefad7b51df8c8cb54e606a0b9dd6554d9e010dcb9581f4b22/localstack_core-3.4.1.dev20240527022455.tar.gz
+[2024-05-27 13:30:17] INFO root fetch - processPackages [telethon-client]: Downloading https://files.pythonhosted.org/packages/31/11/89ca213188356f9154d3ffe7a23a17ae62b51fc7b05c4cf70a0f6c707126/telethon-client-0.0.1.tar.gz
+[2024-05-27 13:30:17] INFO root fetch - processPackages [tuf-on-ci-sign]: Downloading https://files.pythonhosted.org/packages/d9/0e/57b071f04f157df8d271186e4b1acd5da10ec6a9c7309b2dac2a0f55a8bb/tuf_on_ci_sign-0.8.0.tar.gz
+[2024-05-27 13:30:17] INFO root fetch - processPackages [telethon-client]: Downloading https://files.pythonhosted.org/packages/12/99/0ba9f0a24507a1b2bb85b2fbf3077472fdb8aa7cb0b3578b5e993d92322a/telethon-client-0.0.2.tar.gz
+[2024-05-27 13:30:17] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/c0/11/d2adde4409c3fa3292f03f51a324ca8b30ef904794c6ba508589cb02e5c5/localstack_core-3.4.1.dev20240527080017.tar.gz
+[2024-05-27 13:30:17] INFO root fetch - processPackages [telethon-client]: executing diffoscope
+[2024-05-27 13:30:17] INFO root fetch - processPackages [telethon-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/telethon-client-0.0.1.tar.gz tmp/telethon-client-0.0.2.tar.gz --markdown 20240527/t/telethon-client/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-27 13:30:18] INFO root fetch - processPackages [tuf-on-ci-sign]: Downloading https://files.pythonhosted.org/packages/c5/18/de45bf0a0c44129197ce2cb58d01cb9c309c51b353e8a9163699d11078fe/tuf_on_ci_sign-0.9.0.tar.gz
+[2024-05-27 13:30:18] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2024-05-27 13:30:18] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack_core-3.4.1.dev20240527022455.tar.gz tmp/localstack_core-3.4.1.dev20240527080017.tar.gz --markdown 20240527/l/localstack-core/3.4.1.dev20240527022455-3.4.1.dev20240527080017/README.md --exclude *.pyd
+[2024-05-27 13:30:18] INFO root fetch - processPackages [tuf-on-ci-sign]: executing diffoscope
+[2024-05-27 13:30:18] INFO root fetch - processPackages [tuf-on-ci-sign]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tuf_on_ci_sign-0.8.0.tar.gz tmp/tuf_on_ci_sign-0.9.0.tar.gz --markdown 20240527/t/tuf-on-ci-sign/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-27 13:30:18] INFO root fetch - processPackages [telethon-client]: Remove: archive file [/home/abi/fetcher/tmp/telethon-client-0.0.1.tar.gz]
+[2024-05-27 13:30:18] INFO root fetch - processPackages [telethon-client]: Remove: archive file [/home/abi/fetcher/tmp/telethon-client-0.0.2.tar.gz]
+[2024-05-27 13:30:18] INFO root fetch - main [MainThread]: End processing [telethon-client]: success
+[2024-05-27 13:30:18] INFO root fetch - processPackages [tuf-on-ci-sign]: Remove: archive file [/home/abi/fetcher/tmp/tuf_on_ci_sign-0.8.0.tar.gz]
+[2024-05-27 13:30:18] INFO root fetch - processPackages [tuf-on-ci-sign]: Remove: archive file [/home/abi/fetcher/tmp/tuf_on_ci_sign-0.9.0.tar.gz]
+[2024-05-27 13:30:18] INFO root fetch - main [MainThread]: End processing [tuf-on-ci-sign]: success
+[2024-05-27 13:30:21] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.4.1.dev20240527022455.tar.gz]
+[2024-05-27 13:30:21] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.4.1.dev20240527080017.tar.gz]
+[2024-05-27 13:30:21] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2024-05-27 13:30:21] INFO root fetch - main [MainThread]: Store serial: [23394738]
