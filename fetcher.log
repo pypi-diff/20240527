@@ -7504,3 +7504,60 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 08:53:15] INFO root fetch - processPackages [GnosisTech]: Remove: archive file [/home/abi/fetcher/tmp/gnosistech-0.1.2.tar.gz]
 [2024-05-27 08:53:15] INFO root fetch - main [MainThread]: End processing [GnosisTech]: success
 [2024-05-27 08:53:15] INFO root fetch - main [MainThread]: Store serial: [23391503]
+[2024-05-27 08:55:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23391503]
+[2024-05-27 08:55:23] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-27 08:55:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-safe-delete-t
+[2024-05-27 08:55:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: direct-neural-biasing
+[2024-05-27 08:55:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: repartee
+[2024-05-27 08:55:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: elaina-flywheel
+[2024-05-27 08:55:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: duwi-smarthome-sdk-dev
+[2024-05-27 08:55:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: healpy
+[2024-05-27 08:55:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bigdl-core-xe-batch-21
+[2024-05-27 08:55:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: celery-callback-service
+[2024-05-27 08:55:23] INFO root fetch - processPackages [direct-neural-biasing]: New version: [0.6.6] Old Version: [0.6.5]
+[2024-05-27 08:55:24] INFO root fetch - processPackages [direct-neural-biasing]: Downloading https://files.pythonhosted.org/packages/2e/b9/2ef2b79dadd1349e6386c2dde82afe6194c632552adb8000a9bf9e5d02c5/direct_neural_biasing-0.6.5-cp311-none-win_amd64.whl
+[2024-05-27 08:55:24] INFO root fetch - processPackages [elaina-flywheel]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-05-27 08:55:24] WARNING root fetch - processPackages [bigdl-core-xe-batch-21]: Skipping, unable to determine old version
+[2024-05-27 08:55:24] INFO root fetch - main [MainThread]: End processing [bigdl-core-xe-batch-21] error
+[2024-05-27 08:55:24] WARNING root fetch - processPackages [repartee]: Skipping, unable to determine old version
+[2024-05-27 08:55:24] INFO root fetch - main [MainThread]: End processing [repartee] error
+[2024-05-27 08:55:24] INFO root fetch - processPackages [duwi-smarthome-sdk-dev]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-27 08:55:24] WARNING root fetch - processPackages [django-safe-delete-t]: Skipping, unable to determine old version
+[2024-05-27 08:55:24] INFO root fetch - main [MainThread]: End processing [django-safe-delete-t] error
+[2024-05-27 08:55:24] INFO root fetch - processPackages [celery-callback-service]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-05-27 08:55:24] INFO root fetch - processPackages [healpy]: New version: [github-devel] Old Version: [1.9.1]
+[2024-05-27 08:55:24] INFO root fetch - processPackages [elaina-flywheel]: Downloading https://files.pythonhosted.org/packages/a6/3a/0e01949b6f3a1f34a1eba090d4ab4d81e7a016c1232104a19f13d108f3db/elaina_flywheel-0.2.0.tar.gz
+[2024-05-27 08:55:24] INFO root fetch - processPackages [duwi-smarthome-sdk-dev]: Downloading https://files.pythonhosted.org/packages/8e/b1/1a818cd7ebce999864b56bc2bea394d59119bc58e087065699cd93254b72/duwi_smarthome_sdk_dev-0.1.4.tar.gz
+[2024-05-27 08:55:24] INFO root fetch - processPackages [celery-callback-service]: Downloading https://files.pythonhosted.org/packages/6f/3b/b8f66b5c25db567730cfbf9b1b47e4910017290ff04f557931fb18afff36/celery-callback-service-0.1.6.tar.gz
+[2024-05-27 08:55:24] INFO root fetch - processPackages [direct-neural-biasing]: Downloading https://files.pythonhosted.org/packages/62/91/3817904069b42a8800c4671ba797608a3c86daff2629502a543bdbabb7b2/direct_neural_biasing-0.6.6-cp311-none-win_amd64.whl
+[2024-05-27 08:55:24] INFO root fetch - processPackages [healpy]: Downloading https://files.pythonhosted.org/packages/06/94/de69bbb3e2739f3305ad26a7e827d3d896ffda36c7020c26e8bb579fa010/healpy-1.9.1.tar.gz
+[2024-05-27 08:55:24] INFO root fetch - processPackages [direct-neural-biasing]: executing diffoscope
+[2024-05-27 08:55:24] INFO root fetch - processPackages [direct-neural-biasing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/direct_neural_biasing-0.6.5-cp311-none-win_amd64.whl.zip tmp/direct_neural_biasing-0.6.6-cp311-none-win_amd64.whl.zip --markdown 20240527/d/direct-neural-biasing/0.6.5-0.6.6/README.md --exclude *.pyd
+[2024-05-27 08:55:24] INFO root fetch - processPackages [duwi-smarthome-sdk-dev]: Downloading https://files.pythonhosted.org/packages/b2/b4/99acfd601a40d71fd5c2ba4dd89929a27d2c39aa8ce2ec5a48ec7301418d/duwi_smarthome_sdk_dev-0.1.5.tar.gz
+[2024-05-27 08:55:24] INFO root fetch - processPackages [elaina-flywheel]: Downloading https://files.pythonhosted.org/packages/61/f5/b22deedb21f3c8eda0a57d47211fe08a32b0284abdfc2045d755ccdcbbae/elaina_flywheel-0.3.0.tar.gz
+[2024-05-27 08:55:24] INFO root fetch - processPackages [celery-callback-service]: Downloading https://files.pythonhosted.org/packages/eb/98/7d45ca4f6a2ae4a790ed5c69253135b1425c901d90f13e2d7d70df079ee4/celery-callback-service-0.1.7.tar.gz
+[2024-05-27 08:55:24] INFO root fetch - processPackages [duwi-smarthome-sdk-dev]: executing diffoscope
+[2024-05-27 08:55:24] INFO root fetch - processPackages [duwi-smarthome-sdk-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/duwi_smarthome_sdk_dev-0.1.4.tar.gz tmp/duwi_smarthome_sdk_dev-0.1.5.tar.gz --markdown 20240527/d/duwi-smarthome-sdk-dev/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-27 08:55:24] INFO root fetch - processPackages [elaina-flywheel]: executing diffoscope
+[2024-05-27 08:55:24] INFO root fetch - processPackages [elaina-flywheel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elaina_flywheel-0.2.0.tar.gz tmp/elaina_flywheel-0.3.0.tar.gz --markdown 20240527/e/elaina-flywheel/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-05-27 08:55:24] INFO root fetch - processPackages [celery-callback-service]: executing diffoscope
+[2024-05-27 08:55:24] INFO root fetch - processPackages [celery-callback-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/celery-callback-service-0.1.6.tar.gz tmp/celery-callback-service-0.1.7.tar.gz --markdown 20240527/c/celery-callback-service/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-05-27 08:55:25] INFO root fetch - processPackages [direct-neural-biasing]: Remove: archive file [/home/abi/fetcher/tmp/direct_neural_biasing-0.6.5-cp311-none-win_amd64.whl.zip]
+[2024-05-27 08:55:25] INFO root fetch - processPackages [direct-neural-biasing]: Remove: archive file [/home/abi/fetcher/tmp/direct_neural_biasing-0.6.6-cp311-none-win_amd64.whl.zip]
+[2024-05-27 08:55:25] INFO root fetch - main [MainThread]: End processing [direct-neural-biasing]: success
+[2024-05-27 08:55:25] INFO root fetch - processPackages [elaina-flywheel]: Remove: archive file [/home/abi/fetcher/tmp/elaina_flywheel-0.2.0.tar.gz]
+[2024-05-27 08:55:25] INFO root fetch - processPackages [elaina-flywheel]: Remove: archive file [/home/abi/fetcher/tmp/elaina_flywheel-0.3.0.tar.gz]
+[2024-05-27 08:55:25] INFO root fetch - main [MainThread]: End processing [elaina-flywheel]: success
+[2024-05-27 08:55:25] INFO root fetch - processPackages [celery-callback-service]: Remove: archive file [/home/abi/fetcher/tmp/celery-callback-service-0.1.6.tar.gz]
+[2024-05-27 08:55:25] INFO root fetch - processPackages [celery-callback-service]: Remove: archive file [/home/abi/fetcher/tmp/celery-callback-service-0.1.7.tar.gz]
+[2024-05-27 08:55:25] INFO root fetch - main [MainThread]: End processing [celery-callback-service]: success
+[2024-05-27 08:55:25] INFO root fetch - processPackages [duwi-smarthome-sdk-dev]: Remove: archive file [/home/abi/fetcher/tmp/duwi_smarthome_sdk_dev-0.1.4.tar.gz]
+[2024-05-27 08:55:25] INFO root fetch - processPackages [duwi-smarthome-sdk-dev]: Remove: archive file [/home/abi/fetcher/tmp/duwi_smarthome_sdk_dev-0.1.5.tar.gz]
+[2024-05-27 08:55:25] INFO root fetch - main [MainThread]: End processing [duwi-smarthome-sdk-dev]: success
+[2024-05-27 08:55:25] INFO root fetch - processPackages [healpy]: Downloading https://files.pythonhosted.org/packages/2d/97/974e4af259b129f4ad5ab7b910a573613498aa7aecc8e87cabe8a54c8273/healpy-github-devel.tar.gz
+[2024-05-27 08:55:26] INFO root fetch - processPackages [healpy]: executing diffoscope
+[2024-05-27 08:55:26] INFO root fetch - processPackages [healpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/healpy-1.9.1.tar.gz tmp/healpy-github-devel.tar.gz --markdown 20240527/h/healpy/1.9.1-github-devel/README.md --exclude *.pyd
+[2024-05-27 08:55:28] INFO root fetch - processPackages [healpy]: Remove: archive file [/home/abi/fetcher/tmp/healpy-1.9.1.tar.gz]
+[2024-05-27 08:55:28] INFO root fetch - processPackages [healpy]: Remove: archive file [/home/abi/fetcher/tmp/healpy-github-devel.tar.gz]
+[2024-05-27 08:55:28] INFO root fetch - main [MainThread]: End processing [healpy]: success
+[2024-05-27 08:55:28] INFO root fetch - main [MainThread]: Store serial: [23391550]
