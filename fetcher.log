@@ -21536,3 +21536,93 @@ AssertionError: tmp/quickQrLib-0.2.tar.gz does not exist
 [2024-05-27 18:15:08] INFO root fetch - processPackages [QuikUI]: Remove: archive file [/home/abi/fetcher/tmp/QuikUI-0.1.0a2.tar.gz]
 [2024-05-27 18:15:08] INFO root fetch - main [MainThread]: End processing [QuikUI]: success
 [2024-05-27 18:15:08] INFO root fetch - main [MainThread]: Store serial: [23398212]
+[2024-05-27 18:17:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23398212]
+[2024-05-27 18:17:16] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-27 18:17:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: metaffi-api
+[2024-05-27 18:17:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: honeybee-ph
+[2024-05-27 18:17:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ETH-GTD-cli
+[2024-05-27 18:17:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: funboost
+[2024-05-27 18:17:16] INFO root fetch - processPackages [metaffi-api]: New version: [0.0.30] Old Version: [0.0.29]
+[2024-05-27 18:17:16] INFO root fetch - processPackages [ETH-GTD-cli]: New version: [0.0.95] Old Version: [0.0.94]
+[2024-05-27 18:17:17] INFO root fetch - processPackages [metaffi-api]: Downloading https://files.pythonhosted.org/packages/73/ad/5edb8ad99b4abad7b729cec3cf568262f1be0d35cf60d358b0b801a9099c/metaffi_api-0.0.29.tar.gz
+[2024-05-27 18:17:17] INFO root fetch - processPackages [ETH-GTD-cli]: Downloading https://files.pythonhosted.org/packages/51/d0/8a81789acffc90ca235c07694f7992a725cbcb8b5ddab1c835cadecbedbe/eth_gtd_cli-0.0.94.tar.gz
+[2024-05-27 18:17:17] INFO root fetch - processPackages [honeybee-ph]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-05-27 18:17:17] INFO root fetch - processPackages [funboost]: New version: [44.5] Old Version: [44.4]
+[2024-05-27 18:17:17] INFO root fetch - processPackages [honeybee-ph]: Downloading https://files.pythonhosted.org/packages/df/b8/fda4cf01d94f48d6d3083d5708571ff82cc12c33ab31021c75eae52fddf7/honeybee-ph-1.9.0.tar.gz
+[2024-05-27 18:17:17] INFO root fetch - processPackages [funboost]: Downloading https://files.pythonhosted.org/packages/e0/35/879d4105e4d1547825f6d349c49191e8bcc44f9e7518c2dcced04f62a1f1/funboost-44.4.tar.gz
+[2024-05-27 18:17:17] INFO root fetch - processPackages [metaffi-api]: Downloading https://files.pythonhosted.org/packages/05/0a/b37c14351ed2216a15cbee15cbfc17006440de6ee9cd0d4ec0e3b6df0533/metaffi_api-0.0.30.tar.gz
+[2024-05-27 18:17:17] INFO root fetch - processPackages [ETH-GTD-cli]: Downloading https://files.pythonhosted.org/packages/7c/6f/6633e7691644b96f96d2231fc6d5f5b011b3e7e212c6d95abbbb5bec54b0/eth_gtd_cli-0.0.95.tar.gz
+[2024-05-27 18:17:17] INFO root fetch - processPackages [metaffi-api]: executing diffoscope
+[2024-05-27 18:17:17] INFO root fetch - processPackages [metaffi-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metaffi_api-0.0.29.tar.gz tmp/metaffi_api-0.0.30.tar.gz --markdown 20240527/m/metaffi-api/0.0.29-0.0.30/README.md --exclude *.pyd
+[2024-05-27 18:17:17] INFO root fetch - processPackages [ETH-GTD-cli]: executing diffoscope
+[2024-05-27 18:17:17] INFO root fetch - processPackages [ETH-GTD-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eth_gtd_cli-0.0.94.tar.gz tmp/eth_gtd_cli-0.0.95.tar.gz --markdown 20240527/E/ETH-GTD-cli/0.0.94-0.0.95/README.md --exclude *.pyd
+[2024-05-27 18:17:17] INFO root fetch - processPackages [honeybee-ph]: Downloading https://files.pythonhosted.org/packages/ac/3b/94670944c4a0e9844a88bedad8d71fd687fa1d4179f07d807acb90be0100/honeybee-ph-1.9.1.tar.gz
+[2024-05-27 18:17:17] INFO root fetch - processPackages [honeybee-ph]: executing diffoscope
+[2024-05-27 18:17:17] INFO root fetch - processPackages [honeybee-ph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/honeybee-ph-1.9.0.tar.gz tmp/honeybee-ph-1.9.1.tar.gz --markdown 20240527/h/honeybee-ph/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-05-27 18:17:17] INFO root fetch - processPackages [funboost]: Downloading https://files.pythonhosted.org/packages/22/33/ca7a3df885f0da2b2753df23e717737c42fca30f39dd15d110cc0a31f06a/funboost-44.5.tar.gz
+[2024-05-27 18:17:17] INFO root fetch - processPackages [metaffi-api]: Remove: archive file [/home/abi/fetcher/tmp/metaffi_api-0.0.29.tar.gz]
+[2024-05-27 18:17:17] INFO root fetch - processPackages [metaffi-api]: Remove: archive file [/home/abi/fetcher/tmp/metaffi_api-0.0.30.tar.gz]
+[2024-05-27 18:17:17] INFO root fetch - main [MainThread]: End processing [metaffi-api]: success
+[2024-05-27 18:17:18] INFO root fetch - processPackages [ETH-GTD-cli]: Remove: archive file [/home/abi/fetcher/tmp/eth_gtd_cli-0.0.94.tar.gz]
+[2024-05-27 18:17:18] INFO root fetch - processPackages [ETH-GTD-cli]: Remove: archive file [/home/abi/fetcher/tmp/eth_gtd_cli-0.0.95.tar.gz]
+[2024-05-27 18:17:18] INFO root fetch - main [MainThread]: End processing [ETH-GTD-cli]: success
+[2024-05-27 18:17:18] INFO root fetch - processPackages [funboost]: executing diffoscope
+[2024-05-27 18:17:18] INFO root fetch - processPackages [funboost]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funboost-44.4.tar.gz tmp/funboost-44.5.tar.gz --markdown 20240527/f/funboost/44.4-44.5/README.md --exclude *.pyd
+[2024-05-27 18:17:18] INFO root fetch - processPackages [honeybee-ph]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-ph-1.9.0.tar.gz]
+[2024-05-27 18:17:18] INFO root fetch - processPackages [honeybee-ph]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-ph-1.9.1.tar.gz]
+[2024-05-27 18:17:18] INFO root fetch - main [MainThread]: End processing [honeybee-ph]: success
+[2024-05-27 18:17:19] ERROR root fetch - processPackages [funboost]: Diffoscope failed: time="2024-05-27T18:17:18+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 532, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 467, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 532, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 467, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 532, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 433, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 51, in compare_details
+    describe_pyc(self.path),
+    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 65, in describe_pyc
+    return "\n".join(parse_pyc(f))
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 81, in parse_pyc
+    code = marshal.load(f)
+           ^^^^^^^^^^^^^^^
+SystemError: ../Objects/codeobject.c:250: bad argument to internal function
+
+[2024-05-27 18:17:19] INFO root fetch - main [MainThread]: End processing [funboost] error
+[2024-05-27 18:17:19] INFO root fetch - main [MainThread]: Store serial: [23398224]
