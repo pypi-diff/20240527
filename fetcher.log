@@ -24225,3 +24225,39 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-05-27 20:09:43] INFO root fetch - processPackages [django-cfdi]: Remove: archive file [/home/abi/fetcher/tmp/django_cfdi-2.99-py3-none-any.whl.zip]
 [2024-05-27 20:09:43] INFO root fetch - main [MainThread]: End processing [django-cfdi]: success
 [2024-05-27 20:09:43] INFO root fetch - main [MainThread]: Store serial: [23399660]
+[2024-05-27 20:11:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23399660]
+[2024-05-27 20:11:52] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-27 20:11:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cqueue
+[2024-05-27 20:11:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: accesskit
+[2024-05-27 20:11:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: forloop-modules
+[2024-05-27 20:11:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: eventum-plugins
+[2024-05-27 20:11:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: agentcrew
+[2024-05-27 20:11:52] INFO root fetch - processPackages [eventum-plugins]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-27 20:11:52] INFO root fetch - processPackages [accesskit]: New version: [0.3.4] Old Version: [0.3.3]
+[2024-05-27 20:11:52] WARNING root fetch - processPackages [agentcrew]: Skipping, unable to determine old version
+[2024-05-27 20:11:52] INFO root fetch - main [MainThread]: End processing [agentcrew] error
+[2024-05-27 20:11:52] INFO root fetch - processPackages [forloop-modules]: New version: [1.1.6] Old Version: [1.1.5]
+[2024-05-27 20:11:52] WARNING root fetch - processPackages [cqueue]: Skipping, unable to determine old version
+[2024-05-27 20:11:52] INFO root fetch - main [MainThread]: End processing [cqueue] error
+[2024-05-27 20:11:52] INFO root fetch - processPackages [accesskit]: Downloading https://files.pythonhosted.org/packages/b3/c6/deff773a0dfc151a5a389775d4b92ce862c6265ddd3abfdab2a07919b273/accesskit-0.3.3.tar.gz
+[2024-05-27 20:11:52] INFO root fetch - processPackages [eventum-plugins]: Downloading https://files.pythonhosted.org/packages/35/0a/54adbeae6ab00411100c4899975ebfc665a0db122204eb79cc992ff58dc0/eventum_plugins-1.0.0.tar.gz
+[2024-05-27 20:11:52] INFO root fetch - processPackages [forloop-modules]: Downloading https://files.pythonhosted.org/packages/69/bf/b85333feebcd6e750074d44171584fa655f5a352907506210ecaf417d90a/forloop_modules-1.1.5.tar.gz
+[2024-05-27 20:11:52] INFO root fetch - processPackages [accesskit]: Downloading https://files.pythonhosted.org/packages/c3/8d/fdd21a04bcbd9604e9a1f640ee3a8d37cae4c35cb8444b9e8ff84063d2e5/accesskit-0.3.4.tar.gz
+[2024-05-27 20:11:53] INFO root fetch - processPackages [forloop-modules]: Downloading https://files.pythonhosted.org/packages/12/db/5f63b14d2a92f5042ee0a2f3f68f810f16b47b59ab4c4d3eff555e7c08f0/forloop_modules-1.1.6.tar.gz
+[2024-05-27 20:11:53] INFO root fetch - processPackages [eventum-plugins]: Downloading https://files.pythonhosted.org/packages/d2/b7/6e8c8ac28330762d907e6687b22fcabcb50716f1d7aa7116b96426208b89/eventum_plugins-1.0.1.tar.gz
+[2024-05-27 20:11:53] INFO root fetch - processPackages [accesskit]: executing diffoscope
+[2024-05-27 20:11:53] INFO root fetch - processPackages [accesskit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/accesskit-0.3.3.tar.gz tmp/accesskit-0.3.4.tar.gz --markdown 20240527/a/accesskit/0.3.3-0.3.4/README.md --exclude *.pyd
+[2024-05-27 20:11:53] INFO root fetch - processPackages [forloop-modules]: executing diffoscope
+[2024-05-27 20:11:53] INFO root fetch - processPackages [forloop-modules]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/forloop_modules-1.1.5.tar.gz tmp/forloop_modules-1.1.6.tar.gz --markdown 20240527/f/forloop-modules/1.1.5-1.1.6/README.md --exclude *.pyd
+[2024-05-27 20:11:53] INFO root fetch - processPackages [eventum-plugins]: executing diffoscope
+[2024-05-27 20:11:53] INFO root fetch - processPackages [eventum-plugins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eventum_plugins-1.0.0.tar.gz tmp/eventum_plugins-1.0.1.tar.gz --markdown 20240527/e/eventum-plugins/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-27 20:11:53] INFO root fetch - processPackages [forloop-modules]: Remove: archive file [/home/abi/fetcher/tmp/forloop_modules-1.1.5.tar.gz]
+[2024-05-27 20:11:53] INFO root fetch - processPackages [forloop-modules]: Remove: archive file [/home/abi/fetcher/tmp/forloop_modules-1.1.6.tar.gz]
+[2024-05-27 20:11:53] INFO root fetch - main [MainThread]: End processing [forloop-modules]: success
+[2024-05-27 20:11:53] INFO root fetch - processPackages [eventum-plugins]: Remove: archive file [/home/abi/fetcher/tmp/eventum_plugins-1.0.0.tar.gz]
+[2024-05-27 20:11:53] INFO root fetch - processPackages [eventum-plugins]: Remove: archive file [/home/abi/fetcher/tmp/eventum_plugins-1.0.1.tar.gz]
+[2024-05-27 20:11:53] INFO root fetch - main [MainThread]: End processing [eventum-plugins]: success
+[2024-05-27 20:11:54] INFO root fetch - processPackages [accesskit]: Remove: archive file [/home/abi/fetcher/tmp/accesskit-0.3.3.tar.gz]
+[2024-05-27 20:11:54] INFO root fetch - processPackages [accesskit]: Remove: archive file [/home/abi/fetcher/tmp/accesskit-0.3.4.tar.gz]
+[2024-05-27 20:11:54] INFO root fetch - main [MainThread]: End processing [accesskit]: success
+[2024-05-27 20:11:54] INFO root fetch - main [MainThread]: Store serial: [23399687]
