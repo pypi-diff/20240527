@@ -8989,3 +8989,51 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 10:05:54] INFO root fetch - processPackages [decentriq-dcr-compiler]: Remove: archive file [/home/abi/fetcher/tmp/decentriq_dcr_compiler-0.8.0rc1-cp38-none-win_amd64.whl.zip]
 [2024-05-27 10:05:54] INFO root fetch - main [MainThread]: End processing [decentriq-dcr-compiler]: success
 [2024-05-27 10:05:54] INFO root fetch - main [MainThread]: Store serial: [23392301]
+[2024-05-27 10:07:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23392301]
+[2024-05-27 10:08:02] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-27 10:08:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: oceanum
+[2024-05-27 10:08:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: axion
+[2024-05-27 10:08:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pearson
+[2024-05-27 10:08:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: shipper-shippy
+[2024-05-27 10:08:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: project-utils-config
+[2024-05-27 10:08:03] INFO root fetch - processPackages [project-utils-config]: New version: [1.1.3] Old Version: [1.1.2]
+[2024-05-27 10:08:03] INFO root fetch - processPackages [axion]: New version: [4.2.8] Old Version: [4.2.7]
+[2024-05-27 10:08:03] INFO root fetch - processPackages [project-utils-config]: Downloading https://files.pythonhosted.org/packages/93/69/f121d5420e14ada76a2983486773c6c2d6a3e53d6f8bc61d388432f25547/project-utils-config-1.1.2.tar.gz
+[2024-05-27 10:08:03] INFO root fetch - processPackages [pearson]: New version: [2.4] Old Version: [2.3]
+[2024-05-27 10:08:03] INFO root fetch - processPackages [oceanum]: New version: [0.9.8] Old Version: [0.9.7]
+[2024-05-27 10:08:03] INFO root fetch - processPackages [shipper-shippy]: New version: [2.38.0] Old Version: [2.37.9]
+[2024-05-27 10:08:03] INFO root fetch - processPackages [shipper-shippy]: Downloading https://files.pythonhosted.org/packages/33/16/11194fac18c7766cb0968cb746312169b6b9c8f12e87745e195995821e2a/shipper_shippy-2.37.9.tar.gz
+[2024-05-27 10:08:03] INFO root fetch - processPackages [axion]: Downloading https://files.pythonhosted.org/packages/6d/b7/c47f6b72336e6dd3f3440a1e53bc93318cffdb580f4e2c452abea82823d1/axion-4.2.7-cp312-none-win_amd64.whl
+[2024-05-27 10:08:03] INFO root fetch - processPackages [oceanum]: Downloading https://files.pythonhosted.org/packages/57/ed/935840882fb2e119b107f69f3f9b67b25107aa1acd866accb4eb44166804/oceanum-0.9.7.tar.gz
+[2024-05-27 10:08:03] INFO root fetch - processPackages [pearson]: Downloading https://files.pythonhosted.org/packages/ea/9c/3d5ee0005edab9f49d25f73df6fe42a369a70af069802f1f832b3fdd2b2f/pearson-2.3.tar.gz
+[2024-05-27 10:08:03] INFO root fetch - processPackages [project-utils-config]: Downloading https://files.pythonhosted.org/packages/e7/5c/2b913a30f4deb3bc8b3267d79112cb0284b9d1c0fa1ff05f6441ed5c23eb/project-utils-config-1.1.3.tar.gz
+[2024-05-27 10:08:03] INFO root fetch - processPackages [shipper-shippy]: Downloading https://files.pythonhosted.org/packages/7f/3d/e39894adc5eefe871af6382434008bbee8f0f0183f9f3fb608ecabe7397e/shipper_shippy-2.38.0.tar.gz
+[2024-05-27 10:08:03] INFO root fetch - processPackages [project-utils-config]: executing diffoscope
+[2024-05-27 10:08:03] INFO root fetch - processPackages [project-utils-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/project-utils-config-1.1.2.tar.gz tmp/project-utils-config-1.1.3.tar.gz --markdown 20240527/p/project-utils-config/1.1.2-1.1.3/README.md --exclude *.pyd
+[2024-05-27 10:08:03] INFO root fetch - processPackages [axion]: Downloading https://files.pythonhosted.org/packages/2c/25/680a193e2185a084de55f727d2c63f3f24ffd694496a5425ef6ce5fd36aa/axion-4.2.8-cp312-none-win_amd64.whl
+[2024-05-27 10:08:03] INFO root fetch - processPackages [pearson]: Downloading https://files.pythonhosted.org/packages/b4/22/ecab26c1d9884fa11030a130d52a9e639dbb54cdb577eb707652b92cabb7/pearson-2.4.tar.gz
+[2024-05-27 10:08:03] INFO root fetch - processPackages [shipper-shippy]: executing diffoscope
+[2024-05-27 10:08:03] INFO root fetch - processPackages [shipper-shippy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shipper_shippy-2.37.9.tar.gz tmp/shipper_shippy-2.38.0.tar.gz --markdown 20240527/s/shipper-shippy/2.37.9-2.38.0/README.md --exclude *.pyd
+[2024-05-27 10:08:03] INFO root fetch - processPackages [pearson]: executing diffoscope
+[2024-05-27 10:08:03] INFO root fetch - processPackages [pearson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pearson-2.3.tar.gz tmp/pearson-2.4.tar.gz --markdown 20240527/p/pearson/2.3-2.4/README.md --exclude *.pyd
+[2024-05-27 10:08:03] INFO root fetch - processPackages [axion]: executing diffoscope
+[2024-05-27 10:08:03] INFO root fetch - processPackages [axion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/axion-4.2.7-cp312-none-win_amd64.whl.zip tmp/axion-4.2.8-cp312-none-win_amd64.whl.zip --markdown 20240527/a/axion/4.2.7-4.2.8/README.md --exclude *.pyd
+[2024-05-27 10:08:04] INFO root fetch - processPackages [shipper-shippy]: Remove: archive file [/home/abi/fetcher/tmp/shipper_shippy-2.37.9.tar.gz]
+[2024-05-27 10:08:04] INFO root fetch - processPackages [shipper-shippy]: Remove: archive file [/home/abi/fetcher/tmp/shipper_shippy-2.38.0.tar.gz]
+[2024-05-27 10:08:04] INFO root fetch - main [MainThread]: End processing [shipper-shippy]: success
+[2024-05-27 10:08:04] INFO root fetch - processPackages [pearson]: Remove: archive file [/home/abi/fetcher/tmp/pearson-2.3.tar.gz]
+[2024-05-27 10:08:04] INFO root fetch - processPackages [pearson]: Remove: archive file [/home/abi/fetcher/tmp/pearson-2.4.tar.gz]
+[2024-05-27 10:08:04] INFO root fetch - main [MainThread]: End processing [pearson]: success
+[2024-05-27 10:08:04] INFO root fetch - processPackages [project-utils-config]: Remove: archive file [/home/abi/fetcher/tmp/project-utils-config-1.1.2.tar.gz]
+[2024-05-27 10:08:04] INFO root fetch - processPackages [project-utils-config]: Remove: archive file [/home/abi/fetcher/tmp/project-utils-config-1.1.3.tar.gz]
+[2024-05-27 10:08:04] INFO root fetch - main [MainThread]: End processing [project-utils-config]: success
+[2024-05-27 10:08:04] INFO root fetch - processPackages [axion]: Remove: archive file [/home/abi/fetcher/tmp/axion-4.2.7-cp312-none-win_amd64.whl.zip]
+[2024-05-27 10:08:04] INFO root fetch - processPackages [axion]: Remove: archive file [/home/abi/fetcher/tmp/axion-4.2.8-cp312-none-win_amd64.whl.zip]
+[2024-05-27 10:08:04] INFO root fetch - main [MainThread]: End processing [axion]: success
+[2024-05-27 10:08:05] INFO root fetch - processPackages [oceanum]: Downloading https://files.pythonhosted.org/packages/d6/84/c1ff2f83b55b69b2f4e65d205b4e2a9f88f1070aa1310d7fd5b4a1df7df1/oceanum-0.9.8.tar.gz
+[2024-05-27 10:08:05] INFO root fetch - processPackages [oceanum]: executing diffoscope
+[2024-05-27 10:08:05] INFO root fetch - processPackages [oceanum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oceanum-0.9.7.tar.gz tmp/oceanum-0.9.8.tar.gz --markdown 20240527/o/oceanum/0.9.7-0.9.8/README.md --exclude *.pyd
+[2024-05-27 10:08:06] INFO root fetch - processPackages [oceanum]: Remove: archive file [/home/abi/fetcher/tmp/oceanum-0.9.7.tar.gz]
+[2024-05-27 10:08:06] INFO root fetch - processPackages [oceanum]: Remove: archive file [/home/abi/fetcher/tmp/oceanum-0.9.8.tar.gz]
+[2024-05-27 10:08:06] INFO root fetch - main [MainThread]: End processing [oceanum]: success
+[2024-05-27 10:08:06] INFO root fetch - main [MainThread]: Store serial: [23392331]
