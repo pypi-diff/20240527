@@ -16336,3 +16336,72 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 15:11:06] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.4.1.dev20240527115716.tar.gz]
 [2024-05-27 15:11:06] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2024-05-27 15:11:06] INFO root fetch - main [MainThread]: Store serial: [23395952]
+[2024-05-27 15:13:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23395952]
+[2024-05-27 15:13:16] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-27 15:13:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: few-shot-priming
+[2024-05-27 15:13:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: modelbest-sdk
+[2024-05-27 15:13:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: misleep
+[2024-05-27 15:13:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyNAVIS
+[2024-05-27 15:13:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pixano
+[2024-05-27 15:13:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: BornAgain
+[2024-05-27 15:13:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tree-sitter-zathurarc
+[2024-05-27 15:13:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pytest-boto-mock
+[2024-05-27 15:13:16] INFO root fetch - processPackages [few-shot-priming]: New version: [0.3.99] Old Version: [0.3.98]
+[2024-05-27 15:13:16] INFO root fetch - processPackages [pixano]: New version: [0.5.2] Old Version: [0.5.1]
+[2024-05-27 15:13:16] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/eb/67/d15b11d0bfb57369fa16ba7f8c97cd3ddec8f771e6da8f11a3d819004b69/few_shot_priming-0.3.98-py3-none-any.whl
+[2024-05-27 15:13:16] WARNING root fetch - processPackages [pytest-boto-mock]: Skipping, unable to determine old version
+[2024-05-27 15:13:16] INFO root fetch - processPackages [pyNAVIS]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-05-27 15:13:16] INFO root fetch - main [MainThread]: End processing [pytest-boto-mock] error
+[2024-05-27 15:13:16] INFO root fetch - processPackages [modelbest-sdk]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-27 15:13:16] INFO root fetch - processPackages [BornAgain]: New version: [21.2] Old Version: [21.1]
+[2024-05-27 15:13:16] INFO root fetch - processPackages [misleep]: New version: [0.2.6b0] Old Version: [0.2.5b0]
+[2024-05-27 15:13:16] INFO root fetch - processPackages [tree-sitter-zathurarc]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-27 15:13:16] INFO root fetch - processPackages [pixano]: Downloading https://files.pythonhosted.org/packages/f2/ba/32cac40ac6d8266cc932dbcf37a2d2c9ef9f179460ca7cf874cefbe18c91/pixano-0.5.1.tar.gz
+[2024-05-27 15:13:16] INFO root fetch - processPackages [modelbest-sdk]: Downloading https://files.pythonhosted.org/packages/61/57/896497214cc36bdaa8b8b30a32b089dacf8c175fef740d4cf4c7ffa81594/modelbest_sdk-0.1.5.tar.gz
+[2024-05-27 15:13:16] INFO root fetch - processPackages [pyNAVIS]: Downloading https://files.pythonhosted.org/packages/59/2e/f5ba6956520f9c1530e17459e71fe050a9f9384c230cba457f1a296074cf/pyNAVIS-1.1.8.tar.gz
+[2024-05-27 15:13:16] INFO root fetch - processPackages [BornAgain]: Downloading https://files.pythonhosted.org/packages/1e/87/b98cc5d9e61d7426d619d4799ff44bbe54de5dd8cbdad71f71698d87af2b/BornAgain-21.1-cp39-cp39-win_amd64.whl
+[2024-05-27 15:13:16] INFO root fetch - processPackages [misleep]: Downloading https://files.pythonhosted.org/packages/f3/47/f653d75352f8c2ee8dfc5526703d449c533fbf7f783118be11f1f61f9309/misleep-0.2.5b0.tar.gz
+[2024-05-27 15:13:16] INFO root fetch - processPackages [tree-sitter-zathurarc]: Downloading https://files.pythonhosted.org/packages/af/34/a269e2c13f33ab646e7b717e72af6cf1535083f330528660f168ca94e1cf/tree-sitter-zathurarc-0.0.7.tar.gz
+[2024-05-27 15:13:17] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/ff/11/548f6e96803602e6431dc610d736d401b20fde986f85c35c8ad19a6d0958/few_shot_priming-0.3.99-py3-none-any.whl
+[2024-05-27 15:13:17] INFO root fetch - processPackages [misleep]: Downloading https://files.pythonhosted.org/packages/15/74/908df3421875552e1a579da2fe610ab716dd725c3f58da4a4001fe0c4282/misleep-0.2.6b0.tar.gz
+[2024-05-27 15:13:17] INFO root fetch - processPackages [pixano]: Downloading https://files.pythonhosted.org/packages/da/64/1d3abcb6e651601e9573180ef273073f5a15fdfeba67f64ab67d9da34aea/pixano-0.5.2.tar.gz
+[2024-05-27 15:13:17] INFO root fetch - processPackages [tree-sitter-zathurarc]: Downloading https://files.pythonhosted.org/packages/db/2f/7754247299ebfa4b04a6bd1e330c038c6faf11619fde19af99c78ee5ec4c/tree_sitter_zathurarc-0.0.8.tar.gz
+[2024-05-27 15:13:17] INFO root fetch - processPackages [misleep]: executing diffoscope
+[2024-05-27 15:13:17] INFO root fetch - processPackages [misleep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/misleep-0.2.5b0.tar.gz tmp/misleep-0.2.6b0.tar.gz --markdown 20240527/m/misleep/0.2.5b0-0.2.6b0/README.md --exclude *.pyd
+[2024-05-27 15:13:17] INFO root fetch - processPackages [modelbest-sdk]: Downloading https://files.pythonhosted.org/packages/8e/0d/a63351a28a1185b5cc2c78cadc4707360fa266fc1654290823fafc153bbe/modelbest_sdk-0.1.6.tar.gz
+[2024-05-27 15:13:17] INFO root fetch - processPackages [pixano]: executing diffoscope
+[2024-05-27 15:13:17] INFO root fetch - processPackages [pixano]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pixano-0.5.1.tar.gz tmp/pixano-0.5.2.tar.gz --markdown 20240527/p/pixano/0.5.1-0.5.2/README.md --exclude *.pyd
+[2024-05-27 15:13:17] INFO root fetch - processPackages [pyNAVIS]: Downloading https://files.pythonhosted.org/packages/8c/9a/27186e804a8281b772f008ac8ab935c0c93cf8b221e3a767fa1a46ed026c/pyNAVIS-1.1.9.tar.gz
+[2024-05-27 15:13:17] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2024-05-27 15:13:17] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.3.98-py3-none-any.whl.zip tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip --markdown 20240527/f/few-shot-priming/0.3.98-0.3.99/README.md --exclude *.pyd
+[2024-05-27 15:13:17] INFO root fetch - processPackages [tree-sitter-zathurarc]: executing diffoscope
+[2024-05-27 15:13:17] INFO root fetch - processPackages [tree-sitter-zathurarc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tree-sitter-zathurarc-0.0.7.tar.gz tmp/tree_sitter_zathurarc-0.0.8.tar.gz --markdown 20240527/t/tree-sitter-zathurarc/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-27 15:13:17] INFO root fetch - processPackages [modelbest-sdk]: executing diffoscope
+[2024-05-27 15:13:17] INFO root fetch - processPackages [modelbest-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelbest_sdk-0.1.5.tar.gz tmp/modelbest_sdk-0.1.6.tar.gz --markdown 20240527/m/modelbest-sdk/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-27 15:13:17] INFO root fetch - processPackages [pyNAVIS]: executing diffoscope
+[2024-05-27 15:13:17] INFO root fetch - processPackages [pyNAVIS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyNAVIS-1.1.8.tar.gz tmp/pyNAVIS-1.1.9.tar.gz --markdown 20240527/p/pyNAVIS/1.1.8-1.1.9/README.md --exclude *.pyd
+[2024-05-27 15:13:18] INFO root fetch - processPackages [misleep]: Remove: archive file [/home/abi/fetcher/tmp/misleep-0.2.5b0.tar.gz]
+[2024-05-27 15:13:18] INFO root fetch - processPackages [misleep]: Remove: archive file [/home/abi/fetcher/tmp/misleep-0.2.6b0.tar.gz]
+[2024-05-27 15:13:18] INFO root fetch - main [MainThread]: End processing [misleep]: success
+[2024-05-27 15:13:18] INFO root fetch - processPackages [tree-sitter-zathurarc]: Remove: archive file [/home/abi/fetcher/tmp/tree-sitter-zathurarc-0.0.7.tar.gz]
+[2024-05-27 15:13:18] INFO root fetch - processPackages [tree-sitter-zathurarc]: Remove: archive file [/home/abi/fetcher/tmp/tree_sitter_zathurarc-0.0.8.tar.gz]
+[2024-05-27 15:13:18] INFO root fetch - main [MainThread]: End processing [tree-sitter-zathurarc]: success
+[2024-05-27 15:13:18] INFO root fetch - processPackages [BornAgain]: Downloading https://files.pythonhosted.org/packages/20/8a/3bbfb08958f90a4ef8c1a4f8f011c7a454f74c1a309f3838ea0713e46b88/BornAgain-21.2-cp39-cp39-win_amd64.whl
+[2024-05-27 15:13:18] INFO root fetch - processPackages [pyNAVIS]: Remove: archive file [/home/abi/fetcher/tmp/pyNAVIS-1.1.8.tar.gz]
+[2024-05-27 15:13:18] INFO root fetch - processPackages [pyNAVIS]: Remove: archive file [/home/abi/fetcher/tmp/pyNAVIS-1.1.9.tar.gz]
+[2024-05-27 15:13:18] INFO root fetch - main [MainThread]: End processing [pyNAVIS]: success
+[2024-05-27 15:13:18] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.98-py3-none-any.whl.zip]
+[2024-05-27 15:13:18] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip]
+[2024-05-27 15:13:18] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2024-05-27 15:13:18] INFO root fetch - processPackages [modelbest-sdk]: Remove: archive file [/home/abi/fetcher/tmp/modelbest_sdk-0.1.5.tar.gz]
+[2024-05-27 15:13:18] INFO root fetch - processPackages [modelbest-sdk]: Remove: archive file [/home/abi/fetcher/tmp/modelbest_sdk-0.1.6.tar.gz]
+[2024-05-27 15:13:18] INFO root fetch - main [MainThread]: End processing [modelbest-sdk]: success
+[2024-05-27 15:13:19] INFO root fetch - processPackages [BornAgain]: executing diffoscope
+[2024-05-27 15:13:19] INFO root fetch - processPackages [BornAgain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BornAgain-21.1-cp39-cp39-win_amd64.whl.zip tmp/BornAgain-21.2-cp39-cp39-win_amd64.whl.zip --markdown 20240527/B/BornAgain/21.1-21.2/README.md --exclude *.pyd
+[2024-05-27 15:13:21] INFO root fetch - processPackages [BornAgain]: Remove: archive file [/home/abi/fetcher/tmp/BornAgain-21.1-cp39-cp39-win_amd64.whl.zip]
+[2024-05-27 15:13:21] INFO root fetch - processPackages [BornAgain]: Remove: archive file [/home/abi/fetcher/tmp/BornAgain-21.2-cp39-cp39-win_amd64.whl.zip]
+[2024-05-27 15:13:21] INFO root fetch - main [MainThread]: End processing [BornAgain]: success
+[2024-05-27 15:13:34] INFO root fetch - processPackages [pixano]: Remove: archive file [/home/abi/fetcher/tmp/pixano-0.5.1.tar.gz]
+[2024-05-27 15:13:34] INFO root fetch - processPackages [pixano]: Remove: archive file [/home/abi/fetcher/tmp/pixano-0.5.2.tar.gz]
+[2024-05-27 15:13:34] INFO root fetch - main [MainThread]: End processing [pixano]: success
+[2024-05-27 15:13:34] INFO root fetch - main [MainThread]: Store serial: [23395991]
