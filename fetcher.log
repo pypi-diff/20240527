@@ -3513,3 +3513,58 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-05-27 04:19:36] INFO root fetch - processPackages [pyriak]: Remove: archive file [/home/abi/fetcher/tmp/pyriak-0.3.0.tar.gz]
 [2024-05-27 04:19:36] INFO root fetch - main [MainThread]: End processing [pyriak]: success
 [2024-05-27 04:19:36] INFO root fetch - main [MainThread]: Store serial: [23389701]
+[2024-05-27 04:21:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23389701]
+[2024-05-27 04:21:44] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-27 04:21:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sql-lsp
+[2024-05-27 04:21:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lckytools
+[2024-05-27 04:21:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mecord-cli
+[2024-05-27 04:21:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: yoto-api
+[2024-05-27 04:21:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: storybuilder
+[2024-05-27 04:21:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lckytools
+[2024-05-27 04:21:44] INFO root fetch - processPackages [lckytools]: New version: [0.0.0b8] Old Version: [0.0.0b7]
+[2024-05-27 04:21:44] INFO root fetch - processPackages [sql-lsp]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-27 04:21:44] INFO root fetch - processPackages [lckytools]: New version: [0.0.0b8] Old Version: [0.0.0b7]
+[2024-05-27 04:21:44] INFO root fetch - processPackages [yoto-api]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-27 04:21:45] INFO root fetch - processPackages [lckytools]: Downloading https://files.pythonhosted.org/packages/8a/02/a8f49d95462fefa592c12a15432d94392ca214e4b59a5e5d1dd45c4635fd/lckytools-0.0.0b7.tar.gz
+[2024-05-27 04:21:45] INFO root fetch - processPackages [sql-lsp]: Downloading https://files.pythonhosted.org/packages/a3/aa/917ae9938b2830fcf1b6d855742566447abe7fe6be2144e3a9dda92184d8/sql_lsp-0.0.4.tar.gz
+[2024-05-27 04:21:45] INFO root fetch - processPackages [storybuilder]: New version: [0.0.9] Old Version: [0.0.39]
+[2024-05-27 04:21:45] INFO root fetch - processPackages [mecord-cli]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-05-27 04:21:45] INFO root fetch - processPackages [lckytools]: Downloading https://files.pythonhosted.org/packages/8a/02/a8f49d95462fefa592c12a15432d94392ca214e4b59a5e5d1dd45c4635fd/lckytools-0.0.0b7.tar.gz
+[2024-05-27 04:21:45] INFO root fetch - processPackages [yoto-api]: Downloading https://files.pythonhosted.org/packages/0c/ce/e8631b9319eccf4ffbaef962e56044d41f29cb3f8c07be1556f741f2569a/yoto_api-1.8.0.tar.gz
+[2024-05-27 04:21:45] INFO root fetch - processPackages [mecord-cli]: Downloading https://files.pythonhosted.org/packages/7c/bf/66e6ad83ca0dd75592f8185e3bd1a6f8c9965bb170b7b3b18b4228228ff9/mecord-cli-0.7.8.tar.gz
+[2024-05-27 04:21:45] INFO root fetch - processPackages [storybuilder]: Downloading https://files.pythonhosted.org/packages/66/d8/c054a4e006a00255c79a0b2cda2fe7de77073049d73d6e5b8dc8a7467232/storybuilder-0.0.39-py3-none-any.whl
+[2024-05-27 04:21:45] INFO root fetch - processPackages [yoto-api]: Downloading https://files.pythonhosted.org/packages/28/bc/e9d37198654bf82ae9be692dd9ee95b753eb8ca5b6edf44ab69ecca38f17/yoto_api-1.9.0.tar.gz
+[2024-05-27 04:21:45] INFO root fetch - processPackages [sql-lsp]: Downloading https://files.pythonhosted.org/packages/d5/be/e8c07211bd1c8fbc8f1bf79ad13a37b362ebbccf4a28ca723e7fe0bc0a38/sql_lsp-0.0.5.tar.gz
+[2024-05-27 04:21:45] INFO root fetch - processPackages [lckytools]: Downloading https://files.pythonhosted.org/packages/6d/fd/4f8d5200d068fd3b10ad14eedf738f1e677562094d86d724e845edea41ef/lckytools-0.0.0b8.tar.gz
+[2024-05-27 04:21:45] INFO root fetch - processPackages [lckytools]: Downloading https://files.pythonhosted.org/packages/6d/fd/4f8d5200d068fd3b10ad14eedf738f1e677562094d86d724e845edea41ef/lckytools-0.0.0b8.tar.gz
+[2024-05-27 04:21:45] INFO root fetch - processPackages [yoto-api]: executing diffoscope
+[2024-05-27 04:21:45] INFO root fetch - processPackages [yoto-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yoto_api-1.8.0.tar.gz tmp/yoto_api-1.9.0.tar.gz --markdown 20240527/y/yoto-api/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-05-27 04:21:45] INFO root fetch - processPackages [sql-lsp]: executing diffoscope
+[2024-05-27 04:21:45] INFO root fetch - processPackages [sql-lsp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sql_lsp-0.0.4.tar.gz tmp/sql_lsp-0.0.5.tar.gz --markdown 20240527/s/sql-lsp/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-27 04:21:45] INFO root fetch - processPackages [lckytools]: executing diffoscope
+[2024-05-27 04:21:45] INFO root fetch - processPackages [lckytools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lckytools-0.0.0b7.tar.gz tmp/lckytools-0.0.0b8.tar.gz --markdown 20240527/l/lckytools/0.0.0b7-0.0.0b8/README.md --exclude *.pyd
+[2024-05-27 04:21:45] INFO root fetch - processPackages [lckytools]: executing diffoscope
+[2024-05-27 04:21:45] INFO root fetch - processPackages [lckytools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lckytools-0.0.0b7.tar.gz tmp/lckytools-0.0.0b8.tar.gz --markdown 20240527/l/lckytools/0.0.0b7-0.0.0b8/README.md --exclude *.pyd
+[2024-05-27 04:21:45] INFO root fetch - processPackages [mecord-cli]: Downloading https://files.pythonhosted.org/packages/70/13/191f5410fea42e233e3d24471a04404a7d4f46b99c28a29c24913449788b/mecord-cli-0.7.9.tar.gz
+[2024-05-27 04:21:45] INFO root fetch - processPackages [mecord-cli]: executing diffoscope
+[2024-05-27 04:21:45] INFO root fetch - processPackages [mecord-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mecord-cli-0.7.8.tar.gz tmp/mecord-cli-0.7.9.tar.gz --markdown 20240527/m/mecord-cli/0.7.8-0.7.9/README.md --exclude *.pyd
+[2024-05-27 04:21:45] INFO root fetch - processPackages [storybuilder]: Downloading https://files.pythonhosted.org/packages/12/10/5d96510eab046eea9f159c71332ebb594fc10fcb9e2a1618e641fc06adac/storybuilder-0.0.9-py3-none-any.whl
+[2024-05-27 04:21:45] INFO root fetch - processPackages [storybuilder]: executing diffoscope
+[2024-05-27 04:21:45] INFO root fetch - processPackages [storybuilder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/storybuilder-0.0.39-py3-none-any.whl.zip tmp/storybuilder-0.0.9-py3-none-any.whl.zip --markdown 20240527/s/storybuilder/0.0.39-0.0.9/README.md --exclude *.pyd
+[2024-05-27 04:21:46] INFO root fetch - processPackages [lckytools]: Remove: archive file [/home/abi/fetcher/tmp/lckytools-0.0.0b7.tar.gz]
+[2024-05-27 04:21:46] INFO root fetch - processPackages [lckytools]: Remove: archive file [/home/abi/fetcher/tmp/lckytools-0.0.0b8.tar.gz]
+[2024-05-27 04:21:46] INFO root fetch - main [MainThread]: End processing [lckytools]: success
+[2024-05-27 04:21:46] INFO root fetch - main [MainThread]: End processing [lckytools]: success
+[2024-05-27 04:21:46] INFO root fetch - processPackages [sql-lsp]: Remove: archive file [/home/abi/fetcher/tmp/sql_lsp-0.0.4.tar.gz]
+[2024-05-27 04:21:46] INFO root fetch - processPackages [sql-lsp]: Remove: archive file [/home/abi/fetcher/tmp/sql_lsp-0.0.5.tar.gz]
+[2024-05-27 04:21:46] INFO root fetch - main [MainThread]: End processing [sql-lsp]: success
+[2024-05-27 04:21:46] INFO root fetch - processPackages [yoto-api]: Remove: archive file [/home/abi/fetcher/tmp/yoto_api-1.8.0.tar.gz]
+[2024-05-27 04:21:46] INFO root fetch - processPackages [yoto-api]: Remove: archive file [/home/abi/fetcher/tmp/yoto_api-1.9.0.tar.gz]
+[2024-05-27 04:21:46] INFO root fetch - main [MainThread]: End processing [yoto-api]: success
+[2024-05-27 04:21:46] INFO root fetch - processPackages [storybuilder]: Remove: archive file [/home/abi/fetcher/tmp/storybuilder-0.0.39-py3-none-any.whl.zip]
+[2024-05-27 04:21:46] INFO root fetch - processPackages [storybuilder]: Remove: archive file [/home/abi/fetcher/tmp/storybuilder-0.0.9-py3-none-any.whl.zip]
+[2024-05-27 04:21:46] INFO root fetch - main [MainThread]: End processing [storybuilder]: success
+[2024-05-27 04:21:46] INFO root fetch - processPackages [mecord-cli]: Remove: archive file [/home/abi/fetcher/tmp/mecord-cli-0.7.8.tar.gz]
+[2024-05-27 04:21:46] INFO root fetch - processPackages [mecord-cli]: Remove: archive file [/home/abi/fetcher/tmp/mecord-cli-0.7.9.tar.gz]
+[2024-05-27 04:21:46] INFO root fetch - main [MainThread]: End processing [mecord-cli]: success
+[2024-05-27 04:21:46] INFO root fetch - main [MainThread]: Store serial: [23389715]
