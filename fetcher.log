@@ -16516,3 +16516,111 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 15:17:00] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/fbgemm_gpu_nightly_cpu-2024.5.27-cp38-cp38-manylinux2014_x86_64.whl.zip]
 [2024-05-27 15:17:00] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly-cpu]: success
 [2024-05-27 15:17:00] INFO root fetch - main [MainThread]: Store serial: [23396042]
+[2024-05-27 15:19:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23396042]
+[2024-05-27 15:19:09] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-05-27 15:19:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nestipy-config
+[2024-05-27 15:19:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: OpenDocument
+[2024-05-27 15:19:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ess-streaming-data-types
+[2024-05-27 15:19:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ood_detectors
+[2024-05-27 15:19:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ms1searchpy
+[2024-05-27 15:19:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: irispie
+[2024-05-27 15:19:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lions
+[2024-05-27 15:19:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: getmeta
+[2024-05-27 15:19:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nanomotif
+[2024-05-27 15:19:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gluonts
+[2024-05-27 15:19:09] WARNING root fetch - processPackages [OpenDocument]: Skipping, unable to determine old version
+[2024-05-27 15:19:09] INFO root fetch - processPackages [OpenDocument]: Start processing: direct-neural-biasing
+[2024-05-27 15:19:09] INFO root fetch - main [MainThread]: End processing [OpenDocument] error
+[2024-05-27 15:19:09] INFO root fetch - processPackages [ood_detectors]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-27 15:19:09] INFO root fetch - processPackages [direct-neural-biasing]: New version: [0.6.7] Old Version: [0.6.6]
+[2024-05-27 15:19:09] INFO root fetch - processPackages [irispie]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-05-27 15:19:09] INFO root fetch - processPackages [ess-streaming-data-types]: New version: [0.9.6] Old Version: [0.9.5]
+[2024-05-27 15:19:09] INFO root fetch - processPackages [getmeta]: New version: [2024.5.26] Old Version: [2024.5.25]
+[2024-05-27 15:19:09] INFO root fetch - processPackages [lions]: New version: [1.4.1] Old Version: [1.4.0]
+[2024-05-27 15:19:09] INFO root fetch - processPackages [nestipy-config]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-27 15:19:09] INFO root fetch - processPackages [ms1searchpy]: New version: [2.8.4] Old Version: [2.8.3]
+[2024-05-27 15:19:09] INFO root fetch - processPackages [nanomotif]: New version: [0.4.4] Old Version: [0.4.3]
+[2024-05-27 15:19:09] INFO root fetch - processPackages [ood_detectors]: Downloading https://files.pythonhosted.org/packages/2c/c1/0e33f36a315cc0d60a299e5970cb3dbd7fe0ffebd495cef6770f937ba24f/ood_detectors-0.0.8.tar.gz
+[2024-05-27 15:19:09] INFO root fetch - processPackages [gluonts]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-27 15:19:09] INFO root fetch - processPackages [direct-neural-biasing]: Downloading https://files.pythonhosted.org/packages/62/91/3817904069b42a8800c4671ba797608a3c86daff2629502a543bdbabb7b2/direct_neural_biasing-0.6.6-cp311-none-win_amd64.whl
+[2024-05-27 15:19:09] INFO root fetch - processPackages [irispie]: Downloading https://files.pythonhosted.org/packages/58/88/bc73e23686cc7f91b0555212f246dd2a44d45f8b8a03bebbfee6aa98d039/irispie-0.8.1.tar.gz
+[2024-05-27 15:19:09] INFO root fetch - processPackages [lions]: Downloading https://files.pythonhosted.org/packages/cb/c5/ce9282b898fa60536b5e747e3bbccb58047cefb889f0fad9d6b819d840bf/lions-1.4.0.tar.gz
+[2024-05-27 15:19:09] INFO root fetch - processPackages [ess-streaming-data-types]: Downloading https://files.pythonhosted.org/packages/d6/a3/6fb367f39a60b79ab2a15ab47acee6e8885ba98783122d2c1ea60d05e30c/ess_streaming_data_types-0.9.5.tar.gz
+[2024-05-27 15:19:09] INFO root fetch - processPackages [getmeta]: Downloading https://files.pythonhosted.org/packages/51/45/d11ab05f81fb5fc4c0d00772f9fee035bcf08cbb6e2bb20737ac375d8004/getmeta-2024.5.25.tar.gz
+[2024-05-27 15:19:09] INFO root fetch - processPackages [nestipy-config]: Downloading https://files.pythonhosted.org/packages/f2/96/65bdf305966a20c3c721159bce295739997d073661614bf242f29323f033/nestipy_config-0.1.2.tar.gz
+[2024-05-27 15:19:09] INFO root fetch - processPackages [ms1searchpy]: Downloading https://files.pythonhosted.org/packages/59/17/a9759b49615ef08364b5df05eaebea3f34c6677316cb31b753f5372b35c9/ms1searchpy-2.8.3-py3-none-any.whl
+[2024-05-27 15:19:09] INFO root fetch - processPackages [nanomotif]: Downloading https://files.pythonhosted.org/packages/da/48/717d972a6a82d80196413c3c9f08f70992a1c0fe95d3cce2ea9c5b57d576/nanomotif-0.4.3.tar.gz
+[2024-05-27 15:19:09] INFO root fetch - processPackages [gluonts]: Downloading https://files.pythonhosted.org/packages/60/f7/d0ddd80a3d92edfb8f3c89386d86c59ef4105f9632ec7c2b9beed228df72/gluonts-0.9.8.tar.gz
+[2024-05-27 15:19:09] INFO root fetch - processPackages [ood_detectors]: Downloading https://files.pythonhosted.org/packages/3f/d6/a55f4bc549efaaabe3d000911be652e72d55a5a47cabc317d531a8ec8ada/ood_detectors-0.0.9.tar.gz
+[2024-05-27 15:19:09] INFO root fetch - processPackages [ood_detectors]: executing diffoscope
+[2024-05-27 15:19:09] INFO root fetch - processPackages [ood_detectors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ood_detectors-0.0.8.tar.gz tmp/ood_detectors-0.0.9.tar.gz --markdown 20240527/o/ood_detectors/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-27 15:19:09] INFO root fetch - processPackages [direct-neural-biasing]: Downloading https://files.pythonhosted.org/packages/5d/c1/5534bd3f41850d8502c80e1c04ad0444d9b429207bf4b22fb671ce2e1705/direct_neural_biasing-0.6.7-cp311-none-win_amd64.whl
+[2024-05-27 15:19:10] INFO root fetch - processPackages [getmeta]: Downloading https://files.pythonhosted.org/packages/7b/2a/8424075c28c743fb6d4b00c1bfe9bae1426c2d8caebe13f7e48573944a28/getmeta-2024.5.26.tar.gz
+[2024-05-27 15:19:10] INFO root fetch - processPackages [lions]: Downloading https://files.pythonhosted.org/packages/10/13/f2b94efb2a0a9cbe928b72e2f61ab9dfe1cf37ace29184109ae35dfbaf71/lions-1.4.1.tar.gz
+[2024-05-27 15:19:10] INFO root fetch - processPackages [ess-streaming-data-types]: Downloading https://files.pythonhosted.org/packages/55/79/6979dd20f7642baba523f950aafa9a808555f5006efaeb5fb16598324b92/ess_streaming_data_types-0.9.6.tar.gz
+[2024-05-27 15:19:10] INFO root fetch - processPackages [direct-neural-biasing]: executing diffoscope
+[2024-05-27 15:19:10] INFO root fetch - processPackages [direct-neural-biasing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/direct_neural_biasing-0.6.6-cp311-none-win_amd64.whl.zip tmp/direct_neural_biasing-0.6.7-cp311-none-win_amd64.whl.zip --markdown 20240527/d/direct-neural-biasing/0.6.6-0.6.7/README.md --exclude *.pyd
+[2024-05-27 15:19:10] INFO root fetch - processPackages [nestipy-config]: Downloading https://files.pythonhosted.org/packages/b8/67/f1649fa47bd180b62130b0095e85d103f6e232c731e6fc60b9fcddd4a251/nestipy_config-0.1.3.tar.gz
+[2024-05-27 15:19:10] INFO root fetch - processPackages [irispie]: Downloading https://files.pythonhosted.org/packages/87/3e/0f8d1e52d2673f800f57b12d6bde36e8e5141eb6d9b62ba0c8e4e98ac751/irispie-0.9.0.tar.gz
+[2024-05-27 15:19:10] INFO root fetch - processPackages [getmeta]: executing diffoscope
+[2024-05-27 15:19:10] INFO root fetch - processPackages [getmeta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/getmeta-2024.5.25.tar.gz tmp/getmeta-2024.5.26.tar.gz --markdown 20240527/g/getmeta/2024.5.25-2024.5.26/README.md --exclude *.pyd
+[2024-05-27 15:19:10] INFO root fetch - processPackages [lions]: executing diffoscope
+[2024-05-27 15:19:10] INFO root fetch - processPackages [lions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lions-1.4.0.tar.gz tmp/lions-1.4.1.tar.gz --markdown 20240527/l/lions/1.4.0-1.4.1/README.md --exclude *.pyd
+[2024-05-27 15:19:10] INFO root fetch - processPackages [ess-streaming-data-types]: executing diffoscope
+[2024-05-27 15:19:10] INFO root fetch - processPackages [ess-streaming-data-types]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ess_streaming_data_types-0.9.5.tar.gz tmp/ess_streaming_data_types-0.9.6.tar.gz --markdown 20240527/e/ess-streaming-data-types/0.9.5-0.9.6/README.md --exclude *.pyd
+[2024-05-27 15:19:10] INFO root fetch - processPackages [nestipy-config]: executing diffoscope
+[2024-05-27 15:19:10] INFO root fetch - processPackages [nestipy-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nestipy_config-0.1.2.tar.gz tmp/nestipy_config-0.1.3.tar.gz --markdown 20240527/n/nestipy-config/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-27 15:19:10] INFO root fetch - processPackages [gluonts]: Downloading https://files.pythonhosted.org/packages/f7/87/dfac0670fc583f4f815e8f67a47876c663c990e089c5d7a218bf3da607d2/gluonts-0.9.9.tar.gz
+[2024-05-27 15:19:10] INFO root fetch - processPackages [ms1searchpy]: Downloading https://files.pythonhosted.org/packages/3e/ea/7187dc173823470e7858b384a8fcbfd5461ad086956872b02c2f63aaf78b/ms1searchpy-2.8.4-py3-none-any.whl
+[2024-05-27 15:19:10] INFO root fetch - processPackages [nanomotif]: Downloading https://files.pythonhosted.org/packages/e5/db/0718c75accf797c0561565c89a258d881086ee2a1e6b443c86382f4a0b7c/nanomotif-0.4.4.tar.gz
+[2024-05-27 15:19:10] INFO root fetch - processPackages [ood_detectors]: Remove: archive file [/home/abi/fetcher/tmp/ood_detectors-0.0.8.tar.gz]
+[2024-05-27 15:19:10] INFO root fetch - processPackages [direct-neural-biasing]: Remove: archive file [/home/abi/fetcher/tmp/direct_neural_biasing-0.6.6-cp311-none-win_amd64.whl.zip]
+[2024-05-27 15:19:10] INFO root fetch - processPackages [ood_detectors]: Remove: archive file [/home/abi/fetcher/tmp/ood_detectors-0.0.9.tar.gz]
+[2024-05-27 15:19:10] INFO root fetch - processPackages [direct-neural-biasing]: Remove: archive file [/home/abi/fetcher/tmp/direct_neural_biasing-0.6.7-cp311-none-win_amd64.whl.zip]
+[2024-05-27 15:19:10] INFO root fetch - processPackages [ood_detectors]: Start processing: py-seal
+[2024-05-27 15:19:10] INFO root fetch - main [MainThread]: End processing [ood_detectors]: success
+[2024-05-27 15:19:10] INFO root fetch - processPackages [direct-neural-biasing]: Start processing: hermitage
+[2024-05-27 15:19:10] INFO root fetch - main [MainThread]: End processing [direct-neural-biasing]: success
+[2024-05-27 15:19:10] INFO root fetch - processPackages [getmeta]: Remove: archive file [/home/abi/fetcher/tmp/getmeta-2024.5.25.tar.gz]
+[2024-05-27 15:19:10] INFO root fetch - processPackages [getmeta]: Remove: archive file [/home/abi/fetcher/tmp/getmeta-2024.5.26.tar.gz]
+[2024-05-27 15:19:10] INFO root fetch - main [MainThread]: End processing [getmeta]: success
+[2024-05-27 15:19:10] INFO root fetch - processPackages [hermitage]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-27 15:19:10] INFO root fetch - processPackages [gluonts]: executing diffoscope
+[2024-05-27 15:19:10] INFO root fetch - processPackages [gluonts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gluonts-0.9.8.tar.gz tmp/gluonts-0.9.9.tar.gz --markdown 20240527/g/gluonts/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-27 15:19:10] INFO root fetch - processPackages [nestipy-config]: Remove: archive file [/home/abi/fetcher/tmp/nestipy_config-0.1.2.tar.gz]
+[2024-05-27 15:19:10] INFO root fetch - processPackages [nestipy-config]: Remove: archive file [/home/abi/fetcher/tmp/nestipy_config-0.1.3.tar.gz]
+[2024-05-27 15:19:10] INFO root fetch - main [MainThread]: End processing [nestipy-config]: success
+[2024-05-27 15:19:10] INFO root fetch - processPackages [nanomotif]: executing diffoscope
+[2024-05-27 15:19:10] INFO root fetch - processPackages [nanomotif]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nanomotif-0.4.3.tar.gz tmp/nanomotif-0.4.4.tar.gz --markdown 20240527/n/nanomotif/0.4.3-0.4.4/README.md --exclude *.pyd
+[2024-05-27 15:19:11] INFO root fetch - processPackages [hermitage]: Downloading https://files.pythonhosted.org/packages/96/e0/9858f094ff2f71348c9afe259b025cfedc35ebd6a4c2437a0d4631db1c30/hermitage-0.2.0.tar.gz
+[2024-05-27 15:19:11] WARNING root fetch - processPackages [py-seal]: Skipping, unable to determine old version
+[2024-05-27 15:19:11] INFO root fetch - main [MainThread]: End processing [py-seal] error
+[2024-05-27 15:19:11] INFO root fetch - processPackages [lions]: Remove: archive file [/home/abi/fetcher/tmp/lions-1.4.0.tar.gz]
+[2024-05-27 15:19:11] INFO root fetch - processPackages [lions]: Remove: archive file [/home/abi/fetcher/tmp/lions-1.4.1.tar.gz]
+[2024-05-27 15:19:11] INFO root fetch - main [MainThread]: End processing [lions]: success
+[2024-05-27 15:19:11] INFO root fetch - processPackages [irispie]: executing diffoscope
+[2024-05-27 15:19:11] INFO root fetch - processPackages [irispie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irispie-0.8.1.tar.gz tmp/irispie-0.9.0.tar.gz --markdown 20240527/i/irispie/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-05-27 15:19:11] INFO root fetch - processPackages [ess-streaming-data-types]: Remove: archive file [/home/abi/fetcher/tmp/ess_streaming_data_types-0.9.5.tar.gz]
+[2024-05-27 15:19:11] INFO root fetch - processPackages [ess-streaming-data-types]: Remove: archive file [/home/abi/fetcher/tmp/ess_streaming_data_types-0.9.6.tar.gz]
+[2024-05-27 15:19:11] INFO root fetch - main [MainThread]: End processing [ess-streaming-data-types]: success
+[2024-05-27 15:19:11] INFO root fetch - processPackages [hermitage]: Downloading https://files.pythonhosted.org/packages/f8/92/7ed2d94a1a3d7cc382f52918a7e6f439bd9c927c3e9bdeb174561a815bd7/hermitage-0.2.1.tar.gz
+[2024-05-27 15:19:11] INFO root fetch - processPackages [hermitage]: executing diffoscope
+[2024-05-27 15:19:11] INFO root fetch - processPackages [hermitage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hermitage-0.2.0.tar.gz tmp/hermitage-0.2.1.tar.gz --markdown 20240527/h/hermitage/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-27 15:19:11] INFO root fetch - processPackages [ms1searchpy]: executing diffoscope
+[2024-05-27 15:19:11] INFO root fetch - processPackages [ms1searchpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ms1searchpy-2.8.3-py3-none-any.whl.zip tmp/ms1searchpy-2.8.4-py3-none-any.whl.zip --markdown 20240527/m/ms1searchpy/2.8.3-2.8.4/README.md --exclude *.pyd
+[2024-05-27 15:19:11] INFO root fetch - processPackages [hermitage]: Remove: archive file [/home/abi/fetcher/tmp/hermitage-0.2.0.tar.gz]
+[2024-05-27 15:19:11] INFO root fetch - processPackages [hermitage]: Remove: archive file [/home/abi/fetcher/tmp/hermitage-0.2.1.tar.gz]
+[2024-05-27 15:19:11] INFO root fetch - main [MainThread]: End processing [hermitage]: success
+[2024-05-27 15:19:12] INFO root fetch - processPackages [ms1searchpy]: Remove: archive file [/home/abi/fetcher/tmp/ms1searchpy-2.8.3-py3-none-any.whl.zip]
+[2024-05-27 15:19:12] INFO root fetch - processPackages [ms1searchpy]: Remove: archive file [/home/abi/fetcher/tmp/ms1searchpy-2.8.4-py3-none-any.whl.zip]
+[2024-05-27 15:19:12] INFO root fetch - main [MainThread]: End processing [ms1searchpy]: success
+[2024-05-27 15:19:12] INFO root fetch - processPackages [irispie]: Remove: archive file [/home/abi/fetcher/tmp/irispie-0.8.1.tar.gz]
+[2024-05-27 15:19:13] INFO root fetch - processPackages [irispie]: Remove: archive file [/home/abi/fetcher/tmp/irispie-0.9.0.tar.gz]
+[2024-05-27 15:19:13] INFO root fetch - main [MainThread]: End processing [irispie]: success
+[2024-05-27 15:19:13] INFO root fetch - processPackages [nanomotif]: Remove: archive file [/home/abi/fetcher/tmp/nanomotif-0.4.3.tar.gz]
+[2024-05-27 15:19:13] INFO root fetch - processPackages [nanomotif]: Remove: archive file [/home/abi/fetcher/tmp/nanomotif-0.4.4.tar.gz]
+[2024-05-27 15:19:13] INFO root fetch - main [MainThread]: End processing [nanomotif]: success
+[2024-05-27 15:19:14] INFO root fetch - processPackages [gluonts]: Remove: archive file [/home/abi/fetcher/tmp/gluonts-0.9.8.tar.gz]
+[2024-05-27 15:19:14] INFO root fetch - processPackages [gluonts]: Remove: archive file [/home/abi/fetcher/tmp/gluonts-0.9.9.tar.gz]
+[2024-05-27 15:19:14] INFO root fetch - main [MainThread]: End processing [gluonts]: success
+[2024-05-27 15:19:14] INFO root fetch - main [MainThread]: Store serial: [23396099]
