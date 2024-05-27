@@ -3271,3 +3271,42 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-05-27 03:57:57] INFO root fetch - processPackages [machinevision-toolbox-python]: Remove: archive file [/home/abi/fetcher/tmp/machinevision_toolbox_python-0.9.7.tar.gz]
 [2024-05-27 03:57:57] INFO root fetch - main [MainThread]: End processing [machinevision-toolbox-python]: success
 [2024-05-27 03:57:57] INFO root fetch - main [MainThread]: Store serial: [23389600]
+[2024-05-27 04:00:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23389600]
+[2024-05-27 04:00:07] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-27 04:00:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: makepyz
+[2024-05-27 04:00:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: matematikk
+[2024-05-27 04:00:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lckytools
+[2024-05-27 04:00:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: stoobly-agent
+[2024-05-27 04:00:07] INFO root fetch - processPackages [makepyz]: New version: [0.0.1b30] Old Version: [0.0.1b29]
+[2024-05-27 04:00:07] INFO root fetch - processPackages [lckytools]: New version: [0.0.0b5] Old Version: [0.0.0b4]
+[2024-05-27 04:00:07] INFO root fetch - processPackages [matematikk]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-27 04:00:07] INFO root fetch - processPackages [makepyz]: Downloading https://files.pythonhosted.org/packages/58/48/5630d591cda7b9ca49dfdb9969fc4d2d3b801cba3adab073c9cb2f35d3f3/makepyz-0.0.1b29.tar.gz
+[2024-05-27 04:00:07] INFO root fetch - processPackages [lckytools]: Downloading https://files.pythonhosted.org/packages/1a/de/26443d31b33e958c305b52d30a51056e52f92e084f0ed60d1d991712bfeb/lckytools-0.0.0b4.tar.gz
+[2024-05-27 04:00:07] INFO root fetch - processPackages [stoobly-agent]: New version: [0.9.7] Old Version: [0.9.6]
+[2024-05-27 04:00:07] INFO root fetch - processPackages [matematikk]: Downloading https://files.pythonhosted.org/packages/b9/0f/0e2ea1c838d839f658d451461a2f978947f6ab41a8f4e102104cc5b587a8/matematikk-0.0.98.tar.gz
+[2024-05-27 04:00:07] INFO root fetch - processPackages [stoobly-agent]: Downloading https://files.pythonhosted.org/packages/e9/78/2350cae18a65474161019a795a652b6b64841323787b44192e8f739ac86a/stoobly-agent-0.9.6.tar.gz
+[2024-05-27 04:00:07] INFO root fetch - processPackages [matematikk]: Downloading https://files.pythonhosted.org/packages/ba/d1/907a2303ec8d0c4c2f01a0d2f9fd6e3de3387f6c25c32de3800152e437fb/matematikk-0.0.99.tar.gz
+[2024-05-27 04:00:08] INFO root fetch - processPackages [lckytools]: Downloading https://files.pythonhosted.org/packages/66/68/87e2e1bc797de2502904d7929812d03da526d4fb2687f1a7a5d5a20ba2f5/lckytools-0.0.0b5.tar.gz
+[2024-05-27 04:00:08] INFO root fetch - processPackages [makepyz]: Downloading https://files.pythonhosted.org/packages/56/1f/c6cd476e0eab368f4170638689f5f8bae6c6d4f2d99fe1725a5ea9df574e/makepyz-0.0.1b30.tar.gz
+[2024-05-27 04:00:08] INFO root fetch - processPackages [matematikk]: executing diffoscope
+[2024-05-27 04:00:08] INFO root fetch - processPackages [matematikk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matematikk-0.0.98.tar.gz tmp/matematikk-0.0.99.tar.gz --markdown 20240527/m/matematikk/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-27 04:00:08] INFO root fetch - processPackages [makepyz]: executing diffoscope
+[2024-05-27 04:00:08] INFO root fetch - processPackages [makepyz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/makepyz-0.0.1b29.tar.gz tmp/makepyz-0.0.1b30.tar.gz --markdown 20240527/m/makepyz/0.0.1b29-0.0.1b30/README.md --exclude *.pyd
+[2024-05-27 04:00:08] INFO root fetch - processPackages [lckytools]: executing diffoscope
+[2024-05-27 04:00:08] INFO root fetch - processPackages [lckytools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lckytools-0.0.0b4.tar.gz tmp/lckytools-0.0.0b5.tar.gz --markdown 20240527/l/lckytools/0.0.0b4-0.0.0b5/README.md --exclude *.pyd
+[2024-05-27 04:00:08] INFO root fetch - processPackages [stoobly-agent]: Downloading https://files.pythonhosted.org/packages/45/f8/01a12e6de49e8f9a58b3c7a511a2a2b6259be0af19738d4fefcfb2af88f5/stoobly-agent-0.9.7.tar.gz
+[2024-05-27 04:00:08] INFO root fetch - processPackages [stoobly-agent]: executing diffoscope
+[2024-05-27 04:00:08] INFO root fetch - processPackages [stoobly-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stoobly-agent-0.9.6.tar.gz tmp/stoobly-agent-0.9.7.tar.gz --markdown 20240527/s/stoobly-agent/0.9.6-0.9.7/README.md --exclude *.pyd
+[2024-05-27 04:00:08] INFO root fetch - processPackages [lckytools]: Remove: archive file [/home/abi/fetcher/tmp/lckytools-0.0.0b4.tar.gz]
+[2024-05-27 04:00:08] INFO root fetch - processPackages [lckytools]: Remove: archive file [/home/abi/fetcher/tmp/lckytools-0.0.0b5.tar.gz]
+[2024-05-27 04:00:08] INFO root fetch - main [MainThread]: End processing [lckytools]: success
+[2024-05-27 04:00:08] INFO root fetch - processPackages [makepyz]: Remove: archive file [/home/abi/fetcher/tmp/makepyz-0.0.1b29.tar.gz]
+[2024-05-27 04:00:08] INFO root fetch - processPackages [makepyz]: Remove: archive file [/home/abi/fetcher/tmp/makepyz-0.0.1b30.tar.gz]
+[2024-05-27 04:00:08] INFO root fetch - main [MainThread]: End processing [makepyz]: success
+[2024-05-27 04:00:09] INFO root fetch - processPackages [matematikk]: Remove: archive file [/home/abi/fetcher/tmp/matematikk-0.0.98.tar.gz]
+[2024-05-27 04:00:09] INFO root fetch - processPackages [matematikk]: Remove: archive file [/home/abi/fetcher/tmp/matematikk-0.0.99.tar.gz]
+[2024-05-27 04:00:09] INFO root fetch - main [MainThread]: End processing [matematikk]: success
+[2024-05-27 04:00:09] INFO root fetch - processPackages [stoobly-agent]: Remove: archive file [/home/abi/fetcher/tmp/stoobly-agent-0.9.6.tar.gz]
+[2024-05-27 04:00:09] INFO root fetch - processPackages [stoobly-agent]: Remove: archive file [/home/abi/fetcher/tmp/stoobly-agent-0.9.7.tar.gz]
+[2024-05-27 04:00:09] INFO root fetch - main [MainThread]: End processing [stoobly-agent]: success
+[2024-05-27 04:00:09] INFO root fetch - main [MainThread]: Store serial: [23389612]
