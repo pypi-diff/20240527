@@ -13463,3 +13463,83 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 13:03:57] INFO root fetch - processPackages [nucliadb-node-binding]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_node_binding-4.0.1.post1371.tar.gz]
 [2024-05-27 13:03:57] INFO root fetch - main [MainThread]: End processing [nucliadb-node-binding]: success
 [2024-05-27 13:03:57] INFO root fetch - main [MainThread]: Store serial: [23394446]
+[2024-05-27 13:06:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23394446]
+[2024-05-27 13:06:07] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-27 13:06:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: geomockimages
+[2024-05-27 13:06:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: r53checkup
+[2024-05-27 13:06:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pydivkit
+[2024-05-27 13:06:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: composabl-dev
+[2024-05-27 13:06:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: composabl-api-dev
+[2024-05-27 13:06:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: composabl-train-dev
+[2024-05-27 13:06:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: composabl-cli-dev
+[2024-05-27 13:06:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: composabl-core-dev
+[2024-05-27 13:06:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sunholo
+[2024-05-27 13:06:07] INFO root fetch - processPackages [geomockimages]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-27 13:06:07] INFO root fetch - processPackages [geomockimages]: Downloading https://files.pythonhosted.org/packages/c5/ec/58aa502812c7ae0aff736b6897798618b000d182dc4367a5b91a7c08c50e/geomockimages-0.2.1.tar.gz
+[2024-05-27 13:06:07] INFO root fetch - processPackages [sunholo]: New version: [0.8.9] Old Version: [0.8.8]
+[2024-05-27 13:06:07] INFO root fetch - processPackages [r53checkup]: New version: [1.2.41] Old Version: [1.2.40]
+[2024-05-27 13:06:07] INFO root fetch - processPackages [pydivkit]: New version: [30.2.0] Old Version: [30.1.0]
+[2024-05-27 13:06:07] INFO root fetch - processPackages [composabl-api-dev]: New version: [0.8.0.dev98] Old Version: [0.8.0.dev96]
+[2024-05-27 13:06:07] INFO root fetch - processPackages [composabl-dev]: New version: [0.8.0.dev98] Old Version: [0.8.0.dev96]
+[2024-05-27 13:06:07] INFO root fetch - processPackages [composabl-train-dev]: New version: [0.8.0.dev98] Old Version: [0.8.0.dev96]
+[2024-05-27 13:06:07] INFO root fetch - processPackages [composabl-core-dev]: New version: [0.8.0.dev98] Old Version: [0.8.0.dev96]
+[2024-05-27 13:06:07] INFO root fetch - processPackages [composabl-cli-dev]: New version: [0.8.0.dev98] Old Version: [0.8.0.dev96]
+[2024-05-27 13:06:08] INFO root fetch - processPackages [sunholo]: Downloading https://files.pythonhosted.org/packages/cc/35/0cc2a83f59b1ddd740a568e10894833a89bedfc91b8ebd172a427676694a/sunholo-0.8.8.tar.gz
+[2024-05-27 13:06:08] INFO root fetch - processPackages [geomockimages]: Downloading https://files.pythonhosted.org/packages/f0/25/4fd51900c62327402e1b3556baa392890791d299804317a2568b288ec255/geomockimages-0.2.2.tar.gz
+[2024-05-27 13:06:08] INFO root fetch - processPackages [pydivkit]: Downloading https://files.pythonhosted.org/packages/0e/25/bd866593282a41af333a6c57cc31300156ea9ffd502284420ccc1dc6bc6b/pydivkit-30.1.0.tar.gz
+[2024-05-27 13:06:08] INFO root fetch - processPackages [r53checkup]: Downloading https://files.pythonhosted.org/packages/5e/ba/7668c280a9d90677587026d952b09b28f51ebd0592398d7a1433e73c6ae8/r53checkup-1.2.40.tar.gz
+[2024-05-27 13:06:08] INFO root fetch - processPackages [composabl-api-dev]: Downloading https://files.pythonhosted.org/packages/9f/80/090f2c819dd24f99216f75642dcb3c7f99bfab67979377f423b549d673d6/composabl_api_dev-0.8.0.dev96-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-27 13:06:08] INFO root fetch - processPackages [composabl-core-dev]: Downloading https://files.pythonhosted.org/packages/c7/7f/fee7bb2c2a3f23e9e24aaa029a80702b2bbd40cbcb07083d649bbfb1bf58/composabl_core_dev-0.8.0.dev96-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-27 13:06:08] INFO root fetch - processPackages [composabl-train-dev]: Downloading https://files.pythonhosted.org/packages/46/1f/1daa74345b6ba9c96c8ff55112cd0193e3fdf3eef7df4b33a338eee73925/composabl_train_dev-0.8.0.dev96-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-27 13:06:08] INFO root fetch - processPackages [composabl-dev]: Downloading https://files.pythonhosted.org/packages/c2/4b/97c909f88bbb93d19ae958bd758b646331d5f772311ca3794d229e45773c/composabl_dev-0.8.0.dev96-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-27 13:06:08] INFO root fetch - processPackages [composabl-cli-dev]: Downloading https://files.pythonhosted.org/packages/e8/12/222030550496cbead984025b1d143962dcdc24c85ec099fcd5f0556c6712/composabl_cli_dev-0.8.0.dev96-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-27 13:06:08] WARNING root fetch - processPackages [composabl-core-dev]: Skipping package: exceeds size limit 26461716>=10485760
+[2024-05-27 13:06:08] INFO root fetch - main [MainThread]: End processing [composabl-core-dev] error
+[2024-05-27 13:06:08] INFO root fetch - processPackages [geomockimages]: executing diffoscope
+[2024-05-27 13:06:08] INFO root fetch - processPackages [geomockimages]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geomockimages-0.2.1.tar.gz tmp/geomockimages-0.2.2.tar.gz --markdown 20240527/g/geomockimages/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-05-27 13:06:08] INFO root fetch - processPackages [sunholo]: Downloading https://files.pythonhosted.org/packages/f4/84/78248df3236e593119b75003e77cf5b5bd0761e53dc91c6a148cb0571cf9/sunholo-0.8.9.tar.gz
+[2024-05-27 13:06:08] INFO root fetch - processPackages [pydivkit]: Downloading https://files.pythonhosted.org/packages/0d/ec/6750d92a1a682acde2d609e83a95fc4d5eda847cc939f88ab9083001546d/pydivkit-30.2.0.tar.gz
+[2024-05-27 13:06:08] INFO root fetch - processPackages [r53checkup]: Downloading https://files.pythonhosted.org/packages/ea/2b/bf81b01b4a2755c4d0c79403036370c2a8c41940c545ce069722813f1b7c/r53checkup-1.2.41.tar.gz
+[2024-05-27 13:06:08] INFO root fetch - processPackages [composabl-dev]: Downloading https://files.pythonhosted.org/packages/42/eb/63f073415e0f788fd74bd4739fbd9f89fb8d411a7e94c932b7f7b58f6a74/composabl_dev-0.8.0.dev98-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-27 13:06:08] INFO root fetch - processPackages [r53checkup]: executing diffoscope
+[2024-05-27 13:06:08] INFO root fetch - processPackages [r53checkup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/r53checkup-1.2.40.tar.gz tmp/r53checkup-1.2.41.tar.gz --markdown 20240527/r/r53checkup/1.2.40-1.2.41/README.md --exclude *.pyd
+[2024-05-27 13:06:08] INFO root fetch - processPackages [composabl-dev]: executing diffoscope
+[2024-05-27 13:06:08] INFO root fetch - processPackages [composabl-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composabl_dev-0.8.0.dev96-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/composabl_dev-0.8.0.dev98-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240527/c/composabl-dev/0.8.0.dev96-0.8.0.dev98/README.md --exclude *.pyd
+[2024-05-27 13:06:08] INFO root fetch - processPackages [composabl-api-dev]: Downloading https://files.pythonhosted.org/packages/fe/51/d8fdf4c3e9228a27486d76c7191d40e2f38f02c7a975f64176307fa4f1d5/composabl_api_dev-0.8.0.dev98-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-27 13:06:08] INFO root fetch - processPackages [sunholo]: executing diffoscope
+[2024-05-27 13:06:08] INFO root fetch - processPackages [sunholo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sunholo-0.8.8.tar.gz tmp/sunholo-0.8.9.tar.gz --markdown 20240527/s/sunholo/0.8.8-0.8.9/README.md --exclude *.pyd
+[2024-05-27 13:06:08] INFO root fetch - processPackages [pydivkit]: executing diffoscope
+[2024-05-27 13:06:08] INFO root fetch - processPackages [pydivkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydivkit-30.1.0.tar.gz tmp/pydivkit-30.2.0.tar.gz --markdown 20240527/p/pydivkit/30.1.0-30.2.0/README.md --exclude *.pyd
+[2024-05-27 13:06:08] INFO root fetch - processPackages [composabl-cli-dev]: Downloading https://files.pythonhosted.org/packages/bb/b0/4da79ff7ddd189d9b21a561a055622eb01188dd08534f44f211e109fc307/composabl_cli_dev-0.8.0.dev98-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-27 13:06:08] INFO root fetch - processPackages [geomockimages]: Remove: archive file [/home/abi/fetcher/tmp/geomockimages-0.2.1.tar.gz]
+[2024-05-27 13:06:08] INFO root fetch - processPackages [geomockimages]: Remove: archive file [/home/abi/fetcher/tmp/geomockimages-0.2.2.tar.gz]
+[2024-05-27 13:06:08] INFO root fetch - main [MainThread]: End processing [geomockimages]: success
+[2024-05-27 13:06:08] INFO root fetch - processPackages [composabl-train-dev]: Downloading https://files.pythonhosted.org/packages/cd/93/9d6051f96c04a5e6ee00be1cca9547a82d3561dcde526378f5ad4bd57c94/composabl_train_dev-0.8.0.dev98-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-27 13:06:09] INFO root fetch - processPackages [composabl-cli-dev]: executing diffoscope
+[2024-05-27 13:06:09] INFO root fetch - processPackages [composabl-cli-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composabl_cli_dev-0.8.0.dev96-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/composabl_cli_dev-0.8.0.dev98-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240527/c/composabl-cli-dev/0.8.0.dev96-0.8.0.dev98/README.md --exclude *.pyd
+[2024-05-27 13:06:09] INFO root fetch - processPackages [composabl-api-dev]: executing diffoscope
+[2024-05-27 13:06:09] INFO root fetch - processPackages [composabl-api-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composabl_api_dev-0.8.0.dev96-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/composabl_api_dev-0.8.0.dev98-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240527/c/composabl-api-dev/0.8.0.dev96-0.8.0.dev98/README.md --exclude *.pyd
+[2024-05-27 13:06:09] INFO root fetch - processPackages [composabl-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_dev-0.8.0.dev96-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-27 13:06:09] INFO root fetch - processPackages [composabl-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_dev-0.8.0.dev98-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-27 13:06:09] INFO root fetch - main [MainThread]: End processing [composabl-dev]: success
+[2024-05-27 13:06:09] INFO root fetch - processPackages [composabl-train-dev]: executing diffoscope
+[2024-05-27 13:06:09] INFO root fetch - processPackages [composabl-train-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composabl_train_dev-0.8.0.dev96-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/composabl_train_dev-0.8.0.dev98-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240527/c/composabl-train-dev/0.8.0.dev96-0.8.0.dev98/README.md --exclude *.pyd
+[2024-05-27 13:06:09] INFO root fetch - processPackages [r53checkup]: Remove: archive file [/home/abi/fetcher/tmp/r53checkup-1.2.40.tar.gz]
+[2024-05-27 13:06:09] INFO root fetch - processPackages [r53checkup]: Remove: archive file [/home/abi/fetcher/tmp/r53checkup-1.2.41.tar.gz]
+[2024-05-27 13:06:09] INFO root fetch - main [MainThread]: End processing [r53checkup]: success
+[2024-05-27 13:06:09] INFO root fetch - processPackages [pydivkit]: Remove: archive file [/home/abi/fetcher/tmp/pydivkit-30.1.0.tar.gz]
+[2024-05-27 13:06:09] INFO root fetch - processPackages [pydivkit]: Remove: archive file [/home/abi/fetcher/tmp/pydivkit-30.2.0.tar.gz]
+[2024-05-27 13:06:09] INFO root fetch - main [MainThread]: End processing [pydivkit]: success
+[2024-05-27 13:06:09] INFO root fetch - processPackages [sunholo]: Remove: archive file [/home/abi/fetcher/tmp/sunholo-0.8.8.tar.gz]
+[2024-05-27 13:06:09] INFO root fetch - processPackages [sunholo]: Remove: archive file [/home/abi/fetcher/tmp/sunholo-0.8.9.tar.gz]
+[2024-05-27 13:06:09] INFO root fetch - main [MainThread]: End processing [sunholo]: success
+[2024-05-27 13:06:09] INFO root fetch - processPackages [composabl-cli-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_cli_dev-0.8.0.dev96-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-27 13:06:09] INFO root fetch - processPackages [composabl-cli-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_cli_dev-0.8.0.dev98-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-27 13:06:09] INFO root fetch - main [MainThread]: End processing [composabl-cli-dev]: success
+[2024-05-27 13:06:10] INFO root fetch - processPackages [composabl-api-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_api_dev-0.8.0.dev96-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-27 13:06:10] INFO root fetch - processPackages [composabl-api-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_api_dev-0.8.0.dev98-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-27 13:06:10] INFO root fetch - main [MainThread]: End processing [composabl-api-dev]: success
+[2024-05-27 13:06:10] INFO root fetch - processPackages [composabl-train-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_train_dev-0.8.0.dev96-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-27 13:06:10] INFO root fetch - processPackages [composabl-train-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_train_dev-0.8.0.dev98-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-27 13:06:10] INFO root fetch - main [MainThread]: End processing [composabl-train-dev]: success
+[2024-05-27 13:06:10] INFO root fetch - main [MainThread]: Store serial: [23394513]
