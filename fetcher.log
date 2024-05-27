@@ -3909,3 +3909,33 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 04:33:43] INFO root fetch - processPackages [nonebot-plugin-bilichat]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_bilichat-5.9.3.tar.gz]
 [2024-05-27 04:33:43] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-bilichat]: success
 [2024-05-27 04:33:43] INFO root fetch - main [MainThread]: Store serial: [23389810]
+[2024-05-27 04:35:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23389810]
+[2024-05-27 04:35:51] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-27 04:35:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nb-filelock
+[2024-05-27 04:35:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jmcomic
+[2024-05-27 04:35:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: proof-of-train
+[2024-05-27 04:35:51] INFO root fetch - processPackages [nb-filelock]: New version: [0.8] Old Version: [0.7]
+[2024-05-27 04:35:51] INFO root fetch - processPackages [nb-filelock]: Downloading https://files.pythonhosted.org/packages/aa/0b/e5f93e20275764c0800cbd95f0b723ef0a560660499e955c62f9f0606a4a/nb_filelock-0.7.tar.gz
+[2024-05-27 04:35:51] INFO root fetch - processPackages [proof-of-train]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-05-27 04:35:51] INFO root fetch - processPackages [jmcomic]: New version: [2.5.9] Old Version: [2.5.8]
+[2024-05-27 04:35:52] INFO root fetch - processPackages [proof-of-train]: Downloading https://files.pythonhosted.org/packages/d1/8e/615af3ad1cb1dcb3b669f3eedb205ab4d616a90f6d7e9e66a9951f9b1bcb/proof_of_train-0.2.0.tar.gz
+[2024-05-27 04:35:52] INFO root fetch - processPackages [nb-filelock]: Downloading https://files.pythonhosted.org/packages/78/64/516c98fc5b695d5ac0c53b359b3a1d8540c68063b63d2064c177223005f2/nb_filelock-0.8.tar.gz
+[2024-05-27 04:35:52] INFO root fetch - processPackages [jmcomic]: Downloading https://files.pythonhosted.org/packages/c2/0b/692621ae083b6f0dae3e532855224aebd9a51564e2f1013a6ad08a38b41f/jmcomic-2.5.8.tar.gz
+[2024-05-27 04:35:52] INFO root fetch - processPackages [nb-filelock]: executing diffoscope
+[2024-05-27 04:35:52] INFO root fetch - processPackages [nb-filelock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nb_filelock-0.7.tar.gz tmp/nb_filelock-0.8.tar.gz --markdown 20240527/n/nb-filelock/0.7-0.8/README.md --exclude *.pyd
+[2024-05-27 04:35:52] INFO root fetch - processPackages [proof-of-train]: Downloading https://files.pythonhosted.org/packages/2d/b9/0f8f042d273ac2e49f1a9ec7b81d770f435c131bb79e809e65c259d7d441/proof_of_train-0.3.0.tar.gz
+[2024-05-27 04:35:52] INFO root fetch - processPackages [jmcomic]: Downloading https://files.pythonhosted.org/packages/aa/5a/baa797c3a5be043df94ab0012e2b6ea0ad5182101a39dbc5e24dcdf26a93/jmcomic-2.5.9.tar.gz
+[2024-05-27 04:35:52] INFO root fetch - processPackages [proof-of-train]: executing diffoscope
+[2024-05-27 04:35:52] INFO root fetch - processPackages [proof-of-train]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proof_of_train-0.2.0.tar.gz tmp/proof_of_train-0.3.0.tar.gz --markdown 20240527/p/proof-of-train/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-05-27 04:35:52] INFO root fetch - processPackages [jmcomic]: executing diffoscope
+[2024-05-27 04:35:52] INFO root fetch - processPackages [jmcomic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jmcomic-2.5.8.tar.gz tmp/jmcomic-2.5.9.tar.gz --markdown 20240527/j/jmcomic/2.5.8-2.5.9/README.md --exclude *.pyd
+[2024-05-27 04:35:52] INFO root fetch - processPackages [nb-filelock]: Remove: archive file [/home/abi/fetcher/tmp/nb_filelock-0.7.tar.gz]
+[2024-05-27 04:35:52] INFO root fetch - processPackages [nb-filelock]: Remove: archive file [/home/abi/fetcher/tmp/nb_filelock-0.8.tar.gz]
+[2024-05-27 04:35:52] INFO root fetch - main [MainThread]: End processing [nb-filelock]: success
+[2024-05-27 04:35:52] INFO root fetch - processPackages [proof-of-train]: Remove: archive file [/home/abi/fetcher/tmp/proof_of_train-0.2.0.tar.gz]
+[2024-05-27 04:35:52] INFO root fetch - processPackages [proof-of-train]: Remove: archive file [/home/abi/fetcher/tmp/proof_of_train-0.3.0.tar.gz]
+[2024-05-27 04:35:52] INFO root fetch - main [MainThread]: End processing [proof-of-train]: success
+[2024-05-27 04:35:53] INFO root fetch - processPackages [jmcomic]: Remove: archive file [/home/abi/fetcher/tmp/jmcomic-2.5.8.tar.gz]
+[2024-05-27 04:35:53] INFO root fetch - processPackages [jmcomic]: Remove: archive file [/home/abi/fetcher/tmp/jmcomic-2.5.9.tar.gz]
+[2024-05-27 04:35:53] INFO root fetch - main [MainThread]: End processing [jmcomic]: success
+[2024-05-27 04:35:53] INFO root fetch - main [MainThread]: Store serial: [23389819]
