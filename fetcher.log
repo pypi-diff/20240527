@@ -17647,3 +17647,33 @@ EOFError: EOF read where object expected
 [2024-05-27 15:50:35] INFO root fetch - processPackages [pyquafu]: Remove: archive file [/home/abi/fetcher/tmp/pyquafu-0.4.0-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2024-05-27 15:50:35] INFO root fetch - main [MainThread]: End processing [pyquafu]: success
 [2024-05-27 15:50:35] INFO root fetch - main [MainThread]: Store serial: [23396506]
+[2024-05-27 15:52:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23396506]
+[2024-05-27 15:52:45] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-27 15:52:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: picox
+[2024-05-27 15:52:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ms1searchpy
+[2024-05-27 15:52:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bgutils-hddly
+[2024-05-27 15:52:46] INFO root fetch - processPackages [ms1searchpy]: New version: [2.8.4] Old Version: [2.8.3]
+[2024-05-27 15:52:46] INFO root fetch - processPackages [bgutils-hddly]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-05-27 15:52:46] INFO root fetch - processPackages [ms1searchpy]: Downloading https://files.pythonhosted.org/packages/59/17/a9759b49615ef08364b5df05eaebea3f34c6677316cb31b753f5372b35c9/ms1searchpy-2.8.3-py3-none-any.whl
+[2024-05-27 15:52:46] INFO root fetch - processPackages [picox]: New version: [1.4.0] Old Version: [1.3.0]
+[2024-05-27 15:52:46] INFO root fetch - processPackages [bgutils-hddly]: Downloading https://files.pythonhosted.org/packages/07/22/a69a45ea0621e457373043238ae8172d597dde38054d258752459d22fd6a/bgutils_hddly-1.1.8-py3-none-any.whl
+[2024-05-27 15:52:46] INFO root fetch - processPackages [bgutils-hddly]: Downloading https://files.pythonhosted.org/packages/68/b8/73eaefe5a7f9214b0aa5443f4083f56d3a6492768411b1a003302b66bf45/bgutils_hddly-1.1.9.tar.gz
+[2024-05-27 15:52:46] INFO root fetch - processPackages [picox]: Downloading https://files.pythonhosted.org/packages/6d/cb/cd8d4e700e85392ee3f06722500900c47a3522bd30ad3f769b1bdba8ef35/picox-1.3.0.tar.gz
+[2024-05-27 15:52:46] INFO root fetch - processPackages [bgutils-hddly]: executing diffoscope
+[2024-05-27 15:52:46] INFO root fetch - processPackages [bgutils-hddly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bgutils_hddly-1.1.8-py3-none-any.whl.zip tmp/bgutils_hddly-1.1.9.tar.gz --markdown 20240527/b/bgutils-hddly/1.1.8-1.1.9/README.md --exclude *.pyd
+[2024-05-27 15:52:46] INFO root fetch - processPackages [ms1searchpy]: Downloading https://files.pythonhosted.org/packages/3e/ea/7187dc173823470e7858b384a8fcbfd5461ad086956872b02c2f63aaf78b/ms1searchpy-2.8.4-py3-none-any.whl
+[2024-05-27 15:52:46] INFO root fetch - processPackages [picox]: Downloading https://files.pythonhosted.org/packages/01/c3/85deba213e8705638d737f4758da5ba9e4935b84a8a8be82fbcac2fb3a2b/picox-1.4.0.tar.gz
+[2024-05-27 15:52:46] INFO root fetch - processPackages [picox]: executing diffoscope
+[2024-05-27 15:52:46] INFO root fetch - processPackages [picox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/picox-1.3.0.tar.gz tmp/picox-1.4.0.tar.gz --markdown 20240527/p/picox/1.3.0-1.4.0/README.md --exclude *.pyd
+[2024-05-27 15:52:47] INFO root fetch - processPackages [bgutils-hddly]: Remove: archive file [/home/abi/fetcher/tmp/bgutils_hddly-1.1.8-py3-none-any.whl.zip]
+[2024-05-27 15:52:47] INFO root fetch - processPackages [bgutils-hddly]: Remove: archive file [/home/abi/fetcher/tmp/bgutils_hddly-1.1.9.tar.gz]
+[2024-05-27 15:52:47] INFO root fetch - main [MainThread]: End processing [bgutils-hddly]: success
+[2024-05-27 15:52:47] INFO root fetch - processPackages [picox]: Remove: archive file [/home/abi/fetcher/tmp/picox-1.3.0.tar.gz]
+[2024-05-27 15:52:47] INFO root fetch - processPackages [picox]: Remove: archive file [/home/abi/fetcher/tmp/picox-1.4.0.tar.gz]
+[2024-05-27 15:52:47] INFO root fetch - main [MainThread]: End processing [picox]: success
+[2024-05-27 15:52:47] INFO root fetch - processPackages [ms1searchpy]: executing diffoscope
+[2024-05-27 15:52:47] INFO root fetch - processPackages [ms1searchpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ms1searchpy-2.8.3-py3-none-any.whl.zip tmp/ms1searchpy-2.8.4-py3-none-any.whl.zip --markdown 20240527/m/ms1searchpy/2.8.3-2.8.4/README.md --exclude *.pyd
+[2024-05-27 15:52:48] INFO root fetch - processPackages [ms1searchpy]: Remove: archive file [/home/abi/fetcher/tmp/ms1searchpy-2.8.3-py3-none-any.whl.zip]
+[2024-05-27 15:52:48] INFO root fetch - processPackages [ms1searchpy]: Remove: archive file [/home/abi/fetcher/tmp/ms1searchpy-2.8.4-py3-none-any.whl.zip]
+[2024-05-27 15:52:48] INFO root fetch - main [MainThread]: End processing [ms1searchpy]: success
+[2024-05-27 15:52:48] INFO root fetch - main [MainThread]: Store serial: [23396524]
