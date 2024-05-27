@@ -4795,3 +4795,33 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 05:39:58] INFO root fetch - processPackages [mapieng]: Remove: archive file [/home/abi/fetcher/tmp/mapieng-0.2.2.tar.gz]
 [2024-05-27 05:39:58] INFO root fetch - main [MainThread]: End processing [mapieng]: success
 [2024-05-27 05:39:58] INFO root fetch - main [MainThread]: Store serial: [23390313]
+[2024-05-27 05:42:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23390313]
+[2024-05-27 05:42:08] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-27 05:42:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-admin-console
+[2024-05-27 05:42:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: unionllm
+[2024-05-27 05:42:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: alxhttp
+[2024-05-27 05:42:08] INFO root fetch - processPackages [alxhttp]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-27 05:42:08] INFO root fetch - processPackages [alxhttp]: Downloading https://files.pythonhosted.org/packages/1c/73/afa48b1da1c5632a9db8461b644572ed0eadcf30bdf0a2a28fc4f9a6a39c/alxhttp-0.9.8.tar.gz
+[2024-05-27 05:42:08] INFO root fetch - processPackages [django-admin-console]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-27 05:42:08] INFO root fetch - processPackages [unionllm]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-27 05:42:08] INFO root fetch - processPackages [django-admin-console]: Downloading https://files.pythonhosted.org/packages/ae/a7/03f16f19d517f69f7fbc513ee1cb00c3d0884c4fe9b57fba4b63c50f8d58/django-admin-console-0.1.2.tar.gz
+[2024-05-27 05:42:08] INFO root fetch - processPackages [unionllm]: Downloading https://files.pythonhosted.org/packages/15/b5/73cd5af02ed6b13cd9a9d84b073419179c4b35db57cf00407f312817fbeb/unionllm-0.1.3.tar.gz
+[2024-05-27 05:42:08] INFO root fetch - processPackages [alxhttp]: Downloading https://files.pythonhosted.org/packages/45/ff/f1c80ee9cc343733aae6e0f815fb07be821da7e7bfd5470b1d14f6f673ac/alxhttp-0.9.9.tar.gz
+[2024-05-27 05:42:08] INFO root fetch - processPackages [alxhttp]: executing diffoscope
+[2024-05-27 05:42:08] INFO root fetch - processPackages [alxhttp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alxhttp-0.9.8.tar.gz tmp/alxhttp-0.9.9.tar.gz --markdown 20240527/a/alxhttp/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-27 05:42:08] INFO root fetch - processPackages [unionllm]: Downloading https://files.pythonhosted.org/packages/8a/13/412564b7499ca14913bf7a8708046b13450a5ad4f2a614cff72cac307b30/unionllm-0.1.4.tar.gz
+[2024-05-27 05:42:08] INFO root fetch - processPackages [django-admin-console]: Downloading https://files.pythonhosted.org/packages/67/de/2ef1c85043561c44594cda809efc5a56dc9e85e5489f3604e3e864e5cbcb/django-admin-console-0.1.3.tar.gz
+[2024-05-27 05:42:08] INFO root fetch - processPackages [unionllm]: executing diffoscope
+[2024-05-27 05:42:08] INFO root fetch - processPackages [unionllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unionllm-0.1.3.tar.gz tmp/unionllm-0.1.4.tar.gz --markdown 20240527/u/unionllm/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-27 05:42:08] INFO root fetch - processPackages [django-admin-console]: executing diffoscope
+[2024-05-27 05:42:08] INFO root fetch - processPackages [django-admin-console]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-admin-console-0.1.2.tar.gz tmp/django-admin-console-0.1.3.tar.gz --markdown 20240527/d/django-admin-console/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-27 05:42:09] INFO root fetch - processPackages [alxhttp]: Remove: archive file [/home/abi/fetcher/tmp/alxhttp-0.9.8.tar.gz]
+[2024-05-27 05:42:09] INFO root fetch - processPackages [alxhttp]: Remove: archive file [/home/abi/fetcher/tmp/alxhttp-0.9.9.tar.gz]
+[2024-05-27 05:42:09] INFO root fetch - main [MainThread]: End processing [alxhttp]: success
+[2024-05-27 05:42:09] INFO root fetch - processPackages [unionllm]: Remove: archive file [/home/abi/fetcher/tmp/unionllm-0.1.3.tar.gz]
+[2024-05-27 05:42:09] INFO root fetch - processPackages [unionllm]: Remove: archive file [/home/abi/fetcher/tmp/unionllm-0.1.4.tar.gz]
+[2024-05-27 05:42:09] INFO root fetch - main [MainThread]: End processing [unionllm]: success
+[2024-05-27 05:42:09] INFO root fetch - processPackages [django-admin-console]: Remove: archive file [/home/abi/fetcher/tmp/django-admin-console-0.1.2.tar.gz]
+[2024-05-27 05:42:09] INFO root fetch - processPackages [django-admin-console]: Remove: archive file [/home/abi/fetcher/tmp/django-admin-console-0.1.3.tar.gz]
+[2024-05-27 05:42:09] INFO root fetch - main [MainThread]: End processing [django-admin-console]: success
+[2024-05-27 05:42:09] INFO root fetch - main [MainThread]: Store serial: [23390322]
