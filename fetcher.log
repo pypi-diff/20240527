@@ -5726,3 +5726,33 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 06:57:28] INFO root fetch - processPackages [online-scheduler]: Remove: archive file [/home/abi/fetcher/tmp/online_scheduler-1.6.tar.gz]
 [2024-05-27 06:57:28] INFO root fetch - main [MainThread]: End processing [online-scheduler]: success
 [2024-05-27 06:57:28] INFO root fetch - main [MainThread]: Store serial: [23390688]
+[2024-05-27 06:59:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23390688]
+[2024-05-27 06:59:36] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-27 06:59:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: databend-udf
+[2024-05-27 06:59:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rxd
+[2024-05-27 06:59:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lckytools
+[2024-05-27 06:59:36] INFO root fetch - processPackages [rxd]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-27 06:59:36] INFO root fetch - processPackages [lckytools]: New version: [0.0.0a9] Old Version: [0.0.0a8]
+[2024-05-27 06:59:36] INFO root fetch - processPackages [rxd]: Downloading https://files.pythonhosted.org/packages/21/c2/38cf8db50595c42a9258c3370b82b7757ed2485638d9d5e7cc8aa2b6ea9d/rxd-0.0.8.tar.gz
+[2024-05-27 06:59:36] INFO root fetch - processPackages [lckytools]: Downloading https://files.pythonhosted.org/packages/32/87/6919f602b2d930da1130e471770541db40ed561db6cf403688f591ee289c/lckytools-0.0.0a8.tar.gz
+[2024-05-27 06:59:36] INFO root fetch - processPackages [databend-udf]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-05-27 06:59:36] INFO root fetch - processPackages [databend-udf]: Downloading https://files.pythonhosted.org/packages/0a/50/3bf1eb26f9594071477f9db722ae5226bdbf356ce12309ec634c06ed8b04/databend-udf-0.2.2.tar.gz
+[2024-05-27 06:59:36] INFO root fetch - processPackages [rxd]: Downloading https://files.pythonhosted.org/packages/5c/98/033a1b896a5c65fec77f8aa2c7d37aaa0f4d23fe3d4b5cae4731f73ad27e/rxd-0.0.9.tar.gz
+[2024-05-27 06:59:36] INFO root fetch - processPackages [lckytools]: Downloading https://files.pythonhosted.org/packages/58/b4/76a808942400823f951edef5f1ed63b459873a985a8544794218b4f273ee/lckytools-0.0.0a9.tar.gz
+[2024-05-27 06:59:36] INFO root fetch - processPackages [rxd]: executing diffoscope
+[2024-05-27 06:59:36] INFO root fetch - processPackages [rxd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rxd-0.0.8.tar.gz tmp/rxd-0.0.9.tar.gz --markdown 20240527/r/rxd/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-27 06:59:36] INFO root fetch - processPackages [lckytools]: executing diffoscope
+[2024-05-27 06:59:36] INFO root fetch - processPackages [lckytools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lckytools-0.0.0a8.tar.gz tmp/lckytools-0.0.0a9.tar.gz --markdown 20240527/l/lckytools/0.0.0a8-0.0.0a9/README.md --exclude *.pyd
+[2024-05-27 06:59:37] INFO root fetch - processPackages [databend-udf]: Downloading https://files.pythonhosted.org/packages/2c/6e/0aa8c59f95cb7a6a71dad807d127dad8ff51d33493e4a1870d561cb20ee5/databend_udf-0.2.3.tar.gz
+[2024-05-27 06:59:37] INFO root fetch - processPackages [databend-udf]: executing diffoscope
+[2024-05-27 06:59:37] INFO root fetch - processPackages [databend-udf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/databend-udf-0.2.2.tar.gz tmp/databend_udf-0.2.3.tar.gz --markdown 20240527/d/databend-udf/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-05-27 06:59:37] INFO root fetch - processPackages [rxd]: Remove: archive file [/home/abi/fetcher/tmp/rxd-0.0.8.tar.gz]
+[2024-05-27 06:59:37] INFO root fetch - processPackages [rxd]: Remove: archive file [/home/abi/fetcher/tmp/rxd-0.0.9.tar.gz]
+[2024-05-27 06:59:37] INFO root fetch - main [MainThread]: End processing [rxd]: success
+[2024-05-27 06:59:37] INFO root fetch - processPackages [lckytools]: Remove: archive file [/home/abi/fetcher/tmp/lckytools-0.0.0a8.tar.gz]
+[2024-05-27 06:59:37] INFO root fetch - processPackages [lckytools]: Remove: archive file [/home/abi/fetcher/tmp/lckytools-0.0.0a9.tar.gz]
+[2024-05-27 06:59:37] INFO root fetch - main [MainThread]: End processing [lckytools]: success
+[2024-05-27 06:59:37] INFO root fetch - processPackages [databend-udf]: Remove: archive file [/home/abi/fetcher/tmp/databend-udf-0.2.2.tar.gz]
+[2024-05-27 06:59:37] INFO root fetch - processPackages [databend-udf]: Remove: archive file [/home/abi/fetcher/tmp/databend_udf-0.2.3.tar.gz]
+[2024-05-27 06:59:37] INFO root fetch - main [MainThread]: End processing [databend-udf]: success
+[2024-05-27 06:59:37] INFO root fetch - main [MainThread]: Store serial: [23390696]
