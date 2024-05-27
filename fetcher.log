@@ -1831,3 +1831,24 @@
 [2024-05-27 02:21:37] INFO root fetch - processPackages [fdasrsf]: Remove: archive file [/home/abi/fetcher/tmp/fdasrsf-2.5.9.tar.gz]
 [2024-05-27 02:21:38] INFO root fetch - main [MainThread]: End processing [fdasrsf]: success
 [2024-05-27 02:21:38] INFO root fetch - main [MainThread]: Store serial: [23389033]
+[2024-05-27 02:23:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23389033]
+[2024-05-27 02:23:46] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-27 02:23:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-aurora-globaldatabase
+[2024-05-27 02:23:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hangman-solver-rs
+[2024-05-27 02:23:46] INFO root fetch - processPackages [hangman-solver-rs]: New version: [0.3.0] Old Version: [0.2.1]
+[2024-05-27 02:23:46] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: New version: [2.3.99] Old Version: [2.3.98]
+[2024-05-27 02:23:46] INFO root fetch - processPackages [hangman-solver-rs]: Downloading https://files.pythonhosted.org/packages/e6/7f/8dfd6896f5d7c0160cf84289e9db55abd5c5adef4484346571a482fefe0a/hangman_solver_rs-0.2.1.tar.gz
+[2024-05-27 02:23:46] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/e4/39/e997b5acac972df8d777c4a4ad6dfd9f51e03e75fc8e23c973a7772267d5/cdk-aurora-globaldatabase-2.3.98.tar.gz
+[2024-05-27 02:23:46] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/51/53/0158facaec2becec86707148eb931de78a7ad1c2b63f80b9911a53e4c17b/cdk-aurora-globaldatabase-2.3.99.tar.gz
+[2024-05-27 02:23:46] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: executing diffoscope
+[2024-05-27 02:23:46] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz --markdown 20240527/c/cdk-aurora-globaldatabase/2.3.98-2.3.99/README.md --exclude *.pyd
+[2024-05-27 02:23:47] INFO root fetch - processPackages [hangman-solver-rs]: Downloading https://files.pythonhosted.org/packages/44/a2/f9e37eda6efcf0437d8a9b9a34ef9f632824f17f2046518858bf292268c2/hangman_solver_rs-0.3.0.tar.gz
+[2024-05-27 02:23:47] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz]
+[2024-05-27 02:23:47] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz]
+[2024-05-27 02:23:47] INFO root fetch - main [MainThread]: End processing [cdk-aurora-globaldatabase]: success
+[2024-05-27 02:23:47] INFO root fetch - processPackages [hangman-solver-rs]: executing diffoscope
+[2024-05-27 02:23:47] INFO root fetch - processPackages [hangman-solver-rs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hangman_solver_rs-0.2.1.tar.gz tmp/hangman_solver_rs-0.3.0.tar.gz --markdown 20240527/h/hangman-solver-rs/0.2.1-0.3.0/README.md --exclude *.pyd
+[2024-05-27 02:23:50] INFO root fetch - processPackages [hangman-solver-rs]: Remove: archive file [/home/abi/fetcher/tmp/hangman_solver_rs-0.2.1.tar.gz]
+[2024-05-27 02:23:50] INFO root fetch - processPackages [hangman-solver-rs]: Remove: archive file [/home/abi/fetcher/tmp/hangman_solver_rs-0.3.0.tar.gz]
+[2024-05-27 02:23:50] INFO root fetch - main [MainThread]: End processing [hangman-solver-rs]: success
+[2024-05-27 02:23:50] INFO root fetch - main [MainThread]: Store serial: [23389045]
