@@ -14495,3 +14495,54 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 13:54:47] INFO root fetch - processPackages [pydantic-bigstitcher]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_bigstitcher-0.0.4.tar.gz]
 [2024-05-27 13:54:47] INFO root fetch - main [MainThread]: End processing [pydantic-bigstitcher]: success
 [2024-05-27 13:54:47] INFO root fetch - main [MainThread]: Store serial: [23395093]
+[2024-05-27 13:56:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23395093]
+[2024-05-27 13:56:56] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-27 13:56:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: orange-canvas-core
+[2024-05-27 13:56:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hacs-frontend
+[2024-05-27 13:56:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: QuizEngine4Trivia-TirsvadCLI
+[2024-05-27 13:56:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pygradflow
+[2024-05-27 13:56:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cerebrumscannercommon
+[2024-05-27 13:56:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dissect.cstruct
+[2024-05-27 13:56:57] INFO root fetch - processPackages [pygradflow]: New version: [0.5.2] Old Version: [0.5.1]
+[2024-05-27 13:56:57] WARNING root fetch - processPackages [cerebrumscannercommon]: Skipping, unable to determine old version
+[2024-05-27 13:56:57] INFO root fetch - main [MainThread]: End processing [cerebrumscannercommon] error
+[2024-05-27 13:56:57] INFO root fetch - processPackages [orange-canvas-core]: New version: [0.2.1] Old Version: [0.2.0a1]
+[2024-05-27 13:56:57] INFO root fetch - processPackages [QuizEngine4Trivia-TirsvadCLI]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-27 13:56:57] INFO root fetch - processPackages [hacs-frontend]: New version: [9] Old Version: [8]
+[2024-05-27 13:56:57] INFO root fetch - processPackages [pygradflow]: Downloading https://files.pythonhosted.org/packages/5f/b8/12aaa448645417317b2c3c7a93a40c3c13bdbc64661dd6e5138c589dd1d4/pygradflow-0.5.1.tar.gz
+[2024-05-27 13:56:57] INFO root fetch - processPackages [orange-canvas-core]: Downloading https://files.pythonhosted.org/packages/fc/3d/5b386f3828cb1fa4e8f113bb6ad86ca15d3c233c1b669f39f4a99722b8ad/orange-canvas-core-0.2.0a1.tar.gz
+[2024-05-27 13:56:57] INFO root fetch - processPackages [QuizEngine4Trivia-TirsvadCLI]: Downloading https://files.pythonhosted.org/packages/97/20/61385724c8cc8a9d9b644478b9da82f2d1997e6cb245cf852e9e1eb46c70/quizengine4trivia_tirsvadcli-0.0.5.tar.gz
+[2024-05-27 13:56:57] INFO root fetch - processPackages [dissect.cstruct]: New version: [4.0.dev2] Old Version: [4.0.dev1]
+[2024-05-27 13:56:57] INFO root fetch - processPackages [hacs-frontend]: Downloading https://files.pythonhosted.org/packages/4b/54/4a6311d8b103f58145787acb710d11417db7aa8446ae2bec85633213f873/hacs-frontend-8.tar.gz
+[2024-05-27 13:56:57] INFO root fetch - processPackages [dissect.cstruct]: Downloading https://files.pythonhosted.org/packages/32/7a/0ac413a3a2712cf8e4d6290e59ae460241df846285ac0252f7c3c982cfee/dissect_cstruct-4.0.dev1.tar.gz
+[2024-05-27 13:56:57] INFO root fetch - processPackages [pygradflow]: Downloading https://files.pythonhosted.org/packages/cf/64/a6aa8a55ee9f718447e0cd4e7794fba107f92fa1ffb2f14a81ac3a18c9e8/pygradflow-0.5.2.tar.gz
+[2024-05-27 13:56:57] INFO root fetch - processPackages [QuizEngine4Trivia-TirsvadCLI]: Downloading https://files.pythonhosted.org/packages/e8/d4/c4a33aaf3eac64cc827204ed0b8e4b284d05e95e5e96129af97d88818c78/quizengine4trivia_tirsvadcli-0.0.6.tar.gz
+[2024-05-27 13:56:57] INFO root fetch - processPackages [pygradflow]: executing diffoscope
+[2024-05-27 13:56:57] INFO root fetch - processPackages [pygradflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygradflow-0.5.1.tar.gz tmp/pygradflow-0.5.2.tar.gz --markdown 20240527/p/pygradflow/0.5.1-0.5.2/README.md --exclude *.pyd
+[2024-05-27 13:56:57] INFO root fetch - processPackages [orange-canvas-core]: Downloading https://files.pythonhosted.org/packages/49/41/584ae16c0b781d5e24796f41d58079eb1a808a9ed37a9729b873f431a3b1/orange-canvas-core-0.2.1.tar.gz
+[2024-05-27 13:56:57] INFO root fetch - processPackages [hacs-frontend]: Downloading https://files.pythonhosted.org/packages/27/64/99fc7d5e575ed7ac25aaf6fa2230eea1499ac447c06f0c88af1a96d19d69/hacs-frontend-9.tar.gz
+[2024-05-27 13:56:57] INFO root fetch - processPackages [QuizEngine4Trivia-TirsvadCLI]: executing diffoscope
+[2024-05-27 13:56:57] INFO root fetch - processPackages [QuizEngine4Trivia-TirsvadCLI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quizengine4trivia_tirsvadcli-0.0.5.tar.gz tmp/quizengine4trivia_tirsvadcli-0.0.6.tar.gz --markdown 20240527/Q/QuizEngine4Trivia-TirsvadCLI/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-27 13:56:57] INFO root fetch - processPackages [dissect.cstruct]: Downloading https://files.pythonhosted.org/packages/d3/7c/74263603873a19efe0cccb3be332ba2a18e186c31fe7cb38e54e59bfd726/dissect_cstruct-4.0.dev2.tar.gz
+[2024-05-27 13:56:57] INFO root fetch - processPackages [hacs-frontend]: executing diffoscope
+[2024-05-27 13:56:57] INFO root fetch - processPackages [hacs-frontend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hacs-frontend-8.tar.gz tmp/hacs-frontend-9.tar.gz --markdown 20240527/h/hacs-frontend/8-9/README.md --exclude *.pyd
+[2024-05-27 13:56:57] INFO root fetch - processPackages [orange-canvas-core]: executing diffoscope
+[2024-05-27 13:56:57] INFO root fetch - processPackages [orange-canvas-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/orange-canvas-core-0.2.0a1.tar.gz tmp/orange-canvas-core-0.2.1.tar.gz --markdown 20240527/o/orange-canvas-core/0.2.0a1-0.2.1/README.md --exclude *.pyd
+[2024-05-27 13:56:58] INFO root fetch - processPackages [dissect.cstruct]: executing diffoscope
+[2024-05-27 13:56:58] INFO root fetch - processPackages [dissect.cstruct]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dissect_cstruct-4.0.dev1.tar.gz tmp/dissect_cstruct-4.0.dev2.tar.gz --markdown 20240527/d/dissect.cstruct/4.0.dev1-4.0.dev2/README.md --exclude *.pyd
+[2024-05-27 13:56:58] INFO root fetch - processPackages [pygradflow]: Remove: archive file [/home/abi/fetcher/tmp/pygradflow-0.5.1.tar.gz]
+[2024-05-27 13:56:58] INFO root fetch - processPackages [pygradflow]: Remove: archive file [/home/abi/fetcher/tmp/pygradflow-0.5.2.tar.gz]
+[2024-05-27 13:56:58] INFO root fetch - main [MainThread]: End processing [pygradflow]: success
+[2024-05-27 13:56:58] INFO root fetch - processPackages [QuizEngine4Trivia-TirsvadCLI]: Remove: archive file [/home/abi/fetcher/tmp/quizengine4trivia_tirsvadcli-0.0.5.tar.gz]
+[2024-05-27 13:56:58] INFO root fetch - processPackages [QuizEngine4Trivia-TirsvadCLI]: Remove: archive file [/home/abi/fetcher/tmp/quizengine4trivia_tirsvadcli-0.0.6.tar.gz]
+[2024-05-27 13:56:58] INFO root fetch - main [MainThread]: End processing [QuizEngine4Trivia-TirsvadCLI]: success
+[2024-05-27 13:56:58] INFO root fetch - processPackages [dissect.cstruct]: Remove: archive file [/home/abi/fetcher/tmp/dissect_cstruct-4.0.dev1.tar.gz]
+[2024-05-27 13:56:58] INFO root fetch - processPackages [dissect.cstruct]: Remove: archive file [/home/abi/fetcher/tmp/dissect_cstruct-4.0.dev2.tar.gz]
+[2024-05-27 13:56:58] INFO root fetch - main [MainThread]: End processing [dissect.cstruct]: success
+[2024-05-27 13:56:58] INFO root fetch - processPackages [hacs-frontend]: Remove: archive file [/home/abi/fetcher/tmp/hacs-frontend-8.tar.gz]
+[2024-05-27 13:56:58] INFO root fetch - processPackages [hacs-frontend]: Remove: archive file [/home/abi/fetcher/tmp/hacs-frontend-9.tar.gz]
+[2024-05-27 13:56:58] INFO root fetch - main [MainThread]: End processing [hacs-frontend]: success
+[2024-05-27 13:56:59] INFO root fetch - processPackages [orange-canvas-core]: Remove: archive file [/home/abi/fetcher/tmp/orange-canvas-core-0.2.0a1.tar.gz]
+[2024-05-27 13:56:59] INFO root fetch - processPackages [orange-canvas-core]: Remove: archive file [/home/abi/fetcher/tmp/orange-canvas-core-0.2.1.tar.gz]
+[2024-05-27 13:56:59] INFO root fetch - main [MainThread]: End processing [orange-canvas-core]: success
+[2024-05-27 13:56:59] INFO root fetch - main [MainThread]: Store serial: [23395117]
