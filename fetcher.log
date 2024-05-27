@@ -23365,3 +23365,51 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-05-27 19:36:48] INFO root fetch - processPackages [cybrid-api-bank-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-bank-python-0.99.0.tar.gz]
 [2024-05-27 19:36:48] INFO root fetch - main [MainThread]: End processing [cybrid-api-bank-python]: success
 [2024-05-27 19:36:48] INFO root fetch - main [MainThread]: Store serial: [23399206]
+[2024-05-27 19:38:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23399206]
+[2024-05-27 19:38:57] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-27 19:38:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nqrduck-spectrometer
+[2024-05-27 19:38:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: stream-translator-gpt
+[2024-05-27 19:38:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: analysta-index
+[2024-05-27 19:38:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fixedpt
+[2024-05-27 19:38:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: localstack-core
+[2024-05-27 19:38:57] INFO root fetch - processPackages [fixedpt]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-27 19:38:57] INFO root fetch - processPackages [localstack-core]: New version: [3.4.1.dev20240527130959] Old Version: [3.4.1.dev20240527115716]
+[2024-05-27 19:38:57] INFO root fetch - processPackages [analysta-index]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-27 19:38:57] INFO root fetch - processPackages [fixedpt]: Downloading https://files.pythonhosted.org/packages/dd/4f/dcfa5bcf876a0c09ef55a502132ac5f31e5d1c0feeb0ac1ea95d4f61eb11/fixedpt-0.2.1.tar.gz
+[2024-05-27 19:38:57] INFO root fetch - processPackages [nqrduck-spectrometer]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-27 19:38:57] INFO root fetch - processPackages [stream-translator-gpt]: New version: [2024.5.4] Old Version: [2024.5.28]
+[2024-05-27 19:38:57] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/9f/c9/300a5cb41f867f1b1c364d0724306623a718f7f76c0aadd4aff5e74ad1a4/localstack_core-3.4.1.dev20240527115716.tar.gz
+[2024-05-27 19:38:57] INFO root fetch - processPackages [stream-translator-gpt]: Downloading https://files.pythonhosted.org/packages/8c/76/6a44e40481eb51834570079484ed6c11666438e6346b2b8fa1c550bd9e51/stream_translator_gpt-2024.5.28.tar.gz
+[2024-05-27 19:38:57] INFO root fetch - processPackages [nqrduck-spectrometer]: Downloading https://files.pythonhosted.org/packages/4f/e8/addb9bb4237a9b2de166c3ddeba9d74dd0b0595b2df90f1a635930a3f9b9/nqrduck_spectrometer-0.0.8.tar.gz
+[2024-05-27 19:38:57] INFO root fetch - processPackages [fixedpt]: Downloading https://files.pythonhosted.org/packages/d1/28/b22443b147ba20937fa9a2838aed0da351a1a958b8ecba54f6872cc692b1/fixedpt-0.2.2.tar.gz
+[2024-05-27 19:38:58] INFO root fetch - processPackages [analysta-index]: Downloading https://files.pythonhosted.org/packages/01/cf/2384baabdae575209a6a4216033a9a5d5e61e6cdad49419226a7bb1ecc2f/analysta_index-0.2.8.tar.gz
+[2024-05-27 19:38:58] INFO root fetch - processPackages [fixedpt]: executing diffoscope
+[2024-05-27 19:38:58] INFO root fetch - processPackages [fixedpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fixedpt-0.2.1.tar.gz tmp/fixedpt-0.2.2.tar.gz --markdown 20240527/f/fixedpt/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-05-27 19:38:58] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/1c/41/de5d0afa31b82dc374079583e85b99d1fc4e48c61b7fa4c21698ce6cc605/localstack_core-3.4.1.dev20240527130959.tar.gz
+[2024-05-27 19:38:58] INFO root fetch - processPackages [nqrduck-spectrometer]: Downloading https://files.pythonhosted.org/packages/ef/8d/558871e9da6aa0f6b551741055228121f638a9d3b131c787e84b1ca69d5b/nqrduck_spectrometer-0.0.9.tar.gz
+[2024-05-27 19:38:58] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2024-05-27 19:38:58] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack_core-3.4.1.dev20240527115716.tar.gz tmp/localstack_core-3.4.1.dev20240527130959.tar.gz --markdown 20240527/l/localstack-core/3.4.1.dev20240527115716-3.4.1.dev20240527130959/README.md --exclude *.pyd
+[2024-05-27 19:38:58] INFO root fetch - processPackages [analysta-index]: Downloading https://files.pythonhosted.org/packages/ba/b4/33785982f782c702583fb17e14729d42cb8e9e1112a6cc6102f8435d1b45/analysta_index-0.2.9.tar.gz
+[2024-05-27 19:38:58] INFO root fetch - processPackages [nqrduck-spectrometer]: executing diffoscope
+[2024-05-27 19:38:58] INFO root fetch - processPackages [nqrduck-spectrometer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nqrduck_spectrometer-0.0.8.tar.gz tmp/nqrduck_spectrometer-0.0.9.tar.gz --markdown 20240527/n/nqrduck-spectrometer/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-27 19:38:58] INFO root fetch - processPackages [analysta-index]: executing diffoscope
+[2024-05-27 19:38:58] INFO root fetch - processPackages [analysta-index]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/analysta_index-0.2.8.tar.gz tmp/analysta_index-0.2.9.tar.gz --markdown 20240527/a/analysta-index/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-27 19:38:58] INFO root fetch - processPackages [stream-translator-gpt]: Downloading https://files.pythonhosted.org/packages/4b/e4/f5db59bd23b65256ddb7a6574d2a586614374a54c9c5de00eb0b4414a8fd/stream_translator_gpt-2024.5.4.tar.gz
+[2024-05-27 19:38:58] INFO root fetch - processPackages [fixedpt]: Remove: archive file [/home/abi/fetcher/tmp/fixedpt-0.2.1.tar.gz]
+[2024-05-27 19:38:58] INFO root fetch - processPackages [fixedpt]: Remove: archive file [/home/abi/fetcher/tmp/fixedpt-0.2.2.tar.gz]
+[2024-05-27 19:38:58] INFO root fetch - main [MainThread]: End processing [fixedpt]: success
+[2024-05-27 19:38:58] INFO root fetch - processPackages [stream-translator-gpt]: executing diffoscope
+[2024-05-27 19:38:58] INFO root fetch - processPackages [stream-translator-gpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stream_translator_gpt-2024.5.28.tar.gz tmp/stream_translator_gpt-2024.5.4.tar.gz --markdown 20240527/s/stream-translator-gpt/2024.5.28-2024.5.4/README.md --exclude *.pyd
+[2024-05-27 19:38:59] INFO root fetch - processPackages [nqrduck-spectrometer]: Remove: archive file [/home/abi/fetcher/tmp/nqrduck_spectrometer-0.0.8.tar.gz]
+[2024-05-27 19:38:59] INFO root fetch - processPackages [nqrduck-spectrometer]: Remove: archive file [/home/abi/fetcher/tmp/nqrduck_spectrometer-0.0.9.tar.gz]
+[2024-05-27 19:38:59] INFO root fetch - main [MainThread]: End processing [nqrduck-spectrometer]: success
+[2024-05-27 19:38:59] INFO root fetch - processPackages [analysta-index]: Remove: archive file [/home/abi/fetcher/tmp/analysta_index-0.2.8.tar.gz]
+[2024-05-27 19:38:59] INFO root fetch - processPackages [analysta-index]: Remove: archive file [/home/abi/fetcher/tmp/analysta_index-0.2.9.tar.gz]
+[2024-05-27 19:38:59] INFO root fetch - main [MainThread]: End processing [analysta-index]: success
+[2024-05-27 19:38:59] INFO root fetch - processPackages [stream-translator-gpt]: Remove: archive file [/home/abi/fetcher/tmp/stream_translator_gpt-2024.5.28.tar.gz]
+[2024-05-27 19:38:59] INFO root fetch - processPackages [stream-translator-gpt]: Remove: archive file [/home/abi/fetcher/tmp/stream_translator_gpt-2024.5.4.tar.gz]
+[2024-05-27 19:38:59] INFO root fetch - main [MainThread]: End processing [stream-translator-gpt]: success
+[2024-05-27 19:39:02] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.4.1.dev20240527115716.tar.gz]
+[2024-05-27 19:39:02] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.4.1.dev20240527130959.tar.gz]
+[2024-05-27 19:39:02] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2024-05-27 19:39:02] INFO root fetch - main [MainThread]: Store serial: [23399219]
