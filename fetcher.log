@@ -7747,3 +7747,66 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 09:08:44] INFO root fetch - processPackages [azure-mgmt-network]: Remove: archive file [/home/abi/fetcher/tmp/azure-mgmt-network-9.0.0.zip]
 [2024-05-27 09:08:44] INFO root fetch - main [MainThread]: End processing [azure-mgmt-network]: success
 [2024-05-27 09:08:44] INFO root fetch - main [MainThread]: Store serial: [23391743]
+[2024-05-27 09:10:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23391743]
+[2024-05-27 09:10:53] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-27 09:10:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pokerFunctions
+[2024-05-27 09:10:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: faunanet
+[2024-05-27 09:10:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: promptic
+[2024-05-27 09:10:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tf-hub-nightly
+[2024-05-27 09:10:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: superb-ai-curate
+[2024-05-27 09:10:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: graphene-django-query-optimizer
+[2024-05-27 09:10:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: used-addr-check
+[2024-05-27 09:10:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: apeboiy
+[2024-05-27 09:10:53] INFO root fetch - processPackages [tf-hub-nightly]: New version: [0.9.0.dev202008190006] Old Version: [0.9.0.dev202008180006]
+[2024-05-27 09:10:53] WARNING root fetch - processPackages [faunanet]: Skipping, unable to determine old version
+[2024-05-27 09:10:53] INFO root fetch - main [MainThread]: End processing [faunanet] error
+[2024-05-27 09:10:53] INFO root fetch - processPackages [apeboiy]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-27 09:10:53] INFO root fetch - processPackages [pokerFunctions]: New version: [0.3] Old Version: [0.2]
+[2024-05-27 09:10:53] INFO root fetch - processPackages [tf-hub-nightly]: Downloading https://files.pythonhosted.org/packages/e8/6b/02811fcd79aec590e7355647130c822f1bd53092a205ce986e6df7364f52/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl
+[2024-05-27 09:10:53] INFO root fetch - processPackages [apeboiy]: Downloading https://files.pythonhosted.org/packages/2c/d1/13ae5c5ceb0c97a91d946e1dd5fc329b3f384b59630ad259ab7ebe72713d/apeboiy-0.0.8.tar.gz
+[2024-05-27 09:10:53] INFO root fetch - processPackages [superb-ai-curate]: New version: [1.3.1] Old Version: [1.3.0]
+[2024-05-27 09:10:53] WARNING root fetch - processPackages [promptic]: Skipping, unable to determine old version
+[2024-05-27 09:10:53] INFO root fetch - main [MainThread]: End processing [promptic] error
+[2024-05-27 09:10:53] INFO root fetch - processPackages [used-addr-check]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-27 09:10:53] INFO root fetch - processPackages [graphene-django-query-optimizer]: New version: [0.6.1] Old Version: [0.6.0]
+[2024-05-27 09:10:53] INFO root fetch - processPackages [superb-ai-curate]: Downloading https://files.pythonhosted.org/packages/3a/d5/dfaf16c5da2d96abfe8abdde4eafa19211e71eba8e84b1e2fa8548d2fd91/superb_ai_curate-1.3.0.tar.gz
+[2024-05-27 09:10:53] INFO root fetch - processPackages [apeboiy]: Downloading https://files.pythonhosted.org/packages/04/42/a8230541f443842d5b00d865f7079650b8c865bda89a3de4ebc4010d0579/apeboiy-0.0.9.tar.gz
+[2024-05-27 09:10:54] INFO root fetch - processPackages [used-addr-check]: Downloading https://files.pythonhosted.org/packages/24/85/e6318ad4024960f08a9b9a9f38f12b809f78414e8a0d532b6dfb9b95fbe0/used_addr_check-0.1.2.tar.gz
+[2024-05-27 09:10:54] INFO root fetch - processPackages [pokerFunctions]: Downloading https://files.pythonhosted.org/packages/2c/92/fd25f49d91f5ddff252c5c50c10d03a1a0d4705d888a56b28674ddc3142f/pokerfunctions-0.2.tar.gz
+[2024-05-27 09:10:54] INFO root fetch - processPackages [tf-hub-nightly]: Downloading https://files.pythonhosted.org/packages/d1/9a/6b02d0906847e11386093420119d147f7306d7a9cad79e8e575a9d29ae76/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl
+[2024-05-27 09:10:54] INFO root fetch - processPackages [graphene-django-query-optimizer]: Downloading https://files.pythonhosted.org/packages/1c/ef/59921e8456699ecffa03180460b26b63f5eab9c56d97efec5ccb1f54fc9e/graphene_django_query_optimizer-0.6.0.tar.gz
+[2024-05-27 09:10:54] INFO root fetch - processPackages [apeboiy]: executing diffoscope
+[2024-05-27 09:10:54] INFO root fetch - processPackages [apeboiy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apeboiy-0.0.8.tar.gz tmp/apeboiy-0.0.9.tar.gz --markdown 20240527/a/apeboiy/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-27 09:10:54] INFO root fetch - processPackages [tf-hub-nightly]: executing diffoscope
+[2024-05-27 09:10:54] INFO root fetch - processPackages [tf-hub-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip --markdown 20240527/t/tf-hub-nightly/0.9.0.dev202008180006-0.9.0.dev202008190006/README.md --exclude *.pyd
+[2024-05-27 09:10:54] INFO root fetch - processPackages [superb-ai-curate]: Downloading https://files.pythonhosted.org/packages/93/1f/b9e8e1aa5d3b300159081005e20ea7a51b29f74c3f8188608aa31af7a78d/superb_ai_curate-1.3.1.tar.gz
+[2024-05-27 09:10:54] INFO root fetch - processPackages [pokerFunctions]: Downloading https://files.pythonhosted.org/packages/26/24/5187c856b40084962a0217bf97ae08eb4a43e755d765134d321bf2d5da35/pokerfunctions-0.3.tar.gz
+[2024-05-27 09:10:54] INFO root fetch - processPackages [graphene-django-query-optimizer]: Downloading https://files.pythonhosted.org/packages/30/52/e388141c2340e5c43ae2cfca67cecd3c77ef55cc6a8f46440fd2eeeeaada/graphene_django_query_optimizer-0.6.1.tar.gz
+[2024-05-27 09:10:54] INFO root fetch - processPackages [used-addr-check]: Downloading https://files.pythonhosted.org/packages/d1/7e/a67a01d9fecdfaa85967102ca8dbbbe60fe5b30021d00bbcfbd49571c9ff/used_addr_check-0.1.3.tar.gz
+[2024-05-27 09:10:54] INFO root fetch - processPackages [pokerFunctions]: executing diffoscope
+[2024-05-27 09:10:54] INFO root fetch - processPackages [pokerFunctions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pokerfunctions-0.2.tar.gz tmp/pokerfunctions-0.3.tar.gz --markdown 20240527/p/pokerFunctions/0.2-0.3/README.md --exclude *.pyd
+[2024-05-27 09:10:54] INFO root fetch - processPackages [superb-ai-curate]: executing diffoscope
+[2024-05-27 09:10:54] INFO root fetch - processPackages [superb-ai-curate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/superb_ai_curate-1.3.0.tar.gz tmp/superb_ai_curate-1.3.1.tar.gz --markdown 20240527/s/superb-ai-curate/1.3.0-1.3.1/README.md --exclude *.pyd
+[2024-05-27 09:10:54] INFO root fetch - processPackages [graphene-django-query-optimizer]: executing diffoscope
+[2024-05-27 09:10:54] INFO root fetch - processPackages [graphene-django-query-optimizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graphene_django_query_optimizer-0.6.0.tar.gz tmp/graphene_django_query_optimizer-0.6.1.tar.gz --markdown 20240527/g/graphene-django-query-optimizer/0.6.0-0.6.1/README.md --exclude *.pyd
+[2024-05-27 09:10:54] INFO root fetch - processPackages [used-addr-check]: executing diffoscope
+[2024-05-27 09:10:54] INFO root fetch - processPackages [used-addr-check]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/used_addr_check-0.1.2.tar.gz tmp/used_addr_check-0.1.3.tar.gz --markdown 20240527/u/used-addr-check/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-27 09:10:54] INFO root fetch - processPackages [apeboiy]: Remove: archive file [/home/abi/fetcher/tmp/apeboiy-0.0.8.tar.gz]
+[2024-05-27 09:10:54] INFO root fetch - processPackages [apeboiy]: Remove: archive file [/home/abi/fetcher/tmp/apeboiy-0.0.9.tar.gz]
+[2024-05-27 09:10:54] INFO root fetch - main [MainThread]: End processing [apeboiy]: success
+[2024-05-27 09:10:54] INFO root fetch - processPackages [tf-hub-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip]
+[2024-05-27 09:10:54] INFO root fetch - processPackages [tf-hub-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip]
+[2024-05-27 09:10:54] INFO root fetch - main [MainThread]: End processing [tf-hub-nightly]: success
+[2024-05-27 09:10:55] INFO root fetch - processPackages [pokerFunctions]: Remove: archive file [/home/abi/fetcher/tmp/pokerfunctions-0.2.tar.gz]
+[2024-05-27 09:10:55] INFO root fetch - processPackages [pokerFunctions]: Remove: archive file [/home/abi/fetcher/tmp/pokerfunctions-0.3.tar.gz]
+[2024-05-27 09:10:55] INFO root fetch - main [MainThread]: End processing [pokerFunctions]: success
+[2024-05-27 09:10:55] INFO root fetch - processPackages [used-addr-check]: Remove: archive file [/home/abi/fetcher/tmp/used_addr_check-0.1.2.tar.gz]
+[2024-05-27 09:10:55] INFO root fetch - processPackages [used-addr-check]: Remove: archive file [/home/abi/fetcher/tmp/used_addr_check-0.1.3.tar.gz]
+[2024-05-27 09:10:55] INFO root fetch - main [MainThread]: End processing [used-addr-check]: success
+[2024-05-27 09:10:55] INFO root fetch - processPackages [superb-ai-curate]: Remove: archive file [/home/abi/fetcher/tmp/superb_ai_curate-1.3.0.tar.gz]
+[2024-05-27 09:10:55] INFO root fetch - processPackages [superb-ai-curate]: Remove: archive file [/home/abi/fetcher/tmp/superb_ai_curate-1.3.1.tar.gz]
+[2024-05-27 09:10:55] INFO root fetch - main [MainThread]: End processing [superb-ai-curate]: success
+[2024-05-27 09:10:55] INFO root fetch - processPackages [graphene-django-query-optimizer]: Remove: archive file [/home/abi/fetcher/tmp/graphene_django_query_optimizer-0.6.0.tar.gz]
+[2024-05-27 09:10:55] INFO root fetch - processPackages [graphene-django-query-optimizer]: Remove: archive file [/home/abi/fetcher/tmp/graphene_django_query_optimizer-0.6.1.tar.gz]
+[2024-05-27 09:10:55] INFO root fetch - main [MainThread]: End processing [graphene-django-query-optimizer]: success
+[2024-05-27 09:10:55] INFO root fetch - main [MainThread]: Store serial: [23391770]
