@@ -21049,3 +21049,60 @@ EOFError: EOF read where object expected
 [2024-05-27 17:57:30] INFO root fetch - processPackages [pip2deb]: Remove: archive file [/home/abi/fetcher/tmp/pip2deb-2.0.2.tar.gz]
 [2024-05-27 17:57:30] INFO root fetch - main [MainThread]: End processing [pip2deb]: success
 [2024-05-27 17:57:30] INFO root fetch - main [MainThread]: Store serial: [23397936]
+[2024-05-27 17:59:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23397936]
+[2024-05-27 17:59:39] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-27 17:59:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: web-rwkv-py
+[2024-05-27 17:59:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: indipyclient
+[2024-05-27 17:59:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rutificador
+[2024-05-27 17:59:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: MobileInventoryCLI
+[2024-05-27 17:59:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: NEMO-billing
+[2024-05-27 17:59:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aplr
+[2024-05-27 17:59:39] INFO root fetch - processPackages [indipyclient]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-27 17:59:39] INFO root fetch - processPackages [MobileInventoryCLI]: New version: [0.4.99] Old Version: [0.4.98]
+[2024-05-27 17:59:39] INFO root fetch - processPackages [NEMO-billing]: New version: [2.9.5] Old Version: [2.9.4]
+[2024-05-27 17:59:39] INFO root fetch - processPackages [indipyclient]: Downloading https://files.pythonhosted.org/packages/f8/d2/10238f55dfcbd9b0a0d13ca552374acdeec8cfc16af03c43bb3762ba466f/indipyclient-0.1.5.tar.gz
+[2024-05-27 17:59:39] INFO root fetch - processPackages [rutificador]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-27 17:59:39] INFO root fetch - processPackages [aplr]: New version: [9.9.0] Old Version: [9.8.0]
+[2024-05-27 17:59:39] INFO root fetch - processPackages [web-rwkv-py]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-27 17:59:39] INFO root fetch - processPackages [MobileInventoryCLI]: Downloading https://files.pythonhosted.org/packages/34/2d/1e50d7f512e3d39590afb4a6c37340af98e5c4eadc77d9de653aab0cb49f/MobileInventoryCLI-0.4.98.tar.gz
+[2024-05-27 17:59:39] INFO root fetch - processPackages [rutificador]: Downloading https://files.pythonhosted.org/packages/c7/88/2ef11778f94b4667297b99cc8130c12efc3c858233f2b800dcbabd92161e/rutificador-0.2.8.tar.gz
+[2024-05-27 17:59:39] INFO root fetch - processPackages [indipyclient]: Downloading https://files.pythonhosted.org/packages/c1/65/1f0c25c379e73767145f866490dafacef770dd12831aa21cbb321b36262b/indipyclient-0.1.6.tar.gz
+[2024-05-27 17:59:39] INFO root fetch - processPackages [NEMO-billing]: Downloading https://files.pythonhosted.org/packages/c1/2a/a071cdeff4d810d7d0da43d403e3e517457135f79a21b1a6eb50b5682192/NEMO_billing-2.9.4-py3-none-any.whl
+[2024-05-27 17:59:39] INFO root fetch - processPackages [aplr]: Downloading https://files.pythonhosted.org/packages/bd/12/400517a75bc0d71e5b66efaecdac811966af925f820da4472b9145ef4127/aplr-9.8.0.tar.gz
+[2024-05-27 17:59:39] INFO root fetch - processPackages [web-rwkv-py]: Downloading https://files.pythonhosted.org/packages/14/59/08e987e08f7147e617dfd1bd1018a06c7c59564c20e49ae01746bab7e26d/web_rwkv_py-0.2.1.tar.gz
+[2024-05-27 17:59:39] INFO root fetch - processPackages [MobileInventoryCLI]: Downloading https://files.pythonhosted.org/packages/44/8c/14cdf7fc3f0b69cae35ba7ee2852fb70e3cab687142869ee3deb104ffc71/MobileInventoryCLI-0.4.99.tar.gz
+[2024-05-27 17:59:39] INFO root fetch - processPackages [indipyclient]: executing diffoscope
+[2024-05-27 17:59:39] INFO root fetch - processPackages [indipyclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/indipyclient-0.1.5.tar.gz tmp/indipyclient-0.1.6.tar.gz --markdown 20240527/i/indipyclient/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-27 17:59:39] INFO root fetch - processPackages [MobileInventoryCLI]: executing diffoscope
+[2024-05-27 17:59:39] INFO root fetch - processPackages [MobileInventoryCLI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MobileInventoryCLI-0.4.98.tar.gz tmp/MobileInventoryCLI-0.4.99.tar.gz --markdown 20240527/M/MobileInventoryCLI/0.4.98-0.4.99/README.md --exclude *.pyd
+[2024-05-27 17:59:40] INFO root fetch - processPackages [rutificador]: Downloading https://files.pythonhosted.org/packages/24/2b/416003b9a6eec30f728f1903a0d573ba330f74bad897b64bd2be8f4b1271/rutificador-0.2.9.tar.gz
+[2024-05-27 17:59:40] INFO root fetch - processPackages [NEMO-billing]: Downloading https://files.pythonhosted.org/packages/e2/a3/57363030fa40d23ab3be17536d33b93cf862dd1f854eadb6a92e176d086e/NEMO_billing-2.9.5-py3-none-any.whl
+[2024-05-27 17:59:40] INFO root fetch - processPackages [rutificador]: executing diffoscope
+[2024-05-27 17:59:40] INFO root fetch - processPackages [rutificador]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rutificador-0.2.8.tar.gz tmp/rutificador-0.2.9.tar.gz --markdown 20240527/r/rutificador/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-27 17:59:40] INFO root fetch - processPackages [aplr]: Downloading https://files.pythonhosted.org/packages/9d/7c/33597b328c136df1cecfe52f5b7446f6e24ef6da11ef10a8233103d791b6/aplr-9.9.0.tar.gz
+[2024-05-27 17:59:40] INFO root fetch - processPackages [web-rwkv-py]: Downloading https://files.pythonhosted.org/packages/08/99/6785bd2d30792c98a31934804180c6c9af06edd266171719e01b0ec94521/web_rwkv_py-0.2.2-pp310-pypy310_pp73-manylinux_2_17_s390x.manylinux2014_s390x.whl
+[2024-05-27 17:59:40] INFO root fetch - processPackages [NEMO-billing]: executing diffoscope
+[2024-05-27 17:59:40] INFO root fetch - processPackages [NEMO-billing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NEMO_billing-2.9.4-py3-none-any.whl.zip tmp/NEMO_billing-2.9.5-py3-none-any.whl.zip --markdown 20240527/N/NEMO-billing/2.9.4-2.9.5/README.md --exclude *.pyd
+[2024-05-27 17:59:40] INFO root fetch - processPackages [aplr]: executing diffoscope
+[2024-05-27 17:59:40] INFO root fetch - processPackages [aplr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aplr-9.8.0.tar.gz tmp/aplr-9.9.0.tar.gz --markdown 20240527/a/aplr/9.8.0-9.9.0/README.md --exclude *.pyd
+[2024-05-27 17:59:40] INFO root fetch - processPackages [indipyclient]: Remove: archive file [/home/abi/fetcher/tmp/indipyclient-0.1.5.tar.gz]
+[2024-05-27 17:59:40] INFO root fetch - processPackages [indipyclient]: Remove: archive file [/home/abi/fetcher/tmp/indipyclient-0.1.6.tar.gz]
+[2024-05-27 17:59:40] INFO root fetch - main [MainThread]: End processing [indipyclient]: success
+[2024-05-27 17:59:40] INFO root fetch - processPackages [MobileInventoryCLI]: Remove: archive file [/home/abi/fetcher/tmp/MobileInventoryCLI-0.4.98.tar.gz]
+[2024-05-27 17:59:40] INFO root fetch - processPackages [MobileInventoryCLI]: Remove: archive file [/home/abi/fetcher/tmp/MobileInventoryCLI-0.4.99.tar.gz]
+[2024-05-27 17:59:40] INFO root fetch - main [MainThread]: End processing [MobileInventoryCLI]: success
+[2024-05-27 17:59:40] INFO root fetch - processPackages [rutificador]: Remove: archive file [/home/abi/fetcher/tmp/rutificador-0.2.8.tar.gz]
+[2024-05-27 17:59:40] INFO root fetch - processPackages [rutificador]: Remove: archive file [/home/abi/fetcher/tmp/rutificador-0.2.9.tar.gz]
+[2024-05-27 17:59:40] INFO root fetch - main [MainThread]: End processing [rutificador]: success
+[2024-05-27 17:59:41] INFO root fetch - processPackages [NEMO-billing]: Remove: archive file [/home/abi/fetcher/tmp/NEMO_billing-2.9.4-py3-none-any.whl.zip]
+[2024-05-27 17:59:41] INFO root fetch - processPackages [NEMO-billing]: Remove: archive file [/home/abi/fetcher/tmp/NEMO_billing-2.9.5-py3-none-any.whl.zip]
+[2024-05-27 17:59:41] INFO root fetch - main [MainThread]: End processing [NEMO-billing]: success
+[2024-05-27 17:59:44] INFO root fetch - processPackages [web-rwkv-py]: executing diffoscope
+[2024-05-27 17:59:44] INFO root fetch - processPackages [web-rwkv-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/web_rwkv_py-0.2.1.tar.gz tmp/web_rwkv_py-0.2.2-pp310-pypy310_pp73-manylinux_2_17_s390x.manylinux2014_s390x.whl.zip --markdown 20240527/w/web-rwkv-py/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-05-27 17:59:45] INFO root fetch - processPackages [web-rwkv-py]: Remove: archive file [/home/abi/fetcher/tmp/web_rwkv_py-0.2.1.tar.gz]
+[2024-05-27 17:59:45] INFO root fetch - processPackages [web-rwkv-py]: Remove: archive file [/home/abi/fetcher/tmp/web_rwkv_py-0.2.2-pp310-pypy310_pp73-manylinux_2_17_s390x.manylinux2014_s390x.whl.zip]
+[2024-05-27 17:59:45] INFO root fetch - main [MainThread]: End processing [web-rwkv-py]: success
+[2024-05-27 17:59:47] INFO root fetch - processPackages [aplr]: Remove: archive file [/home/abi/fetcher/tmp/aplr-9.8.0.tar.gz]
+[2024-05-27 17:59:47] INFO root fetch - processPackages [aplr]: Remove: archive file [/home/abi/fetcher/tmp/aplr-9.9.0.tar.gz]
+[2024-05-27 17:59:47] INFO root fetch - main [MainThread]: End processing [aplr]: success
+[2024-05-27 17:59:47] INFO root fetch - main [MainThread]: Store serial: [23398009]
