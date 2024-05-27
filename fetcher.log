@@ -19302,3 +19302,74 @@ EOFError: EOF read where object expected
 [2024-05-27 16:45:49] INFO root fetch - processPackages [pyfortimanager]: Remove: archive file [/home/abi/fetcher/tmp/pyfortimanager-2.3.0.tar.gz]
 [2024-05-27 16:45:49] INFO root fetch - main [MainThread]: End processing [pyfortimanager]: success
 [2024-05-27 16:45:49] INFO root fetch - main [MainThread]: Store serial: [23397243]
+[2024-05-27 16:47:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23397243]
+[2024-05-27 16:47:57] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-27 16:47:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hapi-schema
+[2024-05-27 16:47:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: objectbox
+[2024-05-27 16:47:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rooms-shared-services
+[2024-05-27 16:47:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: yeref
+[2024-05-27 16:47:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fattureincloud-python-sdk
+[2024-05-27 16:47:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: strato-skipper
+[2024-05-27 16:47:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: d3vis-ipynb
+[2024-05-27 16:47:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: specmatic
+[2024-05-27 16:47:58] INFO root fetch - processPackages [objectbox]: New version: [4.0.0a2] Old Version: [4.0.0a1]
+[2024-05-27 16:47:58] INFO root fetch - processPackages [rooms-shared-services]: New version: [0.1.99] Old Version: [0.1.97]
+[2024-05-27 16:47:58] INFO root fetch - processPackages [d3vis-ipynb]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-05-27 16:47:58] INFO root fetch - processPackages [hapi-schema]: New version: [0.8.8] Old Version: [0.8.7]
+[2024-05-27 16:47:58] INFO root fetch - processPackages [yeref]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-27 16:47:58] INFO root fetch - processPackages [objectbox]: Downloading https://files.pythonhosted.org/packages/db/e7/ebaa5afdce8e094cecbdba3ef36092b53e081bb6a1853841c94646c0e7cd/objectbox-4.0.0a1-py3-none-any.whl
+[2024-05-27 16:47:58] INFO root fetch - processPackages [rooms-shared-services]: Downloading https://files.pythonhosted.org/packages/16/6e/7a35dabe25e96c04274cbd9f69a6e68b4f36dc149e22451fb099f79d153e/rooms_shared_services-0.1.97.tar.gz
+[2024-05-27 16:47:58] INFO root fetch - processPackages [strato-skipper]: New version: [2.2.5] Old Version: [2.2.4]
+[2024-05-27 16:47:58] INFO root fetch - processPackages [fattureincloud-python-sdk]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-05-27 16:47:58] INFO root fetch - processPackages [d3vis-ipynb]: Downloading https://files.pythonhosted.org/packages/24/69/d57ed88f62239765695761c10f76244ad875dcc676d58cda4f56f7043bf2/d3vis_ipynb-0.2.2.tar.gz
+[2024-05-27 16:47:58] INFO root fetch - processPackages [hapi-schema]: Downloading https://files.pythonhosted.org/packages/d1/4c/890a45099d35d855d8a8aa2080db8ce82fa0c1b4bdf45f8a26c662687c0f/hapi_schema-0.8.7.tar.gz
+[2024-05-27 16:47:58] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/ec/cb/204e6fbe233bbb61cf29c1b491e8c638c8a843edc47fb4e1d8cc8c26608c/yeref-0.9.8.tar.gz
+[2024-05-27 16:47:58] INFO root fetch - processPackages [specmatic]: New version: [1.3.9] Old Version: [1.3.8]
+[2024-05-27 16:47:58] INFO root fetch - processPackages [rooms-shared-services]: Downloading https://files.pythonhosted.org/packages/69/d1/238526d33d58183ec73b9cb900a4aea16c13e7618af0394e6c55838d4395/rooms_shared_services-0.1.99.tar.gz
+[2024-05-27 16:47:58] INFO root fetch - processPackages [fattureincloud-python-sdk]: Downloading https://files.pythonhosted.org/packages/07/68/ca4647f06cc8170b393a02e7994291d0c94f552ceb2a86d68ad86851966f/fattureincloud-python-sdk-2.0.8.tar.gz
+[2024-05-27 16:47:58] INFO root fetch - processPackages [strato-skipper]: Downloading https://files.pythonhosted.org/packages/ae/83/57669ad04f730f81cd763ae8fc7007f25939547823313b0b8c54e7220c78/strato-skipper-2.2.4.tar.gz
+[2024-05-27 16:47:58] INFO root fetch - processPackages [d3vis-ipynb]: Downloading https://files.pythonhosted.org/packages/7c/68/c9bcba7a76d400b2ae85708e21e162c28664b9535aa9be09ea6aa38a3cbc/d3vis_ipynb-0.2.3.tar.gz
+[2024-05-27 16:47:58] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/01/13/0f11bb3dfb27aaf16ed48b0046f50ac65b1fde32662fbc314d53e2558b2d/yeref-0.9.9.tar.gz
+[2024-05-27 16:47:58] INFO root fetch - processPackages [specmatic]: Downloading https://files.pythonhosted.org/packages/69/6e/484653e35ca218114964e0212bcaa4236cb2768173d1ffe05f47c33fa9fb/specmatic-1.3.8.tar.gz
+[2024-05-27 16:47:58] INFO root fetch - processPackages [hapi-schema]: Downloading https://files.pythonhosted.org/packages/55/31/b67b6250ce3d8dcb2f4b3b6a940b79283889fe725b9ff2fc97a5dcf6b401/hapi_schema-0.8.8.tar.gz
+[2024-05-27 16:47:58] INFO root fetch - processPackages [rooms-shared-services]: executing diffoscope
+[2024-05-27 16:47:58] INFO root fetch - processPackages [rooms-shared-services]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rooms_shared_services-0.1.97.tar.gz tmp/rooms_shared_services-0.1.99.tar.gz --markdown 20240527/r/rooms-shared-services/0.1.97-0.1.99/README.md --exclude *.pyd
+[2024-05-27 16:47:58] WARNING root fetch - processPackages [specmatic]: Skipping package: exceeds size limit 58401368>=10485760
+[2024-05-27 16:47:58] INFO root fetch - main [MainThread]: End processing [specmatic] error
+[2024-05-27 16:47:58] INFO root fetch - processPackages [objectbox]: Downloading https://files.pythonhosted.org/packages/8e/02/cda33bd6ea35d3d051b92ca582732f2d0de6b34756df82064c099bdd96d5/objectbox-4.0.0a2-py3-none-any.whl
+[2024-05-27 16:47:58] INFO root fetch - processPackages [d3vis-ipynb]: executing diffoscope
+[2024-05-27 16:47:58] INFO root fetch - processPackages [d3vis-ipynb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/d3vis_ipynb-0.2.2.tar.gz tmp/d3vis_ipynb-0.2.3.tar.gz --markdown 20240527/d/d3vis-ipynb/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-05-27 16:47:58] INFO root fetch - processPackages [hapi-schema]: executing diffoscope
+[2024-05-27 16:47:58] INFO root fetch - processPackages [hapi-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hapi_schema-0.8.7.tar.gz tmp/hapi_schema-0.8.8.tar.gz --markdown 20240527/h/hapi-schema/0.8.7-0.8.8/README.md --exclude *.pyd
+[2024-05-27 16:47:58] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2024-05-27 16:47:58] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.9.8.tar.gz tmp/yeref-0.9.9.tar.gz --markdown 20240527/y/yeref/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-27 16:47:58] INFO root fetch - processPackages [strato-skipper]: Downloading https://files.pythonhosted.org/packages/6d/ed/c8d7a9a52856dfee02ab29a325168979c8fe826982e6a185a79aefc2c6ae/strato-skipper-2.2.5.tar.gz
+[2024-05-27 16:47:59] INFO root fetch - processPackages [fattureincloud-python-sdk]: Downloading https://files.pythonhosted.org/packages/58/4d/b02e21c01bbde9517449526d78585b25115420fb3798a6c7417570aa9d2f/fattureincloud-python-sdk-2.0.9.tar.gz
+[2024-05-27 16:47:59] INFO root fetch - processPackages [objectbox]: executing diffoscope
+[2024-05-27 16:47:59] INFO root fetch - processPackages [objectbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/objectbox-4.0.0a1-py3-none-any.whl.zip tmp/objectbox-4.0.0a2-py3-none-any.whl.zip --markdown 20240527/o/objectbox/4.0.0a1-4.0.0a2/README.md --exclude *.pyd
+[2024-05-27 16:47:59] INFO root fetch - processPackages [strato-skipper]: executing diffoscope
+[2024-05-27 16:47:59] INFO root fetch - processPackages [strato-skipper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strato-skipper-2.2.4.tar.gz tmp/strato-skipper-2.2.5.tar.gz --markdown 20240527/s/strato-skipper/2.2.4-2.2.5/README.md --exclude *.pyd
+[2024-05-27 16:47:59] INFO root fetch - processPackages [fattureincloud-python-sdk]: executing diffoscope
+[2024-05-27 16:47:59] INFO root fetch - processPackages [fattureincloud-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fattureincloud-python-sdk-2.0.8.tar.gz tmp/fattureincloud-python-sdk-2.0.9.tar.gz --markdown 20240527/f/fattureincloud-python-sdk/2.0.8-2.0.9/README.md --exclude *.pyd
+[2024-05-27 16:47:59] INFO root fetch - processPackages [rooms-shared-services]: Remove: archive file [/home/abi/fetcher/tmp/rooms_shared_services-0.1.97.tar.gz]
+[2024-05-27 16:47:59] INFO root fetch - processPackages [rooms-shared-services]: Remove: archive file [/home/abi/fetcher/tmp/rooms_shared_services-0.1.99.tar.gz]
+[2024-05-27 16:47:59] INFO root fetch - main [MainThread]: End processing [rooms-shared-services]: success
+[2024-05-27 16:47:59] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.8.tar.gz]
+[2024-05-27 16:47:59] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.9.tar.gz]
+[2024-05-27 16:47:59] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2024-05-27 16:47:59] INFO root fetch - processPackages [hapi-schema]: Remove: archive file [/home/abi/fetcher/tmp/hapi_schema-0.8.7.tar.gz]
+[2024-05-27 16:47:59] INFO root fetch - processPackages [hapi-schema]: Remove: archive file [/home/abi/fetcher/tmp/hapi_schema-0.8.8.tar.gz]
+[2024-05-27 16:47:59] INFO root fetch - main [MainThread]: End processing [hapi-schema]: success
+[2024-05-27 16:47:59] INFO root fetch - processPackages [strato-skipper]: Remove: archive file [/home/abi/fetcher/tmp/strato-skipper-2.2.4.tar.gz]
+[2024-05-27 16:47:59] INFO root fetch - processPackages [strato-skipper]: Remove: archive file [/home/abi/fetcher/tmp/strato-skipper-2.2.5.tar.gz]
+[2024-05-27 16:47:59] INFO root fetch - main [MainThread]: End processing [strato-skipper]: success
+[2024-05-27 16:48:01] INFO root fetch - processPackages [d3vis-ipynb]: Remove: archive file [/home/abi/fetcher/tmp/d3vis_ipynb-0.2.2.tar.gz]
+[2024-05-27 16:48:01] INFO root fetch - processPackages [d3vis-ipynb]: Remove: archive file [/home/abi/fetcher/tmp/d3vis_ipynb-0.2.3.tar.gz]
+[2024-05-27 16:48:01] INFO root fetch - main [MainThread]: End processing [d3vis-ipynb]: success
+[2024-05-27 16:48:03] INFO root fetch - processPackages [fattureincloud-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/fattureincloud-python-sdk-2.0.8.tar.gz]
+[2024-05-27 16:48:03] INFO root fetch - processPackages [fattureincloud-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/fattureincloud-python-sdk-2.0.9.tar.gz]
+[2024-05-27 16:48:03] INFO root fetch - main [MainThread]: End processing [fattureincloud-python-sdk]: success
+[2024-05-27 16:48:41] INFO root fetch - processPackages [objectbox]: Remove: archive file [/home/abi/fetcher/tmp/objectbox-4.0.0a1-py3-none-any.whl.zip]
+[2024-05-27 16:48:41] INFO root fetch - processPackages [objectbox]: Remove: archive file [/home/abi/fetcher/tmp/objectbox-4.0.0a2-py3-none-any.whl.zip]
+[2024-05-27 16:48:41] INFO root fetch - main [MainThread]: End processing [objectbox]: success
+[2024-05-27 16:48:41] INFO root fetch - main [MainThread]: Store serial: [23397264]
