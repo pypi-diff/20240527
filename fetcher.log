@@ -10616,3 +10616,117 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 11:22:37] INFO root fetch - processPackages [Orange3-WorldHappiness]: Remove: archive file [/home/abi/fetcher/tmp/Orange3-WorldHappiness-0.1.9.tar.gz]
 [2024-05-27 11:22:37] INFO root fetch - main [MainThread]: End processing [Orange3-WorldHappiness]: success
 [2024-05-27 11:22:37] INFO root fetch - main [MainThread]: Store serial: [23393128]
+[2024-05-27 11:24:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23393128]
+[2024-05-27 11:24:47] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2024-05-27 11:24:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dao-analyzer
+[2024-05-27 11:24:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: power-grid-model
+[2024-05-27 11:24:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mia-vgg
+[2024-05-27 11:24:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: richie
+[2024-05-27 11:24:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aipkgs-firebase
+[2024-05-27 11:24:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dao-analyzer
+[2024-05-27 11:24:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Project-ppchem-tools-kit
+[2024-05-27 11:24:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyexmars
+[2024-05-27 11:24:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: kadi
+[2024-05-27 11:24:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: uihelper
+[2024-05-27 11:24:47] INFO root fetch - processPackages [richie]: New version: [2.9.1] Old Version: [2.9.0]
+[2024-05-27 11:24:47] INFO root fetch - processPackages [mia-vgg]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-27 11:24:47] WARNING root fetch - processPackages [uihelper]: Skipping, unable to determine old version
+[2024-05-27 11:24:47] INFO root fetch - processPackages [uihelper]: Start processing: trollmoves
+[2024-05-27 11:24:47] INFO root fetch - main [MainThread]: End processing [uihelper] error
+[2024-05-27 11:24:47] INFO root fetch - processPackages [pyexmars]: New version: [1.0.5] Old Version: [1.0.3]
+[2024-05-27 11:24:47] INFO root fetch - processPackages [dao-analyzer]: New version: [1.3.2.dev8] Old Version: [1.3.2.dev4]
+[2024-05-27 11:24:47] INFO root fetch - processPackages [dao-analyzer]: New version: [1.3.2.dev8] Old Version: [1.3.2.dev4]
+[2024-05-27 11:24:47] INFO root fetch - processPackages [aipkgs-firebase]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-27 11:24:47] INFO root fetch - processPackages [Project-ppchem-tools-kit]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-05-27 11:24:47] INFO root fetch - processPackages [richie]: Downloading https://files.pythonhosted.org/packages/f6/8c/5aee5780f8e52c197a108b9211b105822048442bb4ea73584ae3a97acc97/richie-2.9.0.tar.gz
+[2024-05-27 11:24:47] INFO root fetch - processPackages [kadi]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-05-27 11:24:47] INFO root fetch - processPackages [mia-vgg]: Downloading https://files.pythonhosted.org/packages/7d/99/89bc26b6fc0c4be64ccf67e364ca9e0df91458fd29d11e2358855b46e97d/mia_vgg-0.0.8.tar.gz
+[2024-05-27 11:24:47] INFO root fetch - processPackages [dao-analyzer]: Downloading https://files.pythonhosted.org/packages/09/51/8a20c3812afc9be820b44b141f1a933f817a6d68128352233fdd9e3fee83/dao_analyzer-1.3.2.dev4.tar.gz
+[2024-05-27 11:24:47] INFO root fetch - processPackages [pyexmars]: Downloading https://files.pythonhosted.org/packages/f9/02/2e3ff8c199a8cf582f34fd309e354ce04b49ab5b8d08f1e27623929b29c6/pyexmars-1.0.3.tar.gz
+[2024-05-27 11:24:47] INFO root fetch - processPackages [power-grid-model]: New version: [1.7.9] Old Version: [1.7.8a1374103622511]
+[2024-05-27 11:24:47] INFO root fetch - processPackages [trollmoves]: New version: [7.0.0] Old Version: [0.9.0]
+[2024-05-27 11:24:47] INFO root fetch - processPackages [dao-analyzer]: Downloading https://files.pythonhosted.org/packages/09/51/8a20c3812afc9be820b44b141f1a933f817a6d68128352233fdd9e3fee83/dao_analyzer-1.3.2.dev4.tar.gz
+[2024-05-27 11:24:47] INFO root fetch - processPackages [Project-ppchem-tools-kit]: Downloading https://files.pythonhosted.org/packages/35/ea/90bca1752345780ac975bbedff78e64dde5501adb7b5c82831c8bc26d4ef/project_ppchem_tools_kit-1.0.0.tar.gz
+[2024-05-27 11:24:47] INFO root fetch - processPackages [aipkgs-firebase]: Downloading https://files.pythonhosted.org/packages/1a/d4/6c4f3e872c2147eb80fd6b4de119d764bb171be47edb4deea6ef436b7cd2/aipkgs_firebase-1.0.8.tar.gz
+[2024-05-27 11:24:47] INFO root fetch - processPackages [mia-vgg]: Downloading https://files.pythonhosted.org/packages/cc/39/4b0634a6c0cfb889300cdd32b0b9e896e244894df317465107e5a88463b0/mia_vgg-0.0.9.tar.gz
+[2024-05-27 11:24:47] INFO root fetch - processPackages [power-grid-model]: Downloading https://files.pythonhosted.org/packages/f2/89/c6c2797d33b80597aba4cfaa3eb46b859cefaabca623a75550c89a3289f7/power-grid-model-1.7.8a1374103622511.tar.gz
+[2024-05-27 11:24:47] INFO root fetch - processPackages [kadi]: Downloading https://files.pythonhosted.org/packages/3c/13/66ad2967333480e214c9d11d19338d16d5b8eba8c98ce2d7100416b06050/kadi-0.8.1-py3-none-any.whl
+[2024-05-27 11:24:48] INFO root fetch - processPackages [trollmoves]: Downloading https://files.pythonhosted.org/packages/ab/9c/f603418f488e67765bf8f94f00ef3639d2e12b1540d0a3bf2261d14a9b47/trollmoves-0.9.0.tar.gz
+[2024-05-27 11:24:48] INFO root fetch - processPackages [mia-vgg]: executing diffoscope
+[2024-05-27 11:24:48] INFO root fetch - processPackages [mia-vgg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mia_vgg-0.0.8.tar.gz tmp/mia_vgg-0.0.9.tar.gz --markdown 20240527/m/mia-vgg/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-27 11:24:48] WARNING root fetch - processPackages [kadi]: Skipping package: exceeds size limit 16380155>=10485760
+[2024-05-27 11:24:48] INFO root fetch - processPackages [kadi]: Start processing: aipkgs-firebase
+[2024-05-27 11:24:48] INFO root fetch - main [MainThread]: End processing [kadi] error
+[2024-05-27 11:24:48] INFO root fetch - processPackages [pyexmars]: Downloading https://files.pythonhosted.org/packages/8f/77/04ecab68523546a7aaeedbb5ba9327f604c11d9a115d4273192c9fe19c59/pyexmars-1.0.5.tar.gz
+[2024-05-27 11:24:48] INFO root fetch - processPackages [richie]: Downloading https://files.pythonhosted.org/packages/77/04/f4f517ffe9653a4e423ae24440aaa143bc4ae9722db7a010f2f06a575891/richie-2.9.1.tar.gz
+[2024-05-27 11:24:48] INFO root fetch - processPackages [dao-analyzer]: Downloading https://files.pythonhosted.org/packages/6f/25/2763ad880ea16e0623dd700691271e37dbd271f8b1e0b161a035ff03e2ca/dao_analyzer-1.3.2.dev8.tar.gz
+[2024-05-27 11:24:48] INFO root fetch - processPackages [dao-analyzer]: Downloading https://files.pythonhosted.org/packages/6f/25/2763ad880ea16e0623dd700691271e37dbd271f8b1e0b161a035ff03e2ca/dao_analyzer-1.3.2.dev8.tar.gz
+[2024-05-27 11:24:48] INFO root fetch - processPackages [aipkgs-firebase]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-27 11:24:48] INFO root fetch - processPackages [pyexmars]: executing diffoscope
+[2024-05-27 11:24:48] INFO root fetch - processPackages [pyexmars]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyexmars-1.0.3.tar.gz tmp/pyexmars-1.0.5.tar.gz --markdown 20240527/p/pyexmars/1.0.3-1.0.5/README.md --exclude *.pyd
+[2024-05-27 11:24:48] INFO root fetch - processPackages [Project-ppchem-tools-kit]: Downloading https://files.pythonhosted.org/packages/b0/86/013484c6d33342ed9f6104b1079e0775fc2bf958ea1f77d9f2c6dbfab5c3/project_ppchem_tools_kit-1.1.0.tar.gz
+[2024-05-27 11:24:48] INFO root fetch - processPackages [power-grid-model]: Downloading https://files.pythonhosted.org/packages/56/2b/86814a7f75dec690d4b62403c87b2b3b5aa0b3c73f37f4294b843a74b0d9/power-grid-model-1.7.9.tar.gz
+[2024-05-27 11:24:48] INFO root fetch - processPackages [aipkgs-firebase]: Downloading https://files.pythonhosted.org/packages/0b/8f/79aa4f49b126e07ecfc5de22c65081be588bc57ad24a2cebb390785e81e5/aipkgs_firebase-1.0.9.tar.gz
+[2024-05-27 11:24:48] INFO root fetch - processPackages [aipkgs-firebase]: Downloading https://files.pythonhosted.org/packages/0b/8f/79aa4f49b126e07ecfc5de22c65081be588bc57ad24a2cebb390785e81e5/aipkgs_firebase-1.0.9.tar.gz
+[2024-05-27 11:24:48] INFO root fetch - processPackages [Project-ppchem-tools-kit]: executing diffoscope
+[2024-05-27 11:24:48] INFO root fetch - processPackages [Project-ppchem-tools-kit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/project_ppchem_tools_kit-1.0.0.tar.gz tmp/project_ppchem_tools_kit-1.1.0.tar.gz --markdown 20240527/P/Project-ppchem-tools-kit/1.0.0-1.1.0/README.md --exclude *.pyd
+[2024-05-27 11:24:48] INFO root fetch - processPackages [dao-analyzer]: executing diffoscope
+[2024-05-27 11:24:48] INFO root fetch - processPackages [dao-analyzer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dao_analyzer-1.3.2.dev4.tar.gz tmp/dao_analyzer-1.3.2.dev8.tar.gz --markdown 20240527/d/dao-analyzer/1.3.2.dev4-1.3.2.dev8/README.md --exclude *.pyd
+[2024-05-27 11:24:48] INFO root fetch - processPackages [richie]: executing diffoscope
+[2024-05-27 11:24:48] INFO root fetch - processPackages [richie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/richie-2.9.0.tar.gz tmp/richie-2.9.1.tar.gz --markdown 20240527/r/richie/2.9.0-2.9.1/README.md --exclude *.pyd
+[2024-05-27 11:24:48] INFO root fetch - processPackages [dao-analyzer]: executing diffoscope
+[2024-05-27 11:24:48] INFO root fetch - processPackages [dao-analyzer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dao_analyzer-1.3.2.dev4.tar.gz tmp/dao_analyzer-1.3.2.dev8.tar.gz --markdown 20240527/d/dao-analyzer/1.3.2.dev4-1.3.2.dev8/README.md --exclude *.pyd
+[2024-05-27 11:24:48] INFO root fetch - processPackages [aipkgs-firebase]: executing diffoscope
+[2024-05-27 11:24:48] INFO root fetch - processPackages [aipkgs-firebase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aipkgs_firebase-1.0.8.tar.gz tmp/aipkgs_firebase-1.0.9.tar.gz --markdown 20240527/a/aipkgs-firebase/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-27 11:24:48] INFO root fetch - processPackages [aipkgs-firebase]: executing diffoscope
+[2024-05-27 11:24:48] INFO root fetch - processPackages [aipkgs-firebase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aipkgs_firebase-1.0.8.tar.gz tmp/aipkgs_firebase-1.0.9.tar.gz --markdown 20240527/a/aipkgs-firebase/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-27 11:24:48] INFO root fetch - processPackages [trollmoves]: Downloading https://files.pythonhosted.org/packages/41/44/28bd931994b519d6e6dd857b4aac7dad503c0069a151f821ecfd33c90b4c/trollmoves-7.0.0.tar.gz
+[2024-05-27 11:24:48] INFO root fetch - processPackages [power-grid-model]: executing diffoscope
+[2024-05-27 11:24:48] INFO root fetch - processPackages [power-grid-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/power-grid-model-1.7.8a1374103622511.tar.gz tmp/power-grid-model-1.7.9.tar.gz --markdown 20240527/p/power-grid-model/1.7.8a1374103622511-1.7.9/README.md --exclude *.pyd
+[2024-05-27 11:24:48] INFO root fetch - processPackages [trollmoves]: executing diffoscope
+[2024-05-27 11:24:48] INFO root fetch - processPackages [trollmoves]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trollmoves-0.9.0.tar.gz tmp/trollmoves-7.0.0.tar.gz --markdown 20240527/t/trollmoves/0.9.0-7.0.0/README.md --exclude *.pyd
+[2024-05-27 11:24:48] INFO root fetch - processPackages [mia-vgg]: Remove: archive file [/home/abi/fetcher/tmp/mia_vgg-0.0.8.tar.gz]
+[2024-05-27 11:24:48] INFO root fetch - processPackages [mia-vgg]: Remove: archive file [/home/abi/fetcher/tmp/mia_vgg-0.0.9.tar.gz]
+[2024-05-27 11:24:48] INFO root fetch - processPackages [mia-vgg]: Start processing: cg
+[2024-05-27 11:24:48] INFO root fetch - main [MainThread]: End processing [mia-vgg]: success
+[2024-05-27 11:24:48] INFO root fetch - processPackages [cg]: New version: [60.8.9] Old Version: [60.8.8]
+[2024-05-27 11:24:49] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/d6/8e/017bcd413c9044bb3a8ec3e9a9e28ff36b6d814eef56056a4702d375ac95/cg-60.8.8.tar.gz
+[2024-05-27 11:24:49] INFO root fetch - processPackages [pyexmars]: Remove: archive file [/home/abi/fetcher/tmp/pyexmars-1.0.3.tar.gz]
+[2024-05-27 11:24:49] INFO root fetch - processPackages [pyexmars]: Remove: archive file [/home/abi/fetcher/tmp/pyexmars-1.0.5.tar.gz]
+[2024-05-27 11:24:49] INFO root fetch - processPackages [pyexmars]: Start processing: guarddog
+[2024-05-27 11:24:49] INFO root fetch - main [MainThread]: End processing [pyexmars]: success
+[2024-05-27 11:24:49] INFO root fetch - processPackages [guarddog]: New version: [1.8.1] Old Version: [1.8.0]
+[2024-05-27 11:24:49] INFO root fetch - processPackages [aipkgs-firebase]: Remove: archive file [/home/abi/fetcher/tmp/aipkgs_firebase-1.0.8.tar.gz]
+[2024-05-27 11:24:49] INFO root fetch - processPackages [aipkgs-firebase]: Remove: archive file [/home/abi/fetcher/tmp/aipkgs_firebase-1.0.9.tar.gz]
+[2024-05-27 11:24:49] INFO root fetch - main [MainThread]: End processing [aipkgs-firebase]: success
+[2024-05-27 11:24:49] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/df/aa/bcf36edef12ba2ac2c9179507531723a7d2784d50a1cb868497d0120f301/cg-60.8.9.tar.gz
+[2024-05-27 11:24:49] INFO root fetch - main [MainThread]: End processing [aipkgs-firebase]: success
+[2024-05-27 11:24:49] INFO root fetch - processPackages [guarddog]: Downloading https://files.pythonhosted.org/packages/57/f0/5c2134642163e268cbe0b31b273256a629609b002757c7a27ac3531f5819/guarddog-1.8.0.tar.gz
+[2024-05-27 11:24:49] INFO root fetch - processPackages [Project-ppchem-tools-kit]: Remove: archive file [/home/abi/fetcher/tmp/project_ppchem_tools_kit-1.0.0.tar.gz]
+[2024-05-27 11:24:49] INFO root fetch - processPackages [Project-ppchem-tools-kit]: Remove: archive file [/home/abi/fetcher/tmp/project_ppchem_tools_kit-1.1.0.tar.gz]
+[2024-05-27 11:24:49] INFO root fetch - main [MainThread]: End processing [Project-ppchem-tools-kit]: success
+[2024-05-27 11:24:49] INFO root fetch - processPackages [cg]: executing diffoscope
+[2024-05-27 11:24:49] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-60.8.8.tar.gz tmp/cg-60.8.9.tar.gz --markdown 20240527/c/cg/60.8.8-60.8.9/README.md --exclude *.pyd
+[2024-05-27 11:24:49] INFO root fetch - processPackages [trollmoves]: Remove: archive file [/home/abi/fetcher/tmp/trollmoves-0.9.0.tar.gz]
+[2024-05-27 11:24:49] INFO root fetch - processPackages [trollmoves]: Remove: archive file [/home/abi/fetcher/tmp/trollmoves-7.0.0.tar.gz]
+[2024-05-27 11:24:49] INFO root fetch - main [MainThread]: End processing [trollmoves]: success
+[2024-05-27 11:24:49] INFO root fetch - processPackages [guarddog]: Downloading https://files.pythonhosted.org/packages/f4/b2/a9204e72bdec09184aed97942c111a3ce9cbefcaa3125bc5168fb1cb3c5b/guarddog-1.8.1.tar.gz
+[2024-05-27 11:24:50] INFO root fetch - processPackages [guarddog]: executing diffoscope
+[2024-05-27 11:24:50] INFO root fetch - processPackages [guarddog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/guarddog-1.8.0.tar.gz tmp/guarddog-1.8.1.tar.gz --markdown 20240527/g/guarddog/1.8.0-1.8.1/README.md --exclude *.pyd
+[2024-05-27 11:24:50] INFO root fetch - processPackages [dao-analyzer]: Remove: archive file [/home/abi/fetcher/tmp/dao_analyzer-1.3.2.dev4.tar.gz]
+[2024-05-27 11:24:50] INFO root fetch - processPackages [dao-analyzer]: Remove: archive file [/home/abi/fetcher/tmp/dao_analyzer-1.3.2.dev8.tar.gz]
+[2024-05-27 11:24:50] INFO root fetch - main [MainThread]: End processing [dao-analyzer]: success
+[2024-05-27 11:24:50] INFO root fetch - main [MainThread]: End processing [dao-analyzer]: success
+[2024-05-27 11:24:51] INFO root fetch - processPackages [guarddog]: Remove: archive file [/home/abi/fetcher/tmp/guarddog-1.8.0.tar.gz]
+[2024-05-27 11:24:51] INFO root fetch - processPackages [guarddog]: Remove: archive file [/home/abi/fetcher/tmp/guarddog-1.8.1.tar.gz]
+[2024-05-27 11:24:51] INFO root fetch - main [MainThread]: End processing [guarddog]: success
+[2024-05-27 11:24:51] INFO root fetch - processPackages [power-grid-model]: Remove: archive file [/home/abi/fetcher/tmp/power-grid-model-1.7.8a1374103622511.tar.gz]
+[2024-05-27 11:24:51] INFO root fetch - processPackages [power-grid-model]: Remove: archive file [/home/abi/fetcher/tmp/power-grid-model-1.7.9.tar.gz]
+[2024-05-27 11:24:51] INFO root fetch - main [MainThread]: End processing [power-grid-model]: success
+[2024-05-27 11:24:54] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.8.8.tar.gz]
+[2024-05-27 11:24:54] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.8.9.tar.gz]
+[2024-05-27 11:24:54] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2024-05-27 11:26:42] INFO root fetch - processPackages [richie]: Remove: archive file [/home/abi/fetcher/tmp/richie-2.9.0.tar.gz]
+[2024-05-27 11:26:42] INFO root fetch - processPackages [richie]: Remove: archive file [/home/abi/fetcher/tmp/richie-2.9.1.tar.gz]
+[2024-05-27 11:26:42] INFO root fetch - main [MainThread]: End processing [richie]: success
+[2024-05-27 11:26:42] INFO root fetch - main [MainThread]: Store serial: [23393171]
