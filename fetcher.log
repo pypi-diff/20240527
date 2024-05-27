@@ -6219,3 +6219,24 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 07:28:10] WARNING root fetch - processPackages [metadrive-simulator-py3-12]: Skipping package: exceeds size limit 54210013>=10485760
 [2024-05-27 07:28:10] INFO root fetch - main [MainThread]: End processing [metadrive-simulator-py3-12] error
 [2024-05-27 07:28:10] INFO root fetch - main [MainThread]: Store serial: [23390890]
+[2024-05-27 07:30:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23390890]
+[2024-05-27 07:30:19] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-27 07:30:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: camlab
+[2024-05-27 07:30:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: crazy-thursday
+[2024-05-27 07:30:19] INFO root fetch - processPackages [crazy-thursday]: New version: [2024.5.9.1] Old Version: [2024.5.9.0]
+[2024-05-27 07:30:19] INFO root fetch - processPackages [camlab]: New version: [0.1.0] Old Version: [0.0.8.6]
+[2024-05-27 07:30:19] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/3f/0a/108e3af749c5757158be48151418c2bbea49bff2269af8811bade316080a/crazy_thursday-2024.5.9.0.tar.gz
+[2024-05-27 07:30:19] INFO root fetch - processPackages [camlab]: Downloading https://files.pythonhosted.org/packages/c6/2c/ae9d2c2c78e75195931e3ac1e479a669c28975cd96aaae8a2948d68c478c/camlab-0.0.8.6.tar.gz
+[2024-05-27 07:30:19] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/20/70/a719fb059f910b10790f6a51b1c5c3ff943f1349c91c46142f1911323575/crazy_thursday-2024.5.9.1.tar.gz
+[2024-05-27 07:30:19] INFO root fetch - processPackages [crazy-thursday]: executing diffoscope
+[2024-05-27 07:30:19] INFO root fetch - processPackages [crazy-thursday]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crazy_thursday-2024.5.9.0.tar.gz tmp/crazy_thursday-2024.5.9.1.tar.gz --markdown 20240527/c/crazy-thursday/2024.5.9.0-2024.5.9.1/README.md --exclude *.pyd
+[2024-05-27 07:30:19] INFO root fetch - processPackages [camlab]: Downloading https://files.pythonhosted.org/packages/26/56/13a738d48403db10010a4bee112a9a27234393ba4190355bdde0c734c562/camlab-0.1.0.tar.gz
+[2024-05-27 07:30:19] INFO root fetch - processPackages [camlab]: executing diffoscope
+[2024-05-27 07:30:19] INFO root fetch - processPackages [camlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/camlab-0.0.8.6.tar.gz tmp/camlab-0.1.0.tar.gz --markdown 20240527/c/camlab/0.0.8.6-0.1.0/README.md --exclude *.pyd
+[2024-05-27 07:30:20] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy_thursday-2024.5.9.0.tar.gz]
+[2024-05-27 07:30:20] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy_thursday-2024.5.9.1.tar.gz]
+[2024-05-27 07:30:20] INFO root fetch - main [MainThread]: End processing [crazy-thursday]: success
+[2024-05-27 07:30:20] INFO root fetch - processPackages [camlab]: Remove: archive file [/home/abi/fetcher/tmp/camlab-0.0.8.6.tar.gz]
+[2024-05-27 07:30:20] INFO root fetch - processPackages [camlab]: Remove: archive file [/home/abi/fetcher/tmp/camlab-0.1.0.tar.gz]
+[2024-05-27 07:30:20] INFO root fetch - main [MainThread]: End processing [camlab]: success
+[2024-05-27 07:30:20] INFO root fetch - main [MainThread]: Store serial: [23390896]
