@@ -2721,3 +2721,54 @@
 [2024-05-27 03:27:16] INFO root fetch - processPackages [rxd]: Remove: archive file [/home/abi/fetcher/tmp/rxd-0.0.9.tar.gz]
 [2024-05-27 03:27:16] INFO root fetch - main [MainThread]: End processing [rxd]: success
 [2024-05-27 03:27:16] INFO root fetch - main [MainThread]: Store serial: [23389408]
+[2024-05-27 03:29:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23389408]
+[2024-05-27 03:29:25] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-27 03:29:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: blaze-double-bot
+[2024-05-27 03:29:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: apeboiy
+[2024-05-27 03:29:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: oktmoparser
+[2024-05-27 03:29:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: python-redux
+[2024-05-27 03:29:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rxd
+[2024-05-27 03:29:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: doopass
+[2024-05-27 03:29:26] INFO root fetch - processPackages [python-redux]: New version: [0.9.9a0] Old Version: [0.9.9]
+[2024-05-27 03:29:26] INFO root fetch - processPackages [rxd]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-27 03:29:26] INFO root fetch - processPackages [apeboiy]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-27 03:29:26] INFO root fetch - processPackages [doopass]: New version: [2.8] Old Version: [2.7]
+[2024-05-27 03:29:26] INFO root fetch - processPackages [python-redux]: Downloading https://files.pythonhosted.org/packages/25/f6/7f30f318faa9b9b4ed3d5b4517bc78ba60a0a3853efcecbfb8f1093f06f8/python_redux-0.9.9.tar.gz
+[2024-05-27 03:29:26] WARNING root fetch - processPackages [blaze-double-bot]: Skipping, unable to determine old version
+[2024-05-27 03:29:26] INFO root fetch - main [MainThread]: End processing [blaze-double-bot] error
+[2024-05-27 03:29:26] INFO root fetch - processPackages [rxd]: Downloading https://files.pythonhosted.org/packages/21/c2/38cf8db50595c42a9258c3370b82b7757ed2485638d9d5e7cc8aa2b6ea9d/rxd-0.0.8.tar.gz
+[2024-05-27 03:29:26] INFO root fetch - processPackages [oktmoparser]: New version: [1.3.2] Old Version: [1.3.1]
+[2024-05-27 03:29:26] INFO root fetch - processPackages [apeboiy]: Downloading https://files.pythonhosted.org/packages/2c/d1/13ae5c5ceb0c97a91d946e1dd5fc329b3f384b59630ad259ab7ebe72713d/apeboiy-0.0.8.tar.gz
+[2024-05-27 03:29:26] INFO root fetch - processPackages [doopass]: Downloading https://files.pythonhosted.org/packages/13/ad/e14de9a976829a39330100d526996d41c01c54bddc964933fbb8176fa11a/doopass-2.7.tar.gz
+[2024-05-27 03:29:26] INFO root fetch - processPackages [oktmoparser]: Downloading https://files.pythonhosted.org/packages/22/75/def417d91ac0d4d043bb21b42c62dd056622cb0aac6fb33b1d8abc5a729f/oktmoparser-1.3.1.tar.gz
+[2024-05-27 03:29:26] INFO root fetch - processPackages [rxd]: Downloading https://files.pythonhosted.org/packages/5c/98/033a1b896a5c65fec77f8aa2c7d37aaa0f4d23fe3d4b5cae4731f73ad27e/rxd-0.0.9.tar.gz
+[2024-05-27 03:29:26] INFO root fetch - processPackages [python-redux]: Downloading https://files.pythonhosted.org/packages/78/88/2425c5253a8005201b5b26b38481ea8784a32bea175f334a08082da43388/python_redux-0.9.9a0.tar.gz
+[2024-05-27 03:29:26] INFO root fetch - processPackages [apeboiy]: Downloading https://files.pythonhosted.org/packages/04/42/a8230541f443842d5b00d865f7079650b8c865bda89a3de4ebc4010d0579/apeboiy-0.0.9.tar.gz
+[2024-05-27 03:29:26] INFO root fetch - processPackages [doopass]: Downloading https://files.pythonhosted.org/packages/4a/24/167223ad521b05753d5f285fe9ec39ca47f2c47aa3a40a708dccff134270/doopass-2.8.tar.gz
+[2024-05-27 03:29:26] INFO root fetch - processPackages [rxd]: executing diffoscope
+[2024-05-27 03:29:26] INFO root fetch - processPackages [apeboiy]: executing diffoscope
+[2024-05-27 03:29:26] INFO root fetch - processPackages [rxd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rxd-0.0.8.tar.gz tmp/rxd-0.0.9.tar.gz --markdown 20240527/r/rxd/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-27 03:29:26] INFO root fetch - processPackages [apeboiy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apeboiy-0.0.8.tar.gz tmp/apeboiy-0.0.9.tar.gz --markdown 20240527/a/apeboiy/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-27 03:29:26] INFO root fetch - processPackages [python-redux]: executing diffoscope
+[2024-05-27 03:29:26] INFO root fetch - processPackages [python-redux]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_redux-0.9.9.tar.gz tmp/python_redux-0.9.9a0.tar.gz --markdown 20240527/p/python-redux/0.9.9-0.9.9a0/README.md --exclude *.pyd
+[2024-05-27 03:29:26] INFO root fetch - processPackages [doopass]: executing diffoscope
+[2024-05-27 03:29:26] INFO root fetch - processPackages [doopass]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/doopass-2.7.tar.gz tmp/doopass-2.8.tar.gz --markdown 20240527/d/doopass/2.7-2.8/README.md --exclude *.pyd
+[2024-05-27 03:29:26] INFO root fetch - processPackages [oktmoparser]: Downloading https://files.pythonhosted.org/packages/52/a6/34271c83cecef64c8091911cc1450cadb233842cb48226e94937121df0b1/oktmoparser-1.3.2.tar.gz
+[2024-05-27 03:29:26] INFO root fetch - processPackages [oktmoparser]: executing diffoscope
+[2024-05-27 03:29:26] INFO root fetch - processPackages [oktmoparser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oktmoparser-1.3.1.tar.gz tmp/oktmoparser-1.3.2.tar.gz --markdown 20240527/o/oktmoparser/1.3.1-1.3.2/README.md --exclude *.pyd
+[2024-05-27 03:29:27] INFO root fetch - processPackages [apeboiy]: Remove: archive file [/home/abi/fetcher/tmp/apeboiy-0.0.8.tar.gz]
+[2024-05-27 03:29:27] INFO root fetch - processPackages [apeboiy]: Remove: archive file [/home/abi/fetcher/tmp/apeboiy-0.0.9.tar.gz]
+[2024-05-27 03:29:27] INFO root fetch - main [MainThread]: End processing [apeboiy]: success
+[2024-05-27 03:29:27] INFO root fetch - processPackages [rxd]: Remove: archive file [/home/abi/fetcher/tmp/rxd-0.0.8.tar.gz]
+[2024-05-27 03:29:27] INFO root fetch - processPackages [rxd]: Remove: archive file [/home/abi/fetcher/tmp/rxd-0.0.9.tar.gz]
+[2024-05-27 03:29:27] INFO root fetch - main [MainThread]: End processing [rxd]: success
+[2024-05-27 03:29:27] INFO root fetch - processPackages [doopass]: Remove: archive file [/home/abi/fetcher/tmp/doopass-2.7.tar.gz]
+[2024-05-27 03:29:27] INFO root fetch - processPackages [doopass]: Remove: archive file [/home/abi/fetcher/tmp/doopass-2.8.tar.gz]
+[2024-05-27 03:29:27] INFO root fetch - main [MainThread]: End processing [doopass]: success
+[2024-05-27 03:29:27] INFO root fetch - processPackages [python-redux]: Remove: archive file [/home/abi/fetcher/tmp/python_redux-0.9.9.tar.gz]
+[2024-05-27 03:29:27] INFO root fetch - processPackages [python-redux]: Remove: archive file [/home/abi/fetcher/tmp/python_redux-0.9.9a0.tar.gz]
+[2024-05-27 03:29:27] INFO root fetch - main [MainThread]: End processing [python-redux]: success
+[2024-05-27 03:29:27] INFO root fetch - processPackages [oktmoparser]: Remove: archive file [/home/abi/fetcher/tmp/oktmoparser-1.3.1.tar.gz]
+[2024-05-27 03:29:27] INFO root fetch - processPackages [oktmoparser]: Remove: archive file [/home/abi/fetcher/tmp/oktmoparser-1.3.2.tar.gz]
+[2024-05-27 03:29:27] INFO root fetch - main [MainThread]: End processing [oktmoparser]: success
+[2024-05-27 03:29:27] INFO root fetch - main [MainThread]: Store serial: [23389428]
