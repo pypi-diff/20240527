@@ -15023,3 +15023,49 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 14:14:42] INFO root fetch - processPackages [probe-design]: Remove: archive file [/home/abi/fetcher/tmp/probe_design-0.2.9.tar.gz]
 [2024-05-27 14:14:42] INFO root fetch - main [MainThread]: End processing [probe-design]: success
 [2024-05-27 14:14:42] INFO root fetch - main [MainThread]: Store serial: [23395320]
+[2024-05-27 14:16:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23395320]
+[2024-05-27 14:16:50] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-27 14:16:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tinybird-cli
+[2024-05-27 14:16:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk8s-cdktf-resolver
+[2024-05-27 14:16:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tinybird-cli
+[2024-05-27 14:16:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: chaos-stratus
+[2024-05-27 14:16:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyvisjs
+[2024-05-27 14:16:50] INFO root fetch - processPackages [chaos-stratus]: New version: [1.0.0] Old Version: [0.0.0]
+[2024-05-27 14:16:50] INFO root fetch - processPackages [pyvisjs]: New version: [1.0.0b6] Old Version: [1.0.0b5]
+[2024-05-27 14:16:50] INFO root fetch - processPackages [cdk8s-cdktf-resolver]: New version: [0.0.9] Old Version: [0.0.81]
+[2024-05-27 14:16:51] INFO root fetch - processPackages [tinybird-cli]: New version: [3.9.1.dev6] Old Version: [3.9.1.dev5]
+[2024-05-27 14:16:51] INFO root fetch - processPackages [tinybird-cli]: New version: [3.9.1.dev6] Old Version: [3.9.1.dev5]
+[2024-05-27 14:16:51] INFO root fetch - processPackages [chaos-stratus]: Downloading https://files.pythonhosted.org/packages/db/ab/7b0da9258438541d55d44b26199575e654b87626fc4067229c5cb252ae54/chaos_stratus-0.0.0.tar.gz
+[2024-05-27 14:16:51] INFO root fetch - processPackages [cdk8s-cdktf-resolver]: Downloading https://files.pythonhosted.org/packages/12/16/bb80039d2f2a50b48c46587a980e0da5ec7614f87f6f2f8c01c07b9a3b51/cdk8s-cdktf-resolver-0.0.81.tar.gz
+[2024-05-27 14:16:51] INFO root fetch - processPackages [pyvisjs]: Downloading https://files.pythonhosted.org/packages/2d/2a/cd941676401f908be541eef5e79017ee823216aa58f49954094133742a9a/pyvisjs-1.0.0b5.tar.gz
+[2024-05-27 14:16:51] INFO root fetch - processPackages [tinybird-cli]: Downloading https://files.pythonhosted.org/packages/3b/e8/4ec599ef1fbfdc10f1d7dd6844b1ca41c9ef14b41d534259c66feb16357b/tinybird-cli-3.9.1.dev5.tar.gz
+[2024-05-27 14:16:51] INFO root fetch - processPackages [tinybird-cli]: Downloading https://files.pythonhosted.org/packages/3b/e8/4ec599ef1fbfdc10f1d7dd6844b1ca41c9ef14b41d534259c66feb16357b/tinybird-cli-3.9.1.dev5.tar.gz
+[2024-05-27 14:16:51] INFO root fetch - processPackages [chaos-stratus]: Downloading https://files.pythonhosted.org/packages/07/f5/e8eec6094bad90f3b2ee1bb36a0655592ce88792698671b1f7c732f09103/chaos_stratus-1.0.0.tar.gz
+[2024-05-27 14:16:51] INFO root fetch - processPackages [chaos-stratus]: executing diffoscope
+[2024-05-27 14:16:51] INFO root fetch - processPackages [chaos-stratus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chaos_stratus-0.0.0.tar.gz tmp/chaos_stratus-1.0.0.tar.gz --markdown 20240527/c/chaos-stratus/0.0.0-1.0.0/README.md --exclude *.pyd
+[2024-05-27 14:16:51] INFO root fetch - processPackages [pyvisjs]: Downloading https://files.pythonhosted.org/packages/5c/8d/09b2077a31eba30a7ad70c5748792e69d9d43823b3114fd855468a7b3242/pyvisjs-1.0.0b6.tar.gz
+[2024-05-27 14:16:51] INFO root fetch - processPackages [cdk8s-cdktf-resolver]: Downloading https://files.pythonhosted.org/packages/17/4d/78b8350a2cb674183d85f673cae768cba8891cc6c1031b4c61aa54af2f42/cdk8s-cdktf-resolver-0.0.9.tar.gz
+[2024-05-27 14:16:51] INFO root fetch - processPackages [cdk8s-cdktf-resolver]: executing diffoscope
+[2024-05-27 14:16:51] INFO root fetch - processPackages [cdk8s-cdktf-resolver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-cdktf-resolver-0.0.81.tar.gz tmp/cdk8s-cdktf-resolver-0.0.9.tar.gz --markdown 20240527/c/cdk8s-cdktf-resolver/0.0.81-0.0.9/README.md --exclude *.pyd
+[2024-05-27 14:16:51] INFO root fetch - processPackages [pyvisjs]: executing diffoscope
+[2024-05-27 14:16:51] INFO root fetch - processPackages [pyvisjs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyvisjs-1.0.0b5.tar.gz tmp/pyvisjs-1.0.0b6.tar.gz --markdown 20240527/p/pyvisjs/1.0.0b5-1.0.0b6/README.md --exclude *.pyd
+[2024-05-27 14:16:51] INFO root fetch - processPackages [tinybird-cli]: Downloading https://files.pythonhosted.org/packages/d8/a1/7103165b8eee9a961fe91767e7be994cc8a17c5b1f12ee6f37dcccb855b7/tinybird-cli-3.9.1.dev6.tar.gz
+[2024-05-27 14:16:51] INFO root fetch - processPackages [tinybird-cli]: Downloading https://files.pythonhosted.org/packages/d8/a1/7103165b8eee9a961fe91767e7be994cc8a17c5b1f12ee6f37dcccb855b7/tinybird-cli-3.9.1.dev6.tar.gz
+[2024-05-27 14:16:51] INFO root fetch - processPackages [tinybird-cli]: executing diffoscope
+[2024-05-27 14:16:51] INFO root fetch - processPackages [tinybird-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinybird-cli-3.9.1.dev5.tar.gz tmp/tinybird-cli-3.9.1.dev6.tar.gz --markdown 20240527/t/tinybird-cli/3.9.1.dev5-3.9.1.dev6/README.md --exclude *.pyd
+[2024-05-27 14:16:51] INFO root fetch - processPackages [tinybird-cli]: executing diffoscope
+[2024-05-27 14:16:51] INFO root fetch - processPackages [tinybird-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinybird-cli-3.9.1.dev5.tar.gz tmp/tinybird-cli-3.9.1.dev6.tar.gz --markdown 20240527/t/tinybird-cli/3.9.1.dev5-3.9.1.dev6/README.md --exclude *.pyd
+[2024-05-27 14:16:52] INFO root fetch - processPackages [chaos-stratus]: Remove: archive file [/home/abi/fetcher/tmp/chaos_stratus-0.0.0.tar.gz]
+[2024-05-27 14:16:52] INFO root fetch - processPackages [chaos-stratus]: Remove: archive file [/home/abi/fetcher/tmp/chaos_stratus-1.0.0.tar.gz]
+[2024-05-27 14:16:52] INFO root fetch - main [MainThread]: End processing [chaos-stratus]: success
+[2024-05-27 14:16:52] INFO root fetch - processPackages [cdk8s-cdktf-resolver]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-cdktf-resolver-0.0.81.tar.gz]
+[2024-05-27 14:16:52] INFO root fetch - processPackages [cdk8s-cdktf-resolver]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-cdktf-resolver-0.0.9.tar.gz]
+[2024-05-27 14:16:52] INFO root fetch - main [MainThread]: End processing [cdk8s-cdktf-resolver]: success
+[2024-05-27 14:16:52] INFO root fetch - processPackages [pyvisjs]: Remove: archive file [/home/abi/fetcher/tmp/pyvisjs-1.0.0b5.tar.gz]
+[2024-05-27 14:16:52] INFO root fetch - processPackages [pyvisjs]: Remove: archive file [/home/abi/fetcher/tmp/pyvisjs-1.0.0b6.tar.gz]
+[2024-05-27 14:16:52] INFO root fetch - main [MainThread]: End processing [pyvisjs]: success
+[2024-05-27 14:16:52] INFO root fetch - processPackages [tinybird-cli]: Remove: archive file [/home/abi/fetcher/tmp/tinybird-cli-3.9.1.dev5.tar.gz]
+[2024-05-27 14:16:52] INFO root fetch - processPackages [tinybird-cli]: Remove: archive file [/home/abi/fetcher/tmp/tinybird-cli-3.9.1.dev6.tar.gz]
+[2024-05-27 14:16:52] INFO root fetch - main [MainThread]: End processing [tinybird-cli]: success
+[2024-05-27 14:16:52] INFO root fetch - main [MainThread]: End processing [tinybird-cli]: success
+[2024-05-27 14:16:52] INFO root fetch - main [MainThread]: Store serial: [23395336]
