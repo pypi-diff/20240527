@@ -9969,3 +9969,33 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 10:54:18] INFO root fetch - processPackages [popoll-backend]: Remove: archive file [/home/abi/fetcher/tmp/popoll_backend-0.0.57.tar.gz]
 [2024-05-27 10:54:18] INFO root fetch - main [MainThread]: End processing [popoll-backend]: success
 [2024-05-27 10:54:18] INFO root fetch - main [MainThread]: Store serial: [23392854]
+[2024-05-27 10:56:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23392854]
+[2024-05-27 10:56:27] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-27 10:56:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dvc
+[2024-05-27 10:56:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: brapi-proxy
+[2024-05-27 10:56:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: openlit
+[2024-05-27 10:56:27] INFO root fetch - processPackages [brapi-proxy]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-27 10:56:27] INFO root fetch - processPackages [brapi-proxy]: Downloading https://files.pythonhosted.org/packages/d7/e6/0f7160b7608f7957e1d76485456b78f1040d4312a7cac3623c9e4bcd4df1/brapi_proxy-0.0.6.tar.gz
+[2024-05-27 10:56:27] INFO root fetch - processPackages [openlit]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-27 10:56:27] INFO root fetch - processPackages [dvc]: New version: [3.9.1] Old Version: [3.9.0]
+[2024-05-27 10:56:27] INFO root fetch - processPackages [dvc]: Downloading https://files.pythonhosted.org/packages/bd/2b/d427d0c781a0f09d653c7b90a0d9b792232769c21d0147c154b00cd75a2d/dvc-3.9.0.tar.gz
+[2024-05-27 10:56:27] INFO root fetch - processPackages [openlit]: Downloading https://files.pythonhosted.org/packages/29/42/fc8346bbdb1b8d3426ce93896c4fa4111231a886d43feaae66541c4e6584/openlit-1.8.0.tar.gz
+[2024-05-27 10:56:27] INFO root fetch - processPackages [brapi-proxy]: Downloading https://files.pythonhosted.org/packages/70/19/a851ca035264b55e9df8fe96071627d0cac8b63642c779c5e53c783aa473/brapi_proxy-0.0.7.tar.gz
+[2024-05-27 10:56:28] INFO root fetch - processPackages [brapi-proxy]: executing diffoscope
+[2024-05-27 10:56:28] INFO root fetch - processPackages [brapi-proxy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brapi_proxy-0.0.6.tar.gz tmp/brapi_proxy-0.0.7.tar.gz --markdown 20240527/b/brapi-proxy/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-27 10:56:28] INFO root fetch - processPackages [openlit]: Downloading https://files.pythonhosted.org/packages/91/44/388b40fbc9a4fe83be86dc9986a33b5d28dcf7026ef65a34014c1c03d46e/openlit-1.9.0.tar.gz
+[2024-05-27 10:56:28] INFO root fetch - processPackages [dvc]: Downloading https://files.pythonhosted.org/packages/30/3c/4d47accc46da04fafb05c09836ec780d0c7ca2dcfe17bdd5f659a2e9c9a2/dvc-3.9.1.tar.gz
+[2024-05-27 10:56:28] INFO root fetch - processPackages [openlit]: executing diffoscope
+[2024-05-27 10:56:28] INFO root fetch - processPackages [openlit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openlit-1.8.0.tar.gz tmp/openlit-1.9.0.tar.gz --markdown 20240527/o/openlit/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-05-27 10:56:28] INFO root fetch - processPackages [dvc]: executing diffoscope
+[2024-05-27 10:56:28] INFO root fetch - processPackages [dvc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dvc-3.9.0.tar.gz tmp/dvc-3.9.1.tar.gz --markdown 20240527/d/dvc/3.9.0-3.9.1/README.md --exclude *.pyd
+[2024-05-27 10:56:28] INFO root fetch - processPackages [brapi-proxy]: Remove: archive file [/home/abi/fetcher/tmp/brapi_proxy-0.0.6.tar.gz]
+[2024-05-27 10:56:28] INFO root fetch - processPackages [brapi-proxy]: Remove: archive file [/home/abi/fetcher/tmp/brapi_proxy-0.0.7.tar.gz]
+[2024-05-27 10:56:28] INFO root fetch - main [MainThread]: End processing [brapi-proxy]: success
+[2024-05-27 10:56:29] INFO root fetch - processPackages [openlit]: Remove: archive file [/home/abi/fetcher/tmp/openlit-1.8.0.tar.gz]
+[2024-05-27 10:56:29] INFO root fetch - processPackages [openlit]: Remove: archive file [/home/abi/fetcher/tmp/openlit-1.9.0.tar.gz]
+[2024-05-27 10:56:29] INFO root fetch - main [MainThread]: End processing [openlit]: success
+[2024-05-27 10:56:30] INFO root fetch - processPackages [dvc]: Remove: archive file [/home/abi/fetcher/tmp/dvc-3.9.0.tar.gz]
+[2024-05-27 10:56:30] INFO root fetch - processPackages [dvc]: Remove: archive file [/home/abi/fetcher/tmp/dvc-3.9.1.tar.gz]
+[2024-05-27 10:56:30] INFO root fetch - main [MainThread]: End processing [dvc]: success
+[2024-05-27 10:56:30] INFO root fetch - main [MainThread]: Store serial: [23392864]
