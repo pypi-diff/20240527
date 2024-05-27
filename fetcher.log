@@ -3568,3 +3568,50 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-05-27 04:21:46] INFO root fetch - processPackages [mecord-cli]: Remove: archive file [/home/abi/fetcher/tmp/mecord-cli-0.7.9.tar.gz]
 [2024-05-27 04:21:46] INFO root fetch - main [MainThread]: End processing [mecord-cli]: success
 [2024-05-27 04:21:46] INFO root fetch - main [MainThread]: Store serial: [23389715]
+[2024-05-27 04:23:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23389715]
+[2024-05-27 04:23:54] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-27 04:23:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lckytools
+[2024-05-27 04:23:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: secretflow-serving-lib
+[2024-05-27 04:23:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: oresat-c3
+[2024-05-27 04:23:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: matematikk
+[2024-05-27 04:23:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: types-pyserial
+[2024-05-27 04:23:54] INFO root fetch - processPackages [lckytools]: New version: [0.0.0b9] Old Version: [0.0.0b8]
+[2024-05-27 04:23:54] INFO root fetch - processPackages [matematikk]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-27 04:23:54] INFO root fetch - processPackages [types-pyserial]: New version: [3.5.0.9] Old Version: [3.5.0.8]
+[2024-05-27 04:23:54] INFO root fetch - processPackages [oresat-c3]: New version: [0.5.0] Old Version: [0.4.0]
+[2024-05-27 04:23:55] INFO root fetch - processPackages [lckytools]: Downloading https://files.pythonhosted.org/packages/6d/fd/4f8d5200d068fd3b10ad14eedf738f1e677562094d86d724e845edea41ef/lckytools-0.0.0b8.tar.gz
+[2024-05-27 04:23:55] INFO root fetch - processPackages [secretflow-serving-lib]: New version: [0.3.1b0] Old Version: [0.3.0b0]
+[2024-05-27 04:23:55] INFO root fetch - processPackages [matematikk]: Downloading https://files.pythonhosted.org/packages/b9/0f/0e2ea1c838d839f658d451461a2f978947f6ab41a8f4e102104cc5b587a8/matematikk-0.0.98.tar.gz
+[2024-05-27 04:23:55] INFO root fetch - processPackages [oresat-c3]: Downloading https://files.pythonhosted.org/packages/ee/4d/de8f86d51878b849a69b7744757b9cf38990571e7c05b73cdf2fc7261d80/oresat_c3-0.4.0.tar.gz
+[2024-05-27 04:23:55] INFO root fetch - processPackages [types-pyserial]: Downloading https://files.pythonhosted.org/packages/b1/3b/add248b26a0fd7ef369888f884ba6102cc36d5a02c1022c5b1f79ff5aa24/types-pyserial-3.5.0.8.tar.gz
+[2024-05-27 04:23:55] INFO root fetch - processPackages [matematikk]: Downloading https://files.pythonhosted.org/packages/ba/d1/907a2303ec8d0c4c2f01a0d2f9fd6e3de3387f6c25c32de3800152e437fb/matematikk-0.0.99.tar.gz
+[2024-05-27 04:23:55] INFO root fetch - processPackages [secretflow-serving-lib]: Downloading https://files.pythonhosted.org/packages/c9/cd/b37eefc1cfa91524b11c1d09543ecf701087195529e985a21705d170af78/secretflow_serving_lib-0.3.0b0-cp39-cp39-manylinux_2_28_aarch64.whl
+[2024-05-27 04:23:55] INFO root fetch - processPackages [lckytools]: Downloading https://files.pythonhosted.org/packages/d2/23/dc52e8933b51b938fdd402bf5b1bf168c20f9ee62bbcc26f1f5be70d705c/lckytools-0.0.0b9.tar.gz
+[2024-05-27 04:23:55] INFO root fetch - processPackages [matematikk]: executing diffoscope
+[2024-05-27 04:23:55] INFO root fetch - processPackages [matematikk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matematikk-0.0.98.tar.gz tmp/matematikk-0.0.99.tar.gz --markdown 20240527/m/matematikk/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-27 04:23:55] INFO root fetch - processPackages [lckytools]: executing diffoscope
+[2024-05-27 04:23:55] INFO root fetch - processPackages [lckytools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lckytools-0.0.0b8.tar.gz tmp/lckytools-0.0.0b9.tar.gz --markdown 20240527/l/lckytools/0.0.0b8-0.0.0b9/README.md --exclude *.pyd
+[2024-05-27 04:23:55] INFO root fetch - processPackages [oresat-c3]: Downloading https://files.pythonhosted.org/packages/de/64/4dc519484ee594b871a9588bcdc1005acf378ce01dbb3a9e83dcb9e110b9/oresat_c3-0.5.0.tar.gz
+[2024-05-27 04:23:55] INFO root fetch - processPackages [types-pyserial]: Downloading https://files.pythonhosted.org/packages/1f/d7/2e9d10b2170932ca6bd723d640af2053977b99812a4ca0005ad0bd495393/types-pyserial-3.5.0.9.tar.gz
+[2024-05-27 04:23:55] INFO root fetch - processPackages [oresat-c3]: executing diffoscope
+[2024-05-27 04:23:55] INFO root fetch - processPackages [oresat-c3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oresat_c3-0.4.0.tar.gz tmp/oresat_c3-0.5.0.tar.gz --markdown 20240527/o/oresat-c3/0.4.0-0.5.0/README.md --exclude *.pyd
+[2024-05-27 04:23:55] INFO root fetch - processPackages [types-pyserial]: executing diffoscope
+[2024-05-27 04:23:55] INFO root fetch - processPackages [types-pyserial]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-pyserial-3.5.0.8.tar.gz tmp/types-pyserial-3.5.0.9.tar.gz --markdown 20240527/t/types-pyserial/3.5.0.8-3.5.0.9/README.md --exclude *.pyd
+[2024-05-27 04:23:56] INFO root fetch - processPackages [lckytools]: Remove: archive file [/home/abi/fetcher/tmp/lckytools-0.0.0b8.tar.gz]
+[2024-05-27 04:23:56] INFO root fetch - processPackages [lckytools]: Remove: archive file [/home/abi/fetcher/tmp/lckytools-0.0.0b9.tar.gz]
+[2024-05-27 04:23:56] INFO root fetch - main [MainThread]: End processing [lckytools]: success
+[2024-05-27 04:23:56] INFO root fetch - processPackages [matematikk]: Remove: archive file [/home/abi/fetcher/tmp/matematikk-0.0.98.tar.gz]
+[2024-05-27 04:23:56] INFO root fetch - processPackages [matematikk]: Remove: archive file [/home/abi/fetcher/tmp/matematikk-0.0.99.tar.gz]
+[2024-05-27 04:23:56] INFO root fetch - main [MainThread]: End processing [matematikk]: success
+[2024-05-27 04:23:56] INFO root fetch - processPackages [types-pyserial]: Remove: archive file [/home/abi/fetcher/tmp/types-pyserial-3.5.0.8.tar.gz]
+[2024-05-27 04:23:56] INFO root fetch - processPackages [types-pyserial]: Remove: archive file [/home/abi/fetcher/tmp/types-pyserial-3.5.0.9.tar.gz]
+[2024-05-27 04:23:56] INFO root fetch - main [MainThread]: End processing [types-pyserial]: success
+[2024-05-27 04:23:56] INFO root fetch - processPackages [oresat-c3]: Remove: archive file [/home/abi/fetcher/tmp/oresat_c3-0.4.0.tar.gz]
+[2024-05-27 04:23:56] INFO root fetch - processPackages [oresat-c3]: Remove: archive file [/home/abi/fetcher/tmp/oresat_c3-0.5.0.tar.gz]
+[2024-05-27 04:23:56] INFO root fetch - main [MainThread]: End processing [oresat-c3]: success
+[2024-05-27 04:23:57] INFO root fetch - processPackages [secretflow-serving-lib]: Downloading https://files.pythonhosted.org/packages/29/3d/d44721a9b6f15244635528ff5d24cfe0f32682e7296e622ed3f687dc8228/secretflow_serving_lib-0.3.1b0-cp39-cp39-manylinux2014_x86_64.whl
+[2024-05-27 04:23:58] INFO root fetch - processPackages [secretflow-serving-lib]: executing diffoscope
+[2024-05-27 04:23:58] INFO root fetch - processPackages [secretflow-serving-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/secretflow_serving_lib-0.3.0b0-cp39-cp39-manylinux_2_28_aarch64.whl.zip tmp/secretflow_serving_lib-0.3.1b0-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20240527/s/secretflow-serving-lib/0.3.0b0-0.3.1b0/README.md --exclude *.pyd
+[2024-05-27 04:26:59] ERROR root fetch - processPackages [secretflow-serving-lib]: Timeout during execution of pkgdiff
+[2024-05-27 04:26:59] INFO root fetch - main [MainThread]: End processing [secretflow-serving-lib] error
+[2024-05-27 04:26:59] INFO root fetch - main [MainThread]: Store serial: [23389728]
