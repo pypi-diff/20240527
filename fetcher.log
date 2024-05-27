@@ -17150,3 +17150,96 @@ EOFError: EOF read where object expected
 [2024-05-27 15:37:01] INFO root fetch - processPackages [pyneurosdk2]: Remove: archive file [/home/abi/fetcher/tmp/pyneurosdk2-1.0.8.tar.gz]
 [2024-05-27 15:37:01] INFO root fetch - main [MainThread]: End processing [pyneurosdk2]: success
 [2024-05-27 15:37:01] INFO root fetch - main [MainThread]: Store serial: [23396307]
+[2024-05-27 15:39:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23396307]
+[2024-05-27 15:39:14] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-27 15:39:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: assisted-service-client
+[2024-05-27 15:39:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pypnnomenclature
+[2024-05-27 15:39:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: MatSense
+[2024-05-27 15:39:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nr-metadata
+[2024-05-27 15:39:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: oarepo-model-builder-nr
+[2024-05-27 15:39:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pellipop
+[2024-05-27 15:39:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: glide-for-redis
+[2024-05-27 15:39:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: python-http_request
+[2024-05-27 15:39:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lions
+[2024-05-27 15:39:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: factorio-randovania-mod
+[2024-05-27 15:39:14] INFO root fetch - processPackages [factorio-randovania-mod]: New version: [0.3.0] Old Version: [0.2.1]
+[2024-05-27 15:39:14] INFO root fetch - processPackages [lions]: New version: [1.4.1] Old Version: [1.4.0]
+[2024-05-27 15:39:14] INFO root fetch - processPackages [oarepo-model-builder-nr]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-05-27 15:39:14] INFO root fetch - processPackages [nr-metadata]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-05-27 15:39:14] INFO root fetch - processPackages [assisted-service-client]: New version: [2.9.0.post9] Old Version: [2.9.0.post8]
+[2024-05-27 15:39:14] INFO root fetch - processPackages [pellipop]: New version: [0.8.9] Old Version: [0.8.8]
+[2024-05-27 15:39:14] INFO root fetch - processPackages [pypnnomenclature]: New version: [1.6.3] Old Version: [1.6.2]
+[2024-05-27 15:39:14] INFO root fetch - processPackages [MatSense]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-05-27 15:39:14] INFO root fetch - processPackages [python-http_request]: New version: [0.0.5] Old Version: [0.0.4.1]
+[2024-05-27 15:39:14] INFO root fetch - processPackages [factorio-randovania-mod]: Downloading https://files.pythonhosted.org/packages/e7/04/1de51231f850a9986cf53595daddc2fac7a1d37c422a3c832d9ca3d716d7/factorio_randovania_mod-0.2.1.tar.gz
+[2024-05-27 15:39:14] INFO root fetch - processPackages [glide-for-redis]: New version: [0.4.0rc4] Old Version: [0.4.0rc19]
+[2024-05-27 15:39:14] INFO root fetch - processPackages [assisted-service-client]: Downloading https://files.pythonhosted.org/packages/a5/ee/a5837c5427b0689f863021f5d65c42ff9d4ae267905a751492653198b2dc/assisted_service_client-2.9.0.post8-py3-none-any.whl
+[2024-05-27 15:39:14] INFO root fetch - processPackages [lions]: Downloading https://files.pythonhosted.org/packages/cb/c5/ce9282b898fa60536b5e747e3bbccb58047cefb889f0fad9d6b819d840bf/lions-1.4.0.tar.gz
+[2024-05-27 15:39:14] INFO root fetch - processPackages [oarepo-model-builder-nr]: Downloading https://files.pythonhosted.org/packages/01/52/8fbb2847bca27a50cffda5e978be1cf2482e2b794019b5f515f2d31cbcab/oarepo-model-builder-nr-2.0.8.tar.gz
+[2024-05-27 15:39:14] INFO root fetch - processPackages [nr-metadata]: Downloading https://files.pythonhosted.org/packages/7a/5f/8f602926c025d000ffd47ecef73551c4735015bee08e4d19a39abdd843f4/nr-metadata-2.0.8.tar.gz
+[2024-05-27 15:39:15] INFO root fetch - processPackages [pypnnomenclature]: Downloading https://files.pythonhosted.org/packages/0d/30/00cae3a3ddf62cb4711d3b8d6f586c15ff62747a206b2d508ac77b759ca9/pypnnomenclature-1.6.2.tar.gz
+[2024-05-27 15:39:15] INFO root fetch - processPackages [MatSense]: Downloading https://files.pythonhosted.org/packages/ee/a3/0bfaddc12d415c86c510768328bc050776d7736956f4e407df1b0d96d920/MatSense-0.4.0.tar.gz
+[2024-05-27 15:39:15] INFO root fetch - processPackages [python-http_request]: Downloading https://files.pythonhosted.org/packages/90/c9/a96e5d2e6ae1fabfb8d483ea1dc67a64de18e93a2557686e9393bee3df61/python_http_request-0.0.4.1.tar.gz
+[2024-05-27 15:39:15] INFO root fetch - processPackages [glide-for-redis]: Downloading https://files.pythonhosted.org/packages/8e/76/ec104578db5b64c133fcc7ce5b8f6c426d26c1243d7570af32d15bc89cd9/glide_for_redis-0.4.0rc19-cp39-cp39-manylinux_2_28_aarch64.whl
+[2024-05-27 15:39:15] INFO root fetch - processPackages [pellipop]: Downloading https://files.pythonhosted.org/packages/ab/f0/84289b25045ee2124e709c96a3a5fc3c6a20422df572d4d41526c50295bd/pellipop-0.8.8.tar.gz
+[2024-05-27 15:39:15] INFO root fetch - processPackages [lions]: Downloading https://files.pythonhosted.org/packages/10/13/f2b94efb2a0a9cbe928b72e2f61ab9dfe1cf37ace29184109ae35dfbaf71/lions-1.4.1.tar.gz
+[2024-05-27 15:39:15] INFO root fetch - processPackages [oarepo-model-builder-nr]: Downloading https://files.pythonhosted.org/packages/ce/34/fe74146ad0029b106d9c36dddbbf2feb1ca835a8beb17079f7add29fa62d/oarepo-model-builder-nr-2.0.9.tar.gz
+[2024-05-27 15:39:15] INFO root fetch - processPackages [nr-metadata]: Downloading https://files.pythonhosted.org/packages/bf/12/784e8b734d889ce75c1af412af4037a94a518b100b433e5fb2eaad8e07ed/nr-metadata-2.0.9.tar.gz
+[2024-05-27 15:39:15] INFO root fetch - processPackages [assisted-service-client]: Downloading https://files.pythonhosted.org/packages/f6/90/2599b3c134ea21c06d22f83dd1dfac6801d974b9aa0958f008fb332e5b4d/assisted_service_client-2.9.0.post9-py3-none-any.whl
+[2024-05-27 15:39:15] INFO root fetch - processPackages [factorio-randovania-mod]: Downloading https://files.pythonhosted.org/packages/a4/db/26209c8742e14e27459a10644519c273e3a951b679e7de14c7b6b323129b/factorio_randovania_mod-0.3.0.tar.gz
+[2024-05-27 15:39:15] INFO root fetch - processPackages [lions]: executing diffoscope
+[2024-05-27 15:39:15] INFO root fetch - processPackages [lions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lions-1.4.0.tar.gz tmp/lions-1.4.1.tar.gz --markdown 20240527/l/lions/1.4.0-1.4.1/README.md --exclude *.pyd
+[2024-05-27 15:39:15] INFO root fetch - processPackages [oarepo-model-builder-nr]: executing diffoscope
+[2024-05-27 15:39:15] INFO root fetch - processPackages [oarepo-model-builder-nr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-model-builder-nr-2.0.8.tar.gz tmp/oarepo-model-builder-nr-2.0.9.tar.gz --markdown 20240527/o/oarepo-model-builder-nr/2.0.8-2.0.9/README.md --exclude *.pyd
+[2024-05-27 15:39:15] INFO root fetch - processPackages [assisted-service-client]: executing diffoscope
+[2024-05-27 15:39:15] INFO root fetch - processPackages [assisted-service-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip --markdown 20240527/a/assisted-service-client/2.9.0.post8-2.9.0.post9/README.md --exclude *.pyd
+[2024-05-27 15:39:15] INFO root fetch - processPackages [factorio-randovania-mod]: executing diffoscope
+[2024-05-27 15:39:15] INFO root fetch - processPackages [factorio-randovania-mod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/factorio_randovania_mod-0.2.1.tar.gz tmp/factorio_randovania_mod-0.3.0.tar.gz --markdown 20240527/f/factorio-randovania-mod/0.2.1-0.3.0/README.md --exclude *.pyd
+[2024-05-27 15:39:15] INFO root fetch - processPackages [nr-metadata]: executing diffoscope
+[2024-05-27 15:39:15] INFO root fetch - processPackages [nr-metadata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nr-metadata-2.0.8.tar.gz tmp/nr-metadata-2.0.9.tar.gz --markdown 20240527/n/nr-metadata/2.0.8-2.0.9/README.md --exclude *.pyd
+[2024-05-27 15:39:15] INFO root fetch - processPackages [python-http_request]: Downloading https://files.pythonhosted.org/packages/6f/d0/18d18bf685f04e43a9f86bd198019bf97bd06af51307052655012b3923cb/python_http_request-0.0.5.tar.gz
+[2024-05-27 15:39:15] INFO root fetch - processPackages [MatSense]: Downloading https://files.pythonhosted.org/packages/36/5d/adf25a1b4abea9c524981965a12e7d2d5ff68546a87434cb155ae9c49ea0/matsense-0.4.1.tar.gz
+[2024-05-27 15:39:15] INFO root fetch - processPackages [pypnnomenclature]: Downloading https://files.pythonhosted.org/packages/06/2c/b145b4875dbed2dca3bc4caa1dbd52a02defbbe36ca57f2098e8811ea685/pypnnomenclature-1.6.3.tar.gz
+[2024-05-27 15:39:15] INFO root fetch - processPackages [pellipop]: Downloading https://files.pythonhosted.org/packages/5a/98/29c8b0eaf92ffb9ef1567ba897dc4d2a6ce6245f8c168047cfc1b9697b20/pellipop-0.8.9.tar.gz
+[2024-05-27 15:39:15] INFO root fetch - processPackages [python-http_request]: executing diffoscope
+[2024-05-27 15:39:15] INFO root fetch - processPackages [python-http_request]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_http_request-0.0.4.1.tar.gz tmp/python_http_request-0.0.5.tar.gz --markdown 20240527/p/python-http_request/0.0.4.1-0.0.5/README.md --exclude *.pyd
+[2024-05-27 15:39:15] INFO root fetch - processPackages [MatSense]: executing diffoscope
+[2024-05-27 15:39:15] INFO root fetch - processPackages [MatSense]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MatSense-0.4.0.tar.gz tmp/matsense-0.4.1.tar.gz --markdown 20240527/M/MatSense/0.4.0-0.4.1/README.md --exclude *.pyd
+[2024-05-27 15:39:15] INFO root fetch - processPackages [pypnnomenclature]: executing diffoscope
+[2024-05-27 15:39:15] INFO root fetch - processPackages [pypnnomenclature]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypnnomenclature-1.6.2.tar.gz tmp/pypnnomenclature-1.6.3.tar.gz --markdown 20240527/p/pypnnomenclature/1.6.2-1.6.3/README.md --exclude *.pyd
+[2024-05-27 15:39:15] INFO root fetch - processPackages [pellipop]: executing diffoscope
+[2024-05-27 15:39:15] INFO root fetch - processPackages [pellipop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pellipop-0.8.8.tar.gz tmp/pellipop-0.8.9.tar.gz --markdown 20240527/p/pellipop/0.8.8-0.8.9/README.md --exclude *.pyd
+[2024-05-27 15:39:15] INFO root fetch - processPackages [glide-for-redis]: Downloading https://files.pythonhosted.org/packages/c5/ea/a36d5fd0dab7647960a2afd8cbc58f9f6ab84c6c903a2ae0d90b9954daec/glide_for_redis-0.4.0rc4-cp39-cp39-manylinux_2_28_aarch64.whl
+[2024-05-27 15:39:16] INFO root fetch - processPackages [glide-for-redis]: executing diffoscope
+[2024-05-27 15:39:16] INFO root fetch - processPackages [glide-for-redis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glide_for_redis-0.4.0rc19-cp39-cp39-manylinux_2_28_aarch64.whl.zip tmp/glide_for_redis-0.4.0rc4-cp39-cp39-manylinux_2_28_aarch64.whl.zip --markdown 20240527/g/glide-for-redis/0.4.0rc19-0.4.0rc4/README.md --exclude *.pyd
+[2024-05-27 15:39:16] INFO root fetch - processPackages [oarepo-model-builder-nr]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-model-builder-nr-2.0.8.tar.gz]
+[2024-05-27 15:39:16] INFO root fetch - processPackages [oarepo-model-builder-nr]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-model-builder-nr-2.0.9.tar.gz]
+[2024-05-27 15:39:16] INFO root fetch - main [MainThread]: End processing [oarepo-model-builder-nr]: success
+[2024-05-27 15:39:16] INFO root fetch - processPackages [lions]: Remove: archive file [/home/abi/fetcher/tmp/lions-1.4.0.tar.gz]
+[2024-05-27 15:39:16] INFO root fetch - processPackages [lions]: Remove: archive file [/home/abi/fetcher/tmp/lions-1.4.1.tar.gz]
+[2024-05-27 15:39:16] INFO root fetch - main [MainThread]: End processing [lions]: success
+[2024-05-27 15:39:16] INFO root fetch - processPackages [factorio-randovania-mod]: Remove: archive file [/home/abi/fetcher/tmp/factorio_randovania_mod-0.2.1.tar.gz]
+[2024-05-27 15:39:16] INFO root fetch - processPackages [factorio-randovania-mod]: Remove: archive file [/home/abi/fetcher/tmp/factorio_randovania_mod-0.3.0.tar.gz]
+[2024-05-27 15:39:16] INFO root fetch - main [MainThread]: End processing [factorio-randovania-mod]: success
+[2024-05-27 15:39:16] INFO root fetch - processPackages [python-http_request]: Remove: archive file [/home/abi/fetcher/tmp/python_http_request-0.0.4.1.tar.gz]
+[2024-05-27 15:39:16] INFO root fetch - processPackages [python-http_request]: Remove: archive file [/home/abi/fetcher/tmp/python_http_request-0.0.5.tar.gz]
+[2024-05-27 15:39:16] INFO root fetch - main [MainThread]: End processing [python-http_request]: success
+[2024-05-27 15:39:16] INFO root fetch - processPackages [pellipop]: Remove: archive file [/home/abi/fetcher/tmp/pellipop-0.8.8.tar.gz]
+[2024-05-27 15:39:16] INFO root fetch - processPackages [pellipop]: Remove: archive file [/home/abi/fetcher/tmp/pellipop-0.8.9.tar.gz]
+[2024-05-27 15:39:16] INFO root fetch - main [MainThread]: End processing [pellipop]: success
+[2024-05-27 15:39:16] INFO root fetch - processPackages [MatSense]: Remove: archive file [/home/abi/fetcher/tmp/MatSense-0.4.0.tar.gz]
+[2024-05-27 15:39:16] INFO root fetch - processPackages [MatSense]: Remove: archive file [/home/abi/fetcher/tmp/matsense-0.4.1.tar.gz]
+[2024-05-27 15:39:16] INFO root fetch - main [MainThread]: End processing [MatSense]: success
+[2024-05-27 15:39:16] INFO root fetch - processPackages [pypnnomenclature]: Remove: archive file [/home/abi/fetcher/tmp/pypnnomenclature-1.6.2.tar.gz]
+[2024-05-27 15:39:16] INFO root fetch - processPackages [pypnnomenclature]: Remove: archive file [/home/abi/fetcher/tmp/pypnnomenclature-1.6.3.tar.gz]
+[2024-05-27 15:39:16] INFO root fetch - main [MainThread]: End processing [pypnnomenclature]: success
+[2024-05-27 15:39:16] INFO root fetch - processPackages [nr-metadata]: Remove: archive file [/home/abi/fetcher/tmp/nr-metadata-2.0.8.tar.gz]
+[2024-05-27 15:39:16] INFO root fetch - processPackages [nr-metadata]: Remove: archive file [/home/abi/fetcher/tmp/nr-metadata-2.0.9.tar.gz]
+[2024-05-27 15:39:16] INFO root fetch - main [MainThread]: End processing [nr-metadata]: success
+[2024-05-27 15:39:17] INFO root fetch - processPackages [assisted-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip]
+[2024-05-27 15:39:17] INFO root fetch - processPackages [assisted-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip]
+[2024-05-27 15:39:17] INFO root fetch - main [MainThread]: End processing [assisted-service-client]: success
+[2024-05-27 15:39:29] INFO root fetch - processPackages [glide-for-redis]: Remove: archive file [/home/abi/fetcher/tmp/glide_for_redis-0.4.0rc19-cp39-cp39-manylinux_2_28_aarch64.whl.zip]
+[2024-05-27 15:39:29] INFO root fetch - processPackages [glide-for-redis]: Remove: archive file [/home/abi/fetcher/tmp/glide_for_redis-0.4.0rc4-cp39-cp39-manylinux_2_28_aarch64.whl.zip]
+[2024-05-27 15:39:29] INFO root fetch - main [MainThread]: End processing [glide-for-redis]: success
+[2024-05-27 15:39:29] INFO root fetch - main [MainThread]: Store serial: [23396355]
