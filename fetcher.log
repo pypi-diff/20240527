@@ -20019,3 +20019,42 @@ EOFError: EOF read where object expected
 [2024-05-27 17:13:22] INFO root fetch - processPackages [py-tools-ds]: Remove: archive file [/home/abi/fetcher/tmp/py_tools_ds-0.9.4.tar.gz]
 [2024-05-27 17:13:22] INFO root fetch - main [MainThread]: End processing [py-tools-ds]: success
 [2024-05-27 17:13:22] INFO root fetch - main [MainThread]: Store serial: [23397538]
+[2024-05-27 17:15:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23397538]
+[2024-05-27 17:15:30] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-27 17:15:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: turbocase
+[2024-05-27 17:15:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: olas-operate-middleware
+[2024-05-27 17:15:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: python-steam-api
+[2024-05-27 17:15:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: platzky
+[2024-05-27 17:15:30] INFO root fetch - processPackages [turbocase]: New version: [1.4.1] Old Version: [1.4]
+[2024-05-27 17:15:30] INFO root fetch - processPackages [olas-operate-middleware]: New version: [0.1.0rc9] Old Version: [0.1.0rc8]
+[2024-05-27 17:15:30] INFO root fetch - processPackages [turbocase]: Downloading https://files.pythonhosted.org/packages/65/a6/39ec5789fa83a8476c4a4862a464b7ebd8432f912da0321ca79a5c98312a/turbocase-1.4.tar.gz
+[2024-05-27 17:15:30] INFO root fetch - processPackages [olas-operate-middleware]: Downloading https://files.pythonhosted.org/packages/d2/22/dc91171f9f5c12f72fbef4ec6b6962b4e66e69f3a3fde86b4f32a9648c5c/olas_operate_middleware-0.1.0rc8.tar.gz
+[2024-05-27 17:15:30] INFO root fetch - processPackages [python-steam-api]: New version: [2.0.1] Old Version: [2.0]
+[2024-05-27 17:15:30] INFO root fetch - processPackages [platzky]: New version: [0.2.0] Old Version: [0.1.9]
+[2024-05-27 17:15:31] INFO root fetch - processPackages [python-steam-api]: Downloading https://files.pythonhosted.org/packages/80/3e/fe9a61f649fc463e970bb1c9a4d2f0899af9734b5d6b4e65796389f43cb7/python-steam-api-2.0.tar.gz
+[2024-05-27 17:15:31] INFO root fetch - processPackages [platzky]: Downloading https://files.pythonhosted.org/packages/66/bb/b50329daa0778563ba3408610f6ef8f23a970a1865bb6095b8286db7313f/platzky-0.1.9.tar.gz
+[2024-05-27 17:15:31] INFO root fetch - processPackages [olas-operate-middleware]: Downloading https://files.pythonhosted.org/packages/8f/69/3a83cbcad75fcbdca3d7a77b5edfa7b4511dea20e87d2aacfe22a9188bc8/olas_operate_middleware-0.1.0rc9.tar.gz
+[2024-05-27 17:15:31] INFO root fetch - processPackages [turbocase]: Downloading https://files.pythonhosted.org/packages/3f/9a/cc4494c96eff3628435fe93362561e9b4acb7bcc191aa70f196fb04dea91/turbocase-1.4.1.tar.gz
+[2024-05-27 17:15:31] INFO root fetch - processPackages [olas-operate-middleware]: executing diffoscope
+[2024-05-27 17:15:31] INFO root fetch - processPackages [olas-operate-middleware]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/olas_operate_middleware-0.1.0rc8.tar.gz tmp/olas_operate_middleware-0.1.0rc9.tar.gz --markdown 20240527/o/olas-operate-middleware/0.1.0rc8-0.1.0rc9/README.md --exclude *.pyd
+[2024-05-27 17:15:31] INFO root fetch - processPackages [turbocase]: executing diffoscope
+[2024-05-27 17:15:31] INFO root fetch - processPackages [turbocase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/turbocase-1.4.tar.gz tmp/turbocase-1.4.1.tar.gz --markdown 20240527/t/turbocase/1.4-1.4.1/README.md --exclude *.pyd
+[2024-05-27 17:15:31] INFO root fetch - processPackages [platzky]: Downloading https://files.pythonhosted.org/packages/b3/87/dcb7053bbc841444d31c05130879b13435a2fa99e64bc7c55948af9e63b4/platzky-0.2.0.tar.gz
+[2024-05-27 17:15:31] INFO root fetch - processPackages [python-steam-api]: Downloading https://files.pythonhosted.org/packages/91/4d/a422c7799142138284be503689919e849384670ec13399b77e806de5046c/python_steam_api-2.0.1.tar.gz
+[2024-05-27 17:15:31] INFO root fetch - processPackages [platzky]: executing diffoscope
+[2024-05-27 17:15:31] INFO root fetch - processPackages [platzky]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/platzky-0.1.9.tar.gz tmp/platzky-0.2.0.tar.gz --markdown 20240527/p/platzky/0.1.9-0.2.0/README.md --exclude *.pyd
+[2024-05-27 17:15:31] INFO root fetch - processPackages [python-steam-api]: executing diffoscope
+[2024-05-27 17:15:31] INFO root fetch - processPackages [python-steam-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-steam-api-2.0.tar.gz tmp/python_steam_api-2.0.1.tar.gz --markdown 20240527/p/python-steam-api/2.0-2.0.1/README.md --exclude *.pyd
+[2024-05-27 17:15:31] INFO root fetch - processPackages [turbocase]: Remove: archive file [/home/abi/fetcher/tmp/turbocase-1.4.tar.gz]
+[2024-05-27 17:15:31] INFO root fetch - processPackages [turbocase]: Remove: archive file [/home/abi/fetcher/tmp/turbocase-1.4.1.tar.gz]
+[2024-05-27 17:15:31] INFO root fetch - main [MainThread]: End processing [turbocase]: success
+[2024-05-27 17:15:31] INFO root fetch - processPackages [olas-operate-middleware]: Remove: archive file [/home/abi/fetcher/tmp/olas_operate_middleware-0.1.0rc8.tar.gz]
+[2024-05-27 17:15:31] INFO root fetch - processPackages [olas-operate-middleware]: Remove: archive file [/home/abi/fetcher/tmp/olas_operate_middleware-0.1.0rc9.tar.gz]
+[2024-05-27 17:15:31] INFO root fetch - main [MainThread]: End processing [olas-operate-middleware]: success
+[2024-05-27 17:15:32] INFO root fetch - processPackages [platzky]: Remove: archive file [/home/abi/fetcher/tmp/platzky-0.1.9.tar.gz]
+[2024-05-27 17:15:32] INFO root fetch - processPackages [platzky]: Remove: archive file [/home/abi/fetcher/tmp/platzky-0.2.0.tar.gz]
+[2024-05-27 17:15:32] INFO root fetch - main [MainThread]: End processing [platzky]: success
+[2024-05-27 17:15:32] INFO root fetch - processPackages [python-steam-api]: Remove: archive file [/home/abi/fetcher/tmp/python-steam-api-2.0.tar.gz]
+[2024-05-27 17:15:32] INFO root fetch - processPackages [python-steam-api]: Remove: archive file [/home/abi/fetcher/tmp/python_steam_api-2.0.1.tar.gz]
+[2024-05-27 17:15:32] INFO root fetch - main [MainThread]: End processing [python-steam-api]: success
+[2024-05-27 17:15:32] INFO root fetch - main [MainThread]: Store serial: [23397550]
