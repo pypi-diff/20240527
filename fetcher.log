@@ -15727,3 +15727,51 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 14:43:29] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.5.0b20240526-py3-none-win_amd64.whl.zip]
 [2024-05-27 14:43:29] INFO root fetch - main [MainThread]: End processing [bigdl-llm]: success
 [2024-05-27 14:43:29] INFO root fetch - main [MainThread]: Store serial: [23395688]
+[2024-05-27 14:45:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23395688]
+[2024-05-27 14:45:39] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-27 14:45:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: alphaz-next
+[2024-05-27 14:45:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qontract-reconcile
+[2024-05-27 14:45:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pricecypher-sdk
+[2024-05-27 14:45:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spider-python
+[2024-05-27 14:45:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: skale.py
+[2024-05-27 14:45:39] INFO root fetch - processPackages [spider-python]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-27 14:45:39] INFO root fetch - processPackages [alphaz-next]: New version: [0.7.3.4] Old Version: [0.7.3.3]
+[2024-05-27 14:45:39] INFO root fetch - processPackages [pricecypher-sdk]: New version: [2.1.1.dev9] Old Version: [2.1.1.dev8]
+[2024-05-27 14:45:39] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2024-05-27 14:45:39] INFO root fetch - processPackages [spider-python]: Downloading https://files.pythonhosted.org/packages/c0/62/2acb1e4739798c7db884d3b23b8746d003aaf760d7a97a7afb460afd6263/spider-python-0.1.8.tar.gz
+[2024-05-27 14:45:39] INFO root fetch - processPackages [alphaz-next]: Downloading https://files.pythonhosted.org/packages/c7/ca/729a6351e593dfcef5783f680fa489fbcecf3a7a1a403e65121ca93a770b/alphaz-next-0.7.3.3.tar.gz
+[2024-05-27 14:45:39] INFO root fetch - processPackages [pricecypher-sdk]: Downloading https://files.pythonhosted.org/packages/38/49/b89d96ed3ff310fb5c9d6c14c89281602d3c2a6128611d6a53449c0d22b8/pricecypher_sdk-2.1.1.dev8.tar.gz
+[2024-05-27 14:45:39] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2024-05-27 14:45:39] INFO root fetch - processPackages [alphaz-next]: Downloading https://files.pythonhosted.org/packages/59/76/2e7afd7434762b1dacae06cd126368684f5bb44588bec11dbc341ff90083/alphaz-next-0.7.3.4.tar.gz
+[2024-05-27 14:45:39] INFO root fetch - processPackages [pricecypher-sdk]: Downloading https://files.pythonhosted.org/packages/a9/09/845a1d8801385f82e900c7737902408e9994871830eb24e0bcee3e73a22a/pricecypher_sdk-2.1.1.dev9.tar.gz
+[2024-05-27 14:45:39] INFO root fetch - processPackages [spider-python]: Downloading https://files.pythonhosted.org/packages/f9/06/20c7dbf9c08147211dabbf15985a904ed993a798be09b41615911ef07762/spider-python-0.1.9.tar.gz
+[2024-05-27 14:45:39] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2024-05-27 14:45:39] INFO root fetch - processPackages [alphaz-next]: executing diffoscope
+[2024-05-27 14:45:39] INFO root fetch - processPackages [alphaz-next]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alphaz-next-0.7.3.3.tar.gz tmp/alphaz-next-0.7.3.4.tar.gz --markdown 20240527/a/alphaz-next/0.7.3.3-0.7.3.4/README.md --exclude *.pyd
+[2024-05-27 14:45:39] INFO root fetch - processPackages [pricecypher-sdk]: executing diffoscope
+[2024-05-27 14:45:39] INFO root fetch - processPackages [pricecypher-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pricecypher_sdk-2.1.1.dev8.tar.gz tmp/pricecypher_sdk-2.1.1.dev9.tar.gz --markdown 20240527/p/pricecypher-sdk/2.1.1.dev8-2.1.1.dev9/README.md --exclude *.pyd
+[2024-05-27 14:45:39] INFO root fetch - processPackages [spider-python]: executing diffoscope
+[2024-05-27 14:45:39] INFO root fetch - processPackages [spider-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spider-python-0.1.8.tar.gz tmp/spider-python-0.1.9.tar.gz --markdown 20240527/s/spider-python/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-27 14:45:39] INFO root fetch - processPackages [skale.py]: New version: [7.dev12] Old Version: [7.dev11]
+[2024-05-27 14:45:39] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2024-05-27 14:45:39] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20240527/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/README.md --exclude *.pyd
+[2024-05-27 14:45:39] INFO root fetch - processPackages [skale.py]: Downloading https://files.pythonhosted.org/packages/c3/f7/ce20a1335159c111f47298c27897279ce0d5fb2222f378b6c90dd847174e/skale.py-7.dev11.tar.gz
+[2024-05-27 14:45:40] INFO root fetch - processPackages [skale.py]: Downloading https://files.pythonhosted.org/packages/a8/d6/64c6475d81068c5db5eefe761279f38319d8144f43ef0916b132ec62effa/skale.py-7.dev12.tar.gz
+[2024-05-27 14:45:40] INFO root fetch - processPackages [alphaz-next]: Remove: archive file [/home/abi/fetcher/tmp/alphaz-next-0.7.3.3.tar.gz]
+[2024-05-27 14:45:40] INFO root fetch - processPackages [alphaz-next]: Remove: archive file [/home/abi/fetcher/tmp/alphaz-next-0.7.3.4.tar.gz]
+[2024-05-27 14:45:40] INFO root fetch - main [MainThread]: End processing [alphaz-next]: success
+[2024-05-27 14:45:40] INFO root fetch - processPackages [pricecypher-sdk]: Remove: archive file [/home/abi/fetcher/tmp/pricecypher_sdk-2.1.1.dev8.tar.gz]
+[2024-05-27 14:45:40] INFO root fetch - processPackages [pricecypher-sdk]: Remove: archive file [/home/abi/fetcher/tmp/pricecypher_sdk-2.1.1.dev9.tar.gz]
+[2024-05-27 14:45:40] INFO root fetch - main [MainThread]: End processing [pricecypher-sdk]: success
+[2024-05-27 14:45:40] INFO root fetch - processPackages [spider-python]: Remove: archive file [/home/abi/fetcher/tmp/spider-python-0.1.8.tar.gz]
+[2024-05-27 14:45:40] INFO root fetch - processPackages [spider-python]: Remove: archive file [/home/abi/fetcher/tmp/spider-python-0.1.9.tar.gz]
+[2024-05-27 14:45:40] INFO root fetch - main [MainThread]: End processing [spider-python]: success
+[2024-05-27 14:45:40] INFO root fetch - processPackages [skale.py]: executing diffoscope
+[2024-05-27 14:45:40] INFO root fetch - processPackages [skale.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skale.py-7.dev11.tar.gz tmp/skale.py-7.dev12.tar.gz --markdown 20240527/s/skale.py/7.dev11-7.dev12/README.md --exclude *.pyd
+[2024-05-27 14:45:41] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2024-05-27 14:45:41] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2024-05-27 14:45:41] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2024-05-27 14:45:41] INFO root fetch - processPackages [skale.py]: Remove: archive file [/home/abi/fetcher/tmp/skale.py-7.dev11.tar.gz]
+[2024-05-27 14:45:41] INFO root fetch - processPackages [skale.py]: Remove: archive file [/home/abi/fetcher/tmp/skale.py-7.dev12.tar.gz]
+[2024-05-27 14:45:41] INFO root fetch - main [MainThread]: End processing [skale.py]: success
+[2024-05-27 14:45:41] INFO root fetch - main [MainThread]: Store serial: [23395700]
