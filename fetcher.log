@@ -8950,3 +8950,42 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 10:03:42] INFO root fetch - processPackages [truefoundry]: Remove: archive file [/home/abi/fetcher/tmp/truefoundry-0.2.2rc4.tar.gz]
 [2024-05-27 10:03:42] INFO root fetch - main [MainThread]: End processing [truefoundry]: success
 [2024-05-27 10:03:42] INFO root fetch - main [MainThread]: Store serial: [23392250]
+[2024-05-27 10:05:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23392250]
+[2024-05-27 10:05:50] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-27 10:05:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyboy
+[2024-05-27 10:05:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sslearn
+[2024-05-27 10:05:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: langfun
+[2024-05-27 10:05:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: decentriq-dcr-compiler
+[2024-05-27 10:05:50] INFO root fetch - processPackages [langfun]: New version: [0.0.2.dev20240526] Old Version: [0.0.2.dev20240525]
+[2024-05-27 10:05:50] INFO root fetch - processPackages [sslearn]: New version: [1.0.5.2] Old Version: [1.0.5.1]
+[2024-05-27 10:05:50] INFO root fetch - processPackages [langfun]: Downloading https://files.pythonhosted.org/packages/71/bd/582685def24d67b70c36470136566498664b2729103d089a96aaee5a2bce/langfun-0.0.2.dev20240525.tar.gz
+[2024-05-27 10:05:50] INFO root fetch - processPackages [pyboy]: New version: [2.1.0] Old Version: [2.0.3]
+[2024-05-27 10:05:51] INFO root fetch - processPackages [decentriq-dcr-compiler]: New version: [0.8.0rc1] Old Version: [0.8.0rc0]
+[2024-05-27 10:05:51] INFO root fetch - processPackages [sslearn]: Downloading https://files.pythonhosted.org/packages/6c/aa/1f8792b34d70b9726bd008a4ab95206766bac566a3ababa821573d5d4734/sslearn-1.0.5.1.tar.gz
+[2024-05-27 10:05:51] INFO root fetch - processPackages [pyboy]: Downloading https://files.pythonhosted.org/packages/30/fb/21f200ffe331a757e8e2fb931efb58556fe283dc2b549155e772a418e76f/pyboy-2.0.3.tar.gz
+[2024-05-27 10:05:51] INFO root fetch - processPackages [decentriq-dcr-compiler]: Downloading https://files.pythonhosted.org/packages/22/85/fb5a1acb08659d64bbf1bdda76c14a36622ff5facc68a965072ccfbf775d/decentriq_dcr_compiler-0.8.0rc0-cp39-none-win_amd64.whl
+[2024-05-27 10:05:51] INFO root fetch - processPackages [langfun]: Downloading https://files.pythonhosted.org/packages/e6/77/d4d51a1d3a505da826c963a4863da26b8a8df93f99c7363094055d096d4a/langfun-0.0.2.dev20240526.tar.gz
+[2024-05-27 10:05:51] INFO root fetch - processPackages [sslearn]: Downloading https://files.pythonhosted.org/packages/a5/b9/47c90b42f1cdf8a6a37215020c28b641e02cc8e2da422b371dd64037eb03/sslearn-1.0.5.2.tar.gz
+[2024-05-27 10:05:51] INFO root fetch - processPackages [langfun]: executing diffoscope
+[2024-05-27 10:05:51] INFO root fetch - processPackages [langfun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langfun-0.0.2.dev20240525.tar.gz tmp/langfun-0.0.2.dev20240526.tar.gz --markdown 20240527/l/langfun/0.0.2.dev20240525-0.0.2.dev20240526/README.md --exclude *.pyd
+[2024-05-27 10:05:51] INFO root fetch - processPackages [pyboy]: Downloading https://files.pythonhosted.org/packages/74/f5/9b1df669fc68d79a1db9df299f123daf7ac437b30305b1866a0585c51e3a/pyboy-2.1.0.tar.gz
+[2024-05-27 10:05:51] INFO root fetch - processPackages [sslearn]: executing diffoscope
+[2024-05-27 10:05:51] INFO root fetch - processPackages [sslearn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sslearn-1.0.5.1.tar.gz tmp/sslearn-1.0.5.2.tar.gz --markdown 20240527/s/sslearn/1.0.5.1-1.0.5.2/README.md --exclude *.pyd
+[2024-05-27 10:05:51] INFO root fetch - processPackages [pyboy]: executing diffoscope
+[2024-05-27 10:05:51] INFO root fetch - processPackages [pyboy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyboy-2.0.3.tar.gz tmp/pyboy-2.1.0.tar.gz --markdown 20240527/p/pyboy/2.0.3-2.1.0/README.md --exclude *.pyd
+[2024-05-27 10:05:52] INFO root fetch - processPackages [sslearn]: Remove: archive file [/home/abi/fetcher/tmp/sslearn-1.0.5.1.tar.gz]
+[2024-05-27 10:05:52] INFO root fetch - processPackages [sslearn]: Remove: archive file [/home/abi/fetcher/tmp/sslearn-1.0.5.2.tar.gz]
+[2024-05-27 10:05:52] INFO root fetch - main [MainThread]: End processing [sslearn]: success
+[2024-05-27 10:05:52] INFO root fetch - processPackages [langfun]: Remove: archive file [/home/abi/fetcher/tmp/langfun-0.0.2.dev20240525.tar.gz]
+[2024-05-27 10:05:52] INFO root fetch - processPackages [langfun]: Remove: archive file [/home/abi/fetcher/tmp/langfun-0.0.2.dev20240526.tar.gz]
+[2024-05-27 10:05:52] INFO root fetch - main [MainThread]: End processing [langfun]: success
+[2024-05-27 10:05:52] INFO root fetch - processPackages [decentriq-dcr-compiler]: Downloading https://files.pythonhosted.org/packages/82/0f/ff10d8639936d4d7db045a177794ec1a9b59bf0aa1988e80e027659dab16/decentriq_dcr_compiler-0.8.0rc1-cp38-none-win_amd64.whl
+[2024-05-27 10:05:52] INFO root fetch - processPackages [pyboy]: Remove: archive file [/home/abi/fetcher/tmp/pyboy-2.0.3.tar.gz]
+[2024-05-27 10:05:52] INFO root fetch - processPackages [pyboy]: Remove: archive file [/home/abi/fetcher/tmp/pyboy-2.1.0.tar.gz]
+[2024-05-27 10:05:52] INFO root fetch - main [MainThread]: End processing [pyboy]: success
+[2024-05-27 10:05:54] INFO root fetch - processPackages [decentriq-dcr-compiler]: executing diffoscope
+[2024-05-27 10:05:54] INFO root fetch - processPackages [decentriq-dcr-compiler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/decentriq_dcr_compiler-0.8.0rc0-cp39-none-win_amd64.whl.zip tmp/decentriq_dcr_compiler-0.8.0rc1-cp38-none-win_amd64.whl.zip --markdown 20240527/d/decentriq-dcr-compiler/0.8.0rc0-0.8.0rc1/README.md --exclude *.pyd
+[2024-05-27 10:05:54] INFO root fetch - processPackages [decentriq-dcr-compiler]: Remove: archive file [/home/abi/fetcher/tmp/decentriq_dcr_compiler-0.8.0rc0-cp39-none-win_amd64.whl.zip]
+[2024-05-27 10:05:54] INFO root fetch - processPackages [decentriq-dcr-compiler]: Remove: archive file [/home/abi/fetcher/tmp/decentriq_dcr_compiler-0.8.0rc1-cp38-none-win_amd64.whl.zip]
+[2024-05-27 10:05:54] INFO root fetch - main [MainThread]: End processing [decentriq-dcr-compiler]: success
+[2024-05-27 10:05:54] INFO root fetch - main [MainThread]: Store serial: [23392301]
