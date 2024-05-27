@@ -24420,3 +24420,36 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-05-27 20:20:52] INFO root fetch - processPackages [django-editor-ymaps]: Remove: archive file [/home/abi/fetcher/tmp/django_editor_ymaps-2.3.9.tar.gz]
 [2024-05-27 20:20:52] INFO root fetch - main [MainThread]: End processing [django-editor-ymaps]: success
 [2024-05-27 20:20:52] INFO root fetch - main [MainThread]: Store serial: [23399737]
+[2024-05-27 20:22:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23399737]
+[2024-05-27 20:23:02] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-27 20:23:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: crewlab
+[2024-05-27 20:23:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openllm
+[2024-05-27 20:23:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: openllm-client
+[2024-05-27 20:23:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: openllm-core
+[2024-05-27 20:23:02] INFO root fetch - processPackages [openllm-client]: New version: [0.5.0a9] Old Version: [0.5.0a8]
+[2024-05-27 20:23:02] INFO root fetch - processPackages [openllm-core]: New version: [0.5.0a9] Old Version: [0.5.0a8]
+[2024-05-27 20:23:02] INFO root fetch - processPackages [openllm]: New version: [0.5.0a9] Old Version: [0.5.0a8]
+[2024-05-27 20:23:02] WARNING root fetch - processPackages [crewlab]: Skipping, unable to determine old version
+[2024-05-27 20:23:02] INFO root fetch - main [MainThread]: End processing [crewlab] error
+[2024-05-27 20:23:02] INFO root fetch - processPackages [openllm-client]: Downloading https://files.pythonhosted.org/packages/4d/a1/77e25ef6ae940d011349f3e76ae6a6504bb30758fb04c48f8996e1000da1/openllm_client-0.5.0a8.tar.gz
+[2024-05-27 20:23:02] INFO root fetch - processPackages [openllm-core]: Downloading https://files.pythonhosted.org/packages/76/67/05ea81f766677b9200494e8b14dfee33b358cd583a24b18cfccf4b5dceb4/openllm_core-0.5.0a8.tar.gz
+[2024-05-27 20:23:02] INFO root fetch - processPackages [openllm]: Downloading https://files.pythonhosted.org/packages/25/5e/a6b702d91e584020599e12b4e578356a53a057e41006cb4d052f87b5f529/openllm-0.5.0a8.tar.gz
+[2024-05-27 20:23:03] INFO root fetch - processPackages [openllm-client]: Downloading https://files.pythonhosted.org/packages/2d/40/495eb20184d9497a8efae2f6f2386e79914d06cdca3487408619f0767652/openllm_client-0.5.0a9.tar.gz
+[2024-05-27 20:23:03] INFO root fetch - processPackages [openllm-core]: Downloading https://files.pythonhosted.org/packages/5f/c2/f5c0438894dd21e79a2fafd6b9133bada1deb717adbae6f8ea2187dff0f0/openllm_core-0.5.0a9.tar.gz
+[2024-05-27 20:23:03] INFO root fetch - processPackages [openllm]: Downloading https://files.pythonhosted.org/packages/d5/72/afd31477b3fe760b27b8778b8b2fee8e654798f516eb8e5a907791ed597a/openllm-0.5.0a9.tar.gz
+[2024-05-27 20:23:03] INFO root fetch - processPackages [openllm-client]: executing diffoscope
+[2024-05-27 20:23:03] INFO root fetch - processPackages [openllm-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openllm_client-0.5.0a8.tar.gz tmp/openllm_client-0.5.0a9.tar.gz --markdown 20240527/o/openllm-client/0.5.0a8-0.5.0a9/README.md --exclude *.pyd
+[2024-05-27 20:23:03] INFO root fetch - processPackages [openllm-core]: executing diffoscope
+[2024-05-27 20:23:03] INFO root fetch - processPackages [openllm-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openllm_core-0.5.0a8.tar.gz tmp/openllm_core-0.5.0a9.tar.gz --markdown 20240527/o/openllm-core/0.5.0a8-0.5.0a9/README.md --exclude *.pyd
+[2024-05-27 20:23:03] INFO root fetch - processPackages [openllm]: executing diffoscope
+[2024-05-27 20:23:03] INFO root fetch - processPackages [openllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openllm-0.5.0a8.tar.gz tmp/openllm-0.5.0a9.tar.gz --markdown 20240527/o/openllm/0.5.0a8-0.5.0a9/README.md --exclude *.pyd
+[2024-05-27 20:23:03] INFO root fetch - processPackages [openllm-client]: Remove: archive file [/home/abi/fetcher/tmp/openllm_client-0.5.0a8.tar.gz]
+[2024-05-27 20:23:03] INFO root fetch - processPackages [openllm-client]: Remove: archive file [/home/abi/fetcher/tmp/openllm_client-0.5.0a9.tar.gz]
+[2024-05-27 20:23:03] INFO root fetch - main [MainThread]: End processing [openllm-client]: success
+[2024-05-27 20:23:03] INFO root fetch - processPackages [openllm-core]: Remove: archive file [/home/abi/fetcher/tmp/openllm_core-0.5.0a8.tar.gz]
+[2024-05-27 20:23:03] INFO root fetch - processPackages [openllm-core]: Remove: archive file [/home/abi/fetcher/tmp/openllm_core-0.5.0a9.tar.gz]
+[2024-05-27 20:23:03] INFO root fetch - main [MainThread]: End processing [openllm-core]: success
+[2024-05-27 20:23:03] INFO root fetch - processPackages [openllm]: Remove: archive file [/home/abi/fetcher/tmp/openllm-0.5.0a8.tar.gz]
+[2024-05-27 20:23:03] INFO root fetch - processPackages [openllm]: Remove: archive file [/home/abi/fetcher/tmp/openllm-0.5.0a9.tar.gz]
+[2024-05-27 20:23:03] INFO root fetch - main [MainThread]: End processing [openllm]: success
+[2024-05-27 20:23:03] INFO root fetch - main [MainThread]: Store serial: [23399746]
