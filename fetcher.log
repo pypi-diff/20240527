@@ -24184,3 +24184,44 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-05-27 20:07:30] INFO root fetch - processPackages [piperider-nightly]: Remove: archive file [/home/abi/fetcher/tmp/piperider-nightly-0.9.0.20220921.tar.gz]
 [2024-05-27 20:07:30] INFO root fetch - main [MainThread]: End processing [piperider-nightly]: success
 [2024-05-27 20:07:30] INFO root fetch - main [MainThread]: Store serial: [23399641]
+[2024-05-27 20:09:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23399641]
+[2024-05-27 20:09:39] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-27 20:09:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyabhata
+[2024-05-27 20:09:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-cfdi
+[2024-05-27 20:09:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: atopile
+[2024-05-27 20:09:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mlops-ai
+[2024-05-27 20:09:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bordersandpoints
+[2024-05-27 20:09:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: MedRoom.AI.DataEngineer
+[2024-05-27 20:09:40] WARNING root fetch - processPackages [bordersandpoints]: Skipping, unable to determine old version
+[2024-05-27 20:09:40] INFO root fetch - main [MainThread]: End processing [bordersandpoints] error
+[2024-05-27 20:09:40] INFO root fetch - processPackages [atopile]: New version: [0.3.0.dev0] Old Version: [0.2.9]
+[2024-05-27 20:09:40] WARNING root fetch - processPackages [pyabhata]: Skipping, unable to determine old version
+[2024-05-27 20:09:40] INFO root fetch - main [MainThread]: End processing [pyabhata] error
+[2024-05-27 20:09:40] INFO root fetch - processPackages [django-cfdi]: New version: [2.99] Old Version: [2.98]
+[2024-05-27 20:09:40] INFO root fetch - processPackages [MedRoom.AI.DataEngineer]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-27 20:09:40] INFO root fetch - processPackages [mlops-ai]: New version: [1.3.3] Old Version: [1.3.2]
+[2024-05-27 20:09:40] INFO root fetch - processPackages [django-cfdi]: Downloading https://files.pythonhosted.org/packages/d8/7d/d99ae3e7add96c4909780286d44633880055d97463ac4470484411b34ba8/django_cfdi-2.98-py3-none-any.whl
+[2024-05-27 20:09:40] INFO root fetch - processPackages [atopile]: Downloading https://files.pythonhosted.org/packages/b9/4b/f9ec536fd464d0e26a65a2027efe19630c4f5dbd38d7329e74df46ff0a91/atopile-0.2.9.tar.gz
+[2024-05-27 20:09:40] INFO root fetch - processPackages [mlops-ai]: Downloading https://files.pythonhosted.org/packages/77/e7/9c0bbc60829484f30f9bd95fc50b88be5b266d5ef968f11bb970a8a93aba/mlops-ai-1.3.2.tar.gz
+[2024-05-27 20:09:40] INFO root fetch - processPackages [MedRoom.AI.DataEngineer]: Downloading https://files.pythonhosted.org/packages/4a/41/90f0f5cf4de1d790206e38183cf6a6aa7b1445a2fa5492a55d4ab3a0f6b6/medroom_ai_dataengineer-0.0.7.tar.gz
+[2024-05-27 20:09:40] WARNING root fetch - processPackages [atopile]: Skipping package: exceeds size limit 25663075>=10485760
+[2024-05-27 20:09:40] INFO root fetch - main [MainThread]: End processing [atopile] error
+[2024-05-27 20:09:40] INFO root fetch - processPackages [mlops-ai]: Downloading https://files.pythonhosted.org/packages/2a/f9/fc7548dc6d3168a9b50fd68932795c631e441be7aa8f6f39dbd36bb92006/mlops_ai-1.3.3.tar.gz
+[2024-05-27 20:09:40] INFO root fetch - processPackages [django-cfdi]: Downloading https://files.pythonhosted.org/packages/68/29/ce9ebc4855819720b4e8fb4fee0d3d7ed2dd66bd0e56db087e971e65b112/django_cfdi-2.99-py3-none-any.whl
+[2024-05-27 20:09:40] INFO root fetch - processPackages [MedRoom.AI.DataEngineer]: Downloading https://files.pythonhosted.org/packages/be/da/dd5423be74823cdc763a70971dba74e6d4302b3ce4925848345e52176ecd/medroom_ai_dataengineer-0.0.8.tar.gz
+[2024-05-27 20:09:41] INFO root fetch - processPackages [mlops-ai]: executing diffoscope
+[2024-05-27 20:09:41] INFO root fetch - processPackages [mlops-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlops-ai-1.3.2.tar.gz tmp/mlops_ai-1.3.3.tar.gz --markdown 20240527/m/mlops-ai/1.3.2-1.3.3/README.md --exclude *.pyd
+[2024-05-27 20:09:41] INFO root fetch - processPackages [django-cfdi]: executing diffoscope
+[2024-05-27 20:09:41] INFO root fetch - processPackages [django-cfdi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_cfdi-2.98-py3-none-any.whl.zip tmp/django_cfdi-2.99-py3-none-any.whl.zip --markdown 20240527/d/django-cfdi/2.98-2.99/README.md --exclude *.pyd
+[2024-05-27 20:09:41] INFO root fetch - processPackages [MedRoom.AI.DataEngineer]: executing diffoscope
+[2024-05-27 20:09:41] INFO root fetch - processPackages [MedRoom.AI.DataEngineer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/medroom_ai_dataengineer-0.0.7.tar.gz tmp/medroom_ai_dataengineer-0.0.8.tar.gz --markdown 20240527/M/MedRoom.AI.DataEngineer/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-27 20:09:41] INFO root fetch - processPackages [MedRoom.AI.DataEngineer]: Remove: archive file [/home/abi/fetcher/tmp/medroom_ai_dataengineer-0.0.7.tar.gz]
+[2024-05-27 20:09:41] INFO root fetch - processPackages [MedRoom.AI.DataEngineer]: Remove: archive file [/home/abi/fetcher/tmp/medroom_ai_dataengineer-0.0.8.tar.gz]
+[2024-05-27 20:09:41] INFO root fetch - main [MainThread]: End processing [MedRoom.AI.DataEngineer]: success
+[2024-05-27 20:09:41] INFO root fetch - processPackages [mlops-ai]: Remove: archive file [/home/abi/fetcher/tmp/mlops-ai-1.3.2.tar.gz]
+[2024-05-27 20:09:41] INFO root fetch - processPackages [mlops-ai]: Remove: archive file [/home/abi/fetcher/tmp/mlops_ai-1.3.3.tar.gz]
+[2024-05-27 20:09:41] INFO root fetch - main [MainThread]: End processing [mlops-ai]: success
+[2024-05-27 20:09:43] INFO root fetch - processPackages [django-cfdi]: Remove: archive file [/home/abi/fetcher/tmp/django_cfdi-2.98-py3-none-any.whl.zip]
+[2024-05-27 20:09:43] INFO root fetch - processPackages [django-cfdi]: Remove: archive file [/home/abi/fetcher/tmp/django_cfdi-2.99-py3-none-any.whl.zip]
+[2024-05-27 20:09:43] INFO root fetch - main [MainThread]: End processing [django-cfdi]: success
+[2024-05-27 20:09:43] INFO root fetch - main [MainThread]: Store serial: [23399660]
