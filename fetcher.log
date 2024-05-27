@@ -23955,3 +23955,45 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-05-27 19:56:35] INFO root fetch - processPackages [openllm-core]: Remove: archive file [/home/abi/fetcher/tmp/openllm_core-0.5.0a9.tar.gz]
 [2024-05-27 19:56:35] INFO root fetch - main [MainThread]: End processing [openllm-core]: success
 [2024-05-27 19:56:35] INFO root fetch - main [MainThread]: Store serial: [23399517]
+[2024-05-27 19:58:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23399517]
+[2024-05-27 19:58:44] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-27 19:58:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: afeng-py-tools
+[2024-05-27 19:58:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tb1-parser
+[2024-05-27 19:58:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: promptic
+[2024-05-27 19:58:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aristotle-metadata-registry
+[2024-05-27 19:58:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pbc_sjfhsjfh
+[2024-05-27 19:58:44] INFO root fetch - processPackages [promptic]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-27 19:58:44] INFO root fetch - processPackages [pbc_sjfhsjfh]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-27 19:58:44] INFO root fetch - processPackages [afeng-py-tools]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-27 19:58:44] INFO root fetch - processPackages [tb1-parser]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-05-27 19:58:44] WARNING root fetch - processPackages [aristotle-metadata-registry]: Skipping, unable to determine old version
+[2024-05-27 19:58:44] INFO root fetch - main [MainThread]: End processing [aristotle-metadata-registry] error
+[2024-05-27 19:58:44] INFO root fetch - processPackages [promptic]: Downloading https://files.pythonhosted.org/packages/dc/0c/893ca3b18e2c4e8822ccebb33740a78af3bf2dec57673ccc87d61de7b4ea/promptic-0.1.1.tar.gz
+[2024-05-27 19:58:44] INFO root fetch - processPackages [afeng-py-tools]: Downloading https://files.pythonhosted.org/packages/03/96/e24f6bbf418707708ed1ab31dd8f4af000cdfcd56c3955e6bcf876e28182/afeng-py-tools-0.0.98.tar.gz
+[2024-05-27 19:58:44] INFO root fetch - processPackages [pbc_sjfhsjfh]: Downloading https://files.pythonhosted.org/packages/48/22/127f6942a0c76e72716ddce41776ac55d6762ec1138ba33ee1c0588f1799/pbc_sjfhsjfh-0.0.1.tar.gz
+[2024-05-27 19:58:44] INFO root fetch - processPackages [tb1-parser]: Downloading https://files.pythonhosted.org/packages/ef/8e/2e70c2bd2c301a2bfe9b5bcb8e9ee4cde307a7fbee6801bf6e6eb56b8ddc/tb1_parser-1.0.4.tar.gz
+[2024-05-27 19:58:44] INFO root fetch - processPackages [afeng-py-tools]: Downloading https://files.pythonhosted.org/packages/b2/0a/41c6034fd5c224a859e4249b1b09e63d7acefba4ae5ac80d406a778a1e32/afeng-py-tools-0.0.99.tar.gz
+[2024-05-27 19:58:44] INFO root fetch - processPackages [promptic]: Downloading https://files.pythonhosted.org/packages/f3/e1/9195a19cff12cb5b36ed4a63439256a6e669a141556da77dabb0247fec23/promptic-0.1.2.tar.gz
+[2024-05-27 19:58:44] INFO root fetch - processPackages [tb1-parser]: Downloading https://files.pythonhosted.org/packages/f3/c7/a949cb7f69912ca9cab74b8018fce070af0c3560757f21c54d91372f2f1c/tb1_parser-1.0.5.tar.gz
+[2024-05-27 19:58:44] INFO root fetch - processPackages [promptic]: executing diffoscope
+[2024-05-27 19:58:44] INFO root fetch - processPackages [promptic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/promptic-0.1.1.tar.gz tmp/promptic-0.1.2.tar.gz --markdown 20240527/p/promptic/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-27 19:58:44] INFO root fetch - processPackages [afeng-py-tools]: executing diffoscope
+[2024-05-27 19:58:44] INFO root fetch - processPackages [afeng-py-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/afeng-py-tools-0.0.98.tar.gz tmp/afeng-py-tools-0.0.99.tar.gz --markdown 20240527/a/afeng-py-tools/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-27 19:58:44] INFO root fetch - processPackages [pbc_sjfhsjfh]: Downloading https://files.pythonhosted.org/packages/4d/08/9536dfa1a91498198420b601f9e07d51a59fd3a6eff4f19bdd7ac8332f8e/pbc_sjfhsjfh-0.0.2.tar.gz
+[2024-05-27 19:58:45] INFO root fetch - processPackages [tb1-parser]: executing diffoscope
+[2024-05-27 19:58:45] INFO root fetch - processPackages [tb1-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tb1_parser-1.0.4.tar.gz tmp/tb1_parser-1.0.5.tar.gz --markdown 20240527/t/tb1-parser/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-05-27 19:58:45] INFO root fetch - processPackages [pbc_sjfhsjfh]: executing diffoscope
+[2024-05-27 19:58:45] INFO root fetch - processPackages [pbc_sjfhsjfh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pbc_sjfhsjfh-0.0.1.tar.gz tmp/pbc_sjfhsjfh-0.0.2.tar.gz --markdown 20240527/p/pbc_sjfhsjfh/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-27 19:58:45] INFO root fetch - processPackages [promptic]: Remove: archive file [/home/abi/fetcher/tmp/promptic-0.1.1.tar.gz]
+[2024-05-27 19:58:45] INFO root fetch - processPackages [promptic]: Remove: archive file [/home/abi/fetcher/tmp/promptic-0.1.2.tar.gz]
+[2024-05-27 19:58:45] INFO root fetch - main [MainThread]: End processing [promptic]: success
+[2024-05-27 19:58:45] INFO root fetch - processPackages [pbc_sjfhsjfh]: Remove: archive file [/home/abi/fetcher/tmp/pbc_sjfhsjfh-0.0.1.tar.gz]
+[2024-05-27 19:58:45] INFO root fetch - processPackages [pbc_sjfhsjfh]: Remove: archive file [/home/abi/fetcher/tmp/pbc_sjfhsjfh-0.0.2.tar.gz]
+[2024-05-27 19:58:45] INFO root fetch - main [MainThread]: End processing [pbc_sjfhsjfh]: success
+[2024-05-27 19:58:45] INFO root fetch - processPackages [tb1-parser]: Remove: archive file [/home/abi/fetcher/tmp/tb1_parser-1.0.4.tar.gz]
+[2024-05-27 19:58:45] INFO root fetch - processPackages [tb1-parser]: Remove: archive file [/home/abi/fetcher/tmp/tb1_parser-1.0.5.tar.gz]
+[2024-05-27 19:58:45] INFO root fetch - main [MainThread]: End processing [tb1-parser]: success
+[2024-05-27 19:58:46] INFO root fetch - processPackages [afeng-py-tools]: Remove: archive file [/home/abi/fetcher/tmp/afeng-py-tools-0.0.98.tar.gz]
+[2024-05-27 19:58:46] INFO root fetch - processPackages [afeng-py-tools]: Remove: archive file [/home/abi/fetcher/tmp/afeng-py-tools-0.0.99.tar.gz]
+[2024-05-27 19:58:46] INFO root fetch - main [MainThread]: End processing [afeng-py-tools]: success
+[2024-05-27 19:58:46] INFO root fetch - main [MainThread]: Store serial: [23399533]
