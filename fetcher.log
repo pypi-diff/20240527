@@ -2883,3 +2883,60 @@
 [2024-05-27 03:38:08] INFO root fetch - processPackages [ricklib]: Remove: archive file [/home/abi/fetcher/tmp/ricklib-0.0.3.tar.gz]
 [2024-05-27 03:38:08] INFO root fetch - main [MainThread]: End processing [ricklib]: success
 [2024-05-27 03:38:08] INFO root fetch - main [MainThread]: Store serial: [23389472]
+[2024-05-27 03:40:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23389472]
+[2024-05-27 03:40:16] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-27 03:40:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyAgrum-nightly
+[2024-05-27 03:40:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lambkid
+[2024-05-27 03:40:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-contact-form
+[2024-05-27 03:40:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyshared
+[2024-05-27 03:40:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: crossword-puzzle
+[2024-05-27 03:40:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lckytools
+[2024-05-27 03:40:17] INFO root fetch - processPackages [lckytools]: New version: [0.0.0b2] Old Version: [0.0.0b1]
+[2024-05-27 03:40:17] INFO root fetch - processPackages [lambkid]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-27 03:40:17] INFO root fetch - processPackages [pyshared]: New version: [1.6.0] Old Version: [1.5.9]
+[2024-05-27 03:40:17] INFO root fetch - processPackages [django-contact-form]: New version: [5.0.0] Old Version: [2.1]
+[2024-05-27 03:40:17] INFO root fetch - processPackages [crossword-puzzle]: New version: [1.2.80] Old Version: [1.2.79]
+[2024-05-27 03:40:17] INFO root fetch - processPackages [lckytools]: Downloading https://files.pythonhosted.org/packages/da/c6/7e131262aa1732e26915880d4ba228f115ec12ab8b4c1123e814847e85e0/lckytools-0.0.0b1.tar.gz
+[2024-05-27 03:40:17] INFO root fetch - processPackages [pyAgrum-nightly]: New version: [1.9.0.9.dev202310191697564854] Old Version: [1.9.0.9.dev202310181697564854]
+[2024-05-27 03:40:17] INFO root fetch - processPackages [lambkid]: Downloading https://files.pythonhosted.org/packages/6f/46/7597727f6429e38c8af1a2adb26e36441c90aa10f212c74b1c22359d2ead/lambkid-0.2.8.tar.gz
+[2024-05-27 03:40:17] INFO root fetch - processPackages [crossword-puzzle]: Downloading https://files.pythonhosted.org/packages/be/c6/d5a1942e9382c8d83538b3e0a6630eda844f3dbea0e5f447ae5e7421fbe6/crossword_puzzle-1.2.79.tar.gz
+[2024-05-27 03:40:17] INFO root fetch - processPackages [django-contact-form]: Downloading https://files.pythonhosted.org/packages/88/5f/127b499184466c47ed4cd7559284ebcd8638d6dc6d4ba122477632f89f28/django-contact-form-2.1.tar.gz
+[2024-05-27 03:40:17] INFO root fetch - processPackages [pyshared]: Downloading https://files.pythonhosted.org/packages/41/09/9d32287f1f28056abe192b5d36ad3aff95a2c20093e881b927257954b434/pyshared-1.5.9.tar.gz
+[2024-05-27 03:40:17] INFO root fetch - processPackages [pyAgrum-nightly]: Downloading https://files.pythonhosted.org/packages/64/23/4308469c4be3abcfc53ec2ccbd7dcca1618077035522cae4b364a9c6cc56/pyAgrum_nightly-1.9.0.9.dev202310181697564854-cp39-cp39-win_amd64.whl
+[2024-05-27 03:40:17] INFO root fetch - processPackages [lckytools]: Downloading https://files.pythonhosted.org/packages/b1/ae/68fbc393a4d2ba15bd87212ff14f668cf44cc4f44d668d2ac308f19d3a1e/lckytools-0.0.0b2.tar.gz
+[2024-05-27 03:40:17] INFO root fetch - processPackages [lambkid]: Downloading https://files.pythonhosted.org/packages/d6/7b/b5898eaa5a37ce04bb4592b4f2b399e69a8d2b2671e39cff54e16f5b05c8/lambkid-0.2.9.tar.gz
+[2024-05-27 03:40:17] INFO root fetch - processPackages [django-contact-form]: Downloading https://files.pythonhosted.org/packages/fb/d1/31ded422f3bd0a1ffd871230608c5f0df5b53efac1ae19e89e6c675262cd/django_contact_form-5.0.0.tar.gz
+[2024-05-27 03:40:17] INFO root fetch - processPackages [pyshared]: Downloading https://files.pythonhosted.org/packages/4d/84/3192d999829345377ae13044f7254b36422ce5c5c62f110d4b1aff96a2cd/pyshared-1.6.0.tar.gz
+[2024-05-27 03:40:17] INFO root fetch - processPackages [lckytools]: executing diffoscope
+[2024-05-27 03:40:17] INFO root fetch - processPackages [lckytools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lckytools-0.0.0b1.tar.gz tmp/lckytools-0.0.0b2.tar.gz --markdown 20240527/l/lckytools/0.0.0b1-0.0.0b2/README.md --exclude *.pyd
+[2024-05-27 03:40:17] INFO root fetch - processPackages [lambkid]: executing diffoscope
+[2024-05-27 03:40:17] INFO root fetch - processPackages [lambkid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lambkid-0.2.8.tar.gz tmp/lambkid-0.2.9.tar.gz --markdown 20240527/l/lambkid/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-27 03:40:17] INFO root fetch - processPackages [django-contact-form]: executing diffoscope
+[2024-05-27 03:40:17] INFO root fetch - processPackages [django-contact-form]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-contact-form-2.1.tar.gz tmp/django_contact_form-5.0.0.tar.gz --markdown 20240527/d/django-contact-form/2.1-5.0.0/README.md --exclude *.pyd
+[2024-05-27 03:40:17] INFO root fetch - processPackages [pyshared]: executing diffoscope
+[2024-05-27 03:40:17] INFO root fetch - processPackages [pyshared]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyshared-1.5.9.tar.gz tmp/pyshared-1.6.0.tar.gz --markdown 20240527/p/pyshared/1.5.9-1.6.0/README.md --exclude *.pyd
+[2024-05-27 03:40:17] INFO root fetch - processPackages [crossword-puzzle]: Downloading https://files.pythonhosted.org/packages/4b/b8/01c2c509b0fb42c03d208b6ce47046ce222a806f7adb4e3e6f90ac86994a/crossword_puzzle-1.2.80.tar.gz
+[2024-05-27 03:40:17] INFO root fetch - processPackages [pyAgrum-nightly]: Downloading https://files.pythonhosted.org/packages/84/cc/6d2d3b13a2080cfbfa9792321774075d119b4fa37902c5a9d93d8eccf13d/pyAgrum_nightly-1.9.0.9.dev202310191697564854-cp39-cp39-win_amd64.whl
+[2024-05-27 03:40:18] INFO root fetch - processPackages [crossword-puzzle]: executing diffoscope
+[2024-05-27 03:40:18] INFO root fetch - processPackages [crossword-puzzle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crossword_puzzle-1.2.79.tar.gz tmp/crossword_puzzle-1.2.80.tar.gz --markdown 20240527/c/crossword-puzzle/1.2.79-1.2.80/README.md --exclude *.pyd
+[2024-05-27 03:40:18] INFO root fetch - processPackages [pyAgrum-nightly]: executing diffoscope
+[2024-05-27 03:40:18] INFO root fetch - processPackages [pyAgrum-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyAgrum_nightly-1.9.0.9.dev202310181697564854-cp39-cp39-win_amd64.whl.zip tmp/pyAgrum_nightly-1.9.0.9.dev202310191697564854-cp39-cp39-win_amd64.whl.zip --markdown 20240527/p/pyAgrum-nightly/1.9.0.9.dev202310181697564854-1.9.0.9.dev202310191697564854/README.md --exclude *.pyd
+[2024-05-27 03:40:18] INFO root fetch - processPackages [lckytools]: Remove: archive file [/home/abi/fetcher/tmp/lckytools-0.0.0b1.tar.gz]
+[2024-05-27 03:40:18] INFO root fetch - processPackages [lckytools]: Remove: archive file [/home/abi/fetcher/tmp/lckytools-0.0.0b2.tar.gz]
+[2024-05-27 03:40:18] INFO root fetch - main [MainThread]: End processing [lckytools]: success
+[2024-05-27 03:40:18] INFO root fetch - processPackages [lambkid]: Remove: archive file [/home/abi/fetcher/tmp/lambkid-0.2.8.tar.gz]
+[2024-05-27 03:40:18] INFO root fetch - processPackages [lambkid]: Remove: archive file [/home/abi/fetcher/tmp/lambkid-0.2.9.tar.gz]
+[2024-05-27 03:40:18] INFO root fetch - main [MainThread]: End processing [lambkid]: success
+[2024-05-27 03:40:18] INFO root fetch - processPackages [pyshared]: Remove: archive file [/home/abi/fetcher/tmp/pyshared-1.5.9.tar.gz]
+[2024-05-27 03:40:18] INFO root fetch - processPackages [pyshared]: Remove: archive file [/home/abi/fetcher/tmp/pyshared-1.6.0.tar.gz]
+[2024-05-27 03:40:18] INFO root fetch - main [MainThread]: End processing [pyshared]: success
+[2024-05-27 03:40:18] INFO root fetch - processPackages [django-contact-form]: Remove: archive file [/home/abi/fetcher/tmp/django-contact-form-2.1.tar.gz]
+[2024-05-27 03:40:18] INFO root fetch - processPackages [django-contact-form]: Remove: archive file [/home/abi/fetcher/tmp/django_contact_form-5.0.0.tar.gz]
+[2024-05-27 03:40:18] INFO root fetch - main [MainThread]: End processing [django-contact-form]: success
+[2024-05-27 03:40:18] INFO root fetch - processPackages [pyAgrum-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyAgrum_nightly-1.9.0.9.dev202310181697564854-cp39-cp39-win_amd64.whl.zip]
+[2024-05-27 03:40:18] INFO root fetch - processPackages [pyAgrum-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyAgrum_nightly-1.9.0.9.dev202310191697564854-cp39-cp39-win_amd64.whl.zip]
+[2024-05-27 03:40:18] INFO root fetch - main [MainThread]: End processing [pyAgrum-nightly]: success
+[2024-05-27 03:40:38] INFO root fetch - processPackages [crossword-puzzle]: Remove: archive file [/home/abi/fetcher/tmp/crossword_puzzle-1.2.79.tar.gz]
+[2024-05-27 03:40:38] INFO root fetch - processPackages [crossword-puzzle]: Remove: archive file [/home/abi/fetcher/tmp/crossword_puzzle-1.2.80.tar.gz]
+[2024-05-27 03:40:38] INFO root fetch - main [MainThread]: End processing [crossword-puzzle]: success
+[2024-05-27 03:40:38] INFO root fetch - main [MainThread]: Store serial: [23389512]
