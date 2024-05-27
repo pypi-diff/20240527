@@ -4939,3 +4939,15 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 05:55:11] INFO root fetch - processPackages [pyVIA]: Remove: archive file [/home/abi/fetcher/tmp/pyVIA-0.2.0.tar.gz]
 [2024-05-27 05:55:11] INFO root fetch - main [MainThread]: End processing [pyVIA]: success
 [2024-05-27 05:55:11] INFO root fetch - main [MainThread]: Store serial: [23390398]
+[2024-05-27 05:57:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23390398]
+[2024-05-27 05:57:19] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-27 05:57:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: project-utils-config
+[2024-05-27 05:57:19] INFO root fetch - processPackages [project-utils-config]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-05-27 05:57:20] INFO root fetch - processPackages [project-utils-config]: Downloading https://files.pythonhosted.org/packages/70/d6/e44a330b14647ca360ad4e30c766702156abe478c5c8f313c7b7aef0e57b/project-utils-config-1.1.1.tar.gz
+[2024-05-27 05:57:20] INFO root fetch - processPackages [project-utils-config]: Downloading https://files.pythonhosted.org/packages/93/69/f121d5420e14ada76a2983486773c6c2d6a3e53d6f8bc61d388432f25547/project-utils-config-1.1.2.tar.gz
+[2024-05-27 05:57:20] INFO root fetch - processPackages [project-utils-config]: executing diffoscope
+[2024-05-27 05:57:20] INFO root fetch - processPackages [project-utils-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/project-utils-config-1.1.1.tar.gz tmp/project-utils-config-1.1.2.tar.gz --markdown 20240527/p/project-utils-config/1.1.1-1.1.2/README.md --exclude *.pyd
+[2024-05-27 05:57:21] INFO root fetch - processPackages [project-utils-config]: Remove: archive file [/home/abi/fetcher/tmp/project-utils-config-1.1.1.tar.gz]
+[2024-05-27 05:57:21] INFO root fetch - processPackages [project-utils-config]: Remove: archive file [/home/abi/fetcher/tmp/project-utils-config-1.1.2.tar.gz]
+[2024-05-27 05:57:21] INFO root fetch - main [MainThread]: End processing [project-utils-config]: success
+[2024-05-27 05:57:21] INFO root fetch - main [MainThread]: Store serial: [23390401]
