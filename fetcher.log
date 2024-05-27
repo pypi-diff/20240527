@@ -9366,3 +9366,65 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 10:21:24] INFO root fetch - processPackages [locust]: Remove: archive file [/home/abi/fetcher/tmp/locust-2.9.1.dev45.tar.gz]
 [2024-05-27 10:21:24] INFO root fetch - main [MainThread]: End processing [locust]: success
 [2024-05-27 10:21:24] INFO root fetch - main [MainThread]: Store serial: [23392505]
+[2024-05-27 10:23:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23392505]
+[2024-05-27 10:23:33] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-27 10:23:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cadwyn
+[2024-05-27 10:23:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fink-filters
+[2024-05-27 10:23:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dao-analyzer
+[2024-05-27 10:23:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: daktari
+[2024-05-27 10:23:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-purchase-sale-link-by-origin
+[2024-05-27 10:23:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kkutils
+[2024-05-27 10:23:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: logs-ingestion
+[2024-05-27 10:23:34] INFO root fetch - processPackages [cadwyn]: New version: [3.9.1] Old Version: [3.9.0]
+[2024-05-27 10:23:34] INFO root fetch - processPackages [daktari]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-27 10:23:34] INFO root fetch - processPackages [cadwyn]: Downloading https://files.pythonhosted.org/packages/a3/4f/7b4a2bd12c03b455e251a3dc2d4e5cea1a278c3b661f83d9f1ae71ec61af/cadwyn-3.9.0.tar.gz
+[2024-05-27 10:23:34] INFO root fetch - processPackages [kkutils]: New version: [1.6.9] Old Version: [1.6.8]
+[2024-05-27 10:23:34] INFO root fetch - processPackages [logs-ingestion]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-05-27 10:23:34] INFO root fetch - processPackages [odoo-addon-purchase-sale-link-by-origin]: New version: [17.0.1.0.0.2] Old Version: [16.0.1.0.0.6]
+[2024-05-27 10:23:34] INFO root fetch - processPackages [fink-filters]: New version: [3.9] Old Version: [3.8]
+[2024-05-27 10:23:34] INFO root fetch - processPackages [dao-analyzer]: New version: [1.3.2.dev2] Old Version: [1.3.1]
+[2024-05-27 10:23:34] INFO root fetch - processPackages [dao-analyzer]: Downloading https://files.pythonhosted.org/packages/3c/4f/211e1e44dc227f59c433169dc91c164ddbddd919577843f9d5f3b59dd323/dao_analyzer-1.3.1.tar.gz
+[2024-05-27 10:23:34] INFO root fetch - processPackages [daktari]: Downloading https://files.pythonhosted.org/packages/80/e2/e763e02669b3c5003eab9a1d3f23a8c11ddea7b9843baca75d4a3f67dfd1/daktari-0.0.98.tar.gz
+[2024-05-27 10:23:34] INFO root fetch - processPackages [kkutils]: Downloading https://files.pythonhosted.org/packages/af/ae/909cbcaa287367b30314d6724810267283b9011ed8252b67830a2e1dfbcb/kkutils-1.6.8.tar.gz
+[2024-05-27 10:23:34] INFO root fetch - processPackages [cadwyn]: Downloading https://files.pythonhosted.org/packages/db/ba/b60a6ff319798df485be894e718a016136ad97356e18ed27a805f3bbab7c/cadwyn-3.9.1.tar.gz
+[2024-05-27 10:23:34] INFO root fetch - processPackages [odoo-addon-purchase-sale-link-by-origin]: Downloading https://files.pythonhosted.org/packages/4a/59/6970a907764636473ca0428dbac5f712837084ab72e734ba724f701b6b3b/odoo_addon_purchase_sale_link_by_origin-16.0.1.0.0.6-py3-none-any.whl
+[2024-05-27 10:23:34] INFO root fetch - processPackages [logs-ingestion]: Downloading https://files.pythonhosted.org/packages/61/d6/15ceb626f7d34e9c5ff85cf3df11c381e8b269be102949b7bc42f9ad32a2/logs_ingestion-0.2.2.tar.gz
+[2024-05-27 10:23:34] INFO root fetch - processPackages [fink-filters]: Downloading https://files.pythonhosted.org/packages/ad/03/a1e30cd9ef3fd94bad1a3a4191fe94f321e88803bceeeb3342e49219b4af/fink-filters-3.8.tar.gz
+[2024-05-27 10:23:34] WARNING root fetch - processPackages [fink-filters]: Skipping package: exceeds size limit 10772648>=10485760
+[2024-05-27 10:23:34] INFO root fetch - main [MainThread]: End processing [fink-filters] error
+[2024-05-27 10:23:34] INFO root fetch - processPackages [cadwyn]: executing diffoscope
+[2024-05-27 10:23:34] INFO root fetch - processPackages [cadwyn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cadwyn-3.9.0.tar.gz tmp/cadwyn-3.9.1.tar.gz --markdown 20240527/c/cadwyn/3.9.0-3.9.1/README.md --exclude *.pyd
+[2024-05-27 10:23:34] INFO root fetch - processPackages [daktari]: Downloading https://files.pythonhosted.org/packages/35/1f/9e7becfab4e84e6879ca6968ba9f3963734de77bebf086053003ea27839c/daktari-0.0.99.tar.gz
+[2024-05-27 10:23:34] INFO root fetch - processPackages [kkutils]: Downloading https://files.pythonhosted.org/packages/30/a6/2a8edab1267fc918b56cdf809360af607087791aade388b3209336fd5420/kkutils-1.6.9.tar.gz
+[2024-05-27 10:23:34] INFO root fetch - processPackages [daktari]: executing diffoscope
+[2024-05-27 10:23:34] INFO root fetch - processPackages [daktari]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/daktari-0.0.98.tar.gz tmp/daktari-0.0.99.tar.gz --markdown 20240527/d/daktari/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-27 10:23:34] INFO root fetch - processPackages [dao-analyzer]: Downloading https://files.pythonhosted.org/packages/f2/02/2d231e6aecfb006c7ff4999facffbc7f3bff6886f02f434fc7f63f50f14e/dao_analyzer-1.3.2.dev2.tar.gz
+[2024-05-27 10:23:34] INFO root fetch - processPackages [odoo-addon-purchase-sale-link-by-origin]: Downloading https://files.pythonhosted.org/packages/5f/70/591998d8737cea58edcf26a436e99864d8184c0d57c715768d2636aadfe6/odoo_addon_purchase_sale_link_by_origin-17.0.1.0.0.2-py3-none-any.whl
+[2024-05-27 10:23:34] INFO root fetch - processPackages [logs-ingestion]: Downloading https://files.pythonhosted.org/packages/3b/36/97e776b4525bd18c54d6f6718d4caea1897e4c3c909f5ba36b993f27a43f/logs_ingestion-0.2.3.tar.gz
+[2024-05-27 10:23:34] INFO root fetch - processPackages [odoo-addon-purchase-sale-link-by-origin]: executing diffoscope
+[2024-05-27 10:23:34] INFO root fetch - processPackages [odoo-addon-purchase-sale-link-by-origin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_purchase_sale_link_by_origin-16.0.1.0.0.6-py3-none-any.whl.zip tmp/odoo_addon_purchase_sale_link_by_origin-17.0.1.0.0.2-py3-none-any.whl.zip --markdown 20240527/o/odoo-addon-purchase-sale-link-by-origin/16.0.1.0.0.6-17.0.1.0.0.2/README.md --exclude *.pyd
+[2024-05-27 10:23:34] INFO root fetch - processPackages [kkutils]: executing diffoscope
+[2024-05-27 10:23:34] INFO root fetch - processPackages [kkutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kkutils-1.6.8.tar.gz tmp/kkutils-1.6.9.tar.gz --markdown 20240527/k/kkutils/1.6.8-1.6.9/README.md --exclude *.pyd
+[2024-05-27 10:23:34] INFO root fetch - processPackages [logs-ingestion]: executing diffoscope
+[2024-05-27 10:23:34] INFO root fetch - processPackages [logs-ingestion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logs_ingestion-0.2.2.tar.gz tmp/logs_ingestion-0.2.3.tar.gz --markdown 20240527/l/logs-ingestion/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-05-27 10:23:34] INFO root fetch - processPackages [dao-analyzer]: executing diffoscope
+[2024-05-27 10:23:34] INFO root fetch - processPackages [dao-analyzer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dao_analyzer-1.3.1.tar.gz tmp/dao_analyzer-1.3.2.dev2.tar.gz --markdown 20240527/d/dao-analyzer/1.3.1-1.3.2.dev2/README.md --exclude *.pyd
+[2024-05-27 10:23:35] INFO root fetch - processPackages [cadwyn]: Remove: archive file [/home/abi/fetcher/tmp/cadwyn-3.9.0.tar.gz]
+[2024-05-27 10:23:35] INFO root fetch - processPackages [cadwyn]: Remove: archive file [/home/abi/fetcher/tmp/cadwyn-3.9.1.tar.gz]
+[2024-05-27 10:23:35] INFO root fetch - main [MainThread]: End processing [cadwyn]: success
+[2024-05-27 10:23:35] INFO root fetch - processPackages [daktari]: Remove: archive file [/home/abi/fetcher/tmp/daktari-0.0.98.tar.gz]
+[2024-05-27 10:23:35] INFO root fetch - processPackages [daktari]: Remove: archive file [/home/abi/fetcher/tmp/daktari-0.0.99.tar.gz]
+[2024-05-27 10:23:35] INFO root fetch - main [MainThread]: End processing [daktari]: success
+[2024-05-27 10:23:35] INFO root fetch - processPackages [logs-ingestion]: Remove: archive file [/home/abi/fetcher/tmp/logs_ingestion-0.2.2.tar.gz]
+[2024-05-27 10:23:35] INFO root fetch - processPackages [logs-ingestion]: Remove: archive file [/home/abi/fetcher/tmp/logs_ingestion-0.2.3.tar.gz]
+[2024-05-27 10:23:35] INFO root fetch - main [MainThread]: End processing [logs-ingestion]: success
+[2024-05-27 10:23:35] INFO root fetch - processPackages [odoo-addon-purchase-sale-link-by-origin]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_sale_link_by_origin-16.0.1.0.0.6-py3-none-any.whl.zip]
+[2024-05-27 10:23:35] INFO root fetch - processPackages [odoo-addon-purchase-sale-link-by-origin]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_sale_link_by_origin-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-05-27 10:23:35] INFO root fetch - main [MainThread]: End processing [odoo-addon-purchase-sale-link-by-origin]: success
+[2024-05-27 10:23:35] INFO root fetch - processPackages [kkutils]: Remove: archive file [/home/abi/fetcher/tmp/kkutils-1.6.8.tar.gz]
+[2024-05-27 10:23:35] INFO root fetch - processPackages [kkutils]: Remove: archive file [/home/abi/fetcher/tmp/kkutils-1.6.9.tar.gz]
+[2024-05-27 10:23:35] INFO root fetch - main [MainThread]: End processing [kkutils]: success
+[2024-05-27 10:23:36] INFO root fetch - processPackages [dao-analyzer]: Remove: archive file [/home/abi/fetcher/tmp/dao_analyzer-1.3.1.tar.gz]
+[2024-05-27 10:23:36] INFO root fetch - processPackages [dao-analyzer]: Remove: archive file [/home/abi/fetcher/tmp/dao_analyzer-1.3.2.dev2.tar.gz]
+[2024-05-27 10:23:36] INFO root fetch - main [MainThread]: End processing [dao-analyzer]: success
+[2024-05-27 10:23:36] INFO root fetch - main [MainThread]: Store serial: [23392553]
