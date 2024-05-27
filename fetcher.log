@@ -3403,3 +3403,36 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2024-05-27 04:10:55] INFO root fetch - processPackages [alacorder]: Remove: archive file [/home/abi/fetcher/tmp/alacorder-81.2.9.tar.gz]
 [2024-05-27 04:10:55] INFO root fetch - main [MainThread]: End processing [alacorder]: success
 [2024-05-27 04:10:55] INFO root fetch - main [MainThread]: Store serial: [23389652]
+[2024-05-27 04:12:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23389652]
+[2024-05-27 04:13:03] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-27 04:13:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: timetrace
+[2024-05-27 04:13:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vpn-server
+[2024-05-27 04:13:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: makepyz
+[2024-05-27 04:13:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: baml-py
+[2024-05-27 04:13:03] INFO root fetch - processPackages [baml-py]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-27 04:13:03] INFO root fetch - processPackages [makepyz]: New version: [0.0.1b33] Old Version: [0.0.1b32]
+[2024-05-27 04:13:03] INFO root fetch - processPackages [baml-py]: Downloading https://files.pythonhosted.org/packages/e9/42/107de39e54932745ce1b6948b52cab9a47b2f4440f9cd2e7c9afe8338e17/baml_py-0.1.8-cp38-abi3-win_amd64.whl
+[2024-05-27 04:13:03] WARNING root fetch - processPackages [timetrace]: Skipping, unable to determine old version
+[2024-05-27 04:13:03] INFO root fetch - main [MainThread]: End processing [timetrace] error
+[2024-05-27 04:13:03] INFO root fetch - processPackages [vpn-server]: New version: [1.7.1] Old Version: [1.7]
+[2024-05-27 04:13:03] INFO root fetch - processPackages [makepyz]: Downloading https://files.pythonhosted.org/packages/1c/19/02bb6ea9596327e2f53899a8da18174843b2e7bb31c8f105f88e902ff34b/makepyz-0.0.1b32.tar.gz
+[2024-05-27 04:13:04] INFO root fetch - processPackages [vpn-server]: Downloading https://files.pythonhosted.org/packages/d6/d4/c98d204aeb2c650f2cbc93c3a565a7a4e1f15196fb59f8113d2a46fcbce8/vpn_server-1.7-py3-none-any.whl
+[2024-05-27 04:13:04] INFO root fetch - processPackages [baml-py]: Downloading https://files.pythonhosted.org/packages/3e/87/fcf0a5417f646d138f5db6819b2d7110f5c8440298d8d7b11ecaf5711660/baml_py-0.1.9-cp38-abi3-win_amd64.whl
+[2024-05-27 04:13:04] INFO root fetch - processPackages [makepyz]: Downloading https://files.pythonhosted.org/packages/14/1f/a10ff42dff23f1fb214792414453204b9b0bdf1c188cbf657684e13a02ed/makepyz-0.0.1b33.tar.gz
+[2024-05-27 04:13:04] INFO root fetch - processPackages [vpn-server]: Downloading https://files.pythonhosted.org/packages/bf/1f/05da138933bf29263f47445a866c3814a9f3f8a720b037aeb83a7718cd54/vpn_server-1.7.1-py3-none-any.whl
+[2024-05-27 04:13:04] INFO root fetch - processPackages [makepyz]: executing diffoscope
+[2024-05-27 04:13:04] INFO root fetch - processPackages [makepyz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/makepyz-0.0.1b32.tar.gz tmp/makepyz-0.0.1b33.tar.gz --markdown 20240527/m/makepyz/0.0.1b32-0.0.1b33/README.md --exclude *.pyd
+[2024-05-27 04:13:04] INFO root fetch - processPackages [vpn-server]: executing diffoscope
+[2024-05-27 04:13:04] INFO root fetch - processPackages [vpn-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vpn_server-1.7-py3-none-any.whl.zip tmp/vpn_server-1.7.1-py3-none-any.whl.zip --markdown 20240527/v/vpn-server/1.7-1.7.1/README.md --exclude *.pyd
+[2024-05-27 04:13:04] INFO root fetch - processPackages [baml-py]: executing diffoscope
+[2024-05-27 04:13:04] INFO root fetch - processPackages [baml-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/baml_py-0.1.8-cp38-abi3-win_amd64.whl.zip tmp/baml_py-0.1.9-cp38-abi3-win_amd64.whl.zip --markdown 20240527/b/baml-py/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-27 04:13:05] INFO root fetch - processPackages [makepyz]: Remove: archive file [/home/abi/fetcher/tmp/makepyz-0.0.1b32.tar.gz]
+[2024-05-27 04:13:05] INFO root fetch - processPackages [makepyz]: Remove: archive file [/home/abi/fetcher/tmp/makepyz-0.0.1b33.tar.gz]
+[2024-05-27 04:13:05] INFO root fetch - main [MainThread]: End processing [makepyz]: success
+[2024-05-27 04:13:05] INFO root fetch - processPackages [vpn-server]: Remove: archive file [/home/abi/fetcher/tmp/vpn_server-1.7-py3-none-any.whl.zip]
+[2024-05-27 04:13:05] INFO root fetch - processPackages [vpn-server]: Remove: archive file [/home/abi/fetcher/tmp/vpn_server-1.7.1-py3-none-any.whl.zip]
+[2024-05-27 04:13:05] INFO root fetch - main [MainThread]: End processing [vpn-server]: success
+[2024-05-27 04:13:05] INFO root fetch - processPackages [baml-py]: Remove: archive file [/home/abi/fetcher/tmp/baml_py-0.1.8-cp38-abi3-win_amd64.whl.zip]
+[2024-05-27 04:13:05] INFO root fetch - processPackages [baml-py]: Remove: archive file [/home/abi/fetcher/tmp/baml_py-0.1.9-cp38-abi3-win_amd64.whl.zip]
+[2024-05-27 04:13:05] INFO root fetch - main [MainThread]: End processing [baml-py]: success
+[2024-05-27 04:13:05] INFO root fetch - main [MainThread]: Store serial: [23389670]
