@@ -18741,3 +18741,90 @@ EOFError: EOF read where object expected
 [2024-05-27 16:27:41] INFO root fetch - processPackages [objectbox]: Remove: archive file [/home/abi/fetcher/tmp/objectbox-4.0.0a2-py3-none-any.whl.zip]
 [2024-05-27 16:27:41] INFO root fetch - main [MainThread]: End processing [objectbox]: success
 [2024-05-27 16:27:41] INFO root fetch - main [MainThread]: Store serial: [23396997]
+[2024-05-27 16:29:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23396997]
+[2024-05-27 16:29:59] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-27 16:29:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: whisper-ctranslate2
+[2024-05-27 16:29:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pynonymizer
+[2024-05-27 16:29:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dicio-py
+[2024-05-27 16:29:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aesthetic-predictor-v2-5
+[2024-05-27 16:29:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: alfasim-sdk
+[2024-05-27 16:29:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ood_detectors
+[2024-05-27 16:29:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: PyDAO-9000
+[2024-05-27 16:29:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pathconf
+[2024-05-27 16:29:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: jaxtyping
+[2024-05-27 16:29:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: superlinked
+[2024-05-27 16:29:59] INFO root fetch - processPackages [dicio-py]: New version: [2.0] Old Version: [1.9]
+[2024-05-27 16:29:59] INFO root fetch - processPackages [PyDAO-9000]: New version: [1.2.6] Old Version: [1.2.5]
+[2024-05-27 16:29:59] WARNING root fetch - processPackages [aesthetic-predictor-v2-5]: Skipping, unable to determine old version
+[2024-05-27 16:29:59] INFO root fetch - main [MainThread]: End processing [aesthetic-predictor-v2-5] error
+[2024-05-27 16:29:59] INFO root fetch - processPackages [ood_detectors]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-27 16:29:59] INFO root fetch - processPackages [alfasim-sdk]: New version: [2024.1] Old Version: [0.9.0]
+[2024-05-27 16:29:59] INFO root fetch - processPackages [dicio-py]: Downloading https://files.pythonhosted.org/packages/28/7e/fcb1a4624185536ca52f18e5d312ae6c8949bb58c1bddb013ea3ada2c699/dicio_py-1.9.tar.gz
+[2024-05-27 16:29:59] INFO root fetch - processPackages [jaxtyping]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-27 16:29:59] INFO root fetch - processPackages [pathconf]: New version: [1.0.9.8] Old Version: [1.0.9.7]
+[2024-05-27 16:29:59] INFO root fetch - processPackages [PyDAO-9000]: Downloading https://files.pythonhosted.org/packages/1d/e4/0f3e5b0e35254ccd42303d51eafa351ef64567a29cac68decf1f73e1b133/pydao_9000-1.2.5.tar.gz
+[2024-05-27 16:29:59] INFO root fetch - processPackages [pynonymizer]: New version: [2.2.1] Old Version: [2.2.0]
+[2024-05-27 16:29:59] INFO root fetch - processPackages [whisper-ctranslate2]: New version: [0.4.4] Old Version: [0.4.3]
+[2024-05-27 16:29:59] INFO root fetch - processPackages [ood_detectors]: Downloading https://files.pythonhosted.org/packages/2c/c1/0e33f36a315cc0d60a299e5970cb3dbd7fe0ffebd495cef6770f937ba24f/ood_detectors-0.0.8.tar.gz
+[2024-05-27 16:29:59] INFO root fetch - processPackages [superlinked]: New version: [5.4.0] Old Version: [5.3.0]
+[2024-05-27 16:29:59] INFO root fetch - processPackages [alfasim-sdk]: Downloading https://files.pythonhosted.org/packages/a6/3f/a1226298ad5a3707461b22a23ea931f84f0bf2444b87e70566d543298a33/alfasim_sdk-0.9.0.tar.gz
+[2024-05-27 16:29:59] INFO root fetch - processPackages [jaxtyping]: Downloading https://files.pythonhosted.org/packages/a3/9e/78ca5ff8dd7871586e0696e25426058e568639e0132836af3abc1463ce37/jaxtyping-0.2.8.tar.gz
+[2024-05-27 16:29:59] INFO root fetch - processPackages [pathconf]: Downloading https://files.pythonhosted.org/packages/5c/e5/e4dc97699ef42447fe428d500837dd2e7b0471342595a6c428cb74756d42/pathconf-1.0.9.7.tar.gz
+[2024-05-27 16:29:59] INFO root fetch - processPackages [pynonymizer]: Downloading https://files.pythonhosted.org/packages/92/0b/2241817bd19d32d94abe9e9df245e017dc551a4a50558f0e456498ed8f18/pynonymizer-2.2.0.tar.gz
+[2024-05-27 16:30:00] INFO root fetch - processPackages [whisper-ctranslate2]: Downloading https://files.pythonhosted.org/packages/23/99/23b132b0030450af250ce9ed615eec98b4528e4c7ce2e7f832e1bd73062b/whisper-ctranslate2-0.4.3.tar.gz
+[2024-05-27 16:30:00] INFO root fetch - processPackages [ood_detectors]: Downloading https://files.pythonhosted.org/packages/3f/d6/a55f4bc549efaaabe3d000911be652e72d55a5a47cabc317d531a8ec8ada/ood_detectors-0.0.9.tar.gz
+[2024-05-27 16:30:00] INFO root fetch - processPackages [superlinked]: Downloading https://files.pythonhosted.org/packages/11/52/247a1287ec6718f88ecdbd1d2a1e8d1bb7abff360699834623b29fc94eae/superlinked-5.3.0.tar.gz
+[2024-05-27 16:30:00] INFO root fetch - processPackages [dicio-py]: Downloading https://files.pythonhosted.org/packages/35/ff/d5803cd988599c3cb193d8b7d11ea79330b88e690e86f96452abae8a2b55/dicio_py-2.0.tar.gz
+[2024-05-27 16:30:00] INFO root fetch - processPackages [PyDAO-9000]: Downloading https://files.pythonhosted.org/packages/4c/37/b19c747f38d2f9379425ebce5419b97db4a098cffd18d0048f6e010e7ed2/pydao_9000-1.2.6.tar.gz
+[2024-05-27 16:30:00] INFO root fetch - processPackages [ood_detectors]: executing diffoscope
+[2024-05-27 16:30:00] INFO root fetch - processPackages [ood_detectors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ood_detectors-0.0.8.tar.gz tmp/ood_detectors-0.0.9.tar.gz --markdown 20240527/o/ood_detectors/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-27 16:30:00] INFO root fetch - processPackages [dicio-py]: executing diffoscope
+[2024-05-27 16:30:00] INFO root fetch - processPackages [pynonymizer]: Downloading https://files.pythonhosted.org/packages/f7/94/9c9a5f185dae0a9faf75d60c5e4ff1db3dc5112657106fb63342effb3254/pynonymizer-2.2.1.tar.gz
+[2024-05-27 16:30:00] INFO root fetch - processPackages [dicio-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dicio_py-1.9.tar.gz tmp/dicio_py-2.0.tar.gz --markdown 20240527/d/dicio-py/1.9-2.0/README.md --exclude *.pyd
+[2024-05-27 16:30:00] INFO root fetch - processPackages [PyDAO-9000]: executing diffoscope
+[2024-05-27 16:30:00] INFO root fetch - processPackages [PyDAO-9000]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydao_9000-1.2.5.tar.gz tmp/pydao_9000-1.2.6.tar.gz --markdown 20240527/P/PyDAO-9000/1.2.5-1.2.6/README.md --exclude *.pyd
+[2024-05-27 16:30:00] INFO root fetch - processPackages [alfasim-sdk]: Downloading https://files.pythonhosted.org/packages/b8/5a/7df686c88c331ca5a314cfa4570789f52b8e5677978c70732db99973b283/alfasim_sdk-2024.1.tar.gz
+[2024-05-27 16:30:00] INFO root fetch - processPackages [whisper-ctranslate2]: Downloading https://files.pythonhosted.org/packages/e1/c5/6c1a653541e677238333fcc35649ea51447c65e7234020637483140e92aa/whisper_ctranslate2-0.4.4.tar.gz
+[2024-05-27 16:30:00] INFO root fetch - processPackages [pynonymizer]: executing diffoscope
+[2024-05-27 16:30:00] INFO root fetch - processPackages [jaxtyping]: Downloading https://files.pythonhosted.org/packages/85/0f/1439acacec90920e4a60216446a4d60b4184659cc9182455c9f970689b2c/jaxtyping-0.2.9.tar.gz
+[2024-05-27 16:30:00] INFO root fetch - processPackages [pynonymizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynonymizer-2.2.0.tar.gz tmp/pynonymizer-2.2.1.tar.gz --markdown 20240527/p/pynonymizer/2.2.0-2.2.1/README.md --exclude *.pyd
+[2024-05-27 16:30:00] INFO root fetch - processPackages [pathconf]: Downloading https://files.pythonhosted.org/packages/5b/c8/2518b46fed7b6cfadeab5fefb7aad352ba5091877205bf0cf545b822d5f3/pathconf-1.0.9.8.tar.gz
+[2024-05-27 16:30:00] INFO root fetch - processPackages [alfasim-sdk]: executing diffoscope
+[2024-05-27 16:30:00] INFO root fetch - processPackages [alfasim-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alfasim_sdk-0.9.0.tar.gz tmp/alfasim_sdk-2024.1.tar.gz --markdown 20240527/a/alfasim-sdk/0.9.0-2024.1/README.md --exclude *.pyd
+[2024-05-27 16:30:00] INFO root fetch - processPackages [superlinked]: Downloading https://files.pythonhosted.org/packages/9e/5d/1d23dadf9951ef3b4f883100bddef8ad780d527d9342014968f293febbb5/superlinked-5.4.0-py3-none-any.whl
+[2024-05-27 16:30:00] INFO root fetch - processPackages [whisper-ctranslate2]: executing diffoscope
+[2024-05-27 16:30:00] INFO root fetch - processPackages [whisper-ctranslate2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whisper-ctranslate2-0.4.3.tar.gz tmp/whisper_ctranslate2-0.4.4.tar.gz --markdown 20240527/w/whisper-ctranslate2/0.4.3-0.4.4/README.md --exclude *.pyd
+[2024-05-27 16:30:00] INFO root fetch - processPackages [pathconf]: executing diffoscope
+[2024-05-27 16:30:00] INFO root fetch - processPackages [pathconf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pathconf-1.0.9.7.tar.gz tmp/pathconf-1.0.9.8.tar.gz --markdown 20240527/p/pathconf/1.0.9.7-1.0.9.8/README.md --exclude *.pyd
+[2024-05-27 16:30:00] INFO root fetch - processPackages [jaxtyping]: executing diffoscope
+[2024-05-27 16:30:00] INFO root fetch - processPackages [jaxtyping]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxtyping-0.2.8.tar.gz tmp/jaxtyping-0.2.9.tar.gz --markdown 20240527/j/jaxtyping/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-27 16:30:01] INFO root fetch - processPackages [ood_detectors]: Remove: archive file [/home/abi/fetcher/tmp/ood_detectors-0.0.8.tar.gz]
+[2024-05-27 16:30:01] INFO root fetch - processPackages [ood_detectors]: Remove: archive file [/home/abi/fetcher/tmp/ood_detectors-0.0.9.tar.gz]
+[2024-05-27 16:30:01] INFO root fetch - main [MainThread]: End processing [ood_detectors]: success
+[2024-05-27 16:30:01] INFO root fetch - processPackages [dicio-py]: Remove: archive file [/home/abi/fetcher/tmp/dicio_py-1.9.tar.gz]
+[2024-05-27 16:30:01] INFO root fetch - processPackages [PyDAO-9000]: Remove: archive file [/home/abi/fetcher/tmp/pydao_9000-1.2.5.tar.gz]
+[2024-05-27 16:30:01] INFO root fetch - processPackages [dicio-py]: Remove: archive file [/home/abi/fetcher/tmp/dicio_py-2.0.tar.gz]
+[2024-05-27 16:30:01] INFO root fetch - processPackages [PyDAO-9000]: Remove: archive file [/home/abi/fetcher/tmp/pydao_9000-1.2.6.tar.gz]
+[2024-05-27 16:30:01] INFO root fetch - main [MainThread]: End processing [PyDAO-9000]: success
+[2024-05-27 16:30:01] INFO root fetch - main [MainThread]: End processing [dicio-py]: success
+[2024-05-27 16:30:01] INFO root fetch - processPackages [superlinked]: executing diffoscope
+[2024-05-27 16:30:01] INFO root fetch - processPackages [superlinked]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/superlinked-5.3.0.tar.gz tmp/superlinked-5.4.0-py3-none-any.whl.zip --markdown 20240527/s/superlinked/5.3.0-5.4.0/README.md --exclude *.pyd
+[2024-05-27 16:30:01] INFO root fetch - processPackages [pathconf]: Remove: archive file [/home/abi/fetcher/tmp/pathconf-1.0.9.7.tar.gz]
+[2024-05-27 16:30:01] INFO root fetch - processPackages [pathconf]: Remove: archive file [/home/abi/fetcher/tmp/pathconf-1.0.9.8.tar.gz]
+[2024-05-27 16:30:01] INFO root fetch - main [MainThread]: End processing [pathconf]: success
+[2024-05-27 16:30:01] INFO root fetch - processPackages [whisper-ctranslate2]: Remove: archive file [/home/abi/fetcher/tmp/whisper-ctranslate2-0.4.3.tar.gz]
+[2024-05-27 16:30:01] INFO root fetch - processPackages [whisper-ctranslate2]: Remove: archive file [/home/abi/fetcher/tmp/whisper_ctranslate2-0.4.4.tar.gz]
+[2024-05-27 16:30:01] INFO root fetch - main [MainThread]: End processing [whisper-ctranslate2]: success
+[2024-05-27 16:30:01] INFO root fetch - processPackages [pynonymizer]: Remove: archive file [/home/abi/fetcher/tmp/pynonymizer-2.2.0.tar.gz]
+[2024-05-27 16:30:01] INFO root fetch - processPackages [pynonymizer]: Remove: archive file [/home/abi/fetcher/tmp/pynonymizer-2.2.1.tar.gz]
+[2024-05-27 16:30:01] INFO root fetch - main [MainThread]: End processing [pynonymizer]: success
+[2024-05-27 16:30:01] INFO root fetch - processPackages [jaxtyping]: Remove: archive file [/home/abi/fetcher/tmp/jaxtyping-0.2.8.tar.gz]
+[2024-05-27 16:30:01] INFO root fetch - processPackages [jaxtyping]: Remove: archive file [/home/abi/fetcher/tmp/jaxtyping-0.2.9.tar.gz]
+[2024-05-27 16:30:01] INFO root fetch - main [MainThread]: End processing [jaxtyping]: success
+[2024-05-27 16:30:01] INFO root fetch - processPackages [alfasim-sdk]: Remove: archive file [/home/abi/fetcher/tmp/alfasim_sdk-0.9.0.tar.gz]
+[2024-05-27 16:30:01] INFO root fetch - processPackages [alfasim-sdk]: Remove: archive file [/home/abi/fetcher/tmp/alfasim_sdk-2024.1.tar.gz]
+[2024-05-27 16:30:01] INFO root fetch - main [MainThread]: End processing [alfasim-sdk]: success
+[2024-05-27 16:30:01] INFO root fetch - processPackages [superlinked]: Remove: archive file [/home/abi/fetcher/tmp/superlinked-5.3.0.tar.gz]
+[2024-05-27 16:30:01] INFO root fetch - processPackages [superlinked]: Remove: archive file [/home/abi/fetcher/tmp/superlinked-5.4.0-py3-none-any.whl.zip]
+[2024-05-27 16:30:01] INFO root fetch - main [MainThread]: End processing [superlinked]: success
+[2024-05-27 16:30:01] INFO root fetch - main [MainThread]: Store serial: [23397024]
