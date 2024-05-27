@@ -24978,3 +24978,84 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-05-27 20:47:17] INFO root fetch - processPackages [django-crispy-formset-modal]: Remove: archive file [/home/abi/fetcher/tmp/django-crispy-formset-modal-0.8.tar.gz]
 [2024-05-27 20:47:17] INFO root fetch - main [MainThread]: End processing [django-crispy-formset-modal]: success
 [2024-05-27 20:47:17] INFO root fetch - main [MainThread]: Store serial: [23400009]
+[2024-05-27 20:49:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23400009]
+[2024-05-27 20:49:26] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-27 20:49:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: annonition
+[2024-05-27 20:49:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: torchbringer
+[2024-05-27 20:49:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nightingaleews
+[2024-05-27 20:49:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: napplib
+[2024-05-27 20:49:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: yeref
+[2024-05-27 20:49:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: data-library-manager
+[2024-05-27 20:49:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: AbeewayConfig
+[2024-05-27 20:49:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: windmill-api
+[2024-05-27 20:49:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: wmill
+[2024-05-27 20:49:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: wmill-pg
+[2024-05-27 20:49:26] INFO root fetch - processPackages [annonition]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-27 20:49:26] INFO root fetch - processPackages [torchbringer]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-27 20:49:26] INFO root fetch - processPackages [yeref]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-27 20:49:26] WARNING root fetch - processPackages [napplib]: Skipping, unable to determine old version
+[2024-05-27 20:49:26] INFO root fetch - main [MainThread]: End processing [napplib] error
+[2024-05-27 20:49:26] WARNING root fetch - processPackages [data-library-manager]: Skipping, unable to determine old version
+[2024-05-27 20:49:26] INFO root fetch - main [MainThread]: End processing [data-library-manager] error
+[2024-05-27 20:49:26] INFO root fetch - processPackages [nightingaleews]: New version: [2.0.0] Old Version: [1.0.0]
+[2024-05-27 20:49:26] INFO root fetch - processPackages [AbeewayConfig]: New version: [0.2.5] Old Version: [0.2.3]
+[2024-05-27 20:49:26] INFO root fetch - processPackages [annonition]: Downloading https://files.pythonhosted.org/packages/f6/bd/2c1b09b72eba89be9146368ab5b1b7bf7dee9a342a105cee30da0d380ec3/annonition-0.1.4.tar.gz
+[2024-05-27 20:49:26] INFO root fetch - processPackages [torchbringer]: Downloading https://files.pythonhosted.org/packages/53/35/50ed3f2fae86c0be93c5b83a248791d05fe8d800181a38eff0b017ea4daa/torchbringer-0.2.1.tar.gz
+[2024-05-27 20:49:26] INFO root fetch - processPackages [windmill-api]: New version: [1.99.0] Old Version: [1.98.0]
+[2024-05-27 20:49:26] INFO root fetch - processPackages [wmill-pg]: New version: [1.99.0] Old Version: [1.98.0]
+[2024-05-27 20:49:26] INFO root fetch - processPackages [wmill]: New version: [1.99.0] Old Version: [1.98.0]
+[2024-05-27 20:49:26] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/ec/cb/204e6fbe233bbb61cf29c1b491e8c638c8a843edc47fb4e1d8cc8c26608c/yeref-0.9.8.tar.gz
+[2024-05-27 20:49:26] INFO root fetch - processPackages [nightingaleews]: Downloading https://files.pythonhosted.org/packages/19/66/2af5070ba278c9cfabdf4d17faa2c281c7ea9efb86459704daea90340609/nightingaleews-1.0.0.tar.gz
+[2024-05-27 20:49:26] INFO root fetch - processPackages [AbeewayConfig]: Downloading https://files.pythonhosted.org/packages/6b/c9/11e847f66e948d959b7aae5ad034ae89771c0ec83994979bca29a87f6668/abeewayconfig-0.2.3.tar.gz
+[2024-05-27 20:49:26] INFO root fetch - processPackages [windmill-api]: Downloading https://files.pythonhosted.org/packages/bd/de/5d29ca258adee967295dbf926ab306c480527c234336f0725d4c2bc1d718/windmill_api-1.98.0.tar.gz
+[2024-05-27 20:49:26] INFO root fetch - processPackages [wmill]: Downloading https://files.pythonhosted.org/packages/6d/91/6b6052c80b8d367e051cc2905d1d921bf9a11f63e27a0f802b5c1277aa20/wmill-1.98.0.tar.gz
+[2024-05-27 20:49:26] INFO root fetch - processPackages [wmill-pg]: Downloading https://files.pythonhosted.org/packages/a1/22/f7655b5ea090afc59651b874c61bf7bea4694e3fa9720a46058fa34c71ef/wmill_pg-1.98.0.tar.gz
+[2024-05-27 20:49:26] INFO root fetch - processPackages [torchbringer]: Downloading https://files.pythonhosted.org/packages/8f/5e/30cbdaf31d5a75d59c1f6561a57a37c8197f6d0a2f6b6e8c044d982f5238/torchbringer-0.2.2.tar.gz
+[2024-05-27 20:49:26] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/01/13/0f11bb3dfb27aaf16ed48b0046f50ac65b1fde32662fbc314d53e2558b2d/yeref-0.9.9.tar.gz
+[2024-05-27 20:49:26] INFO root fetch - processPackages [annonition]: Downloading https://files.pythonhosted.org/packages/ff/c4/284c4cf5629e83072fd769c6650331cca0a9a3196a9cf6dbd1a220b5fc82/annonition-0.1.5.tar.gz
+[2024-05-27 20:49:26] INFO root fetch - processPackages [torchbringer]: executing diffoscope
+[2024-05-27 20:49:26] INFO root fetch - processPackages [torchbringer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchbringer-0.2.1.tar.gz tmp/torchbringer-0.2.2.tar.gz --markdown 20240527/t/torchbringer/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-05-27 20:49:26] INFO root fetch - processPackages [AbeewayConfig]: Downloading https://files.pythonhosted.org/packages/d0/20/d9318619c37bf243ffab7f800b6c8c4b47a6879d9893d73ad70b28b32752/abeewayconfig-0.2.5.tar.gz
+[2024-05-27 20:49:26] INFO root fetch - processPackages [annonition]: executing diffoscope
+[2024-05-27 20:49:26] INFO root fetch - processPackages [annonition]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/annonition-0.1.4.tar.gz tmp/annonition-0.1.5.tar.gz --markdown 20240527/a/annonition/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-27 20:49:26] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2024-05-27 20:49:26] INFO root fetch - processPackages [nightingaleews]: Downloading https://files.pythonhosted.org/packages/88/6b/42f810789482ba6e0f892dc0998cf1d092a7180843ad57f0d94a268576bf/nightingaleews-2.0.0.tar.gz
+[2024-05-27 20:49:26] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.9.8.tar.gz tmp/yeref-0.9.9.tar.gz --markdown 20240527/y/yeref/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-27 20:49:27] INFO root fetch - processPackages [AbeewayConfig]: executing diffoscope
+[2024-05-27 20:49:27] INFO root fetch - processPackages [AbeewayConfig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abeewayconfig-0.2.3.tar.gz tmp/abeewayconfig-0.2.5.tar.gz --markdown 20240527/A/AbeewayConfig/0.2.3-0.2.5/README.md --exclude *.pyd
+[2024-05-27 20:49:27] INFO root fetch - processPackages [wmill-pg]: Downloading https://files.pythonhosted.org/packages/26/ac/296bc5f7193d111c826ef99b60bf75fe1605158a73d728a5fad8aa771331/wmill_pg-1.99.0.tar.gz
+[2024-05-27 20:49:27] INFO root fetch - processPackages [wmill]: Downloading https://files.pythonhosted.org/packages/f1/d1/eb5b4c7d25f969fc3603441c8e90a5a8e00688be43ce0631166287977a65/wmill-1.99.0.tar.gz
+[2024-05-27 20:49:27] INFO root fetch - processPackages [nightingaleews]: executing diffoscope
+[2024-05-27 20:49:27] INFO root fetch - processPackages [nightingaleews]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nightingaleews-1.0.0.tar.gz tmp/nightingaleews-2.0.0.tar.gz --markdown 20240527/n/nightingaleews/1.0.0-2.0.0/README.md --exclude *.pyd
+[2024-05-27 20:49:27] INFO root fetch - processPackages [windmill-api]: Downloading https://files.pythonhosted.org/packages/32/94/9431b41ce6b9c2670fbc125624f7ebc3d186482c80c271e3d7acde511319/windmill_api-1.99.0.tar.gz
+[2024-05-27 20:49:27] INFO root fetch - processPackages [wmill-pg]: executing diffoscope
+[2024-05-27 20:49:27] INFO root fetch - processPackages [wmill-pg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wmill_pg-1.98.0.tar.gz tmp/wmill_pg-1.99.0.tar.gz --markdown 20240527/w/wmill-pg/1.98.0-1.99.0/README.md --exclude *.pyd
+[2024-05-27 20:49:27] INFO root fetch - processPackages [wmill]: executing diffoscope
+[2024-05-27 20:49:27] INFO root fetch - processPackages [wmill]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wmill-1.98.0.tar.gz tmp/wmill-1.99.0.tar.gz --markdown 20240527/w/wmill/1.98.0-1.99.0/README.md --exclude *.pyd
+[2024-05-27 20:49:27] INFO root fetch - processPackages [windmill-api]: executing diffoscope
+[2024-05-27 20:49:27] INFO root fetch - processPackages [windmill-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/windmill_api-1.98.0.tar.gz tmp/windmill_api-1.99.0.tar.gz --markdown 20240527/w/windmill-api/1.98.0-1.99.0/README.md --exclude *.pyd
+[2024-05-27 20:49:27] INFO root fetch - processPackages [annonition]: Remove: archive file [/home/abi/fetcher/tmp/annonition-0.1.4.tar.gz]
+[2024-05-27 20:49:27] INFO root fetch - processPackages [annonition]: Remove: archive file [/home/abi/fetcher/tmp/annonition-0.1.5.tar.gz]
+[2024-05-27 20:49:27] INFO root fetch - main [MainThread]: End processing [annonition]: success
+[2024-05-27 20:49:27] INFO root fetch - processPackages [torchbringer]: Remove: archive file [/home/abi/fetcher/tmp/torchbringer-0.2.1.tar.gz]
+[2024-05-27 20:49:27] INFO root fetch - processPackages [torchbringer]: Remove: archive file [/home/abi/fetcher/tmp/torchbringer-0.2.2.tar.gz]
+[2024-05-27 20:49:27] INFO root fetch - main [MainThread]: End processing [torchbringer]: success
+[2024-05-27 20:49:27] INFO root fetch - processPackages [AbeewayConfig]: Remove: archive file [/home/abi/fetcher/tmp/abeewayconfig-0.2.3.tar.gz]
+[2024-05-27 20:49:27] INFO root fetch - processPackages [AbeewayConfig]: Remove: archive file [/home/abi/fetcher/tmp/abeewayconfig-0.2.5.tar.gz]
+[2024-05-27 20:49:27] INFO root fetch - main [MainThread]: End processing [AbeewayConfig]: success
+[2024-05-27 20:49:27] INFO root fetch - processPackages [nightingaleews]: Remove: archive file [/home/abi/fetcher/tmp/nightingaleews-1.0.0.tar.gz]
+[2024-05-27 20:49:27] INFO root fetch - processPackages [nightingaleews]: Remove: archive file [/home/abi/fetcher/tmp/nightingaleews-2.0.0.tar.gz]
+[2024-05-27 20:49:27] INFO root fetch - main [MainThread]: End processing [nightingaleews]: success
+[2024-05-27 20:49:27] INFO root fetch - processPackages [wmill-pg]: Remove: archive file [/home/abi/fetcher/tmp/wmill_pg-1.98.0.tar.gz]
+[2024-05-27 20:49:27] INFO root fetch - processPackages [wmill-pg]: Remove: archive file [/home/abi/fetcher/tmp/wmill_pg-1.99.0.tar.gz]
+[2024-05-27 20:49:27] INFO root fetch - main [MainThread]: End processing [wmill-pg]: success
+[2024-05-27 20:49:28] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.8.tar.gz]
+[2024-05-27 20:49:28] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.9.tar.gz]
+[2024-05-27 20:49:28] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2024-05-27 20:49:28] INFO root fetch - processPackages [wmill]: Remove: archive file [/home/abi/fetcher/tmp/wmill-1.98.0.tar.gz]
+[2024-05-27 20:49:28] INFO root fetch - processPackages [wmill]: Remove: archive file [/home/abi/fetcher/tmp/wmill-1.99.0.tar.gz]
+[2024-05-27 20:49:28] INFO root fetch - main [MainThread]: End processing [wmill]: success
+[2024-05-27 20:49:31] INFO root fetch - processPackages [windmill-api]: Remove: archive file [/home/abi/fetcher/tmp/windmill_api-1.98.0.tar.gz]
+[2024-05-27 20:49:31] INFO root fetch - processPackages [windmill-api]: Remove: archive file [/home/abi/fetcher/tmp/windmill_api-1.99.0.tar.gz]
+[2024-05-27 20:49:31] INFO root fetch - main [MainThread]: End processing [windmill-api]: success
+[2024-05-27 20:49:31] INFO root fetch - main [MainThread]: Store serial: [23400044]
