@@ -21458,3 +21458,54 @@ AssertionError: tmp/quickQrLib-0.2.tar.gz does not exist
 [2024-05-27 18:10:47] INFO root fetch - processPackages [catalystwan]: Remove: archive file [/home/abi/fetcher/tmp/catalystwan-0.33.7.dev2.tar.gz]
 [2024-05-27 18:10:47] INFO root fetch - main [MainThread]: End processing [catalystwan]: success
 [2024-05-27 18:10:47] INFO root fetch - main [MainThread]: Store serial: [23398179]
+[2024-05-27 18:12:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23398179]
+[2024-05-27 18:12:56] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-27 18:12:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: job-shop-lib
+[2024-05-27 18:12:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: metaffi-api
+[2024-05-27 18:12:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-account-payment-partner
+[2024-05-27 18:12:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: idcn
+[2024-05-27 18:12:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pocketbase
+[2024-05-27 18:12:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: directdb
+[2024-05-27 18:12:56] WARNING root fetch - processPackages [idcn]: Skipping, unable to determine old version
+[2024-05-27 18:12:56] INFO root fetch - main [MainThread]: End processing [idcn] error
+[2024-05-27 18:12:56] INFO root fetch - processPackages [job-shop-lib]: New version: [0.5.0] Old Version: [0.4.0]
+[2024-05-27 18:12:56] INFO root fetch - processPackages [odoo-addon-account-payment-partner]: New version: [17.0.1.0.1] Old Version: [17.0.1.0.0.4]
+[2024-05-27 18:12:56] INFO root fetch - processPackages [pocketbase]: New version: [0.9.2] Old Version: [0.9.1]
+[2024-05-27 18:12:56] INFO root fetch - processPackages [metaffi-api]: New version: [0.0.30] Old Version: [0.0.29]
+[2024-05-27 18:12:56] INFO root fetch - processPackages [directdb]: New version: [1.1.6] Old Version: [1.1.5]
+[2024-05-27 18:12:56] INFO root fetch - processPackages [metaffi-api]: Downloading https://files.pythonhosted.org/packages/73/ad/5edb8ad99b4abad7b729cec3cf568262f1be0d35cf60d358b0b801a9099c/metaffi_api-0.0.29.tar.gz
+[2024-05-27 18:12:56] INFO root fetch - processPackages [odoo-addon-account-payment-partner]: Downloading https://files.pythonhosted.org/packages/22/c3/e0f7afebb9ce6261d2ff50ff59195e3f9acace0d11543656bc2286d95efc/odoo_addon_account_payment_partner-17.0.1.0.0.4-py3-none-any.whl
+[2024-05-27 18:12:56] INFO root fetch - processPackages [job-shop-lib]: Downloading https://files.pythonhosted.org/packages/7e/fb/0bfbba2fb716fcfceca2a8a80d861eb9996d40c51098e5701da06cfd8fe2/job_shop_lib-0.4.0.tar.gz
+[2024-05-27 18:12:56] INFO root fetch - processPackages [directdb]: Downloading https://files.pythonhosted.org/packages/6d/1f/68e6d3e71f0ab64a1c09bc21223714d9393bbc2203b9eed66795a9fd2b99/directdb-1.1.5.tar.gz
+[2024-05-27 18:12:56] INFO root fetch - processPackages [pocketbase]: Downloading https://files.pythonhosted.org/packages/42/af/c355fd1a8652bd8505422223ca38d5a03d8cd95a1244c74fe6112e92d1ca/pocketbase-0.9.1.tar.gz
+[2024-05-27 18:12:56] INFO root fetch - processPackages [metaffi-api]: Downloading https://files.pythonhosted.org/packages/05/0a/b37c14351ed2216a15cbee15cbfc17006440de6ee9cd0d4ec0e3b6df0533/metaffi_api-0.0.30.tar.gz
+[2024-05-27 18:12:57] INFO root fetch - processPackages [pocketbase]: Downloading https://files.pythonhosted.org/packages/af/72/8d04f0e93984c273e4993cf098218c6acc4f77e9a2570a5c54e0ca68fc0a/pocketbase-0.9.2.tar.gz
+[2024-05-27 18:12:57] INFO root fetch - processPackages [metaffi-api]: executing diffoscope
+[2024-05-27 18:12:57] INFO root fetch - processPackages [metaffi-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metaffi_api-0.0.29.tar.gz tmp/metaffi_api-0.0.30.tar.gz --markdown 20240527/m/metaffi-api/0.0.29-0.0.30/README.md --exclude *.pyd
+[2024-05-27 18:12:57] INFO root fetch - processPackages [directdb]: Downloading https://files.pythonhosted.org/packages/aa/a1/79a80526edb5cc2adf84ed80a80ff8a8c35d3591bbd4c29925c13c1e48d4/directdb-1.1.6.tar.gz
+[2024-05-27 18:12:57] INFO root fetch - processPackages [odoo-addon-account-payment-partner]: Downloading https://files.pythonhosted.org/packages/8b/3d/cd8c2ddfd86c285216595f8a09cbb5e2345bfb01e9508c5d1dbd4cddc3d1/odoo_addon_account_payment_partner-17.0.1.0.1-py3-none-any.whl
+[2024-05-27 18:12:57] INFO root fetch - processPackages [job-shop-lib]: Downloading https://files.pythonhosted.org/packages/fa/93/549004caddd37f731e902cbd0ef27539595b578fa62c4444e7b4a9ea8087/job_shop_lib-0.5.0.tar.gz
+[2024-05-27 18:12:57] INFO root fetch - processPackages [pocketbase]: executing diffoscope
+[2024-05-27 18:12:57] INFO root fetch - processPackages [pocketbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pocketbase-0.9.1.tar.gz tmp/pocketbase-0.9.2.tar.gz --markdown 20240527/p/pocketbase/0.9.1-0.9.2/README.md --exclude *.pyd
+[2024-05-27 18:12:57] INFO root fetch - processPackages [directdb]: executing diffoscope
+[2024-05-27 18:12:57] INFO root fetch - processPackages [directdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/directdb-1.1.5.tar.gz tmp/directdb-1.1.6.tar.gz --markdown 20240527/d/directdb/1.1.5-1.1.6/README.md --exclude *.pyd
+[2024-05-27 18:12:57] INFO root fetch - processPackages [odoo-addon-account-payment-partner]: executing diffoscope
+[2024-05-27 18:12:57] INFO root fetch - processPackages [odoo-addon-account-payment-partner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_payment_partner-17.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_account_payment_partner-17.0.1.0.1-py3-none-any.whl.zip --markdown 20240527/o/odoo-addon-account-payment-partner/17.0.1.0.0.4-17.0.1.0.1/README.md --exclude *.pyd
+[2024-05-27 18:12:57] INFO root fetch - processPackages [job-shop-lib]: executing diffoscope
+[2024-05-27 18:12:57] INFO root fetch - processPackages [job-shop-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/job_shop_lib-0.4.0.tar.gz tmp/job_shop_lib-0.5.0.tar.gz --markdown 20240527/j/job-shop-lib/0.4.0-0.5.0/README.md --exclude *.pyd
+[2024-05-27 18:12:57] INFO root fetch - processPackages [metaffi-api]: Remove: archive file [/home/abi/fetcher/tmp/metaffi_api-0.0.29.tar.gz]
+[2024-05-27 18:12:57] INFO root fetch - processPackages [metaffi-api]: Remove: archive file [/home/abi/fetcher/tmp/metaffi_api-0.0.30.tar.gz]
+[2024-05-27 18:12:57] INFO root fetch - main [MainThread]: End processing [metaffi-api]: success
+[2024-05-27 18:12:57] INFO root fetch - processPackages [pocketbase]: Remove: archive file [/home/abi/fetcher/tmp/pocketbase-0.9.1.tar.gz]
+[2024-05-27 18:12:57] INFO root fetch - processPackages [pocketbase]: Remove: archive file [/home/abi/fetcher/tmp/pocketbase-0.9.2.tar.gz]
+[2024-05-27 18:12:57] INFO root fetch - main [MainThread]: End processing [pocketbase]: success
+[2024-05-27 18:12:57] INFO root fetch - processPackages [directdb]: Remove: archive file [/home/abi/fetcher/tmp/directdb-1.1.5.tar.gz]
+[2024-05-27 18:12:57] INFO root fetch - processPackages [directdb]: Remove: archive file [/home/abi/fetcher/tmp/directdb-1.1.6.tar.gz]
+[2024-05-27 18:12:57] INFO root fetch - main [MainThread]: End processing [directdb]: success
+[2024-05-27 18:12:58] INFO root fetch - processPackages [odoo-addon-account-payment-partner]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_payment_partner-17.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-05-27 18:12:58] INFO root fetch - processPackages [odoo-addon-account-payment-partner]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_payment_partner-17.0.1.0.1-py3-none-any.whl.zip]
+[2024-05-27 18:12:58] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-payment-partner]: success
+[2024-05-27 18:12:58] INFO root fetch - processPackages [job-shop-lib]: Remove: archive file [/home/abi/fetcher/tmp/job_shop_lib-0.4.0.tar.gz]
+[2024-05-27 18:12:58] INFO root fetch - processPackages [job-shop-lib]: Remove: archive file [/home/abi/fetcher/tmp/job_shop_lib-0.5.0.tar.gz]
+[2024-05-27 18:12:58] INFO root fetch - main [MainThread]: End processing [job-shop-lib]: success
+[2024-05-27 18:12:58] INFO root fetch - main [MainThread]: Store serial: [23398196]
