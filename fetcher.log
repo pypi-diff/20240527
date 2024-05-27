@@ -9789,3 +9789,42 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 10:43:23] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip]
 [2024-05-27 10:43:23] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
 [2024-05-27 10:43:23] INFO root fetch - main [MainThread]: Store serial: [23392770]
+[2024-05-27 10:45:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23392770]
+[2024-05-27 10:45:32] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-27 10:45:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: imio.events.core
+[2024-05-27 10:45:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Qubx
+[2024-05-27 10:45:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: stack-graphs-python-bindings
+[2024-05-27 10:45:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tf-nightly-cpu
+[2024-05-27 10:45:32] INFO root fetch - processPackages [stack-graphs-python-bindings]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-27 10:45:32] INFO root fetch - processPackages [Qubx]: New version: [0.1.84] Old Version: [0.1.83]
+[2024-05-27 10:45:32] INFO root fetch - processPackages [imio.events.core]: New version: [1.2.9] Old Version: [1.2.8]
+[2024-05-27 10:45:32] INFO root fetch - processPackages [tf-nightly-cpu]: New version: [2.17.0.dev20240527] Old Version: [2.17.0.dev20240526]
+[2024-05-27 10:45:32] INFO root fetch - processPackages [Qubx]: Downloading https://files.pythonhosted.org/packages/56/46/20106571f9605568b6c40215573a693a320131ac08d68a97a093996ac112/qubx-0.1.83.tar.gz
+[2024-05-27 10:45:32] INFO root fetch - processPackages [stack-graphs-python-bindings]: Downloading https://files.pythonhosted.org/packages/06/b8/a178941027195a77a7d5eb3f29012f26faf71cb27cfcf2cfcab729a7ae73/stack_graphs_python_bindings-0.0.8.tar.gz
+[2024-05-27 10:45:32] INFO root fetch - processPackages [imio.events.core]: Downloading https://files.pythonhosted.org/packages/a7/63/c59272dfd7c1a5658df92ebe74fa3e45a0ddfa45d287e0eed6b094c32588/imio.events.core-1.2.8.tar.gz
+[2024-05-27 10:45:32] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/80/7e/c7262bf7b37f7b0be6963cc450e81e59a6bf326cd1bd8e6bddf6e79cb43a/tf_nightly_cpu-2.17.0.dev20240526-cp39-cp39-win_amd64.whl
+[2024-05-27 10:45:32] INFO root fetch - processPackages [Qubx]: Downloading https://files.pythonhosted.org/packages/0a/92/ab9d49c309799ddfcf2f9a900a302e7731eeae787dc30fe4ee7b9a8affba/qubx-0.1.84.tar.gz
+[2024-05-27 10:45:32] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/65/c9/52043591d2ad3140278d828ad1900950b1052e3774987a28659ecd121955/tf_nightly_cpu-2.17.0.dev20240527-cp39-cp39-win_amd64.whl
+[2024-05-27 10:45:32] INFO root fetch - processPackages [imio.events.core]: Downloading https://files.pythonhosted.org/packages/33/1c/6948ace023880b067772f3bccefa1ccfec9a502c04b9597dbb3042c14d2f/imio.events.core-1.2.9.tar.gz
+[2024-05-27 10:45:32] INFO root fetch - processPackages [stack-graphs-python-bindings]: Downloading https://files.pythonhosted.org/packages/d9/8d/87ff4505177b44a4c8f1aac75b05fe9e1d5b46c4715ab3ac99780ccd9d30/stack_graphs_python_bindings-0.0.9.tar.gz
+[2024-05-27 10:45:33] INFO root fetch - processPackages [Qubx]: executing diffoscope
+[2024-05-27 10:45:33] INFO root fetch - processPackages [Qubx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qubx-0.1.83.tar.gz tmp/qubx-0.1.84.tar.gz --markdown 20240527/Q/Qubx/0.1.83-0.1.84/README.md --exclude *.pyd
+[2024-05-27 10:45:33] INFO root fetch - processPackages [imio.events.core]: executing diffoscope
+[2024-05-27 10:45:33] INFO root fetch - processPackages [imio.events.core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imio.events.core-1.2.8.tar.gz tmp/imio.events.core-1.2.9.tar.gz --markdown 20240527/i/imio.events.core/1.2.8-1.2.9/README.md --exclude *.pyd
+[2024-05-27 10:45:33] INFO root fetch - processPackages [stack-graphs-python-bindings]: executing diffoscope
+[2024-05-27 10:45:33] INFO root fetch - processPackages [stack-graphs-python-bindings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stack_graphs_python_bindings-0.0.8.tar.gz tmp/stack_graphs_python_bindings-0.0.9.tar.gz --markdown 20240527/s/stack-graphs-python-bindings/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-27 10:45:33] INFO root fetch - processPackages [tf-nightly-cpu]: executing diffoscope
+[2024-05-27 10:45:33] INFO root fetch - processPackages [tf-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly_cpu-2.17.0.dev20240526-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly_cpu-2.17.0.dev20240527-cp39-cp39-win_amd64.whl.zip --markdown 20240527/t/tf-nightly-cpu/2.17.0.dev20240526-2.17.0.dev20240527/README.md --exclude *.pyd
+[2024-05-27 10:45:33] INFO root fetch - processPackages [stack-graphs-python-bindings]: Remove: archive file [/home/abi/fetcher/tmp/stack_graphs_python_bindings-0.0.8.tar.gz]
+[2024-05-27 10:45:33] INFO root fetch - processPackages [stack-graphs-python-bindings]: Remove: archive file [/home/abi/fetcher/tmp/stack_graphs_python_bindings-0.0.9.tar.gz]
+[2024-05-27 10:45:33] INFO root fetch - main [MainThread]: End processing [stack-graphs-python-bindings]: success
+[2024-05-27 10:45:33] INFO root fetch - processPackages [Qubx]: Remove: archive file [/home/abi/fetcher/tmp/qubx-0.1.83.tar.gz]
+[2024-05-27 10:45:33] INFO root fetch - processPackages [Qubx]: Remove: archive file [/home/abi/fetcher/tmp/qubx-0.1.84.tar.gz]
+[2024-05-27 10:45:33] INFO root fetch - main [MainThread]: End processing [Qubx]: success
+[2024-05-27 10:45:33] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.17.0.dev20240526-cp39-cp39-win_amd64.whl.zip]
+[2024-05-27 10:45:33] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.17.0.dev20240527-cp39-cp39-win_amd64.whl.zip]
+[2024-05-27 10:45:33] INFO root fetch - main [MainThread]: End processing [tf-nightly-cpu]: success
+[2024-05-27 10:45:33] INFO root fetch - processPackages [imio.events.core]: Remove: archive file [/home/abi/fetcher/tmp/imio.events.core-1.2.8.tar.gz]
+[2024-05-27 10:45:33] INFO root fetch - processPackages [imio.events.core]: Remove: archive file [/home/abi/fetcher/tmp/imio.events.core-1.2.9.tar.gz]
+[2024-05-27 10:45:33] INFO root fetch - main [MainThread]: End processing [imio.events.core]: success
+[2024-05-27 10:45:33] INFO root fetch - main [MainThread]: Store serial: [23392808]
