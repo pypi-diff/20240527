@@ -2975,3 +2975,42 @@
 [2024-05-27 03:44:56] WARNING root fetch - processPackages [tf-nightly-intel]: Skipping package: exceeds size limit 218774302>=10485760
 [2024-05-27 03:44:56] INFO root fetch - main [MainThread]: End processing [tf-nightly-intel] error
 [2024-05-27 03:44:56] INFO root fetch - main [MainThread]: Store serial: [23389533]
+[2024-05-27 03:47:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23389533]
+[2024-05-27 03:47:05] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-27 03:47:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: market-engine
+[2024-05-27 03:47:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: annonition
+[2024-05-27 03:47:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lckytools
+[2024-05-27 03:47:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: louvainsplit
+[2024-05-27 03:47:05] INFO root fetch - processPackages [lckytools]: New version: [0.0.0b3] Old Version: [0.0.0b2]
+[2024-05-27 03:47:05] INFO root fetch - processPackages [annonition]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-27 03:47:05] INFO root fetch - processPackages [annonition]: Downloading https://files.pythonhosted.org/packages/9b/42/3dcab47cccc18d0ad3d60b6ee4230c24216a96ef633fad352fc0c486b8a2/annonition-0.1.1.tar.gz
+[2024-05-27 03:47:05] INFO root fetch - processPackages [lckytools]: Downloading https://files.pythonhosted.org/packages/b1/ae/68fbc393a4d2ba15bd87212ff14f668cf44cc4f44d668d2ac308f19d3a1e/lckytools-0.0.0b2.tar.gz
+[2024-05-27 03:47:05] INFO root fetch - processPackages [louvainsplit]: New version: [0.2.0.2] Old Version: [0.2.0.1]
+[2024-05-27 03:47:05] INFO root fetch - processPackages [market-engine]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-27 03:47:05] INFO root fetch - processPackages [louvainsplit]: Downloading https://files.pythonhosted.org/packages/7b/d3/fc4bba571698cad22971bd43feb3c7ff3f9f819f9c5096eee84f19d750ca/louvainsplit-0.2.0.1.tar.gz
+[2024-05-27 03:47:05] INFO root fetch - processPackages [annonition]: Downloading https://files.pythonhosted.org/packages/1b/f0/fb2221a043a9545af7ea31577986f4e042d5c909e4550c8aba487412f245/annonition-0.1.2.tar.gz
+[2024-05-27 03:47:05] INFO root fetch - processPackages [market-engine]: Downloading https://files.pythonhosted.org/packages/d8/bd/82a9be9afd2e3a96f90ebba4b98815d7c0d5c6661a2819b61db3eabf4cc2/market-engine-0.1.8.tar.gz
+[2024-05-27 03:47:05] INFO root fetch - processPackages [annonition]: executing diffoscope
+[2024-05-27 03:47:05] INFO root fetch - processPackages [annonition]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/annonition-0.1.1.tar.gz tmp/annonition-0.1.2.tar.gz --markdown 20240527/a/annonition/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-27 03:47:05] INFO root fetch - processPackages [lckytools]: Downloading https://files.pythonhosted.org/packages/c6/54/ef4a346ea69d5fadcdce8ab834248981726749b733907fa8a41b59121aea/lckytools-0.0.0b3.tar.gz
+[2024-05-27 03:47:05] INFO root fetch - processPackages [lckytools]: executing diffoscope
+[2024-05-27 03:47:05] INFO root fetch - processPackages [lckytools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lckytools-0.0.0b2.tar.gz tmp/lckytools-0.0.0b3.tar.gz --markdown 20240527/l/lckytools/0.0.0b2-0.0.0b3/README.md --exclude *.pyd
+[2024-05-27 03:47:05] INFO root fetch - processPackages [louvainsplit]: Downloading https://files.pythonhosted.org/packages/4e/c9/eabfef6b52a67f56fc432138514cd552e232502e766badb34cffd75ab2bd/louvainsplit-0.2.0.2.tar.gz
+[2024-05-27 03:47:05] INFO root fetch - processPackages [market-engine]: Downloading https://files.pythonhosted.org/packages/3b/e0/436fca5207f1cd4f34ca629d8709efe1ef4b8955f65769c7375c0278d2c5/market-engine-0.1.9.tar.gz
+[2024-05-27 03:47:05] INFO root fetch - processPackages [louvainsplit]: executing diffoscope
+[2024-05-27 03:47:05] INFO root fetch - processPackages [louvainsplit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/louvainsplit-0.2.0.1.tar.gz tmp/louvainsplit-0.2.0.2.tar.gz --markdown 20240527/l/louvainsplit/0.2.0.1-0.2.0.2/README.md --exclude *.pyd
+[2024-05-27 03:47:06] INFO root fetch - processPackages [market-engine]: executing diffoscope
+[2024-05-27 03:47:06] INFO root fetch - processPackages [market-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/market-engine-0.1.8.tar.gz tmp/market-engine-0.1.9.tar.gz --markdown 20240527/m/market-engine/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-27 03:47:06] INFO root fetch - processPackages [annonition]: Remove: archive file [/home/abi/fetcher/tmp/annonition-0.1.1.tar.gz]
+[2024-05-27 03:47:06] INFO root fetch - processPackages [annonition]: Remove: archive file [/home/abi/fetcher/tmp/annonition-0.1.2.tar.gz]
+[2024-05-27 03:47:06] INFO root fetch - main [MainThread]: End processing [annonition]: success
+[2024-05-27 03:47:06] INFO root fetch - processPackages [lckytools]: Remove: archive file [/home/abi/fetcher/tmp/lckytools-0.0.0b2.tar.gz]
+[2024-05-27 03:47:06] INFO root fetch - processPackages [lckytools]: Remove: archive file [/home/abi/fetcher/tmp/lckytools-0.0.0b3.tar.gz]
+[2024-05-27 03:47:06] INFO root fetch - main [MainThread]: End processing [lckytools]: success
+[2024-05-27 03:47:06] INFO root fetch - processPackages [louvainsplit]: Remove: archive file [/home/abi/fetcher/tmp/louvainsplit-0.2.0.1.tar.gz]
+[2024-05-27 03:47:06] INFO root fetch - processPackages [louvainsplit]: Remove: archive file [/home/abi/fetcher/tmp/louvainsplit-0.2.0.2.tar.gz]
+[2024-05-27 03:47:06] INFO root fetch - main [MainThread]: End processing [louvainsplit]: success
+[2024-05-27 03:47:06] INFO root fetch - processPackages [market-engine]: Remove: archive file [/home/abi/fetcher/tmp/market-engine-0.1.8.tar.gz]
+[2024-05-27 03:47:06] INFO root fetch - processPackages [market-engine]: Remove: archive file [/home/abi/fetcher/tmp/market-engine-0.1.9.tar.gz]
+[2024-05-27 03:47:06] INFO root fetch - main [MainThread]: End processing [market-engine]: success
+[2024-05-27 03:47:06] INFO root fetch - main [MainThread]: Store serial: [23389545]
