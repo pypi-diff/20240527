@@ -16819,3 +16819,47 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 15:25:56] INFO root fetch - processPackages [lensmc]: Remove: archive file [/home/abi/fetcher/tmp/lensmc-24.5.2.tar.gz]
 [2024-05-27 15:25:56] INFO root fetch - main [MainThread]: End processing [lensmc]: success
 [2024-05-27 15:25:56] INFO root fetch - main [MainThread]: Store serial: [23396205]
+[2024-05-27 15:28:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23396205]
+[2024-05-27 15:28:06] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-27 15:28:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ul-api-utils
+[2024-05-27 15:28:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: threedigrid
+[2024-05-27 15:28:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sinto
+[2024-05-27 15:28:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gs2-cdk
+[2024-05-27 15:28:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: qim3d
+[2024-05-27 15:28:06] INFO root fetch - processPackages [sinto]: New version: [0.9.0] Old Version: [0.8.4]
+[2024-05-27 15:28:06] INFO root fetch - processPackages [threedigrid]: New version: [2.2.9] Old Version: [2.2.8]
+[2024-05-27 15:28:06] INFO root fetch - processPackages [gs2-cdk]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-27 15:28:06] INFO root fetch - processPackages [ul-api-utils]: New version: [7.9.7] Old Version: [7.9.6]
+[2024-05-27 15:28:06] INFO root fetch - processPackages [qim3d]: New version: [0.3.5] Old Version: [0.3.4]
+[2024-05-27 15:28:06] INFO root fetch - processPackages [threedigrid]: Downloading https://files.pythonhosted.org/packages/1f/7c/d825581c3078b4234f0dd1543b4af999a123182e2ec05e405e0b9263ff0f/threedigrid-2.2.8.tar.gz
+[2024-05-27 15:28:06] INFO root fetch - processPackages [sinto]: Downloading https://files.pythonhosted.org/packages/42/23/af58ae97413fc3d18657015eb6f5a2cda05cdf72c08b6c0e0cce89646fa1/sinto-0.8.4.tar.gz
+[2024-05-27 15:28:06] INFO root fetch - processPackages [gs2-cdk]: Downloading https://files.pythonhosted.org/packages/e3/aa/0f163edc9bc64614a93358063b9233d886f8c00044a4ce8276f11777827e/gs2-cdk-1.0.8.tar.gz
+[2024-05-27 15:28:06] INFO root fetch - processPackages [qim3d]: Downloading https://files.pythonhosted.org/packages/7d/48/33676e7879e5cab8c64ef4da185847a9a4f400ff7940a871f0d7f6b21f8c/qim3d-0.3.4.tar.gz
+[2024-05-27 15:28:06] INFO root fetch - processPackages [ul-api-utils]: Downloading https://files.pythonhosted.org/packages/20/cb/18f5c35ecf95a42ac53501b019c346475569596b1f49218042569a8384f4/ul-api-utils-7.9.6.tar.gz
+[2024-05-27 15:28:06] WARNING root fetch - processPackages [qim3d]: Skipping package: exceeds size limit 14900381>=10485760
+[2024-05-27 15:28:06] INFO root fetch - main [MainThread]: End processing [qim3d] error
+[2024-05-27 15:28:06] INFO root fetch - processPackages [sinto]: Downloading https://files.pythonhosted.org/packages/8d/15/119fb5de8ea805748c18e954f4f8777d08fa7e03cd22bf53cfd2062d629e/sinto-0.9.0.tar.gz
+[2024-05-27 15:28:06] INFO root fetch - processPackages [gs2-cdk]: Downloading https://files.pythonhosted.org/packages/29/69/56532d9a44c725ba36a6010c493491c32d238a25ff3b70b61de2bd6479ef/gs2-cdk-1.0.9.tar.gz
+[2024-05-27 15:28:06] INFO root fetch - processPackages [threedigrid]: Downloading https://files.pythonhosted.org/packages/3a/df/116d3d25ca3a32963721f1cd006ad87235dac7d2791e80b9f1659b28504b/threedigrid-2.2.9.tar.gz
+[2024-05-27 15:28:07] INFO root fetch - processPackages [ul-api-utils]: Downloading https://files.pythonhosted.org/packages/c4/89/09d71c590f3070768b33dab7fafb43e7d1a0a57404f93d79a54515b6d7d4/ul-api-utils-7.9.7.tar.gz
+[2024-05-27 15:28:07] INFO root fetch - processPackages [sinto]: executing diffoscope
+[2024-05-27 15:28:07] INFO root fetch - processPackages [sinto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sinto-0.8.4.tar.gz tmp/sinto-0.9.0.tar.gz --markdown 20240527/s/sinto/0.8.4-0.9.0/README.md --exclude *.pyd
+[2024-05-27 15:28:07] INFO root fetch - processPackages [gs2-cdk]: executing diffoscope
+[2024-05-27 15:28:07] INFO root fetch - processPackages [gs2-cdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gs2-cdk-1.0.8.tar.gz tmp/gs2-cdk-1.0.9.tar.gz --markdown 20240527/g/gs2-cdk/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-27 15:28:07] INFO root fetch - processPackages [threedigrid]: executing diffoscope
+[2024-05-27 15:28:07] INFO root fetch - processPackages [threedigrid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threedigrid-2.2.8.tar.gz tmp/threedigrid-2.2.9.tar.gz --markdown 20240527/t/threedigrid/2.2.8-2.2.9/README.md --exclude *.pyd
+[2024-05-27 15:28:07] INFO root fetch - processPackages [ul-api-utils]: executing diffoscope
+[2024-05-27 15:28:07] INFO root fetch - processPackages [ul-api-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ul-api-utils-7.9.6.tar.gz tmp/ul-api-utils-7.9.7.tar.gz --markdown 20240527/u/ul-api-utils/7.9.6-7.9.7/README.md --exclude *.pyd
+[2024-05-27 15:28:07] INFO root fetch - processPackages [sinto]: Remove: archive file [/home/abi/fetcher/tmp/sinto-0.8.4.tar.gz]
+[2024-05-27 15:28:07] INFO root fetch - processPackages [sinto]: Remove: archive file [/home/abi/fetcher/tmp/sinto-0.9.0.tar.gz]
+[2024-05-27 15:28:07] INFO root fetch - main [MainThread]: End processing [sinto]: success
+[2024-05-27 15:28:07] INFO root fetch - processPackages [threedigrid]: Remove: archive file [/home/abi/fetcher/tmp/threedigrid-2.2.8.tar.gz]
+[2024-05-27 15:28:07] INFO root fetch - processPackages [threedigrid]: Remove: archive file [/home/abi/fetcher/tmp/threedigrid-2.2.9.tar.gz]
+[2024-05-27 15:28:07] INFO root fetch - main [MainThread]: End processing [threedigrid]: success
+[2024-05-27 15:28:08] INFO root fetch - processPackages [ul-api-utils]: Remove: archive file [/home/abi/fetcher/tmp/ul-api-utils-7.9.6.tar.gz]
+[2024-05-27 15:28:08] INFO root fetch - processPackages [ul-api-utils]: Remove: archive file [/home/abi/fetcher/tmp/ul-api-utils-7.9.7.tar.gz]
+[2024-05-27 15:28:08] INFO root fetch - main [MainThread]: End processing [ul-api-utils]: success
+[2024-05-27 15:28:08] INFO root fetch - processPackages [gs2-cdk]: Remove: archive file [/home/abi/fetcher/tmp/gs2-cdk-1.0.8.tar.gz]
+[2024-05-27 15:28:08] INFO root fetch - processPackages [gs2-cdk]: Remove: archive file [/home/abi/fetcher/tmp/gs2-cdk-1.0.9.tar.gz]
+[2024-05-27 15:28:08] INFO root fetch - main [MainThread]: End processing [gs2-cdk]: success
+[2024-05-27 15:28:08] INFO root fetch - main [MainThread]: Store serial: [23396221]
