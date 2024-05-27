@@ -6873,3 +6873,45 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 08:11:49] INFO root fetch - processPackages [mikeio]: Remove: archive file [/home/abi/fetcher/tmp/mikeio-2.0b1.tar.gz]
 [2024-05-27 08:11:49] INFO root fetch - main [MainThread]: End processing [mikeio]: success
 [2024-05-27 08:11:49] INFO root fetch - main [MainThread]: Store serial: [23391262]
+[2024-05-27 08:13:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23391262]
+[2024-05-27 08:13:58] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-27 08:13:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vrocky-gitignore-parser
+[2024-05-27 08:13:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nanosense
+[2024-05-27 08:13:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: direct-neural-biasing
+[2024-05-27 08:13:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: khoj-assistant
+[2024-05-27 08:13:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: seven-cloudapp-frame
+[2024-05-27 08:13:58] INFO root fetch - processPackages [nanosense]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-27 08:13:58] INFO root fetch - processPackages [seven-cloudapp-frame]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-05-27 08:13:58] INFO root fetch - processPackages [khoj-assistant]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev74]
+[2024-05-27 08:13:58] INFO root fetch - processPackages [direct-neural-biasing]: New version: [0.6.6] Old Version: [0.6.5]
+[2024-05-27 08:13:58] INFO root fetch - processPackages [seven-cloudapp-frame]: Downloading https://files.pythonhosted.org/packages/b9/ca/39a9edf0448dce1557b063b8e2277fb9cfb7583e390be7c95ab7d0ea0641/seven_cloudapp_frame-1.1.8.tar.gz
+[2024-05-27 08:13:58] WARNING root fetch - processPackages [vrocky-gitignore-parser]: Skipping, unable to determine old version
+[2024-05-27 08:13:58] INFO root fetch - main [MainThread]: End processing [vrocky-gitignore-parser] error
+[2024-05-27 08:13:58] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/fc/89/bbf1c812c39a0f341fea130ae430c11fcdd5fdcc5ca61fbaed2682cc4df7/khoj_assistant-1.9.1.dev74.tar.gz
+[2024-05-27 08:13:58] INFO root fetch - processPackages [nanosense]: Downloading https://files.pythonhosted.org/packages/5f/e7/2114b93eb66b6a3a872aaa37566e24cdf6ae3a90fd034aad7a41827cbc18/nanosense-0.1.0.tar.gz
+[2024-05-27 08:13:58] INFO root fetch - processPackages [direct-neural-biasing]: Downloading https://files.pythonhosted.org/packages/2e/b9/2ef2b79dadd1349e6386c2dde82afe6194c632552adb8000a9bf9e5d02c5/direct_neural_biasing-0.6.5-cp311-none-win_amd64.whl
+[2024-05-27 08:13:58] INFO root fetch - processPackages [seven-cloudapp-frame]: Downloading https://files.pythonhosted.org/packages/3c/36/0c224bc89289ec1de22a5c6a2070b6fe931fc13c906476b1e568044096fc/seven_cloudapp_frame-1.1.9.tar.gz
+[2024-05-27 08:13:58] INFO root fetch - processPackages [nanosense]: Downloading https://files.pythonhosted.org/packages/da/6f/6820978c4a4c5b9f0c9240fd338af1b9c54b8d1b2baf61fb151542c4bb10/nanosense-0.1.1.tar.gz
+[2024-05-27 08:13:58] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/47/ae/446626ff585bb336b70b59402ea6a46bf52326a51b81fd9ead920cde4c8a/khoj_assistant-1.9.1.dev8.tar.gz
+[2024-05-27 08:13:58] INFO root fetch - processPackages [seven-cloudapp-frame]: executing diffoscope
+[2024-05-27 08:13:58] INFO root fetch - processPackages [seven-cloudapp-frame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seven_cloudapp_frame-1.1.8.tar.gz tmp/seven_cloudapp_frame-1.1.9.tar.gz --markdown 20240527/s/seven-cloudapp-frame/1.1.8-1.1.9/README.md --exclude *.pyd
+[2024-05-27 08:13:58] INFO root fetch - processPackages [direct-neural-biasing]: Downloading https://files.pythonhosted.org/packages/62/91/3817904069b42a8800c4671ba797608a3c86daff2629502a543bdbabb7b2/direct_neural_biasing-0.6.6-cp311-none-win_amd64.whl
+[2024-05-27 08:13:58] INFO root fetch - processPackages [nanosense]: executing diffoscope
+[2024-05-27 08:13:58] INFO root fetch - processPackages [nanosense]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nanosense-0.1.0.tar.gz tmp/nanosense-0.1.1.tar.gz --markdown 20240527/n/nanosense/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-27 08:13:58] INFO root fetch - processPackages [direct-neural-biasing]: executing diffoscope
+[2024-05-27 08:13:58] INFO root fetch - processPackages [direct-neural-biasing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/direct_neural_biasing-0.6.5-cp311-none-win_amd64.whl.zip tmp/direct_neural_biasing-0.6.6-cp311-none-win_amd64.whl.zip --markdown 20240527/d/direct-neural-biasing/0.6.5-0.6.6/README.md --exclude *.pyd
+[2024-05-27 08:13:59] INFO root fetch - processPackages [khoj-assistant]: executing diffoscope
+[2024-05-27 08:13:59] INFO root fetch - processPackages [khoj-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/khoj_assistant-1.9.1.dev74.tar.gz tmp/khoj_assistant-1.9.1.dev8.tar.gz --markdown 20240527/k/khoj-assistant/1.9.1.dev74-1.9.1.dev8/README.md --exclude *.pyd
+[2024-05-27 08:13:59] INFO root fetch - processPackages [nanosense]: Remove: archive file [/home/abi/fetcher/tmp/nanosense-0.1.0.tar.gz]
+[2024-05-27 08:13:59] INFO root fetch - processPackages [nanosense]: Remove: archive file [/home/abi/fetcher/tmp/nanosense-0.1.1.tar.gz]
+[2024-05-27 08:13:59] INFO root fetch - main [MainThread]: End processing [nanosense]: success
+[2024-05-27 08:13:59] INFO root fetch - processPackages [direct-neural-biasing]: Remove: archive file [/home/abi/fetcher/tmp/direct_neural_biasing-0.6.5-cp311-none-win_amd64.whl.zip]
+[2024-05-27 08:13:59] INFO root fetch - processPackages [direct-neural-biasing]: Remove: archive file [/home/abi/fetcher/tmp/direct_neural_biasing-0.6.6-cp311-none-win_amd64.whl.zip]
+[2024-05-27 08:13:59] INFO root fetch - main [MainThread]: End processing [direct-neural-biasing]: success
+[2024-05-27 08:13:59] INFO root fetch - processPackages [seven-cloudapp-frame]: Remove: archive file [/home/abi/fetcher/tmp/seven_cloudapp_frame-1.1.8.tar.gz]
+[2024-05-27 08:13:59] INFO root fetch - processPackages [seven-cloudapp-frame]: Remove: archive file [/home/abi/fetcher/tmp/seven_cloudapp_frame-1.1.9.tar.gz]
+[2024-05-27 08:13:59] INFO root fetch - main [MainThread]: End processing [seven-cloudapp-frame]: success
+[2024-05-27 08:14:00] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-1.9.1.dev74.tar.gz]
+[2024-05-27 08:14:00] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-1.9.1.dev8.tar.gz]
+[2024-05-27 08:14:00] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
+[2024-05-27 08:14:00] INFO root fetch - main [MainThread]: Store serial: [23391280]
