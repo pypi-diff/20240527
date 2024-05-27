@@ -8440,3 +8440,56 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 09:38:12] INFO root fetch - processPackages [omspy]: Remove: archive file [/home/abi/fetcher/tmp/omspy-0.9.1.tar.gz]
 [2024-05-27 09:38:12] INFO root fetch - main [MainThread]: End processing [omspy]: success
 [2024-05-27 09:38:12] INFO root fetch - main [MainThread]: Store serial: [23392014]
+[2024-05-27 09:40:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23392014]
+[2024-05-27 09:40:22] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-27 09:40:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lalsuite
+[2024-05-27 09:40:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ivande-combiner
+[2024-05-27 09:40:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: loe-simp-app-fw
+[2024-05-27 09:40:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: glide-for-redis
+[2024-05-27 09:40:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vxutils
+[2024-05-27 09:40:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: oarepo-vocabularies
+[2024-05-27 09:40:22] INFO root fetch - processPackages [glide-for-redis]: New version: [0.4.0rc4] Old Version: [0.4.0rc14]
+[2024-05-27 09:40:22] INFO root fetch - processPackages [ivande-combiner]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-27 09:40:22] INFO root fetch - processPackages [lalsuite]: New version: [7.9] Old Version: [7.8]
+[2024-05-27 09:40:22] INFO root fetch - processPackages [loe-simp-app-fw]: New version: [1.5.0] Old Version: [1.4.1]
+[2024-05-27 09:40:22] INFO root fetch - processPackages [vxutils]: New version: [20240522] Old Version: [20240424]
+[2024-05-27 09:40:22] INFO root fetch - processPackages [ivande-combiner]: Downloading https://files.pythonhosted.org/packages/e2/68/4605bffb5a3ac9e99ed7fdb5b2cf4fbd8ce7e3d592151e9678ad20828d98/ivande_combiner-0.0.7.tar.gz
+[2024-05-27 09:40:22] INFO root fetch - processPackages [oarepo-vocabularies]: New version: [2.0.88] Old Version: [2.0.87]
+[2024-05-27 09:40:23] INFO root fetch - processPackages [lalsuite]: Downloading https://files.pythonhosted.org/packages/53/92/fc43211ca56b7c5532fc1b47c701a564c7ddcaf866c62ae45acbfdc34f23/lalsuite-7.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-27 09:40:23] INFO root fetch - processPackages [glide-for-redis]: Downloading https://files.pythonhosted.org/packages/ad/26/20c98011577315962452249717add8bee3d9a29e761432aa057d30e2f240/glide_for_redis-0.4.0rc14-cp39-cp39-manylinux_2_28_aarch64.whl
+[2024-05-27 09:40:23] INFO root fetch - processPackages [oarepo-vocabularies]: Downloading https://files.pythonhosted.org/packages/37/b2/d00b779b33592573283e5f7b2812682a4acaaa6e9d96f260d3b7521268c8/oarepo_vocabularies-2.0.87.tar.gz
+[2024-05-27 09:40:23] INFO root fetch - processPackages [vxutils]: Downloading https://files.pythonhosted.org/packages/36/fa/cac92d1e8471b56ff0bd4832908cba7e36a2274220bd512c50236ffaaa46/vxutils-20240424.tar.gz
+[2024-05-27 09:40:23] INFO root fetch - processPackages [loe-simp-app-fw]: Downloading https://files.pythonhosted.org/packages/e6/64/a87e81e0d3d838f02bd5ff6ddf1bcd16e33e1e2e3875d0189ef019fa239f/loe_simp_app_fw-1.4.1.tar.gz
+[2024-05-27 09:40:23] INFO root fetch - processPackages [ivande-combiner]: Downloading https://files.pythonhosted.org/packages/3f/a9/80386ed0c5d112f1438ac694dabdb34f4e73326a821141c1c17b4096135a/ivande_combiner-0.0.8.tar.gz
+[2024-05-27 09:40:23] INFO root fetch - processPackages [ivande-combiner]: executing diffoscope
+[2024-05-27 09:40:23] INFO root fetch - processPackages [ivande-combiner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ivande_combiner-0.0.7.tar.gz tmp/ivande_combiner-0.0.8.tar.gz --markdown 20240527/i/ivande-combiner/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-27 09:40:23] INFO root fetch - processPackages [glide-for-redis]: Downloading https://files.pythonhosted.org/packages/c5/ea/a36d5fd0dab7647960a2afd8cbc58f9f6ab84c6c903a2ae0d90b9954daec/glide_for_redis-0.4.0rc4-cp39-cp39-manylinux_2_28_aarch64.whl
+[2024-05-27 09:40:23] INFO root fetch - processPackages [vxutils]: Downloading https://files.pythonhosted.org/packages/35/be/abb800351da208ed41c2e1e8f9501a0fd843967e9e692e0145e521960b45/vxutils-20240522.tar.gz
+[2024-05-27 09:40:23] INFO root fetch - processPackages [oarepo-vocabularies]: Downloading https://files.pythonhosted.org/packages/b9/57/83042a93d68462003d44fed94fb86e56aa9dc6b79459a5b7835c7ce55ae5/oarepo_vocabularies-2.0.88.tar.gz
+[2024-05-27 09:40:23] INFO root fetch - processPackages [loe-simp-app-fw]: Downloading https://files.pythonhosted.org/packages/8f/82/295c955e72d831a5612c6e0121768a8ccd54b990bf3fd90cec68da4e6c11/loe_simp_app_fw-1.5.0.tar.gz
+[2024-05-27 09:40:24] INFO root fetch - processPackages [vxutils]: executing diffoscope
+[2024-05-27 09:40:24] INFO root fetch - processPackages [vxutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vxutils-20240424.tar.gz tmp/vxutils-20240522.tar.gz --markdown 20240527/v/vxutils/20240424-20240522/README.md --exclude *.pyd
+[2024-05-27 09:40:24] INFO root fetch - processPackages [loe-simp-app-fw]: executing diffoscope
+[2024-05-27 09:40:24] INFO root fetch - processPackages [loe-simp-app-fw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/loe_simp_app_fw-1.4.1.tar.gz tmp/loe_simp_app_fw-1.5.0.tar.gz --markdown 20240527/l/loe-simp-app-fw/1.4.1-1.5.0/README.md --exclude *.pyd
+[2024-05-27 09:40:24] INFO root fetch - processPackages [oarepo-vocabularies]: executing diffoscope
+[2024-05-27 09:40:24] INFO root fetch - processPackages [oarepo-vocabularies]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo_vocabularies-2.0.87.tar.gz tmp/oarepo_vocabularies-2.0.88.tar.gz --markdown 20240527/o/oarepo-vocabularies/2.0.87-2.0.88/README.md --exclude *.pyd
+[2024-05-27 09:40:24] INFO root fetch - processPackages [glide-for-redis]: executing diffoscope
+[2024-05-27 09:40:24] INFO root fetch - processPackages [glide-for-redis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glide_for_redis-0.4.0rc14-cp39-cp39-manylinux_2_28_aarch64.whl.zip tmp/glide_for_redis-0.4.0rc4-cp39-cp39-manylinux_2_28_aarch64.whl.zip --markdown 20240527/g/glide-for-redis/0.4.0rc14-0.4.0rc4/README.md --exclude *.pyd
+[2024-05-27 09:40:24] INFO root fetch - processPackages [ivande-combiner]: Remove: archive file [/home/abi/fetcher/tmp/ivande_combiner-0.0.7.tar.gz]
+[2024-05-27 09:40:24] INFO root fetch - processPackages [ivande-combiner]: Remove: archive file [/home/abi/fetcher/tmp/ivande_combiner-0.0.8.tar.gz]
+[2024-05-27 09:40:24] INFO root fetch - main [MainThread]: End processing [ivande-combiner]: success
+[2024-05-27 09:40:25] INFO root fetch - processPackages [loe-simp-app-fw]: Remove: archive file [/home/abi/fetcher/tmp/loe_simp_app_fw-1.4.1.tar.gz]
+[2024-05-27 09:40:25] INFO root fetch - processPackages [loe-simp-app-fw]: Remove: archive file [/home/abi/fetcher/tmp/loe_simp_app_fw-1.5.0.tar.gz]
+[2024-05-27 09:40:25] INFO root fetch - main [MainThread]: End processing [loe-simp-app-fw]: success
+[2024-05-27 09:40:25] INFO root fetch - processPackages [vxutils]: Remove: archive file [/home/abi/fetcher/tmp/vxutils-20240424.tar.gz]
+[2024-05-27 09:40:25] INFO root fetch - processPackages [vxutils]: Remove: archive file [/home/abi/fetcher/tmp/vxutils-20240522.tar.gz]
+[2024-05-27 09:40:25] INFO root fetch - main [MainThread]: End processing [vxutils]: success
+[2024-05-27 09:40:25] WARNING root fetch - processPackages [lalsuite]: Skipping package: exceeds size limit 48394251>=10485760
+[2024-05-27 09:40:25] INFO root fetch - main [MainThread]: End processing [lalsuite] error
+[2024-05-27 09:40:25] INFO root fetch - processPackages [oarepo-vocabularies]: Remove: archive file [/home/abi/fetcher/tmp/oarepo_vocabularies-2.0.87.tar.gz]
+[2024-05-27 09:40:25] INFO root fetch - processPackages [oarepo-vocabularies]: Remove: archive file [/home/abi/fetcher/tmp/oarepo_vocabularies-2.0.88.tar.gz]
+[2024-05-27 09:40:25] INFO root fetch - main [MainThread]: End processing [oarepo-vocabularies]: success
+[2024-05-27 09:40:39] INFO root fetch - processPackages [glide-for-redis]: Remove: archive file [/home/abi/fetcher/tmp/glide_for_redis-0.4.0rc14-cp39-cp39-manylinux_2_28_aarch64.whl.zip]
+[2024-05-27 09:40:39] INFO root fetch - processPackages [glide-for-redis]: Remove: archive file [/home/abi/fetcher/tmp/glide_for_redis-0.4.0rc4-cp39-cp39-manylinux_2_28_aarch64.whl.zip]
+[2024-05-27 09:40:39] INFO root fetch - main [MainThread]: End processing [glide-for-redis]: success
+[2024-05-27 09:40:39] INFO root fetch - main [MainThread]: Store serial: [23392059]
