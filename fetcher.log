@@ -16172,3 +16172,45 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 15:02:19] INFO root fetch - processPackages [iniUts]: Remove: archive file [/home/abi/fetcher/tmp/iniUts-1.1.9.tar.gz]
 [2024-05-27 15:02:19] INFO root fetch - main [MainThread]: End processing [iniUts]: success
 [2024-05-27 15:02:19] INFO root fetch - main [MainThread]: Store serial: [23395888]
+[2024-05-27 15:04:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23395888]
+[2024-05-27 15:04:29] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-27 15:04:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: whiffle-client
+[2024-05-27 15:04:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pcx
+[2024-05-27 15:04:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aiy-worker
+[2024-05-27 15:04:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: datafold-sdk
+[2024-05-27 15:04:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pywayne
+[2024-05-27 15:04:29] INFO root fetch - processPackages [aiy-worker]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-27 15:04:29] WARNING root fetch - processPackages [pcx]: Skipping, unable to determine old version
+[2024-05-27 15:04:29] INFO root fetch - main [MainThread]: End processing [pcx] error
+[2024-05-27 15:04:29] INFO root fetch - processPackages [whiffle-client]: New version: [0.4.4] Old Version: [0.4.3]
+[2024-05-27 15:04:29] INFO root fetch - processPackages [aiy-worker]: Downloading https://files.pythonhosted.org/packages/b9/5f/81393b0204d8c267e42943f5190dd1e8ad870836f49c15a6247a32195e8c/aiy_worker-0.0.8.tar.gz
+[2024-05-27 15:04:29] INFO root fetch - processPackages [pywayne]: New version: [1.0.0.7.5] Old Version: [1.0.0.7.4]
+[2024-05-27 15:04:29] INFO root fetch - processPackages [datafold-sdk]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-27 15:04:30] INFO root fetch - processPackages [whiffle-client]: Downloading https://files.pythonhosted.org/packages/c0/97/3c57bf2d7f35b76f31a0f293cec7802387af43cf6ec75f8a682c75fb2cb1/whiffle_client-0.4.3.tar.gz
+[2024-05-27 15:04:30] INFO root fetch - processPackages [pywayne]: Downloading https://files.pythonhosted.org/packages/c7/fa/846685322afc0ac648e63421c824414465017a1f1b8312eeeca0dcb20c0c/pywayne-1.0.0.7.4.tar.gz
+[2024-05-27 15:04:30] INFO root fetch - processPackages [datafold-sdk]: Downloading https://files.pythonhosted.org/packages/d0/4a/4a40e84c94fd880a6b8e432e55ee41c3afca1b0d69223fd226ea2726bb07/datafold_sdk-0.0.8-py3-none-any.whl
+[2024-05-27 15:04:30] INFO root fetch - processPackages [aiy-worker]: Downloading https://files.pythonhosted.org/packages/da/67/91123ba0f2b3f0ddefa6c6e760583fc1fd1c5420578ca736ce99f474bc4c/aiy_worker-0.0.9.tar.gz
+[2024-05-27 15:04:30] INFO root fetch - processPackages [aiy-worker]: executing diffoscope
+[2024-05-27 15:04:30] INFO root fetch - processPackages [aiy-worker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiy_worker-0.0.8.tar.gz tmp/aiy_worker-0.0.9.tar.gz --markdown 20240527/a/aiy-worker/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-27 15:04:30] INFO root fetch - processPackages [datafold-sdk]: Downloading https://files.pythonhosted.org/packages/1c/30/d51749c2b59112c5766d7540cc3d9be238c87f58474cf3159f90410cc5f9/datafold_sdk-0.0.9-py3-none-any.whl
+[2024-05-27 15:04:30] INFO root fetch - processPackages [whiffle-client]: Downloading https://files.pythonhosted.org/packages/1f/04/39744e1e439b668a9c59fbe7e3ed08b460be65ebf3327475af5f400b7a7e/whiffle_client-0.4.4.tar.gz
+[2024-05-27 15:04:30] INFO root fetch - processPackages [pywayne]: Downloading https://files.pythonhosted.org/packages/ec/7d/066358562a81af884a0dd5e6d185f58ea083b39ff5a0abe29b6ed5931c38/pywayne-1.0.0.7.5.tar.gz
+[2024-05-27 15:04:30] INFO root fetch - processPackages [datafold-sdk]: executing diffoscope
+[2024-05-27 15:04:30] INFO root fetch - processPackages [datafold-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datafold_sdk-0.0.8-py3-none-any.whl.zip tmp/datafold_sdk-0.0.9-py3-none-any.whl.zip --markdown 20240527/d/datafold-sdk/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-27 15:04:30] INFO root fetch - processPackages [whiffle-client]: executing diffoscope
+[2024-05-27 15:04:30] INFO root fetch - processPackages [whiffle-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whiffle_client-0.4.3.tar.gz tmp/whiffle_client-0.4.4.tar.gz --markdown 20240527/w/whiffle-client/0.4.3-0.4.4/README.md --exclude *.pyd
+[2024-05-27 15:04:30] INFO root fetch - processPackages [pywayne]: executing diffoscope
+[2024-05-27 15:04:30] INFO root fetch - processPackages [pywayne]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pywayne-1.0.0.7.4.tar.gz tmp/pywayne-1.0.0.7.5.tar.gz --markdown 20240527/p/pywayne/1.0.0.7.4-1.0.0.7.5/README.md --exclude *.pyd
+[2024-05-27 15:04:30] INFO root fetch - processPackages [aiy-worker]: Remove: archive file [/home/abi/fetcher/tmp/aiy_worker-0.0.8.tar.gz]
+[2024-05-27 15:04:30] INFO root fetch - processPackages [aiy-worker]: Remove: archive file [/home/abi/fetcher/tmp/aiy_worker-0.0.9.tar.gz]
+[2024-05-27 15:04:30] INFO root fetch - main [MainThread]: End processing [aiy-worker]: success
+[2024-05-27 15:04:31] INFO root fetch - processPackages [datafold-sdk]: Remove: archive file [/home/abi/fetcher/tmp/datafold_sdk-0.0.8-py3-none-any.whl.zip]
+[2024-05-27 15:04:31] INFO root fetch - processPackages [datafold-sdk]: Remove: archive file [/home/abi/fetcher/tmp/datafold_sdk-0.0.9-py3-none-any.whl.zip]
+[2024-05-27 15:04:31] INFO root fetch - main [MainThread]: End processing [datafold-sdk]: success
+[2024-05-27 15:04:31] INFO root fetch - processPackages [whiffle-client]: Remove: archive file [/home/abi/fetcher/tmp/whiffle_client-0.4.3.tar.gz]
+[2024-05-27 15:04:31] INFO root fetch - processPackages [whiffle-client]: Remove: archive file [/home/abi/fetcher/tmp/whiffle_client-0.4.4.tar.gz]
+[2024-05-27 15:04:31] INFO root fetch - main [MainThread]: End processing [whiffle-client]: success
+[2024-05-27 15:04:31] INFO root fetch - processPackages [pywayne]: Remove: archive file [/home/abi/fetcher/tmp/pywayne-1.0.0.7.4.tar.gz]
+[2024-05-27 15:04:31] INFO root fetch - processPackages [pywayne]: Remove: archive file [/home/abi/fetcher/tmp/pywayne-1.0.0.7.5.tar.gz]
+[2024-05-27 15:04:31] INFO root fetch - main [MainThread]: End processing [pywayne]: success
+[2024-05-27 15:04:31] INFO root fetch - main [MainThread]: Store serial: [23395906]
