@@ -5544,3 +5544,65 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 06:45:28] INFO root fetch - processPackages [gpt-all-star]: Remove: archive file [/home/abi/fetcher/tmp/gpt_all_star-0.0.9.tar.gz]
 [2024-05-27 06:45:28] INFO root fetch - main [MainThread]: End processing [gpt-all-star]: success
 [2024-05-27 06:45:28] INFO root fetch - main [MainThread]: Store serial: [23390615]
+[2024-05-27 06:47:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23390615]
+[2024-05-27 06:47:36] INFO root fetch - main [MainThread]: No changed packages found
+[2024-05-27 06:49:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23390615]
+[2024-05-27 06:49:43] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-27 06:49:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: machine-learning-package
+[2024-05-27 06:49:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ecr-scan-notifier
+[2024-05-27 06:49:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: afeng-py-tools
+[2024-05-27 06:49:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: shopify-custom-api
+[2024-05-27 06:49:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: image-collect
+[2024-05-27 06:49:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: secretflow
+[2024-05-27 06:49:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: secretflow-lite
+[2024-05-27 06:49:43] WARNING root fetch - processPackages [machine-learning-package]: Skipping, unable to determine old version
+[2024-05-27 06:49:43] INFO root fetch - processPackages [image-collect]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-27 06:49:43] INFO root fetch - main [MainThread]: End processing [machine-learning-package] error
+[2024-05-27 06:49:43] INFO root fetch - processPackages [afeng-py-tools]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-27 06:49:43] INFO root fetch - processPackages [image-collect]: Downloading https://files.pythonhosted.org/packages/57/c7/af8b5d80309359c7f7097243e7af2d3303d5831873c1515f51929145ab8c/image_collect-0.0.2-py3-none-any.whl
+[2024-05-27 06:49:43] INFO root fetch - processPackages [afeng-py-tools]: Downloading https://files.pythonhosted.org/packages/03/96/e24f6bbf418707708ed1ab31dd8f4af000cdfcd56c3955e6bcf876e28182/afeng-py-tools-0.0.98.tar.gz
+[2024-05-27 06:49:43] INFO root fetch - processPackages [ecr-scan-notifier]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-27 06:49:43] INFO root fetch - processPackages [shopify-custom-api]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-27 06:49:43] INFO root fetch - processPackages [secretflow-lite]: New version: [1.6.1b0] Old Version: [1.6.0b0]
+[2024-05-27 06:49:43] INFO root fetch - processPackages [secretflow]: New version: [1.6.1b0] Old Version: [1.6.0b0]
+[2024-05-27 06:49:43] INFO root fetch - processPackages [shopify-custom-api]: Downloading https://files.pythonhosted.org/packages/2b/eb/d487c1d5672ec9bf6b2c6ab98af8fa2f58a8de2f30becfec5f7bad50b7f1/shopify_custom_api-0.1.1.tar.gz
+[2024-05-27 06:49:43] INFO root fetch - processPackages [ecr-scan-notifier]: Downloading https://files.pythonhosted.org/packages/40/4d/1a1d0d9bc892c0dfb4d791a0884a59a8914a10d1e7da04c6b59517cf273f/ecr-scan-notifier-0.0.8.tar.gz
+[2024-05-27 06:49:43] INFO root fetch - processPackages [afeng-py-tools]: Downloading https://files.pythonhosted.org/packages/b2/0a/41c6034fd5c224a859e4249b1b09e63d7acefba4ae5ac80d406a778a1e32/afeng-py-tools-0.0.99.tar.gz
+[2024-05-27 06:49:43] INFO root fetch - processPackages [secretflow-lite]: Downloading https://files.pythonhosted.org/packages/e3/99/00ff81abaeceed0337163a4d03a4e2395e518223b074dcaa8646f175c132/secretflow_lite-1.6.0b0-cp39-cp39-manylinux_2_28_aarch64.whl
+[2024-05-27 06:49:43] INFO root fetch - processPackages [image-collect]: Downloading https://files.pythonhosted.org/packages/9c/60/6294e645cd59a7b3a4c6e367ad1bb804858a618221a01024ee093d2254c0/image_collect-0.0.3-py3-none-any.whl
+[2024-05-27 06:49:43] INFO root fetch - processPackages [secretflow]: Downloading https://files.pythonhosted.org/packages/05/bb/8918fad84e81883656fc6ae4f8000d67c278047d2054fda24f5299ed02a8/secretflow-1.6.0b0-cp39-cp39-manylinux_2_28_aarch64.whl
+[2024-05-27 06:49:43] INFO root fetch - processPackages [afeng-py-tools]: executing diffoscope
+[2024-05-27 06:49:43] INFO root fetch - processPackages [afeng-py-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/afeng-py-tools-0.0.98.tar.gz tmp/afeng-py-tools-0.0.99.tar.gz --markdown 20240527/a/afeng-py-tools/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-27 06:49:43] INFO root fetch - processPackages [image-collect]: executing diffoscope
+[2024-05-27 06:49:43] INFO root fetch - processPackages [image-collect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/image_collect-0.0.2-py3-none-any.whl.zip tmp/image_collect-0.0.3-py3-none-any.whl.zip --markdown 20240527/i/image-collect/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-27 06:49:43] INFO root fetch - processPackages [shopify-custom-api]: Downloading https://files.pythonhosted.org/packages/d1/58/9bd493ac9ec0d73d4aecb996245336b18fbecb1782d70dbe29b6dc6ef75b/shopify_custom_api-0.1.2.tar.gz
+[2024-05-27 06:49:43] INFO root fetch - processPackages [ecr-scan-notifier]: Downloading https://files.pythonhosted.org/packages/d1/00/57fd90da8640eba9f4ecd18284a84eab9858fbc02e1cde2695b5c20f9967/ecr-scan-notifier-0.0.9.tar.gz
+[2024-05-27 06:49:44] INFO root fetch - processPackages [shopify-custom-api]: executing diffoscope
+[2024-05-27 06:49:44] INFO root fetch - processPackages [shopify-custom-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shopify_custom_api-0.1.1.tar.gz tmp/shopify_custom_api-0.1.2.tar.gz --markdown 20240527/s/shopify-custom-api/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-27 06:49:44] INFO root fetch - processPackages [image-collect]: Remove: archive file [/home/abi/fetcher/tmp/image_collect-0.0.2-py3-none-any.whl.zip]
+[2024-05-27 06:49:44] INFO root fetch - processPackages [image-collect]: Remove: archive file [/home/abi/fetcher/tmp/image_collect-0.0.3-py3-none-any.whl.zip]
+[2024-05-27 06:49:44] INFO root fetch - main [MainThread]: End processing [image-collect]: success
+[2024-05-27 06:49:44] INFO root fetch - processPackages [shopify-custom-api]: Remove: archive file [/home/abi/fetcher/tmp/shopify_custom_api-0.1.1.tar.gz]
+[2024-05-27 06:49:44] INFO root fetch - processPackages [shopify-custom-api]: Remove: archive file [/home/abi/fetcher/tmp/shopify_custom_api-0.1.2.tar.gz]
+[2024-05-27 06:49:44] INFO root fetch - main [MainThread]: End processing [shopify-custom-api]: success
+[2024-05-27 06:49:44] INFO root fetch - processPackages [secretflow]: Downloading https://files.pythonhosted.org/packages/e0/94/91afeed179f39d2b822bd0f1f3b4974449c7b946a14ca29d6aa9fa346266/secretflow-1.6.1b0-cp39-cp39-manylinux2014_x86_64.whl
+[2024-05-27 06:49:44] INFO root fetch - processPackages [secretflow-lite]: Downloading https://files.pythonhosted.org/packages/a9/06/ccb7753d7e039bec68b5bd6d5e3bb7ca7bf2dfa44f76bd7faa7f06fec503/secretflow_lite-1.6.1b0-cp39-cp39-manylinux2014_x86_64.whl
+[2024-05-27 06:49:45] INFO root fetch - processPackages [afeng-py-tools]: Remove: archive file [/home/abi/fetcher/tmp/afeng-py-tools-0.0.98.tar.gz]
+[2024-05-27 06:49:45] INFO root fetch - processPackages [afeng-py-tools]: Remove: archive file [/home/abi/fetcher/tmp/afeng-py-tools-0.0.99.tar.gz]
+[2024-05-27 06:49:45] INFO root fetch - main [MainThread]: End processing [afeng-py-tools]: success
+[2024-05-27 06:49:45] INFO root fetch - processPackages [ecr-scan-notifier]: executing diffoscope
+[2024-05-27 06:49:45] INFO root fetch - processPackages [ecr-scan-notifier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecr-scan-notifier-0.0.8.tar.gz tmp/ecr-scan-notifier-0.0.9.tar.gz --markdown 20240527/e/ecr-scan-notifier/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-27 06:49:45] INFO root fetch - processPackages [ecr-scan-notifier]: Remove: archive file [/home/abi/fetcher/tmp/ecr-scan-notifier-0.0.8.tar.gz]
+[2024-05-27 06:49:45] INFO root fetch - processPackages [ecr-scan-notifier]: Remove: archive file [/home/abi/fetcher/tmp/ecr-scan-notifier-0.0.9.tar.gz]
+[2024-05-27 06:49:45] INFO root fetch - main [MainThread]: End processing [ecr-scan-notifier]: success
+[2024-05-27 06:49:45] INFO root fetch - processPackages [secretflow]: executing diffoscope
+[2024-05-27 06:49:46] INFO root fetch - processPackages [secretflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/secretflow-1.6.0b0-cp39-cp39-manylinux_2_28_aarch64.whl.zip tmp/secretflow-1.6.1b0-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20240527/s/secretflow/1.6.0b0-1.6.1b0/README.md --exclude *.pyd
+[2024-05-27 06:49:46] INFO root fetch - processPackages [secretflow-lite]: executing diffoscope
+[2024-05-27 06:49:46] INFO root fetch - processPackages [secretflow-lite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/secretflow_lite-1.6.0b0-cp39-cp39-manylinux_2_28_aarch64.whl.zip tmp/secretflow_lite-1.6.1b0-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20240527/s/secretflow-lite/1.6.0b0-1.6.1b0/README.md --exclude *.pyd
+[2024-05-27 06:50:33] INFO root fetch - processPackages [secretflow]: Remove: archive file [/home/abi/fetcher/tmp/secretflow-1.6.0b0-cp39-cp39-manylinux_2_28_aarch64.whl.zip]
+[2024-05-27 06:50:33] INFO root fetch - processPackages [secretflow]: Remove: archive file [/home/abi/fetcher/tmp/secretflow-1.6.1b0-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2024-05-27 06:50:33] INFO root fetch - main [MainThread]: End processing [secretflow]: success
+[2024-05-27 06:50:33] INFO root fetch - processPackages [secretflow-lite]: Remove: archive file [/home/abi/fetcher/tmp/secretflow_lite-1.6.0b0-cp39-cp39-manylinux_2_28_aarch64.whl.zip]
+[2024-05-27 06:50:33] INFO root fetch - processPackages [secretflow-lite]: Remove: archive file [/home/abi/fetcher/tmp/secretflow_lite-1.6.1b0-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2024-05-27 06:50:33] INFO root fetch - main [MainThread]: End processing [secretflow-lite]: success
+[2024-05-27 06:50:33] INFO root fetch - main [MainThread]: Store serial: [23390641]
