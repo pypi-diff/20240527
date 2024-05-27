@@ -19739,3 +19739,47 @@ EOFError: EOF read where object expected
 [2024-05-27 17:04:09] INFO root fetch - processPackages [superlinked]: Remove: archive file [/home/abi/fetcher/tmp/superlinked-5.4.0.tar.gz]
 [2024-05-27 17:04:09] INFO root fetch - main [MainThread]: End processing [superlinked]: success
 [2024-05-27 17:04:09] INFO root fetch - main [MainThread]: Store serial: [23397439]
+[2024-05-27 17:06:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23397439]
+[2024-05-27 17:06:18] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-27 17:06:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: certora-cli-alpha-master
+[2024-05-27 17:06:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cook-builder
+[2024-05-27 17:06:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jasmine-astro
+[2024-05-27 17:06:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cellcharter
+[2024-05-27 17:06:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ivylantern
+[2024-05-27 17:06:18] INFO root fetch - processPackages [ivylantern]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-27 17:06:18] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20240527.10.31.346752] Old Version: [20240526.12.55.335529]
+[2024-05-27 17:06:18] INFO root fetch - processPackages [ivylantern]: Downloading https://files.pythonhosted.org/packages/17/54/d40b76eb58119bfb8031282e0ca1d527ce3ef222b89d0b83e7d146ab06ec/ivylantern-0.2.0.tar.gz
+[2024-05-27 17:06:18] INFO root fetch - processPackages [jasmine-astro]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-27 17:06:18] INFO root fetch - processPackages [cellcharter]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-27 17:06:18] INFO root fetch - processPackages [cook-builder]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-27 17:06:18] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/39/99/f79f5eb62cedc767e5d29f6f722e4c2979c0728fe4c4de52512063e01c66/certora-cli-alpha-master-20240526.12.55.335529.tar.gz
+[2024-05-27 17:06:18] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 14595312>=10485760
+[2024-05-27 17:06:18] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2024-05-27 17:06:18] INFO root fetch - processPackages [jasmine-astro]: Downloading https://files.pythonhosted.org/packages/8f/29/02ca9c0e7f373fae4481d077ca93a904a64290564a887736cdc37d12fd59/jasmine_astro-0.1.1.tar.gz
+[2024-05-27 17:06:18] INFO root fetch - processPackages [cellcharter]: Downloading https://files.pythonhosted.org/packages/9f/54/1de39b443f24fd8a6e99245e1aada5387614b112a3ed72f426c196f81682/cellcharter-0.2.0.tar.gz
+[2024-05-27 17:06:18] INFO root fetch - processPackages [cook-builder]: Downloading https://files.pythonhosted.org/packages/0b/24/e38a3b736683217b82f14b18471dd6aa795dbe7d9ddbc44827fc0ebcf00f/cook_builder-0.1.4.tar.gz
+[2024-05-27 17:06:19] INFO root fetch - processPackages [ivylantern]: Downloading https://files.pythonhosted.org/packages/8e/78/1b4e6148164072ff0531c2a42276690311041f1d322d602a465939c4e966/ivylantern-0.2.1.tar.gz
+[2024-05-27 17:06:19] INFO root fetch - processPackages [jasmine-astro]: Downloading https://files.pythonhosted.org/packages/da/8d/a405c5a737a8676949b693a998b277c1ea847ae0e8e58974bf306c48d65d/jasmine_astro-0.1.2.tar.gz
+[2024-05-27 17:06:19] INFO root fetch - processPackages [ivylantern]: executing diffoscope
+[2024-05-27 17:06:19] INFO root fetch - processPackages [ivylantern]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ivylantern-0.2.0.tar.gz tmp/ivylantern-0.2.1.tar.gz --markdown 20240527/i/ivylantern/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-27 17:06:19] INFO root fetch - processPackages [cellcharter]: Downloading https://files.pythonhosted.org/packages/6b/2c/905e963f0bb36c2054a9b9f6acbd423d9fe6bfd92ce955dcf1ba97557418/cellcharter-0.2.1.tar.gz
+[2024-05-27 17:06:19] INFO root fetch - processPackages [jasmine-astro]: executing diffoscope
+[2024-05-27 17:06:19] INFO root fetch - processPackages [jasmine-astro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jasmine_astro-0.1.1.tar.gz tmp/jasmine_astro-0.1.2.tar.gz --markdown 20240527/j/jasmine-astro/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-27 17:06:19] INFO root fetch - processPackages [cook-builder]: Downloading https://files.pythonhosted.org/packages/f5/2a/027203aa31d0075e3fef81c62508140f01676ebab7dc7cf79b6bdde01f6a/cook_builder-0.1.5.tar.gz
+[2024-05-27 17:06:19] INFO root fetch - processPackages [cellcharter]: executing diffoscope
+[2024-05-27 17:06:19] INFO root fetch - processPackages [cellcharter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellcharter-0.2.0.tar.gz tmp/cellcharter-0.2.1.tar.gz --markdown 20240527/c/cellcharter/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-27 17:06:19] INFO root fetch - processPackages [cook-builder]: executing diffoscope
+[2024-05-27 17:06:19] INFO root fetch - processPackages [cook-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cook_builder-0.1.4.tar.gz tmp/cook_builder-0.1.5.tar.gz --markdown 20240527/c/cook-builder/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-27 17:06:19] INFO root fetch - processPackages [ivylantern]: Remove: archive file [/home/abi/fetcher/tmp/ivylantern-0.2.0.tar.gz]
+[2024-05-27 17:06:19] INFO root fetch - processPackages [ivylantern]: Remove: archive file [/home/abi/fetcher/tmp/ivylantern-0.2.1.tar.gz]
+[2024-05-27 17:06:19] INFO root fetch - main [MainThread]: End processing [ivylantern]: success
+[2024-05-27 17:06:20] INFO root fetch - processPackages [jasmine-astro]: Remove: archive file [/home/abi/fetcher/tmp/jasmine_astro-0.1.1.tar.gz]
+[2024-05-27 17:06:20] INFO root fetch - processPackages [jasmine-astro]: Remove: archive file [/home/abi/fetcher/tmp/jasmine_astro-0.1.2.tar.gz]
+[2024-05-27 17:06:20] INFO root fetch - main [MainThread]: End processing [jasmine-astro]: success
+[2024-05-27 17:06:20] INFO root fetch - processPackages [cellcharter]: Remove: archive file [/home/abi/fetcher/tmp/cellcharter-0.2.0.tar.gz]
+[2024-05-27 17:06:20] INFO root fetch - processPackages [cellcharter]: Remove: archive file [/home/abi/fetcher/tmp/cellcharter-0.2.1.tar.gz]
+[2024-05-27 17:06:20] INFO root fetch - main [MainThread]: End processing [cellcharter]: success
+[2024-05-27 17:06:20] INFO root fetch - processPackages [cook-builder]: Remove: archive file [/home/abi/fetcher/tmp/cook_builder-0.1.4.tar.gz]
+[2024-05-27 17:06:20] INFO root fetch - processPackages [cook-builder]: Remove: archive file [/home/abi/fetcher/tmp/cook_builder-0.1.5.tar.gz]
+[2024-05-27 17:06:20] INFO root fetch - main [MainThread]: End processing [cook-builder]: success
+[2024-05-27 17:06:20] INFO root fetch - main [MainThread]: Store serial: [23397452]
