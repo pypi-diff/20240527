@@ -8693,3 +8693,42 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 09:50:33] INFO root fetch - processPackages [pykechain]: Remove: archive file [/home/abi/fetcher/tmp/pykechain-4.9.0.tar.gz]
 [2024-05-27 09:50:33] INFO root fetch - main [MainThread]: End processing [pykechain]: success
 [2024-05-27 09:50:33] INFO root fetch - main [MainThread]: Store serial: [23392156]
+[2024-05-27 09:52:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23392156]
+[2024-05-27 09:52:41] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-27 09:52:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: physbiblio
+[2024-05-27 09:52:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addon-ddmrp-report-part-flow-index
+[2024-05-27 09:52:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-ddmrp-report-part-flow-index
+[2024-05-27 09:52:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: brapi-proxy
+[2024-05-27 09:52:41] INFO root fetch - processPackages [physbiblio]: New version: [2.1.4] Old Version: [2.1.3]
+[2024-05-27 09:52:41] INFO root fetch - processPackages [physbiblio]: Downloading https://files.pythonhosted.org/packages/16/d6/92a825fc999767af6b43ffa42e82f737b42a8893b235ad4773b7437aa1d7/physbiblio-2.1.3.tar.gz
+[2024-05-27 09:52:41] INFO root fetch - processPackages [odoo14-addon-ddmrp-report-part-flow-index]: New version: [14.0.1.3.0] Old Version: [14.0.1.2.1.dev2]
+[2024-05-27 09:52:41] INFO root fetch - processPackages [brapi-proxy]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-27 09:52:41] INFO root fetch - processPackages [odoo-addon-ddmrp-report-part-flow-index]: New version: [16.0.1.3.0.1] Old Version: [16.0.1.3.0]
+[2024-05-27 09:52:42] INFO root fetch - processPackages [odoo14-addon-ddmrp-report-part-flow-index]: Downloading https://files.pythonhosted.org/packages/16/a6/2c275fee4c59b0c9be6dfe2f52a8f634817f9a43216b1f049475ec066eee/odoo14_addon_ddmrp_report_part_flow_index-14.0.1.2.1.dev2-py3-none-any.whl
+[2024-05-27 09:52:42] INFO root fetch - processPackages [odoo-addon-ddmrp-report-part-flow-index]: Downloading https://files.pythonhosted.org/packages/dc/45/0a235f9cca74a4bd00c5f29ee5dbf6ca56169bc729321692d104c5843151/odoo_addon_ddmrp_report_part_flow_index-16.0.1.3.0-py3-none-any.whl
+[2024-05-27 09:52:42] INFO root fetch - processPackages [brapi-proxy]: Downloading https://files.pythonhosted.org/packages/d7/e6/0f7160b7608f7957e1d76485456b78f1040d4312a7cac3623c9e4bcd4df1/brapi_proxy-0.0.6.tar.gz
+[2024-05-27 09:52:42] INFO root fetch - processPackages [physbiblio]: Downloading https://files.pythonhosted.org/packages/c9/f7/a8eef15b4366a1dd5b0dd368cd9b3f36a563d4019a6439165872e5a34e76/physbiblio-2.1.4.tar.gz
+[2024-05-27 09:52:42] INFO root fetch - processPackages [physbiblio]: executing diffoscope
+[2024-05-27 09:52:42] INFO root fetch - processPackages [physbiblio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/physbiblio-2.1.3.tar.gz tmp/physbiblio-2.1.4.tar.gz --markdown 20240527/p/physbiblio/2.1.3-2.1.4/README.md --exclude *.pyd
+[2024-05-27 09:52:42] INFO root fetch - processPackages [odoo14-addon-ddmrp-report-part-flow-index]: Downloading https://files.pythonhosted.org/packages/f3/55/4831a19210c80ff7849402648b66467f552c7b78818bec36d291508a6754/odoo14_addon_ddmrp_report_part_flow_index-14.0.1.3.0-py3-none-any.whl
+[2024-05-27 09:52:42] INFO root fetch - processPackages [brapi-proxy]: Downloading https://files.pythonhosted.org/packages/70/19/a851ca035264b55e9df8fe96071627d0cac8b63642c779c5e53c783aa473/brapi_proxy-0.0.7.tar.gz
+[2024-05-27 09:52:42] INFO root fetch - processPackages [odoo-addon-ddmrp-report-part-flow-index]: Downloading https://files.pythonhosted.org/packages/e7/cd/8b41cc30811a2de6ee29329d53446584e31ca329fbafb005fc64cd68fa91/odoo_addon_ddmrp_report_part_flow_index-16.0.1.3.0.1-py3-none-any.whl
+[2024-05-27 09:52:42] INFO root fetch - processPackages [odoo14-addon-ddmrp-report-part-flow-index]: executing diffoscope
+[2024-05-27 09:52:42] INFO root fetch - processPackages [odoo14-addon-ddmrp-report-part-flow-index]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_ddmrp_report_part_flow_index-14.0.1.2.1.dev2-py3-none-any.whl.zip tmp/odoo14_addon_ddmrp_report_part_flow_index-14.0.1.3.0-py3-none-any.whl.zip --markdown 20240527/o/odoo14-addon-ddmrp-report-part-flow-index/14.0.1.2.1.dev2-14.0.1.3.0/README.md --exclude *.pyd
+[2024-05-27 09:52:42] INFO root fetch - processPackages [brapi-proxy]: executing diffoscope
+[2024-05-27 09:52:42] INFO root fetch - processPackages [brapi-proxy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brapi_proxy-0.0.6.tar.gz tmp/brapi_proxy-0.0.7.tar.gz --markdown 20240527/b/brapi-proxy/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-27 09:52:42] INFO root fetch - processPackages [odoo-addon-ddmrp-report-part-flow-index]: executing diffoscope
+[2024-05-27 09:52:42] INFO root fetch - processPackages [odoo-addon-ddmrp-report-part-flow-index]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_ddmrp_report_part_flow_index-16.0.1.3.0-py3-none-any.whl.zip tmp/odoo_addon_ddmrp_report_part_flow_index-16.0.1.3.0.1-py3-none-any.whl.zip --markdown 20240527/o/odoo-addon-ddmrp-report-part-flow-index/16.0.1.3.0-16.0.1.3.0.1/README.md --exclude *.pyd
+[2024-05-27 09:52:43] INFO root fetch - processPackages [odoo14-addon-ddmrp-report-part-flow-index]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ddmrp_report_part_flow_index-14.0.1.2.1.dev2-py3-none-any.whl.zip]
+[2024-05-27 09:52:43] INFO root fetch - processPackages [odoo14-addon-ddmrp-report-part-flow-index]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ddmrp_report_part_flow_index-14.0.1.3.0-py3-none-any.whl.zip]
+[2024-05-27 09:52:43] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ddmrp-report-part-flow-index]: success
+[2024-05-27 09:52:43] INFO root fetch - processPackages [odoo-addon-ddmrp-report-part-flow-index]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_ddmrp_report_part_flow_index-16.0.1.3.0-py3-none-any.whl.zip]
+[2024-05-27 09:52:43] INFO root fetch - processPackages [odoo-addon-ddmrp-report-part-flow-index]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_ddmrp_report_part_flow_index-16.0.1.3.0.1-py3-none-any.whl.zip]
+[2024-05-27 09:52:43] INFO root fetch - main [MainThread]: End processing [odoo-addon-ddmrp-report-part-flow-index]: success
+[2024-05-27 09:52:43] INFO root fetch - processPackages [brapi-proxy]: Remove: archive file [/home/abi/fetcher/tmp/brapi_proxy-0.0.6.tar.gz]
+[2024-05-27 09:52:43] INFO root fetch - processPackages [brapi-proxy]: Remove: archive file [/home/abi/fetcher/tmp/brapi_proxy-0.0.7.tar.gz]
+[2024-05-27 09:52:43] INFO root fetch - main [MainThread]: End processing [brapi-proxy]: success
+[2024-05-27 09:52:43] INFO root fetch - processPackages [physbiblio]: Remove: archive file [/home/abi/fetcher/tmp/physbiblio-2.1.3.tar.gz]
+[2024-05-27 09:52:43] INFO root fetch - processPackages [physbiblio]: Remove: archive file [/home/abi/fetcher/tmp/physbiblio-2.1.4.tar.gz]
+[2024-05-27 09:52:43] INFO root fetch - main [MainThread]: End processing [physbiblio]: success
+[2024-05-27 09:52:43] INFO root fetch - main [MainThread]: Store serial: [23392165]
