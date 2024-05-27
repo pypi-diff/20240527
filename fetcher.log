@@ -20962,3 +20962,33 @@ EOFError: EOF read where object expected
 [2024-05-27 17:50:59] INFO root fetch - processPackages [django-customvueadmin]: Remove: archive file [/home/abi/fetcher/tmp/django_customvueadmin-0.2.6.tar.gz]
 [2024-05-27 17:50:59] INFO root fetch - main [MainThread]: End processing [django-customvueadmin]: success
 [2024-05-27 17:50:59] INFO root fetch - main [MainThread]: Store serial: [23397890]
+[2024-05-27 17:53:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23397890]
+[2024-05-27 17:53:08] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-27 17:53:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rooms-shared-services
+[2024-05-27 17:53:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tksheet
+[2024-05-27 17:53:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ETH-GTD-cli
+[2024-05-27 17:53:08] INFO root fetch - processPackages [ETH-GTD-cli]: New version: [0.0.93] Old Version: [0.0.92]
+[2024-05-27 17:53:08] INFO root fetch - processPackages [rooms-shared-services]: New version: [0.1.99] Old Version: [0.1.97]
+[2024-05-27 17:53:08] INFO root fetch - processPackages [tksheet]: New version: [7.2.2] Old Version: [7.2.1]
+[2024-05-27 17:53:08] INFO root fetch - processPackages [ETH-GTD-cli]: Downloading https://files.pythonhosted.org/packages/1e/97/054328ce1ff7e04827a39df7d89ed7e1004b6cb1b5563804d9fe37cddf9b/eth_gtd_cli-0.0.92.tar.gz
+[2024-05-27 17:53:08] INFO root fetch - processPackages [rooms-shared-services]: Downloading https://files.pythonhosted.org/packages/16/6e/7a35dabe25e96c04274cbd9f69a6e68b4f36dc149e22451fb099f79d153e/rooms_shared_services-0.1.97.tar.gz
+[2024-05-27 17:53:09] INFO root fetch - processPackages [tksheet]: Downloading https://files.pythonhosted.org/packages/bf/45/c605b6b5b561c4afc796b68f0d668d9d7339e59c4c06e0915d103a40c870/tksheet-7.2.1.tar.gz
+[2024-05-27 17:53:09] INFO root fetch - processPackages [rooms-shared-services]: Downloading https://files.pythonhosted.org/packages/69/d1/238526d33d58183ec73b9cb900a4aea16c13e7618af0394e6c55838d4395/rooms_shared_services-0.1.99.tar.gz
+[2024-05-27 17:53:09] INFO root fetch - processPackages [rooms-shared-services]: executing diffoscope
+[2024-05-27 17:53:09] INFO root fetch - processPackages [rooms-shared-services]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rooms_shared_services-0.1.97.tar.gz tmp/rooms_shared_services-0.1.99.tar.gz --markdown 20240527/r/rooms-shared-services/0.1.97-0.1.99/README.md --exclude *.pyd
+[2024-05-27 17:53:09] INFO root fetch - processPackages [ETH-GTD-cli]: Downloading https://files.pythonhosted.org/packages/65/72/675d314dff0b6e793f83dbde9c11c3861876b01180bed655a0e42afed864/eth_gtd_cli-0.0.93.tar.gz
+[2024-05-27 17:53:09] INFO root fetch - processPackages [ETH-GTD-cli]: executing diffoscope
+[2024-05-27 17:53:09] INFO root fetch - processPackages [ETH-GTD-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eth_gtd_cli-0.0.92.tar.gz tmp/eth_gtd_cli-0.0.93.tar.gz --markdown 20240527/E/ETH-GTD-cli/0.0.92-0.0.93/README.md --exclude *.pyd
+[2024-05-27 17:53:09] INFO root fetch - processPackages [tksheet]: Downloading https://files.pythonhosted.org/packages/1e/fc/2eedeab6145015e0e6143ad4e1672855f8b28d4ee3abbb72c931f8e59578/tksheet-7.2.2.tar.gz
+[2024-05-27 17:53:09] INFO root fetch - processPackages [tksheet]: executing diffoscope
+[2024-05-27 17:53:09] INFO root fetch - processPackages [tksheet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tksheet-7.2.1.tar.gz tmp/tksheet-7.2.2.tar.gz --markdown 20240527/t/tksheet/7.2.1-7.2.2/README.md --exclude *.pyd
+[2024-05-27 17:53:09] INFO root fetch - processPackages [rooms-shared-services]: Remove: archive file [/home/abi/fetcher/tmp/rooms_shared_services-0.1.97.tar.gz]
+[2024-05-27 17:53:09] INFO root fetch - processPackages [rooms-shared-services]: Remove: archive file [/home/abi/fetcher/tmp/rooms_shared_services-0.1.99.tar.gz]
+[2024-05-27 17:53:09] INFO root fetch - main [MainThread]: End processing [rooms-shared-services]: success
+[2024-05-27 17:53:09] INFO root fetch - processPackages [ETH-GTD-cli]: Remove: archive file [/home/abi/fetcher/tmp/eth_gtd_cli-0.0.92.tar.gz]
+[2024-05-27 17:53:09] INFO root fetch - processPackages [ETH-GTD-cli]: Remove: archive file [/home/abi/fetcher/tmp/eth_gtd_cli-0.0.93.tar.gz]
+[2024-05-27 17:53:09] INFO root fetch - main [MainThread]: End processing [ETH-GTD-cli]: success
+[2024-05-27 17:53:10] INFO root fetch - processPackages [tksheet]: Remove: archive file [/home/abi/fetcher/tmp/tksheet-7.2.1.tar.gz]
+[2024-05-27 17:53:10] INFO root fetch - processPackages [tksheet]: Remove: archive file [/home/abi/fetcher/tmp/tksheet-7.2.2.tar.gz]
+[2024-05-27 17:53:10] INFO root fetch - main [MainThread]: End processing [tksheet]: success
+[2024-05-27 17:53:10] INFO root fetch - main [MainThread]: Store serial: [23397900]
