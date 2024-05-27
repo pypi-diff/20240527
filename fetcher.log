@@ -10541,3 +10541,36 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 11:18:13] INFO root fetch - processPackages [c4m-flexio]: Remove: archive file [/home/abi/fetcher/tmp/c4m_flexio-0.4.5.tar.gz]
 [2024-05-27 11:18:13] INFO root fetch - main [MainThread]: End processing [c4m-flexio]: success
 [2024-05-27 11:18:13] INFO root fetch - main [MainThread]: Store serial: [23393093]
+[2024-05-27 11:20:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23393093]
+[2024-05-27 11:20:21] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-27 11:20:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: FlowVisor
+[2024-05-27 11:20:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Peelpreter
+[2024-05-27 11:20:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pearson-bot
+[2024-05-27 11:20:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cogflow
+[2024-05-27 11:20:21] INFO root fetch - processPackages [cogflow]: New version: [1.9.9] Old Version: [1.9.8]
+[2024-05-27 11:20:22] INFO root fetch - processPackages [cogflow]: Downloading https://files.pythonhosted.org/packages/3a/44/2dd887dfefc5e198a68539c2565726dced636a615597d201136d1a92a466/cogflow-1.9.8.tar.gz
+[2024-05-27 11:20:22] INFO root fetch - processPackages [FlowVisor]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-05-27 11:20:22] WARNING root fetch - processPackages [pearson-bot]: Skipping, unable to determine old version
+[2024-05-27 11:20:22] INFO root fetch - main [MainThread]: End processing [pearson-bot] error
+[2024-05-27 11:20:22] INFO root fetch - processPackages [Peelpreter]: New version: [1.1.2] Old Version: [1.0.1]
+[2024-05-27 11:20:22] INFO root fetch - processPackages [cogflow]: Downloading https://files.pythonhosted.org/packages/0e/16/8f5f931a1aa5b5143fe0b0ad8fd8950276383f3e063a3d599473897f4af3/cogflow-1.9.9.tar.gz
+[2024-05-27 11:20:22] INFO root fetch - processPackages [Peelpreter]: Downloading https://files.pythonhosted.org/packages/b4/0b/2483b51b37431d57f1d93ab381749945e409ea7520a3aac72ca219a0cd2a/peelpreter-1.0.1.tar.gz
+[2024-05-27 11:20:22] INFO root fetch - processPackages [FlowVisor]: Downloading https://files.pythonhosted.org/packages/fa/a8/f60223f0c12b53ba2d7150a5fac572eca6ebd633444d42d03d9eb1c51f68/FlowVisor-0.2.4.tar.gz
+[2024-05-27 11:20:22] INFO root fetch - processPackages [cogflow]: executing diffoscope
+[2024-05-27 11:20:22] INFO root fetch - processPackages [cogflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cogflow-1.9.8.tar.gz tmp/cogflow-1.9.9.tar.gz --markdown 20240527/c/cogflow/1.9.8-1.9.9/README.md --exclude *.pyd
+[2024-05-27 11:20:22] INFO root fetch - processPackages [Peelpreter]: Downloading https://files.pythonhosted.org/packages/e8/04/881a448eeb839ac096aab42c3c13812d25f2cead7238c5698be551ded38d/peelpreter-1.1.2.tar.gz
+[2024-05-27 11:20:22] INFO root fetch - processPackages [FlowVisor]: Downloading https://files.pythonhosted.org/packages/30/27/f0c8b01c66f3a3e04a984c6baa04d48eb6d3670c59911881ab36b7f505cc/FlowVisor-0.2.5.tar.gz
+[2024-05-27 11:20:22] INFO root fetch - processPackages [Peelpreter]: executing diffoscope
+[2024-05-27 11:20:22] INFO root fetch - processPackages [Peelpreter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peelpreter-1.0.1.tar.gz tmp/peelpreter-1.1.2.tar.gz --markdown 20240527/P/Peelpreter/1.0.1-1.1.2/README.md --exclude *.pyd
+[2024-05-27 11:20:22] INFO root fetch - processPackages [FlowVisor]: executing diffoscope
+[2024-05-27 11:20:22] INFO root fetch - processPackages [FlowVisor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FlowVisor-0.2.4.tar.gz tmp/FlowVisor-0.2.5.tar.gz --markdown 20240527/F/FlowVisor/0.2.4-0.2.5/README.md --exclude *.pyd
+[2024-05-27 11:20:23] INFO root fetch - processPackages [cogflow]: Remove: archive file [/home/abi/fetcher/tmp/cogflow-1.9.8.tar.gz]
+[2024-05-27 11:20:23] INFO root fetch - processPackages [cogflow]: Remove: archive file [/home/abi/fetcher/tmp/cogflow-1.9.9.tar.gz]
+[2024-05-27 11:20:23] INFO root fetch - main [MainThread]: End processing [cogflow]: success
+[2024-05-27 11:20:23] INFO root fetch - processPackages [FlowVisor]: Remove: archive file [/home/abi/fetcher/tmp/FlowVisor-0.2.4.tar.gz]
+[2024-05-27 11:20:23] INFO root fetch - processPackages [FlowVisor]: Remove: archive file [/home/abi/fetcher/tmp/FlowVisor-0.2.5.tar.gz]
+[2024-05-27 11:20:23] INFO root fetch - main [MainThread]: End processing [FlowVisor]: success
+[2024-05-27 11:20:23] INFO root fetch - processPackages [Peelpreter]: Remove: archive file [/home/abi/fetcher/tmp/peelpreter-1.0.1.tar.gz]
+[2024-05-27 11:20:23] INFO root fetch - processPackages [Peelpreter]: Remove: archive file [/home/abi/fetcher/tmp/peelpreter-1.1.2.tar.gz]
+[2024-05-27 11:20:23] INFO root fetch - main [MainThread]: End processing [Peelpreter]: success
+[2024-05-27 11:20:23] INFO root fetch - main [MainThread]: Store serial: [23393107]
