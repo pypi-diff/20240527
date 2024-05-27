@@ -20654,3 +20654,50 @@ EOFError: EOF read where object expected
 [2024-05-27 17:39:49] INFO root fetch - processPackages [django-smartbase-admin]: Remove: archive file [/home/abi/fetcher/tmp/django_smartbase_admin-0.2.9.tar.gz]
 [2024-05-27 17:39:49] INFO root fetch - main [MainThread]: End processing [django-smartbase-admin]: success
 [2024-05-27 17:39:49] INFO root fetch - main [MainThread]: Store serial: [23397783]
+[2024-05-27 17:41:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23397783]
+[2024-05-27 17:41:58] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-27 17:41:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: IR3
+[2024-05-27 17:41:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bsb-neuron
+[2024-05-27 17:41:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: luxos
+[2024-05-27 17:41:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: flamapy
+[2024-05-27 17:41:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: luxos
+[2024-05-27 17:41:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: luxos
+[2024-05-27 17:41:58] WARNING root fetch - processPackages [IR3]: Skipping, unable to determine old version
+[2024-05-27 17:41:58] INFO root fetch - main [MainThread]: End processing [IR3] error
+[2024-05-27 17:41:58] INFO root fetch - processPackages [flamapy]: New version: [2.0.0.dev0] Old Version: [1.6.0.dev0]
+[2024-05-27 17:41:58] INFO root fetch - processPackages [luxos]: New version: [0.0.9b32] Old Version: [0.0.9b31]
+[2024-05-27 17:41:58] INFO root fetch - processPackages [luxos]: New version: [0.0.9b32] Old Version: [0.0.9b31]
+[2024-05-27 17:41:58] INFO root fetch - processPackages [luxos]: New version: [0.0.9b32] Old Version: [0.0.9b31]
+[2024-05-27 17:41:58] INFO root fetch - processPackages [bsb-neuron]: New version: [4.0.1] Old Version: [4.0.0rc2]
+[2024-05-27 17:41:58] INFO root fetch - processPackages [flamapy]: Downloading https://files.pythonhosted.org/packages/fc/ac/7e50eda1bc1bb62f15055e4b8471eae49fecb12f4924d11b0350092ee90b/flamapy-1.6.0.dev0.tar.gz
+[2024-05-27 17:41:58] INFO root fetch - processPackages [luxos]: Downloading https://files.pythonhosted.org/packages/ac/93/93f49d3512f03ee09cd716a13cda005716658935c5f0d9cee72494352bec/luxos-0.0.9b31.tar.gz
+[2024-05-27 17:41:58] INFO root fetch - processPackages [luxos]: Downloading https://files.pythonhosted.org/packages/ac/93/93f49d3512f03ee09cd716a13cda005716658935c5f0d9cee72494352bec/luxos-0.0.9b31.tar.gz
+[2024-05-27 17:41:58] INFO root fetch - processPackages [luxos]: Downloading https://files.pythonhosted.org/packages/ac/93/93f49d3512f03ee09cd716a13cda005716658935c5f0d9cee72494352bec/luxos-0.0.9b31.tar.gz
+[2024-05-27 17:41:58] INFO root fetch - processPackages [bsb-neuron]: Downloading https://files.pythonhosted.org/packages/6c/1c/0a3ddd201df18c40b10223ac08858fd85f153d3ae603b0319eeeff479fe0/bsb_neuron-4.0.0rc2.tar.gz
+[2024-05-27 17:41:58] INFO root fetch - processPackages [luxos]: Downloading https://files.pythonhosted.org/packages/4e/cb/39dfdcccc2bb8f61e4bb2bb8b13975cd414de1ab3c7f521a00c1edf1574c/luxos-0.0.9b32.tar.gz
+[2024-05-27 17:41:58] INFO root fetch - processPackages [luxos]: Downloading https://files.pythonhosted.org/packages/4e/cb/39dfdcccc2bb8f61e4bb2bb8b13975cd414de1ab3c7f521a00c1edf1574c/luxos-0.0.9b32.tar.gz
+[2024-05-27 17:41:58] INFO root fetch - processPackages [luxos]: Downloading https://files.pythonhosted.org/packages/4e/cb/39dfdcccc2bb8f61e4bb2bb8b13975cd414de1ab3c7f521a00c1edf1574c/luxos-0.0.9b32.tar.gz
+[2024-05-27 17:41:58] INFO root fetch - processPackages [bsb-neuron]: Downloading https://files.pythonhosted.org/packages/5e/ec/3be353b1d4ae25197a58fef5edabe7015dd58e335a52de317a128398207d/bsb_neuron-4.0.1.tar.gz
+[2024-05-27 17:41:59] INFO root fetch - processPackages [luxos]: executing diffoscope
+[2024-05-27 17:41:59] INFO root fetch - processPackages [luxos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/luxos-0.0.9b31.tar.gz tmp/luxos-0.0.9b32.tar.gz --markdown 20240527/l/luxos/0.0.9b31-0.0.9b32/README.md --exclude *.pyd
+[2024-05-27 17:41:59] INFO root fetch - processPackages [flamapy]: Downloading https://files.pythonhosted.org/packages/69/6a/31265b369c0db468c6fc04d3334e3390bc2238a50c1b86838fa439bc111e/flamapy-2.0.0.dev0.tar.gz
+[2024-05-27 17:41:59] INFO root fetch - processPackages [luxos]: executing diffoscope
+[2024-05-27 17:41:59] INFO root fetch - processPackages [luxos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/luxos-0.0.9b31.tar.gz tmp/luxos-0.0.9b32.tar.gz --markdown 20240527/l/luxos/0.0.9b31-0.0.9b32/README.md --exclude *.pyd
+[2024-05-27 17:41:59] INFO root fetch - processPackages [luxos]: executing diffoscope
+[2024-05-27 17:41:59] INFO root fetch - processPackages [luxos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/luxos-0.0.9b31.tar.gz tmp/luxos-0.0.9b32.tar.gz --markdown 20240527/l/luxos/0.0.9b31-0.0.9b32/README.md --exclude *.pyd
+[2024-05-27 17:41:59] INFO root fetch - processPackages [bsb-neuron]: executing diffoscope
+[2024-05-27 17:41:59] INFO root fetch - processPackages [bsb-neuron]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bsb_neuron-4.0.0rc2.tar.gz tmp/bsb_neuron-4.0.1.tar.gz --markdown 20240527/b/bsb-neuron/4.0.0rc2-4.0.1/README.md --exclude *.pyd
+[2024-05-27 17:41:59] INFO root fetch - processPackages [flamapy]: executing diffoscope
+[2024-05-27 17:41:59] INFO root fetch - processPackages [flamapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flamapy-1.6.0.dev0.tar.gz tmp/flamapy-2.0.0.dev0.tar.gz --markdown 20240527/f/flamapy/1.6.0.dev0-2.0.0.dev0/README.md --exclude *.pyd
+[2024-05-27 17:41:59] INFO root fetch - processPackages [luxos]: Remove: archive file [/home/abi/fetcher/tmp/luxos-0.0.9b31.tar.gz]
+[2024-05-27 17:41:59] INFO root fetch - processPackages [luxos]: Remove: archive file [/home/abi/fetcher/tmp/luxos-0.0.9b32.tar.gz]
+[2024-05-27 17:41:59] INFO root fetch - main [MainThread]: End processing [luxos]: success
+[2024-05-27 17:41:59] INFO root fetch - processPackages [flamapy]: Remove: archive file [/home/abi/fetcher/tmp/flamapy-1.6.0.dev0.tar.gz]
+[2024-05-27 17:41:59] INFO root fetch - processPackages [flamapy]: Remove: archive file [/home/abi/fetcher/tmp/flamapy-2.0.0.dev0.tar.gz]
+[2024-05-27 17:41:59] INFO root fetch - main [MainThread]: End processing [flamapy]: success
+[2024-05-27 17:42:00] INFO root fetch - main [MainThread]: End processing [luxos]: success
+[2024-05-27 17:42:00] INFO root fetch - processPackages [bsb-neuron]: Remove: archive file [/home/abi/fetcher/tmp/bsb_neuron-4.0.0rc2.tar.gz]
+[2024-05-27 17:42:00] INFO root fetch - processPackages [bsb-neuron]: Remove: archive file [/home/abi/fetcher/tmp/bsb_neuron-4.0.1.tar.gz]
+[2024-05-27 17:42:00] INFO root fetch - main [MainThread]: End processing [bsb-neuron]: success
+[2024-05-27 17:42:00] INFO root fetch - main [MainThread]: End processing [luxos]: success
+[2024-05-27 17:42:00] INFO root fetch - main [MainThread]: Store serial: [23397801]
