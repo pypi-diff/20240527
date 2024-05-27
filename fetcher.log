@@ -14016,3 +14016,47 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 13:30:21] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.4.1.dev20240527080017.tar.gz]
 [2024-05-27 13:30:21] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2024-05-27 13:30:21] INFO root fetch - main [MainThread]: Store serial: [23394738]
+[2024-05-27 13:32:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23394738]
+[2024-05-27 13:32:32] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-27 13:32:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bigdl-core-xe-esimd-21
+[2024-05-27 13:32:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Warg
+[2024-05-27 13:32:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aguasgaia
+[2024-05-27 13:32:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: torchsnapshot-nightly
+[2024-05-27 13:32:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: disai-agents
+[2024-05-27 13:32:32] INFO root fetch - processPackages [disai-agents]: New version: [0.382] Old Version: [0.378]
+[2024-05-27 13:32:32] INFO root fetch - processPackages [torchsnapshot-nightly]: New version: [2024.5.26] Old Version: [2024.5.25]
+[2024-05-27 13:32:32] INFO root fetch - processPackages [Warg]: New version: [1.4.4] Old Version: [1.4.3]
+[2024-05-27 13:32:32] INFO root fetch - processPackages [disai-agents]: Downloading https://files.pythonhosted.org/packages/f0/68/79a94c33ed2fa71d43afe0d00c2be60219fb6e566e97d1d1dfa7264f5173/disai-agents-0.378.tar.gz
+[2024-05-27 13:32:32] INFO root fetch - processPackages [torchsnapshot-nightly]: Downloading https://files.pythonhosted.org/packages/8f/7b/871db36afceeb159e643a5d769195fab19ef384ff34925c1149f0eaa34ec/torchsnapshot_nightly-2024.5.25.tar.gz
+[2024-05-27 13:32:32] INFO root fetch - processPackages [Warg]: Downloading https://files.pythonhosted.org/packages/3b/5e/4f7140a7b23660a07b22776122698bdea81f811e1c1e71daa223a271c17b/warg-1.4.3.tar.gz
+[2024-05-27 13:32:32] INFO root fetch - processPackages [aguasgaia]: New version: [0.0.19] Old Version: [0.0.18]
+[2024-05-27 13:32:32] INFO root fetch - processPackages [bigdl-core-xe-esimd-21]: New version: [2.5.0b20240527] Old Version: [2.5.0b20240526]
+[2024-05-27 13:32:32] INFO root fetch - processPackages [aguasgaia]: Downloading https://files.pythonhosted.org/packages/52/1e/a0c622afb828eca11f0cbcc4bb13f8f0e10e73e022430f6d5d45b2b6f5ae/aguasgaia-0.0.18.tar.gz
+[2024-05-27 13:32:32] INFO root fetch - processPackages [Warg]: Downloading https://files.pythonhosted.org/packages/41/b1/0a23e1482d2794b1f92e44e3ee31576b864608684dddd89ad53fcf31df86/warg-1.4.4.tar.gz
+[2024-05-27 13:32:32] INFO root fetch - processPackages [torchsnapshot-nightly]: Downloading https://files.pythonhosted.org/packages/3a/0d/553bca64ef5cf6fb915040357607ed5e3d00394a7285e8be87e4b5ed914d/torchsnapshot_nightly-2024.5.26.tar.gz
+[2024-05-27 13:32:32] INFO root fetch - processPackages [disai-agents]: Downloading https://files.pythonhosted.org/packages/1c/a5/426410eb4f1276a73b14a3c9aaaa3393a832ea23b4f64547ec0df76d994f/disai-agents-0.382.tar.gz
+[2024-05-27 13:32:32] INFO root fetch - processPackages [bigdl-core-xe-esimd-21]: Downloading https://files.pythonhosted.org/packages/3a/a5/c8155d2652145a8dca8408753f5b93791801f9416f66a0aea6a274c84847/bigdl_core_xe_esimd_21-2.5.0b20240526-cp39-cp39-manylinux2010_x86_64.whl
+[2024-05-27 13:32:32] WARNING root fetch - processPackages [bigdl-core-xe-esimd-21]: Skipping package: exceeds size limit 46711128>=10485760
+[2024-05-27 13:32:32] INFO root fetch - main [MainThread]: End processing [bigdl-core-xe-esimd-21] error
+[2024-05-27 13:32:32] INFO root fetch - processPackages [Warg]: executing diffoscope
+[2024-05-27 13:32:32] INFO root fetch - processPackages [Warg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/warg-1.4.3.tar.gz tmp/warg-1.4.4.tar.gz --markdown 20240527/W/Warg/1.4.3-1.4.4/README.md --exclude *.pyd
+[2024-05-27 13:32:32] INFO root fetch - processPackages [disai-agents]: executing diffoscope
+[2024-05-27 13:32:32] INFO root fetch - processPackages [disai-agents]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/disai-agents-0.378.tar.gz tmp/disai-agents-0.382.tar.gz --markdown 20240527/d/disai-agents/0.378-0.382/README.md --exclude *.pyd
+[2024-05-27 13:32:32] INFO root fetch - processPackages [torchsnapshot-nightly]: executing diffoscope
+[2024-05-27 13:32:32] INFO root fetch - processPackages [torchsnapshot-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchsnapshot_nightly-2024.5.25.tar.gz tmp/torchsnapshot_nightly-2024.5.26.tar.gz --markdown 20240527/t/torchsnapshot-nightly/2024.5.25-2024.5.26/README.md --exclude *.pyd
+[2024-05-27 13:32:32] INFO root fetch - processPackages [aguasgaia]: Downloading https://files.pythonhosted.org/packages/9e/dd/f67f755fe0474c6811ea34d1017ee67db4d12922c845f78b8901f1d197a5/aguasgaia-0.0.19.tar.gz
+[2024-05-27 13:32:32] INFO root fetch - processPackages [aguasgaia]: executing diffoscope
+[2024-05-27 13:32:32] INFO root fetch - processPackages [aguasgaia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aguasgaia-0.0.18.tar.gz tmp/aguasgaia-0.0.19.tar.gz --markdown 20240527/a/aguasgaia/0.0.18-0.0.19/README.md --exclude *.pyd
+[2024-05-27 13:32:33] INFO root fetch - processPackages [disai-agents]: Remove: archive file [/home/abi/fetcher/tmp/disai-agents-0.378.tar.gz]
+[2024-05-27 13:32:33] INFO root fetch - processPackages [disai-agents]: Remove: archive file [/home/abi/fetcher/tmp/disai-agents-0.382.tar.gz]
+[2024-05-27 13:32:33] INFO root fetch - main [MainThread]: End processing [disai-agents]: success
+[2024-05-27 13:32:33] INFO root fetch - processPackages [aguasgaia]: Remove: archive file [/home/abi/fetcher/tmp/aguasgaia-0.0.18.tar.gz]
+[2024-05-27 13:32:33] INFO root fetch - processPackages [aguasgaia]: Remove: archive file [/home/abi/fetcher/tmp/aguasgaia-0.0.19.tar.gz]
+[2024-05-27 13:32:33] INFO root fetch - main [MainThread]: End processing [aguasgaia]: success
+[2024-05-27 13:32:33] INFO root fetch - processPackages [torchsnapshot-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchsnapshot_nightly-2024.5.25.tar.gz]
+[2024-05-27 13:32:33] INFO root fetch - processPackages [torchsnapshot-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchsnapshot_nightly-2024.5.26.tar.gz]
+[2024-05-27 13:32:33] INFO root fetch - main [MainThread]: End processing [torchsnapshot-nightly]: success
+[2024-05-27 13:32:33] INFO root fetch - processPackages [Warg]: Remove: archive file [/home/abi/fetcher/tmp/warg-1.4.3.tar.gz]
+[2024-05-27 13:32:33] INFO root fetch - processPackages [Warg]: Remove: archive file [/home/abi/fetcher/tmp/warg-1.4.4.tar.gz]
+[2024-05-27 13:32:33] INFO root fetch - main [MainThread]: End processing [Warg]: success
+[2024-05-27 13:32:33] INFO root fetch - main [MainThread]: Store serial: [23394753]
