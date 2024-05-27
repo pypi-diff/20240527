@@ -22068,3 +22068,48 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-05-27 18:37:15] INFO root fetch - processPackages [flet]: Remove: archive file [/home/abi/fetcher/tmp/flet-0.9.0.tar.gz]
 [2024-05-27 18:37:15] INFO root fetch - main [MainThread]: End processing [flet]: success
 [2024-05-27 18:37:15] INFO root fetch - main [MainThread]: Store serial: [23398463]
+[2024-05-27 18:39:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23398463]
+[2024-05-27 18:39:34] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-27 18:39:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flet-pyodide
+[2024-05-27 18:39:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: eventum-core
+[2024-05-27 18:39:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dir-wand
+[2024-05-27 18:39:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: quickQrLib
+[2024-05-27 18:39:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Valorant-Pro-API
+[2024-05-27 18:39:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aurum-hikari
+[2024-05-27 18:39:34] INFO root fetch - processPackages [quickQrLib]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-05-27 18:39:34] WARNING root fetch - processPackages [eventum-core]: Skipping, unable to determine old version
+[2024-05-27 18:39:34] INFO root fetch - main [MainThread]: End processing [eventum-core] error
+[2024-05-27 18:39:34] INFO root fetch - processPackages [flet-pyodide]: New version: [0.9.0] Old Version: [0.23.0.dev2913]
+[2024-05-27 18:39:34] INFO root fetch - processPackages [quickQrLib]: Downloading https://files.pythonhosted.org/packages/b7/f9/c304427091efbc09dd0026539ff955066a746ef824e2382801b35ea96d7a/quickQrLib-0.2.2.tar.gz
+[2024-05-27 18:39:34] WARNING root fetch - processPackages [Valorant-Pro-API]: Skipping, unable to determine old version
+[2024-05-27 18:39:34] INFO root fetch - main [MainThread]: End processing [Valorant-Pro-API] error
+[2024-05-27 18:39:34] INFO root fetch - processPackages [dir-wand]: New version: [1.0.0] Old Version: [0.2.0b0]
+[2024-05-27 18:39:34] INFO root fetch - processPackages [aurum-hikari]: New version: [0.1.5.5] Old Version: [0.1.5.4]
+[2024-05-27 18:39:34] INFO root fetch - processPackages [flet-pyodide]: Downloading https://files.pythonhosted.org/packages/dd/8e/47e43c84db85ec707295d0f27a66afd3cbfc09e7dd4fe58d96e861439e2b/flet_pyodide-0.23.0.dev2913.tar.gz
+[2024-05-27 18:39:34] INFO root fetch - processPackages [dir-wand]: Downloading https://files.pythonhosted.org/packages/88/b9/3a9775cdf9b6209da4e42c08a6360e79b7d093869b3cec63146a5ea466d1/dir_wand-0.2.0b0.tar.gz
+[2024-05-27 18:39:34] INFO root fetch - processPackages [aurum-hikari]: Downloading https://files.pythonhosted.org/packages/dc/8f/555dfa9385bdfbb404d91165aa1ddbf1e94074ae40ffce14cb12c941c716/aurum_hikari-0.1.5.4.tar.gz
+[2024-05-27 18:39:34] INFO root fetch - processPackages [quickQrLib]: Downloading https://files.pythonhosted.org/packages/4f/c6/28a93422f844fe15ea2064ce15e198d6c57ca5f83a0af9d5eaf24bc0d8e3/quickQrLib-0.2.3.tar.gz
+[2024-05-27 18:39:34] INFO root fetch - processPackages [quickQrLib]: executing diffoscope
+[2024-05-27 18:39:34] INFO root fetch - processPackages [quickQrLib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickQrLib-0.2.2.tar.gz tmp/quickQrLib-0.2.3.tar.gz --markdown 20240527/q/quickQrLib/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-05-27 18:39:34] INFO root fetch - processPackages [flet-pyodide]: Downloading https://files.pythonhosted.org/packages/0b/26/a5b2ba93c30d3a89efc6b6734cc4db067c9d2ca16059ed4685281d46c1f7/flet_pyodide-0.9.0.tar.gz
+[2024-05-27 18:39:34] INFO root fetch - processPackages [dir-wand]: Downloading https://files.pythonhosted.org/packages/a2/94/6de11d24d060f58b68f73f1ba441c77279b5d3b2901fcdb1a1e4113faec5/dir_wand-1.0.0.tar.gz
+[2024-05-27 18:39:35] INFO root fetch - processPackages [aurum-hikari]: Downloading https://files.pythonhosted.org/packages/64/d1/d55aa2cd8782ce04e44fea554bc88d3ede5fd4b4b3b4167ce78a2bf221d2/aurum_hikari-0.1.5.5.tar.gz
+[2024-05-27 18:39:35] INFO root fetch - processPackages [flet-pyodide]: executing diffoscope
+[2024-05-27 18:39:35] INFO root fetch - processPackages [flet-pyodide]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet_pyodide-0.23.0.dev2913.tar.gz tmp/flet_pyodide-0.9.0.tar.gz --markdown 20240527/f/flet-pyodide/0.23.0.dev2913-0.9.0/README.md --exclude *.pyd
+[2024-05-27 18:39:35] INFO root fetch - processPackages [dir-wand]: executing diffoscope
+[2024-05-27 18:39:35] INFO root fetch - processPackages [dir-wand]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dir_wand-0.2.0b0.tar.gz tmp/dir_wand-1.0.0.tar.gz --markdown 20240527/d/dir-wand/0.2.0b0-1.0.0/README.md --exclude *.pyd
+[2024-05-27 18:39:35] INFO root fetch - processPackages [aurum-hikari]: executing diffoscope
+[2024-05-27 18:39:35] INFO root fetch - processPackages [aurum-hikari]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aurum_hikari-0.1.5.4.tar.gz tmp/aurum_hikari-0.1.5.5.tar.gz --markdown 20240527/a/aurum-hikari/0.1.5.4-0.1.5.5/README.md --exclude *.pyd
+[2024-05-27 18:39:35] INFO root fetch - processPackages [quickQrLib]: Remove: archive file [/home/abi/fetcher/tmp/quickQrLib-0.2.2.tar.gz]
+[2024-05-27 18:39:35] INFO root fetch - processPackages [quickQrLib]: Remove: archive file [/home/abi/fetcher/tmp/quickQrLib-0.2.3.tar.gz]
+[2024-05-27 18:39:35] INFO root fetch - main [MainThread]: End processing [quickQrLib]: success
+[2024-05-27 18:39:35] INFO root fetch - processPackages [flet-pyodide]: Remove: archive file [/home/abi/fetcher/tmp/flet_pyodide-0.23.0.dev2913.tar.gz]
+[2024-05-27 18:39:35] INFO root fetch - processPackages [flet-pyodide]: Remove: archive file [/home/abi/fetcher/tmp/flet_pyodide-0.9.0.tar.gz]
+[2024-05-27 18:39:35] INFO root fetch - main [MainThread]: End processing [flet-pyodide]: success
+[2024-05-27 18:39:35] INFO root fetch - processPackages [dir-wand]: Remove: archive file [/home/abi/fetcher/tmp/dir_wand-0.2.0b0.tar.gz]
+[2024-05-27 18:39:35] INFO root fetch - processPackages [dir-wand]: Remove: archive file [/home/abi/fetcher/tmp/dir_wand-1.0.0.tar.gz]
+[2024-05-27 18:39:35] INFO root fetch - main [MainThread]: End processing [dir-wand]: success
+[2024-05-27 18:39:35] INFO root fetch - processPackages [aurum-hikari]: Remove: archive file [/home/abi/fetcher/tmp/aurum_hikari-0.1.5.4.tar.gz]
+[2024-05-27 18:39:35] INFO root fetch - processPackages [aurum-hikari]: Remove: archive file [/home/abi/fetcher/tmp/aurum_hikari-0.1.5.5.tar.gz]
+[2024-05-27 18:39:35] INFO root fetch - main [MainThread]: End processing [aurum-hikari]: success
+[2024-05-27 18:39:35] INFO root fetch - main [MainThread]: Store serial: [23398497]
