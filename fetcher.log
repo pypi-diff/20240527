@@ -4378,3 +4378,51 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 05:11:44] INFO root fetch - processPackages [stefutils]: Remove: archive file [/home/abi/fetcher/tmp/stefutils-0.9.0.tar.gz]
 [2024-05-27 05:11:44] INFO root fetch - main [MainThread]: End processing [stefutils]: success
 [2024-05-27 05:11:44] INFO root fetch - main [MainThread]: Store serial: [23390096]
+[2024-05-27 05:13:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23390096]
+[2024-05-27 05:13:52] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-27 05:13:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: apiverve-stockmarketopentimes
+[2024-05-27 05:13:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: easytl
+[2024-05-27 05:13:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ChatTTS
+[2024-05-27 05:13:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-simple-history
+[2024-05-27 05:13:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyschwab
+[2024-05-27 05:13:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: apiverve-streetaddressparser
+[2024-05-27 05:13:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: apiverve-sunposition
+[2024-05-27 05:13:53] INFO root fetch - processPackages [ChatTTS]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-27 05:13:53] WARNING root fetch - processPackages [apiverve-sunposition]: Skipping, unable to determine old version
+[2024-05-27 05:13:53] INFO root fetch - main [MainThread]: End processing [apiverve-sunposition] error
+[2024-05-27 05:13:53] INFO root fetch - processPackages [ChatTTS]: Downloading https://files.pythonhosted.org/packages/8b/de/96ba3d8cbd160de5ef15ff12503216a81d2ed8ac36d1f73171255a29bdf2/ChatTTS-0.0.3.tar.gz
+[2024-05-27 05:13:53] INFO root fetch - processPackages [pyschwab]: New version: [0.0.2] Old Version: [0.0.1a4]
+[2024-05-27 05:13:53] INFO root fetch - processPackages [django-simple-history]: New version: [3.6.0] Old Version: [3.5.0]
+[2024-05-27 05:13:53] WARNING root fetch - processPackages [apiverve-streetaddressparser]: Skipping, unable to determine old version
+[2024-05-27 05:13:53] INFO root fetch - main [MainThread]: End processing [apiverve-streetaddressparser] error
+[2024-05-27 05:13:53] WARNING root fetch - processPackages [apiverve-stockmarketopentimes]: Skipping, unable to determine old version
+[2024-05-27 05:13:53] INFO root fetch - main [MainThread]: End processing [apiverve-stockmarketopentimes] error
+[2024-05-27 05:13:53] INFO root fetch - processPackages [easytl]: New version: [0.4.0b0] Old Version: [0.4.0a3]
+[2024-05-27 05:13:53] INFO root fetch - processPackages [pyschwab]: Downloading https://files.pythonhosted.org/packages/74/79/9f7d7542b9b2f03aca672b933901205cd4df74401aa73956bd8c8849bede/pyschwab-0.0.1a4.tar.gz
+[2024-05-27 05:13:53] INFO root fetch - processPackages [ChatTTS]: Downloading https://files.pythonhosted.org/packages/70/60/dc0a7d16a3fb24d28979f0352ff1cdd57f2f4e7116bf1452e660717044e0/ChatTTS-0.0.4.tar.gz
+[2024-05-27 05:13:53] INFO root fetch - processPackages [django-simple-history]: Downloading https://files.pythonhosted.org/packages/cf/f2/31e587ad8ce0c67234d45cc9c4ef921655bbaea0600e012e970fe9ae4623/django-simple-history-3.5.0.tar.gz
+[2024-05-27 05:13:53] INFO root fetch - processPackages [ChatTTS]: executing diffoscope
+[2024-05-27 05:13:53] INFO root fetch - processPackages [ChatTTS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ChatTTS-0.0.3.tar.gz tmp/ChatTTS-0.0.4.tar.gz --markdown 20240527/C/ChatTTS/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-27 05:13:53] INFO root fetch - processPackages [easytl]: Downloading https://files.pythonhosted.org/packages/b3/52/d7365280f6b2774678d67646712a3c33db31e62a89861c8d8cf9b983a41f/easytl-0.4.0a3.tar.gz
+[2024-05-27 05:13:53] INFO root fetch - processPackages [pyschwab]: Downloading https://files.pythonhosted.org/packages/04/17/1039ddd72225969c13412a98c221bdec4d39ea0c5a545b4a6b500357efa8/pyschwab-0.0.2.tar.gz
+[2024-05-27 05:13:53] INFO root fetch - processPackages [easytl]: Downloading https://files.pythonhosted.org/packages/6a/69/8cc8bde2204a61d677ccbde97f73c7d1edd59610d8c990479f5d519228cb/easytl-0.4.0b0.tar.gz
+[2024-05-27 05:13:53] INFO root fetch - processPackages [pyschwab]: executing diffoscope
+[2024-05-27 05:13:53] INFO root fetch - processPackages [pyschwab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyschwab-0.0.1a4.tar.gz tmp/pyschwab-0.0.2.tar.gz --markdown 20240527/p/pyschwab/0.0.1a4-0.0.2/README.md --exclude *.pyd
+[2024-05-27 05:13:53] INFO root fetch - processPackages [django-simple-history]: Downloading https://files.pythonhosted.org/packages/ee/f9/ed5441ec0ef08f7dcbbcab59656e0b92ec2466acd80efa04cbfa334a5509/django_simple_history-3.6.0.tar.gz
+[2024-05-27 05:13:53] INFO root fetch - processPackages [ChatTTS]: Remove: archive file [/home/abi/fetcher/tmp/ChatTTS-0.0.3.tar.gz]
+[2024-05-27 05:13:53] INFO root fetch - processPackages [ChatTTS]: Remove: archive file [/home/abi/fetcher/tmp/ChatTTS-0.0.4.tar.gz]
+[2024-05-27 05:13:53] INFO root fetch - main [MainThread]: End processing [ChatTTS]: success
+[2024-05-27 05:13:53] INFO root fetch - processPackages [easytl]: executing diffoscope
+[2024-05-27 05:13:53] INFO root fetch - processPackages [easytl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easytl-0.4.0a3.tar.gz tmp/easytl-0.4.0b0.tar.gz --markdown 20240527/e/easytl/0.4.0a3-0.4.0b0/README.md --exclude *.pyd
+[2024-05-27 05:13:54] INFO root fetch - processPackages [django-simple-history]: executing diffoscope
+[2024-05-27 05:13:54] INFO root fetch - processPackages [django-simple-history]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-simple-history-3.5.0.tar.gz tmp/django_simple_history-3.6.0.tar.gz --markdown 20240527/d/django-simple-history/3.5.0-3.6.0/README.md --exclude *.pyd
+[2024-05-27 05:13:54] INFO root fetch - processPackages [pyschwab]: Remove: archive file [/home/abi/fetcher/tmp/pyschwab-0.0.1a4.tar.gz]
+[2024-05-27 05:13:54] INFO root fetch - processPackages [pyschwab]: Remove: archive file [/home/abi/fetcher/tmp/pyschwab-0.0.2.tar.gz]
+[2024-05-27 05:13:54] INFO root fetch - main [MainThread]: End processing [pyschwab]: success
+[2024-05-27 05:13:54] INFO root fetch - processPackages [easytl]: Remove: archive file [/home/abi/fetcher/tmp/easytl-0.4.0a3.tar.gz]
+[2024-05-27 05:13:54] INFO root fetch - processPackages [easytl]: Remove: archive file [/home/abi/fetcher/tmp/easytl-0.4.0b0.tar.gz]
+[2024-05-27 05:13:54] INFO root fetch - main [MainThread]: End processing [easytl]: success
+[2024-05-27 05:13:55] INFO root fetch - processPackages [django-simple-history]: Remove: archive file [/home/abi/fetcher/tmp/django-simple-history-3.5.0.tar.gz]
+[2024-05-27 05:13:55] INFO root fetch - processPackages [django-simple-history]: Remove: archive file [/home/abi/fetcher/tmp/django_simple_history-3.6.0.tar.gz]
+[2024-05-27 05:13:55] INFO root fetch - main [MainThread]: End processing [django-simple-history]: success
+[2024-05-27 05:13:55] INFO root fetch - main [MainThread]: Store serial: [23390126]
