@@ -6438,3 +6438,42 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 07:45:33] INFO root fetch - processPackages [ansar-connect]: Remove: archive file [/home/abi/fetcher/tmp/ansar_connect-1.0.1.tar.gz]
 [2024-05-27 07:45:33] INFO root fetch - main [MainThread]: End processing [ansar-connect]: success
 [2024-05-27 07:45:33] INFO root fetch - main [MainThread]: Store serial: [23390967]
+[2024-05-27 07:47:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23390967]
+[2024-05-27 07:47:41] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-27 07:47:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Python-EasyGraph
+[2024-05-27 07:47:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fms-robot-plugin
+[2024-05-27 07:47:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pproject
+[2024-05-27 07:47:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ytsnippet
+[2024-05-27 07:47:41] INFO root fetch - processPackages [pproject]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-27 07:47:41] INFO root fetch - processPackages [ytsnippet]: New version: [0.3] Old Version: [0.2]
+[2024-05-27 07:47:41] INFO root fetch - processPackages [fms-robot-plugin]: New version: [0.3.0rc4] Old Version: [0.3.0rc3]
+[2024-05-27 07:47:41] INFO root fetch - processPackages [ytsnippet]: Downloading https://files.pythonhosted.org/packages/3e/0a/f28db37ecae4893969f41ea90ad7b2a923510ccae39b27201efe378ccc47/ytsnippet-0.2.tar.gz
+[2024-05-27 07:47:41] INFO root fetch - processPackages [pproject]: Downloading https://files.pythonhosted.org/packages/b8/86/eab564e2c63f7051e204e4bfe934c762c91565819e7c8dd9ad16201f04c5/pproject-0.0.5-py3-none-any.whl
+[2024-05-27 07:47:41] INFO root fetch - processPackages [Python-EasyGraph]: New version: [1.3] Old Version: [1.2]
+[2024-05-27 07:47:42] INFO root fetch - processPackages [fms-robot-plugin]: Downloading https://files.pythonhosted.org/packages/3f/ad/b8793e069217ccad2551c6124125d5c90a8b2f62998caef02e95c7880d76/fms_robot_plugin-0.3.0rc3.tar.gz
+[2024-05-27 07:47:42] INFO root fetch - processPackages [Python-EasyGraph]: Downloading https://files.pythonhosted.org/packages/c2/a7/79512610a990d293e572ad67c740b4af704ff12ad9704113e41111f02861/Python_EasyGraph-1.2-cp39-cp39-win_amd64.whl
+[2024-05-27 07:47:42] INFO root fetch - processPackages [ytsnippet]: Downloading https://files.pythonhosted.org/packages/6e/f8/d09098a7ad878c68f55dcd06e7cd82e284c10f0a467820156b3ebace59cb/ytsnippet-0.3.tar.gz
+[2024-05-27 07:47:42] INFO root fetch - processPackages [pproject]: Downloading https://files.pythonhosted.org/packages/c0/4e/cbf7f53200570c4a64740ba359f6283a8c5a8a0289e233cea0988f921a98/pproject-0.0.6.tar.gz
+[2024-05-27 07:47:42] INFO root fetch - processPackages [fms-robot-plugin]: Downloading https://files.pythonhosted.org/packages/1f/75/dc6156b665aaea1619cc7eaee8321ff3a179c86a4f5917af84488103de7b/fms_robot_plugin-0.3.0rc4.tar.gz
+[2024-05-27 07:47:42] INFO root fetch - processPackages [ytsnippet]: executing diffoscope
+[2024-05-27 07:47:42] INFO root fetch - processPackages [ytsnippet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ytsnippet-0.2.tar.gz tmp/ytsnippet-0.3.tar.gz --markdown 20240527/y/ytsnippet/0.2-0.3/README.md --exclude *.pyd
+[2024-05-27 07:47:42] INFO root fetch - processPackages [pproject]: executing diffoscope
+[2024-05-27 07:47:42] INFO root fetch - processPackages [pproject]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pproject-0.0.5-py3-none-any.whl.zip tmp/pproject-0.0.6.tar.gz --markdown 20240527/p/pproject/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-27 07:47:42] INFO root fetch - processPackages [fms-robot-plugin]: executing diffoscope
+[2024-05-27 07:47:42] INFO root fetch - processPackages [fms-robot-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fms_robot_plugin-0.3.0rc3.tar.gz tmp/fms_robot_plugin-0.3.0rc4.tar.gz --markdown 20240527/f/fms-robot-plugin/0.3.0rc3-0.3.0rc4/README.md --exclude *.pyd
+[2024-05-27 07:47:42] INFO root fetch - processPackages [Python-EasyGraph]: Downloading https://files.pythonhosted.org/packages/1c/a1/a85c55835f321ff8208ae07571812d4078d019f5e43817f4ac9b0e4a8c38/Python_EasyGraph-1.3-cp38-cp38-win_amd64.whl
+[2024-05-27 07:47:42] INFO root fetch - processPackages [Python-EasyGraph]: executing diffoscope
+[2024-05-27 07:47:42] INFO root fetch - processPackages [Python-EasyGraph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Python_EasyGraph-1.2-cp39-cp39-win_amd64.whl.zip tmp/Python_EasyGraph-1.3-cp38-cp38-win_amd64.whl.zip --markdown 20240527/P/Python-EasyGraph/1.2-1.3/README.md --exclude *.pyd
+[2024-05-27 07:47:43] INFO root fetch - processPackages [fms-robot-plugin]: Remove: archive file [/home/abi/fetcher/tmp/fms_robot_plugin-0.3.0rc3.tar.gz]
+[2024-05-27 07:47:43] INFO root fetch - processPackages [fms-robot-plugin]: Remove: archive file [/home/abi/fetcher/tmp/fms_robot_plugin-0.3.0rc4.tar.gz]
+[2024-05-27 07:47:43] INFO root fetch - main [MainThread]: End processing [fms-robot-plugin]: success
+[2024-05-27 07:47:43] INFO root fetch - processPackages [ytsnippet]: Remove: archive file [/home/abi/fetcher/tmp/ytsnippet-0.2.tar.gz]
+[2024-05-27 07:47:43] INFO root fetch - processPackages [ytsnippet]: Remove: archive file [/home/abi/fetcher/tmp/ytsnippet-0.3.tar.gz]
+[2024-05-27 07:47:43] INFO root fetch - main [MainThread]: End processing [ytsnippet]: success
+[2024-05-27 07:47:43] INFO root fetch - processPackages [pproject]: Remove: archive file [/home/abi/fetcher/tmp/pproject-0.0.5-py3-none-any.whl.zip]
+[2024-05-27 07:47:43] INFO root fetch - processPackages [pproject]: Remove: archive file [/home/abi/fetcher/tmp/pproject-0.0.6.tar.gz]
+[2024-05-27 07:47:43] INFO root fetch - main [MainThread]: End processing [pproject]: success
+[2024-05-27 07:47:44] INFO root fetch - processPackages [Python-EasyGraph]: Remove: archive file [/home/abi/fetcher/tmp/Python_EasyGraph-1.2-cp39-cp39-win_amd64.whl.zip]
+[2024-05-27 07:47:44] INFO root fetch - processPackages [Python-EasyGraph]: Remove: archive file [/home/abi/fetcher/tmp/Python_EasyGraph-1.3-cp38-cp38-win_amd64.whl.zip]
+[2024-05-27 07:47:44] INFO root fetch - main [MainThread]: End processing [Python-EasyGraph]: success
+[2024-05-27 07:47:44] INFO root fetch - main [MainThread]: Store serial: [23391007]
