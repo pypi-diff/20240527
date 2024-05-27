@@ -7316,3 +7316,42 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 08:42:16] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-3.2.99.tar.gz]
 [2024-05-27 08:42:16] INFO root fetch - main [MainThread]: End processing [checkov]: success
 [2024-05-27 08:42:16] INFO root fetch - main [MainThread]: Store serial: [23391431]
+[2024-05-27 08:44:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23391431]
+[2024-05-27 08:44:25] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-27 08:44:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: space-ska
+[2024-05-27 08:44:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zipreport-lib
+[2024-05-27 08:44:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: stream-zip
+[2024-05-27 08:44:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: acetone-nnet
+[2024-05-27 08:44:25] INFO root fetch - processPackages [acetone-nnet]: New version: [0.3.1.dev3] Old Version: [0.3.1.dev2]
+[2024-05-27 08:44:25] INFO root fetch - processPackages [stream-zip]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-27 08:44:25] INFO root fetch - processPackages [space-ska]: New version: [1.1] Old Version: [1.0]
+[2024-05-27 08:44:25] INFO root fetch - processPackages [acetone-nnet]: Downloading https://files.pythonhosted.org/packages/05/31/e60f6a690b3da4b94816c42754e8febfb0045f2835eadce9cc1a859e5c12/acetone_nnet-0.3.1.dev2.tar.gz
+[2024-05-27 08:44:25] INFO root fetch - processPackages [stream-zip]: Downloading https://files.pythonhosted.org/packages/4b/65/27b6998732f631a7691a5157fb51c5d5328faa138986c06684c5ae4fe771/stream-zip-0.0.8.tar.gz
+[2024-05-27 08:44:25] INFO root fetch - processPackages [zipreport-lib]: New version: [2.1.0] Old Version: [2.0.1]
+[2024-05-27 08:44:25] INFO root fetch - processPackages [space-ska]: Downloading https://files.pythonhosted.org/packages/88/8f/c9aca3aa5b180870f8886993b4d85f694a0275ae6f9193b75059c8035c46/space_ska-1.0.tar.gz
+[2024-05-27 08:44:25] INFO root fetch - processPackages [zipreport-lib]: Downloading https://files.pythonhosted.org/packages/5c/cd/c4c0f1ddee48ac0784fdae4e27350537984682e9f66f6a7f66501f66ecda/zipreport-lib-2.0.1.tar.gz
+[2024-05-27 08:44:25] INFO root fetch - processPackages [stream-zip]: Downloading https://files.pythonhosted.org/packages/0e/94/162b767659b1b6afe9241c47773d921e2b8a0f97f124d374e76c7f1d2b53/stream-zip-0.0.9.tar.gz
+[2024-05-27 08:44:25] INFO root fetch - processPackages [acetone-nnet]: Downloading https://files.pythonhosted.org/packages/94/ce/c7a9794a622223402b861ec131044d1b4fa1cccb1a5bc4c05ac49e210e62/acetone_nnet-0.3.1.dev3.tar.gz
+[2024-05-27 08:44:25] INFO root fetch - processPackages [stream-zip]: executing diffoscope
+[2024-05-27 08:44:25] INFO root fetch - processPackages [stream-zip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stream-zip-0.0.8.tar.gz tmp/stream-zip-0.0.9.tar.gz --markdown 20240527/s/stream-zip/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-27 08:44:25] INFO root fetch - processPackages [acetone-nnet]: executing diffoscope
+[2024-05-27 08:44:25] INFO root fetch - processPackages [acetone-nnet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acetone_nnet-0.3.1.dev2.tar.gz tmp/acetone_nnet-0.3.1.dev3.tar.gz --markdown 20240527/a/acetone-nnet/0.3.1.dev2-0.3.1.dev3/README.md --exclude *.pyd
+[2024-05-27 08:44:26] INFO root fetch - processPackages [space-ska]: Downloading https://files.pythonhosted.org/packages/8a/5a/2df2d14face94c60cb3a7fd2213b5be13b7775f2f03b52bade1d478e7e00/space_ska-1.1.tar.gz
+[2024-05-27 08:44:26] INFO root fetch - processPackages [zipreport-lib]: Downloading https://files.pythonhosted.org/packages/c8/5d/8c82ca689d0eb127126104b9d4b72b72431d8ef2494982c779b6bd6809f3/zipreport-lib-2.1.0.tar.gz
+[2024-05-27 08:44:26] INFO root fetch - processPackages [space-ska]: executing diffoscope
+[2024-05-27 08:44:26] INFO root fetch - processPackages [space-ska]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/space_ska-1.0.tar.gz tmp/space_ska-1.1.tar.gz --markdown 20240527/s/space-ska/1.0-1.1/README.md --exclude *.pyd
+[2024-05-27 08:44:26] INFO root fetch - processPackages [zipreport-lib]: executing diffoscope
+[2024-05-27 08:44:26] INFO root fetch - processPackages [zipreport-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zipreport-lib-2.0.1.tar.gz tmp/zipreport-lib-2.1.0.tar.gz --markdown 20240527/z/zipreport-lib/2.0.1-2.1.0/README.md --exclude *.pyd
+[2024-05-27 08:44:26] INFO root fetch - processPackages [stream-zip]: Remove: archive file [/home/abi/fetcher/tmp/stream-zip-0.0.8.tar.gz]
+[2024-05-27 08:44:26] INFO root fetch - processPackages [stream-zip]: Remove: archive file [/home/abi/fetcher/tmp/stream-zip-0.0.9.tar.gz]
+[2024-05-27 08:44:26] INFO root fetch - main [MainThread]: End processing [stream-zip]: success
+[2024-05-27 08:44:26] INFO root fetch - processPackages [space-ska]: Remove: archive file [/home/abi/fetcher/tmp/space_ska-1.0.tar.gz]
+[2024-05-27 08:44:26] INFO root fetch - processPackages [space-ska]: Remove: archive file [/home/abi/fetcher/tmp/space_ska-1.1.tar.gz]
+[2024-05-27 08:44:26] INFO root fetch - main [MainThread]: End processing [space-ska]: success
+[2024-05-27 08:44:26] INFO root fetch - processPackages [acetone-nnet]: Remove: archive file [/home/abi/fetcher/tmp/acetone_nnet-0.3.1.dev2.tar.gz]
+[2024-05-27 08:44:26] INFO root fetch - processPackages [acetone-nnet]: Remove: archive file [/home/abi/fetcher/tmp/acetone_nnet-0.3.1.dev3.tar.gz]
+[2024-05-27 08:44:26] INFO root fetch - main [MainThread]: End processing [acetone-nnet]: success
+[2024-05-27 08:44:26] INFO root fetch - processPackages [zipreport-lib]: Remove: archive file [/home/abi/fetcher/tmp/zipreport-lib-2.0.1.tar.gz]
+[2024-05-27 08:44:26] INFO root fetch - processPackages [zipreport-lib]: Remove: archive file [/home/abi/fetcher/tmp/zipreport-lib-2.1.0.tar.gz]
+[2024-05-27 08:44:26] INFO root fetch - main [MainThread]: End processing [zipreport-lib]: success
+[2024-05-27 08:44:26] INFO root fetch - main [MainThread]: Store serial: [23391444]
