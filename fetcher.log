@@ -23482,3 +23482,66 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-05-27 19:41:12] INFO root fetch - processPackages [pysql-manager]: Remove: archive file [/home/abi/fetcher/tmp/pysql_manager-0.0.3.tar.gz]
 [2024-05-27 19:41:12] INFO root fetch - main [MainThread]: End processing [pysql-manager]: success
 [2024-05-27 19:41:12] INFO root fetch - main [MainThread]: Store serial: [23399254]
+[2024-05-27 19:43:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23399254]
+[2024-05-27 19:43:20] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-27 19:43:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dbtc
+[2024-05-27 19:43:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bergmann
+[2024-05-27 19:43:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sbcli-mig
+[2024-05-27 19:43:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nqrduck
+[2024-05-27 19:43:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: openbot-training-frontend
+[2024-05-27 19:43:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bordersandpoints
+[2024-05-27 19:43:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: special-octo-robot
+[2024-05-27 19:43:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: oakestra-utils
+[2024-05-27 19:43:21] INFO root fetch - processPackages [openbot-training-frontend]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-05-27 19:43:21] INFO root fetch - processPackages [oakestra-utils]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-27 19:43:21] WARNING root fetch - processPackages [bergmann]: Skipping, unable to determine old version
+[2024-05-27 19:43:21] INFO root fetch - main [MainThread]: End processing [bergmann] error
+[2024-05-27 19:43:21] WARNING root fetch - processPackages [bordersandpoints]: Skipping, unable to determine old version
+[2024-05-27 19:43:21] INFO root fetch - main [MainThread]: End processing [bordersandpoints] error
+[2024-05-27 19:43:21] INFO root fetch - processPackages [nqrduck]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-27 19:43:21] INFO root fetch - processPackages [special-octo-robot]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-27 19:43:21] INFO root fetch - processPackages [sbcli-mig]: New version: [1.0.99] Old Version: [1.0.98]
+[2024-05-27 19:43:21] INFO root fetch - processPackages [dbtc]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-27 19:43:21] INFO root fetch - processPackages [openbot-training-frontend]: Downloading https://files.pythonhosted.org/packages/b0/78/f5ecbe69ef5e14fa9c43cf126a078486b0825c05ce1e4758c1edb94a17a6/openbot_training_frontend-0.1.0.tar.gz
+[2024-05-27 19:43:21] INFO root fetch - processPackages [oakestra-utils]: Downloading https://files.pythonhosted.org/packages/ce/10/1fc23500618b4013fa881c234e579ba3d011c0b58e358d9b651bc5d16ce0/oakestra_utils-0.1.1.tar.gz
+[2024-05-27 19:43:21] INFO root fetch - processPackages [nqrduck]: Downloading https://files.pythonhosted.org/packages/01/90/6d67e83852222440e96a56b12ec9b753c1aade8e960005fec82a99222d5f/nqrduck-0.0.8.tar.gz
+[2024-05-27 19:43:21] INFO root fetch - processPackages [special-octo-robot]: Downloading https://files.pythonhosted.org/packages/ef/b0/151f533c728a95addd2c665cf30fe26132d6d991f79d54cce93ce3b62b22/special-octo-robot-0.0.7.tar.gz
+[2024-05-27 19:43:21] INFO root fetch - processPackages [sbcli-mig]: Downloading https://files.pythonhosted.org/packages/6b/ca/195b17c881ccf7d806544ac663e3d3ba0fdf8d4fb2d49de83841f3a372d8/sbcli_mig-1.0.98.zip
+[2024-05-27 19:43:21] INFO root fetch - processPackages [dbtc]: Downloading https://files.pythonhosted.org/packages/e5/84/16db538022fe328200897902d186e56c8295c0b86035fc8243fcf5ab6f4a/dbtc-0.8.0.tar.gz
+[2024-05-27 19:43:21] INFO root fetch - processPackages [oakestra-utils]: Downloading https://files.pythonhosted.org/packages/bd/3f/35e9614c694ec0363eb0b2f33735139a37e6c1dcb876f0b9bb5eb8edfa84/oakestra_utils-0.1.2.tar.gz
+[2024-05-27 19:43:21] INFO root fetch - processPackages [special-octo-robot]: Downloading https://files.pythonhosted.org/packages/5b/de/daf698a4e20e765c1c99e8fcee0e9182a03c81ac33a33a673d8fc91fabe0/special_octo_robot-0.0.8-py3-none-any.whl
+[2024-05-27 19:43:21] INFO root fetch - processPackages [openbot-training-frontend]: Downloading https://files.pythonhosted.org/packages/dc/4c/3cb9b6fdc3f56f9d85ce48e8929a6c4e84aebf40db432c840a873bb8fe85/openbot_training_frontend-0.2.0.tar.gz
+[2024-05-27 19:43:21] INFO root fetch - processPackages [dbtc]: Downloading https://files.pythonhosted.org/packages/3a/0f/8084f897e6d45f4ed9184afa7f549d7f72e3e1c0dac6a5ab854661a7035a/dbtc-0.9.0.tar.gz
+[2024-05-27 19:43:21] INFO root fetch - processPackages [sbcli-mig]: Downloading https://files.pythonhosted.org/packages/cf/04/ae220da966a36c254f338107cfb89676096dd3639725049e08c36876035d/sbcli_mig-1.0.99.zip
+[2024-05-27 19:43:21] INFO root fetch - processPackages [oakestra-utils]: executing diffoscope
+[2024-05-27 19:43:21] INFO root fetch - processPackages [oakestra-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oakestra_utils-0.1.1.tar.gz tmp/oakestra_utils-0.1.2.tar.gz --markdown 20240527/o/oakestra-utils/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-27 19:43:21] INFO root fetch - processPackages [special-octo-robot]: executing diffoscope
+[2024-05-27 19:43:21] INFO root fetch - processPackages [special-octo-robot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/special-octo-robot-0.0.7.tar.gz tmp/special_octo_robot-0.0.8-py3-none-any.whl.zip --markdown 20240527/s/special-octo-robot/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-27 19:43:21] INFO root fetch - processPackages [openbot-training-frontend]: executing diffoscope
+[2024-05-27 19:43:21] INFO root fetch - processPackages [openbot-training-frontend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openbot_training_frontend-0.1.0.tar.gz tmp/openbot_training_frontend-0.2.0.tar.gz --markdown 20240527/o/openbot-training-frontend/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-05-27 19:43:21] INFO root fetch - processPackages [dbtc]: executing diffoscope
+[2024-05-27 19:43:21] INFO root fetch - processPackages [dbtc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbtc-0.8.0.tar.gz tmp/dbtc-0.9.0.tar.gz --markdown 20240527/d/dbtc/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-27 19:43:21] INFO root fetch - processPackages [sbcli-mig]: executing diffoscope
+[2024-05-27 19:43:21] INFO root fetch - processPackages [sbcli-mig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sbcli_mig-1.0.98.zip tmp/sbcli_mig-1.0.99.zip --markdown 20240527/s/sbcli-mig/1.0.98-1.0.99/README.md --exclude *.pyd
+[2024-05-27 19:43:22] INFO root fetch - processPackages [nqrduck]: Downloading https://files.pythonhosted.org/packages/76/82/466ce7f56607c2b837af35d7fa5fde02713003f1e3dae700835d86444973/nqrduck-0.0.9.tar.gz
+[2024-05-27 19:43:22] INFO root fetch - processPackages [special-octo-robot]: Remove: archive file [/home/abi/fetcher/tmp/special-octo-robot-0.0.7.tar.gz]
+[2024-05-27 19:43:22] INFO root fetch - processPackages [special-octo-robot]: Remove: archive file [/home/abi/fetcher/tmp/special_octo_robot-0.0.8-py3-none-any.whl.zip]
+[2024-05-27 19:43:22] INFO root fetch - main [MainThread]: End processing [special-octo-robot]: success
+[2024-05-27 19:43:22] INFO root fetch - processPackages [oakestra-utils]: Remove: archive file [/home/abi/fetcher/tmp/oakestra_utils-0.1.1.tar.gz]
+[2024-05-27 19:43:22] INFO root fetch - processPackages [oakestra-utils]: Remove: archive file [/home/abi/fetcher/tmp/oakestra_utils-0.1.2.tar.gz]
+[2024-05-27 19:43:22] INFO root fetch - main [MainThread]: End processing [oakestra-utils]: success
+[2024-05-27 19:43:22] INFO root fetch - processPackages [nqrduck]: executing diffoscope
+[2024-05-27 19:43:22] INFO root fetch - processPackages [nqrduck]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nqrduck-0.0.8.tar.gz tmp/nqrduck-0.0.9.tar.gz --markdown 20240527/n/nqrduck/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-27 19:43:22] INFO root fetch - processPackages [openbot-training-frontend]: Remove: archive file [/home/abi/fetcher/tmp/openbot_training_frontend-0.1.0.tar.gz]
+[2024-05-27 19:43:22] INFO root fetch - processPackages [openbot-training-frontend]: Remove: archive file [/home/abi/fetcher/tmp/openbot_training_frontend-0.2.0.tar.gz]
+[2024-05-27 19:43:22] INFO root fetch - main [MainThread]: End processing [openbot-training-frontend]: success
+[2024-05-27 19:43:22] INFO root fetch - processPackages [dbtc]: Remove: archive file [/home/abi/fetcher/tmp/dbtc-0.8.0.tar.gz]
+[2024-05-27 19:43:22] INFO root fetch - processPackages [dbtc]: Remove: archive file [/home/abi/fetcher/tmp/dbtc-0.9.0.tar.gz]
+[2024-05-27 19:43:22] INFO root fetch - main [MainThread]: End processing [dbtc]: success
+[2024-05-27 19:43:22] INFO root fetch - processPackages [sbcli-mig]: Remove: archive file [/home/abi/fetcher/tmp/sbcli_mig-1.0.98.zip]
+[2024-05-27 19:43:22] INFO root fetch - processPackages [sbcli-mig]: Remove: archive file [/home/abi/fetcher/tmp/sbcli_mig-1.0.99.zip]
+[2024-05-27 19:43:22] INFO root fetch - main [MainThread]: End processing [sbcli-mig]: success
+[2024-05-27 19:43:23] INFO root fetch - processPackages [nqrduck]: Remove: archive file [/home/abi/fetcher/tmp/nqrduck-0.0.8.tar.gz]
+[2024-05-27 19:43:23] INFO root fetch - processPackages [nqrduck]: Remove: archive file [/home/abi/fetcher/tmp/nqrduck-0.0.9.tar.gz]
+[2024-05-27 19:43:23] INFO root fetch - main [MainThread]: End processing [nqrduck]: success
+[2024-05-27 19:43:23] INFO root fetch - main [MainThread]: Store serial: [23399281]
