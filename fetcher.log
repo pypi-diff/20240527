@@ -23170,3 +23170,54 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-05-27 19:28:05] INFO root fetch - processPackages [sbcli-dev]: Remove: archive file [/home/abi/fetcher/tmp/sbcli_dev-2.7.6.zip]
 [2024-05-27 19:28:05] INFO root fetch - main [MainThread]: End processing [sbcli-dev]: success
 [2024-05-27 19:28:05] INFO root fetch - main [MainThread]: Store serial: [23399130]
+[2024-05-27 19:30:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23399130]
+[2024-05-27 19:30:14] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-27 19:30:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: crazy-thursday
+[2024-05-27 19:30:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyabhata
+[2024-05-27 19:30:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: schwab-api-wrapper
+[2024-05-27 19:30:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: damo
+[2024-05-27 19:30:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: roche-datachapter-lib
+[2024-05-27 19:30:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: alita-sdk
+[2024-05-27 19:30:14] INFO root fetch - processPackages [schwab-api-wrapper]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-27 19:30:14] INFO root fetch - processPackages [alita-sdk]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-27 19:30:14] WARNING root fetch - processPackages [pyabhata]: Skipping, unable to determine old version
+[2024-05-27 19:30:14] INFO root fetch - processPackages [schwab-api-wrapper]: Downloading https://files.pythonhosted.org/packages/c7/1d/1aa0d8b0a4e6a95b6e8dfb76f08a785def3ef2acee28a2e9d1262e1f61da/schwab_api_wrapper-0.0.8.tar.gz
+[2024-05-27 19:30:14] INFO root fetch - main [MainThread]: End processing [pyabhata] error
+[2024-05-27 19:30:14] INFO root fetch - processPackages [alita-sdk]: Downloading https://files.pythonhosted.org/packages/58/77/699a43c7f5d3229ed63ff8d8eaba7999323921fbe9a94d3dd2d8b0f9b7a6/alita_sdk-0.1.8.tar.gz
+[2024-05-27 19:30:14] INFO root fetch - processPackages [roche-datachapter-lib]: New version: [0.0.47] Old Version: [0.0.46]
+[2024-05-27 19:30:14] INFO root fetch - processPackages [damo]: New version: [2.3.6] Old Version: [2.3.5]
+[2024-05-27 19:30:14] INFO root fetch - processPackages [crazy-thursday]: New version: [2024.5.9.1] Old Version: [2024.5.9.0]
+[2024-05-27 19:30:14] INFO root fetch - processPackages [roche-datachapter-lib]: Downloading https://files.pythonhosted.org/packages/a9/2f/e0777f06dd95b5ba6e05b831172514ca830660771144c6abec1f45d54d9e/roche_datachapter_lib-0.0.46.tar.gz
+[2024-05-27 19:30:14] INFO root fetch - processPackages [damo]: Downloading https://files.pythonhosted.org/packages/a1/59/cdc4b172f750c5bf2a289d44cfe129ed7a39dac7ac2b9cf2d79726f6cc23/damo-2.3.5.tar.gz
+[2024-05-27 19:30:14] INFO root fetch - processPackages [alita-sdk]: Downloading https://files.pythonhosted.org/packages/6d/5f/08f7caedc136fde13091ef88ae35349e7285ef4b9c181b34fb1c4dffd4ba/alita_sdk-0.1.9.tar.gz
+[2024-05-27 19:30:14] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/3f/0a/108e3af749c5757158be48151418c2bbea49bff2269af8811bade316080a/crazy_thursday-2024.5.9.0.tar.gz
+[2024-05-27 19:30:14] INFO root fetch - processPackages [schwab-api-wrapper]: Downloading https://files.pythonhosted.org/packages/1e/18/6dc6e2d28fc25feaeae25aba57f1d800e87ce24942c157bd3cf55eeba9fa/schwab_api_wrapper-0.0.9.tar.gz
+[2024-05-27 19:30:14] INFO root fetch - processPackages [alita-sdk]: executing diffoscope
+[2024-05-27 19:30:14] INFO root fetch - processPackages [alita-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alita_sdk-0.1.8.tar.gz tmp/alita_sdk-0.1.9.tar.gz --markdown 20240527/a/alita-sdk/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-27 19:30:14] INFO root fetch - processPackages [schwab-api-wrapper]: executing diffoscope
+[2024-05-27 19:30:14] INFO root fetch - processPackages [schwab-api-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/schwab_api_wrapper-0.0.8.tar.gz tmp/schwab_api_wrapper-0.0.9.tar.gz --markdown 20240527/s/schwab-api-wrapper/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-27 19:30:14] INFO root fetch - processPackages [roche-datachapter-lib]: Downloading https://files.pythonhosted.org/packages/d5/fc/68a9499350753076d239218bfa13b120413230fbffec2b71f242d651f3d6/roche_datachapter_lib-0.0.47.tar.gz
+[2024-05-27 19:30:14] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/20/70/a719fb059f910b10790f6a51b1c5c3ff943f1349c91c46142f1911323575/crazy_thursday-2024.5.9.1.tar.gz
+[2024-05-27 19:30:14] INFO root fetch - processPackages [damo]: Downloading https://files.pythonhosted.org/packages/fb/bd/0ca73ad8418442827ad400fc0c95486125f5e19a3a695dbe4079a6f6d86a/damo-2.3.6.tar.gz
+[2024-05-27 19:30:15] INFO root fetch - processPackages [roche-datachapter-lib]: executing diffoscope
+[2024-05-27 19:30:15] INFO root fetch - processPackages [roche-datachapter-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roche_datachapter_lib-0.0.46.tar.gz tmp/roche_datachapter_lib-0.0.47.tar.gz --markdown 20240527/r/roche-datachapter-lib/0.0.46-0.0.47/README.md --exclude *.pyd
+[2024-05-27 19:30:15] INFO root fetch - processPackages [crazy-thursday]: executing diffoscope
+[2024-05-27 19:30:15] INFO root fetch - processPackages [crazy-thursday]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crazy_thursday-2024.5.9.0.tar.gz tmp/crazy_thursday-2024.5.9.1.tar.gz --markdown 20240527/c/crazy-thursday/2024.5.9.0-2024.5.9.1/README.md --exclude *.pyd
+[2024-05-27 19:30:15] INFO root fetch - processPackages [damo]: executing diffoscope
+[2024-05-27 19:30:15] INFO root fetch - processPackages [damo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/damo-2.3.5.tar.gz tmp/damo-2.3.6.tar.gz --markdown 20240527/d/damo/2.3.5-2.3.6/README.md --exclude *.pyd
+[2024-05-27 19:30:15] INFO root fetch - processPackages [alita-sdk]: Remove: archive file [/home/abi/fetcher/tmp/alita_sdk-0.1.8.tar.gz]
+[2024-05-27 19:30:15] INFO root fetch - processPackages [alita-sdk]: Remove: archive file [/home/abi/fetcher/tmp/alita_sdk-0.1.9.tar.gz]
+[2024-05-27 19:30:15] INFO root fetch - main [MainThread]: End processing [alita-sdk]: success
+[2024-05-27 19:30:15] INFO root fetch - processPackages [schwab-api-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/schwab_api_wrapper-0.0.8.tar.gz]
+[2024-05-27 19:30:15] INFO root fetch - processPackages [schwab-api-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/schwab_api_wrapper-0.0.9.tar.gz]
+[2024-05-27 19:30:15] INFO root fetch - main [MainThread]: End processing [schwab-api-wrapper]: success
+[2024-05-27 19:30:15] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy_thursday-2024.5.9.0.tar.gz]
+[2024-05-27 19:30:15] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy_thursday-2024.5.9.1.tar.gz]
+[2024-05-27 19:30:15] INFO root fetch - main [MainThread]: End processing [crazy-thursday]: success
+[2024-05-27 19:30:15] INFO root fetch - processPackages [roche-datachapter-lib]: Remove: archive file [/home/abi/fetcher/tmp/roche_datachapter_lib-0.0.46.tar.gz]
+[2024-05-27 19:30:15] INFO root fetch - processPackages [roche-datachapter-lib]: Remove: archive file [/home/abi/fetcher/tmp/roche_datachapter_lib-0.0.47.tar.gz]
+[2024-05-27 19:30:15] INFO root fetch - main [MainThread]: End processing [roche-datachapter-lib]: success
+[2024-05-27 19:30:15] INFO root fetch - processPackages [damo]: Remove: archive file [/home/abi/fetcher/tmp/damo-2.3.5.tar.gz]
+[2024-05-27 19:30:15] INFO root fetch - processPackages [damo]: Remove: archive file [/home/abi/fetcher/tmp/damo-2.3.6.tar.gz]
+[2024-05-27 19:30:15] INFO root fetch - main [MainThread]: End processing [damo]: success
+[2024-05-27 19:30:15] INFO root fetch - main [MainThread]: Store serial: [23399150]
