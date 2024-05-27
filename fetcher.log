@@ -19640,3 +19640,51 @@ EOFError: EOF read where object expected
 [2024-05-27 16:59:48] INFO root fetch - processPackages [datasphere]: Remove: archive file [/home/abi/fetcher/tmp/datasphere-0.7.1.tar.gz]
 [2024-05-27 16:59:48] INFO root fetch - main [MainThread]: End processing [datasphere]: success
 [2024-05-27 16:59:48] INFO root fetch - main [MainThread]: Store serial: [23397400]
+[2024-05-27 17:01:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23397400]
+[2024-05-27 17:01:57] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-27 17:01:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: CI-CloudConnector
+[2024-05-27 17:01:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: opvious
+[2024-05-27 17:01:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: orcaz
+[2024-05-27 17:01:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: phc-ingestion
+[2024-05-27 17:01:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: multiregex
+[2024-05-27 17:01:57] INFO root fetch - processPackages [CI-CloudConnector]: New version: [0.9] Old Version: [0.88]
+[2024-05-27 17:01:57] INFO root fetch - processPackages [orcaz]: New version: [0.1.3.5] Old Version: [0.1.3.4]
+[2024-05-27 17:01:57] INFO root fetch - processPackages [orcaz]: Downloading https://files.pythonhosted.org/packages/2d/59/fa71708d0e12f728c9daf142d8ae8dc78b0a5f7ab286eac66b5deffbdc85/orcaz-0.1.3.4.tar.gz
+[2024-05-27 17:01:57] INFO root fetch - processPackages [phc-ingestion]: New version: [0.8.9] Old Version: [0.8.8]
+[2024-05-27 17:01:57] INFO root fetch - processPackages [multiregex]: New version: [2.0.3] Old Version: [2.0.2]
+[2024-05-27 17:01:57] INFO root fetch - processPackages [opvious]: New version: [0.9.6] Old Version: [0.9.5]
+[2024-05-27 17:01:58] INFO root fetch - processPackages [CI-CloudConnector]: Downloading https://files.pythonhosted.org/packages/d5/cf/c78cd54728d0770f7e71db0aba418f076e908f2f7c5b52a828f9770a6110/ci_cloudconnector-0.88.tar.gz
+[2024-05-27 17:01:58] INFO root fetch - processPackages [orcaz]: Downloading https://files.pythonhosted.org/packages/76/0d/dbf11ecaf26cb93c8c5d0b71446097b1d29eb8061e9b8b9c7dd7505cbd3d/orcaz-0.1.3.5.tar.gz
+[2024-05-27 17:01:58] INFO root fetch - processPackages [phc-ingestion]: Downloading https://files.pythonhosted.org/packages/02/04/8d438a1686e66b52dfdfa5de3b7057ceb58aa969e2234409675b6e62556e/phc-ingestion-0.8.8.tar.gz
+[2024-05-27 17:01:58] INFO root fetch - processPackages [opvious]: Downloading https://files.pythonhosted.org/packages/d1/8f/b7e05d9b24e4dd1af2b9eab96fa7d1f97af088ed0836d9d8cfdb60c51360/opvious-0.9.5.tar.gz
+[2024-05-27 17:01:58] INFO root fetch - processPackages [multiregex]: Downloading https://files.pythonhosted.org/packages/c8/f2/c1970e659d79b4e086512503bebfa6a5a154d5740004d9c3f9c27a1abdc0/multiregex-2.0.2.tar.gz
+[2024-05-27 17:01:58] INFO root fetch - processPackages [CI-CloudConnector]: Downloading https://files.pythonhosted.org/packages/4c/eb/b4639debe39d86d516b4aa0b9e6cdec32e0a06d0220a60ed52a6b5fada1f/CI_CloudConnector-0.9.zip
+[2024-05-27 17:01:58] INFO root fetch - processPackages [orcaz]: executing diffoscope
+[2024-05-27 17:01:58] INFO root fetch - processPackages [orcaz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/orcaz-0.1.3.4.tar.gz tmp/orcaz-0.1.3.5.tar.gz --markdown 20240527/o/orcaz/0.1.3.4-0.1.3.5/README.md --exclude *.pyd
+[2024-05-27 17:01:58] INFO root fetch - processPackages [CI-CloudConnector]: executing diffoscope
+[2024-05-27 17:01:58] INFO root fetch - processPackages [CI-CloudConnector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ci_cloudconnector-0.88.tar.gz tmp/CI_CloudConnector-0.9.zip --markdown 20240527/C/CI-CloudConnector/0.88-0.9/README.md --exclude *.pyd
+[2024-05-27 17:01:58] INFO root fetch - processPackages [multiregex]: Downloading https://files.pythonhosted.org/packages/32/a7/0f6da6a68ef59be423d1c96a87827a390a4c0e1e91669ce86d079cc5b66e/multiregex-2.0.3.tar.gz
+[2024-05-27 17:01:58] INFO root fetch - processPackages [opvious]: Downloading https://files.pythonhosted.org/packages/c2/c3/e2b95ca71e91eb624497389cb2391d3310907b4f9f25dee1a75b99798c14/opvious-0.9.6.tar.gz
+[2024-05-27 17:01:58] INFO root fetch - processPackages [opvious]: executing diffoscope
+[2024-05-27 17:01:58] INFO root fetch - processPackages [opvious]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opvious-0.9.5.tar.gz tmp/opvious-0.9.6.tar.gz --markdown 20240527/o/opvious/0.9.5-0.9.6/README.md --exclude *.pyd
+[2024-05-27 17:01:58] INFO root fetch - processPackages [phc-ingestion]: Downloading https://files.pythonhosted.org/packages/f8/0f/62839607b06ab11e228299fc8542a8149718c194d0d7da12972bfc1133c5/phc-ingestion-0.8.9.tar.gz
+[2024-05-27 17:01:58] INFO root fetch - processPackages [multiregex]: executing diffoscope
+[2024-05-27 17:01:58] INFO root fetch - processPackages [multiregex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multiregex-2.0.2.tar.gz tmp/multiregex-2.0.3.tar.gz --markdown 20240527/m/multiregex/2.0.2-2.0.3/README.md --exclude *.pyd
+[2024-05-27 17:01:58] INFO root fetch - processPackages [CI-CloudConnector]: Remove: archive file [/home/abi/fetcher/tmp/ci_cloudconnector-0.88.tar.gz]
+[2024-05-27 17:01:58] INFO root fetch - processPackages [CI-CloudConnector]: Remove: archive file [/home/abi/fetcher/tmp/CI_CloudConnector-0.9.zip]
+[2024-05-27 17:01:58] INFO root fetch - main [MainThread]: End processing [CI-CloudConnector]: success
+[2024-05-27 17:01:58] INFO root fetch - processPackages [orcaz]: Remove: archive file [/home/abi/fetcher/tmp/orcaz-0.1.3.4.tar.gz]
+[2024-05-27 17:01:58] INFO root fetch - processPackages [orcaz]: Remove: archive file [/home/abi/fetcher/tmp/orcaz-0.1.3.5.tar.gz]
+[2024-05-27 17:01:58] INFO root fetch - main [MainThread]: End processing [orcaz]: success
+[2024-05-27 17:01:59] INFO root fetch - processPackages [phc-ingestion]: executing diffoscope
+[2024-05-27 17:01:59] INFO root fetch - processPackages [phc-ingestion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phc-ingestion-0.8.8.tar.gz tmp/phc-ingestion-0.8.9.tar.gz --markdown 20240527/p/phc-ingestion/0.8.8-0.8.9/README.md --exclude *.pyd
+[2024-05-27 17:01:59] INFO root fetch - processPackages [multiregex]: Remove: archive file [/home/abi/fetcher/tmp/multiregex-2.0.2.tar.gz]
+[2024-05-27 17:01:59] INFO root fetch - processPackages [multiregex]: Remove: archive file [/home/abi/fetcher/tmp/multiregex-2.0.3.tar.gz]
+[2024-05-27 17:01:59] INFO root fetch - main [MainThread]: End processing [multiregex]: success
+[2024-05-27 17:01:59] INFO root fetch - processPackages [opvious]: Remove: archive file [/home/abi/fetcher/tmp/opvious-0.9.5.tar.gz]
+[2024-05-27 17:01:59] INFO root fetch - processPackages [opvious]: Remove: archive file [/home/abi/fetcher/tmp/opvious-0.9.6.tar.gz]
+[2024-05-27 17:01:59] INFO root fetch - main [MainThread]: End processing [opvious]: success
+[2024-05-27 17:01:59] INFO root fetch - processPackages [phc-ingestion]: Remove: archive file [/home/abi/fetcher/tmp/phc-ingestion-0.8.8.tar.gz]
+[2024-05-27 17:01:59] INFO root fetch - processPackages [phc-ingestion]: Remove: archive file [/home/abi/fetcher/tmp/phc-ingestion-0.8.9.tar.gz]
+[2024-05-27 17:01:59] INFO root fetch - main [MainThread]: End processing [phc-ingestion]: success
+[2024-05-27 17:01:59] INFO root fetch - main [MainThread]: Store serial: [23397418]
