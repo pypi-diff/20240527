@@ -13310,3 +13310,45 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 12:59:30] INFO root fetch - processPackages [django-debug-toolbar]: Remove: archive file [/home/abi/fetcher/tmp/django_debug_toolbar-4.4.2.tar.gz]
 [2024-05-27 12:59:30] INFO root fetch - main [MainThread]: End processing [django-debug-toolbar]: success
 [2024-05-27 12:59:30] INFO root fetch - main [MainThread]: Store serial: [23394395]
+[2024-05-27 13:01:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23394395]
+[2024-05-27 13:01:40] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-27 13:01:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: card-management-sdk
+[2024-05-27 13:01:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Warg
+[2024-05-27 13:01:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: evo-django-kits
+[2024-05-27 13:01:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kal-middleware
+[2024-05-27 13:01:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: orange-widget-base
+[2024-05-27 13:01:40] WARNING root fetch - processPackages [card-management-sdk]: Skipping, unable to determine old version
+[2024-05-27 13:01:40] INFO root fetch - main [MainThread]: End processing [card-management-sdk] error
+[2024-05-27 13:01:40] INFO root fetch - processPackages [evo-django-kits]: New version: [0.0.2] Old Version: [0.0.18]
+[2024-05-27 13:01:40] INFO root fetch - processPackages [kal-middleware]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-27 13:01:40] INFO root fetch - processPackages [orange-widget-base]: New version: [4.9.0] Old Version: [4.8.1]
+[2024-05-27 13:01:40] INFO root fetch - processPackages [kal-middleware]: Downloading https://files.pythonhosted.org/packages/2b/ce/2aba40575deed19c2c419767c9801f30357c66f62b5c1419564460d9b76c/kal_middleware-0.0.7.tar.gz
+[2024-05-27 13:01:40] INFO root fetch - processPackages [evo-django-kits]: Downloading https://files.pythonhosted.org/packages/35/f6/19200fe7d0f699824d9981916f74e3ce83b189cfc0fbf9be88c8319cbaf4/evo_django_kits-0.0.18.tar.gz
+[2024-05-27 13:01:40] INFO root fetch - processPackages [Warg]: New version: [1.4.3] Old Version: [1.4.2]
+[2024-05-27 13:01:40] INFO root fetch - processPackages [orange-widget-base]: Downloading https://files.pythonhosted.org/packages/0e/e9/dffd261442cb817b7bfc49610da95a1d91dfe4ec432f3c9d095ae051c159/orange-widget-base-4.8.1.tar.gz
+[2024-05-27 13:01:40] INFO root fetch - processPackages [Warg]: Downloading https://files.pythonhosted.org/packages/99/3f/30c8415f7860aec4f0e110e9ea62f7bfdc550fc73caccb93391cc27a3f23/Warg-1.4.2.tar.gz
+[2024-05-27 13:01:40] INFO root fetch - processPackages [evo-django-kits]: Downloading https://files.pythonhosted.org/packages/d4/0a/30d3602f416cb80a9ece840905ab1f4217b1a4e947c468975f7e39a7a7e0/evo_django_kits-0.0.2.tar.gz
+[2024-05-27 13:01:40] INFO root fetch - processPackages [kal-middleware]: Downloading https://files.pythonhosted.org/packages/a8/71/2fa6adbed924bb75df69ad78da7157039c9c5e3396e5429936d075a7e33f/kal_middleware-0.0.8.tar.gz
+[2024-05-27 13:01:41] INFO root fetch - processPackages [evo-django-kits]: executing diffoscope
+[2024-05-27 13:01:41] INFO root fetch - processPackages [evo-django-kits]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evo_django_kits-0.0.18.tar.gz tmp/evo_django_kits-0.0.2.tar.gz --markdown 20240527/e/evo-django-kits/0.0.18-0.0.2/README.md --exclude *.pyd
+[2024-05-27 13:01:41] INFO root fetch - processPackages [kal-middleware]: executing diffoscope
+[2024-05-27 13:01:41] INFO root fetch - processPackages [kal-middleware]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kal_middleware-0.0.7.tar.gz tmp/kal_middleware-0.0.8.tar.gz --markdown 20240527/k/kal-middleware/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-27 13:01:41] INFO root fetch - processPackages [Warg]: Downloading https://files.pythonhosted.org/packages/3b/5e/4f7140a7b23660a07b22776122698bdea81f811e1c1e71daa223a271c17b/warg-1.4.3.tar.gz
+[2024-05-27 13:01:41] INFO root fetch - processPackages [orange-widget-base]: Downloading https://files.pythonhosted.org/packages/50/a6/84d466f884beaa1ff59a75ae616aed418f8150745071ba6ad6b58a7b9613/orange-widget-base-4.9.0.tar.gz
+[2024-05-27 13:01:41] INFO root fetch - processPackages [Warg]: executing diffoscope
+[2024-05-27 13:01:41] INFO root fetch - processPackages [Warg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Warg-1.4.2.tar.gz tmp/warg-1.4.3.tar.gz --markdown 20240527/W/Warg/1.4.2-1.4.3/README.md --exclude *.pyd
+[2024-05-27 13:01:41] INFO root fetch - processPackages [orange-widget-base]: executing diffoscope
+[2024-05-27 13:01:41] INFO root fetch - processPackages [orange-widget-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/orange-widget-base-4.8.1.tar.gz tmp/orange-widget-base-4.9.0.tar.gz --markdown 20240527/o/orange-widget-base/4.8.1-4.9.0/README.md --exclude *.pyd
+[2024-05-27 13:01:41] INFO root fetch - processPackages [evo-django-kits]: Remove: archive file [/home/abi/fetcher/tmp/evo_django_kits-0.0.18.tar.gz]
+[2024-05-27 13:01:41] INFO root fetch - processPackages [evo-django-kits]: Remove: archive file [/home/abi/fetcher/tmp/evo_django_kits-0.0.2.tar.gz]
+[2024-05-27 13:01:41] INFO root fetch - main [MainThread]: End processing [evo-django-kits]: success
+[2024-05-27 13:01:41] INFO root fetch - processPackages [kal-middleware]: Remove: archive file [/home/abi/fetcher/tmp/kal_middleware-0.0.7.tar.gz]
+[2024-05-27 13:01:41] INFO root fetch - processPackages [kal-middleware]: Remove: archive file [/home/abi/fetcher/tmp/kal_middleware-0.0.8.tar.gz]
+[2024-05-27 13:01:41] INFO root fetch - main [MainThread]: End processing [kal-middleware]: success
+[2024-05-27 13:01:42] INFO root fetch - processPackages [Warg]: Remove: archive file [/home/abi/fetcher/tmp/Warg-1.4.2.tar.gz]
+[2024-05-27 13:01:42] INFO root fetch - processPackages [Warg]: Remove: archive file [/home/abi/fetcher/tmp/warg-1.4.3.tar.gz]
+[2024-05-27 13:01:42] INFO root fetch - main [MainThread]: End processing [Warg]: success
+[2024-05-27 13:01:42] INFO root fetch - processPackages [orange-widget-base]: Remove: archive file [/home/abi/fetcher/tmp/orange-widget-base-4.8.1.tar.gz]
+[2024-05-27 13:01:42] INFO root fetch - processPackages [orange-widget-base]: Remove: archive file [/home/abi/fetcher/tmp/orange-widget-base-4.9.0.tar.gz]
+[2024-05-27 13:01:42] INFO root fetch - main [MainThread]: End processing [orange-widget-base]: success
+[2024-05-27 13:01:42] INFO root fetch - main [MainThread]: Store serial: [23394412]
