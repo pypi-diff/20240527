@@ -3939,3 +3939,45 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 04:35:53] INFO root fetch - processPackages [jmcomic]: Remove: archive file [/home/abi/fetcher/tmp/jmcomic-2.5.9.tar.gz]
 [2024-05-27 04:35:53] INFO root fetch - main [MainThread]: End processing [jmcomic]: success
 [2024-05-27 04:35:53] INFO root fetch - main [MainThread]: Store serial: [23389819]
+[2024-05-27 04:37:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23389819]
+[2024-05-27 04:38:01] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-27 04:38:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: video-background-extractor
+[2024-05-27 04:38:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lckytools
+[2024-05-27 04:38:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: iaptoolkit
+[2024-05-27 04:38:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Lires
+[2024-05-27 04:38:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: matematikk
+[2024-05-27 04:38:01] INFO root fetch - processPackages [lckytools]: New version: [0.0.0b9] Old Version: [0.0.0b8]
+[2024-05-27 04:38:01] INFO root fetch - processPackages [matematikk]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-27 04:38:01] INFO root fetch - processPackages [lckytools]: Downloading https://files.pythonhosted.org/packages/6d/fd/4f8d5200d068fd3b10ad14eedf738f1e677562094d86d724e845edea41ef/lckytools-0.0.0b8.tar.gz
+[2024-05-27 04:38:01] INFO root fetch - processPackages [iaptoolkit]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-27 04:38:01] INFO root fetch - processPackages [Lires]: New version: [1.8.4] Old Version: [1.8.3]
+[2024-05-27 04:38:01] WARNING root fetch - processPackages [video-background-extractor]: Skipping, unable to determine old version
+[2024-05-27 04:38:01] INFO root fetch - main [MainThread]: End processing [video-background-extractor] error
+[2024-05-27 04:38:01] INFO root fetch - processPackages [matematikk]: Downloading https://files.pythonhosted.org/packages/b9/0f/0e2ea1c838d839f658d451461a2f978947f6ab41a8f4e102104cc5b587a8/matematikk-0.0.98.tar.gz
+[2024-05-27 04:38:01] INFO root fetch - processPackages [iaptoolkit]: Downloading https://files.pythonhosted.org/packages/05/6e/dd7de83700d1d548b9289601c15766f3512f9e5b5f16e565dc22451428b2/iaptoolkit-0.1.0.tar.gz
+[2024-05-27 04:38:01] INFO root fetch - processPackages [lckytools]: Downloading https://files.pythonhosted.org/packages/d2/23/dc52e8933b51b938fdd402bf5b1bf168c20f9ee62bbcc26f1f5be70d705c/lckytools-0.0.0b9.tar.gz
+[2024-05-27 04:38:01] INFO root fetch - processPackages [matematikk]: Downloading https://files.pythonhosted.org/packages/ba/d1/907a2303ec8d0c4c2f01a0d2f9fd6e3de3387f6c25c32de3800152e437fb/matematikk-0.0.99.tar.gz
+[2024-05-27 04:38:02] INFO root fetch - processPackages [Lires]: Downloading https://files.pythonhosted.org/packages/24/19/78baa80e022b2e169796b6d2e3dd445f6c9c3af7172b7d79d0e628dac1a9/Lires-1.8.3.tar.gz
+[2024-05-27 04:38:02] INFO root fetch - processPackages [lckytools]: executing diffoscope
+[2024-05-27 04:38:02] INFO root fetch - processPackages [lckytools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lckytools-0.0.0b8.tar.gz tmp/lckytools-0.0.0b9.tar.gz --markdown 20240527/l/lckytools/0.0.0b8-0.0.0b9/README.md --exclude *.pyd
+[2024-05-27 04:38:02] INFO root fetch - processPackages [matematikk]: executing diffoscope
+[2024-05-27 04:38:02] INFO root fetch - processPackages [matematikk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matematikk-0.0.98.tar.gz tmp/matematikk-0.0.99.tar.gz --markdown 20240527/m/matematikk/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-27 04:38:02] INFO root fetch - processPackages [iaptoolkit]: Downloading https://files.pythonhosted.org/packages/51/e6/f89b28f5d04ee7023398b9549143bc166d500a4437d3addfda094897253a/iaptoolkit-0.1.1.tar.gz
+[2024-05-27 04:38:02] INFO root fetch - processPackages [iaptoolkit]: executing diffoscope
+[2024-05-27 04:38:02] INFO root fetch - processPackages [iaptoolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iaptoolkit-0.1.0.tar.gz tmp/iaptoolkit-0.1.1.tar.gz --markdown 20240527/i/iaptoolkit/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-27 04:38:02] INFO root fetch - processPackages [lckytools]: Remove: archive file [/home/abi/fetcher/tmp/lckytools-0.0.0b8.tar.gz]
+[2024-05-27 04:38:02] INFO root fetch - processPackages [lckytools]: Remove: archive file [/home/abi/fetcher/tmp/lckytools-0.0.0b9.tar.gz]
+[2024-05-27 04:38:02] INFO root fetch - main [MainThread]: End processing [lckytools]: success
+[2024-05-27 04:38:02] INFO root fetch - processPackages [Lires]: Downloading https://files.pythonhosted.org/packages/59/6a/d323bc890a5c86667b3ccfb17e9013fab5bb274d7b6517f9f9d44591edc6/Lires-1.8.4.tar.gz
+[2024-05-27 04:38:02] INFO root fetch - processPackages [iaptoolkit]: Remove: archive file [/home/abi/fetcher/tmp/iaptoolkit-0.1.0.tar.gz]
+[2024-05-27 04:38:02] INFO root fetch - processPackages [iaptoolkit]: Remove: archive file [/home/abi/fetcher/tmp/iaptoolkit-0.1.1.tar.gz]
+[2024-05-27 04:38:02] INFO root fetch - main [MainThread]: End processing [iaptoolkit]: success
+[2024-05-27 04:38:03] INFO root fetch - processPackages [matematikk]: Remove: archive file [/home/abi/fetcher/tmp/matematikk-0.0.98.tar.gz]
+[2024-05-27 04:38:03] INFO root fetch - processPackages [matematikk]: Remove: archive file [/home/abi/fetcher/tmp/matematikk-0.0.99.tar.gz]
+[2024-05-27 04:38:03] INFO root fetch - main [MainThread]: End processing [matematikk]: success
+[2024-05-27 04:38:04] INFO root fetch - processPackages [Lires]: executing diffoscope
+[2024-05-27 04:38:04] INFO root fetch - processPackages [Lires]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Lires-1.8.3.tar.gz tmp/Lires-1.8.4.tar.gz --markdown 20240527/L/Lires/1.8.3-1.8.4/README.md --exclude *.pyd
+[2024-05-27 04:38:11] INFO root fetch - processPackages [Lires]: Remove: archive file [/home/abi/fetcher/tmp/Lires-1.8.3.tar.gz]
+[2024-05-27 04:38:11] INFO root fetch - processPackages [Lires]: Remove: archive file [/home/abi/fetcher/tmp/Lires-1.8.4.tar.gz]
+[2024-05-27 04:38:11] INFO root fetch - main [MainThread]: End processing [Lires]: success
+[2024-05-27 04:38:11] INFO root fetch - main [MainThread]: Store serial: [23389839]
