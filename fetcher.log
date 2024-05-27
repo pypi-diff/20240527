@@ -12387,3 +12387,57 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 12:26:20] INFO root fetch - processPackages [alibabacloud-oceanbasepro20190901]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_oceanbasepro20190901-4.1.0.tar.gz]
 [2024-05-27 12:26:20] INFO root fetch - main [MainThread]: End processing [alibabacloud-oceanbasepro20190901]: success
 [2024-05-27 12:26:20] INFO root fetch - main [MainThread]: Store serial: [23393984]
+[2024-05-27 12:28:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23393984]
+[2024-05-27 12:28:31] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-27 12:28:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: agenta
+[2024-05-27 12:28:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: z2m-log-parser
+[2024-05-27 12:28:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: totolo
+[2024-05-27 12:28:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: huscy.project-design
+[2024-05-27 12:28:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: imio.restapi
+[2024-05-27 12:28:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lnhub-rest
+[2024-05-27 12:28:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: PROPRINT
+[2024-05-27 12:28:31] INFO root fetch - processPackages [z2m-log-parser]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-27 12:28:31] INFO root fetch - processPackages [totolo]: New version: [1.6.0.dev202405271003] Old Version: [1.6.0]
+[2024-05-27 12:28:31] INFO root fetch - processPackages [agenta]: New version: [0.9.0] Old Version: [0.8.4]
+[2024-05-27 12:28:31] INFO root fetch - processPackages [imio.restapi]: New version: [1.0rc2] Old Version: [1.0rc1]
+[2024-05-27 12:28:31] INFO root fetch - processPackages [huscy.project-design]: New version: [0.4.0b13] Old Version: [0.3.3a12]
+[2024-05-27 12:28:31] WARNING root fetch - processPackages [PROPRINT]: Skipping, unable to determine old version
+[2024-05-27 12:28:31] INFO root fetch - main [MainThread]: End processing [PROPRINT] error
+[2024-05-27 12:28:31] WARNING root fetch - processPackages [lnhub-rest]: Skipping, unable to determine old version
+[2024-05-27 12:28:31] INFO root fetch - main [MainThread]: End processing [lnhub-rest] error
+[2024-05-27 12:28:31] INFO root fetch - processPackages [z2m-log-parser]: Downloading https://files.pythonhosted.org/packages/3c/bf/045aab314e9a6c6ba6648f7196be4382d805417677bd4ab8597079a40eec/z2m_log_parser-0.0.8.tar.gz
+[2024-05-27 12:28:31] INFO root fetch - processPackages [totolo]: Downloading https://files.pythonhosted.org/packages/ec/dc/509c6a38c400e739a4ce9a47402958047c158f3f61b92bbf8a3219bc1ed0/totolo-1.6.0.tar.gz
+[2024-05-27 12:28:31] INFO root fetch - processPackages [agenta]: Downloading https://files.pythonhosted.org/packages/e1/b3/694bb4fe67f0b63ef67836f5924bdc436dfb590d7e7da0824cbbc4b71853/agenta-0.8.4.tar.gz
+[2024-05-27 12:28:31] INFO root fetch - processPackages [agenta]: Downloading https://files.pythonhosted.org/packages/f7/a1/73689fd1faf7fbbd3985f8ed9673e4784bae27b1789d6fe5f7e4f001ed89/agenta-0.9.0.tar.gz
+[2024-05-27 12:28:31] INFO root fetch - processPackages [huscy.project-design]: Downloading https://files.pythonhosted.org/packages/66/e0/05f2bc35b7c5c383422cba91f21db47737ad18c4074e64cd01c74829887c/huscy.project_design-0.3.3a12.tar.gz
+[2024-05-27 12:28:31] INFO root fetch - processPackages [z2m-log-parser]: Downloading https://files.pythonhosted.org/packages/71/97/7033f666d3eb6726fdd071cf1160a1c1a82f0c16dce62d13168b432e6ac1/z2m_log_parser-0.0.9.tar.gz
+[2024-05-27 12:28:31] INFO root fetch - processPackages [imio.restapi]: Downloading https://files.pythonhosted.org/packages/db/03/89c6af93471d4fa14fff230569de44ad461464bd2194dfb75749640b3d56/imio.restapi-1.0rc1.tar.gz
+[2024-05-27 12:28:32] INFO root fetch - processPackages [z2m-log-parser]: executing diffoscope
+[2024-05-27 12:28:32] INFO root fetch - processPackages [z2m-log-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/z2m_log_parser-0.0.8.tar.gz tmp/z2m_log_parser-0.0.9.tar.gz --markdown 20240527/z/z2m-log-parser/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-27 12:28:32] INFO root fetch - processPackages [agenta]: executing diffoscope
+[2024-05-27 12:28:32] INFO root fetch - processPackages [agenta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agenta-0.8.4.tar.gz tmp/agenta-0.9.0.tar.gz --markdown 20240527/a/agenta/0.8.4-0.9.0/README.md --exclude *.pyd
+[2024-05-27 12:28:32] INFO root fetch - processPackages [totolo]: Downloading https://files.pythonhosted.org/packages/51/f4/b6458257d92e20fe93ac2ed20f360f067845082b32a62ddd4665b3ec4ad6/totolo-1.6.0.dev202405271003.tar.gz
+[2024-05-27 12:28:32] INFO root fetch - processPackages [imio.restapi]: Downloading https://files.pythonhosted.org/packages/a2/8c/ca6d65caea52e594278759b3b653f263781693970a799122c64c472085de/imio.restapi-1.0rc2.tar.gz
+[2024-05-27 12:28:32] INFO root fetch - processPackages [totolo]: executing diffoscope
+[2024-05-27 12:28:32] INFO root fetch - processPackages [totolo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/totolo-1.6.0.tar.gz tmp/totolo-1.6.0.dev202405271003.tar.gz --markdown 20240527/t/totolo/1.6.0-1.6.0.dev202405271003/README.md --exclude *.pyd
+[2024-05-27 12:28:32] INFO root fetch - processPackages [huscy.project-design]: Downloading https://files.pythonhosted.org/packages/84/78/d167ae719c5a2e9e541ff8d439564a975daec745f224d6c7acdec9eabe10/huscy.project_design-0.4.0b13.tar.gz
+[2024-05-27 12:28:32] INFO root fetch - processPackages [huscy.project-design]: executing diffoscope
+[2024-05-27 12:28:32] INFO root fetch - processPackages [huscy.project-design]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huscy.project_design-0.3.3a12.tar.gz tmp/huscy.project_design-0.4.0b13.tar.gz --markdown 20240527/h/huscy.project-design/0.3.3a12-0.4.0b13/README.md --exclude *.pyd
+[2024-05-27 12:28:32] INFO root fetch - processPackages [imio.restapi]: executing diffoscope
+[2024-05-27 12:28:32] INFO root fetch - processPackages [imio.restapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imio.restapi-1.0rc1.tar.gz tmp/imio.restapi-1.0rc2.tar.gz --markdown 20240527/i/imio.restapi/1.0rc1-1.0rc2/README.md --exclude *.pyd
+[2024-05-27 12:28:32] INFO root fetch - processPackages [z2m-log-parser]: Remove: archive file [/home/abi/fetcher/tmp/z2m_log_parser-0.0.8.tar.gz]
+[2024-05-27 12:28:32] INFO root fetch - processPackages [z2m-log-parser]: Remove: archive file [/home/abi/fetcher/tmp/z2m_log_parser-0.0.9.tar.gz]
+[2024-05-27 12:28:32] INFO root fetch - main [MainThread]: End processing [z2m-log-parser]: success
+[2024-05-27 12:28:32] INFO root fetch - processPackages [agenta]: Remove: archive file [/home/abi/fetcher/tmp/agenta-0.8.4.tar.gz]
+[2024-05-27 12:28:32] INFO root fetch - processPackages [agenta]: Remove: archive file [/home/abi/fetcher/tmp/agenta-0.9.0.tar.gz]
+[2024-05-27 12:28:32] INFO root fetch - main [MainThread]: End processing [agenta]: success
+[2024-05-27 12:28:33] INFO root fetch - processPackages [huscy.project-design]: Remove: archive file [/home/abi/fetcher/tmp/huscy.project_design-0.3.3a12.tar.gz]
+[2024-05-27 12:28:33] INFO root fetch - processPackages [huscy.project-design]: Remove: archive file [/home/abi/fetcher/tmp/huscy.project_design-0.4.0b13.tar.gz]
+[2024-05-27 12:28:33] INFO root fetch - main [MainThread]: End processing [huscy.project-design]: success
+[2024-05-27 12:28:33] INFO root fetch - processPackages [totolo]: Remove: archive file [/home/abi/fetcher/tmp/totolo-1.6.0.tar.gz]
+[2024-05-27 12:28:33] INFO root fetch - processPackages [totolo]: Remove: archive file [/home/abi/fetcher/tmp/totolo-1.6.0.dev202405271003.tar.gz]
+[2024-05-27 12:28:33] INFO root fetch - main [MainThread]: End processing [totolo]: success
+[2024-05-27 12:28:33] INFO root fetch - processPackages [imio.restapi]: Remove: archive file [/home/abi/fetcher/tmp/imio.restapi-1.0rc1.tar.gz]
+[2024-05-27 12:28:33] INFO root fetch - processPackages [imio.restapi]: Remove: archive file [/home/abi/fetcher/tmp/imio.restapi-1.0rc2.tar.gz]
+[2024-05-27 12:28:33] INFO root fetch - main [MainThread]: End processing [imio.restapi]: success
+[2024-05-27 12:28:33] INFO root fetch - main [MainThread]: Store serial: [23394015]
