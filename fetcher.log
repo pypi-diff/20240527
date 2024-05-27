@@ -2152,3 +2152,42 @@
 [2024-05-27 02:47:55] INFO root fetch - processPackages [codal-tsetmc]: Remove: archive file [/home/abi/fetcher/tmp/codal_tsetmc-0.0.8-py3-none-any.whl.zip]
 [2024-05-27 02:47:55] INFO root fetch - main [MainThread]: End processing [codal-tsetmc]: success
 [2024-05-27 02:47:55] INFO root fetch - main [MainThread]: Store serial: [23389165]
+[2024-05-27 02:49:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23389165]
+[2024-05-27 02:50:03] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-27 02:50:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rocketflightsim
+[2024-05-27 02:50:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-databrew-cicd
+[2024-05-27 02:50:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: poseutil
+[2024-05-27 02:50:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rxd
+[2024-05-27 02:50:03] INFO root fetch - processPackages [poseutil]: New version: [0.5.8] Old Version: [0.5.7]
+[2024-05-27 02:50:03] INFO root fetch - processPackages [rxd]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-27 02:50:03] INFO root fetch - processPackages [cdk-databrew-cicd]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-05-27 02:50:03] INFO root fetch - processPackages [poseutil]: Downloading https://files.pythonhosted.org/packages/59/1c/f0e1d21d47b3534e2ebc3320f76a7053309246054121c848d5b7fe6a1f68/poseutil-0.5.7.tar.gz
+[2024-05-27 02:50:03] INFO root fetch - processPackages [rocketflightsim]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-27 02:50:03] INFO root fetch - processPackages [rxd]: Downloading https://files.pythonhosted.org/packages/86/e1/816957db2adf75d9739d3b4d4427135958986651cca13c97101805a160c4/rxd-0.0.6.tar.gz
+[2024-05-27 02:50:03] INFO root fetch - processPackages [cdk-databrew-cicd]: Downloading https://files.pythonhosted.org/packages/9c/18/acad9d22fe20a13d93a1aee49739981e3ab739a2edcb478344aa0fc5b783/cdk_databrew_cicd-2.0.98.tar.gz
+[2024-05-27 02:50:03] INFO root fetch - processPackages [rocketflightsim]: Downloading https://files.pythonhosted.org/packages/ce/48/a9e78cd22462180bc1363f7164b85bb357e9e05af9d8573b2c0e070a336a/rocketflightsim-0.1.0.tar.gz
+[2024-05-27 02:50:03] INFO root fetch - processPackages [poseutil]: Downloading https://files.pythonhosted.org/packages/ae/e5/7f8dfa26a4f25d3f2e0c9c093701838a4329fc6c7391e99796f59dc96be9/poseutil-0.5.8.tar.gz
+[2024-05-27 02:50:03] INFO root fetch - processPackages [poseutil]: executing diffoscope
+[2024-05-27 02:50:03] INFO root fetch - processPackages [poseutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poseutil-0.5.7.tar.gz tmp/poseutil-0.5.8.tar.gz --markdown 20240527/p/poseutil/0.5.7-0.5.8/README.md --exclude *.pyd
+[2024-05-27 02:50:03] INFO root fetch - processPackages [rxd]: Downloading https://files.pythonhosted.org/packages/9e/9d/0fe1353b7f9ab18e47fd18102ef7fea253a0ee8de24185e7470c7a1064f7/rxd-0.0.7.tar.gz
+[2024-05-27 02:50:03] INFO root fetch - processPackages [cdk-databrew-cicd]: Downloading https://files.pythonhosted.org/packages/66/41/4c5089b171b28b627753bb3de1b4b696fdaeb4f78ef49dcb72a79fcb6e9d/cdk_databrew_cicd-2.0.99.tar.gz
+[2024-05-27 02:50:03] INFO root fetch - processPackages [rxd]: executing diffoscope
+[2024-05-27 02:50:03] INFO root fetch - processPackages [rxd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rxd-0.0.6.tar.gz tmp/rxd-0.0.7.tar.gz --markdown 20240527/r/rxd/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-27 02:50:03] INFO root fetch - processPackages [rocketflightsim]: Downloading https://files.pythonhosted.org/packages/9b/73/d9dceddb6b29a4b7bf1830311d407b8f241838b4dbdd5fe5497e926063d3/rocketflightsim-0.1.1.tar.gz
+[2024-05-27 02:50:04] INFO root fetch - processPackages [cdk-databrew-cicd]: executing diffoscope
+[2024-05-27 02:50:04] INFO root fetch - processPackages [cdk-databrew-cicd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_databrew_cicd-2.0.98.tar.gz tmp/cdk_databrew_cicd-2.0.99.tar.gz --markdown 20240527/c/cdk-databrew-cicd/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-05-27 02:50:04] INFO root fetch - processPackages [rocketflightsim]: executing diffoscope
+[2024-05-27 02:50:04] INFO root fetch - processPackages [rocketflightsim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rocketflightsim-0.1.0.tar.gz tmp/rocketflightsim-0.1.1.tar.gz --markdown 20240527/r/rocketflightsim/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-27 02:50:04] INFO root fetch - processPackages [rxd]: Remove: archive file [/home/abi/fetcher/tmp/rxd-0.0.6.tar.gz]
+[2024-05-27 02:50:04] INFO root fetch - processPackages [rxd]: Remove: archive file [/home/abi/fetcher/tmp/rxd-0.0.7.tar.gz]
+[2024-05-27 02:50:04] INFO root fetch - main [MainThread]: End processing [rxd]: success
+[2024-05-27 02:50:04] INFO root fetch - processPackages [poseutil]: Remove: archive file [/home/abi/fetcher/tmp/poseutil-0.5.7.tar.gz]
+[2024-05-27 02:50:04] INFO root fetch - processPackages [poseutil]: Remove: archive file [/home/abi/fetcher/tmp/poseutil-0.5.8.tar.gz]
+[2024-05-27 02:50:04] INFO root fetch - main [MainThread]: End processing [poseutil]: success
+[2024-05-27 02:50:04] INFO root fetch - processPackages [cdk-databrew-cicd]: Remove: archive file [/home/abi/fetcher/tmp/cdk_databrew_cicd-2.0.98.tar.gz]
+[2024-05-27 02:50:04] INFO root fetch - processPackages [cdk-databrew-cicd]: Remove: archive file [/home/abi/fetcher/tmp/cdk_databrew_cicd-2.0.99.tar.gz]
+[2024-05-27 02:50:04] INFO root fetch - main [MainThread]: End processing [cdk-databrew-cicd]: success
+[2024-05-27 02:50:04] INFO root fetch - processPackages [rocketflightsim]: Remove: archive file [/home/abi/fetcher/tmp/rocketflightsim-0.1.0.tar.gz]
+[2024-05-27 02:50:04] INFO root fetch - processPackages [rocketflightsim]: Remove: archive file [/home/abi/fetcher/tmp/rocketflightsim-0.1.1.tar.gz]
+[2024-05-27 02:50:04] INFO root fetch - main [MainThread]: End processing [rocketflightsim]: success
+[2024-05-27 02:50:04] INFO root fetch - main [MainThread]: Store serial: [23389176]
