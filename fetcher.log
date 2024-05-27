@@ -5470,3 +5470,33 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 06:38:53] INFO root fetch - processPackages [lasagna-ai]: Remove: archive file [/home/abi/fetcher/tmp/lasagna_ai-0.1.0.tar.gz]
 [2024-05-27 06:38:53] INFO root fetch - main [MainThread]: End processing [lasagna-ai]: success
 [2024-05-27 06:38:53] INFO root fetch - main [MainThread]: Store serial: [23390584]
+[2024-05-27 06:40:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23390584]
+[2024-05-27 06:41:03] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-27 06:41:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: memory-game
+[2024-05-27 06:41:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: allianceauth
+[2024-05-27 06:41:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: functionize-notebook
+[2024-05-27 06:41:03] INFO root fetch - processPackages [functionize-notebook]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-27 06:41:03] INFO root fetch - processPackages [memory-game]: New version: [0.3] Old Version: [0.2]
+[2024-05-27 06:41:03] INFO root fetch - processPackages [allianceauth]: New version: [4.1.0] Old Version: [4.0.2]
+[2024-05-27 06:41:03] INFO root fetch - processPackages [memory-game]: Downloading https://files.pythonhosted.org/packages/34/67/ab6f14c002a4e9047f7404a36018344ce3161305d26f1b43622f3f2dbebe/memory_game-0.2.tar.gz
+[2024-05-27 06:41:03] INFO root fetch - processPackages [functionize-notebook]: Downloading https://files.pythonhosted.org/packages/18/35/ebaf6ccf2ac04a4e4444fca2cfb9c4108ab4f2068fbccd784540a01137ad/functionize_notebook-0.0.6.tar.gz
+[2024-05-27 06:41:03] INFO root fetch - processPackages [allianceauth]: Downloading https://files.pythonhosted.org/packages/9b/c7/97f829438490f6d96f27c200144b0cfb0ce13d48cd2d0eb3a4bec9ab125d/allianceauth-4.0.2.tar.gz
+[2024-05-27 06:41:03] INFO root fetch - processPackages [memory-game]: Downloading https://files.pythonhosted.org/packages/c3/9e/021b34dd3a98f0daa14160c6f0ca2e392b5461fc785546112f07da683866/memory_game-0.3.tar.gz
+[2024-05-27 06:41:04] INFO root fetch - processPackages [functionize-notebook]: Downloading https://files.pythonhosted.org/packages/d1/5b/8e3aa75b19636160a017040d2e5974bc13f26633ebd5d3fb85b88befbe19/functionize_notebook-0.0.7.tar.gz
+[2024-05-27 06:41:04] INFO root fetch - processPackages [memory-game]: executing diffoscope
+[2024-05-27 06:41:04] INFO root fetch - processPackages [memory-game]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/memory_game-0.2.tar.gz tmp/memory_game-0.3.tar.gz --markdown 20240527/m/memory-game/0.2-0.3/README.md --exclude *.pyd
+[2024-05-27 06:41:04] INFO root fetch - processPackages [allianceauth]: Downloading https://files.pythonhosted.org/packages/5b/4b/2013ce8ac6b47897c099809498f4bbcf29f5e996856eeeb9ae8a3ce2861a/allianceauth-4.1.0.tar.gz
+[2024-05-27 06:41:04] INFO root fetch - processPackages [functionize-notebook]: executing diffoscope
+[2024-05-27 06:41:04] INFO root fetch - processPackages [functionize-notebook]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/functionize_notebook-0.0.6.tar.gz tmp/functionize_notebook-0.0.7.tar.gz --markdown 20240527/f/functionize-notebook/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-27 06:41:04] INFO root fetch - processPackages [memory-game]: Remove: archive file [/home/abi/fetcher/tmp/memory_game-0.2.tar.gz]
+[2024-05-27 06:41:04] INFO root fetch - processPackages [memory-game]: Remove: archive file [/home/abi/fetcher/tmp/memory_game-0.3.tar.gz]
+[2024-05-27 06:41:04] INFO root fetch - main [MainThread]: End processing [memory-game]: success
+[2024-05-27 06:41:04] INFO root fetch - processPackages [allianceauth]: executing diffoscope
+[2024-05-27 06:41:04] INFO root fetch - processPackages [allianceauth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/allianceauth-4.0.2.tar.gz tmp/allianceauth-4.1.0.tar.gz --markdown 20240527/a/allianceauth/4.0.2-4.1.0/README.md --exclude *.pyd
+[2024-05-27 06:41:04] INFO root fetch - processPackages [functionize-notebook]: Remove: archive file [/home/abi/fetcher/tmp/functionize_notebook-0.0.6.tar.gz]
+[2024-05-27 06:41:04] INFO root fetch - processPackages [functionize-notebook]: Remove: archive file [/home/abi/fetcher/tmp/functionize_notebook-0.0.7.tar.gz]
+[2024-05-27 06:41:04] INFO root fetch - main [MainThread]: End processing [functionize-notebook]: success
+[2024-05-27 06:41:07] INFO root fetch - processPackages [allianceauth]: Remove: archive file [/home/abi/fetcher/tmp/allianceauth-4.0.2.tar.gz]
+[2024-05-27 06:41:07] INFO root fetch - processPackages [allianceauth]: Remove: archive file [/home/abi/fetcher/tmp/allianceauth-4.1.0.tar.gz]
+[2024-05-27 06:41:07] INFO root fetch - main [MainThread]: End processing [allianceauth]: success
+[2024-05-27 06:41:07] INFO root fetch - main [MainThread]: Store serial: [23390597]
