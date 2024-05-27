@@ -10356,3 +10356,49 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 11:11:38] INFO root fetch - processPackages [promptic]: Remove: archive file [/home/abi/fetcher/tmp/promptic-0.1.1.tar.gz]
 [2024-05-27 11:11:38] INFO root fetch - main [MainThread]: End processing [promptic]: success
 [2024-05-27 11:11:38] INFO root fetch - main [MainThread]: Store serial: [23393028]
+[2024-05-27 11:13:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23393028]
+[2024-05-27 11:13:46] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-27 11:13:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyexmars
+[2024-05-27 11:13:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cogflow
+[2024-05-27 11:13:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dao-analyzer
+[2024-05-27 11:13:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: athina
+[2024-05-27 11:13:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dao-analyzer
+[2024-05-27 11:13:47] INFO root fetch - processPackages [pyexmars]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-27 11:13:47] INFO root fetch - processPackages [dao-analyzer]: New version: [1.3.2.dev4] Old Version: [1.3.2.dev2]
+[2024-05-27 11:13:47] INFO root fetch - processPackages [dao-analyzer]: New version: [1.3.2.dev4] Old Version: [1.3.2.dev2]
+[2024-05-27 11:13:47] INFO root fetch - processPackages [pyexmars]: Downloading https://files.pythonhosted.org/packages/a9/1b/491a46ad0e7380dce838778fdd33425d71128a4907a64a2c9e25d41b62e6/pyexmars-1.0.2.tar.gz
+[2024-05-27 11:13:47] INFO root fetch - processPackages [dao-analyzer]: Downloading https://files.pythonhosted.org/packages/f2/02/2d231e6aecfb006c7ff4999facffbc7f3bff6886f02f434fc7f63f50f14e/dao_analyzer-1.3.2.dev2.tar.gz
+[2024-05-27 11:13:47] INFO root fetch - processPackages [athina]: New version: [1.3.2] Old Version: [1.3.1]
+[2024-05-27 11:13:47] INFO root fetch - processPackages [cogflow]: New version: [1.9.9] Old Version: [1.9.8]
+[2024-05-27 11:13:47] INFO root fetch - processPackages [dao-analyzer]: Downloading https://files.pythonhosted.org/packages/f2/02/2d231e6aecfb006c7ff4999facffbc7f3bff6886f02f434fc7f63f50f14e/dao_analyzer-1.3.2.dev2.tar.gz
+[2024-05-27 11:13:47] INFO root fetch - processPackages [cogflow]: Downloading https://files.pythonhosted.org/packages/3a/44/2dd887dfefc5e198a68539c2565726dced636a615597d201136d1a92a466/cogflow-1.9.8.tar.gz
+[2024-05-27 11:13:47] INFO root fetch - processPackages [athina]: Downloading https://files.pythonhosted.org/packages/4a/91/6bab04fcea5f2536e34daeadb7d64847fcd1c6a01d174230dda724a9226f/athina-1.3.1.tar.gz
+[2024-05-27 11:13:47] INFO root fetch - processPackages [pyexmars]: Downloading https://files.pythonhosted.org/packages/f9/02/2e3ff8c199a8cf582f34fd309e354ce04b49ab5b8d08f1e27623929b29c6/pyexmars-1.0.3.tar.gz
+[2024-05-27 11:13:47] INFO root fetch - processPackages [pyexmars]: executing diffoscope
+[2024-05-27 11:13:47] INFO root fetch - processPackages [pyexmars]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyexmars-1.0.2.tar.gz tmp/pyexmars-1.0.3.tar.gz --markdown 20240527/p/pyexmars/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-05-27 11:13:47] INFO root fetch - processPackages [cogflow]: Downloading https://files.pythonhosted.org/packages/0e/16/8f5f931a1aa5b5143fe0b0ad8fd8950276383f3e063a3d599473897f4af3/cogflow-1.9.9.tar.gz
+[2024-05-27 11:13:47] INFO root fetch - processPackages [athina]: Downloading https://files.pythonhosted.org/packages/6c/eb/502076f1f63e33e44de884cba5de395c48790aaaa2e87ca6261f69f32a8a/athina-1.3.2.tar.gz
+[2024-05-27 11:13:47] INFO root fetch - processPackages [dao-analyzer]: Downloading https://files.pythonhosted.org/packages/09/51/8a20c3812afc9be820b44b141f1a933f817a6d68128352233fdd9e3fee83/dao_analyzer-1.3.2.dev4.tar.gz
+[2024-05-27 11:13:47] INFO root fetch - processPackages [dao-analyzer]: Downloading https://files.pythonhosted.org/packages/09/51/8a20c3812afc9be820b44b141f1a933f817a6d68128352233fdd9e3fee83/dao_analyzer-1.3.2.dev4.tar.gz
+[2024-05-27 11:13:47] INFO root fetch - processPackages [cogflow]: executing diffoscope
+[2024-05-27 11:13:47] INFO root fetch - processPackages [cogflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cogflow-1.9.8.tar.gz tmp/cogflow-1.9.9.tar.gz --markdown 20240527/c/cogflow/1.9.8-1.9.9/README.md --exclude *.pyd
+[2024-05-27 11:13:47] INFO root fetch - processPackages [dao-analyzer]: executing diffoscope
+[2024-05-27 11:13:47] INFO root fetch - processPackages [dao-analyzer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dao_analyzer-1.3.2.dev2.tar.gz tmp/dao_analyzer-1.3.2.dev4.tar.gz --markdown 20240527/d/dao-analyzer/1.3.2.dev2-1.3.2.dev4/README.md --exclude *.pyd
+[2024-05-27 11:13:47] INFO root fetch - processPackages [athina]: executing diffoscope
+[2024-05-27 11:13:47] INFO root fetch - processPackages [athina]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/athina-1.3.1.tar.gz tmp/athina-1.3.2.tar.gz --markdown 20240527/a/athina/1.3.1-1.3.2/README.md --exclude *.pyd
+[2024-05-27 11:13:48] INFO root fetch - processPackages [dao-analyzer]: executing diffoscope
+[2024-05-27 11:13:48] INFO root fetch - processPackages [dao-analyzer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dao_analyzer-1.3.2.dev2.tar.gz tmp/dao_analyzer-1.3.2.dev4.tar.gz --markdown 20240527/d/dao-analyzer/1.3.2.dev2-1.3.2.dev4/README.md --exclude *.pyd
+[2024-05-27 11:13:48] INFO root fetch - processPackages [pyexmars]: Remove: archive file [/home/abi/fetcher/tmp/pyexmars-1.0.2.tar.gz]
+[2024-05-27 11:13:48] INFO root fetch - processPackages [pyexmars]: Remove: archive file [/home/abi/fetcher/tmp/pyexmars-1.0.3.tar.gz]
+[2024-05-27 11:13:48] INFO root fetch - main [MainThread]: End processing [pyexmars]: success
+[2024-05-27 11:13:48] INFO root fetch - processPackages [cogflow]: Remove: archive file [/home/abi/fetcher/tmp/cogflow-1.9.8.tar.gz]
+[2024-05-27 11:13:48] INFO root fetch - processPackages [cogflow]: Remove: archive file [/home/abi/fetcher/tmp/cogflow-1.9.9.tar.gz]
+[2024-05-27 11:13:48] INFO root fetch - main [MainThread]: End processing [cogflow]: success
+[2024-05-27 11:13:48] INFO root fetch - processPackages [athina]: Remove: archive file [/home/abi/fetcher/tmp/athina-1.3.1.tar.gz]
+[2024-05-27 11:13:48] INFO root fetch - processPackages [athina]: Remove: archive file [/home/abi/fetcher/tmp/athina-1.3.2.tar.gz]
+[2024-05-27 11:13:48] INFO root fetch - main [MainThread]: End processing [athina]: success
+[2024-05-27 11:13:49] INFO root fetch - processPackages [dao-analyzer]: Remove: archive file [/home/abi/fetcher/tmp/dao_analyzer-1.3.2.dev2.tar.gz]
+[2024-05-27 11:13:49] INFO root fetch - processPackages [dao-analyzer]: Remove: archive file [/home/abi/fetcher/tmp/dao_analyzer-1.3.2.dev4.tar.gz]
+[2024-05-27 11:13:49] INFO root fetch - main [MainThread]: End processing [dao-analyzer]: success
+[2024-05-27 11:13:49] INFO root fetch - main [MainThread]: End processing [dao-analyzer]: success
+[2024-05-27 11:13:49] INFO root fetch - main [MainThread]: Store serial: [23393046]
