@@ -7157,3 +7157,33 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 08:33:27] INFO root fetch - processPackages [common-test-ceair]: Remove: archive file [/home/abi/fetcher/tmp/common_test_ceair-0.0.2.tar.gz]
 [2024-05-27 08:33:27] INFO root fetch - main [MainThread]: End processing [common-test-ceair]: success
 [2024-05-27 08:33:27] INFO root fetch - main [MainThread]: Store serial: [23391365]
+[2024-05-27 08:35:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23391365]
+[2024-05-27 08:35:36] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-27 08:35:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tipyverse
+[2024-05-27 08:35:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: chemtsv2
+[2024-05-27 08:35:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: z2m-log-parser
+[2024-05-27 08:35:36] INFO root fetch - processPackages [z2m-log-parser]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-27 08:35:36] INFO root fetch - processPackages [z2m-log-parser]: Downloading https://files.pythonhosted.org/packages/3c/bf/045aab314e9a6c6ba6648f7196be4382d805417677bd4ab8597079a40eec/z2m_log_parser-0.0.8.tar.gz
+[2024-05-27 08:35:36] INFO root fetch - processPackages [tipyverse]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-27 08:35:36] INFO root fetch - processPackages [chemtsv2]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-27 08:35:36] INFO root fetch - processPackages [tipyverse]: Downloading https://files.pythonhosted.org/packages/f6/a4/8b4438881e27c5ea961e83ab02d453e64103f1abca9949fc89560780c5fd/tipyverse-0.0.1.tar.gz
+[2024-05-27 08:35:36] INFO root fetch - processPackages [z2m-log-parser]: Downloading https://files.pythonhosted.org/packages/71/97/7033f666d3eb6726fdd071cf1160a1c1a82f0c16dce62d13168b432e6ac1/z2m_log_parser-0.0.9.tar.gz
+[2024-05-27 08:35:36] INFO root fetch - processPackages [chemtsv2]: Downloading https://files.pythonhosted.org/packages/e7/a4/06ec8a037ea2edc1b24efd860f4ecfc458899784ffa4cbbe67e58ae857fd/chemtsv2-1.0.2.tar.gz
+[2024-05-27 08:35:36] INFO root fetch - processPackages [z2m-log-parser]: executing diffoscope
+[2024-05-27 08:35:36] INFO root fetch - processPackages [z2m-log-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/z2m_log_parser-0.0.8.tar.gz tmp/z2m_log_parser-0.0.9.tar.gz --markdown 20240527/z/z2m-log-parser/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-27 08:35:36] INFO root fetch - processPackages [tipyverse]: Downloading https://files.pythonhosted.org/packages/c4/33/8fc51195f9bb597b9d56a1f6f976ad5064c6bfd460aae9f6494f10ebb659/tipyverse-0.0.2.tar.gz
+[2024-05-27 08:35:36] INFO root fetch - processPackages [chemtsv2]: Downloading https://files.pythonhosted.org/packages/13/5c/6990a41f83d9b232e7d74086a3d4124defc1fe2ae414c6af86480859585a/chemtsv2-1.0.3.tar.gz
+[2024-05-27 08:35:37] INFO root fetch - processPackages [tipyverse]: executing diffoscope
+[2024-05-27 08:35:37] INFO root fetch - processPackages [tipyverse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tipyverse-0.0.1.tar.gz tmp/tipyverse-0.0.2.tar.gz --markdown 20240527/t/tipyverse/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-27 08:35:37] INFO root fetch - processPackages [chemtsv2]: executing diffoscope
+[2024-05-27 08:35:37] INFO root fetch - processPackages [chemtsv2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chemtsv2-1.0.2.tar.gz tmp/chemtsv2-1.0.3.tar.gz --markdown 20240527/c/chemtsv2/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-05-27 08:35:37] INFO root fetch - processPackages [z2m-log-parser]: Remove: archive file [/home/abi/fetcher/tmp/z2m_log_parser-0.0.8.tar.gz]
+[2024-05-27 08:35:37] INFO root fetch - processPackages [z2m-log-parser]: Remove: archive file [/home/abi/fetcher/tmp/z2m_log_parser-0.0.9.tar.gz]
+[2024-05-27 08:35:37] INFO root fetch - main [MainThread]: End processing [z2m-log-parser]: success
+[2024-05-27 08:35:37] INFO root fetch - processPackages [tipyverse]: Remove: archive file [/home/abi/fetcher/tmp/tipyverse-0.0.1.tar.gz]
+[2024-05-27 08:35:37] INFO root fetch - processPackages [tipyverse]: Remove: archive file [/home/abi/fetcher/tmp/tipyverse-0.0.2.tar.gz]
+[2024-05-27 08:35:37] INFO root fetch - main [MainThread]: End processing [tipyverse]: success
+[2024-05-27 08:35:37] INFO root fetch - processPackages [chemtsv2]: Remove: archive file [/home/abi/fetcher/tmp/chemtsv2-1.0.2.tar.gz]
+[2024-05-27 08:35:37] INFO root fetch - processPackages [chemtsv2]: Remove: archive file [/home/abi/fetcher/tmp/chemtsv2-1.0.3.tar.gz]
+[2024-05-27 08:35:37] INFO root fetch - main [MainThread]: End processing [chemtsv2]: success
+[2024-05-27 08:35:37] INFO root fetch - main [MainThread]: Store serial: [23391375]
