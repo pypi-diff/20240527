@@ -2571,3 +2571,24 @@
 [2024-05-27 03:16:28] INFO root fetch - processPackages [lambkid]: Remove: archive file [/home/abi/fetcher/tmp/lambkid-0.2.9.tar.gz]
 [2024-05-27 03:16:28] INFO root fetch - main [MainThread]: End processing [lambkid]: success
 [2024-05-27 03:16:28] INFO root fetch - main [MainThread]: Store serial: [23389343]
+[2024-05-27 03:18:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23389343]
+[2024-05-27 03:18:36] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-27 03:18:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: faultier
+[2024-05-27 03:18:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: makepyz
+[2024-05-27 03:18:36] INFO root fetch - processPackages [makepyz]: New version: [0.0.1b28] Old Version: [0.0.1b25]
+[2024-05-27 03:18:36] INFO root fetch - processPackages [faultier]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-27 03:18:36] INFO root fetch - processPackages [makepyz]: Downloading https://files.pythonhosted.org/packages/27/6b/d5a6d0c0311172c1ae7ce38567c99e24b0bbfbb1719187713368acd1361e/makepyz-0.0.1b25.tar.gz
+[2024-05-27 03:18:36] INFO root fetch - processPackages [faultier]: Downloading https://files.pythonhosted.org/packages/27/ad/58a239a68f23f88fb228355bb00b3d807df6ab0e80a0ba8f57a5a3c5424e/faultier-0.1.8.tar.gz
+[2024-05-27 03:18:37] INFO root fetch - processPackages [faultier]: Downloading https://files.pythonhosted.org/packages/6f/d3/e7967405ff44c881f405408832e76d29031f99bac5de234dfcdaf0ea3a96/faultier-0.1.9.tar.gz
+[2024-05-27 03:18:37] INFO root fetch - processPackages [makepyz]: Downloading https://files.pythonhosted.org/packages/c2/6d/d3e4978b6d346f153e12427a107e5bdbd82a6a2786f992ebbfe464edb818/makepyz-0.0.1b28.tar.gz
+[2024-05-27 03:18:37] INFO root fetch - processPackages [faultier]: executing diffoscope
+[2024-05-27 03:18:37] INFO root fetch - processPackages [faultier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/faultier-0.1.8.tar.gz tmp/faultier-0.1.9.tar.gz --markdown 20240527/f/faultier/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-27 03:18:37] INFO root fetch - processPackages [makepyz]: executing diffoscope
+[2024-05-27 03:18:37] INFO root fetch - processPackages [makepyz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/makepyz-0.0.1b25.tar.gz tmp/makepyz-0.0.1b28.tar.gz --markdown 20240527/m/makepyz/0.0.1b25-0.0.1b28/README.md --exclude *.pyd
+[2024-05-27 03:18:37] INFO root fetch - processPackages [faultier]: Remove: archive file [/home/abi/fetcher/tmp/faultier-0.1.8.tar.gz]
+[2024-05-27 03:18:37] INFO root fetch - processPackages [faultier]: Remove: archive file [/home/abi/fetcher/tmp/faultier-0.1.9.tar.gz]
+[2024-05-27 03:18:37] INFO root fetch - main [MainThread]: End processing [faultier]: success
+[2024-05-27 03:18:37] INFO root fetch - processPackages [makepyz]: Remove: archive file [/home/abi/fetcher/tmp/makepyz-0.0.1b25.tar.gz]
+[2024-05-27 03:18:37] INFO root fetch - processPackages [makepyz]: Remove: archive file [/home/abi/fetcher/tmp/makepyz-0.0.1b28.tar.gz]
+[2024-05-27 03:18:37] INFO root fetch - main [MainThread]: End processing [makepyz]: success
+[2024-05-27 03:18:37] INFO root fetch - main [MainThread]: Store serial: [23389350]
