@@ -10047,3 +10047,42 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 10:58:41] INFO root fetch - processPackages [wd-fw-update]: Remove: archive file [/home/abi/fetcher/tmp/wd_fw_update-1.2.2.tar.gz]
 [2024-05-27 10:58:41] INFO root fetch - main [MainThread]: End processing [wd-fw-update]: success
 [2024-05-27 10:58:41] INFO root fetch - main [MainThread]: Store serial: [23392879]
+[2024-05-27 11:00:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23392879]
+[2024-05-27 11:00:49] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-27 11:00:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cg
+[2024-05-27 11:00:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: disai
+[2024-05-27 11:00:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jaxns
+[2024-05-27 11:00:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyexmars
+[2024-05-27 11:00:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyvearch
+[2024-05-27 11:00:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: uihelper
+[2024-05-27 11:00:49] INFO root fetch - processPackages [pyexmars]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-27 11:00:50] INFO root fetch - processPackages [cg]: New version: [60.8.9] Old Version: [60.8.8]
+[2024-05-27 11:00:50] WARNING root fetch - processPackages [pyvearch]: Skipping, unable to determine old version
+[2024-05-27 11:00:50] INFO root fetch - main [MainThread]: End processing [pyvearch] error
+[2024-05-27 11:00:50] INFO root fetch - processPackages [pyexmars]: Downloading https://files.pythonhosted.org/packages/87/c6/b2cc44ca605d54466e44141985b95f034c8866c5dab1e9b665f45f8bc4f0/pyexmars-1.0.1.tar.gz
+[2024-05-27 11:00:50] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/d6/8e/017bcd413c9044bb3a8ec3e9a9e28ff36b6d814eef56056a4702d375ac95/cg-60.8.8.tar.gz
+[2024-05-27 11:00:50] WARNING root fetch - processPackages [uihelper]: Skipping, unable to determine old version
+[2024-05-27 11:00:50] INFO root fetch - main [MainThread]: End processing [uihelper] error
+[2024-05-27 11:00:50] INFO root fetch - processPackages [jaxns]: New version: [2.5.1] Old Version: [2.5.0]
+[2024-05-27 11:00:50] ERROR root fetch - processPackages [disai]: Unable to get metadata: No such project 'disai'
+[2024-05-27 11:00:50] INFO root fetch - main [MainThread]: End processing [disai] error
+[2024-05-27 11:00:50] INFO root fetch - processPackages [jaxns]: Downloading https://files.pythonhosted.org/packages/e8/6b/142a3f1af8a190e2079dab42a8335104ffaa1e964246bb2fdf14af1eecab/jaxns-2.5.0.tar.gz
+[2024-05-27 11:00:50] INFO root fetch - processPackages [pyexmars]: Downloading https://files.pythonhosted.org/packages/a9/1b/491a46ad0e7380dce838778fdd33425d71128a4907a64a2c9e25d41b62e6/pyexmars-1.0.2.tar.gz
+[2024-05-27 11:00:50] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/df/aa/bcf36edef12ba2ac2c9179507531723a7d2784d50a1cb868497d0120f301/cg-60.8.9.tar.gz
+[2024-05-27 11:00:50] INFO root fetch - processPackages [pyexmars]: executing diffoscope
+[2024-05-27 11:00:50] INFO root fetch - processPackages [pyexmars]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyexmars-1.0.1.tar.gz tmp/pyexmars-1.0.2.tar.gz --markdown 20240527/p/pyexmars/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-27 11:00:50] INFO root fetch - processPackages [jaxns]: Downloading https://files.pythonhosted.org/packages/a1/ad/2d94fb7190f38cd4692a38a83450efe24e03e041e95919057572ea8947cb/jaxns-2.5.1.tar.gz
+[2024-05-27 11:00:50] INFO root fetch - processPackages [cg]: executing diffoscope
+[2024-05-27 11:00:50] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-60.8.8.tar.gz tmp/cg-60.8.9.tar.gz --markdown 20240527/c/cg/60.8.8-60.8.9/README.md --exclude *.pyd
+[2024-05-27 11:00:50] INFO root fetch - processPackages [jaxns]: executing diffoscope
+[2024-05-27 11:00:50] INFO root fetch - processPackages [jaxns]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxns-2.5.0.tar.gz tmp/jaxns-2.5.1.tar.gz --markdown 20240527/j/jaxns/2.5.0-2.5.1/README.md --exclude *.pyd
+[2024-05-27 11:00:50] INFO root fetch - processPackages [pyexmars]: Remove: archive file [/home/abi/fetcher/tmp/pyexmars-1.0.1.tar.gz]
+[2024-05-27 11:00:50] INFO root fetch - processPackages [pyexmars]: Remove: archive file [/home/abi/fetcher/tmp/pyexmars-1.0.2.tar.gz]
+[2024-05-27 11:00:50] INFO root fetch - main [MainThread]: End processing [pyexmars]: success
+[2024-05-27 11:00:51] INFO root fetch - processPackages [jaxns]: Remove: archive file [/home/abi/fetcher/tmp/jaxns-2.5.0.tar.gz]
+[2024-05-27 11:00:51] INFO root fetch - processPackages [jaxns]: Remove: archive file [/home/abi/fetcher/tmp/jaxns-2.5.1.tar.gz]
+[2024-05-27 11:00:51] INFO root fetch - main [MainThread]: End processing [jaxns]: success
+[2024-05-27 11:00:54] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.8.8.tar.gz]
+[2024-05-27 11:00:54] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.8.9.tar.gz]
+[2024-05-27 11:00:54] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2024-05-27 11:00:54] INFO root fetch - main [MainThread]: Store serial: [23392903]
