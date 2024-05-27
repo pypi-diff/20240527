@@ -15997,3 +15997,60 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 14:53:24] INFO root fetch - processPackages [paddle2onnx]: Remove: archive file [/home/abi/fetcher/tmp/paddle2onnx-1.2.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2024-05-27 14:53:24] INFO root fetch - main [MainThread]: End processing [paddle2onnx]: success
 [2024-05-27 14:53:24] INFO root fetch - main [MainThread]: Store serial: [23395777]
+[2024-05-27 14:55:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23395777]
+[2024-05-27 14:55:40] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-27 14:55:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: apeboiy
+[2024-05-27 14:55:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pricecypher-sdk
+[2024-05-27 14:55:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: easy-kubeflow
+[2024-05-27 14:55:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: py-rattler
+[2024-05-27 14:55:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyALF
+[2024-05-27 14:55:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mybox
+[2024-05-27 14:55:40] INFO root fetch - processPackages [easy-kubeflow]: New version: [0.1.6] Old Version: [0.1.3]
+[2024-05-27 14:55:40] INFO root fetch - processPackages [pricecypher-sdk]: New version: [2.1.1.dev9] Old Version: [2.1.1.dev8]
+[2024-05-27 14:55:40] INFO root fetch - processPackages [apeboiy]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-27 14:55:40] INFO root fetch - processPackages [py-rattler]: New version: [0.6.0] Old Version: [0.5.0]
+[2024-05-27 14:55:40] INFO root fetch - processPackages [easy-kubeflow]: Downloading https://files.pythonhosted.org/packages/18/04/af2614e5ef16ea5a349199a5951e1925506c544a337075c9573971b152f5/easy-kubeflow-0.1.3.tar.gz
+[2024-05-27 14:55:40] INFO root fetch - processPackages [pyALF]: New version: [2.5.post6] Old Version: [2.5.post5]
+[2024-05-27 14:55:40] INFO root fetch - processPackages [mybox]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-05-27 14:55:40] INFO root fetch - processPackages [pricecypher-sdk]: Downloading https://files.pythonhosted.org/packages/38/49/b89d96ed3ff310fb5c9d6c14c89281602d3c2a6128611d6a53449c0d22b8/pricecypher_sdk-2.1.1.dev8.tar.gz
+[2024-05-27 14:55:40] INFO root fetch - processPackages [apeboiy]: Downloading https://files.pythonhosted.org/packages/2c/d1/13ae5c5ceb0c97a91d946e1dd5fc329b3f384b59630ad259ab7ebe72713d/apeboiy-0.0.8.tar.gz
+[2024-05-27 14:55:40] INFO root fetch - processPackages [py-rattler]: Downloading https://files.pythonhosted.org/packages/d3/3f/6357ebfc92a2cce2a7c358ce3101e17a014df42e2de49df02921d45513fa/py_rattler-0.5.0.tar.gz
+[2024-05-27 14:55:40] INFO root fetch - processPackages [pyALF]: Downloading https://files.pythonhosted.org/packages/a8/92/5ec2974a6091d40db47559ae1840f1f80579af5d0935a7d211d5ce62f60b/pyalf-2.5.post5.tar.gz
+[2024-05-27 14:55:41] INFO root fetch - processPackages [mybox]: Downloading https://files.pythonhosted.org/packages/13/f6/202f25da3129171e5c2cc6ccf7e2437ee5d65fafeeb9af158596ac60f7a8/mybox-2.0.8.tar.gz
+[2024-05-27 14:55:41] INFO root fetch - processPackages [apeboiy]: Downloading https://files.pythonhosted.org/packages/04/42/a8230541f443842d5b00d865f7079650b8c865bda89a3de4ebc4010d0579/apeboiy-0.0.9.tar.gz
+[2024-05-27 14:55:41] INFO root fetch - processPackages [easy-kubeflow]: Downloading https://files.pythonhosted.org/packages/aa/6b/2849e6fd2c463ae0940213aa7401011a04c529226e113f8490d87795cfa6/easy-kubeflow-0.1.6.tar.gz
+[2024-05-27 14:55:41] INFO root fetch - processPackages [pricecypher-sdk]: Downloading https://files.pythonhosted.org/packages/a9/09/845a1d8801385f82e900c7737902408e9994871830eb24e0bcee3e73a22a/pricecypher_sdk-2.1.1.dev9.tar.gz
+[2024-05-27 14:55:41] INFO root fetch - processPackages [apeboiy]: executing diffoscope
+[2024-05-27 14:55:41] INFO root fetch - processPackages [apeboiy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apeboiy-0.0.8.tar.gz tmp/apeboiy-0.0.9.tar.gz --markdown 20240527/a/apeboiy/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-27 14:55:41] INFO root fetch - processPackages [easy-kubeflow]: executing diffoscope
+[2024-05-27 14:55:41] INFO root fetch - processPackages [easy-kubeflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easy-kubeflow-0.1.3.tar.gz tmp/easy-kubeflow-0.1.6.tar.gz --markdown 20240527/e/easy-kubeflow/0.1.3-0.1.6/README.md --exclude *.pyd
+[2024-05-27 14:55:41] INFO root fetch - processPackages [pricecypher-sdk]: executing diffoscope
+[2024-05-27 14:55:41] INFO root fetch - processPackages [pricecypher-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pricecypher_sdk-2.1.1.dev8.tar.gz tmp/pricecypher_sdk-2.1.1.dev9.tar.gz --markdown 20240527/p/pricecypher-sdk/2.1.1.dev8-2.1.1.dev9/README.md --exclude *.pyd
+[2024-05-27 14:55:41] INFO root fetch - processPackages [pyALF]: Downloading https://files.pythonhosted.org/packages/1f/c0/757be6b4f74d5a36caf13fb9d0a3a3c9378083d84d4cf2e07d234bdc22f2/pyalf-2.5.post6.tar.gz
+[2024-05-27 14:55:41] INFO root fetch - processPackages [mybox]: Downloading https://files.pythonhosted.org/packages/e7/74/17fd92b174ff8b20616c55e75350c20cfbb4a1b6a048c7c9f4abe75698ae/mybox-2.0.9.tar.gz
+[2024-05-27 14:55:41] INFO root fetch - processPackages [py-rattler]: Downloading https://files.pythonhosted.org/packages/3e/c2/3e2f012bc90fe9eb3849ae50b814137266013a0fa8dd0ce4b6dbe88f1305/py_rattler-0.6.0.tar.gz
+[2024-05-27 14:55:41] INFO root fetch - processPackages [mybox]: executing diffoscope
+[2024-05-27 14:55:41] INFO root fetch - processPackages [mybox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mybox-2.0.8.tar.gz tmp/mybox-2.0.9.tar.gz --markdown 20240527/m/mybox/2.0.8-2.0.9/README.md --exclude *.pyd
+[2024-05-27 14:55:41] INFO root fetch - processPackages [py-rattler]: executing diffoscope
+[2024-05-27 14:55:41] INFO root fetch - processPackages [py-rattler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_rattler-0.5.0.tar.gz tmp/py_rattler-0.6.0.tar.gz --markdown 20240527/p/py-rattler/0.5.0-0.6.0/README.md --exclude *.pyd
+[2024-05-27 14:55:41] INFO root fetch - processPackages [easy-kubeflow]: Remove: archive file [/home/abi/fetcher/tmp/easy-kubeflow-0.1.3.tar.gz]
+[2024-05-27 14:55:41] INFO root fetch - processPackages [easy-kubeflow]: Remove: archive file [/home/abi/fetcher/tmp/easy-kubeflow-0.1.6.tar.gz]
+[2024-05-27 14:55:41] INFO root fetch - main [MainThread]: End processing [easy-kubeflow]: success
+[2024-05-27 14:55:41] INFO root fetch - processPackages [apeboiy]: Remove: archive file [/home/abi/fetcher/tmp/apeboiy-0.0.8.tar.gz]
+[2024-05-27 14:55:41] INFO root fetch - processPackages [apeboiy]: Remove: archive file [/home/abi/fetcher/tmp/apeboiy-0.0.9.tar.gz]
+[2024-05-27 14:55:41] INFO root fetch - main [MainThread]: End processing [apeboiy]: success
+[2024-05-27 14:55:41] INFO root fetch - processPackages [pyALF]: executing diffoscope
+[2024-05-27 14:55:41] INFO root fetch - processPackages [pyALF]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyalf-2.5.post5.tar.gz tmp/pyalf-2.5.post6.tar.gz --markdown 20240527/p/pyALF/2.5.post5-2.5.post6/README.md --exclude *.pyd
+[2024-05-27 14:55:42] INFO root fetch - processPackages [pricecypher-sdk]: Remove: archive file [/home/abi/fetcher/tmp/pricecypher_sdk-2.1.1.dev8.tar.gz]
+[2024-05-27 14:55:42] INFO root fetch - processPackages [pricecypher-sdk]: Remove: archive file [/home/abi/fetcher/tmp/pricecypher_sdk-2.1.1.dev9.tar.gz]
+[2024-05-27 14:55:42] INFO root fetch - main [MainThread]: End processing [pricecypher-sdk]: success
+[2024-05-27 14:55:42] INFO root fetch - processPackages [mybox]: Remove: archive file [/home/abi/fetcher/tmp/mybox-2.0.8.tar.gz]
+[2024-05-27 14:55:42] INFO root fetch - processPackages [mybox]: Remove: archive file [/home/abi/fetcher/tmp/mybox-2.0.9.tar.gz]
+[2024-05-27 14:55:42] INFO root fetch - main [MainThread]: End processing [mybox]: success
+[2024-05-27 14:55:42] INFO root fetch - processPackages [pyALF]: Remove: archive file [/home/abi/fetcher/tmp/pyalf-2.5.post5.tar.gz]
+[2024-05-27 14:55:42] INFO root fetch - processPackages [pyALF]: Remove: archive file [/home/abi/fetcher/tmp/pyalf-2.5.post6.tar.gz]
+[2024-05-27 14:55:42] INFO root fetch - main [MainThread]: End processing [pyALF]: success
+[2024-05-27 14:55:46] INFO root fetch - processPackages [py-rattler]: Remove: archive file [/home/abi/fetcher/tmp/py_rattler-0.5.0.tar.gz]
+[2024-05-27 14:55:46] INFO root fetch - processPackages [py-rattler]: Remove: archive file [/home/abi/fetcher/tmp/py_rattler-0.6.0.tar.gz]
+[2024-05-27 14:55:46] INFO root fetch - main [MainThread]: End processing [py-rattler]: success
+[2024-05-27 14:55:46] INFO root fetch - main [MainThread]: Store serial: [23395826]
