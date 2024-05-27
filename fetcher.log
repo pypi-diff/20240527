@@ -11846,3 +11846,59 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 12:04:05] INFO root fetch - processPackages [adapta]: Remove: archive file [/home/abi/fetcher/tmp/adapta-2.9.2.tar.gz]
 [2024-05-27 12:04:05] INFO root fetch - main [MainThread]: End processing [adapta]: success
 [2024-05-27 12:04:05] INFO root fetch - main [MainThread]: Store serial: [23393625]
+[2024-05-27 12:06:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23393625]
+[2024-05-27 12:06:14] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-27 12:06:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mountaineer
+[2024-05-27 12:06:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: totolo
+[2024-05-27 12:06:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: totolo
+[2024-05-27 12:06:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: encyclopedia-vae
+[2024-05-27 12:06:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: MaaFw
+[2024-05-27 12:06:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: asp-selftest
+[2024-05-27 12:06:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ginger-dj
+[2024-05-27 12:06:14] INFO root fetch - processPackages [MaaFw]: New version: [1.8.0b2] Old Version: [1.8.0b1]
+[2024-05-27 12:06:14] INFO root fetch - processPackages [asp-selftest]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-27 12:06:14] INFO root fetch - processPackages [encyclopedia-vae]: New version: [0.2.0] Old Version: [0.1.2]
+[2024-05-27 12:06:14] INFO root fetch - processPackages [MaaFw]: Downloading https://files.pythonhosted.org/packages/8a/04/aa9c6bc40968d25817a854c8c899aac988b89ab8ba3c7d1ffed57bd7088a/MaaFw-1.8.0b1-py3-none-win_arm64.whl
+[2024-05-27 12:06:14] INFO root fetch - processPackages [totolo]: New version: [1.6.0.dev202405271003] Old Version: [1.6.0]
+[2024-05-27 12:06:14] INFO root fetch - processPackages [totolo]: New version: [1.6.0.dev202405271003] Old Version: [1.6.0]
+[2024-05-27 12:06:14] INFO root fetch - processPackages [asp-selftest]: Downloading https://files.pythonhosted.org/packages/a4/88/76556a7f8fcc193961bf4d55da1861cc3896e1b8aa8dcf6f92ad1264d155/asp_selftest-0.0.6.tar.gz
+[2024-05-27 12:06:14] INFO root fetch - processPackages [ginger-dj]: New version: [5.2] Old Version: [5.1]
+[2024-05-27 12:06:14] INFO root fetch - processPackages [mountaineer]: New version: [0.5.0.dev9] Old Version: [0.5.0.dev8]
+[2024-05-27 12:06:14] WARNING root fetch - processPackages [MaaFw]: Skipping package: exceeds size limit 12038535>=10485760
+[2024-05-27 12:06:14] INFO root fetch - main [MainThread]: End processing [MaaFw] error
+[2024-05-27 12:06:14] INFO root fetch - processPackages [encyclopedia-vae]: Downloading https://files.pythonhosted.org/packages/85/f0/f94ff51179276afb4f712a6512f4469fdd665c61e43c4a5b5fd9d7f1dc3b/encyclopedia_vae-0.1.2.tar.gz
+[2024-05-27 12:06:14] INFO root fetch - processPackages [totolo]: Downloading https://files.pythonhosted.org/packages/ec/dc/509c6a38c400e739a4ce9a47402958047c158f3f61b92bbf8a3219bc1ed0/totolo-1.6.0.tar.gz
+[2024-05-27 12:06:14] INFO root fetch - processPackages [totolo]: Downloading https://files.pythonhosted.org/packages/ec/dc/509c6a38c400e739a4ce9a47402958047c158f3f61b92bbf8a3219bc1ed0/totolo-1.6.0.tar.gz
+[2024-05-27 12:06:14] INFO root fetch - processPackages [ginger-dj]: Downloading https://files.pythonhosted.org/packages/ee/f2/274c2b8e9c834fdbd471d91d69db7cb9ba793b4ddee46071bd6b707780b5/ginger_dj-5.1-py3-none-any.whl
+[2024-05-27 12:06:14] INFO root fetch - processPackages [mountaineer]: Downloading https://files.pythonhosted.org/packages/bc/20/9bea0d89ae6c6dcc25e67f5b8fcb056ea37bdb1a39325916a2369e183b5b/mountaineer-0.5.0.dev8.tar.gz
+[2024-05-27 12:06:14] INFO root fetch - processPackages [asp-selftest]: Downloading https://files.pythonhosted.org/packages/67/66/5ecf2b4724256e46a987f5ec2757bb056607970c66b2bd411d2c9048d155/asp_selftest-0.0.7.tar.gz
+[2024-05-27 12:06:14] INFO root fetch - processPackages [asp-selftest]: executing diffoscope
+[2024-05-27 12:06:14] INFO root fetch - processPackages [asp-selftest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asp_selftest-0.0.6.tar.gz tmp/asp_selftest-0.0.7.tar.gz --markdown 20240527/a/asp-selftest/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-27 12:06:15] WARNING root fetch - processPackages [ginger-dj]: Skipping package: exceeds size limit 12390501>=10485760
+[2024-05-27 12:06:15] INFO root fetch - main [MainThread]: End processing [ginger-dj] error
+[2024-05-27 12:06:15] INFO root fetch - processPackages [encyclopedia-vae]: Downloading https://files.pythonhosted.org/packages/fb/eb/b1188b08a554c92a42705073608fd8bc19a46fad8d1d48ea3020c12643aa/encyclopedia_vae-0.2.0.tar.gz
+[2024-05-27 12:06:15] INFO root fetch - processPackages [encyclopedia-vae]: executing diffoscope
+[2024-05-27 12:06:15] INFO root fetch - processPackages [encyclopedia-vae]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/encyclopedia_vae-0.1.2.tar.gz tmp/encyclopedia_vae-0.2.0.tar.gz --markdown 20240527/e/encyclopedia-vae/0.1.2-0.2.0/README.md --exclude *.pyd
+[2024-05-27 12:06:15] INFO root fetch - processPackages [totolo]: Downloading https://files.pythonhosted.org/packages/51/f4/b6458257d92e20fe93ac2ed20f360f067845082b32a62ddd4665b3ec4ad6/totolo-1.6.0.dev202405271003.tar.gz
+[2024-05-27 12:06:15] INFO root fetch - processPackages [totolo]: Downloading https://files.pythonhosted.org/packages/51/f4/b6458257d92e20fe93ac2ed20f360f067845082b32a62ddd4665b3ec4ad6/totolo-1.6.0.dev202405271003.tar.gz
+[2024-05-27 12:06:15] INFO root fetch - processPackages [mountaineer]: Downloading https://files.pythonhosted.org/packages/ce/69/5a28d6fb8bd2758f8cf1ab36da36f9aaf80e69152aaa5c60bc630aa1d533/mountaineer-0.5.0.dev9.tar.gz
+[2024-05-27 12:06:15] INFO root fetch - processPackages [asp-selftest]: Remove: archive file [/home/abi/fetcher/tmp/asp_selftest-0.0.6.tar.gz]
+[2024-05-27 12:06:15] INFO root fetch - processPackages [asp-selftest]: Remove: archive file [/home/abi/fetcher/tmp/asp_selftest-0.0.7.tar.gz]
+[2024-05-27 12:06:15] INFO root fetch - main [MainThread]: End processing [asp-selftest]: success
+[2024-05-27 12:06:15] INFO root fetch - processPackages [totolo]: executing diffoscope
+[2024-05-27 12:06:15] INFO root fetch - processPackages [totolo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/totolo-1.6.0.tar.gz tmp/totolo-1.6.0.dev202405271003.tar.gz --markdown 20240527/t/totolo/1.6.0-1.6.0.dev202405271003/README.md --exclude *.pyd
+[2024-05-27 12:06:15] INFO root fetch - processPackages [totolo]: executing diffoscope
+[2024-05-27 12:06:15] INFO root fetch - processPackages [totolo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/totolo-1.6.0.tar.gz tmp/totolo-1.6.0.dev202405271003.tar.gz --markdown 20240527/t/totolo/1.6.0-1.6.0.dev202405271003/README.md --exclude *.pyd
+[2024-05-27 12:06:15] INFO root fetch - processPackages [encyclopedia-vae]: Remove: archive file [/home/abi/fetcher/tmp/encyclopedia_vae-0.1.2.tar.gz]
+[2024-05-27 12:06:15] INFO root fetch - processPackages [encyclopedia-vae]: Remove: archive file [/home/abi/fetcher/tmp/encyclopedia_vae-0.2.0.tar.gz]
+[2024-05-27 12:06:15] INFO root fetch - main [MainThread]: End processing [encyclopedia-vae]: success
+[2024-05-27 12:06:16] INFO root fetch - processPackages [totolo]: Remove: archive file [/home/abi/fetcher/tmp/totolo-1.6.0.tar.gz]
+[2024-05-27 12:06:16] INFO root fetch - processPackages [totolo]: Remove: archive file [/home/abi/fetcher/tmp/totolo-1.6.0.dev202405271003.tar.gz]
+[2024-05-27 12:06:16] INFO root fetch - main [MainThread]: End processing [totolo]: success
+[2024-05-27 12:06:16] INFO root fetch - processPackages [mountaineer]: executing diffoscope
+[2024-05-27 12:06:16] INFO root fetch - processPackages [mountaineer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mountaineer-0.5.0.dev8.tar.gz tmp/mountaineer-0.5.0.dev9.tar.gz --markdown 20240527/m/mountaineer/0.5.0.dev8-0.5.0.dev9/README.md --exclude *.pyd
+[2024-05-27 12:06:16] INFO root fetch - main [MainThread]: End processing [totolo]: success
+[2024-05-27 12:06:17] INFO root fetch - processPackages [mountaineer]: Remove: archive file [/home/abi/fetcher/tmp/mountaineer-0.5.0.dev8.tar.gz]
+[2024-05-27 12:06:17] INFO root fetch - processPackages [mountaineer]: Remove: archive file [/home/abi/fetcher/tmp/mountaineer-0.5.0.dev9.tar.gz]
+[2024-05-27 12:06:17] INFO root fetch - main [MainThread]: End processing [mountaineer]: success
+[2024-05-27 12:06:17] INFO root fetch - main [MainThread]: Store serial: [23393663]
