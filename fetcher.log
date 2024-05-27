@@ -6972,3 +6972,51 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 08:18:20] INFO root fetch - processPackages [pms-encoder]: Remove: archive file [/home/abi/fetcher/tmp/pms_encoder-0.0.9.tar.gz]
 [2024-05-27 08:18:20] INFO root fetch - main [MainThread]: End processing [pms-encoder]: success
 [2024-05-27 08:18:20] INFO root fetch - main [MainThread]: Store serial: [23391305]
+[2024-05-27 08:20:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23391305]
+[2024-05-27 08:20:29] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-27 08:20:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: morphdb-utils
+[2024-05-27 08:20:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: asktable
+[2024-05-27 08:20:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: argo-workflows
+[2024-05-27 08:20:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-cloudflare-images
+[2024-05-27 08:20:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: CtqKit
+[2024-05-27 08:20:29] INFO root fetch - processPackages [CtqKit]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-27 08:20:29] INFO root fetch - processPackages [morphdb-utils]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-27 08:20:29] INFO root fetch - processPackages [CtqKit]: Downloading https://files.pythonhosted.org/packages/60/ac/2357d82af1df909dae48b735fca4a40d723359bf3dfbc84fbddd37a5dfe6/ctqkit-0.1.5.tar.gz
+[2024-05-27 08:20:29] INFO root fetch - processPackages [django-cloudflare-images]: New version: [0.6.0] Old Version: [0.5.3]
+[2024-05-27 08:20:29] INFO root fetch - processPackages [argo-workflows]: New version: [6.5.7] Old Version: [6.5.6]
+[2024-05-27 08:20:29] INFO root fetch - processPackages [morphdb-utils]: Downloading https://files.pythonhosted.org/packages/cd/4f/c6949258d5647c0aa4d14e61014c6e3a7c9f08086b8ff176bee34576864d/morphdb_utils-0.1.8.tar.gz
+[2024-05-27 08:20:29] INFO root fetch - processPackages [asktable]: New version: [0.17.0] Old Version: [0.14.3]
+[2024-05-27 08:20:29] INFO root fetch - processPackages [argo-workflows]: Downloading https://files.pythonhosted.org/packages/12/82/d0a34ad7b10f97e413a62f50d235f0366ab58c175893f9ba85985e641232/argo_workflows-6.5.6.tar.gz
+[2024-05-27 08:20:29] INFO root fetch - processPackages [CtqKit]: Downloading https://files.pythonhosted.org/packages/2d/e1/fe26fab56a7bb29ab7578bef20407b7e1ebc07abe87a8a6535dbe57935ee/ctqkit-0.1.6.tar.gz
+[2024-05-27 08:20:29] INFO root fetch - processPackages [morphdb-utils]: Downloading https://files.pythonhosted.org/packages/f4/69/729494d22abe49b72c25e4b1efa215d54cab59388bae925f40777fce21f3/morphdb_utils-0.1.9.tar.gz
+[2024-05-27 08:20:29] INFO root fetch - processPackages [django-cloudflare-images]: Downloading https://files.pythonhosted.org/packages/7c/cb/bd0c5d65b1dbc92cf75db0be721447cb909f574081aefca88292c80ca898/django-cloudflare-images-0.5.3.tar.gz
+[2024-05-27 08:20:29] INFO root fetch - processPackages [asktable]: Downloading https://files.pythonhosted.org/packages/44/07/84dd725fd15a3c201293c487a0774378b79cf16ffa08862215b38947013d/asktable-0.14.3-py3-none-any.whl
+[2024-05-27 08:20:29] INFO root fetch - processPackages [morphdb-utils]: executing diffoscope
+[2024-05-27 08:20:29] INFO root fetch - processPackages [morphdb-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/morphdb_utils-0.1.8.tar.gz tmp/morphdb_utils-0.1.9.tar.gz --markdown 20240527/m/morphdb-utils/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-27 08:20:29] INFO root fetch - processPackages [CtqKit]: executing diffoscope
+[2024-05-27 08:20:29] INFO root fetch - processPackages [CtqKit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ctqkit-0.1.5.tar.gz tmp/ctqkit-0.1.6.tar.gz --markdown 20240527/C/CtqKit/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-27 08:20:29] INFO root fetch - processPackages [django-cloudflare-images]: Downloading https://files.pythonhosted.org/packages/f8/f6/5eac43997c2eb797071efb29658df49053be0a873fc23a30033038fd3f7b/django_cloudflare_images-0.6.0.tar.gz
+[2024-05-27 08:20:29] INFO root fetch - processPackages [argo-workflows]: Downloading https://files.pythonhosted.org/packages/37/0c/91d820cfd892842f8350df98885b60ced50972fc5c66f06b46c7c5bcadc7/argo_workflows-6.5.7.tar.gz
+[2024-05-27 08:20:29] INFO root fetch - processPackages [asktable]: Downloading https://files.pythonhosted.org/packages/4d/d2/6ff0086df7a4b7e9a2c46722f282727f1fa135e0aca508fff4ba4e50dabc/asktable-0.17.0-py3-none-any.whl
+[2024-05-27 08:20:29] INFO root fetch - processPackages [asktable]: executing diffoscope
+[2024-05-27 08:20:29] INFO root fetch - processPackages [asktable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asktable-0.14.3-py3-none-any.whl.zip tmp/asktable-0.17.0-py3-none-any.whl.zip --markdown 20240527/a/asktable/0.14.3-0.17.0/README.md --exclude *.pyd
+[2024-05-27 08:20:29] INFO root fetch - processPackages [argo-workflows]: executing diffoscope
+[2024-05-27 08:20:29] INFO root fetch - processPackages [argo-workflows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/argo_workflows-6.5.6.tar.gz tmp/argo_workflows-6.5.7.tar.gz --markdown 20240527/a/argo-workflows/6.5.6-6.5.7/README.md --exclude *.pyd
+[2024-05-27 08:20:30] INFO root fetch - processPackages [django-cloudflare-images]: executing diffoscope
+[2024-05-27 08:20:30] INFO root fetch - processPackages [django-cloudflare-images]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-cloudflare-images-0.5.3.tar.gz tmp/django_cloudflare_images-0.6.0.tar.gz --markdown 20240527/d/django-cloudflare-images/0.5.3-0.6.0/README.md --exclude *.pyd
+[2024-05-27 08:20:30] INFO root fetch - processPackages [CtqKit]: Remove: archive file [/home/abi/fetcher/tmp/ctqkit-0.1.5.tar.gz]
+[2024-05-27 08:20:30] INFO root fetch - processPackages [CtqKit]: Remove: archive file [/home/abi/fetcher/tmp/ctqkit-0.1.6.tar.gz]
+[2024-05-27 08:20:30] INFO root fetch - main [MainThread]: End processing [CtqKit]: success
+[2024-05-27 08:20:30] INFO root fetch - processPackages [morphdb-utils]: Remove: archive file [/home/abi/fetcher/tmp/morphdb_utils-0.1.8.tar.gz]
+[2024-05-27 08:20:30] INFO root fetch - processPackages [morphdb-utils]: Remove: archive file [/home/abi/fetcher/tmp/morphdb_utils-0.1.9.tar.gz]
+[2024-05-27 08:20:30] INFO root fetch - main [MainThread]: End processing [morphdb-utils]: success
+[2024-05-27 08:20:30] INFO root fetch - processPackages [asktable]: Remove: archive file [/home/abi/fetcher/tmp/asktable-0.14.3-py3-none-any.whl.zip]
+[2024-05-27 08:20:30] INFO root fetch - processPackages [asktable]: Remove: archive file [/home/abi/fetcher/tmp/asktable-0.17.0-py3-none-any.whl.zip]
+[2024-05-27 08:20:30] INFO root fetch - main [MainThread]: End processing [asktable]: success
+[2024-05-27 08:20:30] INFO root fetch - processPackages [django-cloudflare-images]: Remove: archive file [/home/abi/fetcher/tmp/django-cloudflare-images-0.5.3.tar.gz]
+[2024-05-27 08:20:30] INFO root fetch - processPackages [django-cloudflare-images]: Remove: archive file [/home/abi/fetcher/tmp/django_cloudflare_images-0.6.0.tar.gz]
+[2024-05-27 08:20:30] INFO root fetch - main [MainThread]: End processing [django-cloudflare-images]: success
+[2024-05-27 08:20:32] INFO root fetch - processPackages [argo-workflows]: Remove: archive file [/home/abi/fetcher/tmp/argo_workflows-6.5.6.tar.gz]
+[2024-05-27 08:20:32] INFO root fetch - processPackages [argo-workflows]: Remove: archive file [/home/abi/fetcher/tmp/argo_workflows-6.5.7.tar.gz]
+[2024-05-27 08:20:32] INFO root fetch - main [MainThread]: End processing [argo-workflows]: success
+[2024-05-27 08:20:32] INFO root fetch - main [MainThread]: Store serial: [23391319]
