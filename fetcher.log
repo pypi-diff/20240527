@@ -12847,3 +12847,109 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 12:41:47] INFO root fetch - processPackages [dingodb]: Remove: archive file [/home/abi/fetcher/tmp/dingodb-0.0.9.tar.gz]
 [2024-05-27 12:41:47] INFO root fetch - main [MainThread]: End processing [dingodb]: success
 [2024-05-27 12:41:47] INFO root fetch - main [MainThread]: Store serial: [23394186]
+[2024-05-27 12:43:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23394186]
+[2024-05-27 12:43:57] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-05-27 12:43:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: appmap
+[2024-05-27 12:43:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aliyun-python-sdk-oceanbasepro
+[2024-05-27 12:43:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: soham-thesis
+[2024-05-27 12:43:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lyytktextbox
+[2024-05-27 12:43:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: plutocam
+[2024-05-27 12:43:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Pseudovisium
+[2024-05-27 12:43:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: esd-services-api-client
+[2024-05-27 12:43:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: geomockimages
+[2024-05-27 12:43:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: copious
+[2024-05-27 12:43:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: Pseudovisium
+[2024-05-27 12:43:57] INFO root fetch - processPackages [appmap]: New version: [2.0.2] Old Version: [2.0.1]
+[2024-05-27 12:43:57] INFO root fetch - processPackages [lyytktextbox]: New version: [1.2] Old Version: [1.1]
+[2024-05-27 12:43:57] WARNING root fetch - processPackages [soham-thesis]: Skipping, unable to determine old version
+[2024-05-27 12:43:57] INFO root fetch - processPackages [soham-thesis]: Start processing: agenta
+[2024-05-27 12:43:57] INFO root fetch - processPackages [aliyun-python-sdk-oceanbasepro]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-27 12:43:57] INFO root fetch - main [MainThread]: End processing [soham-thesis] error
+[2024-05-27 12:43:57] INFO root fetch - processPackages [copious]: New version: [0.1.13] Old Version: [0.1.12]
+[2024-05-27 12:43:57] INFO root fetch - processPackages [esd-services-api-client]: New version: [2.2.4] Old Version: [2.2.3]
+[2024-05-27 12:43:57] INFO root fetch - processPackages [geomockimages]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-27 12:43:57] WARNING root fetch - processPackages [plutocam]: Skipping, unable to determine old version
+[2024-05-27 12:43:57] INFO root fetch - processPackages [plutocam]: Start processing: defity
+[2024-05-27 12:43:57] INFO root fetch - main [MainThread]: End processing [plutocam] error
+[2024-05-27 12:43:57] INFO root fetch - processPackages [Pseudovisium]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-27 12:43:57] INFO root fetch - processPackages [Pseudovisium]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-27 12:43:57] INFO root fetch - processPackages [agenta]: New version: [0.9.0] Old Version: [0.8.4]
+[2024-05-27 12:43:57] INFO root fetch - processPackages [defity]: New version: [0.4.0] Old Version: [0.3.1]
+[2024-05-27 12:43:57] INFO root fetch - processPackages [appmap]: Downloading https://files.pythonhosted.org/packages/a9/09/2c70f180437f972ae42a63945aed41b13cc42ab22b7476762df555a2a073/appmap-2.0.1.tar.gz
+[2024-05-27 12:43:58] INFO root fetch - processPackages [agenta]: Downloading https://files.pythonhosted.org/packages/e1/b3/694bb4fe67f0b63ef67836f5924bdc436dfb590d7e7da0824cbbc4b71853/agenta-0.8.4.tar.gz
+[2024-05-27 12:43:58] INFO root fetch - processPackages [lyytktextbox]: Downloading https://files.pythonhosted.org/packages/66/1d/10a3f01b184505128f395f2e383ba8bbe33232dd25f2623c314536296b4d/lyytktextbox-1.1.tar.gz
+[2024-05-27 12:43:58] INFO root fetch - processPackages [esd-services-api-client]: Downloading https://files.pythonhosted.org/packages/60/d4/67fb53d61aeb1c1006d1d8e484ab84eb739ce0710d8a236797f304467a01/esd_services_api_client-2.2.3.tar.gz
+[2024-05-27 12:43:58] INFO root fetch - processPackages [aliyun-python-sdk-oceanbasepro]: Downloading https://files.pythonhosted.org/packages/90/5f/1de7337bae3cc1b8f259096a42eec2dca760cbfc604fd20cd82329bab5dd/aliyun-python-sdk-oceanbasepro-1.0.8.tar.gz
+[2024-05-27 12:43:58] INFO root fetch - processPackages [copious]: Downloading https://files.pythonhosted.org/packages/13/87/2e513bf1102d7b51b940da2600e136a495b9b879ead193bf4f338bab32f6/copious-0.1.12.tar.gz
+[2024-05-27 12:43:58] INFO root fetch - processPackages [geomockimages]: Downloading https://files.pythonhosted.org/packages/c5/ec/58aa502812c7ae0aff736b6897798618b000d182dc4367a5b91a7c08c50e/geomockimages-0.2.1.tar.gz
+[2024-05-27 12:43:58] INFO root fetch - processPackages [Pseudovisium]: Downloading https://files.pythonhosted.org/packages/ec/02/4f0ff6ebfecb2857195a25c3ca342a7a1af99e21acd71f8a0f89061491f0/Pseudovisium-0.0.8.tar.gz
+[2024-05-27 12:43:58] INFO root fetch - processPackages [Pseudovisium]: Downloading https://files.pythonhosted.org/packages/ec/02/4f0ff6ebfecb2857195a25c3ca342a7a1af99e21acd71f8a0f89061491f0/Pseudovisium-0.0.8.tar.gz
+[2024-05-27 12:43:58] INFO root fetch - processPackages [defity]: Downloading https://files.pythonhosted.org/packages/e6/90/ac2b02f8afbf95d3a9797994272d632235af5b1b77f5f88d63ecec8e7bda/defity-0.3.1.tar.gz
+[2024-05-27 12:43:58] INFO root fetch - processPackages [agenta]: Downloading https://files.pythonhosted.org/packages/f7/a1/73689fd1faf7fbbd3985f8ed9673e4784bae27b1789d6fe5f7e4f001ed89/agenta-0.9.0.tar.gz
+[2024-05-27 12:43:58] INFO root fetch - processPackages [appmap]: Downloading https://files.pythonhosted.org/packages/76/23/51fd3ee7bb0326d18c9c74d08c0a4b5821ef7b8948cc7682c44e4205aedb/appmap-2.0.2.tar.gz
+[2024-05-27 12:43:58] INFO root fetch - processPackages [lyytktextbox]: Downloading https://files.pythonhosted.org/packages/77/46/f21fd0e6f69e9f36776b5a29f9f5aae3c181b7e2789009ab868a084f82a5/lyytktextbox-1.2.tar.gz
+[2024-05-27 12:43:58] INFO root fetch - processPackages [aliyun-python-sdk-oceanbasepro]: Downloading https://files.pythonhosted.org/packages/64/6a/7ecb0f58b900d7523fb978fed0b70a92bb9da24c05de4c5becf0068b5f91/aliyun-python-sdk-oceanbasepro-1.0.9.tar.gz
+[2024-05-27 12:43:58] INFO root fetch - processPackages [esd-services-api-client]: Downloading https://files.pythonhosted.org/packages/60/89/f0b0b15580b144458e003f1b2eee6ce167a50bf1d3e48ff7188ae398cff6/esd_services_api_client-2.2.4.tar.gz
+[2024-05-27 12:43:58] INFO root fetch - processPackages [copious]: Downloading https://files.pythonhosted.org/packages/e7/c6/e041d118283f823c02ecdeff6189d7e746f83ff7ca350f596d8d7dca50ef/copious-0.1.13.tar.gz
+[2024-05-27 12:43:58] INFO root fetch - processPackages [geomockimages]: Downloading https://files.pythonhosted.org/packages/f0/25/4fd51900c62327402e1b3556baa392890791d299804317a2568b288ec255/geomockimages-0.2.2.tar.gz
+[2024-05-27 12:43:58] INFO root fetch - processPackages [Pseudovisium]: Downloading https://files.pythonhosted.org/packages/6a/7f/032756880a4d5dbead5465d90e6d9ef1046690f858021036f62dfcda246a/Pseudovisium-0.0.9.tar.gz
+[2024-05-27 12:43:58] INFO root fetch - processPackages [Pseudovisium]: Downloading https://files.pythonhosted.org/packages/6a/7f/032756880a4d5dbead5465d90e6d9ef1046690f858021036f62dfcda246a/Pseudovisium-0.0.9.tar.gz
+[2024-05-27 12:43:58] INFO root fetch - processPackages [agenta]: executing diffoscope
+[2024-05-27 12:43:58] INFO root fetch - processPackages [agenta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agenta-0.8.4.tar.gz tmp/agenta-0.9.0.tar.gz --markdown 20240527/a/agenta/0.8.4-0.9.0/README.md --exclude *.pyd
+[2024-05-27 12:43:58] INFO root fetch - processPackages [defity]: Downloading https://files.pythonhosted.org/packages/3e/3d/42b404de9fcb45b37c756295a2a2931028815472eab98a2909c4c07203c5/defity-0.4.0-cp39-cp39-macosx_11_0_arm64.whl
+[2024-05-27 12:43:58] INFO root fetch - processPackages [aliyun-python-sdk-oceanbasepro]: executing diffoscope
+[2024-05-27 12:43:58] INFO root fetch - processPackages [aliyun-python-sdk-oceanbasepro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-oceanbasepro-1.0.8.tar.gz tmp/aliyun-python-sdk-oceanbasepro-1.0.9.tar.gz --markdown 20240527/a/aliyun-python-sdk-oceanbasepro/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-27 12:43:58] INFO root fetch - processPackages [appmap]: executing diffoscope
+[2024-05-27 12:43:58] INFO root fetch - processPackages [appmap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/appmap-2.0.1.tar.gz tmp/appmap-2.0.2.tar.gz --markdown 20240527/a/appmap/2.0.1-2.0.2/README.md --exclude *.pyd
+[2024-05-27 12:43:58] INFO root fetch - processPackages [geomockimages]: executing diffoscope
+[2024-05-27 12:43:58] INFO root fetch - processPackages [geomockimages]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geomockimages-0.2.1.tar.gz tmp/geomockimages-0.2.2.tar.gz --markdown 20240527/g/geomockimages/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-05-27 12:43:58] INFO root fetch - processPackages [Pseudovisium]: executing diffoscope
+[2024-05-27 12:43:58] INFO root fetch - processPackages [Pseudovisium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Pseudovisium-0.0.8.tar.gz tmp/Pseudovisium-0.0.9.tar.gz --markdown 20240527/P/Pseudovisium/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-27 12:43:58] INFO root fetch - processPackages [Pseudovisium]: executing diffoscope
+[2024-05-27 12:43:58] INFO root fetch - processPackages [Pseudovisium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Pseudovisium-0.0.8.tar.gz tmp/Pseudovisium-0.0.9.tar.gz --markdown 20240527/P/Pseudovisium/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-27 12:43:58] INFO root fetch - processPackages [lyytktextbox]: executing diffoscope
+[2024-05-27 12:43:58] INFO root fetch - processPackages [lyytktextbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lyytktextbox-1.1.tar.gz tmp/lyytktextbox-1.2.tar.gz --markdown 20240527/l/lyytktextbox/1.1-1.2/README.md --exclude *.pyd
+[2024-05-27 12:43:58] INFO root fetch - processPackages [copious]: executing diffoscope
+[2024-05-27 12:43:58] INFO root fetch - processPackages [copious]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/copious-0.1.12.tar.gz tmp/copious-0.1.13.tar.gz --markdown 20240527/c/copious/0.1.12-0.1.13/README.md --exclude *.pyd
+[2024-05-27 12:43:58] INFO root fetch - processPackages [esd-services-api-client]: executing diffoscope
+[2024-05-27 12:43:58] INFO root fetch - processPackages [esd-services-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esd_services_api_client-2.2.3.tar.gz tmp/esd_services_api_client-2.2.4.tar.gz --markdown 20240527/e/esd-services-api-client/2.2.3-2.2.4/README.md --exclude *.pyd
+[2024-05-27 12:43:58] INFO root fetch - processPackages [defity]: executing diffoscope
+[2024-05-27 12:43:58] INFO root fetch - processPackages [defity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/defity-0.3.1.tar.gz tmp/defity-0.4.0-cp39-cp39-macosx_11_0_arm64.whl.zip --markdown 20240527/d/defity/0.3.1-0.4.0/README.md --exclude *.pyd
+[2024-05-27 12:43:59] INFO root fetch - processPackages [lyytktextbox]: Remove: archive file [/home/abi/fetcher/tmp/lyytktextbox-1.1.tar.gz]
+[2024-05-27 12:43:59] INFO root fetch - processPackages [lyytktextbox]: Remove: archive file [/home/abi/fetcher/tmp/lyytktextbox-1.2.tar.gz]
+[2024-05-27 12:43:59] INFO root fetch - processPackages [lyytktextbox]: Start processing: glacier-upload
+[2024-05-27 12:43:59] INFO root fetch - main [MainThread]: End processing [lyytktextbox]: success
+[2024-05-27 12:43:59] INFO root fetch - processPackages [Pseudovisium]: Remove: archive file [/home/abi/fetcher/tmp/Pseudovisium-0.0.8.tar.gz]
+[2024-05-27 12:43:59] INFO root fetch - processPackages [Pseudovisium]: Remove: archive file [/home/abi/fetcher/tmp/Pseudovisium-0.0.9.tar.gz]
+[2024-05-27 12:43:59] INFO root fetch - main [MainThread]: End processing [Pseudovisium]: success
+[2024-05-27 12:43:59] INFO root fetch - processPackages [glacier-upload]: New version: [2.1.1] Old Version: [2.1]
+[2024-05-27 12:43:59] INFO root fetch - processPackages [agenta]: Remove: archive file [/home/abi/fetcher/tmp/agenta-0.8.4.tar.gz]
+[2024-05-27 12:43:59] INFO root fetch - processPackages [agenta]: Remove: archive file [/home/abi/fetcher/tmp/agenta-0.9.0.tar.gz]
+[2024-05-27 12:43:59] INFO root fetch - main [MainThread]: End processing [agenta]: success
+[2024-05-27 12:44:00] INFO root fetch - processPackages [glacier-upload]: Downloading https://files.pythonhosted.org/packages/48/63/e1c4c5e633275eb56a9fd09fc57ca475ccd79f434d76c4bc53562e68b042/glacier_upload-2.1.tar.gz
+[2024-05-27 12:44:00] INFO root fetch - processPackages [geomockimages]: Remove: archive file [/home/abi/fetcher/tmp/geomockimages-0.2.1.tar.gz]
+[2024-05-27 12:44:00] INFO root fetch - processPackages [geomockimages]: Remove: archive file [/home/abi/fetcher/tmp/geomockimages-0.2.2.tar.gz]
+[2024-05-27 12:44:00] INFO root fetch - main [MainThread]: End processing [geomockimages]: success
+[2024-05-27 12:44:00] INFO root fetch - processPackages [aliyun-python-sdk-oceanbasepro]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-oceanbasepro-1.0.8.tar.gz]
+[2024-05-27 12:44:00] INFO root fetch - processPackages [aliyun-python-sdk-oceanbasepro]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-oceanbasepro-1.0.9.tar.gz]
+[2024-05-27 12:44:00] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-oceanbasepro]: success
+[2024-05-27 12:44:00] INFO root fetch - processPackages [esd-services-api-client]: Remove: archive file [/home/abi/fetcher/tmp/esd_services_api_client-2.2.3.tar.gz]
+[2024-05-27 12:44:00] INFO root fetch - processPackages [esd-services-api-client]: Remove: archive file [/home/abi/fetcher/tmp/esd_services_api_client-2.2.4.tar.gz]
+[2024-05-27 12:44:00] INFO root fetch - main [MainThread]: End processing [esd-services-api-client]: success
+[2024-05-27 12:44:00] INFO root fetch - main [MainThread]: End processing [Pseudovisium]: success
+[2024-05-27 12:44:00] INFO root fetch - processPackages [appmap]: Remove: archive file [/home/abi/fetcher/tmp/appmap-2.0.1.tar.gz]
+[2024-05-27 12:44:00] INFO root fetch - processPackages [appmap]: Remove: archive file [/home/abi/fetcher/tmp/appmap-2.0.2.tar.gz]
+[2024-05-27 12:44:00] INFO root fetch - main [MainThread]: End processing [appmap]: success
+[2024-05-27 12:44:00] INFO root fetch - processPackages [defity]: Remove: archive file [/home/abi/fetcher/tmp/defity-0.3.1.tar.gz]
+[2024-05-27 12:44:00] INFO root fetch - processPackages [defity]: Remove: archive file [/home/abi/fetcher/tmp/defity-0.4.0-cp39-cp39-macosx_11_0_arm64.whl.zip]
+[2024-05-27 12:44:00] INFO root fetch - main [MainThread]: End processing [defity]: success
+[2024-05-27 12:44:00] INFO root fetch - processPackages [copious]: Remove: archive file [/home/abi/fetcher/tmp/copious-0.1.12.tar.gz]
+[2024-05-27 12:44:00] INFO root fetch - processPackages [copious]: Remove: archive file [/home/abi/fetcher/tmp/copious-0.1.13.tar.gz]
+[2024-05-27 12:44:00] INFO root fetch - main [MainThread]: End processing [copious]: success
+[2024-05-27 12:44:00] INFO root fetch - processPackages [glacier-upload]: Downloading https://files.pythonhosted.org/packages/ef/13/1676b3a09433ff948f363ea7682051ed9dcb5af0188575f74eff10cc57c4/glacier_upload-2.1.1.tar.gz
+[2024-05-27 12:44:00] INFO root fetch - processPackages [glacier-upload]: executing diffoscope
+[2024-05-27 12:44:00] INFO root fetch - processPackages [glacier-upload]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glacier_upload-2.1.tar.gz tmp/glacier_upload-2.1.1.tar.gz --markdown 20240527/g/glacier-upload/2.1-2.1.1/README.md --exclude *.pyd
+[2024-05-27 12:44:01] INFO root fetch - processPackages [glacier-upload]: Remove: archive file [/home/abi/fetcher/tmp/glacier_upload-2.1.tar.gz]
+[2024-05-27 12:44:01] INFO root fetch - processPackages [glacier-upload]: Remove: archive file [/home/abi/fetcher/tmp/glacier_upload-2.1.1.tar.gz]
+[2024-05-27 12:44:01] INFO root fetch - main [MainThread]: End processing [glacier-upload]: success
+[2024-05-27 12:44:01] INFO root fetch - main [MainThread]: Store serial: [23394234]
