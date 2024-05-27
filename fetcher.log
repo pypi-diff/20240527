@@ -23287,3 +23287,45 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-05-27 19:32:26] INFO root fetch - processPackages [odoo-addon-account-payment-purchase]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_payment_purchase-17.0.1.1.0.2-py3-none-any.whl.zip]
 [2024-05-27 19:32:26] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-payment-purchase]: success
 [2024-05-27 19:32:26] INFO root fetch - main [MainThread]: Store serial: [23399170]
+[2024-05-27 19:34:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23399170]
+[2024-05-27 19:34:35] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-27 19:34:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyhectiqlab
+[2024-05-27 19:34:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: NameExtractor
+[2024-05-27 19:34:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cybrid-api-id-python
+[2024-05-27 19:34:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zimagi
+[2024-05-27 19:34:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: telethon-client
+[2024-05-27 19:34:35] WARNING root fetch - processPackages [NameExtractor]: Skipping, unable to determine old version
+[2024-05-27 19:34:35] INFO root fetch - main [MainThread]: End processing [NameExtractor] error
+[2024-05-27 19:34:35] INFO root fetch - processPackages [telethon-client]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-27 19:34:35] INFO root fetch - processPackages [cybrid-api-id-python]: New version: [0.99.0] Old Version: [0.98.2]
+[2024-05-27 19:34:35] INFO root fetch - processPackages [telethon-client]: Downloading https://files.pythonhosted.org/packages/ee/66/2b079d2888483c8942695ead411b39467945458734cee84b9c072855e1b7/telethon-client-0.0.4.tar.gz
+[2024-05-27 19:34:35] INFO root fetch - processPackages [zimagi]: New version: [0.9.5] Old Version: [0.9.4]
+[2024-05-27 19:34:35] INFO root fetch - processPackages [pyhectiqlab]: New version: [3.0.9] Old Version: [3.0.8]
+[2024-05-27 19:34:35] INFO root fetch - processPackages [cybrid-api-id-python]: Downloading https://files.pythonhosted.org/packages/2d/66/0d5dc17801b737dd53e021a1548eb784ef8520799bdffbae60e088bf723c/cybrid-api-id-python-0.98.2.tar.gz
+[2024-05-27 19:34:36] INFO root fetch - processPackages [pyhectiqlab]: Downloading https://files.pythonhosted.org/packages/e3/21/97de3954e361230ee387af663977156f4c87cfde7180217e0230c3f3ea96/pyhectiqlab-3.0.8.tar.gz
+[2024-05-27 19:34:36] INFO root fetch - processPackages [zimagi]: Downloading https://files.pythonhosted.org/packages/e8/4b/b155e4f0b7606d368c19e3d41df4c6af5d2743ec086d5c519e39a5e8ada7/zimagi-0.9.4.tar.gz
+[2024-05-27 19:34:36] INFO root fetch - processPackages [cybrid-api-id-python]: Downloading https://files.pythonhosted.org/packages/de/07/de389a95ca98f482f653401dbe8342cf8d4930d1efee86d1f28f3c1afcd1/cybrid-api-id-python-0.99.0.tar.gz
+[2024-05-27 19:34:36] INFO root fetch - processPackages [telethon-client]: Downloading https://files.pythonhosted.org/packages/72/d1/be00d5f3e93e410417f8b01305853259e9108176675f9553e93d28fae675/telethon-client-0.0.5.tar.gz
+[2024-05-27 19:34:36] INFO root fetch - processPackages [cybrid-api-id-python]: executing diffoscope
+[2024-05-27 19:34:36] INFO root fetch - processPackages [cybrid-api-id-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-id-python-0.98.2.tar.gz tmp/cybrid-api-id-python-0.99.0.tar.gz --markdown 20240527/c/cybrid-api-id-python/0.98.2-0.99.0/README.md --exclude *.pyd
+[2024-05-27 19:34:36] INFO root fetch - processPackages [telethon-client]: executing diffoscope
+[2024-05-27 19:34:36] INFO root fetch - processPackages [telethon-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/telethon-client-0.0.4.tar.gz tmp/telethon-client-0.0.5.tar.gz --markdown 20240527/t/telethon-client/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-27 19:34:36] INFO root fetch - processPackages [pyhectiqlab]: Downloading https://files.pythonhosted.org/packages/8d/1e/66d8c0b5f8ace8156ca93017e6a7ca9a1ccc3d3cfaba46f7773f6425f8b7/pyhectiqlab-3.0.9.tar.gz
+[2024-05-27 19:34:36] INFO root fetch - processPackages [zimagi]: Downloading https://files.pythonhosted.org/packages/98/d2/7e3715c9f3f31766db54027f7e4db00e400d7de314d70b833776ce02930f/zimagi-0.9.5.tar.gz
+[2024-05-27 19:34:36] INFO root fetch - processPackages [pyhectiqlab]: executing diffoscope
+[2024-05-27 19:34:36] INFO root fetch - processPackages [pyhectiqlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyhectiqlab-3.0.8.tar.gz tmp/pyhectiqlab-3.0.9.tar.gz --markdown 20240527/p/pyhectiqlab/3.0.8-3.0.9/README.md --exclude *.pyd
+[2024-05-27 19:34:36] INFO root fetch - processPackages [zimagi]: executing diffoscope
+[2024-05-27 19:34:36] INFO root fetch - processPackages [zimagi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zimagi-0.9.4.tar.gz tmp/zimagi-0.9.5.tar.gz --markdown 20240527/z/zimagi/0.9.4-0.9.5/README.md --exclude *.pyd
+[2024-05-27 19:34:36] INFO root fetch - processPackages [telethon-client]: Remove: archive file [/home/abi/fetcher/tmp/telethon-client-0.0.4.tar.gz]
+[2024-05-27 19:34:36] INFO root fetch - processPackages [telethon-client]: Remove: archive file [/home/abi/fetcher/tmp/telethon-client-0.0.5.tar.gz]
+[2024-05-27 19:34:36] INFO root fetch - main [MainThread]: End processing [telethon-client]: success
+[2024-05-27 19:34:37] INFO root fetch - processPackages [pyhectiqlab]: Remove: archive file [/home/abi/fetcher/tmp/pyhectiqlab-3.0.8.tar.gz]
+[2024-05-27 19:34:37] INFO root fetch - processPackages [pyhectiqlab]: Remove: archive file [/home/abi/fetcher/tmp/pyhectiqlab-3.0.9.tar.gz]
+[2024-05-27 19:34:37] INFO root fetch - main [MainThread]: End processing [pyhectiqlab]: success
+[2024-05-27 19:34:37] INFO root fetch - processPackages [zimagi]: Remove: archive file [/home/abi/fetcher/tmp/zimagi-0.9.4.tar.gz]
+[2024-05-27 19:34:37] INFO root fetch - processPackages [zimagi]: Remove: archive file [/home/abi/fetcher/tmp/zimagi-0.9.5.tar.gz]
+[2024-05-27 19:34:37] INFO root fetch - main [MainThread]: End processing [zimagi]: success
+[2024-05-27 19:34:37] INFO root fetch - processPackages [cybrid-api-id-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-id-python-0.98.2.tar.gz]
+[2024-05-27 19:34:37] INFO root fetch - processPackages [cybrid-api-id-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-id-python-0.99.0.tar.gz]
+[2024-05-27 19:34:37] INFO root fetch - main [MainThread]: End processing [cybrid-api-id-python]: success
+[2024-05-27 19:34:37] INFO root fetch - main [MainThread]: Store serial: [23399185]
