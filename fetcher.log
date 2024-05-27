@@ -15287,3 +15287,65 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 14:23:33] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.8.9.tar.gz]
 [2024-05-27 14:23:33] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2024-05-27 14:23:33] INFO root fetch - main [MainThread]: Store serial: [23395426]
+[2024-05-27 14:25:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23395426]
+[2024-05-27 14:25:42] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-27 14:25:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: stricto
+[2024-05-27 14:25:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-aws-tags
+[2024-05-27 14:25:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: liveflask
+[2024-05-27 14:25:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: prophecy-libs
+[2024-05-27 14:25:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pricecypher-sdk
+[2024-05-27 14:25:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: netbox-docker-plugin
+[2024-05-27 14:25:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nicegui
+[2024-05-27 14:25:42] INFO root fetch - processPackages [liveflask]: New version: [1.0.9rc6] Old Version: [1.0.9rc5]
+[2024-05-27 14:25:42] INFO root fetch - processPackages [nicegui]: New version: [1.4.9] Old Version: [1.4.8]
+[2024-05-27 14:25:42] INFO root fetch - processPackages [prophecy-libs]: New version: [1.9.2.dev0] Old Version: [1.9.2]
+[2024-05-27 14:25:42] INFO root fetch - processPackages [pulumi-aws-tags]: New version: [0.7.1] Old Version: [0.7.0]
+[2024-05-27 14:25:42] INFO root fetch - processPackages [pricecypher-sdk]: New version: [2.1.1.dev9] Old Version: [2.1.1.dev8]
+[2024-05-27 14:25:42] INFO root fetch - processPackages [stricto]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-27 14:25:42] INFO root fetch - processPackages [liveflask]: Downloading https://files.pythonhosted.org/packages/4f/f7/9fa1b550df92979d3653b69ad0f8af57358884c417fc600ac326b87f6266/liveflask-1.0.9rc5.tar.gz
+[2024-05-27 14:25:42] INFO root fetch - processPackages [netbox-docker-plugin]: New version: [2.0.0] Old Version: [1.9.0]
+[2024-05-27 14:25:42] INFO root fetch - processPackages [prophecy-libs]: Downloading https://files.pythonhosted.org/packages/c7/34/07d2aa700a7f7d0e184fae98e779346d1aa5aeffb9dfe99f52cad42786af/prophecy-libs-1.9.2.tar.gz
+[2024-05-27 14:25:42] INFO root fetch - processPackages [nicegui]: Downloading https://files.pythonhosted.org/packages/b5/39/c7b7adc94d9d6b669f397911cd99054027767adce81267e5db28f98947f2/nicegui-1.4.8.tar.gz
+[2024-05-27 14:25:43] INFO root fetch - processPackages [pulumi-aws-tags]: Downloading https://files.pythonhosted.org/packages/28/a4/f42f29f2c8da99dd6772296c562cc60e5c9b85efcd47b869ef193a44380e/pulumi-aws-tags-0.7.0.tar.gz
+[2024-05-27 14:25:43] INFO root fetch - processPackages [stricto]: Downloading https://files.pythonhosted.org/packages/d4/30/31443e80dd4d3a699934250836019d0309a30beb380d8a060afb6c48f927/stricto-0.0.2.tar.gz
+[2024-05-27 14:25:43] INFO root fetch - processPackages [netbox-docker-plugin]: Downloading https://files.pythonhosted.org/packages/4a/ad/385638ca220d588be2577e68e679ca6dbb2d14aac080d723104c408e542f/netbox_docker_plugin-1.9.0.tar.gz
+[2024-05-27 14:25:43] INFO root fetch - processPackages [liveflask]: Downloading https://files.pythonhosted.org/packages/c9/85/db794ba1759ab4e9865cd2537ac486073560649c795fb7212df21fe29eaf/liveflask-1.0.9rc6.tar.gz
+[2024-05-27 14:25:43] INFO root fetch - processPackages [prophecy-libs]: Downloading https://files.pythonhosted.org/packages/f5/5c/f34985cb5fb82fd8be30d2996b9000f4a57258e29789bcd50253f7e74587/prophecy-libs-1.9.2.dev0.tar.gz
+[2024-05-27 14:25:43] INFO root fetch - processPackages [liveflask]: executing diffoscope
+[2024-05-27 14:25:43] INFO root fetch - processPackages [liveflask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liveflask-1.0.9rc5.tar.gz tmp/liveflask-1.0.9rc6.tar.gz --markdown 20240527/l/liveflask/1.0.9rc5-1.0.9rc6/README.md --exclude *.pyd
+[2024-05-27 14:25:43] WARNING root fetch - processPackages [nicegui]: Skipping package: exceeds size limit 14257908>=10485760
+[2024-05-27 14:25:43] INFO root fetch - main [MainThread]: End processing [nicegui] error
+[2024-05-27 14:25:43] INFO root fetch - processPackages [pulumi-aws-tags]: Downloading https://files.pythonhosted.org/packages/8d/11/6126437292585c5541f1e50089beaf6b5feea0d5bf1758eeb1e0ab8e3f71/pulumi_aws_tags-0.7.1.tar.gz
+[2024-05-27 14:25:43] INFO root fetch - processPackages [pricecypher-sdk]: Downloading https://files.pythonhosted.org/packages/38/49/b89d96ed3ff310fb5c9d6c14c89281602d3c2a6128611d6a53449c0d22b8/pricecypher_sdk-2.1.1.dev8.tar.gz
+[2024-05-27 14:25:43] INFO root fetch - processPackages [prophecy-libs]: executing diffoscope
+[2024-05-27 14:25:43] INFO root fetch - processPackages [prophecy-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prophecy-libs-1.9.2.tar.gz tmp/prophecy-libs-1.9.2.dev0.tar.gz --markdown 20240527/p/prophecy-libs/1.9.2-1.9.2.dev0/README.md --exclude *.pyd
+[2024-05-27 14:25:43] INFO root fetch - processPackages [stricto]: Downloading https://files.pythonhosted.org/packages/31/eb/61c8b382fe6bd56e79ca02221ae4d9bc244557a9ed2605e11389887e858d/stricto-0.0.3.tar.gz
+[2024-05-27 14:25:43] INFO root fetch - processPackages [netbox-docker-plugin]: Downloading https://files.pythonhosted.org/packages/31/f1/b980c949a4daaac1c2028023666b80566dd842d791f980f6127efbd02f93/netbox_docker_plugin-2.0.0.tar.gz
+[2024-05-27 14:25:43] INFO root fetch - processPackages [pulumi-aws-tags]: executing diffoscope
+[2024-05-27 14:25:43] INFO root fetch - processPackages [pulumi-aws-tags]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi-aws-tags-0.7.0.tar.gz tmp/pulumi_aws_tags-0.7.1.tar.gz --markdown 20240527/p/pulumi-aws-tags/0.7.0-0.7.1/README.md --exclude *.pyd
+[2024-05-27 14:25:43] INFO root fetch - processPackages [stricto]: executing diffoscope
+[2024-05-27 14:25:43] INFO root fetch - processPackages [stricto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stricto-0.0.2.tar.gz tmp/stricto-0.0.3.tar.gz --markdown 20240527/s/stricto/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-27 14:25:43] INFO root fetch - processPackages [netbox-docker-plugin]: executing diffoscope
+[2024-05-27 14:25:43] INFO root fetch - processPackages [netbox-docker-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox_docker_plugin-1.9.0.tar.gz tmp/netbox_docker_plugin-2.0.0.tar.gz --markdown 20240527/n/netbox-docker-plugin/1.9.0-2.0.0/README.md --exclude *.pyd
+[2024-05-27 14:25:43] INFO root fetch - processPackages [pricecypher-sdk]: Downloading https://files.pythonhosted.org/packages/a9/09/845a1d8801385f82e900c7737902408e9994871830eb24e0bcee3e73a22a/pricecypher_sdk-2.1.1.dev9.tar.gz
+[2024-05-27 14:25:43] INFO root fetch - processPackages [pricecypher-sdk]: executing diffoscope
+[2024-05-27 14:25:43] INFO root fetch - processPackages [pricecypher-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pricecypher_sdk-2.1.1.dev8.tar.gz tmp/pricecypher_sdk-2.1.1.dev9.tar.gz --markdown 20240527/p/pricecypher-sdk/2.1.1.dev8-2.1.1.dev9/README.md --exclude *.pyd
+[2024-05-27 14:25:44] INFO root fetch - processPackages [prophecy-libs]: Remove: archive file [/home/abi/fetcher/tmp/prophecy-libs-1.9.2.tar.gz]
+[2024-05-27 14:25:44] INFO root fetch - processPackages [prophecy-libs]: Remove: archive file [/home/abi/fetcher/tmp/prophecy-libs-1.9.2.dev0.tar.gz]
+[2024-05-27 14:25:44] INFO root fetch - main [MainThread]: End processing [prophecy-libs]: success
+[2024-05-27 14:25:44] INFO root fetch - processPackages [pulumi-aws-tags]: Remove: archive file [/home/abi/fetcher/tmp/pulumi-aws-tags-0.7.0.tar.gz]
+[2024-05-27 14:25:44] INFO root fetch - processPackages [pulumi-aws-tags]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws_tags-0.7.1.tar.gz]
+[2024-05-27 14:25:44] INFO root fetch - main [MainThread]: End processing [pulumi-aws-tags]: success
+[2024-05-27 14:25:44] INFO root fetch - processPackages [liveflask]: Remove: archive file [/home/abi/fetcher/tmp/liveflask-1.0.9rc5.tar.gz]
+[2024-05-27 14:25:44] INFO root fetch - processPackages [liveflask]: Remove: archive file [/home/abi/fetcher/tmp/liveflask-1.0.9rc6.tar.gz]
+[2024-05-27 14:25:44] INFO root fetch - main [MainThread]: End processing [liveflask]: success
+[2024-05-27 14:25:44] INFO root fetch - processPackages [stricto]: Remove: archive file [/home/abi/fetcher/tmp/stricto-0.0.2.tar.gz]
+[2024-05-27 14:25:44] INFO root fetch - processPackages [stricto]: Remove: archive file [/home/abi/fetcher/tmp/stricto-0.0.3.tar.gz]
+[2024-05-27 14:25:44] INFO root fetch - main [MainThread]: End processing [stricto]: success
+[2024-05-27 14:25:44] INFO root fetch - processPackages [pricecypher-sdk]: Remove: archive file [/home/abi/fetcher/tmp/pricecypher_sdk-2.1.1.dev8.tar.gz]
+[2024-05-27 14:25:44] INFO root fetch - processPackages [pricecypher-sdk]: Remove: archive file [/home/abi/fetcher/tmp/pricecypher_sdk-2.1.1.dev9.tar.gz]
+[2024-05-27 14:25:44] INFO root fetch - main [MainThread]: End processing [pricecypher-sdk]: success
+[2024-05-27 14:25:44] INFO root fetch - processPackages [netbox-docker-plugin]: Remove: archive file [/home/abi/fetcher/tmp/netbox_docker_plugin-1.9.0.tar.gz]
+[2024-05-27 14:25:44] INFO root fetch - processPackages [netbox-docker-plugin]: Remove: archive file [/home/abi/fetcher/tmp/netbox_docker_plugin-2.0.0.tar.gz]
+[2024-05-27 14:25:44] INFO root fetch - main [MainThread]: End processing [netbox-docker-plugin]: success
+[2024-05-27 14:25:44] INFO root fetch - main [MainThread]: Store serial: [23395451]
