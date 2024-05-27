@@ -6097,3 +6097,51 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 07:19:17] INFO root fetch - processPackages [tpdk]: Remove: archive file [/home/abi/fetcher/tmp/tpdk-2.0.92.tar.gz]
 [2024-05-27 07:19:17] INFO root fetch - main [MainThread]: End processing [tpdk]: success
 [2024-05-27 07:19:17] INFO root fetch - main [MainThread]: Store serial: [23390847]
+[2024-05-27 07:21:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23390847]
+[2024-05-27 07:21:25] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-27 07:21:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flash-attn
+[2024-05-27 07:21:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ansar-encode
+[2024-05-27 07:21:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lfg-llama
+[2024-05-27 07:21:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: csv-summary
+[2024-05-27 07:21:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aa-esi-status
+[2024-05-27 07:21:25] INFO root fetch - processPackages [csv-summary]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-27 07:21:25] INFO root fetch - processPackages [csv-summary]: Downloading https://files.pythonhosted.org/packages/79/b1/e3dac2352b12caf08bf335b1b686fc878dea62069157ae2bc4147e03c854/csv_summary-0.1.0.tar.gz
+[2024-05-27 07:21:25] INFO root fetch - processPackages [ansar-encode]: New version: [1.0.1] Old Version: [0.1.19]
+[2024-05-27 07:21:25] INFO root fetch - processPackages [lfg-llama]: New version: [2.3.0] Old Version: [2.2.3]
+[2024-05-27 07:21:25] INFO root fetch - processPackages [flash-attn]: New version: [2.5.9.post1] Old Version: [2.5.8]
+[2024-05-27 07:21:26] INFO root fetch - processPackages [aa-esi-status]: New version: [2.2.0] Old Version: [2.1.1]
+[2024-05-27 07:21:26] INFO root fetch - processPackages [csv-summary]: Downloading https://files.pythonhosted.org/packages/4a/f0/298dcd7919c0e0c3ae04d63fedd45676b63ee91f83b2c9c1fa0337c5d7fc/csv_summary-0.1.1.tar.gz
+[2024-05-27 07:21:26] INFO root fetch - processPackages [ansar-encode]: Downloading https://files.pythonhosted.org/packages/d2/a8/f4a006394acd058fe5f4cf96763f66f43e37bf5bb9d619be3648803064a1/ansar-encode-0.1.19.tar.gz
+[2024-05-27 07:21:26] INFO root fetch - processPackages [flash-attn]: Downloading https://files.pythonhosted.org/packages/72/94/06f618bb338ec7203b48ac542e73087362b7750f9c568b13d213a3f181bb/flash_attn-2.5.8.tar.gz
+[2024-05-27 07:21:26] INFO root fetch - processPackages [lfg-llama]: Downloading https://files.pythonhosted.org/packages/92/70/05a698de778c4244f186304e6a60ef71a766eaa891d815e7e4231705f000/lfg_llama-2.2.3.tar.gz
+[2024-05-27 07:21:26] INFO root fetch - processPackages [aa-esi-status]: Downloading https://files.pythonhosted.org/packages/07/eb/8b04d436c4234c7db2f8335c63b36a7ab4e65e777976c120a5008b642a84/aa_esi_status-2.1.1.tar.gz
+[2024-05-27 07:21:26] INFO root fetch - processPackages [csv-summary]: executing diffoscope
+[2024-05-27 07:21:26] INFO root fetch - processPackages [csv-summary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/csv_summary-0.1.0.tar.gz tmp/csv_summary-0.1.1.tar.gz --markdown 20240527/c/csv-summary/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-27 07:21:26] INFO root fetch - processPackages [lfg-llama]: Downloading https://files.pythonhosted.org/packages/bb/fb/2a50fcf85e66f2c383c343dbfc8340f4289b597f356cd11659cf0e082840/lfg_llama-2.3.0.tar.gz
+[2024-05-27 07:21:26] INFO root fetch - processPackages [ansar-encode]: Downloading https://files.pythonhosted.org/packages/79/8d/d708052e37735cb1b5f55cf32e6eea8668da2dd836f4920c6de10dd4c368/ansar_encode-1.0.1.tar.gz
+[2024-05-27 07:21:26] INFO root fetch - processPackages [aa-esi-status]: Downloading https://files.pythonhosted.org/packages/f8/e9/51cbbecf887289aaf6a10bb298008f3522055449c649427084f33a31d0c8/aa_esi_status-2.2.0.tar.gz
+[2024-05-27 07:21:26] INFO root fetch - processPackages [lfg-llama]: executing diffoscope
+[2024-05-27 07:21:26] INFO root fetch - processPackages [lfg-llama]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lfg_llama-2.2.3.tar.gz tmp/lfg_llama-2.3.0.tar.gz --markdown 20240527/l/lfg-llama/2.2.3-2.3.0/README.md --exclude *.pyd
+[2024-05-27 07:21:26] INFO root fetch - processPackages [ansar-encode]: executing diffoscope
+[2024-05-27 07:21:26] INFO root fetch - processPackages [ansar-encode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansar-encode-0.1.19.tar.gz tmp/ansar_encode-1.0.1.tar.gz --markdown 20240527/a/ansar-encode/0.1.19-1.0.1/README.md --exclude *.pyd
+[2024-05-27 07:21:26] INFO root fetch - processPackages [flash-attn]: Downloading https://files.pythonhosted.org/packages/14/cd/53cbd9bd45e9bf1002f0c4de488e549501d085f4318c906807a0e50164cd/flash_attn-2.5.9.post1.tar.gz
+[2024-05-27 07:21:26] INFO root fetch - processPackages [csv-summary]: Remove: archive file [/home/abi/fetcher/tmp/csv_summary-0.1.0.tar.gz]
+[2024-05-27 07:21:26] INFO root fetch - processPackages [csv-summary]: Remove: archive file [/home/abi/fetcher/tmp/csv_summary-0.1.1.tar.gz]
+[2024-05-27 07:21:26] INFO root fetch - main [MainThread]: End processing [csv-summary]: success
+[2024-05-27 07:21:26] INFO root fetch - processPackages [aa-esi-status]: executing diffoscope
+[2024-05-27 07:21:26] INFO root fetch - processPackages [aa-esi-status]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aa_esi_status-2.1.1.tar.gz tmp/aa_esi_status-2.2.0.tar.gz --markdown 20240527/a/aa-esi-status/2.1.1-2.2.0/README.md --exclude *.pyd
+[2024-05-27 07:21:26] INFO root fetch - processPackages [flash-attn]: executing diffoscope
+[2024-05-27 07:21:26] INFO root fetch - processPackages [flash-attn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flash_attn-2.5.8.tar.gz tmp/flash_attn-2.5.9.post1.tar.gz --markdown 20240527/f/flash-attn/2.5.8-2.5.9.post1/README.md --exclude *.pyd
+[2024-05-27 07:21:27] INFO root fetch - processPackages [lfg-llama]: Remove: archive file [/home/abi/fetcher/tmp/lfg_llama-2.2.3.tar.gz]
+[2024-05-27 07:21:27] INFO root fetch - processPackages [lfg-llama]: Remove: archive file [/home/abi/fetcher/tmp/lfg_llama-2.3.0.tar.gz]
+[2024-05-27 07:21:27] INFO root fetch - main [MainThread]: End processing [lfg-llama]: success
+[2024-05-27 07:21:27] INFO root fetch - processPackages [ansar-encode]: Remove: archive file [/home/abi/fetcher/tmp/ansar-encode-0.1.19.tar.gz]
+[2024-05-27 07:21:27] INFO root fetch - processPackages [ansar-encode]: Remove: archive file [/home/abi/fetcher/tmp/ansar_encode-1.0.1.tar.gz]
+[2024-05-27 07:21:27] INFO root fetch - main [MainThread]: End processing [ansar-encode]: success
+[2024-05-27 07:21:27] INFO root fetch - processPackages [aa-esi-status]: Remove: archive file [/home/abi/fetcher/tmp/aa_esi_status-2.1.1.tar.gz]
+[2024-05-27 07:21:27] INFO root fetch - processPackages [aa-esi-status]: Remove: archive file [/home/abi/fetcher/tmp/aa_esi_status-2.2.0.tar.gz]
+[2024-05-27 07:21:27] INFO root fetch - main [MainThread]: End processing [aa-esi-status]: success
+[2024-05-27 07:21:39] INFO root fetch - processPackages [flash-attn]: Remove: archive file [/home/abi/fetcher/tmp/flash_attn-2.5.8.tar.gz]
+[2024-05-27 07:21:39] INFO root fetch - processPackages [flash-attn]: Remove: archive file [/home/abi/fetcher/tmp/flash_attn-2.5.9.post1.tar.gz]
+[2024-05-27 07:21:39] INFO root fetch - main [MainThread]: End processing [flash-attn]: success
+[2024-05-27 07:21:39] INFO root fetch - main [MainThread]: Store serial: [23390862]
