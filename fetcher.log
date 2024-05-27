@@ -7235,3 +7235,33 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 08:37:48] INFO root fetch - processPackages [baml-py]: Remove: archive file [/home/abi/fetcher/tmp/baml_py-0.1.9-cp38-abi3-win_amd64.whl.zip]
 [2024-05-27 08:37:48] INFO root fetch - main [MainThread]: End processing [baml-py]: success
 [2024-05-27 08:37:48] INFO root fetch - main [MainThread]: Store serial: [23391403]
+[2024-05-27 08:39:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23391403]
+[2024-05-27 08:39:56] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-27 08:39:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: momongamonga
+[2024-05-27 08:39:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nutritious
+[2024-05-27 08:39:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: acetone-nnet
+[2024-05-27 08:39:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zimagi
+[2024-05-27 08:39:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: flask-template-cli
+[2024-05-27 08:39:56] WARNING root fetch - processPackages [momongamonga]: Skipping, unable to determine old version
+[2024-05-27 08:39:56] INFO root fetch - main [MainThread]: End processing [momongamonga] error
+[2024-05-27 08:39:56] WARNING root fetch - processPackages [nutritious]: Skipping, unable to determine old version
+[2024-05-27 08:39:56] INFO root fetch - main [MainThread]: End processing [nutritious] error
+[2024-05-27 08:39:56] INFO root fetch - processPackages [zimagi]: New version: [0.9.5] Old Version: [0.9.4]
+[2024-05-27 08:39:56] INFO root fetch - processPackages [acetone-nnet]: New version: [0.3.1.dev3] Old Version: [0.3.1.dev2]
+[2024-05-27 08:39:56] WARNING root fetch - processPackages [flask-template-cli]: Skipping, unable to determine old version
+[2024-05-27 08:39:56] INFO root fetch - main [MainThread]: End processing [flask-template-cli] error
+[2024-05-27 08:39:56] INFO root fetch - processPackages [zimagi]: Downloading https://files.pythonhosted.org/packages/e8/4b/b155e4f0b7606d368c19e3d41df4c6af5d2743ec086d5c519e39a5e8ada7/zimagi-0.9.4.tar.gz
+[2024-05-27 08:39:57] INFO root fetch - processPackages [acetone-nnet]: Downloading https://files.pythonhosted.org/packages/05/31/e60f6a690b3da4b94816c42754e8febfb0045f2835eadce9cc1a859e5c12/acetone_nnet-0.3.1.dev2.tar.gz
+[2024-05-27 08:39:57] INFO root fetch - processPackages [acetone-nnet]: Downloading https://files.pythonhosted.org/packages/94/ce/c7a9794a622223402b861ec131044d1b4fa1cccb1a5bc4c05ac49e210e62/acetone_nnet-0.3.1.dev3.tar.gz
+[2024-05-27 08:39:57] INFO root fetch - processPackages [zimagi]: Downloading https://files.pythonhosted.org/packages/98/d2/7e3715c9f3f31766db54027f7e4db00e400d7de314d70b833776ce02930f/zimagi-0.9.5.tar.gz
+[2024-05-27 08:39:57] INFO root fetch - processPackages [acetone-nnet]: executing diffoscope
+[2024-05-27 08:39:57] INFO root fetch - processPackages [acetone-nnet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acetone_nnet-0.3.1.dev2.tar.gz tmp/acetone_nnet-0.3.1.dev3.tar.gz --markdown 20240527/a/acetone-nnet/0.3.1.dev2-0.3.1.dev3/README.md --exclude *.pyd
+[2024-05-27 08:39:57] INFO root fetch - processPackages [zimagi]: executing diffoscope
+[2024-05-27 08:39:57] INFO root fetch - processPackages [zimagi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zimagi-0.9.4.tar.gz tmp/zimagi-0.9.5.tar.gz --markdown 20240527/z/zimagi/0.9.4-0.9.5/README.md --exclude *.pyd
+[2024-05-27 08:39:57] INFO root fetch - processPackages [zimagi]: Remove: archive file [/home/abi/fetcher/tmp/zimagi-0.9.4.tar.gz]
+[2024-05-27 08:39:57] INFO root fetch - processPackages [zimagi]: Remove: archive file [/home/abi/fetcher/tmp/zimagi-0.9.5.tar.gz]
+[2024-05-27 08:39:58] INFO root fetch - main [MainThread]: End processing [zimagi]: success
+[2024-05-27 08:39:58] INFO root fetch - processPackages [acetone-nnet]: Remove: archive file [/home/abi/fetcher/tmp/acetone_nnet-0.3.1.dev2.tar.gz]
+[2024-05-27 08:39:58] INFO root fetch - processPackages [acetone-nnet]: Remove: archive file [/home/abi/fetcher/tmp/acetone_nnet-0.3.1.dev3.tar.gz]
+[2024-05-27 08:39:58] INFO root fetch - main [MainThread]: End processing [acetone-nnet]: success
+[2024-05-27 08:39:58] INFO root fetch - main [MainThread]: Store serial: [23391417]
