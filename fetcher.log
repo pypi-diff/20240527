@@ -7103,3 +7103,42 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 08:29:07] INFO root fetch - processPackages [GameWorldNavigator]: Remove: archive file [/home/abi/fetcher/tmp/GameWorldNavigator-0.0.7.tar.gz]
 [2024-05-27 08:29:07] INFO root fetch - main [MainThread]: End processing [GameWorldNavigator]: success
 [2024-05-27 08:29:07] INFO root fetch - main [MainThread]: Store serial: [23391347]
+[2024-05-27 08:31:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23391347]
+[2024-05-27 08:31:16] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-27 08:31:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: stefutils
+[2024-05-27 08:31:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: g2p-en-plus
+[2024-05-27 08:31:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pygmtsar
+[2024-05-27 08:31:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ladim
+[2024-05-27 08:31:16] INFO root fetch - processPackages [stefutils]: New version: [0.9.0] Old Version: [0.8.2]
+[2024-05-27 08:31:16] INFO root fetch - processPackages [stefutils]: Downloading https://files.pythonhosted.org/packages/35/8a/1e1d14788f07a9e2f1f826ff7ed0782d942b144ca6bdd3e7aba10d88d63c/stefutils-0.8.2.tar.gz
+[2024-05-27 08:31:16] INFO root fetch - processPackages [g2p-en-plus]: New version: [2.0.2] Old Version: [2.0.1]
+[2024-05-27 08:31:16] INFO root fetch - processPackages [ladim]: New version: [2.0.1] Old Version: [2.0.0]
+[2024-05-27 08:31:16] INFO root fetch - processPackages [pygmtsar]: New version: [2024.4.17.post9] Old Version: [2024.4.17.post8]
+[2024-05-27 08:31:16] INFO root fetch - processPackages [ladim]: Downloading https://files.pythonhosted.org/packages/c6/fe/127690079fc0a1a7855958621f79bffda66eab6f99b8f95c2cfe103e8504/ladim-2.0.0.tar.gz
+[2024-05-27 08:31:16] INFO root fetch - processPackages [g2p-en-plus]: Downloading https://files.pythonhosted.org/packages/2a/d8/92a1d23025f8bc76cc40121909ae9c2d6560a6ae8538013d3feed1f72742/g2p_en_plus-2.0.1.tar.gz
+[2024-05-27 08:31:16] INFO root fetch - processPackages [pygmtsar]: Downloading https://files.pythonhosted.org/packages/5e/10/fc7b6429f655eb010796654d6ebb795beccc9519690a19c1da1777a67a44/pygmtsar-2024.4.17.post8.tar.gz
+[2024-05-27 08:31:16] INFO root fetch - processPackages [stefutils]: Downloading https://files.pythonhosted.org/packages/97/83/18c4d714dca8e70776fec14f20e075956fd6a82321ac6df03f78534d47eb/stefutils-0.9.0.tar.gz
+[2024-05-27 08:31:16] INFO root fetch - processPackages [stefutils]: executing diffoscope
+[2024-05-27 08:31:16] INFO root fetch - processPackages [stefutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stefutils-0.8.2.tar.gz tmp/stefutils-0.9.0.tar.gz --markdown 20240527/s/stefutils/0.8.2-0.9.0/README.md --exclude *.pyd
+[2024-05-27 08:31:16] INFO root fetch - processPackages [ladim]: Downloading https://files.pythonhosted.org/packages/50/11/892153f9f3e6c5df6b80698565debe71d0389fa8304221aa4f7adea4e7d5/ladim-2.0.1.tar.gz
+[2024-05-27 08:31:16] INFO root fetch - processPackages [pygmtsar]: Downloading https://files.pythonhosted.org/packages/d2/26/832fb33df3e1017193265c7df0bdf74b689a8be922aeaffef882cf8f43df/pygmtsar-2024.4.17.post9.tar.gz
+[2024-05-27 08:31:16] INFO root fetch - processPackages [pygmtsar]: executing diffoscope
+[2024-05-27 08:31:16] INFO root fetch - processPackages [pygmtsar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygmtsar-2024.4.17.post8.tar.gz tmp/pygmtsar-2024.4.17.post9.tar.gz --markdown 20240527/p/pygmtsar/2024.4.17.post8-2024.4.17.post9/README.md --exclude *.pyd
+[2024-05-27 08:31:16] INFO root fetch - processPackages [ladim]: executing diffoscope
+[2024-05-27 08:31:16] INFO root fetch - processPackages [ladim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ladim-2.0.0.tar.gz tmp/ladim-2.0.1.tar.gz --markdown 20240527/l/ladim/2.0.0-2.0.1/README.md --exclude *.pyd
+[2024-05-27 08:31:17] INFO root fetch - processPackages [stefutils]: Remove: archive file [/home/abi/fetcher/tmp/stefutils-0.8.2.tar.gz]
+[2024-05-27 08:31:17] INFO root fetch - processPackages [stefutils]: Remove: archive file [/home/abi/fetcher/tmp/stefutils-0.9.0.tar.gz]
+[2024-05-27 08:31:17] INFO root fetch - main [MainThread]: End processing [stefutils]: success
+[2024-05-27 08:31:17] INFO root fetch - processPackages [g2p-en-plus]: Downloading https://files.pythonhosted.org/packages/61/8e/1142794d283f0272263b49a3f60dce9333819daa3db6a3bcad8146a1ce67/g2p_en_plus-2.0.2-py3-none-any.whl
+[2024-05-27 08:31:17] INFO root fetch - processPackages [g2p-en-plus]: executing diffoscope
+[2024-05-27 08:31:17] INFO root fetch - processPackages [g2p-en-plus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/g2p_en_plus-2.0.1.tar.gz tmp/g2p_en_plus-2.0.2-py3-none-any.whl.zip --markdown 20240527/g/g2p-en-plus/2.0.1-2.0.2/README.md --exclude *.pyd
+[2024-05-27 08:31:17] INFO root fetch - processPackages [pygmtsar]: Remove: archive file [/home/abi/fetcher/tmp/pygmtsar-2024.4.17.post8.tar.gz]
+[2024-05-27 08:31:17] INFO root fetch - processPackages [pygmtsar]: Remove: archive file [/home/abi/fetcher/tmp/pygmtsar-2024.4.17.post9.tar.gz]
+[2024-05-27 08:31:17] INFO root fetch - main [MainThread]: End processing [pygmtsar]: success
+[2024-05-27 08:31:17] INFO root fetch - processPackages [ladim]: Remove: archive file [/home/abi/fetcher/tmp/ladim-2.0.0.tar.gz]
+[2024-05-27 08:31:17] INFO root fetch - processPackages [ladim]: Remove: archive file [/home/abi/fetcher/tmp/ladim-2.0.1.tar.gz]
+[2024-05-27 08:31:17] INFO root fetch - main [MainThread]: End processing [ladim]: success
+[2024-05-27 08:31:18] INFO root fetch - processPackages [g2p-en-plus]: Remove: archive file [/home/abi/fetcher/tmp/g2p_en_plus-2.0.1.tar.gz]
+[2024-05-27 08:31:18] INFO root fetch - processPackages [g2p-en-plus]: Remove: archive file [/home/abi/fetcher/tmp/g2p_en_plus-2.0.2-py3-none-any.whl.zip]
+[2024-05-27 08:31:18] INFO root fetch - main [MainThread]: End processing [g2p-en-plus]: success
+[2024-05-27 08:31:18] INFO root fetch - main [MainThread]: Store serial: [23391357]
