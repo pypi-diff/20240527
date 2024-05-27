@@ -2017,3 +2017,15 @@
 [2024-05-27 02:34:41] INFO root fetch - processPackages [nadl]: Remove: archive file [/home/abi/fetcher/tmp/nadl-1.4.7.tar.gz]
 [2024-05-27 02:34:41] INFO root fetch - main [MainThread]: End processing [nadl]: success
 [2024-05-27 02:34:41] INFO root fetch - main [MainThread]: Store serial: [23389112]
+[2024-05-27 02:36:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23389112]
+[2024-05-27 02:36:50] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-27 02:36:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: imbrium
+[2024-05-27 02:36:50] INFO root fetch - processPackages [imbrium]: New version: [3.1.0] Old Version: [3.0.0]
+[2024-05-27 02:36:50] INFO root fetch - processPackages [imbrium]: Downloading https://files.pythonhosted.org/packages/4e/f9/a9c41183da44b89e7690e9c1b1f524661b6f907279345143cc17d0985c19/imbrium-3.0.0.tar.gz
+[2024-05-27 02:36:50] INFO root fetch - processPackages [imbrium]: Downloading https://files.pythonhosted.org/packages/68/23/7ffc3dc41ad20b020ca8304ff9f7d9586fb59a60646dbfc8e15cc31133f1/imbrium-3.1.0.tar.gz
+[2024-05-27 02:36:50] INFO root fetch - processPackages [imbrium]: executing diffoscope
+[2024-05-27 02:36:50] INFO root fetch - processPackages [imbrium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imbrium-3.0.0.tar.gz tmp/imbrium-3.1.0.tar.gz --markdown 20240527/i/imbrium/3.0.0-3.1.0/README.md --exclude *.pyd
+[2024-05-27 02:36:51] INFO root fetch - processPackages [imbrium]: Remove: archive file [/home/abi/fetcher/tmp/imbrium-3.0.0.tar.gz]
+[2024-05-27 02:36:51] INFO root fetch - processPackages [imbrium]: Remove: archive file [/home/abi/fetcher/tmp/imbrium-3.1.0.tar.gz]
+[2024-05-27 02:36:51] INFO root fetch - main [MainThread]: End processing [imbrium]: success
+[2024-05-27 02:36:51] INFO root fetch - main [MainThread]: Store serial: [23389119]
