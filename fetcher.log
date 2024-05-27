@@ -8317,3 +8317,60 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 09:33:45] INFO root fetch - processPackages [worker-dispatcher]: Remove: archive file [/home/abi/fetcher/tmp/worker_dispatcher-1.0.3.tar.gz]
 [2024-05-27 09:33:45] INFO root fetch - main [MainThread]: End processing [worker-dispatcher]: success
 [2024-05-27 09:33:45] INFO root fetch - main [MainThread]: Store serial: [23391979]
+[2024-05-27 09:35:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23391979]
+[2024-05-27 09:35:55] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-27 09:35:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qcentroid-agent-cli
+[2024-05-27 09:35:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: castle-ai
+[2024-05-27 09:35:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vascpy
+[2024-05-27 09:35:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: frinx-python-sdk
+[2024-05-27 09:35:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: analytics-mesh
+[2024-05-27 09:35:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: openshift-cli-installer
+[2024-05-27 09:35:56] INFO root fetch - processPackages [openshift-cli-installer]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-05-27 09:35:56] INFO root fetch - processPackages [castle-ai]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-27 09:35:56] INFO root fetch - processPackages [analytics-mesh]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-27 09:35:56] INFO root fetch - processPackages [vascpy]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-27 09:35:56] INFO root fetch - processPackages [frinx-python-sdk]: New version: [2.1.0] Old Version: [2.0.0]
+[2024-05-27 09:35:56] INFO root fetch - processPackages [openshift-cli-installer]: Downloading https://files.pythonhosted.org/packages/93/ea/081916b4f7f911ee0b4d2373be0df43c7c020915e4dc0daddae9d0c85d23/openshift_cli_installer-2.0.8.tar.gz
+[2024-05-27 09:35:56] INFO root fetch - processPackages [qcentroid-agent-cli]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-27 09:35:56] INFO root fetch - processPackages [castle-ai]: Downloading https://files.pythonhosted.org/packages/54/1f/3c7e32e755ac4b4f651d9591e8646ba71d8ceb1e080b92772fcc0e201622/castle_ai-0.0.3.tar.gz
+[2024-05-27 09:35:56] INFO root fetch - processPackages [analytics-mesh]: Downloading https://files.pythonhosted.org/packages/f9/37/2b180fc6645851466fea0bc14640ea38fbddd2b0143c60e3e07b7fedf6ea/analytics_mesh-0.1.8-py3-none-any.whl
+[2024-05-27 09:35:56] INFO root fetch - processPackages [vascpy]: Downloading https://files.pythonhosted.org/packages/cb/76/eb67c30821bd684d0c2da2c7c9a49334e9e6f80f421699df2a29c176d271/vascpy-0.1.1.tar.gz
+[2024-05-27 09:35:56] INFO root fetch - processPackages [frinx-python-sdk]: Downloading https://files.pythonhosted.org/packages/74/29/94669d88f1fa036cac61fcb62d8a78497482a47cbc15fa23aa09ceac7e8b/frinx_python_sdk-2.0.0.tar.gz
+[2024-05-27 09:35:56] INFO root fetch - processPackages [qcentroid-agent-cli]: Downloading https://files.pythonhosted.org/packages/3e/2a/53d676266af16e46cf54bd7745fa928648723eb24adece8d6359de392f15/qcentroid_agent_cli-0.3.8.tar.gz
+[2024-05-27 09:35:56] INFO root fetch - processPackages [openshift-cli-installer]: Downloading https://files.pythonhosted.org/packages/2e/36/23bd27005a72d5bc87d2d81bd55477f2c4cbdee088189ef184dea2fb149c/openshift_cli_installer-2.0.9.tar.gz
+[2024-05-27 09:35:56] INFO root fetch - processPackages [openshift-cli-installer]: executing diffoscope
+[2024-05-27 09:35:56] INFO root fetch - processPackages [openshift-cli-installer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openshift_cli_installer-2.0.8.tar.gz tmp/openshift_cli_installer-2.0.9.tar.gz --markdown 20240527/o/openshift-cli-installer/2.0.8-2.0.9/README.md --exclude *.pyd
+[2024-05-27 09:35:56] INFO root fetch - processPackages [castle-ai]: Downloading https://files.pythonhosted.org/packages/43/a0/ebd33b4291a0e3d44dabe2779171733b078f69e26bb89c254f8261f73d59/castle_ai-0.0.4.tar.gz
+[2024-05-27 09:35:56] INFO root fetch - processPackages [qcentroid-agent-cli]: Downloading https://files.pythonhosted.org/packages/6c/4f/cbeba738d8334ff0db5b1112d1c7475f4c9d1defb55eb593eb6b96c8c526/qcentroid_agent_cli-0.3.9.tar.gz
+[2024-05-27 09:35:57] INFO root fetch - processPackages [frinx-python-sdk]: Downloading https://files.pythonhosted.org/packages/2b/9c/00359f1c09a89d42924f4d3fec1d92444bcc5ddb5ec5c9e86feec67f943d/frinx_python_sdk-2.1.0.tar.gz
+[2024-05-27 09:35:57] INFO root fetch - processPackages [castle-ai]: executing diffoscope
+[2024-05-27 09:35:57] INFO root fetch - processPackages [castle-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/castle_ai-0.0.3.tar.gz tmp/castle_ai-0.0.4.tar.gz --markdown 20240527/c/castle-ai/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-27 09:35:57] INFO root fetch - processPackages [vascpy]: Downloading https://files.pythonhosted.org/packages/aa/4f/75db3a7e8ccfb6433b48581122393fbafb2e8c7e4d45cd5bea606a5f4862/vascpy-0.1.2.tar.gz
+[2024-05-27 09:35:57] INFO root fetch - processPackages [qcentroid-agent-cli]: executing diffoscope
+[2024-05-27 09:35:57] INFO root fetch - processPackages [qcentroid-agent-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qcentroid_agent_cli-0.3.8.tar.gz tmp/qcentroid_agent_cli-0.3.9.tar.gz --markdown 20240527/q/qcentroid-agent-cli/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-27 09:35:57] INFO root fetch - processPackages [frinx-python-sdk]: executing diffoscope
+[2024-05-27 09:35:57] INFO root fetch - processPackages [frinx-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frinx_python_sdk-2.0.0.tar.gz tmp/frinx_python_sdk-2.1.0.tar.gz --markdown 20240527/f/frinx-python-sdk/2.0.0-2.1.0/README.md --exclude *.pyd
+[2024-05-27 09:35:57] INFO root fetch - processPackages [vascpy]: executing diffoscope
+[2024-05-27 09:35:57] INFO root fetch - processPackages [vascpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vascpy-0.1.1.tar.gz tmp/vascpy-0.1.2.tar.gz --markdown 20240527/v/vascpy/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-27 09:35:58] INFO root fetch - processPackages [analytics-mesh]: Downloading https://files.pythonhosted.org/packages/e0/b7/9d1c4c536463c7ab991ab691d80c568fcedbad49d28f9bfd7e52aa7049ac/analytics_mesh-0.1.9-py3-none-any.whl
+[2024-05-27 09:35:58] INFO root fetch - processPackages [analytics-mesh]: executing diffoscope
+[2024-05-27 09:35:58] INFO root fetch - processPackages [analytics-mesh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/analytics_mesh-0.1.8-py3-none-any.whl.zip tmp/analytics_mesh-0.1.9-py3-none-any.whl.zip --markdown 20240527/a/analytics-mesh/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-27 09:35:58] INFO root fetch - processPackages [openshift-cli-installer]: Remove: archive file [/home/abi/fetcher/tmp/openshift_cli_installer-2.0.8.tar.gz]
+[2024-05-27 09:35:58] INFO root fetch - processPackages [openshift-cli-installer]: Remove: archive file [/home/abi/fetcher/tmp/openshift_cli_installer-2.0.9.tar.gz]
+[2024-05-27 09:35:58] INFO root fetch - main [MainThread]: End processing [openshift-cli-installer]: success
+[2024-05-27 09:35:58] INFO root fetch - processPackages [frinx-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/frinx_python_sdk-2.0.0.tar.gz]
+[2024-05-27 09:35:58] INFO root fetch - processPackages [frinx-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/frinx_python_sdk-2.1.0.tar.gz]
+[2024-05-27 09:35:58] INFO root fetch - main [MainThread]: End processing [frinx-python-sdk]: success
+[2024-05-27 09:35:58] INFO root fetch - processPackages [castle-ai]: Remove: archive file [/home/abi/fetcher/tmp/castle_ai-0.0.3.tar.gz]
+[2024-05-27 09:35:58] INFO root fetch - processPackages [castle-ai]: Remove: archive file [/home/abi/fetcher/tmp/castle_ai-0.0.4.tar.gz]
+[2024-05-27 09:35:58] INFO root fetch - main [MainThread]: End processing [castle-ai]: success
+[2024-05-27 09:35:58] INFO root fetch - processPackages [qcentroid-agent-cli]: Remove: archive file [/home/abi/fetcher/tmp/qcentroid_agent_cli-0.3.8.tar.gz]
+[2024-05-27 09:35:58] INFO root fetch - processPackages [qcentroid-agent-cli]: Remove: archive file [/home/abi/fetcher/tmp/qcentroid_agent_cli-0.3.9.tar.gz]
+[2024-05-27 09:35:58] INFO root fetch - main [MainThread]: End processing [qcentroid-agent-cli]: success
+[2024-05-27 09:35:59] INFO root fetch - processPackages [vascpy]: Remove: archive file [/home/abi/fetcher/tmp/vascpy-0.1.1.tar.gz]
+[2024-05-27 09:35:59] INFO root fetch - processPackages [vascpy]: Remove: archive file [/home/abi/fetcher/tmp/vascpy-0.1.2.tar.gz]
+[2024-05-27 09:35:59] INFO root fetch - main [MainThread]: End processing [vascpy]: success
+[2024-05-27 09:35:59] INFO root fetch - processPackages [analytics-mesh]: Remove: archive file [/home/abi/fetcher/tmp/analytics_mesh-0.1.8-py3-none-any.whl.zip]
+[2024-05-27 09:35:59] INFO root fetch - processPackages [analytics-mesh]: Remove: archive file [/home/abi/fetcher/tmp/analytics_mesh-0.1.9-py3-none-any.whl.zip]
+[2024-05-27 09:35:59] INFO root fetch - main [MainThread]: End processing [analytics-mesh]: success
+[2024-05-27 09:35:59] INFO root fetch - main [MainThread]: Store serial: [23391994]
