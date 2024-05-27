@@ -12159,3 +12159,69 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-05-27 12:15:22] INFO root fetch - processPackages [opsramp-analytics-utils]: Remove: archive file [/home/abi/fetcher/tmp/opsramp-analytics-utils-3.5.5.tar.gz]
 [2024-05-27 12:15:22] INFO root fetch - main [MainThread]: End processing [opsramp-analytics-utils]: success
 [2024-05-27 12:15:22] INFO root fetch - main [MainThread]: Store serial: [23393866]
+[2024-05-27 12:17:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23393866]
+[2024-05-27 12:17:31] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-27 12:17:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: z2m-log-parser
+[2024-05-27 12:17:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: image_transforms
+[2024-05-27 12:17:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wolfsoftware.template-package-cli
+[2024-05-27 12:17:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: LCPDelta
+[2024-05-27 12:17:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dnv-net-intellisense
+[2024-05-27 12:17:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kakao-response-formatter
+[2024-05-27 12:17:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: openhexa.sdk
+[2024-05-27 12:17:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: graphene-django-query-optimizer
+[2024-05-27 12:17:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: factorio-randovania-mod
+[2024-05-27 12:17:32] INFO root fetch - processPackages [z2m-log-parser]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-27 12:17:32] INFO root fetch - processPackages [factorio-randovania-mod]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-27 12:17:32] INFO root fetch - processPackages [graphene-django-query-optimizer]: New version: [0.6.2] Old Version: [0.6.1]
+[2024-05-27 12:17:32] INFO root fetch - processPackages [image_transforms]: New version: [0.0.3.dev0] Old Version: [0.0.2]
+[2024-05-27 12:17:32] WARNING root fetch - processPackages [kakao-response-formatter]: Skipping, unable to determine old version
+[2024-05-27 12:17:32] INFO root fetch - main [MainThread]: End processing [kakao-response-formatter] error
+[2024-05-27 12:17:32] INFO root fetch - processPackages [z2m-log-parser]: Downloading https://files.pythonhosted.org/packages/3c/bf/045aab314e9a6c6ba6648f7196be4382d805417677bd4ab8597079a40eec/z2m_log_parser-0.0.8.tar.gz
+[2024-05-27 12:17:32] WARNING root fetch - processPackages [dnv-net-intellisense]: Skipping, unable to determine old version
+[2024-05-27 12:17:32] INFO root fetch - main [MainThread]: End processing [dnv-net-intellisense] error
+[2024-05-27 12:17:32] INFO root fetch - processPackages [LCPDelta]: New version: [1.2.0] Old Version: [1.1.9]
+[2024-05-27 12:17:32] WARNING root fetch - processPackages [wolfsoftware.template-package-cli]: Skipping, unable to determine old version
+[2024-05-27 12:17:32] INFO root fetch - main [MainThread]: End processing [wolfsoftware.template-package-cli] error
+[2024-05-27 12:17:32] INFO root fetch - processPackages [openhexa.sdk]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-27 12:17:32] INFO root fetch - processPackages [graphene-django-query-optimizer]: Downloading https://files.pythonhosted.org/packages/30/52/e388141c2340e5c43ae2cfca67cecd3c77ef55cc6a8f46440fd2eeeeaada/graphene_django_query_optimizer-0.6.1.tar.gz
+[2024-05-27 12:17:32] INFO root fetch - processPackages [image_transforms]: Downloading https://files.pythonhosted.org/packages/91/5e/145d98d5c5ecffb9911232f401403b0e9972559aff4a4171a8a523108e9b/image_transforms-0.0.2.tar.gz
+[2024-05-27 12:17:32] INFO root fetch - processPackages [factorio-randovania-mod]: Downloading https://files.pythonhosted.org/packages/b0/30/ad15e35f6c8868b0309b93b439fb181661e3962f8caca729553ab47eaf27/factorio_randovania_mod-0.2.0.tar.gz
+[2024-05-27 12:17:32] INFO root fetch - processPackages [openhexa.sdk]: Downloading https://files.pythonhosted.org/packages/2d/63/6cf8c3d8c690624bf5da3eccae426000fc384f6f2b1e46094f46a261b21e/openhexa.sdk-0.1.8.tar.gz
+[2024-05-27 12:17:32] INFO root fetch - processPackages [LCPDelta]: Downloading https://files.pythonhosted.org/packages/84/25/10e53704ee31389c1936801ca4636b2bda2da3af18021f46764fe8e573e8/LCPDelta-1.1.9.tar.gz
+[2024-05-27 12:17:32] INFO root fetch - processPackages [z2m-log-parser]: Downloading https://files.pythonhosted.org/packages/71/97/7033f666d3eb6726fdd071cf1160a1c1a82f0c16dce62d13168b432e6ac1/z2m_log_parser-0.0.9.tar.gz
+[2024-05-27 12:17:32] INFO root fetch - processPackages [graphene-django-query-optimizer]: Downloading https://files.pythonhosted.org/packages/b9/7d/9583df6750abffacc591f77f884bdccc9ae621948c7f907ae425e33deee5/graphene_django_query_optimizer-0.6.2.tar.gz
+[2024-05-27 12:17:32] INFO root fetch - processPackages [z2m-log-parser]: executing diffoscope
+[2024-05-27 12:17:32] INFO root fetch - processPackages [z2m-log-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/z2m_log_parser-0.0.8.tar.gz tmp/z2m_log_parser-0.0.9.tar.gz --markdown 20240527/z/z2m-log-parser/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-27 12:17:32] INFO root fetch - processPackages [factorio-randovania-mod]: Downloading https://files.pythonhosted.org/packages/e7/04/1de51231f850a9986cf53595daddc2fac7a1d37c422a3c832d9ca3d716d7/factorio_randovania_mod-0.2.1.tar.gz
+[2024-05-27 12:17:32] INFO root fetch - processPackages [graphene-django-query-optimizer]: executing diffoscope
+[2024-05-27 12:17:32] INFO root fetch - processPackages [graphene-django-query-optimizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graphene_django_query_optimizer-0.6.1.tar.gz tmp/graphene_django_query_optimizer-0.6.2.tar.gz --markdown 20240527/g/graphene-django-query-optimizer/0.6.1-0.6.2/README.md --exclude *.pyd
+[2024-05-27 12:17:32] INFO root fetch - processPackages [image_transforms]: Downloading https://files.pythonhosted.org/packages/d9/68/04fefd47a2bab113b4a900cb5342a8296d4dd129a5f61624f72d85a676c3/image_transforms-0.0.3.dev0.tar.gz
+[2024-05-27 12:17:32] INFO root fetch - processPackages [factorio-randovania-mod]: executing diffoscope
+[2024-05-27 12:17:32] INFO root fetch - processPackages [factorio-randovania-mod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/factorio_randovania_mod-0.2.0.tar.gz tmp/factorio_randovania_mod-0.2.1.tar.gz --markdown 20240527/f/factorio-randovania-mod/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-27 12:17:32] INFO root fetch - processPackages [LCPDelta]: Downloading https://files.pythonhosted.org/packages/53/55/524bdb4dd95dc5d2ec73d0fa8a465a99bf0e00d97bc98c3dce8234a6d204/lcpdelta-1.2.0.tar.gz
+[2024-05-27 12:17:32] INFO root fetch - processPackages [image_transforms]: executing diffoscope
+[2024-05-27 12:17:32] INFO root fetch - processPackages [image_transforms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/image_transforms-0.0.2.tar.gz tmp/image_transforms-0.0.3.dev0.tar.gz --markdown 20240527/i/image_transforms/0.0.2-0.0.3.dev0/README.md --exclude *.pyd
+[2024-05-27 12:17:32] INFO root fetch - processPackages [openhexa.sdk]: Downloading https://files.pythonhosted.org/packages/01/47/9a54270a3486c1a1712ca7717008e6748264c1125692b213adfd2f68b21c/openhexa.sdk-0.1.9.tar.gz
+[2024-05-27 12:17:32] INFO root fetch - processPackages [LCPDelta]: executing diffoscope
+[2024-05-27 12:17:32] INFO root fetch - processPackages [LCPDelta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LCPDelta-1.1.9.tar.gz tmp/lcpdelta-1.2.0.tar.gz --markdown 20240527/L/LCPDelta/1.1.9-1.2.0/README.md --exclude *.pyd
+[2024-05-27 12:17:33] INFO root fetch - processPackages [openhexa.sdk]: executing diffoscope
+[2024-05-27 12:17:33] INFO root fetch - processPackages [openhexa.sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240527:/home/abi/fetcher/20240527:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openhexa.sdk-0.1.8.tar.gz tmp/openhexa.sdk-0.1.9.tar.gz --markdown 20240527/o/openhexa.sdk/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-27 12:17:33] INFO root fetch - processPackages [z2m-log-parser]: Remove: archive file [/home/abi/fetcher/tmp/z2m_log_parser-0.0.8.tar.gz]
+[2024-05-27 12:17:33] INFO root fetch - processPackages [z2m-log-parser]: Remove: archive file [/home/abi/fetcher/tmp/z2m_log_parser-0.0.9.tar.gz]
+[2024-05-27 12:17:33] INFO root fetch - main [MainThread]: End processing [z2m-log-parser]: success
+[2024-05-27 12:17:33] INFO root fetch - processPackages [graphene-django-query-optimizer]: Remove: archive file [/home/abi/fetcher/tmp/graphene_django_query_optimizer-0.6.1.tar.gz]
+[2024-05-27 12:17:33] INFO root fetch - processPackages [graphene-django-query-optimizer]: Remove: archive file [/home/abi/fetcher/tmp/graphene_django_query_optimizer-0.6.2.tar.gz]
+[2024-05-27 12:17:33] INFO root fetch - main [MainThread]: End processing [graphene-django-query-optimizer]: success
+[2024-05-27 12:17:33] INFO root fetch - processPackages [factorio-randovania-mod]: Remove: archive file [/home/abi/fetcher/tmp/factorio_randovania_mod-0.2.0.tar.gz]
+[2024-05-27 12:17:33] INFO root fetch - processPackages [factorio-randovania-mod]: Remove: archive file [/home/abi/fetcher/tmp/factorio_randovania_mod-0.2.1.tar.gz]
+[2024-05-27 12:17:33] INFO root fetch - main [MainThread]: End processing [factorio-randovania-mod]: success
+[2024-05-27 12:17:33] INFO root fetch - processPackages [image_transforms]: Remove: archive file [/home/abi/fetcher/tmp/image_transforms-0.0.2.tar.gz]
+[2024-05-27 12:17:33] INFO root fetch - processPackages [image_transforms]: Remove: archive file [/home/abi/fetcher/tmp/image_transforms-0.0.3.dev0.tar.gz]
+[2024-05-27 12:17:33] INFO root fetch - main [MainThread]: End processing [image_transforms]: success
+[2024-05-27 12:17:33] INFO root fetch - processPackages [LCPDelta]: Remove: archive file [/home/abi/fetcher/tmp/LCPDelta-1.1.9.tar.gz]
+[2024-05-27 12:17:33] INFO root fetch - processPackages [LCPDelta]: Remove: archive file [/home/abi/fetcher/tmp/lcpdelta-1.2.0.tar.gz]
+[2024-05-27 12:17:33] INFO root fetch - main [MainThread]: End processing [LCPDelta]: success
+[2024-05-27 12:17:33] INFO root fetch - processPackages [openhexa.sdk]: Remove: archive file [/home/abi/fetcher/tmp/openhexa.sdk-0.1.8.tar.gz]
+[2024-05-27 12:17:33] INFO root fetch - processPackages [openhexa.sdk]: Remove: archive file [/home/abi/fetcher/tmp/openhexa.sdk-0.1.9.tar.gz]
+[2024-05-27 12:17:33] INFO root fetch - main [MainThread]: End processing [openhexa.sdk]: success
+[2024-05-27 12:17:33] INFO root fetch - main [MainThread]: Store serial: [23393913]
